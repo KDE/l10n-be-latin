@@ -2,7 +2,8 @@
 # Ihar Hrachyshka, <ihar.hrachyshka@gmail.com>, 2006
 #
 msgid ""
-msgstr "Project-Id-Version: kdelibs.pot\n"
+msgstr ""
+"Project-Id-Version: kdelibs.pot\n"
 "POT-Creation-Date: 2006-02-27 03:49+0100\n"
 "PO-Revision-Date: 2006-05-04 00:00+GMT\n"
 "Last-Translator: Ihar Hrachyshka, <ihar.hrachyshka@gmail.com>\n"
@@ -23,10 +24,10 @@ msgstr "Vybar redaktara"
 #: rc.cpp:6
 #, no-c-format
 msgid ""
-"Please choose the default text editing component that you wish to use in "
-"this application. If you choose <B>System Default</B>, the application will "
-"honor your changes in the Control Center. All other choices will override "
-"that setting."
+"Please choose the default text editing component that you wish to use in this "
+"application. If you choose <B>System Default</B>, the application will honor "
+"your changes in the Control Center. All other choices will override that "
+"setting."
 msgstr ""
 
 #. i18n: file ./kcert/kcertpart.rc line 4
@@ -51,8 +52,7 @@ msgstr "Asnoŭny skarot:"
 #: rc.cpp:21
 #, no-c-format
 msgid ""
-"The currently set shortcut or the shortcut you are entering will show up "
-"here."
+"The currently set shortcut or the shortcut you are entering will show up here."
 msgstr ""
 
 #. i18n: file ./kdeui/kshortcutdialog_advanced.ui line 182
@@ -83,9 +83,9 @@ msgstr "Dazvolić šmatkłavišnyja skaroty"
 #: rc.cpp:42
 #, no-c-format
 msgid ""
-"Select this checkbox to enable the entry of multi-key shortcuts.  A "
-"multi-key shortcut consists of a sequence of up to 4 keys.  For example, you "
-"could assign \"Ctrl+F,B\" to Font-Bold and \"Ctrl+F,U\" to Font-Underline."
+"Select this checkbox to enable the entry of multi-key shortcuts.  A multi-key "
+"shortcut consists of a sequence of up to 4 keys.  For example, you could assign "
+"\"Ctrl+F,B\" to Font-Bold and \"Ctrl+F,U\" to Font-Underline."
 msgstr ""
 
 #. i18n: file ./kdeui/ui_standards.rc line 4
@@ -172,17 +172,18 @@ msgstr "Nieviadomaje słova:"
 #: rc.cpp:96 rc.cpp:108 rc.cpp:314 rc.cpp:326
 #, no-c-format
 msgid ""
-"<qt><p>This word was considered to be an \"unknown word\" because it does "
-"not match any entry in the dictionary currently in use. It may also be a "
-"word in a foreign language.</p>\n"
-"<p>If the word is not misspelled, you may add it to the dictionary by "
-"clicking <b>Add to Dictionary</b>. If you don't want to add the unknown word "
-"to the dictionary, but you want to leave it unchanged, click <b>Ignore</b> "
-"or <b>Ignore All</b>.</p>\n"
+"<qt>"
+"<p>This word was considered to be an \"unknown word\" because it does not match "
+"any entry in the dictionary currently in use. It may also be a word in a "
+"foreign language.</p>\n"
+"<p>If the word is not misspelled, you may add it to the dictionary by clicking "
+"<b>Add to Dictionary</b>. If you don't want to add the unknown word to the "
+"dictionary, but you want to leave it unchanged, click <b>Ignore</b> or <b>"
+"Ignore All</b>.</p>\n"
 "<p>However, if the word is misspelled, you can try to find the correct "
-"replacement in the list below. If you cannot find a replacement there, you "
-"may type it in the text box below, and click <b>Replace</b> or <b>Replace "
-"All</b>.</p>\n"
+"replacement in the list below. If you cannot find a replacement there, you may "
+"type it in the text box below, and click <b>Replace</b> or <b>Replace All</b>"
+".</p>\n"
 "</qt>"
 msgstr ""
 
@@ -230,8 +231,8 @@ msgstr "Kavałak tekstu, jaki pakazvaje nieviadomaje słova ŭ kantekście."
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Here you can see a text excerpt showing the unknown word in its context. "
-"If this information is not sufficient to choose the best replacement for the "
+"<p>Here you can see a text excerpt showing the unknown word in its context. If "
+"this information is not sufficient to choose the best replacement for the "
 "unknown word, you can click on the document you are proofing, read a larger "
 "part of the text and then return here to continue proofing.</p>\n"
 "</qt>"
@@ -249,11 +250,12 @@ msgstr "<< Dadać u słoŭnik"
 msgid ""
 "<qt>\n"
 "<p>The unknown word was detected and considered unknown because it is not "
-"included in the dictionary.<br>\n"
-"Click here if you consider that the unknown word is not misspelled and you "
-"want to avoid wrongly detecting it again in the future. If you want to let "
-"it remain as is, but not add it to the dictionary, then click <b>Ignore</b> "
-"or <b>Ignore All</b> instead.</p>\n"
+"included in the dictionary."
+"<br>\n"
+"Click here if you consider that the unknown word is not misspelled and you want "
+"to avoid wrongly detecting it again in the future. If you want to let it remain "
+"as is, but not add it to the dictionary, then click <b>Ignore</b> or <b>"
+"Ignore All</b> instead.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -268,8 +270,8 @@ msgstr "Z&amianić usie"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Click here to replace all occurrences of the unknown text with the text "
-"in the edit box above (to the left).</p>\n"
+"<p>Click here to replace all occurrences of the unknown text with the text in "
+"the edit box above (to the left).</p>\n"
 "</qt>"
 msgstr ""
 
@@ -290,13 +292,11 @@ msgstr "Śpis prapanovaŭ"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>If the unknown word is misspelled, you should check if the correction for "
-"it is available and if it is, click on it. If none of the words in this list "
-"is a good replacement you may type the correct word in the edit box "
-"above.</p>\n"
-"<p>To correct this word click <b>Replace</b> if you want to correct only "
-"this occurrence or <b>Replace All</b> if you want to correct all "
-"occurrences.</p>\n"
+"<p>If the unknown word is misspelled, you should check if the correction for it "
+"is available and if it is, click on it. If none of the words in this list is a "
+"good replacement you may type the correct word in the edit box above.</p>\n"
+"<p>To correct this word click <b>Replace</b> if you want to correct only this "
+"occurrence or <b>Replace All</b> if you want to correct all occurrences.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -311,8 +311,8 @@ msgstr "Za&mianić"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Click here to replace this occurrence of the unknown text with the text "
-"in the edit box above (to the left).</p>\n"
+"<p>Click here to replace this occurrence of the unknown text with the text in "
+"the edit box above (to the left).</p>\n"
 "</qt>"
 msgstr ""
 
@@ -327,8 +327,8 @@ msgstr "Zamianić &na:"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>If the unknown word is misspelled, you should type the correction for "
-"your misspelled word here or select it from the list below.</p>\n"
+"<p>If the unknown word is misspelled, you should type the correction for your "
+"misspelled word here or select it from the list below.</p>\n"
 "<p>You can then click <b>Replace</b> if you want to correct only this "
 "occurrence of the word or <b>Replace All</b> if you want to correct all "
 "occurrences.</p>\n"
@@ -347,9 +347,8 @@ msgstr "&Prapuścić"
 msgid ""
 "<qt>\n"
 "<p>Click here to let this occurrence of the unknown word remain as is.</p>\n"
-"<p>This action is useful when the word is a name, an acronym, a foreign word "
-"or any other unknown word that you want to use but not add to the "
-"dictionary.</p>\n"
+"<p>This action is useful when the word is a name, an acronym, a foreign word or "
+"any other unknown word that you want to use but not add to the dictionary.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -364,11 +363,10 @@ msgstr "P&rapuścić usie"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Click here to let all occurrences of the unknown word remain as they "
-"are.</p>\n"
-"<p>This action is useful when the word is a name, an acronym, a foreign word "
-"or any other unknown word that you want to use but not add to the "
-"dictionary.</p>\n"
+"<p>Click here to let all occurrences of the unknown word remain as they are.</p>"
+"\n"
+"<p>This action is useful when the word is a name, an acronym, a foreign word or "
+"any other unknown word that you want to use but not add to the dictionary.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -406,13 +404,13 @@ msgstr "Pamyłki JavaScript"
 #: rc.cpp:223
 #, no-c-format
 msgid ""
-"This dialog provides you with notification and details of scripting errors "
-"that occur on web pages.  In many cases it is due to an error in the web "
-"site as designed by its author.  In other cases it is the result of a "
-"programming error in Konqueror.  If you suspect the former, please contact "
-"the webmaster of the site in question.  Conversely if you suspect an error "
-"in Konqueror, please file a bug report at http://bugs.kde.org/.  A test case "
-"which illustrates the problem will be appreciated."
+"This dialog provides you with notification and details of scripting errors that "
+"occur on web pages.  In many cases it is due to an error in the web site as "
+"designed by its author.  In other cases it is the result of a programming error "
+"in Konqueror.  If you suspect the former, please contact the webmaster of the "
+"site in question.  Conversely if you suspect an error in Konqueror, please file "
+"a bug report at http://bugs.kde.org/.  A test case which illustrates the "
+"problem will be appreciated."
 msgstr ""
 
 #. i18n: file ./khtml/kjserrordlg.ui line 39
@@ -479,8 +477,8 @@ msgstr "Značeńnie"
 #: rc.cpp:278
 #, no-c-format
 msgid ""
-"This is the default language that the spell checker will use. The drop down "
-"box will list all of the dictionaries of your existing languages."
+"This is the default language that the spell checker will use. The drop down box "
+"will list all of the dictionaries of your existing languages."
 msgstr ""
 
 #. i18n: file ./kspell2/ui/configui.ui line 34
@@ -500,8 +498,8 @@ msgstr "Dazvolić &fonavuju pravierku pravapisu"
 #: rc.cpp:287
 #, no-c-format
 msgid ""
-"If checked, the \"spell as you type\" mode is active and all misspelled "
-"words are immediately highlighted."
+"If checked, the \"spell as you type\" mode is active and all misspelled words "
+"are immediately highlighted."
 msgstr ""
 
 #. i18n: file ./kspell2/ui/configui.ui line 56
@@ -514,9 +512,8 @@ msgstr "Prapuskać usie słovy ŭ &vierchnim registry"
 #: rc.cpp:293
 #, no-c-format
 msgid ""
-"If checked, words that consist of only uppercase letters are not spell "
-"checked. This is useful if you have a lot of acronyms, such as KDE for "
-"example."
+"If checked, words that consist of only uppercase letters are not spell checked. "
+"This is useful if you have a lot of acronyms, such as KDE for example."
 msgstr ""
 
 #. i18n: file ./kspell2/ui/configui.ui line 67
@@ -549,8 +546,8 @@ msgstr "Prapuskać hetyja słovy"
 #: rc.cpp:308
 #, no-c-format
 msgid ""
-"To add a word you want to ignore, type it in the top edit field and click "
-"Add. To remove a word, highlight it in the list and click Remove."
+"To add a word you want to ignore, type it in the top edit field and click Add. "
+"To remove a word, highlight it in the list and click Remove."
 msgstr ""
 
 #. i18n: file ./kspell2/ui/kspell2ui.ui line 282
@@ -581,8 +578,8 @@ msgstr "Prahlad miascovaha sieciva"
 #: rc.cpp:453
 #, no-c-format
 msgid ""
-"If true .local domain will be browsed. It is always link-local, using "
-"multicast DNS."
+"If true .local domain will be browsed. It is always link-local, using multicast "
+"DNS."
 msgstr ""
 
 #. i18n: file ./dnssd/kcm_kdnssd.kcfg line 18
@@ -623,8 +620,8 @@ msgstr ""
 #: rc.cpp:471
 #, no-c-format
 msgid ""
-"Domain name for publishing using 'wide-area' (normal DNS) ZeroConf. This "
-"must match domain specified in /etc/mdnsd.conf. This value is used only if "
+"Domain name for publishing using 'wide-area' (normal DNS) ZeroConf. This must "
+"match domain specified in /etc/mdnsd.conf. This value is used only if "
 "PublishType is set to WAN.\n"
 msgstr ""
 
@@ -2057,7 +2054,8 @@ msgstr "Resurs '%1' zabłakavany pragramaj '%2'."
 
 #: kabc/lock.cpp:145
 msgid "Unlock failed. Lock file is owned by other process: %1 (%2)"
-msgstr "Pamyłka razbłakavańnia. Fajłam błakiroŭki valodaje inšy praces: %1 (%2)"
+msgstr ""
+"Pamyłka razbłakavańnia. Fajłam błakiroŭki valodaje inšy praces: %1 (%2)"
 
 #: kabc/stdaddressbook.cpp:152
 msgid "Unable to save to resource '%1'. It is locked."
@@ -2314,8 +2312,7 @@ msgstr ""
 #: kded/kde-menu.cpp:111
 msgid ""
 "KDE Menu query tool.\n"
-"This tool can be used to find in which menu a specific application is "
-"shown.\n"
+"This tool can be used to find in which menu a specific application is shown.\n"
 "The --highlight option can be used to visually indicate to the user where\n"
 "in the KDE menu a specific application is located."
 msgstr ""
@@ -2356,12 +2353,16 @@ msgid "New hostname"
 msgstr "Novy host"
 
 #: kded/khostname.cpp:79
-msgid "Error: HOME environment variable not set.\n"
-msgstr "Pamyłka: pieramiennaja HOME nia vyznačanaja.\n"
+msgid ""
+"Error: HOME environment variable not set.\n"
+msgstr ""
+"Pamyłka: pieramiennaja HOME nia vyznačanaja.\n"
 
 #: kded/khostname.cpp:88
-msgid "Error: DISPLAY environment variable not set.\n"
-msgstr "Pamyłka: pieramiennaja DISPLAY nia vyznačanaja.\n"
+msgid ""
+"Error: DISPLAY environment variable not set.\n"
+msgstr ""
+"Pamyłka: pieramiennaja DISPLAY nia vyznačanaja.\n"
 
 #: kded/khostname.cpp:355
 msgid "KDontChangeTheHostName"
@@ -2647,15 +2648,15 @@ msgstr ""
 
 #: kdecore/kapplication.cpp:931
 msgid ""
-"_: Dear Translator! Translate this string to the string 'LTR' in "
-"left-to-right languages (as english) or to 'RTL' in right-to-left languages "
-"(such as Hebrew and Arabic) to get proper widget layout."
+"_: Dear Translator! Translate this string to the string 'LTR' in left-to-right "
+"languages (as english) or to 'RTL' in right-to-left languages (such as Hebrew "
+"and Arabic) to get proper widget layout."
 msgstr "LTR"
 
 #: kdecore/kapplication.cpp:1367
 msgid ""
-"There was an error setting up inter-process communications for KDE. The "
-"message returned by the system was:\n"
+"There was an error setting up inter-process communications for KDE. The message "
+"returned by the system was:\n"
 "\n"
 msgstr ""
 
@@ -2803,12 +2804,12 @@ msgstr ""
 
 #: kdecore/kapplication.cpp:1439
 msgid ""
-"sets the client geometry of the main widget - see man X for the argument "
-"format"
+"sets the client geometry of the main widget - see man X for the argument format"
 msgstr ""
 
 #: kdecore/kapplication.cpp:1479
-msgid "The style %1 was not found\n"
+msgid ""
+"The style %1 was not found\n"
 msgstr ""
 
 #: kdecore/kapplication.cpp:1940 kstyles/klegacy/klegacystyle.cpp:3044
@@ -2862,12 +2863,16 @@ msgstr ""
 "%1"
 
 #: kdecore/kapplication.cpp:2592
-msgid "Could not register with DCOP.\n"
-msgstr "Niemahčyma zaregistravacca praz DCOP.\n"
+msgid ""
+"Could not register with DCOP.\n"
+msgstr ""
+"Niemahčyma zaregistravacca praz DCOP.\n"
 
 #: kdecore/kapplication.cpp:2624
-msgid "KLauncher could not be reached via DCOP.\n"
-msgstr "Niemahčyma źviazacca z KLauncher praz DCOP.\n"
+msgid ""
+"KLauncher could not be reached via DCOP.\n"
+msgstr ""
+"Niemahčyma źviazacca z KLauncher praz DCOP.\n"
 
 #: kdecore/kwinmodule.cpp:413
 #, c-format
@@ -2875,12 +2880,16 @@ msgid "Desktop %1"
 msgstr "Stalec %1"
 
 #: kdecore/kconfigbackend.cpp:1087 kdecore/kconfigbackend.cpp:1096
-msgid "Will not save configuration.\n"
-msgstr "Nastaŭleńni nie zapišucca.\n"
+msgid ""
+"Will not save configuration.\n"
+msgstr ""
+"Nastaŭleńni nie zapišucca.\n"
 
 #: kdecore/kconfigbackend.cpp:1089 kdecore/kconfigbackend.cpp:1097
-msgid "Configuration file \"%1\" not writable.\n"
-msgstr "Niemahčyma zapisać fajł nastaŭleńniaŭ \"%1\".\n"
+msgid ""
+"Configuration file \"%1\" not writable.\n"
+msgstr ""
+"Niemahčyma zapisać fajł nastaŭleńniaŭ \"%1\".\n"
 
 #: kdecore/kconfigbackend.cpp:1104
 msgid "Please contact your system administrator."
@@ -2908,12 +2917,16 @@ msgid "This application was written by somebody who wants to remain anonymous."
 msgstr ""
 
 #: kdecore/kcmdlineargs.cpp:625
-msgid "Please use http://bugs.kde.org to report bugs.\n"
-msgstr "Kali łaska, paviedamlajcie pra pamyłki na http://bugs.kde.org.\n"
+msgid ""
+"Please use http://bugs.kde.org to report bugs.\n"
+msgstr ""
+"Kali łaska, paviedamlajcie pra pamyłki na http://bugs.kde.org.\n"
 
 #: kdecore/kcmdlineargs.cpp:628 kdecore/kcmdlineargs.cpp:630
-msgid "Please report bugs to %1.\n"
-msgstr "Kali łaska, paviedamlajcie pra pamyłki: %1.\n"
+msgid ""
+"Please report bugs to %1.\n"
+msgstr ""
+"Kali łaska, paviedamlajcie pra pamyłki: %1.\n"
 
 #: kdecore/kcmdlineargs.cpp:656
 msgid "Unexpected argument '%1'."
@@ -2940,8 +2953,10 @@ msgid "[%1-options]"
 msgstr "[%1-parametry]"
 
 #: kdecore/kcmdlineargs.cpp:812
-msgid "Usage: %1 %2\n"
-msgstr "Vykarystańnie: %1 %2\n"
+msgid ""
+"Usage: %1 %2\n"
+msgstr ""
+"Vykarystańnie: %1 %2\n"
 
 #: kdecore/kcmdlineargs.cpp:815
 msgid "Generic options"
@@ -2997,7 +3012,8 @@ msgstr ""
 
 #: kdecore/kcmdlineargs.cpp:1277
 msgid "The files/URLs opened by the application will be deleted after use"
-msgstr "Fajły/URLy, adkrytyja ŭ pragramie, buduć vydalenyja paśla vykarystańnia"
+msgstr ""
+"Fajły/URLy, adkrytyja ŭ pragramie, buduć vydalenyja paśla vykarystańnia"
 
 #: kdecore/ksockaddr.cpp:112
 msgid "<unknown socket>"
@@ -3385,10 +3401,10 @@ msgstr "Yaum al-Ahad"
 
 #: kdecore/klocale.cpp:217
 msgid ""
-"_: Dear translator, please do not translate this string in any form, but "
-"pick the _right_ value out of NoPlural/TwoForms/French... If not sure what "
-"to do mail thd@kde.org and coolo@kde.org, they will tell you. Better leave "
-"that out if unsure, the programs will crash!!\n"
+"_: Dear translator, please do not translate this string in any form, but pick "
+"the _right_ value out of NoPlural/TwoForms/French... If not sure what to do "
+"mail thd@kde.org and coolo@kde.org, they will tell you. Better leave that out "
+"if unsure, the programs will crash!!\n"
 "Definition of PluralForm - to be set by the translator of kdelibs.po"
 msgstr "Russian"
 
@@ -3987,7 +4003,8 @@ msgid ""
 msgstr ""
 
 #: kdecore/kcompletion.cpp:643
-msgid "There is no matching item available.\n"
+msgid ""
+"There is no matching item available.\n"
 msgstr ""
 
 #: kdecore/kcalendarsystemhebrew.cpp:402
@@ -4049,9 +4066,9 @@ msgstr "Adar II"
 #: kdecore/kaboutdata.cpp:388
 msgid ""
 "_: replace this with information about your translation team\n"
-"<p>KDE is translated into many languages thanks to the work of the "
-"translation teams all over the world.</p><p>For more information on KDE "
-"internationalization visit <a "
+"<p>KDE is translated into many languages thanks to the work of the translation "
+"teams all over the world.</p>"
+"<p>For more information on KDE internationalization visit <a "
 "href=\"http://l10n.kde.org\">http://l10n.kde.org</a></p>"
 msgstr ""
 
@@ -4461,24 +4478,33 @@ msgid "Unable to create file to upload."
 msgstr "Niemahčyma stvaryć fajł dla publikacyji."
 
 #: knewstuff/engine.cpp:296
-msgid "The files to be uploaded have been created at:\n"
-msgstr "Fajły dla publikacyji stvorany ŭ:\n"
+msgid ""
+"The files to be uploaded have been created at:\n"
+msgstr ""
+"Fajły dla publikacyji stvorany ŭ:\n"
 
 #: knewstuff/engine.cpp:297
-msgid "Data file: %1\n"
-msgstr "Fał dańniaŭ: %1\n"
+msgid ""
+"Data file: %1\n"
+msgstr ""
+"Fał dańniaŭ: %1\n"
 
 #: knewstuff/engine.cpp:299
-msgid "Preview image: %1\n"
+msgid ""
+"Preview image: %1\n"
 msgstr ""
 
 #: knewstuff/engine.cpp:301
-msgid "Content information: %1\n"
-msgstr "Infarmacyja ab źmieście: %1\n"
+msgid ""
+"Content information: %1\n"
+msgstr ""
+"Infarmacyja ab źmieście: %1\n"
 
 #: knewstuff/engine.cpp:302
-msgid "Those files can now be uploaded.\n"
-msgstr "Hetyja fajły možna apublikavać.\n"
+msgid ""
+"Those files can now be uploaded.\n"
+msgstr ""
+"Hetyja fajły možna apublikavać.\n"
 
 #: knewstuff/engine.cpp:303
 msgid "Beware that any people might have access to them at any time."
@@ -4510,8 +4536,8 @@ msgstr "Spampavać novyja fajły"
 
 #: knewstuff/knewstuffsecure.cpp:83
 msgid ""
-"There was an error with the downloaded resource tarball file. Possible "
-"causes are damaged archive or invalid directory structure in the archive."
+"There was an error with the downloaded resource tarball file. Possible causes "
+"are damaged archive or invalid directory structure in the archive."
 msgstr ""
 
 #: knewstuff/knewstuffsecure.cpp:83
@@ -4544,17 +4570,20 @@ msgstr "Podpis nieviadomy."
 
 #: knewstuff/knewstuffsecure.cpp:131
 msgid ""
-"The resource was signed with key <i>0x%1</i>, belonging to <i>%2 "
-"&lt;%3&gt;</i>."
+"The resource was signed with key <i>0x%1</i>, belonging to <i>%2 &lt;%3&gt;</i>"
+"."
 msgstr ""
-"Resurs padpisany klučom <i>0x%1</i>, jaki naležyć <i>%2 "
-"&lt;%3&gt;</i>."
+"Resurs padpisany klučom <i>0x%1</i>, jaki naležyć <i>%2 &lt;%3&gt;</i>."
 
 #: knewstuff/knewstuffsecure.cpp:137
 msgid ""
-"<qt>There is a problem with the resource file you have downloaded. The "
-"errors are :<b>%1</b><br>%2<br><br>Installation of the resource is <b>not "
-"recommended</b>.<br><br>Do you want to proceed with the installation?</qt>"
+"<qt>There is a problem with the resource file you have downloaded. The errors "
+"are :<b>%1</b>"
+"<br>%2"
+"<br>"
+"<br>Installation of the resource is <b>not recommended</b>."
+"<br>"
+"<br>Do you want to proceed with the installation?</qt>"
 msgstr ""
 
 #: knewstuff/knewstuffsecure.cpp:137
@@ -4582,24 +4611,24 @@ msgstr ""
 
 #: knewstuff/security.cpp:63
 msgid ""
-"<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
-"<i>gpg</i> is installed, otherwise verification of downloaded resources will "
-"not be possible.</qt>"
+"<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that <i>"
+"gpg</i> is installed, otherwise verification of downloaded resources will not "
+"be possible.</qt>"
 msgstr ""
 
 #: knewstuff/security.cpp:177
 msgid ""
-"<qt>Enter passphrase for key <b>0x%1</b>, belonging "
-"to<br><i>%2&lt;%3&gt;</i>:</qt>"
+"<qt>Enter passphrase for key <b>0x%1</b>, belonging to"
+"<br><i>%2&lt;%3&gt;</i>:</qt>"
 msgstr ""
 "<qt>Uviadzicie parol dla kluča <b>0x%1</b>, jaki naležyć "
 "<br><i>%2&lt;%3&gt;</i>:</qt>"
 
 #: knewstuff/security.cpp:257
 msgid ""
-"<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
-"that <i>gpg</i> is installed, otherwise verification of downloaded resources "
-"will not be possible.</qt>"
+"<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure that "
+"<i>gpg</i> is installed, otherwise verification of downloaded resources will "
+"not be possible.</qt>"
 msgstr ""
 
 #: knewstuff/security.cpp:317
@@ -4612,8 +4641,8 @@ msgstr "Kluč dla podpisu:"
 
 #: knewstuff/security.cpp:338
 msgid ""
-"<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
-"installed, otherwise signing of the resources will not be possible.</qt>"
+"<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
+"is installed, otherwise signing of the resources will not be possible.</qt>"
 msgstr ""
 
 #: knewstuff/ghns.cpp:50
@@ -4711,9 +4740,9 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:429
 msgid ""
-"Use this button to choose a new shortcut key. Once you click it, you can "
-"press the key-combination which you would like to be assigned to the "
-"currently selected action."
+"Use this button to choose a new shortcut key. Once you click it, you can press "
+"the key-combination which you would like to be assigned to the currently "
+"selected action."
 msgstr ""
 
 #: kdeui/kkeydialog.cpp:471
@@ -4730,8 +4759,8 @@ msgstr "Niama"
 
 #: kdeui/kkeydialog.cpp:716
 msgid ""
-"In order to use the '%1' key as a shortcut, it must be combined with the "
-"Win, Alt, Ctrl, and/or Shift keys."
+"In order to use the '%1' key as a shortcut, it must be combined with the Win, "
+"Alt, Ctrl, and/or Shift keys."
 msgstr ""
 
 #: kdeui/kkeydialog.cpp:719
@@ -4987,15 +5016,17 @@ msgstr "Aŭ&tary"
 
 #: kdeui/kaboutapplication.cpp:115
 msgid ""
-"Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
-"bugs.\n"
+"Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
+"to report bugs.\n"
 msgstr ""
-"Kali łaska, paviedamlajcie pra pamyłki na "
-"<a href=\"http://bugs.kde.org\">http://bugs.kde.org</a>.\n"
+"Kali łaska, paviedamlajcie pra pamyłki na <a href=\"http://bugs.kde.org\">"
+"http://bugs.kde.org</a>.\n"
 
 #: kdeui/kaboutapplication.cpp:119 kdeui/kaboutapplication.cpp:122
-msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
-msgstr "Kali łaska, paviedamlajcie pra pamyłki na <a href=\"mailto:%1\">%2</a>.\n"
+msgid ""
+"Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+msgstr ""
+"Kali łaska, paviedamlajcie pra pamyłki na <a href=\"mailto:%1\">%2</a>.\n"
 
 #: kdeui/kaboutapplication.cpp:147
 msgid "&Thanks To"
@@ -5094,8 +5125,8 @@ msgstr ""
 #: kdeui/kfontdialog.cpp:248
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
-"dynamically and adjusted to changing environment (e.g. widget dimensions, "
-"paper size)."
+"dynamically and adjusted to changing environment (e.g. widget dimensions, paper "
+"size)."
 msgstr ""
 
 #: kdeui/kfontdialog.cpp:272
@@ -5127,8 +5158,10 @@ msgstr "&Vybrany:"
 #: kdeui/kcharselect.cpp:366
 msgid ""
 "_: Character\n"
-"<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode code point: "
-"U+%3<br>(In decimal: %4)<br>(Character: %5)</qt>"
+"<qt><font size=\"+4\" face=\"%1\">%2</font>"
+"<br>Unicode code point: U+%3"
+"<br>(In decimal: %4)"
+"<br>(Character: %5)</qt>"
 msgstr ""
 
 #: kdeui/kcharselect.cpp:394
@@ -5177,54 +5210,63 @@ msgstr "Vypłyŭny śpis i aŭtamatyčna"
 
 #: kdeui/kaboutkde.cpp:34
 msgid ""
-"The <b>K Desktop Environment</b> is written and maintained by the KDE Team, "
-"a world-wide network of software engineers committed to <a "
+"The <b>K Desktop Environment</b> is written and maintained by the KDE Team, a "
+"world-wide network of software engineers committed to <a "
 "href=\"http://www.gnu.org/philosophy/free-sw.html\">Free Software</a> "
-"development.<br><br>No single group, company or organization controls the "
-"KDE source code. Everyone is welcome to contribute to KDE.<br><br>Visit <A "
-"HREF=\"http://www.kde.org/\">http://www.kde.org</A> for more information on "
-"the KDE project. "
+"development."
+"<br>"
+"<br>No single group, company or organization controls the KDE source code. "
+"Everyone is welcome to contribute to KDE."
+"<br>"
+"<br>Visit <A HREF=\"http://www.kde.org/\">http://www.kde.org</A> "
+"for more information on the KDE project. "
 msgstr ""
 
 #: kdeui/kaboutkde.cpp:43
 msgid ""
-"Software can always be improved, and the KDE Team is ready to do so. "
-"However, you - the user - must tell us when something does not work as "
-"expected or could be done better.<br><br>The K Desktop Environment has a bug "
-"tracking system. Visit <A "
-"HREF=\"http://bugs.kde.org/\">http://bugs.kde.org</A> or use the \"Report "
-"Bug...\" dialog from the \"Help\" menu to report bugs.<br><br>If you have a "
-"suggestion for improvement then you are welcome to use the bug tracking "
-"system to register your wish. Make sure you use the severity called "
-"\"Wishlist\"."
+"Software can always be improved, and the KDE Team is ready to do so. However, "
+"you - the user - must tell us when something does not work as expected or could "
+"be done better."
+"<br>"
+"<br>The K Desktop Environment has a bug tracking system. Visit <A "
+"HREF=\"http://bugs.kde.org/\">http://bugs.kde.org</A> "
+"or use the \"Report Bug...\" dialog from the \"Help\" menu to report bugs."
+"<br>"
+"<br>If you have a suggestion for improvement then you are welcome to use the "
+"bug tracking system to register your wish. Make sure you use the severity "
+"called \"Wishlist\"."
 msgstr ""
 
 #: kdeui/kaboutkde.cpp:54
 msgid ""
-"You do not have to be a software developer to be a member of the KDE team. "
-"You can join the national teams that translate program interfaces. You can "
-"provide graphics, themes, sounds, and improved documentation. You "
-"decide!<br><br>Visit <A "
-"HREF=\"http://www.kde.org/jobs/\">http://www.kde.org/jobs/</A> for "
-"information on some projects in which you can participate.<br><br>If you "
-"need more information or documentation, then a visit to <A "
-"HREF=\"http://developer.kde.org/\">http://developer.kde.org</A> will provide "
-"you with what you need."
+"You do not have to be a software developer to be a member of the KDE team. You "
+"can join the national teams that translate program interfaces. You can provide "
+"graphics, themes, sounds, and improved documentation. You decide!"
+"<br>"
+"<br>Visit <A HREF=\"http://www.kde.org/jobs/\">http://www.kde.org/jobs/</A> "
+"for information on some projects in which you can participate."
+"<br>"
+"<br>If you need more information or documentation, then a visit to <A "
+"HREF=\"http://developer.kde.org/\">http://developer.kde.org</A> "
+"will provide you with what you need."
 msgstr ""
 
 #: kdeui/kaboutkde.cpp:67
 msgid ""
-"KDE is available free of charge, but making it is not free.<br><br>Thus, the "
-"KDE team formed the KDE e.V., a non-profit organization legally founded in "
-"Tuebingen, Germany. The KDE e.V. represents the KDE project in legal and "
-"financial matters. See <a "
-"href=\"http://www.kde-ev.org/\">http://www.kde-ev.org</a> for information on "
-"the KDE e.V.<br><br>The KDE team does need financial support. Most of the "
-"money is used to reimburse members and others on expenses they experienced "
-"when contributing to KDE. You are encouraged to support KDE through a "
-"financial donation, using one of the ways described at <a "
-"href=\"http://www.kde.org/support/\">http://www.kde.org/support/</a>.<br><br>"
-"Thank you very much in advance for your support."
+"KDE is available free of charge, but making it is not free."
+"<br>"
+"<br>Thus, the KDE team formed the KDE e.V., a non-profit organization legally "
+"founded in Tuebingen, Germany. The KDE e.V. represents the KDE project in legal "
+"and financial matters. See <a href=\"http://www.kde-ev.org/\">"
+"http://www.kde-ev.org</a> for information on the KDE e.V."
+"<br>"
+"<br>The KDE team does need financial support. Most of the money is used to "
+"reimburse members and others on expenses they experienced when contributing to "
+"KDE. You are encouraged to support KDE through a financial donation, using one "
+"of the ways described at <a href=\"http://www.kde.org/support/\">"
+"http://www.kde.org/support/</a>."
+"<br>"
+"<br>Thank you very much in advance for your support."
 msgstr ""
 
 #: kdeui/kaboutkde.cpp:81
@@ -5428,7 +5470,8 @@ msgstr "Pastupovaja pravierka pravapisu"
 
 #: kdeui/ksyntaxhighlighter.cpp:581
 msgid "Too many misspelled words. As-you-type spell checking disabled."
-msgstr "Nadta šmat niapravilnych słovaŭ. Fonavaja pravierka pravapisu vyklučanaja."
+msgstr ""
+"Nadta šmat niapravilnych słovaŭ. Fonavaja pravierka pravapisu vyklučanaja."
 
 #: kdeui/kxmlguibuilder.cpp:166 kdeui/kxmlguibuilder.cpp:365
 msgid "No text!"
@@ -5493,10 +5536,10 @@ msgstr "Vybierycie siońniašni dzień"
 
 #: kdeui/kwhatsthismanager.cpp:50
 msgid ""
-"<b>Not Defined</b><br>There is no \"What's This?\" help assigned to this "
-"widget. If you want to help us to  describe the widget, you are welcome to "
-"<a href=\"submit-whatsthis\">send us your own \"What's This?\" help</a> for "
-"it."
+"<b>Not Defined</b>"
+"<br>There is no \"What's This?\" help assigned to this widget. If you want to "
+"help us to  describe the widget, you are welcome to <a "
+"href=\"submit-whatsthis\">send us your own \"What's This?\" help</a> for it."
 msgstr ""
 
 #: kdeui/kshortcutdialog.cpp:68
@@ -5522,8 +5565,8 @@ msgstr "Naładka panelaŭ instrumentaŭ"
 
 #: kdeui/kedittoolbar.cpp:447
 msgid ""
-"Do you really want to reset all toolbars of this application to their "
-"default? The changes will be applied immediately."
+"Do you really want to reset all toolbars of this application to their default? "
+"The changes will be applied immediately."
 msgstr ""
 
 #: kdeui/kedittoolbar.cpp:447
@@ -5685,8 +5728,9 @@ msgstr "Schavać &menu"
 
 #: kdeui/kstdaction.cpp:241
 msgid ""
-"Hide Menubar<p>Hide the menubar. You can usually get it back using the right "
-"mouse button inside the window itself."
+"Hide Menubar"
+"<p>Hide the menubar. You can usually get it back using the right mouse button "
+"inside the window itself."
 msgstr ""
 
 #: kdeui/kstdaction.cpp:272 kdeui/kstdaction_p.h:97
@@ -5695,8 +5739,9 @@ msgstr "Pakazać radok &statusu"
 
 #: kdeui/kstdaction.cpp:274
 msgid ""
-"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
-"window used for status information."
+"Show Statusbar"
+"<p>Shows the statusbar, which is the bar at the bottom of the window used for "
+"status information."
 msgstr ""
 
 #: kdeui/kstdaction.cpp:276
@@ -5705,8 +5750,9 @@ msgstr "Schavać radok &statusu"
 
 #: kdeui/kstdaction.cpp:277
 msgid ""
-"Hide Statusbar<p>Hides the statusbar, which is the bar at the bottom of the "
-"window used for status information."
+"Hide Statusbar"
+"<p>Hides the statusbar, which is the bar at the bottom of the window used for "
+"status information."
 msgstr ""
 
 #: kdeui/kpassdlg.cpp:371
@@ -5727,8 +5773,8 @@ msgstr "Vymiaralnik mahutnaści parolu:"
 
 #: kdeui/kpassdlg.cpp:428
 msgid ""
-"The password strength meter gives an indication of the security of the "
-"password you have entered.  To improve the strength of the password, try:\n"
+"The password strength meter gives an indication of the security of the password "
+"you have entered.  To improve the strength of the password, try:\n"
 " - using a longer password;\n"
 " - using a mixture of upper- and lower-case letters;\n"
 " - using numbers or symbols, such as #, as well as letters."
@@ -5944,8 +5990,8 @@ msgstr ""
 #: kdeui/kbugreport.cpp:252
 msgid ""
 "To submit a bug report, click on the button below.\n"
-"This will open a web browser window on http://bugs.kde.org where you will "
-"find a form to fill in.\n"
+"This will open a web browser window on http://bugs.kde.org where you will find "
+"a form to fill in.\n"
 "The information displayed above will be transferred to that server."
 msgstr ""
 
@@ -5968,10 +6014,12 @@ msgstr ""
 #: kdeui/kbugreport.cpp:386
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
-"intended only for bugs that</p><ul><li>break unrelated software on the "
-"system (or the whole system)</li><li>cause serious data "
-"loss</li><li>introduce a security hole on the system where the affected "
-"package is installed</li></ul>\n"
+"intended only for bugs that</p>"
+"<ul>"
+"<li>break unrelated software on the system (or the whole system)</li>"
+"<li>cause serious data loss</li>"
+"<li>introduce a security hole on the system where the affected package is "
+"installed</li></ul>\n"
 "<p>Does the bug you are reporting cause any of the above damage? If it does "
 "not, please select a lower severity. Thank you!</p>"
 msgstr ""
@@ -5979,10 +6027,12 @@ msgstr ""
 #: kdeui/kbugreport.cpp:397
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
-"intended only for bugs that</p><ul><li>make the package in question unusable "
-"or mostly so</li><li>cause data loss</li><li>introduce a security hole "
-"allowing access to the accounts of users who use the affected "
-"package</li></ul>\n"
+"intended only for bugs that</p>"
+"<ul>"
+"<li>make the package in question unusable or mostly so</li>"
+"<li>cause data loss</li>"
+"<li>introduce a security hole allowing access to the accounts of users who use "
+"the affected package</li></ul>\n"
 "<p>Does the bug you are reporting cause any of the above damage? If it does "
 "not, please select a lower severity. Thank you!</p>"
 msgstr ""
@@ -5996,7 +6046,8 @@ msgstr ""
 
 #: kdeui/kbugreport.cpp:417
 msgid "Bug report sent, thank you for your input."
-msgstr "Paviedamleńnie dasłanaje, dziakuj za dapamohu ŭ palapšeńni jakaści pragramy."
+msgstr ""
+"Paviedamleńnie dasłanaje, dziakuj za dapamohu ŭ palapšeńni jakaści pragramy."
 
 #: kdeui/kbugreport.cpp:426
 msgid ""
@@ -6112,8 +6163,10 @@ msgid "Tip of the Day"
 msgstr "Karysnaja parada"
 
 #: kdeui/ktip.cpp:224
-msgid "Did you know...?\n"
-msgstr "Vy viedajecie, što...?\n"
+msgid ""
+"Did you know...?\n"
+msgstr ""
+"Vy viedajecie, što...?\n"
 
 #: kdeui/ktip.cpp:287
 msgid "&Show tips on startup"
@@ -6492,32 +6545,38 @@ msgstr "%1%"
 
 #: khtml/khtml_printsettings.cpp:31
 msgid ""
-"<qt><p><strong>'Print images'</strong></p><p>If this checkbox is enabled, "
-"images contained in the HTML page will be printed. Printing may take longer "
-"and use more ink or toner.</p><p>If this checkbox is disabled, only the text "
-"of the HTML page will be printed, without the included images. Printing will "
-"be faster and use less ink or toner.</p> </qt>"
+"<qt>"
+"<p><strong>'Print images'</strong></p>"
+"<p>If this checkbox is enabled, images contained in the HTML page will be "
+"printed. Printing may take longer and use more ink or toner.</p>"
+"<p>If this checkbox is disabled, only the text of the HTML page will be "
+"printed, without the included images. Printing will be faster and use less ink "
+"or toner.</p> </qt>"
 msgstr ""
 
 #: khtml/khtml_printsettings.cpp:43
 msgid ""
-"<qt><p><strong>'Print header'</strong></p><p>If this checkbox is enabled, "
-"the printout of the HTML document will contain a header line at the top of "
-"each page. This header contains the current date, the location URL of the "
-"printed page and the page number.</p><p>If this checkbox is disabled, the "
-"printout of the HTML document will not contain such a header line.</p> </qt>"
+"<qt>"
+"<p><strong>'Print header'</strong></p>"
+"<p>If this checkbox is enabled, the printout of the HTML document will contain "
+"a header line at the top of each page. This header contains the current date, "
+"the location URL of the printed page and the page number.</p>"
+"<p>If this checkbox is disabled, the printout of the HTML document will not "
+"contain such a header line.</p> </qt>"
 msgstr ""
 
 #: khtml/khtml_printsettings.cpp:56
 msgid ""
-"<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
-"enabled, the printout of the HTML document will be black and white only, and "
-"all colored background will be converted into white. Printout will be faster "
-"and use less ink or toner.</p><p>If this checkbox is disabled, the printout "
-"of the HTML document will happen in the original color settings as you see "
-"in your application. This may result in areas of full-page color (or "
-"grayscale, if you use a black+white printer). Printout will possibly happen "
-"slower and will certainly use much more toner or ink.</p> </qt>"
+"<qt>"
+"<p><strong>'Printerfriendly mode'</strong></p>"
+"<p>If this checkbox is enabled, the printout of the HTML document will be black "
+"and white only, and all colored background will be converted into white. "
+"Printout will be faster and use less ink or toner.</p>"
+"<p>If this checkbox is disabled, the printout of the HTML document will happen "
+"in the original color settings as you see in your application. This may result "
+"in areas of full-page color (or grayscale, if you use a black+white printer). "
+"Printout will possibly happen slower and will certainly use much more toner or "
+"ink.</p> </qt>"
 msgstr ""
 
 #: khtml/khtml_printsettings.cpp:71
@@ -6554,10 +6613,11 @@ msgstr "Biaśpieka..."
 
 #: khtml/khtml_part.cpp:264
 msgid ""
-"Security Settings<p>Shows the certificate of the displayed page. Only pages "
-"that have been transmitted using a secure, encrypted connection have a "
-"certificate.<p> Hint: If the image shows a closed lock, the page has been "
-"transmitted over a secure connection."
+"Security Settings"
+"<p>Shows the certificate of the displayed page. Only pages that have been "
+"transmitted using a secure, encrypted connection have a certificate."
+"<p> Hint: If the image shows a closed lock, the page has been transmitted over "
+"a secure connection."
 msgstr ""
 
 #: khtml/khtml_part.cpp:270
@@ -6600,8 +6660,9 @@ msgstr "Pavialičyć šryft"
 
 #: khtml/khtml_part.cpp:363
 msgid ""
-"Enlarge Font<p>Make the font in this window bigger. Click and hold down the "
-"mouse button for a menu with all available font sizes."
+"Enlarge Font"
+"<p>Make the font in this window bigger. Click and hold down the mouse button "
+"for a menu with all available font sizes."
 msgstr ""
 
 #: khtml/khtml_part.cpp:367
@@ -6610,26 +6671,29 @@ msgstr "Źmienšyć šryft"
 
 #: khtml/khtml_part.cpp:369
 msgid ""
-"Shrink Font<p>Make the font in this window smaller. Click and hold down the "
-"mouse button for a menu with all available font sizes."
+"Shrink Font"
+"<p>Make the font in this window smaller. Click and hold down the mouse button "
+"for a menu with all available font sizes."
 msgstr ""
 
 #: khtml/khtml_part.cpp:375
 msgid ""
-"Find text<p>Shows a dialog that allows you to find text on the displayed "
-"page."
+"Find text"
+"<p>Shows a dialog that allows you to find text on the displayed page."
 msgstr ""
 
 #: khtml/khtml_part.cpp:379
 msgid ""
-"Find next<p>Find the next occurrence of the text that you have found using "
-"the <b>Find Text</b> function"
+"Find next"
+"<p>Find the next occurrence of the text that you have found using the <b>"
+"Find Text</b> function"
 msgstr ""
 
 #: khtml/khtml_part.cpp:384
 msgid ""
-"Find previous<p>Find the previous occurrence of the text that you have found "
-"using the <b>Find Text</b> function"
+"Find previous"
+"<p>Find the previous occurrence of the text that you have found using the <b>"
+"Find Text</b> function"
 msgstr ""
 
 #: khtml/khtml_part.cpp:388
@@ -6642,8 +6706,9 @@ msgstr "Šukać spasyłki padčas naboru"
 
 #: khtml/khtml_part.cpp:405
 msgid ""
-"Print Frame<p>Some pages have several frames. To print only a single frame, "
-"click on it and then use this function."
+"Print Frame"
+"<p>Some pages have several frames. To print only a single frame, click on it "
+"and then use this function."
 msgstr ""
 
 #: khtml/khtml_part.cpp:413
@@ -6841,8 +6906,7 @@ msgstr "&Dasłać niešyfravana"
 
 #: khtml/khtml_part.cpp:4748
 msgid ""
-"Warning: Your data is about to be transmitted across the network "
-"unencrypted.\n"
+"Warning: Your data is about to be transmitted across the network unencrypted.\n"
 "Are you sure you wish to continue?"
 msgstr ""
 
@@ -6858,8 +6922,8 @@ msgstr "&Dasłać emaił"
 
 #: khtml/khtml_part.cpp:4796
 msgid ""
-"<qt>The form will be submitted to <BR><B>%1</B><BR>on your local "
-"filesystem.<BR>Do you want to submit the form?"
+"<qt>The form will be submitted to <BR><B>%1</B><BR>on your local filesystem.<BR>"
+"Do you want to submit the form?"
 msgstr ""
 
 #: khtml/html/html_formimpl.cpp:1513 khtml/html/html_formimpl.cpp:2083
@@ -6869,8 +6933,8 @@ msgstr "Pieradać"
 
 #: khtml/khtml_part.cpp:4845
 msgid ""
-"This site attempted to attach a file from your computer in the form "
-"submission. The attachment was removed for your protection."
+"This site attempted to attach a file from your computer in the form submission. "
+"The attachment was removed for your protection."
 msgstr ""
 
 #: khtml/khtml_part.cpp:4845
@@ -7086,8 +7150,9 @@ msgstr ""
 
 #: khtml/ecma/kjs_window.cpp:1364
 msgid ""
-"<qt>This site is requesting to open<p>%1</p>in a new browser window via "
-"JavaScript.<br />Do you want to allow this?</qt>"
+"<qt>This site is requesting to open"
+"<p>%1</p>in a new browser window via JavaScript.<br />"
+"Do you want to allow this?</qt>"
 msgstr ""
 
 #: khtml/ecma/kjs_html.cpp:2151 khtml/ecma/kjs_window.cpp:1366
@@ -7128,8 +7193,8 @@ msgstr "Zabaranić"
 
 #: khtml/ecma/kjs_proxy.cpp:388
 msgid ""
-"A script on this page is causing KHTML to freeze. If it continues to run, "
-"other applications may become less responsive.\n"
+"A script on this page is causing KHTML to freeze. If it continues to run, other "
+"applications may become less responsive.\n"
 "Do you want to abort the script?"
 msgstr ""
 
@@ -7150,9 +7215,9 @@ msgstr ""
 
 #: khtml/ecma/kjs_html.cpp:2149
 msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
+"<qt>This site is submitting a form which will open "
+"<p>%1</p> in a new browser window via JavaScript.<br />"
+"Do you want to allow the form to be submitted?</qt>"
 msgstr ""
 
 #: khtml/html/htmlparser.cpp:1662
@@ -7207,16 +7272,15 @@ msgstr "Nie zachoŭvać"
 #: khtml/html/html_formimpl.cpp:616
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
-"the wallet is unlocked, it can then automatically restore the login "
-"information next time you submit this form. Do you want to store the "
-"information now?"
+"the wallet is unlocked, it can then automatically restore the login information "
+"next time you submit this form. Do you want to store the information now?"
 msgstr ""
 
 #: khtml/html/html_formimpl.cpp:621
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
-"the wallet is unlocked, it can then automatically restore the login "
-"information next time you visit %1. Do you want to store the information now?"
+"the wallet is unlocked, it can then automatically restore the login information "
+"next time you visit %1. Do you want to store the information now?"
 msgstr ""
 
 #: khtml/java/kjavaappletviewer.cpp:122
@@ -7445,12 +7509,16 @@ msgid "Launching %1"
 msgstr "Zapusk %1"
 
 #: kinit/klauncher.cpp:1263
-msgid "Unknown protocol '%1'.\n"
-msgstr "Nieviadomy pratakoł '%1'.\n"
+msgid ""
+"Unknown protocol '%1'.\n"
+msgstr ""
+"Nieviadomy pratakoł '%1'.\n"
 
 #: kinit/klauncher.cpp:1316
-msgid "Error loading '%1'.\n"
-msgstr "Pamyłka zahruzki '%1'.\n"
+msgid ""
+"Error loading '%1'.\n"
+msgstr ""
+"Pamyłka zahruzki '%1'.\n"
 
 #: kconf_update/kconf_update.cpp:43
 msgid "Keep output results from scripts"
@@ -7522,7 +7590,8 @@ msgstr "KInstalltheme"
 
 #: kunittest/modrunner.cpp:36
 msgid "A command-line application that can be used to run KUnitTest modules."
-msgstr "Pragrama dla kamandnaha radku, jakaja ŭmieje vykonvać moduli KUnitTest."
+msgstr ""
+"Pragrama dla kamandnaha radku, jakaja ŭmieje vykonvać moduli KUnitTest."
 
 #: kunittest/modrunner.cpp:42
 msgid "Only run modules whose filenames match the regexp."
@@ -7530,11 +7599,12 @@ msgstr "Zapuskać tolki tyja moduli, nazvy jakich adpaviadajuć stałamu vyrazu.
 
 #: kunittest/modrunner.cpp:43
 msgid ""
-"Only run tests modules which are found in the folder. Use the query option "
-"to select modules."
+"Only run tests modules which are found in the folder. Use the query option to "
+"select modules."
 msgstr ""
-"Zapuskać tolki moduli, jakija znachodziacca ŭ hetaj tečcy. Vykarystajcie parametar "
-"query, kab vybrać moduli."
+"Zapuskać tolki moduli, jakija znachodziacca ŭ hetaj tečcy. Vykarystajcie "
+"parametar query, kab vybrać moduli."
+
 #: kunittest/modrunner.cpp:44
 msgid ""
 "Disables debug capturing. You typically use this option when you use the GUI."
@@ -7683,8 +7753,8 @@ msgstr "Pačać pošuk"
 
 #: kutils/kfinddialog.cpp:241
 msgid ""
-"<qt>If you press the <b>Find</b> button, the text you entered above is "
-"searched for within the document.</qt>"
+"<qt>If you press the <b>Find</b> button, the text you entered above is searched "
+"for within the document.</qt>"
 msgstr ""
 
 #: kutils/kfinddialog.cpp:247
@@ -7706,11 +7776,11 @@ msgstr ""
 
 #: kutils/kfinddialog.cpp:256
 msgid ""
-"<qt>If enabled, any occurrence of <code><b>\\N</b></code>, where "
-"<code><b>N</b></code> is a integer number, will be replaced with the "
-"corresponding capture (\"parenthesized substring\") from the pattern.<p>To "
-"include (a literal <code><b>\\N</b></code> in your replacement, put an extra "
-"backslash in front of it, like <code><b>\\\\N</b></code>.</qt>"
+"<qt>If enabled, any occurrence of <code><b>\\N</b></code>, where <code><b>N</b>"
+"</code> is a integer number, will be replaced with the corresponding capture "
+"(\"parenthesized substring\") from the pattern."
+"<p>To include (a literal <code><b>\\N</b></code> in your replacement, put an "
+"extra backslash in front of it, like <code><b>\\\\N</b></code>.</qt>"
 msgstr ""
 
 #: kutils/kfinddialog.cpp:263
@@ -7809,10 +7879,11 @@ msgstr "Niapravilny stały vyraz."
 
 #: kutils/kcmoduleloader.cpp:97
 msgid ""
-"<qt>There was an error when loading the module '%1'.<br><br>The desktop file "
-"(%2) as well as the library (%3) was found but yet the module could not be "
-"loaded properly. Most likely the factory declaration was wrong, or the "
-"create_* function was missing.</qt>"
+"<qt>There was an error when loading the module '%1'."
+"<br>"
+"<br>The desktop file (%2) as well as the library (%3) was found but yet the "
+"module could not be loaded properly. Most likely the factory declaration was "
+"wrong, or the create_* function was missing.</qt>"
 msgstr ""
 
 #: kutils/kcmoduleloader.cpp:110
@@ -7825,9 +7896,10 @@ msgstr "Niemahčyma znajści module %1."
 
 #: kutils/kcmoduleloader.cpp:132
 msgid ""
-"<qt><p>The diagnostics is:<br>The desktop file %1 could not be found.</qt>"
-msgstr ""
-"<qt><p>Infarmacyja:<br>Fajł Stalca %1 nia znojdzieny.</qt>"
+"<qt>"
+"<p>The diagnostics is:"
+"<br>The desktop file %1 could not be found.</qt>"
+msgstr "<qt><p>Infarmacyja:<br>Fajł Stalca %1 nia znojdzieny.</qt>"
 
 #: kutils/kcmoduleloader.cpp:151
 msgid "The module %1 could not be loaded."
@@ -7839,10 +7911,10 @@ msgstr "Modul %1 nie źjaŭlajecca sapraŭdnym modulem naładki."
 
 #: kutils/kcmoduleloader.cpp:171
 msgid ""
-"<qt><p>The diagnostics is:<br>The desktop file %1 does not specify a "
-"library.</qt>"
-msgstr ""
-"<qt><p>Infarmacyja:<br>Fajł Stalca %1 nie vyznačaje biblijateku.</qt>"
+"<qt>"
+"<p>The diagnostics is:"
+"<br>The desktop file %1 does not specify a library.</qt>"
+msgstr "<qt><p>Infarmacyja:<br>Fajł Stalca %1 nie vyznačaje biblijateku.</qt>"
 
 #: kutils/kcmoduleloader.cpp:205
 msgid "There was an error loading the module."
@@ -7850,11 +7922,16 @@ msgstr "Pamyłka zahruzki modulu."
 
 #: kutils/kcmoduleloader.cpp:205 kutils/kcmoduleloader.cpp:273
 msgid ""
-"<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
-"occurred during your last KDE upgrade leaving an orphaned control "
-"module<li>You have old third party modules lying around.</ul><p>Check these "
-"points carefully and try to remove the module mentioned in the error "
-"message. If this fails, consider contacting your distributor or "
+"<qt>"
+"<p>The diagnostics is:"
+"<br>%1"
+"<p>Possible reasons:</p>"
+"<ul>"
+"<li>An error occurred during your last KDE upgrade leaving an orphaned control "
+"module"
+"<li>You have old third party modules lying around.</ul>"
+"<p>Check these points carefully and try to remove the module mentioned in the "
+"error message. If this fails, consider contacting your distributor or "
 "packager.</p></qt>"
 msgstr ""
 
@@ -7906,13 +7983,35 @@ msgstr "Praciahnuć"
 
 #: kutils/kpluginselector.cpp:111
 msgid ""
-"<qt><table><tr><td><b>Description:</b></td><td>%1</td></tr><tr><td><b>Author:"
-"</b></td><td>%2</td></tr><tr><td><b>Version:</b></td><td>%3</td></tr><tr><td>"
-"<b>License:</b></td><td>%4</td></tr></table></qt>"
+"<qt>"
+"<table>"
+"<tr>"
+"<td><b>Description:</b></td>"
+"<td>%1</td></tr>"
+"<tr>"
+"<td><b>Author:</b></td>"
+"<td>%2</td></tr>"
+"<tr>"
+"<td><b>Version:</b></td>"
+"<td>%3</td></tr>"
+"<tr>"
+"<td><b>License:</b></td>"
+"<td>%4</td></tr></table></qt>"
 msgstr ""
-"<qt><table><tr><td><b>Apisańnie:</b></td><td>%1</td></tr><tr><td><b>Aŭtar:"
-"</b></td><td>%2</td></tr><tr><td><b>Versija:</b></td><td>%3</td></tr><tr><td>"
-"<b>Licenzija:</b></td><td>%4</td></tr></table></qt>"
+"<qt>"
+"<table>"
+"<tr>"
+"<td><b>Apisańnie:</b></td>"
+"<td>%1</td></tr>"
+"<tr>"
+"<td><b>Aŭtar:</b></td>"
+"<td>%2</td></tr>"
+"<tr>"
+"<td><b>Versija:</b></td>"
+"<td>%3</td></tr>"
+"<tr>"
+"<td><b>Licenzija:</b></td>"
+"<td>%4</td></tr></table></qt>"
 
 #: kutils/kpluginselector.cpp:536
 msgid "(This plugin is not configurable)"
@@ -7973,18 +8072,18 @@ msgstr "Praciahnuć z pačatku?"
 
 #: kutils/kcmoduleproxy.cpp:212
 msgid ""
-"<b>Changes in this section requires root access.</b><br />Click the "
-"\"Administrator Mode\" button to allow modifications."
+"<b>Changes in this section requires root access.</b><br />"
+"Click the \"Administrator Mode\" button to allow modifications."
 msgstr ""
-"<b>Źmieny hetaha raździeła patrabujuć pravoŭ root.</b><br />Naciśnicie "
-"knopku \"Režym administratara\", kab dazvolić źmieny."
+"<b>Źmieny hetaha raździeła patrabujuć pravoŭ root.</b><br />"
+"Naciśnicie knopku \"Režym administratara\", kab dazvolić źmieny."
 
 #: kutils/kcmoduleproxy.cpp:219
 msgid ""
 "This section requires special permissions, probably for system-wide changes; "
 "therefore, it is required that you provide the root password to be able to "
-"change the module's properties. If you do not provide the password, the "
-"module will be disabled."
+"change the module's properties. If you do not provide the password, the module "
+"will be disabled."
 msgstr ""
 
 #: kutils/kcmoduleproxy.cpp:251
@@ -8077,10 +8176,11 @@ msgstr "Niemahčyma stvaryć resurs typu '%1'."
 
 #: kresources/configpage.cpp:360
 msgid ""
-"You cannot remove your standard resource! Please select a new standard "
-"resource first."
-msgstr "Vy nia možacie vydalić standartny resurs! Kali łaska, zrabicie "
-"spačatku standartnym inšy resurs."
+"You cannot remove your standard resource! Please select a new standard resource "
+"first."
+msgstr ""
+"Vy nia možacie vydalić standartny resurs! Kali łaska, zrabicie spačatku "
+"standartnym inšy resurs."
 
 #: kresources/configpage.cpp:394 kresources/configpage.cpp:413
 msgid "You cannot use a read-only resource as standard!"
@@ -8092,19 +8192,19 @@ msgstr "Nelha zrabić nieaktyŭny resurs standartnym!"
 
 #: kresources/configpage.cpp:498
 msgid ""
-"You cannot deactivate the standard resource. Choose another standard "
-"resource first."
+"You cannot deactivate the standard resource. Choose another standard resource "
+"first."
 msgstr ""
-"Nelha zrabić nieaktyŭnym standartny resurs. Zrabicie spačatku standartnym "
-"inšy resurs."
+"Nelha zrabić nieaktyŭnym standartny resurs. Zrabicie spačatku standartnym inšy "
+"resurs."
 
 #: kresources/configpage.cpp:528
 msgid ""
 "There is no valid standard resource! Please select one which is neither "
 "read-only nor inactive."
 msgstr ""
-"Niama narmalnaha standartnaha resursu! Kali łaska, zrabicie standartnym "
-"aktyŭny resurs, dastupny dla zapisu."
+"Niama narmalnaha standartnaha resursu! Kali łaska, zrabicie standartnym aktyŭny "
+"resurs, dastupny dla zapisu."
 
 #: kab/addressbook.cc:168
 msgid "Headline"
@@ -8204,16 +8304,16 @@ msgstr "Brakuje pamiaci"
 msgid ""
 "Your local kab configuration file \"%1\" could not be created. kab will "
 "probably not work correctly without it.\n"
-"Make sure you have not removed write permission from your local KDE "
-"directory (usually ~/.kde)."
+"Make sure you have not removed write permission from your local KDE directory "
+"(usually ~/.kde)."
 msgstr ""
 
 #: kab/addressbook.cc:461
 msgid ""
-"Your standard kab database file \"%1\" could not be created. kab will "
-"probably not work correctly without it.\n"
-"Make sure you have not removed write permission from your local KDE "
-"directory (usually ~/.kde)."
+"Your standard kab database file \"%1\" could not be created. kab will probably "
+"not work correctly without it.\n"
+"Make sure you have not removed write permission from your local KDE directory "
+"(usually ~/.kde)."
 msgstr ""
 
 #: kab/addressbook.cc:471
@@ -8255,8 +8355,7 @@ msgstr "Fajł pierazahružany."
 
 #: kab/addressbook.cc:572
 msgid ""
-"The currently loaded file \"%1\" cannot be reloaded. kab may close or save "
-"it.\n"
+"The currently loaded file \"%1\" cannot be reloaded. kab may close or save it.\n"
 "Save it if you accidentally deleted your data file.\n"
 "Close it if you intended to do so.\n"
 "Your file will be closed by default."
@@ -8967,11 +9066,14 @@ msgid "UNIX Sockets (specific for both current host and current user)"
 msgstr "Sokety UNIX (specyfičnyja dla kožnaha hosta i karystalnika)"
 
 #: kdecore/kde-config.cpp.in:203
-msgid "%1 - unknown type\n"
-msgstr "%1 - nieviadomy typ\n"
+msgid ""
+"%1 - unknown type\n"
+msgstr ""
+"%1 - nieviadomy typ\n"
 
 #: kdecore/kde-config.cpp.in:228
-msgid "%1 - unknown type of userpath\n"
+msgid ""
+"%1 - unknown type of userpath\n"
 msgstr ""
 
 #: attic/qtmultilineedit.cpp:2129
@@ -9132,12 +9234,14 @@ msgstr "Ni&e dla ŭsich"
 
 #: dialogs/qmessagebox.cpp:588
 msgid ""
-"<h3>About Qt</h3><p>This program uses Qt version %1.</p><p>Qt is a C++ "
-"toolkit for multiplatform GUI &amp; application development.</p><p>Qt "
-"provides single-source portability across MS&nbsp;Windows, "
-"Mac&nbsp;OS&nbsp;X, Linux, and all major commercial Unix variants.<br>Qt is "
-"also available for embedded devices.</p><p>Qt is a Trolltech product. See "
-"<tt>http://www.trolltech.com/qt/</tt> for more information.</p>"
+"<h3>About Qt</h3>"
+"<p>This program uses Qt version %1.</p>"
+"<p>Qt is a C++ toolkit for multiplatform GUI &amp; application development.</p>"
+"<p>Qt provides single-source portability across MS&nbsp;Windows, "
+"Mac&nbsp;OS&nbsp;X, Linux, and all major commercial Unix variants."
+"<br>Qt is also available for embedded devices.</p>"
+"<p>Qt is a Trolltech product. See <tt>http://www.trolltech.com/qt/</tt> "
+"for more information.</p>"
 msgstr ""
 
 #: dialogs/qmessagebox.cpp:1551
@@ -10260,8 +10364,8 @@ msgstr ""
 #: qxml_clean.cpp:65
 msgid ""
 "_: QXml\n"
-"encoding declaration or standalone declaration expected while reading the "
-"XML declaration"
+"encoding declaration or standalone declaration expected while reading the XML "
+"declaration"
 msgstr ""
 
 #: qxml_clean.cpp:66

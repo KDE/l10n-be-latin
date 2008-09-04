@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-03 10:05+0200\n"
+"POT-Creation-Date: 2008-09-04 09:39+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6317,7 +6317,7 @@ msgstr ""
 #: kdeui/dialogs/kshortcutseditor.cpp:453
 #: kdeui/dialogs/kshortcutseditor.cpp:469 kdeui/shortcuts/kglobalaccel.cpp:439
 #: kdeui/widgets/kkeysequencewidget.cpp:154
-#: kdeui/widgets/kkeysequencewidget.cpp:476
+#: kdeui/widgets/kkeysequencewidget.cpp:463
 msgid "Reassign"
 msgstr "Pieraviažy"
 
@@ -9261,11 +9261,11 @@ msgstr ""
 "<qt>Spałučeńnie klavišaŭ „%1” užo pryviazanaje da dziejańnia „<b>%2</b>”."
 "<br>Abiary inšaje spałučeńnie.</qt>"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:470
+#: kdeui/widgets/kkeysequencewidget.cpp:457
 msgid "Conflict with Standard Application Shortcut"
 msgstr "Niazhoda z zvyčajnym klavijaturnym skarotam aplikacyi"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:471
+#: kdeui/widgets/kkeysequencewidget.cpp:458
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -9276,12 +9276,12 @@ msgstr ""
 "2”, jakim karystajucca niekatoryja aplikacyi.\n"
 "Ci ty sapraŭdy chočaš zrabić hetaje spałučeńnie paŭsiudnym?"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:503
+#: kdeui/widgets/kkeysequencewidget.cpp:490
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "Uvod"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:510
+#: kdeui/widgets/kkeysequencewidget.cpp:497
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "Niama"
@@ -11966,14 +11966,17 @@ msgstr "Aplikacyja dla zahadnaha radka, kab vykonvać moduli „KUnitTest”."
 
 #: kde3support/kunittest/modrunner.cpp:46
 msgid "Only run modules whose filenames match the regexp."
-msgstr "Vykonvaj tolki tyja moduli, dla jakich nazvy fajłaŭ adpaviadajuć rehularnamu vyrazu."
+msgstr ""
+"Vykonvaj tolki tyja moduli, dla jakich nazvy fajłaŭ adpaviadajuć rehularnamu "
+"vyrazu."
 
 #: kde3support/kunittest/modrunner.cpp:47
 msgid ""
 "Only run tests modules which are found in the folder. Use the query option "
 "to select modules."
 msgstr ""
-"Vykonvaj tolki tyja testavyja moduli, jakija mieściacca ŭ aznačanym katalohu. Kab vybrać moduli, karystajsia opcyjaj zapytu."
+"Vykonvaj tolki tyja testavyja moduli, jakija mieściacca ŭ aznačanym "
+"katalohu. Kab vybrać moduli, karystajsia opcyjaj zapytu."
 
 #: kde3support/kunittest/modrunner.cpp:48
 msgid ""

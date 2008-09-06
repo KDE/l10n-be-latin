@@ -4838,17 +4838,17 @@ msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
 #: ../kioslave/file/file.cpp:206
 #, kde-format
 msgid "Setting ACL for %1"
-msgstr ""
+msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
 
 #: ../kioslave/file/file.cpp:235
 #, kde-format
 msgid "Could not get user id for given user name %1"
-msgstr ""
+msgstr "Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
 
 #: ../kioslave/file/file.cpp:248
 #, kde-format
 msgid "Could not get group id for given group name %1"
-msgstr ""
+msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."
 
 #: ../kioslave/file/file.cpp:791 ../kioslave/file/file.cpp:1026
 #, kde-format
@@ -4856,110 +4856,112 @@ msgid ""
 "Could not change permissions for\n"
 "%1"
 msgstr ""
+"Nie ŭdałosia źmianić dazvoły na\n"
+"%1"
 
 #: ../kioslave/file/file.cpp:957
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
-msgstr ""
+msgstr "Nie ŭdałosia skapijavać fajł z „%1” u „%2” (numar pamyłki: %3)."
 
 #: ../kioslave/file/file.cpp:1374
 #, kde-format
 msgid "No media in device for %1"
-msgstr ""
+msgstr "U pryładzie „%1” niama nośbitu."
 
 #: ../kioslave/file/file.cpp:1524
 msgid "No Media inserted or Media not recognized."
-msgstr ""
+msgstr "Nośbit nia ŭsunuty albo nie raspaznany."
 
 #: ../kioslave/file/file.cpp:1534 ../kioslave/file/file.cpp:1735
 msgid "\"vold\" is not running."
-msgstr ""
+msgstr "Słužba „vold” nie pracuje."
 
 #: ../kioslave/file/file.cpp:1569
 msgid "Could not find program \"mount\""
-msgstr ""
+msgstr "Nie ŭdałosia znajści prahramu „mount”."
 
 #: ../kioslave/file/file.cpp:1748
 msgid "Could not find program \"umount\""
-msgstr ""
+msgstr "Nie ŭdałosia znajści prahramu „umount”."
 
 #: ../kioslave/file/file.cpp:1836
 #, kde-format
 msgid "Could not read %1"
-msgstr ""
+msgstr "Nie ŭdałosia pračytać z „%1”."
 
 #: ../kioslave/http/http.cpp:485
 msgid "No host specified."
-msgstr ""
+msgstr "Host nie aznačany."
 
 #: ../kioslave/http/http.cpp:1437
 msgid "Otherwise, the request would have succeeded."
-msgstr ""
+msgstr "Inačaj zapyt by vykanaŭsia."
 
 #: ../kioslave/http/http.cpp:1441
 msgctxt "request type"
 msgid "retrieve property values"
-msgstr ""
+msgstr "atrymać vartaści dla ŭłaścivaściaŭ"
 
 #: ../kioslave/http/http.cpp:1444
 msgctxt "request type"
 msgid "set property values"
-msgstr ""
+msgstr "aznačyć vartaści dla ŭłaścivaściaŭ"
 
 #: ../kioslave/http/http.cpp:1447
 msgctxt "request type"
 msgid "create the requested folder"
-msgstr ""
+msgstr "stvaryć zapatrabavany kataloh"
 
 #: ../kioslave/http/http.cpp:1450
 msgctxt "request type"
 msgid "copy the specified file or folder"
-msgstr ""
+msgstr "skapijavać aznačany fajł ci kataloh"
 
 #: ../kioslave/http/http.cpp:1453
 msgctxt "request type"
 msgid "move the specified file or folder"
-msgstr ""
+msgstr "pieranieści aznačany fajł ci kataloh"
 
 #: ../kioslave/http/http.cpp:1456
 msgctxt "request type"
 msgid "search in the specified folder"
-msgstr ""
+msgstr "pašukać u aznačanym katalohu"
 
 #: ../kioslave/http/http.cpp:1459
 msgctxt "request type"
 msgid "lock the specified file or folder"
-msgstr ""
+msgstr "zablakavać aznačany fajł ci kataloh"
 
 #: ../kioslave/http/http.cpp:1462
 msgctxt "request type"
 msgid "unlock the specified file or folder"
-msgstr ""
+msgstr "adblakavać aznačany fajł ci kataloh"
 
 #: ../kioslave/http/http.cpp:1465
 msgctxt "request type"
 msgid "delete the specified file or folder"
-msgstr ""
+msgstr "vydalić aznačany fajł ci kataloh"
 
 #: ../kioslave/http/http.cpp:1468
 msgctxt "request type"
 msgid "query the server's capabilities"
-msgstr ""
+msgstr "zapytać u servera pra jahonyja zdolnaści"
 
 #: ../kioslave/http/http.cpp:1471
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
-msgstr ""
+msgstr "atrymać źmieściva aznačanaha fajła ci kataloha"
 
 #: ../kioslave/http/http.cpp:1483
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
-msgstr ""
+msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
 #: ../kioslave/http/http.cpp:1491
 msgid "The server does not support the WebDAV protocol."
-msgstr ""
+msgstr "Server nie absłuhoŭvaje pratakoł „WebDAV”."
 
 #: ../kioslave/http/http.cpp:1533
 #, kde-format
@@ -4968,22 +4970,24 @@ msgid ""
 "An error occurred while attempting to %1, %2. A summary of the reasons is "
 "below."
 msgstr ""
+"Padčas sproby %1 dla „%2” uźnikła pamyłka. Nižej padadzieny śpis pryčynaŭ."
 
 #: ../kioslave/http/http.cpp:1547 ../kioslave/http/http.cpp:1652
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
-msgstr ""
+msgstr "Sprobie %1 zabaronieny dostup."
 
 #: ../kioslave/http/http.cpp:1554
 msgid "The specified folder already exists."
-msgstr ""
+msgstr "Aznačany kataloh užo isnuje."
 
 #: ../kioslave/http/http.cpp:1560 ../kioslave/http/http.cpp:1657
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr ""
+"Niemahčyma stvaryć resurs u metavym miescy, pakul nia buduć stvorany pasiarednija katalohi, jakija viaduć da hetaha resursu."
 
 #: ../kioslave/http/http.cpp:1569
 #, kde-format
@@ -5000,17 +5004,17 @@ msgstr ""
 
 #: ../kioslave/http/http.cpp:1585
 msgid "The server does not support the request type of the body."
-msgstr ""
+msgstr "Server nie absłuhoŭvaje typu zapytaŭ, padadzienaha ŭ ciele."
 
 #: ../kioslave/http/http.cpp:1590 ../kioslave/http/http.cpp:1664
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
-msgstr ""
+msgstr "Nie ŭdałosia %1, bo resurs zablakavany."
 
 #: ../kioslave/http/http.cpp:1594
 msgid "This action was prevented by another error."
-msgstr ""
+msgstr "Hetaj aperacyi pieraškodziła inšaja pamyłka."
 
 #: ../kioslave/http/http.cpp:1601 ../kioslave/http/http.cpp:1669
 #, kde-format
@@ -5019,52 +5023,54 @@ msgid ""
 "Unable to %1 because the destination server refuses to accept the file or "
 "folder."
 msgstr ""
+"Nie ŭdałosia %1, bo metavy server nie pryniaŭ hetaha fajła ci kataloha."
 
 #: ../kioslave/http/http.cpp:1608 ../kioslave/http/http.cpp:1675
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr ""
+"Metavamu resursu nie chapiła volnaha miesca, kab zapisać novuju admienu, jakaja ŭźnikła paśla vykanańnia hetaj funkcyi."
 
 #: ../kioslave/http/http.cpp:1630
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
-msgstr ""
+msgstr "pakłaści „%1” na server"
 
 #: ../kioslave/http/http.cpp:1641
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
-msgstr ""
+msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
 #: ../kioslave/http/http.cpp:2390
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
-msgstr ""
+msgstr "Spałučany z „%1”. Čakańnie adkazu..."
 
 #: ../kioslave/http/http.cpp:2780
 msgid "Server processing request, please wait..."
-msgstr ""
+msgstr "Server pierapracoŭvaje zapyt. Pačakaj..."
 
 #: ../kioslave/http/http.cpp:3582
 msgid "Requesting data to send"
-msgstr ""
+msgstr "Zapyt źviestak dla vysyłańnia"
 
 #: ../kioslave/http/http.cpp:3619
 #, kde-format
 msgid "Sending data to %1"
-msgstr ""
+msgstr "Vysyłańnie źviestak u „%1”"
 
 #: ../kioslave/http/http.cpp:4027
 #, kde-format
 msgid "Retrieving %1 from %2..."
-msgstr ""
+msgstr "Atrymańnie „%1” ad „%2”..."
 
 #: ../kioslave/http/http.cpp:4033
 #, kde-format
 msgid "Retrieving from %1..."
-msgstr ""
+msgstr "Atrymańnie źviestak ad „%1”..."
 
 #: ../kioslave/http/http.cpp:4792 ../kioslave/http/http.cpp:4984
 msgid "Authentication Failed."
@@ -5077,7 +5083,7 @@ msgstr ""
 
 #: ../kioslave/http/http.cpp:4796
 msgid " Do you want to retry?"
-msgstr ""
+msgstr "Chočaš paŭtaryć?"
 
 #: ../kioslave/http/http.cpp:4797
 msgid "Authentication"
@@ -5087,17 +5093,18 @@ msgstr ""
 #: ../kioslave/http/http.cpp:5699
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
-msgstr ""
+msgstr "<b>%1</b> na <b>%2</b>"
 
 #: ../kioslave/http/http.cpp:4825 ../kioslave/http/http.cpp:5694
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
 msgstr ""
+"Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j parol dla proxy-servera."
 
 #: ../kioslave/http/http.cpp:4834 ../kioslave/http/http.cpp:5698
 msgid "Proxy:"
-msgstr ""
+msgstr "Proxy:"
 
 #: ../kioslave/http/http.cpp:4872
 #, kde-format
@@ -5111,11 +5118,11 @@ msgstr ""
 #: ../kioslave/http/http_cache_cleaner.cpp:199
 #: ../kioslave/http/http_cache_cleaner.cpp:200
 msgid "KDE HTTP cache maintenance tool"
-msgstr ""
+msgstr "Pryłada KDE dla kiravańnia padručnaj pamiaćciu HTTP"
 
 #: ../kioslave/http/http_cache_cleaner.cpp:203
 msgid "Empty the cache"
-msgstr ""
+msgstr "Vyčyści padručnuju pamiać"
 
 #: ../kioslave/http/kcookiejar/main.cpp:33
 msgid "HTTP Cookie Daemon"
@@ -5139,7 +5146,7 @@ msgstr ""
 
 #: ../kioslave/http/kcookiejar/main.cpp:43
 msgid "Reload configuration file"
-msgstr ""
+msgstr "Pieračytaj kanfihuracyjny fajł"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:65
 msgid "Cookie Alert"
@@ -5249,78 +5256,78 @@ msgstr ""
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:292
 msgid "Not specified"
-msgstr ""
+msgstr "Nie aznačana"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:301
 msgid "End of Session"
-msgstr ""
+msgstr "Kaniec sesii"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:306
 msgid "Secure servers only"
-msgstr ""
+msgstr "Tolki biaśpiečnyja servery"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:308
 msgid "Secure servers, page scripts"
-msgstr ""
+msgstr "Biaśpiečnyja servery j skrypty na staronkach"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:313
 msgid "Servers"
-msgstr ""
+msgstr "Servery"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:315
 msgid "Servers, page scripts"
-msgstr ""
+msgstr "Servery j skrypty na staronkach"
 
 #: ../kioslave/metainfo/metainfo.cpp:39
 msgid "kio_metainfo"
-msgstr ""
+msgstr "kio_metainfo"
 
 #: ../kioslave/metainfo/metainfo.cpp:98
 #, kde-format
 msgid "No metainfo for %1"
-msgstr ""
+msgstr "Niama metaźviestak pra „%1”."
 
 #: ../kfile/kfileplacesview.cpp:560
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
-msgstr ""
+msgstr "Vyčyści śmietnicu"
 
 #: ../kfile/kfileplacesview.cpp:566
 #, kde-format
 msgid "&Edit '%1'..."
-msgstr ""
+msgstr "&Redahuj „%1”..."
 
 #: ../kfile/kfileplacesview.cpp:585
 #, kde-format
 msgid "&Hide '%1'"
-msgstr ""
+msgstr "&Schavaj „%1”"
 
 #: ../kfile/kfileplacesview.cpp:592
 msgid "&Show All Entries"
-msgstr ""
+msgstr "&Pakažy ŭsie elementy"
 
 #: ../kfile/kfileplacesview.cpp:601
 #, kde-format
 msgid "&Remove '%1'"
-msgstr ""
+msgstr "&Vydali „%1”"
 
 #: ../kfile/kfileplacesview.cpp:610
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr ""
+msgstr "Ty sapraŭdy chočaš vyčyścić śmietnicu? Usio jejnaje źmieściva budzie vydalenaje."
 
 #: ../kfile/kfileplacesview.cpp:614
 msgctxt "@action:button"
 msgid "Empty Trash"
-msgstr ""
+msgstr "Vyčyści śmietnicu"
 
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1663
 msgid "*|All Files"
-msgstr ""
+msgstr "*|Usie fajły"
 
 #: ../kfile/kfilefiltercombo.cpp:181
 msgid "All Supported Files"
-msgstr ""
+msgstr "Fajły, jakija padtrymvajucca"
 
 #: ../kfile/kfilewidget.cpp:246
 msgid ""
@@ -5332,7 +5339,7 @@ msgstr ""
 #: ../kfile/kfilewidget.cpp:313
 #, kde-format
 msgid "Drive: %1"
-msgstr ""
+msgstr "Pryłada: %1"
 
 #: ../kfile/kfilewidget.cpp:368
 #, kde-format
@@ -5341,34 +5348,35 @@ msgid ""
 "if the current location is file:/home/%1 clicking this button will take you "
 "to file:/home.</qt>"
 msgstr ""
+"<qt>Klikni ŭ hetuju knopku, kab pierajści ŭ vyšejšy kataloh.<br /><br />Naprykład, kali ciapier ty ŭ miescy z adrasam „file:/home/%1”, to kliknuŭšy ŭ hetuju knopku, ty pierajdzieš u „file:/home”.</qt>"
 
 #: ../kfile/kfilewidget.cpp:373
 msgid "Click this button to move backwards one step in the browsing history."
-msgstr ""
+msgstr "Klikni ŭ hetuju knopku, kab viarnucca nazad na adzin krok u śpisie prahladanych miescaŭ."
 
 #: ../kfile/kfilewidget.cpp:375
 msgid "Click this button to move forward one step in the browsing history."
-msgstr ""
+msgstr "Klikni ŭ hetuju knopku, kab pajści napierad na adzin krok u śpisie prahladanych miescaŭ."
 
 #: ../kfile/kfilewidget.cpp:378
 msgid "Click this button to reload the contents of the current location."
-msgstr ""
+msgstr "Klikni ŭ hetuju knopku, kab pieračytać źmieściva hetaha miesca."
 
 #: ../kfile/kfilewidget.cpp:381
 msgid "Click this button to create a new folder."
-msgstr ""
+msgstr "Klikni ŭ hetuju knopku, kab stvaryć novy kataloh."
 
 #: ../kfile/kfilewidget.cpp:387
 msgid "Show Places Navigation Panel"
-msgstr ""
+msgstr "Pakažy panel miescaŭ"
 
 #: ../kfile/kfilewidget.cpp:394
 msgid "Show Bookmarks"
-msgstr ""
+msgstr "Pakažy zakładki"
 
 #: ../kfile/kfilewidget.cpp:399
 msgid "Options"
-msgstr ""
+msgstr "Opcyi"
 
 #: ../kfile/kfilewidget.cpp:401
 msgid ""
@@ -5378,10 +5386,13 @@ msgid ""
 "files</li><li>the Places navigation panel</li><li>file previews</"
 "li><li>separating folders from files</li></ul></qt>"
 msgstr ""
+"<qt>Heta menu ŭłasnych naładaŭ dla akna vybaru fajłaŭ. Tut možna vybrać: <ul><li>jak paradkavać fajły ŭ śpisie;</"
+"li><li>jak prahladać źmieściva katalohaŭ: jak ikony, u śpisie i h.d.;</li><li>ci pakazvać schavanyja fajły;</li><li>ci pakazvać panel miescaŭ;</li><li>ci pakazvać dla fajłaŭ padhlady;</"
+"li><li>ci adasablać katalohi ad fajłaŭ.</li></ul></qt>"
 
 #: ../kfile/kfilewidget.cpp:447 ../kfile/kfileplaceeditdialog.cpp:116
 msgid "&Location:"
-msgstr ""
+msgstr "&Miesca:"
 
 #: ../kfile/kfilewidget.cpp:484
 msgid ""
@@ -5393,17 +5404,17 @@ msgstr ""
 
 #: ../kfile/kfilewidget.cpp:490
 msgid "&Filter:"
-msgstr ""
+msgstr "&Filtruj:"
 
 #: ../kfile/kfilewidget.cpp:717 ../kfile/kfilewidget.cpp:766
 #: ../kfile/kfilewidget.cpp:1600
 msgid "You can only select local files."
-msgstr ""
+msgstr "Možna vybirać tolki lakalnyja fajły."
 
 #: ../kfile/kfilewidget.cpp:718 ../kfile/kfilewidget.cpp:767
 #: ../kfile/kfilewidget.cpp:1601
 msgid "Remote Files Not Accepted"
-msgstr ""
+msgstr "Nielha vydalać fajły"
 
 #: ../kfile/kfilewidget.cpp:757
 #, kde-format
@@ -5411,43 +5422,48 @@ msgid ""
 "%1\n"
 "does not appear to be a valid URL.\n"
 msgstr ""
+"%1\n"
+"nia jość pravilnym adrasam.\n"
 
 #: ../kfile/kfilewidget.cpp:757
 msgid "Invalid URL"
-msgstr ""
+msgstr "Niapravilny adras"
 
 #: ../kfile/kfilewidget.cpp:1191
 msgid "This is the name to save the file as."
-msgstr ""
+msgstr "Nazva dla zapisvanaha fajła."
 
 #: ../kfile/kfilewidget.cpp:1196
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
 msgstr ""
+"Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
 
 #: ../kfile/kfilewidget.cpp:1203
 msgid "This is the name of the file to open."
-msgstr ""
+msgstr "Nazva fajła, jaki treba adčynić."
 
 #: ../kfile/kfilewidget.cpp:1377
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-msgstr ""
+msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
 
 #: ../kfile/kfilewidget.cpp:1378
 msgid "Overwrite File?"
-msgstr ""
+msgstr "Nadpisać fajł?"
 
 #: ../kfile/kfilewidget.cpp:1532
 msgid ""
 "The chosen filenames do not\n"
 "appear to be valid."
 msgstr ""
+"Nazvy vybranych fajłaŭ\n"
+"niapravilnyja."
 
 #: ../kfile/kfilewidget.cpp:1534
 msgid "Invalid Filenames"
-msgstr ""
+msgstr "Niapravilnyja nazvy fajłaŭ"
 
 #: ../kfile/kfilewidget.cpp:1563
 #, kde-format
@@ -5457,32 +5473,36 @@ msgid ""
 "do not appear to be valid;\n"
 "make sure every filename is enclosed in double quotes."
 msgstr ""
+"Zapatrabavanyja nazvy fajłaŭ\n"
+"%1\n"
+"niapravilnyja.\n"
+"Spraŭdź, što kožnaja nazva fajła ŭłučanaja ŭ dvukośsi."
 
 #: ../kfile/kfilewidget.cpp:1567
 msgid "Filename Error"
-msgstr ""
+msgstr "Pamyłka ŭ naźvie fajła"
 
 #: ../kfile/kfilewidget.cpp:1660
 msgid "*|All Folders"
-msgstr ""
+msgstr "*|Usie katalohi"
 
 #: ../kfile/kfilewidget.cpp:1958
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
-msgstr ""
+msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
 
 #: ../kfile/kfilewidget.cpp:1959
 #, kde-format
 msgid "the extension <b>%1</b>"
-msgstr ""
+msgstr "pašyreńnie <b>%1</b>"
 
 #: ../kfile/kfilewidget.cpp:1967
 msgid "Automatically select filename e&xtension"
-msgstr ""
+msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
 
 #: ../kfile/kfilewidget.cpp:1968
 msgid "a suitable extension"
-msgstr ""
+msgstr "prydatnaje pašyreńnie"
 
 #: ../kfile/kfilewidget.cpp:1978
 #, kde-format
@@ -5511,63 +5531,63 @@ msgstr ""
 #: ../kfile/kfileplacesmodel.cpp:101
 msgctxt "Home Directory"
 msgid "Home"
-msgstr ""
+msgstr "Dom"
 
 #: ../kfile/kfileplacesmodel.cpp:103
 msgid "Network"
-msgstr ""
+msgstr "Sietka"
 
 #: ../kfile/kfileplacesmodel.cpp:107 ../kfile/kfileplacesmodel.cpp:110
 msgid "Root"
-msgstr ""
+msgstr "Korań"
 
 #: ../kfile/kfileplacesmodel.cpp:113
 msgid "Trash"
-msgstr ""
+msgstr "Śmietnica"
 
 #: ../kfile/kfileplacesmodel.cpp:687
 #, kde-format
 msgid "&Release '%1'"
-msgstr ""
+msgstr "&Vyzvali „%1”"
 
 #: ../kfile/kfileplacesmodel.cpp:689
 #, kde-format
 msgid "&Safely Remove '%1'"
-msgstr ""
+msgstr "&Biaśpiečna vysuń „%1”"
 
 #: ../kfile/kfileplacesmodel.cpp:692
 #, kde-format
 msgid "&Unmount '%1'"
-msgstr ""
+msgstr "&Admantuj „%1”"
 
 #: ../kfile/kfileplacesmodel.cpp:713
 #, kde-format
 msgid "&Eject '%1'"
-msgstr ""
+msgstr "V&ysuń „%1”"
 
 #: ../kfile/kfileplacesmodel.cpp:746
 #, kde-format
 msgid "The device '%1' is not a disc and can't be ejected."
-msgstr ""
+msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
 
 #: ../kfile/kfileplacesmodel.cpp:782
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
-msgstr ""
+msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
 
 #: ../kfile/kfileplacesmodel.cpp:786
 #, kde-format
 msgid "An error occurred while accessing '%1'"
-msgstr ""
+msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
 
 #: ../kfile/kurlnavigator.cpp:574
 msgid "Custom Path"
-msgstr ""
+msgstr "Ułasnaja ściežka"
 
 #: ../kfile/kdirselectdialog.cpp:115 ../kfile/kdiroperator.cpp:666
 #: ../kfile/kdiroperator.cpp:674
 msgid "New Folder"
-msgstr ""
+msgstr "Novy kataloh"
 
 #: ../kfile/kdirselectdialog.cpp:120
 #, kde-format
@@ -5576,34 +5596,36 @@ msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr ""
+"Stvary novy kataloh u:\n"
+"%1"
 
 #: ../kfile/kdirselectdialog.cpp:143 ../kfile/kdiroperator.cpp:701
 #, kde-format
 msgid "A file or folder named %1 already exists."
-msgstr ""
+msgstr "Fajł ci kataloh z nazvaj „%1” užo isnuje."
 
 #: ../kfile/kdirselectdialog.cpp:147 ../kfile/kdiroperator.cpp:704
 msgid "You do not have permission to create that folder."
-msgstr ""
+msgstr "Tabie nie staje dazvołu na stvareńnie hetaha kataloha."
 
 #: ../kfile/kdirselectdialog.cpp:225
 msgctxt "@action:button"
 msgid "New Folder..."
-msgstr ""
+msgstr "Novy kataloh..."
 
 #: ../kfile/kdirselectdialog.cpp:264
 msgctxt "@action:inmenu"
 msgid "New Folder..."
-msgstr ""
+msgstr "Novy kataloh..."
 
 #: ../kfile/kdirselectdialog.cpp:271
 msgctxt "@option:check"
 msgid "Show Hidden Folders"
-msgstr ""
+msgstr "Pakažy schavanyja katalohi"
 
 #: ../kfile/kfileplaceeditdialog.cpp:85
 msgid "Edit Places Entry"
-msgstr ""
+msgstr "Redahuj miesca"
 
 #: ../kfile/kfileplaceeditdialog.cpp:99
 msgid ""
@@ -5629,12 +5651,12 @@ msgstr ""
 
 #: ../kfile/kfileplaceeditdialog.cpp:127
 msgid "Choose an &icon:"
-msgstr ""
+msgstr "Vybiery &ikonu:"
 
 #: ../kfile/kfileplaceeditdialog.cpp:147
 #, kde-format
 msgid "&Only show when using this application (%1)"
-msgstr ""
+msgstr "Pakazvaj tolki dla &hetaj aplikacyi (%1)"
 
 #: ../kfile/kfileplaceeditdialog.cpp:149
 #, kde-format
@@ -5646,7 +5668,7 @@ msgstr ""
 
 #: ../kfile/kfiletreeview.cpp:185
 msgid "Show Hidden Folders"
-msgstr ""
+msgstr "Pakažy schavanyja katalohi"
 
 #: ../kfile/kdiroperator.cpp:675
 #, kde-format
@@ -5654,14 +5676,16 @@ msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr ""
+"Stvary novy kataloh u:\n"
+"%1"
 
 #: ../kfile/kdiroperator.cpp:719
 msgid "You did not select a file to delete."
-msgstr ""
+msgstr "Ty nia vybraŭ fajł, jaki chočaš vydalić."
 
 #: ../kfile/kdiroperator.cpp:720
 msgid "Nothing to Delete"
-msgstr ""
+msgstr "Niama čaho vydalać"
 
 #: ../kfile/kdiroperator.cpp:741
 #, kde-format
@@ -5669,18 +5693,20 @@ msgid ""
 "<qt>Do you really want to delete\n"
 " <b>'%1'</b>?</qt>"
 msgstr ""
+"<qt>Ci ty sapraŭdy chočaš vydalić\n"
+" <b>„%1”</b>?</qt>"
 
 #: ../kfile/kdiroperator.cpp:743
 msgid "Delete File"
-msgstr ""
+msgstr "Vydali fajł"
 
 #: ../kfile/kdiroperator.cpp:781
 msgid "You did not select a file to trash."
-msgstr ""
+msgstr "Ty nia vybraŭ fajł, jaki chočaš vykinuć u śmietnicu."
 
 #: ../kfile/kdiroperator.cpp:782
 msgid "Nothing to Trash"
-msgstr ""
+msgstr "Niama čaho vykidać u śmietnicu"
 
 #: ../kfile/kdiroperator.cpp:799
 #, kde-format
@@ -5688,74 +5714,77 @@ msgid ""
 "<qt>Do you really want to trash\n"
 " <b>'%1'</b>?</qt>"
 msgstr ""
+"<qt>Ci ty sapraŭdy chočaš vykinuć u śmietnicu\n"
+" <b>„%1”</b>?</qt>"
 
 #: ../kfile/kdiroperator.cpp:801
 msgid "Trash File"
-msgstr ""
+msgstr "Vykiń u śmietnicu"
 
 #: ../kfile/kdiroperator.cpp:802 ../kfile/kdiroperator.cpp:809
 msgctxt "to trash"
 msgid "&Trash"
-msgstr ""
+msgstr "&Vykiń"
 
 #: ../kfile/kdiroperator.cpp:806
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hety %1 element?"
+msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hetyja %1 elementy?"
+msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hetyja %1 elementaŭ?"
 
 #: ../kfile/kdiroperator.cpp:808
 msgid "Trash Files"
-msgstr ""
+msgstr "Vykiń fajły"
 
 #: ../kfile/kdiroperator.cpp:935 ../kfile/kdiroperator.cpp:1052
 msgid "The specified folder does not exist or was not readable."
-msgstr ""
+msgstr "Aznačany kataloh nie isnuje, albo ŭ jaho nielha pisać."
 
 #: ../kfile/kdiroperator.cpp:1594
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: ../kfile/kdiroperator.cpp:1598
 msgid "Parent Folder"
-msgstr ""
+msgstr "Vyšejšy kataloh"
 
 #: ../kfile/kdiroperator.cpp:1605
 msgid "Home Folder"
-msgstr ""
+msgstr "Chatni kataloh"
 
 #: ../kfile/kdiroperator.cpp:1608
 msgid "Reload"
-msgstr ""
+msgstr "Pieračytaj"
 
 #: ../kfile/kdiroperator.cpp:1611
 msgid "New Folder..."
-msgstr ""
+msgstr "Novy kataloh..."
 
 #: ../kfile/kdiroperator.cpp:1622
 msgid "Delete"
-msgstr ""
+msgstr "Vydali"
 
 #: ../kfile/kdiroperator.cpp:1629
 msgid "Sorting"
-msgstr ""
+msgstr "Paradak"
 
 #: ../kfile/kdiroperator.cpp:1632
 msgid "By Name"
-msgstr ""
+msgstr "Pavodle nazvaŭ"
 
 #: ../kfile/kdiroperator.cpp:1636
 msgid "By Size"
-msgstr ""
+msgstr "Pavodle pamieraŭ"
 
 #: ../kfile/kdiroperator.cpp:1640
 msgid "By Date"
-msgstr ""
+msgstr "Pavodle času"
 
 #: ../kfile/kdiroperator.cpp:1644
 msgid "By Type"
-msgstr ""
+msgstr "Pavodle typaŭ"
 
 #: ../kfile/kdiroperator.cpp:1648
 msgid "Descending"
@@ -5763,57 +5792,57 @@ msgstr ""
 
 #: ../kfile/kdiroperator.cpp:1658
 msgid "Short View"
-msgstr ""
+msgstr "Karotki vyhlad"
 
 #: ../kfile/kdiroperator.cpp:1663
 msgid "Detailed View"
-msgstr ""
+msgstr "Detalny vyhlad"
 
 #: ../kfile/kdiroperator.cpp:1668
 msgid "Tree View"
-msgstr ""
+msgstr "Hierarchičny vyhlad"
 
 #: ../kfile/kdiroperator.cpp:1673
 msgid "Detailed Tree View"
-msgstr ""
+msgstr "Detalny hierarchičny vyhlad"
 
 #: ../kfile/kdiroperator.cpp:1684
 msgid "Show Hidden Files"
-msgstr ""
+msgstr "Pakažy schavanyja fajły"
 
 #: ../kfile/kdiroperator.cpp:1688
 msgid "Show Preview"
-msgstr ""
+msgstr "Pakažy padhlady"
 
 #: ../kfile/kdiroperator.cpp:1701
 msgid "&View"
-msgstr ""
+msgstr "&Vyhlad"
 
 #: ../kfile/kurltogglebutton.cpp:76
 msgid "Click for Location Navigation"
-msgstr ""
+msgstr "Klikni, kab bačyć panel miesca"
 
 #: ../kfile/kurltogglebutton.cpp:78
 msgid "Click to Edit Location"
-msgstr ""
+msgstr "Klikni, kab adredahavać adras miesca"
 
 #: ../kfile/kurlbutton.cpp:90
 msgid "Copy"
-msgstr ""
+msgstr "Skapijuj"
 
 #: ../kfile/kurlbutton.cpp:94
 msgid "Paste"
-msgstr ""
+msgstr "Uklej"
 
 #: ../kfile/kurlbutton.cpp:101
 msgid "Edit"
-msgstr ""
+msgstr "Redahuj"
 
 #: ../kfile/kurlbutton.cpp:104
 msgid "Navigate"
-msgstr ""
+msgstr "Pierajdzi"
 
 #: ../kfile/kurlbutton.cpp:119
 msgid "Show Full Path"
-msgstr ""
+msgstr "Pakažy ŭsiu ściežku"
 

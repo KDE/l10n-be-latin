@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-04 09:39+0200\n"
+"POT-Creation-Date: 2008-09-08 09:39+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6178,7 +6178,7 @@ msgstr "Bolej nie pakazvaj hetkich paviedamleńniaŭ"
 
 #: kdeui/dialogs/kmessagebox.cpp:1021
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:73
-#: kdeui/widgets/khelpmenu.cpp:263 kde3support/kdeui/k3aboutdialog.cpp:1045
+#: kdeui/widgets/khelpmenu.cpp:264 kde3support/kdeui/k3aboutdialog.cpp:1045
 #, kde-format
 msgid "About %1"
 msgstr "Pra %1"
@@ -6928,17 +6928,17 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "Tut možna vybrać patrebny styl šryfta."
 
-#: kdeui/fonts/kfontchooser.cpp:292 kdeui/fonts/kfontchooser.cpp:614
+#: kdeui/fonts/kfontchooser.cpp:292 kdeui/fonts/kfontchooser.cpp:618
 msgctxt "@item font"
 msgid "Regular"
 msgstr "Zvyčajny"
 
-#: kdeui/fonts/kfontchooser.cpp:293 kdeui/fonts/kfontchooser.cpp:635
+#: kdeui/fonts/kfontchooser.cpp:293 kdeui/fonts/kfontchooser.cpp:639
 msgctxt "@item font"
 msgid "Italic"
 msgstr "Kursiŭny"
 
-#: kdeui/fonts/kfontchooser.cpp:294 kdeui/fonts/kfontchooser.cpp:636
+#: kdeui/fonts/kfontchooser.cpp:294 kdeui/fonts/kfontchooser.cpp:640
 msgctxt "@item font"
 msgid "Oblique"
 msgstr "Nachileny"
@@ -6998,7 +6998,7 @@ msgstr "Sapraŭdny šryft"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:621
+#: kdeui/fonts/kfontchooser.cpp:625
 #, kde-format
 msgctxt "@item Font style"
 msgid "%1"
@@ -7431,394 +7431,448 @@ msgctxt ""
 msgid "Hold %1, then push %2"
 msgstr "Zacisnuŭšy „%1”, klikni „%2”."
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:63
+#: kdeui/shortcuts/kstandardshortcut.cpp:85
 msgctxt "@action"
 msgid "Open"
 msgstr "Adčyni"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:64
+#: kdeui/shortcuts/kstandardshortcut.cpp:86
 msgctxt "@action"
 msgid "New"
 msgstr "Novy"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:65
+#: kdeui/shortcuts/kstandardshortcut.cpp:87
 msgctxt "@action"
 msgid "Close"
 msgstr "Začyni"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:66
+#: kdeui/shortcuts/kstandardshortcut.cpp:88
 msgctxt "@action"
 msgid "Save"
 msgstr "Zapišy"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:67
+#: kdeui/shortcuts/kstandardshortcut.cpp:89
 msgctxt "@action"
 msgid "Print"
 msgstr "Vydrukuj"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:68
+#: kdeui/shortcuts/kstandardshortcut.cpp:90
 msgctxt "@action"
 msgid "Quit"
 msgstr "Vyjdzi"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:71
+#: kdeui/shortcuts/kstandardshortcut.cpp:93
 msgctxt "@action"
 msgid "Undo"
 msgstr "Anuluj"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:72
+#: kdeui/shortcuts/kstandardshortcut.cpp:94
 msgctxt "@action"
 msgid "Redo"
 msgstr "Uznavi"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:73
+#: kdeui/shortcuts/kstandardshortcut.cpp:95
 msgctxt "@action"
 msgid "Cut"
 msgstr "Vytni"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:74
+#: kdeui/shortcuts/kstandardshortcut.cpp:96
 msgctxt "@action"
 msgid "Copy"
 msgstr "Skapijuj"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:75
+#: kdeui/shortcuts/kstandardshortcut.cpp:97
 msgctxt "@action"
 msgid "Paste"
 msgstr "Uklej"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:76
+#: kdeui/shortcuts/kstandardshortcut.cpp:98
 msgctxt "@action"
 msgid "Paste Selection"
 msgstr "Uklej vyłučeńnie"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:78
+#: kdeui/shortcuts/kstandardshortcut.cpp:100
 msgctxt "@action"
 msgid "Select All"
 msgstr "Vyłučy ŭsio"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:79
+#: kdeui/shortcuts/kstandardshortcut.cpp:101
 msgctxt "@action"
 msgid "Deselect"
 msgstr "Anuluj vyłučeńnie"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:80
+#: kdeui/shortcuts/kstandardshortcut.cpp:102
 msgctxt "@action"
 msgid "Delete Word Backwards"
 msgstr "Vyčyści papiaredniaje słova"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:81
+#: kdeui/shortcuts/kstandardshortcut.cpp:103
 msgctxt "@action"
 msgid "Delete Word Forward"
 msgstr "Vyčyści nastupnaje słova"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:83
+#: kdeui/shortcuts/kstandardshortcut.cpp:105
 msgctxt "@action"
 msgid "Find"
 msgstr "Šukaj"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:84
+#: kdeui/shortcuts/kstandardshortcut.cpp:106
 msgctxt "@action"
 msgid "Find Next"
 msgstr "Znajdzi nastupnaje"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:85
+#: kdeui/shortcuts/kstandardshortcut.cpp:107
 msgctxt "@action"
 msgid "Find Prev"
 msgstr "Znajdzi papiaredniaje"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:86
+#: kdeui/shortcuts/kstandardshortcut.cpp:108
 msgctxt "@action"
 msgid "Replace"
 msgstr "Zamiani"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:89
+#: kdeui/shortcuts/kstandardshortcut.cpp:111
 msgctxt "@action Go to main page"
 msgid "Home"
 msgstr "Dadomu"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:90
+#: kdeui/shortcuts/kstandardshortcut.cpp:112
 msgctxt "@action Beginning of document"
 msgid "Begin"
 msgstr "Pačatak"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:91
+#: kdeui/shortcuts/kstandardshortcut.cpp:113
 msgctxt "@action End of document"
 msgid "End"
 msgstr "Kaniec"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:92
+#: kdeui/shortcuts/kstandardshortcut.cpp:114
 msgctxt "@action"
 msgid "Prior"
 msgstr "Papiaredni"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:93
+#: kdeui/shortcuts/kstandardshortcut.cpp:115
 msgctxt "@action Opposite to Prior"
 msgid "Next"
 msgstr "Nastupny"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:95
+#: kdeui/shortcuts/kstandardshortcut.cpp:117
 msgctxt "@action"
 msgid "Up"
 msgstr "Uvierch"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:96
+#: kdeui/shortcuts/kstandardshortcut.cpp:118
 msgctxt "@action"
 msgid "Back"
 msgstr "Nazad"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:97
+#: kdeui/shortcuts/kstandardshortcut.cpp:119
 msgctxt "@action"
 msgid "Forward"
 msgstr "Napierad"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:98
+#: kdeui/shortcuts/kstandardshortcut.cpp:120
 msgctxt "@action"
 msgid "Reload"
 msgstr "Pieračytaj"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:100
+#: kdeui/shortcuts/kstandardshortcut.cpp:122
 msgctxt "@action"
 msgid "Beginning of Line"
 msgstr "U pačatak radka"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:101
+#: kdeui/shortcuts/kstandardshortcut.cpp:123
 msgctxt "@action"
 msgid "End of Line"
 msgstr "U kaniec radka"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:102
+#: kdeui/shortcuts/kstandardshortcut.cpp:124
 msgctxt "@action"
 msgid "Go to Line"
 msgstr "U peŭny radok"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:103
+#: kdeui/shortcuts/kstandardshortcut.cpp:125
 msgctxt "@action"
 msgid "Backward Word"
 msgstr "Da papiaredniaha słova"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:104
+#: kdeui/shortcuts/kstandardshortcut.cpp:126
 msgctxt "@action"
 msgid "Forward Word"
 msgstr "Da nastupnaha słova"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:106
+#: kdeui/shortcuts/kstandardshortcut.cpp:128
 msgctxt "@action"
 msgid "Add Bookmark"
 msgstr "Dadaj zakładku"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:107
+#: kdeui/shortcuts/kstandardshortcut.cpp:129
 msgctxt "@action"
 msgid "Zoom In"
 msgstr "Nabliź"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:108
+#: kdeui/shortcuts/kstandardshortcut.cpp:130
 msgctxt "@action"
 msgid "Zoom Out"
 msgstr "Addali"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:109
+#: kdeui/shortcuts/kstandardshortcut.cpp:131
 msgctxt "@action"
 msgid "Full Screen Mode"
 msgstr "Na ŭvieś ekran"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:111
+#: kdeui/shortcuts/kstandardshortcut.cpp:133
 msgctxt "@action"
 msgid "Show Menu Bar"
 msgstr "Pakažy menu"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:112
+#: kdeui/shortcuts/kstandardshortcut.cpp:134
 msgctxt "@action"
 msgid "Activate Next Tab"
 msgstr "Zadziejničaj nastupnuju kartku"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:113
+#: kdeui/shortcuts/kstandardshortcut.cpp:135
 msgctxt "@action"
 msgid "Activate Previous Tab"
 msgstr "Zadziejničaj papiaredniuju kartku"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:116
+#: kdeui/shortcuts/kstandardshortcut.cpp:138
 msgctxt "@action"
 msgid "Help"
 msgstr "Dapamoha"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:117
+#: kdeui/shortcuts/kstandardshortcut.cpp:139
 msgctxt "@action"
 msgid "What's This"
 msgstr "Što heta?"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:120
+#: kdeui/shortcuts/kstandardshortcut.cpp:142
 msgctxt "@action"
 msgid "Text Completion"
 msgstr "Zakančeńnie tekstu"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:121
+#: kdeui/shortcuts/kstandardshortcut.cpp:143
 msgctxt "@action"
 msgid "Previous Completion Match"
 msgstr "Papiaredni varyjant zakančeńnia"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:122
+#: kdeui/shortcuts/kstandardshortcut.cpp:144
 msgctxt "@action"
 msgid "Next Completion Match"
 msgstr "Nastupny varyjant zakančeńnia"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:123
+#: kdeui/shortcuts/kstandardshortcut.cpp:145
 msgctxt "@action"
 msgid "Substring Completion"
 msgstr "Zakančeńnia vyrazu"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:125
+#: kdeui/shortcuts/kstandardshortcut.cpp:147
 msgctxt "@action"
 msgid "Previous Item in List"
 msgstr "Papiaredni element u śpisie"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:126
+#: kdeui/shortcuts/kstandardshortcut.cpp:148
 msgctxt "@action"
 msgid "Next Item in List"
 msgstr "Nastupny element u śpisie"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:128
+#: kdeui/shortcuts/kstandardshortcut.cpp:150
+#, fuzzy
+#| msgid "Open &Recent"
 msgctxt "@action"
-msgid "OpenRecent"
-msgstr "Adčyni niadaŭnaje"
+msgid "Open Recent"
+msgstr "Adčyni &niadaŭnaje"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:129
+#: kdeui/shortcuts/kstandardshortcut.cpp:151
+#, fuzzy
+#| msgid "Save As"
 msgctxt "@action"
-msgid "SaveAs"
+msgid "Save As"
 msgstr "Zapišy jak"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:130
+#: kdeui/shortcuts/kstandardshortcut.cpp:152
 msgctxt "@action"
 msgid "Revert"
 msgstr "Viarni"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:131
+#: kdeui/shortcuts/kstandardshortcut.cpp:153
+#, fuzzy
+#| msgid "Print Preview"
 msgctxt "@action"
-msgid "PrintPreview"
+msgid "Print Preview"
 msgstr "Padhlad vydruku"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:132
+#: kdeui/shortcuts/kstandardshortcut.cpp:154
 msgctxt "@action"
 msgid "Mail"
 msgstr "Pošta"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:133
+#: kdeui/shortcuts/kstandardshortcut.cpp:155
 msgctxt "@action"
 msgid "Clear"
 msgstr "Ačyści"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:134
+#: kdeui/shortcuts/kstandardshortcut.cpp:156
+#, fuzzy
+#| msgid "&Actual Size"
 msgctxt "@action"
-msgid "ActualSize"
-msgstr "Sapraŭdny pamier"
+msgid "Actual Size"
+msgstr "&Sapraŭdny pamier"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:135
+#: kdeui/shortcuts/kstandardshortcut.cpp:157
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "FitToPage"
 msgctxt "@action"
-msgid "FitToPage"
+msgid "Fit To Page"
 msgstr "Układzi ŭ staronku"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:136
+#: kdeui/shortcuts/kstandardshortcut.cpp:158
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "FitToWidth"
 msgctxt "@action"
-msgid "FitToWidth"
+msgid "Fit To Width"
 msgstr "Układzi ŭ šyryniu staronki"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:137
+#: kdeui/shortcuts/kstandardshortcut.cpp:159
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "FitToHeight"
 msgctxt "@action"
-msgid "FitToHeight"
+msgid "Fit To Height"
 msgstr "Układzi ŭ vyšyniu staronki"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:138
+#: kdeui/shortcuts/kstandardshortcut.cpp:160
 msgctxt "@action"
 msgid "Zoom"
 msgstr "Maštabuj"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:139
+#: kdeui/shortcuts/kstandardshortcut.cpp:161
 msgctxt "@action"
 msgid "Goto"
 msgstr "Pierajdzi"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:140
+#: kdeui/shortcuts/kstandardshortcut.cpp:162
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "GotoPage"
 msgctxt "@action"
-msgid "GotoPage"
+msgid "Goto Page"
 msgstr "Pierajdzi na staronku"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:141
+#: kdeui/shortcuts/kstandardshortcut.cpp:163
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "DocumentBack"
 msgctxt "@action"
-msgid "DocumentBack"
+msgid "Document Back"
 msgstr "Nazad u dakumencie"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:142
+#: kdeui/shortcuts/kstandardshortcut.cpp:164
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "DocumentForward"
 msgctxt "@action"
-msgid "DocumentForward"
+msgid "Document Forward"
 msgstr "Napierad u dakumencie"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:143
+#: kdeui/shortcuts/kstandardshortcut.cpp:165
+#, fuzzy
+#| msgid "&Edit Bookmarks"
 msgctxt "@action"
-msgid "EditBookmarks"
-msgstr "Redahuj zakładki"
+msgid "Edit Bookmarks"
+msgstr "&Redahuj zakładki"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:144
+#: kdeui/shortcuts/kstandardshortcut.cpp:166
 msgctxt "@action"
 msgid "Spelling"
 msgstr "Pravapis"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:145
+#: kdeui/shortcuts/kstandardshortcut.cpp:167
+#, fuzzy
+#| msgid "Show &Toolbar"
 msgctxt "@action"
-msgid "ShowToolbar"
-msgstr "Pakažy panel pryładździa"
+msgid "Show Toolbar"
+msgstr "Pakažy &panel pryładździa"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:146
+#: kdeui/shortcuts/kstandardshortcut.cpp:168
+#, fuzzy
+#| msgid "Show St&atusbar"
 msgctxt "@action"
-msgid "ShowStatusbar"
-msgstr "Pakažy panel stanu"
+msgid "Show Statusbar"
+msgstr "Pakažy panel &stanu"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:147
+#: kdeui/shortcuts/kstandardshortcut.cpp:169
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "SaveOptions"
 msgctxt "@action"
-msgid "SaveOptions"
+msgid "Save Options"
 msgstr "Zapišy opcyi"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:148
+#: kdeui/shortcuts/kstandardshortcut.cpp:170
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "KeyBindings"
 msgctxt "@action"
-msgid "KeyBindings"
+msgid "Key Bindings"
 msgstr "Klavijaturnyja poviazi"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:149
+#: kdeui/shortcuts/kstandardshortcut.cpp:171
 msgctxt "@action"
 msgid "Preferences"
 msgstr "Asabistyja nałady"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:150
+#: kdeui/shortcuts/kstandardshortcut.cpp:172
+#, fuzzy
+#| msgid "Configure Toolbars"
 msgctxt "@action"
-msgid "ConfigureToolbars"
+msgid "Configure Toolbars"
 msgstr "Naładź paneli pryładździa"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:151
+#: kdeui/shortcuts/kstandardshortcut.cpp:173
+#, fuzzy
+#| msgid "Configure Notifications"
 msgctxt "@action"
-msgid "ConfigureNotifications"
+msgid "Configure Notifications"
 msgstr "Naładź nahadvańni"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:152
+#: kdeui/shortcuts/kstandardshortcut.cpp:174
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "TipofDay"
 msgctxt "@action"
-msgid "TipofDay"
+msgid "Tip Of Day"
 msgstr "Štodzionnyja parady"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:153
+#: kdeui/shortcuts/kstandardshortcut.cpp:175
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "ReportBug"
 msgctxt "@action"
-msgid "ReportBug"
+msgid "Report Bug"
 msgstr "Paviedam pra chibu"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:154
+#: kdeui/shortcuts/kstandardshortcut.cpp:176
+#, fuzzy
+#| msgid "Switch Application Language"
 msgctxt "@action"
-msgid "SwitchApplicationLanguage"
+msgid "Switch Application Language"
 msgstr "Źmiani movu aplikacyi"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:155
+#: kdeui/shortcuts/kstandardshortcut.cpp:177
+#, fuzzy
+#| msgid "Quit application"
 msgctxt "@action"
-msgid "AboutApp"
-msgstr "Pra aplikacyju"
+msgid "About Application"
+msgstr "Vyjdzi z aplikacyi"
 
-#: kdeui/shortcuts/kstandardshortcut.cpp:156
+#: kdeui/shortcuts/kstandardshortcut.cpp:178
+#, fuzzy
+#| msgid "About KDE"
 msgctxt "@action"
-msgid "AboutKDE"
+msgid "About KDE"
 msgstr "Pra KDE"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:157
@@ -9286,19 +9340,19 @@ msgctxt "No shortcut defined"
 msgid "None"
 msgstr "Niama"
 
-#: kdeui/widgets/keditlistbox.cpp:323
+#: kdeui/widgets/keditlistbox.cpp:328
 msgid "&Add"
 msgstr "&Dadaj"
 
-#: kdeui/widgets/keditlistbox.cpp:335
+#: kdeui/widgets/keditlistbox.cpp:340
 msgid "&Remove"
 msgstr "&Vydali"
 
-#: kdeui/widgets/keditlistbox.cpp:347
+#: kdeui/widgets/keditlistbox.cpp:352
 msgid "Move &Up"
 msgstr "Pasuń &vyšej"
 
-#: kdeui/widgets/keditlistbox.cpp:352
+#: kdeui/widgets/keditlistbox.cpp:357
 msgid "Move &Down"
 msgstr "Pasuń &nižej"
 
@@ -9331,20 +9385,20 @@ msgstr "&Padručnik pa %1"
 msgid "What's &This"
 msgstr "Što &heta"
 
-#: kdeui/widgets/khelpmenu.cpp:172 kdeui/actions/kstandardaction_p.h:114
+#: kdeui/widgets/khelpmenu.cpp:173 kdeui/actions/kstandardaction_p.h:114
 msgid "&Report Bug..."
 msgstr "&Paviedam pra chibu..."
 
-#: kdeui/widgets/khelpmenu.cpp:182 kdeui/actions/kstandardaction_p.h:115
+#: kdeui/widgets/khelpmenu.cpp:183 kdeui/actions/kstandardaction_p.h:115
 msgid "Switch Application &Language..."
 msgstr "Źmiani &movu aplikacyi..."
 
-#: kdeui/widgets/khelpmenu.cpp:193 kdeui/actions/kstandardaction_p.h:116
+#: kdeui/widgets/khelpmenu.cpp:194 kdeui/actions/kstandardaction_p.h:116
 #, kde-format
 msgid "&About %1"
 msgstr "&Pra %1"
 
-#: kdeui/widgets/khelpmenu.cpp:198 kdeui/actions/kstandardaction_p.h:117
+#: kdeui/widgets/khelpmenu.cpp:199 kdeui/actions/kstandardaction_p.h:117
 msgid "About &KDE"
 msgstr "Pra &KDE"
 
@@ -12324,3 +12378,51 @@ msgstr "Štodzionnyja &parady"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Niama takoj funkcyi: „%1”."
+
+#~ msgctxt "@action"
+#~ msgid "OpenRecent"
+#~ msgstr "Adčyni niadaŭnaje"
+
+#~ msgctxt "@action"
+#~ msgid "SaveAs"
+#~ msgstr "Zapišy jak"
+
+#~ msgctxt "@action"
+#~ msgid "PrintPreview"
+#~ msgstr "Padhlad vydruku"
+
+#~ msgctxt "@action"
+#~ msgid "ActualSize"
+#~ msgstr "Sapraŭdny pamier"
+
+#~ msgctxt "@action"
+#~ msgid "EditBookmarks"
+#~ msgstr "Redahuj zakładki"
+
+#~ msgctxt "@action"
+#~ msgid "ShowToolbar"
+#~ msgstr "Pakažy panel pryładździa"
+
+#~ msgctxt "@action"
+#~ msgid "ShowStatusbar"
+#~ msgstr "Pakažy panel stanu"
+
+#~ msgctxt "@action"
+#~ msgid "ConfigureToolbars"
+#~ msgstr "Naładź paneli pryładździa"
+
+#~ msgctxt "@action"
+#~ msgid "ConfigureNotifications"
+#~ msgstr "Naładź nahadvańni"
+
+#~ msgctxt "@action"
+#~ msgid "SwitchApplicationLanguage"
+#~ msgstr "Źmiani movu aplikacyi"
+
+#~ msgctxt "@action"
+#~ msgid "AboutApp"
+#~ msgstr "Pra aplikacyju"
+
+#~ msgctxt "@action"
+#~ msgid "AboutKDE"
+#~ msgstr "Pra KDE"

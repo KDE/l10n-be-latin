@@ -7,14 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-04 09:40+0200\n"
+"POT-Creation-Date: 2008-09-08 09:40+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: kio/netaccess.cpp:105
@@ -92,7 +93,7 @@ msgid "Unmounting"
 msgstr "Admantavańnie"
 
 #: kio/job.cpp:1987 kio/paste.cpp:63 kio/copyjob.cpp:1185 kio/copyjob.cpp:1715
-#: kio/global.cpp:678
+#: kio/global.cpp:677
 msgid "File Already Exists"
 msgstr "Fajł užo isnuje"
 
@@ -133,7 +134,10 @@ msgstr "%1 (%2)"
 msgid ""
 "The clipboard has changed since you used 'paste': the chosen data format is "
 "no longer applicable. Please copy again what you wanted to paste."
-msgstr "Źmieściva abmiennaha bufera źmianiłasia paśla vykarystańnia funkcyi ŭklejvańnia: vybrany farmat źviestak užo nieprydatny. Paŭtorna skapijuj toje, što chočaš ukleić."
+msgstr ""
+"Źmieściva abmiennaha bufera źmianiłasia paśla vykarystańnia funkcyi "
+"ŭklejvańnia: vybrany farmat źviestak užo nieprydatny. Paŭtorna skapijuj "
+"toje, što chočaš ukleić."
 
 #: kio/paste.cpp:191 kio/paste.cpp:239
 msgid "The clipboard is empty"
@@ -276,7 +280,9 @@ msgstr "Stoł nia ŭ siecivie"
 msgid ""
 "<qt>Could not modify the ownership of file <b>%1</b>. You have insufficient "
 "access to the file to perform the change.</qt>"
-msgstr "<qt>Nie ŭdałosia źmianić ułaśnikaŭ fajła „<b>%1</b>”. Tabie nie staje dazvołu na takija źmieny.</qt>"
+msgstr ""
+"<qt>Nie ŭdałosia źmianić ułaśnikaŭ fajła „<b>%1</b>”. Tabie nie staje "
+"dazvołu na takija źmieny.</qt>"
 
 #: kio/chmodjob.cpp:213
 msgid "&Skip File"
@@ -305,7 +311,8 @@ msgid ""
 "encrypted.\n"
 "This means that a third party could observe your data in transit."
 msgstr ""
-"Ty pakidaješ biaśpiečny režym. Źviestki bolš nia buduć vysyłacca zašyfravanymi.\n"
+"Ty pakidaješ biaśpiečny režym. Źviestki bolš nia buduć vysyłacca "
+"zašyfravanymi.\n"
 "Inšy karystańnik sieciva zmoža padhladzieć pierasyłanyja źviestki."
 
 #: kio/tcpslavebase.cpp:264 kio/tcpslavebase.cpp:513
@@ -329,7 +336,8 @@ msgid ""
 "This means that no third party will be able to easily observe your data in "
 "transit."
 msgstr ""
-"Ty ŭvachodziš u biaśpiečny režym. Źviestki buduć vysyłacca zašyfravanymi (kali nie paznačana inačaj).\n"
+"Ty ŭvachodziš u biaśpiečny režym. Źviestki buduć vysyłacca zašyfravanymi "
+"(kali nie paznačana inačaj).\n"
 "Inšy karystańnik sieciva nia zmoža lohka padhladzieć pierasyłanyja źviestki."
 
 #: kio/tcpslavebase.cpp:514
@@ -377,8 +385,11 @@ msgid "Co&ntinue"
 msgstr "&Praciahvaj"
 
 #: kio/tcpslavebase.cpp:797
-msgid "Would you like to accept this certificate forever without being prompted?"
-msgstr "Ci chočaš nadalej pryjmać hety sertyfikat, nie paćviardžajučy štoraz svaju zhodu?"
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
+msgstr ""
+"Ci chočaš nadalej pryjmać hety sertyfikat, nie paćviardžajučy štoraz svaju "
+"zhodu?"
 
 #: kio/tcpslavebase.cpp:801
 msgid "&Forever"
@@ -392,7 +403,9 @@ msgstr "&Tolki dla dziejnych sesijaŭ"
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
-msgstr "Ty adkazaŭ, što chočaš pryniać hety sertyfikat, ale jon nie naležyć serveru, jaki jaho pakazvaje. Sapraŭdy chočaš praciahnuć čytańnie?"
+msgstr ""
+"Ty adkazaŭ, što chočaš pryniać hety sertyfikat, ale jon nie naležyć serveru, "
+"jaki jaho pakazvaje. Sapraŭdy chočaš praciahnuć čytańnie?"
 
 #: kio/tcpslavebase.cpp:913
 msgid ""
@@ -441,7 +454,7 @@ msgstr "Abmini"
 msgid "AutoSkip"
 msgstr "Aŭtamatyčna abminaj"
 
-#: kio/copyjob.cpp:902 kio/global.cpp:688
+#: kio/copyjob.cpp:902 kio/global.cpp:687
 msgid "Folder Already Exists"
 msgstr "Kataloh užo isnuje"
 
@@ -457,7 +470,7 @@ msgstr "Zdabyvańnie vyjavy"
 msgid "OCR Image"
 msgstr "Raspaznańnie vyjavy"
 
-#: kio/global.cpp:93
+#: kio/global.cpp:92
 #, kde-format
 msgid "1 day %2"
 msgid_plural "%1 days %2"
@@ -465,11 +478,11 @@ msgstr[0] "%1 dzień %2"
 msgstr[1] "%1 dni %2"
 msgstr[2] "%1 dzion %2"
 
-#: kio/global.cpp:123
+#: kio/global.cpp:122
 msgid "No Items"
 msgstr "Niama elementaŭ"
 
-#: kio/global.cpp:123
+#: kio/global.cpp:122
 #, kde-format
 msgid "One Item"
 msgid_plural "%1 Items"
@@ -477,11 +490,11 @@ msgstr[0] "%1 element"
 msgstr[1] "%1 elementy"
 msgstr[2] "%1 elementaŭ"
 
-#: kio/global.cpp:124
+#: kio/global.cpp:123
 msgid "No Files"
 msgstr "Niama fajłaŭ"
 
-#: kio/global.cpp:124
+#: kio/global.cpp:123
 #, kde-format
 msgid "One File"
 msgid_plural "%1 Files"
@@ -489,11 +502,11 @@ msgstr[0] "%1 fajł"
 msgstr[1] "%1 fajły"
 msgstr[2] "%1 fajłaŭ"
 
-#: kio/global.cpp:125
+#: kio/global.cpp:124
 msgid "No Folders"
 msgstr "Niama katalohaŭ"
 
-#: kio/global.cpp:125
+#: kio/global.cpp:124
 #, kde-format
 msgid "One Folder"
 msgid_plural "%1 Folders"
@@ -501,39 +514,39 @@ msgstr[0] "%1 kataloh"
 msgstr[1] "%1 katalohi"
 msgstr[2] "%1 katalohaŭ"
 
-#: kio/global.cpp:127
+#: kio/global.cpp:126
 #, kde-format
 msgid "(%1 Total)"
 msgstr "(%1 razam)"
 
-#: kio/global.cpp:128
+#: kio/global.cpp:127
 #, kde-format
 msgctxt "Items (Folders, Files), Size"
 msgid "%1 (%2, %3), %4"
 msgstr "%1 (%2, %3), %4"
 
-#: kio/global.cpp:130
+#: kio/global.cpp:129
 #, kde-format
 msgctxt "Items (Folders, Files)"
 msgid "%1 (%2, %3)"
 msgstr "%1 (%2, %3)"
 
-#: kio/global.cpp:158
+#: kio/global.cpp:157
 #, kde-format
 msgid "Could not read %1."
 msgstr "Nie ŭdałosia pračytać z „%1”."
 
-#: kio/global.cpp:161
+#: kio/global.cpp:160
 #, kde-format
 msgid "Could not write to %1."
 msgstr "Nie ŭdałosia zapisać u „%1”."
 
-#: kio/global.cpp:164
+#: kio/global.cpp:163
 #, kde-format
 msgid "Could not start process %1."
 msgstr "Nie ŭdałosia ŭklučyć praces „%1”."
 
-#: kio/global.cpp:167
+#: kio/global.cpp:166
 #, kde-format
 msgid ""
 "Internal Error\n"
@@ -544,61 +557,61 @@ msgstr ""
 "Kali łaska, paviedam pra hetuju chibu praz placoŭku: „http://bugs.kde.org”\n"
 "%1"
 
-#: kio/global.cpp:170
+#: kio/global.cpp:169
 #, kde-format
 msgid "Malformed URL %1."
 msgstr "Kiepski adras „%1”."
 
-#: kio/global.cpp:173
+#: kio/global.cpp:172
 #, kde-format
 msgid "The protocol %1 is not supported."
 msgstr "Pratakoł „%1” nie padtrymvajecca."
 
-#: kio/global.cpp:176
+#: kio/global.cpp:175
 #, kde-format
 msgid "The protocol %1 is only a filter protocol."
 msgstr "Pratakoł „%1” jość tolki filtracyjnym."
 
-#: kio/global.cpp:183
+#: kio/global.cpp:182
 #, kde-format
 msgid "%1 is a folder, but a file was expected."
 msgstr "„%1” jość kataloham, choć čakaŭsia fajł."
 
-#: kio/global.cpp:186
+#: kio/global.cpp:185
 #, kde-format
 msgid "%1 is a file, but a folder was expected."
 msgstr "„%1” jość fajłam, choć čakaŭsia kataloh."
 
-#: kio/global.cpp:189
+#: kio/global.cpp:188
 #, kde-format
 msgid "The file or folder %1 does not exist."
 msgstr "Fajł ci kataloh „%1” nie isnuje."
 
-#: kio/global.cpp:192
+#: kio/global.cpp:191
 #, kde-format
 msgid "A file named %1 already exists."
 msgstr "Fajł z nazvaj „%1” užo isnuje."
 
-#: kio/global.cpp:195
+#: kio/global.cpp:194
 #, kde-format
 msgid "A folder named %1 already exists."
 msgstr "Kataloh z nazvaj „%1” užo isnuje."
 
-#: kio/global.cpp:198
+#: kio/global.cpp:197
 msgid "No hostname specified."
 msgstr "Nazva host nie aznačanaja."
 
-#: kio/global.cpp:198
+#: kio/global.cpp:197
 #, kde-format
 msgid "Unknown host %1"
 msgstr "Nieviadomy host „%1”."
 
-#: kio/global.cpp:201
+#: kio/global.cpp:200
 #, kde-format
 msgid "Access denied to %1."
 msgstr "Dostup da „%1” zabaronieny."
 
-#: kio/global.cpp:204
+#: kio/global.cpp:203
 #, kde-format
 msgid ""
 "Access denied.\n"
@@ -607,47 +620,47 @@ msgstr ""
 "Dostup zabaronieny.\n"
 "Nie ŭdałosia zapisać u „%1”."
 
-#: kio/global.cpp:207
+#: kio/global.cpp:206
 #, kde-format
 msgid "Could not enter folder %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ kataloh „%1”."
 
-#: kio/global.cpp:210
+#: kio/global.cpp:209
 #, kde-format
 msgid "The protocol %1 does not implement a folder service."
 msgstr "Pratakoł „%1” nia maje funkcyjaŭ dla katalohaŭ."
 
-#: kio/global.cpp:213
+#: kio/global.cpp:212
 #, kde-format
 msgid "Found a cyclic link in %1."
 msgstr "Znojdzieny cykličny łuč u „%1”."
 
-#: kio/global.cpp:219
+#: kio/global.cpp:218
 #, kde-format
 msgid "Found a cyclic link while copying %1."
 msgstr "Padčas kapijavańnia „%1” znojdzieny cykličny łuč."
 
-#: kio/global.cpp:222
+#: kio/global.cpp:221
 #, kde-format
 msgid "Could not create socket for accessing %1."
 msgstr "Nie ŭdałosia stvaryć sokiet dla dostupu da „%1”."
 
-#: kio/global.cpp:225
+#: kio/global.cpp:224
 #, kde-format
 msgid "Could not connect to host %1."
 msgstr "Nie ŭdałosia spałučycca z hostam „%1”."
 
-#: kio/global.cpp:228
+#: kio/global.cpp:227
 #, kde-format
 msgid "Connection to host %1 is broken."
 msgstr "Spałučeńnie z hostam „%1” złamałasia."
 
-#: kio/global.cpp:231
+#: kio/global.cpp:230
 #, kde-format
 msgid "The protocol %1 is not a filter protocol."
 msgstr "Pratakoł „%1” nie filtracyjny."
 
-#: kio/global.cpp:234
+#: kio/global.cpp:233
 #, kde-format
 msgid ""
 "Could not mount device.\n"
@@ -658,7 +671,7 @@ msgstr ""
 "Uźnikła nastupnaja pamyłka:\n"
 "%1"
 
-#: kio/global.cpp:237
+#: kio/global.cpp:236
 #, kde-format
 msgid ""
 "Could not unmount device.\n"
@@ -669,82 +682,82 @@ msgstr ""
 "Uźnikła nastupnaja pamyłka:\n"
 "%1"
 
-#: kio/global.cpp:240
+#: kio/global.cpp:239
 #, kde-format
 msgid "Could not read file %1."
 msgstr "Nie ŭdałosia pračytać z fajła „%1”."
 
-#: kio/global.cpp:243
+#: kio/global.cpp:242
 #, kde-format
 msgid "Could not write to file %1."
 msgstr "Nie ŭdałosia zapisać u fajł „%1”."
 
-#: kio/global.cpp:246
+#: kio/global.cpp:245
 #, kde-format
 msgid "Could not bind %1."
 msgstr "Nie ŭdałosia paviazać „%1”."
 
-#: kio/global.cpp:249
+#: kio/global.cpp:248
 #, kde-format
 msgid "Could not listen %1."
 msgstr "Nie ŭdałosia prasłuchać „%1”."
 
-#: kio/global.cpp:252
+#: kio/global.cpp:251
 #, kde-format
 msgid "Could not accept %1."
 msgstr "Nie ŭdałosia pryniać „%1”."
 
-#: kio/global.cpp:258
+#: kio/global.cpp:257
 #, kde-format
 msgid "Could not access %1."
 msgstr "Nie ŭdałosia dastupicca da „%1”."
 
-#: kio/global.cpp:261
+#: kio/global.cpp:260
 #, kde-format
 msgid "Could not terminate listing %1."
 msgstr "Nie ŭdałosia spynić prahlad „%1”."
 
-#: kio/global.cpp:264
+#: kio/global.cpp:263
 #, kde-format
 msgid "Could not make folder %1."
 msgstr "Nie ŭdałosia stvaryć kataloh „%1”."
 
-#: kio/global.cpp:267
+#: kio/global.cpp:266
 #, kde-format
 msgid "Could not remove folder %1."
 msgstr "Nie ŭdałosia vydalić kataloh „%1”."
 
-#: kio/global.cpp:270
+#: kio/global.cpp:269
 #, kde-format
 msgid "Could not resume file %1."
 msgstr ""
 
-#: kio/global.cpp:273
+#: kio/global.cpp:272
 #, kde-format
 msgid "Could not rename file %1."
 msgstr "Nie ŭdałosia źmianić nazvu fajła „%1”."
 
-#: kio/global.cpp:276
+#: kio/global.cpp:275
 #, kde-format
 msgid "Could not change permissions for %1."
 msgstr "Nie ŭdałosia źmianić dazvoły na „%1”."
 
-#: kio/global.cpp:279
+#: kio/global.cpp:278
 #, kde-format
 msgid "Could not change ownership for %1."
 msgstr "Nie ŭdałosia źmianić ułaśnika „%1”."
 
-#: kio/global.cpp:282
+#: kio/global.cpp:281
 #, kde-format
 msgid "Could not delete file %1."
 msgstr "Nie ŭdałosia vydalić fajł „%1”."
 
-#: kio/global.cpp:285
+#: kio/global.cpp:284
 #, kde-format
 msgid "The process for the %1 protocol died unexpectedly."
 msgstr "Praces, jaki absłuhoŭvaje pratakoł „%1”, niečakana źniščyŭsia."
 
-#: kio/global.cpp:288
+#: kio/global.cpp:287
 #, kde-format
 msgid ""
 "Error. Out of memory.\n"
@@ -753,7 +766,7 @@ msgstr ""
 "Pamyłka: nie staje pamiaci.\n"
 "%1"
 
-#: kio/global.cpp:291
+#: kio/global.cpp:290
 #, kde-format
 msgid ""
 "Unknown proxy host\n"
@@ -762,12 +775,12 @@ msgstr ""
 "Nieviadomy proxy-host\n"
 "%1"
 
-#: kio/global.cpp:294
+#: kio/global.cpp:293
 #, kde-format
 msgid "Authorization failed, %1 authentication not supported"
 msgstr ""
 
-#: kio/global.cpp:297
+#: kio/global.cpp:296
 #, kde-format
 msgid ""
 "User canceled action\n"
@@ -776,7 +789,7 @@ msgstr ""
 "Karystańnik anulavaŭ aperacyju\n"
 "%1"
 
-#: kio/global.cpp:300
+#: kio/global.cpp:299
 #, kde-format
 msgid ""
 "Internal error in server\n"
@@ -785,14 +798,14 @@ msgstr ""
 "Unutranaja pamyłka ŭ servery\n"
 "%1"
 
-#: kio/global.cpp:303
+#: kio/global.cpp:302
 #, kde-format
 msgid ""
 "Timeout on server\n"
 "%1"
 msgstr ""
 
-#: kio/global.cpp:306
+#: kio/global.cpp:305
 #, kde-format
 msgid ""
 "Unknown error\n"
@@ -801,14 +814,14 @@ msgstr ""
 "Nieviadomaja pamyłka\n"
 "%1"
 
-#: kio/global.cpp:309
+#: kio/global.cpp:308
 #, kde-format
 msgid ""
 "Unknown interrupt\n"
 "%1"
 msgstr ""
 
-#: kio/global.cpp:320
+#: kio/global.cpp:319
 #, kde-format
 msgid ""
 "Could not delete original file %1.\n"
@@ -817,7 +830,7 @@ msgstr ""
 "Nie ŭdałosia vydalić pieršasny fajł „%1”.\n"
 "Pravier dazvoły."
 
-#: kio/global.cpp:323
+#: kio/global.cpp:322
 #, kde-format
 msgid ""
 "Could not delete partial file %1.\n"
@@ -826,7 +839,7 @@ msgstr ""
 "Nie ŭdałosia vydalić niapoŭny fajł „%1”.\n"
 "Pravier dazvoły."
 
-#: kio/global.cpp:326
+#: kio/global.cpp:325
 #, kde-format
 msgid ""
 "Could not rename original file %1.\n"
@@ -835,7 +848,7 @@ msgstr ""
 "Nie ŭdałosia źmianić nazvu pieršasnaha fajła „%1”.\n"
 "Pravier dazvoły."
 
-#: kio/global.cpp:329
+#: kio/global.cpp:328
 #, kde-format
 msgid ""
 "Could not rename partial file %1.\n"
@@ -844,7 +857,7 @@ msgstr ""
 "Nie ŭdałosia źmianić nazvu niapoŭnaha fajła „%1”.\n"
 "Pravier dazvoły."
 
-#: kio/global.cpp:332
+#: kio/global.cpp:331
 #, kde-format
 msgid ""
 "Could not create symlink %1.\n"
@@ -853,7 +866,7 @@ msgstr ""
 "Nie ŭdałosia stvaryć symbalny łuč „%1”.\n"
 "Pravier dazvoły."
 
-#: kio/global.cpp:338
+#: kio/global.cpp:337
 #, kde-format
 msgid ""
 "Could not write file %1.\n"
@@ -862,7 +875,7 @@ msgstr ""
 "Nie ŭdałosia zapisać fajł „%1”.\n"
 "Uvieś dysk zapoŭnieny."
 
-#: kio/global.cpp:341
+#: kio/global.cpp:340
 #, kde-format
 msgid ""
 "The source and destination are the same file.\n"
@@ -871,16 +884,16 @@ msgstr ""
 "Krynica j meta jość adnym fajłam.\n"
 "%1"
 
-#: kio/global.cpp:347
+#: kio/global.cpp:346
 #, kde-format
 msgid "%1 is required by the server, but is not available."
 msgstr "Server vymahaje „%1”, ale jaho niama."
 
-#: kio/global.cpp:350
+#: kio/global.cpp:349
 msgid "Access to restricted port in POST denied."
 msgstr "Dostup funkcyi „POST” da abmiežavanaha porta zabaronieny."
 
-#: kio/global.cpp:353
+#: kio/global.cpp:352
 #, kde-format
 msgid ""
 "Unknown error code %1\n"
@@ -891,206 +904,217 @@ msgstr ""
 "%2\n"
 "Kali łaska, paviedam pra chibu praz placoŭku: „http://bugs.kde.org”."
 
-#: kio/global.cpp:363
+#: kio/global.cpp:362
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje adčynieńnie spałučeńniaŭ."
 
-#: kio/global.cpp:365
+#: kio/global.cpp:364
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje začynieńnie spałučeńniaŭ."
 
-#: kio/global.cpp:367
+#: kio/global.cpp:366
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje dostup da fajłaŭ."
 
-#: kio/global.cpp:369
+#: kio/global.cpp:368
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: kio/global.cpp:371
+#: kio/global.cpp:370
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje anijakich asablivych aperacyjaŭ."
 
-#: kio/global.cpp:373
+#: kio/global.cpp:372
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje prahlad źmieściva katalohaŭ."
 
-#: kio/global.cpp:375
+#: kio/global.cpp:374
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "Atrymańnie źviestak z „%1” nie padtrymvajecca."
 
-#: kio/global.cpp:377
+#: kio/global.cpp:376
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "Atrymańnie źviestak pra typy MIME z „%1” nie padtrymvajecca."
 
-#: kio/global.cpp:379
+#: kio/global.cpp:378
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "Źmianieńnie nazvaŭ i pieraniasieńnie fajłaŭ u „%1” nie padtrymvajecca."
 
-#: kio/global.cpp:381
+#: kio/global.cpp:380
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje stvareńnie symbalnych łučoŭ."
 
-#: kio/global.cpp:383
+#: kio/global.cpp:382
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "Kapijavańnie fajłaŭ u „%1” nie padtrymvajecca."
 
-#: kio/global.cpp:385
+#: kio/global.cpp:384
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "Vydaleńnie fajłaŭ z „%1” nie padtrymvajecca."
 
-#: kio/global.cpp:387
+#: kio/global.cpp:386
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje stvareńnie katalohaŭ."
 
-#: kio/global.cpp:389
+#: kio/global.cpp:388
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje źmianieńnie atrybutaŭ fajła."
 
-#: kio/global.cpp:391
+#: kio/global.cpp:390
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje źmianieńnie ŭłaśnika fajłaŭ."
 
-#: kio/global.cpp:393
+#: kio/global.cpp:392
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "Karystańnie ŭnutranymi adrasami z „%1” nie padtrymvajecca."
 
-#: kio/global.cpp:395
+#: kio/global.cpp:394
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje atrymańnie niekalkich fajłaŭ."
 
-#: kio/global.cpp:397
+#: kio/global.cpp:396
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje adčynieńnie fajłaŭ."
 
-#: kio/global.cpp:399
+#: kio/global.cpp:398
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "Pratakoł „%1” nie padtrymvaje aperacyju „%2”."
 
-#: kio/global.cpp:419
+#: kio/global.cpp:418
 msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(nieviadomy)"
 
-#: kio/global.cpp:427
+#: kio/global.cpp:426
 #, kde-format
 msgctxt "@info %1 error name, %2 description"
 msgid "<qt><p><b>%1</b></p><p>%2</p></qt>"
 msgstr "<qt><p><b>%1</b></p><p>%2</p></qt>"
 
-#: kio/global.cpp:431
+#: kio/global.cpp:430
 msgid "<b>Technical reason</b>: "
 msgstr "<b>Techničnaja pryčyna</b>: "
 
-#: kio/global.cpp:433
+#: kio/global.cpp:432
 msgid "<b>Details of the request</b>:"
 msgstr "<b>Detali zapytu</b>:"
 
-#: kio/global.cpp:434
+#: kio/global.cpp:433
 #, kde-format
 msgid "<li>URL: %1</li>"
 msgstr "<li>Adras: %1</li>"
 
-#: kio/global.cpp:436
+#: kio/global.cpp:435
 #, kde-format
 msgid "<li>Protocol: %1</li>"
 msgstr "<li>Pratakoł: %1</li>"
 
-#: kio/global.cpp:438
+#: kio/global.cpp:437
 #, kde-format
 msgid "<li>Date and time: %1</li>"
 msgstr "<li>Data j čas: %1</li>"
 
-#: kio/global.cpp:439
+#: kio/global.cpp:438
 #, kde-format
 msgid "<li>Additional information: %1</li>"
 msgstr "<li>Dadatkovyja źviestki: %1</li>"
 
-#: kio/global.cpp:442
+#: kio/global.cpp:441
 msgid "<b>Possible causes</b>:"
 msgstr "<b>Mahčymyja pryčyny</b>:"
 
-#: kio/global.cpp:447
+#: kio/global.cpp:446
 msgid "<b>Possible solutions</b>:"
 msgstr "<b>Mahčymyja raźviazki</b>:"
 
-#: kio/global.cpp:505
+#: kio/global.cpp:504
 msgctxt "@info protocol"
 msgid "(unknown)"
 msgstr "(nieviadomy)"
 
-#: kio/global.cpp:515
+#: kio/global.cpp:514
 msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
-msgstr "Ty možaš źviarnucca ŭ svaju systemu kamputarnaj padtrymki albo da svajho administratara pa dapamohu."
+msgstr ""
+"Ty možaš źviarnucca ŭ svaju systemu kamputarnaj padtrymki albo da svajho "
+"administratara pa dapamohu."
 
-#: kio/global.cpp:518
+#: kio/global.cpp:517
 msgid "Contact the administrator of the server for further assistance."
 msgstr "Ty možaš źviarnucca da svajho administratara pa dapamohu."
 
-#: kio/global.cpp:521
+#: kio/global.cpp:520
 msgid "Check your access permissions on this resource."
 msgstr "Spraŭdź svaje dazvoły dostupu da hetaha resursu."
 
-#: kio/global.cpp:522
+#: kio/global.cpp:521
 msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
 "on this resource."
-msgstr "Tvaich dazvołaŭ dostupu da hetaha resursu moža nie stavać dla zapatrabavanaj aperacyi."
+msgstr ""
+"Tvaich dazvołaŭ dostupu da hetaha resursu moža nie stavać dla zapatrabavanaj "
+"aperacyi."
 
-#: kio/global.cpp:524
-msgid "The file may be in use (and thus locked) by another user or application."
-msgstr "Inšy karystańnik ci aplikacyja mohuć užo karystacca hetym fajłam, zablakavaŭšy jaho."
+#: kio/global.cpp:523
+msgid ""
+"The file may be in use (and thus locked) by another user or application."
+msgstr ""
+"Inšy karystańnik ci aplikacyja mohuć užo karystacca hetym fajłam, "
+"zablakavaŭšy jaho."
 
-#: kio/global.cpp:526
+#: kio/global.cpp:525
 msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
-msgstr "Spraŭdź, što anijaki inšy karystańnik ci aplikacyja nie karystajecca fajłam i nie zablakavała jaho."
+msgstr ""
+"Spraŭdź, što anijaki inšy karystańnik ci aplikacyja nie karystajecca fajłam "
+"i nie zablakavała jaho."
 
-#: kio/global.cpp:528
+#: kio/global.cpp:527
 msgid "Although unlikely, a hardware error may have occurred."
 msgstr "Choć amal nievierahodna, mahła ŭźniknuć prablema ŭ aparatury."
 
-#: kio/global.cpp:530
+#: kio/global.cpp:529
 msgid "You may have encountered a bug in the program."
 msgstr "Mahčyma, ty napatkaŭ u prahramie chibu."
 
-#: kio/global.cpp:531
+#: kio/global.cpp:530
 msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
 "submitting a full bug report as detailed below."
 msgstr ""
-"Napeŭna, pryčynaj jość chiba ŭ prahramie. Kali łaska, paviedam pra jaje jak maha padrabiaźniej. Jak heta zrabić, čytaj dalej."
+"Napeŭna, pryčynaj jość chiba ŭ prahramie. Kali łaska, paviedam pra jaje jak "
+"maha padrabiaźniej. Jak heta zrabić, čytaj dalej."
 
-#: kio/global.cpp:533
+#: kio/global.cpp:532
 msgid ""
 "Update your software to the latest version. Your distribution should provide "
 "tools to update your software."
 msgstr ""
-"Aktualizuj svaje prahramy da jak maha naviejšych versijaŭ. U tvajoj dystrybucyi pavinny być sposaby zrabić hety."
+"Aktualizuj svaje prahramy da jak maha naviejšych versijaŭ. U tvajoj "
+"dystrybucyi pavinny być sposaby zrabić hety."
 
-#: kio/global.cpp:535
+#: kio/global.cpp:534
 msgid ""
 "When all else fails, please consider helping the KDE team or the third party "
 "maintainer of this software by submitting a high quality bug report. If the "
@@ -1100,59 +1124,68 @@ msgid ""
 "website</a>. If not, take note of the details given above, and include them "
 "in your bug report, along with as many other details as you think might help."
 msgstr ""
-"Kali ničoha nie dapamahło, kali łaska, paviedam supolnaści KDE ci svajmu dahladčyku prahramy pra chibu. Hetak ty dapamožaš udaskanalić našyja pradukty. Kali prahrama, u jakoj ty znajšoŭ chibu, dahladajecca nie supolnaściu KDE, ale inšaj strukturaj, to adrazu źviarnisia tudy z paviedamleńniem. Kali ž heta pradukt KDE, spačatku spraŭdź, ci niama ŭžo padobnaha paviedamleńnia na <a href=\"http://bugs.kde.org/\">Placoŭcy dla źbirańnia źviestak pra chiby ŭ KDE</a>. Kali ty nie znajšoŭ ničoha padobnaha da tvajoj prablemy, tady, składajučy tekst paviedamleńnia, uličy padadzienyja nižej parady j zanatuj usio jak maha padrabiaźniej."
+"Kali ničoha nie dapamahło, kali łaska, paviedam supolnaści KDE ci svajmu "
+"dahladčyku prahramy pra chibu. Hetak ty dapamožaš udaskanalić našyja "
+"pradukty. Kali prahrama, u jakoj ty znajšoŭ chibu, dahladajecca nie "
+"supolnaściu KDE, ale inšaj strukturaj, to adrazu źviarnisia tudy z "
+"paviedamleńniem. Kali ž heta pradukt KDE, spačatku spraŭdź, ci niama ŭžo "
+"padobnaha paviedamleńnia na <a href=\"http://bugs.kde.org/\">Placoŭcy dla "
+"źbirańnia źviestak pra chiby ŭ KDE</a>. Kali ty nie znajšoŭ ničoha padobnaha "
+"da tvajoj prablemy, tady, składajučy tekst paviedamleńnia, uličy "
+"padadzienyja nižej parady j zanatuj usio jak maha padrabiaźniej."
 
-#: kio/global.cpp:543
+#: kio/global.cpp:542
 msgid "There may have been a problem with your network connection."
 msgstr "Mabyć, u ciabie ŭźnikli prablemy ź sietkavym spałučeńniem."
 
-#: kio/global.cpp:546
+#: kio/global.cpp:545
 msgid ""
 "There may have been a problem with your network configuration. If you have "
 "been accessing the Internet with no problems recently, this is unlikely."
 msgstr ""
-"Mabyć, u ciabie ŭźnikli prablemy ź sietkavymi naładami. Ale kali ty tolki što biez prablemaŭ karystaŭsia siecivam, to reč nia ŭ hetym."
+"Mabyć, u ciabie ŭźnikli prablemy ź sietkavymi naładami. Ale kali ty tolki "
+"što biez prablemaŭ karystaŭsia siecivam, to reč nia ŭ hetym."
 
-#: kio/global.cpp:549
+#: kio/global.cpp:548
 msgid ""
 "There may have been a problem at some point along the network path between "
 "the server and this computer."
 msgstr ""
 "Mabyć, na sietkavym šlachu ad servera da tvajho kamputara ŭźnikli prablemy."
 
-#: kio/global.cpp:551
+#: kio/global.cpp:550
 msgid "Try again, either now or at a later time."
 msgstr "Pasprabuj znoŭ, zaraz albo paźniej."
 
-#: kio/global.cpp:552
+#: kio/global.cpp:551
 msgid "A protocol error or incompatibility may have occurred."
 msgstr "Mahčyma, uźnikła prablema ŭ pratakole albo niaŭzhodnienaści."
 
-#: kio/global.cpp:553
+#: kio/global.cpp:552
 msgid "Ensure that the resource exists, and try again."
 msgstr "Spraŭdź, što resurs isnuje, i pasprabuj jašče."
 
-#: kio/global.cpp:554
+#: kio/global.cpp:553
 msgid "The specified resource may not exist."
 msgstr "Aznačany resurs, mahčyma, nie isnuje."
 
-#: kio/global.cpp:555
+#: kio/global.cpp:554
 msgid "You may have incorrectly typed the location."
 msgstr "Mahčyma, ty niapravilna ŭpisaŭ adras."
 
-#: kio/global.cpp:556
+#: kio/global.cpp:555
 msgid "Double-check that you have entered the correct location and try again."
 msgstr "Spraŭdź, što ty pravilna ŭpisaŭ adras, i pasprabuj znoŭ."
 
-#: kio/global.cpp:558
+#: kio/global.cpp:557
 msgid "Check your network connection status."
 msgstr "Spraŭdź, ci dziejničaje tvajo sietkavaje spałučeńnie."
 
-#: kio/global.cpp:562
+#: kio/global.cpp:561
 msgid "Cannot Open Resource For Reading"
 msgstr "Nie ŭdałosia adčynić resurs dla čytańnia"
 
-#: kio/global.cpp:563
+#: kio/global.cpp:562
 #, kde-format
 msgid ""
 "This means that the contents of the requested file or folder <strong>%1</"
@@ -1161,65 +1194,72 @@ msgstr ""
 "Niemahčyma atrymać źmieściva zapatrabavanaha fajła ci kataloha <strong>%1</"
 "strong>, bo nie ŭdałosia da jaho dastupicca dla čytańnia."
 
-#: kio/global.cpp:566
+#: kio/global.cpp:565
 msgid "You may not have permissions to read the file or open the folder."
 msgstr "Tabie nie staje dazvołu, kab pračytać fajł ci adčynić kataloh."
 
-#: kio/global.cpp:572
+#: kio/global.cpp:571
 msgid "Cannot Open Resource For Writing"
 msgstr "Nie ŭdałosia adčynić resurs dla zapisu"
 
-#: kio/global.cpp:573
+#: kio/global.cpp:572
 #, kde-format
 msgid ""
 "This means that the file, <strong>%1</strong>, could not be written to as "
 "requested, because access with permission to write could not be obtained."
 msgstr ""
-"Niemahčyma zapisać u fajł <strong>%1</strong>, bo nie ŭdałosia da jaho dastupicca dla zapisu."
+"Niemahčyma zapisać u fajł <strong>%1</strong>, bo nie ŭdałosia da jaho "
+"dastupicca dla zapisu."
 
-#: kio/global.cpp:581
+#: kio/global.cpp:580
 #, kde-format
 msgid "Cannot Initiate the %1 Protocol"
 msgstr "Nie ŭdałosia inicyjalizavać pratakoł „%1”"
 
-#: kio/global.cpp:582
+#: kio/global.cpp:581
 msgid "Unable to Launch Process"
 msgstr "Nie ŭdałosia ŭklučyć praces"
 
-#: kio/global.cpp:583
+#: kio/global.cpp:582
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol could not be started. This is usually due to technical "
 "reasons."
 msgstr ""
-"Nie ŭdałosia ŭklučyć prahramu z tvajho kamputara, jakaja absłuhoŭvaje pratakoł <strong>%1</strong>. Chutčej za ŭsio, pryčyny ŭ hetaj prablemy techničnyja."
+"Nie ŭdałosia ŭklučyć prahramu z tvajho kamputara, jakaja absłuhoŭvaje "
+"pratakoł <strong>%1</strong>. Chutčej za ŭsio, pryčyny ŭ hetaj prablemy "
+"techničnyja."
 
-#: kio/global.cpp:586
+#: kio/global.cpp:585
 msgid ""
 "The program which provides compatibility with this protocol may not have "
 "been updated with your last update of KDE. This can cause the program to be "
 "incompatible with the current version and thus not start."
 msgstr ""
-"Mahčyma, prahrama, jakaja absłuhoŭvaje hety pratakoł, nie była zaktualizavanaja padčas apošniaha abnaŭleńnia KDE. Heta mahło zrabić prahramu niaŭzhodnienaj ź ciapierašniaj versijaj, i jana pierastała ŭklučacca."
+"Mahčyma, prahrama, jakaja absłuhoŭvaje hety pratakoł, nie była "
+"zaktualizavanaja padčas apošniaha abnaŭleńnia KDE. Heta mahło zrabić "
+"prahramu niaŭzhodnienaj ź ciapierašniaj versijaj, i jana pierastała "
+"ŭklučacca."
 
-#: kio/global.cpp:594
+#: kio/global.cpp:593
 msgid "Internal Error"
 msgstr "Unutranaja pamyłka"
 
-#: kio/global.cpp:595
+#: kio/global.cpp:594
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an internal error."
 msgstr ""
-"Prahrama z tvajho kamputara, jakaja absłuhoŭvaje pratakoł <strong>%1</strong>, paviedamiła pra ŭnutranuju pamyłku."
+"Prahrama z tvajho kamputara, jakaja absłuhoŭvaje pratakoł <strong>%1</"
+"strong>, paviedamiła pra ŭnutranuju pamyłku."
 
-#: kio/global.cpp:603
+#: kio/global.cpp:602
 msgid "Improperly Formatted URL"
 msgstr "Adras u niapravilnym farmacie"
 
-#: kio/global.cpp:604
+#: kio/global.cpp:603
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered was not properly formatted. The format "
@@ -1227,27 +1267,30 @@ msgid ""
 "password@www.example.org:port/folder/filename.extension?query=value</"
 "strong></blockquote>"
 msgstr ""
-"Adras (<strong>URL</strong>) upisany ŭ niapravilnym farmacie. Zvyčajna adrasy zapisvajucca nastupnym čynam:<blockquote><strong>pratakoł://karystańnik:"
-"parol@www.uzor.by:port/kataloh/fajł.pašyreńnie?query=vartaść</strong></blockquote>"
+"Adras (<strong>URL</strong>) upisany ŭ niapravilnym farmacie. Zvyčajna "
+"adrasy zapisvajucca nastupnym čynam:<blockquote><strong>pratakoł://"
+"karystańnik:parol@www.uzor.by:port/kataloh/fajł.pašyreńnie?query=vartaść</"
+"strong></blockquote>"
 
-#: kio/global.cpp:613
+#: kio/global.cpp:612
 #, kde-format
 msgid "Unsupported Protocol %1"
 msgstr "Niepadtrymany pratakoł „%1”"
 
-#: kio/global.cpp:614
+#: kio/global.cpp:613
 #, kde-format
 msgid ""
 "The protocol <strong>%1</strong> is not supported by the KDE programs "
 "currently installed on this computer."
 msgstr ""
-"Pratakoł <strong>%1</strong> nie padtrymvajecca prahramami KDE, zainstalavanymi ŭ hetym kamputary."
+"Pratakoł <strong>%1</strong> nie padtrymvajecca prahramami KDE, "
+"zainstalavanymi ŭ hetym kamputary."
 
-#: kio/global.cpp:617
+#: kio/global.cpp:616
 msgid "The requested protocol may not be supported."
 msgstr "Zapatrabavany pratakoł nie padtrymvajecca."
 
-#: kio/global.cpp:618
+#: kio/global.cpp:617
 #, kde-format
 msgid ""
 "The versions of the %1 protocol supported by this computer and the server "
@@ -1255,696 +1298,750 @@ msgid ""
 msgstr ""
 "Versii pratakoła „%1” u tvaim kamputary i ŭ servery mohuć nie zhadžacca."
 
-#: kio/global.cpp:620
+#: kio/global.cpp:619
 msgid ""
 "You may perform a search on the Internet for a KDE program (called a "
 "kioslave or ioslave) which supports this protocol. Places to search include "
 "<a href=\"http://kde-apps.org/\">http://kde-apps.org/</a> and <a href="
 "\"http://freshmeat.net/\">http://freshmeat.net/</a>."
 msgstr ""
-"Ty možaš pašukać u siecivie prahramu KDE, jakaja nazyvajecca „kioslave” ci „ioslave” i absłuhoŭvaje hety pratakoł. Z mahčymych miescaŭ dla pošuku možna vyłučyć <a href=\"http://kde-apps.org/\">http://kde-apps.org/</a> i <a href=\"http://freshmeat.net/\">http://freshmeat.net/</a>."
+"Ty možaš pašukać u siecivie prahramu KDE, jakaja nazyvajecca „kioslave” ci "
+"„ioslave” i absłuhoŭvaje hety pratakoł. Z mahčymych miescaŭ dla pošuku možna "
+"vyłučyć <a href=\"http://kde-apps.org/\">http://kde-apps.org/</a> i <a href="
+"\"http://freshmeat.net/\">http://freshmeat.net/</a>."
 
-#: kio/global.cpp:629
+#: kio/global.cpp:628
 msgid "URL Does Not Refer to a Resource."
 msgstr "Adras nie spasyłajecca na resurs."
 
-#: kio/global.cpp:630
+#: kio/global.cpp:629
 msgid "Protocol is a Filter Protocol"
 msgstr "Pratakoł jość filtracyjnym"
 
-#: kio/global.cpp:631
+#: kio/global.cpp:630
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered did not refer to a specific resource."
-msgstr ""
-"Upisany adras (<strong>URL</strong>) nie spasyłajecca na peŭny resurs."
+msgstr "Upisany adras (<strong>URL</strong>) nie spasyłajecca na peŭny resurs."
 
-#: kio/global.cpp:634
+#: kio/global.cpp:633
 msgid ""
 "KDE is able to communicate through a protocol within a protocol; the "
 "protocol specified is only for use in such situations, however this is not "
 "one of these situations. This is a rare event, and is likely to indicate a "
 "programming error."
 msgstr ""
-"KDE ŭmieje dziejničać praz łancuh pratakołaŭ. Padadzieny pratakoł stvorany tolki dla hetkich vypadkaŭ, ale nia hetaha. Chutčej za ŭsio, uźnikła prablema ŭ prahramnym kodzie."
+"KDE ŭmieje dziejničać praz łancuh pratakołaŭ. Padadzieny pratakoł stvorany "
+"tolki dla hetkich vypadkaŭ, ale nia hetaha. Chutčej za ŭsio, uźnikła "
+"prablema ŭ prahramnym kodzie."
 
-#: kio/global.cpp:642
+#: kio/global.cpp:641
 #, kde-format
 msgid "Unsupported Action: %1"
 msgstr "Nieviadomaja aperacyja: %1"
 
-#: kio/global.cpp:643
+#: kio/global.cpp:642
 #, kde-format
 msgid ""
 "The requested action is not supported by the KDE program which is "
 "implementing the <strong>%1</strong> protocol."
 msgstr ""
-"Zapatrabavanaja aperacyja nieviadomaja dla prahramy KDE, jakaja absłuhoŭvaje pratakoł <strong>%1</strong>."
+"Zapatrabavanaja aperacyja nieviadomaja dla prahramy KDE, jakaja absłuhoŭvaje "
+"pratakoł <strong>%1</strong>."
 
-#: kio/global.cpp:646
+#: kio/global.cpp:645
 msgid ""
 "This error is very much dependent on the KDE program. The additional "
 "information should give you more information than is available to the KDE "
 "input/output architecture."
 msgstr ""
-"Hetaja prablema vielmi zaležyć ad peŭnaj prahramy KDE. Dadatkovyja źviestki zmohuć tabie bolš vytłumačyć, čym infarmacyja, dastupnaja praz systemu pierasyłki źviestak KDE."
+"Hetaja prablema vielmi zaležyć ad peŭnaj prahramy KDE. Dadatkovyja źviestki "
+"zmohuć tabie bolš vytłumačyć, čym infarmacyja, dastupnaja praz systemu "
+"pierasyłki źviestak KDE."
 
-#: kio/global.cpp:649
+#: kio/global.cpp:648
 msgid "Attempt to find another way to accomplish the same outcome."
 msgstr "Sproba dasiahnuć pastaŭlenaj mety inšym sposabam."
 
-#: kio/global.cpp:654
+#: kio/global.cpp:653
 msgid "File Expected"
 msgstr "Čakaŭsia fajł"
 
-#: kio/global.cpp:655
+#: kio/global.cpp:654
 #, kde-format
 msgid ""
 "The request expected a file, however the folder <strong>%1</strong> was "
 "found instead."
-msgstr ""
-"Zapyt čakaŭ fajł, ale znajšoŭ kataloh <strong>%1</strong>."
+msgstr "Zapyt čakaŭ fajł, ale znajšoŭ kataloh <strong>%1</strong>."
 
-#: kio/global.cpp:657
+#: kio/global.cpp:656
 msgid "This may be an error on the server side."
 msgstr "Mahčyma, heta prablema servera."
 
-#: kio/global.cpp:662
+#: kio/global.cpp:661
 msgid "Folder Expected"
 msgstr "Čakaŭsia kataloh"
 
-#: kio/global.cpp:663
+#: kio/global.cpp:662
 #, kde-format
 msgid ""
 "The request expected a folder, however the file <strong>%1</strong> was "
 "found instead."
-msgstr ""
-"Zapyt čakaŭ kataloh, ale znajšoŭ fajł <strong>%1</strong>."
+msgstr "Zapyt čakaŭ kataloh, ale znajšoŭ fajł <strong>%1</strong>."
 
-#: kio/global.cpp:670
+#: kio/global.cpp:669
 msgid "File or Folder Does Not Exist"
 msgstr "Fajł ci kataloh nie isnuje"
 
-#: kio/global.cpp:671
+#: kio/global.cpp:670
 #, kde-format
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr "Aznačany fajł ci kataloh <strong>%1</strong> nie isnuje."
 
-#: kio/global.cpp:679
+#: kio/global.cpp:678
 msgid ""
 "The requested file could not be created because a file with the same name "
 "already exists."
 msgstr ""
 "Nie ŭdałosia stvaryć zapatrabavany fajł, bo fajł z takoj nazvaj užo isnuje."
 
-#: kio/global.cpp:681
+#: kio/global.cpp:680
 msgid "Try moving the current file out of the way first, and then try again."
-msgstr "Pasprabuj pieranieści ciapierašni fajł u inšaje miesca i paŭtaryć sprobu znoŭ."
+msgstr ""
+"Pasprabuj pieranieści ciapierašni fajł u inšaje miesca i paŭtaryć sprobu "
+"znoŭ."
 
-#: kio/global.cpp:683
+#: kio/global.cpp:682
 msgid "Delete the current file and try again."
 msgstr "Vydali ciapierašni fajł i pasprabuj znoŭ."
 
-#: kio/global.cpp:684
+#: kio/global.cpp:683
 msgid "Choose an alternate filename for the new file."
 msgstr "Vybiery inšuju nazvu dla novaha fajła."
 
-#: kio/global.cpp:689
+#: kio/global.cpp:688
 msgid ""
 "The requested folder could not be created because a folder with the same "
 "name already exists."
 msgstr ""
-"Nie ŭdałosia stvaryć zapatrabavany kataloh, bo kataloh z takoj nazvaj užo isnuje."
+"Nie ŭdałosia stvaryć zapatrabavany kataloh, bo kataloh z takoj nazvaj užo "
+"isnuje."
 
-#: kio/global.cpp:691
+#: kio/global.cpp:690
 msgid "Try moving the current folder out of the way first, and then try again."
-msgstr "Pasprabuj pieranieści ciapierašni kataloh u inšaje miesca i paŭtaryć sprobu znoŭ."
+msgstr ""
+"Pasprabuj pieranieści ciapierašni kataloh u inšaje miesca i paŭtaryć sprobu "
+"znoŭ."
 
-#: kio/global.cpp:693
+#: kio/global.cpp:692
 msgid "Delete the current folder and try again."
 msgstr "Vydali ciapierašni kataloh i pasprabuj znoŭ."
 
-#: kio/global.cpp:694
+#: kio/global.cpp:693
 msgid "Choose an alternate name for the new folder."
 msgstr "Vybiery inšuju nazvu dla novaha kataloha."
 
-#: kio/global.cpp:698
+#: kio/global.cpp:697
 msgid "Unknown Host"
 msgstr "Nieviadomy host"
 
-#: kio/global.cpp:699
+#: kio/global.cpp:698
 #, kde-format
 msgid ""
 "An unknown host error indicates that the server with the requested name, "
 "<strong>%1</strong>, could not be located on the Internet."
 msgstr ""
-"Hetaja prablema śviedčyć pra toje, što nie ŭdałosia znajści ŭ siecivie server z zapatrabavanaj nazvaj: <strong>%1</strong>."
+"Hetaja prablema śviedčyć pra toje, što nie ŭdałosia znajści ŭ siecivie "
+"server z zapatrabavanaj nazvaj: <strong>%1</strong>."
 
-#: kio/global.cpp:702
+#: kio/global.cpp:701
 #, kde-format
-msgid "The name that you typed, %1, may not exist: it may be incorrectly typed."
+msgid ""
+"The name that you typed, %1, may not exist: it may be incorrectly typed."
 msgstr "Takoj nazvy, „%1”, nie isnuje. Mahčyma, jana niapravilna ŭpisanaj."
 
-#: kio/global.cpp:709
+#: kio/global.cpp:708
 msgid "Access Denied"
 msgstr "Dostup zabaronieny"
 
-#: kio/global.cpp:710
+#: kio/global.cpp:709
 #, kde-format
 msgid "Access was denied to the specified resource, <strong>%1</strong>."
 msgstr "Dostup da aznačanaha resursu, <strong>%1</strong>, zabaronieny."
 
-#: kio/global.cpp:712 kio/global.cpp:928
+#: kio/global.cpp:711 kio/global.cpp:927
 msgid "You may have supplied incorrect authentication details or none at all."
 msgstr ""
 
-#: kio/global.cpp:714 kio/global.cpp:930
+#: kio/global.cpp:713 kio/global.cpp:929
 msgid "Your account may not have permission to access the specified resource."
-msgstr "Mahčyma, tvajmu kontu nie staje dazvołu dla dostupu da aznačanaha resursu."
+msgstr ""
+"Mahčyma, tvajmu kontu nie staje dazvołu dla dostupu da aznačanaha resursu."
 
-#: kio/global.cpp:716 kio/global.cpp:932 kio/global.cpp:944
+#: kio/global.cpp:715 kio/global.cpp:931 kio/global.cpp:943
 msgid ""
 "Retry the request and ensure your authentication details are entered "
 "correctly."
 msgstr ""
 
-#: kio/global.cpp:722
+#: kio/global.cpp:721
 msgid "Write Access Denied"
 msgstr "Zapis zabaronieny"
 
-#: kio/global.cpp:723
+#: kio/global.cpp:722
 #, kde-format
 msgid ""
 "This means that an attempt to write to the file <strong>%1</strong> was "
 "rejected."
-msgstr ""
-"Sproba zapisać u fajł <strong>%1</strong> była adchilenaja."
+msgstr "Sproba zapisać u fajł <strong>%1</strong> była adchilenaja."
 
-#: kio/global.cpp:730
+#: kio/global.cpp:729
 msgid "Unable to Enter Folder"
 msgstr "Nie ŭdałosia ŭvajści ŭ kataloh"
 
-#: kio/global.cpp:731
+#: kio/global.cpp:730
 #, kde-format
 msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
 "folder <strong>%1</strong> was rejected."
 msgstr ""
-"Sproba ŭvajści u zapatrabavany kataloh <strong>%1</strong> (inačaj kažučy, pračytać jaho) była adchilenaja."
+"Sproba ŭvajści u zapatrabavany kataloh <strong>%1</strong> (inačaj kažučy, "
+"pračytać jaho) była adchilenaja."
 
-#: kio/global.cpp:739
+#: kio/global.cpp:738
 msgid "Folder Listing Unavailable"
 msgstr "Nie ŭdałosia prahladzieć kataloh"
 
-#: kio/global.cpp:740
+#: kio/global.cpp:739
 #, kde-format
 msgid "Protocol %1 is not a Filesystem"
 msgstr "Pratakoł „%1” nia jość słužbaj fajłavaj systemy"
 
-#: kio/global.cpp:741
+#: kio/global.cpp:740
 msgid ""
 "This means that a request was made which requires determining the contents "
 "of the folder, and the KDE program supporting this protocol is unable to do "
 "so."
 msgstr ""
-"Była zroblenaja sproba pračytać źmieściva kataloha, ale prahrama KDE, jakaja absłuhoŭvaje hety pratakoł, nia ŭmieje hetaha rabić."
+"Była zroblenaja sproba pračytać źmieściva kataloha, ale prahrama KDE, jakaja "
+"absłuhoŭvaje hety pratakoł, nia ŭmieje hetaha rabić."
 
-#: kio/global.cpp:749
+#: kio/global.cpp:748
 msgid "Cyclic Link Detected"
 msgstr "Znojdzieny cykličny łuč"
 
-#: kio/global.cpp:750
+#: kio/global.cpp:749
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. KDE detected a link or series of links that results in "
 "an infinite loop - i.e. the file was (perhaps in a roundabout way) linked to "
 "itself."
 msgstr ""
-"Systemy UNIX zvyčajna dazvalajuć złučać fajły j katalohi ź inšymi nazvami ŭ fajłavaj systemie. KDE znajšoŭ šerah łučoŭ, jakija ŭtvarajuć biaskoncuju piatlu: fajł byŭ złučany z samym saboju."
+"Systemy UNIX zvyčajna dazvalajuć złučać fajły j katalohi ź inšymi nazvami ŭ "
+"fajłavaj systemie. KDE znajšoŭ šerah łučoŭ, jakija ŭtvarajuć biaskoncuju "
+"piatlu: fajł byŭ złučany z samym saboju."
 
-#: kio/global.cpp:754 kio/global.cpp:776
+#: kio/global.cpp:753 kio/global.cpp:775
 msgid ""
 "Delete one part of the loop in order that it does not cause an infinite "
 "loop, and try again."
 msgstr ""
 "Vydali adnu z častak hetaj piatli, kab razarvać jaje, i pasprabuj znoŭ."
 
-#: kio/global.cpp:763
+#: kio/global.cpp:762
 msgid "Request Aborted By User"
 msgstr "Karystańnik anulavaŭ zapyt"
 
-#: kio/global.cpp:764 kio/global.cpp:1065
+#: kio/global.cpp:763 kio/global.cpp:1064
 msgid "The request was not completed because it was aborted."
 msgstr "Zapyt nia skončany, bo byŭ anulavany."
 
-#: kio/global.cpp:766 kio/global.cpp:960 kio/global.cpp:1067
+#: kio/global.cpp:765 kio/global.cpp:959 kio/global.cpp:1066
 msgid "Retry the request."
 msgstr "Paŭtary zapyt."
 
-#: kio/global.cpp:770
+#: kio/global.cpp:769
 msgid "Cyclic Link Detected During Copy"
 msgstr "Padčas kapijavańnia znojdzieny cykličny łuč"
 
-#: kio/global.cpp:771
+#: kio/global.cpp:770
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. During the requested copy operation, KDE detected a "
 "link or series of links that results in an infinite loop - i.e. the file was "
 "(perhaps in a roundabout way) linked to itself."
 msgstr ""
-"Systemy UNIX zvyčajna dazvalajuć złučać fajły j katalohi ź inšymi nazvami ŭ fajłavaj systemie. Padčas zapatrabavanaj aperacyi kapijavańnia KDE znajšoŭ šerah łučoŭ, jakija ŭtvarajuć biaskoncuju piatlu: fajł byŭ złučany z samym saboju."
+"Systemy UNIX zvyčajna dazvalajuć złučać fajły j katalohi ź inšymi nazvami ŭ "
+"fajłavaj systemie. Padčas zapatrabavanaj aperacyi kapijavańnia KDE znajšoŭ "
+"šerah łučoŭ, jakija ŭtvarajuć biaskoncuju piatlu: fajł byŭ złučany z samym "
+"saboju."
 
-#: kio/global.cpp:781
+#: kio/global.cpp:780
 msgid "Could Not Create Network Connection"
 msgstr "Nie ŭdałosia stvaryć sietkavaje spałučeńnie"
 
-#: kio/global.cpp:782
+#: kio/global.cpp:781
 msgid "Could Not Create Socket"
 msgstr "Nie ŭdałosia stvaryć sokiet"
 
-#: kio/global.cpp:783
+#: kio/global.cpp:782
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be created."
 msgstr ""
-"Techničnaja prablema, jakaja vyjaŭlajecca ŭ niemahčymaści stvareńnia patrebnaj dla sietkavaj kamunikacyi pryłady (sokieta)."
+"Techničnaja prablema, jakaja vyjaŭlajecca ŭ niemahčymaści stvareńnia "
+"patrebnaj dla sietkavaj kamunikacyi pryłady (sokieta)."
 
-#: kio/global.cpp:785 kio/global.cpp:898 kio/global.cpp:909 kio/global.cpp:918
+#: kio/global.cpp:784 kio/global.cpp:897 kio/global.cpp:908 kio/global.cpp:917
 msgid ""
 "The network connection may be incorrectly configured, or the network "
 "interface may not be enabled."
 msgstr ""
-"Mabyć, sietkavaje spałučeńnie niapravilna naładžanaje ci sietkavy interfejs nia ŭklučany."
+"Mabyć, sietkavaje spałučeńnie niapravilna naładžanaje ci sietkavy interfejs "
+"nia ŭklučany."
 
-#: kio/global.cpp:791
+#: kio/global.cpp:790
 msgid "Connection to Server Refused"
 msgstr "Spałučeńnie z serveram adchilenaje"
 
-#: kio/global.cpp:792
+#: kio/global.cpp:791
 #, kde-format
 msgid ""
 "The server <strong>%1</strong> refused to allow this computer to make a "
 "connection."
 msgstr ""
-"Server <strong>%1</strong> adchiliŭ sprobu tvajho kamputara naviazać spałučeńnie."
+"Server <strong>%1</strong> adchiliŭ sprobu tvajho kamputara naviazać "
+"spałučeńnie."
 
-#: kio/global.cpp:794
+#: kio/global.cpp:793
 msgid ""
 "The server, while currently connected to the Internet, may not be configured "
 "to allow requests."
 msgstr ""
-"Mahčyma, server, spałučany ź siecivam, nie naładžany dla absłuhoŭvańnia zapytaŭ."
+"Mahčyma, server, spałučany ź siecivam, nie naładžany dla absłuhoŭvańnia "
+"zapytaŭ."
 
-#: kio/global.cpp:796
+#: kio/global.cpp:795
 #, kde-format
 msgid ""
 "The server, while currently connected to the Internet, may not be running "
 "the requested service (%1)."
-msgstr ""
-"Mahčyma, server, spałučany ź siecivam, nia maje patrebnaj słužby (%1)."
+msgstr "Mahčyma, server, spałučany ź siecivam, nia maje patrebnaj słužby (%1)."
 
-#: kio/global.cpp:798
+#: kio/global.cpp:797
 msgid ""
 "A network firewall (a device which restricts Internet requests), either "
 "protecting your network or the network of the server, may have intervened, "
 "preventing this request."
 msgstr ""
-"Mahčyma, hetamu zapytu zaminaje sietkavaja zasłona (pryłada, jakaja abmiažoŭvaje čynnaść u siecivie), jakaja abaraniaje tvaju sietku albo sietku servera."
+"Mahčyma, hetamu zapytu zaminaje sietkavaja zasłona (pryłada, jakaja "
+"abmiažoŭvaje čynnaść u siecivie), jakaja abaraniaje tvaju sietku albo sietku "
+"servera."
 
-#: kio/global.cpp:805
+#: kio/global.cpp:804
 msgid "Connection to Server Closed Unexpectedly"
 msgstr "Spałučeńnie z serveram niečakana začyniłasia"
 
-#: kio/global.cpp:806
+#: kio/global.cpp:805
 #, kde-format
 msgid ""
 "Although a connection was established to <strong>%1</strong>, the connection "
 "was closed at an unexpected point in the communication."
 msgstr ""
-"Choć spałučeńnie z serveram <strong>%1</strong> było ŭstalavanaje, ale paśla jano było začynienaje ŭ niečakany sposab."
+"Choć spałučeńnie z serveram <strong>%1</strong> było ŭstalavanaje, ale paśla "
+"jano było začynienaje ŭ niečakany sposab."
 
-#: kio/global.cpp:809
+#: kio/global.cpp:808
 msgid ""
 "A protocol error may have occurred, causing the server to close the "
 "connection as a response to the error."
 msgstr ""
-"Mahčyma, uźnikła prablema ŭ pratakole, u vyniku jakoj server začyniŭ spałučeńnie."
+"Mahčyma, uźnikła prablema ŭ pratakole, u vyniku jakoj server začyniŭ "
+"spałučeńnie."
 
-#: kio/global.cpp:815
+#: kio/global.cpp:814
 msgid "URL Resource Invalid"
 msgstr "Niapravilny resurs adrasa"
 
-#: kio/global.cpp:816
+#: kio/global.cpp:815
 #, kde-format
 msgid "Protocol %1 is not a Filter Protocol"
 msgstr "Pratakoł „%1” nia jość filtracyjnym"
 
-#: kio/global.cpp:817
+#: kio/global.cpp:816
 #, kde-format
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered did not refer to a valid mechanism of "
 "accessing the specific resource, <strong>%1%2</strong>."
 msgstr ""
-"Upisany adras (<strong>URL</strong>) nie spasyłajecca na dziejny sposab dostupu da peŭnaha resursu, <strong>%1%2</strong>."
+"Upisany adras (<strong>URL</strong>) nie spasyłajecca na dziejny sposab "
+"dostupu da peŭnaha resursu, <strong>%1%2</strong>."
 
-#: kio/global.cpp:822
+#: kio/global.cpp:821
 msgid ""
 "KDE is able to communicate through a protocol within a protocol. This "
 "request specified a protocol be used as such, however this protocol is not "
 "capable of such an action. This is a rare event, and is likely to indicate a "
 "programming error."
 msgstr ""
-"KDE ŭmieje dziejničać praz łancuh pratakołaŭ. Hety zapyt vymahaje takoha sposabu karystańnia pratakołam, ale toj jaho nie padtrymvaje. Chutčej za ŭsio, uźnikła prablema ŭ prahramnym kodzie."
+"KDE ŭmieje dziejničać praz łancuh pratakołaŭ. Hety zapyt vymahaje takoha "
+"sposabu karystańnia pratakołam, ale toj jaho nie padtrymvaje. Chutčej za "
+"ŭsio, uźnikła prablema ŭ prahramnym kodzie."
 
-#: kio/global.cpp:830
+#: kio/global.cpp:829
 msgid "Unable to Initialize Input/Output Device"
 msgstr "Nie ŭdałosia inicyjalizavać pryładu pierasyłańnia źviestak"
 
-#: kio/global.cpp:831
+#: kio/global.cpp:830
 msgid "Could Not Mount Device"
 msgstr "Nie ŭdałosia zmantavać pryładu"
 
-#: kio/global.cpp:832
+#: kio/global.cpp:831
 #, kde-format
 msgid ""
 "The requested device could not be initialized (\"mounted\"). The reported "
 "error was: <strong>%1</strong>"
 msgstr ""
-"Nie ŭdałosia inicyjalizavać („zmantavać”) zapatrabavanuju pryładu. Uźnikła pamyłka: <strong>%1</strong>"
+"Nie ŭdałosia inicyjalizavać („zmantavać”) zapatrabavanuju pryładu. Uźnikła "
+"pamyłka: <strong>%1</strong>"
 
-#: kio/global.cpp:835
+#: kio/global.cpp:834
 msgid ""
 "The device may not be ready, for example there may be no media in a "
 "removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
 "peripheral/portable device, the device may not be correctly connected."
 msgstr ""
-"Mahčyma, pryłada nie padrychtavanaja, prykładam, u pryładzie moža nia być źmiennaha nośbita (u vypadku pryłady CD i pad.) Kali ž heta pieranosnaja pryłada, jana moža być kiepska padłučanaja da kamputara."
+"Mahčyma, pryłada nie padrychtavanaja, prykładam, u pryładzie moža nia być "
+"źmiennaha nośbita (u vypadku pryłady CD i pad.) Kali ž heta pieranosnaja "
+"pryłada, jana moža być kiepska padłučanaja da kamputara."
 
-#: kio/global.cpp:839
+#: kio/global.cpp:838
 msgid ""
 "You may not have permissions to initialize (\"mount\") the device. On UNIX "
 "systems, often system administrator privileges are required to initialize a "
 "device."
 msgstr ""
-"Mahčyma, tabie nie staje dazvołu na inicyjalizacyju („zmantavańnie”) pryłady. U systemach UNIX časta patrebnaje stanovišča administratara, kab zmahčy zinicyjalizavać pryładu."
+"Mahčyma, tabie nie staje dazvołu na inicyjalizacyju („zmantavańnie”) "
+"pryłady. U systemach UNIX časta patrebnaje stanovišča administratara, kab "
+"zmahčy zinicyjalizavać pryładu."
 
-#: kio/global.cpp:843
+#: kio/global.cpp:842
 msgid ""
 "Check that the device is ready; removable drives must contain media, and "
 "portable devices must be connected and powered on.; and try again."
 msgstr ""
-"Spraŭdź, što pryłada padrychtavanaja: źmiennyja nośbity ŭsunutyja, pieranosnyja pryłady padłučanyja da kamputara i ŭklučanyja. Paśla pasprabuj znoŭ."
+"Spraŭdź, što pryłada padrychtavanaja: źmiennyja nośbity ŭsunutyja, "
+"pieranosnyja pryłady padłučanyja da kamputara i ŭklučanyja. Paśla pasprabuj "
+"znoŭ."
 
-#: kio/global.cpp:849
+#: kio/global.cpp:848
 msgid "Unable to Uninitialize Input/Output Device"
 msgstr "Nie ŭdałosia adinicyjalizavać pryładu pierasyłańnia źviestak"
 
-#: kio/global.cpp:850
+#: kio/global.cpp:849
 msgid "Could Not Unmount Device"
 msgstr "Nie ŭdałosia admantavać pryładu"
 
-#: kio/global.cpp:851
+#: kio/global.cpp:850
 #, kde-format
 msgid ""
 "The requested device could not be uninitialized (\"unmounted\"). The "
 "reported error was: <strong>%1</strong>"
 msgstr ""
-"Nie ŭdałosia adinicyjalizavać („admantavać”) zapatrabavanuju pryładu. Uźnikła pamyłka: <strong>%1</strong>"
+"Nie ŭdałosia adinicyjalizavać („admantavać”) zapatrabavanuju pryładu. "
+"Uźnikła pamyłka: <strong>%1</strong>"
 
-#: kio/global.cpp:854
+#: kio/global.cpp:853
 msgid ""
 "The device may be busy, that is, still in use by another application or "
 "user. Even such things as having an open browser window on a location on "
 "this device may cause the device to remain in use."
 msgstr ""
-"Mahčyma, pryłada dasiul zaniataja, naprykład, joju karystajecca inšaja aplikacyja ci karystańnik. Navat adčynienaje akno prahladu miesca na hetaj pryładzie moža stać pryčynaj jaje zaniataści."
+"Mahčyma, pryłada dasiul zaniataja, naprykład, joju karystajecca inšaja "
+"aplikacyja ci karystańnik. Navat adčynienaje akno prahladu miesca na hetaj "
+"pryładzie moža stać pryčynaj jaje zaniataści."
 
-#: kio/global.cpp:858
+#: kio/global.cpp:857
 msgid ""
 "You may not have permissions to uninitialize (\"unmount\") the device. On "
 "UNIX systems, system administrator privileges are often required to "
 "uninitialize a device."
 msgstr ""
-"Mahčyma, tabie nie staje dazvołu na adinicyjalizacyju („admantavańnie”) pryłady. U systemach UNIX časta patrebnaje stanovišča administratara, kab zmahčy adinicyjalizavać pryładu."
+"Mahčyma, tabie nie staje dazvołu na adinicyjalizacyju („admantavańnie”) "
+"pryłady. U systemach UNIX časta patrebnaje stanovišča administratara, kab "
+"zmahčy adinicyjalizavać pryładu."
 
-#: kio/global.cpp:862
+#: kio/global.cpp:861
 msgid "Check that no applications are accessing the device, and try again."
-msgstr "Spraŭdź, što nijakija inšyja aplikacyi nie karystajucca hetaj pryładaj, i pasprabuj znoŭ."
+msgstr ""
+"Spraŭdź, što nijakija inšyja aplikacyi nie karystajucca hetaj pryładaj, i "
+"pasprabuj znoŭ."
 
-#: kio/global.cpp:867
+#: kio/global.cpp:866
 msgid "Cannot Read From Resource"
 msgstr "Nie ŭdałosia pračytać z resursu"
 
-#: kio/global.cpp:868
+#: kio/global.cpp:867
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while reading the contents of the resource."
 msgstr ""
-"Choć resurs <strong>%1</strong> udałosia adčynić, ale padčas čytańnia źmieściva resursu ŭźnikła prablema."
+"Choć resurs <strong>%1</strong> udałosia adčynić, ale padčas čytańnia "
+"źmieściva resursu ŭźnikła prablema."
 
-#: kio/global.cpp:871
+#: kio/global.cpp:870
 msgid "You may not have permissions to read from the resource."
 msgstr "Mabyć, tabie nie staje dazvołu na čytańnie z hetaha resursu."
 
-#: kio/global.cpp:880
+#: kio/global.cpp:879
 msgid "Cannot Write to Resource"
 msgstr "Nie ŭdałosia zapisać u resursie"
 
-#: kio/global.cpp:881
+#: kio/global.cpp:880
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while writing to the resource."
 msgstr ""
-"Choć resurs <strong>%1</strong> udałosia adčynić, ale padčas zapisu ŭ hetym resursie ŭźnikła prablema."
+"Choć resurs <strong>%1</strong> udałosia adčynić, ale padčas zapisu ŭ hetym "
+"resursie ŭźnikła prablema."
 
-#: kio/global.cpp:884
+#: kio/global.cpp:883
 msgid "You may not have permissions to write to the resource."
 msgstr "Mabyć, tabie nie staje dazvołu na zapis u hetym resursie."
 
-#: kio/global.cpp:893 kio/global.cpp:904
+#: kio/global.cpp:892 kio/global.cpp:903
 msgid "Could Not Listen for Network Connections"
 msgstr "Nie ŭdałosia pasłuchać sietkavyja spałučeńni"
 
-#: kio/global.cpp:894
+#: kio/global.cpp:893
 msgid "Could Not Bind"
 msgstr "Nie ŭdałosia paviazać sokiet"
 
-#: kio/global.cpp:895 kio/global.cpp:906
+#: kio/global.cpp:894 kio/global.cpp:905
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be established to listen for incoming "
 "network connections."
 msgstr ""
-"Heta techničnaja prablema, jakaja vyjaŭlajecca ŭ tym, što nie ŭdałosia pačać słuchańnie ŭvachodnych sietkavych spałučeńniaŭ praz pryładu, patrebnuju dla sietkavaj kamunikacyi (sokiet)."
+"Heta techničnaja prablema, jakaja vyjaŭlajecca ŭ tym, što nie ŭdałosia pačać "
+"słuchańnie ŭvachodnych sietkavych spałučeńniaŭ praz pryładu, patrebnuju dla "
+"sietkavaj kamunikacyi (sokiet)."
 
-#: kio/global.cpp:905
+#: kio/global.cpp:904
 msgid "Could Not Listen"
 msgstr "Nie ŭdałosia pasłuchać"
 
-#: kio/global.cpp:915
+#: kio/global.cpp:914
 msgid "Could Not Accept Network Connection"
 msgstr "Nie ŭdałosia pryniać sietkavaje spałučeńnie"
 
-#: kio/global.cpp:916
+#: kio/global.cpp:915
 msgid ""
 "This is a fairly technical error in which an error occurred while attempting "
 "to accept an incoming network connection."
 msgstr ""
-"Heta techničnaja prablema, jakaja vyjaŭlajecca ŭ tym, što ŭźnikła pamyłka padčas sproby pryniać uvachodnaje sietkavaje spałučeńnie."
+"Heta techničnaja prablema, jakaja vyjaŭlajecca ŭ tym, što ŭźnikła pamyłka "
+"padčas sproby pryniać uvachodnaje sietkavaje spałučeńnie."
 
-#: kio/global.cpp:920
+#: kio/global.cpp:919
 msgid "You may not have permissions to accept the connection."
 msgstr "Mabyć, tabie nie staje dazvołu na prymańnie spałučeńniaŭ."
 
-#: kio/global.cpp:925
+#: kio/global.cpp:924
 #, kde-format
 msgid "Could Not Login: %1"
 msgstr "Nie ŭdałosia ŭvajści: %1"
 
-#: kio/global.cpp:926
-msgid "An attempt to login to perform the requested operation was unsuccessful."
+#: kio/global.cpp:925
+msgid ""
+"An attempt to login to perform the requested operation was unsuccessful."
 msgstr "Nie ŭdałosia ŭvajści, kab vykanać zapatrabavanuju aperacyju."
 
-#: kio/global.cpp:937
+#: kio/global.cpp:936
 msgid "Could Not Determine Resource Status"
 msgstr "Nie ŭdałosia vyznačyć stanovišča resursu"
 
-#: kio/global.cpp:938
+#: kio/global.cpp:937
 msgid "Could Not Stat Resource"
 msgstr "Nie ŭdałosia atrymać źviestki pra resurs"
 
-#: kio/global.cpp:939
+#: kio/global.cpp:938
 #, kde-format
 msgid ""
 "An attempt to determine information about the status of the resource <strong>"
 "%1</strong>, such as the resource name, type, size, etc., was unsuccessful."
 msgstr ""
-"Nie ŭdałosia atrymać źviestki pra stanovišča resursu <strong>%1</strong>: jahonuju nazvu, typ, pamier i h.d."
+"Nie ŭdałosia atrymać źviestki pra stanovišča resursu <strong>%1</strong>: "
+"jahonuju nazvu, typ, pamier i h.d."
 
-#: kio/global.cpp:942
+#: kio/global.cpp:941
 msgid "The specified resource may not have existed or may not be accessible."
 msgstr "Mabyć, aznačany resurs nie isnuje albo niedastupny."
 
-#: kio/global.cpp:950
+#: kio/global.cpp:949
 msgid "Could Not Cancel Listing"
 msgstr "Nie ŭdałosia anulavać prahlad kataloha"
 
-#: kio/global.cpp:951
+#: kio/global.cpp:950
 msgid "FIXME: Document this"
 msgstr "FIXME: Treba zadakumentavać"
 
-#: kio/global.cpp:955
+#: kio/global.cpp:954
 msgid "Could Not Create Folder"
 msgstr "Nie ŭdałosia stvaryć kataloh"
 
-#: kio/global.cpp:956
+#: kio/global.cpp:955
 msgid "An attempt to create the requested folder failed."
 msgstr "Nie ŭdałosia stvaryć zapatrabavany kataloh."
 
-#: kio/global.cpp:957
+#: kio/global.cpp:956
 msgid "The location where the folder was to be created may not exist."
 msgstr "Nabyć, miesca, dzie treba stvaryć kataloh, nie isnuje."
 
-#: kio/global.cpp:964
+#: kio/global.cpp:963
 msgid "Could Not Remove Folder"
 msgstr "Nie ŭdałosia vydalić kataloh"
 
-#: kio/global.cpp:965
+#: kio/global.cpp:964
 #, kde-format
 msgid "An attempt to remove the specified folder, <strong>%1</strong>, failed."
 msgstr "Nie ŭdałosia vydalić aznačany kataloh, <strong>%1</strong>."
 
-#: kio/global.cpp:967
+#: kio/global.cpp:966
 msgid "The specified folder may not exist."
 msgstr "Mahčyma, aznačany kataloh nie isnuje."
 
-#: kio/global.cpp:968
+#: kio/global.cpp:967
 msgid "The specified folder may not be empty."
 msgstr "Mahčyma, aznačany kataloh źmiaščaje fajły."
 
-#: kio/global.cpp:971
+#: kio/global.cpp:970
 msgid "Ensure that the folder exists and is empty, and try again."
 msgstr "Spraŭdź, što kataloh isnuje j nie źmiaščaje fajłaŭ, i pasprabuj znoŭ."
 
-#: kio/global.cpp:976
+#: kio/global.cpp:975
 msgid "Could Not Resume File Transfer"
 msgstr ""
 
-#: kio/global.cpp:977
+#: kio/global.cpp:976
 #, kde-format
 msgid ""
 "The specified request asked that the transfer of file <strong>%1</strong> be "
 "resumed at a certain point of the transfer. This was not possible."
 msgstr ""
 
-#: kio/global.cpp:980
+#: kio/global.cpp:979
 msgid "The protocol, or the server, may not support file resuming."
 msgstr ""
 
-#: kio/global.cpp:982
+#: kio/global.cpp:981
 msgid "Retry the request without attempting to resume transfer."
 msgstr ""
 
-#: kio/global.cpp:987
+#: kio/global.cpp:986
 msgid "Could Not Rename Resource"
 msgstr "Nie ŭdałosia źmianić nazvu resursu"
 
-#: kio/global.cpp:988
+#: kio/global.cpp:987
 #, kde-format
 msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 msgstr "Nie ŭdałosia źmianić nazvu aznačanaha resursu, <strong>%1</strong>."
 
-#: kio/global.cpp:996
+#: kio/global.cpp:995
 msgid "Could Not Alter Permissions of Resource"
 msgstr "Nie ŭdałosia źmianić dazvoły na resurs"
 
-#: kio/global.cpp:997
+#: kio/global.cpp:996
 #, kde-format
 msgid ""
 "An attempt to alter the permissions on the specified resource <strong>%1</"
 "strong> failed."
-msgstr ""
-"Nie ŭdałosia źmianić dazvoły na aznačany resurs, <strong>%1</strong>."
+msgstr "Nie ŭdałosia źmianić dazvoły na aznačany resurs, <strong>%1</strong>."
 
-#: kio/global.cpp:1004
+#: kio/global.cpp:1003
 msgid "Could Not Change Ownership of Resource"
 msgstr "Nie ŭdałosia źmianić ułaścika resursu"
 
-#: kio/global.cpp:1005
+#: kio/global.cpp:1004
 #, kde-format
 msgid ""
 "An attempt to change the ownership of the specified resource <strong>%1</"
 "strong> failed."
-msgstr ""
-"Nie ŭdałosia źmianić ułaścika aznačanaha resursu, <strong>%1</strong>."
+msgstr "Nie ŭdałosia źmianić ułaścika aznačanaha resursu, <strong>%1</strong>."
 
-#: kio/global.cpp:1012
+#: kio/global.cpp:1011
 msgid "Could Not Delete Resource"
 msgstr "Nie ŭdałosia vydalić resurs"
 
-#: kio/global.cpp:1013
+#: kio/global.cpp:1012
 #, kde-format
 msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
 msgstr "Nie ŭdałosia vydalić aznačany resurs, <strong>%1</strong>."
 
-#: kio/global.cpp:1020
+#: kio/global.cpp:1019
 msgid "Unexpected Program Termination"
 msgstr "Niečakanaja źniščeńnie prahramy"
 
-#: kio/global.cpp:1021
+#: kio/global.cpp:1020
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has unexpectedly terminated."
 msgstr ""
-"Prahrama z tvajho kamputara, jakaja absłuhoŭvaje dostup da pratakołu <strong>%1</strong>, niečakana źniščyłasia."
+"Prahrama z tvajho kamputara, jakaja absłuhoŭvaje dostup da pratakołu <strong>"
+"%1</strong>, niečakana źniščyłasia."
 
-#: kio/global.cpp:1029
+#: kio/global.cpp:1028
 msgid "Out of Memory"
 msgstr "Skončyłasia pamiać"
 
-#: kio/global.cpp:1030
+#: kio/global.cpp:1029
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol could not obtain the memory required to continue."
 msgstr ""
-"Prahrama z tvajho kamputara, jakaja absłuhoŭvaje dostup da pratakołu <strong>%1</strong>, nia moža atrymać jašče pamiaci, patrebnaj, kab praciahvać čynnaść."
+"Prahrama z tvajho kamputara, jakaja absłuhoŭvaje dostup da pratakołu <strong>"
+"%1</strong>, nia moža atrymać jašče pamiaci, patrebnaj, kab praciahvać "
+"čynnaść."
 
-#: kio/global.cpp:1038
+#: kio/global.cpp:1037
 msgid "Unknown Proxy Host"
 msgstr "Nieviadomy proxy-host"
 
-#: kio/global.cpp:1039
+#: kio/global.cpp:1038
 #, kde-format
 msgid ""
 "While retrieving information about the specified proxy host, <strong>%1</"
 "strong>, an Unknown Host error was encountered. An unknown host error "
 "indicates that the requested name could not be located on the Internet."
 msgstr ""
-"Padčas atrymańnia źviestak pra aznačany proxy-host, <strong>%1</strong>, uźnikła prablema, jakaja vyjaŭlajecca ŭ tym, što nie ŭdałosia znajści ŭ siecivie zapatrabavanuju nazvu proxy-hosta."
+"Padčas atrymańnia źviestak pra aznačany proxy-host, <strong>%1</strong>, "
+"uźnikła prablema, jakaja vyjaŭlajecca ŭ tym, što nie ŭdałosia znajści ŭ "
+"siecivie zapatrabavanuju nazvu proxy-hosta."
 
-#: kio/global.cpp:1043
+#: kio/global.cpp:1042
 msgid ""
 "There may have been a problem with your network configuration, specifically "
 "your proxy's hostname. If you have been accessing the Internet with no "
 "problems recently, this is unlikely."
 msgstr ""
-"Mahčyma, prablema ŭ sietkavych naładach, najpierš u naźvie proxy-hosta. Ale kali ty tolki što biez prablemaŭ karystaŭsia siecivam, to reč u čymści inšym."
+"Mahčyma, prablema ŭ sietkavych naładach, najpierš u naźvie proxy-hosta. Ale "
+"kali ty tolki što biez prablemaŭ karystaŭsia siecivam, to reč u čymści inšym."
 
-#: kio/global.cpp:1047
+#: kio/global.cpp:1046
 msgid "Double-check your proxy settings and try again."
 msgstr "Spraŭdź svaje nałady proxy i pasprabuj znoŭ."
 
-#: kio/global.cpp:1052
+#: kio/global.cpp:1051
 #, kde-format
 msgid "Authentication Failed: Method %1 Not Supported"
 msgstr ""
 
-#: kio/global.cpp:1054
+#: kio/global.cpp:1053
 #, kde-format
 msgid ""
 "Although you may have supplied the correct authentication details, the "
@@ -1952,51 +2049,56 @@ msgid ""
 "supported by the KDE program implementing the protocol %1."
 msgstr ""
 
-#: kio/global.cpp:1058
+#: kio/global.cpp:1057
 msgid ""
 "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
 "a> to inform the KDE team of the unsupported authentication method."
 msgstr ""
 
-#: kio/global.cpp:1064
+#: kio/global.cpp:1063
 msgid "Request Aborted"
 msgstr "Zapyt anulavany"
 
-#: kio/global.cpp:1071
+#: kio/global.cpp:1070
 msgid "Internal Error in Server"
 msgstr "Unutranaja pamyłka ŭ servery"
 
-#: kio/global.cpp:1072
+#: kio/global.cpp:1071
 #, kde-format
 msgid ""
 "The program on the server which provides access to the <strong>%1</strong> "
 "protocol has reported an internal error: %2."
 msgstr ""
-"Prahrama ŭ servery, jakaja absłuhoŭvaje dostup da pratakołu <strong>%1</strong>, paviedamiła pra nastupnuju ŭnutranuju pamyłku: %2."
+"Prahrama ŭ servery, jakaja absłuhoŭvaje dostup da pratakołu <strong>%1</"
+"strong>, paviedamiła pra nastupnuju ŭnutranuju pamyłku: %2."
 
-#: kio/global.cpp:1075
+#: kio/global.cpp:1074
 msgid ""
 "This is most likely to be caused by a bug in the server program. Please "
 "consider submitting a full bug report as detailed below."
 msgstr ""
-"Chutčej za ŭsio, prablema ŭ chibie, jakaja vynikła ŭ servernaj prahramie. Kali łaska, paviedam pra jaje aznačanym nižej čynam."
+"Chutčej za ŭsio, prablema ŭ chibie, jakaja vynikła ŭ servernaj prahramie. "
+"Kali łaska, paviedam pra jaje aznačanym nižej čynam."
 
-#: kio/global.cpp:1078
+#: kio/global.cpp:1077
 msgid "Contact the administrator of the server to advise them of the problem."
-msgstr "Źviarnisia da administratara hetaha servera j paviedam jamu pra ŭźnikłuju prablemu."
+msgstr ""
+"Źviarnisia da administratara hetaha servera j paviedam jamu pra ŭźnikłuju "
+"prablemu."
 
-#: kio/global.cpp:1080
+#: kio/global.cpp:1079
 msgid ""
 "If you know who the authors of the server software are, submit the bug "
 "report directly to them."
 msgstr ""
-"Kali ty viedaješ, chto jość aŭtarami servernaj prahramy, paviedam im pra znojdzienuju chibu."
+"Kali ty viedaješ, chto jość aŭtarami servernaj prahramy, paviedam im pra "
+"znojdzienuju chibu."
 
-#: kio/global.cpp:1085
+#: kio/global.cpp:1084
 msgid "Timeout Error"
 msgstr ""
 
-#: kio/global.cpp:1086
+#: kio/global.cpp:1085
 #, kde-format
 msgid ""
 "Although contact was made with the server, a response was not received "
@@ -2007,136 +2109,148 @@ msgid ""
 "settings in the KDE Control Center, by selecting Network -> Preferences."
 msgstr ""
 
-#: kio/global.cpp:1097
+#: kio/global.cpp:1096
 msgid "The server was too busy responding to other requests to respond."
-msgstr "Server byŭ nadta zaniaty adkazam na inšyja zapyty i nia zmoh adkazać tabie."
+msgstr ""
+"Server byŭ nadta zaniaty adkazam na inšyja zapyty i nia zmoh adkazać tabie."
 
-#: kio/global.cpp:1103
+#: kio/global.cpp:1102
 msgid "Unknown Error"
 msgstr "Nieviadomaja pamyłka"
 
-#: kio/global.cpp:1104
+#: kio/global.cpp:1103
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an unknown error: %2."
 msgstr ""
-"Prahrama z tvajho kamputara, jakaja absłuhoŭvaje dostup da pratakołu <strong>%1</strong>, paviedamiła pra nieviadomuju pamyłku: %2."
+"Prahrama z tvajho kamputara, jakaja absłuhoŭvaje dostup da pratakołu <strong>"
+"%1</strong>, paviedamiła pra nieviadomuju pamyłku: %2."
 
-#: kio/global.cpp:1112
+#: kio/global.cpp:1111
 msgid "Unknown Interruption"
 msgstr ""
 
-#: kio/global.cpp:1113
+#: kio/global.cpp:1112
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an interruption of an unknown type: %2."
 msgstr ""
 
-#: kio/global.cpp:1121
+#: kio/global.cpp:1120
 msgid "Could Not Delete Original File"
 msgstr "Nie ŭdałosia vydalić pieršasny fajł"
 
-#: kio/global.cpp:1122
+#: kio/global.cpp:1121
 #, kde-format
 msgid ""
 "The requested operation required the deleting of the original file, most "
 "likely at the end of a file move operation. The original file <strong>%1</"
 "strong> could not be deleted."
 msgstr ""
-"Zapatrabavanaja aperacyja vymahaje vydaleńnia pieršasnaha fajła, chutčej za ŭsio, paśla pieraniasieńnia fajła ŭ inšaje miesca. Ale hety fajł (<strong>%1</strong>) nie ŭdałosia vydalić."
+"Zapatrabavanaja aperacyja vymahaje vydaleńnia pieršasnaha fajła, chutčej za "
+"ŭsio, paśla pieraniasieńnia fajła ŭ inšaje miesca. Ale hety fajł (<strong>%"
+"1</strong>) nie ŭdałosia vydalić."
 
-#: kio/global.cpp:1131
+#: kio/global.cpp:1130
 msgid "Could Not Delete Temporary File"
 msgstr "Nie ŭdałosia vydalić časovy fajł"
 
-#: kio/global.cpp:1132
+#: kio/global.cpp:1131
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file in which "
 "to save the new file while being downloaded. This temporary file <strong>%1</"
 "strong> could not be deleted."
 msgstr ""
-"Zapatrabavanaja aperacyja vymahaje stvareńnia časovaha fajła, kab zapisvać u jaho źviestki, jakija biarucca ź sieciva. Ale hety fajł (<strong>%1</strong>) nie ŭdałosia vydalić."
+"Zapatrabavanaja aperacyja vymahaje stvareńnia časovaha fajła, kab zapisvać u "
+"jaho źviestki, jakija biarucca ź sieciva. Ale hety fajł (<strong>%1</"
+"strong>) nie ŭdałosia vydalić."
 
-#: kio/global.cpp:1141
+#: kio/global.cpp:1140
 msgid "Could Not Rename Original File"
 msgstr "Nie ŭdałosia źmianić nazvu pieršasnaha fajła"
 
-#: kio/global.cpp:1142
+#: kio/global.cpp:1141
 #, kde-format
 msgid ""
 "The requested operation required the renaming of the original file <strong>%"
 "1</strong>, however it could not be renamed."
 msgstr ""
-"Zapatrabavanaja aperacyja vymahaje źmianieńnia nazvy pieršasnaha fajła, <strong>%1</strong>. Ale jaho nazvu nie ŭdałosia źmianić."
+"Zapatrabavanaja aperacyja vymahaje źmianieńnia nazvy pieršasnaha fajła, "
+"<strong>%1</strong>. Ale jaho nazvu nie ŭdałosia źmianić."
 
-#: kio/global.cpp:1150
+#: kio/global.cpp:1149
 msgid "Could Not Rename Temporary File"
 msgstr "Nie ŭdałosia źmianić nazvu časovaha fajła"
 
-#: kio/global.cpp:1151
+#: kio/global.cpp:1150
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file <strong>%"
 "1</strong>, however it could not be created."
 msgstr ""
-"Zapatrabavanaja aperacyja vymahaje stvareńnia časovaha fajła, <strong>%1</strong>. Ale jaho nie ŭdałosia stvaryć."
+"Zapatrabavanaja aperacyja vymahaje stvareńnia časovaha fajła, <strong>%1</"
+"strong>. Ale jaho nie ŭdałosia stvaryć."
 
-#: kio/global.cpp:1159
+#: kio/global.cpp:1158
 msgid "Could Not Create Link"
 msgstr "Nie ŭdałosia stvaryć łuč"
 
-#: kio/global.cpp:1160
+#: kio/global.cpp:1159
 msgid "Could Not Create Symbolic Link"
 msgstr "Nie ŭdałosia stvaryć symbalny łuč"
 
-#: kio/global.cpp:1161
+#: kio/global.cpp:1160
 #, kde-format
 msgid "The requested symbolic link %1 could not be created."
 msgstr "Nie ŭdałosia stvaryć zapatrabavany łuč „%1”."
 
-#: kio/global.cpp:1168
+#: kio/global.cpp:1167
 msgid "No Content"
 msgstr "Niama źmieściva"
 
-#: kio/global.cpp:1173
+#: kio/global.cpp:1172
 msgid "Disk Full"
 msgstr "Dysk zapoŭnieny"
 
-#: kio/global.cpp:1174
+#: kio/global.cpp:1173
 #, kde-format
 msgid ""
 "The requested file <strong>%1</strong> could not be written to as there is "
 "inadequate disk space."
 msgstr ""
-"Nie ŭdałosia zapisać zapatrabavany fajł <strong>%1</strong>, bo dla hetaha nie staje volnaha miesca na dysku."
+"Nie ŭdałosia zapisać zapatrabavany fajł <strong>%1</strong>, bo dla hetaha "
+"nie staje volnaha miesca na dysku."
 
-#: kio/global.cpp:1176
+#: kio/global.cpp:1175
 msgid ""
 "Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
 "archiving files to removable media storage such as CD-Recordable discs; or "
 "3) obtain more storage capacity."
 msgstr ""
-"Pavialič kolkaść volnaha miesca na dysku: a) vydaliŭšy niepatrebnyja j časovyja fajły; b) zaarchivavaŭšy fajły na źmiennych nośbitach typu dyskaŭ CD-R; c) kupiŭšy bolšy dysk."
+"Pavialič kolkaść volnaha miesca na dysku: a) vydaliŭšy niepatrebnyja j "
+"časovyja fajły; b) zaarchivavaŭšy fajły na źmiennych nośbitach typu dyskaŭ "
+"CD-R; c) kupiŭšy bolšy dysk."
 
-#: kio/global.cpp:1183
+#: kio/global.cpp:1182
 msgid "Source and Destination Files Identical"
 msgstr "Krynica j metavy fajł adnolkavyja"
 
-#: kio/global.cpp:1184
+#: kio/global.cpp:1183
 msgid ""
 "The operation could not be completed because the source and destination "
 "files are the same file."
 msgstr ""
-"Nie ŭdałosia vykanać aperacyju, bo krynica j metavy fajł jość tym samym fajłam."
+"Nie ŭdałosia vykanać aperacyju, bo krynica j metavy fajł jość tym samym "
+"fajłam."
 
-#: kio/global.cpp:1186
+#: kio/global.cpp:1185
 msgid "Choose a different filename for the destination file."
 msgstr "Vybiery inšuju nazvu dla metavaha fajła."
 
-#: kio/global.cpp:1197
+#: kio/global.cpp:1196
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
@@ -2160,7 +2274,8 @@ msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
 "started.</qt>"
 msgstr ""
-"<qt>Fajł <b>%1</b> jość vykonvalnaj prahramaj. Kab paźbiehnuć prablemaŭ biaśpieki, jon nia budzie ŭklučany.</qt>"
+"<qt>Fajł <b>%1</b> jość vykonvalnaj prahramaj. Kab paźbiehnuć prablemaŭ "
+"biaśpieki, jon nia budzie ŭklučany.</qt>"
 
 #: kio/krun.cpp:151
 #, kde-format
@@ -2199,7 +2314,8 @@ msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
 "not exist.</qt>"
 msgstr ""
-"<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie isnuje.</qt>"
+"<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
+"isnuje.</qt>"
 
 #: kio/krun.cpp:1465
 #, kde-format
@@ -2475,12 +2591,17 @@ msgid "SSL support is not available in this build of KDE."
 msgstr "Hetaja versija KDE nie absłuhoŭvaje SSL."
 
 #: kssl/ksslinfodialog.cpp:140
-msgid "The main part of this document is secured with SSL, but some parts are not."
-msgstr "Bolšaja častka hetaha dakumenta abaronienaja z dapamohaj SSL, ale niekatoryja inšyja častki nie abaronienyja."
+msgid ""
+"The main part of this document is secured with SSL, but some parts are not."
+msgstr ""
+"Bolšaja častka hetaha dakumenta abaronienaja z dapamohaj SSL, ale "
+"niekatoryja inšyja častki nie abaronienyja."
 
 #: kssl/ksslinfodialog.cpp:146
 msgid "Some of this document is secured with SSL, but the main part is not."
-msgstr "Niekatoryja častki hetaha dakumenta abaronienyja z dapamohaj SSL, ale bolšaja častka nie abaronienaja."
+msgstr ""
+"Niekatoryja častki hetaha dakumenta abaronienyja z dapamohaj SSL, ale "
+"bolšaja častka nie abaronienaja."
 
 #: kssl/ksslinfodialog.cpp:193
 #, kde-format
@@ -2563,7 +2684,8 @@ msgid ""
 "The decryption of the certificate's signature failed. This means it could "
 "not even be calculated as opposed to just not matching the expected result."
 msgstr ""
-"Nie ŭdałosia rasšyfravać podpis sertyfikata. Jaho nie ŭdałosia abličyć, nia kažučy navat pra nieadpaviednaść čakanaha j atrymanaha vynikaŭ."
+"Nie ŭdałosia rasšyfravać podpis sertyfikata. Jaho nie ŭdałosia abličyć, nia "
+"kažučy navat pra nieadpaviednaść čakanaha j atrymanaha vynikaŭ."
 
 #: kssl/ksslcertificate.cpp:1059
 msgid ""
@@ -2584,7 +2706,8 @@ msgid ""
 "The certificate's signature is invalid. This means that the certificate can "
 "not be verified."
 msgstr ""
-"Podpis sertyfikata niapravilny, tamu jaho (sertyfikat) nie ŭdałosia spraŭdzić."
+"Podpis sertyfikata niapravilny, tamu jaho (sertyfikat) nie ŭdałosia "
+"spraŭdzić."
 
 #: kssl/ksslcertificate.cpp:1065
 msgid ""
@@ -2634,7 +2757,8 @@ msgid ""
 "If you want to accept this certificate, import it into the list of trusted "
 "certificates."
 msgstr ""
-"Sertyfikat samastojna padpisany i nia ŭ śpisie davieranych sertyfikataŭ. Kali chočaš jaho pryniać, zimpartuj jaho ŭ śpis davieranych sertyfikataŭ."
+"Sertyfikat samastojna padpisany i nia ŭ śpisie davieranych sertyfikataŭ. "
+"Kali chočaš jaho pryniać, zimpartuj jaho ŭ śpis davieranych sertyfikataŭ."
 
 #: kssl/ksslcertificate.cpp:1088
 msgid ""
@@ -2654,7 +2778,9 @@ msgid ""
 "trust chain and not self-signed. If you self-sign the certificate, make sure "
 "to import it into the list of trusted certificates."
 msgstr ""
-"Nie ŭdałosia spraŭdzić sertyfikat, bo jon adziny ŭ łancuhu davieru j nie samastojna padpisany. Kali ty sam padpisaŭ hety sertyfikat, spraŭdź, što ty jaho zimpartavaŭ u śpis davieranych sertyfikataŭ."
+"Nie ŭdałosia spraŭdzić sertyfikat, bo jon adziny ŭ łancuhu davieru j nie "
+"samastojna padpisany. Kali ty sam padpisaŭ hety sertyfikat, spraŭdź, što ty "
+"jaho zimpartavaŭ u śpis davieranych sertyfikataŭ."
 
 #: kssl/ksslcertificate.cpp:1094
 msgid "The certificate chain is longer than the maximum depth specified."
@@ -2911,7 +3037,7 @@ msgid ""
 "b>'. Please enter the password for this wallet below.</qt>"
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:393 ../kfile/kfilewidget.cpp:1802
+#: misc/kwalletd/kwalletd.cpp:393 ../kfile/kfilewidget.cpp:1844
 msgid "&Open"
 msgstr "&Adčyni"
 
@@ -3047,7 +3173,8 @@ msgstr "KSendBugMail"
 
 #: misc/ksendbugmail/main.cpp:73
 msgid "Sends a short bug report to submit@bugs.kde.org"
-msgstr "Vysyłaje karotkaje paviedamleńnie pra chibu na adras: „submit@bugs.kde.org”."
+msgstr ""
+"Vysyłaje karotkaje paviedamleńnie pra chibu na adras: „submit@bugs.kde.org”."
 
 #: misc/ksendbugmail/main.cpp:74
 msgid "(c) 2000 Stephan Kulow"
@@ -3165,7 +3292,7 @@ msgstr "Mižnarodnaje"
 msgid "Mimetypes"
 msgstr "Typy MIME"
 
-#: kfile/kicondialog.cpp:364
+#: kfile/kicondialog.cpp:364 ../kfile/kfilewidget.cpp:1241
 msgid "Places"
 msgstr "Miescy"
 
@@ -3313,7 +3440,9 @@ msgid ""
 "<qt>Select the program that should be used to open <b>%1</b>. If the program "
 "is not listed, enter the name or click the browse button.</qt>"
 msgstr ""
-"<qt>Vybiery prahramu, u jakoj treba adčynić <b>%1</b>. Kali patrebnaj prahramy niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</qt>"
+"<qt>Vybiery prahramu, u jakoj treba adčynić <b>%1</b>. Kali patrebnaj "
+"prahramy niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</"
+"qt>"
 
 #: kfile/kopenwithdialog.cpp:481
 msgid "Choose the name of the program with which to open the selected files."
@@ -3330,7 +3459,8 @@ msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
 "listed, enter the name or click the browse button.</qt>"
 msgstr ""
-"<qt>Vybiery prahramu dla fajłaŭ typu <b>%1</b>. Kali patrebnaj prahramy niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</qt>"
+"<qt>Vybiery prahramu dla fajłaŭ typu <b>%1</b>. Kali patrebnaj prahramy "
+"niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</qt>"
 
 #: kfile/kopenwithdialog.cpp:524
 msgid "Choose Application"
@@ -3341,7 +3471,8 @@ msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
 "the browse button.</qt>"
 msgstr ""
-"<qt>Vybiery prahramu. Kali patrebnaj prahramy niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</qt>"
+"<qt>Vybiery prahramu. Kali patrebnaj prahramy niama ŭ śpisie, upišy jejnuju "
+"nazvu albo klikni ŭ knopku prahladu.</qt>"
 
 #: kfile/kopenwithdialog.cpp:589
 msgid ""
@@ -3358,9 +3489,11 @@ msgid ""
 "%m - the mini-icon\n"
 "%c - the comment"
 msgstr ""
-"U zahadzie ty možaš źmiaścić nastupnyja spałučeńni znakaŭ, jakija buduć zamienienyja adpaviednymi značeńniami pry ŭklučeńni prahramy:\n"
+"U zahadzie ty možaš źmiaścić nastupnyja spałučeńni znakaŭ, jakija buduć "
+"zamienienyja adpaviednymi značeńniami pry ŭklučeńni prahramy:\n"
 "%f - adna nazva fajła\n"
-"%F - śpis fajłaŭ: dla aplikacyjaŭ, jakija ŭmiejuć adnačasova adčynić niekalki lakalnych fajłaŭ\n"
+"%F - śpis fajłaŭ: dla aplikacyjaŭ, jakija ŭmiejuć adnačasova adčynić "
+"niekalki lakalnych fajłaŭ\n"
 "%u - adzin adras\n"
 "%U - śpis adrasoŭ\n"
 "%d - kataloh fajła, jaki adčyniajecca\n"
@@ -3387,7 +3520,8 @@ msgid ""
 "Could not extract executable name from '%1', please type a valid program "
 "name."
 msgstr ""
-"Nie ŭdałosia atrymać nazvy vykonvalnaha fajła z „%1”. Pravilna ŭpišy nazvu prahramy."
+"Nie ŭdałosia atrymać nazvy vykonvalnaha fajła z „%1”. Pravilna ŭpišy nazvu "
+"prahramy."
 
 #: kfile/kmetaprops.cpp:101
 msgid "&Meta Info"
@@ -3507,7 +3641,8 @@ msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
 "<b>%1</b>.</qt>"
 msgstr ""
-"<qt>Nie ŭdałosia zapisać ułaścivaści. Tabie nie staje dazvołu na zapis u <b>%1</b>.</qt>"
+"<qt>Nie ŭdałosia zapisać ułaścivaści. Tabie nie staje dazvołu na zapis u <b>%"
+"1</b>.</qt>"
 
 #: kfile/kpropertiesdialog.cpp:1527 kfile/kpropertiesdialog.cpp:1531
 #: kfile/kpropertiesdialog.cpp:1536
@@ -3582,7 +3717,8 @@ msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
 "group, are allowed to do."
 msgstr ""
-"Aznačaje aperacyi, jakija mohuć vykonvać usie karystańniki, jakija nia jość udzielnikami hetaj hrupy ci ŭłaśnikami."
+"Aznačaje aperacyi, jakija mohuć vykonvać usie karystańniki, jakija nia jość "
+"udzielnikami hetaj hrupy ci ŭłaśnikami."
 
 #: kfile/kpropertiesdialog.cpp:1691
 msgid "Only own&er can rename and delete folder content"
@@ -3598,14 +3734,18 @@ msgid ""
 "contained files and folders. Other users can only add new files, which "
 "requires the 'Modify Content' permission."
 msgstr ""
-"Uklučy hetuju opcyju, kab tolki ŭłaśnik kataloha moh vydalać i źmianiać nazvy dla fajłaŭ i katalohaŭ, źmieščanych u im. Inšyja karystańniki zmohuć tolki dadavać novyja fajły, kali buduć mieć dazvoł na źmianieńnie źmieściva."
+"Uklučy hetuju opcyju, kab tolki ŭłaśnik kataloha moh vydalać i źmianiać "
+"nazvy dla fajłaŭ i katalohaŭ, źmieščanych u im. Inšyja karystańniki zmohuć "
+"tolki dadavać novyja fajły, kali buduć mieć dazvoł na źmianieńnie źmieściva."
 
 #: kfile/kpropertiesdialog.cpp:1700
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
 "programs and scripts. It is required when you want to execute them."
 msgstr ""
-"Uklučy hetuju opcyju, kab zrabić hety fajł vykonvalnym. Jana maje sens tolki dla prahramaŭ i skryptoŭ. Ty pavinien jaje ŭklučyć, kali chočaš vykonvać hety fajł."
+"Uklučy hetuju opcyju, kab zrabić hety fajł vykonvalnym. Jana maje sens tolki "
+"dla prahramaŭ i skryptoŭ. Ty pavinien jaje ŭklučyć, kali chočaš vykonvać "
+"hety fajł."
 
 #: kfile/kpropertiesdialog.cpp:1707
 msgid "A&dvanced Permissions"
@@ -3668,7 +3808,9 @@ msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
 "and renaming can be limited using the Sticky flag."
 msgstr ""
-"Hetaja opcyja dazvalaje dadavać, źmianiać nazvy j vydalać fajły. Zaŭvaž, što aperacyi vydaleńnia j źmieny nazvy možna abmiežavać z dapamohaj opcyi „Sticky”."
+"Hetaja opcyja dazvalaje dadavać, źmianiać nazvy j vydalać fajły. Zaŭvaž, što "
+"aperacyi vydaleńnia j źmieny nazvy možna abmiežavać z dapamohaj opcyi "
+"„Sticky”."
 
 #: kfile/kpropertiesdialog.cpp:1942
 msgid "The Write flag allows modifying the content of the file."
@@ -3700,14 +3842,14 @@ msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
 "be seen in the right hand column."
 msgstr ""
-"Asablivaja opcyja. Dziejničaje dla ŭsiaho kataloha. Peŭny sens opcyi možna ŭbačyć u pravym słupku."
+"Asablivaja opcyja. Dziejničaje dla ŭsiaho kataloha. Peŭny sens opcyi možna "
+"ŭbačyć u pravym słupku."
 
 #: kfile/kpropertiesdialog.cpp:1969
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
-msgstr ""
-"Asablivaja opcyja. Peŭny sens opcyi možna ŭbačyć u pravym słupku."
+msgstr "Asablivaja opcyja. Peŭny sens opcyi možna ŭbačyć u pravym słupku."
 
 #: kfile/kpropertiesdialog.cpp:1973
 msgid "User"
@@ -3726,30 +3868,35 @@ msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
 "files."
 msgstr ""
-"Kali ŭklučanaja hetaja opcyja, ułaśnikam usich novych fajłaŭ budzie ŭłaśnik hetaha kataloha."
+"Kali ŭklučanaja hetaja opcyja, ułaśnikam usich novych fajłaŭ budzie ŭłaśnik "
+"hetaha kataloha."
 
 #: kfile/kpropertiesdialog.cpp:1992
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the owner."
 msgstr ""
-"Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie vykonvacca z dazvołami, ułaścivymi ŭłaśniku hetaha fajła."
+"Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie "
+"vykonvacca z dazvołami, ułaścivymi ŭłaśniku hetaha fajła."
 
 #: kfile/kpropertiesdialog.cpp:1996
 msgid "Set GID"
 msgstr "SGID"
 
 #: kfile/kpropertiesdialog.cpp:2000
-msgid "If this flag is set, the group of this folder will be set for all new files."
+msgid ""
+"If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
-"Kali ŭklučanaja hetaja opcyja, hrupaj usich novych fajłaŭ budzie hrupa hetaha kataloha."
+"Kali ŭklučanaja hetaja opcyja, hrupaj usich novych fajłaŭ budzie hrupa "
+"hetaha kataloha."
 
 #: kfile/kpropertiesdialog.cpp:2003
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the group."
 msgstr ""
-"Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie vykonvacca z dazvołami, ułaścivymi hrupie hetaha fajła."
+"Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie "
+"vykonvacca z dazvołami, ułaścivymi hrupie hetaha fajła."
 
 #: kfile/kpropertiesdialog.cpp:2007
 msgctxt "File permission"
@@ -3761,14 +3908,17 @@ msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
 "rename files. Otherwise everybody with write permissions can do this."
 msgstr ""
-"Kali opcyja „Sticky” ŭklučanaja dla kataloha, tolki jahony ŭłaśnik i „root” zmohuć vydalać i źmianiać u im nazvy fajłaŭ. Inačaj heta zmohuć rabić usie z dazvołam na zapis."
+"Kali opcyja „Sticky” ŭklučanaja dla kataloha, tolki jahony ŭłaśnik i „root” "
+"zmohuć vydalać i źmianiać u im nazvy fajłaŭ. Inačaj heta zmohuć rabić usie z "
+"dazvołam na zapis."
 
 #: kfile/kpropertiesdialog.cpp:2015
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
 "systems"
 msgstr ""
-"Systema „Linux” nie karystajecca opcyjaj „Sticky”, ale inšyja systemy mohuć joju dziela čaho-niebudź karystacca." 
+"Systema „Linux” nie karystajecca opcyjaj „Sticky”, ale inšyja systemy mohuć "
+"joju dziela čaho-niebudź karystacca."
 
 #: kfile/kpropertiesdialog.cpp:2189
 msgid "Link"
@@ -3857,7 +4007,8 @@ msgstr "Vybiery adzin ci niekalki typaŭ fajłaŭ, kab dadać:"
 
 #: kfile/kpropertiesdialog.cpp:3272
 msgid "Only executables on local file systems are supported."
-msgstr "Absłuhoŭvajucca tolki vykonvalnyja fajły z lakalnych fajłavych systemaŭ."
+msgstr ""
+"Absłuhoŭvajucca tolki vykonvalnyja fajły z lakalnych fajłavych systemaŭ."
 
 #: kfile/kpropertiesdialog.cpp:3286
 #, kde-format
@@ -3885,7 +4036,8 @@ msgid ""
 "Sharing this folder makes it available under Linux/UNIX (NFS) and Windows "
 "(Samba)."
 msgstr ""
-"Suponyja katalohi dastupnyja z systemaŭ Linux/UNIX (praz NFS) i „Windows” (praz SMB)."
+"Suponyja katalohi dastupnyja z systemaŭ Linux/UNIX (praz NFS) i "
+"„Windows” (praz SMB)."
 
 #: kfile/kfilesharedialog.cpp:167
 msgid "You can also reconfigure file sharing authorization."
@@ -3896,8 +4048,11 @@ msgid "Configure File Sharing..."
 msgstr "Naładź supolny dostup da fajłaŭ..."
 
 #: kfile/kfilesharedialog.cpp:180
-msgid "Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
-msgstr "Nie ŭdałosia ŭklučyć prahramu „filesharelist”. Spraŭdź, ci jana zainstalavanaja ŭ „$PATH” ci ŭ „/usr/sbin”."
+msgid ""
+"Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
+msgstr ""
+"Nie ŭdałosia ŭklučyć prahramu „filesharelist”. Spraŭdź, ci jana "
+"zainstalavanaja ŭ „$PATH” ci ŭ „/usr/sbin”."
 
 #: kfile/kfilesharedialog.cpp:187
 msgid "You need to be authorized to share folders."
@@ -3918,7 +4073,9 @@ msgid ""
 "An error occurred while trying to share folder '%1'. Make sure that the Perl "
 "script 'fileshareset' is set suid root."
 msgstr ""
-"Padčas sproby zrabić supolnym kataloh „%1” uźnikła pamyłka. Spraŭdź, kab skrypt Perl z nazvaj „fileshareset” mieŭ ułaścivaść „SUID” dla karystańnika „root”."
+"Padčas sproby zrabić supolnym kataloh „%1” uźnikła pamyłka. Spraŭdź, kab "
+"skrypt Perl z nazvaj „fileshareset” mieŭ ułaścivaść „SUID” dla karystańnika "
+"„root”."
 
 #: kfile/kfilesharedialog.cpp:263
 #, kde-format
@@ -3931,7 +4088,9 @@ msgid ""
 "An error occurred while trying to unshare folder '%1'. Make sure that the "
 "Perl script 'fileshareset' is set suid root."
 msgstr ""
-"Padčas sproby anulavać supolny dostup da kataloha „%1” uźnikła pamyłka. Spraŭdź, kab skrypt Perl z nazvaj „fileshareset” mieŭ ułaścivaść „SUID” dla karystańnika „root”."
+"Padčas sproby anulavać supolny dostup da kataloha „%1” uźnikła pamyłka. "
+"Spraŭdź, kab skrypt Perl z nazvaj „fileshareset” mieŭ ułaścivaść „SUID” dla "
+"karystańnika „root”."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -3950,7 +4109,8 @@ msgid ""
 "You must now provide a password for the certificate request. Please choose a "
 "very secure password as this will be used to encrypt your private key."
 msgstr ""
-"Ciapier, kab ździejśnić zapyt sertyfikata, treba padać parol. Vybiery vielmi biaśpiečny parol, bo ź im budzie zašyfravany tvoj pryvatny kluč."
+"Ciapier, kab ździejśnić zapyt sertyfikata, treba padać parol. Vybiery vielmi "
+"biaśpiečny parol, bo ź im budzie zašyfravany tvoj pryvatny kluč."
 
 #. i18n: file: kssl/keygenwizard2.ui:48
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
@@ -4315,7 +4475,8 @@ msgstr "&Nazva karystańnika:"
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, suidEdit)
 #: rc.cpp:177
 msgid "Enter the user name you want to run the application as here."
-msgstr "Siudy ŭpišy nazvu karystańnika, ad asoby jakoha treba ŭklučyć aplikacyju."
+msgstr ""
+"Siudy ŭpišy nazvu karystańnika, ad asoby jakoha treba ŭklučyć aplikacyju."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:147
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup4)
@@ -4436,7 +4597,7 @@ msgstr ""
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:102
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: rc.cpp:232
+#: rc.cpp:232 ../kfile/kfilewidget.cpp:465
 msgid "&Name:"
 msgstr "&Nazva:"
 
@@ -4565,7 +4726,8 @@ msgstr "&Asablivyja opcyi"
 
 #: httpfilter/httpfilter.cc:276
 msgid "Unexpected end of data, some information may be lost."
-msgstr "Niečakana skončylisia źviestki. Niekatoraja infarmacyja mahła zhubicca."
+msgstr ""
+"Niečakana skončylisia źviestki. Niekatoraja infarmacyja mahła zhubicca."
 
 #: httpfilter/httpfilter.cc:333
 msgid "Receiving corrupt data."
@@ -4596,7 +4758,7 @@ msgid "<!-- This file was generated by Konqueror -->"
 msgstr "<!-- Hety fajł byŭ vyrableny ŭ prahramie „Konqueror” -->"
 
 #: bookmarks/kbookmarkimporter_ns.cc:165 bookmarks/kbookmarkimporter_ns.cc:166
-#: bookmarks/kbookmarkdialog.cc:325 ../kfile/kfilewidget.cpp:2277
+#: bookmarks/kbookmarkdialog.cc:325 ../kfile/kfilewidget.cpp:2317
 msgid "Bookmarks"
 msgstr "Zakładki"
 
@@ -4702,7 +4864,9 @@ msgid ""
 "will only be shown once. The cause of the error needs to be fixed as quickly "
 "as possible, which is most likely a full hard drive."
 msgstr ""
-"Nie ŭdałosia zapisać zakładki ŭ „%1”. Uźnikła pamyłka: %2. Hetaje paviedamleńnie pra pamyłku budzie pakazanaje tolki adnojčy. Pryčynu pamyłki treba jak maha chutčej vypravić. Mabyć, usio praz zapoŭnienaść dyska."
+"Nie ŭdałosia zapisać zakładki ŭ „%1”. Uźnikła pamyłka: %2. Hetaje "
+"paviedamleńnie pra pamyłku budzie pakazanaje tolki adnojčy. Pryčynu pamyłki "
+"treba jak maha chutčej vypravić. Mabyć, usio praz zapoŭnienaść dyska."
 
 #: bookmarks/kbookmarkdialog.cc:22
 msgctxt "@action:button"
@@ -4813,11 +4977,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:462 ../kioslave/http/http.cpp:4809
+#: ../kioslave/ftp/ftp.cpp:462 ../kioslave/http/http.cpp:4825
 msgid "You need to supply a username and a password to access this site."
-msgstr "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
+msgstr ""
+"Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ../kioslave/ftp/ftp.cpp:464 ../kioslave/http/http.cpp:4817
+#: ../kioslave/ftp/ftp.cpp:464 ../kioslave/http/http.cpp:4833
 msgid "Site:"
 msgstr "Sajt:"
 
@@ -4843,7 +5008,8 @@ msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
 #: ../kioslave/file/file.cpp:235
 #, kde-format
 msgid "Could not get user id for given user name %1"
-msgstr "Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
+msgstr ""
+"Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
 
 #: ../kioslave/file/file.cpp:248
 #, kde-format
@@ -4987,7 +5153,8 @@ msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr ""
-"Niemahčyma stvaryć resurs u metavym miescy, pakul nia buduć stvorany pasiarednija katalohi, jakija viaduć da hetaha resursu."
+"Niemahčyma stvaryć resurs u metavym miescy, pakul nia buduć stvorany "
+"pasiarednija katalohi, jakija viaduć da hetaha resursu."
 
 #: ../kioslave/http/http.cpp:1569
 #, kde-format
@@ -5030,7 +5197,8 @@ msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr ""
-"Metavamu resursu nie chapiła volnaha miesca, kab zapisać novuju admienu, jakaja ŭźnikła paśla vykanańnia hetaj funkcyi."
+"Metavamu resursu nie chapiła volnaha miesca, kab zapisać novuju admienu, "
+"jakaja ŭźnikła paśla vykanańnia hetaj funkcyi."
 
 #: ../kioslave/http/http.cpp:1630
 #, kde-format
@@ -5053,66 +5221,68 @@ msgstr "Spałučany z „%1”. Čakańnie adkazu..."
 msgid "Server processing request, please wait..."
 msgstr "Server pierapracoŭvaje zapyt. Pačakaj..."
 
-#: ../kioslave/http/http.cpp:3582
+#: ../kioslave/http/http.cpp:3598
 msgid "Requesting data to send"
 msgstr "Zapyt źviestak dla vysyłańnia"
 
-#: ../kioslave/http/http.cpp:3619
+#: ../kioslave/http/http.cpp:3635
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Vysyłańnie źviestak u „%1”"
 
-#: ../kioslave/http/http.cpp:4027
+#: ../kioslave/http/http.cpp:4043
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Atrymańnie „%1” ad „%2”..."
 
-#: ../kioslave/http/http.cpp:4033
+#: ../kioslave/http/http.cpp:4049
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr "Atrymańnie źviestak ad „%1”..."
 
-#: ../kioslave/http/http.cpp:4792 ../kioslave/http/http.cpp:4984
+#: ../kioslave/http/http.cpp:4808 ../kioslave/http/http.cpp:5000
 msgid "Authentication Failed."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:4794 ../kioslave/http/http.cpp:4985
-#: ../kioslave/http/http.cpp:5700
+#: ../kioslave/http/http.cpp:4810 ../kioslave/http/http.cpp:5001
+#: ../kioslave/http/http.cpp:5716
 msgid "Proxy Authentication Failed."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:4796
+#: ../kioslave/http/http.cpp:4812
 msgid " Do you want to retry?"
 msgstr "Chočaš paŭtaryć?"
 
-#: ../kioslave/http/http.cpp:4797
+#: ../kioslave/http/http.cpp:4813
 msgid "Authentication"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:4818 ../kioslave/http/http.cpp:4835
-#: ../kioslave/http/http.cpp:5699
+#: ../kioslave/http/http.cpp:4834 ../kioslave/http/http.cpp:4851
+#: ../kioslave/http/http.cpp:5715
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
-#: ../kioslave/http/http.cpp:4825 ../kioslave/http/http.cpp:5694
+#: ../kioslave/http/http.cpp:4841 ../kioslave/http/http.cpp:5710
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
 msgstr ""
-"Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j parol dla proxy-servera."
+"Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
+"parol dla proxy-servera."
 
-#: ../kioslave/http/http.cpp:4834 ../kioslave/http/http.cpp:5698
+#: ../kioslave/http/http.cpp:4850 ../kioslave/http/http.cpp:5714
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/http/http.cpp:4872
+#: ../kioslave/http/http.cpp:4888
 #, kde-format
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:5354
-msgid "Unsupported method: authentication will fail. Please submit a bug report."
+#: ../kioslave/http/http.cpp:5370
+msgid ""
+"Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
 
 #: ../kioslave/http/http_cache_cleaner.cpp:199
@@ -5314,14 +5484,16 @@ msgstr "&Vydali „%1”"
 #: ../kfile/kfileplacesview.cpp:610
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "Ty sapraŭdy chočaš vyčyścić śmietnicu? Usio jejnaje źmieściva budzie vydalenaje."
+msgstr ""
+"Ty sapraŭdy chočaš vyčyścić śmietnicu? Usio jejnaje źmieściva budzie "
+"vydalenaje."
 
 #: ../kfile/kfileplacesview.cpp:614
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Vyčyści śmietnicu"
 
-#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1663
+#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1705
 msgid "*|All Files"
 msgstr "*|Usie fajły"
 
@@ -5329,56 +5501,62 @@ msgstr "*|Usie fajły"
 msgid "All Supported Files"
 msgstr "Fajły, jakija padtrymvajucca"
 
-#: ../kfile/kfilewidget.cpp:246
+#: ../kfile/kfilewidget.cpp:252
 msgid ""
 "<qt>While typing in the text area, you may be presented with possible "
 "matches. This feature can be controlled by clicking with the right mouse "
 "button and selecting a preferred mode from the <b>Text Completion</b> menu."
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:313
+#: ../kfile/kfilewidget.cpp:324
 #, kde-format
 msgid "Drive: %1"
 msgstr "Pryłada: %1"
 
-#: ../kfile/kfilewidget.cpp:368
+#: ../kfile/kfilewidget.cpp:379
 #, kde-format
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
 "if the current location is file:/home/%1 clicking this button will take you "
 "to file:/home.</qt>"
 msgstr ""
-"<qt>Klikni ŭ hetuju knopku, kab pierajści ŭ vyšejšy kataloh.<br /><br />Naprykład, kali ciapier ty ŭ miescy z adrasam „file:/home/%1”, to kliknuŭšy ŭ hetuju knopku, ty pierajdzieš u „file:/home”.</qt>"
+"<qt>Klikni ŭ hetuju knopku, kab pierajści ŭ vyšejšy kataloh.<br /><br /"
+">Naprykład, kali ciapier ty ŭ miescy z adrasam „file:/home/%1”, to kliknuŭšy "
+"ŭ hetuju knopku, ty pierajdzieš u „file:/home”.</qt>"
 
-#: ../kfile/kfilewidget.cpp:373
+#: ../kfile/kfilewidget.cpp:383
 msgid "Click this button to move backwards one step in the browsing history."
-msgstr "Klikni ŭ hetuju knopku, kab viarnucca nazad na adzin krok u śpisie prahladanych miescaŭ."
+msgstr ""
+"Klikni ŭ hetuju knopku, kab viarnucca nazad na adzin krok u śpisie "
+"prahladanych miescaŭ."
 
-#: ../kfile/kfilewidget.cpp:375
+#: ../kfile/kfilewidget.cpp:384
 msgid "Click this button to move forward one step in the browsing history."
-msgstr "Klikni ŭ hetuju knopku, kab pajści napierad na adzin krok u śpisie prahladanych miescaŭ."
+msgstr ""
+"Klikni ŭ hetuju knopku, kab pajści napierad na adzin krok u śpisie "
+"prahladanych miescaŭ."
 
-#: ../kfile/kfilewidget.cpp:378
+#: ../kfile/kfilewidget.cpp:386
 msgid "Click this button to reload the contents of the current location."
 msgstr "Klikni ŭ hetuju knopku, kab pieračytać źmieściva hetaha miesca."
 
-#: ../kfile/kfilewidget.cpp:381
+#: ../kfile/kfilewidget.cpp:388
 msgid "Click this button to create a new folder."
 msgstr "Klikni ŭ hetuju knopku, kab stvaryć novy kataloh."
 
-#: ../kfile/kfilewidget.cpp:387
+#: ../kfile/kfilewidget.cpp:394
 msgid "Show Places Navigation Panel"
 msgstr "Pakažy panel miescaŭ"
 
-#: ../kfile/kfilewidget.cpp:394
+#: ../kfile/kfilewidget.cpp:401
 msgid "Show Bookmarks"
 msgstr "Pakažy zakładki"
 
-#: ../kfile/kfilewidget.cpp:399
+#: ../kfile/kfilewidget.cpp:406
 msgid "Options"
 msgstr "Opcyi"
 
-#: ../kfile/kfilewidget.cpp:401
+#: ../kfile/kfilewidget.cpp:408
 msgid ""
 "<qt>This is the preferences menu for the file dialog. Various options can be "
 "accessed from this menu including: <ul><li>how files are sorted in the list</"
@@ -5386,15 +5564,13 @@ msgid ""
 "files</li><li>the Places navigation panel</li><li>file previews</"
 "li><li>separating folders from files</li></ul></qt>"
 msgstr ""
-"<qt>Heta menu ŭłasnych naładaŭ dla akna vybaru fajłaŭ. Tut možna vybrać: <ul><li>jak paradkavać fajły ŭ śpisie;</"
-"li><li>jak prahladać źmieściva katalohaŭ: jak ikony, u śpisie i h.d.;</li><li>ci pakazvać schavanyja fajły;</li><li>ci pakazvać panel miescaŭ;</li><li>ci pakazvać dla fajłaŭ padhlady;</"
-"li><li>ci adasablać katalohi ad fajłaŭ.</li></ul></qt>"
+"<qt>Heta menu ŭłasnych naładaŭ dla akna vybaru fajłaŭ. Tut možna vybrać: "
+"<ul><li>jak paradkavać fajły ŭ śpisie;</li><li>jak prahladać źmieściva "
+"katalohaŭ: jak ikony, u śpisie i h.d.;</li><li>ci pakazvać schavanyja fajły;"
+"</li><li>ci pakazvać panel miescaŭ;</li><li>ci pakazvać dla fajłaŭ padhlady;"
+"</li><li>ci adasablać katalohi ad fajłaŭ.</li></ul></qt>"
 
-#: ../kfile/kfilewidget.cpp:447 ../kfile/kfileplaceeditdialog.cpp:116
-msgid "&Location:"
-msgstr "&Miesca:"
-
-#: ../kfile/kfilewidget.cpp:484
+#: ../kfile/kfilewidget.cpp:502
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
 "match the filter will not be shown.<p>You may select from one of the preset "
@@ -5402,21 +5578,21 @@ msgid ""
 "into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:490
+#: ../kfile/kfilewidget.cpp:508
 msgid "&Filter:"
 msgstr "&Filtruj:"
 
-#: ../kfile/kfilewidget.cpp:717 ../kfile/kfilewidget.cpp:766
-#: ../kfile/kfilewidget.cpp:1600
+#: ../kfile/kfilewidget.cpp:737 ../kfile/kfilewidget.cpp:790
+#: ../kfile/kfilewidget.cpp:1642
 msgid "You can only select local files."
 msgstr "Možna vybirać tolki lakalnyja fajły."
 
-#: ../kfile/kfilewidget.cpp:718 ../kfile/kfilewidget.cpp:767
-#: ../kfile/kfilewidget.cpp:1601
+#: ../kfile/kfilewidget.cpp:738 ../kfile/kfilewidget.cpp:791
+#: ../kfile/kfilewidget.cpp:1643
 msgid "Remote Files Not Accepted"
 msgstr "Nielha vydalać fajły"
 
-#: ../kfile/kfilewidget.cpp:757
+#: ../kfile/kfilewidget.cpp:781
 #, kde-format
 msgid ""
 "%1\n"
@@ -5425,35 +5601,36 @@ msgstr ""
 "%1\n"
 "nia jość pravilnym adrasam.\n"
 
-#: ../kfile/kfilewidget.cpp:757
+#: ../kfile/kfilewidget.cpp:781
 msgid "Invalid URL"
 msgstr "Niapravilny adras"
 
-#: ../kfile/kfilewidget.cpp:1191
+#: ../kfile/kfilewidget.cpp:1215
 msgid "This is the name to save the file as."
 msgstr "Nazva dla zapisvanaha fajła."
 
-#: ../kfile/kfilewidget.cpp:1196
+#: ../kfile/kfilewidget.cpp:1220
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
 msgstr ""
-"Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
+"Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, "
+"padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
 
-#: ../kfile/kfilewidget.cpp:1203
+#: ../kfile/kfilewidget.cpp:1227
 msgid "This is the name of the file to open."
 msgstr "Nazva fajła, jaki treba adčynić."
 
-#: ../kfile/kfilewidget.cpp:1377
+#: ../kfile/kfilewidget.cpp:1419
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
 
-#: ../kfile/kfilewidget.cpp:1378
+#: ../kfile/kfilewidget.cpp:1420
 msgid "Overwrite File?"
 msgstr "Nadpisać fajł?"
 
-#: ../kfile/kfilewidget.cpp:1532
+#: ../kfile/kfilewidget.cpp:1574
 msgid ""
 "The chosen filenames do not\n"
 "appear to be valid."
@@ -5461,11 +5638,11 @@ msgstr ""
 "Nazvy vybranych fajłaŭ\n"
 "niapravilnyja."
 
-#: ../kfile/kfilewidget.cpp:1534
+#: ../kfile/kfilewidget.cpp:1576
 msgid "Invalid Filenames"
 msgstr "Niapravilnyja nazvy fajłaŭ"
 
-#: ../kfile/kfilewidget.cpp:1563
+#: ../kfile/kfilewidget.cpp:1605
 #, kde-format
 msgid ""
 "The requested filenames\n"
@@ -5478,33 +5655,33 @@ msgstr ""
 "niapravilnyja.\n"
 "Spraŭdź, što kožnaja nazva fajła ŭłučanaja ŭ dvukośsi."
 
-#: ../kfile/kfilewidget.cpp:1567
+#: ../kfile/kfilewidget.cpp:1609
 msgid "Filename Error"
 msgstr "Pamyłka ŭ naźvie fajła"
 
-#: ../kfile/kfilewidget.cpp:1660
+#: ../kfile/kfilewidget.cpp:1702
 msgid "*|All Folders"
 msgstr "*|Usie katalohi"
 
-#: ../kfile/kfilewidget.cpp:1958
+#: ../kfile/kfilewidget.cpp:2000
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
 
-#: ../kfile/kfilewidget.cpp:1959
+#: ../kfile/kfilewidget.cpp:2001
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "pašyreńnie <b>%1</b>"
 
-#: ../kfile/kfilewidget.cpp:1967
+#: ../kfile/kfilewidget.cpp:2009
 msgid "Automatically select filename e&xtension"
 msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
 
-#: ../kfile/kfilewidget.cpp:1968
+#: ../kfile/kfilewidget.cpp:2010
 msgid "a suitable extension"
 msgstr "prydatnaje pašyreńnie"
 
-#: ../kfile/kfilewidget.cpp:1978
+#: ../kfile/kfilewidget.cpp:2020
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -5520,7 +5697,7 @@ msgid ""
 "enabled as it makes your files more manageable."
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:2281
+#: ../kfile/kfilewidget.cpp:2321
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
 "button to open the bookmark menu where you may add, edit or select a "
@@ -5642,6 +5819,10 @@ msgid ""
 "org/pub/kde/stable<br /><br />By clicking on the button next to the text "
 "edit box you can browse to an appropriate URL.</qt>"
 msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:116
+msgid "&Location:"
+msgstr "&Miesca:"
 
 #: ../kfile/kfileplaceeditdialog.cpp:125
 msgid ""
@@ -5845,4 +6026,3 @@ msgstr "Pierajdzi"
 #: ../kfile/kurlbutton.cpp:119
 msgid "Show Full Path"
 msgstr "Pakažy ŭsiu ściežku"
-

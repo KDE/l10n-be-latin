@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-13 10:16+0200\n"
+"POT-Creation-Date: 2008-09-14 09:44+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -829,13 +829,13 @@ msgstr "Hałoŭnaja panel pryładździa"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:524
+#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:553
 msgid "Main:"
 msgstr "Hałoŭny:"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:525
+#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:554
 msgid "Alternate:"
 msgstr "Zastupny:"
 
@@ -5004,7 +5004,7 @@ msgid "Name"
 msgstr "Nazva"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:49
-#: kdeui/dialogs/kshortcutseditor.cpp:549
+#: kdeui/dialogs/kshortcutseditor.cpp:578
 msgid "Description"
 msgstr "Apisańnie"
 
@@ -6294,18 +6294,18 @@ msgstr "%1"
 msgid "Change Icon"
 msgstr "Źmiani ikonu"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:108
-#: kdeui/dialogs/kshortcutseditor.cpp:545
+#: kdeui/dialogs/kshortcutseditor.cpp:109
+#: kdeui/dialogs/kshortcutseditor.cpp:574
 msgid "Shortcuts"
 msgstr "Klavijaturnyja skaroty"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:448
-#: kdeui/dialogs/kshortcutseditor.cpp:464
+#: kdeui/dialogs/kshortcutseditor.cpp:477
+#: kdeui/dialogs/kshortcutseditor.cpp:493
 #: kdeui/widgets/kkeysequencewidget.cpp:150
 msgid "Key Conflict"
 msgstr "Niazhoda klavišaŭ"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:449
+#: kdeui/dialogs/kshortcutseditor.cpp:478
 #, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
@@ -6314,14 +6314,14 @@ msgstr ""
 "Žest z pasoŭvańniem myšy „%1” užo prymierkavany dla aperacyi „%2”.\n"
 "Pieraviazać jaho z toj aperacyi na hetuju?"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:453
-#: kdeui/dialogs/kshortcutseditor.cpp:469 kdeui/shortcuts/kglobalaccel.cpp:439
+#: kdeui/dialogs/kshortcutseditor.cpp:482
+#: kdeui/dialogs/kshortcutseditor.cpp:498 kdeui/shortcuts/kglobalaccel.cpp:439
 #: kdeui/widgets/kkeysequencewidget.cpp:154
 #: kdeui/widgets/kkeysequencewidget.cpp:463
 msgid "Reassign"
 msgstr "Pieraviažy"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:465
+#: kdeui/dialogs/kshortcutseditor.cpp:494
 #, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
@@ -6330,17 +6330,17 @@ msgstr ""
 "Žest z prycisnutaj knopkaj myšy „%1” užo prymierkavany dla aperacyi „%2”.\n"
 "Pieraviazać jaho z toj aperacyi na hetuju?"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:506
+#: kdeui/dialogs/kshortcutseditor.cpp:535
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "Klavijaturnyja skaroty dla %1"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:526
+#: kdeui/dialogs/kshortcutseditor.cpp:555
 msgid "Global:"
 msgstr "Paŭsiudny:"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:541
+#: kdeui/dialogs/kshortcutseditor.cpp:570
 msgid "Action Name"
 msgstr "Nazva aperacyi"
 

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-15 07:50+0000\n"
+"POT-Creation-Date: 2008-09-16 07:47+0000\n"
 "PO-Revision-Date: 2008-09-07 22:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -322,9 +322,14 @@ msgid "Alephone - No OpenGL"
 msgstr "Alephone (biez „OpenGL”)"
 
 #: apps/kappfinder/apps/Games/Arcade/alephone.desktop:72
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid ""
+#| "An open source version of Marathon Infinity for SDL that has Open GL "
+#| "disabled"
 msgctxt "Comment"
 msgid ""
-"An open source version of Marathon Infinity for SDL that has Open GL disabled"
+"An open source version of Marathon Infinity for SDL that has OpenGL disabled"
 msgstr ""
 "Svabodnaja versija hulni „Marathon Infinity” dla systemy „SDL” z vyklučanym "
 "„OpenGL”"
@@ -583,13 +588,19 @@ msgid "Strategy Game"
 msgstr "Stratehičnaja hulnia"
 
 #: apps/kappfinder/apps/Games/TacticStrategy/freecivserver.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "FreeCiv Server"
 msgctxt "Name"
-msgid "FreeCiv Server"
+msgid "Freeciv Server"
 msgstr "Server hulni „FreeCiv”"
 
 #: apps/kappfinder/apps/Games/TacticStrategy/freecivserver.desktop:74
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "A server for Free Civ"
 msgctxt "Comment"
-msgid "A server for Free Civ"
+msgid "A server for Freeciv"
 msgstr "Server hulni „FreeCiv”"
 
 #: apps/kappfinder/apps/Games/TacticStrategy/xscorch.desktop:3
@@ -724,8 +735,8 @@ msgstr "Prahladnik PostScript"
 
 #: apps/kappfinder/apps/Graphics/gimp.desktop:2
 msgctxt "Name"
-msgid "Gimp"
-msgstr "Gimp"
+msgid "GIMP"
+msgstr ""
 
 #: apps/kappfinder/apps/Graphics/gimp.desktop:26
 msgctxt "GenericName"
@@ -1002,9 +1013,12 @@ msgid "SILC Client"
 msgstr "Klijent dla SILC"
 
 #: apps/kappfinder/apps/Internet/Terminal/silc.desktop:80
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KSIRC"
 msgctxt "Name"
-msgid "Silc"
-msgstr "Silc"
+msgid "SILC"
+msgstr "KSIRC"
 
 #: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:5
 msgctxt "Name"
@@ -1168,8 +1182,11 @@ msgid "Netscape"
 msgstr "Netscape"
 
 #: apps/kappfinder/apps/Internet/netscape6.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Netscape6"
 msgctxt "Name"
-msgid "Netscape6"
+msgid "Netscape 6"
 msgstr "Netscape6"
 
 #: apps/kappfinder/apps/Internet/opera.desktop:2
@@ -1247,8 +1264,11 @@ msgid "Video Player"
 msgstr "Prajhravańnik videa"
 
 #: apps/kappfinder/apps/Multimedia/alevt.desktop:2
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "VideoText Viewer"
 msgctxt "GenericName"
-msgid "VideoText Viewer"
+msgid "Videotext Viewer"
 msgstr "Prahladnik dla „VideoText”"
 
 #: apps/kappfinder/apps/Multimedia/alevt.desktop:80
@@ -3876,7 +3896,7 @@ msgid "There was a serious error causing the program to exit"
 msgstr "Surjoznaja pamyłka prymusiła prahramu vyjści."
 
 #: runtime/knotify/kde.notifyrc:648
-#: workspace/powerdevil/powerdevil.notifyrc:33
+#: workspace/powerdevil/powerdevil.notifyrc:77
 msgctxt "Name"
 msgid "Notification"
 msgstr "Infarmavańnie"
@@ -3886,7 +3906,7 @@ msgctxt "Comment"
 msgid "Something special happened in the program"
 msgstr "U prahramie zdaryłasia niešta asablivaje."
 
-#: runtime/knotify/kde.notifyrc:776 workspace/powerdevil/powerdevil.notifyrc:9
+#: runtime/knotify/kde.notifyrc:776 workspace/powerdevil/powerdevil.notifyrc:7
 msgctxt "Name"
 msgid "Warning"
 msgstr "Uvaha"
@@ -5266,7 +5286,7 @@ msgctxt "Name"
 msgid "KWallet Daemon Module"
 msgstr ""
 
-#: runtime/kwalletd/kwalletd.desktop:13
+#: runtime/kwalletd/kwalletd.desktop:15
 msgctxt "Comment"
 msgid "KWallet daemon module for KDED"
 msgstr ""
@@ -9816,7 +9836,7 @@ msgctxt "Name"
 msgid "Dictionary"
 msgstr "HyperDictionary.com"
 
-#: workspace/plasma/dataengines/dict/plasma-dataengine-dict.desktop:10
+#: workspace/plasma/dataengines/dict/plasma-dataengine-dict.desktop:11
 msgctxt "Comment"
 msgid "Look up word meanings"
 msgstr "Pošuk značeńniaŭ słovaŭ"
@@ -9829,7 +9849,7 @@ msgctxt "Name"
 msgid "Files and Directories"
 msgstr "Słužba prahladu fajłaŭ i katalohaŭ"
 
-#: workspace/plasma/dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:10
+#: workspace/plasma/dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:11
 msgctxt "Comment"
 msgid "Info about files and directories for Plasmoids"
 msgstr "Źviestki pra fajły j katalohi dla plazmoidaŭ"
@@ -9847,7 +9867,7 @@ msgctxt "Name"
 msgid "Pointer Position"
 msgstr ""
 
-#: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:10
+#: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:11
 msgctxt "Comment"
 msgid "Mouse data for Plasmoids"
 msgstr "Źviestki ad myšy dla plazmoidaŭ"
@@ -9860,7 +9880,7 @@ msgctxt "Name"
 msgid "Networking"
 msgstr "Sietka"
 
-#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:11
+#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:12
 msgctxt "Comment"
 msgid "Network information for Plasmoids"
 msgstr "Sietkavyja źviestki dla plazmoidaŭ"
@@ -9870,7 +9890,7 @@ msgctxt "Name"
 msgid "Now Playing"
 msgstr ""
 
-#: workspace/plasma/dataengines/nowplaying/plasma-dataengine-nowplaying.desktop:11
+#: workspace/plasma/dataengines/nowplaying/plasma-dataengine-nowplaying.desktop:12
 msgctxt "Comment"
 msgid "Lists currently playing music"
 msgstr ""
@@ -9883,7 +9903,7 @@ msgctxt "Name"
 msgid "Places"
 msgstr "Faces"
 
-#: workspace/plasma/dataengines/places/plasma-dataengine-places.desktop:10
+#: workspace/plasma/dataengines/places/plasma-dataengine-places.desktop:11
 msgctxt "Comment"
 msgid "Places data for Plasmoids"
 msgstr "Źviestki ź miescaŭ dla plazmoidaŭ"
@@ -9904,7 +9924,7 @@ msgctxt "Name"
 msgid "Device Information"
 msgstr "Źviestki"
 
-#: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:10
+#: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:11
 msgctxt "Comment"
 msgid "SolidDevice data for Plasmoids"
 msgstr "Źviestki „SolidDevice” dla plazmoidaŭ"
@@ -9925,7 +9945,7 @@ msgctxt "Name"
 msgid "Date and Time"
 msgstr "Data j čas"
 
-#: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:10
+#: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:11
 msgctxt "Comment"
 msgid "Time data for Plasmoids"
 msgstr "Źviestki pra čas dla plazmoidaŭ"
@@ -9970,7 +9990,7 @@ msgctxt "Name"
 msgid "Weather"
 msgstr ""
 
-#: workspace/plasma/dataengines/weather/plasma-dataengine-weather.desktop:10
+#: workspace/plasma/dataengines/weather/plasma-dataengine-weather.desktop:11
 msgctxt "Comment"
 msgid "Weather data for Plasmoids"
 msgstr "Źviestki pra nadvorje dla plazmoidaŭ"
@@ -10011,7 +10031,7 @@ msgctxt "Name"
 msgid "PowerDevil"
 msgstr ""
 
-#: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:6
+#: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Management"
@@ -10109,6 +10129,20 @@ msgctxt "Comment"
 msgid "MacOS dashboard widget"
 msgstr "Widžet „Dashboard” systemy „MacOS”"
 
+#: workspace/plasma/scriptengines/webkit/plasma-packagestructure-web.desktop:2
+#: workspace/plasma/scriptengines/webkit/plasma-scriptengine-applet-web.desktop:2
+msgctxt "Name"
+msgid "Web Widget"
+msgstr "Sieciŭny widžet"
+
+#: workspace/plasma/scriptengines/webkit/plasma-packagestructure-web.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "HTML Files"
+msgctxt "Comment"
+msgid "HTML widget"
+msgstr "Fajły HTML"
+
 #: workspace/plasma/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:2
 msgctxt "Name"
 msgid "Dashboard"
@@ -10118,11 +10152,6 @@ msgstr "Dashboard"
 msgctxt "Comment"
 msgid "MacOS X dashboard widget"
 msgstr "Widžet „Dashboard” systemy „MacOS X”."
-
-#: workspace/plasma/scriptengines/webkit/plasma-scriptengine-applet-web.desktop:2
-msgctxt "Name"
-msgid "Web Widget"
-msgstr "Sieciŭny widžet"
 
 #: workspace/plasma/scriptengines/webkit/plasma-scriptengine-applet-web.desktop:45
 msgctxt "Comment"
@@ -10165,7 +10194,7 @@ msgctxt "Name"
 msgid "Slideshow"
 msgstr "Słajdy"
 
-#: workspace/powerdevil/daemon/powerdevil.desktop:15
+#: workspace/powerdevil/daemon/powerdevil.desktop:13
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Management"
@@ -10181,7 +10210,7 @@ msgctxt "Name"
 msgid "Power Management Preferences"
 msgstr "Kiravańnie fajłami"
 
-#: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:24
+#: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:15
 msgctxt "Comment"
 msgid "Display brightness, suspend and power profile settings"
 msgstr ""
@@ -10191,12 +10220,12 @@ msgctxt "Comment"
 msgid "PowerDevil"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:20
+#: workspace/powerdevil/powerdevil.notifyrc:74
 msgctxt "Comment"
 msgid "Used for warning notifications"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:44
+#: workspace/powerdevil/powerdevil.notifyrc:144
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Browser Identification"
@@ -10204,7 +10233,7 @@ msgctxt "Comment"
 msgid "Used for standard notifications"
 msgstr "Identyfikacyja hartača"
 
-#: workspace/powerdevil/powerdevil.notifyrc:57
+#: workspace/powerdevil/powerdevil.notifyrc:147
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Notification"
@@ -10212,47 +10241,47 @@ msgctxt "Name"
 msgid "Critical notification"
 msgstr "Infarmavańnie"
 
-#: workspace/powerdevil/powerdevil.notifyrc:67
+#: workspace/powerdevil/powerdevil.notifyrc:148
 msgctxt "Comment"
 msgid "Notifies a critical event"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:79
+#: workspace/powerdevil/powerdevil.notifyrc:151
 msgctxt "Name"
 msgid "Low Battery"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:90
+#: workspace/powerdevil/powerdevil.notifyrc:152
 msgctxt "Comment"
 msgid "Your battery has reached low level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:106
+#: workspace/powerdevil/powerdevil.notifyrc:158
 msgctxt "Name"
 msgid "Battery at warning level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:117
+#: workspace/powerdevil/powerdevil.notifyrc:159
 msgctxt "Comment"
 msgid "Your battery has reached warning level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:133
+#: workspace/powerdevil/powerdevil.notifyrc:165
 msgctxt "Name"
 msgid "Battery at critical level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:144
+#: workspace/powerdevil/powerdevil.notifyrc:166
 msgctxt "Comment"
 msgid "Your battery has reached critical level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:160
+#: workspace/powerdevil/powerdevil.notifyrc:172
 msgctxt "Name"
 msgid "AC adaptor plugged in"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:171
+#: workspace/powerdevil/powerdevil.notifyrc:173
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -10260,12 +10289,12 @@ msgctxt "Comment"
 msgid "The power adaptor has been plugged in"
 msgstr "Śmietnica vyčyščanaja."
 
-#: workspace/powerdevil/powerdevil.notifyrc:187
+#: workspace/powerdevil/powerdevil.notifyrc:179
 msgctxt "Name"
 msgid "AC adaptor unplugged"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:198
+#: workspace/powerdevil/powerdevil.notifyrc:180
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The trash has been emptied"
@@ -10273,12 +10302,12 @@ msgctxt "Comment"
 msgid "The power adaptor has been unplugged"
 msgstr "Śmietnica vyčyščanaja."
 
-#: workspace/powerdevil/powerdevil.notifyrc:214
+#: workspace/powerdevil/powerdevil.notifyrc:186
 msgctxt "Name"
 msgid "Job error"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:225
+#: workspace/powerdevil/powerdevil.notifyrc:187
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "There was an error in the program which may cause problems"
@@ -10286,27 +10315,27 @@ msgctxt "Comment"
 msgid "There was an error while performing a job"
 msgstr "U prahramie ŭźnikła pamyłka, ź jakoj mohuć vyniknuć prablemy."
 
-#: workspace/powerdevil/powerdevil.notifyrc:241
+#: workspace/powerdevil/powerdevil.notifyrc:193
 msgctxt "Name"
 msgid "Profile Changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:252
+#: workspace/powerdevil/powerdevil.notifyrc:194
 msgctxt "Comment"
 msgid "The profile was changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:268
+#: workspace/powerdevil/powerdevil.notifyrc:200
 msgctxt "Name"
 msgid "Doing a Job"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:279
+#: workspace/powerdevil/powerdevil.notifyrc:201
 msgctxt "Comment"
 msgid "Something is ongoing"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:295
+#: workspace/powerdevil/powerdevil.notifyrc:207
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Internal Services"
@@ -10314,7 +10343,7 @@ msgctxt "Name"
 msgid "Internal PowerDevil Error"
 msgstr "Unutranyja słužby"
 
-#: workspace/powerdevil/powerdevil.notifyrc:305
+#: workspace/powerdevil/powerdevil.notifyrc:208
 msgctxt "Comment"
 msgid "PowerDevil has triggered an internal error"
 msgstr ""
@@ -10549,6 +10578,14 @@ msgstr "Nastolny doždž"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "Zołak"
+
+#~ msgctxt "Name"
+#~ msgid "Gimp"
+#~ msgstr "Gimp"
+
+#~ msgctxt "Name"
+#~ msgid "Silc"
+#~ msgstr "Silc"
 
 #~ msgctxt "Name"
 #~ msgid "Taskbar"

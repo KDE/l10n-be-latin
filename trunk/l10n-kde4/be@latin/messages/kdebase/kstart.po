@@ -29,6 +29,9 @@ msgid ""
 "decoration\n"
 "and so on."
 msgstr ""
+"Pryłada, jakaja dazvalaje ŭklučać aplikacyi z asablivymi ŭłaścivaściami akna,\n"
+"prykładam, źminimalizavanymi, zmaksymalizavanymi, na peŭnym virtualnym stale,\n"
+"z peŭnaj azdobaj akna itp."
 
 #: kstart.cpp:293
 msgid "(C) 1997-2000 Matthias Ettrich (ettrich@kde.org)"
@@ -64,6 +67,13 @@ msgid ""
 "then the very first window to appear will be taken;\n"
 "omitting both options is NOT recommended."
 msgstr ""
+"Tekst, jaki adpaviadaje klasie akna (ułaścivaść „WM_CLASS”)\n"
+"Ty možaš daviedacca, jakaja ŭ akna klasa, vykanaŭšy prahramu\n"
+"„xprop | grep WM_CLASS” i kliknuŭšy ŭ hetaje akno (vykarystaj albo\n"
+"abiedźvie častki, padzielenyja prabiełam, albo tolki pravuju častku).\n"
+"Uvaha: ź nieaznačanymi zahałoŭkam i klasaj akna\n"
+"budzie ŭziataje pieršaje ŭźnikłaje akno.\n"
+"My nia raim hetak rabić."
 
 #: kstart.cpp:314
 msgid "Desktop on which to make the window appear"
@@ -74,10 +84,12 @@ msgid ""
 "Make the window appear on the desktop that was active\n"
 "when starting the application"
 msgstr ""
+"Akno ŭźniknie na tym stale,\n"
+"dzie była ŭklučanaja aplikacyja."
 
 #: kstart.cpp:316
 msgid "Make the window appear on all desktops"
-msgstr "Akno ŭźniknie na ŭsich rabočych stałach"
+msgstr "Akno ŭźniknie na ŭsich rabočych stałach."
 
 #: kstart.cpp:317
 msgid "Iconify the window"
@@ -104,6 +116,8 @@ msgid ""
 "The window type: Normal, Desktop, Dock, Toolbar, \n"
 "Menu, Dialog, TopMenu or Override"
 msgstr ""
+"Typ akna: „Normal” (zvyčajnaje), „Desktop” (stoł), „Dock” (unutranaje), „Toolbar” (panel pryładździa), \n"
+"„Menu” (menu), „Dialog” (dyjalohavaje), „TopMenu” (menu vyššaha roŭniu) ci „Override” (nadpisańnie)."
 
 #: kstart.cpp:323
 msgid ""

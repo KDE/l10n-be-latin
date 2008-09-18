@@ -115,7 +115,7 @@ msgstr "Farmat źviestak:"
 
 #: kio/slaveinterface.cpp:460
 msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr ""
+msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
 
 #: kio/slaveinterface.cpp:462 kio/tcpslavebase.cpp:681
 msgid "SSL"
@@ -175,7 +175,7 @@ msgstr "&Uklej źmieściva abmiennaha bufera"
 
 #: kio/passworddialog.cpp:62
 msgid "Authorization Dialog"
-msgstr ""
+msgstr "Akno aŭtaryzavańnia"
 
 #: kio/kfileitemdelegate.cpp:219
 #, kde-format
@@ -217,11 +217,11 @@ msgstr "N&adpisvaj usio"
 
 #: kio/renamedialog.cpp:128
 msgid "&Resume"
-msgstr ""
+msgstr "&Praciahvaj"
 
 #: kio/renamedialog.cpp:133
 msgid "R&esume All"
-msgstr ""
+msgstr "P&raciahvaj usio"
 
 #: kio/renamedialog.cpp:145
 #, kde-format
@@ -327,7 +327,7 @@ msgstr "&Praciahvaj"
 #, kde-format
 msgctxt "%1 is a host name"
 msgid "%1: SSL negotiation failed"
-msgstr ""
+msgstr "%1: nie ŭdałosia zaćvierdzić SSL"
 
 #: kio/tcpslavebase.cpp:507
 msgid ""
@@ -370,11 +370,13 @@ msgid ""
 "The server failed the authenticity check (%1).\n"
 "\n"
 msgstr ""
+"Serveru nie ŭdałosia spraŭdzić tojesnaść (%1).\n"
+"\n"
 
 #: kio/tcpslavebase.cpp:783 kio/tcpslavebase.cpp:800 kio/tcpslavebase.cpp:902
 #: kio/tcpslavebase.cpp:914
 msgid "Server Authentication"
-msgstr ""
+msgstr "Spraŭdžvańnie tojesnaści servera"
 
 #: kio/tcpslavebase.cpp:784
 msgid "&Details"
@@ -412,6 +414,8 @@ msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE Control Center."
 msgstr ""
+"Sertyfikat SSL byŭ admoŭleny, jak prasili. Ty možaš adklučyć takija pavodziny ŭ "
+"Centry kiravańnia KDE."
 
 #: kio/jobuidelegate.cpp:129 ../kfile/kdiroperator.cpp:748
 #, kde-format
@@ -730,7 +734,7 @@ msgstr "Nie ŭdałosia vydalić kataloh „%1”."
 #: kio/global.cpp:269
 #, kde-format
 msgid "Could not resume file %1."
-msgstr ""
+msgstr "Nie ŭdałosia praciahnuć atrymańnie fajła „%1”."
 
 #: kio/global.cpp:272
 #, kde-format
@@ -778,7 +782,7 @@ msgstr ""
 #: kio/global.cpp:293
 #, kde-format
 msgid "Authorization failed, %1 authentication not supported"
-msgstr ""
+msgstr "Nie ŭdałosia aŭtaryzavacca. Tojesnaść „%1” nie absłuhoŭvajecca."
 
 #: kio/global.cpp:296
 #, kde-format
@@ -804,6 +808,8 @@ msgid ""
 "Timeout on server\n"
 "%1"
 msgstr ""
+"Termin čakańnia adkazu ad servera skončyŭsia\n"
+"%1"
 
 #: kio/global.cpp:305
 #, kde-format
@@ -820,6 +826,8 @@ msgid ""
 "Unknown interrupt\n"
 "%1"
 msgstr ""
+"Nieviadomaje pierarvańnie\n"
+"%1"
 
 #: kio/global.cpp:319
 #, kde-format
@@ -1471,7 +1479,7 @@ msgstr "Dostup da aznačanaha resursu, <strong>%1</strong>, zabaronieny."
 
 #: kio/global.cpp:711 kio/global.cpp:927
 msgid "You may have supplied incorrect authentication details or none at all."
-msgstr ""
+msgstr "Mabyć, ty nie padaŭ albo padaŭ niapravilnyja źviestki pra svaju tojesnaść."
 
 #: kio/global.cpp:713 kio/global.cpp:929
 msgid "Your account may not have permission to access the specified resource."
@@ -1483,6 +1491,7 @@ msgid ""
 "Retry the request and ensure your authentication details are entered "
 "correctly."
 msgstr ""
+"Paŭtary zapyt, spraŭdziŭšy pravilnaść svaich źviestak pra tojesnaść."
 
 #: kio/global.cpp:721
 msgid "Write Access Denied"
@@ -1924,7 +1933,7 @@ msgstr "Spraŭdź, što kataloh isnuje j nie źmiaščaje fajłaŭ, i pasprabuj 
 
 #: kio/global.cpp:975
 msgid "Could Not Resume File Transfer"
-msgstr ""
+msgstr "Nie ŭdałosia praciahnuć pierasyłańnie fajła"
 
 #: kio/global.cpp:976
 #, kde-format
@@ -1932,14 +1941,16 @@ msgid ""
 "The specified request asked that the transfer of file <strong>%1</strong> be "
 "resumed at a certain point of the transfer. This was not possible."
 msgstr ""
+"Aznačany zapyt vymahaje pierasyłańnia fajła <strong>%1</strong>, pačynajučy ad "
+"peŭnaha miesca. Ale heta niemahčyma."
 
 #: kio/global.cpp:979
 msgid "The protocol, or the server, may not support file resuming."
-msgstr ""
+msgstr "Pratakoł albo server nia ŭmiejuć praciahvać pierasyłańni fajłaŭ."
 
 #: kio/global.cpp:981
 msgid "Retry the request without attempting to resume transfer."
-msgstr ""
+msgstr "Paŭtary sprobu pierasyłańnia fajła biaz praciahu."
 
 #: kio/global.cpp:986
 msgid "Could Not Rename Resource"
@@ -2039,7 +2050,7 @@ msgstr "Spraŭdź svaje nałady proxy i pasprabuj znoŭ."
 #: kio/global.cpp:1051
 #, kde-format
 msgid "Authentication Failed: Method %1 Not Supported"
-msgstr ""
+msgstr "Nie ŭdałosia dakazać svaju tojesnaść: sposab „%1” nie absłuhoŭvajecca"
 
 #: kio/global.cpp:1053
 #, kde-format
@@ -2048,12 +2059,17 @@ msgid ""
 "authentication failed because the method that the server is using is not "
 "supported by the KDE program implementing the protocol %1."
 msgstr ""
+"Choć moža ty padaŭ pravilnyja źviestki pra svaju tojesnaść, ale nie ŭdałosia "
+"ich spraŭdzić, bo sposab, jakim server heta robić, nie absłuhoŭvajecca "
+"prahramaj KDE, jakaja dazvalaje dziejničać praz pratakoł „%1”."
 
 #: kio/global.cpp:1057
 msgid ""
 "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
 "a> to inform the KDE team of the unsupported authentication method."
 msgstr ""
+"Kali łaska, paviedam pra pamyłku na placoŭcy: <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
+"a>, kab supolnaść KDE viedała pra nieabsłužany sposab spraŭdžvańnia tojesnaści."
 
 #: kio/global.cpp:1063
 msgid "Request Aborted"
@@ -2096,7 +2112,7 @@ msgstr ""
 
 #: kio/global.cpp:1084
 msgid "Timeout Error"
-msgstr ""
+msgstr "Skončyŭsia termin čakańnia"
 
 #: kio/global.cpp:1085
 #, kde-format
@@ -2108,6 +2124,9 @@ msgid ""
 "servers: %3 seconds</li></ul>Please note that you can alter these timeout "
 "settings in the KDE Control Center, by selecting Network -> Preferences."
 msgstr ""
+"Choć z serveram była naładžanaja viaź, ale adkaz nia byŭ atrymany ciaham "
+"vydatkavanaha na heta času:"
+"<ul><li>Čas na ŭźniaćcio spałučeńnia: %1 sekundaŭ</li><li>Čas na atrymańnie adkazu: %2 sekundaŭ</li><li>Čas na dostup da serveraŭ proxy: %3 sekundaŭ</li></ul>Darečy, ty možaš źmianić hetyja nałady času čakańnia ŭ Centry kiravańnia KDE, u raździele: „Sietka” ► „Ułasnyja nałady”."
 
 #: kio/global.cpp:1096
 msgid "The server was too busy responding to other requests to respond."
@@ -2129,7 +2148,7 @@ msgstr ""
 
 #: kio/global.cpp:1111
 msgid "Unknown Interruption"
-msgstr ""
+msgstr "Nieviadomaje pierarvańnie"
 
 #: kio/global.cpp:1112
 #, kde-format
@@ -2137,6 +2156,8 @@ msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an interruption of an unknown type: %2."
 msgstr ""
+"Prahrama ŭ tvaim kamputary, jakaja absłuhoŭvaje dostup da pratakoła <strong>%1</"
+"strong>, paviedamiła pra pierarvańnie nieviadomaha typu: %2."
 
 #: kio/global.cpp:1120
 msgid "Could Not Delete Original File"
@@ -2576,7 +2597,7 @@ msgstr "Tema"
 
 #: kssl/ksslinfodialog.cpp:82
 msgid "Issuer"
-msgstr ""
+msgstr "Vydaŭnik"
 
 #: kssl/ksslinfodialog.cpp:92 kssl/ksslinfodialog.cpp:137
 msgid "Current connection is secured with SSL."
@@ -2640,11 +2661,11 @@ msgstr "Typ kluča: RSA (%1 bitaŭ)"
 
 #: kssl/ksslcertificate.cpp:354
 msgid "Modulus: "
-msgstr ""
+msgstr "Modulus: "
 
 #: kssl/ksslcertificate.cpp:368
 msgid "Exponent: 0x"
-msgstr ""
+msgstr "Ekspanent: 0x"
 
 #: kssl/ksslcertificate.cpp:377
 #, kde-format
@@ -2672,12 +2693,15 @@ msgid ""
 "Retrieval of the issuer certificate failed. This means the CA's (Certificate "
 "Authority) certificate can not be found."
 msgstr ""
+"Nie ŭdałosia atrymać sertyfikat vydaŭnika. Heta značyć, što nie ŭdałosia znajści "
+"sertyfikat paŭnamocnaha vydaŭnika."
 
 #: kssl/ksslcertificate.cpp:1055
 msgid ""
 "Retrieval of the CRL (Certificate Revocation List) failed. This means the "
 "CA's (Certificate Authority) CRL can not be found."
 msgstr ""
+"Nie ŭdałosia atrymać „CRL” (śpis kasavańnia sertyfikavataŭ). Heta značyć, što nie ŭdałosia znajści „CRL” paŭnamocnaha vydaŭnika."
 
 #: kssl/ksslcertificate.cpp:1057
 msgid ""
@@ -2693,6 +2717,7 @@ msgid ""
 "This means it could not even be calculated as opposed to just not matching "
 "the expected result."
 msgstr ""
+"Nie ŭdałosia rasšyfravać podpis, pastaŭleny na „CRL” (śpisie kasavańnia sertyfikataŭ). Heta značyć, što jaho navat nie ŭdałosia vyličyć, kab spraŭdzić, ci jon adpaviadaje čakanamu vyniku."
 
 #: kssl/ksslcertificate.cpp:1061
 msgid ""
@@ -2700,6 +2725,7 @@ msgid ""
 "CA's (Certificate Authority) certificate can not be used to verify the "
 "certificate you wanted to use."
 msgstr ""
+"Nie ŭdałosia rasšyfravać publičny kluč padpiśnika. Heta značyć, što nielha spraŭdžvać z dapamohaj sertyfikata paŭnamocnaha vydaŭnika toj sertyfikat, jaki ty chočaš."
 
 #: kssl/ksslcertificate.cpp:1063
 msgid ""
@@ -2714,6 +2740,7 @@ msgid ""
 "The CRL's (Certificate Revocation List) signature is invalid. This means "
 "that the CRL can not be verified."
 msgstr ""
+"Podpis, pastaŭleny na „CRL” (śpisie kasavańnia sertyfikataŭ) chibny. Heta značyć, što nie ŭdałosia spraŭdzić hety „CRL”."
 
 #: kssl/ksslcertificate.cpp:1067
 msgid "The certificate is not valid, yet."
@@ -2725,7 +2752,7 @@ msgstr "Hety sertyfikat užo nia dziejny."
 
 #: kssl/ksslcertificate.cpp:1071 kssl/ksslcertificate.cpp:1073
 msgid "The CRL (Certificate Revocation List) is not valid, yet."
-msgstr ""
+msgstr "Hety „CRL” (śpis kasavańnia sertyfikataŭ) jašče niapravilny."
 
 #: kssl/ksslcertificate.cpp:1075
 msgid "The time format of the certificate's 'notBefore' field is invalid."
@@ -2739,13 +2766,13 @@ msgstr "Niapravilny farmat času ŭ poli „notAfter” hetaha sertyfikata."
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'lastUpdate' "
 "field is invalid."
-msgstr ""
+msgstr "Farmat času dla pola „lastUpdate” u hetym „CRL” (śpisie kasavańnia sertyfikataŭ) niapravilny."
 
 #: kssl/ksslcertificate.cpp:1081
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'nextUpdate' "
 "field is invalid."
-msgstr ""
+msgstr "Farmat času dla pola „nextUpdate” u hetym „CRL” (śpisie kasavańnia sertyfikataŭ) niapravilny."
 
 #: kssl/ksslcertificate.cpp:1083
 msgid "The OpenSSL process ran out of memory."
@@ -2765,12 +2792,14 @@ msgid ""
 "The certificate is self-signed. While the trust chain could be built up, the "
 "root CA's (Certificate Authority) certificate can not be found."
 msgstr ""
+"Hety sertyfikat padpisany jahonym ułaśnikam. Choć łancuh davieru možna zbudavać, ale nie ŭdałosia znajści sertyfikat hałoŭnaha paŭnamocnaha vydaŭnika."
 
 #: kssl/ksslcertificate.cpp:1090
 msgid ""
 "The CA's (Certificate Authority) certificate can not be found. Most likely, "
 "your trust chain is broken."
 msgstr ""
+"Nie ŭdałosia znajści sertyfikat paŭnamocnaha vydaŭnika. Peŭna, tvoj łancuh davieru paškodžany."
 
 #: kssl/ksslcertificate.cpp:1092
 msgid ""
@@ -2788,47 +2817,53 @@ msgstr "Łancuh sertyfikataŭ daŭžejšy ad maksymalnaj aznačanaj daŭžyni."
 
 #: kssl/ksslcertificate.cpp:1097
 msgid "The certificate has been revoked."
-msgstr ""
+msgstr "Sertyfikat skasavany."
 
 #: kssl/ksslcertificate.cpp:1099
 msgid "The certificate's CA (Certificate Authority) is invalid."
-msgstr ""
+msgstr "Sertyfikat paŭnamocnaha vydaŭnika niapravilny."
 
 #: kssl/ksslcertificate.cpp:1101
 msgid ""
 "The length of the trust chain exceeded one of the CA's (Certificate "
 "Authority) 'pathlength' parameters, making all subsequent signatures invalid."
 msgstr ""
+"Daŭžynia łancuha davieru bolšaja za parametar „pathlength” u adnaho z paŭnamocnych vydaŭnikoŭ. Tamu ŭsie podpisy ŭ paśladoŭnaści stali nierečaisnymi."
 
 #: kssl/ksslcertificate.cpp:1103
 msgid ""
 "The certificate has not been signed for the purpose you tried to use it for. "
 "This means the CA (Certificate Authority) does not allow this usage."
 msgstr ""
+"Sertyfikat nia maje podpisu, adpaviednaha toj mecie, ź jakoj ty chočaš jaho vykarystać. Heta značyć, što paŭnamocny vydaŭnik nie dazvoliŭ hetak im karystacca."
 
 #: kssl/ksslcertificate.cpp:1106
 msgid ""
 "The root CA (Certificate Authority) is not trusted for the purpose you tried "
 "to use this certificate for."
 msgstr ""
+"Hałoŭny paŭnamocny vydaŭnik nia maje davieru dla toj mety, ź jakoj ty chočaš vykarystać hety sertyfikat."
 
 #: kssl/ksslcertificate.cpp:1109
 msgid ""
 "The root CA (Certificate Authority) has been marked to be rejected for the "
 "purpose you tried to use it for."
 msgstr ""
+"Hałoŭny paŭnamocny vydaŭnik byŭ akreśleny, jak niedavierany, dla toj mety, ź jakoj ty chočaš vykarystać hety sertyfikat."
 
 #: kssl/ksslcertificate.cpp:1111
 msgid ""
 "The certificate's CA (Certificate Authority) does not match the CA name of "
 "the certificate."
 msgstr ""
+"Paŭnamocny vydaŭnik sertyfikata nie adpaviadaje naźvie vydaŭnika."
 
 #: kssl/ksslcertificate.cpp:1113
 msgid ""
 "The CA (Certificate Authority) certificate's key ID does not match the key "
 "ID in the 'Issuer' section of the certificate you are trying to use."
 msgstr ""
+"Identyfikatar kluča sertyfikata paŭnamocnaha vydaŭnika nie adpaviadaje identyfikataru kluča ŭ raździele „Vydaŭnik” z sertyfikata, jaki ty chočaš vykarystać."
 
 #: kssl/ksslcertificate.cpp:1115
 msgid ""
@@ -2836,12 +2871,14 @@ msgid ""
 "the key ID and name in the 'Issuer' section of the certificate you are "
 "trying to use."
 msgstr ""
+"Identyfikatar kluča sertyfikata paŭnamocnaha vydaŭnika i jahonaja nazva nie adpaviadajuć identyfikataru kluča j naźvie ŭ raździele „Vydaŭnik” z sertyfikata, jaki ty chočaš vykarystać."
 
 #: kssl/ksslcertificate.cpp:1117
 msgid ""
 "The certificate's CA (Certificate Authority) is not allowed to sign "
 "certificates."
 msgstr ""
+"Paŭnamocnamu vydaŭniku sertyfikata nie dazvolena padpisvać sertyfikaty."
 
 #: kssl/ksslcertificate.cpp:1119
 msgid "OpenSSL could not be verified."
@@ -2871,6 +2908,7 @@ msgid ""
 "Certificate signing authority root files could not be found so the "
 "certificate is not verified."
 msgstr ""
+"Nie ŭdałosia znajści sertyfikacyjnyja fajły hałoŭnaha paŭnamocnaha vydaŭnika, tamu nie ŭdałosia spraŭdzić hety sertyfikat."
 
 #: kssl/ksslcertificate.cpp:1134
 msgid "SSL support was not found."
@@ -2918,15 +2956,15 @@ msgstr "Pačakaj, pakul buduć vyrablenyja klučy dla šyfravańnia..."
 
 #: kssl/ksslkeygen.cpp:145
 msgid "Do you wish to store the passphrase in your wallet file?"
-msgstr ""
+msgstr "Ci chočaš zachoŭvać hety parol u fajle kašalka?"
 
 #: kssl/ksslkeygen.cpp:145
 msgid "Store"
-msgstr ""
+msgstr "Zachoŭvaj"
 
 #: kssl/ksslkeygen.cpp:145
 msgid "Do Not Store"
-msgstr ""
+msgstr "Nie zachoŭvaj"
 
 #: kssl/ksslkeygen.cpp:261
 msgid "2048 (High Grade)"
@@ -3017,7 +3055,7 @@ msgstr "słužba „telnet”"
 
 #: misc/ktelnetservice.cpp:40
 msgid "telnet protocol handler"
-msgstr ""
+msgstr "prahrama dla pratakoła „telnet”"
 
 #: misc/ktelnetservice.cpp:74
 #, kde-format
@@ -3034,11 +3072,11 @@ msgstr "Niama spałučeńnia."
 
 #: misc/ksendbugmail/main.cpp:50
 msgid "Connection timed out."
-msgstr ""
+msgstr "Termin čakańnia ŭźniaćcia spałučeńnia skončyŭsia."
 
 #: misc/ksendbugmail/main.cpp:53
 msgid "Time out waiting for server interaction."
-msgstr ""
+msgstr "Termin čakańnia ŭdziełu servera skončyŭsia."
 
 #: misc/ksendbugmail/main.cpp:57
 #, kde-format
@@ -3128,7 +3166,7 @@ msgstr "&Šukaj:"
 
 #: kfile/kicondialog.cpp:333
 msgid "Search interactively for icon names (e.g. folder)."
-msgstr ""
+msgstr "Dziejny pošuk nazvaŭ ikonaŭ (naprykład, „kataloh”)."
 
 #: kfile/kicondialog.cpp:354
 msgid "Actions"
@@ -3152,11 +3190,11 @@ msgstr "Pryłady"
 
 #: kfile/kicondialog.cpp:359
 msgid "Emblems"
-msgstr ""
+msgstr "Znaki"
 
 #: kfile/kicondialog.cpp:360
 msgid "Emotes"
-msgstr ""
+msgstr "Smajliki"
 
 #: kfile/kicondialog.cpp:361
 msgid "Filesystems"
@@ -3658,6 +3696,8 @@ msgid ""
 "Show\n"
 "Entries"
 msgstr ""
+"Pakaz\n"
+"elementaŭ"
 
 #: kfile/kpropertiesdialog.cpp:1921
 msgid "Read"
@@ -3676,6 +3716,8 @@ msgid ""
 "Write\n"
 "Entries"
 msgstr ""
+"Zapis\n"
+"elementaŭ"
 
 #: kfile/kpropertiesdialog.cpp:1934
 msgid "Write"
@@ -3919,7 +3961,7 @@ msgstr ""
 
 #: kfile/kfilesharedialog.cpp:167
 msgid "You can also reconfigure file sharing authorization."
-msgstr ""
+msgstr "Taksama možaš źmianić nałady aŭtaryzavańnia dla supolnaha dostupu da fajłaŭ."
 
 #: kfile/kfilesharedialog.cpp:171 kfile/kfilesharedialog.cpp:195
 msgid "Configure File Sharing..."
@@ -3934,7 +3976,7 @@ msgstr ""
 
 #: kfile/kfilesharedialog.cpp:187
 msgid "You need to be authorized to share folders."
-msgstr ""
+msgstr "Kab mahčy źmiaščać katalohi ŭ supolnym dostupie, treba aŭtaryzavacca."
 
 #: kfile/kfilesharedialog.cpp:190
 msgid "File sharing is disabled."
@@ -4054,7 +4096,7 @@ msgstr "Davierany:"
 #. i18n: ectx: property (text), widget (QLabel, validityPeriodTag)
 #: rc.cpp:45
 msgid "Validity period:"
-msgstr ""
+msgstr "Termin dziejnaści:"
 
 #. i18n: file: kssl/sslinfo.ui:178
 #. i18n: ectx: property (text), widget (QLabel, serialTag)
@@ -4066,7 +4108,7 @@ msgstr "Seryjny numar:"
 #. i18n: ectx: property (text), widget (QLabel, digestTag)
 #: rc.cpp:53
 msgid "MD5 Digest:"
-msgstr ""
+msgstr "Suma MD5:"
 
 #. i18n: file: kssl/keygenwizard.ui:35
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
@@ -4076,18 +4118,19 @@ msgid ""
 "This wizard is intended to guide you through the procedure. You may cancel "
 "at any time, and this will abort the transaction."
 msgstr ""
+"Ty śćvierdziŭ, što chočaš nabyć sertyfikat biaśpiečnaści. Hetaja prahrama dapamoža heta zrabić. U luby čas ty zmožaš admovicca, i tady nijakich zapytaŭ nia budzie vysłana ŭ sieciva."
 
 #. i18n: file: kssl/certificateparty.ui:16
 #. i18n: ectx: property (text), widget (QLabel, commonNameTag)
 #: rc.cpp:60
 msgid "Common name:"
-msgstr ""
+msgstr "Nazva:"
 
 #. i18n: file: kssl/certificateparty.ui:26
 #. i18n: ectx: property (text), widget (QLabel, commonName)
 #: rc.cpp:63
 msgid "Acme Co."
-msgstr ""
+msgstr "Acme Co."
 
 #. i18n: file: kssl/certificateparty.ui:46
 #. i18n: ectx: property (text), widget (QLabel, organizationTag)
@@ -4099,7 +4142,7 @@ msgstr "Ustanova:"
 #. i18n: ectx: property (text), widget (QLabel, organization)
 #: rc.cpp:69
 msgid "Acme Sundry Products Company"
-msgstr ""
+msgstr "Hurtoŭnaja kampanija Acme"
 
 #. i18n: file: kssl/certificateparty.ui:76
 #. i18n: ectx: property (text), widget (QLabel, organizationalUnitTag)
@@ -4111,7 +4154,7 @@ msgstr "Addzieł u ŭstanovie:"
 #. i18n: ectx: property (text), widget (QLabel, organizationalUnit)
 #: rc.cpp:75
 msgid "Fraud Department"
-msgstr ""
+msgstr "Addzieł machlarstvaŭ"
 
 #. i18n: file: kssl/certificateparty.ui:106
 #. i18n: ectx: property (text), widget (QLabel, countryTag)
@@ -4166,6 +4209,7 @@ msgid ""
 "application or if you want the information that is provided by the terminal "
 "emulator window."
 msgstr ""
+"Uklučy hetuju opcyju, kali aplikacyja maje tekstavy kštałt albo kali chočaš pračytać vychodnyja źviestki ad prahramy."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:53
 #. i18n: ectx: property (text), widget (QCheckBox, terminalCheck)
@@ -4187,6 +4231,7 @@ msgid ""
 "on exit. Keeping the terminal emulator open allows you to retrieve this "
 "information."
 msgstr ""
+"Uklučy hetuju opcyju, kali aplikacyja tekstavaha kštałtu vyvodzić pry vychadzie važnyja źviestki. Kali terminał nia budzie začynieny, tady ty zmožaš ich pračytać."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:73
 #. i18n: ectx: property (text), widget (QCheckBox, terminalCloseCheck)
@@ -4212,6 +4257,7 @@ msgid ""
 "determines file access and other permissions. The password of the user is "
 "required to use this option."
 msgstr ""
+"Uklučy hetuju opcyju, kali chočaš uklučyć hetuju aplikacyju ad asoby inšaha karystańnika. Kožny praces maje peŭny identyfikatar karystańnika, jaki aznačaje dazvoły na dostup da roznych fajłaŭ itp. Dla hetkaha ŭklučeńnia treba padać parol adpaviednaha karystańnika."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:101
 #. i18n: ectx: property (text), widget (QCheckBox, suidCheck)
@@ -4254,12 +4300,13 @@ msgid ""
 "Check this option if you want to make clear that your application has "
 "started. This visual feedback may appear as a busy cursor or in the taskbar."
 msgstr ""
+"Uklučy hetuju opcyju, kab być peŭnym, što aplikacyja ŭklučyłasia. Hetaje vyjaŭleńnie moža pakazvać „zaniaty” kursor albo paznačać zadańnie ŭ paneli."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:162
 #. i18n: ectx: property (text), widget (QCheckBox, startupInfoCheck)
 #: rc.cpp:138
 msgid "Enable &launch feedback"
-msgstr ""
+msgstr "Uklučy &vyjaŭleńnie ŭklučeńnia"
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:169
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, systrayCheck)
@@ -4268,12 +4315,13 @@ msgid ""
 "Check this option if you want to have a system tray handle for your "
 "application."
 msgstr ""
+"Uklučy hetuju opcyju, kali chočaš, kab u hetaj aplikacyi byŭ asobny element u systemnym trei."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:172
 #. i18n: ectx: property (text), widget (QCheckBox, systrayCheck)
 #: rc.cpp:144
 msgid "&Place in system tray"
-msgstr ""
+msgstr "&Źmiaści ŭ systemnym trei"
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:179
 #. i18n: ectx: property (text), widget (QLabel, textLabel12)
@@ -4303,7 +4351,7 @@ msgstr "Adna kopija"
 #. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
 #: rc.cpp:159
 msgid "Run Until Finished"
-msgstr ""
+msgstr "Vykonvaj da kanca"
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:52
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel7)
@@ -4354,6 +4402,8 @@ msgid ""
 "Type the name you want to give to this application here. This application "
 "will appear under this name in the applications menu and in the panel."
 msgstr ""
+"Tut upišy nazvu dla hetaj aplikacyi. Hetuju nazvu jana budzie mieć u menu "
+"aplikacyjaŭ i ŭ paneli."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:102
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
@@ -4370,6 +4420,7 @@ msgid ""
 "Type the description of this application, based on its use, here. Examples: "
 "a dial up application (KPPP) would be \"Dial up tool\"."
 msgstr ""
+"Tut apišy aplikacyju, adpaviedna jejnaj mecie. Naprykład, aplikacyju dla „dialup”-spałučeńniaŭ ź siecivam možna apisać jak „Prahrama dla dialup-internetu”."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:122
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
@@ -4427,6 +4478,7 @@ msgid ""
 "Click here to browse your file system in order to find the desired "
 "executable."
 msgstr ""
+"Klikni siudy, kab znajści ŭ fajłavaj systemie patrebny vykonvalny fajł."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:211
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
@@ -4449,6 +4501,7 @@ msgid ""
 "Click on this button if you want to add a type of file (mimetype) that your "
 "application can handle."
 msgstr ""
+"Klikni ŭ hetuju knopku, kali chočaš dadać typ fajłaŭ („MIME”), jaki absłuhoŭvaje hetaja aplikacyja."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:234
 #. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
@@ -4463,6 +4516,7 @@ msgid ""
 "If you want to remove a type of file (mimetype) that your application cannot "
 "handle, select the mimetype in the list above and click on this button."
 msgstr ""
+"Kali chočaš vydalić adzin z typaŭ fajłaŭ („MIME”), jakija nie absłuhoŭvaje hetaja aplikacyja, vybiery patrebny typ „MIME” i klikni ŭ hetuju knopku."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:260
 #. i18n: ectx: property (text), widget (QPushButton, delFiletypeButton)
@@ -4477,6 +4531,7 @@ msgid ""
 "Click here to modify the way this application will run, launch feedback, "
 "DBUS options or to run it as a different user."
 msgstr ""
+"Klikni siudy, kab źmianić sposab uklučeńnia aplikacyi, vyjaŭleńnie, opcyi „D-Bus”, dziejnaha karystańnika."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:286
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
@@ -5002,12 +5057,12 @@ msgstr "Atrymańnie źviestak ad „%1”..."
 
 #: ../kioslave/http/http.cpp:4867 ../kioslave/http/http.cpp:5059
 msgid "Authentication Failed."
-msgstr ""
+msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
 
 #: ../kioslave/http/http.cpp:4869 ../kioslave/http/http.cpp:5060
 #: ../kioslave/http/http.cpp:5775
 msgid "Proxy Authentication Failed."
-msgstr ""
+msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
 
 #: ../kioslave/http/http.cpp:4871
 msgid " Do you want to retry?"
@@ -5015,7 +5070,7 @@ msgstr "Chočaš paŭtaryć?"
 
 #: ../kioslave/http/http.cpp:4872
 msgid "Authentication"
-msgstr ""
+msgstr "Tojesnaść"
 
 #: ../kioslave/http/http.cpp:4893 ../kioslave/http/http.cpp:4910
 #: ../kioslave/http/http.cpp:5774
@@ -5038,12 +5093,13 @@ msgstr "Proxy:"
 #: ../kioslave/http/http.cpp:4947
 #, kde-format
 msgid "Authentication needed for %1 but authentication is disabled."
-msgstr ""
+msgstr "Dla „%1” treba dakazać tojesnaść, ale hetaja aperacyja vyklučanaja."
 
 #: ../kioslave/http/http.cpp:5429
 msgid ""
 "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
+"Sposab, jaki nie absłuhoŭvajecca: spraŭdžvańnie tojesnaści budzie niaŭdałym. Kali łaska, paviedam nam pra hetuju prablemu."
 
 #: ../kioslave/http/http_cache_cleaner.cpp:199
 #: ../kioslave/http/http_cache_cleaner.cpp:200
@@ -5267,6 +5323,7 @@ msgid ""
 "matches. This feature can be controlled by clicking with the right mouse "
 "button and selecting a preferred mode from the <b>Text Completion</b> menu."
 msgstr ""
+"<qt>Padčas upisvańnia tekstu ŭ pole tabie mohuć prapanavać mahčymyja varyjanty zakančeńnia. Hetyja pavodziny možna źmianić, kliknuŭšy pravaj knopkaj myšy ŭ pole j vybraŭšy patrebny sposab u menu <b>Zakančeńnie tekstu</b>."
 
 #: ../kfile/kfilewidget.cpp:333
 #, kde-format
@@ -5337,32 +5394,27 @@ msgid ""
 "filters in the drop down menu, or you may enter a custom filter directly "
 "into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
 msgstr ""
+"<qt>Filtar, jaki budzie vykarystany dla śpisa fajłaŭ. Nazvy fajłaŭ, jakija nie adpaviadajuć hetamu filtru, nia buduć pakazvacca.<p>Ty možaš albo vybrać najaŭny šablon z vypłyŭnoha menu, albo ŭpisać ułasny filter u tekstavaje pole.</p><p>Možna karystacca specyjalnymi znakami, naprykład, „*” i „?”.</p></qt>"
 
 #: ../kfile/kfilewidget.cpp:511
 msgid "&Filter:"
 msgstr "&Filtruj:"
 
 #: ../kfile/kfilewidget.cpp:699
-#, fuzzy
-#| msgid "You can only select local files."
 msgid "You can only select one file"
-msgstr "Možna vybirać tolki lakalnyja fajły."
+msgstr "Možna vybrać tolki adzin fajł."
 
 #: ../kfile/kfilewidget.cpp:700
 msgid "More than one file provided"
-msgstr ""
+msgstr "Padadzienyja niekalki fajłaŭ."
 
 #: ../kfile/kfilewidget.cpp:721
-#, fuzzy
-#| msgid "You can only select local files."
 msgid "You can only select local files"
 msgstr "Možna vybirać tolki lakalnyja fajły."
 
 #: ../kfile/kfilewidget.cpp:722
-#, fuzzy
-#| msgid "Remote Files Not Accepted"
 msgid "Remote files not accepted"
-msgstr "Nielha vydalać fajły"
+msgstr "Nielha vybrać dalnyja fajły"
 
 #: ../kfile/kfilewidget.cpp:1002
 msgid "This is the name to save the file as."
@@ -5723,7 +5775,7 @@ msgstr "Pavodle typaŭ"
 
 #: ../kfile/kdiroperator.cpp:1685
 msgid "Descending"
-msgstr ""
+msgstr "Ad bolšaha k mienšamu"
 
 #: ../kfile/kdiroperator.cpp:1695
 msgid "Short View"

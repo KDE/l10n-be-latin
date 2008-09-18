@@ -5603,7 +5603,7 @@ msgstr "<qt>Ty sapraŭdy chočaš vyjści z <b>%1</b>?</qt>"
 
 #: kdeui/util/ksystemtrayicon.cpp:241
 msgid "Confirm Quit From System Tray"
-msgstr ""
+msgstr "Paćvierdžańnie vychadu z systemnaha treja"
 
 #: kdeui/util/kstandardguiitem.cpp:105
 msgid "&OK"
@@ -6012,62 +6012,51 @@ msgid ""
 "The current shortcut scheme is modified. Save before switching to the new "
 "one?"
 msgstr ""
+"Dziejnaja schiema klavijaturnych skarotaŭ źmianiłasia. Zapisać jaje pierad tym, jak pierajści da inšaj?"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:106
 msgid "Configure Shortcuts"
 msgstr "Naładź klavijaturnyja skaroty"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:42
-#, fuzzy
-#| msgid "Shortcuts"
 msgid "Shortcut Schemes"
-msgstr "Klavijaturnyja skaroty"
+msgstr "Schiemy klavijaturnych skarotaŭ"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:61
-#, fuzzy
-#| msgid "Curr&ent actions:"
 msgid "Current Scheme:"
-msgstr "&Dziejnyja aperacyi:"
+msgstr "Dziejnaja schiema:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:71
-#, fuzzy
-#| msgid "..."
 msgid "New..."
-msgstr "..."
+msgstr "Novaja..."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:74
-#, fuzzy
-#| msgctxt "keyboard-key-name"
-#| msgid "Delete"
 msgid "Delete"
-msgstr "Delete"
+msgstr "Vydali"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:77
-#, fuzzy
-#| msgid "Action"
 msgid "More Actions"
-msgstr "Aperacyja"
+msgstr "Jašče aperacyi"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:81
 msgid "Save As Scheme Defaults"
-msgstr ""
+msgstr "Zapišy jak zmoŭčańni schiemy"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:83
 msgid "Export Scheme..."
-msgstr ""
+msgstr "Ekspartuj schiemu..."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:99
 msgid "Name for New Scheme"
-msgstr ""
+msgstr "Nazva novaj schiemy"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:100
 msgid "Name for New Scheme:"
-msgstr ""
+msgstr "Nazva novaj schiemy:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:106
-#, fuzzy
 msgid "The scheme with this name already exists"
-msgstr "Tag „%1” užo isnuje."
+msgstr "Schiema z takoj nazvaj užo isnuje."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:133
 #, kde-format
@@ -6075,14 +6064,16 @@ msgid ""
 "Do you really want to delete the scheme %1?\n"
 "Note that this will not remove any system wide shortcut schemes."
 msgstr ""
+"Ty sapraŭdy chočaš vydalić schiemu „%1”?\n"
+"Hetaja aperacyja nia zmoža vydalić systemnuju schiemu klavijaturnych skarotaŭ."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:161
 msgid "Export To Location"
-msgstr ""
+msgstr "Ekspartuj u peŭnaje miesca"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:170
 msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr ""
+msgstr "Nie ŭdałosia zekspartavać schiemu klavijaturnych skarotaŭ, bo padadzienaje niapravilnaja miesca."
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:167
 msgid "Left to Right, Top to Bottom"
@@ -7751,15 +7742,11 @@ msgid "Next Item in List"
 msgstr "Nastupny element u śpisie"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:150
-#, fuzzy
-#| msgid "Open &Recent"
 msgctxt "@action"
 msgid "Open Recent"
-msgstr "Adčyni &niadaŭnaje"
+msgstr "Adčyni niadaŭnaje"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:151
-#, fuzzy
-#| msgid "Save As"
 msgctxt "@action"
 msgid "Save As"
 msgstr "Zapišy jak"
@@ -7770,8 +7757,6 @@ msgid "Revert"
 msgstr "Viarni"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:153
-#, fuzzy
-#| msgid "Print Preview"
 msgctxt "@action"
 msgid "Print Preview"
 msgstr "Padhlad vydruku"
@@ -7787,32 +7772,21 @@ msgid "Clear"
 msgstr "Ačyści"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:156
-#, fuzzy
-#| msgid "&Actual Size"
 msgctxt "@action"
 msgid "Actual Size"
-msgstr "&Sapraŭdny pamier"
+msgstr "Sapraŭdny pamier"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:157
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "FitToPage"
 msgctxt "@action"
 msgid "Fit To Page"
 msgstr "Układzi ŭ staronku"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:158
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "FitToWidth"
 msgctxt "@action"
 msgid "Fit To Width"
 msgstr "Układzi ŭ šyryniu staronki"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:159
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "FitToHeight"
 msgctxt "@action"
 msgid "Fit To Height"
 msgstr "Układzi ŭ vyšyniu staronki"
@@ -7828,35 +7802,24 @@ msgid "Goto"
 msgstr "Pierajdzi"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:162
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "GotoPage"
 msgctxt "@action"
 msgid "Goto Page"
 msgstr "Pierajdzi na staronku"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:163
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "DocumentBack"
 msgctxt "@action"
 msgid "Document Back"
 msgstr "Nazad u dakumencie"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:164
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "DocumentForward"
 msgctxt "@action"
 msgid "Document Forward"
 msgstr "Napierad u dakumencie"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:165
-#, fuzzy
-#| msgid "&Edit Bookmarks"
 msgctxt "@action"
 msgid "Edit Bookmarks"
-msgstr "&Redahuj zakładki"
+msgstr "Redahuj zakładki"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:166
 msgctxt "@action"
@@ -7864,31 +7827,21 @@ msgid "Spelling"
 msgstr "Pravapis"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:167
-#, fuzzy
-#| msgid "Show &Toolbar"
 msgctxt "@action"
 msgid "Show Toolbar"
-msgstr "Pakažy &panel pryładździa"
+msgstr "Pakažy panel pryładździa"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:168
-#, fuzzy
-#| msgid "Show St&atusbar"
 msgctxt "@action"
 msgid "Show Statusbar"
-msgstr "Pakažy panel &stanu"
+msgstr "Pakažy panel stanu"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:169
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "SaveOptions"
 msgctxt "@action"
 msgid "Save Options"
 msgstr "Zapišy opcyi"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:170
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "KeyBindings"
 msgctxt "@action"
 msgid "Key Bindings"
 msgstr "Klavijaturnyja poviazi"
@@ -7899,52 +7852,36 @@ msgid "Preferences"
 msgstr "Asabistyja nałady"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:172
-#, fuzzy
-#| msgid "Configure Toolbars"
 msgctxt "@action"
 msgid "Configure Toolbars"
 msgstr "Naładź paneli pryładździa"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:173
-#, fuzzy
-#| msgid "Configure Notifications"
 msgctxt "@action"
 msgid "Configure Notifications"
 msgstr "Naładź nahadvańni"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:174
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "TipofDay"
 msgctxt "@action"
 msgid "Tip Of Day"
 msgstr "Štodzionnyja parady"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:175
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "ReportBug"
 msgctxt "@action"
 msgid "Report Bug"
 msgstr "Paviedam pra chibu"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:176
-#, fuzzy
-#| msgid "Switch Application Language"
 msgctxt "@action"
 msgid "Switch Application Language"
 msgstr "Źmiani movu aplikacyi"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:177
-#, fuzzy
-#| msgid "Quit application"
 msgctxt "@action"
 msgid "About Application"
-msgstr "Vyjdzi z aplikacyi"
+msgstr "Pra aplikacyju"
 
 #: kdeui/shortcuts/kstandardshortcut.cpp:178
-#, fuzzy
-#| msgid "About KDE"
 msgctxt "@action"
 msgid "About KDE"
 msgstr "Pra KDE"
@@ -8390,7 +8327,7 @@ msgstr "Spałučalnyja dyjakrytyčnyja znački"
 #: kdeui/widgets/kcharselect-translation.cpp:44
 msgctxt "KCharselect unicode block name"
 msgid "Greek and Coptic"
-msgstr ""
+msgstr "Hrecka-kopcki"
 
 #: kdeui/widgets/kcharselect-translation.cpp:45
 msgctxt "KCharselect unicode block name"
@@ -9202,7 +9139,7 @@ msgstr "Źmienšy vodstup"
 #: kdeui/widgets/krichtextwidget.cpp:418
 msgctxt "@action"
 msgid "Insert Rule Line"
-msgstr ""
+msgstr "Uklej rysu"
 
 #: kdeui/widgets/krichtextwidget.cpp:429
 msgctxt "@action"
@@ -9574,15 +9511,11 @@ msgid "%1"
 msgstr "%1"
 
 #: kdeui/widgets/ktimezonewidget.cpp:60
-#, fuzzy
-#| msgid "Area"
 msgctxt "Define an area in the time zone, like a town area"
 msgid "Area"
 msgstr "Abšar"
 
 #: kdeui/widgets/ktimezonewidget.cpp:60
-#, fuzzy
-#| msgid "Region"
 msgctxt "Time zone"
 msgid "Region"
 msgstr "Rehijon"
@@ -9674,7 +9607,7 @@ msgstr "Nie pakazvaj akno padčas vykanańnia testaŭ"
 
 #: khtml/test_regression.cpp:624
 msgid "Only run a single test. Multiple options allowed."
-msgstr ""
+msgstr "Uklučy adzin test. Možna padać niekalki opcyjaŭ."
 
 #: khtml/test_regression.cpp:625
 msgid "Only run .js tests"
@@ -11233,27 +11166,23 @@ msgid "Unknown error"
 msgstr "Nieviadomaja pamyłka"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:214
-#, fuzzy
 msgid "Create New Tag..."
 msgstr "Stvary novy tag..."
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:220
-#, fuzzy
 msgid "New Tag"
 msgstr "Novy tag"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:220
-#, fuzzy
 msgid "Please insert the name of the new tag:"
 msgstr "Upišy nazvu novaha taga:"
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:229
-#, fuzzy, kde-format
+#, kde-format
 msgid "The tag %1 already exists"
 msgstr "Tag „%1” užo isnuje."
 
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:229
-#, fuzzy
 msgid "Tag Exists"
 msgstr "Tag isnuje"
 

@@ -2674,11 +2674,11 @@ msgstr "Typ kluča: DSA (%1 bitaŭ)"
 
 #: kssl/ksslcertificate.cpp:379
 msgid "Prime: "
-msgstr ""
+msgstr "Prosty lik: "
 
 #: kssl/ksslcertificate.cpp:393
 msgid "160 bit prime factor: "
-msgstr ""
+msgstr "160-bitnaja stupień ad prostaha liku: "
 
 #: kssl/ksslcertificate.cpp:421
 msgid "Public key: "
@@ -4048,7 +4048,7 @@ msgstr "&Abiary parol:"
 #. i18n: ectx: property (text), widget (QLabel, encryptionIndicator)
 #: rc.cpp:14
 msgid "[padlock]"
-msgstr ""
+msgstr "[padlock]"
 
 #. i18n: file: kssl/sslinfo.ui:30
 #. i18n: ectx: property (text), widget (QLabel, addressTag)
@@ -5510,6 +5510,7 @@ msgid ""
 "bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
+"<qt>Hetaja knopka dazvalaje stvarać zakładki dla peŭnych miescaŭ. Klikni ŭ hetuju knopku, kab adčynić menu zakładak. Tudy ty možaš dadavać novyja zakładki, redahavać ci vybirać najaŭnyja zakładki.<br /><br />Jany adnosiacca tolki da akna vybaru fajłaŭ, ale dziejničajuć, jak zvyčajnyja zakładki systemy KDE.</qt>"
 
 #: ../kfile/kfileplacesmodel.cpp:101
 msgctxt "Home Directory"
@@ -5616,6 +5617,7 @@ msgid ""
 "description should consist of one or two words that will help you remember "
 "what this entry refers to.</qt>"
 msgstr ""
+"<qt>Heta tekst, jaki pakazvajecca ŭ paneli miescaŭ.<br /><br />Apisańnie pavinna składacca z adnaho-dvuch słovaŭ, jakija b nahadvali tabie, čaho jany datyčać.</qt>"
 
 #: ../kfile/kfileplaceeditdialog.cpp:112
 #, kde-format
@@ -5625,6 +5627,8 @@ msgid ""
 "org/pub/kde/stable<br /><br />By clicking on the button next to the text "
 "edit box you can browse to an appropriate URL.</qt>"
 msgstr ""
+"<qt>Heta adras, źviazany z hetym elementam. Tut možna ŭpisać luby dziejny adras. Naprykład:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
+"org/pub/kde/stable<br /><br />Kliknuŭšy ŭ knopku, źmieščanuju kala tekstavaha pola, možna pierajści ŭ adpaviednaje miesca.</qt>"
 
 #: ../kfile/kfileplaceeditdialog.cpp:116
 msgid "&Location:"
@@ -5635,6 +5639,7 @@ msgid ""
 "<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
 "on the button to select a different icon.</qt>"
 msgstr ""
+"<qt>Hetaja ikona budzie źmieščanaja ŭ paneli miescaŭ.<br /><br />Klikni ŭ hetuju knopku, kab vybrać inšuju.</qt>"
 
 #: ../kfile/kfileplaceeditdialog.cpp:127
 msgid "Choose an &icon:"
@@ -5652,6 +5657,7 @@ msgid ""
 "current application (%1).<br /><br />If this setting is not selected, the "
 "entry will be available in all applications.</qt>"
 msgstr ""
+"<qt>Uklučy hetuju opcyju, kali chočaš bačyć hety element tolki ŭ dziejnaj aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie vidać z usich aplikacyjaŭ.</qt>"
 
 #: ../kfile/kfiletreeview.cpp:185
 msgid "Show Hidden Folders"
@@ -5832,66 +5838,3 @@ msgstr "Pierajdzi"
 #: ../kfile/kurlbutton.cpp:119
 msgid "Show Full Path"
 msgstr "Pakažy ŭsiu ściežku"
-
-#~ msgid ""
-#~ "%1\n"
-#~ "does not appear to be a valid URL.\n"
-#~ msgstr ""
-#~ "%1\n"
-#~ "nia jość pravilnym adrasam.\n"
-
-#~ msgid "Invalid URL"
-#~ msgstr "Niapravilny adras"
-
-#~ msgid ""
-#~ "The requested filenames\n"
-#~ "%1\n"
-#~ "do not appear to be valid;\n"
-#~ "make sure every filename is enclosed in double quotes."
-#~ msgstr ""
-#~ "Zapatrabavanyja nazvy fajłaŭ\n"
-#~ "%1\n"
-#~ "niapravilnyja.\n"
-#~ "Spraŭdź, što kožnaja nazva fajła ŭłučanaja ŭ dvukośsi."
-
-#~ msgid "Filename Error"
-#~ msgstr "Pamyłka ŭ naźvie fajła"
-
-#~ msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
-#~ msgstr "© 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
-
-#~ msgid "C&reate"
-#~ msgstr "&Stvary"
-
-#~ msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
-#~ msgstr "<qt>Pusty parol. <b>(UVAHA: heta niebiaśpiečna)</b></qt>"
-
-#~ msgid "Passwords match."
-#~ msgstr "Paroli nia roźniacca."
-
-#~ msgid "Passwords do not match."
-#~ msgstr "Paroli roźniacca."
-
-#~ msgid "&Basic setup (recommended)"
-#~ msgstr "&Prostaje naładžvańnie (rekamendavana)"
-
-#~ msgid "&Advanced setup"
-#~ msgstr "&Admysłovaje naładžvańnie"
-
-#~ msgid "Enter a new password:"
-#~ msgstr "Upišy novy parol:"
-
-#~ msgid "Verify password:"
-#~ msgstr "Paćvierdź parol:"
-
-#~ msgid "Allow &Once"
-#~ msgstr "Dazvol &adnojčy"
-
-#~ msgid "Allow &Always"
-#~ msgstr "&Zaŭždy dazvalaj"
-
-#~ msgid "&Deny"
-#~ msgstr "&Zabarani"
-
-#~ msgid "Deny &Forever"
-#~ msgstr "Z&aŭždy zabaraniaj"

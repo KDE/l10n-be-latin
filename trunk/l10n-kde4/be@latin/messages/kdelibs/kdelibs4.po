@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-17 10:19+0200\n"
+"POT-Creation-Date: 2008-09-19 09:27+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1929,15 +1929,15 @@ msgstr "Byłaja nazva hosta"
 msgid "New hostname"
 msgstr "Novaja nazva hosta"
 
-#: kded/kded.cpp:788
+#: kded/kded.cpp:792
 msgid "KDE Daemon"
 msgstr "Słužba KDE"
 
-#: kded/kded.cpp:790
+#: kded/kded.cpp:794
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr "Słužba KDE – pry patrebie aktualizoŭvaje bazu źviestak „Sycoca”"
 
-#: kded/kded.cpp:793
+#: kded/kded.cpp:797
 msgid "Check Sycoca database only once"
 msgstr "Tolki adnojčy praviaraj bazu źviestak „Sycoca”"
 
@@ -2043,19 +2043,19 @@ msgstr "Nie pieračytvaj"
 msgid "Configuration information reloaded successfully."
 msgstr "Nałady paśpiachova pieračytanyja."
 
-#: kpty/kptydevice.cpp:272
+#: kpty/kptydevice.cpp:276
 msgid "Error reading from PTY"
 msgstr "Pamyłka ŭ čytańni z PTY"
 
-#: kpty/kptydevice.cpp:306
+#: kpty/kptydevice.cpp:310
 msgid "Error writing to PTY"
 msgstr "Pamyłka ŭ zapisie ŭ PTY"
 
-#: kpty/kptydevice.cpp:391
+#: kpty/kptydevice.cpp:395
 msgid "PTY operation timed out"
 msgstr "Aperacyja z PTY nia ŭkłałasia ŭ termin"
 
-#: kpty/kptydevice.cpp:446 kpty/kptydevice.cpp:460
+#: kpty/kptydevice.cpp:450 kpty/kptydevice.cpp:464
 msgid "Error opening PTY"
 msgstr "Pamyłka ŭ adčynieńni PTY"
 
@@ -6012,7 +6012,8 @@ msgid ""
 "The current shortcut scheme is modified. Save before switching to the new "
 "one?"
 msgstr ""
-"Dziejnaja schiema klavijaturnych skarotaŭ źmianiłasia. Zapisać jaje pierad tym, jak pierajści da inšaj?"
+"Dziejnaja schiema klavijaturnych skarotaŭ źmianiłasia. Zapisać jaje pierad "
+"tym, jak pierajści da inšaj?"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:106
 msgid "Configure Shortcuts"
@@ -6065,7 +6066,8 @@ msgid ""
 "Note that this will not remove any system wide shortcut schemes."
 msgstr ""
 "Ty sapraŭdy chočaš vydalić schiemu „%1”?\n"
-"Hetaja aperacyja nia zmoža vydalić systemnuju schiemu klavijaturnych skarotaŭ."
+"Hetaja aperacyja nia zmoža vydalić systemnuju schiemu klavijaturnych "
+"skarotaŭ."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:161
 msgid "Export To Location"
@@ -6073,7 +6075,9 @@ msgstr "Ekspartuj u peŭnaje miesca"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:170
 msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr "Nie ŭdałosia zekspartavać schiemu klavijaturnych skarotaŭ, bo padadzienaje niapravilnaja miesca."
+msgstr ""
+"Nie ŭdałosia zekspartavać schiemu klavijaturnych skarotaŭ, bo padadzienaje "
+"niapravilnaja miesca."
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:167
 msgid "Left to Right, Top to Bottom"

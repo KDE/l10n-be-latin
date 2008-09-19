@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-18 08:02+0000\n"
+"POT-Creation-Date: 2008-09-19 07:38+0000\n"
 "PO-Revision-Date: 2008-09-07 22:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -587,7 +587,7 @@ msgctxt "Name"
 msgid "Freeciv Server"
 msgstr "Server hulni „Freeciv”"
 
-#: apps/kappfinder/apps/Games/TacticStrategy/freecivserver.desktop:5
+#: apps/kappfinder/apps/Games/TacticStrategy/freecivserver.desktop:12
 msgctxt "Comment"
 msgid "A server for Freeciv"
 msgstr "Server hulni „Freeciv”"
@@ -1251,7 +1251,7 @@ msgctxt "GenericName"
 msgid "Videotext Viewer"
 msgstr "Prahladnik dla „Videotext”"
 
-#: apps/kappfinder/apps/Multimedia/alevt.desktop:5
+#: apps/kappfinder/apps/Multimedia/alevt.desktop:12
 msgctxt "Name"
 msgid "AleVT"
 msgstr "AleVT"
@@ -2453,7 +2453,9 @@ msgstr "Ułasnyja nałady spałučeńnia"
 #: apps/konqueror/settings/kio/netpref.desktop:91
 msgctxt "Comment"
 msgid "Configure generic network preferences, like timeout values"
-msgstr "Hałoŭnyja sietkavyja nałady, naprykład, terminy čakańnia vynikaŭ ad aperacyjaŭ."
+msgstr ""
+"Hałoŭnyja sietkavyja nałady, naprykład, terminy čakańnia vynikaŭ ad "
+"aperacyjaŭ."
 
 #: apps/konqueror/settings/kio/proxy.desktop:15
 msgctxt "Name"
@@ -2996,7 +2998,9 @@ msgstr ""
 #: apps/konsole/desktop/kwrited.desktop:76
 msgctxt "Comment"
 msgid "Watch for messages from local users sent with write(1) or wall(1)"
-msgstr "Adsočvaje paviedamleńnia ad miascovych karystańnikaŭ, dasyłanyja zahadami „write(1)” ci „wall(1)”."
+msgstr ""
+"Adsočvaje paviedamleńnia ad miascovych karystańnikaŭ, dasyłanyja zahadami "
+"„write(1)” ci „wall(1)”."
 
 #: apps/konsole/desktop/quick-access-konsole.desktop:11
 msgctxt "Name"
@@ -3387,15 +3391,15 @@ msgstr ""
 "Tut možna vybrać sabie zmoŭčany hartač sieciva. Usie aplikacyi KDE, u jakich "
 "ty karystajeśsia internet-łučami, pavinnyja źviartać uvahu na hetuju naładu."
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:2
+#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:79
 msgctxt "Comment"
 msgid ""
 "Here you can configure your default file manager. The entries in the K menu "
 "and all KDE applications in which you can open folders will use this file "
 "manager."
 msgstr ""
-"Tut možna vybrać sabie zmoŭčanaha fajłavaha kiraŭnika. Usie aplikacyi i punkty menu KDE, u jakich "
-"ty adčyniaješ katalohi, buduć im karystacca."
+"Tut možna vybrać sabie zmoŭčanaha fajłavaha kiraŭnika. Usie aplikacyi i "
+"punkty menu KDE, u jakich ty adčyniaješ katalohi, buduć im karystacca."
 
 #: runtime/kcontrol/componentchooser/componentservices/kcm_kemail.desktop:1
 msgctxt "Name"
@@ -3887,7 +3891,7 @@ msgid "There was a serious error causing the program to exit"
 msgstr "Surjoznaja pamyłka prymusiła prahramu vyjści."
 
 #: runtime/knotify/kde.notifyrc:648
-#: workspace/powerdevil/powerdevil.notifyrc:86
+#: workspace/powerdevil/powerdevil.notifyrc:87
 msgctxt "Name"
 msgid "Notification"
 msgstr "Infarmavańnie"
@@ -8686,7 +8690,7 @@ msgctxt "Name"
 msgid "Cover Switch"
 msgstr ""
 
-#: workspace/kwin/effects/coverswitch.desktop:41
+#: workspace/kwin/effects/coverswitch.desktop:42
 msgctxt "Comment"
 msgid "Display a Cover Flow effect for the alt+tab window switcher"
 msgstr ""
@@ -9055,11 +9059,10 @@ msgctxt "Name"
 msgid "Thumbnail Aside"
 msgstr ""
 
-#: workspace/kwin/effects/thumbnailaside.desktop:55
+#: workspace/kwin/effects/thumbnailaside.desktop:56
 msgctxt "Comment"
 msgid "Display window thumbnails on the edge of the screen"
-msgstr ""
-"Pakazvaje padhlady akon na krai ekrana."
+msgstr "Pakazvaje padhlady akon na krai ekrana."
 
 #: workspace/kwin/effects/trackmouse.desktop:2
 #: workspace/kwin/effects/trackmouse_config.desktop:9
@@ -10191,7 +10194,7 @@ msgctxt "Name"
 msgid "Power Management Preferences"
 msgstr "Asabistyja nałady kiravańnia enerhijaj"
 
-#: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:22
+#: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:23
 msgctxt "Comment"
 msgid "Display brightness, suspend and power profile settings"
 msgstr ""
@@ -10206,107 +10209,107 @@ msgctxt "Comment"
 msgid "Used for warning notifications"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:153
+#: workspace/powerdevil/powerdevil.notifyrc:154
 msgctxt "Comment"
 msgid "Used for standard notifications"
 msgstr "Dla zvyčajnych infarmavańniaŭ"
 
-#: workspace/powerdevil/powerdevil.notifyrc:163
+#: workspace/powerdevil/powerdevil.notifyrc:165
 msgctxt "Name"
 msgid "Critical notification"
 msgstr "Važnaje infarmavańnie"
 
-#: workspace/powerdevil/powerdevil.notifyrc:171
+#: workspace/powerdevil/powerdevil.notifyrc:174
 msgctxt "Comment"
 msgid "Notifies a critical event"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:180
+#: workspace/powerdevil/powerdevil.notifyrc:184
 msgctxt "Name"
 msgid "Low Battery"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:188
+#: workspace/powerdevil/powerdevil.notifyrc:193
 msgctxt "Comment"
 msgid "Your battery has reached low level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:200
+#: workspace/powerdevil/powerdevil.notifyrc:206
 msgctxt "Name"
 msgid "Battery at warning level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:207
+#: workspace/powerdevil/powerdevil.notifyrc:214
 msgctxt "Comment"
 msgid "Your battery has reached warning level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:219
+#: workspace/powerdevil/powerdevil.notifyrc:227
 msgctxt "Name"
 msgid "Battery at critical level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:226
+#: workspace/powerdevil/powerdevil.notifyrc:235
 msgctxt "Comment"
 msgid "Your battery has reached critical level"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:238
+#: workspace/powerdevil/powerdevil.notifyrc:248
 msgctxt "Name"
 msgid "AC adaptor plugged in"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:246
+#: workspace/powerdevil/powerdevil.notifyrc:257
 msgctxt "Comment"
 msgid "The power adaptor has been plugged in"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:259
+#: workspace/powerdevil/powerdevil.notifyrc:271
 msgctxt "Name"
 msgid "AC adaptor unplugged"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:267
+#: workspace/powerdevil/powerdevil.notifyrc:280
 msgctxt "Comment"
 msgid "The power adaptor has been unplugged"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:280
+#: workspace/powerdevil/powerdevil.notifyrc:294
 msgctxt "Name"
 msgid "Job error"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:287
+#: workspace/powerdevil/powerdevil.notifyrc:302
 msgctxt "Comment"
 msgid "There was an error while performing a job"
 msgstr "U prahramie ŭźnikła pamyłka padčas vykanańnia zadańnia."
 
-#: workspace/powerdevil/powerdevil.notifyrc:300
+#: workspace/powerdevil/powerdevil.notifyrc:316
 msgctxt "Name"
 msgid "Profile Changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:307
+#: workspace/powerdevil/powerdevil.notifyrc:324
 msgctxt "Comment"
 msgid "The profile was changed"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:319
+#: workspace/powerdevil/powerdevil.notifyrc:337
 msgctxt "Name"
 msgid "Doing a Job"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:326
+#: workspace/powerdevil/powerdevil.notifyrc:345
 msgctxt "Comment"
 msgid "Something is ongoing"
 msgstr ""
 
-#: workspace/powerdevil/powerdevil.notifyrc:338
+#: workspace/powerdevil/powerdevil.notifyrc:358
 msgctxt "Name"
 msgid "Internal PowerDevil Error"
 msgstr "Unutranaja pamyłka słužby „PowerDevil”"
 
-#: workspace/powerdevil/powerdevil.notifyrc:346
+#: workspace/powerdevil/powerdevil.notifyrc:367
 msgctxt "Comment"
 msgid "PowerDevil has triggered an internal error"
 msgstr ""

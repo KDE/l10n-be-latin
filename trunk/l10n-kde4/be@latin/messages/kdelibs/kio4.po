@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-17 10:19+0200\n"
+"POT-Creation-Date: 2008-09-19 09:28+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -414,10 +414,10 @@ msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE Control Center."
 msgstr ""
-"Sertyfikat SSL byŭ admoŭleny, jak prasili. Ty možaš adklučyć takija pavodziny ŭ "
-"Centry kiravańnia KDE."
+"Sertyfikat SSL byŭ admoŭleny, jak prasili. Ty možaš adklučyć takija "
+"pavodziny ŭ Centry kiravańnia KDE."
 
-#: kio/jobuidelegate.cpp:129 ../kfile/kdiroperator.cpp:748
+#: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:748
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -425,11 +425,11 @@ msgstr[0] "Ci ty sapraŭdy chočaš vydalić %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vydalić %1 hetyja elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vydalić %1 hetych elementaŭ?"
 
-#: kio/jobuidelegate.cpp:131 ../kfile/kdiroperator.cpp:750
+#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:750
 msgid "Delete Files"
 msgstr "Vydaleńnie fajłaŭ"
 
-#: kio/jobuidelegate.cpp:141
+#: kio/jobuidelegate.cpp:142
 #, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -437,11 +437,11 @@ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetyja elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetych elementaŭ?"
 
-#: kio/jobuidelegate.cpp:143 ../kfile/kdiroperator.cpp:1653
+#: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1653
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
 
-#: kio/jobuidelegate.cpp:144
+#: kio/jobuidelegate.cpp:145
 msgctxt "Verb"
 msgid "&Trash"
 msgstr "&Vykiń"
@@ -1479,7 +1479,8 @@ msgstr "Dostup da aznačanaha resursu, <strong>%1</strong>, zabaronieny."
 
 #: kio/global.cpp:711 kio/global.cpp:927
 msgid "You may have supplied incorrect authentication details or none at all."
-msgstr "Mabyć, ty nie padaŭ albo padaŭ niapravilnyja źviestki pra svaju tojesnaść."
+msgstr ""
+"Mabyć, ty nie padaŭ albo padaŭ niapravilnyja źviestki pra svaju tojesnaść."
 
 #: kio/global.cpp:713 kio/global.cpp:929
 msgid "Your account may not have permission to access the specified resource."
@@ -1490,8 +1491,7 @@ msgstr ""
 msgid ""
 "Retry the request and ensure your authentication details are entered "
 "correctly."
-msgstr ""
-"Paŭtary zapyt, spraŭdziŭšy pravilnaść svaich źviestak pra tojesnaść."
+msgstr "Paŭtary zapyt, spraŭdziŭšy pravilnaść svaich źviestak pra tojesnaść."
 
 #: kio/global.cpp:721
 msgid "Write Access Denied"
@@ -1941,8 +1941,8 @@ msgid ""
 "The specified request asked that the transfer of file <strong>%1</strong> be "
 "resumed at a certain point of the transfer. This was not possible."
 msgstr ""
-"Aznačany zapyt vymahaje pierasyłańnia fajła <strong>%1</strong>, pačynajučy ad "
-"peŭnaha miesca. Ale heta niemahčyma."
+"Aznačany zapyt vymahaje pierasyłańnia fajła <strong>%1</strong>, pačynajučy "
+"ad peŭnaha miesca. Ale heta niemahčyma."
 
 #: kio/global.cpp:979
 msgid "The protocol, or the server, may not support file resuming."
@@ -2068,8 +2068,9 @@ msgid ""
 "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
 "a> to inform the KDE team of the unsupported authentication method."
 msgstr ""
-"Kali łaska, paviedam pra pamyłku na placoŭcy: <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
-"a>, kab supolnaść KDE viedała pra nieabsłužany sposab spraŭdžvańnia tojesnaści."
+"Kali łaska, paviedam pra pamyłku na placoŭcy: <a href=\"http://bugs.kde.org/"
+"\">http://bugs.kde.org/</a>, kab supolnaść KDE viedała pra nieabsłužany "
+"sposab spraŭdžvańnia tojesnaści."
 
 #: kio/global.cpp:1063
 msgid "Request Aborted"
@@ -2125,8 +2126,11 @@ msgid ""
 "settings in the KDE Control Center, by selecting Network -> Preferences."
 msgstr ""
 "Choć z serveram była naładžanaja viaź, ale adkaz nia byŭ atrymany ciaham "
-"vydatkavanaha na heta času:"
-"<ul><li>Čas na ŭźniaćcio spałučeńnia: %1 sekundaŭ</li><li>Čas na atrymańnie adkazu: %2 sekundaŭ</li><li>Čas na dostup da serveraŭ proxy: %3 sekundaŭ</li></ul>Darečy, ty možaš źmianić hetyja nałady času čakańnia ŭ Centry kiravańnia KDE, u raździele: „Sietka” ► „Ułasnyja nałady”."
+"vydatkavanaha na heta času:<ul><li>Čas na ŭźniaćcio spałučeńnia: %1 "
+"sekundaŭ</li><li>Čas na atrymańnie adkazu: %2 sekundaŭ</li><li>Čas na dostup "
+"da serveraŭ proxy: %3 sekundaŭ</li></ul>Darečy, ty možaš źmianić hetyja "
+"nałady času čakańnia ŭ Centry kiravańnia KDE, u raździele: „Sietka” ► "
+"„Ułasnyja nałady”."
 
 #: kio/global.cpp:1096
 msgid "The server was too busy responding to other requests to respond."
@@ -2156,8 +2160,8 @@ msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an interruption of an unknown type: %2."
 msgstr ""
-"Prahrama ŭ tvaim kamputary, jakaja absłuhoŭvaje dostup da pratakoła <strong>%1</"
-"strong>, paviedamiła pra pierarvańnie nieviadomaha typu: %2."
+"Prahrama ŭ tvaim kamputary, jakaja absłuhoŭvaje dostup da pratakoła <strong>%"
+"1</strong>, paviedamiła pra pierarvańnie nieviadomaha typu: %2."
 
 #: kio/global.cpp:1120
 msgid "Could Not Delete Original File"
@@ -2548,37 +2552,37 @@ msgstr "Klikni ŭ hetuju knopku, kab uklučyć redaktar typaŭ MIME dla KDE."
 msgid "Unable to create io-slave: %1"
 msgstr "Nie ŭdałosia stvaryć słužbu „ioslave”: %1"
 
-#: kio/kdirmodel.cpp:667
+#: kio/kdirmodel.cpp:728
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Nazva"
 
-#: kio/kdirmodel.cpp:669
+#: kio/kdirmodel.cpp:730
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Pamier"
 
-#: kio/kdirmodel.cpp:671
+#: kio/kdirmodel.cpp:732
 msgctxt "@title:column"
 msgid "Date"
 msgstr "Data"
 
-#: kio/kdirmodel.cpp:673
+#: kio/kdirmodel.cpp:734
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Dazvoły"
 
-#: kio/kdirmodel.cpp:675
+#: kio/kdirmodel.cpp:736
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Ułaśnik"
 
-#: kio/kdirmodel.cpp:677
+#: kio/kdirmodel.cpp:738
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Hrupa"
 
-#: kio/kdirmodel.cpp:679
+#: kio/kdirmodel.cpp:740
 msgctxt "@title:column"
 msgid "Type"
 msgstr "Typ"
@@ -2693,15 +2697,16 @@ msgid ""
 "Retrieval of the issuer certificate failed. This means the CA's (Certificate "
 "Authority) certificate can not be found."
 msgstr ""
-"Nie ŭdałosia atrymać sertyfikat vydaŭnika. Heta značyć, što nie ŭdałosia znajści "
-"sertyfikat paŭnamocnaha vydaŭnika."
+"Nie ŭdałosia atrymać sertyfikat vydaŭnika. Heta značyć, što nie ŭdałosia "
+"znajści sertyfikat paŭnamocnaha vydaŭnika."
 
 #: kssl/ksslcertificate.cpp:1055
 msgid ""
 "Retrieval of the CRL (Certificate Revocation List) failed. This means the "
 "CA's (Certificate Authority) CRL can not be found."
 msgstr ""
-"Nie ŭdałosia atrymać „CRL” (śpis kasavańnia sertyfikavataŭ). Heta značyć, što nie ŭdałosia znajści „CRL” paŭnamocnaha vydaŭnika."
+"Nie ŭdałosia atrymać „CRL” (śpis kasavańnia sertyfikavataŭ). Heta značyć, "
+"što nie ŭdałosia znajści „CRL” paŭnamocnaha vydaŭnika."
 
 #: kssl/ksslcertificate.cpp:1057
 msgid ""
@@ -2717,7 +2722,9 @@ msgid ""
 "This means it could not even be calculated as opposed to just not matching "
 "the expected result."
 msgstr ""
-"Nie ŭdałosia rasšyfravać podpis, pastaŭleny na „CRL” (śpisie kasavańnia sertyfikataŭ). Heta značyć, što jaho navat nie ŭdałosia vyličyć, kab spraŭdzić, ci jon adpaviadaje čakanamu vyniku."
+"Nie ŭdałosia rasšyfravać podpis, pastaŭleny na „CRL” (śpisie kasavańnia "
+"sertyfikataŭ). Heta značyć, što jaho navat nie ŭdałosia vyličyć, kab "
+"spraŭdzić, ci jon adpaviadaje čakanamu vyniku."
 
 #: kssl/ksslcertificate.cpp:1061
 msgid ""
@@ -2725,7 +2732,9 @@ msgid ""
 "CA's (Certificate Authority) certificate can not be used to verify the "
 "certificate you wanted to use."
 msgstr ""
-"Nie ŭdałosia rasšyfravać publičny kluč padpiśnika. Heta značyć, što nielha spraŭdžvać z dapamohaj sertyfikata paŭnamocnaha vydaŭnika toj sertyfikat, jaki ty chočaš."
+"Nie ŭdałosia rasšyfravać publičny kluč padpiśnika. Heta značyć, što nielha "
+"spraŭdžvać z dapamohaj sertyfikata paŭnamocnaha vydaŭnika toj sertyfikat, "
+"jaki ty chočaš."
 
 #: kssl/ksslcertificate.cpp:1063
 msgid ""
@@ -2740,7 +2749,8 @@ msgid ""
 "The CRL's (Certificate Revocation List) signature is invalid. This means "
 "that the CRL can not be verified."
 msgstr ""
-"Podpis, pastaŭleny na „CRL” (śpisie kasavańnia sertyfikataŭ) chibny. Heta značyć, što nie ŭdałosia spraŭdzić hety „CRL”."
+"Podpis, pastaŭleny na „CRL” (śpisie kasavańnia sertyfikataŭ) chibny. Heta "
+"značyć, što nie ŭdałosia spraŭdzić hety „CRL”."
 
 #: kssl/ksslcertificate.cpp:1067
 msgid "The certificate is not valid, yet."
@@ -2766,13 +2776,17 @@ msgstr "Niapravilny farmat času ŭ poli „notAfter” hetaha sertyfikata."
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'lastUpdate' "
 "field is invalid."
-msgstr "Farmat času dla pola „lastUpdate” u hetym „CRL” (śpisie kasavańnia sertyfikataŭ) niapravilny."
+msgstr ""
+"Farmat času dla pola „lastUpdate” u hetym „CRL” (śpisie kasavańnia "
+"sertyfikataŭ) niapravilny."
 
 #: kssl/ksslcertificate.cpp:1081
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'nextUpdate' "
 "field is invalid."
-msgstr "Farmat času dla pola „nextUpdate” u hetym „CRL” (śpisie kasavańnia sertyfikataŭ) niapravilny."
+msgstr ""
+"Farmat času dla pola „nextUpdate” u hetym „CRL” (śpisie kasavańnia "
+"sertyfikataŭ) niapravilny."
 
 #: kssl/ksslcertificate.cpp:1083
 msgid "The OpenSSL process ran out of memory."
@@ -2792,14 +2806,17 @@ msgid ""
 "The certificate is self-signed. While the trust chain could be built up, the "
 "root CA's (Certificate Authority) certificate can not be found."
 msgstr ""
-"Hety sertyfikat padpisany jahonym ułaśnikam. Choć łancuh davieru možna zbudavać, ale nie ŭdałosia znajści sertyfikat hałoŭnaha paŭnamocnaha vydaŭnika."
+"Hety sertyfikat padpisany jahonym ułaśnikam. Choć łancuh davieru možna "
+"zbudavać, ale nie ŭdałosia znajści sertyfikat hałoŭnaha paŭnamocnaha "
+"vydaŭnika."
 
 #: kssl/ksslcertificate.cpp:1090
 msgid ""
 "The CA's (Certificate Authority) certificate can not be found. Most likely, "
 "your trust chain is broken."
 msgstr ""
-"Nie ŭdałosia znajści sertyfikat paŭnamocnaha vydaŭnika. Peŭna, tvoj łancuh davieru paškodžany."
+"Nie ŭdałosia znajści sertyfikat paŭnamocnaha vydaŭnika. Peŭna, tvoj łancuh "
+"davieru paškodžany."
 
 #: kssl/ksslcertificate.cpp:1092
 msgid ""
@@ -2828,42 +2845,49 @@ msgid ""
 "The length of the trust chain exceeded one of the CA's (Certificate "
 "Authority) 'pathlength' parameters, making all subsequent signatures invalid."
 msgstr ""
-"Daŭžynia łancuha davieru bolšaja za parametar „pathlength” u adnaho z paŭnamocnych vydaŭnikoŭ. Tamu ŭsie podpisy ŭ paśladoŭnaści stali nierečaisnymi."
+"Daŭžynia łancuha davieru bolšaja za parametar „pathlength” u adnaho z "
+"paŭnamocnych vydaŭnikoŭ. Tamu ŭsie podpisy ŭ paśladoŭnaści stali "
+"nierečaisnymi."
 
 #: kssl/ksslcertificate.cpp:1103
 msgid ""
 "The certificate has not been signed for the purpose you tried to use it for. "
 "This means the CA (Certificate Authority) does not allow this usage."
 msgstr ""
-"Sertyfikat nia maje podpisu, adpaviednaha toj mecie, ź jakoj ty chočaš jaho vykarystać. Heta značyć, što paŭnamocny vydaŭnik nie dazvoliŭ hetak im karystacca."
+"Sertyfikat nia maje podpisu, adpaviednaha toj mecie, ź jakoj ty chočaš jaho "
+"vykarystać. Heta značyć, što paŭnamocny vydaŭnik nie dazvoliŭ hetak im "
+"karystacca."
 
 #: kssl/ksslcertificate.cpp:1106
 msgid ""
 "The root CA (Certificate Authority) is not trusted for the purpose you tried "
 "to use this certificate for."
 msgstr ""
-"Hałoŭny paŭnamocny vydaŭnik nia maje davieru dla toj mety, ź jakoj ty chočaš vykarystać hety sertyfikat."
+"Hałoŭny paŭnamocny vydaŭnik nia maje davieru dla toj mety, ź jakoj ty chočaš "
+"vykarystać hety sertyfikat."
 
 #: kssl/ksslcertificate.cpp:1109
 msgid ""
 "The root CA (Certificate Authority) has been marked to be rejected for the "
 "purpose you tried to use it for."
 msgstr ""
-"Hałoŭny paŭnamocny vydaŭnik byŭ akreśleny, jak niedavierany, dla toj mety, ź jakoj ty chočaš vykarystać hety sertyfikat."
+"Hałoŭny paŭnamocny vydaŭnik byŭ akreśleny, jak niedavierany, dla toj mety, ź "
+"jakoj ty chočaš vykarystać hety sertyfikat."
 
 #: kssl/ksslcertificate.cpp:1111
 msgid ""
 "The certificate's CA (Certificate Authority) does not match the CA name of "
 "the certificate."
-msgstr ""
-"Paŭnamocny vydaŭnik sertyfikata nie adpaviadaje naźvie vydaŭnika."
+msgstr "Paŭnamocny vydaŭnik sertyfikata nie adpaviadaje naźvie vydaŭnika."
 
 #: kssl/ksslcertificate.cpp:1113
 msgid ""
 "The CA (Certificate Authority) certificate's key ID does not match the key "
 "ID in the 'Issuer' section of the certificate you are trying to use."
 msgstr ""
-"Identyfikatar kluča sertyfikata paŭnamocnaha vydaŭnika nie adpaviadaje identyfikataru kluča ŭ raździele „Vydaŭnik” z sertyfikata, jaki ty chočaš vykarystać."
+"Identyfikatar kluča sertyfikata paŭnamocnaha vydaŭnika nie adpaviadaje "
+"identyfikataru kluča ŭ raździele „Vydaŭnik” z sertyfikata, jaki ty chočaš "
+"vykarystać."
 
 #: kssl/ksslcertificate.cpp:1115
 msgid ""
@@ -2871,7 +2895,9 @@ msgid ""
 "the key ID and name in the 'Issuer' section of the certificate you are "
 "trying to use."
 msgstr ""
-"Identyfikatar kluča sertyfikata paŭnamocnaha vydaŭnika i jahonaja nazva nie adpaviadajuć identyfikataru kluča j naźvie ŭ raździele „Vydaŭnik” z sertyfikata, jaki ty chočaš vykarystać."
+"Identyfikatar kluča sertyfikata paŭnamocnaha vydaŭnika i jahonaja nazva nie "
+"adpaviadajuć identyfikataru kluča j naźvie ŭ raździele „Vydaŭnik” z "
+"sertyfikata, jaki ty chočaš vykarystać."
 
 #: kssl/ksslcertificate.cpp:1117
 msgid ""
@@ -2908,7 +2934,8 @@ msgid ""
 "Certificate signing authority root files could not be found so the "
 "certificate is not verified."
 msgstr ""
-"Nie ŭdałosia znajści sertyfikacyjnyja fajły hałoŭnaha paŭnamocnaha vydaŭnika, tamu nie ŭdałosia spraŭdzić hety sertyfikat."
+"Nie ŭdałosia znajści sertyfikacyjnyja fajły hałoŭnaha paŭnamocnaha "
+"vydaŭnika, tamu nie ŭdałosia spraŭdzić hety sertyfikat."
 
 #: kssl/ksslcertificate.cpp:1134
 msgid "SSL support was not found."
@@ -3127,10 +3154,10 @@ msgstr "Miesca:"
 #: kfile/kurlrequesterdialog.cpp:131 kfile/kicondialog.cpp:573
 #: kfile/kencodingfiledialog.cpp:107 kfile/kencodingfiledialog.cpp:125
 #: kfile/kencodingfiledialog.cpp:140 kfile/kencodingfiledialog.cpp:158
-#: kfile/kfiledialog.cpp:391 kfile/kfiledialog.cpp:400
-#: kfile/kfiledialog.cpp:422 kfile/kfiledialog.cpp:438
-#: kfile/kfiledialog.cpp:446 kfile/kfiledialog.cpp:465
-#: kfile/kfiledialog.cpp:486 kfile/kfiledialog.cpp:541
+#: kfile/kfiledialog.cpp:399 kfile/kfiledialog.cpp:408
+#: kfile/kfiledialog.cpp:430 kfile/kfiledialog.cpp:446
+#: kfile/kfiledialog.cpp:454 kfile/kfiledialog.cpp:473
+#: kfile/kfiledialog.cpp:494 kfile/kfiledialog.cpp:549
 msgid "Open"
 msgstr "Adčyni"
 
@@ -3325,8 +3352,8 @@ msgid "Encoding:"
 msgstr "Kadavańnie:"
 
 #: kfile/kencodingfiledialog.cpp:179 kfile/kencodingfiledialog.cpp:204
-#: kfile/kfiledialog.cpp:606 kfile/kfiledialog.cpp:628
-#: kfile/kfiledialog.cpp:661 kfile/kfiledialog.cpp:686
+#: kfile/kfiledialog.cpp:614 kfile/kfiledialog.cpp:636
+#: kfile/kfiledialog.cpp:669 kfile/kfiledialog.cpp:694
 msgid "Save As"
 msgstr "Zapišy jak"
 
@@ -3961,7 +3988,8 @@ msgstr ""
 
 #: kfile/kfilesharedialog.cpp:167
 msgid "You can also reconfigure file sharing authorization."
-msgstr "Taksama možaš źmianić nałady aŭtaryzavańnia dla supolnaha dostupu da fajłaŭ."
+msgstr ""
+"Taksama možaš źmianić nałady aŭtaryzavańnia dla supolnaha dostupu da fajłaŭ."
 
 #: kfile/kfilesharedialog.cpp:171 kfile/kfilesharedialog.cpp:195
 msgid "Configure File Sharing..."
@@ -4118,7 +4146,9 @@ msgid ""
 "This wizard is intended to guide you through the procedure. You may cancel "
 "at any time, and this will abort the transaction."
 msgstr ""
-"Ty śćvierdziŭ, što chočaš nabyć sertyfikat biaśpiečnaści. Hetaja prahrama dapamoža heta zrabić. U luby čas ty zmožaš admovicca, i tady nijakich zapytaŭ nia budzie vysłana ŭ sieciva."
+"Ty śćvierdziŭ, što chočaš nabyć sertyfikat biaśpiečnaści. Hetaja prahrama "
+"dapamoža heta zrabić. U luby čas ty zmožaš admovicca, i tady nijakich "
+"zapytaŭ nia budzie vysłana ŭ sieciva."
 
 #. i18n: file: kssl/certificateparty.ui:16
 #. i18n: ectx: property (text), widget (QLabel, commonNameTag)
@@ -4209,7 +4239,8 @@ msgid ""
 "application or if you want the information that is provided by the terminal "
 "emulator window."
 msgstr ""
-"Uklučy hetuju opcyju, kali aplikacyja maje tekstavy kštałt albo kali chočaš pračytać vychodnyja źviestki ad prahramy."
+"Uklučy hetuju opcyju, kali aplikacyja maje tekstavy kštałt albo kali chočaš "
+"pračytać vychodnyja źviestki ad prahramy."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:53
 #. i18n: ectx: property (text), widget (QCheckBox, terminalCheck)
@@ -4231,7 +4262,9 @@ msgid ""
 "on exit. Keeping the terminal emulator open allows you to retrieve this "
 "information."
 msgstr ""
-"Uklučy hetuju opcyju, kali aplikacyja tekstavaha kštałtu vyvodzić pry vychadzie važnyja źviestki. Kali terminał nia budzie začynieny, tady ty zmožaš ich pračytać."
+"Uklučy hetuju opcyju, kali aplikacyja tekstavaha kštałtu vyvodzić pry "
+"vychadzie važnyja źviestki. Kali terminał nia budzie začynieny, tady ty "
+"zmožaš ich pračytać."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:73
 #. i18n: ectx: property (text), widget (QCheckBox, terminalCloseCheck)
@@ -4257,7 +4290,10 @@ msgid ""
 "determines file access and other permissions. The password of the user is "
 "required to use this option."
 msgstr ""
-"Uklučy hetuju opcyju, kali chočaš uklučyć hetuju aplikacyju ad asoby inšaha karystańnika. Kožny praces maje peŭny identyfikatar karystańnika, jaki aznačaje dazvoły na dostup da roznych fajłaŭ itp. Dla hetkaha ŭklučeńnia treba padać parol adpaviednaha karystańnika."
+"Uklučy hetuju opcyju, kali chočaš uklučyć hetuju aplikacyju ad asoby inšaha "
+"karystańnika. Kožny praces maje peŭny identyfikatar karystańnika, jaki "
+"aznačaje dazvoły na dostup da roznych fajłaŭ itp. Dla hetkaha ŭklučeńnia "
+"treba padać parol adpaviednaha karystańnika."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:101
 #. i18n: ectx: property (text), widget (QCheckBox, suidCheck)
@@ -4300,7 +4336,8 @@ msgid ""
 "Check this option if you want to make clear that your application has "
 "started. This visual feedback may appear as a busy cursor or in the taskbar."
 msgstr ""
-"Uklučy hetuju opcyju, kab być peŭnym, što aplikacyja ŭklučyłasia. Hetaje vyjaŭleńnie moža pakazvać „zaniaty” kursor albo paznačać zadańnie ŭ paneli."
+"Uklučy hetuju opcyju, kab być peŭnym, što aplikacyja ŭklučyłasia. Hetaje "
+"vyjaŭleńnie moža pakazvać „zaniaty” kursor albo paznačać zadańnie ŭ paneli."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:162
 #. i18n: ectx: property (text), widget (QCheckBox, startupInfoCheck)
@@ -4315,7 +4352,8 @@ msgid ""
 "Check this option if you want to have a system tray handle for your "
 "application."
 msgstr ""
-"Uklučy hetuju opcyju, kali chočaš, kab u hetaj aplikacyi byŭ asobny element u systemnym trei."
+"Uklučy hetuju opcyju, kali chočaš, kab u hetaj aplikacyi byŭ asobny element "
+"u systemnym trei."
 
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:172
 #. i18n: ectx: property (text), widget (QCheckBox, systrayCheck)
@@ -4420,7 +4458,9 @@ msgid ""
 "Type the description of this application, based on its use, here. Examples: "
 "a dial up application (KPPP) would be \"Dial up tool\"."
 msgstr ""
-"Tut apišy aplikacyju, adpaviedna jejnaj mecie. Naprykład, aplikacyju dla „dialup”-spałučeńniaŭ ź siecivam možna apisać jak „Prahrama dla dialup-internetu”."
+"Tut apišy aplikacyju, adpaviedna jejnaj mecie. Naprykład, aplikacyju dla "
+"„dialup”-spałučeńniaŭ ź siecivam možna apisać jak „Prahrama dla dialup-"
+"internetu”."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:122
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
@@ -4501,7 +4541,8 @@ msgid ""
 "Click on this button if you want to add a type of file (mimetype) that your "
 "application can handle."
 msgstr ""
-"Klikni ŭ hetuju knopku, kali chočaš dadać typ fajłaŭ („MIME”), jaki absłuhoŭvaje hetaja aplikacyja."
+"Klikni ŭ hetuju knopku, kali chočaš dadać typ fajłaŭ („MIME”), jaki "
+"absłuhoŭvaje hetaja aplikacyja."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:234
 #. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
@@ -4516,7 +4557,8 @@ msgid ""
 "If you want to remove a type of file (mimetype) that your application cannot "
 "handle, select the mimetype in the list above and click on this button."
 msgstr ""
-"Kali chočaš vydalić adzin z typaŭ fajłaŭ („MIME”), jakija nie absłuhoŭvaje hetaja aplikacyja, vybiery patrebny typ „MIME” i klikni ŭ hetuju knopku."
+"Kali chočaš vydalić adzin z typaŭ fajłaŭ („MIME”), jakija nie absłuhoŭvaje "
+"hetaja aplikacyja, vybiery patrebny typ „MIME” i klikni ŭ hetuju knopku."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:260
 #. i18n: ectx: property (text), widget (QPushButton, delFiletypeButton)
@@ -4531,7 +4573,8 @@ msgid ""
 "Click here to modify the way this application will run, launch feedback, "
 "DBUS options or to run it as a different user."
 msgstr ""
-"Klikni siudy, kab źmianić sposab uklučeńnia aplikacyi, vyjaŭleńnie, opcyi „D-Bus”, dziejnaha karystańnika."
+"Klikni siudy, kab źmianić sposab uklučeńnia aplikacyi, vyjaŭleńnie, opcyi „D-"
+"Bus”, dziejnaha karystańnika."
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:286
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
@@ -4672,7 +4715,7 @@ msgstr "Stvary novy kataloh z zakładkami ŭ hetym menu"
 msgid "--- separator ---"
 msgstr "--- dzielnik ---"
 
-#: bookmarks/kbookmarkmanager.cc:411
+#: bookmarks/kbookmarkmanager.cc:412
 #, kde-format
 msgid ""
 "Unable to save bookmarks in %1. Reported error was: %2. This error message "
@@ -4792,12 +4835,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:462 ../kioslave/http/http.cpp:4884
+#: ../kioslave/ftp/ftp.cpp:462 ../kioslave/http/http.cpp:4835
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ../kioslave/ftp/ftp.cpp:464 ../kioslave/http/http.cpp:4892
+#: ../kioslave/ftp/ftp.cpp:464 ../kioslave/http/http.cpp:4843
 msgid "Site:"
 msgstr "Sajt:"
 
@@ -4871,80 +4914,80 @@ msgstr "Nie ŭdałosia znajści prahramu „umount”."
 msgid "Could not read %1"
 msgstr "Nie ŭdałosia pračytać z „%1”."
 
-#: ../kioslave/http/http.cpp:539
+#: ../kioslave/http/http.cpp:490
 msgid "No host specified."
 msgstr "Host nie aznačany."
 
-#: ../kioslave/http/http.cpp:1491
+#: ../kioslave/http/http.cpp:1442
 msgid "Otherwise, the request would have succeeded."
 msgstr "Inačaj zapyt by vykanaŭsia."
 
-#: ../kioslave/http/http.cpp:1495
+#: ../kioslave/http/http.cpp:1446
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "atrymać vartaści dla ŭłaścivaściaŭ"
 
-#: ../kioslave/http/http.cpp:1498
+#: ../kioslave/http/http.cpp:1449
 msgctxt "request type"
 msgid "set property values"
 msgstr "aznačyć vartaści dla ŭłaścivaściaŭ"
 
-#: ../kioslave/http/http.cpp:1501
+#: ../kioslave/http/http.cpp:1452
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "stvaryć zapatrabavany kataloh"
 
-#: ../kioslave/http/http.cpp:1504
+#: ../kioslave/http/http.cpp:1455
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "skapijavać aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1507
+#: ../kioslave/http/http.cpp:1458
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "pieranieści aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1510
+#: ../kioslave/http/http.cpp:1461
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "pašukać u aznačanym katalohu"
 
-#: ../kioslave/http/http.cpp:1513
+#: ../kioslave/http/http.cpp:1464
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "zablakavać aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1516
+#: ../kioslave/http/http.cpp:1467
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "adblakavać aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1519
+#: ../kioslave/http/http.cpp:1470
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "vydalić aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1522
+#: ../kioslave/http/http.cpp:1473
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "zapytać u servera pra jahonyja zdolnaści"
 
-#: ../kioslave/http/http.cpp:1525
+#: ../kioslave/http/http.cpp:1476
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "atrymać źmieściva aznačanaha fajła ci kataloha"
 
-#: ../kioslave/http/http.cpp:1537
+#: ../kioslave/http/http.cpp:1488
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
-#: ../kioslave/http/http.cpp:1545
+#: ../kioslave/http/http.cpp:1496
 msgid "The server does not support the WebDAV protocol."
 msgstr "Server nie absłuhoŭvaje pratakoł „WebDAV”."
 
-#: ../kioslave/http/http.cpp:1587
+#: ../kioslave/http/http.cpp:1538
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -4953,17 +4996,17 @@ msgid ""
 msgstr ""
 "Padčas sproby %1 dla „%2” uźnikła pamyłka. Nižej padadzieny śpis pryčynaŭ."
 
-#: ../kioslave/http/http.cpp:1601 ../kioslave/http/http.cpp:1706
+#: ../kioslave/http/http.cpp:1552 ../kioslave/http/http.cpp:1657
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Sprobie %1 zabaronieny dostup."
 
-#: ../kioslave/http/http.cpp:1608
+#: ../kioslave/http/http.cpp:1559
 msgid "The specified folder already exists."
 msgstr "Aznačany kataloh užo isnuje."
 
-#: ../kioslave/http/http.cpp:1614 ../kioslave/http/http.cpp:1711
+#: ../kioslave/http/http.cpp:1565 ../kioslave/http/http.cpp:1662
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
@@ -4971,7 +5014,7 @@ msgstr ""
 "Niemahčyma stvaryć resurs u metavym miescy, pakul nia buduć stvorany "
 "pasiarednija katalohi, jakija viaduć da hetaha resursu."
 
-#: ../kioslave/http/http.cpp:1623
+#: ../kioslave/http/http.cpp:1574
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -4979,26 +5022,26 @@ msgid ""
 "requesting that files are not overwritten. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1633
+#: ../kioslave/http/http.cpp:1584
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1639
+#: ../kioslave/http/http.cpp:1590
 msgid "The server does not support the request type of the body."
 msgstr "Server nie absłuhoŭvaje typu zapytaŭ, padadzienaha ŭ ciele."
 
-#: ../kioslave/http/http.cpp:1644 ../kioslave/http/http.cpp:1718
+#: ../kioslave/http/http.cpp:1595 ../kioslave/http/http.cpp:1669
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Nie ŭdałosia %1, bo resurs zablakavany."
 
-#: ../kioslave/http/http.cpp:1648
+#: ../kioslave/http/http.cpp:1599
 msgid "This action was prevented by another error."
 msgstr "Hetaj aperacyi pieraškodziła inšaja pamyłka."
 
-#: ../kioslave/http/http.cpp:1655 ../kioslave/http/http.cpp:1723
+#: ../kioslave/http/http.cpp:1606 ../kioslave/http/http.cpp:1674
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -5007,7 +5050,7 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia %1, bo metavy server nie pryniaŭ hetaha fajła ci kataloha."
 
-#: ../kioslave/http/http.cpp:1662 ../kioslave/http/http.cpp:1729
+#: ../kioslave/http/http.cpp:1613 ../kioslave/http/http.cpp:1680
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
@@ -5015,70 +5058,70 @@ msgstr ""
 "Metavamu resursu nie chapiła volnaha miesca, kab zapisać novuju admienu, "
 "jakaja ŭźnikła paśla vykanańnia hetaj funkcyi."
 
-#: ../kioslave/http/http.cpp:1684
+#: ../kioslave/http/http.cpp:1635
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "pakłaści „%1” na server"
 
-#: ../kioslave/http/http.cpp:1695
+#: ../kioslave/http/http.cpp:1646
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
-#: ../kioslave/http/http.cpp:2444
+#: ../kioslave/http/http.cpp:2395
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "Spałučany z „%1”. Čakańnie adkazu..."
 
-#: ../kioslave/http/http.cpp:2836
+#: ../kioslave/http/http.cpp:2787
 msgid "Server processing request, please wait..."
 msgstr "Server pierapracoŭvaje zapyt. Pačakaj..."
 
-#: ../kioslave/http/http.cpp:3657
+#: ../kioslave/http/http.cpp:3608
 msgid "Requesting data to send"
 msgstr "Zapyt źviestak dla vysyłańnia"
 
-#: ../kioslave/http/http.cpp:3694
+#: ../kioslave/http/http.cpp:3645
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Vysyłańnie źviestak u „%1”"
 
-#: ../kioslave/http/http.cpp:4102
+#: ../kioslave/http/http.cpp:4053
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Atrymańnie „%1” ad „%2”..."
 
-#: ../kioslave/http/http.cpp:4108
+#: ../kioslave/http/http.cpp:4059
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr "Atrymańnie źviestak ad „%1”..."
 
-#: ../kioslave/http/http.cpp:4867 ../kioslave/http/http.cpp:5059
+#: ../kioslave/http/http.cpp:4818 ../kioslave/http/http.cpp:5010
 msgid "Authentication Failed."
 msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
 
-#: ../kioslave/http/http.cpp:4869 ../kioslave/http/http.cpp:5060
-#: ../kioslave/http/http.cpp:5775
+#: ../kioslave/http/http.cpp:4820 ../kioslave/http/http.cpp:5011
+#: ../kioslave/http/http.cpp:5726
 msgid "Proxy Authentication Failed."
 msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
 
-#: ../kioslave/http/http.cpp:4871
+#: ../kioslave/http/http.cpp:4822
 msgid " Do you want to retry?"
 msgstr "Chočaš paŭtaryć?"
 
-#: ../kioslave/http/http.cpp:4872
+#: ../kioslave/http/http.cpp:4823
 msgid "Authentication"
 msgstr "Tojesnaść"
 
-#: ../kioslave/http/http.cpp:4893 ../kioslave/http/http.cpp:4910
-#: ../kioslave/http/http.cpp:5774
+#: ../kioslave/http/http.cpp:4844 ../kioslave/http/http.cpp:4861
+#: ../kioslave/http/http.cpp:5725
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
-#: ../kioslave/http/http.cpp:4900 ../kioslave/http/http.cpp:5769
+#: ../kioslave/http/http.cpp:4851 ../kioslave/http/http.cpp:5720
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5086,20 +5129,21 @@ msgstr ""
 "Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
 "parol dla proxy-servera."
 
-#: ../kioslave/http/http.cpp:4909 ../kioslave/http/http.cpp:5773
+#: ../kioslave/http/http.cpp:4860 ../kioslave/http/http.cpp:5724
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/http/http.cpp:4947
+#: ../kioslave/http/http.cpp:4898
 #, kde-format
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr "Dla „%1” treba dakazać tojesnaść, ale hetaja aperacyja vyklučanaja."
 
-#: ../kioslave/http/http.cpp:5429
+#: ../kioslave/http/http.cpp:5380
 msgid ""
 "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
-"Sposab, jaki nie absłuhoŭvajecca: spraŭdžvańnie tojesnaści budzie niaŭdałym. Kali łaska, paviedam nam pra hetuju prablemu."
+"Sposab, jaki nie absłuhoŭvajecca: spraŭdžvańnie tojesnaści budzie niaŭdałym. "
+"Kali łaska, paviedam nam pra hetuju prablemu."
 
 #: ../kioslave/http/http_cache_cleaner.cpp:199
 #: ../kioslave/http/http_cache_cleaner.cpp:200
@@ -5323,7 +5367,10 @@ msgid ""
 "matches. This feature can be controlled by clicking with the right mouse "
 "button and selecting a preferred mode from the <b>Text Completion</b> menu."
 msgstr ""
-"<qt>Padčas upisvańnia tekstu ŭ pole tabie mohuć prapanavać mahčymyja varyjanty zakančeńnia. Hetyja pavodziny možna źmianić, kliknuŭšy pravaj knopkaj myšy ŭ pole j vybraŭšy patrebny sposab u menu <b>Zakančeńnie tekstu</b>."
+"<qt>Padčas upisvańnia tekstu ŭ pole tabie mohuć prapanavać mahčymyja "
+"varyjanty zakančeńnia. Hetyja pavodziny možna źmianić, kliknuŭšy pravaj "
+"knopkaj myšy ŭ pole j vybraŭšy patrebny sposab u menu <b>Zakančeńnie tekstu</"
+"b>."
 
 #: ../kfile/kfilewidget.cpp:333
 #, kde-format
@@ -5394,7 +5441,11 @@ msgid ""
 "filters in the drop down menu, or you may enter a custom filter directly "
 "into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
 msgstr ""
-"<qt>Filtar, jaki budzie vykarystany dla śpisa fajłaŭ. Nazvy fajłaŭ, jakija nie adpaviadajuć hetamu filtru, nia buduć pakazvacca.<p>Ty možaš albo vybrać najaŭny šablon z vypłyŭnoha menu, albo ŭpisać ułasny filter u tekstavaje pole.</p><p>Možna karystacca specyjalnymi znakami, naprykład, „*” i „?”.</p></qt>"
+"<qt>Filtar, jaki budzie vykarystany dla śpisa fajłaŭ. Nazvy fajłaŭ, jakija "
+"nie adpaviadajuć hetamu filtru, nia buduć pakazvacca.<p>Ty možaš albo vybrać "
+"najaŭny šablon z vypłyŭnoha menu, albo ŭpisać ułasny filter u tekstavaje "
+"pole.</p><p>Možna karystacca specyjalnymi znakami, naprykład, „*” i „?”.</"
+"p></qt>"
 
 #: ../kfile/kfilewidget.cpp:511
 msgid "&Filter:"
@@ -5510,7 +5561,11 @@ msgid ""
 "bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
-"<qt>Hetaja knopka dazvalaje stvarać zakładki dla peŭnych miescaŭ. Klikni ŭ hetuju knopku, kab adčynić menu zakładak. Tudy ty možaš dadavać novyja zakładki, redahavać ci vybirać najaŭnyja zakładki.<br /><br />Jany adnosiacca tolki da akna vybaru fajłaŭ, ale dziejničajuć, jak zvyčajnyja zakładki systemy KDE.</qt>"
+"<qt>Hetaja knopka dazvalaje stvarać zakładki dla peŭnych miescaŭ. Klikni ŭ "
+"hetuju knopku, kab adčynić menu zakładak. Tudy ty možaš dadavać novyja "
+"zakładki, redahavać ci vybirać najaŭnyja zakładki.<br /><br />Jany "
+"adnosiacca tolki da akna vybaru fajłaŭ, ale dziejničajuć, jak zvyčajnyja "
+"zakładki systemy KDE.</qt>"
 
 #: ../kfile/kfileplacesmodel.cpp:101
 msgctxt "Home Directory"
@@ -5568,8 +5623,10 @@ msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
 msgid "Custom Path"
 msgstr "Ułasnaja ściežka"
 
-#: ../kfile/kdirselectdialog.cpp:115 ../kfile/kdiroperator.cpp:666
-#: ../kfile/kdiroperator.cpp:674
+#: ../kfile/kdirselectdialog.cpp:115
+#, fuzzy
+#| msgid "New Folder"
+msgctxt "folder name"
 msgid "New Folder"
 msgstr "Novy kataloh"
 
@@ -5617,7 +5674,9 @@ msgid ""
 "description should consist of one or two words that will help you remember "
 "what this entry refers to.</qt>"
 msgstr ""
-"<qt>Heta tekst, jaki pakazvajecca ŭ paneli miescaŭ.<br /><br />Apisańnie pavinna składacca z adnaho-dvuch słovaŭ, jakija b nahadvali tabie, čaho jany datyčać.</qt>"
+"<qt>Heta tekst, jaki pakazvajecca ŭ paneli miescaŭ.<br /><br />Apisańnie "
+"pavinna składacca z adnaho-dvuch słovaŭ, jakija b nahadvali tabie, čaho jany "
+"datyčać.</qt>"
 
 #: ../kfile/kfileplaceeditdialog.cpp:112
 #, kde-format
@@ -5627,8 +5686,10 @@ msgid ""
 "org/pub/kde/stable<br /><br />By clicking on the button next to the text "
 "edit box you can browse to an appropriate URL.</qt>"
 msgstr ""
-"<qt>Heta adras, źviazany z hetym elementam. Tut možna ŭpisać luby dziejny adras. Naprykład:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
-"org/pub/kde/stable<br /><br />Kliknuŭšy ŭ knopku, źmieščanuju kala tekstavaha pola, možna pierajści ŭ adpaviednaje miesca.</qt>"
+"<qt>Heta adras, źviazany z hetym elementam. Tut možna ŭpisać luby dziejny "
+"adras. Naprykład:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
+"org/pub/kde/stable<br /><br />Kliknuŭšy ŭ knopku, źmieščanuju kala "
+"tekstavaha pola, možna pierajści ŭ adpaviednaje miesca.</qt>"
 
 #: ../kfile/kfileplaceeditdialog.cpp:116
 msgid "&Location:"
@@ -5639,7 +5700,8 @@ msgid ""
 "<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
 "on the button to select a different icon.</qt>"
 msgstr ""
-"<qt>Hetaja ikona budzie źmieščanaja ŭ paneli miescaŭ.<br /><br />Klikni ŭ hetuju knopku, kab vybrać inšuju.</qt>"
+"<qt>Hetaja ikona budzie źmieščanaja ŭ paneli miescaŭ.<br /><br />Klikni ŭ "
+"hetuju knopku, kab vybrać inšuju.</qt>"
 
 #: ../kfile/kfileplaceeditdialog.cpp:127
 msgid "Choose an &icon:"
@@ -5657,11 +5719,17 @@ msgid ""
 "current application (%1).<br /><br />If this setting is not selected, the "
 "entry will be available in all applications.</qt>"
 msgstr ""
-"<qt>Uklučy hetuju opcyju, kali chočaš bačyć hety element tolki ŭ dziejnaj aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie vidać z usich aplikacyjaŭ.</qt>"
+"<qt>Uklučy hetuju opcyju, kali chočaš bačyć hety element tolki ŭ dziejnaj "
+"aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie "
+"vidać z usich aplikacyjaŭ.</qt>"
 
 #: ../kfile/kfiletreeview.cpp:185
 msgid "Show Hidden Folders"
 msgstr "Pakažy schavanyja katalohi"
+
+#: ../kfile/kdiroperator.cpp:666 ../kfile/kdiroperator.cpp:674
+msgid "New Folder"
+msgstr "Novy kataloh"
 
 #: ../kfile/kdiroperator.cpp:675
 #, kde-format

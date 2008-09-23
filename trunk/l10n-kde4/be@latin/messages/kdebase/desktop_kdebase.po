@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-22 07:44+0000\n"
+"POT-Creation-Date: 2008-09-23 07:53+0000\n"
 "PO-Revision-Date: 2008-09-07 22:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5281,7 +5281,7 @@ msgctxt "Name"
 msgid "Wallet Server"
 msgstr ""
 
-#: runtime/kwalletd/kwalletd.desktop:15
+#: runtime/kwalletd/kwalletd.desktop:16
 msgctxt "Comment"
 msgid "Wallet Server"
 msgstr ""
@@ -9605,7 +9605,7 @@ msgctxt "Name"
 msgid "Compositing Performance Is Slow"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5494
+#: workspace/kwin/kwin.notifyrc:5495
 msgctxt "Comment"
 msgid ""
 "The compositing performance was too slow and compositing has been suspended"
@@ -9841,15 +9841,24 @@ msgctxt "Comment"
 msgid "Default desktop containment"
 msgstr "Zmoŭčanaje jomišča dla rabočaha stała"
 
-#: workspace/plasma/containments/panel/plasma-containment-panel.desktop:2
+#: workspace/plasma/containments/mid-panel/plasma-containment-midpanel.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Workspace shell for mobile internet devices"
 msgctxt "Name"
-msgid "Panel"
-msgstr "Panel"
+msgid "Panel for Mobile Internet Devices"
+msgstr "Rabočy abšar dla mabilnych internetnych pryładaŭ."
 
+#: workspace/plasma/containments/mid-panel/plasma-containment-midpanel.desktop:64
 #: workspace/plasma/containments/panel/plasma-containment-panel.desktop:64
 msgctxt "Comment"
 msgid "A containment for a panel"
 msgstr "Jomišča dla paneli"
+
+#: workspace/plasma/containments/panel/plasma-containment-panel.desktop:2
+msgctxt "Name"
+msgid "Panel"
+msgstr "Panel"
 
 #: workspace/plasma/dataengines/dict/plasma-dataengine-dict.desktop:2
 msgctxt "Name"

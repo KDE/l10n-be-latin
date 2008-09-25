@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-24 08:46+0000\n"
+"POT-Creation-Date: 2008-09-25 08:38+0000\n"
 "PO-Revision-Date: 2008-09-07 22:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5282,7 +5282,7 @@ msgctxt "Name"
 msgid "Wallet Server"
 msgstr ""
 
-#: runtime/kwalletd/kwalletd.desktop:18
+#: runtime/kwalletd/kwalletd.desktop:19
 msgctxt "Comment"
 msgid "Wallet Server"
 msgstr ""
@@ -6767,7 +6767,7 @@ msgctxt "Name"
 msgid "Nepomuk Server"
 msgstr "Server „Nepomuk”"
 
-#: runtime/nepomuk/server/nepomukserver.desktop:67
+#: runtime/nepomuk/server/nepomukserver.desktop:68
 msgctxt "Comment"
 msgid "The Nepomuk Server providing Storage services and strigi controlling"
 msgstr ""
@@ -9606,7 +9606,7 @@ msgctxt "Name"
 msgid "Compositing Performance Is Slow"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:5497
+#: workspace/kwin/kwin.notifyrc:5498
 msgctxt "Comment"
 msgid ""
 "The compositing performance was too slow and compositing has been suspended"
@@ -9850,7 +9850,7 @@ msgctxt "Name"
 msgid "Panel for Mobile Internet Devices"
 msgstr "Rabočy abšar dla mabilnych internetnych pryładaŭ."
 
-#: workspace/plasma/containments/mid-panel/plasma-containment-midpanel.desktop:3
+#: workspace/plasma/containments/mid-panel/plasma-containment-midpanel.desktop:8
 #: workspace/plasma/containments/panel/plasma-containment-panel.desktop:64
 msgctxt "Comment"
 msgid "A containment for a panel"
@@ -9927,6 +9927,7 @@ msgid "Places data for Plasmoids"
 msgstr "Źviestki ź miescaŭ dla plazmoidaŭ"
 
 #: workspace/plasma/dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:2
+#: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:13
 msgctxt "Name"
 msgid "Power Management"
 msgstr "Kiravańnie enerhijaj"
@@ -10032,15 +10033,15 @@ msgid "File and URL opener"
 msgstr "Adčynieńnie fajłaŭ i adrasoŭ"
 
 #: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:2
+msgctxt "Comment"
+msgid "Basic Power Management Operations"
+msgstr "Prostyja aperacyi dla kiravańnia enerhijaj"
+
+#: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:14
 #: workspace/powerdevil/daemon/powerdevil.desktop:11
 msgctxt "Name"
 msgid "PowerDevil"
 msgstr ""
-
-#: workspace/plasma/runners/powerdevil/plasma-runner-powerdevil.desktop:7
-msgctxt "Comment"
-msgid "Basic Power Management Operations"
-msgstr "Prostyja aperacyi dla kiravańnia enerhijaj"
 
 #: workspace/plasma/runners/services/plasma-runner-services.desktop:78
 msgctxt "Comment"
@@ -10199,11 +10200,6 @@ msgctxt "Comment"
 msgid "A Laptop Power Management Daemon"
 msgstr "Słužba kiravańnia enerhijaj na laptopie"
 
-#: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:13
-msgctxt "Name"
-msgid "Power Management Preferences"
-msgstr "Asabistyja nałady kiravańnia enerhijaj"
-
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:25
 msgctxt "Comment"
 msgid "Display brightness, suspend and power profile settings"
@@ -10351,7 +10347,7 @@ msgctxt "Name"
 msgid "Hardware"
 msgstr "Aparatura"
 
-#: workspace/solid/kcm/kcm_solid.desktop:48
+#: workspace/solid/kcm/kcm_solid.desktop:49
 msgctxt "Comment"
 msgid "Hardware Integration Configuration with Solid"
 msgstr "Nałady systemy absłuhoŭvańnia aparatury praz słužbu „Solid”"
@@ -10554,3 +10550,7 @@ msgstr "Nastolny doždž"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "Zołak"
+
+#~ msgctxt "Name"
+#~ msgid "Power Management Preferences"
+#~ msgstr "Asabistyja nałady kiravańnia enerhijaj"

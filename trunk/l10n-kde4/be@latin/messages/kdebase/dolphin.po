@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-24 10:36+0200\n"
+"POT-Creation-Date: 2008-09-25 10:24+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -692,14 +692,17 @@ msgid "Arrangement:"
 msgstr "Paradak:"
 
 #: iconsviewsettingspage.cpp:110
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Columns"
 msgctxt "@item:inlistbox Arrangement"
-msgid "Left to Right"
-msgstr "Źleva ŭprava"
+msgid "Columns"
+msgstr "Słupki"
 
 #: iconsviewsettingspage.cpp:111
 msgctxt "@item:inlistbox Arrangement"
-msgid "Top to Bottom"
-msgstr "Źvierchu ŭniz"
+msgid "Rows"
+msgstr ""
 
 #: iconsviewsettingspage.cpp:114
 msgctxt "@label:listbox"
@@ -1856,3 +1859,11 @@ msgstr "Hrupa"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Typ"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Left to Right"
+#~ msgstr "Źleva ŭprava"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Top to Bottom"
+#~ msgstr "Źvierchu ŭniz"

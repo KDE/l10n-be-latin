@@ -692,9 +692,6 @@ msgid "Arrangement:"
 msgstr "Paradak:"
 
 #: iconsviewsettingspage.cpp:110
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Columns"
 msgctxt "@item:inlistbox Arrangement"
 msgid "Columns"
 msgstr "Słupki"
@@ -702,7 +699,7 @@ msgstr "Słupki"
 #: iconsviewsettingspage.cpp:111
 msgctxt "@item:inlistbox Arrangement"
 msgid "Rows"
-msgstr ""
+msgstr "Radki"
 
 #: iconsviewsettingspage.cpp:114
 msgctxt "@label:listbox"
@@ -1267,13 +1264,13 @@ msgstr "Kolkaść tekstavych radkoŭ"
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:174 rc.cpp:281
 msgid "&Edit"
-msgstr ""
+msgstr "&Redahuj"
 
 #. i18n: file: dolphinpart.rc:16
 #. i18n: ectx: Menu (view)
 #: rc.cpp:177 rc.cpp:284
 msgid "&View"
-msgstr ""
+msgstr "&Prahlad"
 
 #. i18n: file: dolphinpart.rc:18
 #. i18n: ectx: Menu (sort)
@@ -1305,7 +1302,7 @@ msgstr "Dadatkovyja źviestki"
 #. i18n: ectx: Menu (go)
 #: rc.cpp:186 rc.cpp:293
 msgid "&Go"
-msgstr ""
+msgstr "&Idzi"
 
 #. i18n: file: dolphinpart.rc:54
 #. i18n: ectx: Menu (tools)
@@ -1685,10 +1682,8 @@ msgid "Delete"
 msgstr "Vydali"
 
 #: dolphinviewactionhandler.cpp:106
-#, fuzzy
-msgctxt "@action:inmenu File"
 msgid "Delete (using shortcut for Trash)"
-msgstr "Vykiń u śmietnicu"
+msgstr "Vydali (skarotam dla śmietnicy)"
 
 #: dolphinviewactionhandler.cpp:113
 msgctxt "@action:inmenu File"

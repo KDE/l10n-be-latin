@@ -1845,10 +1845,8 @@ msgstr ""
 #. i18n: file: kformula/sample/SampleFormulaWidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, SampleFormulaWidget)
 #: rc.cpp:966
-#, fuzzy
-#| msgid "From:"
 msgid "Form"
-msgstr "Ad:"
+msgstr "Forma"
 
 #: kjs/object.cpp:625 kdeui/dialogs/kmessagebox.cpp:816
 #: kdeui/dialogs/kmessagebox.cpp:849 khtml/rendering/render_form.cpp:624
@@ -6064,10 +6062,8 @@ msgid "Name for New Scheme:"
 msgstr "Nazva novaj schiemy:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
-#, fuzzy
-#| msgid "Name for New Scheme"
 msgid "New Scheme"
-msgstr "Nazva novaj schiemy"
+msgstr "Novaja schiema"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:107
 msgid "The scheme with this name already exists"
@@ -9188,18 +9184,14 @@ msgid "To Plain Text"
 msgstr "U prosty tekst"
 
 #: kdeui/widgets/krichtextwidget.cpp:469
-#, fuzzy
-#| msgid "Subscribe"
 msgctxt "@action"
 msgid "Subscript"
-msgstr "Padpišysia"
+msgstr ""
 
 #: kdeui/widgets/krichtextwidget.cpp:476
-#, fuzzy
-#| msgid "Open Script"
 msgctxt "@action"
 msgid "Superscript"
-msgstr "Adčyni skrypt"
+msgstr ""
 
 #: kdeui/widgets/kcharselectdata.cpp:236
 msgid "<Non Private Use High Surrogate>"
@@ -9350,16 +9342,13 @@ msgid "&Copy Full Text"
 msgstr "&Skapijuj uvieś tekst"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:154
-#, fuzzy, kde-format
-#| msgid ""
-#| "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-#| "Do you want to reassign it from that action to the current one?"
+#, kde-format
 msgid ""
 "The \"%1\" key sequence conflicts with \"%2\" for the \"%3\" action.\n"
 "Do you want to assign an empty shortcut to that action?"
 msgstr ""
-"Žest z prycisnutaj knopkaj myšy „%1” užo prymierkavany dla aperacyi „%2”.\n"
-"Pieraviazać jaho z toj aperacyi na hetuju?"
+"Klavijaturny skarot „%1” kanfliktuje z „%2” dla aperacyi „%3”.\n"
+"Pryviazać pusty skarot da hetaj aperacyi?"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:168
 msgid "Shortcut conflict"
@@ -10915,11 +10904,9 @@ msgid "New Web Shortcut"
 msgstr "Skarot"
 
 #: khtml/rendering/render_form.cpp:624
-#, fuzzy, kde-format
-#| msgctxt "Socket error code AlreadyCreated"
-#| msgid "socket is already created"
+#, kde-format
 msgid "%1 is already assigned to %2"
-msgstr "sokiet užo stvorany"
+msgstr "„%1” užo pryviazany da „%2”"
 
 #: khtml/rendering/render_form.cpp:669
 msgid "Search &provider name:"
@@ -11733,17 +11720,12 @@ msgid "library only takes 1 argument, not %1."
 msgstr "Biblijateka (library) pryjmaje adzin arhument, a nie %1."
 
 #: kjsembed/kjsembed/builtins.cpp:154
-#, fuzzy
-#| msgctxt "keyboard-key-name"
-#| msgid "Alt"
 msgid "Alert"
-msgstr "Alt"
+msgstr "Tryvoha"
 
 #: kjsembed/kjsembed/builtins.cpp:165
-#, fuzzy
-#| msgid "Configure"
 msgid "Confirm"
-msgstr "Naładź"
+msgstr "Paćvierdź"
 
 #: kjsembed/kjsembed/kjsembed.cpp:273 kjsembed/kjsembed/kjsembed.cpp:295
 #, kde-format
@@ -12151,38 +12133,28 @@ msgid "(C) 2005 Jeroen Wijnhout"
 msgstr "© 2005 Jeroen Wijnhout"
 
 #: kformula/FormulaCommand.cpp:32
-#, fuzzy
-#| msgid "Add Comment"
 msgid "Add Elements"
-msgstr "Dadaj kamentar"
+msgstr "Dadaj elementy"
 
 #: kformula/FormulaCommand.cpp:61
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Block Elements"
 msgid "Remove Elements"
-msgstr "Elementy blokaŭ"
+msgstr "Vydali elementy"
 
 #: kformula/FormulaCommand.cpp:91
-#, fuzzy
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Block Elements"
 msgid "Replace Element"
-msgstr "Elementy blokaŭ"
+msgstr "Zamiani element"
 
 #: kformula/FormulaCommand.cpp:139
 msgid "Attribute Changed"
-msgstr ""
+msgstr "Atrybut źmianiŭsia"
 
 #: kformula/sample/main.cpp:10
-#, fuzzy
-#| msgid "Quit application"
 msgid "Sample KFormula application"
-msgstr "Vyjdzi z aplikacyi"
+msgstr "Uzornaja aplikacyja „KFormula”"
 
 #: kformula/sample/main.cpp:11
 msgid "Application showing a KFormula widget for debugging purposes"
-msgstr ""
+msgstr "Aplikacyja, jakaja pakazvaje dziela adładžvańnia widžet „KFormula”"
 
 #: kformula/sample/main.cpp:13
 msgid "Copyright 2008 Alfredo Beaumont <alfredo.beaumont@gmail.com>"

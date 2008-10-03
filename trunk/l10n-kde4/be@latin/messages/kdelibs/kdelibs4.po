@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-02 09:44+0200\n"
+"POT-Creation-Date: 2008-10-03 09:40+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3267,11 +3267,11 @@ msgstr "Biblijateka „%1” nia maje fabryki, jakaja b adpaviadała KDE 4."
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "Plugin „%1” vykarystoŭvaje niaŭzhodnienuju biblijateku KDE („%2”)."
 
-#: kdecore/config/kconfig.cpp:670
+#: kdecore/config/kconfig.cpp:667
 msgid "Please contact your system administrator."
 msgstr "Źviarnisia da administratara hetaj systemy."
 
-#: kdecore/config/kconfigini.cpp:495
+#: kdecore/config/kconfigini.cpp:511
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Nielha pisać u fajł naładaŭ „%1”.\n"
@@ -6030,6 +6030,12 @@ msgstr ""
 msgid "Configure Shortcuts"
 msgstr "Naładź klavijaturnyja skaroty"
 
+#: kdeui/dialogs/kshortcutsdialog.cpp:113
+#, fuzzy
+#| msgid "&Defaults"
+msgid "Reset to Defaults"
+msgstr "&Zmoŭčańnie"
+
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:42
 msgid "Shortcut Schemes"
 msgstr "Schiemy klavijaturnych skarotaŭ"
@@ -6313,8 +6319,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Anuluj źmieny ŭ panelach pryładździa"
 
-#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2948
-#: khtml/khtmlview.cpp:2981 khtml/html/html_formimpl.cpp:2190
+#: kdeui/dialogs/kedittoolbar.cpp:526 khtml/khtmlview.cpp:2953
+#: khtml/khtmlview.cpp:2986 khtml/html/html_formimpl.cpp:2157
 msgid "Reset"
 msgstr "Anuluj źmieny"
 
@@ -9566,31 +9572,31 @@ msgstr "Rehijon"
 msgid "Comment"
 msgstr "Kamentar"
 
-#: kdeui/widgets/ktextedit.cpp:407 kde3support/kdeui/k3textedit.cpp:232
+#: kdeui/widgets/ktextedit.cpp:423 kde3support/kdeui/k3textedit.cpp:232
 msgid "Check Spelling..."
 msgstr "Spraŭdź pravapis..."
 
-#: kdeui/widgets/ktextedit.cpp:410 kde3support/kdeui/k3textedit.cpp:238
+#: kdeui/widgets/ktextedit.cpp:426 kde3support/kdeui/k3textedit.cpp:238
 msgid "Auto Spell Check"
 msgstr "Aŭtamatyčna spraŭdžvaj pravapis"
 
-#: kdeui/widgets/ktextedit.cpp:414 kde3support/kdeui/k3textedit.cpp:242
+#: kdeui/widgets/ktextedit.cpp:430 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr "Dazvol tabulacyju"
 
-#: kdeui/widgets/ktextedit.cpp:509
+#: kdeui/widgets/ktextedit.cpp:525
 msgid "Suggestions"
 msgstr "Prapanovy"
 
-#: kdeui/widgets/ktextedit.cpp:511
+#: kdeui/widgets/ktextedit.cpp:527
 msgid "Ignore"
 msgstr "Abmini"
 
-#: kdeui/widgets/ktextedit.cpp:512
+#: kdeui/widgets/ktextedit.cpp:528
 msgid "Add to Dictionary"
 msgstr "Dadaj u słoŭnik"
 
-#: kdeui/widgets/ktextedit.cpp:658
+#: kdeui/widgets/ktextedit.cpp:674
 msgid "Nothing to spell check."
 msgstr "Niama čaho spraŭdžvać."
 
@@ -10264,8 +10270,8 @@ msgstr ""
 "<qt>Forma budzie pierasłanaja da <br /><b>%1</b><br /> na fajłavaj systemie."
 "<br />Chočaš jaje pierasłać?</qt>"
 
-#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2934 khtml/khtmlview.cpp:2976
-#: khtml/html/html_formimpl.cpp:1590 khtml/html/html_formimpl.cpp:2198
+#: khtml/khtml_part.cpp:4941 khtml/khtmlview.cpp:2939 khtml/khtmlview.cpp:2981
+#: khtml/html/html_formimpl.cpp:1579 khtml/html/html_formimpl.cpp:2165
 msgid "Submit"
 msgstr "Pierašli"
 
@@ -10383,39 +10389,39 @@ msgstr "Dadaj da nieŭvažanych..."
 msgid "Remove from ignores..."
 msgstr "Prybiary ź nieŭvažanych..."
 
-#: khtml/khtmlview.cpp:1906
+#: khtml/khtmlview.cpp:1911
 msgid "Find stopped."
 msgstr "Pošuk spynieny."
 
-#: khtml/khtmlview.cpp:1917
+#: khtml/khtmlview.cpp:1922
 msgid "Starting -- find links as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1923
+#: khtml/khtmlview.cpp:1928
 msgid "Starting -- find text as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1946
+#: khtml/khtmlview.cpp:1951
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Łuč znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:1951
+#: khtml/khtmlview.cpp:1956
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Łuč nia znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:1959
+#: khtml/khtmlview.cpp:1964
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Tekst znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:1964
+#: khtml/khtmlview.cpp:1969
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Tekst nia znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:2012
+#: khtml/khtmlview.cpp:2017
 msgid "Access Keys activated"
 msgstr ""
 
@@ -10538,7 +10544,7 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "&Spyni"
 
-#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2121
+#: khtml/ecma/kjs_window.cpp:1581 khtml/ecma/kjs_html.cpp:2111
 msgid "Confirmation: JavaScript Popup"
 msgstr "Paćvierdžańnie: vypłyŭnoje akno praz JavaScript"
 
@@ -10559,11 +10565,11 @@ msgstr ""
 "<qt>Hety sajt choča adčynić<p>%1</p>u novym aknie hartača praz JavaScript."
 "<br />Chočaš jamu heta dazvolić?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Allow"
 msgstr "Dazvol"
 
-#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2128
+#: khtml/ecma/kjs_window.cpp:1589 khtml/ecma/kjs_html.cpp:2118
 msgid "Do Not Allow"
 msgstr "Nie dazvol"
 
@@ -10601,7 +10607,7 @@ msgstr "Dadaj"
 msgid "Disallow"
 msgstr "Zabarani"
 
-#: khtml/ecma/kjs_html.cpp:2123
+#: khtml/ecma/kjs_html.cpp:2113
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -10611,7 +10617,7 @@ msgstr ""
 "JavaScript.\n"
 "Ci chočaš dazvolić vysyłańnie hetaj formy?"
 
-#: khtml/ecma/kjs_html.cpp:2126
+#: khtml/ecma/kjs_html.cpp:2116
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -10776,7 +10782,7 @@ msgid ""
 "information next time you visit %1. Do you want to store the information now?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:2579
+#: khtml/html/html_formimpl.cpp:2546
 msgid "Key Generator"
 msgstr "Hieneratar klučoŭ"
 

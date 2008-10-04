@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: main.cpp:38
 msgid "Phonon Configuration Module"
@@ -50,8 +51,8 @@ msgid ""
 "Defines the default ordering of devices which can be overridden by "
 "individual categories."
 msgstr ""
-"Aznačaje zmoŭčany paradak pryładaŭ, jaki možna paśla źmianić dla "
-"asobnych katehoryjaŭ."
+"Aznačaje zmoŭčany paradak pryładaŭ, jaki možna paśla źmianić dla asobnych "
+"katehoryjaŭ."
 
 #: devicepreference.cpp:306
 msgid "Default Output Device Preference:"
@@ -92,7 +93,8 @@ msgid ""
 "the order Phonon will use them in."
 msgstr ""
 "Śpis systemaŭ, uzhodnienych z „Phonon”, znojdzienych na hetym kamputary. "
-"„Phonon” budzie karystacca imi ŭ paradku, ź jakim jany ŭpisanyja ŭ hetym śpisie."
+"„Phonon” budzie karystacca imi ŭ paradku, ź jakim jany ŭpisanyja ŭ hetym "
+"śpisie."
 
 #. i18n: file: backendselection.ui:58
 #. i18n: ectx: property (text), widget (QToolButton, m_up)
@@ -140,8 +142,7 @@ msgstr "Prymiani śpis pryładaŭ dla..."
 msgid ""
 "Audio Outputs found on your system.  Choose the device that you wish sound "
 "to come out of."
-msgstr ""
-"Pryłady vyjścia huku na hetaj systemie. Vybiery patrebnuju pryładu."
+msgstr "Pryłady vyjścia huku na hetaj systemie. Vybiery patrebnuju pryładu."
 
 #. i18n: file: devicepreference.ui:110
 #. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
@@ -183,4 +184,3 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
-

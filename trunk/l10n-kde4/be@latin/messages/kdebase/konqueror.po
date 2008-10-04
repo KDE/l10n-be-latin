@@ -747,7 +747,7 @@ msgid ""
 "Konqueror -> General</b>.</html>"
 msgstr ""
 "<html>Idzi ŭ svoj chatni adras<br /><br />Ty možaš naładzić hety adras "
-"u menu: <b>Nałady -> Naładź prahramu „Konqueror” -> Hałoŭnaje</b>.</html>"
+"u menu: <b>Nałady → Naładź prahramu „Konqueror” → Hałoŭnaje</b>.</html>"
 
 #: src/konqmainwindow.cpp:3854
 msgid "Navigate to your 'Home Location'"
@@ -1095,106 +1095,108 @@ msgstr "%1/s"
 
 #: src/konqframestatusbar.cpp:228
 msgid "Stalled"
-msgstr ""
+msgstr "Zahrazła"
 
 #: src/konqguiclients.cpp:66
 #, kde-format
 msgid "Preview in %1"
-msgstr ""
+msgstr "Padlad u „%1”"
 
 #: src/konqguiclients.cpp:135
 #, kde-format
 msgid "Show %1"
-msgstr ""
+msgstr "Pakažy %1"
 
 #: src/konqguiclients.cpp:140
 #, kde-format
 msgid "Hide %1"
-msgstr ""
+msgstr "Schavaj %1"
 
 #: src/konqprofiledlg.cpp:111
 msgid "Profile Management"
-msgstr ""
+msgstr "Kiravańnie profilami"
 
 #: src/konqprofiledlg.cpp:115
 msgid "&Rename Profile"
-msgstr ""
+msgstr "&Źmiani nazvu profilu"
 
 #: src/konqprofiledlg.cpp:116
 msgid "&Delete Profile"
-msgstr ""
+msgstr "&Vydali profil"
 
 #: src/konqmain.cpp:51
 msgid "Start without a default window"
-msgstr ""
+msgstr "Uklučy biaz zmoŭčanaha akna"
 
 #: src/konqmain.cpp:53
 msgid "Preload for later use"
-msgstr ""
+msgstr "Pračytaj napierad dla budučyni"
 
 #: src/konqmain.cpp:55
 msgid "Profile to open"
-msgstr ""
+msgstr "Patrebny profil"
 
 #: src/konqmain.cpp:57
 msgid "List available profiles"
-msgstr ""
+msgstr "Śpis mahčymych profilaŭ"
 
 #: src/konqmain.cpp:59
 msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr ""
+msgstr "Typ „MIME” dla hetaha adrasu (naprykład, „text/html” ci „inode/directory”)"
 
 #: src/konqmain.cpp:61
 msgid ""
 "For URLs that point to files, opens the directory and selects the file, "
 "instead of opening the actual file"
 msgstr ""
+"Dla adrasoŭ, jakija łučać z fajłami, adčyniaje kataloh i vyłučaje fajł, a nie adčyniaje sam fajł."
 
 #: src/konqmain.cpp:63
 msgid "Location to open"
-msgstr ""
+msgstr "Patrebny adras"
 
 #: sidebar/trees/konqsidebar_tree.cpp:138
 msgid "Select Type"
-msgstr ""
+msgstr "Vybiery typ"
 
 #: sidebar/trees/konqsidebar_tree.cpp:139
 msgid "Select type:"
-msgstr ""
+msgstr "Vybiery typ:"
 
 #: sidebar/trees/history_module/history_module.cpp:92
 msgid "&Remove Entry"
-msgstr ""
+msgstr "&Vydali"
 
 #: sidebar/trees/history_module/history_module.cpp:96
 msgid "C&lear History"
-msgstr ""
+msgstr "&Vyčyści historyju"
 
 #: sidebar/trees/history_module/history_module.cpp:100
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Nałady..."
 
 #: sidebar/trees/history_module/history_module.cpp:107
 msgid "By &Name"
-msgstr ""
+msgstr "Pavodle &nazvaŭ"
 
 #: sidebar/trees/history_module/history_module.cpp:113
 msgid "By &Date"
-msgstr ""
+msgstr "Pavodle &dataŭ"
 
 #: sidebar/trees/history_module/history_module.cpp:261
+#, fuzzy
 msgid "Sort"
-msgstr ""
+msgstr "Paradak"
 
 #: sidebar/trees/history_module/history_module.cpp:370
 #: sidebar/trees/history_module/kcmhistory.cpp:254
 msgid "Do you really want to clear the entire history?"
-msgstr ""
+msgstr "Sapraŭdy chočaš vyčyścić usiu historyju?"
 
 #: sidebar/trees/history_module/history_module.cpp:372
 #: sidebar/trees/history_module/kcmhistory.cpp:256
 msgid "Clear History?"
-msgstr ""
+msgstr "Vyčyścić historyju?"
 
 #: sidebar/trees/history_module/history_item.cpp:120
 #, kde-format
@@ -1202,86 +1204,93 @@ msgid ""
 "<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
 "3<br />Number of times visited: %4</qt>"
 msgstr ""
+"<qt><center><b>%1</b></center><hr />Apošniaje naviedvańnie: %2<br />Pieršaje naviedvańnie: %"
+"3<br />Kolkaść naviedvańniaŭ: %4</qt>"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:76
 #: sidebar/trees/history_module/kcmhistory.cpp:81
 msgid "Minutes"
-msgstr ""
+msgstr "Chviliny"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:78
 #: sidebar/trees/history_module/kcmhistory.cpp:83
 msgid "Days"
-msgstr ""
+msgstr "Dni"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:197
 msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
-msgstr ""
+msgstr "<h1>Panel historyi</h1> Tut možna naładzić bakavuju panel historyi."
 
 #: sidebar/trees/history_module/kcmhistory.cpp:203
+#, fuzzy
 msgid " day"
 msgid_plural " days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " dzień"
+msgstr[1] " dni"
+msgstr[2] " dzion"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:213
 #: sidebar/trees/history_module/kcmhistory.cpp:225
 msgid "Day"
 msgid_plural "Days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dzień"
+msgstr[1] "Dni"
+msgstr[2] "Dzion"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:215
 #: sidebar/trees/history_module/kcmhistory.cpp:227
 msgid "Minute"
 msgid_plural "Minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Chvilina"
+msgstr[1] "Chviliny"
+msgstr[2] "Chvilin"
 
 #: sidebar/trees/history_module/history_module.h:62
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Roznaje"
 
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:424
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr ""
+msgstr "Nie ŭdałosia znajści ŭ hierarchii vyšejšy element „%1”. Heta ŭnutranaja pamyłka."
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:73
 msgid "&Create New Folder"
-msgstr ""
+msgstr "&Stvary novy kataloh"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:77
 #: sidebar/trees/konq_sidebartree.cpp:937
 msgid "Delete Folder"
-msgstr ""
+msgstr "Vydali kataloh"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:81
 msgid "Delete Bookmark"
-msgstr ""
+msgstr "Vydali zakładku"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:85
 #: sidebar/trees/konq_sidebartree.cpp:946
 msgid "Properties"
-msgstr ""
+msgstr "Ułaścivaści"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:89
 #: sidebar/trees/konq_sidebartree.cpp:949
 msgid "Open in New Window"
-msgstr ""
+msgstr "Adčyni ŭ novym aknie"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:93
 #: sidebar/trees/konq_sidebartree.cpp:952
 msgid "Open in New Tab"
-msgstr ""
+msgstr "Adčyni ŭ novaj kartcy"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:97
+#, fuzzy
 msgid "Open Folder in Tabs"
-msgstr ""
+msgstr "Adčyni kataloh u kartkach"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:101
 #: sidebar/trees/konq_sidebartree.cpp:955
 msgid "Copy Link Address"
-msgstr ""
+msgstr "Skapijuj adras łuča"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:339
 #, kde-format
@@ -1289,6 +1298,8 @@ msgid ""
 "Are you sure you wish to remove the bookmark folder\n"
 "\"%1\"?"
 msgstr ""
+"Sapraŭdy chočaš vydalić kataloh z zakładkami\n"
+"„%1”?"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:340
 #, kde-format
@@ -1296,62 +1307,64 @@ msgid ""
 "Are you sure you wish to remove the bookmark\n"
 "\"%1\"?"
 msgstr ""
+"Sapraŭdy chočaš vydalić zakładku\n"
+"„%1”?"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:341
 msgid "Bookmark Folder Deletion"
-msgstr ""
+msgstr "Vydaleńnie kataloha z zakładkami"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:342
 msgid "Bookmark Deletion"
-msgstr ""
+msgstr "Vydaleńnie zakładki"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:384
 msgid "Bookmark Properties"
-msgstr ""
+msgstr "Ułaścivaści zakładki"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:564
 msgid "&Update"
-msgstr ""
+msgstr "&Aktualizuj"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:573
 msgid "Name:"
-msgstr ""
+msgstr "Nazva:"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:581
 msgid "Location:"
-msgstr ""
+msgstr "Miesca:"
 
 #: sidebar/trees/bookmark_module/bookmark_module.h:87
 msgid "Add Bookmark"
-msgstr ""
+msgstr "Dadaj zakładku"
 
 #: sidebar/trees/konq_sidebartree.cpp:934
 msgid "&Create New Folder..."
-msgstr ""
+msgstr "&Stvary novy kataloh..."
 
 #: sidebar/trees/konq_sidebartree.cpp:940
 msgid "Rename"
-msgstr ""
+msgstr "Źmiani nazvu"
 
 #: sidebar/trees/konq_sidebartree.cpp:943
 msgid "Delete Link"
-msgstr ""
+msgstr "Vydali łuč"
 
 #: sidebar/trees/konq_sidebartree.cpp:994
 msgid "New Folder"
-msgstr ""
+msgstr "Novy kataloh"
 
 #: sidebar/trees/konq_sidebartree.cpp:998
 msgid "Create New Folder"
-msgstr ""
+msgstr "Stvary novy kataloh"
 
 #: sidebar/trees/konq_sidebartree.cpp:999
 msgid "Enter folder name:"
-msgstr ""
+msgstr "Upišy nazvu kataloha:"
 
 #: sidebar/sidebar_widget.cpp:110
 msgid "Rollback to System Default"
-msgstr ""
+msgstr "Viarni systemnyja nałady"
 
 #: sidebar/sidebar_widget.cpp:116
 msgid ""
@@ -1359,64 +1372,65 @@ msgid ""
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
 "proceed?</qt>"
 msgstr ""
+"<qt>Hetaja aperacyja vydalaje ŭsio z bakavoj paneli j dadaje tolki systemnyja elementy.<br /><b>Jaje niemahčyma paśla anulavać.</b><br />Praciahvać?</qt>"
 
 #: sidebar/sidebar_widget.cpp:269
 msgid "Configure Navigation Panel"
-msgstr ""
+msgstr "Naładź panel miescaŭ"
 
 #: sidebar/sidebar_widget.cpp:271
 msgid "Add New"
-msgstr ""
+msgstr "Dadaj novy"
 
 #: sidebar/sidebar_widget.cpp:273
 msgid "Multiple Views"
-msgstr ""
+msgstr "Niekalki prahladaŭ"
 
 #: sidebar/sidebar_widget.cpp:275 sidebar/sidebar_widget.cpp:401
 msgid "Show Tabs Left"
-msgstr ""
+msgstr "Pakazvaj kartki źleva"
 
 #: sidebar/sidebar_widget.cpp:276
 msgid "Show Configuration Button"
-msgstr ""
+msgstr "Pakazvaj knopku naładaŭ"
 
 #: sidebar/sidebar_widget.cpp:280
 msgid "Close Navigation Panel"
-msgstr ""
+msgstr "Začyni panel miescaŭ"
 
 #: sidebar/sidebar_widget.cpp:332
 msgid "This entry already exists."
-msgstr ""
+msgstr "Hety element užo isnuje."
 
 #: sidebar/sidebar_widget.cpp:346 sidebar/web_module/web_module.cpp:217
 msgid "Web SideBar Plugin"
-msgstr ""
+msgstr "Plugin sieciŭnaj bakavoj paneli"
 
 #: sidebar/sidebar_widget.cpp:401
 msgid "Show Tabs Right"
-msgstr ""
+msgstr "Pakazvaj kartki sprava"
 
 #: sidebar/sidebar_widget.cpp:480
 msgid "Set Name"
-msgstr ""
+msgstr "Aznač nazvu"
 
 #: sidebar/sidebar_widget.cpp:480
 msgid "Enter the name:"
-msgstr ""
+msgstr "Upišy nazvu:"
 
 #: sidebar/sidebar_widget.cpp:498
 msgid "Enter a URL:"
-msgstr ""
+msgstr "Upišy adras:"
 
 #: sidebar/sidebar_widget.cpp:506
 #, kde-format
 msgid "<qt><b>%1</b> does not exist</qt>"
-msgstr ""
+msgstr "<qt><b>%1</b> nie isnuje.</qt>"
 
 #: sidebar/sidebar_widget.cpp:537
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
-msgstr ""
+msgstr "<qt>Sapraŭdy chočaš vydalić kartku <b>%1</b>?</qt>"
 
 #: sidebar/sidebar_widget.cpp:585
 msgid ""
@@ -1424,131 +1438,138 @@ msgid ""
 "visible again, click the right mouse button on any of the navigation panel "
 "buttons and select \"Show Configuration Button\"."
 msgstr ""
+"Ty schavaŭ knopku naładaŭ dla paneli miescaŭ. Kab znoŭ jaje ŭklučyć, "
+"klikni pravaj knopkaj myšy ŭ lubuju knopku paneli miescaŭ i vybiery „Pakazvaj panel miescaŭ”."
 
 #: sidebar/sidebar_widget.cpp:670
 msgid "Configure Sidebar"
-msgstr ""
+msgstr "Naładź bakavuju panel"
 
 #: sidebar/sidebar_widget.cpp:795
 msgid "Set Name..."
-msgstr ""
+msgstr "Aznač nazvu..."
 
 #: sidebar/sidebar_widget.cpp:796
 msgid "Set URL..."
-msgstr ""
+msgstr "Aznač adras..."
 
 #: sidebar/sidebar_widget.cpp:797
 msgid "Set Icon..."
-msgstr ""
+msgstr "Aznač ikonu..."
 
 #: sidebar/sidebar_widget.cpp:799
 msgid "Remove"
-msgstr ""
+msgstr "Vydali"
 
 #: sidebar/web_module/web_module.cpp:90
 msgid "Set Refresh Timeout (0 disables)"
-msgstr ""
+msgstr "Aznač termin čakańnia aktualizacyi („0” vyklučaje)"
 
 #: sidebar/web_module/web_module.cpp:98
+#, fuzzy
 msgid " min"
-msgstr ""
+msgstr " chvilin"
 
 #: sidebar/web_module/web_module.cpp:100
+#, fuzzy
 msgid " sec"
-msgstr ""
+msgstr " sekundaŭ"
 
 #: sidebar/web_module/web_module.h:52
 msgid "&Open Link"
-msgstr ""
+msgstr "&Adčyni łuč"
 
 #: sidebar/web_module/web_module.h:63
 msgid "Set &Automatic Reload"
-msgstr ""
+msgstr "Uklučy &aŭtamatyčnaje pieračytvańnie"
 
 #: sidebar/konqsidebar.cpp:116
 msgid "Extended Sidebar"
-msgstr ""
+msgstr "Pašyranaja bakavaja panel"
 
 #: sidebar/konqsidebar.cpp:117
+#, fuzzy
 msgid "Joseph WENNINGER"
-msgstr ""
+msgstr "Joseph WENNINGER"
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
 #: about/konq_aboutpage.cc:189 about/konq_aboutpage.cc:191
 #: about/konq_aboutpage.cc:286 about/konq_aboutpage.cc:288
+#, fuzzy
 msgid "Be free."
-msgstr ""
+msgstr "Budź svabodnym."
 
 #: about/konq_aboutpage.cc:82
 msgid "Konqueror is a web browser, file manager and universal document viewer."
-msgstr ""
+msgstr "„Konqueror”: hartač sieciva, fajłavy kiraŭnik i ŭsiomahutny prahladnik dakumentaŭ."
 
 #: about/konq_aboutpage.cc:83 about/konq_aboutpage.cc:139
 #: about/konq_aboutpage.cc:193 about/konq_aboutpage.cc:290
+#, fuzzy
 msgid "Starting Points"
-msgstr ""
+msgstr "Pačatkovyja zaciemy"
 
 #: about/konq_aboutpage.cc:84 about/konq_aboutpage.cc:140
 #: about/konq_aboutpage.cc:194 about/konq_aboutpage.cc:291
 msgid "Introduction"
-msgstr ""
+msgstr "Uvodziny"
 
 #: about/konq_aboutpage.cc:85 about/konq_aboutpage.cc:141
 #: about/konq_aboutpage.cc:195 about/konq_aboutpage.cc:292
 msgid "Tips"
-msgstr ""
+msgstr "Parady"
 
 #: about/konq_aboutpage.cc:86 about/konq_aboutpage.cc:142
 #: about/konq_aboutpage.cc:196 about/konq_aboutpage.cc:197
 #: about/konq_aboutpage.cc:293
 msgid "Specifications"
-msgstr ""
+msgstr "Specyfikacyi"
 
 #: about/konq_aboutpage.cc:91
 msgid "Home Folder"
-msgstr ""
+msgstr "Chatni kataloh"
 
 #: about/konq_aboutpage.cc:92
 msgid "Your personal files"
-msgstr ""
+msgstr "Ułasnyja fajły"
 
 #: about/konq_aboutpage.cc:95
 msgid "Trash"
-msgstr ""
+msgstr "Śmietnica"
 
 #: about/konq_aboutpage.cc:96
 msgid "Browse and restore the trash"
-msgstr ""
+msgstr "Prahladaj i ŭznaŭlaj fajły sa śmietnicy"
 
 #: about/konq_aboutpage.cc:99
 msgid "Network Folders"
-msgstr ""
+msgstr "Sietkavyja katalohi"
 
 #: about/konq_aboutpage.cc:100
 msgid "Shared files and folders"
-msgstr ""
+msgstr "Supolna dastupnyja fajły j katalohi"
 
 #: about/konq_aboutpage.cc:103
 msgid "Applications"
-msgstr ""
+msgstr "Aplikacyi"
 
 #: about/konq_aboutpage.cc:104
 msgid "Installed programs"
-msgstr ""
+msgstr "Zainstalavanyja prahramy"
 
 #: about/konq_aboutpage.cc:107
 msgid "Next: An Introduction to Konqueror"
-msgstr ""
+msgstr "Dalej: Uvodziny ŭ prahramu „Konqueror”"
 
 #: about/konq_aboutpage.cc:109
 msgid "Search the Web"
-msgstr ""
+msgstr "Šukaj u siecivie"
 
 #: about/konq_aboutpage.cc:138 about/konq_aboutpage.cc:192
 #: about/konq_aboutpage.cc:289
 msgid "Konqueror is your file manager, web browser and universal document viewer."
-msgstr ""
+msgstr "„Konqueror”: tvoj fajłavy kiraŭnik, hartač sieciva i ŭsiomahutny prahladnik dakumentaŭ."
 
 #: about/konq_aboutpage.cc:143
 msgid ""
@@ -1556,6 +1577,7 @@ msgid ""
 "both local and networked folders while enjoying advanced features such as "
 "the powerful sidebar and file previews."
 msgstr ""
+"Prahrama „Konqueror” robić kiravańnie fajłami prostaj spravaj. Ty možaš prahladać miascovyja j sietkavyja katalohi. U prahramy šmat raznastajnych zručnaściaŭ, naprykład, bakavaja panel i padhlady fajłaŭ."
 
 #: about/konq_aboutpage.cc:147
 msgid ""
@@ -1564,6 +1586,10 @@ msgid ""
 "kde.org\">http://www.kde.org</a>) of a web page you would like to visit in "
 "the location bar and press Enter, or choose an entry from the Bookmarks menu."
 msgstr ""
+"Prahrama „Konqueror” taksama jość zdolnym i zručnym hartačom sieciva, ź jakim ty "
+"možaš prahladać sieciva. Prosta ŭpišy ŭ paneli adras (naprykład, <a href=\"http://www."
+"kde.org\">http://www.kde.org</a>) sieciŭnaj staronki i naciśni klavišu „Enter”, "
+"albo vybiery jakuju-niebudź zakładku z adpaviednaha menu."
 
 #: about/konq_aboutpage.cc:152
 #, kde-format
@@ -1571,6 +1597,8 @@ msgid ""
 "To return to the previous location, press the back button <img width='16' "
 "height='16' src=\"%1\"></img> in the toolbar. "
 msgstr ""
+"Kab viarnucca na minułaje miesca, klikni ŭ knopku „Nazad” <img width='16' "
+"height='16' src=\"%1\"></img> na paneli pryładździa. "
 
 #: about/konq_aboutpage.cc:155
 #, kde-format
@@ -1578,11 +1606,13 @@ msgid ""
 "To quickly go to your Home folder press the  home button <img width='16' "
 "height='16' src=\"%1\"></img>."
 msgstr ""
+"Kab viarnucca ŭ chatni kataloh, klikni ŭ knopku „Dadomu” <img width='16' "
+"height='16' src=\"%1\"></img>. "
 
 #: about/konq_aboutpage.cc:157
 #, kde-format
 msgid "For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
-msgstr ""
+msgstr "Kab pračytać padrabiaznuju dakumentacyju pra „Konqueror”, klikni <a href=\"%1\">siudy</a>."
 
 #: about/konq_aboutpage.cc:159
 #, kde-format
@@ -1592,10 +1622,14 @@ msgid ""
 "a>. You can re-enable it by choosing the Help -> Konqueror Introduction menu "
 "option, and then pressing Settings -> Save View Profile \"Web Browsing\"."
 msgstr ""
+"<em>Parada:</em> Kali ty chočaš, kab hartač sieciva „Konqueror” uklučaŭsia chutčej, "
+"vyklučy hety infarmacyjny ekran, kliknuŭšy <a href=\"%1\">siudy</"
+"a>. Ty možaš jaho znoŭ uklučyć praz menu: Dapamoha → Uvodziny ŭ prahramu „Konqueror”, "
+"i tam kliknuŭšy: Nałady → Zapišy profil prahladu „Prahlad sieciva”."
 
 #: about/konq_aboutpage.cc:164
 msgid "Next: Tips &amp; Tricks"
-msgstr ""
+msgstr "Dalej: Parady j padkazki"
 
 #: about/konq_aboutpage.cc:198
 #, kde-format

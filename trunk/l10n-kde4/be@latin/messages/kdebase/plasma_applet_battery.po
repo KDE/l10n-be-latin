@@ -1,0 +1,141 @@
+# translation of plasma_applet_battery.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_battery\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-09-30 09:39+0200\n"
+"PO-Revision-Date: 2008-10-05 10:22+0300\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: battery.cpp:140 battery.cpp:215 battery.cpp:889 battery.cpp:906
+msgid "Battery"
+msgstr "Batareja"
+
+#: battery.cpp:140 battery.cpp:889 battery.cpp:906
+msgid "sources"
+msgstr "krynicy"
+
+#: battery.cpp:151 battery.cpp:217 battery.cpp:895 battery.cpp:912
+msgid "AC Adapter"
+msgstr "Blok siłkavańnia"
+
+#: battery.cpp:218 battery.cpp:516 battery.cpp:840 battery.cpp:845
+#: battery.cpp:863
+msgid "Plugged in"
+msgstr "Padłučany"
+
+#: battery.cpp:220 battery.cpp:896 battery.cpp:913
+msgid "PowerDevil"
+msgstr "PowerDevil"
+
+#: battery.cpp:221
+#, fuzzy
+msgid "availableProfiles"
+msgstr "availableProfiles"
+
+#: battery.cpp:222
+#, fuzzy
+msgid "currentProfile"
+msgstr "currentProfile"
+
+#: battery.cpp:390
+msgid "Screen Brightness"
+msgstr "Jarkaść ekrana"
+
+#: battery.cpp:420
+msgid "Power Profile"
+msgstr "Enerhietyčny profil"
+
+#: battery.cpp:433
+msgid "Actions"
+msgstr "Aperacyi"
+
+#: battery.cpp:451
+msgid "Sleep"
+msgstr "Zaśni"
+
+#: battery.cpp:460
+msgid "Hibernate"
+msgstr "Zhibernuj"
+
+#: battery.cpp:473
+msgid "More..."
+msgstr "Jašče..."
+
+#: battery.cpp:487
+msgid "Power Management"
+msgstr "Kiravańnie enerhijaj"
+
+#: battery.cpp:517 battery.cpp:840 battery.cpp:846 battery.cpp:864
+msgid "Percent"
+msgstr "Pracent"
+
+#: battery.cpp:519
+msgctxt "Battery is not plugged in"
+msgid "not present"
+msgstr "niama"
+
+#: battery.cpp:523
+#, fuzzy
+msgid " charged"
+msgstr " zaradžany"
+
+#: battery.cpp:524
+msgid "<br /><b>AC Adapter:</b> Plugged in"
+msgstr "<br /><b>Blok siłkavańnia:</b> padłučany"
+
+#: battery.cpp:526
+#, fuzzy
+msgid " remaining"
+msgstr " zastałosia"
+
+#: battery.cpp:527
+msgid "<br /><b>AC Adapter:</b> Not plugged in"
+msgstr "<br /><b>Blok siłkavańnia:</b> nie padłučany"
+
+#: battery.cpp:824 battery.cpp:849 battery.cpp:881
+msgid "n/a"
+msgstr "niama"
+
+#. i18n: file: batteryConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
+#. i18n: file: batteryConfig.ui:16
+#. i18n: ectx: property (accessibleName), widget (QWidget, batteryConfig)
+#: rc.cpp:3 rc.cpp:6
+msgid "Configure Battery Monitor"
+msgstr "Naładź nazirańnika za batarejaj"
+
+#. i18n: file: batteryConfig.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, showBatteryStringCheckBox)
+#: rc.cpp:9
+msgid "Show the percentage of &charge on the battery"
+msgstr "&Pakazvaj kolkaść pracentaŭ zaradu dla batarei"
+
+#. i18n: file: batteryConfig.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, showMultipleBatteriesCheckBox)
+#: rc.cpp:12
+msgid "Show the state for &each battery present"
+msgstr "Pakazvaj &usie najaŭnyja batarei"
+
+#. i18n: file: batteryConfig.ui:45
+#. i18n: ectx: property (text), widget (QRadioButton, oxygenBattery)
+#: rc.cpp:15
+msgid "Oxygen theme"
+msgstr "Matyŭ „Oxygen”"
+
+#. i18n: file: batteryConfig.ui:55
+#. i18n: ectx: property (text), widget (QRadioButton, classicBattery)
+#: rc.cpp:18
+msgid "Classic theme"
+msgstr "Klasyčny matyŭ"
+

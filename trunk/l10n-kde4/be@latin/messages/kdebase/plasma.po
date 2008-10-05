@@ -1,0 +1,223 @@
+# translation of plasma.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-10-02 09:45+0200\n"
+"PO-Revision-Date: 2008-10-05 09:48+0300\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: backgrounddialog.cpp:364
+msgid "Desktop Settings"
+msgstr "Nałady rabočaha stała"
+
+#: backgrounddialog.cpp:390
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
+"Hetaja vyjava jość padhladam dla dziejnych naładaŭ."
+
+#: dashboardview.cpp:61
+msgid "Hide Dashboard"
+msgstr "Schavaj rabočuju placoŭku"
+
+#: dashboardview.cpp:93
+msgid "Widget Dashboard"
+msgstr "Placoŭka widžetaŭ"
+
+#: dashboardview.cpp:140 plasmaapp.cpp:438
+msgid "Add Widgets"
+msgstr "Dadaj widžetaŭ"
+
+#: desktopcorona.cpp:59
+msgid "Desktop"
+msgstr "Rabočy stoł"
+
+#: desktopview.cpp:68
+msgid "Next Activity"
+msgstr "Nastupnaja čynnaść"
+
+#: desktopview.cpp:73
+msgid "Previous Activity"
+msgstr "Papiaredniaja čynnaść"
+
+#: main.cpp:29
+msgid "The KDE desktop, panels and widgets workspace application."
+msgstr "Rabočy stoł, paneli j placoŭka dla widžetaŭ systemy „KDE”."
+
+#: main.cpp:39
+msgid "Plasma Workspace"
+msgstr "Rabočaja placoŭka „Plasma”"
+
+#: main.cpp:41
+msgid "Copyright 2006-2007, The KDE Team"
+msgstr "Copyright © 2006-2007, supolnaść KDE"
+
+#: main.cpp:42
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:43
+msgid "Author and maintainer"
+msgstr "Aŭtar i dahladnik"
+
+#: main.cpp:45
+msgid "John Lions"
+msgstr "John Lions"
+
+#: main.cpp:46
+msgid "In memory of his contributions, 1937-1998."
+msgstr "Pryśviačajecca za jahonuju dapamohu, 1937-1998."
+
+#: main.cpp:52
+msgid "Starts plasma as an ordinary window rather than as the desktop."
+msgstr "Uklučaje systemu „Plasma” ŭ asobnym aknie, a nie rabočym stałom."
+
+#: panelcontroller.cpp:377
+msgid "Panel alignment"
+msgstr "Raŭnańnie panelaŭ"
+
+#: panelcontroller.cpp:380 panelcontroller.cpp:634
+msgid "Left"
+msgstr "Źleva"
+
+#: panelcontroller.cpp:386
+msgid "Center"
+msgstr "Pasiarod"
+
+#: panelcontroller.cpp:391 panelcontroller.cpp:635
+msgid "Right"
+msgstr "Sprava"
+
+#: panelcontroller.cpp:402
+msgid "Visibility"
+msgstr "Vidočnaść"
+
+#: panelcontroller.cpp:405
+msgid "Always visible"
+msgstr "Zaŭždy vidać"
+
+#: panelcontroller.cpp:410
+msgid "Auto hide"
+msgstr "Aŭtamatyčna chavaj"
+
+#: panelcontroller.cpp:415
+msgid "Windows can cover"
+msgstr "Vokny mohuć zakryvać"
+
+#: panelcontroller.cpp:421
+msgid "Screen edge"
+msgstr "Kraj ekrana"
+
+#: panelcontroller.cpp:427 panelcontroller.cpp:632
+msgid "Height"
+msgstr "Vyšynia"
+
+#: panelcontroller.cpp:437
+msgid "More settings..."
+msgstr "Bolš naładaŭ..."
+
+#: panelcontroller.cpp:448
+msgid "Close this configuration window"
+msgstr "Začyni hetaje akno naładaŭ"
+
+#: panelcontroller.cpp:620
+msgid "Width"
+msgstr "Šyrynia"
+
+#: panelcontroller.cpp:622
+msgid "Top"
+msgstr "Uviersie"
+
+#: panelcontroller.cpp:623
+msgid "Bottom"
+msgstr "Unizie"
+
+#: plasmaapp.cpp:219
+msgid "Show Dashboard"
+msgstr "Pakažy rabočuju placoŭku"
+
+#: positioningruler.cpp:451
+msgid "Move this slider to set the panel position"
+msgstr "Hetym rehulataram aznač miesca paneli"
+
+#: positioningruler.cpp:454
+msgid "Move this slider to set the maximum panel size"
+msgstr "Hetym rehulataram aznač najbolšy pamier paneli"
+
+#: positioningruler.cpp:457
+msgid "Move this slider to set the minimum panel size"
+msgstr "Hetym rehulataram aznač najmienšy pamier paneli"
+
+#. i18n: file: BackgroundDialog.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:3
+msgid "Desktop Activity"
+msgstr "Čynnaść na rabočym stale"
+
+#. i18n: file: BackgroundDialog.ui:41
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: BackgroundDialog.ui:244
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#: rc.cpp:6 rc.cpp:27
+msgid "Type:"
+msgstr "Typ:"
+
+#. i18n: file: BackgroundDialog.ui:92
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:9
+#, fuzzy
+msgid "Monitor"
+msgstr "Nazirańnik"
+
+#. i18n: file: BackgroundDialog.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:12
+msgid "Name:"
+msgstr "Nazva:"
+
+#. i18n: file: BackgroundDialog.ui:159
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:15
+msgid "Desktop Theme"
+msgstr "Matyŭ rabočaha stała"
+
+#. i18n: file: BackgroundDialog.ui:172
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:18
+msgid "Theme:"
+msgstr "Matyŭ:"
+
+#. i18n: file: BackgroundDialog.ui:198
+#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
+#: rc.cpp:21
+msgid "New Theme..."
+msgstr "Novy matyŭ..."
+
+#. i18n: file: BackgroundDialog.ui:217
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
+#: rc.cpp:24
+msgid "Wallpaper"
+msgstr "Špalery"
+
+#: rc.cpp:28
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: rc.cpp:29
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+

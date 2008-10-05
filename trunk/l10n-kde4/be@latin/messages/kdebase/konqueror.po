@@ -14,7 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: src/konqfactory.cpp:90
@@ -52,7 +53,9 @@ msgstr "David Faure"
 
 #: src/konqfactory.cpp:236
 msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
-msgstr "Raspracoŭnik (bazavaja systema, moduli, JavaScript, biblijateka pierasyłańnia źviestak) i dahladnik"
+msgstr ""
+"Raspracoŭnik (bazavaja systema, moduli, JavaScript, biblijateka "
+"pierasyłańnia źviestak) i dahladnik"
 
 #: src/konqfactory.cpp:237
 msgid "Simon Hausmann"
@@ -119,7 +122,9 @@ msgstr "Waldo Bastian"
 
 #: src/konqfactory.cpp:245
 msgid "Developer (HTML rendering engine, I/O library)"
-msgstr "Raspracoŭnik (systema vyjaŭleńnia kodu „HTML”, biblijateka pierasyłańnia źviestak)"
+msgstr ""
+"Raspracoŭnik (systema vyjaŭleńnia kodu „HTML”, biblijateka pierasyłańnia "
+"źviestak)"
 
 #: src/konqfactory.cpp:246
 msgid "Germain Garand"
@@ -134,8 +139,11 @@ msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
 #: src/konqfactory.cpp:248
-msgid "Developer (HTML rendering engine, I/O library, regression test framework)"
-msgstr "Raspracoŭnik (systema vyjaŭleńnia kodu „HTML”, biblijateka pierasyłańnia źviestak, systema pošuku paharšeńniaŭ)"
+msgid ""
+"Developer (HTML rendering engine, I/O library, regression test framework)"
+msgstr ""
+"Raspracoŭnik (systema vyjaŭleńnia kodu „HTML”, biblijateka pierasyłańnia "
+"źviestak, systema pošuku paharšeńniaŭ)"
 
 #: src/konqfactory.cpp:249
 msgid "Antti Koivisto"
@@ -239,7 +247,9 @@ msgstr "Dawit Alemayehu"
 
 #: src/konqfactory.cpp:264
 msgid "Developer (I/O library, Authentication support)"
-msgstr "Raspracoŭnik (biblijateka pierasyłańnia źviestak, absłuhoŭvańnie spraŭdžvańnia tojesnaści)"
+msgstr ""
+"Raspracoŭnik (biblijateka pierasyłańnia źviestak, absłuhoŭvańnie "
+"spraŭdžvańnia tojesnaści)"
 
 #: src/konqfactory.cpp:265
 msgid "Carsten Pfeiffer"
@@ -298,10 +308,10 @@ msgid ""
 "mouse over the tab to see the full title, in case it has been truncated to "
 "fit the tab width."
 msgstr ""
-"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju kartku, "
-"klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. Tekst na "
-"kartcy jość nazvaj adčynienaha sieciŭnaha sajta. Kab ubačyć poŭnuju nazvu, źmiaści "
-"kursor myšy na patrebnaj kartcy."
+"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju "
+"kartku, klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. "
+"Tekst na kartcy jość nazvaj adčynienaha sieciŭnaha sajta. Kab ubačyć poŭnuju "
+"nazvu, źmiaści kursor myšy na patrebnaj kartcy."
 
 #: src/konqtabs.cpp:180
 msgid "Open a new tab"
@@ -346,7 +356,8 @@ msgstr "&Začyni kartku"
 
 #: src/konqsessionmanager.cpp:323
 msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgstr "Prahrama „Konqueror” minuły raz kiepska skončyła pracu. Uznavić tuju sesiju?"
+msgstr ""
+"Prahrama „Konqueror” minuły raz kiepska skončyła pracu. Uznavić tuju sesiju?"
 
 #: src/konqsessionmanager.cpp:324
 msgid "Restore Session?"
@@ -675,8 +686,11 @@ msgid "Location Bar"
 msgstr "Panel adrasu"
 
 #: src/konqmainwindow.cpp:3792
-msgid "<html>Location Bar<br /><br />Enter a web address or search term.</html>"
-msgstr "<html>Panel adrasu<br /><br />Tut upišy sieciŭny adras albo šukany vyraz.</html>"
+msgid ""
+"<html>Location Bar<br /><br />Enter a web address or search term.</html>"
+msgstr ""
+"<html>Panel adrasu<br /><br />Tut upišy sieciŭny adras albo šukany vyraz.</"
+"html>"
 
 #: src/konqmainwindow.cpp:3796
 msgid "Clear Location Bar"
@@ -687,8 +701,8 @@ msgid ""
 "<html>Clear Location bar<br /><br />Clears the contents of the location bar."
 "</html>"
 msgstr ""
-"<html>Vyčyści panel adrasu<br /><br />Vyčyščaje źmieściva z paneli adrasu."
-"</html>"
+"<html>Vyčyści panel adrasu<br /><br />Vyčyščaje źmieściva z paneli adrasu.</"
+"html>"
 
 #: src/konqmainwindow.cpp:3805
 msgid "&Bookmarks"
@@ -711,7 +725,8 @@ msgid ""
 "<html>Go<br /><br />Goes to the page that has been entered into the location "
 "bar.</html>"
 msgstr ""
-"<html>Idzi<br /><br />Pierachodzić da staronki z padadzienym u paneli adrasam.</html>"
+"<html>Idzi<br /><br />Pierachodzić da staronki z padadzienym u paneli "
+"adrasam.</html>"
 
 #: src/konqmainwindow.cpp:3835
 #, kde-format
@@ -720,8 +735,8 @@ msgid ""
 "location is file:/home/%1 clicking this button will take you to file:/home.</"
 "html>"
 msgstr ""
-"<html>Idzi ŭ vyšejšy kataloh<br /><br />Naprykład, kali ciapier ty ŭ miescy z "
-"adrasam „file:/home/%1”, to kliknuŭšy ŭ hetuju knopku, ty pierajdzieš u "
+"<html>Idzi ŭ vyšejšy kataloh<br /><br />Naprykład, kali ciapier ty ŭ miescy "
+"z adrasam „file:/home/%1”, to kliknuŭšy ŭ hetuju knopku, ty pierajdzieš u "
 "„file:/home”.</html>"
 
 #: src/konqmainwindow.cpp:3838
@@ -746,8 +761,8 @@ msgid ""
 "location where this button takes you under <b>Settings -> Configure "
 "Konqueror -> General</b>.</html>"
 msgstr ""
-"<html>Idzi ŭ svoj chatni adras<br /><br />Ty možaš naładzić hety adras "
-"u menu: <b>Nałady → Naładź prahramu „Konqueror” → Hałoŭnaje</b>.</html>"
+"<html>Idzi ŭ svoj chatni adras<br /><br />Ty možaš naładzić hety adras u "
+"menu: <b>Nałady → Naładź prahramu „Konqueror” → Hałoŭnaje</b>.</html>"
 
 #: src/konqmainwindow.cpp:3854
 msgid "Navigate to your 'Home Location'"
@@ -759,8 +774,9 @@ msgid ""
 "example, be needed to refresh web pages that have been modified since they "
 "were loaded, in order to make the changes visible.</html>"
 msgstr ""
-"<html>Pieračytaj hety dakument<br /><br />Heta moža spatrebicca, kab aktualizavać "
-"źmieściva staronki, kali jano źmianiałasia paśla apošniaha pračytańnia.</html>"
+"<html>Pieračytaj hety dakument<br /><br />Heta moža spatrebicca, kab "
+"aktualizavać źmieściva staronki, kali jano źmianiałasia paśla apošniaha "
+"pračytańnia.</html>"
 
 #: src/konqmainwindow.cpp:3859
 msgid "Reload the currently displayed document"
@@ -786,8 +802,9 @@ msgid ""
 "stopped and Konqueror will display the content that has been received so far."
 "</html>"
 msgstr ""
-"<html>Spyni pračytańnie dakumenta<br /><br />Usio pierasyłańnie źviestak budzie "
-"spynienaje, a hartač „Konqueror” pakaža źmieściva, jakoje ŭžo było atrymanaje.</html>"
+"<html>Spyni pračytańnie dakumenta<br /><br />Usio pierasyłańnie źviestak "
+"budzie spynienaje, a hartač „Konqueror” pakaža źmieściva, jakoje ŭžo było "
+"atrymanaje.</html>"
 
 #: src/konqmainwindow.cpp:3869
 msgid "Stop loading the document"
@@ -799,9 +816,9 @@ msgid ""
 "clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
 "Konqueror and other KDE applications.</html>"
 msgstr ""
-"<html>Vytni vyłučanaje i źmiaści jaho ŭ systemny abmienny bufer<br /><br />"
-"Vytnutaje budzie dastupnaje z „Konqueror” dy inšych prahramaŭ dla KDE praz zahad "
-"<b>Uklej</b>.</html>"
+"<html>Vytni vyłučanaje i źmiaści jaho ŭ systemny abmienny bufer<br /><br /"
+">Vytnutaje budzie dastupnaje z „Konqueror” dy inšych prahramaŭ dla KDE praz "
+"zahad <b>Uklej</b>.</html>"
 
 #: src/konqmainwindow.cpp:3875
 msgid "Move the selected text or item(s) to the clipboard"
@@ -813,8 +830,8 @@ msgid ""
 "clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
 "Konqueror and other KDE applications.</html>"
 msgstr ""
-"<html>Skapijuj vyłučanaje ŭ systemny abmienny bufer<br /><br />"
-"Skapijavanaje budzie dastupnaje z „Konqueror” dy inšych prahramaŭ dla KDE praz zahad "
+"<html>Skapijuj vyłučanaje ŭ systemny abmienny bufer<br /><br />Skapijavanaje "
+"budzie dastupnaje z „Konqueror” dy inšych prahramaŭ dla KDE praz zahad "
 "<b>Uklej</b>.</html>"
 
 #: src/konqmainwindow.cpp:3881
@@ -826,8 +843,9 @@ msgid ""
 "<html>Paste the previously cut or copied clipboard contents<br /><br />This "
 "also works for text copied or cut from other KDE applications.</html>"
 msgstr ""
-"<html>Uklej papiarednie vytnutaje ci skapijavanaje źmieściva abmiennaha bufera<br /><br />"
-"Hetaja aperacyja dziejničaje i z tekstam, vytnutym ci skapijavanym ź inšych aplikacyjaŭ dla KDE.</html>"
+"<html>Uklej papiarednie vytnutaje ci skapijavanaje źmieściva abmiennaha "
+"bufera<br /><br />Hetaja aperacyja dziejničaje i z tekstam, vytnutym ci "
+"skapijavanym ź inšych aplikacyjaŭ dla KDE.</html>"
 
 #: src/konqmainwindow.cpp:3886
 msgid "Paste the clipboard contents"
@@ -841,10 +859,11 @@ msgid ""
 "also provides access to special KDE printing services such as creating a PDF "
 "file from the current document.</html>"
 msgstr ""
-"<html>Vydrukuj hety dakument<br /><br />Hetaja aperacyja adčyniaje dyjalohavaje akno, "
-"dzie možna źmianić roznyja nałady, naprykład, kolkaść patrebnych kopijaŭ dakumenta j "
-"vybrać drukarku.<br /><br />Praz hetaje akno taksama možna vykarystać specyjalnyja "
-"słužby vydruku systemy „KDE”, naprykład, stvaryć fajł „PDF” z dakumenta.</html>"
+"<html>Vydrukuj hety dakument<br /><br />Hetaja aperacyja adčyniaje "
+"dyjalohavaje akno, dzie možna źmianić roznyja nałady, naprykład, kolkaść "
+"patrebnych kopijaŭ dakumenta j vybrać drukarku.<br /><br />Praz hetaje akno "
+"taksama možna vykarystać specyjalnyja słužby vydruku systemy „KDE”, "
+"naprykład, stvaryć fajł „PDF” z dakumenta.</html>"
 
 #: src/konqmainwindow.cpp:3894
 msgid "Print the current document"
@@ -859,15 +878,16 @@ msgid ""
 "A locked view cannot change folders. Use in combination with 'link view' to "
 "explore many files from one folder"
 msgstr ""
-"Dla pryviazanaha prahladu nielha źmianiać kataloh. Karystajsia prahladam łučoŭ, "
-"kab prahladać šmat fajłaŭ z adnaho kataloha."
+"Dla pryviazanaha prahladu nielha źmianiać kataloh. Karystajsia prahladam "
+"łučoŭ, kab prahladać šmat fajłaŭ z adnaho kataloha."
 
 #: src/konqmainwindow.cpp:3902
 msgid ""
 "Sets the view as 'linked'. A linked view follows folder changes made in "
 "other linked views."
 msgstr ""
-"Uklučaje spałučany prahlad. Taki prahlad pakazvaje źmieny, zroblenyja ŭ inšych paviazanych ź im prahladach."
+"Uklučaje spałučany prahlad. Taki prahlad pakazvaje źmieny, zroblenyja ŭ "
+"inšych paviazanych ź im prahladach."
 
 #: src/konqmainwindow.cpp:4080
 msgid "Copy &Files..."
@@ -887,7 +907,8 @@ msgid ""
 "You have requested to open more than 20 bookmarks in tabs. This might take a "
 "while. Continue?"
 msgstr ""
-"Ty zahadaŭ adčynić bolš za 20 zakładak u kartkach. Vykanańnie zahadu moža być doŭhim. Praciahvać?"
+"Ty zahadaŭ adčynić bolš za 20 zakładak u kartkach. Vykanańnie zahadu moža "
+"być doŭhim. Praciahvać?"
 
 #: src/konqmainwindow.cpp:4439
 #, fuzzy
@@ -934,7 +955,8 @@ msgid "&View Mode"
 msgstr "&Sposab prahladu"
 
 #: src/konqmainwindow.cpp:5008
-msgid "You have multiple tabs open in this window, are you sure you want to quit?"
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "U hetym aknie adčynienyja niekalki kartak. Sapraŭdy chočaš vyjści?"
 
 #: src/konqmainwindow.cpp:5010 src/konqviewmanager.cpp:1315
@@ -959,8 +981,10 @@ msgid "no name"
 msgstr "biaz nazvy"
 
 #: src/konqmainwindow.cpp:5217
-msgid "Your sidebar is not functional or unavailable. A new entry cannot be added."
-msgstr "Bakavaja panel nie pracuje ci jaje niama. Nie ŭdałosia dadać novy element."
+msgid ""
+"Your sidebar is not functional or unavailable. A new entry cannot be added."
+msgstr ""
+"Bakavaja panel nie pracuje ci jaje niama. Nie ŭdałosia dadać novy element."
 
 #: src/konqmainwindow.cpp:5217 src/konqmainwindow.cpp:5224
 msgid "Web Sidebar"
@@ -985,8 +1009,8 @@ msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
 "with %1, but it cannot handle this file type."
 msgstr ""
-"Uźnikła pamyłka ŭ naładžvańni. Ty pryviazaŭ prahramu „Konqueror” da „%1”, ale "
-"jana nia ŭmieje absłuhoŭvać fajłaŭ takoha typu."
+"Uźnikła pamyłka ŭ naładžvańni. Ty pryviazaŭ prahramu „Konqueror” da „%1”, "
+"ale jana nia ŭmieje absłuhoŭvać fajłaŭ takoha typu."
 
 #: src/konqsessiondlg.cpp:78
 msgid "Manage Sessions"
@@ -1006,7 +1030,8 @@ msgstr "Zapišy sesiju"
 
 #: src/konqsessiondlg.cpp:253
 #, kde-format
-msgid "A session with the name '%1' already exists, do you want to overwrite it?"
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
 msgstr "Sesija z nazvaj „%1” užo isnuje. Chočaš jaje zamianić?"
 
 #: src/konqsessiondlg.cpp:254
@@ -1019,9 +1044,9 @@ msgid ""
 "resend the data, any action the form carried out (such as search or online "
 "purchase) will be repeated. "
 msgstr ""
-"Staronka, jakuju ty sprabuješ pahladzieć, jość vynikam vysłanym źviestak formy. "
-"Kali ty pierašleš źviestki, to ŭsie aperacyi, vykananyja formaj (naprykład, pošuk "
-"ci zamaŭleńnie tavaru), buduć paŭtoranyja."
+"Staronka, jakuju ty sprabuješ pahladzieć, jość vynikam vysłanym źviestak "
+"formy. Kali ty pierašleš źviestki, to ŭsie aperacyi, vykananyja formaj "
+"(naprykład, pošuk ci zamaŭleńnie tavaru), buduć paŭtoranyja."
 
 #: src/konqview.cpp:1309
 msgid "Warning"
@@ -1078,11 +1103,12 @@ msgid ""
 "useful with different types of views, such as a directory tree with an icon "
 "view or detailed view, and possibly a terminal emulator window."
 msgstr ""
-"Paznačyŭšy hetaj miecinaj chacia b dva prahlady, ty zrobiš ich „spałučanymi”. "
-"Tady pry źmianieńni kataloha adnaho prahladu druhi budzie taksama aŭtamatyčna "
-"pieraklučacca na pakaz rabočaha kataloha. Hetaja mahčymaść vielmi zručnaja "
-"dla roznych sposabaŭ prahladu, naprykład, dla hierarhičnaha vyjaŭleńnia z "
-"prahladam ikonaŭ ci detalaŭ, a taksama časam dla akna z emulataram terminału."
+"Paznačyŭšy hetaj miecinaj chacia b dva prahlady, ty zrobiš ich "
+"„spałučanymi”. Tady pry źmianieńni kataloha adnaho prahladu druhi budzie "
+"taksama aŭtamatyčna pieraklučacca na pakaz rabočaha kataloha. Hetaja "
+"mahčymaść vielmi zručnaja dla roznych sposabaŭ prahladu, naprykład, dla "
+"hierarhičnaha vyjaŭleńnia z prahladam ikonaŭ ci detalaŭ, a taksama časam dla "
+"akna z emulataram terminału."
 
 #: src/konqframestatusbar.cpp:146
 msgid "Close View"
@@ -1142,14 +1168,16 @@ msgstr "Śpis mahčymych profilaŭ"
 
 #: src/konqmain.cpp:59
 msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr "Typ „MIME” dla hetaha adrasu (naprykład, „text/html” ci „inode/directory”)"
+msgstr ""
+"Typ „MIME” dla hetaha adrasu (naprykład, „text/html” ci „inode/directory”)"
 
 #: src/konqmain.cpp:61
 msgid ""
 "For URLs that point to files, opens the directory and selects the file, "
 "instead of opening the actual file"
 msgstr ""
-"Dla adrasoŭ, jakija łučać z fajłami, adčyniaje kataloh i vyłučaje fajł, a nie adčyniaje sam fajł."
+"Dla adrasoŭ, jakija łučać z fajłami, adčyniaje kataloh i vyłučaje fajł, a "
+"nie adčyniaje sam fajł."
 
 #: src/konqmain.cpp:63
 msgid "Location to open"
@@ -1204,8 +1232,8 @@ msgid ""
 "<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
 "3<br />Number of times visited: %4</qt>"
 msgstr ""
-"<qt><center><b>%1</b></center><hr />Apošniaje naviedvańnie: %2<br />Pieršaje naviedvańnie: %"
-"3<br />Kolkaść naviedvańniaŭ: %4</qt>"
+"<qt><center><b>%1</b></center><hr />Apošniaje naviedvańnie: %2<br />Pieršaje "
+"naviedvańnie: %3<br />Kolkaść naviedvańniaŭ: %4</qt>"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:76
 #: sidebar/trees/history_module/kcmhistory.cpp:81
@@ -1252,7 +1280,9 @@ msgstr "Roznaje"
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:424
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr "Nie ŭdałosia znajści ŭ hierarchii vyšejšy element „%1”. Heta ŭnutranaja pamyłka."
+msgstr ""
+"Nie ŭdałosia znajści ŭ hierarchii vyšejšy element „%1”. Heta ŭnutranaja "
+"pamyłka."
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:73
 msgid "&Create New Folder"
@@ -1372,7 +1402,9 @@ msgid ""
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
 "proceed?</qt>"
 msgstr ""
-"<qt>Hetaja aperacyja vydalaje ŭsio z bakavoj paneli j dadaje tolki systemnyja elementy.<br /><b>Jaje niemahčyma paśla anulavać.</b><br />Praciahvać?</qt>"
+"<qt>Hetaja aperacyja vydalaje ŭsio z bakavoj paneli j dadaje tolki "
+"systemnyja elementy.<br /><b>Jaje niemahčyma paśla anulavać.</b><br /"
+">Praciahvać?</qt>"
 
 #: sidebar/sidebar_widget.cpp:269
 msgid "Configure Navigation Panel"
@@ -1438,8 +1470,9 @@ msgid ""
 "visible again, click the right mouse button on any of the navigation panel "
 "buttons and select \"Show Configuration Button\"."
 msgstr ""
-"Ty schavaŭ knopku naładaŭ dla paneli miescaŭ. Kab znoŭ jaje ŭklučyć, "
-"klikni pravaj knopkaj myšy ŭ lubuju knopku paneli miescaŭ i vybiery „Pakazvaj panel miescaŭ”."
+"Ty schavaŭ knopku naładaŭ dla paneli miescaŭ. Kab znoŭ jaje ŭklučyć, klikni "
+"pravaj knopkaj myšy ŭ lubuju knopku paneli miescaŭ i vybiery „Pakazvaj panel "
+"miescaŭ”."
 
 #: sidebar/sidebar_widget.cpp:670
 msgid "Configure Sidebar"
@@ -1502,7 +1535,9 @@ msgstr "Budź svabodnym."
 
 #: about/konq_aboutpage.cc:82
 msgid "Konqueror is a web browser, file manager and universal document viewer."
-msgstr "„Konqueror”: hartač sieciva, fajłavy kiraŭnik i ŭsiomahutny prahladnik dakumentaŭ."
+msgstr ""
+"„Konqueror”: hartač sieciva, fajłavy kiraŭnik i ŭsiomahutny prahladnik "
+"dakumentaŭ."
 
 #: about/konq_aboutpage.cc:83 about/konq_aboutpage.cc:139
 #: about/konq_aboutpage.cc:193 about/konq_aboutpage.cc:290
@@ -1568,8 +1603,11 @@ msgstr "Šukaj u siecivie"
 
 #: about/konq_aboutpage.cc:138 about/konq_aboutpage.cc:192
 #: about/konq_aboutpage.cc:289
-msgid "Konqueror is your file manager, web browser and universal document viewer."
-msgstr "„Konqueror”: tvoj fajłavy kiraŭnik, hartač sieciva i ŭsiomahutny prahladnik dakumentaŭ."
+msgid ""
+"Konqueror is your file manager, web browser and universal document viewer."
+msgstr ""
+"„Konqueror”: tvoj fajłavy kiraŭnik, hartač sieciva i ŭsiomahutny prahladnik "
+"dakumentaŭ."
 
 #: about/konq_aboutpage.cc:143
 msgid ""
@@ -1577,7 +1615,9 @@ msgid ""
 "both local and networked folders while enjoying advanced features such as "
 "the powerful sidebar and file previews."
 msgstr ""
-"Prahrama „Konqueror” robić kiravańnie fajłami prostaj spravaj. Ty možaš prahladać miascovyja j sietkavyja katalohi. U prahramy šmat raznastajnych zručnaściaŭ, naprykład, bakavaja panel i padhlady fajłaŭ."
+"Prahrama „Konqueror” robić kiravańnie fajłami prostaj spravaj. Ty možaš "
+"prahladać miascovyja j sietkavyja katalohi. U prahramy šmat raznastajnych "
+"zručnaściaŭ, naprykład, bakavaja panel i padhlady fajłaŭ."
 
 #: about/konq_aboutpage.cc:147
 msgid ""
@@ -1586,10 +1626,11 @@ msgid ""
 "kde.org\">http://www.kde.org</a>) of a web page you would like to visit in "
 "the location bar and press Enter, or choose an entry from the Bookmarks menu."
 msgstr ""
-"Prahrama „Konqueror” taksama jość zdolnym i zručnym hartačom sieciva, ź jakim ty "
-"možaš prahladać sieciva. Prosta ŭpišy ŭ paneli adras (naprykład, <a href=\"http://www."
-"kde.org\">http://www.kde.org</a>) sieciŭnaj staronki i naciśni klavišu „Enter”, "
-"albo vybiery jakuju-niebudź zakładku z adpaviednaha menu."
+"Prahrama „Konqueror” taksama jość zdolnym i zručnym hartačom sieciva, ź "
+"jakim ty možaš prahladać sieciva. Prosta ŭpišy ŭ paneli adras (naprykład, <a "
+"href=\"http://www.kde.org\">http://www.kde.org</a>) sieciŭnaj staronki i "
+"naciśni klavišu „Enter”, albo vybiery jakuju-niebudź zakładku z adpaviednaha "
+"menu."
 
 #: about/konq_aboutpage.cc:152
 #, kde-format
@@ -1611,8 +1652,11 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:157
 #, kde-format
-msgid "For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
-msgstr "Kab pračytać padrabiaznuju dakumentacyju pra „Konqueror”, klikni <a href=\"%1\">siudy</a>."
+msgid ""
+"For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
+msgstr ""
+"Kab pračytać padrabiaznuju dakumentacyju pra „Konqueror”, klikni <a href=\"%1"
+"\">siudy</a>."
 
 #: about/konq_aboutpage.cc:159
 #, kde-format
@@ -1622,10 +1666,11 @@ msgid ""
 "a>. You can re-enable it by choosing the Help -> Konqueror Introduction menu "
 "option, and then pressing Settings -> Save View Profile \"Web Browsing\"."
 msgstr ""
-"<em>Parada:</em> Kali ty chočaš, kab hartač sieciva „Konqueror” uklučaŭsia chutčej, "
-"vyklučy hety infarmacyjny ekran, kliknuŭšy <a href=\"%1\">siudy</"
-"a>. Ty možaš jaho znoŭ uklučyć praz menu: Dapamoha → Uvodziny ŭ prahramu „Konqueror”, "
-"i tam kliknuŭšy: Nałady → Zapišy profil prahladu „Prahlad sieciva”."
+"<em>Parada:</em> Kali ty chočaš, kab hartač sieciva „Konqueror” uklučaŭsia "
+"chutčej, vyklučy hety infarmacyjny ekran, kliknuŭšy <a href=\"%1\">siudy</"
+"a>. Ty možaš jaho znoŭ uklučyć praz menu: Dapamoha → Uvodziny ŭ prahramu "
+"„Konqueror”, i tam kliknuŭšy: Nałady → Zapišy profil prahladu „Prahlad "
+"sieciva”."
 
 #: about/konq_aboutpage.cc:164
 msgid "Next: Tips &amp; Tricks"
@@ -1675,7 +1720,8 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:214
 #, kde-format
-msgid "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
+msgid ""
+"JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
 msgstr ""
 
 #: about/konq_aboutpage.cc:215
@@ -1862,7 +1908,8 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:322
 #, kde-format
-msgid "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
+msgid ""
+"Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
 msgstr ""
 
 #: about/konq_aboutpage.cc:324
@@ -1899,7 +1946,8 @@ msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr ""
 
 #: about/konq_aboutpage.cc:456
-msgid "Do you want to disable showing the introduction in the webbrowsing profile?"
+msgid ""
+"Do you want to disable showing the introduction in the webbrowsing profile?"
 msgstr ""
 
 #: about/konq_aboutpage.cc:458
@@ -1935,7 +1983,8 @@ msgid "&Execute Shell Command..."
 msgstr ""
 
 #: shellcmdplugin/kshellcmdplugin.cpp:50
-msgid "KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
+msgid ""
+"KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
 msgstr ""
 
 #: shellcmdplugin/kshellcmdplugin.cpp:56
@@ -2160,4 +2209,3 @@ msgstr ""
 #: rc.cpp:104
 msgid "Clear History"
 msgstr ""
-

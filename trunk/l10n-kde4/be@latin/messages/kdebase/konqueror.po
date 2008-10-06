@@ -1686,14 +1686,20 @@ msgid ""
 "Along with this support, for such functions as favicons, Internet Keywords, "
 "and <A HREF=\"%1\">XBEL bookmarks</A>, Konqueror also implements:"
 msgstr ""
+"Hartač „Konqueror” sprajektavany z dumkaj pra standarty sieciva. Našaj metaju "
+"jość poŭnaja ŭzhodnienaść z aficyjna dazvolenymi standartami ad pavažnych "
+"arhanizacyjaŭ, naprykład, ad „W3” i „OASIS”, a taksama ŭsprymańnie inšych "
+"paŭsiudnych mahčymaściaŭ, jakija stali zvykłymi ŭ siecivie. Akramia hetaha, "
+"hartač „Konqueror” absłuhoŭvaje ikony sajtaŭ, klučavyja słovy, "
+"<A HREF=\"%1\">zakładki „XBEL”</A> dy inšyja funkcyi, naprykład:"
 
 #: about/konq_aboutpage.cc:206
 msgid "Supported standards"
-msgstr ""
+msgstr "Viadomyja standarty"
 
 #: about/konq_aboutpage.cc:207
 msgid "Additional requirements*"
-msgstr ""
+msgstr "Dadatkovyja vymahańni*"
 
 #: about/konq_aboutpage.cc:208
 #, kde-format
@@ -1701,28 +1707,31 @@ msgid ""
 "<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF=\"%2"
 "\">HTML 4.01</A>"
 msgstr ""
+"<A HREF=\"%1\">DOM</A> (rovień 1, častkova rovień 2) dla <A HREF=\"%2"
+"\">HTML 4.01</A>"
 
 #: about/konq_aboutpage.cc:210 about/konq_aboutpage.cc:212
 #: about/konq_aboutpage.cc:224 about/konq_aboutpage.cc:229
 #: about/konq_aboutpage.cc:231
 msgid "built-in"
-msgstr ""
+msgstr "unutrana"
 
 #: about/konq_aboutpage.cc:211
 #, kde-format
 msgid "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, partially CSS 2)"
-msgstr ""
+msgstr "<A HREF=\"%1\">Kaskadnyja arkušy stylaŭ (CSS)</A> (CSS 1, častkova CSS 2)"
 
 #: about/konq_aboutpage.cc:213
 #, kde-format
 msgid "<A HREF=\"%1\">ECMA-262</A> Edition 3 (roughly equals JavaScript 1.5)"
-msgstr ""
+msgstr "<A HREF=\"%1\">ECMA-262</A>, treciaje vydańnie (padobna da „JavaScript 1.5”)"
 
 #: about/konq_aboutpage.cc:214
 #, kde-format
 msgid ""
 "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
 msgstr ""
+"„JavaScript” paŭsiul nie absłuhoŭvajecca. Uklučyć jaho možna <A HREF=\"%1\">tut</A>."
 
 #: about/konq_aboutpage.cc:215
 #, kde-format
@@ -1730,11 +1739,12 @@ msgid ""
 "JavaScript enabled (globally). Configure JavaScript <A HREF=\\\"%1\\\">here</"
 "A>."
 msgstr ""
+"„JavaScript” paŭsiul absłuhoŭvajecca. Naładzić jaho možna <A HREF=\\\"%1\\\">tut</A>."
 
 #: about/konq_aboutpage.cc:216
 #, kde-format
 msgid "Secure <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> support"
-msgstr ""
+msgstr "Absłuhoŭvańnie biaśpiečnaj admieny „<A HREF=\"%1\">Java</A><SUP>&reg;</SUP>”"
 
 #: about/konq_aboutpage.cc:217
 #, kde-format
@@ -1742,11 +1752,13 @@ msgid ""
 "JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A HREF=\"%2"
 "\">IBM</A> or <A HREF=\"%3\">Sun</A>)"
 msgstr ""
+"Virtualnaja mašyna „JDK 1.2.0” („Java 2”) (<A HREF=\"%1\">„Blackdown”</A>, <A HREF=\"%2"
+"\">„IBM”</A> albo <A HREF=\"%3\">„Sun”</A>)"
 
 #: about/konq_aboutpage.cc:219
 #, kde-format
 msgid "Enable Java (globally) <A HREF=\"%1\">here</A>."
-msgstr ""
+msgstr "Paŭsiul uklučyć „Java” možna <A HREF=\"%1\">tut</A>."
 
 #: about/konq_aboutpage.cc:220
 #, kde-format
@@ -1756,90 +1768,97 @@ msgid ""
 "\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
 "A>Video, etc.)"
 msgstr ""
+"<A HREF=\"%4\">Pluginy</A> „Netscape Communicator<SUP>&reg;</SUP>” (dla prahladu "
+"<A HREF=\"%1\">„Flash<SUP>&reg;</SUP>”</A>, „<A HREF=\"%2"
+"\">Real<SUP>&reg;</SUP></A>Audio”, „<A HREF=\"%3\">Real<SUP>&reg;</SUP></"
+"A>Video” dy inšych medyjaŭ)"
 
 #: about/konq_aboutpage.cc:225
 msgid "Secure Sockets Layer"
-msgstr ""
+msgstr "Absłuhoŭvańnie biaśpiečnych sokietaŭ (SSL)"
 
 #: about/konq_aboutpage.cc:226
 msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
-msgstr ""
+msgstr "(TLS/SSL v2/3) dla biaśpiečnaha kamunikavańnia, da 168 bitaŭ"
 
 #: about/konq_aboutpage.cc:227
 msgid "OpenSSL"
-msgstr ""
+msgstr "OpenSSL"
 
 #: about/konq_aboutpage.cc:228
 msgid "Bidirectional 16bit unicode support"
-msgstr ""
+msgstr "Absłuhoŭvańnie tekstu z 16-bitavym kadavańniem „Unicode”, skiravanaha ŭ roznyja kirunki"
 
 #: about/konq_aboutpage.cc:230
+#, fuzzy
 msgid "AutoCompletion for forms"
-msgstr ""
+msgstr "Aŭtamatyčnaje zapaŭnieńnie formaŭ"
 
 #: about/konq_aboutpage.cc:232
+#, fuzzy
 msgid "G E N E R A L"
-msgstr ""
+msgstr "H A Ł O Ŭ N A J E"
 
 #: about/konq_aboutpage.cc:233
 msgid "Feature"
-msgstr ""
+msgstr "Mahčymaść"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:137
 #. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
 #: about/konq_aboutpage.cc:234 rc.cpp:95
 msgid "Details"
-msgstr ""
+msgstr "Detali"
 
 #: about/konq_aboutpage.cc:235
 msgid "Image formats"
-msgstr ""
+msgstr "Farmaty vyjavaŭ"
 
 #: about/konq_aboutpage.cc:236
 msgid "PNG<br />MNG<br />JPG<br />GIF"
-msgstr ""
+msgstr "PNG<br />MNG<br />JPG<br />GIF"
 
 #: about/konq_aboutpage.cc:237
 msgid "Transfer protocols"
-msgstr ""
+msgstr "Pratakoły pierasyłańnia"
 
 #: about/konq_aboutpage.cc:238
 msgid "HTTP 1.1 (including gzip/bzip2 compression)"
-msgstr ""
+msgstr "HTTP 1.1 (z kampresavańniem „gzip/bzip2”)"
 
 #: about/konq_aboutpage.cc:239
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 #: about/konq_aboutpage.cc:240
 #, kde-format
 msgid "and <A HREF=\"%1\">many more...</A>"
-msgstr ""
+msgstr "dy <A HREF=\"%1\">inšaje...</A>"
 
 #: about/konq_aboutpage.cc:241
+#, fuzzy
 msgid "URL-Completion"
-msgstr ""
+msgstr "Zakančeńnie adrasoŭ"
 
 #: about/konq_aboutpage.cc:242
 msgid "Manual"
-msgstr ""
+msgstr "Ručnoje"
 
 #: about/konq_aboutpage.cc:243
 msgid "Popup"
-msgstr ""
+msgstr "Vypłyŭnoje"
 
 #: about/konq_aboutpage.cc:244
 msgid "(Short-) Automatic"
-msgstr ""
+msgstr "(Karotkaje) aŭtamatyčnaje"
 
 #: about/konq_aboutpage.cc:246
-#, kde-format
+#, fuzzy, kde-format
 msgid "<a href=\"%1\">Return to Starting Points</a>"
-msgstr ""
+msgstr "<a href=\"%1\">Viarnisia ŭ pačatkovyja zaciemy</a>"
 
 #: about/konq_aboutpage.cc:294
 msgid "Tips &amp; Tricks"
-msgstr ""
+msgstr "Parady j padkazki"
 
 #: about/konq_aboutpage.cc:295
 #, kde-format
@@ -1850,6 +1869,9 @@ msgid ""
 "up certain words in an encyclopedia a breeze. You can even <a href=\"%1"
 "\">create your own</a> Web-Shortcuts."
 msgstr ""
+"Karystajsia sieciŭnyja klučanyja słovy j web-skaroty: naprykład, upisaŭšy „gg: KDE”, ty možaš pašukać z dapamohaju słužby „Google” vyraz „KDE”. Jość mnostva web-skarotaŭ, jakija paskarajuć pošuk prahramaŭ ci encyklapedyčnych "
+"artykułaŭ. Navat možna <a href=\"%1"
+"\">stvarać ułasnyja</a> web-skaroty."
 
 #: about/konq_aboutpage.cc:300
 #, kde-format
@@ -1857,6 +1879,7 @@ msgid ""
 "Use the magnifier button <img width='16' height='16' src=\"%1\"></img> in "
 "the toolbar to increase the font size on your web page."
 msgstr ""
+"Z dapamohaju knopki-lupy <img width='16' height='16' src=\"%1\"></img> u paneli pryładździa ty možaš pavialičyć pamier šryfta ŭ svajoj sieciŭnaj staroncy."
 
 #: about/konq_aboutpage.cc:302
 #, kde-format
@@ -1865,6 +1888,7 @@ msgid ""
 "want to clear the current entry by pressing the black arrow with the white "
 "cross <img width='16' height='16' src=\"%1\"></img> in the toolbar."
 msgstr ""
+"Uklejvajučy novy adras u adpaviednuju panel, časam treba vyčyścić adtul usio. Tady naciśni čornuju strełku ź biełym kryžam <img width='16' height='16' src=\"%1\"></img>, što ŭ paneli pryładździa."
 
 #: about/konq_aboutpage.cc:306
 msgid ""
@@ -1872,14 +1896,16 @@ msgid ""
 "the \"Location\" label that is to the left of the Location toolbar, drop it "
 "on to the desktop, and choose \"Link\"."
 msgstr ""
+"Kab stvaryć łuč na rabočym stale, jaki b viazaŭsia z hetaj staronkaju, prosta pieraciahni nadpis „Miesca” źleva ad paneli adrasu na stoł i vybiery punkt „Złučy”."
 
 #: about/konq_aboutpage.cc:309
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "You can also find <img width='16' height='16' src=\"%1\" /> \"Full-Screen "
 "Mode\" in the Settings menu. This feature is very useful for \"Talk\" "
 "sessions."
 msgstr ""
+"U menu naładaŭ jość sposab prahladu <img width='16' height='16' src=\"%1\" /> „Na ŭvieś ekran”. Hetaja mahčymaść vielmi zručnaja dla sesijaŭ-razmovaŭ."
 
 #: about/konq_aboutpage.cc:312
 #, kde-format
@@ -1890,6 +1916,12 @@ msgid ""
 "even load some example view-profiles (e.g. Midnight Commander), or create "
 "your own ones."
 msgstr ""
+"Divide et impera (pa-łacinsku „Dziali j zvajoŭvaj”). Hetaja aperacyja "
+"dzielić akno na dźvie častki (naprykład, „Akno → <img width='16' "
+"height='16' src=\"%1\" /> Padziali vertykalna”). Takim čynam možna "
+"źmianić prahramu „Konqueror”, jak upadabajecie. Navat možna adčytać "
+"krychu ŭzornych profilaŭ prahladu (naprykład, „Midnight Commander”) albo "
+"stvaryć ułasny."
 
 #: about/konq_aboutpage.cc:317
 #, kde-format
@@ -1898,6 +1930,7 @@ msgid ""
 "visiting asks you to use a different browser (and do not forget to send a "
 "complaint to the webmaster!)"
 msgstr ""
+"Skarystaj mahčymaść padmieny <a href=\"%1\">identyfikacyi hartača</a>, kali sajt prosić karystacca inšaj prahramaju (nie zabudźsia vysłać skarhu aŭtaru sajta!)"
 
 #: about/konq_aboutpage.cc:320
 #, kde-format
@@ -1905,12 +1938,14 @@ msgid ""
 "The <img width='16' height='16' src=\"%1\"></img> History in your SideBar "
 "ensures that you can keep track of the pages you have visited recently."
 msgstr ""
+"<img width='16' height='16' src=\"%1\"></img> Historyja ŭ bakavoj paneli zachoŭvaje śpis naviedanych niadaŭna sajtaŭ."
 
 #: about/konq_aboutpage.cc:322
 #, kde-format
 msgid ""
 "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
 msgstr ""
+"Karystajsia <a href=\"%1\">proxy</a>-serveram z padmiennaj pamiaćciu, kab paskoryć sieciŭnaje spałučeńnie."
 
 #: about/konq_aboutpage.cc:324
 #, kde-format
@@ -1919,166 +1954,170 @@ msgid ""
 "Konqueror (Window -> <img width='16' height='16' SRC=\"%1\"></img> Show "
 "Terminal Emulator)."
 msgstr ""
+"Admysłovym karystańnikam, mabyć, spadabajecca modul „Konsole”, unutrany ŭ "
+"prahramu „Konqueror” („Akno → <img width='16' height='16' SRC=\"%1\"></img> Pakažy emulatar terminału”.)"
 
 #: about/konq_aboutpage.cc:327
-#, kde-format
+#, fuzzy, kde-format
 msgid "<img width='16' height='16' src=\"%1\"></img>"
-msgstr ""
+msgstr "<img width='16' height='16' src=\"%1\"></img>"
 
 #: about/konq_aboutpage.cc:328
 msgid "Next: Specifications"
-msgstr ""
+msgstr "Dalej: Specyfikacyi"
 
 #: about/konq_aboutpage.cc:343
 msgid "Installed Plugins"
-msgstr ""
+msgstr "Zainstalavanyja pluginy"
 
 #: about/konq_aboutpage.cc:344
 msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
-msgstr ""
+msgstr "<td>Plugin</td><td>Apisańnie</td><td>Fajł</td><td>Typy</td>"
 
 #: about/konq_aboutpage.cc:345
 msgid "Installed"
-msgstr ""
+msgstr "Zainstalavany"
 
 #: about/konq_aboutpage.cc:346
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
-msgstr ""
+msgstr "<td>Typ „MIME”</td><td>Apisańnie</td><td>Sufiksy</td><td>Plugin</td>"
 
 #: about/konq_aboutpage.cc:456
 msgid ""
 "Do you want to disable showing the introduction in the webbrowsing profile?"
 msgstr ""
+"Sapraŭdy pierastać pakazvać uvodziny dla profila hartańnia sieciva?"
 
 #: about/konq_aboutpage.cc:458
 msgid "Faster Startup?"
-msgstr ""
+msgstr "Paskoryć uklučeńnie?"
 
 #: about/konq_aboutpage.cc:458
 msgid "Disable"
-msgstr ""
+msgstr "Vyklučy"
 
 #: about/konq_aboutpage.cc:458
 msgid "Keep"
-msgstr ""
+msgstr "Pakiń"
 
 #: remoteencodingplugin/kremoteencodingplugin.cpp:53
 msgid "Select Remote Charset"
-msgstr ""
+msgstr "Vybiery dalnaje kadavańnie"
 
 #: remoteencodingplugin/kremoteencodingplugin.cpp:127
 msgid "Reload"
-msgstr ""
+msgstr "Pieračytaj"
 
 #: remoteencodingplugin/kremoteencodingplugin.cpp:128
 msgid "Default"
-msgstr ""
+msgstr "Zmoŭčanaje"
 
 #: shellcmdplugin/kshellcmdexecutor.cpp:124
 msgid "Input Required:"
-msgstr ""
+msgstr "Vymahajecca ŭpisańnie:"
 
 #: shellcmdplugin/kshellcmdplugin.cpp:40
 msgid "&Execute Shell Command..."
-msgstr ""
+msgstr "&Vykanaj zahad abałonki..."
 
 #: shellcmdplugin/kshellcmdplugin.cpp:50
 msgid ""
 "KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
 msgstr ""
+"„KShellCmdPlugin::slotExecuteShellCommand”: prahramnaja pamyłka. Kali łaska, paviedam raspracoŭnikam pra hetuju chibu."
 
 #: shellcmdplugin/kshellcmdplugin.cpp:56
 msgid "Executing shell commands works only on local directories."
-msgstr ""
+msgstr "Vykonvać zahady abałonki možna tolki ŭ miascovych katalohach."
 
 #: shellcmdplugin/kshellcmdplugin.cpp:75
 msgid "Execute Shell Command"
-msgstr ""
+msgstr "Vykanaj zahad abałonki"
 
 #: shellcmdplugin/kshellcmdplugin.cpp:76
 msgid "Execute shell command in current directory:"
-msgstr ""
+msgstr "Vykanaj zahad abałonki ŭ rabočym katalohu:"
 
 #: shellcmdplugin/kshellcmdplugin.cpp:86
 #, kde-format
 msgid "Output from command: \"%1\""
-msgstr ""
+msgstr "Vyjście ad zahadu: „%1”"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Ihar Hračyška"
 
 #: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "ihar.hrachyshka@gmail.com"
 
 #. i18n: file: src/konqueror.rc:5
 #. i18n: ectx: Menu (file)
 #: rc.cpp:5
 msgid "&File"
-msgstr ""
+msgstr "&Fajł"
 
 #. i18n: file: src/konqueror.rc:24
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:8
 msgid "&Edit"
-msgstr ""
+msgstr "&Redahuj"
 
 #. i18n: file: src/konqueror.rc:33
 #. i18n: ectx: Menu (view)
 #: rc.cpp:11
 msgid "&View"
-msgstr ""
+msgstr "&Vyhlad"
 
 #. i18n: file: src/konqueror.rc:44
 #. i18n: ectx: Menu (go)
 #: rc.cpp:14
 msgid "&Go"
-msgstr ""
+msgstr "&Idzi"
 
 #. i18n: file: src/konqueror.rc:54
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:17
 msgid "&Settings"
-msgstr ""
+msgstr "&Nałady"
 
 #. i18n: file: src/konqueror.rc:71
 #. i18n: ectx: Menu (window)
 #: rc.cpp:20
 msgid "&Window"
-msgstr ""
+msgstr "&Akno"
 
 #. i18n: file: src/konqueror.rc:87
 #. i18n: ectx: Menu (help)
 #: rc.cpp:23
 msgid "&Help"
-msgstr ""
+msgstr "&Dapamoha"
 
 #. i18n: file: src/konqueror.rc:92
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:26
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Hałoŭnaje panel pryładździa"
 
 #. i18n: file: src/konqueror.rc:102
 #. i18n: ectx: ToolBar (extraToolBar)
 #: rc.cpp:29
 msgid "Extra Toolbar"
-msgstr ""
+msgstr "Dadatkovaja panel pryładździa"
 
 #. i18n: file: src/konqueror.rc:109
 #. i18n: ectx: ToolBar (locationToolBar)
 #: rc.cpp:32
 msgid "Location Toolbar"
-msgstr ""
+msgstr "Panel adrasu"
 
 #. i18n: file: src/konqueror.rc:113
 #. i18n: ectx: ToolBar (bookmarkToolBar)
 #: rc.cpp:35
 msgid "Bookmark Toolbar"
-msgstr ""
+msgstr "Panel zakładak"
 
 #. i18n: file: remoteencodingplugin/kremoteencodingplugin.rc:4
 #. i18n: ectx: Menu (tools)
@@ -2086,95 +2125,95 @@ msgstr ""
 #. i18n: ectx: Menu (tools)
 #: rc.cpp:38 rc.cpp:41
 msgid "&Tools"
-msgstr ""
+msgstr "&Pryładździe"
 
 #. i18n: file: src/konqprofiledlg_base.ui:16
 #. i18n: ectx: property (text), widget (QLabel, lblName)
 #: rc.cpp:44
 msgid "&Profile name:"
-msgstr ""
+msgstr "&Nazva profila:"
 
 #. i18n: file: src/konqprofiledlg_base.ui:32
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbSaveURLs)
 #: rc.cpp:47
 msgid "Save &URLs in profile"
-msgstr ""
+msgstr "Zachavaj &adrasy dla profila"
 
 #. i18n: file: src/konqsessiondlg_base.ui:25
 #. i18n: ectx: property (text), widget (QPushButton, m_pNewButton)
 #: rc.cpp:50
 msgctxt "@action:button New session"
 msgid "New"
-msgstr ""
+msgstr "Novaja"
 
 #. i18n: file: src/konqsessiondlg_base.ui:32
 #. i18n: ectx: property (text), widget (QPushButton, m_pSaveCurrentButton)
 #: rc.cpp:53
 msgctxt "@action:button Save current session"
 msgid "Save current"
-msgstr ""
+msgstr "Zapišy hetuju"
 
 #. i18n: file: src/konqsessiondlg_base.ui:39
 #. i18n: ectx: property (text), widget (QPushButton, m_pRenameButton)
 #: rc.cpp:56
 msgctxt "@action:button Rename session"
 msgid "Rename"
-msgstr ""
+msgstr "Źmiani nazvu"
 
 #. i18n: file: src/konqsessiondlg_base.ui:46
 #. i18n: ectx: property (text), widget (QPushButton, m_pDeleteButton)
 #: rc.cpp:59
 msgctxt "@action:button Delete session"
 msgid "Delete"
-msgstr ""
+msgstr "Vydali"
 
 #. i18n: file: src/konqsessiondlg_base.ui:72
 #. i18n: ectx: property (text), widget (QCheckBox, m_pOpenTabsInsideCurrentWindow)
 #: rc.cpp:62
 msgid "Open tabs inside current window"
-msgstr ""
+msgstr "Adčyni kartki ŭ dziejnym aknie"
 
 #. i18n: file: src/konqnewsessiondlg_base.ui:33
 #. i18n: ectx: property (text), widget (QLabel, lblDescription)
 #: rc.cpp:65
 msgid "Save open tabs and windows for easy retrieval"
-msgstr ""
+msgstr "Zapišy śpis adčynienych kartak i voknaŭ, kab paźniej zmahčy ich uznavić"
 
 #. i18n: file: src/konqnewsessiondlg_base.ui:48
 #. i18n: ectx: property (text), widget (QLabel, lblSessionName)
 #: rc.cpp:68
 msgid "&Session name:"
-msgstr ""
+msgstr "Nazva &sesii:"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
 #: rc.cpp:71
 msgid "Limits"
-msgstr ""
+msgstr "Limity"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:44
 #. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
 #: rc.cpp:74
 msgid "URLs e&xpire after"
-msgstr ""
+msgstr "Adrasy &zastarejuć praz"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:54
 #. i18n: ectx: property (text), widget (QLabel, lEntries)
 #: rc.cpp:77
 msgid "Maximum &number of URLs:"
-msgstr ""
+msgstr "Najbolšaja &kolkaść adrasoŭ:"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:73
 #. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
 #: rc.cpp:80
 msgid "Custom Fonts For"
-msgstr ""
+msgstr "Ułasnyja šryfty dla"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:91
 #. i18n: ectx: property (text), widget (QLabel, lbNewer)
 #: rc.cpp:83
 msgid "URLs newer than"
-msgstr ""
+msgstr "Adrasy, naviejšyja za"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:107
 #. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
@@ -2182,13 +2221,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
 #: rc.cpp:86 rc.cpp:92
 msgid "Choose Font..."
-msgstr ""
+msgstr "Vybiery šryft..."
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:114
 #. i18n: ectx: property (text), widget (QLabel, lbOlder)
 #: rc.cpp:89
 msgid "URLs older than"
-msgstr ""
+msgstr "Adrasy, starejšyja za"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:146
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
@@ -2197,15 +2236,16 @@ msgid ""
 "Shows the number of times visited and the dates of the first and last "
 "visits, in addition to the URL"
 msgstr ""
+"Pakazvaje razam z adrasam kolkaść naviedvańniaŭ i daty pieršaha j apošniaha vizytaŭ"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:149
 #. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
 #: rc.cpp:101
 msgid "Detailed tooltips"
-msgstr ""
+msgstr "Detalnyja padkazki"
 
 #. i18n: file: sidebar/trees/history_module/history_dlg.ui:164
 #. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
 #: rc.cpp:104
 msgid "Clear History"
-msgstr ""
+msgstr "Vyčyści historyju"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-10 18:16+0200\n"
+"POT-Creation-Date: 2008-10-08 10:27+0200\n"
 "PO-Revision-Date: 2008-10-06 22:27+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -74,19 +74,21 @@ msgstr "Ellen Reitmayr"
 msgid "Usability"
 msgstr "Zručnaść"
 
-#: mainwindow.cpp:209
-msgid "Overview"
+#: mainwindow.cpp:215
+#, fuzzy, kde-format
+#| msgid "Overview"
+msgid "Overview(%1)"
 msgstr "Ahlad"
 
-#: mainwindow.cpp:219
+#: mainwindow.cpp:223
 msgid "S&earch:"
 msgstr "&Šukaj:"
 
-#: mainwindow.cpp:272
+#: mainwindow.cpp:275
 msgid "Search Bar<p>Enter a search term.</p>"
 msgstr "Panel pošuku<p>Upišy šukany vyraz.</p>"
 
-#: mainwindow.cpp:380
+#: mainwindow.cpp:383
 #, fuzzy, kde-format
 msgid "%1 hit in General"
 msgid_plural "%1 hits in General"
@@ -94,7 +96,7 @@ msgstr[0] "%1 vynik z hałoŭnych"
 msgstr[1] "%1 vyniki z hałoŭnych"
 msgstr[2] "%1 vynikaŭ z hałoŭnych"
 
-#: mainwindow.cpp:383
+#: mainwindow.cpp:386
 #, fuzzy, kde-format
 msgid "%1 hit in Advanced"
 msgid_plural "%1 hits in Advanced"

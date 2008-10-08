@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-27 09:41+0200\n"
+"POT-Creation-Date: 2008-10-08 10:27+0200\n"
 "PO-Revision-Date: 2008-09-19 15:21+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -109,21 +109,13 @@ msgstr "Vydali starejšyja fajły ź śmietnicy"
 msgid "Delete biggest files from trash"
 msgstr "Vydali bolšyja fajły ź śmietnicy"
 
-#: kio_trash.cpp:52
-msgid "Protocol name"
-msgstr "Nazva pratakoła"
-
-#: kio_trash.cpp:53 kio_trash.cpp:54
-msgid "Socket name"
-msgstr "Nazva sokieta"
-
-#: kio_trash.cpp:102 kio_trash.cpp:165 kio_trash.cpp:313 kio_trash.cpp:345
-#: kio_trash.cpp:511 kio_trash.cpp:523
+#: kio_trash.cpp:91 kio_trash.cpp:154 kio_trash.cpp:302 kio_trash.cpp:334
+#: kio_trash.cpp:500 kio_trash.cpp:512
 #, kde-format
 msgid "Malformed URL %1"
 msgstr "Kiepski adras „%1”."
 
-#: kio_trash.cpp:121
+#: kio_trash.cpp:110
 #, kde-format
 msgid ""
 "The directory %1 does not exist anymore, so it is not possible to restore "
@@ -135,6 +127,12 @@ msgstr ""
 "miescy. Možna stvaryć hety kataloh i paŭtaryć sprobu ŭznaŭleńnia albo "
 "pieraciahnuć patrebny fajł u inšaje miesca."
 
-#: kio_trash.cpp:150
+#: kio_trash.cpp:139
 msgid "This file is already in the trash bin."
 msgstr "Hety fajł užo lažyć u śmietnicy."
+
+#~ msgid "Protocol name"
+#~ msgstr "Nazva pratakoła"
+
+#~ msgid "Socket name"
+#~ msgstr "Nazva sokieta"

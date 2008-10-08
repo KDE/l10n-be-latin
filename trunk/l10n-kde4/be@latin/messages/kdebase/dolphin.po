@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-07 09:44+0200\n"
+"POT-Creation-Date: 2008-10-08 10:26+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -232,6 +232,11 @@ msgstr "Pakazvaj schavanyja fajły"
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Čytańnie kataloha..."
+
+#: dolphinviewcontainer.cpp:358
+msgctxt "@info:status"
+msgid "Protocol not supported"
+msgstr ""
 
 #: infosidebarpage.cpp:192
 #, kde-format
@@ -1398,147 +1403,147 @@ msgctxt "@label"
 msgid "Detailed Description (optional):"
 msgstr "Detalnaje apisańnie (možna nie pisać):"
 
-#: dolphinmainwindow.cpp:146
+#: dolphinmainwindow.cpp:147
 msgctxt "@info:status"
 msgid "Copy operation completed."
 msgstr "Kapijavańnie skončyłasia."
 
-#: dolphinmainwindow.cpp:150
+#: dolphinmainwindow.cpp:151
 msgctxt "@info:status"
 msgid "Move operation completed."
 msgstr "Pieraniasieńnie skončyłasia."
 
-#: dolphinmainwindow.cpp:154
+#: dolphinmainwindow.cpp:155
 msgctxt "@info:status"
 msgid "Link operation completed."
 msgstr "Stvareńnie łuča skončyłasia."
 
-#: dolphinmainwindow.cpp:158
+#: dolphinmainwindow.cpp:159
 msgctxt "@info:status"
 msgid "Move to trash operation completed."
 msgstr "Vykidańnie ŭ śmietnicu skončyłasia."
 
-#: dolphinmainwindow.cpp:162
+#: dolphinmainwindow.cpp:163
 msgctxt "@info:status"
 msgid "Renaming operation completed."
 msgstr "Źmiena nazvy skončyłasia."
 
-#: dolphinmainwindow.cpp:167
+#: dolphinmainwindow.cpp:168
 msgctxt "@info:status"
 msgid "Created folder."
 msgstr "Kataloh stvorany."
 
-#: dolphinmainwindow.cpp:728
+#: dolphinmainwindow.cpp:739
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Novaja kartka"
 
-#: dolphinmainwindow.cpp:731
+#: dolphinmainwindow.cpp:742
 msgctxt "@action:inmenu"
 msgid "Close Other Tabs"
 msgstr "Začyni inšyja kartki"
 
-#: dolphinmainwindow.cpp:733
+#: dolphinmainwindow.cpp:744
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Začyni kartku"
 
-#: dolphinmainwindow.cpp:897
+#: dolphinmainwindow.cpp:908
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "Stvary novuju"
 
-#: dolphinmainwindow.cpp:904
+#: dolphinmainwindow.cpp:915
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "Novaje &akno"
 
-#: dolphinmainwindow.cpp:910
+#: dolphinmainwindow.cpp:921
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "Novaja kartka"
 
-#: dolphinmainwindow.cpp:914
+#: dolphinmainwindow.cpp:925
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "Začyni kartku"
 
-#: dolphinmainwindow.cpp:937
+#: dolphinmainwindow.cpp:948
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "Vyłučy ŭsio"
 
-#: dolphinmainwindow.cpp:942
+#: dolphinmainwindow.cpp:953
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "Pieramiani vyłučeńnie"
 
-#: dolphinmainwindow.cpp:955
+#: dolphinmainwindow.cpp:966
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "Pieračytaj"
 
-#: dolphinmainwindow.cpp:961
+#: dolphinmainwindow.cpp:972
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "Spyni"
 
-#: dolphinmainwindow.cpp:967
+#: dolphinmainwindow.cpp:978
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Show Full Location"
 msgstr "Pakazvaj poŭny adras"
 
-#: dolphinmainwindow.cpp:972
+#: dolphinmainwindow.cpp:983
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Edit Location"
 msgstr "Źmiani miesca"
 
-#: dolphinmainwindow.cpp:988
+#: dolphinmainwindow.cpp:999
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "Pakazvaj panel filtru"
 
-#: dolphinmainwindow.cpp:993
+#: dolphinmainwindow.cpp:1004
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "Paraŭnaj fajły"
 
-#: dolphinmainwindow.cpp:999
+#: dolphinmainwindow.cpp:1010
 msgctxt "@action:inmenu Tools"
 msgid "Quick View"
 msgstr "Chutki prahlad"
 
-#: dolphinmainwindow.cpp:1013 dolphinmainwindow.cpp:1019
+#: dolphinmainwindow.cpp:1024 dolphinmainwindow.cpp:1030
 msgctxt "@title:window"
 msgid "Information"
 msgstr "Źviestki"
 
-#: dolphinmainwindow.cpp:1032 dolphinmainwindow.cpp:1038
+#: dolphinmainwindow.cpp:1043 dolphinmainwindow.cpp:1049
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "Katalohi"
 
-#: dolphinmainwindow.cpp:1052 dolphinmainwindow.cpp:1060
+#: dolphinmainwindow.cpp:1063 dolphinmainwindow.cpp:1071
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "Terminał"
 
-#: dolphinmainwindow.cpp:1077 dolphinmainwindow.cpp:1086
+#: dolphinmainwindow.cpp:1088 dolphinmainwindow.cpp:1097
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Miescy"
 
-#: dolphinmainwindow.cpp:1179
+#: dolphinmainwindow.cpp:1190
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "Začyni"
 
-#: dolphinmainwindow.cpp:1182
+#: dolphinmainwindow.cpp:1193
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "Začyni"
 
-#: dolphinmainwindow.cpp:1186
+#: dolphinmainwindow.cpp:1197
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "Padziali"

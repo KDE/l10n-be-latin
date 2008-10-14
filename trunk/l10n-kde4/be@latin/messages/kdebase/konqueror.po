@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-07 09:44+0200\n"
+"POT-Creation-Date: 2008-10-14 09:42+0200\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -996,9 +996,21 @@ msgstr "Paćviardžeńnie"
 msgid "C&lose Current Tab"
 msgstr "&Začyni hetuju kartku"
 
-#: src/konqmainwindow.cpp:5070
+#: src/konqmainwindow.cpp:5068
 msgid ""
 "This tab contains changes that have not been submitted.\n"
+"Closing the window will discard these changes."
+msgstr ""
+"Hetaja kartka ŭtrymvaje niavysłanyja źmieny.\n"
+"Začyniŭšy akno, ty ich straciš."
+
+#: src/konqmainwindow.cpp:5069
+#, fuzzy
+#| msgid ""
+#| "This tab contains changes that have not been submitted.\n"
+#| "Closing the window will discard these changes."
+msgid ""
+"This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
 msgstr ""
 "Hetaja kartka ŭtrymvaje niavysłanyja źmieny.\n"

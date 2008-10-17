@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-13 10:18+0200\n"
+"POT-Creation-Date: 2008-10-17 09:35+0200\n"
 "PO-Revision-Date: 2008-10-05 10:31+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -37,7 +37,9 @@ msgstr "Uklučy, kali chočaš bačyć sekundy."
 #. i18n: file: clockConfig.ui:28
 #. i18n: ectx: property (text), widget (QCheckBox, showSecondHandCheckBox)
 #: rc.cpp:9
-msgid "Show &seconds"
+#, fuzzy
+#| msgid "Show &seconds"
+msgid "Show &seconds hand"
 msgstr "Pakazvaj &sekundy"
 
 #. i18n: file: clockConfig.ui:35
@@ -55,5 +57,10 @@ msgstr "Uklučy, kali chočaš bačyć nazvu časavaha pojasu."
 #. i18n: file: clockConfig.ui:41
 #. i18n: ectx: property (text), widget (QCheckBox, showTimezoneStringCheckBox)
 #: rc.cpp:18
-msgid "Also show the Timezone as text"
-msgstr "Taksama pakazvaj nazvu časavaha pojasu"
+#, fuzzy
+#| msgid "Show the Timezone in text"
+msgid "Show &time zone"
+msgstr "Pakazvaj časavy pojas nadpisam"
+
+#~ msgid "Also show the Timezone as text"
+#~ msgstr "Taksama pakazvaj nazvu časavaha pojasu"

@@ -2423,12 +2423,9 @@ msgid "Bookmarks"
 msgstr "Zakładki"
 
 #: apps/konqueror/settings/kio/bookmarks.desktop:90
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the fonts used on web pages"
 msgctxt "Comment"
 msgid "Configure the bookmarks home page"
-msgstr "Naładź šryfty na sieciŭnym staronkach"
+msgstr "Naładź chatniuju staronku z zakładkami"
 
 #: apps/konqueror/settings/kio/cache.desktop:12
 msgctxt "Name"
@@ -2777,7 +2774,7 @@ msgstr "Plugin zahadaŭ abałonki dla prahramy „Konqueror”"
 #: apps/konqueror/sidebar/konq_sidebartng.desktop:4
 msgctxt "Name"
 msgid "Navigation Panel"
-msgstr ""
+msgstr "Panel miescaŭ"
 
 #: apps/konqueror/sidebar/test/test.desktop:5
 msgctxt "Name"
@@ -2945,7 +2942,7 @@ msgstr "Syhnał u dziejnaj sesii"
 #: apps/konsole/desktop/konsole.notifyrc:94
 msgctxt "Comment"
 msgid "Bell emitted within a visible session"
-msgstr ""
+msgstr "U bačnaj sesii ŭźnik syhnał."
 
 #: apps/konsole/desktop/konsole.notifyrc:161
 msgctxt "Name"
@@ -2955,7 +2952,7 @@ msgstr "Syhnał u niadziejnaj sesii"
 #: apps/konsole/desktop/konsole.notifyrc:216
 msgctxt "Comment"
 msgid "Bell emitted within a non-visible session"
-msgstr ""
+msgstr "U niabačnaj sesii ŭźnik syhnał."
 
 #: apps/konsole/desktop/konsole.notifyrc:284
 msgctxt "Name"
@@ -3002,7 +2999,7 @@ msgstr "Emulatar terminała"
 #: apps/konsole/desktop/kwrited.desktop:2
 msgctxt "Name"
 msgid "KDE Write Daemon"
-msgstr ""
+msgstr "Słužba „Write” dla „KDE”"
 
 #: apps/konsole/desktop/kwrited.desktop:76
 msgctxt "Comment"
@@ -3182,13 +3179,13 @@ msgstr "Panel zakładak"
 #: apps/lib/konq/favicons/favicons.desktop:3
 msgctxt "Name"
 msgid "KDED Favicon Module"
-msgstr ""
+msgstr "Modul ikonaŭ sajtaŭ dla „KDE”"
 
 #: apps/lib/konq/favicons/favicons.desktop:75
 #: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:51
 msgctxt "Comment"
 msgid "Shortcut icon support"
-msgstr ""
+msgstr "Absłuhoŭvańnie ikonaŭ sajtaŭ"
 
 #: apps/lib/konq/konqpopupmenuplugin.desktop:4
 msgctxt "Comment"
@@ -3646,32 +3643,32 @@ msgstr "Scrollkeeper"
 #: runtime/khelpcenter/plugins/Tutorials/.directory:3
 msgctxt "Name"
 msgid "Tutorials"
-msgstr ""
+msgstr "Padručniki"
 
 #: runtime/khelpcenter/plugins/Tutorials/.directory:73
 msgctxt "Comment"
 msgid "Tutorial and introduction documents."
-msgstr ""
+msgstr "Padručniki dy ŭvodziny."
 
 #: runtime/khelpcenter/plugins/Tutorials/quickstart.desktop:3
 msgctxt "Name"
 msgid "Quickstart Guide"
-msgstr ""
+msgstr "Karotki padručnik"
 
 #: runtime/khelpcenter/plugins/Tutorials/quickstart.desktop:79
 msgctxt "Comment"
 msgid "KDE quickstart guide."
-msgstr ""
+msgstr "Karotki padručnik dla „KDE”."
 
 #: runtime/khelpcenter/plugins/Tutorials/visualdict.desktop:3
 msgctxt "Name"
 msgid "A Visual Guide to KDE"
-msgstr ""
+msgstr "Ilustravany padručnik dla „KDE”"
 
 #: runtime/khelpcenter/plugins/Tutorials/visualdict.desktop:75
 msgctxt "Comment"
 msgid "Guide to KDE widgets"
-msgstr ""
+msgstr "Padručnik pra widžety „KDE”"
 
 #: runtime/khelpcenter/plugins/contact.desktop:3
 msgctxt "Name"
@@ -3867,7 +3864,7 @@ msgstr ""
 #: runtime/knotify/kde.notifyrc:251
 msgctxt "Comment"
 msgid "The end of the list of matches has been reached"
-msgstr ""
+msgstr "Dasiahnuty kaniec śpisu adpaviednikaŭ."
 
 #: runtime/knotify/kde.notifyrc:313
 msgctxt "Name"
@@ -3877,7 +3874,7 @@ msgstr ""
 #: runtime/knotify/kde.notifyrc:367
 msgctxt "Comment"
 msgid "No matching completion was found"
-msgstr ""
+msgstr "Adpaviednik nia znojdzieny."
 
 #: runtime/knotify/kde.notifyrc:428
 msgctxt "Name"
@@ -3887,7 +3884,7 @@ msgstr ""
 #: runtime/knotify/kde.notifyrc:481
 msgctxt "Comment"
 msgid "There is more than one possible match"
-msgstr ""
+msgstr "Znojdzienyja niekalki adpaviednikaŭ."
 
 #: runtime/knotify/kde.notifyrc:542
 msgctxt "Name"
@@ -6882,22 +6879,22 @@ msgstr ""
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:120
 msgctxt "Name"
 msgid "Indexing suspended"
-msgstr ""
+msgstr "Indeksavańnie spynienaje"
 
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:142
 msgctxt "Comment"
 msgid "Strigi file indexing has been suspended"
-msgstr ""
+msgstr "Słužba „Strigi” pierapyniła indeksavańnie fajłaŭ."
 
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:166
 msgctxt "Name"
 msgid "Indexing resumed"
-msgstr ""
+msgstr "Indeksavańnie praciahnutaje"
 
 #: runtime/nepomuk/services/strigi/nepomukstrigiservice.notifyrc:187
 msgctxt "Comment"
 msgid "Strigi file indexing has been resumed"
-msgstr ""
+msgstr "Słužba „Strigi” praciahnuła indeksavańnie fajłaŭ."
 
 #: runtime/phonon/kcm/kcm_phonon.desktop:71
 msgctxt "Comment"
@@ -6929,18 +6926,20 @@ msgstr "Aplikacyja"
 #: runtime/phonon/platform_kde/phonon.notifyrc:115
 msgctxt "Name"
 msgid "Audio Device Fallback"
-msgstr ""
+msgstr "Zapasnaja hukavaja pryłada"
 
 #: runtime/phonon/platform_kde/phonon.notifyrc:161
 msgctxt "Comment"
 msgid ""
 "Notification on automatic fallback if the preferred device is unavailable"
 msgstr ""
+"Paviedamleńnie pra aŭtamatyčnaje vykarystańnie zapasnoj pryłady, kali "
+"niama hałoŭnaj."
 
 #: runtime/phonon/platform_kde/phononbackend.desktop:4
 msgctxt "Name"
 msgid "KDE Multimedia Backend"
-msgstr ""
+msgstr "Multymedyjnaja systema dla „KDE”"
 
 #: runtime/pics/hicolor/index.theme:2
 msgctxt "Name"
@@ -6950,7 +6949,7 @@ msgstr "Vysoki kantrast „KDE-HiColor”"
 #: runtime/pics/hicolor/index.theme:33
 msgctxt "Comment"
 msgid "Fallback icon theme"
-msgstr ""
+msgstr "Zapasny matyŭ ikonaŭ"
 
 #: runtime/pics/oxygen/index.theme:24
 msgctxt "Comment"
@@ -7189,7 +7188,7 @@ msgstr "Nałady myšy"
 #: workspace/kcontrol/kdm/background/patterns/fish.desktop:2
 msgctxt "Comment"
 msgid "Fish Net"
-msgstr ""
+msgstr "Rybarskaje sieciva"
 
 #: workspace/kcontrol/kdm/background/patterns/flowers.desktop:2
 msgctxt "Comment"
@@ -7199,22 +7198,22 @@ msgstr "Kraski"
 #: workspace/kcontrol/kdm/background/patterns/night-rock.desktop:2
 msgctxt "Comment"
 msgid "Night Rock by Tigert"
-msgstr ""
+msgstr "Načnaja skała (Tigert)"
 
 #: workspace/kcontrol/kdm/background/patterns/pavement.desktop:2
 msgctxt "Comment"
 msgid "Pavement"
-msgstr ""
+msgstr "Brukavanka"
 
 #: workspace/kcontrol/kdm/background/patterns/rattan.desktop:2
 msgctxt "Comment"
 msgid "Rattan"
-msgstr ""
+msgstr "Palma"
 
 #: workspace/kcontrol/kdm/background/patterns/stonewall2.desktop:2
 msgctxt "Comment"
 msgid "Stonewall 2 by Tigert"
-msgstr ""
+msgstr "Kamiennaja ściana-2 (Tigert)"
 
 #: workspace/kcontrol/kdm/background/patterns/triangles.desktop:2
 msgctxt "Comment"
@@ -7299,7 +7298,7 @@ msgstr "Schiema „Windows” (z klavišaj „Win”)"
 #: workspace/kcontrol/keys/schemes/wm3.kksrc:2
 msgctxt "Name"
 msgid "WindowMaker (3 Modifier Keys)"
-msgstr ""
+msgstr "Schiema „WindowMaker” (z 3 madyfikacyjnymi klavišami)"
 
 #: workspace/kcontrol/kfontinst/apps/installfont.desktop:7
 msgctxt "Name"
@@ -7370,12 +7369,12 @@ msgstr "Pryłada dla vykładaŭ klavijatury"
 #: workspace/kcontrol/launch/kcmlaunch.desktop:14
 msgctxt "Name"
 msgid "Launch Feedback"
-msgstr ""
+msgstr "Vyjaŭleńnie ŭklučeńnia"
 
 #: workspace/kcontrol/launch/kcmlaunch.desktop:85
 msgctxt "Comment"
 msgid "Choose application-launch feedback style"
-msgstr ""
+msgstr "Vybiery, jak vyjaŭlać praces uklučeńnia aplikacyi"
 
 #: workspace/kcontrol/randr/krandrtray.desktop:2
 msgctxt "Name"
@@ -7972,7 +7971,7 @@ msgstr "KHotKeys"
 #: workspace/khotkeys/app/khotkeys.desktop:39
 msgctxt "Comment"
 msgid "KHotKeys daemon. No daemon, no hotkeys."
-msgstr ""
+msgstr "Słužba skarotaŭ „KHotKeys”."
 
 #: workspace/khotkeys/data/kde32b1.khotkeys:5
 msgctxt "Comment"
@@ -8576,12 +8575,12 @@ msgstr "Nałady kiraŭnika sesijaŭ i vychadu z systemy"
 #: workspace/ksplash/kcm/ksplashthememgr.desktop:15
 msgctxt "Name"
 msgid "Splash Screen"
-msgstr ""
+msgstr "Zastaŭka"
 
 #: workspace/ksplash/kcm/ksplashthememgr.desktop:89
 msgctxt "Comment"
 msgid "Manager for Splash Screen Themes"
-msgstr ""
+msgstr "Kiraŭnik zastavak"
 
 #: workspace/ksysguard/example/ksysguard.notifyrc:3
 msgctxt "Comment"
@@ -9852,12 +9851,9 @@ msgid "Default desktop containment"
 msgstr "Zmoŭčanaje jomišča dla rabočaha stała"
 
 #: workspace/plasma/containments/mid-panel/plasma-containment-midpanel.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Workspace shell for mobile internet devices"
 msgctxt "Name"
 msgid "Panel for Mobile Internet Devices"
-msgstr "Rabočy abšar dla mabilnych internetnych pryładaŭ."
+msgstr "Panel dla mabilnych internetnych pryładaŭ"
 
 #: workspace/plasma/containments/mid-panel/plasma-containment-midpanel.desktop:18
 #: workspace/plasma/containments/panel/plasma-containment-panel.desktop:64
@@ -9881,17 +9877,14 @@ msgid "Look up word meanings"
 msgstr "Pošuk značeńniaŭ słovaŭ"
 
 #: workspace/plasma/dataengines/executable/plasma-dataengine-executable.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Penguin Command"
 msgctxt "Name"
 msgid "Run Commands"
-msgstr "Penguin Command"
+msgstr "Vykonvaj zahady"
 
 #: workspace/plasma/dataengines/executable/plasma-dataengine-executable.desktop:19
 msgctxt "Comment"
 msgid "Run Executable Data Engine"
-msgstr ""
+msgstr "Uklučaj systemu dostupu da źviestak"
 
 #: workspace/plasma/dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:2
 msgctxt "Name"
@@ -9961,12 +9954,9 @@ msgid "RSS"
 msgstr ""
 
 #: workspace/plasma/dataengines/rss/plasma-dataengine-rss.desktop:6
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Search Engine"
 msgctxt "Comment"
 msgid "RSS News Data Engine"
-msgstr "Systema pošuku"
+msgstr "Systema navinaŭ z žarołaŭ „RSS”"
 
 #: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:2
 msgctxt "Name"
@@ -10150,20 +10140,14 @@ msgid "Format of a Python Script Engine Package"
 msgstr ""
 
 #: workspace/plasma/scriptengines/python/plasma-scriptengine-applet-python.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Dashboard Widget"
 msgctxt "Name"
 msgid "Python Widget"
-msgstr "Widžet „Dashboard”"
+msgstr "Widžet „Python”"
 
 #: workspace/plasma/scriptengines/python/plasma-scriptengine-applet-python.desktop:14
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Native Plasma widget written in JavaScript"
 msgctxt "Comment"
 msgid "Plasma widget support written in Python"
-msgstr "Widžet systemy „Plasma”, napisany ŭ movie „JavaScript”"
+msgstr "Widžet systemy „Plasma”, napisany ŭ movie „Python”"
 
 #: workspace/plasma/scriptengines/python/plasma-scriptengine-dataengine-python.desktop:2
 msgctxt "Name"
@@ -10177,62 +10161,41 @@ msgstr ""
 
 #: workspace/plasma/scriptengines/python/test/plasma-applet-pyclock.desktop:3
 #: workspace/plasma/scriptengines/python/test/plasma-pyclock/metadata.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "X Clock"
 msgctxt "Name"
 msgid "Python Clock"
-msgstr "Hadzińnik X"
+msgstr "Hadzińnik dla „Python”"
 
 #: workspace/plasma/scriptengines/python/test/plasma-dataengine-pytime.desktop:2
 #: workspace/plasma/scriptengines/python/test/plasma-dataengine-pytime/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Date and Time"
 msgctxt "Name"
 msgid "Python Date and Time"
-msgstr "Data j čas"
+msgstr "Data j čas dla „Python”"
 
 #: workspace/plasma/scriptengines/python/test/plasma-dataengine-pytime.desktop:14
 #: workspace/plasma/scriptengines/python/test/plasma-dataengine-pytime/metadata.desktop:14
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Time data for Plasmoids"
 msgctxt "Comment"
 msgid "Python Time data for Plasmoids"
-msgstr "Źviestki pra čas dla widžetaŭ"
+msgstr "Źviestki pra čas dla widžetaŭ „Python”"
 
 #: workspace/plasma/scriptengines/qedjescript/plasma-appletscript-qedje.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Eject"
 msgctxt "Name"
 msgid "QEdje"
-msgstr "Vysuń"
+msgstr "QEdje"
 
 #: workspace/plasma/scriptengines/qedjescript/plasma-appletscript-qedje.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Google Gadgets"
 msgctxt "Comment"
 msgid "QEdje Gadgets"
-msgstr "Gadžety „Google”"
+msgstr "Gadžety „QEdje”"
 
 #: workspace/plasma/scriptengines/qedjescript/plasma-packagestructure-qedje.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Google Gadgets"
 msgctxt "Name"
 msgid "QEdje Gadgets"
-msgstr "Gadžety „Google”"
+msgstr "Gadžety „QEdje”"
 
 #: workspace/plasma/scriptengines/qedjescript/plasma-packagestructure-qedje.desktop:16
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Google Gadgets"
 msgctxt "Comment"
 msgid "QEdje Gadget"
-msgstr "Gadžety „Google”"
+msgstr "Gadžet „QEdje”"
 
 #: workspace/plasma/scriptengines/qtscript/plasma-scriptengine-qscript.desktop:2
 msgctxt "Name"
@@ -10255,25 +10218,19 @@ msgid "JavaScript Runner"
 msgstr "Uklučeńnie „JavaScript”."
 
 #: workspace/plasma/scriptengines/webkit/plasma-packagestructure-dashboard.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "MacOS dashboard widget"
 msgctxt "Name"
 msgid "MacOS Dashboard Widgets"
-msgstr "Widžet „Dashboard” systemy „MacOS”"
+msgstr "Widžety „Dashboard” dla systemy „MacOS”"
 
 #: workspace/plasma/scriptengines/webkit/plasma-packagestructure-dashboard.desktop:14
 msgctxt "Comment"
 msgid "MacOS dashboard widget"
-msgstr "Widžet „Dashboard” systemy „MacOS”"
+msgstr "Widžet „Dashboard” dla systemy „MacOS”"
 
 #: workspace/plasma/scriptengines/webkit/plasma-packagestructure-web.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web Widget"
 msgctxt "Name"
 msgid "Web Widgets"
-msgstr "Sieciŭny widžet"
+msgstr "Sieciŭnyja widžety"
 
 #: workspace/plasma/scriptengines/webkit/plasma-packagestructure-web.desktop:14
 msgctxt "Comment"

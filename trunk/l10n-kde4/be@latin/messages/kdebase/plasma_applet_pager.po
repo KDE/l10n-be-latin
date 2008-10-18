@@ -33,24 +33,18 @@ msgstr "Naładź pieraklučnika stałoŭ"
 #. i18n: file: pagerConfig.ui:43
 #. i18n: ectx: property (text), widget (QLabel, displayLabel)
 #: rc.cpp:9
-#, fuzzy
-#| msgid "Displayed text:"
 msgid "Display text:"
-msgstr "Pakazvany tekst:"
+msgstr "Pakazvaj tekst:"
 
 #. i18n: file: pagerConfig.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, desktopNumberRadioButton)
 #: rc.cpp:12
-#, fuzzy
-#| msgid "Desktop Number"
 msgid "Desktop number"
 msgstr "Numar stała"
 
 #. i18n: file: pagerConfig.ui:60
 #. i18n: ectx: property (text), widget (QRadioButton, desktopNameRadioButton)
 #: rc.cpp:15
-#, fuzzy
-#| msgid "Desktop Name"
 msgid "Desktop name"
 msgstr "Nazva stała"
 
@@ -58,15 +52,13 @@ msgstr "Nazva stała"
 #. i18n: ectx: property (text), widget (QRadioButton, displayNoneRadioButton)
 #: rc.cpp:18
 msgid "No text"
-msgstr ""
+msgstr "Niama tekstu"
 
 #. i18n: file: pagerConfig.ui:74
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:21
-#, fuzzy
-#| msgid "Display window &icons"
 msgid "Display icons:"
-msgstr "Pakazvaj &ikony voknaŭ"
+msgstr "Pakazvaj ikony:"
 
 #. i18n: file: pagerConfig.ui:94
 #. i18n: ectx: property (text), widget (QLabel, labelRows)
@@ -85,13 +77,5 @@ msgstr "Źmiani kolkaść radkoŭ"
 #. i18n: file: pagerConfig.ui:170
 #. i18n: ectx: property (text), widget (QPushButton, configureDesktopsButton)
 #: rc.cpp:33
-#, fuzzy
-#| msgid "&Configure Desktops..."
 msgid "Configure Desktops..."
-msgstr "&Naładź rabočyja stały..."
-
-#~ msgid "None"
-#~ msgstr "Niama"
-
-#~ msgid "What will appear when the mouse is over a desktop miniature"
-#~ msgstr "Što pakazvać, kali kursor pastaŭleny nad minijaturkaju stała"
+msgstr "Naładź rabočyja stały..."

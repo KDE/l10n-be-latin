@@ -8,15 +8,14 @@ msgstr ""
 "Project-Id-Version: plasma_applet_dig_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-10-14 09:42+0200\n"
-"PO-Revision-Date: 2008-10-05 10:41+0300\n"
+"PO-Revision-Date: 2008-10-19 00:11+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: clock.cpp:159
 msgid "General"
@@ -52,7 +51,7 @@ msgstr "%1 %2"
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox)
 #: rc.cpp:3
 msgid "Font properties for the clock"
-msgstr ""
+msgstr "Ułaścivaści šryfta dla hadzińnika"
 
 #. i18n: file: clockConfig.ui:22
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -70,7 +69,7 @@ msgstr "Kštałt šryfta:"
 #. i18n: ectx: property (toolTip), widget (KFontComboBox, plainClockFont)
 #: rc.cpp:12
 msgid "Choose the font family"
-msgstr ""
+msgstr "Vybiery rod šryftoŭ"
 
 #. i18n: file: clockConfig.ui:49
 #. i18n: ectx: property (whatsThis), widget (KFontComboBox, plainClockFont)
@@ -78,537 +77,535 @@ msgstr ""
 msgid ""
 "You can change the default family font for the clock. Choose the new one in "
 "the list."
-msgstr ""
+msgstr "Ty možaš vybrać zmoŭčany rod šryftoŭ dla hadzińnika z hetaha śpisu."
 
 #. i18n: file: clockConfig.ui:53
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:18
 msgid "Sans Serif"
-msgstr ""
+msgstr "Sans Serif"
 
 #. i18n: file: clockConfig.ui:58
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:21
 msgid "Serif"
-msgstr ""
+msgstr "Serif"
 
 #. i18n: file: clockConfig.ui:63
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:24
 msgid "Monospace"
-msgstr ""
+msgstr "Monospace"
 
 #. i18n: file: clockConfig.ui:68
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:27
 msgid "Adobe Courier"
-msgstr ""
+msgstr "Adobe Courier"
 
 #. i18n: file: clockConfig.ui:73
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:30
 msgid "Adobe Helvetica"
-msgstr ""
+msgstr "Adobe Helvetica"
 
 #. i18n: file: clockConfig.ui:78
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:33
 msgid "Adobe New Century Schoolbook"
-msgstr ""
+msgstr "Adobe New Century Schoolbook"
 
 #. i18n: file: clockConfig.ui:83
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:36
 msgid "Adobe Times"
-msgstr ""
+msgstr "Adobe Times"
 
 #. i18n: file: clockConfig.ui:88
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:39
 msgid "Adobe Utopia"
-msgstr ""
+msgstr "Adobe Utopia"
 
 #. i18n: file: clockConfig.ui:93
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:42
 msgid "Albany AMT"
-msgstr ""
+msgstr "Albany AMT"
 
 #. i18n: file: clockConfig.ui:98
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:45
 msgid "Andale Sans"
-msgstr ""
+msgstr "Andale Sans"
 
 #. i18n: file: clockConfig.ui:103
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:48
 msgid "Andy MT"
-msgstr ""
+msgstr "Andy MT"
 
 #. i18n: file: clockConfig.ui:108
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:51
 msgid "Arabic Newspaper"
-msgstr ""
+msgstr "Arabic Newspaper"
 
 #. i18n: file: clockConfig.ui:113
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:54
 msgid "Arial Black"
-msgstr ""
+msgstr "Arial Black"
 
 #. i18n: file: clockConfig.ui:118
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:57
 msgid "Bell MT"
-msgstr ""
+msgstr "Bell MT"
 
 #. i18n: file: clockConfig.ui:123
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:60
 msgid "B&H Lucida"
-msgstr ""
+msgstr "B&H Lucida"
 
 #. i18n: file: clockConfig.ui:128
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:63
 msgid "B&H LucidaBright"
-msgstr ""
+msgstr "B&H LucidaBright"
 
 #. i18n: file: clockConfig.ui:133
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:66
 msgid "B&H LucidaTypewriter"
-msgstr ""
+msgstr "B&H LucidaTypewriter"
 
 #. i18n: file: clockConfig.ui:138
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:69
 msgid "Bitstream Charter"
-msgstr ""
+msgstr "Bitstream Charter"
 
 #. i18n: file: clockConfig.ui:143
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:72
 msgid "Bitstream Terminal"
-msgstr ""
+msgstr "Bitstream Terminal"
 
 #. i18n: file: clockConfig.ui:148
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:75
 msgid "Century Schoolbook L"
-msgstr ""
+msgstr "Century Schoolbook L"
 
 #. i18n: file: clockConfig.ui:153
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:78
 msgid "Courier"
-msgstr ""
+msgstr "Courier"
 
 #. i18n: file: clockConfig.ui:158
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:81
 msgid "Courier 10 Pitch"
-msgstr ""
+msgstr "Courier 10 Pitch"
 
 #. i18n: file: clockConfig.ui:163
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:84
 msgid "Cumberland AMT"
-msgstr ""
+msgstr "Cumberland AMT"
 
 #. i18n: file: clockConfig.ui:168
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:87
 msgid "Cursor"
-msgstr ""
+msgstr "Cursor"
 
 #. i18n: file: clockConfig.ui:173
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:90
 msgid "DEC Terminal"
-msgstr ""
+msgstr "DEC Terminal"
 
 #. i18n: file: clockConfig.ui:178
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:93
 msgid "DejaVu Sans"
-msgstr ""
+msgstr "DejaVu Sans"
 
 #. i18n: file: clockConfig.ui:183
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:96
 msgid "DejaVu Sans Mono"
-msgstr ""
+msgstr "DejaVu Sans Mono"
 
 #. i18n: file: clockConfig.ui:188
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:99
 msgid "DejaVu Serif"
-msgstr ""
+msgstr "DejaVu Serif"
 
 #. i18n: file: clockConfig.ui:193
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:102
 msgid "Dingbats"
-msgstr ""
+msgstr "Dingbats"
 
 #. i18n: file: clockConfig.ui:198
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:105
 msgid "East Syriac Adiabene"
-msgstr ""
+msgstr "East Syriac Adiabene"
 
 #. i18n: file: clockConfig.ui:203
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:108
 msgid "East Syriac Ctesiphon"
-msgstr ""
+msgstr "East Syriac Ctesiphon"
 
 #. i18n: file: clockConfig.ui:208
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:111
 msgid "Efont Biwidth"
-msgstr ""
+msgstr "Efont Biwidth"
 
 #. i18n: file: clockConfig.ui:213
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:114
 msgid "Efont Fixed"
-msgstr ""
+msgstr "Efont Fixed"
 
 #. i18n: file: clockConfig.ui:218
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:117
 msgid "Efont Fixed Wide"
-msgstr ""
+msgstr "Efont Fixed Wide"
 
 #. i18n: file: clockConfig.ui:223
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:120
 msgid "Estrangelo Antioch"
-msgstr ""
+msgstr "Estrangelo Antioch"
 
 #. i18n: file: clockConfig.ui:228
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:123
 msgid "Estrangelo Edessa"
-msgstr ""
+msgstr "Estrangelo Edessa"
 
 #. i18n: file: clockConfig.ui:233
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:126
 msgid "Estrangelo Midyat"
-msgstr ""
+msgstr "Estrangelo Midyat"
 
 #. i18n: file: clockConfig.ui:238
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:129
 msgid "Estrangelo Nisibin"
-msgstr ""
+msgstr "Estrangelo Nisibin"
 
 #. i18n: file: clockConfig.ui:243
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:132
 msgid "Estrangelo Nisibin Outline"
-msgstr ""
+msgstr "Estrangelo Nisibin Outline"
 
 #. i18n: file: clockConfig.ui:248
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:135
 msgid "Estrangelo Quenneshrin"
-msgstr ""
+msgstr "Estrangelo Quenneshrin"
 
 #. i18n: file: clockConfig.ui:253
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:138
 msgid "Estrangelo Talada"
-msgstr ""
+msgstr "Estrangelo Talada"
 
 #. i18n: file: clockConfig.ui:258
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:141
 msgid "Estrangelo TurAbdin"
-msgstr ""
+msgstr "Estrangelo TurAbdin"
 
 #. i18n: file: clockConfig.ui:263
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:144
 msgid "ETL Fixed"
-msgstr ""
+msgstr "ETL Fixed"
 
 #. i18n: file: clockConfig.ui:268
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:147
 msgid "FreeMono"
-msgstr ""
+msgstr "FreeMono"
 
 #. i18n: file: clockConfig.ui:273
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:150
 msgid "FreeSans"
-msgstr ""
+msgstr "FreeSans"
 
 #. i18n: file: clockConfig.ui:278
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:153
 msgid "FreeSerif"
-msgstr ""
+msgstr "FreeSerif"
 
 #. i18n: file: clockConfig.ui:283
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:156
 msgid "Goha-Tibeb Zemen"
-msgstr ""
+msgstr "Goha-Tibeb Zemen"
 
 #. i18n: file: clockConfig.ui:288
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:159
 msgid "Impact"
-msgstr ""
+msgstr "Impact"
 
 #. i18n: file: clockConfig.ui:293
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:162
 msgid "Liberation Mono"
-msgstr ""
+msgstr "Liberation Mono"
 
 #. i18n: file: clockConfig.ui:298
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:165
 msgid "Liberation Sans"
-msgstr ""
+msgstr "Liberation Sans"
 
 #. i18n: file: clockConfig.ui:303
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:168
 msgid "Liberation Serif"
-msgstr ""
+msgstr "Liberation Serif"
 
 #. i18n: file: clockConfig.ui:308
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:171
 msgid "Lucida Bright"
-msgstr ""
+msgstr "Lucida Bright"
 
 #. i18n: file: clockConfig.ui:313
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:174
 msgid "Lucida Sans"
-msgstr ""
+msgstr "Lucida Sans"
 
 #. i18n: file: clockConfig.ui:318
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:177
 msgid "Lucida Sans Typewriter"
-msgstr ""
+msgstr "Lucida Sans Typewriter"
 
 #. i18n: file: clockConfig.ui:323
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:180
 msgid "Luxi Mono"
-msgstr ""
+msgstr "Luxi Mono"
 
 #. i18n: file: clockConfig.ui:328
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:183
 msgid "Luxi Sans"
-msgstr ""
+msgstr "Luxi Sans"
 
 #. i18n: file: clockConfig.ui:333
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:186
 msgid "Luxi Serif"
-msgstr ""
+msgstr "Luxi Serif"
 
 #. i18n: file: clockConfig.ui:338
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:189
 msgid "Misc Console"
-msgstr ""
+msgstr "Misc Console"
 
 #. i18n: file: clockConfig.ui:343
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:192
 msgid "Misc Fixed"
-msgstr ""
+msgstr "Misc Fixed"
 
 #. i18n: file: clockConfig.ui:348
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:195
 msgid "Misc Fixed Wide"
-msgstr ""
+msgstr "Misc Fixed Wide"
 
 #. i18n: file: clockConfig.ui:353
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:198
 msgid "Monotype Sorts"
-msgstr ""
+msgstr "Monotype Sorts"
 
 #. i18n: file: clockConfig.ui:358
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:201
 msgid "MUTT ClearlyU Alternate Glyphs Wide"
-msgstr ""
+msgstr "MUTT ClearlyU Alternate Glyphs Wide"
 
 #. i18n: file: clockConfig.ui:363
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:204
 msgid "MUTT ClearlyU PUA"
-msgstr ""
+msgstr "MUTT ClearlyU PUA"
 
 #. i18n: file: clockConfig.ui:368
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:207
 msgid "MUTT ClearlyU Wide"
-msgstr ""
+msgstr "MUTT ClearlyU Wide"
 
 #. i18n: file: clockConfig.ui:373
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:210
 msgid "Nimbus Mono L"
-msgstr ""
+msgstr "Nimbus Mono L"
 
 #. i18n: file: clockConfig.ui:378
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:213
 msgid "Nimbus Roman No9 L"
-msgstr ""
+msgstr "Nimbus Roman No9 L"
 
 #. i18n: file: clockConfig.ui:383
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:216
 msgid "Nimbus Sans L"
-msgstr ""
+msgstr "Nimbus Sans L"
 
 #. i18n: file: clockConfig.ui:388
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:219
 msgid "Nimbus Sans L Condensed"
-msgstr ""
+msgstr "Nimbus Sans L Condensed"
 
 #. i18n: file: clockConfig.ui:393
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:222
 msgid "OpenSymbol"
-msgstr ""
+msgstr "OpenSymbol"
 
 #. i18n: file: clockConfig.ui:398
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:225
 msgid "Schumacher Clean"
-msgstr ""
+msgstr "Schumacher Clean"
 
 #. i18n: file: clockConfig.ui:403
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:228
 msgid "Serto Batnan"
-msgstr ""
+msgstr "Serto Batnan"
 
 #. i18n: file: clockConfig.ui:408
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:231
 msgid "Serto Jerusalem"
-msgstr ""
+msgstr "Serto Jerusalem"
 
 #. i18n: file: clockConfig.ui:413
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:234
 msgid "Serto Jerusalem Outline"
-msgstr ""
+msgstr "Serto Jerusalem Outline"
 
 #. i18n: file: clockConfig.ui:418
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:237
 msgid "Serto Kharput"
-msgstr ""
+msgstr "Serto Kharput"
 
 #. i18n: file: clockConfig.ui:423
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:240
 msgid "Serto Malankara"
-msgstr ""
+msgstr "Serto Malankara"
 
 #. i18n: file: clockConfig.ui:428
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:243
 msgid "Serto Mardin"
-msgstr ""
+msgstr "Serto Mardin"
 
 #. i18n: file: clockConfig.ui:433
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:246
 msgid "Serto Urhoy"
-msgstr ""
+msgstr "Serto Urhoy"
 
 #. i18n: file: clockConfig.ui:438
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:249
 msgid "Sony Fixed"
-msgstr ""
+msgstr "Sony Fixed"
 
 #. i18n: file: clockConfig.ui:443
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:252
 msgid "Standard Symbols L"
-msgstr ""
+msgstr "Standard Symbols L"
 
 #. i18n: file: clockConfig.ui:448
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:255
 msgid "Thorndale AMT"
-msgstr ""
+msgstr "Thorndale AMT"
 
 #. i18n: file: clockConfig.ui:453
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:258
 msgid "URW Bookman L"
-msgstr ""
+msgstr "URW Bookman L"
 
 #. i18n: file: clockConfig.ui:458
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:261
 msgid "URW Chancery L"
-msgstr ""
+msgstr "URW Chancery L"
 
 #. i18n: file: clockConfig.ui:463
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:264
 msgid "URW Gothic L"
-msgstr ""
+msgstr "URW Gothic L"
 
 #. i18n: file: clockConfig.ui:468
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:267
 msgid "URW Palladio L"
-msgstr ""
+msgstr "URW Palladio L"
 
 #. i18n: file: clockConfig.ui:473
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:270
 msgid "Utah MT"
-msgstr ""
+msgstr "Utah MT"
 
 #. i18n: file: clockConfig.ui:478
 #. i18n: ectx: property (text), item, widget (KFontComboBox, plainClockFont)
 #: rc.cpp:273
 msgid "Utopia"
-msgstr ""
+msgstr "Utopia"
 
 #. i18n: file: clockConfig.ui:501
 #. i18n: ectx: property (toolTip), widget (QCheckBox, plainClockFontBold)
 #: rc.cpp:276
-#, fuzzy
-#| msgid "Check this if you want to show the seconds."
 msgid "Check if you want the font in bold"
-msgstr "Uklučy hetuju opcyju, kali chočaš bačyć sekundy."
+msgstr "Uklučy hetuju opcyju, kali chočaš tłusty šryft."
 
 #. i18n: file: clockConfig.ui:504
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, plainClockFontBold)
 #: rc.cpp:279
 msgid "When this is checked, the clock font will be bold."
-msgstr ""
+msgstr "Kali ŭklučanaja hetaja opcyja, šryft hadzińnika budzie tłustym."
 
 #. i18n: file: clockConfig.ui:507
 #. i18n: ectx: property (text), widget (QCheckBox, plainClockFontBold)
@@ -619,16 +616,15 @@ msgstr "&Tłusty"
 #. i18n: file: clockConfig.ui:514
 #. i18n: ectx: property (toolTip), widget (QCheckBox, plainClockFontItalic)
 #: rc.cpp:285
-#, fuzzy
 #| msgid "Check this if you want to show the seconds."
 msgid "Check if you want the font in italic"
-msgstr "Uklučy hetuju opcyju, kali chočaš bačyć sekundy."
+msgstr "Uklučy hetuju opcyju, kali chočaš mieć kursiŭny šryft."
 
 #. i18n: file: clockConfig.ui:517
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, plainClockFontItalic)
 #: rc.cpp:288
 msgid "When this is checked, the clock font will be in italic."
-msgstr ""
+msgstr "Kali ŭklučanaja hetaja opcyja, šryft hadzińnika budzie kursiŭnym."
 
 #. i18n: file: clockConfig.ui:520
 #. i18n: ectx: property (text), widget (QCheckBox, plainClockFontItalic)
@@ -645,10 +641,9 @@ msgstr "Koler šryfta:"
 #. i18n: file: clockConfig.ui:562
 #. i18n: ectx: property (toolTip), widget (QRadioButton, useThemeColor)
 #: rc.cpp:297
-#, fuzzy
 #| msgid "Use custom color"
 msgid "Use current desktop theme color"
-msgstr "Karystajsia ŭlasnymi kolerami"
+msgstr "Karystajsia kolerami dziejnaha matyvu rabočaha stała"
 
 #. i18n: file: clockConfig.ui:565
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, useThemeColor)
@@ -656,7 +651,7 @@ msgstr "Karystajsia ŭlasnymi kolerami"
 msgid ""
 "This is default. The clock will get its font color from the current desktop "
 "theme."
-msgstr ""
+msgstr "Heta zmoŭčanaja vartaść nałady. Šryft hadzińnika budzie adpaviadać koleru, aznačanamu dla dziejnaha matyvu rabočaha stała."
 
 #. i18n: file: clockConfig.ui:568
 #. i18n: ectx: property (text), widget (QRadioButton, useThemeColor)
@@ -668,7 +663,7 @@ msgstr "Karystajsia kolerami matyvu"
 #. i18n: ectx: property (toolTip), widget (QRadioButton, useCustomColor)
 #: rc.cpp:306
 msgid "Choose your own font color"
-msgstr ""
+msgstr "Vybiery svoj koler šryfta"
 
 #. i18n: file: clockConfig.ui:589
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, useCustomColor)
@@ -676,7 +671,7 @@ msgstr ""
 msgid ""
 "When checked you can choose a custom color for the clock font by clicking on "
 "the font widget on the right."
-msgstr ""
+msgstr "Kali ŭklučanaja hetaja opcyja, ty možaš vybrać ułasny koler dla šryfta hadzińnika, kliknuŭšy ŭ widžet sprava."
 
 #. i18n: file: clockConfig.ui:592
 #. i18n: ectx: property (text), widget (QRadioButton, useCustomColor)
@@ -688,7 +683,7 @@ msgstr "Karystajsia ŭlasnymi kolerami"
 #. i18n: ectx: property (toolTip), widget (KColorButton, plainClockColor)
 #: rc.cpp:315
 msgid "Color chooser"
-msgstr ""
+msgstr "Vybar koleru"
 
 #. i18n: file: clockConfig.ui:605
 #. i18n: ectx: property (whatsThis), widget (KColorButton, plainClockColor)
@@ -696,13 +691,13 @@ msgstr ""
 msgid ""
 "Click on this button and the KDE standard color dialog will show. You can "
 "then choose the new color you want for your clock."
-msgstr ""
+msgstr "Klikni ŭ hetuju knopku, kab ubačyć zvykłaje akno vybaru koleru. Tam ty zmožaš vybrać novy koler dla svajho hadzińnika."
 
 #. i18n: file: clockConfig.ui:630
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_2)
 #: rc.cpp:321
 msgid "Display additional information"
-msgstr ""
+msgstr "Pakazvaj dadatkovyja źviestki"
 
 #. i18n: file: clockConfig.ui:633
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -713,30 +708,28 @@ msgstr "Źviestki"
 #. i18n: file: clockConfig.ui:642
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:327
-#, fuzzy
 #| msgid "Show &date"
 msgid "Show date:"
-msgstr "Pakazvaj &datu"
+msgstr "Pakazvaj datu:"
 
 #. i18n: file: clockConfig.ui:657
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showDate)
 #: rc.cpp:330
 msgid "Display the date of the day"
-msgstr ""
+msgstr "Pakazvaj datu"
 
 #. i18n: file: clockConfig.ui:706
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showDay)
 #: rc.cpp:333
-#, fuzzy
 #| msgid "Show day of the &week"
 msgid "Display day of the week"
-msgstr "Pakazvaj dzień &tydnia"
+msgstr "Pakazvaj dzień tydnia"
 
 #. i18n: file: clockConfig.ui:709
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showDay)
 #: rc.cpp:336
 msgid "Add the day of the week to the date display."
-msgstr ""
+msgstr "Dadaj dzień tydnia da vyjaŭleńnia daty."
 
 #. i18n: file: clockConfig.ui:712
 #. i18n: ectx: property (text), widget (QCheckBox, showDay)
@@ -748,47 +741,45 @@ msgstr "Pakazvaj dzień &tydnia"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showYear)
 #: rc.cpp:342
 msgid "Display the current year"
-msgstr ""
+msgstr "Pakazvaj hod"
 
 #. i18n: file: clockConfig.ui:741
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showYear)
 #: rc.cpp:345
 msgid "Add the year to the date string."
-msgstr ""
+msgstr "Dadaj hod da vyjaŭleńnia daty."
 
 #. i18n: file: clockConfig.ui:744
 #. i18n: ectx: property (text), widget (QCheckBox, showYear)
 #: rc.cpp:348
 msgid "Show &year"
-msgstr "Pahazvaj &hod"
+msgstr "Pakazvaj &hod"
 
 #. i18n: file: clockConfig.ui:769
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:351
-#, fuzzy
 #| msgid "Show &time zone"
 msgid "Show time zone:"
-msgstr "Pakazvaj &časavy pojas"
+msgstr "Pakazvaj časavy pojas:"
 
 #. i18n: file: clockConfig.ui:784
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showTimeZone)
 #: rc.cpp:354
 msgid "Display the time zone name"
-msgstr ""
+msgstr "Pakazvaj nazvu časavaha pojasu"
 
 #. i18n: file: clockConfig.ui:787
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showTimeZone)
 #: rc.cpp:357
 msgid "Display the time zone name under the time."
-msgstr ""
+msgstr "Pakazvaj nazvu časavaha pojasu pad časam."
 
 #. i18n: file: clockConfig.ui:812
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:360
-#, fuzzy
 #| msgid "Show &seconds"
 msgid "Show seconds:"
-msgstr "Pakazvaj &sekundy"
+msgstr "Pakazvaj sekundy:"
 
 #. i18n: file: clockConfig.ui:827
 #. i18n: ectx: property (toolTip), widget (QCheckBox, secondsCheckbox)
@@ -801,3 +792,4 @@ msgstr "Pakazvaj sekundy"
 #: rc.cpp:366
 msgid "Check this if you want to show the seconds."
 msgstr "Uklučy hetuju opcyju, kali chočaš bačyć sekundy."
+

@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: clock.cpp:159
 msgid "General"
@@ -616,7 +617,6 @@ msgstr "&Tłusty"
 #. i18n: file: clockConfig.ui:514
 #. i18n: ectx: property (toolTip), widget (QCheckBox, plainClockFontItalic)
 #: rc.cpp:285
-#| msgid "Check this if you want to show the seconds."
 msgid "Check if you want the font in italic"
 msgstr "Uklučy hetuju opcyju, kali chočaš mieć kursiŭny šryft."
 
@@ -641,7 +641,6 @@ msgstr "Koler šryfta:"
 #. i18n: file: clockConfig.ui:562
 #. i18n: ectx: property (toolTip), widget (QRadioButton, useThemeColor)
 #: rc.cpp:297
-#| msgid "Use custom color"
 msgid "Use current desktop theme color"
 msgstr "Karystajsia kolerami dziejnaha matyvu rabočaha stała"
 
@@ -651,7 +650,9 @@ msgstr "Karystajsia kolerami dziejnaha matyvu rabočaha stała"
 msgid ""
 "This is default. The clock will get its font color from the current desktop "
 "theme."
-msgstr "Heta zmoŭčanaja vartaść nałady. Šryft hadzińnika budzie adpaviadać koleru, aznačanamu dla dziejnaha matyvu rabočaha stała."
+msgstr ""
+"Heta zmoŭčanaja vartaść nałady. Šryft hadzińnika budzie adpaviadać koleru, "
+"aznačanamu dla dziejnaha matyvu rabočaha stała."
 
 #. i18n: file: clockConfig.ui:568
 #. i18n: ectx: property (text), widget (QRadioButton, useThemeColor)
@@ -671,7 +672,9 @@ msgstr "Vybiery svoj koler šryfta"
 msgid ""
 "When checked you can choose a custom color for the clock font by clicking on "
 "the font widget on the right."
-msgstr "Kali ŭklučanaja hetaja opcyja, ty možaš vybrać ułasny koler dla šryfta hadzińnika, kliknuŭšy ŭ widžet sprava."
+msgstr ""
+"Kali ŭklučanaja hetaja opcyja, ty možaš vybrać ułasny koler dla šryfta "
+"hadzińnika, kliknuŭšy ŭ widžet sprava."
 
 #. i18n: file: clockConfig.ui:592
 #. i18n: ectx: property (text), widget (QRadioButton, useCustomColor)
@@ -691,7 +694,9 @@ msgstr "Vybar koleru"
 msgid ""
 "Click on this button and the KDE standard color dialog will show. You can "
 "then choose the new color you want for your clock."
-msgstr "Klikni ŭ hetuju knopku, kab ubačyć zvykłaje akno vybaru koleru. Tam ty zmožaš vybrać novy koler dla svajho hadzińnika."
+msgstr ""
+"Klikni ŭ hetuju knopku, kab ubačyć zvykłaje akno vybaru koleru. Tam ty "
+"zmožaš vybrać novy koler dla svajho hadzińnika."
 
 #. i18n: file: clockConfig.ui:630
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_2)
@@ -708,7 +713,6 @@ msgstr "Źviestki"
 #. i18n: file: clockConfig.ui:642
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:327
-#| msgid "Show &date"
 msgid "Show date:"
 msgstr "Pakazvaj datu:"
 
@@ -721,7 +725,6 @@ msgstr "Pakazvaj datu"
 #. i18n: file: clockConfig.ui:706
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showDay)
 #: rc.cpp:333
-#| msgid "Show day of the &week"
 msgid "Display day of the week"
 msgstr "Pakazvaj dzień tydnia"
 
@@ -758,7 +761,6 @@ msgstr "Pakazvaj &hod"
 #. i18n: file: clockConfig.ui:769
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:351
-#| msgid "Show &time zone"
 msgid "Show time zone:"
 msgstr "Pakazvaj časavy pojas:"
 
@@ -777,7 +779,6 @@ msgstr "Pakazvaj nazvu časavaha pojasu pad časam."
 #. i18n: file: clockConfig.ui:812
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:360
-#| msgid "Show &seconds"
 msgid "Show seconds:"
 msgstr "Pakazvaj sekundy:"
 
@@ -792,4 +793,3 @@ msgstr "Pakazvaj sekundy"
 #: rc.cpp:366
 msgid "Check this if you want to show the seconds."
 msgstr "Uklučy hetuju opcyju, kali chočaš bačyć sekundy."
-

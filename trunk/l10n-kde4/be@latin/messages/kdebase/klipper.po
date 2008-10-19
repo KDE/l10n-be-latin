@@ -14,7 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: configdialog.cpp:43
@@ -63,11 +64,10 @@ msgid ""
 "removes any whitespace at the beginning or end of the selected string (the "
 "original clipboard contents will not be modified)."
 msgstr ""
-"Časam vyłučany tekst źmiaščaje niekalki prabiełaŭ u kancy, praź jakija "
-"mohuć uźniknuć prablemy z adčynieńniem adrasu ŭ hartačy. Uklučyŭšy hetuju "
-"opcyju, ty zahadaješ aplikacyi prybirać prabieły z pačatku j kanca "
-"vyłučanaha radku (sapraŭdnaje źmieściva abmiennaha bufera nia budzie "
-"źmienienaje)."
+"Časam vyłučany tekst źmiaščaje niekalki prabiełaŭ u kancy, praź jakija mohuć "
+"uźniknuć prablemy z adčynieńniem adrasu ŭ hartačy. Uklučyŭšy hetuju opcyju, "
+"ty zahadaješ aplikacyi prybirać prabieły z pačatku j kanca vyłučanaha radku "
+"(sapraŭdnaje źmieściva abmiennaha bufera nia budzie źmienienaje)."
 
 #: configdialog.cpp:82
 msgid "&Replay actions on an item selected from history"
@@ -83,8 +83,8 @@ msgid ""
 "emptied. E.g. when an application exits, the clipboard would usually be "
 "emptied."
 msgstr ""
-"Uklučyŭšy hetuju opcyju, ty zabaroniš vyčyščać abmienny bufer. Zvyčajna "
-"pa vychadzie z aplikacyi bufer vyčyščajecca."
+"Uklučyŭšy hetuju opcyju, ty zabaroniš vyčyščać abmienny bufer. Zvyčajna pa "
+"vychadzie z aplikacyi bufer vyčyščajecca."
 
 #: configdialog.cpp:91
 msgid "&Ignore selection"
@@ -96,8 +96,8 @@ msgid ""
 "Only explicit clipboard changes are recorded."
 msgstr ""
 "Uklučyŭšy hetuju opcyju, ty zabaroniš zapis vyłučanaha tekstu ŭ historyju "
-"abmiennaha bufera. Tady budzie zapisvacca tolki peŭna aznačanaje karystańnikam "
-"źmieściva."
+"abmiennaha bufera. Tady budzie zapisvacca tolki peŭna aznačanaje "
+"karystańnikam źmieściva."
 
 #: configdialog.cpp:97
 msgid "Clipboard/Selection Behavior"
@@ -112,7 +112,11 @@ msgid ""
 "selection is to press the middle mouse button.<br /><br />You can configure "
 "the relationship between Clipboard and Selection.</qt>"
 msgstr ""
-"<qt>Jość dva roznyja bufery:<br /><br /><b>Abmienny bufer</b> zapaŭniajecca pa nacisku skarotu „Ctrl+C” albo knopki „Skapijuj” u paneli pryładździa ci menu.<br /><br /><b>Bufer vyłučeńnia</b> dastupny adrazu pa vyłučeńni tekstu. Hety bufer vykarystoŭvajecca siarednim klikam myššu.<br /><br />Tut možna naładzić uzajemnyja dačynieńni pamiž dvuma hetymi buferami.</qt>"
+"<qt>Jość dva roznyja bufery:<br /><br /><b>Abmienny bufer</b> zapaŭniajecca "
+"pa nacisku skarotu „Ctrl+C” albo knopki „Skapijuj” u paneli pryładździa ci "
+"menu.<br /><br /><b>Bufer vyłučeńnia</b> dastupny adrazu pa vyłučeńni "
+"tekstu. Hety bufer vykarystoŭvajecca siarednim klikam myššu.<br /><br />Tut "
+"možna naładzić uzajemnyja dačynieńni pamiž dvuma hetymi buferami.</qt>"
 
 #: configdialog.cpp:111
 msgid "Sy&nchronize contents of the clipboard and the selection"
@@ -120,7 +124,8 @@ msgstr "&Uzhadniaj źmieściva abodvuch buferaŭ"
 
 #: configdialog.cpp:112
 msgid "Selecting this option synchronizes these two buffers."
-msgstr "Uklučyŭšy hetuju opcyju, ty zahadaješ uzhadniać źmieściva dvuch buferaŭ."
+msgstr ""
+"Uklučyŭšy hetuju opcyju, ty zahadaješ uzhadniać źmieściva dvuch buferaŭ."
 
 #: configdialog.cpp:116
 msgid "Separate clipboard and selection"
@@ -131,7 +136,10 @@ msgid ""
 "Using this option will only set the selection when highlighting something "
 "and the clipboard when choosing e.g. \"Copy\" in a menubar."
 msgstr ""
-"Uklučyŭšy hetuju opcyju, ty zahadaješ razroźnivać dva bufery: vyłučeńnie budzie źmianiacca, tolki kali niešta budzie vyłučanaje kursoram, a abmienny bufer budzie źmianiać źmieściva, naprykład, tolki kali karystańnik kliknie ŭ punkt menu „Skapijuj”."
+"Uklučyŭšy hetuju opcyju, ty zahadaješ razroźnivać dva bufery: vyłučeńnie "
+"budzie źmianiacca, tolki kali niešta budzie vyłučanaje kursoram, a abmienny "
+"bufer budzie źmianiać źmieściva, naprykład, tolki kali karystańnik kliknie ŭ "
+"punkt menu „Skapijuj”."
 
 #: configdialog.cpp:126
 msgid "Tim&eout for action popups:"
@@ -192,7 +200,8 @@ msgid ""
 "Click on a highlighted item's column to change it. \"%s\" in a command will "
 "be replaced with the clipboard contents."
 msgstr ""
-"Kab źmianić słupok padśvietlenaha elementu, klikni ŭ jaho. „%s” u zahadzie budzie zamienienaje źmieścivam abmiennaha bufera."
+"Kab źmianić słupok padśvietlenaha elementu, klikni ŭ jaho. „%s” u zahadzie "
+"budzie zamienienaje źmieścivam abmiennaha bufera."
 
 #: configdialog.cpp:271
 msgid ""
@@ -200,7 +209,8 @@ msgid ""
 "<a href=\"http://en.wikipedia.org/wiki/Regular_expression\">Wikipedia entry "
 "about this topic</a>."
 msgstr ""
-"Bolš źviestak pra rehularnyja vyrazy možna znajści ŭ <a href=\"http://en.wikipedia.org/wiki/Regular_expression\">adpaviednym artykule Wikipedyi</a>."
+"Bolš źviestak pra rehularnyja vyrazy možna znajści ŭ <a href=\"http://en."
+"wikipedia.org/wiki/Regular_expression\">adpaviednym artykule Wikipedyi</a>."
 
 #: configdialog.cpp:297
 msgid "Add Command"
@@ -243,8 +253,11 @@ msgid ""
 "on the window you want to examine. The first string it outputs after the "
 "equal sign is the one you need to enter here.</qt>"
 msgstr ""
-"<qt>Tut možna vyznačyć vokny, u jakich aplikacyja „Klipper” pavinnaja ŭstrymvać svaje aperacyi. Kab vyznačać typ akna („WM_CLASS”), karystajsia zahadam: <br /><br /><center><b>xprop | grep WM_CLASS</b></"
-"center><br />, uklučanym u terminale. Paśla jaho ŭklučeńnia klikni ŭ patrebnaje akno. Dla hetaj opcyi treba padać pieršy tekst, vypisany paśla znaka roŭnaści.</qt>"
+"<qt>Tut možna vyznačyć vokny, u jakich aplikacyja „Klipper” pavinnaja "
+"ŭstrymvać svaje aperacyi. Kab vyznačać typ akna („WM_CLASS”), karystajsia "
+"zahadam: <br /><br /><center><b>xprop | grep WM_CLASS</b></center><br />, "
+"uklučanym u terminale. Paśla jaho ŭklučeńnia klikni ŭ patrebnaje akno. Dla "
+"hetaj opcyi treba padać pieršy tekst, vypisany paśla znaka roŭnaści.</qt>"
 
 #: klipper.cpp:139
 msgid "Enable &Actions"
@@ -279,7 +292,8 @@ msgid ""
 "You can enable URL actions later by right-clicking on the Klipper icon and "
 "selecting 'Enable Actions'"
 msgstr ""
-"Aperacyi dla adrasoŭ možna budzie ŭklučyć paźniej, praz pravy klik u ikonu aplikacyi „Klipper” j punkt menu „Uklučy aperacyi”."
+"Aperacyi dla adrasoŭ možna budzie ŭklučyć paźniej, praz pravy klik u ikonu "
+"aplikacyi „Klipper” j punkt menu „Uklučy aperacyi”."
 
 #: klipper.cpp:550
 msgid "Should Klipper start automatically when you login?"
@@ -405,4 +419,3 @@ msgstr "&Anuluj"
 #: urlgrabber.cpp:286
 msgid "Edit Contents"
 msgstr "Redahuj źmieściva"
-

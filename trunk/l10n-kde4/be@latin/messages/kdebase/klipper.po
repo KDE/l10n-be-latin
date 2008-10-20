@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-07 09:44+0200\n"
+"POT-Creation-Date: 2008-10-20 10:08+0200\n"
 "PO-Revision-Date: 2008-10-18 22:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -230,7 +230,7 @@ msgstr "<novy zahad>"
 
 #: configdialog.cpp:332
 #, fuzzy
-msgid "Double-click here to set the regexp"
+msgid "Double-click here to set the regular expression"
 msgstr "Kab aznačyć rehularny vyraz, zrabi dvuklik."
 
 #: configdialog.cpp:333
@@ -400,22 +400,22 @@ msgid "Klipper - clipboard tool"
 msgstr "Abmienny bufer „Klipper”"
 
 #: urlgrabber.cpp:179
-#, fuzzy
-msgid " - Actions For: "
+#, fuzzy, kde-format
+msgid "%1 - Actions For: %2"
 msgstr " - Aperacyi dla: "
 
-#: urlgrabber.cpp:205
+#: urlgrabber.cpp:204
 msgid "Disable This Popup"
 msgstr "Vyklučy hety vypłyŭny element"
 
-#: urlgrabber.cpp:211
+#: urlgrabber.cpp:210
 msgid "&Edit Contents..."
 msgstr "&Redahuj źmieściva..."
 
-#: urlgrabber.cpp:215
+#: urlgrabber.cpp:214
 msgid "&Cancel"
 msgstr "&Anuluj"
 
-#: urlgrabber.cpp:286
+#: urlgrabber.cpp:285
 msgid "Edit Contents"
 msgstr "Redahuj źmieściva"

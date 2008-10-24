@@ -328,7 +328,7 @@ msgstr "Novaje &akno"
 
 #: MainWindow.cpp:242
 msgid "Remote Connection..."
-msgstr "Dalnaje spałučeńnie..."
+msgstr "Spałučeńnie ź inšym hostam..."
 
 #: MainWindow.cpp:253
 msgid "&Bookmarks"
@@ -380,7 +380,7 @@ msgstr "Niama profilaŭ"
 
 #: RemoteConnectionDialog.cpp:39
 msgid "New Remote Connection"
-msgstr "Novaje dalnaje spałučeńnie"
+msgstr "Novaje spałučeńnie ź inšym hostam"
 
 #: RemoteConnectionDialog.cpp:41
 msgid "Connect"
@@ -609,11 +609,11 @@ msgstr "Karystańnik"
 
 #: TabTitleFormatAction.cpp:44
 msgid "Remote Host (Short)"
-msgstr "Dalny host (skaročana)"
+msgstr "Tamtejšy host (skaročana)"
 
 #: TabTitleFormatAction.cpp:45
 msgid "Remote Host (Long)"
-msgstr "Dalny host (doŭha)"
+msgstr "Tamtejšy host (doŭha)"
 
 #: TerminalDisplay.cpp:1104 TerminalDisplay.cpp:1105
 msgid "Size: XXX x XXX"
@@ -1141,7 +1141,7 @@ msgstr "Ustaŭ"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:99 rc.cpp:484
 msgid "Remote tab title format:"
-msgstr "Farmat nazvy dla dalnaj kartki:"
+msgstr "Farmat nazvy dla kartki inšaha hosta:"
 
 #. i18n: file: EditProfileDialog.ui:311
 #. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
@@ -1150,7 +1150,7 @@ msgid ""
 "Tab title format used when a remote command (e.g. connection to another "
 "computer via SSH) is being executed"
 msgstr ""
-"Farmat nazvy, kali vykonvajecca dalny zahad (naprykład, dla spałučeńnia ź "
+"Farmat nazvy, kali vykonvajecca zahad ź inšaha hosta (naprykład, dla spałučeńnia ź "
 "inšym kamputaram praz „SSH”)"
 
 #. i18n: file: EditProfileDialog.ui:318
@@ -1158,7 +1158,7 @@ msgstr ""
 #: rc.cpp:105 rc.cpp:490
 msgid "Edit tab title format used when executing remote commands"
 msgstr ""
-"Adredahuj farmat nazvy dla kartak, u jakich vykonvajucca dalnyja zahady"
+"Adredahuj farmat nazvy dla kartak, u jakich vykonvajucca zahady ź inšych hostaŭ"
 
 #. i18n: file: EditProfileDialog.ui:331
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -1692,7 +1692,7 @@ msgstr "Zrabi zmoŭčanym"
 #. i18n: ectx: property (windowTitle), widget (QWidget, RemoteConnectionDialog)
 #: rc.cpp:380 rc.cpp:753
 msgid "Remote Connection"
-msgstr "Dalnaje spałučeńnie"
+msgstr "Spałučeńnie ź inšym hostam"
 
 #. i18n: file: RemoteConnectionDialog.ui:31
 #. i18n: ectx: property (text), widget (QLabel, hostLabel)

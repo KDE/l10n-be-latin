@@ -24,8 +24,9 @@ msgid "Window '%1' demands attention."
 msgstr "Akno „%1” vymahaje ŭvahi."
 
 #: composite.cpp:487
+#, fuzzy
 msgid "Empty"
-msgstr ""
+msgstr "Pustoje"
 
 #: composite.cpp:490
 #, kde-format
@@ -714,6 +715,9 @@ msgid ""
 "the mouse: use the window operations menu instead, activated using the %1 "
 "keyboard shortcut."
 msgstr ""
+"Ty zahadaŭ pakazvać akno biez abrysaŭ.\n"
+"Biez abrysu ty nia zmožaš jaho viarnuć myššu. Zamiest hetaha karystajsia "
+"menu aperacyjaŭ akna, jakoje ŭklučajecca klavijaturnym skarotam „%1”."
 
 #: workspace.cpp:2485
 #, kde-format
@@ -723,123 +727,129 @@ msgid ""
 "mode off you will not be able to disable it again using the mouse: use the "
 "window operations menu instead, activated using the %1 keyboard shortcut."
 msgstr ""
+"Ty zahadaŭ pakazvać akno na ŭvieś ekran.\n"
+"Kali ŭ samoj aplikacyi niama peŭnaj mahčymaści viarnuć zvykły sposab "
+"prahladu akna, tady ty nia zmožaš zrabić heta myššu. Zamiest hetaha karystajsia "
+"menu aperacyjaŭ akna, jakoje ŭklučajecca klavijaturnym skarotam „%1”."
 
 #: effects/cube.cpp:89 effects/cube_config.cpp:71
 #: effects/cylinder_config.cpp:71 effects/sphere_config.cpp:71
 msgid "Desktop Cube"
-msgstr ""
+msgstr "Rabočy kub"
 
 #: effects/cube_config.cpp:53 effects/cylinder_config.cpp:53
 #: effects/sphere_config.cpp:53
+#, fuzzy
 msgid "Basic"
-msgstr ""
+msgstr "Prosty"
 
 #: effects/cube_config.cpp:54 effects/cylinder_config.cpp:54
 #: effects/sphere_config.cpp:54
+#, fuzzy
 msgid "Advanced"
-msgstr ""
+msgstr "Asablivy"
 
 #: effects/cube_config.cpp:56 effects/cylinder_config.cpp:56
 #: effects/desktopgrid_config.cpp:63 effects/desktopgrid_config.cpp:76
 #: effects/presentwindows_config.cpp:68 effects/presentwindows_config.cpp:78
 #: effects/sphere_config.cpp:56
 msgid "Top"
-msgstr ""
+msgstr "Uviersie"
 
 #: effects/cube_config.cpp:57 effects/cylinder_config.cpp:57
 #: effects/desktopgrid_config.cpp:64 effects/desktopgrid_config.cpp:78
 #: effects/presentwindows_config.cpp:69 effects/presentwindows_config.cpp:79
 #: effects/sphere_config.cpp:57
 msgid "Top-right"
-msgstr ""
+msgstr "Uviersie sprava"
 
 #: effects/cube_config.cpp:58 effects/cylinder_config.cpp:58
 #: effects/desktopgrid_config.cpp:65 effects/desktopgrid_config.cpp:80
 #: effects/presentwindows_config.cpp:70 effects/presentwindows_config.cpp:80
 #: effects/sphere_config.cpp:58
 msgid "Right"
-msgstr ""
+msgstr "Sprava"
 
 #: effects/cube_config.cpp:59 effects/cylinder_config.cpp:59
 #: effects/desktopgrid_config.cpp:66 effects/desktopgrid_config.cpp:82
 #: effects/presentwindows_config.cpp:71 effects/presentwindows_config.cpp:81
 #: effects/sphere_config.cpp:59
 msgid "Bottom-right"
-msgstr ""
+msgstr "Unizie sprava"
 
 #: effects/cube_config.cpp:60 effects/cylinder_config.cpp:60
 #: effects/desktopgrid_config.cpp:67 effects/desktopgrid_config.cpp:84
 #: effects/presentwindows_config.cpp:72 effects/presentwindows_config.cpp:82
 #: effects/sphere_config.cpp:60
 msgid "Bottom"
-msgstr ""
+msgstr "Unizie"
 
 #: effects/cube_config.cpp:61 effects/cylinder_config.cpp:61
 #: effects/desktopgrid_config.cpp:68 effects/desktopgrid_config.cpp:86
 #: effects/presentwindows_config.cpp:73 effects/presentwindows_config.cpp:83
 #: effects/sphere_config.cpp:61
 msgid "Bottom-left"
-msgstr ""
+msgstr "Unizie źleva"
 
 #: effects/cube_config.cpp:62 effects/cylinder_config.cpp:62
 #: effects/desktopgrid_config.cpp:69 effects/desktopgrid_config.cpp:88
 #: effects/presentwindows_config.cpp:74 effects/presentwindows_config.cpp:84
 #: effects/sphere_config.cpp:62
 msgid "Left"
-msgstr ""
+msgstr "Źleva"
 
 #: effects/cube_config.cpp:63 effects/cylinder_config.cpp:63
 #: effects/desktopgrid_config.cpp:70 effects/desktopgrid_config.cpp:90
 #: effects/presentwindows_config.cpp:75 effects/presentwindows_config.cpp:85
 #: effects/sphere_config.cpp:63
 msgid "Top-left"
-msgstr ""
+msgstr "Uviersie źleva"
 
 #: effects/cube_config.cpp:64 effects/cylinder_config.cpp:64
 #: effects/desktopgrid_config.cpp:71 effects/presentwindows_config.cpp:76
 #: effects/presentwindows_config.cpp:86 effects/sphere_config.cpp:64
 msgid "None"
-msgstr ""
+msgstr "Niama"
 
 #: effects/desktopgrid.cpp:59 effects/desktopgrid_config.cpp:57
 msgid "Show Desktop Grid"
-msgstr ""
+msgstr "Sietka stała"
 
 #: effects/desktopgrid_config.cpp:74
 msgid "Disabled"
-msgstr ""
+msgstr "Vyklučanaja"
 
 #: effects/desktopgrid_config.cpp:92
 msgid "Center"
-msgstr ""
+msgstr "Pasiarod"
 
 #: effects/invert.cpp:47 effects/invert_config.cpp:47
 msgid "Toggle Invert Effect"
-msgstr ""
+msgstr "Invertavańnie"
 
 #: effects/invert.cpp:52 effects/invert_config.cpp:52
 msgid "Toggle Invert Effect On Window"
-msgstr ""
+msgstr "Invertavańnie koleraŭ akna"
 
 #: effects/mousemark.cpp:52
 msgid "Clear All Mouse Marks"
-msgstr ""
+msgstr "Prybiary ŭsie kursornyja paznaki"
 
 #: effects/mousemark.cpp:56 effects/mousemark_config.cpp:69
 msgid "Clear Last Mouse Mark"
-msgstr ""
+msgstr "Prybiary apošniuju kursornuju paznaku"
 
 #: effects/mousemark_config.cpp:64
 msgid "Clear Mouse Marks"
-msgstr ""
+msgstr "Prybiary kursornyja paznaki"
 
 #: effects/presentwindows.cpp:66 effects/presentwindows_config.cpp:62
 msgid "Toggle Present Windows (Current desktop)"
-msgstr ""
+msgstr "Źmiena aktyŭnaści akna (dla dziejnaha stała)"
 
 #: effects/presentwindows.cpp:70 effects/presentwindows_config.cpp:57
 msgid "Toggle Present Windows (All desktops)"
-msgstr ""
+msgstr "Źmiena aktyŭnaści akna (dla ŭsich stałoŭ)"
 
 #: effects/presentwindows.cpp:1196
 #, kde-format
@@ -847,34 +857,36 @@ msgid ""
 "Filter:\n"
 "%1"
 msgstr ""
+"Filtruj:\n"
+"%1"
 
 #: effects/shadow_config.cpp:52
 msgid "X offset:"
-msgstr ""
+msgstr "Zruch na X:"
 
 #: effects/shadow_config.cpp:58
 msgid "Y offset:"
-msgstr ""
+msgstr "Zruch na Y:"
 
 #: effects/shadow_config.cpp:64
 msgid "Shadow opacity:"
-msgstr ""
+msgstr "Nieprazrystaść cieniu:"
 
 #: effects/shadow_config.cpp:71
 msgid "Shadow fuzziness:"
-msgstr ""
+msgstr "Niapeŭnaść cieniu:"
 
 #: effects/shadow_config.cpp:77
 msgid "Shadow size (relative to window):"
-msgstr ""
+msgstr "Pamier cieniu (adnosna akna):"
 
 #: effects/shadow_config.cpp:83
 msgid "Shadow color:"
-msgstr ""
+msgstr "Koler cieniu:"
 
 #: effects/shadow_config.cpp:89
 msgid "Active window has stronger shadow"
-msgstr ""
+msgstr "Aktyŭnaje akno maje bolšy cień"
 
 #: effects/sharpen.cpp:40 effects/sharpen_config.cpp:46
 msgid "Toggle Sharpen Effect"
@@ -882,27 +894,27 @@ msgstr ""
 
 #: effects/snow.cpp:58
 msgid "Snow"
-msgstr ""
+msgstr "Śnieh"
 
 #: effects/snow_config.cpp:65
 msgid "Toggle Snow on Desktop"
-msgstr ""
+msgstr "Śnieh na rabočym stale"
 
 #: effects/thumbnailaside.cpp:38 effects/thumbnailaside_config.cpp:67
 msgid "Toggle Thumbnail for Current Window"
-msgstr ""
+msgstr "Padhlad dla aktyŭnaha akna"
 
 #: effects/trackmouse_config.cpp:44
 msgid "Hold Ctrl+Meta keys to see where the mouse cursor is."
-msgstr ""
+msgstr "Kab ubačyć, dzie kursor, pryciśni klavijaturny skarot „Ctrl+Meta”."
 
 #: effects/videorecord.cpp:69 effects/videorecord_config.cpp:64
 msgid "Toggle Video Recording"
-msgstr ""
+msgstr "Zapis videa"
 
 #: effects/videorecord_config.cpp:55
 msgid "Path to save video:"
-msgstr ""
+msgstr "Ściežka da zapisvanaha videa:"
 
 #: killer/killer.cpp:38
 msgid "KWin helper utility"

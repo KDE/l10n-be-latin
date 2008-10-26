@@ -1,0 +1,333 @@
+# translation of libplasma.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: libplasma\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-10-26 09:06+0100\n"
+"PO-Revision-Date: 2008-10-26 17:30+0200\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: applet.cpp:166
+msgid "Script initialization failed"
+msgstr "Nie ŭdałosia inicyjalizavać skrypt"
+
+#: applet.cpp:300
+msgid "Unable to load the widget"
+msgstr "Nie ŭdałosia źmiaścić widžet u pamiać"
+
+#: applet.cpp:545
+msgid "Unknown Activity"
+msgstr "Nieviadomaja čynnaść"
+
+#: applet.cpp:550
+#, kde-format
+msgid "%1 Activity"
+msgstr "Čynnaść „%1”"
+
+#: applet.cpp:553
+msgid "Unknown Widget"
+msgstr "Nieviadomy widžet"
+
+#: applet.cpp:590 applet.cpp:1408 applet.cpp:1409
+msgid "Miscellaneous"
+msgstr "Roznaje"
+
+#: applet.cpp:758
+msgid "Configure..."
+msgstr "Naładź..."
+
+#: applet.cpp:793 containment.cpp:534
+#, fuzzy, kde-format
+msgid "Remove this %1"
+msgstr "Vydali hety „%1”"
+
+#: applet.cpp:1050
+#, kde-format
+msgid "Activate %1 Widget"
+msgstr "Uklučy widžet „%1”"
+
+#: applet.cpp:1160 applet.cpp:1314
+#, kde-format
+msgid "%1 Settings"
+msgstr "Nałady „%1”"
+
+#: applet.cpp:1289
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 Settings"
+msgstr "Nałady „%1”"
+
+#: applet.cpp:1314
+msgid "Settings"
+msgstr "Nałady"
+
+#: applet.cpp:1746
+#, kde-format
+msgid "Could not locate the %1 package required for the %2 widget."
+msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
+
+#: applet.cpp:1765
+#, fuzzy, kde-format
+msgid "Could not create a %1 ScriptEngine for the %2 widget."
+msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine %1” dla widžeta „%2”."
+
+#: applet.cpp:1769
+#, kde-format
+msgid "Could not open the %1 package required for the %2 widget."
+msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
+
+#: applet.cpp:1874
+msgid "This object could not be created."
+msgstr "Nie ŭdałosia stvaryć hety abjekt."
+
+#: applet.cpp:1876
+#, fuzzy, kde-format
+msgid "This object could not be created for the following reason:<p><b>%1</b></p>"
+msgstr "Nie ŭdałosia stvaryć hety abjekt z nastupnaj pryčyny:<p><b>%1</b></p>"
+
+#: containment.cpp:141
+msgid "Add Widgets..."
+msgstr "Dadaj widžetaŭ..."
+
+#: containment.cpp:150
+msgid "Next Widget"
+msgstr "Nastupny widžet"
+
+#: containment.cpp:157
+msgid "Previous Widget"
+msgstr "Papiaredni widžet"
+
+#: containment.cpp:168 containment.cpp:1581
+msgid "Lock Widgets"
+msgstr "Zamacuj widžety"
+
+#: containment.cpp:168 containment.cpp:1581
+msgid "Unlock Widgets"
+msgstr "Admacuj widžety"
+
+#: containment.cpp:179
+msgid "Zoom In"
+msgstr "Pavialič"
+
+#: containment.cpp:190
+msgid "Zoom Out"
+msgstr "Pamienš"
+
+#: containment.cpp:197
+msgid "Add Activity"
+msgstr "Dadaj čynnaść"
+
+#: containment.cpp:515
+#, fuzzy, kde-format
+msgid "%1 Options"
+msgstr "Opcyi „%1”"
+
+#: containment.cpp:916
+msgid "Icon"
+msgstr "Ikona"
+
+#: containment.cpp:1380
+#, fuzzy, kde-format
+msgid "Do you really want to remove this %1?"
+msgstr "Sapraŭdy chočaš vydalić hety „%1”?"
+
+#: containment.cpp:1381
+#, fuzzy, kde-format
+msgid "Remove %1"
+msgstr "Vydali „%1”"
+
+#: containment.cpp:1659
+#, kde-format
+msgid "Could not find requested component: %1"
+msgstr "Nie ŭdałosia znajści patrebny składnik: %1"
+
+#: dataengine.cpp:445 dataengine.cpp:451
+msgid "Unnamed"
+msgstr "Biaz nazvy"
+
+#: dataenginemanager.cpp:37
+msgid "Null Engine"
+msgstr ""
+
+#: extender.cpp:297
+msgid "no items"
+msgstr "niama elementaŭ"
+
+#: extenderitem.cpp:360
+msgid "Expand this widget"
+msgstr "Razharni hety widžet"
+
+#: extenderitem.cpp:377
+msgid "Collapse this widget"
+msgstr "Zharni hety widžet"
+
+#: glapplet.cpp:76 glapplet.cpp:87
+msgid "This system does not support OpenGL widgets."
+msgstr "Hetaja systema nie absłuhoŭvaje widžetaŭ dla „OpenGL”."
+
+#: glapplet.cpp:184
+msgid "Your machine does not support OpenGL widgets."
+msgstr "Hety kamputar nie absłuhoŭvaje widžetaŭ dla „OpenGL”."
+
+#: wallpaper.cpp:126
+msgid "Unknown Wallpaper"
+msgstr "Nieviadomyja špalery"
+
+#: packagestructure.h:83
+#, fuzzy
+msgid "Invalid"
+msgstr "Niapravilnaja"
+
+#: private/service_p.h:47
+#, fuzzy
+msgid "Invalid (null) service, can not perform any operations."
+msgstr "Niapravilnaja („null”) pasłuha nia ŭmieje ničoha rabić."
+
+#: private/packages.cpp:35
+msgid "Images"
+msgstr "Vyjavy"
+
+#: private/packages.cpp:40 tests/packagestructuretest.cpp:96
+#: tests/packagestructuretest.cpp:120
+msgid "Configuration Definitions"
+msgstr "Aznačeńni naładaŭ"
+
+#: private/packages.cpp:46 private/packages.cpp:49
+msgid "Executable Scripts"
+msgstr "Vykonvalnyja skrypty"
+
+#: private/packages.cpp:54
+msgid "Main Config UI File"
+msgstr "Hałoŭny fajł interfejsu dla naładaŭ"
+
+#: private/packages.cpp:55
+msgid "Configuration XML file"
+msgstr "Fajł „XML” dla naładaŭ"
+
+#: private/packages.cpp:56 private/packages.cpp:66
+#: scripting/scriptengine.cpp:233 tests/packagestructuretest.cpp:97
+#: tests/packagestructuretest.cpp:121
+msgid "Main Script File"
+msgstr "Hałoŭny fajł sa skryptom"
+
+#: private/packages.cpp:86
+#, kde-format
+msgid "Installation of <b>%1</b> failed!"
+msgstr "Nie ŭdałosia zainstalavać <b>%1</b>!"
+
+#: private/packages.cpp:87
+msgid "Installation Failed"
+msgstr "Nie ŭdałosia zainstalavać"
+
+#: private/packages.cpp:100
+msgid "Images for dialogs"
+msgstr "Vyjavy dla dyjalohaŭ"
+
+#: private/packages.cpp:102
+msgid "Generic dialog background"
+msgstr "Zvyčajny fon dla dyjalohaŭ"
+
+#: private/packages.cpp:104
+msgid "Theme for the logout dialog"
+msgstr "Matyŭ dla dyjalohu vychadu"
+
+#: private/packages.cpp:106
+msgid "Wallpaper packages"
+msgstr "Pakunki sa špalerami"
+
+#: private/packages.cpp:108 private/packages.cpp:139
+msgid "Images for widgets"
+msgstr "Vyjavy dla widžetaŭ"
+
+#: private/packages.cpp:110
+msgid "Background image for plasmoids"
+msgstr "Fonavaja vyjava dla widžetaŭ systemy „Plasma”"
+
+#: private/packages.cpp:112
+msgid "Analog clock face"
+msgstr "Vyhlad strełkavaha hadzińnika"
+
+#: private/packages.cpp:114
+msgid "Background image for panels"
+msgstr "Fonavaja vyjava dla panelaŭ"
+
+#: private/packages.cpp:116
+#, fuzzy
+msgid "Background for graphing widgets"
+msgstr "Fon dla widžetaŭ z hrafikami"
+
+#: private/packages.cpp:118
+msgid "Background image for tooltips"
+msgstr "Fonavaja vyjava dla padkazak"
+
+#: private/packages.cpp:120
+msgid "Opaque images for dialogs"
+msgstr "Nieprazrystyja vyjavy dla dyjalohaŭ"
+
+#: private/packages.cpp:122
+msgid "Opaque generic dialog background"
+msgstr "Zvyčajny nieprazrysty fon dla dyjalohaŭ"
+
+#: private/packages.cpp:124
+msgid "Opaque theme for the logout dialog"
+msgstr "Nieprazrysty matyŭ dla dyjalohu vychadu"
+
+#: private/packages.cpp:126
+msgid "Opaque images for widgets"
+msgstr "Nieprazrystyja vyjavy dla widžetaŭ"
+
+#: private/packages.cpp:128
+msgid "Opaque background image for panels"
+msgstr "Nieprazrystaja fonavaja vyjava dla panelaŭ"
+
+#: private/packages.cpp:130
+msgid "Opaque background image for tooltips"
+msgstr "Nieprazrystaja fonavaja vyjava dla padkazak"
+
+#: private/packages.cpp:133
+msgid "Low color images for dialogs"
+msgstr "Vyjavy z małoj kolkaściu koleraŭ dla dyjalohaŭ"
+
+#: private/packages.cpp:135
+msgid "Low color generic dialog background"
+msgstr "Zvyčajny fon z małoj kolkaściu koleraŭ dla dyjalohaŭ"
+
+#: private/packages.cpp:137
+msgid "Low color theme for the logout dialog"
+msgstr "Matyŭ z małoj kolkaściu koleraŭ dla dyjalohu vychadu"
+
+#: private/packages.cpp:141
+msgid "Low color background image for plasmoids"
+msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla widžetaŭ systemy „Plasma”"
+
+#: private/packages.cpp:143
+msgid "Low color analog clock face"
+msgstr "Vyhlad strełkavaha hadzińnika z małoj kolkaściu koleraŭ"
+
+#: private/packages.cpp:145
+msgid "Low color background image for panels"
+msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla panelaŭ"
+
+#: private/packages.cpp:147
+#, fuzzy
+msgid "Low color background for graphing widgets"
+msgstr "Fon z małoj kolkaściu koleraŭ dla widžetaŭ z hrafikami"
+
+#: private/packages.cpp:149
+msgid "Low color background image for tooltips"
+msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla padkazak"
+
+#: private/packages.cpp:151
+msgid "KColorScheme configuration file"
+msgstr "Fajł naładaŭ dla „KColorScheme”"
+

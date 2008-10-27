@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-21 10:27+0200\n"
+"POT-Creation-Date: 2008-10-27 10:17+0100\n"
 "PO-Revision-Date: 2008-10-26 17:03+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: folderview.cpp:487
 msgctxt "Sort Icons"
@@ -159,8 +160,11 @@ msgstr "Mały"
 #. i18n: file: folderviewDisplayConfig.ui:95
 #. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
 #: rc.cpp:20
-msgid "Use this slider to increase or decrease the size of the icons in the view."
-msgstr "Z dapamohaju hetaha rehulatara možna pavialičyć albo źmienšyć pamier ikonaŭ u prahladzie."
+msgid ""
+"Use this slider to increase or decrease the size of the icons in the view."
+msgstr ""
+"Z dapamohaju hetaha rehulatara možna pavialičyć albo źmienšyć pamier ikonaŭ "
+"u prahladzie."
 
 #. i18n: file: folderviewDisplayConfig.ui:111
 #. i18n: ectx: property (text), widget (QLabel, label_6)
@@ -175,7 +179,8 @@ msgid ""
 "Check this option if you want to see previews of the file contents in the "
 "icons."
 msgstr ""
-"Uklučy hetuju opcyju, kali chočaš bačyć ikony z padhladami dla źmieściva fajłaŭ."
+"Uklučy hetuju opcyju, kali chočaš bačyć ikony z padhladami dla źmieściva "
+"fajłaŭ."
 
 #. i18n: file: folderviewDisplayConfig.ui:141
 #. i18n: ectx: property (text), widget (QCheckBox, showPreviews)
@@ -186,14 +191,19 @@ msgstr "Pakazvaj padhlady"
 #. i18n: file: folderviewDisplayConfig.ui:148
 #. i18n: ectx: property (whatsThis), widget (QPushButton, previewsAdvanced)
 #: rc.cpp:32
-msgid "Click this button to choose for which types of files previews will be shown."
-msgstr "Klikni ŭ hetuju knopku, kab vybrać typy fajłaŭ, dla jakich treba pakazvać padhlady."
+msgid ""
+"Click this button to choose for which types of files previews will be shown."
+msgstr ""
+"Klikni ŭ hetuju knopku, kab vybrać typy fajłaŭ, dla jakich treba pakazvać "
+"padhlady."
 
 #. i18n: file: folderviewDisplayConfig.ui:151
 #. i18n: ectx: property (text), widget (QPushButton, previewsAdvanced)
 #: rc.cpp:35
-msgid "Advanced..."
-msgstr "Asablivaje..."
+#, fuzzy
+#| msgid "Arrange icons:"
+msgid "Advanced Options"
+msgstr "Vykładvaj ikony:"
 
 #. i18n: file: folderviewDisplayConfig.ui:176
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -213,8 +223,7 @@ msgstr "Koler tekstu:"
 msgid ""
 "Click this button to choose the color which is used for the text labels in "
 "the view."
-msgstr ""
-"Klikni ŭ hetuju knopku, kab vybrać koler dla tekstaŭ u prahladzie."
+msgstr "Klikni ŭ hetuju knopku, kab vybrać koler dla tekstaŭ u prahladzie."
 
 #. i18n: file: folderviewDisplayConfig.ui:225
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -229,8 +238,8 @@ msgid ""
 "Use this control to choose how many lines of text will be shown below the "
 "icons."
 msgstr ""
-"Z dapamohaju hetaha rehulatara možna vybrać, kolki treba pakazvać radkoŭ tekstu "
-"pad ikonami."
+"Z dapamohaju hetaha rehulatara možna vybrać, kolki treba pakazvać radkoŭ "
+"tekstu pad ikonami."
 
 #. i18n: file: folderviewDisplayConfig.ui:282
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, drawShadows)
@@ -288,9 +297,9 @@ msgid ""
 "bottom starting on the left side of the view, or arranged left to right "
 "starting at the top of the view."
 msgstr ""
-"Z dapamohaju hetaha rehulatara možna vybrać sposab, u jaki treba "
-"vykładvać ikony: źvierchu ŭniz, pačaŭšy ad levaha kraju prahladu, "
-"albo źleva ŭprava, pačaŭšy ad vierchniaha kraju."
+"Z dapamohaju hetaha rehulatara možna vybrać sposab, u jaki treba vykładvać "
+"ikony: źvierchu ŭniz, pačaŭšy ad levaha kraju prahladu, albo źleva ŭprava, "
+"pačaŭšy ad vierchniaha kraju."
 
 #. i18n: file: folderviewDisplayConfig.ui:328
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -305,8 +314,8 @@ msgid ""
 "Use this control to choose the criteria by which the icons will be sorted in "
 "the view."
 msgstr ""
-"Z dapamohaju hetaha rehulatara možna vybrać prymietu, pavodle jakoj "
-"treba paradkavać ikony prahladu."
+"Z dapamohaju hetaha rehulatara možna vybrać prymietu, pavodle jakoj treba "
+"paradkavać ikony prahladu."
 
 #. i18n: file: folderviewDisplayConfig.ui:367
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, alignToGrid)
@@ -319,8 +328,8 @@ msgid ""
 msgstr ""
 "Uklučy hetuju opcyju, kali chočaš vykładvać ikony ŭ sietcy.\n"
 "\n"
-"Kali ŭklučanaja hetaja opcyja, ikony dapasoŭvajucca da najbližejšaj "
-"kamory sietki."
+"Kali ŭklučanaja hetaja opcyja, ikony dapasoŭvajucca da najbližejšaj kamory "
+"sietki."
 
 #. i18n: file: folderviewDisplayConfig.ui:370
 #. i18n: ectx: property (text), widget (QCheckBox, alignToGrid)
@@ -337,9 +346,11 @@ msgid ""
 "This option is useful if you want to avoid accidentally moving the icons "
 "while interacting with them."
 msgstr ""
-"Uklučy hetuju opcyju, kali chočaš, kab ikony ŭ prahladzie možna było pierasoŭvać.\n"
+"Uklučy hetuju opcyju, kali chočaš, kab ikony ŭ prahladzie možna było "
+"pierasoŭvać.\n"
 "\n"
-"Hetaja opcyja karysnaja, kali ty nia chočaš, kab ikony možna było vypadkova pierasunuć."
+"Hetaja opcyja karysnaja, kali ty nia chočaš, kab ikony možna było vypadkova "
+"pierasunuć."
 
 #. i18n: file: folderviewDisplayConfig.ui:382
 #. i18n: ectx: property (text), widget (QCheckBox, lockInPlace)
@@ -400,7 +411,8 @@ msgstr "Šablon nazvaŭ fajłaŭ:"
 #: rc.cpp:122
 #, fuzzy
 msgid "Space-separated list of extensions, e.g. *.txt * .od*"
-msgstr "Śpis pašyreńniaŭ fajłaŭ, naprykład, „*.txt *.od*”, padzieleny prabiełami"
+msgstr ""
+"Śpis pašyreńniaŭ fajłaŭ, naprykład, „*.txt *.od*”, padzieleny prabiełami"
 
 #. i18n: file: folderviewFilterConfig.ui:190
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, filterFilesPattern)
@@ -410,7 +422,8 @@ msgid ""
 "Space-separated list of extensions, e.g. *.txt * .od* to display only "
 "office- and text-files"
 msgstr ""
-"Śpis pašyreńniaŭ fajłaŭ, naprykład, „*.txt * .od*”, padzieleny prabiełami, jaki adpaviadaje tekstavym dy ofisnym fajłam"
+"Śpis pašyreńniaŭ fajłaŭ, naprykład, „*.txt * .od*”, padzieleny prabiełami, "
+"jaki adpaviadaje tekstavym dy ofisnym fajłam"
 
 #. i18n: file: folderviewFilterConfig.ui:199
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
@@ -445,7 +458,9 @@ msgstr ""
 #. i18n: file: folderviewLocationConfig.ui:58
 #. i18n: ectx: property (text), widget (QRadioButton, showPlace)
 #: rc.cpp:142
-msgid "Show a Place:"
+#, fuzzy
+#| msgid "Show a Place:"
+msgid "Show a place:"
 msgstr "Pakazvaj miesca:"
 
 #. i18n: file: folderviewLocationConfig.ui:88
@@ -466,3 +481,5 @@ msgstr "Tut upišy ściežku ci adras."
 msgid "Check the file types you want icon previews for:"
 msgstr "Aznač typy fajłaŭ, dla jakich treba pakazvać padhlady:"
 
+#~ msgid "Advanced..."
+#~ msgstr "Asablivaje..."

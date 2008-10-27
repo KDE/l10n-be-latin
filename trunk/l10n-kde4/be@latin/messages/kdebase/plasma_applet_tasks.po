@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-26 09:06+0100\n"
+"POT-Creation-Date: 2008-10-27 10:17+0100\n"
 "PO-Revision-Date: 2008-10-05 10:49+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -33,13 +33,17 @@ msgstr "Pakazvaj padkazki:"
 #. i18n: file: tasksConfig.ui:105
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:9
-msgid "Maximum Rows"
+#, fuzzy
+#| msgid "Maximum Rows"
+msgid "Maximum rows:"
 msgstr "Najbolšaja kolkaść radkoŭ"
 
 #. i18n: file: tasksConfig.ui:137
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:12
-msgid "Grouping and Sorting"
+#, fuzzy
+#| msgid "Grouping and Sorting"
+msgid "Grouping & Sorting"
 msgstr "Hurtavańnie j paradak"
 
 #. i18n: file: tasksConfig.ui:144
@@ -99,7 +103,9 @@ msgid "Collapse Group"
 msgstr ""
 
 #: tasks.cpp:390
-msgid "Don't group"
+#, fuzzy
+#| msgid "Don't group"
+msgid "Do Not Group"
 msgstr "Nie hurtuj"
 
 #: tasks.cpp:391 tasks.cpp:410
@@ -107,11 +113,15 @@ msgid "Manually"
 msgstr "Uručnuju"
 
 #: tasks.cpp:392
-msgid "By program name"
+#, fuzzy
+#| msgid "By program name"
+msgid "By Program Name"
 msgstr "Pavodle nazvaŭ prahramaŭ"
 
 #: tasks.cpp:409
-msgid "Don't sort"
+#, fuzzy
+#| msgid "Don't sort"
+msgid "Do Not Sort"
 msgstr "Nie paradkuj"
 
 #: tasks.cpp:411

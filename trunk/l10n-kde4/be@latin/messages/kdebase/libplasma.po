@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-26 09:06+0100\n"
+"POT-Creation-Date: 2008-10-30 10:05+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,123 +18,123 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: applet.cpp:166
+#: applet.cpp:167
 msgid "Script initialization failed"
 msgstr "Nie ŭdałosia inicyjalizavać skrypt"
 
-#: applet.cpp:300
+#: applet.cpp:301
 msgid "Unable to load the widget"
 msgstr "Nie ŭdałosia źmiaścić widžet u pamiać"
 
-#: applet.cpp:545
+#: applet.cpp:548
 msgid "Unknown Activity"
 msgstr "Nieviadomaja čynnaść"
 
-#: applet.cpp:550
+#: applet.cpp:553
 #, kde-format
 msgid "%1 Activity"
 msgstr "Čynnaść „%1”"
 
-#: applet.cpp:553
+#: applet.cpp:556
 msgid "Unknown Widget"
 msgstr "Nieviadomy widžet"
 
-#: applet.cpp:590 applet.cpp:1408 applet.cpp:1409
+#: applet.cpp:593 applet.cpp:1411 applet.cpp:1412
 msgid "Miscellaneous"
 msgstr "Roznaje"
 
-#: applet.cpp:758
+#: applet.cpp:761
 msgid "Configure..."
 msgstr "Naładź..."
 
-#: applet.cpp:793 containment.cpp:534
+#: applet.cpp:796 containment.cpp:533
 #, fuzzy, kde-format
 msgid "Remove this %1"
 msgstr "Vydali hety „%1”"
 
-#: applet.cpp:1050
+#: applet.cpp:1053
 #, kde-format
 msgid "Activate %1 Widget"
 msgstr "Uklučy widžet „%1”"
 
-#: applet.cpp:1160 applet.cpp:1314
+#: applet.cpp:1163 applet.cpp:1317
 #, kde-format
 msgid "%1 Settings"
 msgstr "Nałady „%1”"
 
-#: applet.cpp:1289
+#: applet.cpp:1292
 #, kde-format
 msgctxt "@title:window"
 msgid "%1 Settings"
 msgstr "Nałady „%1”"
 
-#: applet.cpp:1314
+#: applet.cpp:1317
 msgid "Settings"
 msgstr "Nałady"
 
-#: applet.cpp:1746
+#: applet.cpp:1749
 #, kde-format
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1765
+#: applet.cpp:1768
 #, fuzzy, kde-format
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine %1” dla widžeta „%2”."
 
-#: applet.cpp:1769
+#: applet.cpp:1772
 #, kde-format
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1874
+#: applet.cpp:1877
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
-#: applet.cpp:1876
+#: applet.cpp:1879
 #, fuzzy, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
 msgstr "Nie ŭdałosia stvaryć hety abjekt z nastupnaj pryčyny:<p><b>%1</b></p>"
 
-#: containment.cpp:141
+#: containment.cpp:140
 msgid "Add Widgets..."
 msgstr "Dadaj widžetaŭ..."
 
-#: containment.cpp:150
+#: containment.cpp:149
 msgid "Next Widget"
 msgstr "Nastupny widžet"
 
-#: containment.cpp:157
+#: containment.cpp:156
 msgid "Previous Widget"
 msgstr "Papiaredni widžet"
 
-#: containment.cpp:168 containment.cpp:1581
+#: containment.cpp:167 containment.cpp:1581
 msgid "Lock Widgets"
 msgstr "Zamacuj widžety"
 
-#: containment.cpp:168 containment.cpp:1581
+#: containment.cpp:167 containment.cpp:1581
 msgid "Unlock Widgets"
 msgstr "Admacuj widžety"
 
-#: containment.cpp:179
+#: containment.cpp:178
 msgid "Zoom In"
 msgstr "Pavialič"
 
-#: containment.cpp:190
+#: containment.cpp:189
 msgid "Zoom Out"
 msgstr "Pamienš"
 
-#: containment.cpp:197
+#: containment.cpp:196
 msgid "Add Activity"
 msgstr "Dadaj čynnaść"
 
-#: containment.cpp:515
+#: containment.cpp:514
 #, fuzzy, kde-format
 msgid "%1 Options"
 msgstr "Opcyi „%1”"
 
-#: containment.cpp:916
+#: containment.cpp:915
 msgid "Icon"
 msgstr "Ikona"
 
@@ -165,11 +165,11 @@ msgstr ""
 msgid "no items"
 msgstr "niama elementaŭ"
 
-#: extenderitem.cpp:360
+#: extenderitem.cpp:365
 msgid "Expand this widget"
 msgstr "Razharni hety widžet"
 
-#: extenderitem.cpp:377
+#: extenderitem.cpp:382
 msgid "Collapse this widget"
 msgstr "Zharni hety widžet"
 

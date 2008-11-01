@@ -44,10 +44,10 @@ msgid "Preview:"
 msgstr "Padhlad:"
 
 #: iconsizegroupbox.cpp:109 dolphinstatusbar.cpp:283
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: %1 pixels"
-msgstr ""
+msgstr "Pamier: %1 punktaŭ"
 
 #: dolphinfontrequester.cpp:40
 msgctxt "@item:inlistbox Font"
@@ -185,7 +185,7 @@ msgstr "Źmianiaj nazvu ŭnutry"
 #: generalsettingspage.cpp:100
 msgctxt "option:check"
 msgid "Open folders during drag operations"
-msgstr ""
+msgstr "Adčyniaj katalohi padčas pierasoŭvańnia"
 
 #: statusbarspaceinfo.cpp:78 statusbarspaceinfo.cpp:91
 msgctxt "@info:status"
@@ -1494,20 +1494,14 @@ msgid "Stop"
 msgstr "Spyni"
 
 #: dolphinmainwindow.cpp:1018
-#, fuzzy
-#| msgctxt "@action:inmenu Navigation Bar"
-#| msgid "Edit Location"
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
-msgstr "Źmiani miesca"
+msgstr "Źmiennaje miesca"
 
 #: dolphinmainwindow.cpp:1023
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Location:"
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
-msgstr "Miesca:"
+msgstr "Zamiani miesca"
 
 #: dolphinmainwindow.cpp:1039
 msgctxt "@action:inmenu Tools"
@@ -1527,28 +1521,22 @@ msgstr "Chutki prahlad"
 #: dolphinmainwindow.cpp:1062
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
-msgstr ""
+msgstr "Pierajdzi da nastupnaj kartki"
 
 #: dolphinmainwindow.cpp:1068
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
-msgstr ""
+msgstr "Pierajdzi da papiaredniaj kartki"
 
 #: dolphinmainwindow.cpp:1075
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "New Tab"
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
-msgstr "Novaja kartka"
+msgstr "Adčyni ŭ novaj kartcy"
 
 #: dolphinmainwindow.cpp:1080
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
-msgstr "Novaje &akno"
+msgstr "Adčyni ŭ novym aknie"
 
 #: dolphinmainwindow.cpp:1088 dolphinmainwindow.cpp:1094
 msgctxt "@title:window"
@@ -1927,31 +1915,3 @@ msgstr "Hrupa"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Typ"
-
-#~ msgctxt "@action:inmenu Navigation Bar"
-#~ msgid "Show Full Location"
-#~ msgstr "Pakazvaj poŭny adras"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "&Move Here\t<shortcut>%1</shortcut>"
-#~ msgstr "&Pieraniasi siudy\t<shortcut>%1</shortcut>"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "&Copy Here\t<shortcut>%1</shortcut>"
-#~ msgstr "&Skapijuj siudy\t<shortcut>%1</shortcut>"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "&Link Here\t<shortcut>%1</shortcut>"
-#~ msgstr "&Stvary łuč \t<shortcut>%1</shortcut>"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Cancel"
-#~ msgstr "Anuluj"
-
-#~ msgctxt "@item:inlistbox Arrangement"
-#~ msgid "Left to Right"
-#~ msgstr "Źleva ŭprava"
-
-#~ msgctxt "@item:inlistbox Arrangement"
-#~ msgid "Top to Bottom"
-#~ msgstr "Źvierchu ŭniz"

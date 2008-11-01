@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-15 10:37+0200\n"
+"POT-Creation-Date: 2008-11-01 10:36+0100\n"
 "PO-Revision-Date: 2008-10-03 23:27+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -71,8 +71,11 @@ msgid "Move Here"
 msgstr "Pieraniasi siudy"
 
 #: konq_menuactions.cpp:371
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Actions"
 msgctxt "@title:menu"
-msgid "Actions"
+msgid "&Actions"
 msgstr "Aperacyi"
 
 #: konq_menuactions.cpp:453
@@ -80,8 +83,9 @@ msgid "&Open With"
 msgstr "&Adčyni"
 
 #: konq_menuactions.cpp:482
-#, kde-format
-msgid "Open with %1"
+#, fuzzy, kde-format
+#| msgid "Open with %1"
+msgid "Open &with %1"
 msgstr "Adčyni ŭ „%1”"
 
 #: konq_menuactions.cpp:496

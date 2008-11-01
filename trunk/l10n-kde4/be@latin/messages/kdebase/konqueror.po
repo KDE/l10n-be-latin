@@ -1149,10 +1149,9 @@ msgid "Stalled"
 msgstr "Zahrazła"
 
 #: src/konqguiclients.cpp:66
-#, fuzzy, kde-format
-#| msgid "Preview in %1"
+#, kde-format
 msgid "Preview &in %1"
-msgstr "Padlad u „%1”"
+msgstr "Padlad &u „%1”"
 
 #: src/konqguiclients.cpp:135
 #, kde-format
@@ -1246,10 +1245,9 @@ msgid "By &Date"
 msgstr "Pavodle &dataŭ"
 
 #: sidebar/trees/history_module/history_module.cpp:261
-#, fuzzy
 msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
 msgid "Sort"
-msgstr "Paradak"
+msgstr "Paradkuj"
 
 #: sidebar/trees/history_module/history_module.cpp:370
 #: sidebar/trees/history_module/kcmhistory.cpp:254
@@ -1285,7 +1283,6 @@ msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
 msgstr "<h1>Panel historyi</h1> Tut možna naładzić bakavuju panel historyi."
 
 #: sidebar/trees/history_module/kcmhistory.cpp:203
-#, fuzzy
 msgid " day"
 msgid_plural " days"
 msgstr[0] " dzień"
@@ -1533,14 +1530,12 @@ msgid "Set Refresh Timeout (0 disables)"
 msgstr "Aznač termin čakańnia aktualizacyi („0” vyklučaje)"
 
 #: sidebar/web_module/web_module.cpp:98
-#, fuzzy
 msgid " min"
 msgstr " chvilin"
 
 #: sidebar/web_module/web_module.cpp:100
-#, fuzzy
 msgid " sec"
-msgstr " sekundaŭ"
+msgstr " sekund"
 
 #: sidebar/web_module/web_module.h:52
 msgid "&Open Link"
@@ -1558,7 +1553,6 @@ msgstr "Pašyranaja bakavaja panel"
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
 #: about/konq_aboutpage.cc:189 about/konq_aboutpage.cc:191
 #: about/konq_aboutpage.cc:286 about/konq_aboutpage.cc:288
-#, fuzzy
 msgctxt "KDE 4 tag line, see http://kde.org/img/kde40.png"
 msgid "Be free."
 msgstr "Budź svabodnym."
@@ -1571,12 +1565,11 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:83 about/konq_aboutpage.cc:139
 #: about/konq_aboutpage.cc:193 about/konq_aboutpage.cc:290
-#, fuzzy
 msgctxt ""
 "Link that points to the first page of the Konqueror 'about page', Starting "
 "Points contains links to Home, Network Folders, Trash, etc."
 msgid "Starting Points"
-msgstr "Pačatkovyja zaciemy"
+msgstr "Pačatki"
 
 #: about/konq_aboutpage.cc:84 about/konq_aboutpage.cc:140
 #: about/konq_aboutpage.cc:194 about/konq_aboutpage.cc:291
@@ -1830,14 +1823,13 @@ msgstr ""
 "roznyja kirunki"
 
 #: about/konq_aboutpage.cc:230
-#, fuzzy
 msgid "AutoCompletion for forms"
 msgstr "Aŭtamatyčnaje zapaŭnieńnie formaŭ"
 
 #: about/konq_aboutpage.cc:232
 msgctxt "Title of an html 'group box' explaining konqueror features"
 msgid "General"
-msgstr ""
+msgstr "Hałoŭnaje"
 
 #: about/konq_aboutpage.cc:233
 msgid "Feature"
@@ -1875,7 +1867,6 @@ msgid "and <A HREF=\"%1\">many more...</A>"
 msgstr "dy <A HREF=\"%1\">inšaje...</A>"
 
 #: about/konq_aboutpage.cc:241
-#, fuzzy
 msgctxt "A feature of Konqueror"
 msgid "URL-Completion"
 msgstr "Zakančeńnie adrasoŭ"
@@ -1893,12 +1884,12 @@ msgid "(Short-) Automatic"
 msgstr "(Karotkaje) aŭtamatyčnaje"
 
 #: about/konq_aboutpage.cc:246
-#, fuzzy, kde-format
+#, kde-format
 msgctxt ""
 "Link that points to the first page of the Konqueror 'about page', Starting "
 "Points contains links to Home, Network Folders, Trash, etc."
 msgid "<a href=\"%1\">Return to Starting Points</a>"
-msgstr "<a href=\"%1\">Viarnisia ŭ pačatkovyja zaciemy</a>"
+msgstr "<a href=\"%1\">Viarnisia da pačatkaŭ</a>"
 
 #: about/konq_aboutpage.cc:294
 msgid "Tips &amp; Tricks"
@@ -2302,21 +2293,3 @@ msgstr "Detalnyja padkazki"
 #: rc.cpp:104
 msgid "Clear History"
 msgstr "Vyčyści historyju"
-
-#, fuzzy
-#~ msgid "Joseph WENNINGER"
-#~ msgstr "Joseph WENNINGER"
-
-#, fuzzy
-#~ msgid "G E N E R A L"
-#~ msgstr "H A Ł O Ŭ N A J E"
-
-#, fuzzy
-#~ msgid "<img width='16' height='16' src=\"%1\"></img>"
-#~ msgstr "<img width='16' height='16' src=\"%1\"></img>"
-
-#~ msgid "Applications"
-#~ msgstr "Aplikacyi"
-
-#~ msgid "Installed programs"
-#~ msgstr "Zainstalavanyja prahramy"

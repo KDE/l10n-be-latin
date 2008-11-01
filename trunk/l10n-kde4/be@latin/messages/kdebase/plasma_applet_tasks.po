@@ -39,16 +39,12 @@ msgstr "Vymahaj peŭnych radkoŭ:"
 #. i18n: file: tasksConfig.ui:76
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:12
-#, fuzzy
-#| msgid "Maximum Rows"
 msgid "Maximum rows:"
-msgstr "Najbolšaja kolkaść radkoŭ"
+msgstr "Najbolšaja kolkaść radkoŭ:"
 
 #. i18n: file: tasksConfig.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:15
-#, fuzzy
-#| msgid "Grouping and Sorting"
 msgid "Grouping & Sorting"
 msgstr "Hurtavańnie j paradak"
 
@@ -62,7 +58,7 @@ msgstr "Hurtavańnie:"
 #. i18n: ectx: property (text), widget (QCheckBox, groupWhenFull)
 #: rc.cpp:21
 msgid "Only when the taskbar is full"
-msgstr ""
+msgstr "Tolki kali panel zadańniaŭ zapoŭnienaja"
 
 #. i18n: file: tasksConfig.ui:212
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -102,15 +98,13 @@ msgstr "Na %1"
 
 #: taskgroupitem.cpp:323
 msgid "Expand Group"
-msgstr ""
+msgstr "Razharni hurt"
 
 #: taskgroupitem.cpp:326
 msgid "Collapse Group"
-msgstr ""
+msgstr "Zharni hurt"
 
 #: tasks.cpp:408
-#, fuzzy
-#| msgid "Don't group"
 msgid "Do Not Group"
 msgstr "Nie hurtuj"
 
@@ -119,14 +113,10 @@ msgid "Manually"
 msgstr "Uručnuju"
 
 #: tasks.cpp:410
-#, fuzzy
-#| msgid "By program name"
 msgid "By Program Name"
-msgstr "Pavodle nazvaŭ prahramaŭ"
+msgstr "Pavodle nazvaŭ prahram"
 
 #: tasks.cpp:432
-#, fuzzy
-#| msgid "Don't sort"
 msgid "Do Not Sort"
 msgstr "Nie paradkuj"
 
@@ -136,4 +126,4 @@ msgstr "Pavodle alfabetu"
 
 #: windowtaskitem.cpp:265
 msgid "Collapse Parent Group"
-msgstr ""
+msgstr "Zharni karaniovy hurt"

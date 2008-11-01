@@ -24,20 +24,11 @@ msgid "Window '%1' demands attention."
 msgstr "Akno „%1” vymahaje ŭvahi."
 
 #: composite.cpp:491
-#, fuzzy
-#| msgid ""
-#| "Compositing was too slow and has been suspended.\n"
-#| "If this was only a temporary problem, you can resume using the '%1' "
-#| "shortcut.\n"
-#| "You can also disable functionality checks in advanced compositing "
-#| "settings."
 msgid ""
 "Compositing was too slow and has been suspended.\n"
 "You can disable functionality checks in advanced compositing settings."
 msgstr ""
 "Kampazycyja zamarudnaja, tamu jana była ŭstrymanaja.\n"
-"Kali pryčynaju była niejkaja časovaja prablema, ty možaš uklučyć hetuju "
-"mahčymaść klavijaturnym skarotam „%1”.\n"
 "Taksama ŭ asablivych naładach kampazycyi možna vyklučyć hetkija spraŭdžvańni."
 
 #: composite.cpp:494
@@ -191,35 +182,35 @@ msgstr "Naładź skarot dla akna"
 
 #: kwinbindings.cpp:96
 msgid "Pack Window to the Right"
-msgstr ""
+msgstr "Vykładzi akno sprava"
 
 #: kwinbindings.cpp:98
 msgid "Pack Window to the Left"
-msgstr ""
+msgstr "Vykładzi akno źleva"
 
 #: kwinbindings.cpp:100
 msgid "Pack Window Up"
-msgstr ""
+msgstr "Vykładzi akno źvierchu"
 
 #: kwinbindings.cpp:102
 msgid "Pack Window Down"
-msgstr ""
+msgstr "Vykładzi akno źnizu"
 
 #: kwinbindings.cpp:104
 msgid "Pack Grow Window Horizontally"
-msgstr ""
+msgstr "Vykładzi akno, razharnuŭšy haryzantalna"
 
 #: kwinbindings.cpp:106
 msgid "Pack Grow Window Vertically"
-msgstr ""
+msgstr "Vykładzi akno, razharnuŭšy vertykalna"
 
 #: kwinbindings.cpp:108
 msgid "Pack Shrink Window Horizontally"
-msgstr ""
+msgstr "Vykładzi akno, pryharnuŭšy haryzantalna"
 
 #: kwinbindings.cpp:110
 msgid "Pack Shrink Window Vertically"
-msgstr ""
+msgstr "Vykładzi akno, pryharnuŭšy vertykalna"
 
 #: kwinbindings.cpp:114
 msgid "Window & Desktop"
@@ -756,17 +747,15 @@ msgstr "Rabočy kub"
 
 #: effects/cube_config.cpp:53 effects/cylinder_config.cpp:53
 #: effects/sphere_config.cpp:53
-#, fuzzy
 msgctxt "@title:tab Basic Settings"
 msgid "Basic"
-msgstr "Prosty"
+msgstr "Zvyčajnaje"
 
 #: effects/cube_config.cpp:54 effects/cylinder_config.cpp:54
 #: effects/sphere_config.cpp:54
-#, fuzzy
 msgctxt "@title:tab Advanced Settings"
 msgid "Advanced"
-msgstr "Asablivy"
+msgstr "Asablivaje"
 
 #: effects/cube_config.cpp:56 effects/cylinder_config.cpp:56
 #: effects/desktopgrid_config.cpp:63 effects/desktopgrid_config.cpp:76
@@ -1061,7 +1050,3 @@ msgstr "Nie ŭdałosia źmiaścić u pamiać plugin abrysaŭ akon, bo jon paško
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "Biblijateka „%1” nia jość pluginam dla akońnika „KWin”."
-
-#, fuzzy
-#~ msgid "Empty"
-#~ msgstr "Pustoje"

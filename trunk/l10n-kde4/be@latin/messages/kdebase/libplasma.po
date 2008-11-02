@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-31 09:45+0100\n"
+"POT-Creation-Date: 2008-11-02 09:59+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -22,76 +22,82 @@ msgstr ""
 msgid "Script initialization failed"
 msgstr "Nie ŭdałosia inicyjalizavać skrypt"
 
-#: applet.cpp:301
+#: applet.cpp:300
 msgid "Unable to load the widget"
 msgstr "Nie ŭdałosia źmiaścić widžet u pamiać"
 
-#: applet.cpp:548
+#: applet.cpp:546
 msgid "Unknown Activity"
 msgstr "Nieviadomaja čynnaść"
 
-#: applet.cpp:553
+#: applet.cpp:551
 #, kde-format
 msgid "%1 Activity"
 msgstr "Čynnaść „%1”"
 
-#: applet.cpp:556
+#: applet.cpp:554
 msgid "Unknown Widget"
 msgstr "Nieviadomy widžet"
 
-#: applet.cpp:593 applet.cpp:1411 applet.cpp:1412
+#: applet.cpp:591 applet.cpp:1409 applet.cpp:1410
 msgid "Miscellaneous"
 msgstr "Roznaje"
 
-#: applet.cpp:761
+#: applet.cpp:759
 msgid "Configure..."
 msgstr "Naładź..."
 
-#: applet.cpp:796 containment.cpp:533
+#: applet.cpp:794 containment.cpp:533
 #, fuzzy, kde-format
 msgid "Remove this %1"
 msgstr "Vydali hety „%1”"
 
-#: applet.cpp:1053
+#: applet.cpp:1051
 #, kde-format
 msgid "Activate %1 Widget"
 msgstr "Uklučy widžet „%1”"
 
-#: applet.cpp:1163 applet.cpp:1317
+#: applet.cpp:1161 applet.cpp:1315
 #, kde-format
 msgid "%1 Settings"
 msgstr "Nałady „%1”"
 
-#: applet.cpp:1292
+#: applet.cpp:1290
 #, kde-format
 msgctxt "@title:window"
 msgid "%1 Settings"
 msgstr "Nałady „%1”"
 
-#: applet.cpp:1317
+#: applet.cpp:1315
 msgid "Settings"
 msgstr "Nałady"
 
-#: applet.cpp:1749
-#, kde-format
+#: applet.cpp:1748
+#, fuzzy, kde-format
+#| msgid "Could not locate the %1 package required for the %2 widget."
+msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1768
+#: applet.cpp:1769
 #, fuzzy, kde-format
+msgctxt ""
+"API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine %1” dla widžeta „%2”."
 
-#: applet.cpp:1772
-#, kde-format
+#: applet.cpp:1774
+#, fuzzy, kde-format
+#| msgid "Could not open the %1 package required for the %2 widget."
+msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1877
+#: applet.cpp:1879
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
-#: applet.cpp:1879
+#: applet.cpp:1881
 #, fuzzy, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
@@ -157,10 +163,6 @@ msgstr "Nie ŭdałosia znajści patrebny składnik: %1"
 msgid "Unnamed"
 msgstr "Biaz nazvy"
 
-#: dataenginemanager.cpp:37
-msgid "Null Engine"
-msgstr ""
-
 #: extender.cpp:297
 msgid "no items"
 msgstr "niama elementaŭ"
@@ -185,8 +187,9 @@ msgstr "Hety kamputar nie absłuhoŭvaje widžetaŭ dla „OpenGL”."
 msgid "Unknown Wallpaper"
 msgstr "Nieviadomyja špalery"
 
-#: packagestructure.h:83
+#: packagestructure.h:84
 #, fuzzy
+msgctxt "A non-functional package"
 msgid "Invalid"
 msgstr "Niapravilnaja"
 

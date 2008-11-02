@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-27 10:17+0100\n"
+"POT-Creation-Date: 2008-11-02 09:59+0100\n"
 "PO-Revision-Date: 2008-10-26 00:05+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -44,6 +44,7 @@ msgstr "Partycyi"
 
 #: hdd.cpp:126
 #, fuzzy
+msgctxt "the root filesystem"
 msgid "root"
 msgstr "korań"
 
@@ -57,12 +58,7 @@ msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
 msgstr "%1 (niedastypny)"
 
-#: hdd.cpp:280
-#, fuzzy, kde-format
-msgid "%1"
-msgstr "%1"
-
-#: hwinfo.cpp:55 hwinfo.cpp:141
+#: hwinfo.cpp:55 hwinfo.cpp:140
 msgid "Hardware Info"
 msgstr "Źviestki pra aparaturu"
 
@@ -78,12 +74,7 @@ msgstr "Hrafičny pracesar"
 msgid "Audio"
 msgstr "Huk"
 
-#: hwinfo.cpp:130
-#, fuzzy
-msgid "Net"
-msgstr "Sietka"
-
-#: net.cpp:43
+#: hwinfo.cpp:130 net.cpp:43
 msgid "Network"
 msgstr "Sietka"
 
@@ -164,10 +155,18 @@ msgstr "Sensar"
 
 #: temperature.cpp:211
 #, fuzzy, kde-format
-msgid " %1 °C"
+msgid "%1 °C"
 msgstr " %1 °C"
 
 #: temperature.cpp:213
 #, fuzzy, kde-format
-msgid " %1 °F"
+msgid "%1 °F"
 msgstr " %1 °F"
+
+#, fuzzy
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#, fuzzy
+#~ msgid "Net"
+#~ msgstr "Sietka"

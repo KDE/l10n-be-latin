@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-20 10:07+0200\n"
+"POT-Creation-Date: 2008-11-02 09:58+0100\n"
 "PO-Revision-Date: 2008-10-06 20:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -203,101 +203,101 @@ msgstr "GiB"
 msgid "File &type:"
 msgstr "&Typ fajła:"
 
-#: kftabdlg.cpp:279
+#: kftabdlg.cpp:280
 msgid "C&ontaining text:"
 msgstr "&Z tekstam:"
 
-#: kftabdlg.cpp:285
+#: kftabdlg.cpp:286
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
 "all file types from the list above are supported. Please refer to the "
 "documentation for a list of supported file types.</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:293
+#: kftabdlg.cpp:294
 msgid "Case s&ensitive"
 msgstr "Uličvajučy pamier &litaraŭ"
 
-#: kftabdlg.cpp:294
+#: kftabdlg.cpp:295
 msgid "Include &binary files"
 msgstr "Ułučna z &dvajkovymi fajłami"
 
-#: kftabdlg.cpp:295
+#: kftabdlg.cpp:296
 msgid "Regular e&xpression"
 msgstr "&Rehularny vyraz"
 
-#: kftabdlg.cpp:298
+#: kftabdlg.cpp:299
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:306
+#: kftabdlg.cpp:307
 msgid "&Edit..."
 msgstr "&Redahuj..."
 
-#: kftabdlg.cpp:312
+#: kftabdlg.cpp:313
 #, fuzzy
 msgid "fo&r:"
 msgstr "&dla:"
 
-#: kftabdlg.cpp:314
+#: kftabdlg.cpp:315
 msgid "Search &metainfo sections:"
 msgstr "Šukaj u raździele &metaźviestak:"
 
-#: kftabdlg.cpp:318
+#: kftabdlg.cpp:319
 msgid "All Files & Folders"
 msgstr "Usie fajły j katalohi"
 
-#: kftabdlg.cpp:319
+#: kftabdlg.cpp:320
 msgid "Files"
 msgstr "Fajły"
 
-#: kftabdlg.cpp:320
+#: kftabdlg.cpp:321
 msgid "Folders"
 msgstr "Katalohi"
 
-#: kftabdlg.cpp:321
+#: kftabdlg.cpp:322
 msgid "Symbolic Links"
 msgstr "Symbalnyja łučy"
 
-#: kftabdlg.cpp:322
+#: kftabdlg.cpp:323
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr "Specyjalnyja fajły (sokiety, pryłady dy inšaje)"
 
-#: kftabdlg.cpp:323
+#: kftabdlg.cpp:324
 msgid "Executable Files"
 msgstr "Vykonvalnyja fajły"
 
-#: kftabdlg.cpp:324
+#: kftabdlg.cpp:325
 msgid "SUID Executable Files"
 msgstr "Vykonvalnyja fajły z dazvołam „SUID”"
 
-#: kftabdlg.cpp:325
+#: kftabdlg.cpp:326
 msgid "All Images"
 msgstr "Usie vyjavy"
 
-#: kftabdlg.cpp:326
+#: kftabdlg.cpp:327
 msgid "All Video"
 msgstr "Usio videa"
 
-#: kftabdlg.cpp:327
+#: kftabdlg.cpp:328
 msgid "All Sounds"
 msgstr "Usie huki"
 
-#: kftabdlg.cpp:378
+#: kftabdlg.cpp:379
 msgid "Name/&Location"
 msgstr "Nazva/&miesca"
 
-#: kftabdlg.cpp:379
+#: kftabdlg.cpp:380
 msgid "C&ontents"
 msgstr "&Źmieściva"
 
-#: kftabdlg.cpp:380
+#: kftabdlg.cpp:381
 msgid "&Properties"
 msgstr "&Ułaścivaści"
 
-#: kftabdlg.cpp:385
+#: kftabdlg.cpp:386
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
 "examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
@@ -305,42 +305,42 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:393
+#: kftabdlg.cpp:394
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
 "(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:586
+#: kftabdlg.cpp:587
 msgid "Unable to search within a period which is less than a minute."
 msgstr "Nie ŭdałosia šukać fajły ŭ adcinku času, mienšym za adnu chvilinu."
 
-#: kftabdlg.cpp:597
+#: kftabdlg.cpp:598
 msgid "The date is not valid."
 msgstr "Data niapravilnaja."
 
-#: kftabdlg.cpp:599
+#: kftabdlg.cpp:600
 msgid "Invalid date range."
 msgstr "Dyjapazon dataŭ niapravilny."
 
-#: kftabdlg.cpp:601
+#: kftabdlg.cpp:602
 msgid "Unable to search dates in the future."
 msgstr "Nie ŭdałosia adšukać daty z pryšłaści."
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Size is too big. Set maximum size value?"
 msgstr "Pamier zavialiki. Aznačyć najbolšy mahčymy pamier?"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Error"
 msgstr "Pamyłka"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Set"
 msgstr "Aznač"
 
-#: kftabdlg.cpp:663
+#: kftabdlg.cpp:664
 msgid "Do Not Set"
 msgstr "Nie aznačaj"
 

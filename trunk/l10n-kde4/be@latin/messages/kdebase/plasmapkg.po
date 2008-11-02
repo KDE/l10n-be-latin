@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: main.cpp:36
 msgid "Install, list, remove Plasma packages"
@@ -50,7 +51,8 @@ msgid ""
 "The type of package, e.g. theme, wallpaper, plasmoid, DataEngine, Runner, "
 "etc."
 msgstr ""
-"Typ pakunka, naprykład, matyŭ, špalery, widžet „Plasma”, žarało źviestak, „Runner” itp."
+"Typ pakunka, naprykład, matyŭ, špalery, widžet „Plasma”, žarało źviestak, "
+"„Runner” itp."
 
 #: main.cpp:72
 #, fuzzy
@@ -103,7 +105,9 @@ msgstr "Nie ŭdałosia znajści prydatny instalatar dla pakunka typu „%1”."
 #: main.cpp:127
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
-msgstr "Nie ŭdałosia znajści prydatny instalatar dla pakunka typu „%1”. Uźnikła pamyłka: %2."
+msgstr ""
+"Nie ŭdałosia znajści prydatny instalatar dla pakunka typu „%1”. Uźnikła "
+"pamyłka: %2."
 
 #: main.cpp:149
 #, kde-format
@@ -139,4 +143,3 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
-

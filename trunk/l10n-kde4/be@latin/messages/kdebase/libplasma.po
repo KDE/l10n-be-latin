@@ -73,22 +73,20 @@ msgid "Settings"
 msgstr "Nałady"
 
 #: applet.cpp:1748
-#, fuzzy, kde-format
-#| msgid "Could not locate the %1 package required for the %2 widget."
+#, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
 #: applet.cpp:1769
-#, fuzzy, kde-format
+#, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
-msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine %1” dla widžeta „%2”."
+msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine dla %1” dla widžeta „%2”."
 
 #: applet.cpp:1774
-#, fuzzy, kde-format
-#| msgid "Could not open the %1 package required for the %2 widget."
+#, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
@@ -98,7 +96,7 @@ msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
 #: applet.cpp:1881
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
 msgstr "Nie ŭdałosia stvaryć hety abjekt z nastupnaj pryčyny:<p><b>%1</b></p>"
@@ -188,13 +186,11 @@ msgid "Unknown Wallpaper"
 msgstr "Nieviadomyja špalery"
 
 #: packagestructure.h:84
-#, fuzzy
 msgctxt "A non-functional package"
 msgid "Invalid"
-msgstr "Niapravilnaja"
+msgstr "Niapravilny"
 
 #: private/service_p.h:47
-#, fuzzy
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Niapravilnaja („null”) pasłuha nia ŭmieje ničoha rabić."
 
@@ -267,7 +263,6 @@ msgid "Background image for panels"
 msgstr "Fonavaja vyjava dla panelaŭ"
 
 #: private/packages.cpp:116
-#, fuzzy
 msgid "Background for graphing widgets"
 msgstr "Fon dla widžetaŭ z hrafikami"
 
@@ -325,7 +320,6 @@ msgid "Low color background image for panels"
 msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla panelaŭ"
 
 #: private/packages.cpp:147
-#, fuzzy
 msgid "Low color background for graphing widgets"
 msgstr "Fon z małoj kolkaściu koleraŭ dla widžetaŭ z hrafikami"
 

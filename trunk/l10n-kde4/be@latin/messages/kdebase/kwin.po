@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-02 09:59+0100\n"
+"POT-Creation-Date: 2008-11-03 09:54+0100\n"
 "PO-Revision-Date: 2008-10-18 23:14+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -897,8 +897,11 @@ msgid "Active window has stronger shadow"
 msgstr "Aktyŭnaje akno maje bolšy cień"
 
 #: effects/sharpen.cpp:40 effects/sharpen_config.cpp:46
+#, fuzzy
+#| msgid "Toggle Invert Effect"
+msgctxt "@action Enables/Disables an effect that makes windows more sharp"
 msgid "Toggle Sharpen Effect"
-msgstr ""
+msgstr "Invertavańnie"
 
 #: effects/snow.cpp:58
 msgid "Snow"

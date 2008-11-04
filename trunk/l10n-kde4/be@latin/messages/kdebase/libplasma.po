@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-02 09:59+0100\n"
+"POT-Creation-Date: 2008-11-03 09:54+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -49,6 +49,7 @@ msgstr "Naładź..."
 
 #: applet.cpp:794 containment.cpp:533
 #, fuzzy, kde-format
+msgctxt "%1 is the name of the applet"
 msgid "Remove this %1"
 msgstr "Vydali hety „%1”"
 
@@ -135,6 +136,7 @@ msgstr "Dadaj čynnaść"
 
 #: containment.cpp:514
 #, fuzzy, kde-format
+msgctxt "%1 is the name of the containment"
 msgid "%1 Options"
 msgstr "Opcyi „%1”"
 
@@ -144,11 +146,13 @@ msgstr "Ikona"
 
 #: containment.cpp:1380
 #, fuzzy, kde-format
+msgctxt "%1 is the name of the containment"
 msgid "Do you really want to remove this %1?"
 msgstr "Sapraŭdy chočaš vydalić hety „%1”?"
 
 #: containment.cpp:1381
 #, fuzzy, kde-format
+msgctxt "@title:window %1 is the name of the containment"
 msgid "Remove %1"
 msgstr "Vydali „%1”"
 
@@ -185,12 +189,15 @@ msgstr "Hety kamputar nie absłuhoŭvaje widžetaŭ dla „OpenGL”."
 msgid "Unknown Wallpaper"
 msgstr "Nieviadomyja špalery"
 
-#: packagestructure.h:84
+#: packagestructure.h:85
 msgctxt "A non-functional package"
 msgid "Invalid"
 msgstr "Niapravilny"
 
 #: private/service_p.h:47
+#, fuzzy
+#| msgid "Invalid (null) service, can not perform any operations."
+msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Niapravilnaja („null”) pasłuha nia ŭmieje ničoha rabić."
 

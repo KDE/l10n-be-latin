@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-30 10:06+0100\n"
+"POT-Creation-Date: 2008-11-04 10:12+0100\n"
 "PO-Revision-Date: 2008-10-05 11:04+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -40,10 +40,9 @@ msgstr "Zmaštabavany j abatnuty"
 msgid "Scaled"
 msgstr "Zmaštabavany"
 
-#: image.cpp:122 image.cpp:162
-#, fuzzy
-msgid "Maxpect"
-msgstr "Maxpect"
+#: image.cpp:122
+msgid "Scaled, keep proportions"
+msgstr ""
 
 #: image.cpp:123 image.cpp:163
 msgid "Centered"
@@ -56,6 +55,11 @@ msgstr "Kafla"
 #: image.cpp:125 image.cpp:165
 msgid "Center Tiled"
 msgstr "Kafla pasiarod"
+
+#: image.cpp:162
+#, fuzzy
+msgid "Maxpect"
+msgstr "Maxpect"
 
 #: image.cpp:381
 #, kde-format

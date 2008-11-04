@@ -1,0 +1,746 @@
+# translation of kcmcolors.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmcolors\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-07-29 08:29+0200\n"
+"PO-Revision-Date: 2008-11-04 17:27+0200\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 189
+#: colorscm.cpp:74 rc.cpp:51
+msgid "Colors"
+msgstr "Kolery"
+
+#: colorscm.cpp:76
+msgid "(c) 2007 Matthew Woehlke"
+msgstr "© 2007 Matthew Woehlke"
+
+#: colorscm.cpp:78
+msgid "Matthew Woehlke"
+msgstr "Matthew Woehlke"
+
+#: colorscm.cpp:80
+msgid "Jeremy Whiting"
+msgstr "Jeremy Whiting"
+
+#: colorscm.cpp:107 colorscm.cpp:228
+#, fuzzy
+msgid "Current"
+msgstr "Dziejnaja"
+
+#: colorscm.cpp:113 colorscm.cpp:219
+#, fuzzy
+msgid "Default"
+msgstr "Zmoŭčanaja"
+
+#: colorscm.cpp:237
+msgid "Selecting another scheme will discard any changes you have made"
+msgstr "Kali ty vybieraš inšuju schiemu, usie źmieny buduć stračanyja."
+
+#: colorscm.cpp:238
+msgid "Are you sure?"
+msgstr "Ty ŭpeŭnieny?"
+
+#: colorscm.cpp:277
+msgid "You do not have permission to delete that scheme"
+msgstr "Tabie nielha vydalić hetuju schiemu."
+
+#: colorscm.cpp:277 colorscm.cpp:398
+msgid "Error"
+msgstr "Pamyłka"
+
+#: colorscm.cpp:285
+msgid "Import Color Scheme"
+msgstr "Zimpartuj schiemu koleraŭ"
+
+#: colorscm.cpp:324 colorscm.cpp:353
+msgid "Save Color Scheme"
+msgstr "Zapišy schiemu koleraŭ"
+
+#: colorscm.cpp:325
+msgid "&Enter a name for the color scheme:"
+msgstr "&Upišy nazvu schiemy koleraŭ:"
+
+#: colorscm.cpp:352
+msgid ""
+"A color scheme with that name already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"Schiema koleraŭ z takoj nazvaju ŭžo jość.\n"
+"Chočaš jaje zamianić?"
+
+#: colorscm.cpp:398
+msgid "You do not have permission to overwrite that scheme"
+msgstr "Tabie nielha zamianić hetuju schiemu."
+
+#: colorscm.cpp:589 colorscm.cpp:604
+msgid "Varies"
+msgstr ""
+
+#: colorscm.cpp:629
+msgid "Normal Background"
+msgstr ""
+
+#: colorscm.cpp:630
+msgid "Alternate Background"
+msgstr ""
+
+#: colorscm.cpp:631
+msgid "Normal Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 443
+#: colorscm.cpp:632 rc.cpp:180
+msgid "Inactive Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 448
+#: colorscm.cpp:633 rc.cpp:183
+msgid "Active Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 453
+#: colorscm.cpp:634 rc.cpp:186
+msgid "Link Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 458
+#: colorscm.cpp:635 rc.cpp:189
+msgid "Visited Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 463
+#: colorscm.cpp:636 rc.cpp:192
+msgid "Negative Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 468
+#: colorscm.cpp:637 rc.cpp:195
+msgid "Neutral Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 473
+#: colorscm.cpp:638 rc.cpp:198
+msgid "Positive Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 478
+#: colorscm.cpp:639 rc.cpp:201
+msgid "Focus Decoration"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 483
+#: colorscm.cpp:640 rc.cpp:204
+msgid "Hover Decoration"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 23
+#: rc.cpp:3
+msgid "&Scheme"
+msgstr "&Schiema"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 45
+#: rc.cpp:6
+msgid "Color Scheme"
+msgstr "Schiema koleraŭ"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 67
+#: rc.cpp:9
+msgid "Save the current color scheme"
+msgstr "Zapišy dziejnuju schiemu koleraŭ"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 70
+#: rc.cpp:12
+msgid "&Save..."
+msgstr "&Zapišy..."
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 80
+#: rc.cpp:15
+msgid "Remove the selected scheme"
+msgstr "Vydali vybranuju schiemu"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 83
+#: rc.cpp:18
+msgid "Rem&ove"
+msgstr "&Vydali"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 90
+#: rc.cpp:21
+msgid "Import a color scheme from a file"
+msgstr "Zimpartuj schiemu koleraŭ z fajła"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 93
+#: rc.cpp:24
+msgid "I&mport..."
+msgstr "Z&impartuj..."
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 100
+#: rc.cpp:27
+msgid "Get &New Schemes..."
+msgstr "Atrymaj &novych schiemaŭ..."
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 110
+#: rc.cpp:30
+msgid "Options"
+msgstr "Opcyi"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 116
+#: rc.cpp:33
+msgid "Apply inactive window color &effects"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 123
+#: rc.cpp:36
+msgid "In&active selection changes color"
+msgstr "&Niadziejnaje vyłučeńnie źmianiaje koler"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 130
+#: rc.cpp:39
+msgid "Shade sorted column &in lists"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 140
+#: rc.cpp:42
+msgid "Contrast used for 3D objects"
+msgstr "Kantrast dla niapłoskich abjektaŭ"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 143
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 698
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 913
+#: rc.cpp:45 rc.cpp:276 rc.cpp:342
+msgid "Contrast"
+msgstr "Kantrast"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 181
+#: rc.cpp:48
+msgid "Apply colors to &non-KDE4 applications"
+msgstr "&Prymianiaj kolery dla aplikacyjaŭ, jakija nie naležać „KDE4”"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 205
+#: rc.cpp:54
+msgid "Colorset to view/modify"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 209
+#: rc.cpp:57
+msgid "Common Colors"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 214
+#: rc.cpp:60
+msgid "  View"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 219
+#: rc.cpp:63
+msgid "  Window"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 224
+#: rc.cpp:66
+msgid "  Button"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 229
+#: rc.cpp:69
+msgid "  Selection"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 234
+#: rc.cpp:72
+msgid "  Tooltip"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 268
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 273
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 278
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 283
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 288
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 293
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 298
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 303
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 308
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 313
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 318
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 323
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 328
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 333
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 338
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 343
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 348
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 353
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 358
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 363
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 368
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 373
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 378
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 383
+#: rc.cpp:75 rc.cpp:78 rc.cpp:81 rc.cpp:84 rc.cpp:87 rc.cpp:90 rc.cpp:93
+#: rc.cpp:96 rc.cpp:99 rc.cpp:102 rc.cpp:105 rc.cpp:108 rc.cpp:111 rc.cpp:114
+#: rc.cpp:117 rc.cpp:120 rc.cpp:123 rc.cpp:126 rc.cpp:129 rc.cpp:132
+#: rc.cpp:135 rc.cpp:138 rc.cpp:141 rc.cpp:144
+msgid "New Row"
+msgstr "Novy radok"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 388
+#: rc.cpp:147
+#, fuzzy
+msgid "0"
+msgstr "0"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 393
+#: rc.cpp:150
+#, fuzzy
+msgid "1"
+msgstr "1"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 398
+#: rc.cpp:153
+msgid "View Background"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 403
+#: rc.cpp:156
+msgid "View Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 408
+#: rc.cpp:159
+msgid "Window Background"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 413
+#: rc.cpp:162
+msgid "Window Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 418
+#: rc.cpp:165
+msgid "Button Background"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 423
+#: rc.cpp:168
+msgid "Button Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 428
+#: rc.cpp:171
+msgid "Selection Background"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 433
+#: rc.cpp:174
+msgid "Selection Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 438
+#: rc.cpp:177
+msgid "Selection Inactive Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 488
+#: rc.cpp:207
+msgid "Tooltip Background"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 493
+#: rc.cpp:210
+msgid "Tooltip Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 498
+#: rc.cpp:213
+msgid "Active Titlebar"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 503
+#: rc.cpp:216
+msgid "Active Titlebar Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 508
+#: rc.cpp:219
+msgid "Inactive Titlebar"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 513
+#: rc.cpp:222
+msgid "Inactive Titlebar Text"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 554
+#: rc.cpp:225
+msgid "&Effects"
+msgstr "&Efekty"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 560
+#: rc.cpp:228
+msgid "Inactive"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 566
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 781
+#: rc.cpp:231 rc.cpp:297
+msgid "Intensity"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 573
+#: rc.cpp:234
+msgid "Inactive intensity effect type"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 577
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 646
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 709
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 792
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 861
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 924
+#: rc.cpp:237 rc.cpp:258 rc.cpp:282 rc.cpp:303 rc.cpp:324 rc.cpp:348
+#, fuzzy
+msgid "None"
+msgstr "Niama"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 582
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 797
+#: rc.cpp:240 rc.cpp:306
+msgid "Shade"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 587
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 802
+#: rc.cpp:243 rc.cpp:309
+msgid "Darken"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 592
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 807
+#: rc.cpp:246 rc.cpp:312
+msgid "Lighten"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 603
+#: rc.cpp:249
+msgid "Inactive intensity effect amount"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 635
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 850
+#: rc.cpp:252 rc.cpp:318
+msgid "Color"
+msgstr "Koler"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 642
+#: rc.cpp:255
+msgid "Inactive color effect type"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 651
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 866
+#: rc.cpp:261 rc.cpp:327
+msgid "Desaturate"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 656
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 714
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 871
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 929
+#: rc.cpp:264 rc.cpp:285 rc.cpp:330 rc.cpp:351
+msgid "Fade"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 661
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 719
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 876
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 934
+#: rc.cpp:267 rc.cpp:288 rc.cpp:333 rc.cpp:354
+msgid "Tint"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 672
+#: rc.cpp:270
+msgid "Inactive color amount"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 691
+#: rc.cpp:273
+msgid "Inactive color"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 705
+#: rc.cpp:279
+msgid "Inactive contrast effect type"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 730
+#: rc.cpp:291
+msgid "Inactive contrast effect amount"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 775
+#: rc.cpp:294
+#, fuzzy
+msgid "Disabled"
+msgstr "Vyklučana"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 788
+#: rc.cpp:300
+msgid "Disabled intensity effect type"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 818
+#: rc.cpp:315
+msgid "Disabled intensity effect amount"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 857
+#: rc.cpp:321
+msgid "Disabled color effect type"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 887
+#: rc.cpp:336
+msgid "Disabled color effect amount"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 906
+#: rc.cpp:339
+msgid "Disabled color"
+msgstr "Vyklučany koler"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 920
+#: rc.cpp:345
+msgid "Disabled contrast type"
+msgstr "Vyklučany typ kantrastu"
+
+#. i18n: tag string
+#. i18n: file colorsettings.ui line 945
+#: rc.cpp:357
+msgid "Disabled contrast amount"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file preview.ui line 28
+#: rc.cpp:360
+msgid "Window text"
+msgstr "Tekst akna"
+
+#. i18n: tag string
+#. i18n: file preview.ui line 80
+#: rc.cpp:363
+msgid "Normal text"
+msgstr "Zvyčajny tekst"
+
+#. i18n: tag string
+#. i18n: file preview.ui line 92
+#. i18n: tag string
+#. i18n: file preview.ui line 195
+#: rc.cpp:366 rc.cpp:390
+msgid "link"
+msgstr "łuč"
+
+#. i18n: tag string
+#. i18n: file preview.ui line 104
+#. i18n: tag string
+#. i18n: file preview.ui line 207
+#: rc.cpp:369 rc.cpp:393
+#, fuzzy
+msgid "visited"
+msgstr "vykarystany"
+
+#. i18n: tag string
+#. i18n: file preview.ui line 111
+#. i18n: tag string
+#. i18n: file preview.ui line 214
+#: rc.cpp:372 rc.cpp:396
+msgctxt "active (abbreviate)"
+msgid "a"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file preview.ui line 118
+#. i18n: tag string
+#. i18n: file preview.ui line 221
+#: rc.cpp:375 rc.cpp:399
+msgctxt "inactive (abbreviate)"
+msgid "i"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file preview.ui line 125
+#. i18n: tag string
+#. i18n: file preview.ui line 228
+#: rc.cpp:378 rc.cpp:402
+#, fuzzy
+msgid "!"
+msgstr "!"
+
+#. i18n: tag string
+#. i18n: file preview.ui line 132
+#. i18n: tag string
+#. i18n: file preview.ui line 235
+#: rc.cpp:381 rc.cpp:405
+#, fuzzy
+msgid "="
+msgstr "="
+
+#. i18n: tag string
+#. i18n: file preview.ui line 139
+#. i18n: tag string
+#. i18n: file preview.ui line 242
+#: rc.cpp:384 rc.cpp:408
+#, fuzzy
+msgid "+"
+msgstr "+"
+
+#. i18n: tag string
+#. i18n: file preview.ui line 183
+#: rc.cpp:387
+msgid "Selected text"
+msgstr "Vyłučany tekst"
+
+#. i18n: tag string
+#. i18n: file preview.ui line 271
+#: rc.cpp:411
+msgid "Push Button"
+msgstr ""
+
+#: rc.cpp:412
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: rc.cpp:413
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-02 16:24+0200\n"
+"POT-Creation-Date: 2008-08-25 09:06+0200\n"
 "PO-Revision-Date: 2008-11-04 12:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: addscriptdialog.cpp:36
 msgid "Shell script:"
@@ -101,41 +102,43 @@ msgstr "Skrypt"
 
 #: autostart.cpp:380
 msgid "KDE only reads files with sh extensions for setting up the environment."
-msgstr "Systema „KDE” dla naładžvańnia rabočaha asiarodździa čytaje tolki fajły z pašyreńniem „.sh”."
+msgstr ""
+"Systema „KDE” dla naładžvańnia rabočaha asiarodździa čytaje tolki fajły z "
+"pašyreńniem „.sh”."
 
-#. i18n: tag string
-#. i18n: file autostartconfig.ui line 23
+#. i18n: file: autostartconfig.ui:23
+#. i18n: ectx: property (text), widget (QTreeWidget, listCMD)
 #: rc.cpp:3
 #, fuzzy
 msgid "1"
 msgstr "1"
 
-#. i18n: tag string
-#. i18n: file autostartconfig.ui line 31
+#. i18n: file: autostartconfig.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
 #: rc.cpp:6
 msgid "Add Program"
 msgstr "Dadaj prahramu"
 
-#. i18n: tag string
-#. i18n: file autostartconfig.ui line 38
+#. i18n: file: autostartconfig.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
 #: rc.cpp:9
 msgid "Add Script"
 msgstr "Dadaj skrypt"
 
-#. i18n: tag string
-#. i18n: file autostartconfig.ui line 45
+#. i18n: file: autostartconfig.ui:45
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #: rc.cpp:12
 msgid "&Remove"
 msgstr "&Vydali"
 
-#. i18n: tag string
-#. i18n: file autostartconfig.ui line 52
+#. i18n: file: autostartconfig.ui:52
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
 #: rc.cpp:15
 msgid "&Properties"
 msgstr "&Ułaścivaści"
 
-#. i18n: tag string
-#. i18n: file autostartconfig.ui line 79
+#. i18n: file: autostartconfig.ui:79
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
 #: rc.cpp:18
 #, fuzzy
 msgid "Advanced"
@@ -150,4 +153,3 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
-

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-28 13:58+0200\n"
+"POT-Creation-Date: 2008-09-08 09:40+0200\n"
 "PO-Revision-Date: 2008-11-04 11:20+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: countryselectordialog.cpp:217
 msgid "Country Selector"
@@ -30,20 +31,20 @@ msgctxt "@item:inlistbox Country"
 msgid "Not set (Generic English)"
 msgstr "Nie aznačanaja (zvyčajnaja anhielskaja)"
 
-#. i18n: tag string
-#. i18n: file language.ui line 28
+#. i18n: file: language.ui:28
+#. i18n: ectx: property (text), widget (QLabel, m_crLabel)
 #: kcmlocale.cpp:50 rc.cpp:3
 msgid "Country or region:"
 msgstr "Kraina ci abšar:"
 
-#. i18n: tag string
-#. i18n: file language.ui line 38
+#. i18n: file: language.ui:38
+#. i18n: ectx: property (text), widget (QLabel, m_languagesLabel)
 #: kcmlocale.cpp:51 rc.cpp:6
 msgid "Languages:"
 msgstr "Movy:"
 
-#. i18n: tag string
-#. i18n: file language.ui line 127
+#. i18n: file: language.ui:127
+#. i18n: ectx: property (text), widget (QPushButton, languageRemove)
 #: kcmlocale.cpp:52 rc.cpp:12
 msgid "Remove"
 msgstr "Vydali"
@@ -64,15 +65,18 @@ msgid "Add Language"
 msgstr "Dadaj movu"
 
 #: kcmlocale.cpp:225
-msgid "This is where you live. KDE will use the defaults for this country or region."
-msgstr "Ty tutejšy. Systema „KDE” vykarystaje nałady dla tvajoj krainy ci abšaru."
+msgid ""
+"This is where you live. KDE will use the defaults for this country or region."
+msgstr ""
+"Ty tutejšy. Systema „KDE” vykarystaje nałady dla tvajoj krainy ci abšaru."
 
 #: kcmlocale.cpp:228
 msgid ""
 "This will add a language to the list. If the language is already in the "
 "list, the old one will be moved instead."
 msgstr ""
-"Hetaja aperacyja dadaje movu ŭ hety śpis. Kali mova ŭžo jość u śpisie, tady jana budzie pierasunutaja."
+"Hetaja aperacyja dadaje movu ŭ hety śpis. Kali mova ŭžo jość u śpisie, tady "
+"jana budzie pierasunutaja."
 
 #: kcmlocale.cpp:232
 msgid "This will remove the highlighted language from the list."
@@ -84,15 +88,18 @@ msgid ""
 "list.\n"
 "If none of the languages are available, US English will be used."
 msgstr ""
-"Prahramy systemy „KDE” buduć karystacca pieršaj mahčymaj movaju z hetaha śpisu.\n"
-"Kali niama pierakładu dla ŭsich hetych movaŭ, tady prahramy karystajucca amerykanskaj admienaju anhielskaj movy."
+"Prahramy systemy „KDE” buduć karystacca pieršaj mahčymaj movaju z hetaha "
+"śpisu.\n"
+"Kali niama pierakładu dla ŭsich hetych movaŭ, tady prahramy karystajucca "
+"amerykanskaj admienaju anhielskaj movy."
 
 #: kcmlocale.cpp:242
 msgid ""
 "Here you can choose your country or region. The settings for languages, "
 "numbers etc. will automatically switch to the corresponding values."
 msgstr ""
-"Tut možna vybrać krainu ci abšar. Nałady movaŭ, ličeńnia dy inšyja miascovyja asablivaści buduć vybranyja dla tvajho interfejsu."
+"Tut možna vybrać krainu ci abšar. Nałady movaŭ, ličeńnia dy inšyja "
+"miascovyja asablivaści buduć vybranyja dla tvajho interfejsu."
 
 #: kcmlocale.cpp:249
 msgid ""
@@ -103,7 +110,13 @@ msgid ""
 "p><p>Note that some applications may not be translated to your languages; in "
 "this case, they will automatically fall back to US English.</p>"
 msgstr ""
-"<p>Tut možna vybrać movy, jakimi budzie karystacca systema „KDE”. Kali niama pierakładu ŭ pieršaj movie, tady budzie vykarystanaja druhaja, i tak dalej. Kali jość tolki amerykanskaja admiena anhielskaj movy, značyć, inšyja pierakłady nie zainstalavanyja. Ich možna ŭziać z toj samaj krynicy, dzie ty ŭziaŭ systemu „KDE”.</p><p>Pomni, što niekatoryja aplikacyi mohuć nia mieć pierakładu ŭ tvajoj movie. U takim vypadku jany buduć karystacca amerykanskaj admienaju anhielskaj movy.</p>"
+"<p>Tut možna vybrać movy, jakimi budzie karystacca systema „KDE”. Kali niama "
+"pierakładu ŭ pieršaj movie, tady budzie vykarystanaja druhaja, i tak dalej. "
+"Kali jość tolki amerykanskaja admiena anhielskaj movy, značyć, inšyja "
+"pierakłady nie zainstalavanyja. Ich možna ŭziać z toj samaj krynicy, dzie ty "
+"ŭziaŭ systemu „KDE”.</p><p>Pomni, što niekatoryja aplikacyi mohuć nia mieć "
+"pierakładu ŭ tvajoj movie. U takim vypadku jany buduć karystacca "
+"amerykanskaj admienaju anhielskaj movy.</p>"
 
 #: klocalesample.cpp:53
 msgid "Numbers:"
@@ -145,94 +158,92 @@ msgstr "Tak buduć vyhladać daty ŭ skaročanym zapisie."
 msgid "This is how the time will be displayed."
 msgstr "Tak budzie pakazvacca čas."
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 18
+#. i18n: file: localemon.ui:18
+#. i18n: ectx: property (text), widget (QLabel, m_labMonCurSym)
 #: localemon.cpp:51 rc.cpp:15
 msgid "Currency symbol:"
 msgstr "Hrašovy znak:"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 28
+#. i18n: file: localemon.ui:31
+#. i18n: ectx: property (text), widget (QLabel, m_labMonDecSym)
 #: localemon.cpp:52 rc.cpp:18
 msgid "Decimal symbol:"
 msgstr "Dziesiatkovy znak:"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 38
+#. i18n: file: localemon.ui:44
+#. i18n: ectx: property (text), widget (QLabel, m_labMonThoSep)
 #: localemon.cpp:53 rc.cpp:21
 msgid "Thousands separator:"
 msgstr "Dzielnik tysiačnych nabojaŭ:"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 48
-#: localemon.cpp:54 rc.cpp:24
+#: localemon.cpp:54
 msgid "Fract digits:"
 msgstr "Drobavyja ličby:"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 60
+#. i18n: file: localemon.ui:74
+#. i18n: ectx: property (title), widget (QGroupBox, m_positiveGB)
 #: localemon.cpp:55 rc.cpp:27
 msgid "Positive"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 66
-#. i18n: tag string
-#. i18n: file localemon.ui line 122
+#. i18n: file: localemon.ui:80
+#. i18n: ectx: property (text), widget (QCheckBox, m_chMonPosPreCurSym)
+#. i18n: file: localemon.ui:151
+#. i18n: ectx: property (text), widget (QCheckBox, m_chMonNegPreCurSym)
 #: localemon.cpp:56 localemon.cpp:59 rc.cpp:30 rc.cpp:54
 msgid "Prefix currency symbol"
 msgstr "Prefiksavy hrašovy znak"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 75
-#. i18n: tag string
-#. i18n: file localemon.ui line 131
+#. i18n: file: localemon.ui:89
+#. i18n: ectx: property (text), widget (QLabel, m_labMonPosMonSignPos)
+#. i18n: file: localemon.ui:160
+#. i18n: ectx: property (text), widget (QLabel, m_labMonNegMonSignPos)
 #: localemon.cpp:57 localemon.cpp:60 rc.cpp:33 rc.cpp:57
 msgid "Sign position:"
 msgstr "Miesca znaka:"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 116
+#. i18n: file: localemon.ui:145
+#. i18n: ectx: property (title), widget (QGroupBox, m_negativeGB)
 #: localemon.cpp:58 rc.cpp:51
 msgid "Negative"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 83
-#. i18n: tag string
-#. i18n: file localemon.ui line 139
+#. i18n: file: localemon.ui:97
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:168
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
 #: localemon.cpp:232 rc.cpp:36 rc.cpp:60
 msgid "Parentheses Around"
 msgstr "Akalaj dužkami"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 88
-#. i18n: tag string
-#. i18n: file localemon.ui line 144
+#. i18n: file: localemon.ui:102
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:173
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
 #: localemon.cpp:233 rc.cpp:39 rc.cpp:63
 msgid "Before Quantity Money"
 msgstr "Pierad kolkaściu hrošaj"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 93
-#. i18n: tag string
-#. i18n: file localemon.ui line 149
+#. i18n: file: localemon.ui:107
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:178
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
 #: localemon.cpp:234 rc.cpp:42 rc.cpp:66
 msgid "After Quantity Money"
 msgstr "Pa kolkaści hrošaj"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 98
-#. i18n: tag string
-#. i18n: file localemon.ui line 154
+#. i18n: file: localemon.ui:112
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:183
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
 #: localemon.cpp:235 rc.cpp:45 rc.cpp:69
 msgid "Before Money"
 msgstr "Pierad hrašyma"
 
-#. i18n: tag string
-#. i18n: file localemon.ui line 103
-#. i18n: tag string
-#. i18n: file localemon.ui line 159
+#. i18n: file: localemon.ui:117
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: file: localemon.ui:188
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
 #: localemon.cpp:236 rc.cpp:48 rc.cpp:72
 msgid "After Money"
 msgstr "Pa hrošach"
@@ -247,8 +258,9 @@ msgid ""
 "</p><p>Note that the decimal separator used to display other numbers has to "
 "be defined separately (see the 'Numbers' tab).</p>"
 msgstr ""
-"<p>Tut možna aznačyć dziesiatkovy dzielnik dla hrašovych sumaŭ."
-"</p><p>Uvaha: dziesiatkovy dzielnik dla inšych likaŭ aznačajecca ŭ inšym miescy (u kartcy „Ličeńnie”).</p>"
+"<p>Tut možna aznačyć dziesiatkovy dzielnik dla hrašovych sumaŭ.</p><p>Uvaha: "
+"dziesiatkovy dzielnik dla inšych likaŭ aznačajecca ŭ inšym miescy (u kartcy "
+"„Ličeńnie”).</p>"
 
 #: localemon.cpp:253
 msgid ""
@@ -256,8 +268,9 @@ msgid ""
 "values.</p><p>Note that the thousands separator used to display other "
 "numbers has to be defined separately (see the 'Numbers' tab).</p>"
 msgstr ""
-"<p>Tut možna aznačyć dzielnik tysiačnych nabojaŭ dla hrašovych sumaŭ."
-"</p><p>Uvaha: dzielnik tysiačnych nabojaŭ dla inšych likaŭ aznačajecca ŭ inšym miescy (u kartcy „Ličeńnie”).</p>"
+"<p>Tut možna aznačyć dzielnik tysiačnych nabojaŭ dla hrašovych sumaŭ.</"
+"p><p>Uvaha: dzielnik tysiačnych nabojaŭ dla inšych likaŭ aznačajecca ŭ inšym "
+"miescy (u kartcy „Ličeńnie”).</p>"
 
 #: localemon.cpp:261
 msgid ""
@@ -265,7 +278,9 @@ msgid ""
 "number of digits you find <em>behind</em> the decimal separator. Correct "
 "value is 2 for almost all people."
 msgstr ""
-"Hetaja vartaść aznačaje kolkaść drobavych ličbaŭ dla hrašovych sumaŭ. Heta kolkaść ličbaŭ <em>pa</b> dziesiatkovym dzielniku. Dla balšyni ludziej padyjdzie vartaść, roŭnaja 2."
+"Hetaja vartaść aznačaje kolkaść drobavych ličbaŭ dla hrašovych sumaŭ. Heta "
+"kolkaść ličbaŭ <em>pa</b> dziesiatkovym dzielniku. Dla balšyni ludziej "
+"padyjdzie vartaść, roŭnaja 2."
 
 #: localemon.cpp:268
 msgid ""
@@ -316,8 +331,9 @@ msgid ""
 "used to display monetary values has to be set separately (see the 'Money' "
 "tab).</p>"
 msgstr ""
-"<p>Tut možna aznačyć dziesiatkovy dzielnik dla likaŭ (dla balšyni krainaŭ heta kropka albo koska)."
-"</p><p>Uvaha: dziesiatkovy dzielnik dla hrašovych sumaŭ aznačajecca ŭ inšym miescy (u kartcy „Hrošy”).</p>"
+"<p>Tut možna aznačyć dziesiatkovy dzielnik dla likaŭ (dla balšyni krainaŭ "
+"heta kropka albo koska).</p><p>Uvaha: dziesiatkovy dzielnik dla hrašovych "
+"sumaŭ aznačajecca ŭ inšym miescy (u kartcy „Hrošy”).</p>"
 
 #: localenum.cpp:179
 msgid ""
@@ -325,8 +341,9 @@ msgid ""
 "p><p>Note that the thousands separator used to display monetary values has "
 "to be set separately (see the 'Money' tab).</p>"
 msgstr ""
-"<p>Tut možna aznačyć dzielnik tysiačnych nabojaŭ dla likaŭ."
-"</p><p>Uvaha: dzielnik tysiačnych nabojaŭ dla hrašovych sumaŭ aznačajecca ŭ inšym miescy (u kartcy „Hrošy”).</p>"
+"<p>Tut možna aznačyć dzielnik tysiačnych nabojaŭ dla likaŭ.</p><p>Uvaha: "
+"dzielnik tysiačnych nabojaŭ dla hrašovych sumaŭ aznačajecca ŭ inšym miescy "
+"(u kartcy „Hrošy”).</p>"
 
 #: localenum.cpp:187
 msgid ""
@@ -558,11 +575,19 @@ msgid ""
 "used in dates.</p>"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file language.ui line 95
+#. i18n: file: language.ui:95
+#. i18n: ectx: property (text), widget (QLabel, m_selectedCountryLabel)
 #: rc.cpp:9
 msgid "None selected (<a href=\"/change\">change...</a>)"
 msgstr "Nia aznačana (<a href=\"/change\">źmianić?</a>)"
+
+#. i18n: file: localemon.ui:57
+#. i18n: ectx: property (text), widget (QLabel, m_labMonFraDig)
+#: rc.cpp:24
+#, fuzzy
+#| msgid "Fract digits:"
+msgid "Fractional digits:"
+msgstr "Drobavyja ličby:"
 
 #: rc.cpp:73
 msgctxt "NAME OF TRANSLATORS"
@@ -592,7 +617,8 @@ msgid ""
 "Changed language settings apply only to newly started applications.\n"
 "To change the language of all programs, you will have to logout first."
 msgstr ""
-"Źmieny moŭnych naładaŭ prymianiajucca tolki dla nanoŭ uklučanych aplikacyjaŭ.\n"
+"Źmieny moŭnych naładaŭ prymianiajucca tolki dla nanoŭ uklučanych "
+"aplikacyjaŭ.\n"
 "Kab źmianić movu dla ŭsich prahram, treba spačatku vyjści z systemy."
 
 #: toplevel.cpp:188
@@ -635,4 +661,3 @@ msgstr "&Čas i daty"
 #: toplevel.cpp:267
 msgid "&Other"
 msgstr "&Inšaje"
-

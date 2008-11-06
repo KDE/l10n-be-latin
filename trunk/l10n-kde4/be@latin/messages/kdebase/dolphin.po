@@ -79,31 +79,25 @@ msgstr[1] "Vyłučanyja %1 katalohi"
 msgstr[2] "Vyłučanyja %1 katalohaŭ"
 
 #: dolphinview.cpp:534
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "1 Folder selected"
-#| msgid_plural "%1 Folders selected"
+#, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
 msgid_plural "%1 Files selected"
-msgstr[0] "Vyłučany %1 kataloh"
-msgstr[1] "Vyłučanyja %1 katalohi"
-msgstr[2] "Vyłučanyja %1 katalohaŭ"
+msgstr[0] "Vyłučany %1 fajł"
+msgstr[1] "Vyłučanyja %1 fajły"
+msgstr[2] "Vyłučanyja %1 fajłaŭ"
 
 #: dolphinview.cpp:536
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
-msgstr ""
+msgstr "%1, %2 (%3)"
 
 #: dolphinview.cpp:539
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "1 File selected (%2)"
-#| msgid_plural "%1 Files selected (%2)"
+#, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
-msgstr "Vyłučany %1 fajł (%2)"
+msgstr "%1 (%2)"
 
 #: dolphinview.cpp:1003
 msgctxt "@action:inmenu"
@@ -733,7 +727,7 @@ msgstr "Kolkaść radkoŭ:"
 #: iconsviewsettingspage.cpp:94
 msgctxt "@item:inlistbox Text width"
 msgid "Huge"
-msgstr ""
+msgstr "Vializny"
 
 #: iconsviewsettingspage.cpp:106
 msgctxt "@title:group"
@@ -763,7 +757,7 @@ msgstr "Adlehłaść pamiž elementami sietki:"
 #: iconsviewsettingspage.cpp:117
 msgctxt "@item:inlistbox Grid spacing"
 msgid "None"
-msgstr ""
+msgstr "Niama"
 
 #: iconsviewsettingspage.cpp:118
 msgctxt "@item:inlistbox Grid spacing"
@@ -1943,20 +1937,3 @@ msgstr "Hrupa"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Typ"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Folder"
-#~ msgctxt "@info:status"
-#~ msgid "1 Folder"
-#~ msgid_plural "%1 Folders"
-#~ msgstr[0] "Kataloh"
-#~ msgstr[1] "Kataloh"
-#~ msgstr[2] "Kataloh"
-
-#~ msgctxt "@info:status"
-#~ msgid "1 File selected (%2)"
-#~ msgid_plural "%1 Files selected (%2)"
-#~ msgstr[0] "Vyłučany %1 fajł (%2)"
-#~ msgstr[1] "Vyłučanyja %1 fajły (%2)"
-#~ msgstr[2] "Vyłučanyja %1 fajłaŭ (%2)"

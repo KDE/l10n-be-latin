@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-03 09:54+0100\n"
+"POT-Creation-Date: 2008-11-06 09:43+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -64,12 +64,12 @@ msgctxt "@action:button Choose font"
 msgid "Choose..."
 msgstr "Vybiery..."
 
-#: dolphindetailsview.cpp:557
+#: dolphindetailsview.cpp:564
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "Słupki"
 
-#: dolphinview.cpp:538
+#: dolphinview.cpp:533
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -78,54 +78,44 @@ msgstr[0] "Vyłučany %1 kataloh"
 msgstr[1] "Vyłučanyja %1 katalohi"
 msgstr[2] "Vyłučanyja %1 katalohaŭ"
 
-#: dolphinview.cpp:539
+#: dolphinview.cpp:534
 #, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Folder"
+#| msgctxt "@info:status"
+#| msgid "1 Folder selected"
+#| msgid_plural "%1 Folders selected"
 msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "Kataloh"
-msgstr[1] "Kataloh"
-msgstr[2] "Kataloh"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "Vyłučany %1 kataloh"
+msgstr[1] "Vyłučanyja %1 katalohi"
+msgstr[2] "Vyłučanyja %1 katalohaŭ"
 
-#: dolphinview.cpp:541
-msgctxt "@info:status separator between 2 status infos"
-msgid ", "
+#: dolphinview.cpp:536
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
 msgstr ""
 
-#: dolphinview.cpp:548
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected (%2)"
-msgid_plural "%1 Files selected (%2)"
-msgstr[0] "Vyłučany %1 fajł (%2)"
-msgstr[1] "Vyłučanyja %1 fajły (%2)"
-msgstr[2] "Vyłučanyja %1 fajłaŭ (%2)"
-
-#: dolphinview.cpp:549
+#: dolphinview.cpp:539
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "1 File selected (%2)"
 #| msgid_plural "%1 Files selected (%2)"
-msgctxt "@info:status"
-msgid "1 File (%2)"
-msgid_plural "%1 Files (%2)"
-msgstr[0] "Vyłučany %1 fajł (%2)"
-msgstr[1] "Vyłučanyja %1 fajły (%2)"
-msgstr[2] "Vyłučanyja %1 fajłaŭ (%2)"
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "Vyłučany %1 fajł (%2)"
 
-#: dolphinview.cpp:1004
+#: dolphinview.cpp:1003
 msgctxt "@action:inmenu"
 msgid "Paste One Folder"
 msgstr "Uklej adzin kataloh"
 
-#: dolphinview.cpp:1005
+#: dolphinview.cpp:1004
 msgctxt "@action:inmenu"
 msgid "Paste One File"
 msgstr "Uklej adzin fajł"
 
-#: dolphinview.cpp:1008
+#: dolphinview.cpp:1007
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Item"
@@ -134,22 +124,22 @@ msgstr[0] "Uklej %1 element"
 msgstr[1] "Uklej %1 elementy"
 msgstr[2] "Uklej %1 elementaŭ"
 
-#: dolphinview.cpp:1012 treeviewcontextmenu.cpp:67
+#: dolphinview.cpp:1011 treeviewcontextmenu.cpp:67
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Uklej"
 
-#: dolphinview.cpp:1054
+#: dolphinview.cpp:1053
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Vydaleńnie skončyłasia."
 
-#: dolphinview.cpp:1095
+#: dolphinview.cpp:1094
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Miesca pustoje."
 
-#: dolphinview.cpp:1097
+#: dolphinview.cpp:1096
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -740,42 +730,52 @@ msgctxt "@label:textbox"
 msgid "Number of lines:"
 msgstr "Kolkaść radkoŭ:"
 
-#: iconsviewsettingspage.cpp:105
+#: iconsviewsettingspage.cpp:94
+msgctxt "@item:inlistbox Text width"
+msgid "Huge"
+msgstr ""
+
+#: iconsviewsettingspage.cpp:106
 msgctxt "@title:group"
 msgid "Grid"
 msgstr "Sietka"
 
-#: iconsviewsettingspage.cpp:108
+#: iconsviewsettingspage.cpp:109
 msgctxt "@label:listbox"
 msgid "Arrangement:"
 msgstr "Paradak:"
 
-#: iconsviewsettingspage.cpp:110
+#: iconsviewsettingspage.cpp:111
 msgctxt "@item:inlistbox Arrangement"
 msgid "Columns"
 msgstr "Słupki"
 
-#: iconsviewsettingspage.cpp:111
+#: iconsviewsettingspage.cpp:112
 msgctxt "@item:inlistbox Arrangement"
 msgid "Rows"
 msgstr "Radki"
 
-#: iconsviewsettingspage.cpp:114
+#: iconsviewsettingspage.cpp:115
 msgctxt "@label:listbox"
 msgid "Grid spacing:"
 msgstr "Adlehłaść pamiž elementami sietki:"
 
-#: iconsviewsettingspage.cpp:116
+#: iconsviewsettingspage.cpp:117
+msgctxt "@item:inlistbox Grid spacing"
+msgid "None"
+msgstr ""
+
+#: iconsviewsettingspage.cpp:118
 msgctxt "@item:inlistbox Grid spacing"
 msgid "Small"
 msgstr "Małaja"
 
-#: iconsviewsettingspage.cpp:117
+#: iconsviewsettingspage.cpp:119
 msgctxt "@item:inlistbox Grid spacing"
 msgid "Medium"
 msgstr "Siaredniaja"
 
-#: iconsviewsettingspage.cpp:118
+#: iconsviewsettingspage.cpp:120
 msgctxt "@item:inlistbox Grid spacing"
 msgid "Large"
 msgstr "Vialikaja"
@@ -1943,3 +1943,20 @@ msgstr "Hrupa"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Typ"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Folder"
+#~ msgctxt "@info:status"
+#~ msgid "1 Folder"
+#~ msgid_plural "%1 Folders"
+#~ msgstr[0] "Kataloh"
+#~ msgstr[1] "Kataloh"
+#~ msgstr[2] "Kataloh"
+
+#~ msgctxt "@info:status"
+#~ msgid "1 File selected (%2)"
+#~ msgid_plural "%1 Files selected (%2)"
+#~ msgstr[0] "Vyłučany %1 fajł (%2)"
+#~ msgstr[1] "Vyłučanyja %1 fajły (%2)"
+#~ msgstr[2] "Vyłučanyja %1 fajłaŭ (%2)"

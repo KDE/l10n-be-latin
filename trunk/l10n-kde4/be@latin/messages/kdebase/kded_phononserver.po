@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kded_phononserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-01 10:37+0100\n"
+"POT-Creation-Date: 2008-11-07 10:06+0100\n"
 "PO-Revision-Date: 2008-11-07 00:56+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,14 +15,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: audiodevice.cpp:60
 msgid ""
 "<html>This device is currently not available (either it is unplugged or the "
 "driver is not loaded).</html>"
 msgstr ""
-"<html>Hetaj pryłady ciapier niama (albo jana nie padłučanaja da kamputara, albo adpaviedny drajver nia źmieščany ŭ pamiać).</html>"
+"<html>Hetaj pryłady ciapier niama (albo jana nie padłučanaja da kamputara, "
+"albo adpaviedny drajver nia źmieščany ŭ pamiać).</html>"
 
 #: audiodevice.cpp:67
 #, kde-format
@@ -38,8 +40,8 @@ msgid ""
 "<html>This will try the following devices and use the first that works: <ol>%"
 "1</ol></html>"
 msgstr ""
-"<html>Hetaja aperacyja pasprabuje ŭklučyć nastupnyja pryłady i vykarystaje pieršuju mahčymuju: <ol>%"
-"1</ol></html>"
+"<html>Hetaja aperacyja pasprabuje ŭklučyć nastupnyja pryłady i vykarystaje "
+"pieršuju mahčymuju: <ol>%1</ol></html>"
 
 #: audiodeviceaccess.cpp:42
 msgid "Invalid Driver"
@@ -69,8 +71,50 @@ msgstr "ESD"
 msgid "aRts"
 msgstr "aRts"
 
-#: phononserver.cpp:196
+#: phononserver.cpp:198
 #, fuzzy, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
+#: phononserver.cpp:697
+#, kde-format
+msgid "Output: %1"
+msgstr ""
+
+#: phononserver.cpp:698
+#, kde-format
+msgid "Capture: %1"
+msgstr ""
+
+#: phononserver.cpp:969
+msgid "Removed Sound Devices"
+msgstr ""
+
+#: phononserver.cpp:975
+msgid "Forget about the sound devices."
+msgstr ""
+
+#: phononserver.cpp:979
+msgctxt ""
+"short string for a button, it opens the Phonon page of System Settings"
+msgid "Manage Devices"
+msgstr ""
+
+#: phononserver.cpp:981
+msgid ""
+"Open the System Settings page for sound device configuration where you can "
+"manually remove disconnected devices from the cache."
+msgstr ""
+
+#: phononserver.cpp:988
+#, kde-format
+msgid ""
+"<html><p>KDE detected that one or more internal sound devices were removed.</"
+"p><p><b>Do you want KDE to permanently forget about these devices?</b></"
+"p><p>This is the list of devices KDE thinks can be removed:<ul><li>%1</li></"
+"ul></p></html>"
+msgstr ""
+
+#: phononserver.cpp:993
+msgid "Do not ask again for these devices"
+msgstr ""

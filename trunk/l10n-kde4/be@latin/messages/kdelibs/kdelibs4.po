@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-05 10:41+0100\n"
+"POT-Creation-Date: 2008-11-07 10:04+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5101,7 +5101,7 @@ msgid "Do Not Fill Out"
 msgstr "Nie biary"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:128
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:541
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:555
 msgid "Get Hot New Stuff"
 msgstr "Atrymańnie cikavostak"
 
@@ -5125,84 +5125,69 @@ msgstr "Dadaj kamentar"
 msgid "View Comments"
 msgstr "Pakažy kamentary"
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:146
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:95
-msgid "Translate"
-msgstr "Pierakładzi"
-
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:149
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:96
-msgid "Subscribe"
-msgstr "Padpišysia"
-
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:152
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:97
-msgid "Report bad entry"
-msgstr "Paviedam pra sapsavanaje"
-
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:193
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:196
 #, kde-format
 msgid "Re: %1"
 msgstr "Re: %1"
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:303
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:313
 msgid "Timeout. Check Internet connection!"
 msgstr ""
 "Biaz vyniku skončyŭsia termin čakańnia. Pravier dziejnaść spałučeńnia ź "
 "siecivam."
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:391
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:405
 msgid "Entries failed to load"
 msgstr "Nie ŭdałosia ŭziać patrebnaje."
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:489
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:503
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:254
 #, kde-format
 msgid "Server: %1"
 msgstr "Server: %1"
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:490
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:504
 #, kde-format
 msgid "<br />Provider: %1"
 msgstr "<br />Pravajder: %1"
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:491
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:505
 #, kde-format
 msgid "<br />Version: %1"
 msgstr "<br />Versija: %1"
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:495
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:509
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:84
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:260
 msgid "Provider information"
 msgstr "Źviestki ab pravajdery"
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:521
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:535
 #, kde-format
 msgid "Could not install %1"
 msgstr "Nie ŭdałosia zainstalavać „%1”."
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:522
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:536
 msgid "Get Hot New Stuff!"
 msgstr "Atrymaj novyja cikavostki!"
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:540
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:554
 msgid "There was an error loading data providers."
 msgstr "Uźnikła pamyłka ŭ adbirańni źviestak pra pravajderaŭ."
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:571
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:585
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:381
 msgid "A protocol fault has occurred. The request has failed."
 msgstr "Uźnikła pamyłka ŭ pratakole. Nie ŭdałosia vykanać zapyt."
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:572
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:579
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:586
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:593
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:382
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:389
 msgid "Desktop Exchange Service"
 msgstr "Słužba abmienu stałami"
 
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:578
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:592
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:388
 msgid "A network error has occurred. The request has failed."
 msgstr "Uźnikła pamyłka ŭ sietcy. Nie ŭdałosia vykanać zapyt."
@@ -5250,6 +5235,18 @@ msgstr "Źviarnisia da aŭtara"
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:91
 msgid "Collaboration"
 msgstr "Udzieł"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:95
+msgid "Translate"
+msgstr "Pierakładzi"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:96
+msgid "Subscribe"
+msgstr "Padpišysia"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:97
+msgid "Report bad entry"
+msgstr "Paviedam pra sapsavanaje"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:140
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:178

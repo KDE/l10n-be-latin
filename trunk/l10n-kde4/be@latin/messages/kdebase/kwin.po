@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-03 09:54+0100\n"
+"POT-Creation-Date: 2008-11-07 10:06+0100\n"
 "PO-Revision-Date: 2008-10-18 23:14+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -709,12 +709,12 @@ msgstr "&Na ŭsich stałach"
 msgid "Activate Window (%1)"
 msgstr "Uklučy akno (%1)"
 
-#: workspace.cpp:1115 workspace.cpp:1135
+#: workspace.cpp:1118 workspace.cpp:1138
 #, kde-format
 msgid "Desktop %1"
 msgstr "Stoł %1"
 
-#: workspace.cpp:2474
+#: workspace.cpp:2477
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -726,7 +726,7 @@ msgstr ""
 "Biez abrysu ty nia zmožaš jaho viarnuć myššu. Zamiest hetaha karystajsia "
 "menu aperacyjaŭ akna, jakoje ŭklučajecca klavijaturnym skarotam „%1”."
 
-#: workspace.cpp:2488
+#: workspace.cpp:2491
 #, kde-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
@@ -740,8 +740,8 @@ msgstr ""
 "karystajsia menu aperacyjaŭ akna, jakoje ŭklučajecca klavijaturnym skarotam "
 "„%1”."
 
-#: effects/cube.cpp:89 effects/cube_config.cpp:71
-#: effects/cylinder_config.cpp:71 effects/sphere_config.cpp:71
+#: effects/cube.cpp:89 effects/cube_config.cpp:61
+#: effects/cylinder_config.cpp:61 effects/sphere_config.cpp:61
 msgid "Desktop Cube"
 msgstr "Rabočy kub"
 
@@ -757,77 +757,47 @@ msgctxt "@title:tab Advanced Settings"
 msgid "Advanced"
 msgstr "Asablivaje"
 
-#: effects/cube_config.cpp:56 effects/cylinder_config.cpp:56
-#: effects/desktopgrid_config.cpp:63 effects/desktopgrid_config.cpp:76
-#: effects/presentwindows_config.cpp:68 effects/presentwindows_config.cpp:78
-#: effects/sphere_config.cpp:56
-msgid "Top"
-msgstr "Uviersie"
-
-#: effects/cube_config.cpp:57 effects/cylinder_config.cpp:57
-#: effects/desktopgrid_config.cpp:64 effects/desktopgrid_config.cpp:78
-#: effects/presentwindows_config.cpp:69 effects/presentwindows_config.cpp:79
-#: effects/sphere_config.cpp:57
-msgid "Top-right"
-msgstr "Uviersie sprava"
-
-#: effects/cube_config.cpp:58 effects/cylinder_config.cpp:58
-#: effects/desktopgrid_config.cpp:65 effects/desktopgrid_config.cpp:80
-#: effects/presentwindows_config.cpp:70 effects/presentwindows_config.cpp:80
-#: effects/sphere_config.cpp:58
-msgid "Right"
-msgstr "Sprava"
-
-#: effects/cube_config.cpp:59 effects/cylinder_config.cpp:59
-#: effects/desktopgrid_config.cpp:66 effects/desktopgrid_config.cpp:82
-#: effects/presentwindows_config.cpp:71 effects/presentwindows_config.cpp:81
-#: effects/sphere_config.cpp:59
-msgid "Bottom-right"
-msgstr "Unizie sprava"
-
-#: effects/cube_config.cpp:60 effects/cylinder_config.cpp:60
-#: effects/desktopgrid_config.cpp:67 effects/desktopgrid_config.cpp:84
-#: effects/presentwindows_config.cpp:72 effects/presentwindows_config.cpp:82
-#: effects/sphere_config.cpp:60
-msgid "Bottom"
-msgstr "Unizie"
-
-#: effects/cube_config.cpp:61 effects/cylinder_config.cpp:61
-#: effects/desktopgrid_config.cpp:68 effects/desktopgrid_config.cpp:86
-#: effects/presentwindows_config.cpp:73 effects/presentwindows_config.cpp:83
-#: effects/sphere_config.cpp:61
-msgid "Bottom-left"
-msgstr "Unizie źleva"
-
-#: effects/cube_config.cpp:62 effects/cylinder_config.cpp:62
-#: effects/desktopgrid_config.cpp:69 effects/desktopgrid_config.cpp:88
-#: effects/presentwindows_config.cpp:74 effects/presentwindows_config.cpp:84
-#: effects/sphere_config.cpp:62
-msgid "Left"
-msgstr "Źleva"
-
-#: effects/cube_config.cpp:63 effects/cylinder_config.cpp:63
-#: effects/desktopgrid_config.cpp:70 effects/desktopgrid_config.cpp:90
-#: effects/presentwindows_config.cpp:75 effects/presentwindows_config.cpp:85
-#: effects/sphere_config.cpp:63
-msgid "Top-left"
-msgstr "Uviersie źleva"
-
-#: effects/cube_config.cpp:64 effects/cylinder_config.cpp:64
-#: effects/desktopgrid_config.cpp:71 effects/presentwindows_config.cpp:76
-#: effects/presentwindows_config.cpp:86 effects/sphere_config.cpp:64
-msgid "None"
-msgstr "Niama"
-
 #: effects/desktopgrid.cpp:59 effects/desktopgrid_config.cpp:57
 msgid "Show Desktop Grid"
 msgstr "Sietka stała"
 
-#: effects/desktopgrid_config.cpp:74
+#: effects/desktopgrid_config.cpp:64
 msgid "Disabled"
 msgstr "Vyklučanaja"
 
-#: effects/desktopgrid_config.cpp:92
+#: effects/desktopgrid_config.cpp:66
+msgid "Top"
+msgstr "Uviersie"
+
+#: effects/desktopgrid_config.cpp:68
+msgid "Top-right"
+msgstr "Uviersie sprava"
+
+#: effects/desktopgrid_config.cpp:70
+msgid "Right"
+msgstr "Sprava"
+
+#: effects/desktopgrid_config.cpp:72
+msgid "Bottom-right"
+msgstr "Unizie sprava"
+
+#: effects/desktopgrid_config.cpp:74
+msgid "Bottom"
+msgstr "Unizie"
+
+#: effects/desktopgrid_config.cpp:76
+msgid "Bottom-left"
+msgstr "Unizie źleva"
+
+#: effects/desktopgrid_config.cpp:78
+msgid "Left"
+msgstr "Źleva"
+
+#: effects/desktopgrid_config.cpp:80
+msgid "Top-left"
+msgstr "Uviersie źleva"
+
+#: effects/desktopgrid_config.cpp:82
 msgid "Center"
 msgstr "Pasiarod"
 
@@ -867,34 +837,6 @@ msgid ""
 msgstr ""
 "Filtruj:\n"
 "%1"
-
-#: effects/shadow_config.cpp:52
-msgid "X offset:"
-msgstr "Zruch na X:"
-
-#: effects/shadow_config.cpp:58
-msgid "Y offset:"
-msgstr "Zruch na Y:"
-
-#: effects/shadow_config.cpp:64
-msgid "Shadow opacity:"
-msgstr "Nieprazrystaść cieniu:"
-
-#: effects/shadow_config.cpp:71
-msgid "Shadow fuzziness:"
-msgstr "Niapeŭnaść cieniu:"
-
-#: effects/shadow_config.cpp:77
-msgid "Shadow size (relative to window):"
-msgstr "Pamier cieniu (adnosna akna):"
-
-#: effects/shadow_config.cpp:83
-msgid "Shadow color:"
-msgstr "Koler cieniu:"
-
-#: effects/shadow_config.cpp:89
-msgid "Active window has stronger shadow"
-msgstr "Aktyŭnaje akno maje bolšy cień"
 
 #: effects/sharpen.cpp:40 effects/sharpen_config.cpp:46
 #, fuzzy
@@ -1053,3 +995,27 @@ msgstr "Nie ŭdałosia źmiaścić u pamiać plugin abrysaŭ akon, bo jon paško
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "Biblijateka „%1” nia jość pluginam dla akońnika „KWin”."
+
+#~ msgid "None"
+#~ msgstr "Niama"
+
+#~ msgid "X offset:"
+#~ msgstr "Zruch na X:"
+
+#~ msgid "Y offset:"
+#~ msgstr "Zruch na Y:"
+
+#~ msgid "Shadow opacity:"
+#~ msgstr "Nieprazrystaść cieniu:"
+
+#~ msgid "Shadow fuzziness:"
+#~ msgstr "Niapeŭnaść cieniu:"
+
+#~ msgid "Shadow size (relative to window):"
+#~ msgstr "Pamier cieniu (adnosna akna):"
+
+#~ msgid "Shadow color:"
+#~ msgstr "Koler cieniu:"
+
+#~ msgid "Active window has stronger shadow"
+#~ msgstr "Aktyŭnaje akno maje bolšy cień"

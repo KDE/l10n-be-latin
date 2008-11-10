@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-07 10:05+0100\n"
+"POT-Creation-Date: 2008-11-10 10:09+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -50,7 +50,7 @@ msgstr "Roznaje"
 msgid "Configure..."
 msgstr "Naładź..."
 
-#: applet.cpp:840 containment.cpp:535
+#: applet.cpp:840 containment.cpp:546
 #, fuzzy, kde-format
 msgctxt "%1 is the name of the applet"
 msgid "Remove this %1"
@@ -110,61 +110,65 @@ msgid "Add Widgets..."
 msgstr "Dadaj widžetaŭ..."
 
 #: containment.cpp:149
+msgid "Activity and Theme Settings"
+msgstr ""
+
+#: containment.cpp:156
 msgid "Next Widget"
 msgstr "Nastupny widžet"
 
-#: containment.cpp:156
+#: containment.cpp:163
 msgid "Previous Widget"
 msgstr "Papiaredni widžet"
 
-#: containment.cpp:167 containment.cpp:1582
+#: containment.cpp:174 containment.cpp:1589
 msgid "Lock Widgets"
 msgstr "Zamacuj widžety"
 
-#: containment.cpp:167 containment.cpp:1582
+#: containment.cpp:174 containment.cpp:1589
 msgid "Unlock Widgets"
 msgstr "Admacuj widžety"
 
-#: containment.cpp:178
+#: containment.cpp:185
 msgid "Zoom In"
 msgstr "Pavialič"
 
-#: containment.cpp:189
+#: containment.cpp:196
 msgid "Zoom Out"
 msgstr "Pamienš"
 
-#: containment.cpp:196
+#: containment.cpp:203
 msgid "Add Activity"
 msgstr "Dadaj čynnaść"
 
-#: containment.cpp:516
+#: containment.cpp:523
 #, fuzzy, kde-format
 msgctxt "%1 is the name of the containment"
 msgid "%1 Options"
 msgstr "Opcyi „%1”"
 
-#: containment.cpp:917
+#: containment.cpp:928
 msgid "Icon"
 msgstr "Ikona"
 
-#: containment.cpp:1382
+#: containment.cpp:1403
 #, fuzzy, kde-format
 msgctxt "%1 is the name of the containment"
 msgid "Do you really want to remove this %1?"
 msgstr "Sapraŭdy chočaš vydalić hety „%1”?"
 
-#: containment.cpp:1383
+#: containment.cpp:1404
 #, fuzzy, kde-format
 msgctxt "@title:window %1 is the name of the containment"
 msgid "Remove %1"
 msgstr "Vydali „%1”"
 
-#: containment.cpp:1660
+#: containment.cpp:1667
 #, kde-format
 msgid "Could not find requested component: %1"
 msgstr "Nie ŭdałosia znajści patrebny składnik: %1"
 
-#: dataengine.cpp:445 dataengine.cpp:451
+#: dataengine.cpp:453 dataengine.cpp:459
 msgid "Unnamed"
 msgstr "Biaz nazvy"
 

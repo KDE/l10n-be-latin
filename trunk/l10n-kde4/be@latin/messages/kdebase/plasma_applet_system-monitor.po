@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-02 09:59+0100\n"
+"POT-Creation-Date: 2008-11-11 09:54+0100\n"
 "PO-Revision-Date: 2008-10-26 00:05+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: cpu.cpp:43 cpu.cpp:120 hwinfo.cpp:127
+#: cpu.cpp:43 cpu.cpp:120 hwinfo.cpp:126
 msgid "CPU"
 msgstr "Pracesar"
 
@@ -57,7 +57,7 @@ msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
 msgstr "%1 (niedastypny)"
 
-#: hwinfo.cpp:55 hwinfo.cpp:140
+#: hwinfo.cpp:55 hwinfo.cpp:144
 msgid "Hardware Info"
 msgstr "Źviestki pra aparaturu"
 
@@ -69,11 +69,11 @@ msgstr "Atrymańnie źviestak pra aparaturu..."
 msgid "GPU"
 msgstr "Hrafičny pracesar"
 
-#: hwinfo.cpp:129
+#: hwinfo.cpp:130
 msgid "Audio"
 msgstr "Huk"
 
-#: hwinfo.cpp:130 net.cpp:43
+#: hwinfo.cpp:133 net.cpp:43
 msgid "Network"
 msgstr "Sietka"
 

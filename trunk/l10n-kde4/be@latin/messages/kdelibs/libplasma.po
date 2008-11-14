@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-13 10:07+0100\n"
+"POT-Creation-Date: 2008-11-14 10:02+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -50,7 +50,7 @@ msgstr "Roznaje"
 msgid "Configure..."
 msgstr "Naładź..."
 
-#: applet.cpp:840 containment.cpp:546
+#: applet.cpp:840 containment.cpp:541
 #, fuzzy, kde-format
 msgctxt "%1 is the name of the applet"
 msgid "Remove this %1"
@@ -76,30 +76,30 @@ msgstr "Nałady „%1”"
 msgid "Settings"
 msgstr "Nałady"
 
-#: applet.cpp:1808
+#: applet.cpp:1809
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1829
+#: applet.cpp:1830
 #, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine dla %1” dla widžeta „%2”."
 
-#: applet.cpp:1834
+#: applet.cpp:1835
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1939
+#: applet.cpp:1944
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
-#: applet.cpp:1941
+#: applet.cpp:1946
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
@@ -123,11 +123,11 @@ msgstr "Nastupny widžet"
 msgid "Previous Widget"
 msgstr "Papiaredni widžet"
 
-#: containment.cpp:174 containment.cpp:1598
+#: containment.cpp:174 containment.cpp:1537
 msgid "Lock Widgets"
 msgstr "Zamacuj widžety"
 
-#: containment.cpp:174 containment.cpp:1598
+#: containment.cpp:174 containment.cpp:1537
 msgid "Unlock Widgets"
 msgstr "Admacuj widžety"
 
@@ -149,23 +149,23 @@ msgctxt "%1 is the name of the containment"
 msgid "%1 Options"
 msgstr "Opcyi „%1”"
 
-#: containment.cpp:928
+#: containment.cpp:931
 msgid "Icon"
 msgstr "Ikona"
 
-#: containment.cpp:1408
+#: containment.cpp:1411
 #, fuzzy, kde-format
 msgctxt "%1 is the name of the containment"
 msgid "Do you really want to remove this %1?"
 msgstr "Sapraŭdy chočaš vydalić hety „%1”?"
 
-#: containment.cpp:1409
+#: containment.cpp:1412
 #, fuzzy, kde-format
 msgctxt "@title:window %1 is the name of the containment"
 msgid "Remove %1"
 msgstr "Vydali „%1”"
 
-#: containment.cpp:1676
+#: containment.cpp:1615
 #, kde-format
 msgid "Could not find requested component: %1"
 msgstr "Nie ŭdałosia znajści patrebny składnik: %1"

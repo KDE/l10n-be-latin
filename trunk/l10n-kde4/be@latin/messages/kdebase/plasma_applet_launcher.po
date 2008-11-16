@@ -48,7 +48,7 @@ msgstr "Vysuń"
 
 #: ui/launcher.cpp:160
 msgid "Leave"
-msgstr "Pakiń"
+msgstr "Vyjdzi"
 
 #: ui/launcher.cpp:172 core/favoritesmodel.cpp:43
 msgid "Favorites"
@@ -76,16 +76,16 @@ msgid "Computer"
 msgstr "Kamputar"
 
 #: ui/launcher.cpp:487
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "login name, hostname"
 msgid "User <b>%1</b> on <b>%2</b>"
-msgstr "Karystańnik&nbsp;<b>%1</b>&nbsp;na&nbsp;<b>%2</b>"
+msgstr "Karystańnik <b>%1</b> na <b>%2</b>"
 
 #: ui/launcher.cpp:489
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr "<b>%1 (%2)</b>&nbsp;na&nbsp;<b>%3</b>"
+msgstr "<b>%1 (%2)</b> na <b>%3</b>"
 
 #: ui/searchbar.cpp:71
 msgid "Search:"
@@ -140,16 +140,13 @@ msgid "Save current session for next login"
 msgstr "Zapišy dziejnuju sesiju, kab uznavić pry nastupnym uvachodzie"
 
 #: core/leavemodel.cpp:74
-#, fuzzy
-#| msgctxt "@item:inlistbox View:"
-#| msgid "Standard"
 msgctxt "Puts the system on standby"
 msgid "Standby"
-msgstr "Zvyčajnaje"
+msgstr "Pačakaj"
 
 #: core/leavemodel.cpp:76 core/leavemodel.cpp:80 core/leavemodel.cpp:84
 msgid "Pause without logging out"
-msgstr ""
+msgstr "Prypyni biaz vychadu"
 
 #: core/leavemodel.cpp:78
 msgid "Suspend to Disk"
@@ -321,7 +318,5 @@ msgid "Name - Description"
 msgstr "Nazva - Apisańnie"
 
 #: simpleapplet/simpleapplet.cpp:396
-#, fuzzy
-#| msgid "Leave"
 msgid "Leave..."
-msgstr "Pakiń"
+msgstr "Vyjdzi..."

@@ -50,9 +50,10 @@ msgid "Size: %1 pixels"
 msgstr "Pamier: %1 punktaŭ"
 
 #: draganddrophelper.cpp:109
+#, fuzzy
 msgctxt "@info:status"
 msgid "A folder cannot dropped on to itself"
-msgstr ""
+msgstr "Nielha pierakinuć kataloh u samoha siabie."
 
 #: draganddrophelper.cpp:114
 #, kde-format
@@ -61,12 +62,13 @@ msgid ""
 "The dropped item <filename>%1</filename> is already inside the folder "
 "<filename>%2</filename>"
 msgstr ""
+"Pierakinuty element <filename>%1</filename> užo ŭ katalohu <filename>%2</filename>."
 
 #: draganddrophelper.cpp:118
 #, kde-format
 msgctxt "@info:status"
 msgid "The dropped items are already inside the folder <filename>%1</filename>"
-msgstr ""
+msgstr "Pierakinutyja elementy ŭžo ŭ katalohu <filename>%1</filename>."
 
 #: dolphinfontrequester.cpp:40
 msgctxt "@item:inlistbox Font"
@@ -89,20 +91,16 @@ msgid "Columns"
 msgstr "Słupki"
 
 #: dolphinview.cpp:551
-#, fuzzy, kde-format
-#| msgctxt "@label:textbox"
-#| msgid "Rename the item <filename>%1</filename> to:"
+#, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
-msgstr "Źmiani nazvu dla <filename>%1</filename> na:"
+msgstr "<filename>%1</filename> vyłučany"
 
 #: dolphinview.cpp:552
-#, fuzzy, kde-format
-#| msgctxt "@label:textbox"
-#| msgid "Rename the item <filename>%1</filename> to:"
+#, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
-msgstr "Źmiani nazvu dla <filename>%1</filename> na:"
+msgstr "<filename>%1</filename> vyłučany (%2)"
 
 #: dolphinview.cpp:556
 #, kde-format
@@ -288,17 +286,17 @@ msgstr "Čytańnie kataloha..."
 #: dolphinviewcontainer.cpp:362
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr ""
+msgstr "Prahrama „Dolphin” nie absłuhoŭvaje sieciŭnych staronak, tamu ŭklučyła hartač."
 
 #: dolphinviewcontainer.cpp:370
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr ""
+msgstr "Prahrama „Dolphin” nie absłuhoŭvaje hetaha pratakołu, tamu ŭklučyła aplikacyju „Konqueror”."
 
 #: dolphinviewcontainer.cpp:375
 msgctxt "@info:status"
 msgid "Invalid protocol"
-msgstr ""
+msgstr "Niapravilny pratakoł"
 
 #: infosidebarpage.cpp:197
 #, kde-format
@@ -337,48 +335,42 @@ msgstr "Pamier:"
 #: infosidebarpage.cpp:427
 msgctxt "@label"
 msgid "Album:"
-msgstr ""
+msgstr "Albom:"
 
 #: infosidebarpage.cpp:428
 msgctxt "@label"
 msgid "Artist:"
-msgstr ""
+msgstr "Vykanaŭca:"
 
 #: infosidebarpage.cpp:429
-#, fuzzy
-#| msgctxt "@title:tab General settings"
-#| msgid "General"
 msgctxt "@label"
 msgid "Genre:"
-msgstr "Hałoŭnaje"
+msgstr "Styl:"
 
 #: infosidebarpage.cpp:430
 msgctxt "@label"
 msgid "Height:"
-msgstr ""
+msgstr "Vyšynia:"
 
 #: infosidebarpage.cpp:431
 msgctxt "@label"
 msgid "Lines:"
-msgstr ""
+msgstr "Radkoŭ:"
 
 #: infosidebarpage.cpp:432
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Filter:"
 msgctxt "@label"
 msgid "Title:"
-msgstr "Filtruj:"
+msgstr "Nazva:"
 
 #: infosidebarpage.cpp:434
 msgctxt "@label"
 msgid "Track:"
-msgstr ""
+msgstr "Ściežka:"
 
 #: infosidebarpage.cpp:435
 msgctxt "@label"
 msgid "Width:"
-msgstr ""
+msgstr "Šyrynia:"
 
 #: viewpropsprogressinfo.cpp:49
 msgctxt "@title:window"

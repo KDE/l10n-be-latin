@@ -28,6 +28,7 @@ msgid ""
 "a small movement with the mouse, or press a key that is not likely to cause "
 "any unintentional side-effects, for example, the \"Shift\" key.</p>"
 msgstr ""
+"<h1>Siłkavańnie ekranu</h1> <p>Kali tvoj ekran umieje kiravać enerhijaj, tady ty možaš naładzić tut hetuju mahčymaść.</p> <p>Jość try roŭni zachoŭvańnia enerhii: čakańnie, son i vyklučeńnie. Čym bolš aščadny rovień, tym daŭžejšy termin času, patrebny ekranu dla ŭznaŭleńnia zvykłaj raboty.</p> <p>Kab viarnuć ekran u dziejny stan, možaš pasunuć kursor albo nacisnuć jakuju-niebudź klavišu, jakaja nia zrobić ničoha niečakanaha, naprykład, „Shift”.</p>"
 
 #: energy.cpp:177
 msgid "&Enable display power management"
@@ -49,7 +50,7 @@ msgstr "Bolš źviestak ab prahramie „Energy Star”"
 
 #: energy.cpp:199
 msgid "&Standby after:"
-msgstr ""
+msgstr "&Čakaj paśla:"
 
 #: energy.cpp:201 energy.cpp:212 energy.cpp:224
 msgid " min"
@@ -64,10 +65,11 @@ msgid ""
 "Choose the period of inactivity after which the display should enter "
 "\"standby\" mode. This is the first level of power saving."
 msgstr ""
+"Vybiery termin biaździejnaści, paśla jakoha ekran pavinien stać u čakańni. Heta pieršy rovień zachoŭvańnia enerhii."
 
 #: energy.cpp:210
 msgid "S&uspend after:"
-msgstr ""
+msgstr "&Zaśni paśla:"
 
 #: energy.cpp:216
 msgid ""
@@ -75,10 +77,12 @@ msgid ""
 "\"suspend\" mode. This is the second level of power saving, but may not be "
 "different from the first level for some displays."
 msgstr ""
+"Vybiery termin biaździejnaści, paśla jakoha ekran pavinien stać u spańni. Heta druhi rovień zachoŭvańnia enerhii, ale dla niekatorych ekranaŭ jon nia roźnicca ź pieršym."
+
 
 #: energy.cpp:222
 msgid "&Power off after:"
-msgstr ""
+msgstr "&Vyklučy paśla:"
 
 #: energy.cpp:228
 msgid ""
@@ -86,3 +90,4 @@ msgid ""
 "off. This is the greatest level of power saving that can be achieved while "
 "the display is still physically turned on."
 msgstr ""
+"Vybiery termin biaździejnaści, paśla jakoha ekran pavinien vyklučycca. Heta najbolšy rovień zachoŭvańnia enerhii, jakoha možna siahnuć, nie adłučajučy ekran fizyčna ad siłkavańnia."

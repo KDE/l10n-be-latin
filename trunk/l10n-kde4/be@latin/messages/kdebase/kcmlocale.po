@@ -475,20 +475,16 @@ msgid "First day of the week:"
 msgstr "Pieršy dzień tydnia:"
 
 #: localetime.cpp:255
-#, fuzzy
-#| msgid "First day of the week:"
 msgid "First working day of the week:"
-msgstr "Pieršy dzień tydnia:"
+msgstr "Pieršy pracoŭny dzień tydnia:"
 
 #: localetime.cpp:264
-#, fuzzy
-#| msgid "First day of the week:"
 msgid "Last working day of the week:"
-msgstr "Pieršy dzień tydnia:"
+msgstr "Apošni pracoŭny dzień tydnia:"
 
 #: localetime.cpp:273
 msgid "Day of the week for religious observance:"
-msgstr ""
+msgstr "Śviaty dzień tydnia:"
 
 #: localetime.cpp:283
 msgid "Use declined form of month name"
@@ -610,11 +606,9 @@ msgid ""
 msgstr ""
 
 #: localetime.cpp:635
-#, fuzzy
-#| msgid "Money:"
 msgctxt "Day name list, option for no day of religious observance"
 msgid "None"
-msgstr "Hrošy:"
+msgstr "Niama"
 
 #. i18n: file: language.ui:95
 #. i18n: ectx: property (text), widget (QLabel, m_selectedCountryLabel)
@@ -680,7 +674,6 @@ msgid "Examples"
 msgstr "Uzory"
 
 #: toplevel.cpp:263
-#, fuzzy
 msgid "&Locale"
 msgstr "&Lakalnaść"
 

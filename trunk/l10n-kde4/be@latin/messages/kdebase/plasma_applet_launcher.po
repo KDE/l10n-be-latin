@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-15 11:37+0100\n"
+"POT-Creation-Date: 2008-11-17 09:40+0100\n"
 "PO-Revision-Date: 2008-10-26 00:52+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,70 +18,78 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ui/flipscrollview.cpp:146
+#: ui/flipscrollview.cpp:137
 msgid "All Applications"
 msgstr "Usie aplikacyi"
 
-#: ui/contextmenufactory.cpp:79
+#: ui/contextmenufactory.cpp:77
 msgid "Advanced"
 msgstr "Asablivaje"
 
-#: ui/contextmenufactory.cpp:122
+#: ui/contextmenufactory.cpp:120
 msgid "Remove From Favorites"
 msgstr "Vydali z ułasnaha"
 
-#: ui/contextmenufactory.cpp:125
+#: ui/contextmenufactory.cpp:123
 msgid "Add to Favorites"
 msgstr "Dadaj va ŭłasnaje"
 
-#: ui/contextmenufactory.cpp:149
+#: ui/contextmenufactory.cpp:148
 msgid "Add to Desktop"
 msgstr "Dadaj na stoł"
 
-#: ui/contextmenufactory.cpp:156
+#: ui/contextmenufactory.cpp:155
 msgid "Add to Panel"
 msgstr "Dadaj na panel"
 
-#: ui/contextmenufactory.cpp:178
+#: ui/contextmenufactory.cpp:166
+msgid "Sort Ascending"
+msgstr ""
+
+#: ui/contextmenufactory.cpp:169
+msgid "Sort Descending"
+msgstr ""
+
+#: ui/contextmenufactory.cpp:193
 msgid "Eject"
 msgstr "Vysuń"
 
-#: ui/launcher.cpp:160
+#: ui/launcher.cpp:158
 msgid "Leave"
 msgstr "Vyjdzi"
 
-#: ui/launcher.cpp:172 core/favoritesmodel.cpp:43
+#: ui/launcher.cpp:169 core/favoritesmodel.cpp:44
 msgid "Favorites"
 msgstr "Ułasnaje"
 
-#: ui/launcher.cpp:190 core/recentlyusedmodel.cpp:107 core/systemmodel.cpp:90
-#: core/searchmodel.cpp:137
+#: ui/launcher.cpp:186 core/recentlyusedmodel.cpp:101 core/systemmodel.cpp:88
+#: core/searchmodel.cpp:135
 msgid "Applications"
 msgstr "Aplikacyi"
 
-#: ui/launcher.cpp:203
+#: ui/launcher.cpp:198
 msgid "Recently Used"
 msgstr "Nadoječy ŭklučanyja"
 
-#: ui/launcher.cpp:205
+#: ui/launcher.cpp:200
 msgid "Clear Recent Applications"
 msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
 
-#: ui/launcher.cpp:206
+#: ui/launcher.cpp:201
 msgid "Clear Recent Documents"
 msgstr "Vyčyści śpis nadoječy adčynienych dakumentaŭ"
 
-#: ui/launcher.cpp:224
+#: ui/launcher.cpp:218
 msgid "Computer"
 msgstr "Kamputar"
 
-#: ui/launcher.cpp:487
+#: ui/launcher.cpp:472
 #, kde-format
 msgctxt "login name, hostname"
 msgid "User <b>%1</b> on <b>%2</b>"
 msgstr "Karystańnik <b>%1</b> na <b>%2</b>"
 
-#: ui/launcher.cpp:489
+#: ui/launcher.cpp:474
 #, kde-format
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
@@ -164,7 +172,7 @@ msgstr "Sesija"
 msgid "System"
 msgstr "Systema"
 
-#: core/applicationmodel.cpp:326
+#: core/applicationmodel.cpp:316
 msgid "Known Applications"
 msgstr "Viadomyja aplikacyi"
 
@@ -176,27 +184,27 @@ msgstr "Chatni kataloh"
 msgid "Network Folders"
 msgstr "Sietkavyja katalohi"
 
-#: core/recentlyusedmodel.cpp:98 core/searchmodel.cpp:223
+#: core/recentlyusedmodel.cpp:93 core/searchmodel.cpp:221
 msgid "Documents"
 msgstr "Dakumenty"
 
-#: core/systemmodel.cpp:91
+#: core/systemmodel.cpp:89
 msgid "Places"
 msgstr "Miescy"
 
-#: core/systemmodel.cpp:92
+#: core/systemmodel.cpp:90
 msgid "Removable Storage"
 msgstr "Źmiennyja nośbity"
 
-#: core/systemmodel.cpp:93
+#: core/systemmodel.cpp:91
 msgid "Storage"
 msgstr "Nośbit"
 
-#: core/searchmodel.cpp:206
+#: core/searchmodel.cpp:204
 msgid "Web Searches"
 msgstr "Sieciŭny pošuk"
 
-#: core/searchmodel.cpp:213
+#: core/searchmodel.cpp:211
 #, kde-format
 msgid "Search web for '%1'"
 msgstr "Šukaj u siecivie „%1”"
@@ -209,11 +217,11 @@ msgstr "Kickoff"
 msgid "Application Launcher"
 msgstr "Uklučeńnie aplikacyjaŭ"
 
-#: applet/applet.cpp:81
+#: applet/applet.cpp:83
 msgid "Kickoff Application Launcher"
 msgstr "Uklučeńnie aplikacyjaŭ „Kickoff”"
 
-#: applet/applet.cpp:82
+#: applet/applet.cpp:84
 msgid ""
 "Favorites, applications, computer places, recently used items and desktop "
 "sessions"
@@ -221,15 +229,15 @@ msgstr ""
 "Ułasnaje, aplikacyi, miescy na kamputary, nadoječy vykarystanyja rečy dy "
 "sesii rabočaha stała"
 
-#: applet/applet.cpp:105 simpleapplet/simpleapplet.cpp:245
+#: applet/applet.cpp:107 simpleapplet/simpleapplet.cpp:245
 msgid "Menu Editor"
 msgstr "Redaktar menu"
 
-#: applet/applet.cpp:111
+#: applet/applet.cpp:113
 msgid "Switch to Classic Menu Style"
 msgstr "Viarni klasyčny vykład menu"
 
-#: applet/applet.cpp:148
+#: applet/applet.cpp:147
 msgid "Switch tabs on hover"
 msgstr "Pieraklučaj kartki pad kursoram"
 

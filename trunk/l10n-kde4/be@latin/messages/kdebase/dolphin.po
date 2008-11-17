@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-16 09:54+0100\n"
+"POT-Creation-Date: 2008-11-17 09:39+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -62,7 +62,8 @@ msgid ""
 "The dropped item <filename>%1</filename> is already inside the folder "
 "<filename>%2</filename>"
 msgstr ""
-"Pierakinuty element <filename>%1</filename> užo ŭ katalohu <filename>%2</filename>."
+"Pierakinuty element <filename>%1</filename> užo ŭ katalohu <filename>%2</"
+"filename>."
 
 #: draganddrophelper.cpp:118
 #, kde-format
@@ -286,12 +287,16 @@ msgstr "Čytańnie kataloha..."
 #: dolphinviewcontainer.cpp:362
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Prahrama „Dolphin” nie absłuhoŭvaje sieciŭnych staronak, tamu ŭklučyła hartač."
+msgstr ""
+"Prahrama „Dolphin” nie absłuhoŭvaje sieciŭnych staronak, tamu ŭklučyła "
+"hartač."
 
 #: dolphinviewcontainer.cpp:370
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "Prahrama „Dolphin” nie absłuhoŭvaje hetaha pratakołu, tamu ŭklučyła aplikacyju „Konqueror”."
+msgstr ""
+"Prahrama „Dolphin” nie absłuhoŭvaje hetaha pratakołu, tamu ŭklučyła "
+"aplikacyju „Konqueror”."
 
 #: dolphinviewcontainer.cpp:375
 msgctxt "@info:status"
@@ -420,8 +425,11 @@ msgid "Use thumbnails embedded in files"
 msgstr "Karystajsia padhladami, unutranymi ŭ fajły"
 
 #: generalviewsettingspage.cpp:101
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show selection toggle"
 msgctxt "@option:check"
-msgid "Show selection toggle"
+msgid "Show selection marker"
 msgstr "Pakazvaj pieraklučnik vyłučeńnia"
 
 #: generalviewsettingspage.cpp:104

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:39+0100\n"
+"POT-Creation-Date: 2008-11-18 09:54+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -893,13 +893,19 @@ msgid "All settings will be reset to default values. Do you want to continue?"
 msgstr "Usie nałady viernucca da zmoŭčanych vartaściaŭ. Praciahnuć?"
 
 #: commentwidget.cpp:55
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Add comment..."
 msgctxt "@label"
-msgid "Add comment..."
+msgid "Add Comment..."
 msgstr "Dadaj kamentar..."
 
 #: commentwidget.cpp:58
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Change comment..."
 msgctxt "@label"
-msgid "Change comment..."
+msgid "Change Comment..."
 msgstr "Źmiani kamentar..."
 
 #: startupsettingspage.cpp:58
@@ -948,12 +954,7 @@ msgid "The location for the home folder is invalid and will not be applied."
 msgstr ""
 "Miesca chatniaha kataloha niapravilnaje, tamu jano nia budzie vykarystanaje."
 
-#: tagcloud/newtagdialog.cpp:31
-msgctxt "@title:window"
-msgid "Create new Tag"
-msgstr "Stvary novy tag"
-
-#: tagcloud/newtagdialog.cpp:68
+#: tagcloud/newtagdialog.cpp:31 tagcloud/newtagdialog.cpp:68
 msgctxt "@title:window"
 msgid "Create New Tag"
 msgstr "Stvary novy tag"
@@ -964,8 +965,11 @@ msgid "with optional icon and description"
 msgstr "z mahčymaj ikonaj i apisańniem"
 
 #: tagcloud/resourcetaggingwidget.cpp:122
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Change tags..."
 msgctxt "@label"
-msgid "Change tags..."
+msgid "Change Tags..."
 msgstr "Źmiani tagi..."
 
 #: tagcloud/tagcloud.cpp:134
@@ -1519,8 +1523,11 @@ msgstr "Nazva:"
 #. i18n: file: tagcloud/newtagdialog.ui:82
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:332
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Detailed Description (optional):"
 msgctxt "@label"
-msgid "Detailed Description (optional):"
+msgid "Detailed description (optional):"
 msgstr "Detalnaje apisańnie (možna nie pisać):"
 
 #: dolphinmainwindow.cpp:147
@@ -1987,8 +1994,11 @@ msgid "Cancel"
 msgstr "Anuluj"
 
 #: detailsviewsettingspage.cpp:80
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Expandable folders"
 msgctxt "@option:check"
-msgid "Expandable Folders"
+msgid "Expandable folders"
 msgstr "Razhortvańnie katalohaŭ"
 
 #: additionalinfodialog.cpp:38
@@ -2025,6 +2035,14 @@ msgstr "Hrupa"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Typ"
+
+#~ msgctxt "@title:window"
+#~ msgid "Create new Tag"
+#~ msgstr "Stvary novy tag"
+
+#~ msgctxt "@option:check"
+#~ msgid "Expandable Folders"
+#~ msgstr "Razhortvańnie katalohaŭ"
 
 #~ msgctxt "@info:status"
 #~ msgid "Protocol not supported"

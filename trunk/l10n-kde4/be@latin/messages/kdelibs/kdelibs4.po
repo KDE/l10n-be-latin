@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:39+0100\n"
+"POT-Creation-Date: 2008-11-18 09:53+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -811,7 +811,7 @@ msgstr "&Pryładździe"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:146
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:327
+#: rc.cpp:327 khtml/ecma/debugger/debugwindow.cpp:240
 msgid "&Settings"
 msgstr "&Nałady"
 
@@ -1714,7 +1714,7 @@ msgstr "Vykanaj da prypynku..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:219
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:791 khtml/ecma/kjs_debugwin.cpp:480
+#: rc.cpp:791
 msgid "Step"
 msgstr "Kroč"
 
@@ -1730,8 +1730,7 @@ msgstr "Kroč u nastupny radok..."
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
 #: rc.cpp:797 rc.cpp:945 kdeui/jobs/kstatusbarjobtracker.cpp:156
 #: kdeui/util/kstandardguiitem.cpp:265 kdeui/util/kkeyserver_x11.cpp:109
-#: kdeui/findreplace/kreplace.cpp:353 khtml/ecma/kjs_debugwin.cpp:482
-#: kross/ui/view.cpp:309
+#: kdeui/findreplace/kreplace.cpp:353 kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "Spyni"
 
@@ -5428,6 +5427,7 @@ msgid "No provider selected."
 msgstr "Pravajder nie aznačany."
 
 #: knewstuff/knewstuff2/core/providerhandler.cpp:156
+#: knewstuff/knewstuff2/core/providerhandler.cpp:176
 msgctxt "describes the feed of the latest posted entries"
 msgid "Latest"
 msgstr "Novyja"
@@ -5439,10 +5439,6 @@ msgstr "Z vysokaj acenkaj"
 #: knewstuff/knewstuff2/core/providerhandler.cpp:168
 msgid "Most Downloads"
 msgstr "Najčaściej adbiranyja"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:174
-msgid "Unsorted"
-msgstr "Biez paradku"
 
 #: knewstuff/knewstuff2/core/security.cpp:76
 msgid ""
@@ -6088,7 +6084,9 @@ msgid "Shortcut Schemes"
 msgstr "Schiemy klavijaturnych skarotaŭ"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:61
-msgid "Current Scheme:"
+#, fuzzy
+#| msgid "Current Scheme:"
+msgid "Current scheme:"
 msgstr "Dziejnaja schiema:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:71
@@ -6104,7 +6102,9 @@ msgid "More Actions"
 msgstr "Jašče aperacyi"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:81
-msgid "Save As Scheme Defaults"
+#, fuzzy
+#| msgid "Save As Scheme Defaults"
+msgid "Save as Scheme Defaults"
 msgstr "Zapišy jak zmoŭčańni schiemy"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:83
@@ -6116,7 +6116,9 @@ msgid "Name for New Scheme"
 msgstr "Nazva novaj schiemy"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
-msgid "Name for New Scheme:"
+#, fuzzy
+#| msgid "Name for New Scheme:"
+msgid "Name for new scheme:"
 msgstr "Nazva novaj schiemy:"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:101
@@ -6124,7 +6126,9 @@ msgid "New Scheme"
 msgstr "Novaja schiema"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:107
-msgid "The scheme with this name already exists"
+#, fuzzy
+#| msgid "The scheme with this name already exists"
+msgid "A scheme with this name already exists."
 msgstr "Schiema z takoj nazvaj užo isnuje."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:135
@@ -6138,7 +6142,9 @@ msgstr ""
 "skarotaŭ."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:164
-msgid "Export To Location"
+#, fuzzy
+#| msgid "Export To Location"
+msgid "Export to Location"
 msgstr "Ekspartuj u peŭnaje miesca"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:173
@@ -6367,7 +6373,7 @@ msgid "Reset Toolbars"
 msgstr "Anuluj źmieny ŭ panelach pryładździa"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2971
-#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2166
+#: khtml/khtmlview.cpp:3004 khtml/html/html_formimpl.cpp:2167
 msgid "Reset"
 msgstr "Anuluj źmieny"
 
@@ -8197,21 +8203,21 @@ msgstr "Dalej"
 msgid "Next Character"
 msgstr "Nastupny znak"
 
-#: kdeui/widgets/kcharselect.cpp:370
-msgid "Set font"
-msgstr "Vybiery šryft"
-
-#: kdeui/widgets/kcharselect.cpp:377
-msgid "Set font size"
-msgstr "Naładź pamier šryfta"
-
-#: kdeui/widgets/kcharselect.cpp:384
+#: kdeui/widgets/kcharselect.cpp:367
 msgid "Select a category"
 msgstr "Vybiery katehoryju"
 
-#: kdeui/widgets/kcharselect.cpp:387
+#: kdeui/widgets/kcharselect.cpp:370
 msgid "Select a block to be displayed"
 msgstr "Vybiery patrebny addzieł"
+
+#: kdeui/widgets/kcharselect.cpp:383
+msgid "Set font"
+msgstr "Vybiery šryft"
+
+#: kdeui/widgets/kcharselect.cpp:390
+msgid "Set font size"
+msgstr "Naładź pamier šryfta"
 
 #: kdeui/widgets/kcharselect.cpp:629 kdeui/widgets/kcharselect.cpp:881
 #: kdeui/widgets/kcharselect-translation.cpp:43
@@ -10381,7 +10387,7 @@ msgstr ""
 "<br />Chočaš jaje pierasłać?</qt>"
 
 #: khtml/khtml_part.cpp:4594 khtml/khtmlview.cpp:2957 khtml/khtmlview.cpp:2999
-#: khtml/html/html_formimpl.cpp:1580 khtml/html/html_formimpl.cpp:2174
+#: khtml/html/html_formimpl.cpp:1581 khtml/html/html_formimpl.cpp:2175
 msgid "Submit"
 msgstr "Pierašli"
 
@@ -10478,8 +10484,8 @@ msgstr "Vybiery pravilny kataloh zbudavańnia „khtml/”."
 msgid "Available Tests: %1 (ignored: %2)"
 msgstr "Najaŭnyja testy: %1 (nieŭvažanyja: %2)"
 
-#: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:166
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
 msgid "Continue"
 msgstr "Praciahni"
 
@@ -10559,81 +10565,6 @@ msgstr "Pamyłka ŭ raźbirańni XML"
 #: khtml/xml/dom_docimpl.cpp:2237
 msgid "Basic Page Style"
 msgstr "Prosty styl staronki"
-
-#: khtml/ecma/kjs_debugwin.cpp:298 khtml/ecma/debugger/errordlg.cpp:35
-msgid "JavaScript Error"
-msgstr "Pamyłka ŭ JavaScript"
-
-#: khtml/ecma/kjs_debugwin.cpp:315 khtml/ecma/debugger/errordlg.cpp:50
-msgid "&Do not show this message again"
-msgstr "&Bolej nie pakazvaj hetkich paviedamleńniaŭ"
-
-#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:111
-msgid "JavaScript Debugger"
-msgstr "Adładžvalnika JavaScript"
-
-#: khtml/ecma/kjs_debugwin.cpp:400
-msgid "Call stack"
-msgstr ""
-
-#: khtml/ecma/kjs_debugwin.cpp:435
-msgid "JavaScript console"
-msgstr "Kansol JavaScript"
-
-#: khtml/ecma/kjs_debugwin.cpp:465
-msgctxt "Next breakpoint"
-msgid "&Next"
-msgstr "&Nastupny"
-
-#: khtml/ecma/kjs_debugwin.cpp:467
-msgid "&Step"
-msgstr "&Kroč"
-
-#: khtml/ecma/kjs_debugwin.cpp:472
-msgid "&Continue"
-msgstr "&Praciahvaj"
-
-#: khtml/ecma/kjs_debugwin.cpp:474
-msgid "St&op"
-msgstr "&Spyni"
-
-#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:160
-msgid "&Break at Next Statement"
-msgstr "P&rypyni na nastupnym vyražeńni"
-
-#: khtml/ecma/kjs_debugwin.cpp:479
-msgctxt "Next breakpoint"
-msgid "Next"
-msgstr "Nastupny"
-
-#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:572
-#, kde-format
-msgid "Parse error at %1 line %2"
-msgstr "Pamyłka ŭ raźbirańni na %1, u radku %2"
-
-#: khtml/ecma/kjs_debugwin.cpp:859
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1"
-msgstr ""
-"Ad sproby vykanać na hetaj staroncy skrypt uźnikła pamyłka.\n"
-"\n"
-"%1"
-
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:609
-#, kde-format
-msgid ""
-"An error occurred while attempting to run a script on this page.\n"
-"\n"
-"%1 line %2:\n"
-"%3"
-msgstr ""
-"Ad sproby vykanać na hetaj staroncy skrypt uźnikła pamyłka.\n"
-"\n"
-"%1, radok %2:\n"
-"%3"
 
 #: khtml/ecma/kjs_binding.cpp:184
 msgid ""
@@ -10737,7 +10668,7 @@ msgstr ""
 "<qt>Hety sajt vysyłaje formu, jakaja adčynić <p>%1</p> u novym aknie hartača "
 "praz JavaScript.<br />Ci chočaš dazvolić vysyłańnie hetaj formy?</qt>"
 
-#: khtml/ecma/debugger/debugdocument.cpp:210
+#: khtml/ecma/debugger/debugdocument.cpp:187
 msgid ""
 "Unable to find the Kate editor component;\n"
 "please check your KDE installation."
@@ -10745,11 +10676,11 @@ msgstr ""
 "Nie ŭdałosia znajści kampanent redahavańnia tekstu „Kate”.\n"
 "Pravier pravilnaść instalacyi KDE."
 
-#: khtml/ecma/debugger/debugdocument.cpp:327
+#: khtml/ecma/debugger/debugdocument.cpp:253
 msgid "Breakpoint"
 msgstr "Prypynak"
 
-#: khtml/ecma/debugger/scriptsdock.cpp:39
+#: khtml/ecma/debugger/scriptsdock.cpp:40
 msgid "Loaded Scripts"
 msgstr "Źmieščanyja ŭ pamiać skrypty"
 
@@ -10761,35 +10692,71 @@ msgstr "Lakalnyja źmiennyja"
 msgid "Reference"
 msgstr "Spasyłka"
 
-#: khtml/ecma/debugger/debugwindow.cpp:161
+#: khtml/ecma/debugger/debugwindow.cpp:111
+msgid "JavaScript Debugger"
+msgstr "Adładžvalnika JavaScript"
+
+#: khtml/ecma/debugger/debugwindow.cpp:186
+msgid "&Break at Next Statement"
+msgstr "P&rypyni na nastupnym vyražeńni"
+
+#: khtml/ecma/debugger/debugwindow.cpp:187
 msgid "Break at Next"
 msgstr "Prypyni na nastupnym"
 
-#: khtml/ecma/debugger/debugwindow.cpp:173
+#: khtml/ecma/debugger/debugwindow.cpp:199
 msgid "Step Over"
 msgstr "Pierakroč"
 
-#: khtml/ecma/debugger/debugwindow.cpp:180
+#: khtml/ecma/debugger/debugwindow.cpp:206
 msgid "Step Into"
 msgstr "Ukroč"
 
-#: khtml/ecma/debugger/debugwindow.cpp:187
+#: khtml/ecma/debugger/debugwindow.cpp:213
 msgid "Step Out"
 msgstr "Vyjdzi"
 
-#: khtml/ecma/debugger/debugwindow.cpp:196
+#: khtml/ecma/debugger/debugwindow.cpp:219
+msgid "Reindent Sources"
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:224
+#, fuzzy
+#| msgid "More Actions"
+msgid "Report Exceptions"
+msgstr "Jašče aperacyi"
+
+#: khtml/ecma/debugger/debugwindow.cpp:232
 msgid "&Debug"
 msgstr "&Adładź"
 
-#: khtml/ecma/debugger/debugwindow.cpp:225
+#: khtml/ecma/debugger/debugwindow.cpp:266
 msgid "Close source"
 msgstr "Začyni vytočny kod"
 
-#: khtml/ecma/debugger/debugwindow.cpp:231
+#: khtml/ecma/debugger/debugwindow.cpp:272
 msgid "Ready"
 msgstr "Hatova"
 
-#: khtml/ecma/debugger/debugwindow.cpp:789
+#: khtml/ecma/debugger/debugwindow.cpp:615
+#, kde-format
+msgid "Parse error at %1 line %2"
+msgstr "Pamyłka ŭ raźbirańni na %1, u radku %2"
+
+#: khtml/ecma/debugger/debugwindow.cpp:650
+#, kde-format
+msgid ""
+"An error occurred while attempting to run a script on this page.\n"
+"\n"
+"%1 line %2:\n"
+"%3"
+msgstr ""
+"Ad sproby vykanać na hetaj staroncy skrypt uźnikła pamyłka.\n"
+"\n"
+"%1, radok %2:\n"
+"%3"
+
+#: khtml/ecma/debugger/debugwindow.cpp:835
 msgid ""
 "Don't know where to evaluate the expression. Please pause a script or open a "
 "source file."
@@ -10797,18 +10764,26 @@ msgstr ""
 "Nieviedoma, dzie raźličyć vyražeńnie. Prypyni skrypt ci adčyni fajł z "
 "vytočnym kodam."
 
-#: khtml/ecma/debugger/debugwindow.cpp:825
+#: khtml/ecma/debugger/debugwindow.cpp:871
 #, kde-format
 msgid "Evaluation threw an exception %1"
 msgstr "Raźlik vykinuŭ vyklučeńnie %1."
 
-#: khtml/ecma/debugger/consoledock.cpp:231
+#: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
 msgstr "Kansol"
 
-#: khtml/ecma/debugger/consoledock.cpp:254
+#: khtml/ecma/debugger/consoledock.cpp:243
 msgid "Enter"
 msgstr ""
+
+#: khtml/ecma/debugger/errordlg.cpp:35
+msgid "JavaScript Error"
+msgstr "Pamyłka ŭ JavaScript"
+
+#: khtml/ecma/debugger/errordlg.cpp:50
+msgid "&Do not show this message again"
+msgstr "&Bolej nie pakazvaj hetkich paviedamleńniaŭ"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 msgid "Call Stack"
@@ -10903,7 +10878,7 @@ msgid ""
 "information next time you visit %1. Do you want to store the information now?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:2555
+#: khtml/html/html_formimpl.cpp:2557
 msgid "Key Generator"
 msgstr "Hieneratar klučoŭ"
 
@@ -12584,6 +12559,38 @@ msgstr "Štodzionnyja &parady"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Niama takoj funkcyi: „%1”."
+
+#~ msgid "Unsorted"
+#~ msgstr "Biez paradku"
+
+#~ msgid "JavaScript console"
+#~ msgstr "Kansol JavaScript"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "&Next"
+#~ msgstr "&Nastupny"
+
+#~ msgid "&Step"
+#~ msgstr "&Kroč"
+
+#~ msgid "&Continue"
+#~ msgstr "&Praciahvaj"
+
+#~ msgid "St&op"
+#~ msgstr "&Spyni"
+
+#~ msgctxt "Next breakpoint"
+#~ msgid "Next"
+#~ msgstr "Nastupny"
+
+#~ msgid ""
+#~ "An error occurred while attempting to run a script on this page.\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Ad sproby vykanać na hetaj staroncy skrypt uźnikła pamyłka.\n"
+#~ "\n"
+#~ "%1"
 
 #~ msgid "Form"
 #~ msgstr "Forma"

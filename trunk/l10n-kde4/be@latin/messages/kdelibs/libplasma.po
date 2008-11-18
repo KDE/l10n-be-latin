@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-17 09:39+0100\n"
+"POT-Creation-Date: 2008-11-18 09:54+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -39,7 +39,7 @@ msgstr "Čynnaść „%1”"
 msgid "Unknown Widget"
 msgstr "Nieviadomy widžet"
 
-#: applet.cpp:651 applet.cpp:1495 applet.cpp:1496
+#: applet.cpp:651 applet.cpp:1499 applet.cpp:1500
 #, fuzzy
 #| msgid "Miscellaneous"
 msgctxt "misc category"
@@ -76,34 +76,34 @@ msgstr "Nałady „%1”"
 msgid "Settings"
 msgstr "Nałady"
 
-#: applet.cpp:1410
+#: applet.cpp:1414
 msgid "Keyboard Shortcut"
 msgstr ""
 
-#: applet.cpp:1843
+#: applet.cpp:1847
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1864
+#: applet.cpp:1868
 #, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine dla %1” dla widžeta „%2”."
 
-#: applet.cpp:1869
+#: applet.cpp:1873
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1978
+#: applet.cpp:1982
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
-#: applet.cpp:1980
+#: applet.cpp:1984
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
@@ -169,7 +169,7 @@ msgctxt "@title:window %1 is the name of the containment"
 msgid "Remove %1"
 msgstr "Vydali „%1”"
 
-#: containment.cpp:1629
+#: containment.cpp:1631
 #, kde-format
 msgid "Could not find requested component: %1"
 msgstr "Nie ŭdałosia znajści patrebny składnik: %1"

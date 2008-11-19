@@ -93,16 +93,12 @@ msgid "Pre-KDE startup"
 msgstr "Uklučeńnie pierad „KDE”"
 
 #: autostart.cpp:157
-#, fuzzy
-#| msgid "Desktop file"
 msgid "Desktop File"
-msgstr "Fajł stała (.desktop)"
+msgstr "Fajł stała"
 
 #: autostart.cpp:164
-#, fuzzy
-#| msgid "Script file"
 msgid "Script File"
-msgstr "Skrypt"
+msgstr "Fajł skrypta"
 
 #: autostart.cpp:380
 msgid "KDE only reads files with sh extensions for setting up the environment."
@@ -120,18 +116,14 @@ msgstr "1"
 #. i18n: file: autostartconfig.ui:31
 #. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
 #: rc.cpp:6
-#, fuzzy
-#| msgid "Add Program"
 msgid "Add Program..."
-msgstr "Dadaj prahramu"
+msgstr "Dadaj prahramu..."
 
 #. i18n: file: autostartconfig.ui:38
 #. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
 #: rc.cpp:9
-#, fuzzy
-#| msgid "Add Script"
 msgid "Add Script..."
-msgstr "Dadaj skrypt"
+msgstr "Dadaj skrypt..."
 
 #. i18n: file: autostartconfig.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)

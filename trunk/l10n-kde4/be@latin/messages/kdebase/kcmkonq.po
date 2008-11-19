@@ -62,12 +62,12 @@ msgstr ""
 #: behaviour.cpp:93
 msgctxt "@option:check Ask for confirmation when moving to trash"
 msgid "&Move to trash"
-msgstr ""
+msgstr "&Dla vykidańnia ŭ śmietnicu"
 
 #: behaviour.cpp:96
 msgctxt "@option:check Ask for confirmation when deleting"
 msgid "D&elete"
-msgstr ""
+msgstr "D&la vydaleńnia"
 
 #: behaviour.cpp:106
 msgid "Show 'Delete' context me&nu entries which bypass the trashcan"
@@ -129,6 +129,7 @@ msgstr "Ściežka &dakumentaŭ:"
 msgid ""
 "This folder will be used by default to load or save documents from or to."
 msgstr ""
+"Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
 #: globalpaths.cpp:218 globalpaths.cpp:232
 msgid "Autostart"
@@ -139,7 +140,7 @@ msgid "Desktop"
 msgstr "Rabočy stoł"
 
 #: globalpaths.cpp:292
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
 "Do you want the files to be moved from '%2' to '%3'?"
@@ -152,11 +153,9 @@ msgid "Confirmation Required"
 msgstr "Patrebnaje paćviardžeńnie"
 
 #: globalpaths.cpp:293
-#, fuzzy
-#| msgid "Move Up"
 msgctxt "Move desktop files from old to new place"
 msgid "Move"
-msgstr "Pasuń vyšej"
+msgstr "Pieraniasi"
 
 #: kcustommenueditor.cpp:96
 msgid "Menu Editor"
@@ -202,13 +201,11 @@ msgid ""
 msgstr ""
 
 #: previews.cpp:80
-#, fuzzy
-#| msgid "Internet Protocols"
 msgctxt ""
 "@title:column Header of a colum where the user has to select in which "
 "protocols he wants to see file previews"
 msgid "Select Protocols"
-msgstr "Sieciŭnyja pratakoły"
+msgstr "Vybar pratakołaŭ"
 
 #: previews.cpp:89
 msgid "Local Protocols"
@@ -249,129 +246,3 @@ msgid ""
 "have files that have been processed by programs which create inaccurate "
 "thumbnails, such as ImageMagick."
 msgstr ""
-
-#~ msgid "Sound Files"
-#~ msgstr "Hukavyja fajły"
-
-#~ msgid "&Left button:"
-#~ msgstr "&Levaja knopka:"
-
-#~ msgid ""
-#~ "You can choose what happens when you click the left button of your "
-#~ "pointing device on the desktop:"
-#~ msgstr ""
-#~ "Tut možna aznačyć, što rabić, kali karystańnik klikaje levaj knopkaj myšy "
-#~ "ŭ stoł:"
-
-#~ msgid "Right b&utton:"
-#~ msgstr "&Pravaja knopka:"
-
-#~ msgid ""
-#~ "You can choose what happens when you click the right button of your "
-#~ "pointing device on the desktop:"
-#~ msgstr ""
-#~ "Tut možna aznačyć, što rabić, kali karystańnik klikaje pravaj knopkaj "
-#~ "myšy ŭ stoł:"
-
-#~ msgid "Window List Menu"
-#~ msgstr "Śpis akon"
-
-#~ msgid "Desktop Menu"
-#~ msgstr "Menu rabočaha stała"
-
-#~ msgid "Application Menu"
-#~ msgstr "Menu aplikacyjaŭ"
-
-#~ msgid "Bookmarks Menu"
-#~ msgstr "Menu zakładak"
-
-#~ msgid "Custom Menu 1"
-#~ msgstr "Ułasnaje menu 1"
-
-#~ msgid "Custom Menu 2"
-#~ msgstr "Ułasnaje menu 2"
-
-#~ msgid "General"
-#~ msgstr "Hałoŭnaje"
-
-#~ msgid "&Show icons on desktop"
-#~ msgstr "&Pakazvaj ikony na stale"
-
-#~ msgid "Allow pro&grams in desktop window"
-#~ msgstr "&Dazvol uklučać prahramy ŭ aknie stała"
-
-#~ msgid "Show &tooltips"
-#~ msgstr "Pakazvaj &padkazki"
-
-#~ msgid "Menu Bar at top of Screen"
-#~ msgstr "Menu ŭviersie ekrana"
-
-#, fuzzy
-#~ msgid "&None"
-#~ msgstr "&Niama"
-
-#~ msgid "&Desktop menu bar"
-#~ msgstr "Menu &stała"
-
-#~ msgid "&Current application's menu bar (Mac OS-style)"
-#~ msgstr "Menu &dziejnaj aplikacyi (jak „Mac OS”)"
-
-#~ msgid "Mouse Button Actions"
-#~ msgstr "Aperacyi dla knopak myšy"
-
-#~ msgid "Middle button:"
-#~ msgstr "Siaredniaja knopka:"
-
-#~ msgid "Left button:"
-#~ msgstr "Levaja knopka:"
-
-#~ msgid "Right button:"
-#~ msgstr "Pravaja knopka:"
-
-#~ msgid "Edit..."
-#~ msgstr "Redahuj..."
-
-#~ msgid "File Icons"
-#~ msgstr "Ikony fajłaŭ"
-
-#~ msgid "Automatically &line up icons"
-#~ msgstr "Aŭtamatyčna &šychtuj ikony"
-
-#~ msgid "Show &hidden files"
-#~ msgstr "Pakazvaj &schavanyja fajły"
-
-#~ msgid "Select for which types of files you want to enable preview images."
-#~ msgstr "Aznač typy fajłaŭ, dla jakich treba pakazvać padhlady."
-
-#~ msgid "Device Icons"
-#~ msgstr "Ikony pryładaŭ"
-
-#~ msgid "&Show device icons:"
-#~ msgstr "&Pakazvaj ikony pryładaŭ:"
-
-#~ msgid ""
-#~ "Deselect the device types which you do not want to see on the desktop."
-#~ msgstr "Aznač typy pryładaŭ, jakija nia treba pakazvać na stale."
-
-#~ msgid "Device Types to Display"
-#~ msgstr "Typy pryładaŭ, jakija treba pakazvać"
-
-#~ msgid "Show file &tips"
-#~ msgstr "Pakazvaj &vypłyŭnyja źviestki pra fajły"
-
-#~ msgid ""
-#~ "Here you can control if, when moving the mouse over a file, you want to "
-#~ "see a small popup window with additional information about that file"
-#~ msgstr ""
-#~ "Tut možna aznačyć, ci treba pakazvać vypłyŭnyja źviestki pra fajł, kali "
-#~ "kursor nasunuty na jaho."
-
-#~ msgid "Show &previews in file tips"
-#~ msgstr "Pakazvaj &padhlad u źviestkach pra fajł"
-
-#~ msgid ""
-#~ "Here you can control if you want the popup window to contain a larger "
-#~ "preview for the file, when moving the mouse over it."
-#~ msgstr ""
-#~ "Tut možna aznačyć, ci treba pakazvać padhlad źmieściva fajła ŭ vypłyŭnych "
-#~ "źviestkach, kali kursor nasunuty na jaho."

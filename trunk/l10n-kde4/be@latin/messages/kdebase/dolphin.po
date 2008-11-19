@@ -44,16 +44,15 @@ msgid "Preview:"
 msgstr "Padhlad:"
 
 #: iconsizegroupbox.cpp:109 dolphinstatusbar.cpp:283
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
 msgid_plural "Size: %1 pixels"
-msgstr[0] "Pamier: %1 punktaŭ"
-msgstr[1] "Pamier: %1 punktaŭ"
+msgstr[0] "Pamier: %1 punkt"
+msgstr[1] "Pamier: %1 punkty"
 msgstr[2] "Pamier: %1 punktaŭ"
 
 #: draganddrophelper.cpp:109
-#, fuzzy
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Nielha pierakinuć kataloh u samoha siabie."
@@ -896,17 +895,11 @@ msgid "All settings will be reset to default values. Do you want to continue?"
 msgstr "Usie nałady viernucca da zmoŭčanych vartaściaŭ. Praciahnuć?"
 
 #: commentwidget.cpp:55
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Add comment..."
 msgctxt "@label"
 msgid "Add Comment..."
 msgstr "Dadaj kamentar..."
 
 #: commentwidget.cpp:58
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change comment..."
 msgctxt "@label"
 msgid "Change Comment..."
 msgstr "Źmiani kamentar..."
@@ -968,9 +961,6 @@ msgid "with optional icon and description"
 msgstr "z mahčymaj ikonaj i apisańniem"
 
 #: tagcloud/resourcetaggingwidget.cpp:122
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change tags..."
 msgctxt "@label"
 msgid "Change Tags..."
 msgstr "Źmiani tagi..."
@@ -1526,9 +1516,6 @@ msgstr "Nazva:"
 #. i18n: file: tagcloud/newtagdialog.ui:82
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:332
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Detailed Description (optional):"
 msgctxt "@label"
 msgid "Detailed description (optional):"
 msgstr "Detalnaje apisańnie (možna nie pisać):"
@@ -1997,9 +1984,6 @@ msgid "Cancel"
 msgstr "Anuluj"
 
 #: detailsviewsettingspage.cpp:80
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Expandable folders"
 msgctxt "@option:check"
 msgid "Expandable folders"
 msgstr "Razhortvańnie katalohaŭ"

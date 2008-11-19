@@ -131,24 +131,24 @@ msgstr "Ikony"
 msgctxt "Inserted as %1 in the message below."
 msgid "1 folder"
 msgid_plural "%1 folders"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 kataloh"
+msgstr[1] "%1 katalohi"
+msgstr[2] "%1 katalohaŭ"
 
 #: folderview.cpp:1501
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
 msgid "1 file"
 msgid_plural "%1 files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 fajł"
+msgstr[1] "%1 fajły"
+msgstr[2] "%1 fajłaŭ"
 
 #: folderview.cpp:1505
 #, kde-format
 msgctxt "%1 and %2 are the messages translated above."
 msgid "%1, %2."
-msgstr ""
+msgstr "%1, %2."
 
 #: folderview.cpp:1507
 #, kde-format
@@ -464,6 +464,7 @@ msgid ""
 "you select this option and click OK it will be created for you.</b></body></"
 "html>"
 msgstr ""
+"<html><body><b>Uvaha: Kataloh rabočaha stała pakul nie isnuje.<br />Kali ty vybieraš hetuju opcyju i kliknieš u knopku „Ok”, tady systema jaho stvoryć.</b></body></html>"
 
 #. i18n: file: folderviewLocationConfig.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, showPlace)

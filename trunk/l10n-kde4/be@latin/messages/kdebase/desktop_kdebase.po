@@ -3537,12 +3537,9 @@ msgid "Configure the spell checker"
 msgstr "Naładź spraŭdžvańnie pravapisu"
 
 #: runtime/kdedglobalaccel/kdedglobalaccel.desktop:10
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Global Keyboard Shortcuts"
 msgctxt "Name"
 msgid "KDED Global Shortcuts Server"
-msgstr "Paŭsiudnyja klavijaturnyja skaroty"
+msgstr "Słužba paŭsiudnych klavijaturnych skarotaŭ dla „KDE”"
 
 #: runtime/khelpcenter/Help.desktop:7
 msgctxt "Name"
@@ -3812,12 +3809,9 @@ msgid "Images"
 msgstr "Vyjavy"
 
 #: runtime/kioslave/thumbnail/jpegthumbnail.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "MpegTV"
 msgctxt "Name"
 msgid "Jpeg"
-msgstr "MpegTV"
+msgstr "JPEG"
 
 #: runtime/kioslave/thumbnail/svgthumbnail.desktop:3
 msgctxt "Name"
@@ -5632,12 +5626,9 @@ msgid "Algeria"
 msgstr "Alžyr"
 
 #: runtime/l10n/eastafrica.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Africa, Western"
 msgctxt "Name"
 msgid "Africa, Eastern"
-msgstr "Zachodniaja Afryka"
+msgstr "Uschodniaja Afryka"
 
 #: runtime/l10n/eastasia.desktop:2
 msgctxt "Name"
@@ -5650,9 +5641,6 @@ msgid "Europe, Eastern"
 msgstr "Uschodniaja Eŭropa"
 
 #: runtime/l10n/ec/entry.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Equador"
 msgctxt "Name"
 msgid "Ecuador"
 msgstr "Ekvador"
@@ -6325,7 +6313,7 @@ msgstr "Słavakija"
 #: runtime/l10n/sl/entry.desktop:2
 msgctxt "Name"
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Sierra Leone"
 
 #: runtime/l10n/sm/entry.desktop:2
 msgctxt "Name"
@@ -6425,7 +6413,7 @@ msgstr "Tokelaŭ"
 #: runtime/l10n/tl/entry.desktop:2
 msgctxt "Name"
 msgid "Timor-Leste"
-msgstr ""
+msgstr "Timor-Leste"
 
 #: runtime/l10n/tm/entry.desktop:2
 msgctxt "Name"
@@ -6650,12 +6638,9 @@ msgid "Games for Kids"
 msgstr "Dziciačyja hulni"
 
 #: runtime/menu/desktop/kde-games-logic.directory:4
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Logic Game"
 msgctxt "Name"
 msgid "Logic Games"
-msgstr "Lahičnaja hulnia"
+msgstr "Lahičnyja hulni"
 
 #: runtime/menu/desktop/kde-games-roguelikes.directory:4
 msgctxt "Name"
@@ -9738,13 +9723,14 @@ msgstr "Akno na niadziejnym virtualnym stale vymahaje ŭvahi."
 #: workspace/kwin/kwin.notifyrc:5658
 msgctxt "Name"
 msgid "Compositing Performance Is Slow"
-msgstr ""
+msgstr "Kampazycyja zamarudnaja"
 
 #: workspace/kwin/kwin.notifyrc:5679
 msgctxt "Comment"
 msgid ""
 "The compositing performance was too slow and compositing has been suspended"
 msgstr ""
+"Chutkaść kampazycyi była zamałoj, i tamu jana była vyklučanaja."
 
 #: workspace/kwrited/kwrited-autostart.desktop:2
 #: workspace/kwrited/kwrited.desktop:2
@@ -10063,20 +10049,14 @@ msgid "SaverDesktop"
 msgstr "SaverDesktop"
 
 #: workspace/plasma/dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Notifications"
 msgctxt "Name"
 msgid "Application Job Information"
-msgstr "Infarmavańnie"
+msgstr "Źviestki pra zadańnie aplikacyi"
 
 #: workspace/plasma/dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:16
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Mouse data for Plasmoids"
 msgctxt "Comment"
 msgid "Kuiserver data for Plasmoids"
-msgstr "Źviestki ad myšy dla widžetaŭ"
+msgstr "Źviestki „Kuiserver” dla widžetaŭ „Plasma”"
 
 #: workspace/plasma/dataengines/dict/plasma-dataengine-dict.desktop:2
 msgctxt "Name"
@@ -10194,15 +10174,12 @@ msgstr "Źviestki z pryłady"
 #: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:29
 msgctxt "Comment"
 msgid "SolidDevice data for Plasmoids"
-msgstr "Źviestki „SolidDevice” dla widžetaŭ"
+msgstr "Źviestki „SolidDevice” dla widžetaŭ „Plasma”"
 
 #: workspace/plasma/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:70
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Network information for Plasmoids"
 msgctxt "Comment"
 msgid "System information for Plasmoids"
-msgstr "Sietkavyja źviestki dla widžetaŭ"
+msgstr "Systemnyja źviestki dla widžetaŭ „Plasma”"
 
 #: workspace/plasma/dataengines/tasks/plasma-dataengine-tasks.desktop:2
 msgctxt "Name"
@@ -10219,7 +10196,7 @@ msgstr "Data j čas"
 #: workspace/plasma/scriptengines/ruby/examples/dataengines/time/metadata.desktop:29
 msgctxt "Comment"
 msgid "Time data for Plasmoids"
-msgstr "Źviestki pra čas dla widžetaŭ"
+msgstr "Źviestki pra čas dla widžetaŭ „Plasma”"
 
 #: workspace/plasma/dataengines/weather/ions/ion-bbcukmet.desktop:2
 msgctxt "Name"
@@ -10264,7 +10241,7 @@ msgstr "Nadvorje"
 #: workspace/plasma/dataengines/weather/plasma-dataengine-weather.desktop:29
 msgctxt "Comment"
 msgid "Weather data for Plasmoids"
-msgstr "Źviestki pra nadvorje dla widžetaŭ"
+msgstr "Źviestki pra nadvorje dla widžetaŭ „Plasma”"
 
 #: workspace/plasma/desktoptheme/metadata.desktop:23
 msgctxt "Comment"
@@ -10450,7 +10427,7 @@ msgstr "Gadžet „QEdje”"
 #: workspace/plasma/scriptengines/qtscript/plasma-scriptengine-qscript.desktop:2
 msgctxt "Name"
 msgid "JavaScript Widget"
-msgstr "Widžet JavaScript"
+msgstr "Widžet „JavaScript”"
 
 #: workspace/plasma/scriptengines/qtscript/plasma-scriptengine-qscript.desktop:49
 msgctxt "Comment"
@@ -10468,12 +10445,9 @@ msgid "JavaScript Runner"
 msgstr "Uklučeńnie „JavaScript”."
 
 #: workspace/plasma/scriptengines/ruby/examples/applets/clock/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Analog Clock"
 msgctxt "Name"
 msgid "Ruby Analog Clock"
-msgstr "Analahavy hadzińnik"
+msgstr "Analahavy hadzińnik u movie „Ruby”"
 
 #: workspace/plasma/scriptengines/ruby/examples/applets/tiger/metadata.desktop:2
 msgctxt "Name"
@@ -10486,25 +10460,19 @@ msgid "An example of displaying an SVG"
 msgstr "Uzro vyjaŭleńnia „SVG”"
 
 #: workspace/plasma/scriptengines/ruby/examples/applets/webapplet/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web Browser"
 msgctxt "Name"
 msgid "Ruby Web Browser"
-msgstr "Hartač sieciva"
+msgstr "Hartač sieciva ŭ movie „Ruby”"
 
 #: workspace/plasma/scriptengines/ruby/examples/dataengines/dbpedia-queries/metadata.desktop:2
 msgctxt "Name"
 msgid "DBpedia queries"
-msgstr ""
+msgstr "Zapyty ŭ „DBpedia”"
 
 #: workspace/plasma/scriptengines/ruby/examples/dataengines/dbpedia-queries/metadata.desktop:3
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Time data for Plasmoids"
 msgctxt "Comment"
 msgid "DBpedia data for Plasmoids"
-msgstr "Źviestki pra čas dla widžetaŭ"
+msgstr "Źviestki „DBpedia” dla widžetaŭ „Plasma”"
 
 #: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-applet.desktop:2
 #: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-dataengine.desktop:2
@@ -10617,7 +10585,7 @@ msgstr "Słužba kiravańnia enerhijaj na laptopie"
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:40
 msgctxt "Comment"
 msgid "Display brightness, suspend and power profile settings"
-msgstr ""
+msgstr "Pakažy nałady jarkaści, snu j profil kiravańnia enerhijaj"
 
 #: workspace/powerdevil/powerdevil.notifyrc:29
 msgctxt "Comment"
@@ -10979,43 +10947,3 @@ msgstr "Nastolny doždž"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "Zołak"
-
-#~ msgctxt "Comment"
-#~ msgid "You can configure how the desktop behaves here"
-#~ msgstr "Tut možna naładzić pavodziny rabočaha stała"
-
-#~ msgctxt "Comment"
-#~ msgid "Plasma Animation Engine"
-#~ msgstr "Systema animavańnia dla „Plasma”"
-
-#~ msgctxt "Comment"
-#~ msgid "Plasma applet"
-#~ msgstr "Aplet „Plasma”"
-
-#~ msgctxt "Comment"
-#~ msgid "KRunner plugin"
-#~ msgstr "Plugin dla „KRunner”"
-
-#~ msgctxt "Comment"
-#~ msgid "Scripting language extension for Plasma"
-#~ msgstr "Skryptavaja mova dla pašyreńniaŭ „Plasma”"
-
-#~ msgctxt "Comment"
-#~ msgid "Plasma wallpaper"
-#~ msgstr "Špalery „Plasma”"
-
-#~ msgctxt "Name"
-#~ msgid "Package metadata test file"
-#~ msgstr "Testavy fajł z pakunkavymi metaźviestkami"
-
-#~ msgctxt "Comment"
-#~ msgid "A test desktop file to test the PackageMetaData class."
-#~ msgstr "Testavy fajł rabočaha stała dla klasy „PackageMetaData”"
-
-#~ msgctxt "Comment"
-#~ msgid "Search in documents and files"
-#~ msgstr "Pošuk dakumentaŭ i fajłaŭ."
-
-#~ msgctxt "Name"
-#~ msgid "Power Management Preferences"
-#~ msgstr "Asabistyja nałady kiravańnia enerhijaj"

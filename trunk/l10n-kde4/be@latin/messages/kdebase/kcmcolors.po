@@ -92,39 +92,39 @@ msgstr ""
 
 #: colorscm.cpp:637
 msgid "Normal Background"
-msgstr ""
+msgstr "Zvyčajny fon"
 
 #: colorscm.cpp:638
 msgid "Alternate Background"
-msgstr ""
+msgstr "Dadatkovy fon"
 
 #: colorscm.cpp:639
 msgid "Normal Text"
-msgstr ""
+msgstr "Zvyčajny tekst"
 
 #. i18n: file: colorsettings.ui:485
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorscm.cpp:640 rc.cpp:189
 msgid "Inactive Text"
-msgstr ""
+msgstr "Niadziejny tekst"
 
 #. i18n: file: colorsettings.ui:490
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorscm.cpp:641 rc.cpp:192
 msgid "Active Text"
-msgstr ""
+msgstr "Dziejny tekst"
 
 #. i18n: file: colorsettings.ui:495
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorscm.cpp:642 rc.cpp:195
 msgid "Link Text"
-msgstr ""
+msgstr "Łuč"
 
 #. i18n: file: colorsettings.ui:500
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorscm.cpp:643 rc.cpp:198
 msgid "Visited Text"
-msgstr ""
+msgstr "Vykarystany łuč"
 
 #. i18n: file: colorsettings.ui:505
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
@@ -148,7 +148,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorscm.cpp:647 rc.cpp:210
 msgid "Focus Decoration"
-msgstr ""
+msgstr "Azdoba fokusu"
 
 #. i18n: file: colorsettings.ui:525
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
@@ -165,10 +165,8 @@ msgstr "&Schiema"
 #. i18n: file: colorsettings.ui:47
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
 #: rc.cpp:6
-#, fuzzy
-#| msgid "Import a color scheme from a file"
 msgid "Get new color schemes from the Internet"
-msgstr "Zimpartuj schiemu koleraŭ z fajła"
+msgstr "Vaźmi novyja schiemy koleraŭ ź sieciva"
 
 #. i18n: file: colorsettings.ui:50
 #. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
@@ -213,10 +211,8 @@ msgstr "Vydali vybranuju schiemu"
 #. i18n: file: colorsettings.ui:83
 #. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
 #: rc.cpp:27
-#, fuzzy
-#| msgid "Color Scheme"
 msgid "Remove Scheme"
-msgstr "Schiema koleraŭ"
+msgstr "Vydali schiemu"
 
 #. i18n: file: colorsettings.ui:111
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -299,10 +295,8 @@ msgstr ""
 #. i18n: file: colorsettings.ui:261
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: rc.cpp:72
-#, fuzzy
-#| msgid "Window text"
 msgid "Window"
-msgstr "Tekst akna"
+msgstr "Akno"
 
 #. i18n: file: colorsettings.ui:266
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
@@ -555,10 +549,8 @@ msgstr ""
 #. i18n: file: colorsettings.ui:1004
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:264 rc.cpp:333
-#, fuzzy
-#| msgid "Color"
 msgid "Color:"
-msgstr "Koler"
+msgstr "Koler:"
 
 #. i18n: file: colorsettings.ui:764
 #. i18n: ectx: property (toolTip), widget (QComboBox, inactiveColorBox)
@@ -615,10 +607,8 @@ msgstr ""
 #. i18n: file: colorsettings.ui:1070
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: rc.cpp:288 rc.cpp:357
-#, fuzzy
-#| msgid "Contrast"
 msgid "Contrast:"
-msgstr "Kantrast"
+msgstr "Kantrast:"
 
 #. i18n: file: colorsettings.ui:830
 #. i18n: ectx: property (toolTip), widget (QComboBox, inactiveContrastBox)

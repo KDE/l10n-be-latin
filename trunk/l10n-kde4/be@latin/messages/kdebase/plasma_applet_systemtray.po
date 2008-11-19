@@ -19,10 +19,8 @@ msgstr ""
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ui/applet.cpp:117
-#, fuzzy
-#| msgid "No notifications..."
 msgid "No notifications and no jobs"
-msgstr "Biez infarmavańniaŭ..."
+msgstr "Niama paviedamleńniaŭ dy zadańniaŭ"
 
 #: ui/applet.cpp:227
 msgid "Visible icons:"
@@ -34,38 +32,36 @@ msgstr "Schavanyja ikony:"
 
 #: ui/extendertask.cpp:78
 msgid "Show or hide notifications and jobs"
-msgstr ""
+msgstr "Pakažy ci schavaj paviedamleńni j zadańni"
 
 #: ui/extendertask.cpp:105
+#, fuzzy
 msgid "toggle visibility of notifications and jobs"
-msgstr ""
+msgstr "źmiani vidočnaść paviedamleńniaŭ dy zadańniaŭ"
 
 #: ui/jobwidget.cpp:84
 msgid "Pause job"
-msgstr ""
+msgstr "Prypyni zadańnie"
 
 #: ui/jobwidget.cpp:94
 msgid "Resume job"
-msgstr ""
+msgstr "Praciahni zadańnie"
 
 #: ui/jobwidget.cpp:104
 msgid "Cancel job"
-msgstr ""
+msgstr "Anuluj zadańnie"
 
 #: ui/jobwidget.cpp:134 ui/jobwidget.cpp:168
-#, kde-format
+#, fuzzy, kde-format
 msgid "(finished) %1"
-msgstr ""
+msgstr "(skončanaje) %1"
 
 #: ui/jobwidget.cpp:166
-#, kde-format
+#, fuzzy, kde-format
 msgid "(paused) %1"
-msgstr ""
+msgstr "(prypynienaje) %1"
 
 #: ui/notificationwidget.cpp:136
 #, kde-format
 msgid "Notification from %1"
-msgstr "Infarmavańnie dla „%1”"
-
-#~ msgid "Close"
-#~ msgstr "Začyni"
+msgstr "Paviedamleńnie dla „%1”"

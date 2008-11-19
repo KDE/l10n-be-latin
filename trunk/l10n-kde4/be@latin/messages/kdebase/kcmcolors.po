@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:54+0100\n"
+"POT-Creation-Date: 2008-11-19 10:54+0100\n"
 "PO-Revision-Date: 2008-11-04 17:27+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -36,45 +36,45 @@ msgstr "Matthew Woehlke"
 msgid "Jeremy Whiting"
 msgstr "Jeremy Whiting"
 
-#: colorscm.cpp:107 colorscm.cpp:234
+#: colorscm.cpp:107 colorscm.cpp:235
 #, fuzzy
 msgid "Current"
 msgstr "Dziejnaja"
 
-#: colorscm.cpp:117 colorscm.cpp:223 colorscm.cpp:1092
+#: colorscm.cpp:117 colorscm.cpp:224 colorscm.cpp:1093
 #, fuzzy
 msgid "Default"
 msgstr "Zmoŭčanaja"
 
-#: colorscm.cpp:252
+#: colorscm.cpp:253
 msgid "Selecting another scheme will discard any changes you have made"
 msgstr "Kali ty vybieraš inšuju schiemu, usie źmieny buduć stračanyja."
 
-#: colorscm.cpp:253
+#: colorscm.cpp:254
 msgid "Are you sure?"
 msgstr "Ty ŭpeŭnieny?"
 
-#: colorscm.cpp:284
+#: colorscm.cpp:285
 msgid "You do not have permission to delete that scheme"
 msgstr "Tabie nielha vydalić hetuju schiemu."
 
-#: colorscm.cpp:284 colorscm.cpp:405
+#: colorscm.cpp:285 colorscm.cpp:406
 msgid "Error"
 msgstr "Pamyłka"
 
-#: colorscm.cpp:292
+#: colorscm.cpp:293
 msgid "Import Color Scheme"
 msgstr "Zimpartuj schiemu koleraŭ"
 
-#: colorscm.cpp:331 colorscm.cpp:360
+#: colorscm.cpp:332 colorscm.cpp:361
 msgid "Save Color Scheme"
 msgstr "Zapišy schiemu koleraŭ"
 
-#: colorscm.cpp:332
+#: colorscm.cpp:333
 msgid "&Enter a name for the color scheme:"
 msgstr "&Upišy nazvu schiemy koleraŭ:"
 
-#: colorscm.cpp:359
+#: colorscm.cpp:360
 msgid ""
 "A color scheme with that name already exists.\n"
 "Do you want to overwrite it?"
@@ -82,77 +82,77 @@ msgstr ""
 "Schiema koleraŭ z takoj nazvaju ŭžo jość.\n"
 "Chočaš jaje zamianić?"
 
-#: colorscm.cpp:405
+#: colorscm.cpp:406
 msgid "You do not have permission to overwrite that scheme"
 msgstr "Tabie nielha zamianić hetuju schiemu."
 
-#: colorscm.cpp:596 colorscm.cpp:611
+#: colorscm.cpp:597 colorscm.cpp:612
 msgid "Varies"
 msgstr ""
 
-#: colorscm.cpp:636
+#: colorscm.cpp:637
 msgid "Normal Background"
 msgstr ""
 
-#: colorscm.cpp:637
+#: colorscm.cpp:638
 msgid "Alternate Background"
 msgstr ""
 
-#: colorscm.cpp:638
+#: colorscm.cpp:639
 msgid "Normal Text"
 msgstr ""
 
 #. i18n: file: colorsettings.ui:485
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:639 rc.cpp:189
+#: colorscm.cpp:640 rc.cpp:189
 msgid "Inactive Text"
 msgstr ""
 
 #. i18n: file: colorsettings.ui:490
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:640 rc.cpp:192
+#: colorscm.cpp:641 rc.cpp:192
 msgid "Active Text"
 msgstr ""
 
 #. i18n: file: colorsettings.ui:495
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:641 rc.cpp:195
+#: colorscm.cpp:642 rc.cpp:195
 msgid "Link Text"
 msgstr ""
 
 #. i18n: file: colorsettings.ui:500
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:642 rc.cpp:198
+#: colorscm.cpp:643 rc.cpp:198
 msgid "Visited Text"
 msgstr ""
 
 #. i18n: file: colorsettings.ui:505
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:643 rc.cpp:201
+#: colorscm.cpp:644 rc.cpp:201
 msgid "Negative Text"
 msgstr ""
 
 #. i18n: file: colorsettings.ui:510
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:644 rc.cpp:204
+#: colorscm.cpp:645 rc.cpp:204
 msgid "Neutral Text"
 msgstr ""
 
 #. i18n: file: colorsettings.ui:515
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:645 rc.cpp:207
+#: colorscm.cpp:646 rc.cpp:207
 msgid "Positive Text"
 msgstr ""
 
 #. i18n: file: colorsettings.ui:520
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:646 rc.cpp:210
+#: colorscm.cpp:647 rc.cpp:210
 msgid "Focus Decoration"
 msgstr ""
 
 #. i18n: file: colorsettings.ui:525
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
-#: colorscm.cpp:647 rc.cpp:213
+#: colorscm.cpp:648 rc.cpp:213
 msgid "Hover Decoration"
 msgstr ""
 
@@ -790,16 +790,12 @@ msgstr ""
 #. i18n: file: setpreview.ui:223
 #. i18n: ectx: property (text), widget (QLabel, labelBack2)
 #: rc.cpp:438 rc.cpp:468
-msgctxt "active (abbreviate)"
 msgid "active"
 msgstr ""
 
 #. i18n: file: setpreview.ui:96
 #. i18n: ectx: property (text), widget (QLabel, labelFore1)
-#. i18n: file: setpreview.ui:236
-#. i18n: ectx: property (text), widget (QLabel, labelBack1)
-#: rc.cpp:441 rc.cpp:471
-msgctxt "inactive (abbreviate)"
+#: rc.cpp:441
 msgid "inactive"
 msgstr ""
 
@@ -841,6 +837,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelBack9)
 #: rc.cpp:456 rc.cpp:486
 msgid "focus"
+msgstr ""
+
+#. i18n: file: setpreview.ui:236
+#. i18n: ectx: property (text), widget (QLabel, labelBack1)
+#: rc.cpp:471
+msgid "alternate"
 msgstr ""
 
 #: rc.cpp:487

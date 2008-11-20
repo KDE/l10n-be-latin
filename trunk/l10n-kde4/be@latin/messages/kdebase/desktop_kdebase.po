@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-19 10:08+0000\n"
+"POT-Creation-Date: 2008-11-20 09:29+0000\n"
 "PO-Revision-Date: 2008-09-07 22:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6871,55 +6871,55 @@ msgctxt "Comment"
 msgid "The Nepomuk Storage Service"
 msgstr "Słužba zachoŭvańnia źviestak „Nepomuk”"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:77
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:78
 msgctxt "Name"
 msgid "Rebuilding Nepomuk Index"
 msgstr "Stvareńnie indeksu „Nepomuk” nanoŭ"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:96
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:98
 msgctxt "Comment"
 msgid "The Nepomuk full text search index is rebuilt for new features"
 msgstr ""
 "Indeks „Nepomuk” dla pošuku va ŭsim tekście stvarajecca nanoŭ, dziela novych "
 "mahčymaściaŭ."
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:118
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:121
 msgctxt "Name"
 msgid "Rebuilding Nepomuk Index done"
 msgstr "Stvareńnie indeksu „Nepomuk” nanoŭ skončanaje."
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:135
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:139
 msgctxt "Comment"
 msgid "The rebuilding of the Nepomuk full text search index is done."
 msgstr ""
 "Stvareńnie nanoŭ indeksu „Nepomuk” dla pošuku va ŭsim tekście skončanaje."
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:157
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:162
 msgctxt "Name"
 msgid "Converting Nepomuk data"
 msgstr "Pieraŭtvareńnie źviestak „Nepomuk”"
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:176
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:182
 msgctxt "Comment"
 msgid "All Nepomuk data is converted to a new storage backend"
 msgstr "Usie źviestki „Nepomuk” pieraŭtvoranyja dla novaha schovišča."
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:198
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:205
 msgctxt "Name"
 msgid "Converting Nepomuk data failed"
 msgstr "Nie ŭdałosia pieraŭtvaryć źviestki „Nepomuk”."
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:215
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:223
 msgctxt "Comment"
 msgid "Converting Nepomuk data to a new backend failed"
 msgstr "Nie ŭdałosia pieraŭtvaryć źviestki „Nepomuk” dla novaha schovišča."
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:237
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:246
 msgctxt "Name"
 msgid "Converting Nepomuk data done"
 msgstr "Pieraŭtvareńnie źviestak „Nepomuk” skončanaje."
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:254
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:264
 msgctxt "Comment"
 msgid "Successfully converted Nepomuk data to new backend"
 msgstr ""
@@ -9729,8 +9729,7 @@ msgstr "Kampazycyja zamarudnaja"
 msgctxt "Comment"
 msgid ""
 "The compositing performance was too slow and compositing has been suspended"
-msgstr ""
-"Chutkaść kampazycyi była zamałoj, i tamu jana była vyklučanaja."
+msgstr "Chutkaść kampazycyi była zamałoj, i tamu jana była vyklučanaja."
 
 #: workspace/kwrited/kwrited-autostart.desktop:2
 #: workspace/kwrited/kwrited.desktop:2
@@ -9751,12 +9750,12 @@ msgctxt "Comment"
 msgid "KDE write daemon"
 msgstr "Słužba „write” dla „KDE”"
 
-#: workspace/kwrited/kwrited.notifyrc:25
+#: workspace/kwrited/kwrited.notifyrc:27
 msgctxt "Name"
 msgid "New message received"
 msgstr "Atrymanaje novaje paviedamleńnie"
 
-#: workspace/kwrited/kwrited.notifyrc:45
+#: workspace/kwrited/kwrited.notifyrc:48
 msgctxt "Comment"
 msgid "The daemon received a new message sent with wall(1) or write(1)"
 msgstr "Słužba atrymała novaje paviedamleńnie ad „wall(1)” ci „write(1)”."
@@ -9811,7 +9810,7 @@ msgctxt "Name"
 msgid "Activity Bar"
 msgstr "Panel zaniatkaŭ"
 
-#: workspace/plasma/applets/activitybar/plasma-applet-activitybar.desktop:23
+#: workspace/plasma/applets/activitybar/plasma-applet-activitybar.desktop:24
 msgctxt "Comment"
 msgid "Tabbar to switch activities"
 msgstr "Panel kartak dla roznych zaniatkaŭ"
@@ -9822,7 +9821,7 @@ msgid "Analog Clock"
 msgstr "Analahavy hadzińnik"
 
 #: workspace/plasma/applets/analog-clock/plasma-applet-analogclock.desktop:73
-#: workspace/plasma/scriptengines/ruby/examples/applets/clock/metadata.desktop:17
+#: workspace/plasma/scriptengines/ruby/examples/applets/clock/metadata.desktop:20
 msgctxt "Comment"
 msgid "An SVG themable clock"
 msgstr "Hadzińnik z matyvami „SVG”"
@@ -9842,7 +9841,7 @@ msgctxt "Name"
 msgid "Calendar"
 msgstr "Kalandar"
 
-#: workspace/plasma/applets/calendar/plasma-applet-calendar.desktop:24
+#: workspace/plasma/applets/calendar/plasma-applet-calendar.desktop:25
 msgctxt "Comment"
 msgid "View and pick dates from the calendar"
 msgstr "Prahladaj i vybiraj daty z kalendara"
@@ -9927,7 +9926,7 @@ msgctxt "Name"
 msgid "Quicklaunch"
 msgstr "Aplet chutkaha ŭklučeńnia"
 
-#: workspace/plasma/applets/quicklaunch/plasma-applet-quicklaunch.desktop:12
+#: workspace/plasma/applets/quicklaunch/plasma-applet-quicklaunch.desktop:14
 msgctxt "Comment"
 msgid "Launch your favourite Applications"
 msgstr "Uklučaj svaje ŭlubionyja aplikacyi"
@@ -9937,7 +9936,7 @@ msgctxt "Name"
 msgid "System Monitor - CPU"
 msgstr "Systemny nazirańnik - CPU"
 
-#: workspace/plasma/applets/system-monitor/plasma-applet-sm_cpu.desktop:26
+#: workspace/plasma/applets/system-monitor/plasma-applet-sm_cpu.desktop:27
 msgctxt "Comment"
 msgid "A CPU usage monitor"
 msgstr "Nazirańnik zaniataści „CPU”"
@@ -9947,7 +9946,7 @@ msgctxt "Name"
 msgid "System Monitor - Hard Disk"
 msgstr "Systemny nazirańnik - ćviordy dysk"
 
-#: workspace/plasma/applets/system-monitor/plasma-applet-sm_hdd.desktop:26
+#: workspace/plasma/applets/system-monitor/plasma-applet-sm_hdd.desktop:27
 msgctxt "Comment"
 msgid "A hard disk usage monitor"
 msgstr "Nazirańnik zaniataści ćviordaha dysku"
@@ -9957,7 +9956,7 @@ msgctxt "Name"
 msgid "System Monitor - Hardware Info"
 msgstr "Systemny nazirańnik - źviestki pra aparaturu"
 
-#: workspace/plasma/applets/system-monitor/plasma-applet-sm_hwinfo.desktop:25
+#: workspace/plasma/applets/system-monitor/plasma-applet-sm_hwinfo.desktop:26
 msgctxt "Comment"
 msgid "Show hardware info"
 msgstr "Pakazvaje źviestki pra aparaturu"
@@ -9967,7 +9966,7 @@ msgctxt "Name"
 msgid "System Monitor - Network"
 msgstr "Systemny nazirańnik - sietka"
 
-#: workspace/plasma/applets/system-monitor/plasma-applet-sm_net.desktop:26
+#: workspace/plasma/applets/system-monitor/plasma-applet-sm_net.desktop:27
 msgctxt "Comment"
 msgid "A network usage monitor"
 msgstr "Nazirańnik zaniataści sietki"
@@ -9977,7 +9976,7 @@ msgctxt "Name"
 msgid "System Monitor - Temperature"
 msgstr "Systemny nazirańnik - temperatura"
 
-#: workspace/plasma/applets/system-monitor/plasma-applet-sm_temperature.desktop:26
+#: workspace/plasma/applets/system-monitor/plasma-applet-sm_temperature.desktop:27
 msgctxt "Comment"
 msgid "A system temperature monitor"
 msgstr "Nazirańnik za temperaturaju systemy"
@@ -10053,7 +10052,7 @@ msgctxt "Name"
 msgid "Application Job Information"
 msgstr "Źviestki pra zadańnie aplikacyi"
 
-#: workspace/plasma/dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:16
+#: workspace/plasma/dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:17
 msgctxt "Comment"
 msgid "Kuiserver data for Plasmoids"
 msgstr "Źviestki „Kuiserver” dla widžetaŭ „Plasma”"
@@ -10083,7 +10082,7 @@ msgctxt "Name"
 msgid "Favicons"
 msgstr ""
 
-#: workspace/plasma/dataengines/favicons/plasma-dataengine-favicons.desktop:22
+#: workspace/plasma/dataengines/favicons/plasma-dataengine-favicons.desktop:23
 msgctxt "Comment"
 msgid "Data Engine for getting favicons of web sites"
 msgstr ""
@@ -10278,7 +10277,7 @@ msgctxt "Name"
 msgid "Nepomuk Desktop Search Runner"
 msgstr ""
 
-#: workspace/plasma/runners/nepomuksearch/plasma-runner-nepomuksearch.desktop:18
+#: workspace/plasma/runners/nepomuksearch/plasma-runner-nepomuksearch.desktop:19
 msgctxt "Comment"
 msgid "KRunner which performs desktop searches via Nepomuk"
 msgstr ""
@@ -10454,7 +10453,7 @@ msgctxt "Name"
 msgid "Tiger"
 msgstr "Tyhra"
 
-#: workspace/plasma/scriptengines/ruby/examples/applets/tiger/metadata.desktop:12
+#: workspace/plasma/scriptengines/ruby/examples/applets/tiger/metadata.desktop:15
 msgctxt "Comment"
 msgid "An example of displaying an SVG"
 msgstr "Uzro vyjaŭleńnia „SVG”"
@@ -10464,12 +10463,12 @@ msgctxt "Name"
 msgid "Ruby Web Browser"
 msgstr "Hartač sieciva ŭ movie „Ruby”"
 
-#: workspace/plasma/scriptengines/ruby/examples/dataengines/dbpedia-queries/metadata.desktop:2
+#: workspace/plasma/scriptengines/ruby/examples/dataengines/dbpedia_albums/metadata.desktop:2
 msgctxt "Name"
 msgid "DBpedia queries"
 msgstr "Zapyty ŭ „DBpedia”"
 
-#: workspace/plasma/scriptengines/ruby/examples/dataengines/dbpedia-queries/metadata.desktop:3
+#: workspace/plasma/scriptengines/ruby/examples/dataengines/dbpedia_albums/metadata.desktop:3
 msgctxt "Comment"
 msgid "DBpedia data for Plasmoids"
 msgstr "Źviestki „DBpedia” dla widžetaŭ „Plasma”"
@@ -10480,8 +10479,8 @@ msgctxt "Name"
 msgid "Ruby Widget"
 msgstr "Widžet u movie „Ruby”"
 
-#: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-applet.desktop:20
-#: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-dataengine.desktop:20
+#: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-applet.desktop:21
+#: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-dataengine.desktop:21
 msgctxt "Comment"
 msgid "Native Plasma widget written in Ruby"
 msgstr "Rodny widžet systemy „Plasma”, napisany ŭ movie „Ruby”"
@@ -10491,7 +10490,7 @@ msgctxt "Name"
 msgid "Ruby Package Structure"
 msgstr "Struktura pakunka ŭ movie „Ruby”"
 
-#: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-package.desktop:19
+#: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-package.desktop:20
 msgctxt "Comment"
 msgid "Format of a Ruby Script Engine Package"
 msgstr ""
@@ -10556,7 +10555,7 @@ msgctxt "Name"
 msgid "Desktop Theme Details"
 msgstr "Detali matyva dla rabočaha stała"
 
-#: workspace/plasma/tools/desktopthemedetails/desktopthemedetails.desktop:33
+#: workspace/plasma/tools/desktopthemedetails/desktopthemedetails.desktop:34
 msgctxt "Comment"
 msgid "Customize individual desktop theme items"
 msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"

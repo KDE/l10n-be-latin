@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:54+0100\n"
+"POT-Creation-Date: 2008-11-20 10:18+0100\n"
 "PO-Revision-Date: 2008-11-19 17:37+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: icons.cpp:51
 msgid "Use of Icon"
@@ -41,102 +42,98 @@ msgid "Size:"
 msgstr "Pamier:"
 
 #: icons.cpp:97
-msgid "Double-sized pixels"
-msgstr "Padvojenyja punkty"
-
-#: icons.cpp:101
 msgid "Animate icons"
 msgstr "Animuj ikony"
 
-#: icons.cpp:126
+#: icons.cpp:123
 msgid "Set Effect..."
 msgstr "Vybiery efekt..."
 
-#: icons.cpp:141
+#: icons.cpp:138
 msgid "Desktop"
 msgstr "Rabočy stoł"
 
-#: icons.cpp:142
+#: icons.cpp:139
 msgid "Toolbar"
 msgstr "Panel pryładździa"
 
-#: icons.cpp:143
+#: icons.cpp:140
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: icons.cpp:144
+#: icons.cpp:141
 msgid "Small Icons"
 msgstr "Drobnyja ikony"
 
-#: icons.cpp:145
+#: icons.cpp:142
 msgid "Panel"
 msgstr "Panel"
 
-#: icons.cpp:146
+#: icons.cpp:143
 msgid "All Icons"
 msgstr "Usie ikony"
 
-#: icons.cpp:452
+#: icons.cpp:433
 msgid "Setup Default Icon Effect"
 msgstr "Nałady zmoŭčanaha efektu dla ikon"
 
-#: icons.cpp:453
+#: icons.cpp:434
 msgid "Setup Active Icon Effect"
 msgstr "Nałady efektu dla dziejnych ikon"
 
-#: icons.cpp:454
+#: icons.cpp:435
 msgid "Setup Disabled Icon Effect"
 msgstr "Nałady efektu dla vyklučanych ikon"
 
-#: icons.cpp:548
+#: icons.cpp:516
 msgid "&Effect:"
 msgstr "&Efekt:"
 
-#: icons.cpp:552
+#: icons.cpp:520
 msgid "No Effect"
 msgstr "Biez efektu"
 
-#: icons.cpp:553
+#: icons.cpp:521
 msgid "To Gray"
 msgstr "Šerań"
 
-#: icons.cpp:554
+#: icons.cpp:522
 msgid "Colorize"
 msgstr "Farba"
 
-#: icons.cpp:555
+#: icons.cpp:523
 msgid "Gamma"
 msgstr ""
 
-#: icons.cpp:556
+#: icons.cpp:524
 msgid "Desaturate"
 msgstr ""
 
-#: icons.cpp:557
+#: icons.cpp:525
 msgid "To Monochrome"
 msgstr "Čorna-biełaje"
 
-#: icons.cpp:563
+#: icons.cpp:531
 msgid "&Semi-transparent"
 msgstr "&Napałovu prazrystaje"
 
-#: icons.cpp:567
+#: icons.cpp:535
 msgid "Preview"
 msgstr ""
 
-#: icons.cpp:580
+#: icons.cpp:548
 msgid "Effect Parameters"
 msgstr "Parametry efektu"
 
-#: icons.cpp:587
+#: icons.cpp:555
 msgid "&Amount:"
 msgstr ""
 
-#: icons.cpp:597
+#: icons.cpp:565
 msgid "Co&lor:"
 msgstr "Ko&ler:"
 
-#: icons.cpp:605
+#: icons.cpp:573
 msgid "&Second color:"
 msgstr "&Druhi koler:"
 
@@ -154,14 +151,17 @@ msgstr "Zainstaluj matyŭ z fajła..."
 
 #: iconthemes.cpp:105
 msgid "Install a theme archive file you already have locally"
-msgstr "Zainstaluj matyŭ z archiŭnaha fajła, jaki ty ŭžo maješ u siabie na kamputary"
+msgstr ""
+"Zainstaluj matyŭ z archiŭnaha fajła, jaki ty ŭžo maješ u siabie na kamputary"
 
 #: iconthemes.cpp:106
 msgid ""
 "If you already have a theme archive locally, this button will unpack it and "
 "make it available for KDE applications"
 msgstr ""
-"Kali ŭ ciabie ŭ kamputary ŭžo jość archiŭ z matyvam, tady z dapamohaju hetaj knopki ty zmožaš raspakavać jaho j zrabić dastupnym dla inšych aplikacyjaŭ systemy „KDE”."
+"Kali ŭ ciabie ŭ kamputary ŭžo jość archiŭ z matyvam, tady z dapamohaju hetaj "
+"knopki ty zmožaš raspakavać jaho j zrabić dastupnym dla inšych aplikacyjaŭ "
+"systemy „KDE”."
 
 #: iconthemes.cpp:109
 msgid "Get New Themes..."
@@ -296,3 +296,5 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
+#~ msgid "Double-sized pixels"
+#~ msgstr "Padvojenyja punkty"

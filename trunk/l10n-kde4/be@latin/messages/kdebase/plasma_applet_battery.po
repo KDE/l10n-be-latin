@@ -20,7 +20,7 @@ msgstr ""
 
 #: battery.cpp:219
 msgid "General"
-msgstr ""
+msgstr "Ahulnaje"
 
 #: battery.cpp:371
 msgid "Screen Brightness"
@@ -54,25 +54,23 @@ msgstr "Kiravańnie enerhijaj"
 #, kde-format
 msgid "<b>1 hour 1 minute</b> remaining<br />"
 msgid_plural "<b>1 hour %1 minutes</b> remaining<br />"
-msgstr[0] "Zastałosia <b>1 hadzina i %1 chvilina</b><br />"
-msgstr[1] "Zastałosia <b>1 hadzina i %1 chviliny</b><br />"
-msgstr[2] "Zastałosia <b>1 hadzina i %1 chvilin</b><br />"
+msgstr[0] "Zastałasia <b>1 hadzina i %1 chvilina</b><br />"
+msgstr[1] "Zastałasia <b>1 hadzina i %1 chviliny</b><br />"
+msgstr[2] "Zastałasia <b>1 hadzina i %1 chvilin</b><br />"
 
 #: battery.cpp:516
-#, fuzzy, kde-format
-#| msgid "<b>%1 hour 1 minute</b> remaining<br />"
-#| msgid_plural "<b>%1 hours 1 minute</b> remaining<br />"
+#, kde-format
 msgid "<b>%1 hour %1 minute</b> remaining<br />"
 msgid_plural "<b>%1 hours %2 minute</b> remaining<br />"
-msgstr[0] "Zastałosia <b>%1 hadzina i 1 chvilina</b><br />"
-msgstr[1] "Zastałosia <b>%1 hadziny i 1 chvilina</b><br />"
-msgstr[2] "Zastałosia <b>%1 hadzin i 1 chvilina</b><br />"
+msgstr[0] "Zastałasia <b>%1 hadzina i %2 chvilina</b><br />"
+msgstr[1] "Zastałosia <b>%1 hadziny i %2 chvilina</b><br />"
+msgstr[2] "Zastałosia <b>%1 hadzin i %2 chvilina</b><br />"
 
 #: battery.cpp:518
 #, fuzzy, kde-format
 msgid "<b>%1 hour %2 minutes</b> remaining<br />"
 msgid_plural "<b>%1 hours %2 minutes</b> remaining<br />"
-msgstr[0] "Zastałosia <b>%1 hadzina i %2 chvilin</b><br />"
+msgstr[0] "Zastałasia <b>%1 hadzina i %2 chvilin</b><br />"
 msgstr[1] "Zastałosia <b>%1 hadziny i %2 chvilin</b><br />"
 msgstr[2] "Zastałosia <b>%1 hadzin i %2 chvilin</b><br />"
 
@@ -85,7 +83,7 @@ msgstr "Zastałosia <b>%1 hadzin</b><br />"
 #, kde-format
 msgid "<b>%1 minute</b> remaining<br />"
 msgid_plural "<b>%1 minutes</b> remaining<br />"
-msgstr[0] "Zastałosia <b>%1 chvilina</b><br />"
+msgstr[0] "Zastałasia <b>%1 chvilina</b><br />"
 msgstr[1] "Zastałosia <b>%1 chviliny</b><br />"
 msgstr[2] "Zastałosia <b>%1 chvilin</b><br />"
 

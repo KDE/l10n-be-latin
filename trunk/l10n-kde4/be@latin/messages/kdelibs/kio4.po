@@ -34,15 +34,11 @@ msgid "Moving"
 msgstr "Pieraniasieńnie"
 
 #: kio/job.cpp:136 kio/job.cpp:143 kio/job.cpp:168 kio/fileundomanager.cpp:120
-#, fuzzy
-#| msgid "Source"
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "Krynica"
 
 #: kio/job.cpp:137 kio/job.cpp:144 kio/fileundomanager.cpp:121
-#, fuzzy
-#| msgid "Destination"
 msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr "Meta"
@@ -73,7 +69,7 @@ msgstr "Fajł"
 #: kio/job.cpp:161
 msgctxt "@title job"
 msgid "Examining"
-msgstr ""
+msgstr "Zbor źviestak"
 
 #: kio/job.cpp:167
 msgctxt "@title job"
@@ -211,11 +207,11 @@ msgstr "&Abmini"
 
 #: kio/renamedialog.cpp:111
 msgid "Do not copy or move this folder, skip to the next item instead"
-msgstr ""
+msgstr "Nie kapijuj i nie pieranoś hetaha kataloha, ale praciahvaj z nastupnaha elementa"
 
 #: kio/renamedialog.cpp:112
 msgid "Do not copy or move this file, skip to the next item instead"
-msgstr ""
+msgstr "Nie kapijuj i nie pieranoś hetaha fajła, ale praciahvaj z nastupnaha elementa"
 
 #: kio/renamedialog.cpp:115
 msgid "&Auto Skip"
@@ -237,11 +233,9 @@ msgid ""
 msgstr ""
 
 #: kio/renamedialog.cpp:122
-#, fuzzy
-#| msgid "Write"
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
-msgstr "Zapis"
+msgstr "&Zapišy ŭ katalohu"
 
 #: kio/renamedialog.cpp:122
 msgid "&Overwrite"
@@ -256,17 +250,13 @@ msgid ""
 msgstr ""
 
 #: kio/renamedialog.cpp:128
-#, fuzzy
-#| msgid "O&verwrite All"
 msgctxt "Write files into any existing directory"
 msgid "&Write Into All"
-msgstr "N&adpisvaj usio"
+msgstr "&Zapišy ŭsiudy"
 
 #: kio/renamedialog.cpp:128
-#, fuzzy
-#| msgid "O&verwrite All"
 msgid "&Overwrite All"
-msgstr "N&adpisvaj usio"
+msgstr "&Nadpišy ŭsio"
 
 #: kio/renamedialog.cpp:130
 msgid ""
@@ -544,24 +534,19 @@ msgstr[1] "%1 dni %2"
 msgstr[2] "%1 dzion %2"
 
 #: kio/global.cpp:123
-#, fuzzy
-#| msgid "No Items"
 msgid "0 Items"
 msgstr "Niama elementaŭ"
 
 #: kio/global.cpp:127
-#, fuzzy, kde-format
-#| msgid "No Folders"
+#, kde-format
 msgid "1 Folder"
 msgid_plural "%1 Folders"
-msgstr[0] "Niama katalohaŭ"
-msgstr[1] "Niama katalohaŭ"
-msgstr[2] "Niama katalohaŭ"
+msgstr[0] "%1 kataloh"
+msgstr[1] "%1 katalohi"
+msgstr[2] "%1 katalohaŭ"
 
 #: kio/global.cpp:128
-#, fuzzy, kde-format
-#| msgid "1 file"
-#| msgid_plural "%1 files"
+#, kde-format
 msgid "1 File"
 msgid_plural "%1 Files"
 msgstr[0] "%1 fajł"
@@ -569,32 +554,25 @@ msgstr[1] "%1 fajły"
 msgstr[2] "%1 fajłaŭ"
 
 #: kio/global.cpp:131
-#, fuzzy, kde-format
-#| msgctxt "Items (Folders, Files)"
-#| msgid "%1 (%2, %3)"
+#, kde-format
 msgctxt "folders, files (size)"
 msgid "%1, %2 (%3)"
-msgstr "%1 (%2, %3)"
+msgstr "%1, %2 (%3)"
 
 #: kio/global.cpp:132
-#, fuzzy, kde-format
-#| msgid "%1 (%2)"
+#, kde-format
 msgctxt "folders, files"
 msgid "%1, %2"
-msgstr "%1 (%2)"
+msgstr "%1, %2"
 
 #: kio/global.cpp:134
-#, fuzzy, kde-format
-#| msgid "%1 (%2)"
+#, kde-format
 msgctxt "files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: kio/global.cpp:140
-#, fuzzy, kde-format
-#| msgctxt "Items in a folder"
-#| msgid "1 item"
-#| msgid_plural "%1 items"
+#, kde-format
 msgid "1 Item"
 msgid_plural "%1 Items"
 msgstr[0] "%1 element"
@@ -602,11 +580,10 @@ msgstr[1] "%1 elementy"
 msgstr[2] "%1 elementaŭ"
 
 #: kio/global.cpp:141
-#, fuzzy, kde-format
-#| msgid "%1 (%2)"
+#, kde-format
 msgctxt "items: folders, files (size)"
 msgid "%1: %2"
-msgstr "%1 (%2)"
+msgstr "%1: %2"
 
 #: kio/global.cpp:172
 #, kde-format
@@ -3540,14 +3517,10 @@ msgstr ""
 "prahramy."
 
 #: kfile/kopenwithdialog.cpp:840
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not extract executable name from '%1', please type a valid program "
-#| "name."
+#, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr ""
-"Nie ŭdałosia atrymać nazvy vykonvalnaha fajła z „%1”. Pravilna ŭpišy nazvu "
-"prahramy."
+"Nie ŭdałosia znajści „%1”. Pravilna ŭpišy nazvu prahramy."
 
 #: kfile/kmetaprops.cpp:101
 msgid "&Meta Info"
@@ -5002,10 +4975,8 @@ msgid "No host specified."
 msgstr "Host nie aznačany."
 
 #: ../kioslave/http/http.cpp:1331
-#, fuzzy
-#| msgid "The specified resource may not exist."
 msgid "The resource cannot be deleted."
-msgstr "Aznačany resurs, mahčyma, nie isnuje."
+msgstr "Aznačany resurs nie ŭdałosia vydalić."
 
 #: ../kioslave/http/http.cpp:1452
 msgid "Otherwise, the request would have succeeded."
@@ -5443,10 +5414,8 @@ msgid "Empty Trash"
 msgstr "Vyčyści śmietnicu"
 
 #: ../kfile/kfileplacesview.cpp:664
-#, fuzzy
-#| msgid "Description"
 msgid "Enter a description"
-msgstr "Apisańnie"
+msgstr "Apišy"
 
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1685
 msgid "*|All Files"
@@ -5457,12 +5426,6 @@ msgid "All Supported Files"
 msgstr "Fajły, jakija padtrymvajucca"
 
 #: ../kfile/kfilewidget.cpp:283
-#, fuzzy
-#| msgid ""
-#| "<qt>While typing in the text area, you may be presented with possible "
-#| "matches. This feature can be controlled by clicking with the right mouse "
-#| "button and selecting a preferred mode from the <b>Text Completion</b> "
-#| "menu."
 msgid ""
 "<qt>While typing in the text area, you may be presented with possible "
 "matches. This feature can be controlled by clicking with the right mouse "
@@ -5472,7 +5435,7 @@ msgstr ""
 "<qt>Padčas upisvańnia tekstu ŭ pole tabie mohuć prapanavać mahčymyja "
 "varyjanty zakančeńnia. Hetyja pavodziny možna źmianić, kliknuŭšy pravaj "
 "knopkaj myšy ŭ pole j vybraŭšy patrebny sposab u menu <b>Zakančeńnie tekstu</"
-"b>."
+"b></qt>."
 
 #: ../kfile/kfilewidget.cpp:347
 #, kde-format
@@ -5538,11 +5501,11 @@ msgstr ""
 
 #: ../kfile/kfilewidget.cpp:466
 msgid "Zoom out"
-msgstr ""
+msgstr "Pamienš"
 
 #: ../kfile/kfilewidget.cpp:468
 msgid "Zoom in"
-msgstr ""
+msgstr "Pavialič"
 
 #: ../kfile/kfilewidget.cpp:537
 msgid ""
@@ -5585,10 +5548,8 @@ msgid ""
 msgstr ""
 
 #: ../kfile/kfilewidget.cpp:893
-#, fuzzy
-#| msgid "More than one file provided"
 msgid "More than one folder provided"
-msgstr "Padadzienyja niekalki fajłaŭ."
+msgstr "Padadzienyja niekalki katalohaŭ"
 
 #: ../kfile/kfilewidget.cpp:901
 msgid ""
@@ -5597,19 +5558,17 @@ msgid ""
 msgstr ""
 
 #: ../kfile/kfilewidget.cpp:901
-#, fuzzy
-#| msgid "%1 is a file, but a folder was expected."
 msgid "Files and folders selected"
-msgstr "„%1” jość fajłam, choć čakaŭsia kataloh."
+msgstr "Vyłučanyja katalohi j fajły"
 
 #: ../kfile/kfilewidget.cpp:916
 #, kde-format
 msgid "The file %1 could not be found"
-msgstr ""
+msgstr "Nie ŭdałosia znajści fajł „%1”."
 
 #: ../kfile/kfilewidget.cpp:916
 msgid "Cannot open file"
-msgstr ""
+msgstr "Nie ŭdałosia adčynić fajł"
 
 #: ../kfile/kfilewidget.cpp:1169
 msgid "This is the name to save the file as."
@@ -5665,14 +5624,14 @@ msgid "&Open"
 msgstr "&Adčyni"
 
 #: ../kfile/kfilewidget.cpp:1919
-#, kde-format
+#, fuzzy, kde-format
 msgid "Icon size: %1 pixels (standard size)"
-msgstr ""
+msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
 
 #: ../kfile/kfilewidget.cpp:1922
-#, kde-format
+#, fuzzy, kde-format
 msgid "Icon size: %1 pixels"
-msgstr ""
+msgstr "Pamier ikon: %1 punktaŭ"
 
 #: ../kfile/kfilewidget.cpp:2049
 #, kde-format
@@ -6005,15 +5964,15 @@ msgstr "Ad bolšaha k mienšamu"
 
 #: ../kfile/kdiroperator.cpp:1865
 msgid "Icon Position"
-msgstr ""
+msgstr "Miesca ikon"
 
 #: ../kfile/kdiroperator.cpp:1868
 msgid "Next to File Name"
-msgstr ""
+msgstr "Kala nazvy fajła"
 
 #: ../kfile/kdiroperator.cpp:1872
 msgid "Above File Name"
-msgstr ""
+msgstr "Nad nazvaju fajła"
 
 #: ../kfile/kdiroperator.cpp:1883
 msgid "Short View"
@@ -6076,40 +6035,3 @@ msgstr "Pierajdzi"
 #: ../kfile/kurlbutton.cpp:119
 msgid "Show Full Path"
 msgstr "Pakažy ŭsiu ściežku"
-
-#~ msgid "One Item"
-#~ msgid_plural "%1 Items"
-#~ msgstr[0] "%1 element"
-#~ msgstr[1] "%1 elementy"
-#~ msgstr[2] "%1 elementaŭ"
-
-#~ msgid "No Files"
-#~ msgstr "Niama fajłaŭ"
-
-#~ msgid "One File"
-#~ msgid_plural "%1 Files"
-#~ msgstr[0] "%1 fajł"
-#~ msgstr[1] "%1 fajły"
-#~ msgstr[2] "%1 fajłaŭ"
-
-#~ msgid "One Folder"
-#~ msgid_plural "%1 Folders"
-#~ msgstr[0] "%1 kataloh"
-#~ msgstr[1] "%1 katalohi"
-#~ msgstr[2] "%1 katalohaŭ"
-
-#~ msgid "(%1 Total)"
-#~ msgstr "(%1 razam)"
-
-#~ msgctxt "Items (Folders, Files), Size"
-#~ msgid "%1 (%2, %3), %4"
-#~ msgstr "%1 (%2, %3), %4"
-
-#~ msgctxt "@title job"
-#~ msgid "Stating"
-#~ msgstr "Źbirańnie źviestak"
-
-#, fuzzy
-#~| msgid "Icon Source"
-#~ msgid "Icon Size"
-#~ msgstr "Krynica ikony"

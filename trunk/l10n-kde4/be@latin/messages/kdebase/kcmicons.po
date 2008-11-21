@@ -103,11 +103,11 @@ msgstr "Farba"
 
 #: icons.cpp:523
 msgid "Gamma"
-msgstr ""
+msgstr "Hama"
 
 #: icons.cpp:524
 msgid "Desaturate"
-msgstr ""
+msgstr "Pryciamniaj"
 
 #: icons.cpp:525
 msgid "To Monochrome"
@@ -119,7 +119,7 @@ msgstr "&Napałovu prazrystaje"
 
 #: icons.cpp:535
 msgid "Preview"
-msgstr ""
+msgstr "Padhlad"
 
 #: icons.cpp:548
 msgid "Effect Parameters"
@@ -127,7 +127,7 @@ msgstr "Parametry efektu"
 
 #: icons.cpp:555
 msgid "&Amount:"
-msgstr ""
+msgstr "&Kolkaść:"
 
 #: icons.cpp:565
 msgid "Co&lor:"
@@ -177,6 +177,7 @@ msgid ""
 "display a list of themes from the http://www.kde.org website. Clicking the "
 "Install button associated with a theme will install this theme locally."
 msgstr ""
+"Dla hetaj aperacyi patrebnaje spałučeńnie ź siecivam. Akno pakaža śpis matyvaŭ z sajta „http://www.kde.org”. Kliknuŭšy ŭ knopku „Zainstaluj” peŭnaha matyva, ty zainstaluješ jaho ŭ svajoj systemie."
 
 #: iconthemes.cpp:115
 msgid "Remove Theme"
@@ -209,6 +210,8 @@ msgid ""
 "Unable to download the icon theme archive;\n"
 "please check that address %1 is correct."
 msgstr ""
+"Nie ŭdałosia ŭziać archiŭ z matyvam ikon.\n"
+"Spraŭdź słušnaść adrasu „%1”."
 
 #: iconthemes.cpp:212
 msgid "The file is not a valid icon theme archive."
@@ -219,6 +222,7 @@ msgid ""
 "A problem occurred during the installation process; however, most of the "
 "themes in the archive have been installed"
 msgstr ""
+"Padčas instalacyi ŭźnikła prablema. Ale balšynia matyvaŭ z hetaha archiva była zainstalavanaja."
 
 #: iconthemes.cpp:245
 msgid "Installing icon themes"
@@ -235,6 +239,8 @@ msgid ""
 "<qt>Are you sure you want to remove the <strong>%1</strong> icon theme?<br /"
 "><br />This will delete the files installed by this theme.</qt>"
 msgstr ""
+"<qt>Ty sapraŭdy chočaš vydalić matyŭ ikon <strong>%1</strong>?<br /"
+"><br />Hetaja aperacyja vydalić fajły, jakija naležać hetamu matyvu.</qt>"
 
 #: iconthemes.cpp:364
 msgid "Confirmation"
@@ -285,6 +291,10 @@ msgid ""
 "this module. You are not able to remove globally installed themes here.</"
 "p><p>You can also specify effects that should be applied to the icons.</p>"
 msgstr ""
+"<h1>Ikony</h1>Hety modul dazvalaje vybirać ikony dla svajho rabočaha stała."
+"<p>Kab vybrać matyŭ ikon, klikni ŭ jaho nazvu i zaćvierdź svoj vybar knopkaju „Prymiani”, jakaja mieścicca nižej. "
+"Kali ty nia chočaš zaćviardžać svajho vybaru, klikni ŭ knopku „Viarni”.</p><p>Kliknuŭšy "
+"ŭ knopku „Zainstaluj novy matyŭ”, možna dadać u systemu novy matyŭ, padaŭšy jahony adras. Kab skončyć instalacyju, klikni ŭ knopku „Ok”.</p><p>Knopka „Vydali matyŭ” budzie dziejnaj tolki dla matyvaŭ, jakija ty sam zainstalavaŭ praz hety modul. Adsiul nielha vydalać matyvy, zainstalavanyja ŭ usiu systemu.</p><p>Taksama tut možna vybrać efekty dla vyjaŭleńnia ikon.</p>"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

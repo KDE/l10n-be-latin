@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-20 10:18+0100\n"
+"POT-Creation-Date: 2008-11-21 10:04+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -39,7 +39,7 @@ msgstr "Čynnaść „%1”"
 msgid "Unknown Widget"
 msgstr "Nieviadomy widžet"
 
-#: applet.cpp:651 applet.cpp:1502 applet.cpp:1503
+#: applet.cpp:651 applet.cpp:1505 applet.cpp:1506
 msgctxt "misc category"
 msgid "Miscellaneous"
 msgstr "Roznaje"
@@ -74,34 +74,34 @@ msgstr "Nałady „%1”"
 msgid "Settings"
 msgstr "Nałady"
 
-#: applet.cpp:1417
+#: applet.cpp:1418
 msgid "Keyboard Shortcut"
 msgstr "Klavijaturny skarot"
 
-#: applet.cpp:1850
+#: applet.cpp:1853
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1871
+#: applet.cpp:1874
 #, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine dla %1” dla widžeta „%2”."
 
-#: applet.cpp:1876
+#: applet.cpp:1879
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1985
+#: applet.cpp:1988
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
-#: applet.cpp:1987
+#: applet.cpp:1990
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
@@ -173,10 +173,6 @@ msgstr "Nie ŭdałosia znajści patrebny składnik: %1"
 #: dataengine.cpp:458 dataengine.cpp:464
 msgid "Unnamed"
 msgstr "Biaz nazvy"
-
-#: extender.cpp:297
-msgid "no items"
-msgstr "niama elementaŭ"
 
 #: extenderitem.cpp:384
 msgid "Expand this widget"
@@ -344,3 +340,6 @@ msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla padkazak"
 #: private/packages.cpp:151
 msgid "KColorScheme configuration file"
 msgstr "Fajł naładaŭ dla „KColorScheme”"
+
+#~ msgid "no items"
+#~ msgstr "niama elementaŭ"

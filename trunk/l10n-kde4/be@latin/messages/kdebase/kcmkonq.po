@@ -19,7 +19,6 @@ msgstr ""
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: behaviour.cpp:47
-#, fuzzy
 msgid ""
 "<h1>Konqueror Behavior</h1> You can configure how Konqueror behaves as a "
 "file manager here."
@@ -45,8 +44,6 @@ msgstr ""
 "ŭ dziejnym aknie."
 
 #: behaviour.cpp:85
-#, fuzzy
-#| msgid "Confirmation Required"
 msgctxt "@title:group what to do when a file is deleted"
 msgid "Ask Confirmation For"
 msgstr "Patrebnaje paćviardžeńnie"
@@ -58,6 +55,8 @@ msgid ""
 "trash folder, from where it can be recovered very easily.</li> "
 "<li><em>Delete:</em> simply deletes the file.</li> </ul>"
 msgstr ""
+"Hetaja opcyja vyznačaje, ci pavinien fajłavy kiraŭnik „Konqueror” pytacca paćviardžeńnia, kali ty „vydalaješ” fajł. <ul><li><em>Dla vykidańnia ŭ śmietnicu:</em> vykidaje fajł u śmietnicu, ź jakoj jaho možna biez prablemaŭ uznavić.</li> "
+"<li><em>Dla vydaleńnia:</em> zusim vydalaje fajł.</li> </ul>"
 
 #: behaviour.cpp:93
 msgctxt "@option:check Ask for confirmation when moving to trash"
@@ -81,6 +80,7 @@ msgid ""
 "and in the file manager's context menus. You can always delete files by "
 "holding the Shift key while calling 'Move to Trash'."
 msgstr ""
+"Zaznač hetuju opcyju, kali chočaš bačyć u kantekstavym menu rabočaha stała j fajłavaha kiraŭnika zahad „Vydali”. Ale zaŭsiody možna vydalić fajł zusim, prycisnuŭšy klavišu „Shift” i vyklikaŭšy z menu zahad „Vykiń u śmietnicu”."
 
 #: browser.cpp:65
 msgid "&Behavior"
@@ -97,6 +97,9 @@ msgid ""
 "desktop should be stored.\n"
 "Use the \"Whats This?\" (Shift+F1) to get help on specific options."
 msgstr ""
+"<h1>Ściežki</h1>\n"
+"Hety modul dazvalaje tabie vyznačyć, dzie ŭ tvajoj fajłavaj systemie mieściacca fajły tvajho rabočaha stała.\n"
+"Kab atrymać daviedku pra peŭnyja opcyi, vykarystaj mahčymaść „Što heta?”, jakuju možna vyklikać klavijaturnym skarotam „Shift+F1”."
 
 #: globalpaths.cpp:102
 msgid "Des&ktop path:"
@@ -108,6 +111,7 @@ msgid ""
 "change the location of this folder if you want to, and the contents will "
 "move automatically to the new location as well."
 msgstr ""
+"Hety kataloh źmiaščaje ŭsie fajły, jakija vidać na tvaim rabočym stale. Ty možaš źmianić miesca hetaha kataloha, i tady jahonaje źmieściva budzie aŭtamatyčna tudy pieraniesienaje."
 
 #: globalpaths.cpp:117
 msgid "A&utostart path:"
@@ -120,6 +124,7 @@ msgid ""
 "the location of this folder if you want to, and the contents will move "
 "automatically to the new location as well."
 msgstr ""
+"Hety kataloh źmiaščaje aplikacyi albo łučy dla ich, jakija treba aŭtamatyčna ŭklučać pry ŭvachodzie ŭ systemu „KDE”. Ty možaš źmianić miesca hetaha kataloha, i tady jahonaje źmieściva budzie aŭtamatyčna tudy pieraniesienaje."
 
 #: globalpaths.cpp:133
 msgid "D&ocuments path:"
@@ -221,6 +226,8 @@ msgid ""
 "In the list of protocols that appear, select which ones are fast enough for "
 "you to allow previews to be generated."
 msgstr ""
+"Hetaja opcyja aznačaje, kali treba ŭklučać padhlady fajłaŭ, admysłovyja ikony katalohaŭ i pakaz metaźviestak.\n"
+"Vybiery ŭ śpisie pratakołaŭ tyja, jakija dosyć chutkija dla taho, kab stvarać dla ich padhlady fajłaŭ."
 
 #: previews.cpp:126
 msgid "&Maximum file size:"

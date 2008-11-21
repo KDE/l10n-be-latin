@@ -40,8 +40,6 @@ msgid "Unknown Widget"
 msgstr "Nieviadomy widžet"
 
 #: applet.cpp:651 applet.cpp:1502 applet.cpp:1503
-#, fuzzy
-#| msgid "Miscellaneous"
 msgctxt "misc category"
 msgid "Miscellaneous"
 msgstr "Roznaje"
@@ -51,10 +49,10 @@ msgid "Configure..."
 msgstr "Naładź..."
 
 #: applet.cpp:842 containment.cpp:543
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "%1 is the name of the applet"
 msgid "Remove this %1"
-msgstr "Vydali hety „%1”"
+msgstr "Vydali hety aplet „%1”"
 
 #: applet.cpp:1107
 #, kde-format
@@ -78,7 +76,7 @@ msgstr "Nałady"
 
 #: applet.cpp:1417
 msgid "Keyboard Shortcut"
-msgstr ""
+msgstr "Klavijaturny skarot"
 
 #: applet.cpp:1850
 #, kde-format
@@ -114,10 +112,8 @@ msgid "Add Widgets..."
 msgstr "Dadaj widžetaŭ..."
 
 #: containment.cpp:149
-#, fuzzy
-#| msgid "%1 Settings"
 msgid "Appearance Settings"
-msgstr "Nałady „%1”"
+msgstr "Nałady vonkavaści"
 
 #: containment.cpp:156
 msgid "Next Widget"
@@ -148,26 +144,26 @@ msgid "Add Activity"
 msgstr "Dadaj čynnaść"
 
 #: containment.cpp:525
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "%1 is the name of the containment"
 msgid "%1 Options"
-msgstr "Opcyi „%1”"
+msgstr "Opcyi schovišča „%1”"
 
 #: containment.cpp:945
 msgid "Icon"
 msgstr "Ikona"
 
 #: containment.cpp:1430
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "%1 is the name of the containment"
 msgid "Do you really want to remove this %1?"
-msgstr "Sapraŭdy chočaš vydalić hety „%1”?"
+msgstr "Sapraŭdy chočaš vydalić hetaje schovišča „%1”?"
 
 #: containment.cpp:1431
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:window %1 is the name of the containment"
 msgid "Remove %1"
-msgstr "Vydali „%1”"
+msgstr "Vydali schovišča „%1”"
 
 #: containment.cpp:1634
 #, kde-format
@@ -208,8 +204,6 @@ msgid "Invalid"
 msgstr "Niapravilny"
 
 #: private/service_p.h:47
-#, fuzzy
-#| msgid "Invalid (null) service, can not perform any operations."
 msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Niapravilnaja („null”) pasłuha nia ŭmieje ničoha rabić."

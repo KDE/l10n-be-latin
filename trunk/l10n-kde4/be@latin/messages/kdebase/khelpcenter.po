@@ -1,0 +1,632 @@
+# translation of khelpcenter.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: khelpcenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-09-02 09:29+0200\n"
+"PO-Revision-Date: 2008-11-26 01:23+0200\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: application.cpp:57 navigator.cpp:470
+msgid "KDE Help Center"
+msgstr "Centar dapamohi „KDE”"
+
+#: application.cpp:59 khc_indexbuilder.cpp:156
+msgid "The KDE Help Center"
+msgstr "Centar dapamohi „KDE”"
+
+#: application.cpp:61
+msgid "(c) 1999-2003, The KHelpCenter developers"
+msgstr "© 1999-2003, raspracoŭniki prahramy „KHelpCenter”"
+
+#: application.cpp:63 khc_indexbuilder.cpp:160
+msgid "Cornelius Schumacher"
+msgstr "Cornelius Schumacher"
+
+#: application.cpp:64
+msgid "Frerich Raabe"
+msgstr "Frerich Raabe"
+
+#: application.cpp:65
+msgid "Matthias Elter"
+msgstr "Matthias Elter"
+
+#: application.cpp:65
+msgid "Original Author"
+msgstr "Pieršy aŭtar"
+
+#: application.cpp:67
+msgid "Wojciech Smigaj"
+msgstr "Wojciech Smigaj"
+
+#: application.cpp:67
+#, fuzzy
+msgid "Info page support"
+msgstr "Absłuhoŭvańnie staronak „info”"
+
+#: application.cpp:74
+msgid "URL to display"
+msgstr "Patrebny adras"
+
+#: docmetainfo.cpp:34
+msgid "Top-Level Documentation"
+msgstr "Dakumenty vierchniaha roŭniu"
+
+#: docmetainfo.cpp:74
+#, kde-format
+msgctxt "doctitle (language)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: docmetainfo.cpp:110
+msgctxt "Describes documentation entries that are in English"
+msgid "English"
+msgstr "pa-anhielsku"
+
+#: fontdialog.cpp:45
+msgid "Font Configuration"
+msgstr "Nałady šryftoŭ"
+
+#: fontdialog.cpp:68
+msgid "Sizes"
+msgstr "Pamiery"
+
+#: fontdialog.cpp:74
+#, fuzzy
+msgid "M&inimum font size:"
+msgstr "&Pamier najmienšaha šryfta:"
+
+#: fontdialog.cpp:81
+#, fuzzy
+msgid "M&edium font size:"
+msgstr "Pamier &siaredniaha šryfta:"
+
+#: fontdialog.cpp:91
+msgid "Fonts"
+msgstr "Šryft"
+
+#: fontdialog.cpp:97
+msgid "S&tandard font:"
+msgstr "&Zvyčajny šryft:"
+
+#: fontdialog.cpp:103
+msgid "F&ixed font:"
+msgstr "Šryft &stałaj šyryni:"
+
+#: fontdialog.cpp:109
+msgid "S&erif font:"
+msgstr "Šryft „s&erif”:"
+
+#: fontdialog.cpp:115
+msgid "S&ans serif font:"
+msgstr "Šryft „s&ans serif”:"
+
+#: fontdialog.cpp:121
+msgid "&Italic font:"
+msgstr "&Kursiŭny šryft:"
+
+#: fontdialog.cpp:127
+msgid "&Fantasy font:"
+msgstr ""
+
+#: fontdialog.cpp:136
+msgid "Encoding"
+msgstr "Kadavańnie"
+
+#: fontdialog.cpp:142
+msgid "&Default encoding:"
+msgstr "&Zmoŭčanaje kadavańnie:"
+
+#: fontdialog.cpp:147 fontdialog.cpp:215
+msgid "Use Language Encoding"
+msgstr "Karystajsia kadavańniem dla hetaj movy"
+
+#: fontdialog.cpp:151
+msgid "&Font size adjustment:"
+msgstr "&Dapasavańnie pamieru šryfta:"
+
+#: glossary.cpp:95
+msgid "By Topic"
+msgstr "Pavodle temaŭ"
+
+#: glossary.cpp:98 infotree.cpp:94
+msgid "Alphabetically"
+msgstr "Pavodle alfabetu"
+
+#: glossary.cpp:154
+msgid "Rebuilding glossary cache..."
+msgstr "Stvareńnie nanoŭ padručnaj pamiaci z słoŭnikam..."
+
+#: glossary.cpp:207
+msgid "Rebuilding cache... done."
+msgstr "Stvareńnie nanoŭ padručnaj pamiaci... zroblena."
+
+#: glossary.cpp:301
+msgid "Error"
+msgstr "Pamyłka"
+
+#: glossary.cpp:302
+msgid ""
+"Unable to show selected glossary entry: unable to open file 'glossary.html."
+"in'!"
+msgstr ""
+"Nie ŭdałosia pakazać vybrany artykuł słoŭnika: nie ŭdałosia adčynić fajł „glossary.html.in”!"
+
+#: glossary.cpp:307
+msgid "See also: "
+msgstr "Taksama: "
+
+#: glossary.cpp:322
+msgid "KDE Glossary"
+msgstr "Słoŭnik „KDE”"
+
+#: htmlsearchconfig.cpp:50
+#, fuzzy
+msgid "ht://dig"
+msgstr "ht://dig"
+
+#: htmlsearchconfig.cpp:59
+#, fuzzy
+msgid ""
+"The fulltext search feature makes use of the ht://dig HTML search engine. "
+"You can get ht://dig at the"
+msgstr ""
+"Pošuk va ŭsim tekście robicca praz systemu pošuku ŭ fajłach „HTML” „ht://dig”. Hetuju systemu možna ŭziać na"
+
+#: htmlsearchconfig.cpp:64
+msgid "Information about where to get the ht://dig package."
+msgstr "Źviestki pra toje, dzie ŭziać pakunak „ht://dig”."
+
+#: htmlsearchconfig.cpp:68
+msgid "ht://dig home page"
+msgstr "Chatniaja staronka „ht://dig”"
+
+#: htmlsearchconfig.cpp:74
+msgid "Program Locations"
+msgstr "Miescy prahramaŭ"
+
+#: htmlsearchconfig.cpp:83
+msgid "htsearch:"
+msgstr "htsearch:"
+
+#: htmlsearchconfig.cpp:89
+msgid "Enter the URL of the htsearch CGI program."
+msgstr "Upišy adras prahramy „CGI” z nazvaju „htsearch”."
+
+#: htmlsearchconfig.cpp:94
+msgid "Indexer:"
+msgstr "Indeksavańnie:"
+
+#: htmlsearchconfig.cpp:100
+msgid "Enter the path to your htdig indexer program here."
+msgstr "Tut upišy ściežku da tvajoj prahramy indeksavańnia „htdig”."
+
+#: htmlsearchconfig.cpp:106
+msgid "htdig database:"
+msgstr "Baza źviestak „htdig”:"
+
+#: htmlsearchconfig.cpp:112
+msgid "Enter the path to the htdig database folder."
+msgstr "Tut upišy ściežku da tvajho kataloha bazy źviestak „htdig”."
+
+#: infotree.cpp:97
+msgid "By Category"
+msgstr "Pavodle katehoryjaŭ"
+
+#: kcmhelpcenter.cpp:63
+msgid "Change Index Folder"
+msgstr "Źmiani kataloh indeksu"
+
+#: kcmhelpcenter.cpp:71 kcmhelpcenter.cpp:293
+msgid "Index folder:"
+msgstr "Kataloh indeksu:"
+
+#: kcmhelpcenter.cpp:103
+msgid "Build Search Indices"
+msgstr "Stvary indeksy pošuku"
+
+#: kcmhelpcenter.cpp:116
+msgid "Index creation log:"
+msgstr "Log ad stvareńnia indeksu:"
+
+#: kcmhelpcenter.cpp:172
+msgctxt ""
+"Label for button to close search index progress dialog after successful "
+"completion"
+msgid "Close"
+msgstr "Začyni"
+
+#: kcmhelpcenter.cpp:173
+msgid "Index creation finished."
+msgstr "Stvareńnie indeksu skončanaje."
+
+#: kcmhelpcenter.cpp:176
+msgctxt "Label for stopping search index generation before completion"
+msgid "Stop"
+msgstr "Spyni"
+
+#: kcmhelpcenter.cpp:202
+#, fuzzy
+msgid "Details &lt;&lt;"
+msgstr "Detali &lt;&lt;"
+
+#: kcmhelpcenter.cpp:215
+#, fuzzy
+msgid "Details &gt;&gt;"
+msgstr "Detali &gt;&gt;"
+
+#: kcmhelpcenter.cpp:232
+msgid "Build Search Index"
+msgstr "Stvary indeks pošuku"
+
+#: kcmhelpcenter.cpp:241
+msgid "Build Index"
+msgstr "Stvary indeks"
+
+#: kcmhelpcenter.cpp:272
+msgid ""
+"To be able to search a document, a search\n"
+"index needs to exist. The status column of the list below shows whether an "
+"index\n"
+"for a document exists.\n"
+msgstr ""
+
+#: kcmhelpcenter.cpp:275
+msgid ""
+"To create an index, check the box in the list and press the\n"
+"\"Build Index\" button.\n"
+msgstr ""
+
+#: kcmhelpcenter.cpp:283
+msgid "Search Scope"
+msgstr "Absiah pošuku"
+
+#: kcmhelpcenter.cpp:284
+msgid "Status"
+msgstr "Stan"
+
+#: kcmhelpcenter.cpp:299
+msgid "Change..."
+msgstr "Źmiani..."
+
+#: kcmhelpcenter.cpp:321
+#, kde-format
+msgid "<qt>The folder <b>%1</b> does not exist; unable to create index.</qt>"
+msgstr "<qt>Kataloh <b>%1</b> nie isnuje. Nie ŭdałosia stvaryć indeks.</qt>"
+
+#: kcmhelpcenter.cpp:358
+msgctxt "Describes the status of a documentation index that is present"
+msgid "OK"
+msgstr "Ok"
+
+#: kcmhelpcenter.cpp:361
+msgctxt "Describes the status of a documentation index that is missing"
+msgid "Missing"
+msgstr "Niama"
+
+#: kcmhelpcenter.cpp:405
+#, kde-format
+msgctxt ""
+" Generic prefix label for error messages when creating documentation index, "
+"first arg is the document's identifier, second is the document's name"
+msgid "Document '%1' (%2):\n"
+msgstr "Dakument „%1” (%2):\n"
+
+#: kcmhelpcenter.cpp:410
+msgid "No document type."
+msgstr "Nie staje typu dakumenta."
+
+#: kcmhelpcenter.cpp:416
+#, kde-format
+msgid "No search handler available for document type '%1'."
+msgstr "Dla typu dakumentaŭ „%1” niama modula pošuku."
+
+#: kcmhelpcenter.cpp:423
+#, kde-format
+msgid "No indexing command specified for document type '%1'."
+msgstr "Dla typu dakumentaŭ „%1” nie aznačany zahad indeksavańnia."
+
+#: kcmhelpcenter.cpp:541
+msgid "Failed to build index."
+msgstr "Nie ŭdałosia stvaryć indeks."
+
+#: kcmhelpcenter.cpp:596
+#, kde-format
+msgid ""
+"Error executing indexing build command:\n"
+"%1"
+msgstr ""
+"Padčas vykanańnia zahadu, jaki stvaraje indeks, uźnikła pamyłka:\n"
+"%1"
+
+#: khc_indexbuilder.cpp:98
+#, kde-format
+msgid "Unable to start command '%1'."
+msgstr "Nie ŭdałosia ŭklučyć zahad „%1”."
+
+#: khc_indexbuilder.cpp:154
+msgid "KHelpCenter Index Builder"
+msgstr "Modul stvareńnia indeksu „KHelpCenter”"
+
+#: khc_indexbuilder.cpp:158
+msgid "(c) 2003, The KHelpCenter developers"
+msgstr "© 2003, raspracoŭniki „KHelpCenter”"
+
+#: khc_indexbuilder.cpp:165
+msgid "Document to be indexed"
+msgstr "Dakument dla indeksavańnia"
+
+#: khc_indexbuilder.cpp:166
+msgid "Index directory"
+msgstr "Kataloh indeksu"
+
+#: mainwindow.cpp:72
+msgid "Search Error Log"
+msgstr "Log pamyłak pošuku"
+
+#: mainwindow.cpp:130
+msgid "Preparing Index"
+msgstr "Padrychtoŭvańnie indeksu"
+
+#: mainwindow.cpp:179
+msgid "Ready"
+msgstr "Hatova"
+
+#: mainwindow.cpp:234
+msgid "Previous Page"
+msgstr "Papiaredniaja staronka"
+
+#: mainwindow.cpp:236
+msgid "Moves to the previous page of the document"
+msgstr "Pierachodzić da papiaredniaj staronki dakumenta"
+
+#: mainwindow.cpp:240
+msgid "Next Page"
+msgstr "Nastupnaja staronka"
+
+#: mainwindow.cpp:242
+msgid "Moves to the next page of the document"
+msgstr "Pierachodzić da nastupnaj staronki dakumenta"
+
+#: mainwindow.cpp:247
+msgid "Table of &Contents"
+msgstr "Ź&miest"
+
+#: mainwindow.cpp:248
+msgid "Table of contents"
+msgstr "Źmiest"
+
+#: mainwindow.cpp:249
+msgid "Go back to the table of contents"
+msgstr "Viarnisia da źmiestu"
+
+#: mainwindow.cpp:255
+msgid "&Last Search Result"
+msgstr "&Apošni vynik pošuku"
+
+#: mainwindow.cpp:260
+msgid "Build Search Index..."
+msgstr "Stvary indeks pošuku..."
+
+#: mainwindow.cpp:268
+msgid "Show Search Error Log"
+msgstr "Pakažy log pamyłak pošuku"
+
+#: mainwindow.cpp:275
+msgid "Configure Fonts..."
+msgstr "Naładź šryfty..."
+
+#: mainwindow.cpp:279
+msgid "Increase Font Sizes"
+msgstr "Pavialič pamiery šryftoŭ"
+
+#: mainwindow.cpp:284
+msgid "Decrease Font Sizes"
+msgstr "Pamienš pamiery šryftoŭ"
+
+#: navigator.cpp:116
+msgid "&Search"
+msgstr "&Šukaj"
+
+#: navigator.cpp:173
+msgid "&Contents"
+msgstr "&Źmiest"
+
+#: navigator.cpp:186
+msgid "Search Options"
+msgstr "Opcyi pošuku"
+
+#: navigator.cpp:194
+msgid "G&lossary"
+msgstr "&Słoŭnik"
+
+#: navigator.cpp:469
+#, fuzzy
+msgid "Start Page"
+msgstr "Pačatkovaja staronka"
+
+#: navigator.cpp:557
+msgid "Unable to run search program."
+msgstr "Nie ŭdałosia ŭklučyć prahramu pošuku."
+
+#: navigator.cpp:597
+msgid "A search index does not yet exist. Do you want to create the index now?"
+msgstr "Indeks pošuku dasiul nie isnuje. Chočaš jaho zaraz stvaryć?"
+
+#: navigator.cpp:601
+msgid "Create"
+msgstr "Stvary"
+
+#: navigator.cpp:602
+msgid "Do Not Create"
+msgstr "Nie stvaraj"
+
+#. i18n: file: khelpcenter.kcfg:11
+#. i18n: ectx: label, entry, group (Search)
+#: rc.cpp:3 rc.cpp:29
+msgid "Path to index directory."
+msgstr "Ściežka kataloha indeksu."
+
+#. i18n: file: khelpcenter.kcfg:12
+#. i18n: ectx: whatsthis, entry, group (Search)
+#: rc.cpp:6 rc.cpp:32
+msgid "Path to directory containing search indices."
+msgstr "Ściežka kataloha z indeksami pošuku."
+
+#. i18n: file: khelpcenter.kcfg:26
+#. i18n: ectx: label, entry, group (Layout)
+#: rc.cpp:9 rc.cpp:35
+msgid "Currently visible navigator tab"
+msgstr "Dziejna ŭklučanaja kartka navihacyi"
+
+#. i18n: file: khelpcenterui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:12
+msgid "&File"
+msgstr "&Fajł"
+
+#. i18n: file: khelpcenterui.rc:12
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:15
+msgid "&Edit"
+msgstr "&Redahuj"
+
+#. i18n: file: khelpcenterui.rc:20
+#. i18n: ectx: Menu (view)
+#: rc.cpp:18
+msgid "&View"
+msgstr "&Vyhlad"
+
+#. i18n: file: khelpcenterui.rc:25
+#. i18n: ectx: Menu (go)
+#: rc.cpp:21
+msgid "&Go"
+msgstr "&Idzi"
+
+#. i18n: file: khelpcenterui.rc:40
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:24
+msgid "Main Toolbar"
+msgstr "Hałoŭnaja panel pryładździa"
+
+#: rc.cpp:25
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: rc.cpp:26
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: searchengine.cpp:77
+msgid "Error: No document type specified."
+msgstr "Pamyłka: typ dakumentaŭ nie aznačany."
+
+#: searchengine.cpp:79
+#, kde-format
+msgid "Error: No search handler for document type '%1'."
+msgstr "Pamyłka: dla typu dakumentaŭ „%1” niama modula pošuku."
+
+#: searchengine.cpp:227
+#, fuzzy, kde-format
+msgid "Unable to initialize SearchHandler from file '%1'."
+msgstr "Nie ŭdałosia zinicyjalizavać abjekt „SearchHandler” z fajła „%1”."
+
+#: searchengine.cpp:241
+msgid "No valid search handler found."
+msgstr "Nie ŭdałosia znajści słušny modul pošuku."
+
+#: searchengine.cpp:282
+#, fuzzy, kde-format
+msgid "Search Results for '%1':"
+msgstr "Vyniki pošuku dla „%1”:"
+
+#: searchengine.cpp:287
+msgid "Search Results"
+msgstr "Vyniki pošuku"
+
+#: searchhandler.cpp:54
+#, kde-format
+msgid "Error executing search command '%1'."
+msgstr "Padčas vykanańnia zahadu pošuku „%1” uźnikła pamyłka."
+
+#: searchhandler.cpp:97
+#, kde-format
+msgid "Error: %1"
+msgstr "Pamyłka: %1"
+
+#: searchhandler.cpp:198
+msgid "No search command or URL specified."
+msgstr "Zahad pošuku ci adras nie aznačanyja."
+
+#: searchwidget.cpp:66
+#, fuzzy
+msgid "and"
+msgstr "i"
+
+#: searchwidget.cpp:67
+#, fuzzy
+msgid "or"
+msgstr "ci"
+
+#: searchwidget.cpp:69
+msgid "&Method:"
+msgstr "&Sposab:"
+
+#: searchwidget.cpp:85
+#, fuzzy
+msgid "Max. &results:"
+msgstr "Naj&bolš vynikaŭ:"
+
+#: searchwidget.cpp:101
+msgid "&Scope selection:"
+msgstr "&Vybar absiahu:"
+
+#: searchwidget.cpp:109
+msgid "Scope"
+msgstr "Absiah"
+
+#: searchwidget.cpp:112
+msgid "Build Search &Index..."
+msgstr "Stvary &indeks pošuku..."
+
+#: searchwidget.cpp:367
+msgctxt "Label for searching documentation using custom (user defined) scope"
+msgid "Custom"
+msgstr "Ułasny"
+
+#: searchwidget.cpp:369
+msgctxt "Label for searching documentation using default search scope"
+msgid "Default"
+msgstr "Zmoŭčany"
+
+#: searchwidget.cpp:371
+msgctxt "Label for searching documentation in all subsections"
+msgid "All"
+msgstr "Usiudy"
+
+#: searchwidget.cpp:373
+msgctxt "Label for scope that deselects all search subsections"
+msgid "None"
+msgstr "Nidzie"
+
+#: searchwidget.cpp:375
+msgctxt "Label for Unknown search scope, that should never appear"
+msgid "unknown"
+msgstr "nieviadomy"
+
+#: view.cpp:209
+msgid "Copy Link Address"
+msgstr "Skapijuj adras spasyłki"
+

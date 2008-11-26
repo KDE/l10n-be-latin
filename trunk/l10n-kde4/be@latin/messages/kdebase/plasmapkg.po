@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-07 10:06+0100\n"
+"POT-Creation-Date: 2008-11-26 10:45+0100\n"
 "PO-Revision-Date: 2008-11-01 18:52+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -56,11 +56,13 @@ msgstr ""
 
 #: main.cpp:97
 #, fuzzy
+msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr "Zainstaluj pakunak u <ściežku>"
 
 #: main.cpp:99
 #, fuzzy
+msgctxt "Do not translate <path>"
 msgid "Upgrade the package at <path>"
 msgstr "Zainstaluj pakunak u <ściežku>"
 
@@ -70,6 +72,7 @@ msgstr "Pakažy zainstalavanyja pakunki"
 
 #: main.cpp:103
 #, fuzzy
+msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr "Vydali pakunak z nazvaju <nazva>"
 
@@ -141,6 +144,9 @@ msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
 
 #: main.cpp:220
 #, fuzzy
+msgctxt ""
+"No option was given, this is the error message telling the user he needs at "
+"least one, do not translate install, remove, upgrade nor list"
 msgid "One of install, remove, upgrade or list is required."
 msgstr "Treba vybrać instalavańnie, vydaleńnie albo prahlad."
 

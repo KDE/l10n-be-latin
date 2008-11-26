@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:55+0100\n"
+"POT-Creation-Date: 2008-11-26 10:45+0100\n"
 "PO-Revision-Date: 2008-11-01 19:01+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -231,13 +231,21 @@ msgstr "ihar.hrachyshka@gmail.com"
 msgid "Start Operation"
 msgstr "Pačni aperacyju"
 
-#: serviceviewer.cpp:51 serviceviewer.cpp:52
+#: serviceviewer.cpp:51
 #, fuzzy
+msgctxt "Plasma engine with unknown name"
+msgid "Unknown"
+msgstr "Nieviadomaja"
+
+#: serviceviewer.cpp:52
+#, fuzzy
+msgctxt "Plasma service with unknown name"
 msgid "Unknown"
 msgstr "Nieviadomaja"
 
 #: serviceviewer.cpp:65
 #, fuzzy, kde-format
+msgctxt "%1 is a Plasma service name"
 msgid "%1 Service Explorer"
 msgstr "Prahlad pasłuhi „%1”"
 
@@ -271,7 +279,14 @@ msgstr ""
 "3</b>"
 
 #: serviceviewer.cpp:204
-#, fuzzy, kde-format
-msgctxt "One active operation ..."
-msgid "%1 operations active ..."
-msgstr "Dziejnyja aperacyi „%1”..."
+#, kde-format
+msgid "One active operation ..."
+msgid_plural "%1 operations active ..."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, fuzzy
+#~ msgctxt "One active operation ..."
+#~ msgid "%1 operations active ..."
+#~ msgstr "Dziejnyja aperacyi „%1”..."

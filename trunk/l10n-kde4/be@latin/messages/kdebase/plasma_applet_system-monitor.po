@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-11 09:54+0100\n"
+"POT-Creation-Date: 2008-11-26 10:45+0100\n"
 "PO-Revision-Date: 2008-10-26 00:05+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "CPU"
 msgstr "Pracesar"
 
-#: cpu.cpp:142
+#: cpu.cpp:141
 msgid "CPUs"
 msgstr "Pracesary"
 
@@ -38,20 +38,20 @@ msgstr "Punkt mantavańnia"
 msgid "Name"
 msgstr "Nazva"
 
-#: hdd.cpp:84
+#: hdd.cpp:83
 msgid "Partitions"
 msgstr "Partycyi"
 
-#: hdd.cpp:126
+#: hdd.cpp:125
 msgctxt "the root filesystem"
 msgid "root"
 msgstr "korań"
 
-#: hdd.cpp:133
+#: hdd.cpp:132
 msgid "Unknown filesystem"
 msgstr "Nieviadomaja fajłavaja systema"
 
-#: hdd.cpp:143
+#: hdd.cpp:142
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
@@ -81,7 +81,7 @@ msgstr "Sietka"
 msgid "Network interface"
 msgstr "Sietkavy interfejs"
 
-#: net.cpp:154
+#: net.cpp:153
 msgid "Interfaces"
 msgstr "Interfejsy"
 

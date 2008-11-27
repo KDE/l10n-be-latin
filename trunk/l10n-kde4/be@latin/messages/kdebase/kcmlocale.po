@@ -184,7 +184,7 @@ msgstr "Drobavyja ličby:"
 #. i18n: ectx: property (title), widget (QGroupBox, m_positiveGB)
 #: localemon.cpp:55 rc.cpp:27
 msgid "Positive"
-msgstr ""
+msgstr "Dadatny"
 
 #. i18n: file: localemon.ui:80
 #. i18n: ectx: property (text), widget (QCheckBox, m_chMonPosPreCurSym)
@@ -206,7 +206,7 @@ msgstr "Miesca znaka:"
 #. i18n: ectx: property (title), widget (QGroupBox, m_negativeGB)
 #: localemon.cpp:58 rc.cpp:51
 msgid "Negative"
-msgstr ""
+msgstr "Admoŭny"
 
 #. i18n: file: localemon.ui:97
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
@@ -288,6 +288,7 @@ msgid ""
 "left of the value) for all positive monetary values. If not, it will be "
 "postfixed (i.e. to the right)."
 msgstr ""
+"Kali ŭklučanaja hetaja opcyja, znak valuty budzie mieścicca źleva dla usich dadatnych sumaŭ. Kali ž jana nia ŭklučanaja, tady hety znak budzie mieścicca sprava."
 
 #: localemon.cpp:275
 msgid ""
@@ -295,18 +296,21 @@ msgid ""
 "left of the value) for all negative monetary values. If not, it will be "
 "postfixed (i.e. to the right)."
 msgstr ""
+"Kali ŭklučanaja hetaja opcyja, znak valuty budzie mieścicca źleva dla usich admoŭnych sumaŭ. Kali ž jana nia ŭklučanaja, tady hety znak budzie mieścicca sprava."
 
 #: localemon.cpp:281
 msgid ""
 "Here you can select how a positive sign will be positioned. This only "
 "affects monetary values."
 msgstr ""
+"Tut možna vybrać, dzie mieścicca dadatny znak. Hetaja nałada ŭpłyvaje tolki na hrašovyja sumy."
 
 #: localemon.cpp:286
 msgid ""
 "Here you can select how a negative sign will be positioned. This only "
 "affects monetary values."
 msgstr ""
+"Tut možna vybrać, dzie mieścicca admoŭny znak. Hetaja nałada ŭpłyvaje tolki na hrašovyja sumy."
 
 #: localenum.cpp:49
 msgid "&Decimal symbol:"
@@ -318,11 +322,11 @@ msgstr "Dzielnik &tysiačnych nabojaŭ:"
 
 #: localenum.cpp:67
 msgid "Positive si&gn:"
-msgstr ""
+msgstr "Dadatny &znak:"
 
 #: localenum.cpp:76
 msgid "&Negative sign:"
-msgstr ""
+msgstr "&Admoŭny znak:"
 
 #: localenum.cpp:170
 msgid ""
@@ -350,6 +354,7 @@ msgid ""
 "Here you can specify text used to prefix positive numbers. Most people leave "
 "this blank."
 msgstr ""
+"Tut možna aznačyć tekst, jaki mieścicca pierad dadatnymi likami. Balšynia ludziej pakidajuć hetaje pole pustym."
 
 #: localenum.cpp:193
 msgid ""
@@ -357,6 +362,7 @@ msgid ""
 "be empty, so you can distinguish positive and negative numbers. It is "
 "normally set to minus (-)."
 msgstr ""
+"Tut možna aznačyć tekst, jaki mieścicca pierad admoŭnymi likami. Hetaje pole nie pavinna być pustym, kab ty zmoh adroźnivać admoŭnyja liki ad dadatnych. Zvyčajna ŭ hetaje pole ŭpisvajuć znak minusa: „-”."
 
 #: localeother.cpp:50
 msgid "Paper format:"
@@ -580,30 +586,35 @@ msgid ""
 "<p>This option determines which day will be considered as the first one of "
 "the week.</p>"
 msgstr ""
+"<p>Hetaja opcyja aznačaje, jaki dzień jość pačatkam tydnia.</p>"
 
 #: localetime.cpp:608
 msgid ""
 "<p>This option determines which day will be considered as the first working "
 "day of the week.</p>"
 msgstr ""
+"<p>Hetaja opcyja aznačaje, jaki dzień jość pačatkam pracoŭnaha tydnia.</p>"
 
 #: localetime.cpp:613
 msgid ""
 "<p>This option determines which day will be considered as the last working "
 "day of the week.</p>"
 msgstr ""
+"<p>Hetaja opcyja aznačaje, jaki dzień jość kancom pracoŭnaha tydnia.</p>"
 
 #: localetime.cpp:618
 msgid ""
 "<p>This option determines which day will be considered as the day of the "
 "week for religious observance.</p>"
 msgstr ""
+"<p>Hetaja opcyja aznačaje, jaki dzień jość śviatym dniom.</p>"
 
 #: localetime.cpp:625
 msgid ""
 "<p>This option determines whether possessive form of month names should be "
 "used in dates.</p>"
 msgstr ""
+"<p>Hetaja opcyja aznačaje, ci treba ŭžyvać u datach nazvy miesiaca ŭ rodnym skłonie.</p>"
 
 #: localetime.cpp:635
 msgctxt "Day name list, option for no day of religious observance"
@@ -633,7 +644,6 @@ msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
 #: toplevel.cpp:62
-#, fuzzy
 msgid "KCMLocale"
 msgstr "KCMLocale"
 
@@ -668,6 +678,13 @@ msgid ""
 "\"Germany\" from the list. It will also change the time format \n"
 "to use 24 hours and and use comma as decimal separator.</p>\n"
 msgstr ""
+"<h1>Kraina j mova</h1>\n"
+"<p>Tut možna źmianiać nałady movaŭ, numaracyi, času dla peŭnaha abšaru.\n"
+"Chutčej za ŭsio tabie prosta treba vybrać krainu, u jakoj ty žyvieš.\n"
+"Naprykład, kali b ty vybraŭ krainu „Niamieččyna”, dyk systema „KDE”\n"
+"aŭtamatyčna vybrała b za movu niamieckuju. Taksama systema źmianiła b\n"
+"tady tvoj farmat času na 24-hadzinny, a taksama vyznačyła b dla ciabie\n"
+"znakam padziełu tysiačnych nabojaŭ kosku.</p>\n"
 
 #: toplevel.cpp:262
 msgid "Examples"
@@ -686,7 +703,6 @@ msgid "&Money"
 msgstr "&Hrošy"
 
 #: toplevel.cpp:266
-#, fuzzy
 msgid "&Time && Dates"
 msgstr "&Čas i daty"
 

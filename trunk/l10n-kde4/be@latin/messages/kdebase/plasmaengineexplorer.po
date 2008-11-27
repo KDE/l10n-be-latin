@@ -67,7 +67,7 @@ msgid "Remove source"
 msgstr "Vydali krynicu"
 
 #: engineexplorer.cpp:279
-#, fuzzy, kde-format
+#, kde-format
 msgid "&lt;1 bit&gt;"
 msgid_plural "&lt;%1 bits&gt;"
 msgstr[0] "&lt;%1 bit&gt;"
@@ -75,7 +75,7 @@ msgstr[1] "&lt;%1 bity&gt;"
 msgstr[2] "&lt;%1 bitaŭ&gt;"
 
 #: engineexplorer.cpp:288
-#, fuzzy, kde-format
+#, kde-format
 msgid "&lt;1 byte&gt;"
 msgid_plural "&lt;%1 bytes&gt;"
 msgstr[0] "&lt;%1 bajt&gt;"
@@ -83,7 +83,7 @@ msgstr[1] "&lt;%1 bajty&gt;"
 msgstr[2] "&lt;%1 bajtaŭ&gt;"
 
 #: engineexplorer.cpp:310
-#, fuzzy, kde-format
+#, kde-format
 msgid "&lt;1 item&gt;"
 msgid_plural "&lt;%1 items&gt;"
 msgstr[0] "&lt;%1 element&gt;"
@@ -188,7 +188,6 @@ msgstr "ms"
 #. i18n: file: engineexplorer.ui:53
 #. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
 #: rc.cpp:15
-#, fuzzy
 msgid "Update every "
 msgstr "Aktualizuj kožnyja "
 
@@ -232,25 +231,23 @@ msgid "Start Operation"
 msgstr "Pačni aperacyju"
 
 #: serviceviewer.cpp:51
-#, fuzzy
 msgctxt "Plasma engine with unknown name"
 msgid "Unknown"
 msgstr "Nieviadomaja"
 
 #: serviceviewer.cpp:52
-#, fuzzy
 msgctxt "Plasma service with unknown name"
 msgid "Unknown"
 msgstr "Nieviadomaja"
 
 #: serviceviewer.cpp:65
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "%1 is a Plasma service name"
 msgid "%1 Service Explorer"
 msgstr "Prahlad pasłuhi „%1”"
 
 #: serviceviewer.cpp:67
-#, fuzzy, kde-format
+#, kde-format
 msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
 msgstr "Žarało źviestak: <b>%1</b>. Krynica: <b>%2</b>. Pasłuha: <b>%3</b>"
 
@@ -282,11 +279,6 @@ msgstr ""
 #, kde-format
 msgid "One active operation ..."
 msgid_plural "%1 operations active ..."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#, fuzzy
-#~ msgctxt "One active operation ..."
-#~ msgid "%1 operations active ..."
-#~ msgstr "Dziejnyja aperacyi „%1”..."
+msgstr[0] "%1 dziejnaja aperacyja..."
+msgstr[1] "%1 dziejnyja aperacyi..."
+msgstr[2] "%1 dziejnych aperacyjaŭ..."

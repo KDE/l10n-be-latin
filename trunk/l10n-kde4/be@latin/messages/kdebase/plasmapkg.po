@@ -55,26 +55,23 @@ msgstr ""
 "„Runner” itp."
 
 #: main.cpp:97
-#, fuzzy
 msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
-msgstr "Zainstaluj pakunak u <ściežku>"
+msgstr "Zainstaluj pakunak u <path>"
 
 #: main.cpp:99
-#, fuzzy
 msgctxt "Do not translate <path>"
 msgid "Upgrade the package at <path>"
-msgstr "Zainstaluj pakunak u <ściežku>"
+msgstr "Zainstaluj pakunak u <path>"
 
 #: main.cpp:101
 msgid "List installed packages"
 msgstr "Pakažy zainstalavanyja pakunki"
 
 #: main.cpp:103
-#, fuzzy
 msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
-msgstr "Vydali pakunak z nazvaju <nazva>"
+msgstr "Vydali pakunak z nazvaju <name>"
 
 #: main.cpp:105
 msgid ""
@@ -143,12 +140,11 @@ msgid "Installation of %1 failed."
 msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
 
 #: main.cpp:220
-#, fuzzy
 msgctxt ""
 "No option was given, this is the error message telling the user he needs at "
 "least one, do not translate install, remove, upgrade nor list"
 msgid "One of install, remove, upgrade or list is required."
-msgstr "Treba vybrać instalavańnie, vydaleńnie albo prahlad."
+msgstr "Treba padać opcyju: „install”, „remove”, „upgrade” albo „list”."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

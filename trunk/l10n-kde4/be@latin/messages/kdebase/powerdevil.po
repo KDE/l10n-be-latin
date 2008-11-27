@@ -20,11 +20,11 @@ msgstr ""
 
 #: daemon/XSyncBasedPoller.cpp:59
 msgid "XSync Based (recommended)"
-msgstr ""
+msgstr "Z dapamohaj „XSync” (raim)"
 
 #: daemon/TimerBasedPoller.cpp:40
 msgid "Timer Based"
-msgstr ""
+msgstr "Z dapamohaj hadzińnika"
 
 #: daemon/SuspensionLockHandler.cpp:72
 #, kde-format
@@ -32,10 +32,13 @@ msgid ""
 "The application %1 is inhibiting suspension for the following reason:\n"
 "%2"
 msgstr ""
+"Aplikacyja „%1” hetak tłumačyć admaŭleńnie ad snu:\n"
+"%2"
 
 #: daemon/WidgetBasedPoller.cpp:40
+#, fuzzy
 msgid "Grabber Widget Based"
-msgstr ""
+msgstr "Z dapamohaj widžeta zachopu ekrana"
 
 #: daemon/PowerDevilDaemon.cpp:142
 msgid "PowerDevil"
@@ -67,11 +70,11 @@ msgstr ""
 
 #: daemon/PowerDevilDaemon.cpp:398
 msgid "The power adaptor has been plugged in"
-msgstr "Blok siłkavańnia padłučany"
+msgstr "Blok siłkavańnia padłučany."
 
 #: daemon/PowerDevilDaemon.cpp:403
 msgid "The power adaptor has been unplugged"
-msgstr "Blok siłkavańnia adłučany"
+msgstr "Blok siłkavańnia adłučany."
 
 #: daemon/PowerDevilDaemon.cpp:543
 #, kde-format
@@ -79,6 +82,8 @@ msgid ""
 "Your battery has reached critical level, the PC will be halted in %1 "
 "seconds. Click here to block the process."
 msgstr ""
+"Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
+"sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:554
 #, kde-format
@@ -86,6 +91,8 @@ msgid ""
 "Your battery has reached critical level, the PC will be suspended to disk in "
 "%1 seconds. Click here to block the process."
 msgstr ""
+"Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie na dysku praz %1 "
+"sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:565
 #, kde-format
@@ -93,6 +100,8 @@ msgid ""
 "Your battery has reached critical level, the PC will be suspended to RAM in %"
 "1 seconds. Click here to block the process"
 msgstr ""
+"Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie ŭ pamiaci praz %1 "
+"sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:576
 #, kde-format
@@ -100,25 +109,29 @@ msgid ""
 "Your battery has reached critical level, the PC is going Standby in %1 "
 "seconds. Click here to block the process."
 msgstr ""
+"Tvaja batareja maje vielmi nizki zarad. Kamputar pačnie čakać praz %1 "
+"sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:586
 msgid ""
 "Your battery has reached critical level, save your work as soon as possible!"
 msgstr ""
+"Tvaja batareja maje vielmi nizki zarad. Jak maha chutčej zapišy vynik svajoj pracy!"
 
 #: daemon/PowerDevilDaemon.cpp:591
 msgid "Your battery has reached warning level"
-msgstr ""
+msgstr "Zarad tvajoj batarei vymahaje ŭvahi."
 
 #: daemon/PowerDevilDaemon.cpp:594
 msgid "Your battery has reached low level"
-msgstr ""
+msgstr "Tvaja batareja maje nizki zarad."
 
 #: daemon/PowerDevilDaemon.cpp:709
 #, kde-format
 msgid ""
 "The computer will be halted in %1 seconds. Click here to block the process."
 msgstr ""
+"Kamputar budzie vyklučany praz %1 sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:725
 #, kde-format
@@ -126,6 +139,7 @@ msgid ""
 "The computer will be suspended to disk in %1 seconds. Click here to block "
 "the process."
 msgstr ""
+"Kamputar zaśnie na dysku praz %1 sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:741
 #, kde-format
@@ -133,6 +147,7 @@ msgid ""
 "The computer will be suspended to RAM in %1 seconds. Click here to block the "
 "process."
 msgstr ""
+"Kamputar zaśnie ŭ pamiaci praz %1 sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:757
 #, kde-format
@@ -140,10 +155,11 @@ msgid ""
 "The computer will be put into standby in %1 seconds. Click here to block the "
 "process."
 msgstr ""
+"Kamputar pačnie čakać praz %1 sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:846
 msgid "There was an error while suspending:"
-msgstr ""
+msgstr "Padčas zasynańnia ŭźnikła pamyłka:"
 
 #: daemon/PowerDevilDaemon.cpp:1020
 msgid "The screen is being locked"
@@ -155,6 +171,8 @@ msgid ""
 "The profile \"%1\" has been selected, but it does not exist!\n"
 "Please check your PowerDevil configuration."
 msgstr ""
+"Byŭ vybrany profil „%1”, ale jon nie isnuje!\n"
+"Spraŭdź słušnaść naładaŭ słužby „PowerDevil”."
 
 #: daemon/PowerDevilDaemon.cpp:1207
 #, kde-format
@@ -169,22 +187,23 @@ msgstr "Chutkaść"
 #: daemon/PowerDevilDaemon.cpp:1239 kcmodule/CapabilitiesPage.cpp:156
 #: kcmodule/EditPage.cpp:152
 msgid "Dynamic (ondemand)"
-msgstr ""
+msgstr "Dynamična (pry patrebie)"
 
 #: daemon/PowerDevilDaemon.cpp:1243 kcmodule/CapabilitiesPage.cpp:160
 #: kcmodule/EditPage.cpp:156
 msgid "Dynamic (conservative)"
-msgstr ""
+msgstr "Dynamična (kanservacyjna)"
 
 #: daemon/PowerDevilDaemon.cpp:1247 kcmodule/CapabilitiesPage.cpp:164
 #: kcmodule/EditPage.cpp:161
 msgid "Powersave"
-msgstr ""
+msgstr "Aščadžańnie enerhii"
 
 #: daemon/PowerDevilDaemon.cpp:1251 kcmodule/CapabilitiesPage.cpp:168
 #: kcmodule/EditPage.cpp:166
+#, fuzzy
 msgid "Userspace"
-msgstr ""
+msgstr "Absiah karystańnika"
 
 #: daemon/PowerDevilDaemon.cpp:1264 kcmodule/GeneralPage.cpp:66
 #: kcmodule/CapabilitiesPage.cpp:128 kcmodule/EditPage.cpp:123
@@ -204,7 +223,7 @@ msgstr "Zaśni ŭ pamiaci"
 #: kcmodule/EditPage.cpp:138 kcmodule/EditPage.cpp:139
 #: kcmodule/EditPage.cpp:140
 msgid "Standby"
-msgstr ""
+msgstr "Čakaj"
 
 #. i18n: file: kcmodule/generalPage.ui:76
 #. i18n: ectx: property (title), widget (QGroupBox, GeneralSettingsBox)
@@ -249,6 +268,7 @@ msgid ""
 "From this module, you can configure the Daemon, create and edit powersaving "
 "profiles, and see your system's capabilities."
 msgstr ""
+"Z hetaha modula ty možaš naładžvać słužbu, stvarać i redahavać profili aščadžańnia enerhii j hladzieć, jakija mahčymaści absłuhoŭvaje tvaja systema."
 
 #: kcmodule/PowerDevilKCM.cpp:59
 msgid "Main Developer"
@@ -274,6 +294,7 @@ msgid ""
 "power managers are active. If you want to use PowerDevil as your primary "
 "power manager, please remove the existing one and restart PowerDevil service."
 msgstr ""
+"Znojdzieny inšy kiraŭnik enerhii. Słužba „PowerDevil” nia budzie dziejničać, kali ŭklučanyja inšyja kiraŭniki. Kali ty chočaš zrabić słužbu „PowerDevil” hałoŭnaj, prybiary dziejnuju słužbu dy ŭklučy słužbu „PowerDevil” nanoŭ."
 
 #: kcmodule/PowerDevilKCM.cpp:92
 msgid ""
@@ -281,12 +302,14 @@ msgid ""
 "other power managers are active. If you want to use PowerDevil as your "
 "primary power manager, please stop powersaved and restart PowerDevil service."
 msgstr ""
+"U hetaj systemie pracuje słužba „powersaved”. Słužba „PowerDevil” nia budzie dziejničać, kali ŭklučanyja inšyja kiraŭniki. Kali ty chočaš zrabić słužbu „PowerDevil” hałoŭnaj, spyni słužbu „powersaved” i ŭklučy słužbu „PowerDevil” nanoŭ."
 
 #: kcmodule/PowerDevilKCM.cpp:101
 msgid ""
 "PowerDevil seems not to be started. Either you have its service turned off, "
 "or there is a problem in DBus."
 msgstr ""
+"Słužba „PowerDevil” nia ŭklučanaja. Ci ty jaje vyklučyŭ, ci ŭ systemie „D-Bus” jość prablema."
 
 #: kcmodule/CapabilitiesPage.cpp:132
 msgid "Suspend to RAM"
@@ -299,11 +322,13 @@ msgid "No methods found"
 msgstr "Metadaŭ nia znojdziena"
 
 #: kcmodule/CapabilitiesPage.cpp:263
+#, fuzzy
 msgid ""
 "PowerDevil was compiled without Xss and Xext support, or the XSync extension "
 "is not available. Determining idle time will not be possible. Please "
 "consider recompiling PowerDevil with at least one of these two libraries."
 msgstr ""
+"Słužba „PowerDevil” była skampilavanaja biez absłuhi pašyreńniaŭ „Xss”, „Xext” i „XSync”. Jana nia zmoža vyznačyć, kali karystańnik pierastanie pracavać z kamputaram. My raim tabie pierakampilavać słužbu „PowerDevil” prynamsi z adnoj z henych dźviuch biblijatek."
 
 #: kcmodule/CapabilitiesPage.cpp:269
 msgid ""
@@ -330,6 +355,7 @@ msgid ""
 "available. XSync grants extra efficiency and performance, saving your "
 "battery and CPU. It is advised to use PowerDevil with XSync enabled."
 msgstr ""
+"Słužba „PowerDevil” była skampilavanaja biez absłuhi pašyreńniaŭ „Xext” ci „XSync”. Pašyreńnie „XSync” pavyšaje efekt i chutkaść systemy, takim čynam aščadžajučy zarad batarei j pracesarny čas. My raim karystacca słužbaju „PowerDevil” z uklučanym absłuhoŭvańniem pašyreńnia „XSync”."
 
 #: kcmodule/CapabilitiesPage.cpp:285
 msgid ""
@@ -337,6 +363,7 @@ msgid ""
 "your system. Using it largely improves performance and efficiency, and it is "
 "strongly advised. Click on the button below to enable it now."
 msgstr ""
+"Pašyreńnie „XSync” nia jość tvaim hałoŭnym sposabam apytvańnia systemy, ale jano jość u kamputary. Jahonaje vykarystańnie vielmi pavyšaje chutkaść i efekt, i tamu my jaho peŭna raim. Kab jaho ŭklučyć, klikni ŭ nižejšuju knopku."
 
 #: kcmodule/CapabilitiesPage.cpp:288
 msgid "Enable XSync Backend"
@@ -351,6 +378,7 @@ msgid ""
 "No kernel modules for CPU scaling were found. Either you do not have them "
 "installed, or PowerDevil could not detect them."
 msgstr ""
+"Nie ŭdałosia znajści modulaŭ jadra, jakija b absłuhoŭvali źmianieńnie čaścini pracesara. Albo jany nie zainstalavanyja ŭ systemie, albo słužba „PowerDevil” nia zdoleła ich paznać."
 
 #: kcmodule/CapabilitiesPage.cpp:390
 msgid "Modules not found"
@@ -462,19 +490,19 @@ msgstr "Vyklučy kampazycyju akońnika „KWin”, kali jana ŭklučanaja"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dimDisplayOnIdle)
 #: rc.cpp:17
 msgid "Activate automatic dimming"
-msgstr ""
+msgstr "Uklučy aŭtamatyčnaje zaciamnieńnie"
 
 #. i18n: file: kcmodule/profileEditPage.ui:83
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, dimDisplayOnIdle)
 #: rc.cpp:20
 msgid "Automatically dims the display when the system is idle."
-msgstr ""
+msgstr "Aŭtamatyčna zaciamniaje ekran, kali karystańnik nie pracuje z systemaj."
 
 #. i18n: file: kcmodule/profileEditPage.ui:86
 #. i18n: ectx: property (text), widget (QCheckBox, dimDisplayOnIdle)
 #: rc.cpp:23
 msgid "Dim display when idle for more than"
-msgstr ""
+msgstr "Zaciamniaj ekran, kali karystańnik nie pracuje bolš za"
 
 #. i18n: file: kcmodule/profileEditPage.ui:105
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, dimOnIdleTime)
@@ -495,12 +523,13 @@ msgid ""
 "hibernate, so you do not run accidentally out of battery power. Configure "
 "the number of minutes below which the machine will run the configured action."
 msgstr ""
+"Kab raptam nia stracić jakija važnyja źviestki ci napatkać inšych prablemaŭ, možna zahadać systemie zasynać albo hibernavać, kali z batarei vychodzić uvieś zarad. Naładź, pry jakim astatkavym zaradzie vykonvać aznačanuju aperacyju."
 
 #. i18n: file: kcmodule/profileEditPage.ui:124
 #. i18n: ectx: property (text), widget (QLabel, PoweredIdleLabel_2)
 #: rc.cpp:32
 msgid "When the system is idle for more than"
-msgstr ""
+msgstr "Kali karystańnik nie pracuje bolš za"
 
 #. i18n: file: kcmodule/profileEditPage.ui:145
 #. i18n: ectx: property (suffix), widget (QSpinBox, idleTime)
@@ -551,6 +580,7 @@ msgid ""
 "With this slider you can set the brightness when the system is plugged into "
 "the socket outlet"
 msgstr ""
+"Hetym rehulataram možaš aznačyć jarkaść ekrana ŭ vypadku, kali systema padłučanaja ŭ razietku."
 
 #. i18n: file: kcmodule/profileEditPage.ui:256
 #. i18n: ectx: property (text), widget (QLabel, PoweredBrightnessLabel_2)
@@ -573,12 +603,13 @@ msgid ""
 "Choose the period of inactivity after which the display should enter "
 "\"standby\" mode. This is the first level of power saving."
 msgstr ""
+"Aznač termin biaździejnaści, pa jakim ekran pavinien pačać čakać. Heta pieršy rovień aščadžańnia enerhii."
 
 #. i18n: file: kcmodule/profileEditPage.ui:351
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSStandbyEnabled)
 #: rc.cpp:74
 msgid "&Standby after"
-msgstr ""
+msgstr "&Čakaj praz"
 
 #. i18n: file: kcmodule/profileEditPage.ui:367
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, DPMSStandbyTime)
@@ -594,13 +625,13 @@ msgstr "chv"
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSSuspendEnabled)
 #: rc.cpp:83
 msgid "S&uspend after"
-msgstr ""
+msgstr "&Zaśni praz"
 
 #. i18n: file: kcmodule/profileEditPage.ui:403
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSPowerOffEnabled)
 #: rc.cpp:89
 msgid "&Power off after"
-msgstr ""
+msgstr "&Vyklučy praz"
 
 #. i18n: file: kcmodule/profileEditPage.ui:450
 #. i18n: ectx: attribute (label), widget (QWidget, page_2)
@@ -629,12 +660,13 @@ msgid ""
 "CPU Behaviour strongly impacts on your system performance and on your "
 "battery's life. Here you can choose the policy best suitable for this profile"
 msgstr ""
+"Pavodziny pracesara mocna ŭpłyvajuć na chutkaść systemy j čas, na jaki staje zaradu batarei. Tut možaš vybrać, jakija praviły lepšyja dla hetaha profila."
 
 #. i18n: file: kcmodule/profileEditPage.ui:478
 #. i18n: ectx: property (text), widget (QLabel, PoweredFreqLabel_2)
 #: rc.cpp:107
 msgid "CPU frequency scaling policy"
-msgstr ""
+msgstr "Praviły źmianieńnia čaścini pracesara"
 
 #. i18n: file: kcmodule/profileEditPage.ui:504
 #. i18n: ectx: property (text), widget (QLabel, label_19)
@@ -685,6 +717,7 @@ msgid ""
 "The configuration module can not be started, since there seems to be a "
 "problem with PowerDevil Daemon. Read below for more details"
 msgstr ""
+"Nie ŭdałosia ŭklučyć modul naładaŭ, bo ŭ słužby „PowerDevil” uźnikła prablema. Nižej možna pračytać padrabiaźniej."
 
 #. i18n: file: kcmodule/generalPage.ui:36
 #. i18n: ectx: property (text), widget (QLabel, issueIcon)
@@ -699,6 +732,7 @@ msgid ""
 "<b>There are some issues in your configuration. Please check Capabilities "
 "page for more details.</b>"
 msgstr ""
+"<b>U tvaich naładach jość zahany. Padrabiaznyja źviestki hladzi na staroncy mahčymaściaŭ.</b>"
 
 #. i18n: file: kcmodule/generalPage.ui:70
 #. i18n: ectx: attribute (label), widget (QWidget, page)
@@ -722,7 +756,7 @@ msgstr "Paśla abudžeńnia kamputara ŭ ciabie spytajuć parol."
 #. i18n: ectx: property (text), widget (QCheckBox, lockScreenOnResume)
 #: rc.cpp:155
 msgid "Lock screen on resume"
-msgstr ""
+msgstr "Zablakuj ekran pa ŭznaŭleńni"
 
 #. i18n: file: kcmodule/generalPage.ui:101
 #. i18n: ectx: property (toolTip), widget (QCheckBox, notificationsBox)
@@ -757,6 +791,7 @@ msgid ""
 "Notifications such as warnings or important events will be shown. It is "
 "recommended to leave this enabled."
 msgstr ""
+"Buduć pakazvacca aścierahalnyja j važnyja paviedamleńni. Raim pakiń hetuju opcyju ŭklučanaj."
 
 #. i18n: file: kcmodule/generalPage.ui:123
 #. i18n: ectx: property (text), widget (QCheckBox, warningNotificationsBox)
@@ -784,6 +819,7 @@ msgid ""
 "interactive notification for the specified time. If that notification will "
 "be clicked, the queued action will not be run."
 msgstr ""
+"Kali ŭklučanaja hetaja opcyja, słužba „PowerDevil” pierad aŭtamatyčnym zasynańniem budzie peŭny čas pakazvać interakcyjnaje paviedamleńnie pra hetuju padzieju. Kali karystańnik kliknie ŭ hetaje paviedamleńnie, tady zaplanavanaja aperacyja nie budzie vykananaja."
 
 #. i18n: file: kcmodule/generalPage.ui:149
 #. i18n: ectx: property (text), widget (QCheckBox, suspendWait)
@@ -826,13 +862,13 @@ msgstr "Kali kamputar pracuje z batarei"
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: rc.cpp:203
 msgid "When battery is at low level"
-msgstr ""
+msgstr "Kali batareja maje nizki zarad"
 
 #. i18n: file: kcmodule/generalPage.ui:239
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: rc.cpp:206
 msgid "When battery is at warning level"
-msgstr ""
+msgstr "Kali zarad batarei vymahaje ŭvahi"
 
 #. i18n: file: kcmodule/generalPage.ui:281
 #. i18n: ectx: attribute (label), widget (QWidget, page_2)
@@ -844,25 +880,25 @@ msgstr "Admysłovyja nałady batarej"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:212
 msgid "Battery Levels"
-msgstr ""
+msgstr "Zaradžanaść batarei"
 
 #. i18n: file: kcmodule/generalPage.ui:296
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:215
 msgid "Battery is at low level at"
-msgstr ""
+msgstr "Batareja maje nizki zarad pry"
 
 #. i18n: file: kcmodule/generalPage.ui:309
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, lowSpin)
 #: rc.cpp:218
 msgid "Low battery level"
-msgstr ""
+msgstr "Nizki zarad batarei"
 
 #. i18n: file: kcmodule/generalPage.ui:312
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, lowSpin)
 #: rc.cpp:221
 msgid "Battery will be considered low when it reaches this level"
-msgstr ""
+msgstr "Zarad batarei budzie nizkim, kali siahnie hetaha roŭniu."
 
 #. i18n: file: kcmodule/generalPage.ui:315
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, lowSpin)
@@ -871,57 +907,57 @@ msgstr ""
 #. i18n: file: kcmodule/generalPage.ui:373
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, criticalSpin)
 #: rc.cpp:225 rc.cpp:238 rc.cpp:251
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #. i18n: file: kcmodule/generalPage.ui:325
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:228
 msgid "Battery is at warning level at"
-msgstr ""
+msgstr "Zarad batarei vymahaje ŭvahi pry"
 
 #. i18n: file: kcmodule/generalPage.ui:338
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, warningSpin)
 #: rc.cpp:231
 msgid "Warning battery level"
-msgstr ""
+msgstr "Zarad batarei, jaki vymahaje ŭvahi"
 
 #. i18n: file: kcmodule/generalPage.ui:341
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, warningSpin)
 #: rc.cpp:234
 msgid "Battery will be considered at warning level when it reaches this level"
-msgstr ""
+msgstr "Zarad batarei budzie vymahać uvahi, kali siahnie hetaha roŭniu."
 
 #. i18n: file: kcmodule/generalPage.ui:354
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:241
 msgid "Battery is at critical level at"
-msgstr ""
+msgstr "Batareja maje vielmi nizki zarad pry"
 
 #. i18n: file: kcmodule/generalPage.ui:367
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, criticalSpin)
 #: rc.cpp:244
 msgid "Critical battery level"
-msgstr ""
+msgstr "Vielmi nizki zarad batarei"
 
 #. i18n: file: kcmodule/generalPage.ui:370
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, criticalSpin)
 #: rc.cpp:247
 msgid "Battery will be considered critical when it reaches this level"
-msgstr ""
+msgstr "Zarad batarei budzie vielmi nizkim, kali siahnie hetaha roŭniu."
 
 #. i18n: file: kcmodule/generalPage.ui:386
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: rc.cpp:254
 msgid "Battery Actions"
-msgstr ""
+msgstr "Aperacyi dla batarei"
 
 #. i18n: file: kcmodule/generalPage.ui:395
 #. i18n: ectx: property (text), widget (QLabel, BatteryCriticalLabel)
 #: rc.cpp:257
 msgid "When battery remaining is critical"
-msgstr ""
+msgstr "Kali batareja maje vielmi nizki zarad"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:22
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
@@ -957,31 +993,31 @@ msgstr "Absłuhoŭvańnie schiemaŭ"
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: rc.cpp:275
 msgid "Scaling capability"
-msgstr ""
+msgstr "Zdolnaść źmianieńnia čaścini pracesara"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:118
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #: rc.cpp:278
 msgid "Supported CPU Policies"
-msgstr ""
+msgstr "Viadomyja praviły pavodzinaŭ pracesara"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:138
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: rc.cpp:281
 msgid "Supported suspend methods"
-msgstr ""
+msgstr "Viadomyja sposaby snu"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:158
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #: rc.cpp:284
 msgid "Supported schemes"
-msgstr ""
+msgstr "Viadomyja schiemy"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:179
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: rc.cpp:287
 msgid "Support for the XSync extension"
-msgstr ""
+msgstr "Absłuhoŭvańnie pašyreńnia „XSync”"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:182
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
@@ -990,6 +1026,7 @@ msgid ""
 "XSync is an extension that allows high efficiency query of the system. If it "
 "is available, PowerDevil will be much more reliable and efficient"
 msgstr ""
+"Pašyreńnie „XSync” dazvalaje efektyŭna adsočvać stan systemy. Kali jano jość u systemie, słužba „PowerDevil” pracuje bolš nadziejna j tryvała."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:185
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1000,7 +1037,6 @@ msgstr "Absłuhoŭvańnie „XSync”"
 #. i18n: file: kcmodule/capabilitiesPage.ui:192
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #: rc.cpp:296
-#, fuzzy
 msgid "Support for XScreensaver"
 msgstr "Absłuhoŭvańnie „XScreensaver”"
 
@@ -1013,11 +1049,11 @@ msgid ""
 "both of them are unavailable, PowerDevil will not be able to query idle time "
 "of the system"
 msgstr ""
+"Kali niama pašyreńnia „XSync”, tady słužba „PowerDevil” moža adsočvać stan systemy praz „XScreensaver”. Hetaja mahčymaść patrebnaja, tolki kali tvaja systema nie absłuhoŭvaje mahčymaściaŭ „XSync”. Kali niama anivodnaha z hetych varyjantaŭ, tady słužba „PowerDevil” naohuł nia zmoža adsočvać, ci pracuje karystańnik z kamputaram."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:198
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:302
-#, fuzzy
 msgid "XScreenSaver Support"
 msgstr "Absłuhoŭvańnie „XScreensaver”"
 
@@ -1040,6 +1076,7 @@ msgid ""
 "If this is enabled, PowerDevil will be able to configure power management "
 "for your monitor"
 msgstr ""
+"Kali ŭklučanaja hetaja opcyja, słužba „PowerDevil” zmoža kiravać aščadžańniem enerhii, užyvanaj tvaim ekranam."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:242
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -1060,6 +1097,7 @@ msgid ""
 "Through XTest, PowerDevil is able to fake user activity, preventing "
 "suspension loops. If it is not available, loops might occur"
 msgstr ""
+"Z dapamohaj „XTest” słužba „PowerDevil” umieje symulavać dziejnaść karystańnika, takim čynam strymvajučy son. Kali hetaha pašyreńnia ŭ systemie niama, tady vypadkova moža pačacca son."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:262
 #. i18n: ectx: property (text), widget (QLabel, label_5)

@@ -116,7 +116,8 @@ msgstr ""
 msgid ""
 "Your battery has reached critical level, save your work as soon as possible!"
 msgstr ""
-"Tvaja batareja maje vielmi nizki zarad. Jak maha chutčej zapišy vynik svajoj pracy!"
+"Tvaja batareja maje vielmi nizki zarad. Jak maha chutčej zapišy vynik svajoj "
+"pracy!"
 
 #: daemon/PowerDevilDaemon.cpp:591
 msgid "Your battery has reached warning level"
@@ -131,7 +132,8 @@ msgstr "Tvaja batareja maje nizki zarad."
 msgid ""
 "The computer will be halted in %1 seconds. Click here to block the process."
 msgstr ""
-"Kamputar budzie vyklučany praz %1 sekund. Klikni siudy, kab anulavać hetuju dzieju."
+"Kamputar budzie vyklučany praz %1 sekund. Klikni siudy, kab anulavać hetuju "
+"dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:725
 #, kde-format
@@ -139,7 +141,8 @@ msgid ""
 "The computer will be suspended to disk in %1 seconds. Click here to block "
 "the process."
 msgstr ""
-"Kamputar zaśnie na dysku praz %1 sekund. Klikni siudy, kab anulavać hetuju dzieju."
+"Kamputar zaśnie na dysku praz %1 sekund. Klikni siudy, kab anulavać hetuju "
+"dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:741
 #, kde-format
@@ -147,7 +150,8 @@ msgid ""
 "The computer will be suspended to RAM in %1 seconds. Click here to block the "
 "process."
 msgstr ""
-"Kamputar zaśnie ŭ pamiaci praz %1 sekund. Klikni siudy, kab anulavać hetuju dzieju."
+"Kamputar zaśnie ŭ pamiaci praz %1 sekund. Klikni siudy, kab anulavać hetuju "
+"dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:757
 #, kde-format
@@ -155,7 +159,8 @@ msgid ""
 "The computer will be put into standby in %1 seconds. Click here to block the "
 "process."
 msgstr ""
-"Kamputar pačnie čakać praz %1 sekund. Klikni siudy, kab anulavać hetuju dzieju."
+"Kamputar pačnie čakać praz %1 sekund. Klikni siudy, kab anulavać hetuju "
+"dzieju."
 
 #: daemon/PowerDevilDaemon.cpp:846
 msgid "There was an error while suspending:"
@@ -268,7 +273,8 @@ msgid ""
 "From this module, you can configure the Daemon, create and edit powersaving "
 "profiles, and see your system's capabilities."
 msgstr ""
-"Z hetaha modula ty možaš naładžvać słužbu, stvarać i redahavać profili aščadžańnia enerhii j hladzieć, jakija mahčymaści absłuhoŭvaje tvaja systema."
+"Z hetaha modula ty možaš naładžvać słužbu, stvarać i redahavać profili "
+"aščadžańnia enerhii j hladzieć, jakija mahčymaści absłuhoŭvaje tvaja systema."
 
 #: kcmodule/PowerDevilKCM.cpp:59
 msgid "Main Developer"
@@ -294,7 +300,9 @@ msgid ""
 "power managers are active. If you want to use PowerDevil as your primary "
 "power manager, please remove the existing one and restart PowerDevil service."
 msgstr ""
-"Znojdzieny inšy kiraŭnik enerhii. Słužba „PowerDevil” nia budzie dziejničać, kali ŭklučanyja inšyja kiraŭniki. Kali ty chočaš zrabić słužbu „PowerDevil” hałoŭnaj, prybiary dziejnuju słužbu dy ŭklučy słužbu „PowerDevil” nanoŭ."
+"Znojdzieny inšy kiraŭnik enerhii. Słužba „PowerDevil” nia budzie dziejničać, "
+"kali ŭklučanyja inšyja kiraŭniki. Kali ty chočaš zrabić słužbu „PowerDevil” "
+"hałoŭnaj, prybiary dziejnuju słužbu dy ŭklučy słužbu „PowerDevil” nanoŭ."
 
 #: kcmodule/PowerDevilKCM.cpp:92
 msgid ""
@@ -302,14 +310,18 @@ msgid ""
 "other power managers are active. If you want to use PowerDevil as your "
 "primary power manager, please stop powersaved and restart PowerDevil service."
 msgstr ""
-"U hetaj systemie pracuje słužba „powersaved”. Słužba „PowerDevil” nia budzie dziejničać, kali ŭklučanyja inšyja kiraŭniki. Kali ty chočaš zrabić słužbu „PowerDevil” hałoŭnaj, spyni słužbu „powersaved” i ŭklučy słužbu „PowerDevil” nanoŭ."
+"U hetaj systemie pracuje słužba „powersaved”. Słužba „PowerDevil” nia budzie "
+"dziejničać, kali ŭklučanyja inšyja kiraŭniki. Kali ty chočaš zrabić słužbu "
+"„PowerDevil” hałoŭnaj, spyni słužbu „powersaved” i ŭklučy słužbu "
+"„PowerDevil” nanoŭ."
 
 #: kcmodule/PowerDevilKCM.cpp:101
 msgid ""
 "PowerDevil seems not to be started. Either you have its service turned off, "
 "or there is a problem in DBus."
 msgstr ""
-"Słužba „PowerDevil” nia ŭklučanaja. Ci ty jaje vyklučyŭ, ci ŭ systemie „D-Bus” jość prablema."
+"Słužba „PowerDevil” nia ŭklučanaja. Ci ty jaje vyklučyŭ, ci ŭ systemie „D-"
+"Bus” jość prablema."
 
 #: kcmodule/CapabilitiesPage.cpp:132
 msgid "Suspend to RAM"
@@ -328,7 +340,10 @@ msgid ""
 "is not available. Determining idle time will not be possible. Please "
 "consider recompiling PowerDevil with at least one of these two libraries."
 msgstr ""
-"Słužba „PowerDevil” była skampilavanaja biez absłuhi pašyreńniaŭ „Xss”, „Xext” i „XSync”. Jana nia zmoža vyznačyć, kali karystańnik pierastanie pracavać z kamputaram. My raim tabie pierakampilavać słužbu „PowerDevil” prynamsi z adnoj z henych dźviuch biblijatek."
+"Słužba „PowerDevil” była skampilavanaja biez absłuhi pašyreńniaŭ „Xss”, "
+"„Xext” i „XSync”. Jana nia zmoža vyznačyć, kali karystańnik pierastanie "
+"pracavać z kamputaram. My raim tabie pierakampilavać słužbu „PowerDevil” "
+"prynamsi z adnoj z henych dźviuch biblijatek."
 
 #: kcmodule/CapabilitiesPage.cpp:269
 msgid ""
@@ -355,7 +370,10 @@ msgid ""
 "available. XSync grants extra efficiency and performance, saving your "
 "battery and CPU. It is advised to use PowerDevil with XSync enabled."
 msgstr ""
-"Słužba „PowerDevil” była skampilavanaja biez absłuhi pašyreńniaŭ „Xext” ci „XSync”. Pašyreńnie „XSync” pavyšaje efekt i chutkaść systemy, takim čynam aščadžajučy zarad batarei j pracesarny čas. My raim karystacca słužbaju „PowerDevil” z uklučanym absłuhoŭvańniem pašyreńnia „XSync”."
+"Słužba „PowerDevil” była skampilavanaja biez absłuhi pašyreńniaŭ „Xext” ci "
+"„XSync”. Pašyreńnie „XSync” pavyšaje efekt i chutkaść systemy, takim čynam "
+"aščadžajučy zarad batarei j pracesarny čas. My raim karystacca słužbaju "
+"„PowerDevil” z uklučanym absłuhoŭvańniem pašyreńnia „XSync”."
 
 #: kcmodule/CapabilitiesPage.cpp:285
 msgid ""
@@ -363,7 +381,10 @@ msgid ""
 "your system. Using it largely improves performance and efficiency, and it is "
 "strongly advised. Click on the button below to enable it now."
 msgstr ""
-"Pašyreńnie „XSync” nia jość tvaim hałoŭnym sposabam apytvańnia systemy, ale jano jość u kamputary. Jahonaje vykarystańnie vielmi pavyšaje chutkaść i efekt, i tamu my jaho peŭna raim. Kab jaho ŭklučyć, klikni ŭ nižejšuju knopku."
+"Pašyreńnie „XSync” nia jość tvaim hałoŭnym sposabam apytvańnia systemy, ale "
+"jano jość u kamputary. Jahonaje vykarystańnie vielmi pavyšaje chutkaść i "
+"efekt, i tamu my jaho peŭna raim. Kab jaho ŭklučyć, klikni ŭ nižejšuju "
+"knopku."
 
 #: kcmodule/CapabilitiesPage.cpp:288
 msgid "Enable XSync Backend"
@@ -378,7 +399,9 @@ msgid ""
 "No kernel modules for CPU scaling were found. Either you do not have them "
 "installed, or PowerDevil could not detect them."
 msgstr ""
-"Nie ŭdałosia znajści modulaŭ jadra, jakija b absłuhoŭvali źmianieńnie čaścini pracesara. Albo jany nie zainstalavanyja ŭ systemie, albo słužba „PowerDevil” nia zdoleła ich paznać."
+"Nie ŭdałosia znajści modulaŭ jadra, jakija b absłuhoŭvali źmianieńnie "
+"čaścini pracesara. Albo jany nie zainstalavanyja ŭ systemie, albo słužba "
+"„PowerDevil” nia zdoleła ich paznać."
 
 #: kcmodule/CapabilitiesPage.cpp:390
 msgid "Modules not found"
@@ -496,7 +519,8 @@ msgstr "Uklučy aŭtamatyčnaje zaciamnieńnie"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, dimDisplayOnIdle)
 #: rc.cpp:20
 msgid "Automatically dims the display when the system is idle."
-msgstr "Aŭtamatyčna zaciamniaje ekran, kali karystańnik nie pracuje z systemaj."
+msgstr ""
+"Aŭtamatyčna zaciamniaje ekran, kali karystańnik nie pracuje z systemaj."
 
 #. i18n: file: kcmodule/profileEditPage.ui:86
 #. i18n: ectx: property (text), widget (QCheckBox, dimDisplayOnIdle)
@@ -523,7 +547,10 @@ msgid ""
 "hibernate, so you do not run accidentally out of battery power. Configure "
 "the number of minutes below which the machine will run the configured action."
 msgstr ""
-"Kab raptam nia stracić jakija važnyja źviestki ci napatkać inšych prablemaŭ, možna zahadać systemie zasynać albo hibernavać, kali z batarei vychodzić uvieś zarad. Naładź, pry jakim astatkavym zaradzie vykonvać aznačanuju aperacyju."
+"Kab raptam nia stracić jakija važnyja źviestki ci napatkać inšych prablemaŭ, "
+"možna zahadać systemie zasynać albo hibernavać, kali z batarei vychodzić "
+"uvieś zarad. Naładź, pry jakim astatkavym zaradzie vykonvać aznačanuju "
+"aperacyju."
 
 #. i18n: file: kcmodule/profileEditPage.ui:124
 #. i18n: ectx: property (text), widget (QLabel, PoweredIdleLabel_2)
@@ -580,7 +607,8 @@ msgid ""
 "With this slider you can set the brightness when the system is plugged into "
 "the socket outlet"
 msgstr ""
-"Hetym rehulataram možaš aznačyć jarkaść ekrana ŭ vypadku, kali systema padłučanaja ŭ razietku."
+"Hetym rehulataram možaš aznačyć jarkaść ekrana ŭ vypadku, kali systema "
+"padłučanaja ŭ razietku."
 
 #. i18n: file: kcmodule/profileEditPage.ui:256
 #. i18n: ectx: property (text), widget (QLabel, PoweredBrightnessLabel_2)
@@ -603,7 +631,8 @@ msgid ""
 "Choose the period of inactivity after which the display should enter "
 "\"standby\" mode. This is the first level of power saving."
 msgstr ""
-"Aznač termin biaździejnaści, pa jakim ekran pavinien pačać čakać. Heta pieršy rovień aščadžańnia enerhii."
+"Aznač termin biaździejnaści, pa jakim ekran pavinien pačać čakać. Heta "
+"pieršy rovień aščadžańnia enerhii."
 
 #. i18n: file: kcmodule/profileEditPage.ui:351
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSStandbyEnabled)
@@ -660,7 +689,8 @@ msgid ""
 "CPU Behaviour strongly impacts on your system performance and on your "
 "battery's life. Here you can choose the policy best suitable for this profile"
 msgstr ""
-"Pavodziny pracesara mocna ŭpłyvajuć na chutkaść systemy j čas, na jaki staje zaradu batarei. Tut možaš vybrać, jakija praviły lepšyja dla hetaha profila."
+"Pavodziny pracesara mocna ŭpłyvajuć na chutkaść systemy j čas, na jaki staje "
+"zaradu batarei. Tut možaš vybrać, jakija praviły lepšyja dla hetaha profila."
 
 #. i18n: file: kcmodule/profileEditPage.ui:478
 #. i18n: ectx: property (text), widget (QLabel, PoweredFreqLabel_2)
@@ -717,7 +747,8 @@ msgid ""
 "The configuration module can not be started, since there seems to be a "
 "problem with PowerDevil Daemon. Read below for more details"
 msgstr ""
-"Nie ŭdałosia ŭklučyć modul naładaŭ, bo ŭ słužby „PowerDevil” uźnikła prablema. Nižej možna pračytać padrabiaźniej."
+"Nie ŭdałosia ŭklučyć modul naładaŭ, bo ŭ słužby „PowerDevil” uźnikła "
+"prablema. Nižej možna pračytać padrabiaźniej."
 
 #. i18n: file: kcmodule/generalPage.ui:36
 #. i18n: ectx: property (text), widget (QLabel, issueIcon)
@@ -732,7 +763,8 @@ msgid ""
 "<b>There are some issues in your configuration. Please check Capabilities "
 "page for more details.</b>"
 msgstr ""
-"<b>U tvaich naładach jość zahany. Padrabiaznyja źviestki hladzi na staroncy mahčymaściaŭ.</b>"
+"<b>U tvaich naładach jość zahany. Padrabiaznyja źviestki hladzi na staroncy "
+"mahčymaściaŭ.</b>"
 
 #. i18n: file: kcmodule/generalPage.ui:70
 #. i18n: ectx: attribute (label), widget (QWidget, page)
@@ -791,7 +823,8 @@ msgid ""
 "Notifications such as warnings or important events will be shown. It is "
 "recommended to leave this enabled."
 msgstr ""
-"Buduć pakazvacca aścierahalnyja j važnyja paviedamleńni. Raim pakiń hetuju opcyju ŭklučanaj."
+"Buduć pakazvacca aścierahalnyja j važnyja paviedamleńni. Raim pakiń hetuju "
+"opcyju ŭklučanaj."
 
 #. i18n: file: kcmodule/generalPage.ui:123
 #. i18n: ectx: property (text), widget (QCheckBox, warningNotificationsBox)
@@ -819,7 +852,10 @@ msgid ""
 "interactive notification for the specified time. If that notification will "
 "be clicked, the queued action will not be run."
 msgstr ""
-"Kali ŭklučanaja hetaja opcyja, słužba „PowerDevil” pierad aŭtamatyčnym zasynańniem budzie peŭny čas pakazvać interakcyjnaje paviedamleńnie pra hetuju padzieju. Kali karystańnik kliknie ŭ hetaje paviedamleńnie, tady zaplanavanaja aperacyja nie budzie vykananaja."
+"Kali ŭklučanaja hetaja opcyja, słužba „PowerDevil” pierad aŭtamatyčnym "
+"zasynańniem budzie peŭny čas pakazvać interakcyjnaje paviedamleńnie pra "
+"hetuju padzieju. Kali karystańnik kliknie ŭ hetaje paviedamleńnie, tady "
+"zaplanavanaja aperacyja nie budzie vykananaja."
 
 #. i18n: file: kcmodule/generalPage.ui:149
 #. i18n: ectx: property (text), widget (QCheckBox, suspendWait)
@@ -1026,7 +1062,8 @@ msgid ""
 "XSync is an extension that allows high efficiency query of the system. If it "
 "is available, PowerDevil will be much more reliable and efficient"
 msgstr ""
-"Pašyreńnie „XSync” dazvalaje efektyŭna adsočvać stan systemy. Kali jano jość u systemie, słužba „PowerDevil” pracuje bolš nadziejna j tryvała."
+"Pašyreńnie „XSync” dazvalaje efektyŭna adsočvać stan systemy. Kali jano jość "
+"u systemie, słužba „PowerDevil” pracuje bolš nadziejna j tryvała."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:185
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1049,7 +1086,11 @@ msgid ""
 "both of them are unavailable, PowerDevil will not be able to query idle time "
 "of the system"
 msgstr ""
-"Kali niama pašyreńnia „XSync”, tady słužba „PowerDevil” moža adsočvać stan systemy praz „XScreensaver”. Hetaja mahčymaść patrebnaja, tolki kali tvaja systema nie absłuhoŭvaje mahčymaściaŭ „XSync”. Kali niama anivodnaha z hetych varyjantaŭ, tady słužba „PowerDevil” naohuł nia zmoža adsočvać, ci pracuje karystańnik z kamputaram."
+"Kali niama pašyreńnia „XSync”, tady słužba „PowerDevil” moža adsočvać stan "
+"systemy praz „XScreensaver”. Hetaja mahčymaść patrebnaja, tolki kali tvaja "
+"systema nie absłuhoŭvaje mahčymaściaŭ „XSync”. Kali niama anivodnaha z "
+"hetych varyjantaŭ, tady słužba „PowerDevil” naohuł nia zmoža adsočvać, ci "
+"pracuje karystańnik z kamputaram."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:198
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1076,7 +1117,8 @@ msgid ""
 "If this is enabled, PowerDevil will be able to configure power management "
 "for your monitor"
 msgstr ""
-"Kali ŭklučanaja hetaja opcyja, słužba „PowerDevil” zmoža kiravać aščadžańniem enerhii, užyvanaj tvaim ekranam."
+"Kali ŭklučanaja hetaja opcyja, słužba „PowerDevil” zmoža kiravać "
+"aščadžańniem enerhii, užyvanaj tvaim ekranam."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:242
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -1097,7 +1139,9 @@ msgid ""
 "Through XTest, PowerDevil is able to fake user activity, preventing "
 "suspension loops. If it is not available, loops might occur"
 msgstr ""
-"Z dapamohaj „XTest” słužba „PowerDevil” umieje symulavać dziejnaść karystańnika, takim čynam strymvajučy son. Kali hetaha pašyreńnia ŭ systemie niama, tady vypadkova moža pačacca son."
+"Z dapamohaj „XTest” słužba „PowerDevil” umieje symulavać dziejnaść "
+"karystańnika, takim čynam strymvajučy son. Kali hetaha pašyreńnia ŭ systemie "
+"niama, tady vypadkova moža pačacca son."
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:262
 #. i18n: ectx: property (text), widget (QLabel, label_5)

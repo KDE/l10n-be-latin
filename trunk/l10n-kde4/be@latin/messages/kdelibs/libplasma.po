@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-28 10:12+0100\n"
+"POT-Creation-Date: 2008-11-29 11:05+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -39,7 +39,7 @@ msgstr "Čynnaść „%1”"
 msgid "Unknown Widget"
 msgstr "Nieviadomy widžet"
 
-#: applet.cpp:650 applet.cpp:1511 applet.cpp:1512
+#: applet.cpp:650 applet.cpp:1491 applet.cpp:1492
 msgctxt "misc category"
 msgid "Miscellaneous"
 msgstr "Roznaje"
@@ -54,54 +54,54 @@ msgctxt "%1 is the name of the applet"
 msgid "Remove this %1"
 msgstr "Vydali hety aplet „%1”"
 
-#: applet.cpp:1119
+#: applet.cpp:1099
 #, kde-format
 msgid "Activate %1 Widget"
 msgstr "Uklučy widžet „%1”"
 
-#: applet.cpp:1229 applet.cpp:1377
+#: applet.cpp:1209 applet.cpp:1357
 #, kde-format
 msgid "%1 Settings"
 msgstr "Nałady „%1”"
 
-#: applet.cpp:1352
+#: applet.cpp:1332
 #, kde-format
 msgctxt "@title:window"
 msgid "%1 Settings"
 msgstr "Nałady „%1”"
 
-#: applet.cpp:1377
+#: applet.cpp:1357
 msgid "Settings"
 msgstr "Nałady"
 
-#: applet.cpp:1424
+#: applet.cpp:1404
 msgid "Keyboard Shortcut"
 msgstr "Klavijaturny skarot"
 
-#: applet.cpp:1860
+#: applet.cpp:1839
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1881
+#: applet.cpp:1860
 #, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine dla %1” dla widžeta „%2”."
 
-#: applet.cpp:1886
+#: applet.cpp:1865
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:1995
+#: applet.cpp:1974
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
-#: applet.cpp:1997
+#: applet.cpp:1976
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
@@ -174,11 +174,11 @@ msgstr "Nie ŭdałosia znajści patrebny składnik: %1"
 msgid "Unnamed"
 msgstr "Biaz nazvy"
 
-#: extenderitem.cpp:384
+#: extenderitem.cpp:392
 msgid "Expand this widget"
 msgstr "Razharni hety widžet"
 
-#: extenderitem.cpp:401
+#: extenderitem.cpp:409
 msgid "Collapse this widget"
 msgstr "Zharni hety widžet"
 

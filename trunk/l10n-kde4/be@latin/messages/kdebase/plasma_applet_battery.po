@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-28 10:13+0100\n"
+"POT-Creation-Date: 2008-12-01 10:27+0100\n"
 "PO-Revision-Date: 2008-10-05 10:22+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -52,82 +52,50 @@ msgstr "Kiravańnie enerhijaj"
 
 #: battery.cpp:509
 #, kde-format
-msgid "<b>1 hour 1 minute</b> remaining<br />"
-msgid_plural "<b>1 hour %1 minutes</b> remaining<br />"
-msgstr[0] "Zastałasia <b>1 hadzina i %1 chvilina</b><br />"
-msgstr[1] "Zastałasia <b>1 hadzina i %1 chviliny</b><br />"
-msgstr[2] "Zastałasia <b>1 hadzina i %1 chvilin</b><br />"
+msgid "Time remaining: <b>%1</b><br />"
+msgstr ""
 
-#: battery.cpp:515
-#, kde-format
-msgid "<b>%1 hour %1 minute</b> remaining<br />"
-msgid_plural "<b>%1 hours %2 minute</b> remaining<br />"
-msgstr[0] "Zastałasia <b>%1 hadzina i %2 chvilina</b><br />"
-msgstr[1] "Zastałosia <b>%1 hadziny i %2 chvilina</b><br />"
-msgstr[2] "Zastałosia <b>%1 hadzin i %2 chvilina</b><br />"
-
-#: battery.cpp:517
-#, fuzzy, kde-format
-msgid "<b>%1 hour %2 minutes</b> remaining<br />"
-msgid_plural "<b>%1 hours %2 minutes</b> remaining<br />"
-msgstr[0] "Zastałasia <b>%1 hadzina i %2 chvilin</b><br />"
-msgstr[1] "Zastałosia <b>%1 hadziny i %2 chvilin</b><br />"
-msgstr[2] "Zastałosia <b>%1 hadzin i %2 chvilin</b><br />"
-
-#: battery.cpp:520
-#, fuzzy, kde-format
-msgid "<b>%1 hours</b> remaining<br />"
-msgstr "Zastałosia <b>%1 hadzin</b><br />"
-
-#: battery.cpp:524
-#, kde-format
-msgid "<b>%1 minute</b> remaining<br />"
-msgid_plural "<b>%1 minutes</b> remaining<br />"
-msgstr[0] "Zastałasia <b>%1 chvilina</b><br />"
-msgstr[1] "Zastałosia <b>%1 chviliny</b><br />"
-msgstr[2] "Zastałosia <b>%1 chvilin</b><br />"
-
-#: battery.cpp:544
+#: battery.cpp:528
 #, kde-format
 msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgstr "<b>Batareja:</b> %1% (całkom zapoŭnienaja)<br />"
 
-#: battery.cpp:546
+#: battery.cpp:530
 #, kde-format
 msgctxt "Shown when a time estimate is not available"
 msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
 
-#: battery.cpp:548
+#: battery.cpp:532
 #, kde-format
 msgid "<b>Battery:</b> %1% (charging)<br />"
 msgstr "<b>Batareja:</b> %1% (zapaŭniajecca)<br />"
 
-#: battery.cpp:551 battery.cpp:572
+#: battery.cpp:535 battery.cpp:556
 msgctxt "Battery is not plugged in"
 msgid "<b>Battery:</b> not present<br />"
 msgstr "<b>Batareja:</b> niama<br />"
 
-#: battery.cpp:556
+#: battery.cpp:540
 #, kde-format
 msgid "<b>Battery %1:</b> %2% (fully charged)<br />"
 msgstr "<b>Batareja %1:</b> %2% (całkom zapoŭnienaja)<br />"
 
-#: battery.cpp:558
+#: battery.cpp:542
 #, kde-format
 msgid "<b>Battery %1:</b> %2% (discharging)<br />"
 msgstr "<b>Batareja %1:</b> %2% (spustašajecca)<br />"
 
-#: battery.cpp:560
+#: battery.cpp:544
 #, kde-format
 msgid "<b>Battery %1:</b> %2% (charging)<br />"
 msgstr "<b>Batareja %1:</b> %2% (zapaŭniajecca)<br />"
 
-#: battery.cpp:567
+#: battery.cpp:551
 msgid "<b>AC Adapter:</b> Plugged in"
 msgstr "<b>Blok siłkavańnia:</b> padłučany"
 
-#: battery.cpp:569
+#: battery.cpp:553
 msgid "<b>AC Adapter:</b> Not plugged in"
 msgstr "<b>Blok siłkavańnia:</b> nie padłučany"
 
@@ -150,3 +118,32 @@ msgstr "&Pakazvaj kolkaść pracentaŭ zaradu dla batarei"
 #: rc.cpp:12
 msgid "Show the state for &each battery present"
 msgstr "Pakazvaj &usie najaŭnyja batarei"
+
+#~ msgid "<b>1 hour 1 minute</b> remaining<br />"
+#~ msgid_plural "<b>1 hour %1 minutes</b> remaining<br />"
+#~ msgstr[0] "Zastałasia <b>1 hadzina i %1 chvilina</b><br />"
+#~ msgstr[1] "Zastałasia <b>1 hadzina i %1 chviliny</b><br />"
+#~ msgstr[2] "Zastałasia <b>1 hadzina i %1 chvilin</b><br />"
+
+#~ msgid "<b>%1 hour %1 minute</b> remaining<br />"
+#~ msgid_plural "<b>%1 hours %2 minute</b> remaining<br />"
+#~ msgstr[0] "Zastałasia <b>%1 hadzina i %2 chvilina</b><br />"
+#~ msgstr[1] "Zastałosia <b>%1 hadziny i %2 chvilina</b><br />"
+#~ msgstr[2] "Zastałosia <b>%1 hadzin i %2 chvilina</b><br />"
+
+#, fuzzy
+#~ msgid "<b>%1 hour %2 minutes</b> remaining<br />"
+#~ msgid_plural "<b>%1 hours %2 minutes</b> remaining<br />"
+#~ msgstr[0] "Zastałasia <b>%1 hadzina i %2 chvilin</b><br />"
+#~ msgstr[1] "Zastałosia <b>%1 hadziny i %2 chvilin</b><br />"
+#~ msgstr[2] "Zastałosia <b>%1 hadzin i %2 chvilin</b><br />"
+
+#, fuzzy
+#~ msgid "<b>%1 hours</b> remaining<br />"
+#~ msgstr "Zastałosia <b>%1 hadzin</b><br />"
+
+#~ msgid "<b>%1 minute</b> remaining<br />"
+#~ msgid_plural "<b>%1 minutes</b> remaining<br />"
+#~ msgstr[0] "Zastałasia <b>%1 chvilina</b><br />"
+#~ msgstr[1] "Zastałosia <b>%1 chviliny</b><br />"
+#~ msgstr[2] "Zastałosia <b>%1 chvilin</b><br />"

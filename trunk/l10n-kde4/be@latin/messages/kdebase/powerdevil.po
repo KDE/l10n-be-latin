@@ -206,7 +206,6 @@ msgstr "Aščadžańnie enerhii"
 
 #: daemon/PowerDevilDaemon.cpp:1251 kcmodule/CapabilitiesPage.cpp:168
 #: kcmodule/EditPage.cpp:166
-#, fuzzy
 msgid "Userspace"
 msgstr "Absiah karystańnika"
 
@@ -293,6 +292,16 @@ msgid ""
 "the third Tab. You do not have to restart PowerDevil, just click \"Apply\", "
 "and you are done.</p>"
 msgstr ""
+"<h1>Nałady słužby „PowerDevil”</h1> <p>Hety modul dazvalaje naładžvać słužbu "
+"„PowerDevil”, jakaja ŭklučajecca ŭ fonie pry ŭvachodzie ŭ systemu „KDE”.</p> "
+"<p>Słužba „PowerDevil” maje 2 typy naładaŭ: ahulnyja, jakija zaŭždy dziejničajuć, "
+"i profilnyja, jakija ŭpłyvajuć na pavodziny kamputara ŭ peŭnych sytuacyjach. "
+"Taksama ŭ apošniaj kartcy ty možaš pahladzieć, jakija mahčymaści absłuhoŭvaje "
+"tvaja systema. Dla pačatku naładź opcyi ŭ pieršych 2 kartkach. Paśla ŭklučy "
+"čaćviortuju j stvary albo źmiani profili adpaviedna svaim vymahańniam. Narešcie, "
+"pryviažy svaje profili da peŭnych sytuacyjaŭ u treciaj kartcy. Tabie nia treba "
+"niejkim čynam uklučać słužbu „PowerDevil” nanoŭ, prosta klikni ŭ knopku „Prymiani”."
+"</p>"
 
 #: kcmodule/PowerDevilKCM.cpp:87
 msgid ""
@@ -355,14 +364,21 @@ msgid ""
 "not support scaling, you can also disable this warning by clicking \"Do not "
 "display this warning again\"."
 msgstr ""
+"Nia znojdzienyja sposaby źmieny chutkaści pracesara. Kali ŭ ciabie dosyć novy pracesar, "
+"tady pryčyna, chutčej za ŭsio, chavajecca ŭ tym, što ty nie pračytaŭ u pamiać patrebnych "
+"modulaŭ jadra. Zvyčajna moduli źmianieńnia chutkaści pracesara majuć nazvu kštałtu „cpufreq_ondemand”. "
+"Źmianieńnie chutkaści pracesara vielmi karysnaje, bo moža aščadžać šmat enerhii. Klikni ŭ knopku "
+"„Pasprabuj pračytać moduli”, kab słužba „PowerDevil” pasprabavała pračytać u pamiać "
+"patrebnyja moduli. Kali ty ŭpeŭnieny, što tvaja systema nie absłuhoŭvaje źmianieńnia chutkaści pracesara, "
+"možaš vyklučyć hetaje zaścierahalnaje paviedamleńnie, kliknuŭšy ŭ „Bolš nie pakazvaj hetaha zaścierahalnaha paviedamleńnia”."
 
 #: kcmodule/CapabilitiesPage.cpp:276
 msgid "Attempt loading Modules"
-msgstr "Sproba pračytać moduli"
+msgstr "Pasprabuj pračytać moduli"
 
 #: kcmodule/CapabilitiesPage.cpp:277
 msgid "Do not display this warning again"
-msgstr "Bolš nie pakazvaj hetaha aścierahalnaha paviedamleńnia"
+msgstr "Bolš nie pakazvaj hetaha zaścierahalnaha paviedamleńnia"
 
 #: kcmodule/CapabilitiesPage.cpp:280
 msgid ""
@@ -400,7 +416,7 @@ msgid ""
 "installed, or PowerDevil could not detect them."
 msgstr ""
 "Nie ŭdałosia znajści modulaŭ jadra, jakija b absłuhoŭvali źmianieńnie "
-"čaścini pracesara. Albo jany nie zainstalavanyja ŭ systemie, albo słužba "
+"chutkaści pracesara. Albo jany nie zainstalavanyja ŭ systemie, albo słužba "
 "„PowerDevil” nia zdoleła ich paznać."
 
 #: kcmodule/CapabilitiesPage.cpp:390
@@ -696,7 +712,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, PoweredFreqLabel_2)
 #: rc.cpp:107
 msgid "CPU frequency scaling policy"
-msgstr "Praviły źmianieńnia čaścini pracesara"
+msgstr "Praviły źmianieńnia chutkaści pracesara"
 
 #. i18n: file: kcmodule/profileEditPage.ui:504
 #. i18n: ectx: property (text), widget (QLabel, label_19)
@@ -1029,7 +1045,7 @@ msgstr "Absłuhoŭvańnie schiemaŭ"
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: rc.cpp:275
 msgid "Scaling capability"
-msgstr "Zdolnaść źmianieńnia čaścini pracesara"
+msgstr "Zdolnaść źmianieńnia chutkaści pracesara"
 
 #. i18n: file: kcmodule/capabilitiesPage.ui:118
 #. i18n: ectx: property (text), widget (QLabel, label_16)

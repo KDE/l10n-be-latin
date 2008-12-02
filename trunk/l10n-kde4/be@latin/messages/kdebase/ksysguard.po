@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: WorkSheet.cc:93
 #, kde-format
@@ -33,7 +34,8 @@ msgid ""
 "The file %1 does not contain a valid worksheet definition, which must have a "
 "document type 'KSysGuardWorkSheet'."
 msgstr ""
-"Fajł „%1” nie źmiaščaje słušnaha aznačeńnia rabočaha arkuša, jaki pavinien mieć typ dakumentaŭ „KSysGuardWorkSheet”."
+"Fajł „%1” nie źmiaščaje słušnaha aznačeńnia rabočaha arkuša, jaki pavinien "
+"mieć typ dakumentaŭ „KSysGuardWorkSheet”."
 
 #: WorkSheet.cc:132
 #, kde-format
@@ -502,7 +504,8 @@ msgid ""
 "An error occurred with the network (e.g. the network cable was accidentally "
 "unplugged) for host %1."
 msgstr ""
-"Uźnikła sietkavaja pamyłka ŭ spałučeńni z hostam „%1” (mahčyma, raptoŭna adłučyŭsia sietkavy drot)."
+"Uźnikła sietkavaja pamyłka ŭ spałučeńni z hostam „%1” (mahčyma, raptoŭna "
+"adłučyŭsia sietkavy drot)."
 
 #: ksgrd/SensorSocketAgent.cc:115
 #, kde-format
@@ -530,7 +533,8 @@ msgstr " sek"
 
 #: TimerSettings.cc:62 WorkSheetSettings.cc:101
 msgid "All displays of the sheet are updated at the rate specified here."
-msgstr "Usie prahlady hetaha arkuša aktualizujucca z čaścinioju, aznačanaj tut."
+msgstr ""
+"Usie prahlady hetaha arkuša aktualizujucca z čaścinioju, aznačanaj tut."
 
 #: HostConnector.cc:44
 #, fuzzy
@@ -555,7 +559,9 @@ msgstr "SSH"
 
 #: HostConnector.cc:81
 msgid "Select this to use the secure shell to login to the remote host."
-msgstr "Vybiery hetuju opcyju, kali chočaš uvajści ŭ daloki host praź biaśpiečnuju abałonku „SSH”."
+msgstr ""
+"Vybiery hetuju opcyju, kali chočaš uvajści ŭ daloki host praź biaśpiečnuju "
+"abałonku „SSH”."
 
 #: HostConnector.cc:84
 msgid "rsh"
@@ -563,7 +569,8 @@ msgstr "RSH"
 
 #: HostConnector.cc:85
 msgid "Select this to use the remote shell to login to the remote host."
-msgstr "Vybiery hetuju opcyju, kali chočaš uvajści ŭ daloki host praź abałonku „RSH”."
+msgstr ""
+"Vybiery hetuju opcyju, kali chočaš uvajści ŭ daloki host praź abałonku „RSH”."
 
 #: HostConnector.cc:88
 msgid "Daemon"
@@ -574,7 +581,8 @@ msgid ""
 "Select this if you want to connect to a ksysguard daemon that is running on "
 "the machine you want to connect to, and is listening for client requests."
 msgstr ""
-"Vybiery hetuju opcyju, kali chočaš spałučycca sa słužbaju „ksysguard”, jakaja pracuje na dalokim hoście j čakaje zvarotaŭ ad klijentaŭ."
+"Vybiery hetuju opcyju, kali chočaš spałučycca sa słužbaju „ksysguard”, "
+"jakaja pracuje na dalokim hoście j čakaje zvarotaŭ ad klijentaŭ."
 
 #: HostConnector.cc:92
 msgid "Custom command"
@@ -585,7 +593,8 @@ msgid ""
 "Select this to use the command you entered below to start ksysguardd on the "
 "remote host."
 msgstr ""
-"Vybiery hetuju opcyju, kali chočaš uklučać słužbu „ksysguardd” na dalokim hoście hetym zahadam."
+"Vybiery hetuju opcyju, kali chočaš uklučać słužbu „ksysguardd” na dalokim "
+"hoście hetym zahadam."
 
 #: HostConnector.cc:96
 msgid "Port:"
@@ -620,7 +629,8 @@ msgid ""
 "This is your work space. It holds your tabs. You need to create a new tab "
 "(Menu File->New) before you can drag sensors here."
 msgstr ""
-"Heta tvaja rabočaja prastora. Tut mieściacca tvaje kartki. Pierad pačatkam pieraciahvańnia siudy sensaraŭ treba stvaryć novuju kartku („Fajł”➝„Novy”)."
+"Heta tvaja rabočaja prastora. Tut mieściacca tvaje kartki. Pierad pačatkam "
+"pieraciahvańnia siudy sensaraŭ treba stvaryć novuju kartku („Fajł”➝„Novy”)."
 
 #: Workspace.cc:107
 #, kde-format
@@ -712,7 +722,8 @@ msgid ""
 "Enter the minimum value for the display here. If both values are 0, "
 "automatic range detection is enabled."
 msgstr ""
-"Tut upišy najmienšuju vartaść dla prahladu. Kali abiedźvie vartaści roŭnyja nulu, tady ŭklučycca aŭtamatyčnaje vyznačeńnie intervału."
+"Tut upišy najmienšuju vartaść dla prahladu. Kali abiedźvie vartaści roŭnyja "
+"nulu, tady ŭklučycca aŭtamatyčnaje vyznačeńnie intervału."
 
 #: SensorDisplayLib/DancingBarsSettings.cc:85
 #: SensorDisplayLib/FancyPlotterSettings.cc:110
@@ -725,7 +736,8 @@ msgid ""
 "Enter the maximum value for the display here. If both values are 0, "
 "automatic range detection is enabled."
 msgstr ""
-"Tut upišy najbolšuju vartaść dla prahladu. Kali abiedźvie vartaści roŭnyja nulu, tady ŭklučycca aŭtamatyčnaje vyznačeńnie intervału."
+"Tut upišy najbolšuju vartaść dla prahladu. Kali abiedźvie vartaści roŭnyja "
+"nulu, tady ŭklučycca aŭtamatyčnaje vyznačeńnie intervału."
 
 #: SensorDisplayLib/DancingBarsSettings.cc:103
 msgid "Alarms"
@@ -1457,4 +1469,3 @@ msgstr ""
 #: ksysguard.cc:562
 msgid "Optional worksheet files to load"
 msgstr ""
-

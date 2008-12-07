@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-22 10:37+0200\n"
+"POT-Creation-Date: 2008-12-07 10:19+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -313,44 +313,39 @@ msgstr "Klavijaturny skarot"
 msgid "Output"
 msgstr "Vyjście"
 
-#: MainWindow.cpp:120
-msgctxt "Regular expression to remove accelerators from menu items"
-msgid "\\(\\s*\\&.*\\)|\\&"
-msgstr "\\(\\s*\\&.*\\)|\\&"
-
-#: MainWindow.cpp:231
+#: MainWindow.cpp:223
 msgid "New &Tab"
 msgstr "Novaja &kartka"
 
-#: MainWindow.cpp:237
+#: MainWindow.cpp:229
 msgid "New &Window"
 msgstr "Novaje &akno"
 
-#: MainWindow.cpp:242
+#: MainWindow.cpp:234
 msgid "Remote Connection..."
 msgstr "Spałučeńnie ź inšym hostam..."
 
-#: MainWindow.cpp:253
+#: MainWindow.cpp:245
 msgid "&Bookmarks"
 msgstr "&Zakładki"
 
-#: MainWindow.cpp:264
+#: MainWindow.cpp:256
 msgid "Show Menu Bar"
 msgstr "Pakažy menu"
 
-#: MainWindow.cpp:286 Part.cpp:119
+#: MainWindow.cpp:278 Part.cpp:119
 msgid "Manage Profiles..."
 msgstr "Kiruj profilami..."
 
-#: MainWindow.cpp:357
+#: MainWindow.cpp:349
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: MainWindow.cpp:359 SessionController.cpp:587
+#: MainWindow.cpp:351 SessionController.cpp:587
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: MainWindow.cpp:361
+#: MainWindow.cpp:353
 msgid "Close Current Tab"
 msgstr "Začyni hetuju kartku"
 
@@ -1858,6 +1853,10 @@ msgstr "Kansol systemy „Solaris”"
 #: schemas.cpp:11
 msgid "DEC VT420 Terminal"
 msgstr "Terminał „DEC VT420”"
+
+#~ msgctxt "Regular expression to remove accelerators from menu items"
+#~ msgid "\\(\\s*\\&.*\\)|\\&"
+#~ msgstr "\\(\\s*\\&.*\\)|\\&"
 
 #~ msgid "KWrited - Listening on Device %1"
 #~ msgstr "KWrited: słuchańnie pryłady „%1”"

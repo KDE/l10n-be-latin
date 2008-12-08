@@ -36,7 +36,6 @@ msgstr ""
 "%2"
 
 #: daemon/WidgetBasedPoller.cpp:40
-#, fuzzy
 msgid "Grabber Widget Based"
 msgstr "Z dapamohaj widžeta zachopu ekrana"
 
@@ -343,16 +342,15 @@ msgid "No methods found"
 msgstr "Metadaŭ nia znojdziena"
 
 #: kcmodule/CapabilitiesPage.cpp:263
-#, fuzzy
 msgid ""
 "PowerDevil was compiled without Xss and Xext support, or the XSync extension "
 "is not available. Determining idle time will not be possible. Please "
 "consider recompiling PowerDevil with at least one of these two libraries."
 msgstr ""
-"Słužba „PowerDevil” była skampilavanaja biez absłuhi pašyreńniaŭ „Xss”, "
-"„Xext” i „XSync”. Jana nia zmoža vyznačyć, kali karystańnik pierastanie "
-"pracavać z kamputaram. My raim tabie pierakampilavać słužbu „PowerDevil” "
-"prynamsi z adnoj z henych dźviuch biblijatek."
+"Słužba „PowerDevil” była skampilavanaja biez absłuhi pašyreńniaŭ „Xss” i "
+"„Xext”, albo nie staje pašyreńnia „XSync”. Jana nia zmoža vyznačyć, kali "
+"karystańnik pierastanie pracavać z kamputaram. My raim tabie pierakampilavać "
+"słužbu „PowerDevil” prynamsi z adnoj z henych dźviuch biblijatek."
 
 #: kcmodule/CapabilitiesPage.cpp:269
 msgid ""
@@ -956,7 +954,7 @@ msgstr "Zarad batarei budzie nizkim, kali siahnie hetaha roŭniu."
 #. i18n: file: kcmodule/generalPage.ui:390
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, criticalSpin)
 #: rc.cpp:222 rc.cpp:235 rc.cpp:248
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "%"
 msgstr "%"
 

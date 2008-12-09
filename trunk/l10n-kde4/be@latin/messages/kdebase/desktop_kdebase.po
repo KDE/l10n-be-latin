@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-07 09:30+0000\n"
+"POT-Creation-Date: 2008-12-08 09:31+0000\n"
 "PO-Revision-Date: 2008-09-07 22:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2383,16 +2383,6 @@ msgctxt "Comment"
 msgid "Remote Encoding Plugin for Konqueror"
 msgstr "Plugin dla aznačeńnia tamtejšaha kadavańnia ŭ prahramie „Konqueror”"
 
-#: apps/konqueror/settings/css/kcmcss.desktop:12
-msgctxt "Name"
-msgid "Stylesheets"
-msgstr "Stylnyja arkušy"
-
-#: apps/konqueror/settings/css/kcmcss.desktop:87
-msgctxt "Comment"
-msgid "Configure the stylesheets used to render web pages"
-msgstr "Naładź stylnyja arkušy dla vyjaŭleńnia sieciŭnych staronak"
-
 #: apps/konqueror/settings/ebrowsing/ebrowsing.desktop:11
 #: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:2
 msgctxt "Name"
@@ -2637,6 +2627,7 @@ msgstr "Źmiani miescy, dzie zachoŭvajucca važnyja fajły"
 
 #: apps/konqueror/settings/konq/fileappearance.desktop:11
 #: apps/konqueror/settings/konq/webappearance.desktop:12
+#: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:13
 #: workspace/systemsettings/categories/settings-appearance.desktop:8
 msgctxt "Name"
 msgid "Appearance"
@@ -2660,27 +2651,20 @@ msgctxt "Comment"
 msgid "You can configure how Konqueror behaves as a file manager here"
 msgstr "Tut možna naładzić pavodziny fajłavaha kiraŭnika „Konqueror”"
 
-#: apps/konqueror/settings/konq/filebrowser.desktop:12
-#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:1
+#: apps/konqueror/settings/konqhtml/css/kcmcss.desktop:12
 msgctxt "Name"
-msgid "File Manager"
-msgstr "Fajłavy kiraŭnik"
+msgid "Stylesheets"
+msgstr "Stylnyja arkušy"
 
-#: apps/konqueror/settings/konq/filebrowser.desktop:92
+#: apps/konqueror/settings/konqhtml/css/kcmcss.desktop:87
 msgctxt "Comment"
-msgid "You can configure Konqueror's file manager mode here"
-msgstr "Tut možna naładzić fajłavaha kiraŭnika „Konqueror”"
+msgid "Configure the stylesheets used to render web pages"
+msgstr "Naładź stylnyja arkušy dla vyjaŭleńnia sieciŭnych staronak"
 
-#: apps/konqueror/settings/konq/filepreviews.desktop:11
-msgctxt "Name"
-msgid "Previews & Meta-Data"
-msgstr "Padhlady j metaźviestki"
-
-#: apps/konqueror/settings/konq/filepreviews.desktop:88
+#: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:94
 msgctxt "Comment"
-msgid "You can configure how Konqueror Previews & Meta-data work here"
-msgstr ""
-"Tut možna naładzić padhlady j metaźviestki ŭ fajłavym kiraŭniku „Konqueror”"
+msgid "Configure the fonts used on web pages"
+msgstr "Naładź šryfty na sieciŭnym staronkach"
 
 #: apps/konqueror/settings/konqhtml/khtml_behavior.desktop:12
 msgctxt "Name"
@@ -2701,18 +2685,6 @@ msgstr "Filtry AdBlocK"
 msgctxt "Comment"
 msgid "Configure Konqueror AdBlocK filters"
 msgstr "Naładź filtry „AdBlocK” dla hartača „Konqueror”"
-
-#: apps/konqueror/settings/konqhtml/khtml_fonts.desktop:13
-#: workspace/kcontrol/fonts/fonts.desktop:14
-#: workspace/kcontrol/kfontinst/kio/fonts.desktop:5
-msgctxt "Name"
-msgid "Fonts"
-msgstr "Šryfty"
-
-#: apps/konqueror/settings/konqhtml/khtml_fonts.desktop:92
-msgctxt "Comment"
-msgid "Configure the fonts used on web pages"
-msgstr "Naładź šryfty na sieciŭnym staronkach"
 
 #: apps/konqueror/settings/konqhtml/khtml_general.desktop:12
 #: workspace/systemsettings/categories/settings-general.desktop:8
@@ -3392,6 +3364,11 @@ msgid ""
 msgstr ""
 "Tut možna vybrać sabie zmoŭčany hartač sieciva. Usie aplikacyi KDE, u jakich "
 "ty karystajeśsia internet-łučami, pavinnyja źviartać uvahu na hetuju naładu."
+
+#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:1
+msgctxt "Name"
+msgid "File Manager"
+msgstr "Fajłavy kiraŭnik"
 
 #: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:80
 msgctxt "Comment"
@@ -7252,6 +7229,12 @@ msgid "Settings for display power management"
 msgstr ""
 "Nałady dla systemy kiravańnia enerhijaj, užyvanaj dla vyśviatleńnia ekranu"
 
+#: workspace/kcontrol/fonts/fonts.desktop:14
+#: workspace/kcontrol/kfontinst/kio/fonts.desktop:5
+msgctxt "Name"
+msgid "Fonts"
+msgstr "Šryfty"
+
 #: workspace/kcontrol/fonts/fonts.desktop:94
 msgctxt "Comment"
 msgid "Font settings"
@@ -10261,7 +10244,7 @@ msgctxt "Name"
 msgid "Calculator"
 msgstr "Kalkulatar"
 
-#: workspace/plasma/runners/calculator/plasma-runner-calculator.desktop:59
+#: workspace/plasma/runners/calculator/plasma-runner-calculator.desktop:60
 msgctxt "Comment"
 msgid "Calculate expressions"
 msgstr "Padlik vyrazaŭ."
@@ -10955,3 +10938,17 @@ msgstr "Nastolny doždž"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "Zołak"
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure Konqueror's file manager mode here"
+#~ msgstr "Tut možna naładzić fajłavaha kiraŭnika „Konqueror”"
+
+#~ msgctxt "Name"
+#~ msgid "Previews & Meta-Data"
+#~ msgstr "Padhlady j metaźviestki"
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure how Konqueror Previews & Meta-data work here"
+#~ msgstr ""
+#~ "Tut možna naładzić padhlady j metaźviestki ŭ fajłavym kiraŭniku "
+#~ "„Konqueror”"

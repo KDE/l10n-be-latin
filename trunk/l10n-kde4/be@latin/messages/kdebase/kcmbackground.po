@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: bgadvanced.cpp:58
 msgid "Advanced Background Settings"
@@ -31,7 +32,8 @@ msgid ""
 "Unable to remove the program: the program is global and can only be removed "
 "by the system administrator."
 msgstr ""
-"Nie ŭdałosia vydalić prahramu. Jana zainstalavanaja dla ŭsioj systemy, i tamu jaje moža vydalić tolki administratar."
+"Nie ŭdałosia vydalić prahramu. Jana zainstalavanaja dla ŭsioj systemy, i "
+"tamu jaje moža vydalić tolki administratar."
 
 #: bgadvanced.cpp:264
 msgid "Cannot Remove Program"
@@ -271,8 +273,7 @@ msgstr "Vybiery špalery"
 msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
-msgstr ""
-"Hetaja vyjava ekrana pakazvaje padhlad dla dziejnych naładaŭ."
+msgstr "Hetaja vyjava ekrana pakazvaje padhlad dla dziejnych naładaŭ."
 
 #: bgwallpaper.cpp:118
 msgid "Setup Slide Show"
@@ -435,7 +436,8 @@ msgstr " kB"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonIdentifyScreens)
 #: rc.cpp:71
 msgid "Click this button to show the identifying number for each screen."
-msgstr "Klikni ŭ hetuju knopku, kab ubačyć adpaviednyja numary na kožnym ekranie."
+msgstr ""
+"Klikni ŭ hetuju knopku, kab ubačyć adpaviednyja numary na kožnym ekranie."
 
 #. i18n: file: bgdialog_ui.ui:82
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonIdentifyScreens)
@@ -465,7 +467,8 @@ msgid ""
 "Click this button to give you a list of new wallpapers to download from the "
 "Internet."
 msgstr ""
-"Klikni ŭ hetuju knopku, kab ubačyć śpis novych špaleraŭ, jakija možna ŭziać u siecivie."
+"Klikni ŭ hetuju knopku, kab ubačyć śpis novych špaleraŭ, jakija možna ŭziać "
+"u siecivie."
 
 #. i18n: file: bgdialog_ui.ui:186
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonGetNew)
@@ -628,7 +631,8 @@ msgstr "&Nałady..."
 #. i18n: file: bgdialog_ui.ui:557
 #. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboScreen)
 #: rc.cpp:170
-msgid "Choose the screen you wish to configure the background for from this list."
+msgid ""
+"Choose the screen you wish to configure the background for from this list."
 msgstr "Vyznačy, dla jakoha ekrana chočaš źmianić fon."
 
 #. i18n: file: bgdialog_ui.ui:561
@@ -674,4 +678,3 @@ msgstr "Pasuń &nižej"
 #: rc.cpp:197
 msgid "Move &Up"
 msgstr "Pasuń &vyšej"
-

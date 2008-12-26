@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-10 10:57+0100\n"
-"PO-Revision-Date: 2008-11-01 19:01+0200\n"
+"PO-Revision-Date: 2008-12-27 00:35+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
 "MIME-Version: 1.0\n"
@@ -91,18 +91,16 @@ msgstr[1] "&lt;%1 elementy&gt;"
 msgstr[2] "&lt;%1 elementaŭ&gt;"
 
 #: engineexplorer.cpp:376
-#, fuzzy
 msgctxt "The user did a query to a dataengine and it returned empty data"
 msgid "<empty>"
-msgstr "<pusty>"
+msgstr "<pusta>"
 
 #: engineexplorer.cpp:383
-#, fuzzy
 msgctxt ""
 "A the dataengine returned something that the humble view on the "
 "engineexplorer can't display, like a picture"
 msgid "<not displayable>"
-msgstr "<nielha pakazać>"
+msgstr "<niemahčyma pakazać>"
 
 #. i18n: file: engineexplorer.ui:19
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
@@ -169,7 +167,7 @@ msgstr "Patrebnaje žarało źviestak"
 
 #: main.cpp:47
 msgid "The source to request"
-msgstr ""
+msgstr "Patrebnaja krynica"
 
 #: main.cpp:48
 msgid "Update Interval in milliseconds."
@@ -260,7 +258,7 @@ msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
 msgstr "Žarało źviestak: <b>%1</b>. Krynica: <b>%2</b>. Pasłuha: <b>%3</b>"
 
 #: serviceviewer.cpp:169
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 operation with destination %2 failed. The error was:<p><b>%3</b>"
 msgstr ""
 "Nie ŭdałosia vykanać aperacyju „%1” z metaju „%2”. Uźnikła pamyłka:<p><b>%3</"
@@ -275,7 +273,7 @@ msgid "No response from job!"
 msgstr "Ad zadańnia nie było adkazu."
 
 #: serviceviewer.cpp:180
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "%1 operation with destination %2 returned successfully. The result was:<p><b>"
 "%3</b>"

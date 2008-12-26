@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-11-18 09:55+0100\n"
-"PO-Revision-Date: 2008-12-02 00:42+0200\n"
+"PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
 "MIME-Version: 1.0\n"
@@ -183,7 +183,7 @@ msgstr "Niadziejnaja pamiać"
 
 #: ksgrd/SensorManager.cc:76
 msgid "Wired Memory"
-msgstr ""
+msgstr "Źviazanaja pamiać"
 
 #: ksgrd/SensorManager.cc:77
 msgid "Exec Pages"
@@ -537,7 +537,6 @@ msgstr ""
 "Usie prahlady hetaha arkuša aktualizujucca z čaścinioju, aznačanaj tut."
 
 #: HostConnector.cc:44
-#, fuzzy
 msgid "Connect Host"
 msgstr "Spałučy host"
 
@@ -608,7 +607,6 @@ msgstr ""
 "Upišy numar porta, na jakim słužba „ksysguard” budzie čakać spałučeńniaŭ."
 
 #: HostConnector.cc:106
-#, fuzzy
 msgid "e.g.  3112"
 msgstr "naprykład, „3112”"
 
@@ -825,6 +823,8 @@ msgid ""
 "bars. Bars are automatically suppressed if text becomes too large, so it is "
 "advisable to use a small font size here."
 msgstr ""
+"Hetaja nałada vyznačaje pamier šryfta dla podpisaŭ pałosaŭ. Pałosy pierakryvajucca, "
+"kali podpisy zavialikija, tamu raim vybrać nievialiki šryft."
 
 #: SensorDisplayLib/DancingBarsSettings.cc:195
 #: SensorDisplayLib/FancyPlotterSettings.cc:235
@@ -871,11 +871,11 @@ msgstr "Nazva:"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:84
 msgid "Scales"
-msgstr ""
+msgstr "Maštabavańnie"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:89
 msgid "Vertical Scale"
-msgstr ""
+msgstr "Maštab vertykalnaj vosi"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:95
 msgid "Automatic range detection"
@@ -887,21 +887,23 @@ msgid ""
 "currently displayed values; if you do not check this, you have to specify "
 "the range you want in the fields below."
 msgstr ""
+"Uklučy hetuju opcyju, kali chočaš, kab intervał sensara dynamična źmianiaŭsia, "
+"uličvajučy ciapierašnija značeńni. Kali hetaja opcyja nia ŭklučanaja, nižej treba "
+"padać patrebny intervał."
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:123
 msgid "Horizontal Scale"
-msgstr ""
+msgstr "Maštab haryzantalnaj vosi"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:134
 msgid "pixels per time period"
-msgstr ""
+msgstr "punktaŭ za peŭny čas"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:141
 msgid "Grid"
 msgstr "Sietka"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:146
-#, fuzzy
 msgid "Lines"
 msgstr "Rysy"
 
@@ -1132,6 +1134,8 @@ msgid ""
 "and drop it here. A sensor display will appear that allows you to monitor "
 "the values of the sensor over time."
 msgstr ""
+"Heta pusty abšar u rabočym arkušy. Kali ty pieraciahnieš siudy sensar, tady "
+"ty jaho ŭbačyš tut i zmožaš ź jahonaj dapamohaju adsočvać źmieny ŭ systemie."
 
 #. i18n: file: ksysguardui.rc:4
 #. i18n: ectx: Menu (file)
@@ -1359,14 +1363,18 @@ msgid ""
 "sensor. Some sensor displays can display values of multiple sensors. Simply "
 "drag other sensors on to the display to add more sensors."
 msgstr ""
+"Tut źmiaščajecca śpis spałučanych hostaŭ dy inchnych sensaraŭ. Kali ty "
+"pieraciahnieš siudy sensar, tady ty jaho ŭbačyš tut i zmožaš ź jahonaj dapamohaju "
+"adsočvać źmieny ŭ systemie. Niekatoryja prahlady mohuć vyjaŭlać źviestki ź niekalkich "
+"sensaraŭ. Dziela hetaha prosta pieraciahvaj dadatkovyja sensary."
 
 #: ksysguard.cc:73
 msgid "KDE System Monitor"
-msgstr ""
+msgstr "Systemny nazirańnik „KDE”"
 
 #: ksysguard.cc:150 ksysguard.cc:541
 msgid "System Monitor"
-msgstr ""
+msgstr "Systemny nazirańnik"
 
 #: ksysguard.cc:151
 msgid "&New Tab..."
@@ -1423,7 +1431,7 @@ msgstr " Padmien: %1 / %2 "
 
 #: ksysguard.cc:543
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
-msgstr ""
+msgstr "© 1996-2008 Raspracoŭniki prahramy „Systemny nazirańnik KDE”"
 
 #: ksysguard.cc:544
 msgid "John Tapsell"

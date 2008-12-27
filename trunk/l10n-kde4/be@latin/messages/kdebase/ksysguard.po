@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:55+0100\n"
+"POT-Creation-Date: 2008-12-27 11:10+0100\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -86,6 +86,7 @@ msgstr "Pusty"
 
 #: ksgrd/SensorAgent.cc:105
 #, fuzzy, kde-format
+msgctxt "%1 is a host name"
 msgid ""
 "Message from %1:\n"
 "%2"
@@ -127,9 +128,10 @@ msgstr "Zaniataść „nice”"
 msgid "User Load"
 msgstr "Zaniataść karystańnika"
 
-#. i18n: tag WorkSheet attribute title
-#. i18n: file: ./SystemLoad.sgrd:3
-#: ksgrd/SensorManager.cc:63 rc.cpp:149
+#: ksgrd/SensorManager.cc:63
+#, fuzzy
+#| msgid "System Load"
+msgctxt "@item sensor description"
 msgid "System Load"
 msgstr "Zaniataść systemy"
 
@@ -303,6 +305,7 @@ msgid "Packets"
 msgstr "Pakunki"
 
 #: ksgrd/SensorManager.cc:106
+msgctxt "@item sensor description ('carrier' is a type of network signal)"
 msgid "Carrier"
 msgstr ""
 
@@ -678,6 +681,7 @@ msgstr "Farmat:"
 
 #: KSGAppletSettings.cc:63
 #, fuzzy
+msgctxt "Number suffix in spinbox"
 msgid "%"
 msgstr "%"
 
@@ -788,6 +792,7 @@ msgstr "Vierchniaja miaža:"
 
 #: SensorDisplayLib/DancingBarsSettings.cc:157
 #, fuzzy
+msgctxt "@title:tab Appearance of the bar graph"
 msgid "Look"
 msgstr "Vonkavaść"
 
@@ -823,8 +828,8 @@ msgid ""
 "bars. Bars are automatically suppressed if text becomes too large, so it is "
 "advisable to use a small font size here."
 msgstr ""
-"Hetaja nałada vyznačaje pamier šryfta dla podpisaŭ pałosaŭ. Pałosy pierakryvajucca, "
-"kali podpisy zavialikija, tamu raim vybrać nievialiki šryft."
+"Hetaja nałada vyznačaje pamier šryfta dla podpisaŭ pałosaŭ. Pałosy "
+"pierakryvajucca, kali podpisy zavialikija, tamu raim vybrać nievialiki šryft."
 
 #: SensorDisplayLib/DancingBarsSettings.cc:195
 #: SensorDisplayLib/FancyPlotterSettings.cc:235
@@ -887,9 +892,9 @@ msgid ""
 "currently displayed values; if you do not check this, you have to specify "
 "the range you want in the fields below."
 msgstr ""
-"Uklučy hetuju opcyju, kali chočaš, kab intervał sensara dynamična źmianiaŭsia, "
-"uličvajučy ciapierašnija značeńni. Kali hetaja opcyja nia ŭklučanaja, nižej treba "
-"padać patrebny intervał."
+"Uklučy hetuju opcyju, kali chočaš, kab intervał sensara dynamična "
+"źmianiaŭsia, uličvajučy ciapierašnija značeńni. Kali hetaja opcyja nia "
+"ŭklučanaja, nižej treba padać patrebny intervał."
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:123
 msgid "Horizontal Scale"
@@ -1035,11 +1040,13 @@ msgstr "99999 XXXX"
 
 #: SensorDisplayLib/FancyPlotter.cc:344
 #, fuzzy, kde-format
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr "<p><b>%1:</b><br>"
 
 #: SensorDisplayLib/FancyPlotter.cc:391
 #, fuzzy, kde-format
+msgctxt "%1 and %2 are sensor's last and maximum value"
 msgid "%1 of %2"
 msgstr "%1 z %2"
 
@@ -1113,6 +1120,8 @@ msgstr "Hałoŭny koler:"
 
 #: SensorDisplayLib/MultiMeterSettings.cc:31
 #, fuzzy
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
 msgid "Multimeter Settings"
 msgstr "Nałady mnahamiernika"
 
@@ -1299,6 +1308,12 @@ msgstr "&Źmiani"
 msgid "Process Table"
 msgstr "Tablica pracesaŭ"
 
+#. i18n: tag WorkSheet attribute title
+#. i18n: file: ./SystemLoad.sgrd:3
+#: rc.cpp:149
+msgid "System Load"
+msgstr "Zaniataść systemy"
+
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad.sgrd:5
 #: rc.cpp:152
@@ -1364,9 +1379,10 @@ msgid ""
 "drag other sensors on to the display to add more sensors."
 msgstr ""
 "Tut źmiaščajecca śpis spałučanych hostaŭ dy inchnych sensaraŭ. Kali ty "
-"pieraciahnieš siudy sensar, tady ty jaho ŭbačyš tut i zmožaš ź jahonaj dapamohaju "
-"adsočvać źmieny ŭ systemie. Niekatoryja prahlady mohuć vyjaŭlać źviestki ź niekalkich "
-"sensaraŭ. Dziela hetaha prosta pieraciahvaj dadatkovyja sensary."
+"pieraciahnieš siudy sensar, tady ty jaho ŭbačyš tut i zmožaš ź jahonaj "
+"dapamohaju adsočvać źmieny ŭ systemie. Niekatoryja prahlady mohuć vyjaŭlać "
+"źviestki ź niekalkich sensaraŭ. Dziela hetaha prosta pieraciahvaj "
+"dadatkovyja sensary."
 
 #: ksysguard.cc:73
 msgid "KDE System Monitor"
@@ -1406,8 +1422,11 @@ msgstr "&Ułaścivaści kartki"
 
 #: ksysguard.cc:449
 #, fuzzy, kde-format
-msgid " %1 processes "
-msgstr " %1 pracesaŭ "
+msgid " 1 process "
+msgid_plural " %1 processes "
+msgstr[0] " %1 pracesaŭ "
+msgstr[1] " %1 pracesaŭ "
+msgstr[2] " %1 pracesaŭ "
 
 #: ksysguard.cc:455
 #, fuzzy, kde-format
@@ -1416,6 +1435,7 @@ msgstr " Pracesar: %1% "
 
 #: ksysguard.cc:469
 #, fuzzy, kde-format
+msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Memory: %1 / %2 "
 msgstr " Pamiać: %1 / %2 "
 
@@ -1426,6 +1446,7 @@ msgstr " Niama pamiaci na padmien "
 
 #: ksysguard.cc:498
 #, fuzzy, kde-format
+msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Swap: %1 / %2 "
 msgstr " Padmien: %1 / %2 "
 

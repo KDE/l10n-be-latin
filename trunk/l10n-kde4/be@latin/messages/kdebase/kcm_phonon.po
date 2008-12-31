@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:54+0100\n"
+"POT-Creation-Date: 2008-12-31 11:06+0100\n"
 "PO-Revision-Date: 2008-10-03 23:14+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -46,11 +46,11 @@ msgstr "Vyjście huku"
 msgid "Audio Capture"
 msgstr "Zapis huku"
 
-#: devicepreference.cpp:215
+#: devicepreference.cpp:112
 msgid "Play a test sound on the selected device"
 msgstr "Zajhraj testavy huk na vybranaj pryładzie"
 
-#: devicepreference.cpp:237 devicepreference.cpp:244
+#: devicepreference.cpp:133 devicepreference.cpp:140
 msgid ""
 "Defines the default ordering of devices which can be overridden by "
 "individual categories."
@@ -58,32 +58,32 @@ msgstr ""
 "Aznačaje zmoŭčany paradak pryładaŭ, jaki možna paśla źmianić dla asobnych "
 "katehoryjaŭ."
 
-#: devicepreference.cpp:318
+#: devicepreference.cpp:214
 msgid "Default Output Device Preference"
 msgstr "Zmoŭčanaja pryłada dla vyjścia"
 
-#: devicepreference.cpp:320
+#: devicepreference.cpp:216
 msgid "Default Capture Device Preference"
 msgstr "Zmoŭčanaja pryłada dla zapisu"
 
-#: devicepreference.cpp:324
+#: devicepreference.cpp:220
 #, kde-format
 msgid "Output Device Preference for the '%1' Category"
 msgstr "Pryłada dla vyjścia z katehoryi „%1”"
 
-#: devicepreference.cpp:326
+#: devicepreference.cpp:222
 #, kde-format
 msgid "Capture Device Preference for the '%1' Category"
 msgstr "Pryłada dla zapisu z katehoryi „%1”"
 
-#: devicepreference.cpp:706
+#: devicepreference.cpp:602
 msgid ""
 "Apply the currently shown device preference list to the following other "
 "audio output categories:"
 msgstr ""
 "Prymiani pakazany śpis pryładaŭ dla nastupnych katehoryjaŭ vyjścia huku:"
 
-#: devicepreference.cpp:713
+#: devicepreference.cpp:609
 msgid "Default/Unspecified Category"
 msgstr "Zmoŭčanaja/niavyznačanaja katehoryja"
 

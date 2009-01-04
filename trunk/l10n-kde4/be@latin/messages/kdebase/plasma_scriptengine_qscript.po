@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-03 10:57+0100\n"
+"POT-Creation-Date: 2009-01-04 10:27+0100\n"
 "PO-Revision-Date: 2008-10-24 22:25+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: qscript.cpp:369
+#: qscript.cpp:424
 msgid "Could not extract the AppletObject"
 msgstr "Nie ŭdałosia vyniać abjekt „AppletObject”."
 
-#: qscript.cpp:374
+#: qscript.cpp:429
 msgid "Could not extract the Applet"
 msgstr "Nie ŭdałosia vyniać abjekt „Applet”."
 
-#: qscript.cpp:390
+#: qscript.cpp:445
 #, kde-format
 msgid "Unable to open '%1'"
 msgstr "Nie ŭdałosia adčynić „%1”."
 
-#: qscript.cpp:403 qscript.cpp:421
+#: qscript.cpp:485 qscript.cpp:503
 msgid "Constructor takes at least 1 argument"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
 
-#: qscript.cpp:464
+#: qscript.cpp:546
 msgid "The parent must be a QGraphicsWidget"
 msgstr "Prodak musić być abjektam „QGraphicsWidget”."
 
-#: qscript.cpp:485
+#: qscript.cpp:567
 msgid "print takes one argument"
 msgstr "„print” pryjmaje adzin arhument."

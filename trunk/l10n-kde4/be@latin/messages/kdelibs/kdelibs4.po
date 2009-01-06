@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-05 10:11+0100\n"
+"POT-Creation-Date: 2009-01-06 09:59+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2165,124 +2165,128 @@ msgstr "Miesca zainstalavanych biblijatek Qt"
 msgid "Location of installed Qt plugins"
 msgstr "Miesca zainstalavanych pluginaŭ Qt"
 
-#: kdecore/kde-config.cpp:144
+#: kdecore/kde-config.cpp:126
 msgid "Applications menu (.desktop files)"
 msgstr "Menu aplikacyjaŭ (miesca dla fajłaŭ .desktop)"
 
-#: kdecore/kde-config.cpp:145
+#: kdecore/kde-config.cpp:127
+msgid "Cached information (e.g. favicons, web-pages)"
+msgstr ""
+
+#: kdecore/kde-config.cpp:128
 msgid "CGIs to run from kdehelp"
 msgstr "Skrypty CGI dla słužby „kdehelp”"
 
-#: kdecore/kde-config.cpp:146
+#: kdecore/kde-config.cpp:129
 msgid "Configuration files"
 msgstr "Fajły naładaŭ"
 
-#: kdecore/kde-config.cpp:147
+#: kdecore/kde-config.cpp:130
 msgid "Where applications store data"
 msgstr "Miesca, dzie aplikacyi zachoŭvajuć źviestki"
 
-#: kdecore/kde-config.cpp:148
+#: kdecore/kde-config.cpp:131
 msgid "Emoticons"
 msgstr "Smajliki"
 
-#: kdecore/kde-config.cpp:149
+#: kdecore/kde-config.cpp:132
 msgid "Executables in $prefix/bin"
 msgstr "Prahramy ŭ „$prefix/bin”"
 
-#: kdecore/kde-config.cpp:150
+#: kdecore/kde-config.cpp:133
 msgid "HTML documentation"
 msgstr "Dakumentacyja HTML"
 
-#: kdecore/kde-config.cpp:151
+#: kdecore/kde-config.cpp:134
 msgid "Icons"
 msgstr "Ikony"
 
-#: kdecore/kde-config.cpp:152
+#: kdecore/kde-config.cpp:135
 msgid "Configuration description files"
 msgstr "Fajły apisańnia naładaŭ"
 
-#: kdecore/kde-config.cpp:153
+#: kdecore/kde-config.cpp:136
 msgid "Libraries"
 msgstr "Biblijateki"
 
-#: kdecore/kde-config.cpp:154
+#: kdecore/kde-config.cpp:137
 msgid "Includes/Headers"
 msgstr "Includy/Zahałoŭki"
 
-#: kdecore/kde-config.cpp:155
+#: kdecore/kde-config.cpp:138
 msgid "Translation files for KLocale"
 msgstr "Fajły ź pierakładami dla KLocale"
 
-#: kdecore/kde-config.cpp:156
+#: kdecore/kde-config.cpp:139
 msgid "Mime types"
 msgstr "Typy MIME"
 
-#: kdecore/kde-config.cpp:157
+#: kdecore/kde-config.cpp:140
 msgid "Loadable modules"
 msgstr "Padłučalnyja moduli"
 
-#: kdecore/kde-config.cpp:158 kdecore/kde-config.cpp:168
+#: kdecore/kde-config.cpp:141 kdecore/kde-config.cpp:151
 msgid "Legacy pixmaps"
 msgstr "Zastarełyja piksmapy"
 
-#: kdecore/kde-config.cpp:159
+#: kdecore/kde-config.cpp:142
 msgid "Qt plugins"
 msgstr "Pluginy Qt"
 
-#: kdecore/kde-config.cpp:160
+#: kdecore/kde-config.cpp:143
 msgid "Services"
 msgstr "Słužby"
 
-#: kdecore/kde-config.cpp:161
+#: kdecore/kde-config.cpp:144
 msgid "Service types"
 msgstr "Vidy słužbaŭ"
 
-#: kdecore/kde-config.cpp:162
+#: kdecore/kde-config.cpp:145
 msgid "Application sounds"
 msgstr "Huki aplikacyjaŭ"
 
-#: kdecore/kde-config.cpp:163
+#: kdecore/kde-config.cpp:146
 msgid "Templates"
 msgstr "Šablony"
 
-#: kdecore/kde-config.cpp:164
+#: kdecore/kde-config.cpp:147
 msgid "Wallpapers"
 msgstr "Špalery"
 
-#: kdecore/kde-config.cpp:165
+#: kdecore/kde-config.cpp:148
 msgid "XDG Application menu (.desktop files)"
 msgstr "Menu aplikacyjaŭ XDG (miesca dla fajłaŭ .desktop)"
 
-#: kdecore/kde-config.cpp:166
+#: kdecore/kde-config.cpp:149
 msgid "XDG Menu descriptions (.directory files)"
 msgstr "Apisańni menu XDG (miesca dla fajłaŭ .directory)"
 
-#: kdecore/kde-config.cpp:167
+#: kdecore/kde-config.cpp:150
 msgid "XDG Icons"
 msgstr "Ikony XDG"
 
-#: kdecore/kde-config.cpp:169
+#: kdecore/kde-config.cpp:152
 msgid "XDG Mime Types"
 msgstr "Typy MIME dla XDG"
 
-#: kdecore/kde-config.cpp:170
+#: kdecore/kde-config.cpp:153
 msgid "XDG Menu layout (.menu files)"
 msgstr "Vykład menu XDG (miesca dla fajłaŭ .menu)"
 
-#: kdecore/kde-config.cpp:171
+#: kdecore/kde-config.cpp:154
 msgid "Temporary files (specific for both current host and current user)"
 msgstr "Časovyja fajły (asablivyja dla kožnaha hosta j dziejnaha karystańnika)"
 
-#: kdecore/kde-config.cpp:172
+#: kdecore/kde-config.cpp:155
 msgid "UNIX Sockets (specific for both current host and current user)"
 msgstr "Sokiety UNIX (asablivyja dla kožnaha hosta j dziejnaha karystańnika)"
 
-#: kdecore/kde-config.cpp:184
+#: kdecore/kde-config.cpp:167
 #, kde-format
 msgid "%1 - unknown type\n"
 msgstr "%1 – nieviadomy vid\n"
 
-#: kdecore/kde-config.cpp:246
+#: kdecore/kde-config.cpp:229
 #, kde-format
 msgid "%1 - unknown type of userpath\n"
 msgstr "%1 – nieviadomy vid ściežki karystańnika\n"
@@ -3288,7 +3292,7 @@ msgstr ""
 msgid "The library %1 does not offer a KDE 4 compatible factory."
 msgstr "Biblijateka „%1” nia maje fabryki, jakaja b adpaviadała KDE 4."
 
-#: kdecore/util/kpluginloader.cpp:190
+#: kdecore/util/kpluginloader.cpp:191
 #, kde-format
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "Plugin „%1” vykarystoŭvaje niaŭzhodnienuju biblijateku KDE („%2”)."
@@ -8124,7 +8128,7 @@ msgid ""
 "bottom of the window used for status information."
 msgstr "Pakažy panel stanu<br /><br />Pakazvaje panel stanu ŭnizie akna."
 
-#: kdeui/windowmanagement/kwindowsystem_qws.cpp:163
+#: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:852
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:546
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:559
@@ -9102,7 +9106,7 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Dropdown List && Automatic"
 msgstr "Vypłyŭny śpis i aŭtamatyčnaje"
 
-#: kdeui/widgets/klineedit.cpp:1148
+#: kdeui/widgets/klineedit.cpp:1150
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Zmoŭčana"
@@ -12268,34 +12272,6 @@ msgstr "KUnitTest ModRunner"
 msgid "(C) 2005 Jeroen Wijnhout"
 msgstr "© 2005 Jeroen Wijnhout"
 
-#: kformula/FormulaCommand.cpp:32
-msgid "Add Elements"
-msgstr "Dadaj elementy"
-
-#: kformula/FormulaCommand.cpp:61
-msgid "Remove Elements"
-msgstr "Vydali elementy"
-
-#: kformula/FormulaCommand.cpp:91
-msgid "Replace Element"
-msgstr "Zamiani element"
-
-#: kformula/FormulaCommand.cpp:139
-msgid "Attribute Changed"
-msgstr "Atrybut źmianiŭsia"
-
-#: kformula/sample/main.cpp:10
-msgid "Sample KFormula application"
-msgstr "Uzornaja aplikacyja „KFormula”"
-
-#: kformula/sample/main.cpp:11
-msgid "Application showing a KFormula widget for debugging purposes"
-msgstr "Aplikacyja, jakaja pakazvaje dziela adładžvańnia widžet „KFormula”"
-
-#: kformula/sample/main.cpp:13
-msgid "Copyright 2008 Alfredo Beaumont <alfredo.beaumont@gmail.com>"
-msgstr ""
-
 #: kdeui/colors/kcolordialog.cpp:97
 msgctxt "palette name"
 msgid "* Recent Colors *"
@@ -12593,6 +12569,24 @@ msgstr "Štodzionnyja &parady"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Niama takoj funkcyi: „%1”."
+
+#~ msgid "Add Elements"
+#~ msgstr "Dadaj elementy"
+
+#~ msgid "Remove Elements"
+#~ msgstr "Vydali elementy"
+
+#~ msgid "Replace Element"
+#~ msgstr "Zamiani element"
+
+#~ msgid "Attribute Changed"
+#~ msgstr "Atrybut źmianiŭsia"
+
+#~ msgid "Sample KFormula application"
+#~ msgstr "Uzornaja aplikacyja „KFormula”"
+
+#~ msgid "Application showing a KFormula widget for debugging purposes"
+#~ msgstr "Aplikacyja, jakaja pakazvaje dziela adładžvańnia widžet „KFormula”"
 
 #, fuzzy
 #~| msgid "Options"

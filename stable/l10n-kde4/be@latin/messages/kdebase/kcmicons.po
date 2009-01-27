@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-26 10:45+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-11-19 17:37+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -23,17 +23,23 @@ msgid "Use of Icon"
 msgstr "Vykarystańnie ikony"
 
 #: icons.cpp:70
-msgctxt "@label The icon rendered by default"
+#, fuzzy
+#| msgctxt "@label The icon rendered by default"
+#| msgid "Default"
 msgid "Default"
 msgstr "Zmoŭčanaja"
 
 #: icons.cpp:72
-msgctxt "@label The icon rendered as active"
+#, fuzzy
+#| msgctxt "@label The icon rendered as active"
+#| msgid "Active"
 msgid "Active"
 msgstr "Dziejnaja"
 
 #: icons.cpp:74
-msgctxt "@label The icon rendered as disabled"
+#, fuzzy
+#| msgctxt "@label The icon rendered as disabled"
+#| msgid "Disabled"
 msgid "Disabled"
 msgstr "Vyklučanaja"
 
@@ -42,98 +48,102 @@ msgid "Size:"
 msgstr "Pamier:"
 
 #: icons.cpp:97
+msgid "Double-sized pixels"
+msgstr "Padvojenyja punkty"
+
+#: icons.cpp:101
 msgid "Animate icons"
 msgstr "Animuj ikony"
 
-#: icons.cpp:123
+#: icons.cpp:126
 msgid "Set Effect..."
 msgstr "Vybiery efekt..."
 
-#: icons.cpp:138
-msgid "Desktop"
-msgstr "Rabočy stoł"
+#: icons.cpp:141
+msgid "Desktop/File Manager"
+msgstr ""
 
-#: icons.cpp:139
+#: icons.cpp:142
 msgid "Toolbar"
 msgstr "Panel pryładździa"
 
-#: icons.cpp:140
+#: icons.cpp:143
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: icons.cpp:141
+#: icons.cpp:144
 msgid "Small Icons"
 msgstr "Drobnyja ikony"
 
-#: icons.cpp:142
+#: icons.cpp:145
 msgid "Panel"
 msgstr "Panel"
 
-#: icons.cpp:143
+#: icons.cpp:146
 msgid "All Icons"
 msgstr "Usie ikony"
 
-#: icons.cpp:433
+#: icons.cpp:452
 msgid "Setup Default Icon Effect"
 msgstr "Nałady zmoŭčanaha efektu dla ikon"
 
-#: icons.cpp:434
+#: icons.cpp:453
 msgid "Setup Active Icon Effect"
 msgstr "Nałady efektu dla dziejnych ikon"
 
-#: icons.cpp:435
+#: icons.cpp:454
 msgid "Setup Disabled Icon Effect"
 msgstr "Nałady efektu dla vyklučanych ikon"
 
-#: icons.cpp:516
+#: icons.cpp:548
 msgid "&Effect:"
 msgstr "&Efekt:"
 
-#: icons.cpp:520
+#: icons.cpp:552
 msgid "No Effect"
 msgstr "Biez efektu"
 
-#: icons.cpp:521
+#: icons.cpp:553
 msgid "To Gray"
 msgstr "Šerań"
 
-#: icons.cpp:522
+#: icons.cpp:554
 msgid "Colorize"
 msgstr "Farba"
 
-#: icons.cpp:523
+#: icons.cpp:555
 msgid "Gamma"
 msgstr "Hama"
 
-#: icons.cpp:524
+#: icons.cpp:556
 msgid "Desaturate"
 msgstr "Pryciamniaj"
 
-#: icons.cpp:525
+#: icons.cpp:557
 msgid "To Monochrome"
 msgstr "Čorna-biełaje"
 
-#: icons.cpp:531
+#: icons.cpp:563
 msgid "&Semi-transparent"
 msgstr "&Napałovu prazrystaje"
 
-#: icons.cpp:535
+#: icons.cpp:567
 msgid "Preview"
 msgstr "Padhlad"
 
-#: icons.cpp:548
+#: icons.cpp:580
 msgid "Effect Parameters"
 msgstr "Parametry efektu"
 
-#: icons.cpp:555
+#: icons.cpp:587
 msgid "&Amount:"
 msgstr "&Kolkaść:"
 
-#: icons.cpp:565
+#: icons.cpp:597
 msgid "Co&lor:"
 msgstr "Ko&ler:"
 
-#: icons.cpp:573
+#: icons.cpp:605
 msgid "&Second color:"
 msgstr "&Druhi koler:"
 
@@ -197,16 +207,16 @@ msgstr "Hetaja aperacyja vydalaje vybrany matyŭ z svajho dyska."
 msgid "Select the icon theme you want to use:"
 msgstr "Vybiery patrebny matyŭ ikon:"
 
-#: iconthemes.cpp:189
+#: iconthemes.cpp:191
 msgid "Drag or Type Theme URL"
 msgstr "Kiń siudy albo ŭpišy adras matyva"
 
-#: iconthemes.cpp:200
+#: iconthemes.cpp:202
 #, kde-format
 msgid "Unable to find the icon theme archive %1."
 msgstr "Nie ŭdałosia znajści archiŭ z matyvam ikon „%1”."
 
-#: iconthemes.cpp:203
+#: iconthemes.cpp:205
 #, kde-format
 msgid ""
 "Unable to download the icon theme archive;\n"
@@ -215,11 +225,11 @@ msgstr ""
 "Nie ŭdałosia ŭziać archiŭ z matyvam ikon.\n"
 "Spraŭdź słušnaść adrasu „%1”."
 
-#: iconthemes.cpp:212
+#: iconthemes.cpp:214
 msgid "The file is not a valid icon theme archive."
 msgstr "Hety fajł nia jość sapraŭdnym archivam z matyvam ikon."
 
-#: iconthemes.cpp:223
+#: iconthemes.cpp:225
 msgid ""
 "A problem occurred during the installation process; however, most of the "
 "themes in the archive have been installed"
@@ -227,16 +237,16 @@ msgstr ""
 "Padčas instalacyi ŭźnikła prablema. Ale balšynia matyvaŭ z hetaha archiva "
 "była zainstalavanaja."
 
-#: iconthemes.cpp:245
+#: iconthemes.cpp:247
 msgid "Installing icon themes"
 msgstr "Instalavańnie matyvaŭ ikon"
 
-#: iconthemes.cpp:264
+#: iconthemes.cpp:266
 #, kde-format
 msgid "<qt>Installing <strong>%1</strong> theme</qt>"
 msgstr "<qt>Instalavańnie matyva <strong>%1</strong></qt>"
 
-#: iconthemes.cpp:356
+#: iconthemes.cpp:358
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <strong>%1</strong> icon theme?<br /"
@@ -245,7 +255,7 @@ msgstr ""
 "<qt>Ty sapraŭdy chočaš vydalić matyŭ ikon <strong>%1</strong>?<br /><br /"
 ">Hetaja aperacyja vydalić fajły, jakija naležać hetamu matyvu.</qt>"
 
-#: iconthemes.cpp:364
+#: iconthemes.cpp:366
 msgid "Confirmation"
 msgstr "Paćviardžeńnie"
 
@@ -314,5 +324,5 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#~ msgid "Double-sized pixels"
-#~ msgstr "Padvojenyja punkty"
+#~ msgid "Desktop"
+#~ msgstr "Rabočy stoł"

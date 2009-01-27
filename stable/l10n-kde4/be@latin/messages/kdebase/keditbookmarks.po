@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-29 10:12+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2008-10-04 23:44+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -35,41 +35,41 @@ msgstr "Skapijuj „%1”"
 msgid "Create Bookmark"
 msgstr "Stvary zakładku"
 
-#: commands.cpp:213
+#: commands.cpp:210
 msgid "Icon"
 msgstr "Ikona"
 
-#: commands.cpp:213 commands.cpp:215 commands.cpp:217 commands.cpp:219
+#: commands.cpp:210 commands.cpp:212 commands.cpp:214 commands.cpp:216
 #, kde-format
 msgid "%1 Change"
 msgstr "Źmiena „%1”"
 
-#: commands.cpp:215
+#: commands.cpp:212
 msgid "Title"
 msgstr "Nazva"
 
-#: commands.cpp:217 bookmarkmodel.cpp:171
+#: commands.cpp:214 bookmarkmodel.cpp:169
 msgid "URL"
 msgstr "Adras"
 
-#: commands.cpp:219 bookmarkmodel.cpp:173
+#: commands.cpp:216 bookmarkmodel.cpp:171
 msgid "Comment"
 msgstr "Kamentar"
 
-#: commands.cpp:420
+#: commands.cpp:412
 #, kde-format
 msgid "Move %1"
 msgstr "Pieraniasi „%1”"
 
-#: commands.cpp:532
+#: commands.cpp:524
 msgid "Set as Bookmark Toolbar"
 msgstr "Źmiaści ŭ paneli zakładak"
 
-#: commands.cpp:569
+#: commands.cpp:561
 msgid "Copy Items"
 msgstr "Skapijuj"
 
-#: commands.cpp:570
+#: commands.cpp:562
 msgid "Move Items"
 msgstr "Pieraniasi"
 
@@ -108,15 +108,15 @@ msgstr "*.xbel|Fajły zakładak „Galeon” (*.xbel)"
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|Fajły zakładak „KDE” (*.xml)"
 
-#: bookmarkmodel.cpp:85
+#: bookmarkmodel.cpp:84
 msgid "Bookmarks"
 msgstr "Zakładki"
 
-#: bookmarkmodel.cpp:169
+#: bookmarkmodel.cpp:167
 msgid "Bookmark"
 msgstr "Zakładka"
 
-#: bookmarkmodel.cpp:175
+#: bookmarkmodel.cpp:173
 msgid "Status"
 msgstr "Stan"
 
@@ -248,52 +248,52 @@ msgstr "Možna padać tolki adnu opcyju „--export”."
 msgid "You may only specify a single --import option."
 msgstr "Možna padać tolki adnu opcyju „--import”."
 
-#: kbookmarkmerger.cpp:39
+#: kbookmarkmerger.cpp:62
 msgid "KBookmarkMerger"
 msgstr "KBookmarkMerger"
 
-#: kbookmarkmerger.cpp:40
+#: kbookmarkmerger.cpp:63
 msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
 msgstr ""
 "Źmiaščaje zakładki, zainstalavanyja inšymi asobami, u schoviščy karystańnika"
 
-#: kbookmarkmerger.cpp:42
+#: kbookmarkmerger.cpp:65
 msgid "Copyright © 2005 Frerich Raabe"
 msgstr "Copyright © 2005 Frerich Raabe"
 
-#: kbookmarkmerger.cpp:43
+#: kbookmarkmerger.cpp:66
 msgid "Frerich Raabe"
 msgstr "Frerich Raabe"
 
-#: kbookmarkmerger.cpp:43
+#: kbookmarkmerger.cpp:66
 msgid "Original author"
 msgstr "Pieršy aŭtar"
 
-#: kbookmarkmerger.cpp:49
+#: kbookmarkmerger.cpp:72
 msgid "Directory to scan for extra bookmarks"
 msgstr "Kataloh, dzie treba šukać dadatkovyja zakładki"
 
-#: bookmarkinfo.cpp:259
+#: bookmarkinfo.cpp:246
 msgid "Name:"
 msgstr "Nazva:"
 
-#: bookmarkinfo.cpp:270
+#: bookmarkinfo.cpp:256
 msgid "Location:"
 msgstr "Miesca:"
 
-#: bookmarkinfo.cpp:281
+#: bookmarkinfo.cpp:266
 msgid "Comment:"
 msgstr "Kamentar:"
 
-#: bookmarkinfo.cpp:291
+#: bookmarkinfo.cpp:276
 msgid "First viewed:"
 msgstr "Pieršy prahlad:"
 
-#: bookmarkinfo.cpp:297
+#: bookmarkinfo.cpp:282
 msgid "Viewed last:"
 msgstr "Apošni prahlad:"
 
-#: bookmarkinfo.cpp:303
+#: bookmarkinfo.cpp:288
 msgid "Times visited:"
 msgstr "Kolkaść naviedvańniaŭ:"
 

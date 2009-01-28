@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-12 10:00+0100\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
 "PO-Revision-Date: 2008-11-04 17:48+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -86,7 +86,7 @@ msgstr ""
 "fajłavaha kiraŭnika zahad „Vydali”. Ale zaŭsiody možna vydalić fajł zusim, "
 "prycisnuŭšy klavišu „Shift” i vyklikaŭšy z menu zahad „Vykiń u śmietnicu”."
 
-#: globalpaths.cpp:95
+#: globalpaths.cpp:86
 msgid ""
 "<h1>Paths</h1>\n"
 "This module allows you to choose where in the filesystem the files on your "
@@ -99,11 +99,13 @@ msgstr ""
 "Kab atrymać daviedku pra peŭnyja opcyi, vykarystaj mahčymaść „Što heta?”, "
 "jakuju možna vyklikać klavijaturnym skarotam „Shift+F1”."
 
-#: globalpaths.cpp:102
-msgid "Des&ktop path:"
+#: globalpaths.cpp:91
+#, fuzzy
+#| msgid "Des&ktop path:"
+msgid "Desktop path:"
 msgstr "Ściežka &stała:"
 
-#: globalpaths.cpp:110
+#: globalpaths.cpp:92
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
 "change the location of this folder if you want to, and the contents will "
@@ -113,11 +115,13 @@ msgstr ""
 "možaš źmianić miesca hetaha kataloha, i tady jahonaje źmieściva budzie "
 "aŭtamatyčna tudy pieraniesienaje."
 
-#: globalpaths.cpp:118
-msgid "A&utostart path:"
+#: globalpaths.cpp:97
+#, fuzzy
+#| msgid "A&utostart path:"
+msgid "Autostart path:"
 msgstr "Ściežka &aŭtamatyčnaha ŭklučeńnia:"
 
-#: globalpaths.cpp:126
+#: globalpaths.cpp:98
 msgid ""
 "This folder contains applications or links to applications (shortcuts) that "
 "you want to have started automatically whenever KDE starts. You can change "
@@ -128,24 +132,102 @@ msgstr ""
 "ŭklučać pry ŭvachodzie ŭ systemu „KDE”. Ty možaš źmianić miesca hetaha "
 "kataloha, i tady jahonaje źmieściva budzie aŭtamatyčna tudy pieraniesienaje."
 
-#: globalpaths.cpp:135
-msgid "D&ocuments path:"
+#: globalpaths.cpp:104
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Documents path:"
 msgstr "Ściežka &dakumentaŭ:"
 
-#: globalpaths.cpp:143
+#: globalpaths.cpp:105
 msgid ""
 "This folder will be used by default to load or save documents from or to."
 msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
-#: globalpaths.cpp:271 globalpaths.cpp:288
+#: globalpaths.cpp:108
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Downloads path:"
+msgstr "Ściežka &dakumentaŭ:"
+
+#: globalpaths.cpp:109
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
+
+#: globalpaths.cpp:112
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Movies path:"
+msgstr "Ściežka &dakumentaŭ:"
+
+#: globalpaths.cpp:113
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
+
+#: globalpaths.cpp:116
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Pictures path:"
+msgstr "Ściežka &dakumentaŭ:"
+
+#: globalpaths.cpp:117
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
+
+#: globalpaths.cpp:120
+msgid "Music path:"
+msgstr ""
+
+#: globalpaths.cpp:121
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
+
+#: globalpaths.cpp:257 globalpaths.cpp:275
 msgid "Autostart"
 msgstr "Aŭtamatyčnaje ŭklučeńnie"
 
-#: globalpaths.cpp:275
+#: globalpaths.cpp:261
 msgid "Desktop"
 msgstr "Rabočy stoł"
 
-#: globalpaths.cpp:351
+#: globalpaths.cpp:285
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Documents"
+msgstr "Ściežka &dakumentaŭ:"
+
+#: globalpaths.cpp:288
+msgid "Downloads"
+msgstr ""
+
+#: globalpaths.cpp:291
+#, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgid "Movies"
+msgstr "Pieraniasi"
+
+#: globalpaths.cpp:294
+msgid "Pictures"
+msgstr ""
+
+#: globalpaths.cpp:297
+msgid "Music"
+msgstr ""
+
+#: globalpaths.cpp:336
 #, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
@@ -154,14 +236,22 @@ msgstr ""
 "Ściežka „%1” źmianiłasia.\n"
 "Chočaš pieranieści fajły z „%2” u „%3”?"
 
-#: globalpaths.cpp:352
+#: globalpaths.cpp:337
 msgid "Confirmation Required"
 msgstr "Patrebnaje paćviardžeńnie"
 
-#: globalpaths.cpp:352
-msgctxt "Move desktop files from old to new place"
+#: globalpaths.cpp:338
+#, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr "Pieraniasi"
+
+#: globalpaths.cpp:339
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr ""
 
 #: kcustommenueditor.cpp:96
 msgid "Menu Editor"

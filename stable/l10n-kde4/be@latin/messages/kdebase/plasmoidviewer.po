@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:20+0100\n"
 "PO-Revision-Date: 2008-11-01 19:17+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,39 +18,44 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: main.cpp:39
+#: main.cpp:44
 #, fuzzy
 #| msgid "Run Plasma widgets in their own window"
-msgid "Run Plasma applets in their own window"
+msgid "Run Plasma widgets in their own window"
 msgstr "Uklučaj widžety „Plasma” ŭ asobnych voknach"
 
-#: main.cpp:43
+#: main.cpp:48
 #, fuzzy
 #| msgid "Plasma Widget Viewer"
-msgid "Plasma Applet Viewer"
+msgid "Plasma Widget Viewer"
 msgstr "Prahlad widžetaŭ „Plasma”"
 
-#: main.cpp:45
-msgid "(C) 2007, The KDE Team"
-msgstr ""
+#: main.cpp:50
+msgid "2007-2008, Frerich Raabe"
+msgstr "2007-2008, Frerich Raabe"
 
-#: main.cpp:47
+#: main.cpp:52
 msgid "Frerich Raabe"
 msgstr "Frerich Raabe"
 
-#: main.cpp:48
+#: main.cpp:53
 msgid "Original author"
 msgstr "Pieršy aŭtar"
 
-#: main.cpp:55
+#: main.cpp:59
+msgid "Displays a list of known applets"
+msgstr "Pakazvaje śpis viadomych widžetaŭ"
+
+#: main.cpp:61
 #, fuzzy
 #| msgctxt "Do not translate horizontal, vertical, mediacenter nor planar"
 #| msgid "The formfactor to use (horizontal, vertical, mediacenter or planar)"
+msgctxt "Do not translate horizontal, vertical, mediacenter nor planar"
 msgid "The formfactor to use (horizontal, vertical, mediacenter or planar)"
 msgstr ""
 "Patrebnaja forma („horizontal”, „vertical”, „mediacenter” albo „planar”)"
 
-#: main.cpp:57
+#: main.cpp:63
 #, fuzzy
 #| msgctxt ""
 #| "Do not translate floating, desktop, fullscreen, top, bottom, left nor "
@@ -58,6 +63,8 @@ msgstr ""
 #| msgid ""
 #| "The location constraint to start the Containment with (floating, desktop, "
 #| "fullscreen, top, bottom, left, right)"
+msgctxt ""
+"Do not translate floating, desktop, fullscreen, top, bottom, left nor right"
 msgid ""
 "The location constraint to start the Containment with (floating, desktop, "
 "fullscreen, top, bottom, left, right)"
@@ -66,19 +73,31 @@ msgstr ""
 "„fullscreen”: na ŭvieś ekran; „top”: uviersie; „bottom”: unizie; „left”: "
 "źleva; albo „right”: sprava)"
 
-#: main.cpp:59
+#: main.cpp:65
+msgid "Name of the containment plugin"
+msgstr "Nazva plugina schovišča"
+
+#: main.cpp:67
+msgid "Name of the wallpaper plugin"
+msgstr "Nazva plugina špaleraŭ"
+
+#: main.cpp:69
 msgid "The size in KB to set the pixmap cache to"
 msgstr "Pamier padručnaj pamiaci dla pikselnaj mapy ŭ kilabajtach"
 
-#: main.cpp:60
+#: main.cpp:70
 msgid "Name of applet to add (required)"
 msgstr "Nazva apleta, jaki treba dadać (abaviazkovaja opcyja)"
 
-#: main.cpp:61
+#: main.cpp:71
 msgid "Optional arguments of the applet to add"
 msgstr "Dadatkovyja arhumenty apleta, jaki treba dadać"
 
-#: main.cpp:68
+#: main.cpp:93
+msgid "No description available"
+msgstr "Niama apisańnia."
+
+#: main.cpp:110
 msgid "No applet name specified"
 msgstr "Nazva apleta nie aznačanaja."
 
@@ -91,18 +110,3 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
-
-#~ msgid "2007-2008, Frerich Raabe"
-#~ msgstr "2007-2008, Frerich Raabe"
-
-#~ msgid "Displays a list of known applets"
-#~ msgstr "Pakazvaje śpis viadomych widžetaŭ"
-
-#~ msgid "Name of the containment plugin"
-#~ msgstr "Nazva plugina schovišča"
-
-#~ msgid "Name of the wallpaper plugin"
-#~ msgstr "Nazva plugina špaleraŭ"
-
-#~ msgid "No description available"
-#~ msgstr "Niama apisańnia."

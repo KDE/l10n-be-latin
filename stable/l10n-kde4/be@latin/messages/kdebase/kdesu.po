@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-09-19 14:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -81,48 +81,52 @@ msgid "Use realtime scheduling"
 msgstr "Karystajsia raskładam realnaha času"
 
 #: kdesu.cpp:109
-msgid "Let command use existing dcopserver"
-msgstr ""
-
-#: kdesu.cpp:111
 msgid "Do not display ignore button"
 msgstr "Nie pakazvaj knopku abminańnia"
 
-#: kdesu.cpp:112
+#: kdesu.cpp:110
 msgid "Specify icon to use in the password dialog"
 msgstr "Vybiery ikonu dla akna ŭpisańnia parola"
 
-#: kdesu.cpp:113
+#: kdesu.cpp:111
 msgid "Do not show the command to be run in the dialog"
 msgstr "Nie pakazvaj zahad u aknie ŭpisańnia parola"
 
-#: kdesu.cpp:136
+#: kdesu.cpp:115
+msgctxt ""
+"Transient means that the kdesu app will be attached to the app specified by "
+"the winid so that its like a dialog box rather than some separate program"
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr ""
+"Prystasoŭvaje akno da aplikacyi systemy „X” z aznačanym identyfikataram akna"
+
+#: kdesu.cpp:140
 #, kde-format
 msgid "Command '%1' not found."
 msgstr "Nie ŭdałosia znajści zahad „%1”."
 
-#: kdesu.cpp:211
+#: kdesu.cpp:215
 #, kde-format
 msgid "Illegal priority: %1"
 msgstr "Niemahčymaja važnaść: %1"
 
-#: kdesu.cpp:242
+#: kdesu.cpp:246
 msgid "No command specified."
 msgstr "Zahad nie padadzieny."
 
-#: kdesu.cpp:344
+#: kdesu.cpp:363
 msgid "Su returned with an error.\n"
 msgstr "Prahrama „su” viarnuła pamyłku.\n"
 
-#: kdesu.cpp:367
+#: kdesu.cpp:386
 msgid "Command:"
 msgstr "Zahad:"
 
-#: kdesu.cpp:375
+#: kdesu.cpp:394
 msgid "realtime: "
 msgstr "realny čas: "
 
-#: kdesu.cpp:378
+#: kdesu.cpp:397
 msgid "Priority:"
 msgstr "Važnaść:"
 
@@ -149,7 +153,7 @@ msgstr "Uklučy ad asoby „%1”"
 msgid "Please enter your password below."
 msgstr "Upišy nižej svoj parol."
 
-#: sudlg.cpp:37
+#: sudlg.cpp:38
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
 "<b>root's</b> password below or click Ignore to continue with your current "
@@ -159,7 +163,15 @@ msgstr ""
 "b>. Upišy nižej jahony parol albo klikni ŭ knopku „Abmini”, kab pakinuć "
 "dziejnyja dazvoły."
 
-#: sudlg.cpp:41
+#: sudlg.cpp:42
+msgid ""
+"The action you requested needs <b>root privileges</b>. Please enter "
+"<b>root's</b> password below."
+msgstr ""
+"Zapatrabavanaja aperacyja vymahaje <b>dazvołaŭ, jak u karystańnika „root”</"
+"b>. Upišy nižej jahony parol."
+
+#: sudlg.cpp:46
 #, kde-format
 msgid ""
 "The action you requested needs additional privileges. Please enter the "
@@ -170,49 +182,35 @@ msgstr ""
 "karystańnika <b>%1</b> albo klikni ŭ knopku „Abmini”, kab pakinuć dziejnyja "
 "dazvoły."
 
-#: sudlg.cpp:50
+#: sudlg.cpp:51
+#, kde-format
+msgid ""
+"The action you requested needs additional privileges. Please enter the "
+"password for <b>%1</b> below."
+msgstr ""
+"Zapatrabavanaja aperacyja vymahaje dadatkovych dazvołaŭ. Upišy nižej parol "
+"karystańnika <b>%1</b>."
+
+#: sudlg.cpp:60
 msgid "&Ignore"
 msgstr "&Abmini"
 
-#: sudlg.cpp:67
+#: sudlg.cpp:77
 msgid "Conversation with su failed."
 msgstr "Nie ŭdałosia spałučycca z prahramaj „su”."
 
-#: sudlg.cpp:74
+#: sudlg.cpp:84
 msgid ""
 "The program 'su' could not be found.<br />Ensure your PATH is set correctly."
 msgstr ""
 "Nie ŭdałosia znajści prahramu „su”.<br />Spraŭdź, ci adpaviadaje źmiennaja "
 "vartaść „$PATH” systemie."
 
-#: sudlg.cpp:85
+#: sudlg.cpp:95
 msgid "Incorrect password, please try again."
 msgstr "Niapravilny parol, kali łaska, paŭtary."
 
-#: sudlg.cpp:89
+#: sudlg.cpp:99
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr ""
 "Unutranaja pamyłka: zabaronieny zvarot z funkcyi „SuProcess::checkInstall()”"
-
-#~ msgctxt ""
-#~ "Transient means that the kdesu app will be attached to the app specified "
-#~ "by the winid so that its like a dialog box rather than some separate "
-#~ "program"
-#~ msgid "Makes the dialog transient for an X app specified by winid"
-#~ msgstr ""
-#~ "Prystasoŭvaje akno da aplikacyi systemy „X” z aznačanym identyfikataram "
-#~ "akna"
-
-#~ msgid ""
-#~ "The action you requested needs <b>root privileges</b>. Please enter "
-#~ "<b>root's</b> password below."
-#~ msgstr ""
-#~ "Zapatrabavanaja aperacyja vymahaje <b>dazvołaŭ, jak u karystańnika "
-#~ "„root”</b>. Upišy nižej jahony parol."
-
-#~ msgid ""
-#~ "The action you requested needs additional privileges. Please enter the "
-#~ "password for <b>%1</b> below."
-#~ msgstr ""
-#~ "Zapatrabavanaja aperacyja vymahaje dadatkovych dazvołaŭ. Upišy nižej "
-#~ "parol karystańnika <b>%1</b>."

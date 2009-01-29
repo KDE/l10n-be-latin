@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-10-03 23:27+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -35,37 +35,37 @@ msgstr "<qt>Šablonnaha fajła <b>%1</b> nie isnuje.</qt>"
 msgid "File name:"
 msgstr "Nazva fajła:"
 
-#: konq_copytomenu.cpp:74
+#: konq_copytomenu.cpp:78
 msgctxt "@title:menu"
 msgid "Copy To"
 msgstr "Skapijuj"
 
-#: konq_copytomenu.cpp:80
+#: konq_copytomenu.cpp:84
 msgctxt "@title:menu"
 msgid "Move To"
 msgstr "Pieraniasi"
 
-#: konq_copytomenu.cpp:104
+#: konq_copytomenu.cpp:108
 msgctxt "@title:menu"
 msgid "Home Folder"
 msgstr "Chatni kataloh"
 
-#: konq_copytomenu.cpp:111
+#: konq_copytomenu.cpp:115
 msgctxt "@title:menu"
 msgid "Root Folder"
 msgstr "Karaniovy kataloh"
 
-#: konq_copytomenu.cpp:116
+#: konq_copytomenu.cpp:120
 msgctxt "@title:menu in Copy To or Move To submenu"
 msgid "Browse..."
 msgstr "Ahladaj..."
 
-#: konq_copytomenu.cpp:179
+#: konq_copytomenu.cpp:185
 msgctxt "@title:menu"
 msgid "Copy Here"
 msgstr "Skapijuj siudy"
 
-#: konq_copytomenu.cpp:180
+#: konq_copytomenu.cpp:186
 msgctxt "@title:menu"
 msgid "Move Here"
 msgstr "Pieraniasi siudy"
@@ -75,7 +75,7 @@ msgstr "Pieraniasi siudy"
 #| msgctxt "@title:menu"
 #| msgid "&Actions"
 msgctxt "@title:menu"
-msgid "Actions"
+msgid "&Actions"
 msgstr "&Aperacyi"
 
 #: konq_menuactions.cpp:453
@@ -85,7 +85,7 @@ msgstr "&Adčyni"
 #: konq_menuactions.cpp:482
 #, fuzzy, kde-format
 #| msgid "Open &with %1"
-msgid "Open with %1"
+msgid "Open &with %1"
 msgstr "A&dčyni ŭ „%1”"
 
 #: konq_menuactions.cpp:496
@@ -96,86 +96,86 @@ msgstr "&Inšaje..."
 msgid "&Open With..."
 msgstr "&Adčyni..."
 
-#: konq_operations.cpp:264
+#: konq_operations.cpp:265
 msgid "You cannot drop a folder on to itself"
 msgstr "Nielha kinuć kataloh samoha ŭ siabie."
 
-#: konq_operations.cpp:305
+#: konq_operations.cpp:306
 msgid "File name for dropped contents:"
 msgstr "Nazva fajła dla kinutaha źmieściva:"
 
-#: konq_operations.cpp:487
+#: konq_operations.cpp:499
 msgid "&Move Here"
 msgstr "&Pieraniasi siudy"
 
-#: konq_operations.cpp:491
+#: konq_operations.cpp:503
 msgid "&Copy Here"
 msgstr "&Skapijuj siudy"
 
-#: konq_operations.cpp:495
+#: konq_operations.cpp:507
 msgid "&Link Here"
 msgstr "Z&łučy tut"
 
-#: konq_operations.cpp:497
+#: konq_operations.cpp:509
 msgid "Set as &Wallpaper"
 msgstr "Zrabi &špalerami rabočaha stała"
 
-#: konq_operations.cpp:499
+#: konq_operations.cpp:511
 msgid "C&ancel"
 msgstr "&Anuluj"
 
-#: konq_operations.cpp:673 konq_operations.cpp:675 konq_operations.cpp:677
+#: konq_operations.cpp:699 konq_operations.cpp:701 konq_operations.cpp:703
 msgid "New Folder"
 msgstr "Novy kataloh"
 
-#: konq_operations.cpp:678
+#: konq_operations.cpp:704
 msgid "Enter folder name:"
 msgstr "Upišy nazvy kataloha:"
 
-#: konq_popupmenu.cpp:227
+#: konq_popupmenu.cpp:232
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: konq_popupmenu.cpp:251
+#: konq_popupmenu.cpp:255
 msgid "Create &Folder..."
 msgstr "Stvary &kataloh..."
 
-#: konq_popupmenu.cpp:260
+#: konq_popupmenu.cpp:263
 msgid "&Restore"
 msgstr "&Uznavi"
 
-#: konq_popupmenu.cpp:302
+#: konq_popupmenu.cpp:305
 msgid "&Empty Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
-#: konq_popupmenu.cpp:328
+#: konq_popupmenu.cpp:331
 msgid "&Bookmark This Page"
 msgstr "Stvary &zakładku dla hetaj staronki"
 
-#: konq_popupmenu.cpp:330
+#: konq_popupmenu.cpp:333
 msgid "&Bookmark This Location"
 msgstr "Stvary &zakładku dla hetaha miesca"
 
-#: konq_popupmenu.cpp:333
+#: konq_popupmenu.cpp:336
 msgid "&Bookmark This Folder"
 msgstr "Stvary &zakładku dla hetaha kataloha"
 
-#: konq_popupmenu.cpp:335
+#: konq_popupmenu.cpp:338
 msgid "&Bookmark This Link"
 msgstr "Stvary &zakładku dla hetaha łuča"
 
-#: konq_popupmenu.cpp:337
+#: konq_popupmenu.cpp:340
 msgid "&Bookmark This File"
 msgstr "Stvary &zakładku dla hetaha fajła"
 
-#: konq_popupmenu.cpp:363
+#: konq_popupmenu.cpp:366
 msgid "Preview In"
 msgstr "Padhladaj"
 
-#: konq_popupmenu.cpp:389
+#: konq_popupmenu.cpp:392
 msgid "&Properties"
 msgstr "&Ułaścivaści"
 
-#: konq_popupmenu.cpp:402
+#: konq_popupmenu.cpp:405
 msgid "Share"
 msgstr "Zrabi supolnym"

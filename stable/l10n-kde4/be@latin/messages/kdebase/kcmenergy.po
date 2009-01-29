@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmenergy\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-11-04 13:12+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -62,10 +62,11 @@ msgstr "&Čakaj paśla:"
 msgid " min"
 msgstr " chvilin"
 
-#: energy.cpp:202 energy.cpp:213 energy.cpp:225
+#: energy.cpp:202
 #, fuzzy
 #| msgctxt "Disables display entering standby mode after x min"
 #| msgid "Disabled"
+msgctxt "Disables display entering standby mode after x min"
 msgid "Disabled"
 msgstr "Vyklučana"
 
@@ -81,6 +82,11 @@ msgstr ""
 msgid "S&uspend after:"
 msgstr "&Zaśni paśla:"
 
+#: energy.cpp:213
+msgctxt "Disables display entering suspend mode after x min"
+msgid "Disabled"
+msgstr "Vyklučana"
+
 #: energy.cpp:216
 msgid ""
 "Choose the period of inactivity after which the display should enter "
@@ -95,6 +101,11 @@ msgstr ""
 msgid "&Power off after:"
 msgstr "&Vyklučy paśla:"
 
+#: energy.cpp:225
+msgctxt "Disables display being turned off after x min"
+msgid "Disabled"
+msgstr "Vyklučana"
+
 #: energy.cpp:228
 msgid ""
 "Choose the period of inactivity after which the display should be powered "
@@ -104,11 +115,3 @@ msgstr ""
 "Vybiery termin biaździejnaści, paśla jakoha ekran pavinien vyklučycca. Heta "
 "najbolšy rovień zachoŭvańnia enerhii, jakoha možna siahnuć, nie adłučajučy "
 "ekran fizyčna ad siłkavańnia."
-
-#~ msgctxt "Disables display entering suspend mode after x min"
-#~ msgid "Disabled"
-#~ msgstr "Vyklučana"
-
-#~ msgctxt "Disables display being turned off after x min"
-#~ msgid "Disabled"
-#~ msgstr "Vyklučana"

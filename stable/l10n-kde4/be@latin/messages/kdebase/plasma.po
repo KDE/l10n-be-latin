@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:20+0100\n"
 "PO-Revision-Date: 2008-10-05 09:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,25 +18,37 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: dashboardview.cpp:61
+#: backgrounddialog.cpp:364
+msgid "Desktop Settings"
+msgstr "Nałady rabočaha stała"
+
+#: backgrounddialog.cpp:390
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr "Hetaja vyjava jość padhladam dla dziejnych naładaŭ."
+
+#: dashboardview.cpp:62
 msgid "Hide Dashboard"
 msgstr "Schavaj rabočuju placoŭku"
 
-#: dashboardview.cpp:93
-#, fuzzy
-#| msgid "Hide Dashboard"
-msgid "Plasma Dashboard"
-msgstr "Schavaj rabočuju placoŭku"
+#: dashboardview.cpp:94
+msgid "Widget Dashboard"
+msgstr "Placoŭka widžetaŭ"
 
-#: dashboardview.cpp:140 plasmaapp.cpp:423
+#: dashboardview.cpp:141 plasmaapp.cpp:554
 msgid "Add Widgets"
 msgstr "Dadaj widžetaŭ"
 
-#: desktopview.cpp:63
+#: desktopcorona.cpp:95
+msgid "Desktop"
+msgstr "Rabočy stoł"
+
+#: desktopview.cpp:83
 msgid "Next Activity"
 msgstr "Nastupnaja čynnaść"
 
-#: desktopview.cpp:68
+#: desktopview.cpp:88
 msgid "Previous Activity"
 msgstr "Papiaredniaja čynnaść"
 
@@ -68,131 +80,150 @@ msgstr "John Lions"
 msgid "In memory of his contributions, 1937-1998."
 msgstr "Pryśviačajecca za jahonuju dapamohu, 1937-1998."
 
-#: main.cpp:52
-msgid "Starts plasma as an ordinary window rather than as the desktop."
-msgstr "Uklučaje systemu „Plasma” ŭ asobnym aknie, a nie rabočym stałom."
+#: panelcontroller.cpp:389
+msgid "Panel Alignment"
+msgstr "Raŭnańnie panelaŭ"
 
-#: panelcontroller.cpp:354
-msgid "Align panel to left"
-msgstr ""
+#: panelcontroller.cpp:392 panelcontroller.cpp:657
+msgid "Left"
+msgstr "Źleva"
 
-#: panelcontroller.cpp:359
-msgid "Align panel to center"
-msgstr ""
+#: panelcontroller.cpp:398
+msgid "Center"
+msgstr "Pasiarod"
 
-#: panelcontroller.cpp:363
-msgid "Align panel to right"
-msgstr ""
+#: panelcontroller.cpp:403 panelcontroller.cpp:658
+msgid "Right"
+msgstr "Sprava"
 
-#: panelcontroller.cpp:371
+#: panelcontroller.cpp:414
+msgid "Visibility"
+msgstr "Vidočnaść"
+
+#: panelcontroller.cpp:417
+msgid "Always visible"
+msgstr "Zaŭždy vidać"
+
+#: panelcontroller.cpp:422
+msgid "Auto hide"
+msgstr "Aŭtamatyčna chavaj"
+
+#: panelcontroller.cpp:427
+msgid "Windows can cover"
+msgstr "Vokny mohuć zakryvać"
+
+#: panelcontroller.cpp:433
+msgid "Screen Edge"
+msgstr "Kraj ekrana"
+
+#: panelcontroller.cpp:439 panelcontroller.cpp:654
+msgid "Height"
+msgstr "Vyšynia"
+
+#: panelcontroller.cpp:449
+msgid "More Settings"
+msgstr "Bolš naładaŭ"
+
+#: panelcontroller.cpp:461
+msgid "Maximize Panel"
+msgstr "Zmaksymalizuj panel"
+
+#: panelcontroller.cpp:467
 msgid "Close this configuration window"
 msgstr "Začyni hetaje akno naładaŭ"
 
-#: plasmaapp.cpp:222
+#: panelcontroller.cpp:641
+msgid "Width"
+msgstr "Šyrynia"
+
+#: panelcontroller.cpp:644
+msgid "Top"
+msgstr "Uviersie"
+
+#: panelcontroller.cpp:645
+msgid "Bottom"
+msgstr "Unizie"
+
+#: plasmaapp.cpp:220
 msgid "Show Dashboard"
 msgstr "Pakažy rabočuju placoŭku"
 
-#: positioningruler.cpp:453
+#: positioningruler.cpp:460
 msgid "Move this slider to set the panel position"
 msgstr "Hetym rehulataram aznač miesca paneli"
 
-#: positioningruler.cpp:456
+#: positioningruler.cpp:463
 msgid "Move this slider to set the maximum panel size"
 msgstr "Hetym rehulataram aznač najbolšy pamier paneli"
 
-#: positioningruler.cpp:459
+#: positioningruler.cpp:466
 msgid "Move this slider to set the minimum panel size"
 msgstr "Hetym rehulataram aznač najmienšy pamier paneli"
 
-#: rc.cpp:1
+#. i18n: file: BackgroundDialog.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:3
+msgid "Desktop Activity"
+msgstr "Čynnaść na rabočym stale"
+
+#. i18n: file: BackgroundDialog.ui:41
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: BackgroundDialog.ui:244
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#: rc.cpp:6 rc.cpp:27
+msgid "Type:"
+msgstr "Typ:"
+
+#. i18n: file: BackgroundDialog.ui:92
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:9
+msgid "Monitor"
+msgstr "Nazirańnik"
+
+#. i18n: file: BackgroundDialog.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:12
+msgid "Name:"
+msgstr "Nazva:"
+
+#. i18n: file: BackgroundDialog.ui:159
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:15
+msgid "Desktop Theme"
+msgstr "Matyŭ rabočaha stała"
+
+#. i18n: file: BackgroundDialog.ui:172
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:18
+msgid "Theme:"
+msgstr "Matyŭ:"
+
+#. i18n: file: BackgroundDialog.ui:198
+#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
+#: rc.cpp:21
+msgid "New Theme..."
+msgstr "Novy matyŭ..."
+
+#. i18n: file: BackgroundDialog.ui:217
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
+#: rc.cpp:24
+msgid "Wallpaper"
+msgstr "Špalery"
+
+#: rc.cpp:28
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
-#: rc.cpp:2
+#: rc.cpp:29
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#~ msgid "Desktop Settings"
-#~ msgstr "Nałady rabočaha stała"
+#, fuzzy
+#~| msgid "Hide Dashboard"
+#~ msgid "Plasma Dashboard"
+#~ msgstr "Schavaj rabočuju placoŭku"
 
-#~ msgid ""
-#~ "This picture of a monitor contains a preview of what the current settings "
-#~ "will look like on your desktop."
-#~ msgstr "Hetaja vyjava jość padhladam dla dziejnych naładaŭ."
-
-#~ msgid "Widget Dashboard"
-#~ msgstr "Placoŭka widžetaŭ"
-
-#~ msgid "Desktop"
-#~ msgstr "Rabočy stoł"
-
-#~ msgid "Panel Alignment"
-#~ msgstr "Raŭnańnie panelaŭ"
-
-#~ msgid "Left"
-#~ msgstr "Źleva"
-
-#~ msgid "Center"
-#~ msgstr "Pasiarod"
-
-#~ msgid "Right"
-#~ msgstr "Sprava"
-
-#~ msgid "Visibility"
-#~ msgstr "Vidočnaść"
-
-#~ msgid "Always visible"
-#~ msgstr "Zaŭždy vidać"
-
-#~ msgid "Auto hide"
-#~ msgstr "Aŭtamatyčna chavaj"
-
-#~ msgid "Windows can cover"
-#~ msgstr "Vokny mohuć zakryvać"
-
-#~ msgid "Screen Edge"
-#~ msgstr "Kraj ekrana"
-
-#~ msgid "Height"
-#~ msgstr "Vyšynia"
-
-#~ msgid "More Settings"
-#~ msgstr "Bolš naładaŭ"
-
-#~ msgid "Maximize Panel"
-#~ msgstr "Zmaksymalizuj panel"
-
-#~ msgid "Width"
-#~ msgstr "Šyrynia"
-
-#~ msgid "Top"
-#~ msgstr "Uviersie"
-
-#~ msgid "Bottom"
-#~ msgstr "Unizie"
-
-#~ msgid "Desktop Activity"
-#~ msgstr "Čynnaść na rabočym stale"
-
-#~ msgid "Type:"
-#~ msgstr "Typ:"
-
-#~ msgid "Monitor"
-#~ msgstr "Nazirańnik"
-
-#~ msgid "Name:"
-#~ msgstr "Nazva:"
-
-#~ msgid "Desktop Theme"
-#~ msgstr "Matyŭ rabočaha stała"
-
-#~ msgid "Theme:"
-#~ msgstr "Matyŭ:"
-
-#~ msgid "New Theme..."
-#~ msgstr "Novy matyŭ..."
-
-#~ msgid "Wallpaper"
-#~ msgstr "Špalery"
+#~ msgid "Starts plasma as an ordinary window rather than as the desktop."
+#~ msgstr "Uklučaje systemu „Plasma” ŭ asobnym aknie, a nie rabočym stałom."

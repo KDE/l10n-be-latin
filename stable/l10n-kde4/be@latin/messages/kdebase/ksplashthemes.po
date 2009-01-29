@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksplashthemes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-12-27 00:05+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -65,137 +65,153 @@ msgstr "Vydali vyłučany matyŭ z tvajho dysku"
 msgid "This will remove the selected theme from your disk."
 msgstr "Hetaja aperacyja vydalić vyłučany matyŭ z tvajho dysku."
 
-#: installer.cpp:146
+#: installer.cpp:147
 msgid "Test Theme"
 msgstr "Pasprabuj matyŭ"
 
-#: installer.cpp:147
+#: installer.cpp:148
 msgid "Test the selected theme"
 msgstr "Pasprabuj vyłučany matyŭ"
 
-#: installer.cpp:148
+#: installer.cpp:149
 msgid "This will test the selected theme."
 msgstr "Hetaja aperacyja pakaža tabie vyłučany matyŭ."
 
-#: installer.cpp:343
+#: installer.cpp:364
 #, kde-format
 msgid "Delete folder %1 and its contents?"
 msgstr "Vydalić kataloh „%1” z usim jahonym źmieścivam?"
 
-#: installer.cpp:343
+#: installer.cpp:364
 msgid "&Delete"
 msgstr "&Vydali"
 
-#: installer.cpp:350
+#: installer.cpp:371
 #, kde-format
 msgid "Failed to remove theme '%1'"
 msgstr "Nie ŭdałosia vydalić matyŭ „%1”."
 
-#: installer.cpp:375 installer.cpp:443
+#: installer.cpp:396 installer.cpp:464
 msgid "(Could not load theme)"
 msgstr "(Nie ŭdałosia pračytać matyŭ u pamiać)"
 
-#: installer.cpp:407 installer.cpp:409 installer.cpp:411 installer.cpp:413
-#: installer.cpp:415
+#: installer.cpp:428
 #, fuzzy
+msgctxt "Unknown name"
 msgid "Unknown"
 msgstr "Nieviadomy"
 
-#: installer.cpp:407
+#: installer.cpp:428
 #, kde-format
 msgid "<b>Name:</b> %1"
 msgstr "<b>Nazva:</b> %1"
 
-#: installer.cpp:409
+#: installer.cpp:430
+#, fuzzy
+msgctxt "Unknown description"
+msgid "Unknown"
+msgstr "Nieviadomy"
+
+#: installer.cpp:430
 #, kde-format
 msgid "<b>Description:</b> %1"
 msgstr "<b>Apisańnie:</b> %1"
 
-#: installer.cpp:411
+#: installer.cpp:432
+#, fuzzy
+msgctxt "Unknown version"
+msgid "Unknown"
+msgstr "Nieviadomy"
+
+#: installer.cpp:432
 #, kde-format
 msgid "<b>Version:</b> %1"
 msgstr "<b>Versija:</b> %1"
 
-#: installer.cpp:413
+#: installer.cpp:434
+#, fuzzy
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr "Nieviadomy"
+
+#: installer.cpp:434
 #, kde-format
 msgid "<b>Author:</b> %1"
 msgstr "<b>Aŭtar:</b> %1"
 
-#: installer.cpp:415
+#: installer.cpp:436
+#, fuzzy
+msgctxt "Unknown homepage"
+msgid "Unknown"
+msgstr "Nieviadomy"
+
+#: installer.cpp:436
 #, kde-format
 msgid "<b>Homepage:</b> %1"
 msgstr "<b>Chatniaja staronka:</b> %1"
 
-#: installer.cpp:424
+#: installer.cpp:445
 #, kde-format
 msgid "This theme requires the plugin %1 which is not installed."
 msgstr "Hety matyŭ vymahaje plugina „%1”, jako niama ŭ systemie."
 
-#: installer.cpp:432
+#: installer.cpp:453
 msgid "Could not load theme configuration file."
 msgstr "Nie ŭdałosia pračytać fajł naładaŭ matyva ŭ pamiać."
 
-#: installer.cpp:452
+#: installer.cpp:473
 msgid "No preview available."
 msgstr "Niama padhladu."
 
-#: installer.cpp:476
+#: installer.cpp:497
 msgid "KSplash Theme Files"
 msgstr "Matyvy „KSplash”"
 
-#: installer.cpp:477
+#: installer.cpp:498
 msgid "Add Theme"
 msgstr "Dadaj matyŭ"
 
-#: installer.cpp:530
-msgid "Unable to start ksplashsimple."
-msgstr ""
-
-#: installer.cpp:538
-msgid "Unable to start ksplashx."
-msgstr ""
-
-#: installer.cpp:546
-msgid "Unable to start ksplash."
-msgstr ""
+#: installer.cpp:551 installer.cpp:559 installer.cpp:567
+msgid "Failed to successfully test the splash screen."
+msgstr "Nie ŭdałosia paśpiachova pasprabavać zastaŭku."
 
 #: main.cpp:61
 msgid "&Theme Installer"
 msgstr "&Instalatar matyvaŭ"
 
-#: main.cpp:70
+#: main.cpp:69
 msgid "KDE splash screen theme manager"
 msgstr "Kiraŭnik zastaŭki „KDE”"
 
-#: main.cpp:74
+#: main.cpp:73
 msgid "(c) 2003 KDE developers"
 msgstr "© 2003 Raspracoŭniki systemy „KDE”"
 
-#: main.cpp:75
+#: main.cpp:74
 msgid "Ravikiran Rajagopal"
 msgstr "Ravikiran Rajagopal"
 
-#: main.cpp:76
+#: main.cpp:75
 msgid "Brian Ledbetter"
 msgstr "Brian Ledbetter"
 
-#: main.cpp:76
+#: main.cpp:75
 msgid "Original KSplash/ML author"
 msgstr "Pieršy aŭtar prahramy „KSplash/ML”"
 
-#: main.cpp:77
+#: main.cpp:76
 msgid "KDE Theme Manager authors"
 msgstr "Aŭtary kiraŭnika matyvaŭ „KDE”"
 
-#: main.cpp:77
+#: main.cpp:76
 msgid "Original installer code"
 msgstr "Pieršy kod instalatara"
 
-#: main.cpp:79
+#: main.cpp:78
 msgid "Hans Karlsson"
 msgstr "Hans Karlsson"
 
-#: main.cpp:91
+#: main.cpp:90
 msgid ""
 "<h1>Splash Screen Theme Manager </h1> Install and view splash screen themes."
 msgstr "<h1>Kiraŭnik zastaŭki </h1> Instaluje j pakazvaje matyvy zastavak."
@@ -209,26 +225,3 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
-
-#, fuzzy
-#~ msgctxt "Unknown description"
-#~ msgid "Unknown"
-#~ msgstr "Nieviadomy"
-
-#, fuzzy
-#~ msgctxt "Unknown version"
-#~ msgid "Unknown"
-#~ msgstr "Nieviadomy"
-
-#, fuzzy
-#~ msgctxt "Unknown author"
-#~ msgid "Unknown"
-#~ msgstr "Nieviadomy"
-
-#, fuzzy
-#~ msgctxt "Unknown homepage"
-#~ msgid "Unknown"
-#~ msgstr "Nieviadomy"
-
-#~ msgid "Failed to successfully test the splash screen."
-#~ msgstr "Nie ŭdałosia paśpiachova pasprabavać zastaŭku."

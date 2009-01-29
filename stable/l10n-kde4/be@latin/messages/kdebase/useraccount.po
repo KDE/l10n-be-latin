@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-10-06 22:09+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -55,10 +55,6 @@ msgstr "Vybiery vyjavu"
 msgid "Change &Password..."
 msgstr "Źmiani &parol..."
 
-#: main.cpp:83
-msgid "kcm_useraccount"
-msgstr ""
-
 #: main.cpp:84
 msgid "Password & User Information"
 msgstr "Parol i źviestki pra karystańnika"
@@ -82,10 +78,6 @@ msgstr "Ravikiran Rajagopal"
 #: main.cpp:91
 msgid "Michael Häckel"
 msgstr "Michael Häckel"
-
-#: main.cpp:91
-msgid "haeckel@kde.org"
-msgstr ""
 
 #: main.cpp:93
 msgid "Braden MacDonald"
@@ -132,7 +124,7 @@ msgstr "Hermann Thomas"
 msgid ""
 "<qt>Here you can change your personal information, which will be used in "
 "mail programs and word processors, for example. You can change your login "
-"password by clicking <em>Change Password</em>.</qt>"
+"password by clicking <em>Change Password...</em>.</qt>"
 msgstr ""
 "<qt>Tut možna źmianić pryvatnyja źviestki, jakimi karystajucca paštary, "
 "tekstavyja redaktary dy inšyja prahramy. Svoj parol možna źmianić, kliknuŭšy "
@@ -225,104 +217,92 @@ msgstr "Nazva fajła z ułasnaj vyjavaju karystańnika"
 msgid "The user's login image"
 msgstr "Uvachodnaja vyjava karystańnika"
 
-#. i18n: file: kcm_useraccount.kcfg:40
-#. i18n: ectx: label, entry (CustomKey), group (X-*-Greeter)
-#: rc.cpp:21
-msgid "Sort key for K3IconViewItems"
-msgstr ""
-
 #. i18n: file: kcm_useraccount_pass.kcfg:9
 #. i18n: ectx: label, entry (EchoMode), group (Passwords)
-#: rc.cpp:24
+#: rc.cpp:21
 msgid "Password echo type"
 msgstr "Sposab vyjaŭleńnia parolaŭ"
 
-#. i18n: file: main_widget.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, MainWidget)
-#: rc.cpp:27
-msgid "KCMUserAccount"
-msgstr ""
-
-#. i18n: file: main_widget.ui:77
+#. i18n: file: main_widget.ui:74
 #. i18n: ectx: property (text), widget (QLabel, lblClickButtonInfo)
-#: rc.cpp:30
+#: rc.cpp:24
 #, fuzzy
 #| msgid "<i>Click to change your image</i>"
-msgid "<i>(Click the button to change your image)</i>"
+msgid "<i>Click to change your image</i>"
 msgstr "<i>(Klikni, kab źmianić vyjavu)</i>"
 
-#. i18n: file: main_widget.ui:94
-#. i18n: ectx: property (title), widget (QGroupBox, grpUserInformation)
-#: rc.cpp:33
-msgid "User Information"
-msgstr "Źviestki pra karystańnika"
-
-#. i18n: file: main_widget.ui:100
-#. i18n: ectx: property (text), widget (QLabel, lblRealName)
-#: rc.cpp:36
-msgid "&Name:"
-msgstr "&Imia:"
-
-#. i18n: file: main_widget.ui:120
-#. i18n: ectx: property (text), widget (QLabel, lblOrganisation)
-#: rc.cpp:39
-msgid "&Organization:"
-msgstr "&Ustanova:"
-
-#. i18n: file: main_widget.ui:140
-#. i18n: ectx: property (text), widget (QLabel, lblEmail)
-#: rc.cpp:42
-msgid "&Email address:"
-msgstr "&Adras e-maił:"
-
-#. i18n: file: main_widget.ui:160
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:45
-msgid "&SMTP server:"
-msgstr "&Server „SMTP”:"
-
-#. i18n: file: main_widget.ui:180
-#. i18n: ectx: property (text), widget (QLabel, lblUIDTell)
-#: rc.cpp:48
-msgid "User ID:"
-msgstr "Identyfikatar:"
-
-#. i18n: file: main_widget.ui:205
+#. i18n: file: main_widget.ui:89
 #. i18n: ectx: property (text), widget (KPushButton, btnChangePassword)
-#: rc.cpp:51
+#: rc.cpp:27
 msgid "Change Password..."
 msgstr "Źmiani parol..."
 
-#. i18n: file: main_widget.ui:230
+#. i18n: file: main_widget.ui:118
+#. i18n: ectx: property (title), widget (QGroupBox, grpUserInformation)
+#: rc.cpp:30
+msgid "User Information"
+msgstr "Źviestki pra karystańnika"
+
+#. i18n: file: main_widget.ui:124
+#. i18n: ectx: property (text), widget (QLabel, lblRealName)
+#: rc.cpp:33
+msgid "&Name:"
+msgstr "&Imia:"
+
+#. i18n: file: main_widget.ui:147
+#. i18n: ectx: property (text), widget (QLabel, lblOrganisation)
+#: rc.cpp:36
+msgid "&Organization:"
+msgstr "&Ustanova:"
+
+#. i18n: file: main_widget.ui:170
+#. i18n: ectx: property (text), widget (QLabel, lblEmail)
+#: rc.cpp:39
+msgid "&Email address:"
+msgstr "&Adras e-maił:"
+
+#. i18n: file: main_widget.ui:193
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:42
+msgid "&SMTP server:"
+msgstr "&Server „SMTP”:"
+
+#. i18n: file: main_widget.ui:216
+#. i18n: ectx: property (text), widget (QLabel, lblUIDTell)
+#: rc.cpp:45
+msgid "User ID:"
+msgstr "Identyfikatar:"
+
+#. i18n: file: main_widget.ui:242
 #. i18n: ectx: property (title), widget (KButtonGroup, kcfg_EchoMode)
-#: rc.cpp:54
+#: rc.cpp:48
 msgid "At Password Prompt"
 msgstr "Pry ŭpisańni parola"
 
-#. i18n: file: main_widget.ui:236
+#. i18n: file: main_widget.ui:248
 #. i18n: ectx: property (text), widget (QRadioButton, rdbOneStar)
-#: rc.cpp:57
+#: rc.cpp:51
 msgid "Show one star for each letter"
 msgstr "Pakazvaj adnu zoračku dla kožnaj litary"
 
-#. i18n: file: main_widget.ui:243
+#. i18n: file: main_widget.ui:255
 #. i18n: ectx: property (text), widget (QRadioButton, rdbThreeStars)
-#: rc.cpp:60
+#: rc.cpp:54
 msgid "Show three stars for each letter"
 msgstr "Pakazvaj try zorački dla kožnaj litary"
 
-#. i18n: file: main_widget.ui:250
+#. i18n: file: main_widget.ui:262
 #. i18n: ectx: property (text), widget (QRadioButton, rdbShowPassword)
-#: rc.cpp:63
+#: rc.cpp:57
 msgid "Show nothing"
 msgstr "Ničoha nie pakazvaj"
 
-#: rc.cpp:64
+#: rc.cpp:58
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
-#: rc.cpp:65
+#: rc.cpp:59
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"

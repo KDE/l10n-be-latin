@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-29 19:04+0000\n"
+"POT-Creation-Date: 2009-01-31 10:51+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -54,7 +54,7 @@ msgctxt "Name"
 msgid "Dolphin General"
 msgstr "Vyhlad „Dolphin”"
 
-#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:2
+#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:3
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
@@ -62,14 +62,14 @@ msgctxt "Comment"
 msgid "This service allows configuration of general Dolphin settings."
 msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
-#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:14
+#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:15
 #: apps/konqueror/settings/konqhtml/khtml_general.desktop:12
 #: workspace/systemsettings/categories/settings-general.desktop:8
 msgctxt "Name"
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:88
+#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:89
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -7678,12 +7678,12 @@ msgid ""
 "Allows the manipulation of widget behavior and changing the Style for KDE"
 msgstr "Źmiena pavodzinaŭ widžetaŭ i styla dla systemy KDE"
 
-#: workspace/kcontrol/xinerama/xinerama.desktop:14
+#: workspace/kcontrol/xinerama/xinerama.desktop:17
 msgctxt "Name"
 msgid "Multiple Monitors"
 msgstr "Niekalki manitoraŭ"
 
-#: workspace/kcontrol/xinerama/xinerama.desktop:93
+#: workspace/kcontrol/xinerama/xinerama.desktop:96
 msgctxt "Comment"
 msgid "Configure KDE for multiple monitors"
 msgstr "Nałady niekalkich manitoraŭ dla systemy KDE"
@@ -9321,6 +9321,17 @@ msgctxt "Name"
 msgid "Test_Thumbnail"
 msgstr ""
 
+#: workspace/kwin/effects/test/videorecord.desktop:2
+#: workspace/kwin/effects/test/videorecord_config.desktop:9
+msgctxt "Name"
+msgid "Video Record"
+msgstr "Videazapis"
+
+#: workspace/kwin/effects/test/videorecord.desktop:72
+msgctxt "Comment"
+msgid "Record a video of your desktop"
+msgstr "Zapisvaje videa z rabočaha stała."
+
 #: workspace/kwin/effects/thumbnailaside.desktop:2
 #: workspace/kwin/effects/thumbnailaside_config.desktop:9
 msgctxt "Name"
@@ -9342,17 +9353,6 @@ msgstr "Vyjaŭleńnie kursora"
 msgctxt "Comment"
 msgid "Display a mouse cursor locating effect when activated"
 msgstr "Vyjaŭlaje miesca kursora."
-
-#: workspace/kwin/effects/videorecord.desktop:2
-#: workspace/kwin/effects/videorecord_config.desktop:9
-msgctxt "Name"
-msgid "Video Record"
-msgstr "Videazapis"
-
-#: workspace/kwin/effects/videorecord.desktop:72
-msgctxt "Comment"
-msgid "Record a video of your desktop"
-msgstr "Zapisvaje videa z rabočaha stała."
 
 #: workspace/kwin/effects/wobblywindows.desktop:2
 #: workspace/kwin/effects/wobblywindows_config.desktop:9
@@ -10564,7 +10564,7 @@ msgctxt "Name"
 msgid "Tiger"
 msgstr "Tyhra"
 
-#: workspace/plasma/scriptengines/javascript/tests/tiger/metadata.desktop:39
+#: workspace/plasma/scriptengines/javascript/tests/tiger/metadata.desktop:38
 msgctxt "Comment"
 msgid "A Script Adaptor"
 msgstr ""
@@ -10629,7 +10629,7 @@ msgctxt "Name"
 msgid "Ruby Analog Clock"
 msgstr "Analahavy hadzińnik u movie „Ruby”"
 
-#: workspace/plasma/scriptengines/ruby/examples/applets/tiger/metadata.desktop:38
+#: workspace/plasma/scriptengines/ruby/examples/applets/tiger/metadata.desktop:37
 msgctxt "Comment"
 msgid "An example of displaying an SVG"
 msgstr "Uzro vyjaŭleńnia „SVG”"

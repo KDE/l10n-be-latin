@@ -34,17 +34,11 @@ msgid "Moving"
 msgstr "Pieraniasieńnie"
 
 #: kio/job.cpp:136 kio/job.cpp:143 kio/job.cpp:168 kio/fileundomanager.cpp:120
-#, fuzzy
-#| msgctxt "The source of a file operation"
-#| msgid "Source"
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "Krynica"
 
 #: kio/job.cpp:137 kio/job.cpp:144 kio/fileundomanager.cpp:121
-#, fuzzy
-#| msgctxt "The destination of a file operation"
-#| msgid "Destination"
 msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr "Meta"
@@ -264,8 +258,6 @@ msgid "&Write Into All"
 msgstr "&Zapišy ŭsiudy"
 
 #: kio/renamedialog.cpp:128
-#, fuzzy
-#| msgid "&Overwrite All"
 msgid "&Overwrite All"
 msgstr "&Nadpišy ŭsio"
 
@@ -545,8 +537,6 @@ msgstr[1] "%1 dni %2"
 msgstr[2] "%1 dzion %2"
 
 #: kio/global.cpp:121
-#, fuzzy
-#| msgid "0 Items"
 msgid "0 Items"
 msgstr "Niama elementaŭ"
 
@@ -559,9 +549,7 @@ msgstr[1] "%1 katalohi"
 msgstr[2] "%1 katalohaŭ"
 
 #: kio/global.cpp:126
-#, fuzzy, kde-format
-#| msgid "1 file"
-#| msgid_plural "%1 files"
+#, kde-format
 msgid "1 File"
 msgid_plural "%1 Files"
 msgstr[0] "%1 fajł"
@@ -569,9 +557,7 @@ msgstr[1] "%1 fajły"
 msgstr[2] "%1 fajłaŭ"
 
 #: kio/global.cpp:129
-#, fuzzy, kde-format
-#| msgctxt "folders, files (size)"
-#| msgid "%1, %2 (%3)"
+#, kde-format
 msgctxt "folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
@@ -589,10 +575,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: kio/global.cpp:138
-#, fuzzy, kde-format
-#| msgctxt "Items in a folder"
-#| msgid "1 item"
-#| msgid_plural "%1 items"
+#, kde-format
 msgid "1 Item"
 msgid_plural "%1 Items"
 msgstr[0] "%1 element"
@@ -5430,12 +5413,6 @@ msgid "All Supported Files"
 msgstr "Fajły, jakija padtrymvajucca"
 
 #: ../kfile/kfilewidget.cpp:284
-#, fuzzy
-#| msgid ""
-#| "<qt>While typing in the text area, you may be presented with possible "
-#| "matches. This feature can be controlled by clicking with the right mouse "
-#| "button and selecting a preferred mode from the <b>Text Completion</b> "
-#| "menu.</qt>"
 msgid ""
 "<qt>While typing in the text area, you may be presented with possible "
 "matches. This feature can be controlled by clicking with the right mouse "
@@ -6051,28 +6028,10 @@ msgstr "Pakažy ŭsiu ściežku"
 #~ msgstr "Paradak"
 
 #, fuzzy
-#~| msgid "1 Item"
-#~| msgid_plural "%1 Items"
-#~ msgid "One Item"
-#~ msgid_plural "%1 Items"
-#~ msgstr[0] "%1 element"
-#~ msgstr[1] "%1 elementy"
-#~ msgstr[2] "%1 elementaŭ"
-
-#, fuzzy
 #~| msgid "1 File"
 #~| msgid_plural "%1 Files"
 #~ msgid "No Files"
 #~ msgstr "%1 fajł"
-
-#, fuzzy
-#~| msgid "1 File"
-#~| msgid_plural "%1 Files"
-#~ msgid "One File"
-#~ msgid_plural "%1 Files"
-#~ msgstr[0] "%1 fajł"
-#~ msgstr[1] "%1 fajły"
-#~ msgstr[2] "%1 fajłaŭ"
 
 #, fuzzy
 #~| msgid "New Folder"
@@ -6086,13 +6045,6 @@ msgstr "Pakažy ŭsiu ściežku"
 #~ msgstr[0] "Novy kataloh"
 #~ msgstr[1] "Novy kataloh"
 #~ msgstr[2] "Novy kataloh"
-
-#, fuzzy
-#~| msgctxt "folders, files (size)"
-#~| msgid "%1, %2 (%3)"
-#~ msgctxt "Items (Folders, Files), Size"
-#~ msgid "%1 (%2, %3), %4"
-#~ msgstr "%1, %2 (%3)"
 
 #, fuzzy
 #~| msgid "Location:"

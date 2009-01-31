@@ -94,8 +94,6 @@ msgid "Added NTP support"
 msgstr "Dadaŭ absłuhoŭvańnie „NTP”"
 
 #: main.cpp:112
-#, fuzzy
-#| msgid "Failed to set system date/time/time zone."
 msgid "Failed to set system date/time/time zone."
 msgstr "Nie ŭdałosia nastavić datu, čas i časavy pojas dla ŭsioj systemy."
 
@@ -114,27 +112,20 @@ msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
 #: tzone.cpp:65
-#, fuzzy
-#| msgid "To change the local time zone, select your area from the list below"
 msgid "To change the local time zone, select your area from the list below"
 msgstr ""
 "Kab źmianić miascovy časavy pojas, vybiery ź nižejšaha śpisu svajo miesca "
 "pałažeńnia."
 
 #: tzone.cpp:95
-#, fuzzy, kde-format
-#| msgid "Current local time zone: %1 (%2)"
+#, kde-format
 msgid "Current local time zone: %1 (%2)"
 msgstr "Dziejny miascovy časavy pojas: %1 (%2)"
 
 #: tzone.cpp:120
-#, fuzzy
-#| msgid "Error setting new time zone."
 msgid "Error setting new time zone."
 msgstr "Padčas nastaŭleńnia novaha časavaha pojasu ŭźnikła pamyłka."
 
 #: tzone.cpp:121
-#, fuzzy
-#| msgid "Time zone Error"
 msgid "Time zone Error"
 msgstr "Pamyłka časavaha pojasu"

@@ -626,10 +626,6 @@ msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr "naprykład, „ssh -l root remote.host.org ksysguardd”"
 
 #: Workspace.cc:47
-#, fuzzy
-#| msgid ""
-#| "This is your work space. It holds your tabs. You need to create a new tab "
-#| "(Menu File->New) before you can drag sensors here."
 msgid ""
 "This is your work space. It holds your tabs. You need to create a new tab "
 "(Menu File->New) before you can drag sensors here."
@@ -643,10 +639,7 @@ msgid "Sheet %1"
 msgstr "Arkuš „%1”"
 
 #: Workspace.cc:162
-#, fuzzy, kde-format
-#| msgid ""
-#| "The tab '%1' contains unsaved data.\n"
-#| "Do you want to save the tab?"
+#, kde-format
 msgid ""
 "The tab '%1' contains unsaved data.\n"
 "Do you want to save the tab?"
@@ -655,20 +648,14 @@ msgstr ""
 "Chočaš ich zapisać?"
 
 #: Workspace.cc:177
-#, fuzzy
-#| msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgstr "*.sgrd|Fajły sensaraŭ (*.sgrd)"
 
 #: Workspace.cc:177
-#, fuzzy
-#| msgid "Select Tab File to Import"
 msgid "Select Tab File to Import"
 msgstr "Vybiery fajł kartak, kab zimpartavać jaho"
 
 #: Workspace.cc:205 Workspace.cc:226
-#, fuzzy
-#| msgid "You do not have a tab that could be saved."
 msgid "You do not have a tab that could be saved."
 msgstr "U ciabie niama kartki, jakuju možna zapisać."
 
@@ -677,8 +664,6 @@ msgid "Export Tab"
 msgstr "Zekspartuj kartku"
 
 #: Workspace.cc:251
-#, fuzzy
-#| msgid "There are no tabs that could be deleted."
 msgid "There are no tabs that could be deleted."
 msgstr "U ciabie niama kartak, jakija možna vydalić."
 
@@ -1424,8 +1409,6 @@ msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
 #: ksysguard.cc:155
-#, fuzzy
-#| msgid "Monitor &Remote Machine..."
 msgid "Monitor &Remote Machine..."
 msgstr "Naziraj za &dalokim kamputaram..."
 

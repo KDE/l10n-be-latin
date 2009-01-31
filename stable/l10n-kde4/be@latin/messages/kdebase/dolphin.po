@@ -99,16 +99,13 @@ msgstr[1] "Vyłučanyja %1 katalohi"
 msgstr[2] "Vyłučanyja %1 katalohaŭ"
 
 #: dolphinview.cpp:560
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "1 Folder selected"
-#| msgid_plural "%1 Folders selected"
+#, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
 msgid_plural "%1 Files selected"
-msgstr[0] "Vyłučany %1 kataloh"
-msgstr[1] "Vyłučanyja %1 katalohi"
-msgstr[2] "Vyłučanyja %1 katalohaŭ"
+msgstr[0] "Vyłučany %1 fajł"
+msgstr[1] "Vyłučanyja %1 fajły"
+msgstr[2] "Vyłučanyja %1 fajłaŭ"
 
 #: dolphinview.cpp:562
 #, kde-format
@@ -490,9 +487,6 @@ msgid "File Manager"
 msgstr "Fajłavy kiraŭnik"
 
 #: main.cpp:38
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2008 Peter Penz"
 msgctxt "@info:credit"
 msgid "(C) 2006-2008 Peter Penz"
 msgstr "© 2006-2008 Peter Penz"
@@ -885,17 +879,11 @@ msgid "All settings will be reset to default values. Do you want to continue?"
 msgstr "Usie nałady viernucca da zmoŭčanych vartaściaŭ. Praciahnuć?"
 
 #: commentwidget.cpp:55
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Add Comment..."
 msgctxt "@label"
 msgid "Add Comment..."
 msgstr "Dadaj kamentar..."
 
 #: commentwidget.cpp:58
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change Comment..."
 msgctxt "@label"
 msgid "Change Comment..."
 msgstr "Źmiani kamentar..."
@@ -957,9 +945,6 @@ msgid "with optional icon and description"
 msgstr "z mahčymaj ikonaj i apisańniem"
 
 #: tagcloud/resourcetaggingwidget.cpp:122
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change Tags..."
 msgctxt "@label"
 msgid "Change Tags..."
 msgstr "Źmiani tagi..."
@@ -1515,9 +1500,6 @@ msgstr "Nazva:"
 #. i18n: file: tagcloud/newtagdialog.ui:82
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:332
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Detailed description (optional):"
 msgctxt "@label"
 msgid "Detailed description (optional):"
 msgstr "Detalnaje apisańnie (možna nie pisać):"
@@ -1603,9 +1585,6 @@ msgid "Stop"
 msgstr "Spyni"
 
 #: dolphinmainwindow.cpp:1036
-#, fuzzy
-#| msgctxt "@action:inmenu Navigation Bar"
-#| msgid "Editable Location"
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "Źmiennaje miesca"
@@ -2027,17 +2006,6 @@ msgstr "Hrupa"
 msgctxt "@option:check Additional Information"
 msgid "Type"
 msgstr "Typ"
-
-#, fuzzy
-#~| msgctxt "@info:status"
-#~| msgid "1 File selected"
-#~| msgid_plural "%1 Files selected"
-#~ msgctxt "@info:status"
-#~ msgid "1 File selected (%2)"
-#~ msgid_plural "%1 Files selected (%2)"
-#~ msgstr[0] "Vyłučany %1 fajł"
-#~ msgstr[1] "Vyłučanyja %1 fajły"
-#~ msgstr[2] "Vyłučanyja %1 fajłaŭ"
 
 #, fuzzy
 #~| msgctxt "@label"

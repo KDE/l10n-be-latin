@@ -46,11 +46,6 @@ msgid "Display"
 msgstr "Vyjaŭleńnie"
 
 #: folderview.cpp:483
-#, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose how to filter the folderview "
-#| "contents"
-#| msgid "Filter"
 msgctxt ""
 "Title of the page that lets the user choose how to filter the folderview "
 "contents"
@@ -62,8 +57,6 @@ msgid "&Paste"
 msgstr "&Uklej"
 
 #: folderview.cpp:1015
-#, fuzzy
-#| msgid "Desktop Folder"
 msgid "Desktop Folder"
 msgstr "Kataloh stała"
 
@@ -415,10 +408,8 @@ msgstr "Chavaj adpaviednyja fajły"
 #. i18n: file: folderviewFilterConfig.ui:126
 #. i18n: ectx: property (text), widget (QPushButton, selectAll)
 #: rc.cpp:103
-#, fuzzy
-#| msgid "Deselect All"
 msgid "Select All"
-msgstr "Anuluj vyłučeńnie ŭsiaho"
+msgstr "Vyłučy ŭsio"
 
 #. i18n: file: folderviewFilterConfig.ui:133
 #. i18n: ectx: property (text), widget (QPushButton, deselectAll)
@@ -447,8 +438,6 @@ msgstr "Šablon nazvaŭ fajłaŭ:"
 #. i18n: file: folderviewFilterConfig.ui:187
 #. i18n: ectx: property (toolTip), widget (KLineEdit, filterFilesPattern)
 #: rc.cpp:118
-#, fuzzy
-#| msgid "Space-separated list of extensions, e.g. *.txt *.od*"
 msgid "Space-separated list of extensions, e.g. *.txt *.od*"
 msgstr ""
 "Śpis pašyreńniaŭ fajłaŭ, naprykład, „*.txt *.od*”, padzieleny prabiełami"
@@ -456,10 +445,6 @@ msgstr ""
 #. i18n: file: folderviewFilterConfig.ui:190
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, filterFilesPattern)
 #: rc.cpp:121
-#, fuzzy
-#| msgid ""
-#| "Space-separated list of extensions, e.g. *.txt *.od* to display only "
-#| "office- and text-files"
 msgid ""
 "Space-separated list of extensions, e.g. *.txt *.od* to display only office- "
 "and text-files"
@@ -476,8 +461,6 @@ msgstr "Šablonny filter"
 #. i18n: file: folderviewLocationConfig.ui:16
 #. i18n: ectx: property (text), widget (QRadioButton, showDesktopFolder)
 #: rc.cpp:127
-#, fuzzy
-#| msgid "Show the Desktop folder"
 msgid "Show the Desktop folder"
 msgstr "Pakazvaj kataloh stała"
 
@@ -504,16 +487,6 @@ msgstr "Tut upišy ściežku ci adras."
 #: rc.cpp:139
 msgid "Check the file types you want icon previews for:"
 msgstr "Aznač typy fajłaŭ, dla jakich treba pakazvać padhlady:"
-
-#, fuzzy
-#~| msgid "Show the Desktop folder"
-#~ msgid "Show a custom folder"
-#~ msgstr "Pakazvaj kataloh stała"
-
-#, fuzzy
-#~| msgid "Select All"
-#~ msgid "Select:"
-#~ msgstr "Vyłučy ŭsio"
 
 #~ msgid ""
 #~ "<html><body><b>Note: The Desktop folder currently does not exist.<br />If "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-31 11:38+0100\n"
+"POT-Creation-Date: 2009-02-01 11:27+0100\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -51,38 +51,33 @@ msgstr "Nie ŭdałosia zapisać fajł „%1”."
 msgid "The clipboard does not contain a valid display description."
 msgstr "Abmienny bufer nie źmiaščaje słušnaha apisańnia prahladu."
 
-#: WorkSheet.cc:340
+#: WorkSheet.cc:382
 msgid "Select Display Type"
 msgstr "Vybiery typ prahladu"
 
-#: WorkSheet.cc:341
+#: WorkSheet.cc:383
 msgid "&Line graph"
 msgstr "&Hrafik"
 
-#: WorkSheet.cc:342
+#: WorkSheet.cc:384
 msgid "&Digital display"
 msgstr "&Ličby"
 
-#: WorkSheet.cc:343
+#: WorkSheet.cc:385
 msgid "&Bar graph"
 msgstr "&Pałosy"
 
-#: WorkSheet.cc:344
+#: WorkSheet.cc:386
 msgid "Log to a &file"
 msgstr "Zapisvaj logi ŭ &fajł"
 
-#: WorkSheet.cc:513
+#: WorkSheet.cc:546
 msgid "Do you really want to delete the display?"
 msgstr "Sapraŭdy chočaš vydalić hety prahlad?"
 
-#: WorkSheet.cc:514
+#: WorkSheet.cc:547
 msgid "Delete Display"
 msgstr "Vydali prahlad"
-
-#: WorkSheet.cc:533 WorkSheet.cc:536 WorkSheet.cc:538 WorkSheet.cc:540
-#: WorkSheet.cc:542 WorkSheet.cc:544
-msgid "Dummy"
-msgstr "Pusty"
 
 #: ksgrd/SensorAgent.cc:109
 #, fuzzy, kde-format
@@ -1385,49 +1380,49 @@ msgstr ""
 "źviestki ź niekalkich sensaraŭ. Dziela hetaha prosta pieraciahvaj "
 "dadatkovyja sensary."
 
-#: ksysguard.cc:74
+#: ksysguard.cc:73
 msgid "KDE System Monitor"
 msgstr "Systemny nazirańnik „KDE”"
 
-#: ksysguard.cc:156 ksysguard.cc:530
+#: ksysguard.cc:155 ksysguard.cc:527
 msgid "System Monitor"
 msgstr "Systemny nazirańnik"
 
-#: ksysguard.cc:157
+#: ksysguard.cc:156
 msgid "&New Tab..."
 msgstr "&Novaja kartka..."
 
-#: ksysguard.cc:158
+#: ksysguard.cc:157
 msgid "Import Tab Fr&om File..."
 msgstr "Z&impartuj kartku z fajła..."
 
-#: ksysguard.cc:159
+#: ksysguard.cc:158
 msgid "Save Tab &As..."
 msgstr "Zapišy kartku &jak..."
 
-#: ksysguard.cc:160
+#: ksysguard.cc:159
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
-#: ksysguard.cc:161
+#: ksysguard.cc:160
 msgid "Monitor &Remote Machine..."
 msgstr "Naziraj za &dalokim kamputaram..."
 
-#: ksysguard.cc:162
+#: ksysguard.cc:161
 msgid "&Download New Tabs..."
 msgstr "&Vaźmi novych kartak..."
 
-#: ksysguard.cc:163
+#: ksysguard.cc:162
 #, fuzzy
 #| msgid "&Download New Tabs..."
 msgid "&Upload Current Tab..."
 msgstr "&Vaźmi novych kartak..."
 
-#: ksysguard.cc:165
+#: ksysguard.cc:164
 msgid "Tab &Properties"
 msgstr "&Ułaścivaści kartki"
 
-#: ksysguard.cc:438
+#: ksysguard.cc:435
 #, fuzzy, kde-format
 msgid " 1 process "
 msgid_plural " %1 processes "
@@ -1435,81 +1430,81 @@ msgstr[0] " %1 pracesaŭ "
 msgstr[1] " %1 pracesaŭ "
 msgstr[2] " %1 pracesaŭ "
 
-#: ksysguard.cc:444
+#: ksysguard.cc:441
 #, fuzzy, kde-format
 msgid " CPU: %1% "
 msgstr " Pracesar: %1% "
 
-#: ksysguard.cc:458
+#: ksysguard.cc:455
 #, fuzzy, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Memory: %1 / %2 "
 msgstr " Pamiać: %1 / %2 "
 
-#: ksysguard.cc:485
+#: ksysguard.cc:482
 #, fuzzy
 msgid " No swap space available "
 msgstr " Niama pamiaci na padmien "
 
-#: ksysguard.cc:487
+#: ksysguard.cc:484
 #, fuzzy, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Swap: %1 / %2 "
 msgstr " Padmien: %1 / %2 "
 
-#: ksysguard.cc:532
+#: ksysguard.cc:529
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "© 1996-2008 Raspracoŭniki prahramy „Systemny nazirańnik KDE”"
 
-#: ksysguard.cc:533
+#: ksysguard.cc:530
 msgid "John Tapsell"
 msgstr "John Tapsell"
 
-#: ksysguard.cc:533
+#: ksysguard.cc:530
 msgid "Current Maintainer"
 msgstr "Ciapierašni dahladnik"
 
-#: ksysguard.cc:534
+#: ksysguard.cc:531
 msgid "Chris Schlaeger"
 msgstr "Chris Schlaeger"
 
-#: ksysguard.cc:534
+#: ksysguard.cc:531
 msgid "Previous Maintainer"
 msgstr "Były dahladnik"
 
-#: ksysguard.cc:535
+#: ksysguard.cc:532
 msgid "Greg Martyn"
 msgstr "Greg Martyn"
 
-#: ksysguard.cc:536
+#: ksysguard.cc:533
 msgid "Tobias Koenig"
 msgstr "Tobias Koenig"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:534
 msgid "Nicolas Leclercq"
 msgstr "Nicolas Leclercq"
 
-#: ksysguard.cc:538
+#: ksysguard.cc:535
 msgid "Alex Sanda"
 msgstr "Alex Sanda"
 
-#: ksysguard.cc:539
+#: ksysguard.cc:536
 msgid "Bernd Johannes Wuebben"
 msgstr "Bernd Johannes Wuebben"
 
-#: ksysguard.cc:540
+#: ksysguard.cc:537
 msgid "Ralf Mueller"
 msgstr "Ralf Mueller"
 
-#: ksysguard.cc:541
+#: ksysguard.cc:538
 msgid "Hamish Rodda"
 msgstr "Hamish Rodda"
 
-#: ksysguard.cc:542
+#: ksysguard.cc:539
 msgid "Torsten Kasch"
 msgstr "Torsten Kasch"
 
-#: ksysguard.cc:542
+#: ksysguard.cc:539
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
@@ -1519,9 +1514,12 @@ msgstr ""
 "Častkova kod uziaty (z dazvołam) z modula prahramy „top”\n"
 "ad William'a LeFebvre'a dla systemy „sunos5”."
 
-#: ksysguard.cc:551
+#: ksysguard.cc:548
 msgid "Optional worksheet files to load"
 msgstr "Dadatkovyja fajły rabočych arkušoŭ"
+
+#~ msgid "Dummy"
+#~ msgstr "Pusty"
 
 #~ msgid "System Guard Applet Settings"
 #~ msgstr "Nałady apleta systemnaha vartaŭnika"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-31 11:37+0100\n"
+"POT-Creation-Date: 2009-02-02 11:19+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6621,6 +6621,9 @@ msgstr ""
 "kab jaho źmianić."
 
 #: kdeui/dialogs/kbugreport.cpp:130
+#, fuzzy
+#| msgid "From:"
+msgctxt "Email sender address"
 msgid "From:"
 msgstr "Ad:"
 
@@ -6633,6 +6636,9 @@ msgid "The email address this bug report is sent to."
 msgstr "Paštovy adras, kudy vysyłajecca hetaje paviedamleńnie."
 
 #: kdeui/dialogs/kbugreport.cpp:147
+#, fuzzy
+#| msgid "To:"
+msgctxt "Email receiver address"
 msgid "To:"
 msgstr "Da:"
 
@@ -8213,6 +8219,9 @@ msgid "Enter a search term or character here"
 msgstr "Vybiery znak albo tekst dla pošuku"
 
 #: kdeui/widgets/kcharselect.cpp:354
+#, fuzzy
+#| msgid "Back"
+msgctxt "Goes to previous character"
 msgid "Back"
 msgstr "Nazad"
 
@@ -8221,6 +8230,9 @@ msgid "Previous Character"
 msgstr "Papiaredni znak"
 
 #: kdeui/widgets/kcharselect.cpp:361
+#, fuzzy
+#| msgid "Forward"
+msgctxt "Goes to next character"
 msgid "Forward"
 msgstr "Dalej"
 
@@ -11141,12 +11153,12 @@ msgstr "Słužba „%1” zapsavanaja."
 msgid "Launching %1"
 msgstr "Uklučeńnie %1"
 
-#: kinit/klauncher.cpp:1108
+#: kinit/klauncher.cpp:1110
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Nieviadomy pratakoł „%1”.\n"
 
-#: kinit/klauncher.cpp:1169
+#: kinit/klauncher.cpp:1171
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "Pamyłka ŭ źmiaščeńni ŭ pamiać „%1”.\n"

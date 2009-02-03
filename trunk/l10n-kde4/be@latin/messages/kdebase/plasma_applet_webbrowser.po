@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_webbrowser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-02-03 11:13+0100\n"
 "PO-Revision-Date: 2008-10-24 22:21+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -30,17 +30,11 @@ msgstr "Dyjaloh"
 msgid "Auto refresh:"
 msgstr "Aŭtamatyčna aktualizuj:"
 
-#. i18n: file: webbrowserconfig.ui:48
+#. i18n: file: webbrowserconfig.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:9
 msgid "Interval:"
 msgstr "Intervał:"
-
-#. i18n: file: webbrowserconfig.ui:55
-#. i18n: ectx: property (suffix), widget (QSpinBox, autoRefreshInterval)
-#: rc.cpp:12
-msgid "minutes"
-msgstr "chvilin"
 
 #: webbrowser.cpp:376
 #, kde-format
@@ -56,3 +50,12 @@ msgstr "Vydali zakładku"
 #: webbrowser.cpp:475
 msgid "General"
 msgstr "Hałoŭnaje"
+
+#: webbrowser.cpp:487
+#, fuzzy
+#| msgid "minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "chvilin"
+msgstr[1] "chvilin"
+msgstr[2] "chvilin"

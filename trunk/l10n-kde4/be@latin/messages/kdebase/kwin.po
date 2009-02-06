@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-04 12:03+0100\n"
+"POT-Creation-Date: 2009-02-06 10:59+0100\n"
 "PO-Revision-Date: 2008-12-27 14:55+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -740,125 +740,6 @@ msgstr ""
 "karystajsia menu aperacyjaŭ akna, jakoje ŭklučajecca klavijaturnym skarotam "
 "„%1”."
 
-#: effects/cube.cpp:90 effects/cube_config.cpp:61
-#: effects/cylinder_config.cpp:61 effects/sphere_config.cpp:61
-msgid "Desktop Cube"
-msgstr "Rabočy kub"
-
-#: effects/cube_config.cpp:53 effects/cylinder_config.cpp:53
-#: effects/sphere_config.cpp:53
-msgctxt "@title:tab Basic Settings"
-msgid "Basic"
-msgstr "Zvyčajnaje"
-
-#: effects/cube_config.cpp:54 effects/cylinder_config.cpp:54
-#: effects/sphere_config.cpp:54
-msgctxt "@title:tab Advanced Settings"
-msgid "Advanced"
-msgstr "Asablivaje"
-
-#: effects/desktopgrid.cpp:59 effects/desktopgrid_config.cpp:57
-msgid "Show Desktop Grid"
-msgstr "Sietka stała"
-
-#: effects/desktopgrid_config.cpp:64
-msgid "Disabled"
-msgstr "Vyklučanaja"
-
-#: effects/desktopgrid_config.cpp:66
-msgid "Top"
-msgstr "Uviersie"
-
-#: effects/desktopgrid_config.cpp:68
-msgid "Top-Right"
-msgstr "Uviersie sprava"
-
-#: effects/desktopgrid_config.cpp:70
-msgid "Right"
-msgstr "Sprava"
-
-#: effects/desktopgrid_config.cpp:72
-msgid "Bottom-Right"
-msgstr "Unizie sprava"
-
-#: effects/desktopgrid_config.cpp:74
-msgid "Bottom"
-msgstr "Unizie"
-
-#: effects/desktopgrid_config.cpp:76
-msgid "Bottom-Left"
-msgstr "Unizie źleva"
-
-#: effects/desktopgrid_config.cpp:78
-msgid "Left"
-msgstr "Źleva"
-
-#: effects/desktopgrid_config.cpp:80
-msgid "Top-Left"
-msgstr "Uviersie źleva"
-
-#: effects/desktopgrid_config.cpp:82
-msgid "Center"
-msgstr "Pasiarod"
-
-#: effects/invert.cpp:47 effects/invert_config.cpp:45
-msgid "Toggle Invert Effect"
-msgstr "Invertavańnie"
-
-#: effects/invert.cpp:52 effects/invert_config.cpp:50
-msgid "Toggle Invert Effect on Window"
-msgstr "Invertavańnie koleraŭ akna"
-
-#: effects/mousemark.cpp:52
-msgid "Clear All Mouse Marks"
-msgstr "Prybiary ŭsie kursornyja paznaki"
-
-#: effects/mousemark.cpp:56 effects/mousemark_config.cpp:67
-msgid "Clear Last Mouse Mark"
-msgstr "Prybiary apošniuju kursornuju paznaku"
-
-#: effects/mousemark_config.cpp:62
-msgid "Clear Mouse Marks"
-msgstr "Prybiary kursornyja paznaki"
-
-#: effects/presentwindows.cpp:66 effects/presentwindows_config.cpp:62
-msgid "Toggle Present Windows (Current desktop)"
-msgstr "Źmiena aktyŭnaści akna (dla dziejnaha stała)"
-
-#: effects/presentwindows.cpp:70 effects/presentwindows_config.cpp:57
-msgid "Toggle Present Windows (All desktops)"
-msgstr "Źmiena aktyŭnaści akna (dla ŭsich stałoŭ)"
-
-#: effects/presentwindows.cpp:1235
-#, kde-format
-msgid ""
-"Filter:\n"
-"%1"
-msgstr ""
-"Filtruj:\n"
-"%1"
-
-#: effects/sharpen.cpp:40 effects/sharpen_config.cpp:44
-msgctxt "@action Enables/Disables an effect that makes windows more sharp"
-msgid "Toggle Sharpen Effect"
-msgstr "Efekt vyraznaści"
-
-#: effects/snow.cpp:60
-msgid "Snow"
-msgstr "Śnieh"
-
-#: effects/snow_config.cpp:64
-msgid "Toggle Snow on Desktop"
-msgstr "Śnieh na rabočym stale"
-
-#: effects/thumbnailaside.cpp:38 effects/thumbnailaside_config.cpp:65
-msgid "Toggle Thumbnail for Current Window"
-msgstr "Padhlad dla aktyŭnaha akna"
-
-#: effects/trackmouse_config.cpp:42
-msgid "Hold Ctrl+Meta keys to see where the mouse cursor is."
-msgstr "Kab ubačyć, dzie kursor, pryciśni klavijaturny skarot „Ctrl+Meta”."
-
 #: killer/killer.cpp:38
 msgid "KWin helper utility"
 msgstr "Słužbovaja prahrama dla akońnika „KWin”"
@@ -985,6 +866,94 @@ msgstr "Nie ŭdałosia źmiaścić u pamiać plugin abrysaŭ akon, bo jon paško
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "Biblijateka „%1” nia jość pluginam dla akońnika „KWin”."
+
+#~ msgid "Desktop Cube"
+#~ msgstr "Rabočy kub"
+
+#~ msgctxt "@title:tab Basic Settings"
+#~ msgid "Basic"
+#~ msgstr "Zvyčajnaje"
+
+#~ msgctxt "@title:tab Advanced Settings"
+#~ msgid "Advanced"
+#~ msgstr "Asablivaje"
+
+#~ msgid "Show Desktop Grid"
+#~ msgstr "Sietka stała"
+
+#~ msgid "Disabled"
+#~ msgstr "Vyklučanaja"
+
+#~ msgid "Top"
+#~ msgstr "Uviersie"
+
+#~ msgid "Top-Right"
+#~ msgstr "Uviersie sprava"
+
+#~ msgid "Right"
+#~ msgstr "Sprava"
+
+#~ msgid "Bottom-Right"
+#~ msgstr "Unizie sprava"
+
+#~ msgid "Bottom"
+#~ msgstr "Unizie"
+
+#~ msgid "Bottom-Left"
+#~ msgstr "Unizie źleva"
+
+#~ msgid "Left"
+#~ msgstr "Źleva"
+
+#~ msgid "Top-Left"
+#~ msgstr "Uviersie źleva"
+
+#~ msgid "Center"
+#~ msgstr "Pasiarod"
+
+#~ msgid "Toggle Invert Effect"
+#~ msgstr "Invertavańnie"
+
+#~ msgid "Toggle Invert Effect on Window"
+#~ msgstr "Invertavańnie koleraŭ akna"
+
+#~ msgid "Clear All Mouse Marks"
+#~ msgstr "Prybiary ŭsie kursornyja paznaki"
+
+#~ msgid "Clear Last Mouse Mark"
+#~ msgstr "Prybiary apošniuju kursornuju paznaku"
+
+#~ msgid "Clear Mouse Marks"
+#~ msgstr "Prybiary kursornyja paznaki"
+
+#~ msgid "Toggle Present Windows (Current desktop)"
+#~ msgstr "Źmiena aktyŭnaści akna (dla dziejnaha stała)"
+
+#~ msgid "Toggle Present Windows (All desktops)"
+#~ msgstr "Źmiena aktyŭnaści akna (dla ŭsich stałoŭ)"
+
+#~ msgid ""
+#~ "Filter:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Filtruj:\n"
+#~ "%1"
+
+#~ msgctxt "@action Enables/Disables an effect that makes windows more sharp"
+#~ msgid "Toggle Sharpen Effect"
+#~ msgstr "Efekt vyraznaści"
+
+#~ msgid "Snow"
+#~ msgstr "Śnieh"
+
+#~ msgid "Toggle Snow on Desktop"
+#~ msgstr "Śnieh na rabočym stale"
+
+#~ msgid "Toggle Thumbnail for Current Window"
+#~ msgstr "Padhlad dla aktyŭnaha akna"
+
+#~ msgid "Hold Ctrl+Meta keys to see where the mouse cursor is."
+#~ msgstr "Kab ubačyć, dzie kursor, pryciśni klavijaturny skarot „Ctrl+Meta”."
 
 #~ msgid "Toggle Video Recording"
 #~ msgstr "Zapis videa"

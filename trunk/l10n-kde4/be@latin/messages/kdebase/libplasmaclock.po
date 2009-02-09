@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasmaclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-19 10:30+0100\n"
+"POT-Creation-Date: 2009-02-09 10:14+0100\n"
 "PO-Revision-Date: 2008-10-25 23:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,15 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: clockapplet.cpp:196
+#: clockapplet.cpp:215
 msgid "Time Zones"
 msgstr "Časavyja pajasy"
 
-#: clockapplet.cpp:345
+#: clockapplet.cpp:367
 msgid "Calendar"
 msgstr "Kalandar"
 
-#: clockapplet.cpp:428
+#: clockapplet.cpp:371
+msgid "Today"
+msgstr ""
+
+#: clockapplet.cpp:466
 msgctxt "Local time zone"
 msgid "Local"
 msgstr "Miascovy"

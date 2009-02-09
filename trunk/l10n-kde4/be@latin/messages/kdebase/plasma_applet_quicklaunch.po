@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_quicklaunch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-05 10:13+0100\n"
+"POT-Creation-Date: 2009-02-09 10:14+0100\n"
 "PO-Revision-Date: 2008-11-17 13:47+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: quicklaunchApplet.cpp:270
+#: quicklaunchApplet.cpp:281
 msgid "General"
 msgstr "Ahulnaje"
 
-#: quicklaunchApplet.cpp:309
+#: quicklaunchApplet.cpp:320
 msgid "Add Icon..."
 msgstr "Dadaj ikonu..."
 
-#: quicklaunchApplet.cpp:318
+#: quicklaunchApplet.cpp:329
 msgid "Remove Icon"
 msgstr "Vydali ikonu"
 
@@ -34,7 +34,7 @@ msgstr "Vydali ikonu"
 #. i18n: ectx: property (windowTitle), widget (QWidget, quicklaunchAdd)
 #. i18n: file: quicklaunchAdd.ui:16
 #. i18n: ectx: property (accessibleName), widget (QWidget, quicklaunchAdd)
-#: quicklaunchApplet.cpp:452 rc.cpp:3 rc.cpp:6
+#: quicklaunchApplet.cpp:463 rc.cpp:3 rc.cpp:6
 msgid "Add Shortcut"
 msgstr "Dadaj skarot"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-09 10:13+0100\n"
+"POT-Creation-Date: 2009-02-10 10:18+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2449,47 +2449,47 @@ msgstr "Vysuń"
 msgid "Unmount"
 msgstr "Admantuj"
 
-#: kio/kfileitem.cpp:988
+#: kio/kfileitem.cpp:982
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr "(Symbalny łuč da „%1”)"
 
-#: kio/kfileitem.cpp:990
+#: kio/kfileitem.cpp:984
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr "(%1, łuč da „%2”)"
 
-#: kio/kfileitem.cpp:994
+#: kio/kfileitem.cpp:988
 #, kde-format
 msgid " (Points to %1)"
 msgstr " (łučyć z „%1”)"
 
-#: kio/kfileitem.cpp:1022 ../kioslave/http/kcookiejar/kcookiewin.cpp:215
+#: kio/kfileitem.cpp:1016 ../kioslave/http/kcookiejar/kcookiewin.cpp:215
 msgid "Name:"
 msgstr "Nazva:"
 
-#: kio/kfileitem.cpp:1023 kfile/kpropertiesdialog.cpp:953
+#: kio/kfileitem.cpp:1017 kfile/kpropertiesdialog.cpp:953
 msgid "Type:"
 msgstr "Typ:"
 
-#: kio/kfileitem.cpp:1027
+#: kio/kfileitem.cpp:1021
 #, kde-format
 msgid "Link to %1 (%2)"
 msgstr "Łuč da „%1” (%2)"
 
-#: kio/kfileitem.cpp:1032 kfile/kpropertiesdialog.cpp:1007
+#: kio/kfileitem.cpp:1026 kfile/kpropertiesdialog.cpp:1007
 msgid "Size:"
 msgstr "Pamier:"
 
-#: kio/kfileitem.cpp:1036 kfile/kpropertiesdialog.cpp:1069
+#: kio/kfileitem.cpp:1030 kfile/kpropertiesdialog.cpp:1069
 msgid "Modified:"
 msgstr "Admienieny:"
 
-#: kio/kfileitem.cpp:1039
+#: kio/kfileitem.cpp:1033
 msgid "Owner:"
 msgstr "Ułaśnik:"
 
-#: kio/kfileitem.cpp:1040
+#: kio/kfileitem.cpp:1034
 msgid "Permissions:"
 msgstr "Dazvoły:"
 
@@ -5684,37 +5684,37 @@ msgstr "Korań"
 msgid "Trash"
 msgstr "Śmietnica"
 
-#: ../kfile/kfileplacesmodel.cpp:695
+#: ../kfile/kfileplacesmodel.cpp:693
 #, kde-format
 msgid "&Release '%1'"
 msgstr "&Vyzvali „%1”"
 
-#: ../kfile/kfileplacesmodel.cpp:697
+#: ../kfile/kfileplacesmodel.cpp:695
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "&Biaśpiečna vysuń „%1”"
 
-#: ../kfile/kfileplacesmodel.cpp:700
+#: ../kfile/kfileplacesmodel.cpp:698
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "&Admantuj „%1”"
 
-#: ../kfile/kfileplacesmodel.cpp:721
+#: ../kfile/kfileplacesmodel.cpp:719
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "V&ysuń „%1”"
 
-#: ../kfile/kfileplacesmodel.cpp:754
+#: ../kfile/kfileplacesmodel.cpp:752
 #, kde-format
 msgid "The device '%1' is not a disc and can't be ejected."
 msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
 
-#: ../kfile/kfileplacesmodel.cpp:790
+#: ../kfile/kfileplacesmodel.cpp:788
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
 
-#: ../kfile/kfileplacesmodel.cpp:794
+#: ../kfile/kfileplacesmodel.cpp:792
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka."

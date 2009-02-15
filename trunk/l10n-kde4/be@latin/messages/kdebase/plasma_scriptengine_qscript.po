@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-12 10:23+0100\n"
+"POT-Creation-Date: 2009-02-15 10:02+0100\n"
 "PO-Revision-Date: 2008-10-24 22:25+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,56 +18,56 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: simplejavascriptapplet.cpp:461
+#: simplejavascriptapplet.cpp:504
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "DataEngine takes one argument"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: simplejavascriptapplet.cpp:471 simplejavascriptapplet.cpp:496
+#: simplejavascriptapplet.cpp:514 simplejavascriptapplet.cpp:539
 msgid "Could not extract the AppletObject"
 msgstr "Nie ŭdałosia vyniać abjekt „AppletObject”."
 
-#: simplejavascriptapplet.cpp:476 simplejavascriptapplet.cpp:501
+#: simplejavascriptapplet.cpp:519 simplejavascriptapplet.cpp:544
 msgid "Could not extract the Applet"
 msgstr "Nie ŭdałosia vyniać abjekt „Applet”."
 
-#: simplejavascriptapplet.cpp:486
+#: simplejavascriptapplet.cpp:529
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "Service takes two arguments"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: simplejavascriptapplet.cpp:514
+#: simplejavascriptapplet.cpp:557
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "loadUI takes one argument"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: simplejavascriptapplet.cpp:520
+#: simplejavascriptapplet.cpp:563
 #, kde-format
 msgid "Unable to open '%1'"
 msgstr "Nie ŭdałosia adčynić „%1”."
 
-#: simplejavascriptapplet.cpp:560 simplejavascriptapplet.cpp:593
+#: simplejavascriptapplet.cpp:603 simplejavascriptapplet.cpp:636
 msgid "Constructor takes at least 1 argument"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
 
-#: simplejavascriptapplet.cpp:645
+#: simplejavascriptapplet.cpp:692
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "CreateWidget takes one argument"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: simplejavascriptapplet.cpp:653
+#: simplejavascriptapplet.cpp:700
 msgid "The parent must be a QGraphicsWidget"
 msgstr "Prodak musić być abjektam „QGraphicsWidget”."
 
-#: simplejavascriptapplet.cpp:677
+#: simplejavascriptapplet.cpp:724
 #, kde-format
 msgid "This operation was not supported, %1"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:684
+#: simplejavascriptapplet.cpp:731
 msgid "print takes one argument"
 msgstr "„print” pryjmaje adzin arhument."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-08 06:01+0100\n"
+"POT-Creation-Date: 2009-02-15 05:58+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1874,32 +1874,32 @@ msgstr ""
 "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
 "indent:0px;\">(jašče nieviadoma)</p></body></html>"
 
-#: kjs/object.cpp:618 kdeui/dialogs/kmessagebox.cpp:832
+#: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:832
 #: kdeui/dialogs/kmessagebox.cpp:865 khtml/rendering/render_form.cpp:614
 msgid "Error"
 msgstr "Pamyłka"
 
-#: kjs/object.cpp:619
+#: kjs/object.cpp:585
 msgid "Evaluation error"
 msgstr "Pamyłka ŭ raźliku"
 
-#: kjs/object.cpp:620
+#: kjs/object.cpp:586
 msgid "Range error"
 msgstr "Pamyłka ŭ absiahu"
 
-#: kjs/object.cpp:621
+#: kjs/object.cpp:587
 msgid "Reference error"
 msgstr "Pamyłka ŭ spasyłańni"
 
-#: kjs/object.cpp:622
+#: kjs/object.cpp:588
 msgid "Syntax error"
 msgstr "Pamyłka ŭ syntaksie"
 
-#: kjs/object.cpp:623
+#: kjs/object.cpp:589
 msgid "Type error"
 msgstr "Pamyłka ŭ typach"
 
-#: kjs/object.cpp:624
+#: kjs/object.cpp:590
 msgid "URI error"
 msgstr "Pamyłka ŭ adrasie URI"
 
@@ -10614,7 +10614,7 @@ msgstr "važnaja pamyłka ŭ raźbirańni tekstu: %1 u radku %2, u słupku %3"
 msgid "XML parsing error"
 msgstr "Pamyłka ŭ raźbirańni XML"
 
-#: khtml/xml/dom_docimpl.cpp:2256
+#: khtml/xml/dom_docimpl.cpp:2259
 msgid "Basic Page Style"
 msgstr "Prosty styl staronki"
 
@@ -10637,11 +10637,11 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "&Spyni"
 
-#: khtml/ecma/kjs_window.cpp:1597 khtml/ecma/kjs_html.cpp:2105
+#: khtml/ecma/kjs_window.cpp:1591 khtml/ecma/kjs_html.cpp:2105
 msgid "Confirmation: JavaScript Popup"
 msgstr "Paćvierdžańnie: vypłyŭnoje akno praz JavaScript"
 
-#: khtml/ecma/kjs_window.cpp:1600
+#: khtml/ecma/kjs_window.cpp:1594
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10649,7 +10649,7 @@ msgstr ""
 "Hety sajt choča adčynić novaje akno hartača praz JavaScript.\n"
 "Chočaš jamu heta dazvolić?"
 
-#: khtml/ecma/kjs_window.cpp:1603
+#: khtml/ecma/kjs_window.cpp:1597
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10658,45 +10658,45 @@ msgstr ""
 "<qt>Hety sajt choča adčynić<p>%1</p>u novym aknie hartača praz JavaScript."
 "<br />Chočaš jamu heta dazvolić?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1605 khtml/ecma/kjs_html.cpp:2112
+#: khtml/ecma/kjs_window.cpp:1599 khtml/ecma/kjs_html.cpp:2112
 msgid "Allow"
 msgstr "Dazvol"
 
-#: khtml/ecma/kjs_window.cpp:1605 khtml/ecma/kjs_html.cpp:2112
+#: khtml/ecma/kjs_window.cpp:1599 khtml/ecma/kjs_html.cpp:2112
 msgid "Do Not Allow"
 msgstr "Nie dazvol"
 
-#: khtml/ecma/kjs_window.cpp:1903
+#: khtml/ecma/kjs_window.cpp:1897
 msgid "Close window?"
 msgstr "Začynić akno?"
 
-#: khtml/ecma/kjs_window.cpp:1903
+#: khtml/ecma/kjs_window.cpp:1897
 msgid "Confirmation Required"
 msgstr "Treba paćvierdzić"
 
-#: khtml/ecma/kjs_window.cpp:2761
+#: khtml/ecma/kjs_window.cpp:2755
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "Ci chočaš dadać zakładku dla miesca „%1” u svoj zbor?"
 
-#: khtml/ecma/kjs_window.cpp:2764
+#: khtml/ecma/kjs_window.cpp:2758
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr "Ci chočaš dadać zakładku z nazvaj „%2” dla miesca „%1” u svoj zbor?"
 
-#: khtml/ecma/kjs_window.cpp:2772
+#: khtml/ecma/kjs_window.cpp:2766
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript sprabuje dadać zakładku"
 
-#: khtml/ecma/kjs_window.cpp:2776
+#: khtml/ecma/kjs_window.cpp:2770
 msgid "Insert"
 msgstr "Dadaj"
 
-#: khtml/ecma/kjs_window.cpp:2776
+#: khtml/ecma/kjs_window.cpp:2770
 msgid "Disallow"
 msgstr "Zabarani"
 
@@ -10795,7 +10795,7 @@ msgstr "Hatova"
 msgid "Parse error at %1 line %2"
 msgstr "Pamyłka ŭ raźbirańni na %1, u radku %2"
 
-#: khtml/ecma/debugger/debugwindow.cpp:656
+#: khtml/ecma/debugger/debugwindow.cpp:658
 #, kde-format
 msgid ""
 "An error occurred while attempting to run a script on this page.\n"
@@ -10808,7 +10808,7 @@ msgstr ""
 "%1, radok %2:\n"
 "%3"
 
-#: khtml/ecma/debugger/debugwindow.cpp:841
+#: khtml/ecma/debugger/debugwindow.cpp:848
 msgid ""
 "Don't know where to evaluate the expression. Please pause a script or open a "
 "source file."
@@ -10816,7 +10816,7 @@ msgstr ""
 "Nieviedoma, dzie raźličyć vyražeńnie. Prypyni skrypt ci adčyni fajł z "
 "vytočnym kodam."
 
-#: khtml/ecma/debugger/debugwindow.cpp:877
+#: khtml/ecma/debugger/debugwindow.cpp:884
 #, kde-format
 msgid "Evaluation threw an exception %1"
 msgstr "Raźlik vykinuŭ vyklučeńnie %1."

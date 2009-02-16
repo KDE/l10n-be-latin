@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-15 09:13+0000\n"
+"POT-Creation-Date: 2009-02-16 08:16+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3659,7 +3659,7 @@ msgctxt "Comment"
 msgid "Configure the spell checker"
 msgstr "Naładź spraŭdžvańnie pravapisu"
 
-#: runtime/kdedglobalaccel/kdedglobalaccel.desktop:10
+#: runtime/kglobalaccel/kglobalaccel.desktop:10
 msgctxt "Name"
 msgid "KDED Global Shortcuts Server"
 msgstr "Słužba paŭsiudnych klavijaturnych skarotaŭ dla „KDE”"
@@ -7193,7 +7193,7 @@ msgctxt "Name"
 msgid "Platform"
 msgstr "Platinum"
 
-#: runtime/platforms/win/config/platform.desktop:20
+#: runtime/platforms/win/config/platform.desktop:22
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
@@ -9323,6 +9323,19 @@ msgstr ""
 #: workspace/kwin/effects/slide/slide.desktop:54
 msgctxt "Comment"
 msgid "Slide windows across the screen when switching virtual desktops"
+msgstr ""
+
+#: workspace/kwin/effects/snaphelper/snaphelper.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Saint Helena"
+msgctxt "Name"
+msgid "Snap Helper"
+msgstr "Vyspa Śviatoj Aleny"
+
+#: workspace/kwin/effects/snaphelper/snaphelper.desktop:4
+msgctxt "Comment"
+msgid "Help you locate the center of the screen when moving a window."
 msgstr ""
 
 #: workspace/kwin/effects/snow/snow.desktop:3

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-17 09:06+0100\n"
+"POT-Creation-Date: 2009-02-18 08:58+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -94,7 +94,7 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Admantavańnie"
 
-#: kio/job.cpp:1995 kio/paste.cpp:63 kio/copyjob.cpp:1183 kio/copyjob.cpp:1720
+#: kio/job.cpp:1995 kio/paste.cpp:63 kio/copyjob.cpp:1183 kio/copyjob.cpp:1727
 #: kio/global.cpp:664
 msgid "File Already Exists"
 msgstr "Fajł užo isnuje"
@@ -516,7 +516,7 @@ msgstr "Aŭtamatyčna abminaj"
 msgid "Folder Already Exists"
 msgstr "Kataloh užo isnuje"
 
-#: kio/copyjob.cpp:1183 kio/copyjob.cpp:1720
+#: kio/copyjob.cpp:1183 kio/copyjob.cpp:1727
 msgid "Already Exists as Folder"
 msgstr "Užo isnuje taki kataloh"
 
@@ -4926,12 +4926,12 @@ msgstr "Uvachod: OK"
 msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
 
-#: ../kioslave/file/file_unix.cpp:204
+#: ../kioslave/file/file_unix.cpp:208
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "Nie ŭdałosia skapijavać fajł z „%1” u „%2” (numar pamyłki: %3)."
 
-#: ../kioslave/file/file_unix.cpp:273 ../kioslave/file/file.cpp:726
+#: ../kioslave/file/file_unix.cpp:277 ../kioslave/file/file.cpp:737
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -4940,44 +4940,44 @@ msgstr ""
 "Nie ŭdałosia źmianić dazvoły na\n"
 "%1"
 
-#: ../kioslave/file/file_unix.cpp:326
+#: ../kioslave/file/file_unix.cpp:321
 #, kde-format
 msgid "No media in device for %1"
 msgstr "U pryładzie „%1” niama nośbitu."
 
-#: ../kioslave/file/file_unix.cpp:539
+#: ../kioslave/file/file_unix.cpp:560
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 "Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
 
-#: ../kioslave/file/file_unix.cpp:552
+#: ../kioslave/file/file_unix.cpp:573
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."
 
-#: ../kioslave/file/file.cpp:205
+#: ../kioslave/file/file.cpp:208
 #, kde-format
 msgid "Setting ACL for %1"
 msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
 
-#: ../kioslave/file/file.cpp:930
+#: ../kioslave/file/file.cpp:922
 msgid "No Media inserted or Media not recognized."
 msgstr "Nośbit nia ŭsunuty albo nie raspaznany."
 
-#: ../kioslave/file/file.cpp:940 ../kioslave/file/file.cpp:1141
+#: ../kioslave/file/file.cpp:932 ../kioslave/file/file.cpp:1133
 msgid "\"vold\" is not running."
 msgstr "Słužba „vold” nie pracuje."
 
-#: ../kioslave/file/file.cpp:975
+#: ../kioslave/file/file.cpp:967
 msgid "Could not find program \"mount\""
 msgstr "Nie ŭdałosia znajści prahramu „mount”."
 
-#: ../kioslave/file/file.cpp:1154
+#: ../kioslave/file/file.cpp:1146
 msgid "Could not find program \"umount\""
 msgstr "Nie ŭdałosia znajści prahramu „umount”."
 
-#: ../kioslave/file/file.cpp:1242
+#: ../kioslave/file/file.cpp:1234
 #, kde-format
 msgid "Could not read %1"
 msgstr "Nie ŭdałosia pračytać z „%1”."

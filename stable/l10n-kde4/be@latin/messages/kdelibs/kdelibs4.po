@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-15 05:58+0100\n"
+"POT-Creation-Date: 2009-02-20 05:36+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3241,13 +3241,13 @@ msgid "Invalid Calendar Type"
 msgstr "Niapravilny kalandar"
 
 #: kdecore/date/kdatetime.cpp:1478 kdecore/date/kdatetime.cpp:1488
-#: kdecore/date/kdatetime.cpp:2825 kdecore/localization/klocale.cpp:1802
-#: kdecore/localization/klocale.cpp:1933
+#: kdecore/date/kdatetime.cpp:2825 kdecore/localization/klocale.cpp:1804
+#: kdecore/localization/klocale.cpp:1935
 msgid "am"
 msgstr "am"
 
-#: kdecore/date/kdatetime.cpp:2833 kdecore/localization/klocale.cpp:1793
-#: kdecore/localization/klocale.cpp:1931
+#: kdecore/date/kdatetime.cpp:2833 kdecore/localization/klocale.cpp:1795
+#: kdecore/localization/klocale.cpp:1933
 msgid "pm"
 msgstr "pm"
 
@@ -4405,13 +4405,13 @@ msgstr "Siońnia"
 msgid "Yesterday"
 msgstr "Učora"
 
-#: kdecore/localization/klocale.cpp:1971
+#: kdecore/localization/klocale.cpp:1973
 #, kde-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1, %2"
 
-#: kdecore/localization/klocale.cpp:2032
+#: kdecore/localization/klocale.cpp:2034
 #, kde-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -5643,24 +5643,24 @@ msgstr "Uznavi"
 msgid "Undo"
 msgstr "Anuluj"
 
-#: kdeui/util/ksystemtrayicon.cpp:155
+#: kdeui/util/ksystemtrayicon.cpp:156
 msgid "Minimize"
 msgstr "Minimalizuj"
 
-#: kdeui/util/ksystemtrayicon.cpp:214
+#: kdeui/util/ksystemtrayicon.cpp:215
 msgid "&Minimize"
 msgstr "&Minimalizuj"
 
-#: kdeui/util/ksystemtrayicon.cpp:218
+#: kdeui/util/ksystemtrayicon.cpp:219
 msgid "&Restore"
 msgstr "&Adnavi"
 
-#: kdeui/util/ksystemtrayicon.cpp:238
+#: kdeui/util/ksystemtrayicon.cpp:239
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>Ty sapraŭdy chočaš vyjści z <b>%1</b>?</qt>"
 
-#: kdeui/util/ksystemtrayicon.cpp:241
+#: kdeui/util/ksystemtrayicon.cpp:242
 msgid "Confirm Quit From System Tray"
 msgstr "Paćvierdžańnie vychadu z systemnaha treja"
 
@@ -8140,7 +8140,7 @@ msgstr "Pakažy panel stanu<br /><br />Pakazvaje panel stanu ŭnizie akna."
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:852
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:546
-#: kdeui/windowmanagement/kwindowsystem_win.cpp:559
+#: kdeui/windowmanagement/kwindowsystem_win.cpp:562
 #, kde-format
 msgid "Desktop %1"
 msgstr "Stoł %1"
@@ -11086,7 +11086,7 @@ msgstr "Klavijaturnyja skaroty"
 msgid "Create Web Shortcut"
 msgstr "Naładź klavijaturnyja skaroty"
 
-#: kinit/kinit.cpp:482
+#: kinit/kinit.cpp:484
 msgid ""
 "Unable to start new process.\n"
 "The system may have reached the maximum number of open files possible or the "
@@ -11096,7 +11096,7 @@ msgstr ""
 "Albo ty, albo systema siahnuła maksymalna mahčymaj kolkaści adčynienych "
 "fajłaŭ."
 
-#: kinit/kinit.cpp:501
+#: kinit/kinit.cpp:503
 msgid ""
 "Unable to create new process.\n"
 "The system may have reached the maximum number of processes possible or the "
@@ -11105,12 +11105,12 @@ msgstr ""
 "Nie ŭdałosia stvaryć novy praces.\n"
 "Albo ty, albo systema siahnuła maksymalna mahčymaj kolkaści pracesaŭ."
 
-#: kinit/kinit.cpp:600
+#: kinit/kinit.cpp:604
 #, kde-format
 msgid "Could not find '%1' executable."
 msgstr "Nie ŭdałosia znajści vykonvalny fajł „%1”."
 
-#: kinit/kinit.cpp:618
+#: kinit/kinit.cpp:622
 #, kde-format
 msgid ""
 "Could not open library '%1'.\n"
@@ -11119,7 +11119,7 @@ msgstr ""
 "Nie ŭdałosia adčynić biblijateku „%1”.\n"
 "%2"
 
-#: kinit/kinit.cpp:664
+#: kinit/kinit.cpp:668
 #, kde-format
 msgid ""
 "Could not find 'kdemain' in '%1'.\n"

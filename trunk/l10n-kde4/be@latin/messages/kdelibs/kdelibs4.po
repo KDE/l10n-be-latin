@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-22 09:46+0100\n"
+"POT-Creation-Date: 2009-02-23 09:43+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -11160,32 +11160,37 @@ msgstr ""
 "klauncher: Hetuju prahramu nia treba ŭklučać samastojna.\n"
 "klauncher: Jaje aŭtamatyčna ŭklučaje słužba „kdeinit4”.\n"
 
-#: kinit/klauncher.cpp:557
+#: kinit/klauncher.cpp:558
 #, kde-format
 msgid "KDEInit could not launch '%1'."
 msgstr "KDEInit nia zmoh uklučyć „%1”."
 
-#: kinit/klauncher.cpp:730 kinit/klauncher.cpp:755 kinit/klauncher.cpp:770
+#: kinit/klauncher.cpp:731 kinit/klauncher.cpp:756 kinit/klauncher.cpp:771
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "Nie ŭdałosia znajści słužbu „%1”."
 
-#: kinit/klauncher.cpp:786 kinit/klauncher.cpp:822
+#: kinit/klauncher.cpp:790
+#, kde-format
+msgid "Service '%1' must be executable to run."
+msgstr ""
+
+#: kinit/klauncher.cpp:792 kinit/klauncher.cpp:828
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "Słužba „%1” zapsavanaja."
 
-#: kinit/klauncher.cpp:908
+#: kinit/klauncher.cpp:914
 #, kde-format
 msgid "Launching %1"
 msgstr "Uklučeńnie %1"
 
-#: kinit/klauncher.cpp:1112
+#: kinit/klauncher.cpp:1118
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Nieviadomy pratakoł „%1”.\n"
 
-#: kinit/klauncher.cpp:1173
+#: kinit/klauncher.cpp:1179
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "Pamyłka ŭ źmiaščeńni ŭ pamiać „%1”.\n"

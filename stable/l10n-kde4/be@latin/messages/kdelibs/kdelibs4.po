@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-25 07:07+0100\n"
+"POT-Creation-Date: 2009-02-26 06:25+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1875,7 +1875,7 @@ msgstr ""
 "indent:0px;\">(jašče nieviadoma)</p></body></html>"
 
 #: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:832
-#: kdeui/dialogs/kmessagebox.cpp:865 khtml/rendering/render_form.cpp:614
+#: kdeui/dialogs/kmessagebox.cpp:865 khtml/rendering/render_form.cpp:688
 msgid "Error"
 msgstr "Pamyłka"
 
@@ -6383,8 +6383,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Anuluj źmieny ŭ panelach pryładździa"
 
-#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2958
-#: khtml/khtmlview.cpp:2991 khtml/html/html_formimpl.cpp:1801
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2949
+#: khtml/khtmlview.cpp:2982 khtml/html/html_formimpl.cpp:1801
 msgid "Reset"
 msgstr "Anuluj źmieny"
 
@@ -9583,7 +9583,7 @@ msgstr "Pasuń &vyšej"
 msgid "Move &Down"
 msgstr "Pasuń &nižej"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:737
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:811
 msgid "Clear &History"
 msgstr "Vyčyści &historyju"
 
@@ -10438,7 +10438,7 @@ msgstr ""
 "<qt>Forma budzie pierasłanaja da <br /><b>%1</b><br /> na fajłavaj systemie."
 "<br />Chočaš jaje pierasłać?</qt>"
 
-#: khtml/khtml_part.cpp:4632 khtml/khtmlview.cpp:2944 khtml/khtmlview.cpp:2986
+#: khtml/khtml_part.cpp:4632 khtml/khtmlview.cpp:2935 khtml/khtmlview.cpp:2977
 #: khtml/html/html_formimpl.cpp:1604 khtml/html/html_formimpl.cpp:1809
 msgid "Submit"
 msgstr "Pierašli"
@@ -10557,39 +10557,39 @@ msgstr "Dadaj da nieŭvažanych..."
 msgid "Remove from ignores..."
 msgstr "Prybiary ź nieŭvažanych..."
 
-#: khtml/khtmlview.cpp:1913
+#: khtml/khtmlview.cpp:1904
 msgid "Find stopped."
 msgstr "Pošuk spynieny."
 
-#: khtml/khtmlview.cpp:1924
+#: khtml/khtmlview.cpp:1915
 msgid "Starting -- find links as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1930
+#: khtml/khtmlview.cpp:1921
 msgid "Starting -- find text as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1953
+#: khtml/khtmlview.cpp:1944
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Łuč znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:1958
+#: khtml/khtmlview.cpp:1949
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Łuč nia znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:1966
+#: khtml/khtmlview.cpp:1957
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Tekst znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:1971
+#: khtml/khtmlview.cpp:1962
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Tekst nia znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:2014
+#: khtml/khtmlview.cpp:2005
 msgid "Access Keys activated"
 msgstr ""
 
@@ -11051,36 +11051,36 @@ msgid "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 msgstr ""
 "Aŭtarskija pravy 2001, David Faure <email>david@mandrakesoft.com</email>"
 
-#: khtml/rendering/render_form.cpp:593
+#: khtml/rendering/render_form.cpp:667
 #, fuzzy
 #| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "Skarot"
 
-#: khtml/rendering/render_form.cpp:614
+#: khtml/rendering/render_form.cpp:688
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "„%1” užo pryviazany da „%2”"
 
-#: khtml/rendering/render_form.cpp:659
+#: khtml/rendering/render_form.cpp:733
 #, fuzzy
 #| msgid "Enter search phrase here"
 msgid "Search &provider name:"
 msgstr "Tut upišy šukany vyraz"
 
-#: khtml/rendering/render_form.cpp:661
+#: khtml/rendering/render_form.cpp:735
 #, fuzzy
 #| msgid "Enter search phrase here"
 msgid "New search provider"
 msgstr "Tut upišy šukany vyraz"
 
-#: khtml/rendering/render_form.cpp:666
+#: khtml/rendering/render_form.cpp:740
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "Klavijaturnyja skaroty"
 
-#: khtml/rendering/render_form.cpp:752
+#: khtml/rendering/render_form.cpp:826
 #, fuzzy
 #| msgid "Configure Shortcuts"
 msgid "Create Web Shortcut"

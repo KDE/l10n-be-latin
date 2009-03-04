@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-03 09:32+0000\n"
+"POT-Creation-Date: 2009-03-04 10:33+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -117,14 +117,14 @@ msgctxt "Name"
 msgid "Dolphin Services"
 msgstr "Vyhlad „Dolphin”"
 
-#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:20
+#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:21
 #: apps/konqueror/sidebar/trees/init/services.desktop:4
 #: apps/konqueror/sidebar/trees/init/services/.directory:3
 msgctxt "Name"
 msgid "Services"
 msgstr "Słužby"
 
-#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:102
+#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:103
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -2214,7 +2214,7 @@ msgid "IO-port information"
 msgstr "Źviestki pra porty pierasyłańnia"
 
 #: apps/kinfocenter/info/processor.desktop:13
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:47
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:17
 msgctxt "Name"
 msgid "Processor"
 msgstr "Pracesar"
@@ -7308,7 +7308,7 @@ msgctxt "Name"
 msgid "Solid Auto-eject service"
 msgstr ""
 
-#: runtime/solidautoeject/solidautoeject.desktop:14
+#: runtime/solidautoeject/solidautoeject.desktop:15
 msgctxt "Comment"
 msgid ""
 "Allows to automatically release drives when their eject button is pushed"
@@ -8375,11 +8375,11 @@ msgid "KSIRC"
 msgstr "KSIRC"
 
 #: workspace/khotkeys/data/kde32b1.khotkeys:392
-#: workspace/khotkeys/data/kde32b1.khotkeys:546
-#: workspace/khotkeys/data/kde32b1.khotkeys:760
-#: workspace/khotkeys/data/kde32b1.khotkeys:1086
-#: workspace/khotkeys/data/kde32b1.khotkeys:1394
-#: workspace/khotkeys/data/kde32b1.khotkeys:2371
+#: workspace/khotkeys/data/kde32b1.khotkeys:547
+#: workspace/khotkeys/data/kde32b1.khotkeys:761
+#: workspace/khotkeys/data/kde32b1.khotkeys:1088
+#: workspace/khotkeys/data/kde32b1.khotkeys:1403
+#: workspace/khotkeys/data/kde32b1.khotkeys:2382
 #: workspace/khotkeys/data/printscreen.khotkeys:265
 msgctxt "Comment"
 msgid "Simple_action"
@@ -8400,24 +8400,24 @@ msgid ""
 "'  (space)                              Space"
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:464
+#: workspace/khotkeys/data/kde32b1.khotkeys:465
 msgctxt "Name"
 msgid "Type 'Hello'"
 msgstr "Upišy „Pryvitańnie!”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:609
+#: workspace/khotkeys/data/kde32b1.khotkeys:610
 msgctxt "Comment"
 msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
 msgstr ""
 "Hetaja aperacyja ŭklučaje prahramu „Konsole” ad klavijaturnaha skarotu „Ctrl"
 "+Alt+T”."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:673
+#: workspace/khotkeys/data/kde32b1.khotkeys:674
 msgctxt "Name"
 msgid "Run Konsole"
 msgstr "Uklučy prahramu „Konsole”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:823
+#: workspace/khotkeys/data/kde32b1.khotkeys:824
 msgctxt "Comment"
 msgid ""
 "Read the comment on the \"Type 'Hello'\" action first.\\n\\nQt Designer uses "
@@ -8435,17 +8435,17 @@ msgid ""
 "title."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:832
+#: workspace/khotkeys/data/kde32b1.khotkeys:834
 msgctxt "Name"
 msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
 msgstr "Pryznač skarot „Ctrl+W” dla „Ctrl+F4” u prahramie „Qt Designer”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:910
+#: workspace/khotkeys/data/kde32b1.khotkeys:912
 msgctxt "Comment"
 msgid "Qt Designer"
 msgstr "Qt Designer"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:970
+#: workspace/khotkeys/data/kde32b1.khotkeys:972
 msgctxt "Comment"
 msgid ""
 "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
@@ -8453,14 +8453,14 @@ msgid ""
 "line 'qdbus' tool."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1017
+#: workspace/khotkeys/data/kde32b1.khotkeys:1019
 msgctxt "Name"
 msgid "Perform D-Bus call 'kdesktop KDesktopIface popupExecuteCommand()'"
 msgstr ""
 "Vykanaj funkcyju systemy „D-Bus”: „kdesktop KDesktopIface popupExecuteCommand"
 "()”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1149
+#: workspace/khotkeys/data/kde32b1.khotkeys:1151
 msgctxt "Comment"
 msgid ""
 "Read the comment on the \"Type 'Hello'\" action first.\\n\\nJust like the "
@@ -8473,22 +8473,22 @@ msgid ""
 "on the XMMS window and search for WM_CLASS to see 'XMMS_Player')."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1151
+#: workspace/khotkeys/data/kde32b1.khotkeys:1160
 msgctxt "Name"
 msgid "Next in XMMS"
 msgstr "Nastupnaja pieśnia ŭ prahramie „XMMS”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1232
+#: workspace/khotkeys/data/kde32b1.khotkeys:1241
 msgctxt "Comment"
 msgid "XMMS window"
 msgstr "Akno prahramy „XMMS”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1313
+#: workspace/khotkeys/data/kde32b1.khotkeys:1322
 msgctxt "Comment"
 msgid "XMMS Player window"
 msgstr "Akno prahramy „XMMS”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1457
+#: workspace/khotkeys/data/kde32b1.khotkeys:1466
 msgctxt "Comment"
 msgid ""
 "Konqueror in KDE3.1 has tabs, and now you can also have gestures.\\n\\nJust "
@@ -8511,35 +8511,35 @@ msgid ""
 "window is Konqueror (class contains 'konqueror')."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1468
+#: workspace/khotkeys/data/kde32b1.khotkeys:1478
 msgctxt "Name"
 msgid "Konqi Gestures"
 msgstr "Žesty „Konqi”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1535
+#: workspace/khotkeys/data/kde32b1.khotkeys:1545
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:147
 msgctxt "Comment"
 msgid "Konqueror window"
 msgstr "Akno prahramy „Konqueror”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1617
-#: workspace/khotkeys/data/kde32b1.khotkeys:1638
+#: workspace/khotkeys/data/kde32b1.khotkeys:1627
+#: workspace/khotkeys/data/kde32b1.khotkeys:1648
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:229
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:250
 msgctxt "Comment"
 msgid "Konqueror"
 msgstr "Konqueror"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1664
+#: workspace/khotkeys/data/kde32b1.khotkeys:1674
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:340
 msgctxt "Name"
 msgid "Back"
 msgstr "Nazad"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1757
-#: workspace/khotkeys/data/kde32b1.khotkeys:1912
-#: workspace/khotkeys/data/kde32b1.khotkeys:2064
-#: workspace/khotkeys/data/kde32b1.khotkeys:2218
+#: workspace/khotkeys/data/kde32b1.khotkeys:1767
+#: workspace/khotkeys/data/kde32b1.khotkeys:1922
+#: workspace/khotkeys/data/kde32b1.khotkeys:2074
+#: workspace/khotkeys/data/kde32b1.khotkeys:2228
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:566
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:762
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:940
@@ -8558,25 +8558,25 @@ msgctxt "Comment"
 msgid "Gesture_triggers"
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1819
+#: workspace/khotkeys/data/kde32b1.khotkeys:1829
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:1921
 msgctxt "Name"
 msgid "Forward"
 msgstr "Napierad"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1974
+#: workspace/khotkeys/data/kde32b1.khotkeys:1984
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:672
 msgctxt "Name"
 msgid "Up"
 msgstr "Uvierch"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2126
+#: workspace/khotkeys/data/kde32b1.khotkeys:2136
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:2944
 msgctxt "Name"
 msgid "Reload"
 msgstr "Pieračytaj"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2278
+#: workspace/khotkeys/data/kde32b1.khotkeys:2288
 msgctxt "Comment"
 msgid ""
 "After pressing Win+E (Tux+E) a WWW browser will be launched, and it will "
@@ -8584,7 +8584,7 @@ msgid ""
 "minicli (Alt+F2)."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2287
+#: workspace/khotkeys/data/kde32b1.khotkeys:2298
 msgctxt "Name"
 msgid "Go to KDE Website"
 msgstr "Pierajdzi da sajta KDE"
@@ -9621,7 +9621,7 @@ msgctxt "Name"
 msgid "Screen Edges"
 msgstr "Achoŭnik ekrana"
 
-#: workspace/kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:22
+#: workspace/kwin/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:23
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
@@ -10295,7 +10295,7 @@ msgctxt "Name"
 msgid "System Monitor - RAM"
 msgstr "Systemny nazirańnik - CPU"
 
-#: workspace/plasma/applets/system-monitor/plasma-applet-sm_ram.desktop:12
+#: workspace/plasma/applets/system-monitor/plasma-applet-sm_ram.desktop:13
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A CPU usage monitor"
@@ -11162,29 +11162,29 @@ msgid "Network management using the NetworkManager daemon, version 0.7"
 msgstr "Kiravańnie sietkaj praz słužbu „NetworkManager 0.7”."
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:2
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:39
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:20
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:30
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:14
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:8
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:5
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:2
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:39
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:14
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-GenericInterface.desktop:2
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:30
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:76
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:32
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:26
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:11
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:2
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:38
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:11
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:19
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:32
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:31
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:14
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:5
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:8
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:11
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:2
 msgctxt "Name"
 msgid "Object Name"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:11
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:29
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:5
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:11
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
@@ -11192,13 +11192,13 @@ msgctxt "Name"
 msgid "Plugged"
 msgstr "Phluid"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:20
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:8
 msgctxt "Name"
 msgid "Ac Adapter"
 msgstr ""
 
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:2
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:30
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:11
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
@@ -11206,12 +11206,12 @@ msgctxt "Name"
 msgid "Device Type"
 msgstr "Pryłady"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:5
 msgctxt "Name"
 msgid "Driver"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:20
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:8
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:2
 #, fuzzy
 #| msgctxt "GenericName"
@@ -11220,7 +11220,7 @@ msgctxt "Name"
 msgid "Driver Handle"
 msgstr "Mikser i prajhravańnik dla DJ"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:29
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:11
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Game"
@@ -11228,12 +11228,12 @@ msgctxt "Name"
 msgid "Name"
 msgstr "Hulnia"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:48
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:17
 msgctxt "Name"
 msgid "Soundcard Type"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:57
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:20
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
@@ -11246,23 +11246,23 @@ msgctxt "Name"
 msgid "Charge Percent"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:5
 msgctxt "Name"
 msgid "Charge State"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:38
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:14
 msgctxt "Name"
 msgid "Rechargeable"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:46
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:29
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:17
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:11
 msgctxt "Name"
 msgid "Type"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:55
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:20
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Low Battery"
@@ -11279,7 +11279,7 @@ msgctxt "Name"
 msgid "Device"
 msgstr "Pryłady"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:12
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:5
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
@@ -11287,7 +11287,7 @@ msgctxt "Name"
 msgid "Major"
 msgstr "Moria"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:21
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
@@ -11295,7 +11295,7 @@ msgctxt "Name"
 msgid "Minor"
 msgstr "Moria"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:39
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:14
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Clock"
@@ -11308,7 +11308,7 @@ msgctxt "Name"
 msgid "Has State"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:20
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:8
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Strategy Game"
@@ -11316,7 +11316,7 @@ msgctxt "Name"
 msgid "State Value"
 msgstr "Stratehičnaja hulnia"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:38
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:14
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Bhutan"
@@ -11324,15 +11324,15 @@ msgctxt "Name"
 msgid "Button"
 msgstr "Butan"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:11
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:11
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:5
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:5
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:5
 msgctxt "Name"
 msgid "Supported Drivers"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:25
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:25
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:8
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Protocols"
@@ -11340,7 +11340,7 @@ msgctxt "Name"
 msgid "Supported Protocols"
 msgstr "Pratakoły"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:35
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:11
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Cameroon"
@@ -11348,7 +11348,7 @@ msgctxt "Name"
 msgid "Camera"
 msgstr "Kamerun"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:12
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:5
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Device Notifier"
@@ -11356,7 +11356,7 @@ msgctxt "Name"
 msgid "Device Adapter"
 msgstr "Infarmavańnie pra novyja pryłady"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:21
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Help Index"
@@ -11364,7 +11364,7 @@ msgctxt "Name"
 msgid "Device Index"
 msgstr "Źmiest dapamohi"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:48
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-DvbInterface.desktop:17
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
@@ -11372,7 +11372,7 @@ msgctxt "Name"
 msgid "Dvb Interface"
 msgstr "Sietkavyja interfejsy"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-GenericInterface.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-GenericInterface.desktop:5
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
@@ -11385,7 +11385,7 @@ msgctxt "Name"
 msgid "Hw Address"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:5
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Dice Game"
@@ -11393,12 +11393,12 @@ msgctxt "Name"
 msgid "Iface Name"
 msgstr "Hulnia ŭ kostki"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:20
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:8
 msgctxt "Name"
 msgid "Mac Address"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:39
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:14
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Circles"
@@ -11406,7 +11406,7 @@ msgctxt "Name"
 msgid "Wireless"
 msgstr "Koły"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:49
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-NetworkInterface.desktop:17
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
@@ -11422,12 +11422,12 @@ msgctxt "Name"
 msgid "Appendable"
 msgstr "Vonkavaść"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:5
 msgctxt "Name"
 msgid "Available Content"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:20
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Plan"
@@ -11435,7 +11435,7 @@ msgctxt "Name"
 msgid "Blank"
 msgstr "Plan"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:29
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:11
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Audacity"
@@ -11443,19 +11443,19 @@ msgctxt "Name"
 msgid "Capacity"
 msgstr "Audacity"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:38
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:14
 msgctxt "Name"
 msgid "Disc Type"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:47
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:17
 #: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:2
 msgctxt "Name"
 msgid "Fs Type"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:56
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:20
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:5
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Iagno"
@@ -11463,8 +11463,8 @@ msgctxt "Name"
 msgid "Ignored"
 msgstr "Iagno"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:68
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:23
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:23
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Panel"
@@ -11472,13 +11472,13 @@ msgctxt "Name"
 msgid "Label"
 msgstr "Panel"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:85
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:29
 msgctxt "Name"
 msgid "Rewritable"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:94
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:40
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:32
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:14
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Belize"
@@ -11486,8 +11486,8 @@ msgctxt "Name"
 msgid "Size"
 msgstr "Beliz"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:104
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:50
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:35
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:17
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Pager"
@@ -11495,8 +11495,8 @@ msgctxt "Name"
 msgid "Usage"
 msgstr "Stały"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:116
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:62
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:38
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:20
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
@@ -11504,7 +11504,7 @@ msgctxt "Name"
 msgid "Uuid"
 msgstr "Phluid"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:122
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDisc.desktop:41
 msgctxt "Name"
 msgid "Optical Disc"
 msgstr ""
@@ -11518,14 +11518,14 @@ msgctxt "Name"
 msgid "Bus"
 msgstr "Biełaruś"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:10
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:10
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:5
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:5
 msgctxt "Name"
 msgid "Drive Type"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:23
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:23
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:8
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Hotplug Events"
@@ -11533,7 +11533,7 @@ msgctxt "Name"
 msgid "Hotpluggable"
 msgstr "Źjaŭleńnie novych pryładaŭ"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:41
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:14
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Spread Sheet"
@@ -11541,33 +11541,33 @@ msgctxt "Name"
 msgid "Read Speed"
 msgstr "Prahrama dla stvareńnia raźlikovych arkušoŭ"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:50
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:41
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:17
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:14
 msgctxt "Name"
 msgid "Removable"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:59
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:20
 msgctxt "Name"
 msgid "Supported Media"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:69
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:23
 msgctxt "Name"
 msgid "Write Speed"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:78
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:26
 msgctxt "Name"
 msgid "Write Speeds"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:87
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-OpticalDrive.desktop:29
 msgctxt "Name"
 msgid "Optical Drive"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:35
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-PortableMediaPlayer.desktop:11
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Multimedia Player"
@@ -11580,7 +11580,7 @@ msgctxt "Name"
 msgid "Can Change Frequency"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:11
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:5
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Input Actions"
@@ -11588,7 +11588,7 @@ msgctxt "Name"
 msgid "Instruction Sets"
 msgstr "Uvodnyja aperacyi"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:20
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Mac Scheme"
@@ -11596,7 +11596,7 @@ msgctxt "Name"
 msgid "Max Speed"
 msgstr "Schiema „Mac”"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:29
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Processor.desktop:11
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Niue"
@@ -11604,7 +11604,7 @@ msgctxt "Name"
 msgid "Number"
 msgstr "Niue"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:20
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Forte"
@@ -11612,12 +11612,12 @@ msgctxt "Name"
 msgid "Port"
 msgstr "Forte"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:27
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:11
 msgctxt "Name"
 msgid "Serial Type"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:35
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-SerialInterface.desktop:14
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Network Interfaces"
@@ -11633,7 +11633,7 @@ msgctxt "Name"
 msgid "Accessible"
 msgstr "Dastupnaść"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:10
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:5
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Find Part"
@@ -11641,7 +11641,7 @@ msgctxt "Name"
 msgid "File Path"
 msgstr "Pošuk"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:28
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageAccess.desktop:11
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Remote Access"
@@ -11649,17 +11649,17 @@ msgctxt "Name"
 msgid "Storage Access"
 msgstr "Dostup da inšych hostaŭ"
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:50
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageDrive.desktop:17
 msgctxt "Name"
 msgid "Storage Drive"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:68
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-StorageVolume.desktop:23
 msgctxt "Name"
 msgid "Storage Volume"
 msgstr ""
 
-#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:25
+#: workspace/solid/solid-actions-kcm/device-actions/solid-device-Video.desktop:8
 msgctxt "Name"
 msgid "Video"
 msgstr ""
@@ -11672,7 +11672,7 @@ msgctxt "Name"
 msgid "Device Actions"
 msgstr "Źviestki z pryłady"
 
-#: workspace/solid/solid-actions-kcm/solid-actions.desktop:25
+#: workspace/solid/solid-actions-kcm/solid-actions.desktop:15
 msgctxt "Comment"
 msgid ""
 "A configuration tool for managing the actions available to the user when "

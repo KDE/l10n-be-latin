@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nsplugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-06 11:06+0100\n"
+"POT-Creation-Date: 2009-03-10 10:18+0100\n"
 "PO-Revision-Date: 2008-10-03 23:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -40,27 +40,30 @@ msgstr "Źmiaščeńnie ŭ pamiać plugina „Netscape” dla „%1”"
 msgid "Unable to load Netscape plugin for %1"
 msgstr "Nie ŭdałosia źmiaścić u pamiać plugin „Netscape” dla „%1”."
 
-#: pluginscan.cpp:179
-msgid "Netscape plugin mimeinfo"
-msgstr "Źviestki „MIME” dla plugina „Netscape”"
+#: pluginscan.cpp:178
+#, fuzzy, kde-format
+#| msgid "Netscape plugin viewer"
+msgctxt "Name of the netscape-plugin which generated this mimetype"
+msgid "Netscape plugin %1"
+msgstr "Prahladnik pluginaŭ „Netscape”"
 
-#: pluginscan.cpp:236
+#: pluginscan.cpp:235
 msgid "Unnamed plugin"
 msgstr "Nienazvany plugin"
 
-#: pluginscan.cpp:465 pluginscan.cpp:468
+#: pluginscan.cpp:464 pluginscan.cpp:467
 msgid "Netscape plugin viewer"
 msgstr "Prahladnik pluginaŭ „Netscape”"
 
-#: pluginscan.cpp:519 pluginscan.cpp:520
+#: pluginscan.cpp:518 pluginscan.cpp:519
 msgid "nspluginscan"
 msgstr "nspluginscan"
 
-#: pluginscan.cpp:521
+#: pluginscan.cpp:520
 msgid "(c) 2000,2001 by Stefan Schimanski"
 msgstr "Copyright 2000, 2001 Stefan Schimanski"
 
-#: pluginscan.cpp:526
+#: pluginscan.cpp:525
 msgid "Show progress output for GUI"
 msgstr "Pakazvaj prahres u interfejsie"
 
@@ -97,3 +100,6 @@ msgstr "Zapyt „%1”"
 #: viewer/viewer.cpp:102
 msgid "nspluginviewer"
 msgstr "nspluginviewer"
+
+#~ msgid "Netscape plugin mimeinfo"
+#~ msgstr "Źviestki „MIME” dla plugina „Netscape”"

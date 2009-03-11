@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-09 10:57+0100\n"
+"POT-Creation-Date: 2009-03-11 11:16+0100\n"
 "PO-Revision-Date: 2008-10-26 00:05+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -30,11 +30,11 @@ msgstr ""
 msgid "CPUs"
 msgstr "Pracesary"
 
-#: cpu.cpp:191 net.cpp:194 ram.cpp:183 temperature.cpp:118
+#: cpu.cpp:191 net.cpp:200 ram.cpp:183 temperature.cpp:118
 msgid "Advanced"
 msgstr ""
 
-#: cpu.cpp:199 net.cpp:202 ram.cpp:191 temperature.cpp:126
+#: cpu.cpp:199 net.cpp:208 ram.cpp:191 temperature.cpp:126
 #, fuzzy
 #| msgid "seconds"
 msgid "second"
@@ -99,15 +99,15 @@ msgstr "Hrafičny pracesar"
 msgid "Audio"
 msgstr "Huk"
 
-#: hwinfo.cpp:138 net.cpp:45
+#: hwinfo.cpp:138 net.cpp:48
 msgid "Network"
 msgstr "Sietka"
 
-#: net.cpp:167
+#: net.cpp:173
 msgid "Network interface"
 msgstr "Sietkavy interfejs"
 
-#: net.cpp:186
+#: net.cpp:192
 msgid "Interfaces"
 msgstr "Interfejsy"
 

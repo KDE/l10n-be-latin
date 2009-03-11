@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-08 10:09+0100\n"
+"POT-Creation-Date: 2009-03-11 11:15+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -64,7 +64,7 @@ msgstr "Roznaje"
 msgid "Configure..."
 msgstr "Naładź..."
 
-#: applet.cpp:1036 containment.cpp:556
+#: applet.cpp:1036 containment.cpp:552
 #, kde-format
 msgctxt "%1 is the name of the applet"
 msgid "Remove this %1"
@@ -135,52 +135,52 @@ msgstr "Nastupny widžet"
 msgid "Previous Widget"
 msgstr "Papiaredni widžet"
 
-#: containment.cpp:167 containment.cpp:1637
-msgid "Lock Widgets"
-msgstr "Zamacuj widžety"
-
-#: containment.cpp:167 containment.cpp:1637
-msgid "Unlock Widgets"
-msgstr "Admacuj widžety"
-
-#: containment.cpp:177
+#: containment.cpp:173
 msgid "Zoom In"
 msgstr "Pavialič"
 
-#: containment.cpp:187
+#: containment.cpp:183
 msgid "Zoom Out"
 msgstr "Pamienš"
 
-#: containment.cpp:193
+#: containment.cpp:189
 msgid "Add Activity"
 msgstr "Dadaj čynnaść"
 
-#: containment.cpp:524
+#: containment.cpp:520
 #, kde-format
 msgctxt "%1 is the name of the containment"
 msgid "%1 Options"
 msgstr "Opcyi schovišča „%1”"
 
-#: containment.cpp:992
+#: containment.cpp:988
 msgid "Icon"
 msgstr "Ikona"
 
-#: containment.cpp:1506
+#: containment.cpp:1502
 #, kde-format
 msgctxt "%1 is the name of the containment"
 msgid "Do you really want to remove this %1?"
 msgstr "Sapraŭdy chočaš vydalić hetaje schovišča „%1”?"
 
-#: containment.cpp:1507
+#: containment.cpp:1503
 #, kde-format
 msgctxt "@title:window %1 is the name of the containment"
 msgid "Remove %1"
 msgstr "Vydali schovišča „%1”"
 
-#: containment.cpp:1700
+#: containment.cpp:1673
 #, kde-format
 msgid "Could not find requested component: %1"
 msgstr "Nie ŭdałosia znajści patrebny składnik: %1"
+
+#: corona.cpp:83 corona.cpp:574
+msgid "Lock Widgets"
+msgstr "Zamacuj widžety"
+
+#: corona.cpp:574
+msgid "Unlock Widgets"
+msgstr "Admacuj widžety"
 
 #: dataengine.cpp:458 dataengine.cpp:464
 msgid "Unnamed"

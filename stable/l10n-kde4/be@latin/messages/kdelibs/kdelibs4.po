@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-13 06:16+0100\n"
+"POT-Creation-Date: 2009-03-15 06:15+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6383,8 +6383,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "Anuluj źmieny ŭ panelach pryładździa"
 
-#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2949
-#: khtml/khtmlview.cpp:2982 khtml/html/html_formimpl.cpp:1801
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2972
+#: khtml/khtmlview.cpp:3005 khtml/html/html_formimpl.cpp:1801
 msgid "Reset"
 msgstr "Anuluj źmieny"
 
@@ -10438,7 +10438,7 @@ msgstr ""
 "<qt>Forma budzie pierasłanaja da <br /><b>%1</b><br /> na fajłavaj systemie."
 "<br />Chočaš jaje pierasłać?</qt>"
 
-#: khtml/khtml_part.cpp:4638 khtml/khtmlview.cpp:2935 khtml/khtmlview.cpp:2977
+#: khtml/khtml_part.cpp:4638 khtml/khtmlview.cpp:2958 khtml/khtmlview.cpp:3000
 #: khtml/html/html_formimpl.cpp:1604 khtml/html/html_formimpl.cpp:1809
 msgid "Submit"
 msgstr "Pierašli"
@@ -10557,39 +10557,39 @@ msgstr "Dadaj da nieŭvažanych..."
 msgid "Remove from ignores..."
 msgstr "Prybiary ź nieŭvažanych..."
 
-#: khtml/khtmlview.cpp:1904
+#: khtml/khtmlview.cpp:1927
 msgid "Find stopped."
 msgstr "Pošuk spynieny."
 
-#: khtml/khtmlview.cpp:1915
+#: khtml/khtmlview.cpp:1938
 msgid "Starting -- find links as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1921
+#: khtml/khtmlview.cpp:1944
 msgid "Starting -- find text as you type"
 msgstr ""
 
-#: khtml/khtmlview.cpp:1944
+#: khtml/khtmlview.cpp:1967
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "Łuč znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:1949
+#: khtml/khtmlview.cpp:1972
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "Łuč nia znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:1957
+#: khtml/khtmlview.cpp:1980
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "Tekst znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:1962
+#: khtml/khtmlview.cpp:1985
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "Tekst nia znojdzieny: „%1”."
 
-#: khtml/khtmlview.cpp:2005
+#: khtml/khtmlview.cpp:2028
 msgid "Access Keys activated"
 msgstr ""
 
@@ -10614,7 +10614,7 @@ msgstr "važnaja pamyłka ŭ raźbirańni tekstu: %1 u radku %2, u słupku %3"
 msgid "XML parsing error"
 msgstr "Pamyłka ŭ raźbirańni XML"
 
-#: khtml/xml/dom_docimpl.cpp:2257
+#: khtml/xml/dom_docimpl.cpp:2256
 msgid "Basic Page Style"
 msgstr "Prosty styl staronki"
 
@@ -10637,11 +10637,11 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "&Spyni"
 
-#: khtml/ecma/kjs_window.cpp:1591 khtml/ecma/kjs_html.cpp:2105
+#: khtml/ecma/kjs_window.cpp:1607 khtml/ecma/kjs_html.cpp:2105
 msgid "Confirmation: JavaScript Popup"
 msgstr "Paćvierdžańnie: vypłyŭnoje akno praz JavaScript"
 
-#: khtml/ecma/kjs_window.cpp:1594
+#: khtml/ecma/kjs_window.cpp:1610
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10649,7 +10649,7 @@ msgstr ""
 "Hety sajt choča adčynić novaje akno hartača praz JavaScript.\n"
 "Chočaš jamu heta dazvolić?"
 
-#: khtml/ecma/kjs_window.cpp:1597
+#: khtml/ecma/kjs_window.cpp:1613
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10658,45 +10658,45 @@ msgstr ""
 "<qt>Hety sajt choča adčynić<p>%1</p>u novym aknie hartača praz JavaScript."
 "<br />Chočaš jamu heta dazvolić?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1599 khtml/ecma/kjs_html.cpp:2112
+#: khtml/ecma/kjs_window.cpp:1615 khtml/ecma/kjs_html.cpp:2112
 msgid "Allow"
 msgstr "Dazvol"
 
-#: khtml/ecma/kjs_window.cpp:1599 khtml/ecma/kjs_html.cpp:2112
+#: khtml/ecma/kjs_window.cpp:1615 khtml/ecma/kjs_html.cpp:2112
 msgid "Do Not Allow"
 msgstr "Nie dazvol"
 
-#: khtml/ecma/kjs_window.cpp:1897
+#: khtml/ecma/kjs_window.cpp:1913
 msgid "Close window?"
 msgstr "Začynić akno?"
 
-#: khtml/ecma/kjs_window.cpp:1897
+#: khtml/ecma/kjs_window.cpp:1913
 msgid "Confirmation Required"
 msgstr "Treba paćvierdzić"
 
-#: khtml/ecma/kjs_window.cpp:2755
+#: khtml/ecma/kjs_window.cpp:2771
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "Ci chočaš dadać zakładku dla miesca „%1” u svoj zbor?"
 
-#: khtml/ecma/kjs_window.cpp:2758
+#: khtml/ecma/kjs_window.cpp:2774
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr "Ci chočaš dadać zakładku z nazvaj „%2” dla miesca „%1” u svoj zbor?"
 
-#: khtml/ecma/kjs_window.cpp:2766
+#: khtml/ecma/kjs_window.cpp:2782
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript sprabuje dadać zakładku"
 
-#: khtml/ecma/kjs_window.cpp:2770
+#: khtml/ecma/kjs_window.cpp:2786
 msgid "Insert"
 msgstr "Dadaj"
 
-#: khtml/ecma/kjs_window.cpp:2770
+#: khtml/ecma/kjs_window.cpp:2786
 msgid "Disallow"
 msgstr "Zabarani"
 
@@ -10934,7 +10934,7 @@ msgstr ""
 msgid "Key Generator"
 msgstr "Hieneratar klučoŭ"
 
-#: khtml/html/html_objectimpl.cpp:574
+#: khtml/html/html_objectimpl.cpp:594
 #, kde-format
 msgid ""
 "No plugin found for '%1'.\n"
@@ -10943,15 +10943,15 @@ msgstr ""
 "Dla „%1” nia znojdzieny plugin.\n"
 "Ci chočaš zabrać taki plugin z „%2”?"
 
-#: khtml/html/html_objectimpl.cpp:575
+#: khtml/html/html_objectimpl.cpp:595
 msgid "Missing Plugin"
 msgstr "Nie staje plugina"
 
-#: khtml/html/html_objectimpl.cpp:575
+#: khtml/html/html_objectimpl.cpp:595
 msgid "Download"
 msgstr "Zabiary z servera"
 
-#: khtml/html/html_objectimpl.cpp:575
+#: khtml/html/html_objectimpl.cpp:595
 msgid "Do Not Download"
 msgstr "Nie zabiraj z servera"
 

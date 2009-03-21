@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_quicklaunch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-08 10:10+0100\n"
+"POT-Creation-Date: 2009-03-21 11:06+0100\n"
 "PO-Revision-Date: 2008-11-17 13:47+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: quicklaunchApplet.cpp:276
+#: quicklaunchApplet.cpp:288
 msgid "General"
 msgstr "Ahulnaje"
 
-#: quicklaunchApplet.cpp:315
+#: quicklaunchApplet.cpp:329
 msgid "Add Icon..."
 msgstr "Dadaj ikonu..."
 
-#: quicklaunchApplet.cpp:324
+#: quicklaunchApplet.cpp:338
 msgid "Remove Icon"
 msgstr "Vydali ikonu"
 
@@ -34,7 +34,7 @@ msgstr "Vydali ikonu"
 #. i18n: ectx: property (windowTitle), widget (QWidget, quicklaunchAdd)
 #. i18n: file: quicklaunchAdd.ui:16
 #. i18n: ectx: property (accessibleName), widget (QWidget, quicklaunchAdd)
-#: quicklaunchApplet.cpp:458 rc.cpp:3 rc.cpp:6
+#: quicklaunchApplet.cpp:477 rc.cpp:3 rc.cpp:6
 msgid "Add Shortcut"
 msgstr "Dadaj skarot"
 
@@ -44,37 +44,51 @@ msgstr "Dadaj skarot"
 msgid "New icon:"
 msgstr "Novaja ikona:"
 
-#. i18n: file: quicklaunchConfig.ui:13
+#. i18n: file: quicklaunchConfig.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, quicklaunchConfig)
-#. i18n: file: quicklaunchConfig.ui:16
+#. i18n: file: quicklaunchConfig.ui:17
 #. i18n: ectx: property (accessibleName), widget (QWidget, quicklaunchConfig)
 #: rc.cpp:13 rc.cpp:16
 msgid "Configure QuickLaunch"
 msgstr "Naładź aplet chutkaha ŭklučeńnia"
 
-#. i18n: file: quicklaunchConfig.ui:22
-#. i18n: ectx: property (text), widget (QLabel, lblRowNums)
-#: rc.cpp:19
-msgid "Maximum Rows:"
-msgstr "Najbolšaja kolkaść radkoŭ:"
-
-#. i18n: file: quicklaunchConfig.ui:32
-#. i18n: ectx: property (text), widget (QLabel, dialogrowLabel)
-#: rc.cpp:22
-msgid "Rows in the dialog:"
-msgstr "Kolkaść radkoŭ u aknie:"
-
-#. i18n: file: quicklaunchConfig.ui:52
+#. i18n: file: quicklaunchConfig.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:25
+#: rc.cpp:19
 msgid "Visible icons:"
 msgstr "Vidočnyja ikony:"
 
-#. i18n: file: quicklaunchConfig.ui:68
+#. i18n: file: quicklaunchConfig.ui:66
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:22
+msgid "Icon size:"
+msgstr ""
+
+#. i18n: file: quicklaunchConfig.ui:76
+#. i18n: ectx: property (suffix), widget (QSpinBox, iconSizeSpin)
+#. i18n: file: quicklaunchConfig.ui:119
+#. i18n: ectx: property (suffix), widget (QSpinBox, dialogIconSizeSpin)
+#: rc.cpp:25 rc.cpp:34
+msgid "px"
+msgstr ""
+
+#. i18n: file: quicklaunchConfig.ui:89
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, icons)
 #: rc.cpp:28
 msgid "Unlimited"
 msgstr "Niama abmiežavańniaŭ"
+
+#. i18n: file: quicklaunchConfig.ui:109
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:31
+msgid "Dialog icon size:"
+msgstr ""
+
+#~ msgid "Maximum Rows:"
+#~ msgstr "Najbolšaja kolkaść radkoŭ:"
+
+#~ msgid "Rows in the dialog:"
+#~ msgstr "Kolkaść radkoŭ u aknie:"
 
 #, fuzzy
 #~ msgid "*.desktop"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-26 10:47+0100\n"
+"POT-Creation-Date: 2009-03-27 10:54+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -94,7 +94,7 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Admantavańnie"
 
-#: kio/job.cpp:1992 kio/paste.cpp:64 kio/copyjob.cpp:1183 kio/copyjob.cpp:1727
+#: kio/job.cpp:1992 kio/paste.cpp:64 kio/copyjob.cpp:1182 kio/copyjob.cpp:1727
 #: kio/global.cpp:664
 msgid "File Already Exists"
 msgstr "Fajł užo isnuje"
@@ -516,11 +516,11 @@ msgstr "Abmini"
 msgid "AutoSkip"
 msgstr "Aŭtamatyčna abminaj"
 
-#: kio/copyjob.cpp:898 kio/global.cpp:674
+#: kio/copyjob.cpp:897 kio/global.cpp:674
 msgid "Folder Already Exists"
 msgstr "Kataloh užo isnuje"
 
-#: kio/copyjob.cpp:1183 kio/copyjob.cpp:1727
+#: kio/copyjob.cpp:1182 kio/copyjob.cpp:1727
 msgid "Already Exists as Folder"
 msgstr "Užo isnuje taki kataloh"
 
@@ -3383,7 +3383,8 @@ msgstr "Nazva karystańnika"
 msgid "Named Group"
 msgstr "Nazva hrupy"
 
-#: kfile/kacleditwidget.cpp:100 ../kfile/kfileplacesview.cpp:587
+#: kfile/kacleditwidget.cpp:100 ../kfile/kfileplacesview.cpp:563
+#: ../kfile/kfileplacesview.cpp:583 ../kfile/kfileplacesview.cpp:590
 msgid "Add Entry..."
 msgstr "Dadaj praviła..."
 
@@ -5434,33 +5435,33 @@ msgstr "Vyčyści śmietnicu"
 msgid "&Edit '%1'..."
 msgstr "&Redahuj „%1”..."
 
-#: ../kfile/kfileplacesview.cpp:583
+#: ../kfile/kfileplacesview.cpp:586
 #, kde-format
 msgid "&Hide '%1'"
 msgstr "&Schavaj „%1”"
 
-#: ../kfile/kfileplacesview.cpp:592
+#: ../kfile/kfileplacesview.cpp:595
 msgid "&Show All Entries"
 msgstr "&Pakažy ŭsie elementy"
 
-#: ../kfile/kfileplacesview.cpp:601
+#: ../kfile/kfileplacesview.cpp:604
 #, kde-format
 msgid "&Remove '%1'"
 msgstr "&Vydali „%1”"
 
-#: ../kfile/kfileplacesview.cpp:610
+#: ../kfile/kfileplacesview.cpp:613
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr ""
 "Ty sapraŭdy chočaš vyčyścić śmietnicu? Usio jejnaje źmieściva budzie "
 "vydalenaje."
 
-#: ../kfile/kfileplacesview.cpp:614
+#: ../kfile/kfileplacesview.cpp:617
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Vyčyści śmietnicu"
 
-#: ../kfile/kfileplacesview.cpp:664
+#: ../kfile/kfileplacesview.cpp:667
 msgid "Enter a description"
 msgstr "Apišy"
 

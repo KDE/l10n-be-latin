@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-27 10:54+0100\n"
+"POT-Creation-Date: 2009-03-28 11:06+0100\n"
 "PO-Revision-Date: 2008-10-06 20:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -89,7 +89,11 @@ msgstr "&Prahladaj..."
 msgid "&Use files index"
 msgstr "&Karystajsia śpisam fajłaŭ"
 
-#: kftabdlg.cpp:91
+#: kftabdlg.cpp:74
+msgid "Show &hidden files"
+msgstr ""
+
+#: kftabdlg.cpp:92
 msgid ""
 "<qt>Enter the filename you are looking for. <br />Alternatives may be "
 "separated by a semicolon \";\".<br /><br />The filename may contain the "
@@ -103,200 +107,200 @@ msgid ""
 "li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:112
+#: kftabdlg.cpp:113
 msgid ""
 "<qt>This lets you use the files' index created by the <i>slocate</i> package "
 "to speed-up the search; remember to update the index from time to time "
 "(using <i>updatedb</i>).</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:149
+#: kftabdlg.cpp:159
 msgid "Find all files created or &modified:"
 msgstr "Znajdzi ŭsie fajły, stvoranyja albo &źmienienyja:"
 
-#: kftabdlg.cpp:151
+#: kftabdlg.cpp:161
 #, fuzzy
 msgid "&between"
 msgstr "&pamiž"
 
-#: kftabdlg.cpp:152
+#: kftabdlg.cpp:162
 #, fuzzy
 msgid "&during the previous"
 msgstr "&ciaham"
 
-#: kftabdlg.cpp:153
+#: kftabdlg.cpp:163
 #, fuzzy
 msgid "and"
 msgstr "i"
 
-#: kftabdlg.cpp:158
+#: kftabdlg.cpp:168
 #, fuzzy
 msgid "minute(s)"
 msgstr "chvilin"
 
-#: kftabdlg.cpp:159
+#: kftabdlg.cpp:169
 #, fuzzy
 msgid "hour(s)"
 msgstr "hadzin"
 
-#: kftabdlg.cpp:160
+#: kftabdlg.cpp:170
 #, fuzzy
 msgid "day(s)"
 msgstr "dzion"
 
-#: kftabdlg.cpp:161
+#: kftabdlg.cpp:171
 #, fuzzy
 msgid "month(s)"
 msgstr "miesiacaŭ"
 
-#: kftabdlg.cpp:162
+#: kftabdlg.cpp:172
 #, fuzzy
 msgid "year(s)"
 msgstr "hadoŭ"
 
-#: kftabdlg.cpp:180
+#: kftabdlg.cpp:190
 msgid "File &size is:"
 msgstr "Pamier &fajła:"
 
-#: kftabdlg.cpp:194
+#: kftabdlg.cpp:204
 msgid "Files owned by &user:"
 msgstr "Fajły &karystańnika:"
 
-#: kftabdlg.cpp:199
+#: kftabdlg.cpp:209
 msgid "Owned by &group:"
 msgstr "Fajły &hrupy:"
 
-#: kftabdlg.cpp:202
+#: kftabdlg.cpp:212
 msgid "(none)"
 msgstr "(niama)"
 
-#: kftabdlg.cpp:203
+#: kftabdlg.cpp:213
 msgid "At Least"
 msgstr "Prynamsi"
 
-#: kftabdlg.cpp:204
+#: kftabdlg.cpp:214
 msgid "At Most"
 msgstr "Nia bolš"
 
-#: kftabdlg.cpp:205
+#: kftabdlg.cpp:215
 msgid "Equal To"
 msgstr "Roŭna"
 
-#: kftabdlg.cpp:207
+#: kftabdlg.cpp:217
 msgid "Bytes"
 msgstr "Bajtaŭ"
 
-#: kftabdlg.cpp:208
+#: kftabdlg.cpp:218
 msgid "KiB"
 msgstr "KiB"
 
-#: kftabdlg.cpp:209
+#: kftabdlg.cpp:219
 msgid "MiB"
 msgstr "MiB"
 
-#: kftabdlg.cpp:210
+#: kftabdlg.cpp:220
 msgid "GiB"
 msgstr "GiB"
 
-#: kftabdlg.cpp:275
+#: kftabdlg.cpp:285
 msgid "File &type:"
 msgstr "&Typ fajła:"
 
-#: kftabdlg.cpp:280
+#: kftabdlg.cpp:290
 msgid "C&ontaining text:"
 msgstr "&Z tekstam:"
 
-#: kftabdlg.cpp:286
+#: kftabdlg.cpp:296
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
 "all file types from the list above are supported. Please refer to the "
 "documentation for a list of supported file types.</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:294
+#: kftabdlg.cpp:304
 msgid "Case s&ensitive"
 msgstr "Uličvajučy pamier &litaraŭ"
 
-#: kftabdlg.cpp:295
+#: kftabdlg.cpp:305
 msgid "Include &binary files"
 msgstr "Ułučna z &dvajkovymi fajłami"
 
-#: kftabdlg.cpp:296
+#: kftabdlg.cpp:306
 msgid "Regular e&xpression"
 msgstr "&Rehularny vyraz"
 
-#: kftabdlg.cpp:299
+#: kftabdlg.cpp:309
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:307
+#: kftabdlg.cpp:317
 msgid "&Edit..."
 msgstr "&Redahuj..."
 
-#: kftabdlg.cpp:313
+#: kftabdlg.cpp:323
 #, fuzzy
 msgid "fo&r:"
 msgstr "&dla:"
 
-#: kftabdlg.cpp:315
+#: kftabdlg.cpp:325
 msgid "Search &metainfo sections:"
 msgstr "Šukaj u raździele &metaźviestak:"
 
-#: kftabdlg.cpp:319
+#: kftabdlg.cpp:329
 msgid "All Files & Folders"
 msgstr "Usie fajły j katalohi"
 
-#: kftabdlg.cpp:320
+#: kftabdlg.cpp:330
 msgid "Files"
 msgstr "Fajły"
 
-#: kftabdlg.cpp:321
+#: kftabdlg.cpp:331
 msgid "Folders"
 msgstr "Katalohi"
 
-#: kftabdlg.cpp:322
+#: kftabdlg.cpp:332
 msgid "Symbolic Links"
 msgstr "Symbalnyja łučy"
 
-#: kftabdlg.cpp:323
+#: kftabdlg.cpp:333
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr "Specyjalnyja fajły (sokiety, pryłady dy inšaje)"
 
-#: kftabdlg.cpp:324
+#: kftabdlg.cpp:334
 msgid "Executable Files"
 msgstr "Vykonvalnyja fajły"
 
-#: kftabdlg.cpp:325
+#: kftabdlg.cpp:335
 msgid "SUID Executable Files"
 msgstr "Vykonvalnyja fajły z dazvołam „SUID”"
 
-#: kftabdlg.cpp:326
+#: kftabdlg.cpp:336
 msgid "All Images"
 msgstr "Usie vyjavy"
 
-#: kftabdlg.cpp:327
+#: kftabdlg.cpp:337
 msgid "All Video"
 msgstr "Usio videa"
 
-#: kftabdlg.cpp:328
+#: kftabdlg.cpp:338
 msgid "All Sounds"
 msgstr "Usie huki"
 
-#: kftabdlg.cpp:379
+#: kftabdlg.cpp:389
 msgid "Name/&Location"
 msgstr "Nazva/&miesca"
 
-#: kftabdlg.cpp:380
+#: kftabdlg.cpp:390
 msgid "C&ontents"
 msgstr "&Źmieściva"
 
-#: kftabdlg.cpp:381
+#: kftabdlg.cpp:391
 msgid "&Properties"
 msgstr "&Ułaścivaści"
 
-#: kftabdlg.cpp:386
+#: kftabdlg.cpp:396
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
 "examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
@@ -304,124 +308,142 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:394
+#: kftabdlg.cpp:404
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
 "(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:587
+#: kftabdlg.cpp:597
 msgid "Unable to search within a period which is less than a minute."
 msgstr "Nie ŭdałosia šukać fajły ŭ adcinku času, mienšym za adnu chvilinu."
 
-#: kftabdlg.cpp:598
+#: kftabdlg.cpp:608
 msgid "The date is not valid."
 msgstr "Data niapravilnaja."
 
-#: kftabdlg.cpp:600
+#: kftabdlg.cpp:610
 msgid "Invalid date range."
 msgstr "Dyjapazon dataŭ niapravilny."
 
-#: kftabdlg.cpp:602
+#: kftabdlg.cpp:612
 msgid "Unable to search dates in the future."
 msgstr "Nie ŭdałosia adšukać daty z pryšłaści."
 
-#: kftabdlg.cpp:664
+#: kftabdlg.cpp:674
 msgid "Size is too big. Set maximum size value?"
 msgstr "Pamier zavialiki. Aznačyć najbolšy mahčymy pamier?"
 
-#: kftabdlg.cpp:664
+#: kftabdlg.cpp:674
 msgid "Error"
 msgstr "Pamyłka"
 
-#: kftabdlg.cpp:664
+#: kftabdlg.cpp:674
 msgid "Set"
 msgstr "Aznač"
 
-#: kftabdlg.cpp:664
+#: kftabdlg.cpp:674
 msgid "Do Not Set"
 msgstr "Nie aznačaj"
 
-#: kfwin.cpp:32
+#: kfwin.cpp:46
 msgid "Read-write"
 msgstr "Čytańnie j zapis"
 
-#: kfwin.cpp:33
+#: kfwin.cpp:47
 msgid "Read-only"
 msgstr "Tolki čytańnie"
 
-#: kfwin.cpp:34
+#: kfwin.cpp:48
 msgid "Write-only"
 msgstr "Tolki zapis"
 
-#: kfwin.cpp:35
+#: kfwin.cpp:49
 msgid "Inaccessible"
 msgstr "Biaz dostupu"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "Name"
+msgctxt "file name column"
 msgid "Name"
 msgstr "Nazva"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "In Subfolder"
+msgctxt "name of the containing folder"
 msgid "In Subfolder"
 msgstr "U padkatalohu"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "Size"
+msgctxt "file size column"
 msgid "Size"
 msgstr "Pamier"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "Modified"
+msgctxt "modified date column"
 msgid "Modified"
 msgstr "Źmienieny"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "Permissions"
+msgctxt "file permissions column"
 msgid "Permissions"
 msgstr "Dazvoły"
 
-#: kfwin.cpp:113
+#: kfwin.cpp:60
+#, fuzzy
+#| msgid "First Matching Line"
+msgctxt "first matching line of the query string in this file"
 msgid "First Matching Line"
 msgstr "Pieršy adpaviedny radok"
 
-#: kfwin.cpp:217
+#: kfwin.cpp:235
 msgid "&Open containing folder(s)"
 msgstr ""
 
-#: kfwin.cpp:221
+#: kfwin.cpp:239
 #, fuzzy
 #| msgid "Delete"
 msgid "&Delete"
 msgstr "Vydali"
 
-#: kfwin.cpp:226
+#: kfwin.cpp:244
 msgid "&Move to Trash"
 msgstr ""
 
-#: kfwin.cpp:288
+#: kfwin.cpp:305
 msgid "Save Results As"
 msgstr "Zapišy vynik jak"
 
-#: kfwin.cpp:289
+#: kfwin.cpp:306
 msgid "HTML page"
 msgstr ""
 
-#: kfwin.cpp:289
+#: kfwin.cpp:306
 msgid "Text file"
 msgstr ""
 
-#: kfwin.cpp:309
+#: kfwin.cpp:326
 msgid "Unable to save results."
 msgstr "Nie ŭdałosia zapisać vynik."
 
-#: kfwin.cpp:324
+#: kfwin.cpp:341
 msgid "KFind Results File"
 msgstr "Fajły vyniku „KFind”"
 
-#: kfwin.cpp:347
+#: kfwin.cpp:364
 msgid "Results were saved to file\n"
 msgstr "Vynik zapisany ŭ fajł\n"
 
-#: kquery.cpp:487
+#: kquery.cpp:497
 msgid "Error while using locate"
 msgstr "Padčas vykarystańnia prahramy „locate” uźnikła pamyłka."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-27 10:54+0100\n"
+"POT-Creation-Date: 2009-03-28 11:06+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -94,7 +94,7 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Admantavańnie"
 
-#: kio/job.cpp:1992 kio/paste.cpp:64 kio/copyjob.cpp:1182 kio/copyjob.cpp:1727
+#: kio/job.cpp:1992 kio/paste.cpp:64 kio/copyjob.cpp:1198 kio/copyjob.cpp:1743
 #: kio/global.cpp:664
 msgid "File Already Exists"
 msgstr "Fajł užo isnuje"
@@ -146,7 +146,7 @@ msgid "The clipboard is empty"
 msgstr "Abmienny bufer pusty."
 
 #: kio/paste.cpp:228 kio/renamedialog.cpp:404 kio/kdirlister.cpp:313
-#: kio/krun.cpp:1071
+#: kio/krun.cpp:1075
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -516,11 +516,11 @@ msgstr "Abmini"
 msgid "AutoSkip"
 msgstr "Aŭtamatyčna abminaj"
 
-#: kio/copyjob.cpp:897 kio/global.cpp:674
+#: kio/copyjob.cpp:913 kio/global.cpp:674
 msgid "Folder Already Exists"
 msgstr "Kataloh užo isnuje"
 
-#: kio/copyjob.cpp:1182 kio/copyjob.cpp:1727
+#: kio/copyjob.cpp:1198 kio/copyjob.cpp:1743
 msgid "Already Exists as Folder"
 msgstr "Užo isnuje taki kataloh"
 
@@ -2205,14 +2205,22 @@ msgid "Timeout Error"
 msgstr "Skončyŭsia termin čakańnia"
 
 #: kio/global.cpp:1072
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Although contact was made with the server, a response was not received "
+#| "within the amount of time allocated for the request as follows:"
+#| "<ul><li>Timeout for establishing a connection: %1 seconds</li><li>Timeout "
+#| "for receiving a response: %2 seconds</li><li>Timeout for accessing proxy "
+#| "servers: %3 seconds</li></ul>Please note that you can alter these timeout "
+#| "settings in the KDE Control Center, by selecting Network -> Preferences."
 msgid ""
 "Although contact was made with the server, a response was not received "
 "within the amount of time allocated for the request as follows:"
 "<ul><li>Timeout for establishing a connection: %1 seconds</li><li>Timeout "
 "for receiving a response: %2 seconds</li><li>Timeout for accessing proxy "
 "servers: %3 seconds</li></ul>Please note that you can alter these timeout "
-"settings in the KDE Control Center, by selecting Network -> Preferences."
+"settings in the KDE System Settings, by selecting Network Settings -> "
+"Connection Preferences."
 msgstr ""
 "Choć z serveram była naładžanaja viaź, ale adkaz nia byŭ atrymany ciaham "
 "vydatkavanaha na heta času:<ul><li>Čas na ŭźniaćcio spałučeńnia: %1 "
@@ -2440,7 +2448,7 @@ msgstr ""
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
-#: kio/krun.cpp:1104
+#: kio/krun.cpp:1108
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -2449,7 +2457,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: kio/krun.cpp:1724
+#: kio/krun.cpp:1728
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-30 08:57+0000\n"
+"POT-Creation-Date: 2009-03-31 09:02+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -10346,6 +10346,20 @@ msgctxt "Comment"
 msgid "System monitoring applet"
 msgstr "Aplet nazirańnia za systemaju"
 
+#: workspace/plasma/applets/systemtray/notificationareawatcher/notificationareawatcher.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KDE Notification Daemon"
+msgctxt "Name"
+msgid "KDED Notification area watcher"
+msgstr "Słužba infarmavańnia KDE"
+
+#: workspace/plasma/applets/systemtray/notificationareawatcher/notificationareawatcher.desktop:4
+msgctxt "Comment"
+msgid ""
+"Keep track of applications that want to use the D-Bus based notification area"
+msgstr ""
+
 #: workspace/plasma/applets/systemtray/plasma-applet-systemtray.desktop:2
 msgctxt "Name"
 msgid "System Tray"
@@ -10355,19 +10369,6 @@ msgstr "Systemny trej"
 msgctxt "Comment"
 msgid "Access hidden applications minimized in the system tray"
 msgstr "Dostup da schavanych u systemnym trei aplikacyjaŭ"
-
-#: workspace/plasma/applets/systemtray/systemtraydaemon/systemtraydaemon.desktop:3
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "KDE write daemon"
-msgctxt "Name"
-msgid "KDED Systemtray daemon"
-msgstr "Słužba „write” dla „KDE”"
-
-#: workspace/plasma/applets/systemtray/systemtraydaemon/systemtraydaemon.desktop:21
-msgctxt "Comment"
-msgid "Keep track of applications that want to use the D-Bus based system tray"
-msgstr ""
 
 #: workspace/plasma/applets/tasks/plasma-tasks-default.desktop:2
 msgctxt "Name"
@@ -11859,6 +11860,13 @@ msgstr "Nastolny doždž"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "Zołak"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KDE write daemon"
+#~ msgctxt "Name"
+#~ msgid "KDED Systemtray daemon"
+#~ msgstr "Słužba „write” dla „KDE”"
 
 #~ msgctxt "Name"
 #~ msgid "Remote Encoding Plugin"

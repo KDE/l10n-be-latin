@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_webbrowser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-03 11:13+0100\n"
+"POT-Creation-Date: 2009-03-31 10:41+0200\n"
 "PO-Revision-Date: 2008-10-24 22:21+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,40 +18,46 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. i18n: file: webbrowserconfig.ui:13
+#. i18n: file: webbrowserconfig.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, WebBrowserConfig)
 #: rc.cpp:3
 msgid "Dialog"
 msgstr "Dyjaloh"
 
-#. i18n: file: webbrowserconfig.ui:19
+#. i18n: file: webbrowserconfig.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:6
 msgid "Auto refresh:"
 msgstr "Aŭtamatyčna aktualizuj:"
 
-#. i18n: file: webbrowserconfig.ui:29
+#. i18n: file: webbrowserconfig.ui:37
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:9
 msgid "Interval:"
 msgstr "Intervał:"
 
-#: webbrowser.cpp:376
+#. i18n: file: webbrowserconfig.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:12
+msgid "Drag to scroll the page:"
+msgstr ""
+
+#: webbrowser.cpp:377
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to remove the bookmark to %1?"
 msgstr "Ty sapraŭdy chočaš vydalić zakładku dla „%1”?"
 
-#: webbrowser.cpp:380
+#: webbrowser.cpp:381
 msgctxt "@action:button"
 msgid "Delete Bookmark"
 msgstr "Vydali zakładku"
 
-#: webbrowser.cpp:475
+#: webbrowser.cpp:476
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#: webbrowser.cpp:487
+#: webbrowser.cpp:489
 #, fuzzy
 #| msgid "minutes"
 msgid "minute"

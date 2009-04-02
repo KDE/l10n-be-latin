@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-01 11:16+0200\n"
+"POT-Creation-Date: 2009-04-02 11:26+0200\n"
 "PO-Revision-Date: 2008-10-18 22:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -217,9 +217,10 @@ msgstr "&Bolš"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3
 #, fuzzy
-#| msgid "Action &list (right click to add/remove commands):"
-msgid "Action list (right click to add/remove commands):"
-msgstr "&Śpis aperacyjaŭ (dadać ci vydalić zahady možna praz pravy klik):"
+#| msgctxt "Actions Config"
+#| msgid "Actions"
+msgid "Action list:"
+msgstr "Aperacyi"
 
 #. i18n: file: actionsconfig.ui:28
 #. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
@@ -612,26 +613,31 @@ msgstr "ihar.hrachyshka@gmail.com"
 msgid "Klipper - clipboard tool"
 msgstr "Abmienny bufer „Klipper”"
 
-#: urlgrabber.cpp:178
+#: urlgrabber.cpp:191
 #, kde-format
 msgid "%1 - Actions For: %2"
 msgstr "%1 - Aperacyi dla: %2"
 
-#: urlgrabber.cpp:206
+#: urlgrabber.cpp:219
 msgid "Disable This Popup"
 msgstr "Vyklučy hety vypłyŭny element"
 
-#: urlgrabber.cpp:212
+#: urlgrabber.cpp:225
 msgid "&Edit Contents..."
 msgstr "&Redahuj źmieściva..."
 
-#: urlgrabber.cpp:216
+#: urlgrabber.cpp:229
 msgid "&Cancel"
 msgstr "&Anuluj"
 
-#: urlgrabber.cpp:293
+#: urlgrabber.cpp:306
 msgid "Edit Contents"
 msgstr "Redahuj źmieściva"
+
+#, fuzzy
+#~| msgid "Action &list (right click to add/remove commands):"
+#~ msgid "Action list (right click to add/remove commands):"
+#~ msgstr "&Śpis aperacyjaŭ (dadać ci vydalić zahady možna praz pravy klik):"
 
 #~ msgid "Double-click here to set the command to be executed"
 #~ msgstr "Kab aznačyć patrebny zahad, zrabi dvuklik."

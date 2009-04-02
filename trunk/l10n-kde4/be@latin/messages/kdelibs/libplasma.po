@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-01 11:15+0200\n"
+"POT-Creation-Date: 2009-04-02 11:25+0200\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -149,19 +149,19 @@ msgstr "Opcyi schovišča „%1”"
 msgid "Icon"
 msgstr "Ikona"
 
-#: containment.cpp:1503
+#: containment.cpp:1508
 #, kde-format
 msgctxt "%1 is the name of the containment"
 msgid "Do you really want to remove this %1?"
 msgstr "Sapraŭdy chočaš vydalić hetaje schovišča „%1”?"
 
-#: containment.cpp:1504
+#: containment.cpp:1509
 #, kde-format
 msgctxt "@title:window %1 is the name of the containment"
 msgid "Remove %1"
 msgstr "Vydali schovišča „%1”"
 
-#: containment.cpp:1670
+#: containment.cpp:1675
 #, kde-format
 msgid "Could not find requested component: %1"
 msgstr "Nie ŭdałosia znajści patrebny składnik: %1"
@@ -202,11 +202,11 @@ msgstr "Hetaja systema nie absłuhoŭvaje widžetaŭ dla „OpenGL”."
 msgid "Your machine does not support OpenGL widgets."
 msgstr "Hety kamputar nie absłuhoŭvaje widžetaŭ dla „OpenGL”."
 
-#: runnersyntax.cpp:98
+#: runnersyntax.cpp:103
 msgid "search term"
 msgstr ""
 
-#: wallpaper.cpp:129
+#: wallpaper.cpp:166
 msgid "Unknown Wallpaper"
 msgstr "Nieviadomyja špalery"
 
@@ -220,7 +220,7 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Niapravilnaja („null”) pasłuha nia ŭmieje ničoha rabić."
 
-#: private/packages.cpp:35
+#: private/packages.cpp:35 private/packages.cpp:164
 msgid "Images"
 msgstr "Vyjavy"
 
@@ -364,6 +364,10 @@ msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla padkazak"
 #: private/packages.cpp:150
 msgid "KColorScheme configuration file"
 msgstr "Fajł naładaŭ dla „KColorScheme”"
+
+#: private/packages.cpp:165
+msgid "Screenshot"
+msgstr ""
 
 #~ msgid "Zoom Out"
 #~ msgstr "Pamienš"

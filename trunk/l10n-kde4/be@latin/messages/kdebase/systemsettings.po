@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-10 11:07+0200\n"
+"POT-Creation-Date: 2009-04-11 11:51+0200\n"
 "PO-Revision-Date: 2008-10-06 22:27+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,16 +19,22 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: kcmultiwidget.cpp:378
+#, fuzzy
+#| msgid ""
+#| "There are unsaved changes in the active module.\n"
+#| "Do you want to apply the changes or discard them?"
 msgid ""
-"There are unsaved changes in the active module.\n"
+"The current page has been modified.\n"
 "Do you want to apply the changes or discard them?"
 msgstr ""
 "U dziejnym moduli jość niezapisanyja źmieny.\n"
 "Ci chočaš ich prymianić albo anulavać?"
 
 #: kcmultiwidget.cpp:380
-msgid "Unsaved Changes"
-msgstr "Niezapisanyja źmieny"
+#, fuzzy
+#| msgid "System Settings"
+msgid "Apply Settings"
+msgstr "Systemnyja nałady"
 
 #: main.cpp:36 main.cpp:37
 msgid "System Settings"
@@ -108,6 +114,9 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
+
+#~ msgid "Unsaved Changes"
+#~ msgstr "Niezapisanyja źmieny"
 
 #~ msgid "Configure"
 #~ msgstr "Naładź"

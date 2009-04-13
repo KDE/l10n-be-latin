@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-11 11:50+0200\n"
+"POT-Creation-Date: 2009-04-13 11:04+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -230,18 +230,18 @@ msgstr[0] "Źmiani nazvu %1 vyłučanaha elementa na:"
 msgstr[1] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
 msgstr[2] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
 
-#: renamedialog.cpp:104
+#: renamedialog.cpp:107
 msgctxt "@info"
 msgid "(# will be replaced by ascending numbers)"
 msgstr "(znak „#” budzie zamienieny na liki, ad mienšaha k bolšamu)"
 
-#: renamedialog.cpp:119
+#: renamedialog.cpp:122
 msgctxt "@info:status"
 msgid ""
 "The new name is empty. A name with at least one character must be entered."
 msgstr "Novaja nazva pustaja. Treba ŭpisać jak mienš adzin znak."
 
-#: renamedialog.cpp:122
+#: renamedialog.cpp:125
 msgctxt "@info:status"
 msgid "The name must contain at least one # character."
 msgstr "Nazva pavinna ŭtrymvać jak mienš adzin znak „#”."
@@ -555,7 +555,7 @@ msgctxt "@label"
 msgid "Change Tags..."
 msgstr "Źmiani tagi..."
 
-#: panels/information/informationpanel.cpp:232
+#: panels/information/informationpanel.cpp:235
 #, fuzzy
 #| msgctxt "@action:intoolbar"
 #| msgid "Preview"
@@ -563,12 +563,12 @@ msgctxt "@action:inmenu"
 msgid "Preview"
 msgstr "Padhlad"
 
-#: panels/information/informationpanel.cpp:239
+#: panels/information/informationpanel.cpp:242
 msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr ""
 
-#: panels/information/informationpanel.cpp:245
+#: panels/information/informationpanel.cpp:248
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -576,7 +576,7 @@ msgctxt "@action:inmenu"
 msgid "Comment"
 msgstr "Dadaj kamentar..."
 
-#: panels/information/informationpanel.cpp:251
+#: panels/information/informationpanel.cpp:254
 #, fuzzy
 #| msgctxt "@label Indicator when no tags defined"
 #| msgid "No Tags"
@@ -584,7 +584,7 @@ msgctxt "@action:inmenu"
 msgid "Tags"
 msgstr "Niama tagaŭ"
 
-#: panels/information/informationpanel.cpp:349
+#: panels/information/informationpanel.cpp:364
 #, kde-format
 msgctxt "@info"
 msgid "%1 item selected"
@@ -593,29 +593,29 @@ msgstr[0] "Vyłučany %1 element"
 msgstr[1] "Vyłučanyja %1 elementy"
 msgstr[2] "Vyłučanyja %1 elementaŭ"
 
-#: panels/information/informationpanel.cpp:539
+#: panels/information/informationpanel.cpp:564
 msgctxt "@label"
 msgid "Total size:"
 msgstr "Supolny pamier:"
 
-#: panels/information/informationpanel.cpp:546
-#: panels/information/informationpanel.cpp:549
+#: panels/information/informationpanel.cpp:568
+#: panels/information/informationpanel.cpp:571
 msgctxt "@label"
 msgid "Type:"
 msgstr "Typ:"
 
-#: panels/information/informationpanel.cpp:546
+#: panels/information/informationpanel.cpp:568
 msgctxt "@label"
 msgid "Folder"
 msgstr "Kataloh"
 
-#: panels/information/informationpanel.cpp:547
-#: panels/information/informationpanel.cpp:552
+#: panels/information/informationpanel.cpp:569
+#: panels/information/informationpanel.cpp:574
 msgctxt "@label"
 msgid "Modified:"
 msgstr "Admiena:"
 
-#: panels/information/informationpanel.cpp:551
+#: panels/information/informationpanel.cpp:573
 msgctxt "@label"
 msgid "Size:"
 msgstr "Pamier:"
@@ -640,11 +640,11 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: panels/information/phononwidget.cpp:50
+#: panels/information/phononwidget.cpp:102
 msgid "play"
 msgstr ""
 
-#: panels/information/phononwidget.cpp:55
+#: panels/information/phononwidget.cpp:107
 #, fuzzy
 #| msgctxt "@action:inmenu View"
 #| msgid "Stop"

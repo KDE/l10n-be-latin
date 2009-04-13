@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-12 10:58+0200\n"
+"POT-Creation-Date: 2009-04-13 11:03+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -112,7 +112,7 @@ msgstr "Miernik vartaści parolu:"
 
 #. i18n: file: kdeui/dialogs/knewpassworddialog.ui:104
 #. i18n: ectx: property (text), widget (KTitleWidget, labelMatch)
-#: rc.cpp:41 kdeui/dialogs/knewpassworddialog.cpp:114
+#: rc.cpp:41 kdeui/dialogs/knewpassworddialog.cpp:177
 #: kde3support/kdeui/k3passworddialog.cpp:432
 #: kde3support/kdeui/k3passworddialog.cpp:625
 msgid "Passwords do not match"
@@ -6180,7 +6180,7 @@ msgstr ""
 msgid "There is no matching item available.\n"
 msgstr "Niama adpaviednikaŭ.\n"
 
-#: kdeui/dialogs/knewpassworddialog.cpp:74
+#: kdeui/dialogs/knewpassworddialog.cpp:77
 #: kde3support/kdeui/k3passworddialog.cpp:416
 msgid ""
 "The password strength meter gives an indication of the security of the "
@@ -6195,12 +6195,12 @@ msgstr ""
 " – užyć u im i vialikija, i małyja litary;\n"
 " – užyć razam ź litarami ličby, asablivyja znaki, naprykład, „#”."
 
-#: kdeui/dialogs/knewpassworddialog.cpp:104
+#: kdeui/dialogs/knewpassworddialog.cpp:167
 #: kde3support/kdeui/k3passworddialog.cpp:619
 msgid "Password is empty"
 msgstr "Pusty parol"
 
-#: kdeui/dialogs/knewpassworddialog.cpp:109
+#: kdeui/dialogs/knewpassworddialog.cpp:172
 #: kde3support/kdeui/k3passworddialog.cpp:622
 #, kde-format
 msgid "Password must be at least 1 character long"
@@ -6209,17 +6209,17 @@ msgstr[0] "Parol nia moža być karaciejšym ad %1 znaka."
 msgstr[1] "Parol nia moža być karaciejšym ad %1 znakaŭ."
 msgstr[2] "Parol nia moža być karaciejšym ad %1 znakaŭ."
 
-#: kdeui/dialogs/knewpassworddialog.cpp:113
+#: kdeui/dialogs/knewpassworddialog.cpp:176
 #: kde3support/kdeui/k3passworddialog.cpp:624
 msgid "Passwords match"
 msgstr "Paroli nia roźniacca"
 
-#: kdeui/dialogs/knewpassworddialog.cpp:219
+#: kdeui/dialogs/knewpassworddialog.cpp:237
 #: kde3support/kdeui/k3passworddialog.cpp:501
 msgid "You entered two different passwords. Please try again."
 msgstr "Ty ŭpisaŭ roznyja paroli. Paŭtary sprobu."
 
-#: kdeui/dialogs/knewpassworddialog.cpp:228
+#: kdeui/dialogs/knewpassworddialog.cpp:246
 #: kde3support/kdeui/k3passworddialog.cpp:508
 msgid ""
 "The password you have entered has a low strength. To improve the strength of "
@@ -6237,7 +6237,7 @@ msgstr ""
 "\n"
 "Ci chočaš, nie zvažajučy na hetyja pieraściarohi, karystacca hetym parolem?"
 
-#: kdeui/dialogs/knewpassworddialog.cpp:236
+#: kdeui/dialogs/knewpassworddialog.cpp:254
 #: kde3support/kdeui/k3passworddialog.cpp:516
 msgid "Low Password Strength"
 msgstr "Małaja vartaść parolu"
@@ -8212,7 +8212,7 @@ msgid "Disable automatic checking"
 msgstr "Vyklučy aŭtamatyčnaje spraŭdžvańnie"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:222
-#: kdeui/widgets/kdatepicker.cpp:708
+#: kdeui/widgets/kdatepicker.cpp:697
 msgctxt "@action:button"
 msgid "Close"
 msgstr "Začyni"

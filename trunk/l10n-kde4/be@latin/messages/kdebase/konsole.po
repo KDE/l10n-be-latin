@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-20 11:20+0200\n"
+"POT-Creation-Date: 2009-04-22 11:28+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -393,15 +393,15 @@ msgstr "Novaje spałučeńnie ź inšym hostam"
 msgid "Connect"
 msgstr "Spałučy"
 
-#: Session.cpp:317
+#: Session.cpp:332
 msgid "Could not find binary: "
 msgstr "Nie ŭdałosia znajści prahramu: "
 
-#: Session.cpp:326
+#: Session.cpp:341
 msgid "Warning: "
 msgstr "Uvaha: "
 
-#: Session.cpp:367
+#: Session.cpp:382
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -410,45 +410,45 @@ msgstr ""
 "Nie ŭdałosia znajści „%1”, zamiest jaho pačynajem z „%2”. Spraŭdź nałady "
 "svajho profilu."
 
-#: Session.cpp:372
+#: Session.cpp:387
 msgid "Could not find an interactive shell to start."
 msgstr "Nie ŭdałosia znajści interakcyjnaj abałonki, kab jaje ŭklučyć."
 
-#: Session.cpp:406
+#: Session.cpp:421
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
 
-#: Session.cpp:516
+#: Session.cpp:531
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Cišynia ŭ sesii „%1”"
 
-#: Session.cpp:551
+#: Session.cpp:566
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Syhnał u sesii „%1”"
 
-#: Session.cpp:562
+#: Session.cpp:577
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Aktyŭnaść u sesii „%1”"
 
-#: Session.cpp:700
+#: Session.cpp:720
 msgid "Finished"
 msgstr "Skončana"
 
-#: Session.cpp:709
+#: Session.cpp:729
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 
-#: Session.cpp:711
+#: Session.cpp:731
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Prahrama „%1” złamałasia."
 
-#: Session.cpp:1028
+#: Session.cpp:1047
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-18 11:47+0200\n"
+"POT-Creation-Date: 2009-04-21 11:24+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -179,7 +179,7 @@ msgstr "&Uklej źmieściva abmiennaha bufera"
 msgid "Authorization Dialog"
 msgstr "Akno aŭtaryzavańnia"
 
-#: kio/kfileitemdelegate.cpp:226
+#: kio/kfileitemdelegate.cpp:228
 #, kde-format
 msgctxt "Items in a folder"
 msgid "1 item"
@@ -188,7 +188,7 @@ msgstr[0] "%1 element"
 msgstr[1] "%1 elementy"
 msgstr[2] "%1 elementaŭ"
 
-#: kio/kfileitemdelegate.cpp:282 kio/kfileitemdelegate.cpp:286
+#: kio/kfileitemdelegate.cpp:284 kio/kfileitemdelegate.cpp:288
 msgctxt "@info mimetype"
 msgid "Unknown"
 msgstr "Nieviadomy"
@@ -4939,17 +4939,17 @@ msgctxt "@label:textbox"
 msgid "New folder:"
 msgstr "Novy kataloh:"
 
-#: ../kioslave/ftp/ftp.cpp:324
+#: ../kioslave/ftp/ftp.cpp:326
 #, kde-format
 msgid "Opening connection to host %1"
 msgstr "Adčynieńnie spałučeńnia z hostam „%1”"
 
-#: ../kioslave/ftp/ftp.cpp:342
+#: ../kioslave/ftp/ftp.cpp:344
 #, kde-format
 msgid "Connected to host %1"
 msgstr "Spałučany z hostam „%1”"
 
-#: ../kioslave/ftp/ftp.cpp:381
+#: ../kioslave/ftp/ftp.cpp:383
 #, kde-format
 msgid ""
 "%1.\n"
@@ -4960,11 +4960,11 @@ msgstr ""
 "\n"
 "Pryčyna: %2"
 
-#: ../kioslave/ftp/ftp.cpp:410
+#: ../kioslave/ftp/ftp.cpp:412
 msgid "Sending login information"
 msgstr "Vysyłańnie źviestak dla ŭvachodu"
 
-#: ../kioslave/ftp/ftp.cpp:458
+#: ../kioslave/ftp/ftp.cpp:460
 #, kde-format
 msgid ""
 "Message sent:\n"
@@ -4981,25 +4981,25 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:466 ../kioslave/http/http.cpp:4807
+#: ../kioslave/ftp/ftp.cpp:468 ../kioslave/http/http.cpp:4807
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ../kioslave/ftp/ftp.cpp:468 ../kioslave/http/http.cpp:4814
+#: ../kioslave/ftp/ftp.cpp:470 ../kioslave/http/http.cpp:4814
 msgid "Site:"
 msgstr "Sajt:"
 
-#: ../kioslave/ftp/ftp.cpp:469
+#: ../kioslave/ftp/ftp.cpp:471
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: ../kioslave/ftp/ftp.cpp:532
+#: ../kioslave/ftp/ftp.cpp:534
 msgid "Login OK"
 msgstr "Uvachod: OK"
 
-#: ../kioslave/ftp/ftp.cpp:561
+#: ../kioslave/ftp/ftp.cpp:563
 #, kde-format
 msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."

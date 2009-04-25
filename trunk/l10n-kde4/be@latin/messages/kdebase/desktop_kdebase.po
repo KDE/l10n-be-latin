@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-24 09:26+0000\n"
+"POT-Creation-Date: 2009-04-25 09:59+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -62,7 +62,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of general Dolphin settings."
 msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
-#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:60
+#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:61
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "General"
@@ -70,7 +70,7 @@ msgctxt "Name|Random file browsing settings."
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:136
+#: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:62
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -86,7 +86,7 @@ msgctxt "Name"
 msgid "Dolphin Navigation"
 msgstr "Vyhlad „Dolphin”"
 
-#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:25
+#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:26
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
@@ -94,7 +94,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin navigation."
 msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
-#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:59
+#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:61
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Navigation Panel"
@@ -102,7 +102,7 @@ msgctxt "Name"
 msgid "Navigation"
 msgstr "Panel miescaŭ"
 
-#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:83
+#: apps/dolphin/src/kcm/kcmdolphinnavigation.desktop:86
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -118,14 +118,14 @@ msgctxt "Name"
 msgid "Dolphin Services"
 msgstr "Vyhlad „Dolphin”"
 
-#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:32
+#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:33
 #: apps/konqueror/sidebar/trees/init/services.desktop:4
 #: apps/konqueror/sidebar/trees/init/services/.directory:3
 msgctxt "Name"
 msgid "Services"
 msgstr "Słužby"
 
-#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:115
+#: apps/dolphin/src/kcm/kcmdolphinservices.desktop:116
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -141,7 +141,7 @@ msgctxt "Name"
 msgid "Dolphin View Modes"
 msgstr "Vyhlad „Dolphin”"
 
-#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:25
+#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:26
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "This service allows configuration of the Dolphin views."
@@ -149,7 +149,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin view modes."
 msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
-#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:59
+#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:61
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Views"
@@ -157,7 +157,7 @@ msgctxt "Name"
 msgid "View Modes"
 msgstr "Vyhlady"
 
-#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:84
+#: apps/dolphin/src/kcm/kcmdolphinviewmodes.desktop:87
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -2294,6 +2294,7 @@ msgid "Network Interfaces"
 msgstr "Sietkavyja interfejsy"
 
 #: apps/kinfocenter/nics/nic.desktop:96
+#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:65
 msgctxt "Comment"
 msgid "Network interface information"
 msgstr "Źviestki pra sietkavyja interfejsy"
@@ -2835,7 +2836,7 @@ msgctxt ""
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#: apps/konqueror/settings/konqhtml/khtml_general.desktop:89
+#: apps/konqueror/settings/konqhtml/khtml_general.desktop:14
 msgctxt "Comment"
 msgid "Configure general Konqueror behavior"
 msgstr "Naładź hałoŭnyja aspekty pavodzinaŭ hartača „Konqueror”"
@@ -3367,57 +3368,57 @@ msgstr ""
 "Kali ty chočaš vypravić hetuju prahramu, možaš pahladzieć u źmieściva "
 "„backtrace”."
 
-#: runtime/drkonqi/presets/developerrc:264
+#: runtime/drkonqi/presets/developerrc:265
 #: runtime/drkonqi/presets/enduserrc:302
 msgctxt "Name"
 msgid "SIGILL"
 msgstr "SIGILL"
 
-#: runtime/drkonqi/presets/developerrc:271
+#: runtime/drkonqi/presets/developerrc:272
 msgctxt "Comment"
 msgid "Illegal instruction."
 msgstr "Niapravilnaja instrukcyja."
 
-#: runtime/drkonqi/presets/developerrc:347
+#: runtime/drkonqi/presets/developerrc:348
 #: runtime/drkonqi/presets/enduserrc:383
 msgctxt "Name"
 msgid "SIGABRT"
 msgstr "SIGABRT"
 
-#: runtime/drkonqi/presets/developerrc:352
+#: runtime/drkonqi/presets/developerrc:353
 msgctxt "Comment"
 msgid "Aborted."
 msgstr "Pierarvana."
 
-#: runtime/drkonqi/presets/developerrc:424
+#: runtime/drkonqi/presets/developerrc:425
 #: runtime/drkonqi/presets/enduserrc:461
 msgctxt "Name"
 msgid "SIGFPE"
 msgstr "SIGFPE"
 
-#: runtime/drkonqi/presets/developerrc:429
+#: runtime/drkonqi/presets/developerrc:430
 msgctxt "Comment"
 msgid "Floating point exception."
 msgstr "Niaŭdałaja aperacyja ź niezafiksavanym punktam."
 
-#: runtime/drkonqi/presets/developerrc:499
+#: runtime/drkonqi/presets/developerrc:500
 #: runtime/drkonqi/presets/enduserrc:540
 msgctxt "Name"
 msgid "SIGSEGV"
 msgstr "SIGSEGV"
 
-#: runtime/drkonqi/presets/developerrc:504
+#: runtime/drkonqi/presets/developerrc:505
 msgctxt "Comment"
 msgid "Invalid memory reference."
 msgstr "Niapravilnaja spasyłańnie ŭ pamiać."
 
-#: runtime/drkonqi/presets/developerrc:576
+#: runtime/drkonqi/presets/developerrc:577
 #: runtime/drkonqi/presets/enduserrc:618
 msgctxt "Name"
 msgid "Unknown"
 msgstr "Nieviadomy"
 
-#: runtime/drkonqi/presets/developerrc:656
+#: runtime/drkonqi/presets/developerrc:657
 msgctxt "Comment"
 msgid "This signal is unknown."
 msgstr "Hety syhnał nieviadomy."
@@ -5493,12 +5494,12 @@ msgctxt "Comment"
 msgid "The KDE Wallet Daemon"
 msgstr "Słužba „Write” dla „KDE”"
 
-#: runtime/kwalletd/kwalletd.notifyrc:23
+#: runtime/kwalletd/kwalletd.notifyrc:24
 msgctxt "Name"
 msgid "kwalletd"
 msgstr ""
 
-#: runtime/kwalletd/kwalletd.notifyrc:28
+#: runtime/kwalletd/kwalletd.notifyrc:29
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Change Password"
@@ -5506,7 +5507,7 @@ msgctxt "Name"
 msgid "Needs password"
 msgstr "Źmiena parola"
 
-#: runtime/kwalletd/kwalletd.notifyrc:49
+#: runtime/kwalletd/kwalletd.notifyrc:50
 msgctxt "Comment"
 msgid "The KDE Wallet Daemon requests a password"
 msgstr ""
@@ -8391,11 +8392,11 @@ msgstr "Pošuk dla PHP"
 
 #: workspace/khotkeys/data/defaults.khotkeys:82
 #: workspace/khotkeys/data/kde32b1.khotkeys:399
-#: workspace/khotkeys/data/kde32b1.khotkeys:564
-#: workspace/khotkeys/data/kde32b1.khotkeys:782
-#: workspace/khotkeys/data/kde32b1.khotkeys:1122
-#: workspace/khotkeys/data/kde32b1.khotkeys:1450
-#: workspace/khotkeys/data/kde32b1.khotkeys:2463
+#: workspace/khotkeys/data/kde32b1.khotkeys:565
+#: workspace/khotkeys/data/kde32b1.khotkeys:783
+#: workspace/khotkeys/data/kde32b1.khotkeys:1123
+#: workspace/khotkeys/data/kde32b1.khotkeys:1451
+#: workspace/khotkeys/data/kde32b1.khotkeys:2465
 #: workspace/khotkeys/data/printscreen.khotkeys:273
 msgctxt "Comment"
 msgid "Simple_action"
@@ -8454,24 +8455,24 @@ msgid ""
 "'  (space)                              Space"
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:480
+#: workspace/khotkeys/data/kde32b1.khotkeys:481
 msgctxt "Name"
 msgid "Type 'Hello'"
 msgstr "Upišy „Pryvitańnie!”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:629
+#: workspace/khotkeys/data/kde32b1.khotkeys:630
 msgctxt "Comment"
 msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
 msgstr ""
 "Hetaja aperacyja ŭklučaje prahramu „Konsole” ad klavijaturnaha skarotu „Ctrl"
 "+Alt+T”."
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:694
+#: workspace/khotkeys/data/kde32b1.khotkeys:695
 msgctxt "Name"
 msgid "Run Konsole"
 msgstr "Uklučy prahramu „Konsole”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:847
+#: workspace/khotkeys/data/kde32b1.khotkeys:848
 msgctxt "Comment"
 msgid ""
 "Read the comment on the \"Type 'Hello'\" action first.\\n\\nQt Designer uses "
@@ -8489,17 +8490,17 @@ msgid ""
 "title."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:862
+#: workspace/khotkeys/data/kde32b1.khotkeys:863
 msgctxt "Name"
 msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
 msgstr "Pryznač skarot „Ctrl+W” dla „Ctrl+F4” u prahramie „Qt Designer”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:942
+#: workspace/khotkeys/data/kde32b1.khotkeys:943
 msgctxt "Comment"
 msgid "Qt Designer"
 msgstr "Qt Designer"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1003
+#: workspace/khotkeys/data/kde32b1.khotkeys:1004
 msgctxt "Comment"
 msgid ""
 "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
@@ -8507,14 +8508,14 @@ msgid ""
 "line 'qdbus' tool."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1051
+#: workspace/khotkeys/data/kde32b1.khotkeys:1052
 msgctxt "Name"
 msgid "Perform D-Bus call 'kdesktop KDesktopIface popupExecuteCommand()'"
 msgstr ""
 "Vykanaj funkcyju systemy „D-Bus”: „kdesktop KDesktopIface popupExecuteCommand"
 "()”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1187
+#: workspace/khotkeys/data/kde32b1.khotkeys:1188
 msgctxt "Comment"
 msgid ""
 "Read the comment on the \"Type 'Hello'\" action first.\\n\\nJust like the "
@@ -8527,22 +8528,22 @@ msgid ""
 "on the XMMS window and search for WM_CLASS to see 'XMMS_Player')."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1203
+#: workspace/khotkeys/data/kde32b1.khotkeys:1204
 msgctxt "Name"
 msgid "Next in XMMS"
 msgstr "Nastupnaja pieśnia ŭ prahramie „XMMS”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1286
+#: workspace/khotkeys/data/kde32b1.khotkeys:1287
 msgctxt "Comment"
 msgid "XMMS window"
 msgstr "Akno prahramy „XMMS”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1368
+#: workspace/khotkeys/data/kde32b1.khotkeys:1369
 msgctxt "Comment"
 msgid "XMMS Player window"
 msgstr "Akno prahramy „XMMS”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1515
+#: workspace/khotkeys/data/kde32b1.khotkeys:1516
 msgctxt "Comment"
 msgid ""
 "Konqueror in KDE3.1 has tabs, and now you can also have gestures.\\n\\nJust "
@@ -8565,35 +8566,35 @@ msgid ""
 "window is Konqueror (class contains 'konqueror')."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1532
+#: workspace/khotkeys/data/kde32b1.khotkeys:1533
 msgctxt "Name"
 msgid "Konqi Gestures"
 msgstr "Žesty „Konqi”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1600
+#: workspace/khotkeys/data/kde32b1.khotkeys:1601
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:150
 msgctxt "Comment"
 msgid "Konqueror window"
 msgstr "Akno prahramy „Konqueror”"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1683
-#: workspace/khotkeys/data/kde32b1.khotkeys:1705
+#: workspace/khotkeys/data/kde32b1.khotkeys:1684
+#: workspace/khotkeys/data/kde32b1.khotkeys:1706
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:233
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:255
 msgctxt "Comment"
 msgid "Konqueror"
 msgstr "Konqueror"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1732
+#: workspace/khotkeys/data/kde32b1.khotkeys:1733
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:348
 msgctxt "Name"
 msgid "Back"
 msgstr "Nazad"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1826
-#: workspace/khotkeys/data/kde32b1.khotkeys:1984
-#: workspace/khotkeys/data/kde32b1.khotkeys:2140
-#: workspace/khotkeys/data/kde32b1.khotkeys:2298
+#: workspace/khotkeys/data/kde32b1.khotkeys:1827
+#: workspace/khotkeys/data/kde32b1.khotkeys:1985
+#: workspace/khotkeys/data/kde32b1.khotkeys:2141
+#: workspace/khotkeys/data/kde32b1.khotkeys:2299
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:579
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:781
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:964
@@ -8612,25 +8613,25 @@ msgctxt "Comment"
 msgid "Gesture_triggers"
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:1890
+#: workspace/khotkeys/data/kde32b1.khotkeys:1891
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:1973
 msgctxt "Name"
 msgid "Forward"
 msgstr "Napierad"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2048
+#: workspace/khotkeys/data/kde32b1.khotkeys:2049
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:689
 msgctxt "Name"
 msgid "Up"
 msgstr "Uvierch"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2204
+#: workspace/khotkeys/data/kde32b1.khotkeys:2205
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:3019
 msgctxt "Name"
 msgid "Reload"
 msgstr "Pieračytaj"
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2360
+#: workspace/khotkeys/data/kde32b1.khotkeys:2361
 msgctxt "Comment"
 msgid ""
 "After pressing Win+E (Tux+E) a WWW browser will be launched, and it will "
@@ -8638,7 +8639,7 @@ msgid ""
 "minicli (Alt+F2)."
 msgstr ""
 
-#: workspace/khotkeys/data/kde32b1.khotkeys:2378
+#: workspace/khotkeys/data/kde32b1.khotkeys:2380
 msgctxt "Name"
 msgid "Go to KDE Website"
 msgstr "Pierajdzi da sajta KDE"
@@ -9198,7 +9199,7 @@ msgctxt "Name"
 msgid "Desktop Cube Animation"
 msgstr "Rabočy kub"
 
-#: workspace/kwin/effects/cube/cubeslide.desktop:22
+#: workspace/kwin/effects/cube/cubeslide.desktop:23
 msgctxt "Comment"
 msgid "Animate desktop switching with a cube"
 msgstr ""
@@ -9273,7 +9274,7 @@ msgctxt "Name"
 msgid "Fade Desktop"
 msgstr "SaverDesktop"
 
-#: workspace/kwin/effects/fadedesktop/fadedesktop.desktop:24
+#: workspace/kwin/effects/fadedesktop/fadedesktop.desktop:25
 msgctxt "Comment"
 msgid "Fade between virtual desktops when switching between them"
 msgstr ""
@@ -9308,7 +9309,7 @@ msgctxt "Name"
 msgid "Highlight Window"
 msgstr "Skapijuj akno"
 
-#: workspace/kwin/effects/highlightwindow/highlightwindow.desktop:26
+#: workspace/kwin/effects/highlightwindow/highlightwindow.desktop:27
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Display window thumbnails when hovering over taskbar entries"
@@ -10497,8 +10498,8 @@ msgstr "Źviestki pra zadańnie aplikacyi"
 
 #: workspace/plasma/dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:58
 msgctxt "Comment"
-msgid "Kuiserver data for Plasmoids"
-msgstr "Źviestki „Kuiserver” dla widžetaŭ „Plasma”"
+msgid "Application job updates (via kuiserver)"
+msgstr ""
 
 #: workspace/plasma/dataengines/calendar/plasma-dataengine-calendar.desktop:64
 #, fuzzy
@@ -10544,14 +10545,22 @@ msgid "Files and Directories"
 msgstr "Fajły j katalohi"
 
 #: workspace/plasma/dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:64
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Info about files and directories for Plasmoids"
 msgctxt "Comment"
-msgid "Info about files and directories for Plasmoids"
+msgid "Info about files and directories"
 msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
 
 #: workspace/plasma/dataengines/hotplug/plasma-dataengine-hotplug.desktop:2
 msgctxt "Name"
 msgid "Hotplug Events"
 msgstr "Źjaŭleńnie novych pryładaŭ"
+
+#: workspace/plasma/dataengines/hotplug/plasma-dataengine-hotplug.desktop:57
+msgctxt "Comment"
+msgid "Tracks hot-pluggable devices as they appear and dissapear"
+msgstr ""
 
 #: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:2
 msgctxt "Name"
@@ -10560,23 +10569,23 @@ msgstr "Miesca kursora"
 
 #: workspace/plasma/dataengines/mouse/plasma-dataengine-mouse.desktop:58
 msgctxt "Comment"
-msgid "Mouse data for Plasmoids"
-msgstr "Źviestki ad myšy dla widžetaŭ"
+msgid "Mouse position and cursor"
+msgstr ""
 
 #: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:3
 msgctxt "Name"
 msgid "Networking"
 msgstr "Sietka"
 
-#: workspace/plasma/dataengines/network/plasma-dataengine-network.desktop:65
-msgctxt "Comment"
-msgid "Network information for Plasmoids"
-msgstr "Sietkavyja źviestki dla widžetaŭ"
-
 #: workspace/plasma/dataengines/notifications/plasma-dataengine-notifications.desktop:2
 msgctxt "Name"
 msgid "Application Notifications"
 msgstr "Infarmavańni aplikacyj"
+
+#: workspace/plasma/dataengines/notifications/plasma-dataengine-notifications.desktop:62
+msgctxt "Comment"
+msgid "Passive visual notifications for the user"
+msgstr ""
 
 #: workspace/plasma/dataengines/nowplaying/plasma-dataengine-nowplaying.desktop:2
 msgctxt "Name"
@@ -10596,8 +10605,8 @@ msgstr "Miescy"
 
 #: workspace/plasma/dataengines/places/plasma-dataengine-places.desktop:63
 msgctxt "Comment"
-msgid "Places data for Plasmoids"
-msgstr "Źviestki ź miescaŭ dla widžetaŭ"
+msgid "Places as seen in file manager and file dialogs"
+msgstr ""
 
 #: workspace/plasma/dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:2
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:13
@@ -10605,6 +10614,11 @@ msgstr "Źviestki ź miescaŭ dla widžetaŭ"
 msgctxt "Name"
 msgid "Power Management"
 msgstr "Kiravańnie enerhijaj"
+
+#: workspace/plasma/dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:63
+msgctxt "Comment"
+msgid "Battery, AC, sleep and PowerDevil information"
+msgstr ""
 
 #: workspace/plasma/dataengines/rss/plasma-dataengine-rss.desktop:3
 msgctxt "Name"
@@ -10622,19 +10636,30 @@ msgid "Device Information"
 msgstr "Źviestki z pryłady"
 
 #: workspace/plasma/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:64
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "SolidDevice data for Plasmoids"
 msgctxt "Comment"
-msgid "SolidDevice data for Plasmoids"
+msgid "Device data via Solid"
 msgstr "Źviestki „SolidDevice” dla widžetaŭ „Plasma”"
 
 #: workspace/plasma/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:78
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "System Process Information"
 msgctxt "Comment"
-msgid "System information for Plasmoids"
-msgstr "Systemnyja źviestki dla widžetaŭ „Plasma”"
+msgid "System status information"
+msgstr "Źviestki pra systemnyja pracesy"
 
 #: workspace/plasma/dataengines/tasks/plasma-dataengine-tasks.desktop:2
 msgctxt "Name"
 msgid "Window Information"
 msgstr "Źviestki z akna"
+
+#: workspace/plasma/dataengines/tasks/plasma-dataengine-tasks.desktop:62
+msgctxt "Comment"
+msgid "Information on and management services for all available windows"
+msgstr ""
 
 #: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:2
 #: workspace/plasma/scriptengines/ruby/examples/dataengines/time/metadata.desktop:2
@@ -10643,10 +10668,12 @@ msgid "Date and Time"
 msgstr "Data j čas"
 
 #: workspace/plasma/dataengines/time/plasma-dataengine-time.desktop:65
-#: workspace/plasma/scriptengines/ruby/examples/dataengines/time/metadata.desktop:65
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Date and time settings"
 msgctxt "Comment"
-msgid "Time data for Plasmoids"
-msgstr "Źviestki pra čas dla widžetaŭ „Plasma”"
+msgid "Date and time by timezone"
+msgstr "Nałady daty j času"
 
 #: workspace/plasma/dataengines/weather/ions/ion-bbcukmet.desktop:2
 msgctxt "Name"
@@ -10685,8 +10712,8 @@ msgstr "Nadvorje"
 
 #: workspace/plasma/dataengines/weather/plasma-dataengine-weather.desktop:63
 msgctxt "Comment"
-msgid "Weather data for Plasmoids"
-msgstr "Źviestki pra nadvorje dla widžetaŭ „Plasma”"
+msgid "Weather data from multiple online sources"
+msgstr ""
 
 #: workspace/plasma/runners/bookmarks/plasma-runner-bookmarks.desktop:87
 msgctxt "Comment"
@@ -10959,6 +10986,11 @@ msgstr "Zapyty ŭ „DBpedia”"
 msgctxt "Comment"
 msgid "DBpedia data for Plasmoids"
 msgstr "Źviestki „DBpedia” dla widžetaŭ „Plasma”"
+
+#: workspace/plasma/scriptengines/ruby/examples/dataengines/time/metadata.desktop:65
+msgctxt "Comment"
+msgid "Time data for Plasmoids"
+msgstr "Źviestki pra čas dla widžetaŭ „Plasma”"
 
 #: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-applet.desktop:2
 #: workspace/plasma/scriptengines/ruby/plasma-scriptengine-ruby-dataengine.desktop:2
@@ -11945,6 +11977,30 @@ msgstr "Nastolny doždž"
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr "Zołak"
+
+#~ msgctxt "Comment"
+#~ msgid "Kuiserver data for Plasmoids"
+#~ msgstr "Źviestki „Kuiserver” dla widžetaŭ „Plasma”"
+
+#~ msgctxt "Comment"
+#~ msgid "Mouse data for Plasmoids"
+#~ msgstr "Źviestki ad myšy dla widžetaŭ"
+
+#~ msgctxt "Comment"
+#~ msgid "Network information for Plasmoids"
+#~ msgstr "Sietkavyja źviestki dla widžetaŭ"
+
+#~ msgctxt "Comment"
+#~ msgid "Places data for Plasmoids"
+#~ msgstr "Źviestki ź miescaŭ dla widžetaŭ"
+
+#~ msgctxt "Comment"
+#~ msgid "System information for Plasmoids"
+#~ msgstr "Systemnyja źviestki dla widžetaŭ „Plasma”"
+
+#~ msgctxt "Comment"
+#~ msgid "Weather data for Plasmoids"
+#~ msgstr "Źviestki pra nadvorje dla widžetaŭ „Plasma”"
 
 #, fuzzy
 #~| msgctxt "Query"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-03 11:08+0200\n"
+"POT-Creation-Date: 2009-04-26 10:54+0200\n"
 "PO-Revision-Date: 2008-11-01 19:17+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -72,20 +72,19 @@ msgid "The size in KB to set the pixmap cache to"
 msgstr "Pamier padručnaj pamiaci dla pikselnaj mapy ŭ kilabajtach"
 
 #: main.cpp:70
-msgid "Name of applet to add (required)"
-msgstr "Nazva apleta, jaki treba dadać (abaviazkovaja opcyja)"
+msgid ""
+"Name of applet to view; may refer to the plugin name or be a path (absolute "
+"or relative) to a package. If not provided, then an attempt is made to load "
+"a package from the current directory."
+msgstr ""
 
-#: main.cpp:71
+#: main.cpp:73
 msgid "Optional arguments of the applet to add"
 msgstr "Dadatkovyja arhumenty apleta, jaki treba dadać"
 
-#: main.cpp:95
+#: main.cpp:97
 msgid "No description available"
 msgstr "Niama apisańnia."
-
-#: main.cpp:113
-msgid "No applet name specified"
-msgstr "Nazva apleta nie aznačanaja."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -96,3 +95,9 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
+
+#~ msgid "Name of applet to add (required)"
+#~ msgstr "Nazva apleta, jaki treba dadać (abaviazkovaja opcyja)"
+
+#~ msgid "No applet name specified"
+#~ msgstr "Nazva apleta nie aznačanaja."

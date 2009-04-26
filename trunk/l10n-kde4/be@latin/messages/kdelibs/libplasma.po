@@ -28,19 +28,19 @@ msgstr "Nie ŭdałosia źmiaścić widžet u pamiać"
 
 #: applet.cpp:551 applet.cpp:964
 msgid "Ok"
-msgstr ""
+msgstr "Dobra"
 
 #: applet.cpp:554 applet.cpp:970
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #: applet.cpp:557 applet.cpp:976
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #: applet.cpp:560 applet.cpp:982
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 #: applet.cpp:698
 msgid "Unknown Activity"
@@ -180,11 +180,11 @@ msgstr "Biaz nazvy"
 
 #: extendergroup.cpp:50
 msgid "Show this group."
-msgstr ""
+msgstr "Pakažy hety hurt."
 
 #: extendergroup.cpp:56
 msgid "Hide this group."
-msgstr ""
+msgstr "Schavaj hety hurt."
 
 #: extenderitem.cpp:900
 msgid "Expand this widget"
@@ -204,7 +204,7 @@ msgstr "Hety kamputar nie absłuhoŭvaje widžetaŭ dla „OpenGL”."
 
 #: runnersyntax.cpp:103
 msgid "search term"
-msgstr ""
+msgstr "šukany vyraz"
 
 #: wallpaper.cpp:147
 msgid "Unknown Wallpaper"
@@ -231,7 +231,7 @@ msgstr "Aznačeńni naładaŭ"
 
 #: private/packages.cpp:53
 msgid "User Interface"
-msgstr ""
+msgstr "Interfejs karystańnika"
 
 #: private/packages.cpp:56
 msgid "Executable Scripts"
@@ -252,10 +252,9 @@ msgid "Main Script File"
 msgstr "Hałoŭny fajł sa skryptom"
 
 #: private/packages.cpp:93
-#, fuzzy, kde-format
-#| msgid "Installation of <b>%1</b> failed!"
+#, kde-format
 msgid "Installation of <b>%1</b> failed."
-msgstr "Nie ŭdałosia zainstalavać <b>%1</b>!"
+msgstr "Nie ŭdałosia zainstalavać <b>%1</b>."
 
 #: private/packages.cpp:94
 msgid "Installation Failed"
@@ -282,10 +281,8 @@ msgid "Images for widgets"
 msgstr "Vyjavy dla widžetaŭ"
 
 #: private/packages.cpp:116
-#, fuzzy
-#| msgid "Background image for panels"
 msgid "Background image for widgets"
-msgstr "Fonavaja vyjava dla panelaŭ"
+msgstr "Fonavaja vyjava dla widžetaŭ"
 
 #: private/packages.cpp:118
 msgid "Analog clock face"
@@ -340,10 +337,8 @@ msgid "Low color theme for the logout dialog"
 msgstr "Matyŭ z małoj kolkaściu koleraŭ dla dyjalohu vychadu"
 
 #: private/packages.cpp:147
-#, fuzzy
-#| msgid "Low color background image for panels"
 msgid "Low color background image for widgets"
-msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla panelaŭ"
+msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla widžetaŭ"
 
 #: private/packages.cpp:149
 msgid "Low color analog clock face"
@@ -367,27 +362,8 @@ msgstr "Fajł naładaŭ dla „KColorScheme”"
 
 #: private/packages.cpp:173
 msgid "Screenshot"
-msgstr ""
+msgstr "Zdymak ekranu"
 
 #: private/packages.cpp:203 private/packages.cpp:258
 msgid "Recommended wallpaper file"
-msgstr ""
-
-#~ msgid "Zoom Out"
-#~ msgstr "Pamienš"
-
-#~ msgid "Add Activity"
-#~ msgstr "Dadaj čynnaść"
-
-#~ msgid "Appearance Settings"
-#~ msgstr "Nałady vonkavaści"
-
-#~ msgid "Background image for plasmoids"
-#~ msgstr "Fonavaja vyjava dla widžetaŭ systemy „Plasma”"
-
-#~ msgid "Low color background image for plasmoids"
-#~ msgstr ""
-#~ "Fonavaja vyjava z małoj kolkaściu koleraŭ dla widžetaŭ systemy „Plasma”"
-
-#~ msgid "no items"
-#~ msgstr "niama elementaŭ"
+msgstr "Paradžany fajł špaleraŭ"

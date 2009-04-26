@@ -310,10 +310,9 @@ msgid "A newer item named '%1' already exists."
 msgstr "Užo jość naviejšy element z nazvaj „%1”."
 
 #: kio/renamedialog.cpp:215 kio/renamedialog.cpp:252
-#, fuzzy, kde-format
-#| msgid "%1 (%2)"
+#, kde-format
 msgid "size %1 (%2)"
-msgstr "%1 (%2)"
+msgstr "pamier %1 (%2)"
 
 #: kio/renamedialog.cpp:224 kio/renamedialog.cpp:260
 #, kde-format
@@ -527,38 +526,29 @@ msgid "Already Exists as Folder"
 msgstr "Užo isnuje taki kataloh"
 
 #: kio/kfileitemactions.cpp:392
-#, fuzzy
-#| msgid "Actions"
 msgctxt "@title:menu"
 msgid "&Actions"
-msgstr "Aperacyi"
+msgstr "&Aperacyi"
 
 #: kio/kfileitemactions.cpp:510
-#, fuzzy
-#| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With"
-msgstr "Adčyni ŭ"
+msgstr "&Adčyni ŭ"
 
 #: kio/kfileitemactions.cpp:527
-#, fuzzy
-#| msgid "Others"
 msgctxt "@action:inmenu Open With"
 msgid "&Other..."
-msgstr "Inšyja"
+msgstr "&Inšaje..."
 
 #: kio/kfileitemactions.cpp:529 kio/kfileitemactions.cpp:541
-#, fuzzy
-#| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With..."
-msgstr "Adčyni ŭ"
+msgstr "&Adčyni ŭ..."
 
 #: kio/kfileitemactions.cpp:569
-#, fuzzy, kde-format
-#| msgid "Open with:"
+#, kde-format
 msgid "Open &with %1"
-msgstr "Adčyni ŭ:"
+msgstr "Adčyni &ŭ: %1"
 
 #: kio/kscan.cpp:50
 msgid "Acquire Image"
@@ -577,9 +567,7 @@ msgstr[1] "%1 dni %2"
 msgstr[2] "%1 dzion %2"
 
 #: kio/global.cpp:120 kio/global.cpp:137
-#, fuzzy, kde-format
-#| msgid "1 Item"
-#| msgid_plural "%1 Items"
+#, kde-format
 msgid "%1 Item"
 msgid_plural "%1 Items"
 msgstr[0] "%1 element"
@@ -2207,14 +2195,7 @@ msgid "Timeout Error"
 msgstr "Skončyŭsia termin čakańnia"
 
 #: kio/global.cpp:1072
-#, fuzzy, kde-format
-#| msgid ""
-#| "Although contact was made with the server, a response was not received "
-#| "within the amount of time allocated for the request as follows:"
-#| "<ul><li>Timeout for establishing a connection: %1 seconds</li><li>Timeout "
-#| "for receiving a response: %2 seconds</li><li>Timeout for accessing proxy "
-#| "servers: %3 seconds</li></ul>Please note that you can alter these timeout "
-#| "settings in the KDE Control Center, by selecting Network -> Preferences."
+#, kde-format
 msgid ""
 "Although contact was made with the server, a response was not received "
 "within the amount of time allocated for the request as follows:"
@@ -2228,8 +2209,8 @@ msgstr ""
 "vydatkavanaha na heta času:<ul><li>Čas na ŭźniaćcio spałučeńnia: %1 "
 "sekundaŭ</li><li>Čas na atrymańnie adkazu: %2 sekundaŭ</li><li>Čas na dostup "
 "da serveraŭ proxy: %3 sekundaŭ</li></ul>Darečy, ty možaš źmianić hetyja "
-"nałady času čakańnia ŭ Centry kiravańnia KDE, u raździele: „Sietka” ► "
-"„Ułasnyja nałady”."
+"nałady času čakańnia ŭ Systemnych naładach KDE, u raździele: „Sietkavyja nałady” ► "
+"„Nałady spałučeńnia”."
 
 #: kio/global.cpp:1083
 msgid "The server was too busy responding to other requests to respond."
@@ -2429,26 +2410,23 @@ msgid "You are not authorized to execute this service."
 msgstr "Tabie nielha vykonvać hetuju słužbu."
 
 #: kio/krun.cpp:865
-#, fuzzy
-#| msgctxt "@title job"
-#| msgid "Examining"
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
-msgstr "Zbor źviestak"
+msgstr "Aściaroha"
 
 #: kio/krun.cpp:879
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
-msgstr ""
+msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 
 #: kio/krun.cpp:893
 msgid "If you do not trust this program, click Cancel"
-msgstr ""
+msgstr "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
 
 #: kio/krun.cpp:926
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
-msgstr ""
+msgstr "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
 #: kio/krun.cpp:1108
 #, kde-format
@@ -2517,7 +2495,7 @@ msgstr "Admantuj"
 
 #: kio/accessmanagerreply_p.cpp:72
 msgid "Blocked request."
-msgstr ""
+msgstr "Zablakavany zapyt."
 
 #: kio/kfileitem.cpp:1001
 #, kde-format
@@ -2717,15 +2695,11 @@ msgid "KDE SSL Information"
 msgstr "Źviestki pra SSL dla KDE"
 
 #: kssl/ksslinfodialog.cpp:81
-#, fuzzy
-#| msgid "Subject"
 msgctxt "The receiver of the SSL certificate"
 msgid "Subject"
-msgstr "Tema"
+msgstr "Adrasat"
 
 #: kssl/ksslinfodialog.cpp:82
-#, fuzzy
-#| msgid "Issuer"
 msgctxt "The authority that issued the SSL certificate"
 msgid "Issuer"
 msgstr "Vydaŭnik"
@@ -2761,15 +2735,11 @@ msgid "%1, using %2 bits of a %3 bit key"
 msgstr "%1, karystajecca %2 bitami z %3-bitnaha kluča"
 
 #: kssl/ksslinfodialog.cpp:212
-#, fuzzy
-#| msgid "NO, there were errors:"
 msgctxt "The certificate is not trusted"
 msgid "NO, there were errors:"
-msgstr "Nie, uźnikli prablemy:"
+msgstr "Nie, uźnikli pamyłki:"
 
 #: kssl/ksslinfodialog.cpp:219
-#, fuzzy
-#| msgid "Yes"
 msgctxt "The certificate is trusted"
 msgid "Yes"
 msgstr "Tak"
@@ -3635,8 +3605,6 @@ msgstr[1] "Ułaścivaści dla %1 elementaŭ"
 msgstr[2] "Ułaścivaści dla %1 elementaŭ"
 
 #: kfile/kpropertiesdialog.cpp:780
-#, fuzzy
-#| msgid "&General"
 msgctxt "@title:tab File properties"
 msgid "&General"
 msgstr "&Hałoŭnaje"
@@ -4233,8 +4201,6 @@ msgstr "[padlock]"
 #. i18n: file: kssl/sslinfo.ui:30
 #. i18n: ectx: property (text), widget (QLabel, addressTag)
 #: rc.cpp:18
-#, fuzzy
-#| msgid "Address:"
 msgctxt "Web page address"
 msgid "Address:"
 msgstr "Adras:"
@@ -4519,8 +4485,6 @@ msgstr "&Źmiaści ŭ systemnym trei"
 #. i18n: file: kfile/kpropertiesdesktopadvbase.ui:150
 #. i18n: ectx: property (text), widget (QLabel, textLabel12)
 #: rc.cpp:146
-#, fuzzy
-#| msgid "&DBUS registration:"
 msgid "&D-Bus registration:"
 msgstr "&Rehistracyja praz „D-Bus”:"
 
@@ -4726,10 +4690,6 @@ msgstr "Vydali"
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:242
 #. i18n: ectx: property (whatsThis), widget (QPushButton, advancedButton)
 #: rc.cpp:267
-#, fuzzy
-#| msgid ""
-#| "Click here to modify the way this application will run, launch feedback, "
-#| "DBUS options or to run it as a different user."
 msgid ""
 "Click here to modify the way this application will run, launch feedback, D-"
 "Bus options or to run it as a different user."
@@ -5789,8 +5749,7 @@ msgid "&Eject '%1'"
 msgstr "V&ysuń „%1”"
 
 #: ../kfile/kfileplacesmodel.cpp:756
-#, fuzzy, kde-format
-#| msgid "The device '%1' is not a disc and can't be ejected."
+#, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
 
@@ -5843,15 +5802,11 @@ msgid "New Folder..."
 msgstr "Novy kataloh..."
 
 #: ../kfile/kdirselectdialog.cpp:315
-#, fuzzy
-#| msgid "Move to Trash"
 msgctxt "@action:inmenu"
 msgid "Move to trash"
-msgstr "Vykidańnie ŭ śmietnicu"
+msgstr "Vykiń u śmietnicu"
 
 #: ../kfile/kdirselectdialog.cpp:322
-#, fuzzy
-#| msgid "Delete"
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "Vydali"
@@ -5862,8 +5817,6 @@ msgid "Show Hidden Folders"
 msgstr "Pakažy schavanyja katalohi"
 
 #: ../kfile/kdirselectdialog.cpp:338
-#, fuzzy
-#| msgid "Properties"
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Ułaścivaści"
@@ -6108,25 +6061,19 @@ msgid "Click to Edit Location"
 msgstr "Klikni, kab adredahavać adras miesca"
 
 #: ../kfile/kprotocolcombo.cpp:162
-#, fuzzy
-#| msgid "Devices"
 msgctxt "@item:inmenu"
 msgid "Devices"
 msgstr "Pryłady"
 
 #: ../kfile/kprotocolcombo.cpp:166
-#, fuzzy
-#| msgid "SSL Version:"
 msgctxt "@item:inmenu"
 msgid "Subversion"
-msgstr "Versija SSL:"
+msgstr "Subversion"
 
 #: ../kfile/kprotocolcombo.cpp:170
-#, fuzzy
-#| msgid "Others"
 msgctxt "@item:inmenu"
 msgid "Other"
-msgstr "Inšyja"
+msgstr "Inšaje"
 
 #: ../kfile/kurlbutton.cpp:90
 msgid "Copy"
@@ -6147,36 +6094,3 @@ msgstr "Pierajdzi"
 #: ../kfile/kurlbutton.cpp:119
 msgid "Show Full Path"
 msgstr "Pakažy ŭsiu ściežku"
-
-#~ msgid "Unexpected end of data, some information may be lost."
-#~ msgstr ""
-#~ "Niečakana skončylisia źviestki. Niekatoraja infarmacyja mahła zhubicca."
-
-#~ msgid "size %1"
-#~ msgstr "pamier %1"
-
-#, fuzzy
-#~| msgid "Unknown Error"
-#~ msgid "Unknown Error."
-#~ msgstr "Nieviadomaja pamyłka"
-
-#~ msgid "0 Items"
-#~ msgstr "Niama elementaŭ"
-
-#~ msgid "Add Bookmark"
-#~ msgstr "Dadaj zakładku"
-
-#~ msgid " Do you want to retry?"
-#~ msgstr "Chočaš paŭtaryć?"
-
-#~ msgid "Authentication"
-#~ msgstr "Tojesnaść"
-
-#~ msgid "Authentication needed for %1 but authentication is disabled."
-#~ msgstr "Dla „%1” treba dakazać tojesnaść, ale hetaja aperacyja vyklučanaja."
-
-#~ msgid ""
-#~ "Unsupported method: authentication will fail. Please submit a bug report."
-#~ msgstr ""
-#~ "Sposab, jaki nie absłuhoŭvajecca: spraŭdžvańnie tojesnaści budzie "
-#~ "niaŭdałym. Kali łaska, paviedam nam pra hetuju prablemu."

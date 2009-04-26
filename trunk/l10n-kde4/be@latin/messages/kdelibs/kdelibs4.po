@@ -977,8 +977,6 @@ msgstr "Źviestki pra dakument"
 #. i18n: file: khtml/htmlpageinfo.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: rc.cpp:414
-#, fuzzy
-#| msgid "General"
 msgctxt "@title:group Document information"
 msgid "General"
 msgstr "Hałoŭnaje"
@@ -1068,41 +1066,32 @@ msgstr "Panel pryładździa HTML"
 #. i18n: file: khtml/find/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:462
-#, fuzzy
-#| msgid "Find"
 msgid "F&ind:"
-msgstr "Šukaj"
+msgstr "&Šukaj:"
 
 #. i18n: file: khtml/find/khtmlfindbar_base.ui:75
 #. i18n: ectx: property (text), widget (QToolButton, m_next)
 #: rc.cpp:465
-#, fuzzy
-#| msgctxt "Opposite to Previous"
-#| msgid "&Next"
 msgid "&Next"
-msgstr "&Nastupnaja"
+msgstr "&Nastupnaje"
 
 #. i18n: file: khtml/find/khtmlfindbar_base.ui:85
 #. i18n: ectx: property (text), widget (QToolButton, m_previous)
 #: rc.cpp:468 kdeui/dialogs/ktip.cpp:301
 msgid "&Previous"
-msgstr "&Papiaredniaja"
+msgstr "&Papiaredniaje"
 
 #. i18n: file: khtml/find/khtmlfindbar_base.ui:111
 #. i18n: ectx: property (text), widget (QToolButton, m_options)
 #: rc.cpp:471
-#, fuzzy
-#| msgid "Options"
 msgid "Opt&ions"
-msgstr "Opcyi"
+msgstr "&Opcyi"
 
 #. i18n: file: khtml/html/storepassbar_base.ui:42
 #. i18n: ectx: property (text), widget (QLabel, m_label)
 #: rc.cpp:474 khtml/html/storepassbar.cpp:59
-#, fuzzy
-#| msgid "Do you want to restart search from the end?"
 msgid "Do you want to store this password?"
-msgstr "Chočaš paŭtaryć pošuk ad kanca?"
+msgstr "Chočaš zachoŭvać hety parol?"
 
 #. i18n: file: khtml/html/storepassbar_base.ui:65
 #. i18n: ectx: property (text), widget (QToolButton, m_store)
@@ -2198,14 +2187,12 @@ msgid "Applications menu (.desktop files)"
 msgstr "Menu aplikacyjaŭ (miesca dla fajłaŭ .desktop)"
 
 #: kdecore/kde-config.cpp:127
-#, fuzzy
-#| msgid "Path to the autostart directory"
 msgid "Autostart directories"
-msgstr "Ściežka ŭ kataloh z aŭtamatyčna ŭklučanymi aplikacyjami"
+msgstr "Ściežki z aŭtamatyčna ŭklučanymi aplikacyjami"
 
 #: kdecore/kde-config.cpp:128
 msgid "Cached information (e.g. favicons, web-pages)"
-msgstr ""
+msgstr "Padručnyja źviestki (ikony sajtaŭ, sieciŭnyja staronki)"
 
 #: kdecore/kde-config.cpp:129
 msgid "CGIs to run from kdehelp"
@@ -2308,10 +2295,8 @@ msgid "XDG Menu layout (.menu files)"
 msgstr "Vykład menu XDG (miesca dla fajłaŭ .menu)"
 
 #: kdecore/kde-config.cpp:155
-#, fuzzy
-#| msgid "Path to the autostart directory"
 msgid "XDG autostart directory"
-msgstr "Ściežka ŭ kataloh z aŭtamatyčna ŭklučanymi aplikacyjami"
+msgstr "Kataloh XDG z aŭtamatyčna ŭklučanymi aplikacyjami"
 
 #: kdecore/kde-config.cpp:156
 msgid "Temporary files (specific for both current host and current user)"
@@ -3352,11 +3337,8 @@ msgstr "Nielha pisać u fajł naładaŭ „%1”.\n"
 
 #: kdecore/network/klocalsocket_win.cpp:31
 #: kdecore/network/klocalsocket_win.cpp:36
-#, fuzzy
-#| msgctxt "Socket error code NotSupported"
-#| msgid "operation is not supported"
 msgid "Operation not supported"
-msgstr "aperacyja nie padtrymanaja"
+msgstr "Aperacyja nie absłuhoŭvajecca"
 
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
@@ -3501,18 +3483,12 @@ msgstr ""
 #: kdecore/network/klocalsocket_unix.cpp:187
 #: kdecore/network/klocalsocket_unix.cpp:234
 #: kdecore/network/klocalsocket_unix.cpp:255
-#, fuzzy
-#| msgctxt "Socket error code NotSupported"
-#| msgid "operation is not supported"
 msgid "The socket operation is not supported"
-msgstr "aperacyja nie padtrymanaja"
+msgstr "Aperacyja sokietu nie absłuhoŭvajecca"
 
 #: kdecore/network/klocalsocket_unix.cpp:200
-#, fuzzy
-#| msgctxt "Socket error code ConnectionRefused"
-#| msgid "connection actively refused"
 msgid "Connection refused"
-msgstr "spałučeńniu admoŭlena"
+msgstr "Spałučeńniu admovili"
 
 #: kdecore/network/klocalsocket_unix.cpp:205
 #: kdecore/network/klocalsocket_unix.cpp:268
@@ -3520,11 +3496,8 @@ msgid "Permission denied"
 msgstr ""
 
 #: kdecore/network/klocalsocket_unix.cpp:209
-#, fuzzy
-#| msgctxt "Socket error code ConnectionTimedOut"
-#| msgid "connection timed out"
 msgid "Connection timed out"
-msgstr "spałučeńnie na ŭkłałasia ŭ termin čakańnia"
+msgstr "Spałučeńnie nia ŭkłałasia ŭ termin čakańnia"
 
 #: kdecore/network/klocalsocket_unix.cpp:213
 #: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:475
@@ -3537,38 +3510,29 @@ msgid "Could not set non-blocking mode"
 msgstr ""
 
 #: kdecore/network/klocalsocket_unix.cpp:272
-#, fuzzy
-#| msgctxt "Socket error code AddressInUse"
-#| msgid "address already in use"
 msgid "Address is already in use"
-msgstr "adras užo zaniaty"
+msgstr "Adras užo zaniaty"
 
 #: kdecore/network/klocalsocket_unix.cpp:277
 msgid "Path cannot be used"
-msgstr ""
+msgstr "Nie ŭdałosia ŭžyć hetuju ściežku"
 
 #: kdecore/network/klocalsocket_unix.cpp:281
-#, fuzzy
-#| msgid "No such interpreter \"%1\""
 msgid "No such file or directory"
-msgstr "Niama takoha interpretatara: „%1”."
+msgstr "Niama takoha fajła albo kataloha"
 
 #: kdecore/network/klocalsocket_unix.cpp:285
-#, fuzzy
-#| msgid "Path to the autostart directory"
 msgid "Not a directory"
-msgstr "Ściežka ŭ kataloh z aŭtamatyčna ŭklučanymi aplikacyjami"
+msgstr "Heta nie kataloh"
 
 #: kdecore/network/klocalsocket_unix.cpp:289
 msgid "Read-only filesystem"
-msgstr ""
+msgstr "Fajłavaja systema, dastupnaja tolki dla čytańnia"
 
 #: kdecore/network/klocalsocket_unix.cpp:354
 #: kdecore/network/klocalsocket_unix.cpp:386
-#, fuzzy
-#| msgid "Unknown error"
 msgid "Unknown socket error"
-msgstr "Nieviadomaja pamyłka"
+msgstr "Nieviadomaja pamyłka sokietu"
 
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
@@ -4845,18 +4809,14 @@ msgstr "<i>%1</i>"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:761
-#, fuzzy, kde-format
-#| msgctxt "@emphasis/plain"
-#| msgid "*%1*"
+#, kde-format
 msgctxt "@emphasis-strong/plain"
 msgid "**%1**"
-msgstr "*%1*"
+msgstr "**%1**"
 
 #. i18n: KUIT pattern, see the comment to the first of these entries above.
 #: kdecore/localization/kuitsemantics.cpp:765
-#, fuzzy, kde-format
-#| msgctxt "@shortcut/rich"
-#| msgid "<b>%1</b>"
+#, kde-format
 msgctxt "@emphasis-strong/rich"
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
@@ -5539,22 +5499,18 @@ msgid "User comments"
 msgstr "Kamentary karystańnikaŭ"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:154
-#, fuzzy
-#| msgid "No Downloads"
 msgid "<p>No Downloads</p>"
-msgstr "Nichto nia ściahvaŭ"
+msgstr "<p>Niama ściahvańniaŭ</p>"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:154
-#, fuzzy, kde-format
-#| msgid "Downloads: %1"
+#, kde-format
 msgid "<p>Downloads: %1</p>\n"
-msgstr "Ściahvańniaŭ: %1"
+msgstr "<p>Ściahvańniaŭ: %1</p>\n"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:223
-#, fuzzy, kde-format
-#| msgid "Rating: "
+#, kde-format
 msgid "Rating: %1"
-msgstr "Acenka: "
+msgstr "Acenka: %1"
 
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:258
 msgid "No Preview"
@@ -5672,12 +5628,10 @@ msgid " %1/s "
 msgstr " %1/s "
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:273 kdeui/jobs/kwidgetjobtracker.cpp:281
-#, fuzzy, kde-format
-#| msgctxt "@application/plain"
-#| msgid "%1"
+#, kde-format
 msgctxt "%1 is the label, we add a ':' to it"
 msgid "%1:"
-msgstr "%1"
+msgstr "%1:"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:328
 #, kde-format
@@ -5704,20 +5658,17 @@ msgstr[1] "%2 / %1 fajły"
 msgstr[2] "%2 / %1 fajłaŭ"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:370
-#, fuzzy, kde-format
-#| msgid "%1 % of %2 "
+#, kde-format
 msgid "%1% of %2"
-msgstr "%1 % z %2 "
+msgstr "%1% z %2"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:373
-#, fuzzy, kde-format
-#| msgid "%2 % of 1 file"
-#| msgid_plural "%2 % of %1 files"
+#, kde-format
 msgid "%2% of 1 file"
 msgid_plural "%2% of %1 files"
-msgstr[0] "%2 % z %1 fajła"
-msgstr[1] "%2 % z %1 fajłaŭ"
-msgstr[2] "%2 % z %1 fajłaŭ"
+msgstr[0] "%2% z %1 fajła"
+msgstr[1] "%2% z %1 fajłaŭ"
+msgstr[2] "%2% z %1 fajłaŭ"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:375 khtml/khtml_ext.cpp:1091
 #, no-c-format, kde-format
@@ -5729,14 +5680,12 @@ msgid "Stalled"
 msgstr "Zahrazła"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:393
-#, fuzzy, kde-format
-#| msgid "%2/s ( %3 remaining )"
-#| msgid_plural "%2/s ( %3 remaining )"
+#, kde-format
 msgid "%2/s (%3 remaining)"
 msgid_plural "%2/s (%3 remaining)"
-msgstr[0] "%2/s ( zastaŭsia %3 )"
-msgstr[1] "%2/s ( zastalisia %3 )"
-msgstr[2] "%2/s ( zastalisia %3 )"
+msgstr[0] "%2/s (zastaŭsia %3)"
+msgstr[1] "%2/s (zastalisia %3)"
+msgstr[2] "%2/s (zastalisia %3)"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:396
 #, kde-format
@@ -5750,27 +5699,19 @@ msgid "%1/s (done)"
 msgstr "%1/s (zroblena)"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:422
-#, fuzzy
-#| msgid "Resume"
 msgid "&Resume"
-msgstr "Praciahvaj"
+msgstr "&Praciahvaj"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:428 kdeui/jobs/kwidgetjobtracker.cpp:501
-#, fuzzy
-#| msgid "Pause"
 msgid "&Pause"
-msgstr "Prypyni"
+msgstr "&Prypyni"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:454
-#, fuzzy
-#| msgid "Source:"
 msgctxt "The source url of a job"
 msgid "Source:"
 msgstr "Krynica:"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:462
-#, fuzzy
-#| msgid "Destination:"
 msgctxt "The destination url of a job"
 msgid "Destination:"
 msgstr "Meta:"
@@ -5845,11 +5786,8 @@ msgid "Confirm Quit From System Tray"
 msgstr "Paćvierdžańnie vychadu z systemnaha treja"
 
 #: kdeui/util/knotificationrestrictions.cpp:179
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "About Application"
 msgid "Unknown Application"
-msgstr "Pra aplikacyju"
+msgstr "Nieviadomaja aplikacyja"
 
 #: kdeui/util/kstandardguiitem.cpp:109
 msgid "&OK"
@@ -5972,28 +5910,20 @@ msgid "Close the current window or document"
 msgstr "Začyni akno ci dakument"
 
 #: kdeui/util/kstandardguiitem.cpp:190
-#, fuzzy
-#| msgid "Close window?"
 msgid "&Close Window"
-msgstr "Začynić akno?"
+msgstr "&Začynić akno"
 
 #: kdeui/util/kstandardguiitem.cpp:191
-#, fuzzy
-#| msgid "Close the current window or document"
 msgid "Close the current window."
-msgstr "Začyni akno ci dakument"
+msgstr "Začyni dziejnaje akno."
 
 #: kdeui/util/kstandardguiitem.cpp:196
-#, fuzzy
-#| msgid "Close Document"
 msgid "&Close Document"
-msgstr "Začyni dakument"
+msgstr "&Začyni dakument"
 
 #: kdeui/util/kstandardguiitem.cpp:197
-#, fuzzy
-#| msgid "Close the current window or document"
 msgid "Close the current document."
-msgstr "Začyni akno ci dakument"
+msgstr "Začyni dziejny dakument."
 
 #: kdeui/util/kstandardguiitem.cpp:202
 msgid "&Defaults"
@@ -6290,18 +6220,14 @@ msgid "Configure Shortcuts"
 msgstr "Naładź klavijaturnyja skaroty"
 
 #: kdeui/dialogs/kshortcutsdialog.cpp:113
-#, fuzzy
-#| msgid "&Defaults"
 msgid "Reset to Defaults"
-msgstr "&Zmoŭčańnie"
+msgstr "Viarni zmoŭčanaje"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:41
 msgid "Shortcut Schemes"
 msgstr "Schiemy klavijaturnych skarotaŭ"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:59
-#, fuzzy
-#| msgid "Current Scheme:"
 msgid "Current scheme:"
 msgstr "Dziejnaja schiema:"
 
@@ -6318,8 +6244,6 @@ msgid "More Actions"
 msgstr "Jašče aperacyi"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:79
-#, fuzzy
-#| msgid "Save As Scheme Defaults"
 msgid "Save as Scheme Defaults"
 msgstr "Zapišy jak zmoŭčańni schiemy"
 
@@ -6332,8 +6256,6 @@ msgid "Name for New Scheme"
 msgstr "Nazva novaj schiemy"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:99
-#, fuzzy
-#| msgid "Name for New Scheme:"
 msgid "Name for new scheme:"
 msgstr "Nazva novaj schiemy:"
 
@@ -6342,8 +6264,6 @@ msgid "New Scheme"
 msgstr "Novaja schiema"
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:105
-#, fuzzy
-#| msgid "The scheme with this name already exists"
 msgid "A scheme with this name already exists."
 msgstr "Schiema z takoj nazvaj užo isnuje."
 
@@ -6358,8 +6278,6 @@ msgstr ""
 "skarotaŭ."
 
 #: kdeui/dialogs/kshortcutschemeseditor.cpp:162
-#, fuzzy
-#| msgid "Export To Location"
 msgid "Export to Location"
 msgstr "Ekspartuj u peŭnaje miesca"
 
@@ -6830,8 +6748,6 @@ msgstr ""
 "kab jaho źmianić."
 
 #: kdeui/dialogs/kbugreport.cpp:130
-#, fuzzy
-#| msgid "From:"
 msgctxt "Email sender address"
 msgid "From:"
 msgstr "Ad:"
@@ -6845,8 +6761,6 @@ msgid "The email address this bug report is sent to."
 msgstr "Paštovy adras, kudy vysyłajecca hetaje paviedamleńnie."
 
 #: kdeui/dialogs/kbugreport.cpp:147
-#, fuzzy
-#| msgid "To:"
 msgctxt "Email receiver address"
 msgid "To:"
 msgstr "Da:"
@@ -7639,8 +7553,6 @@ msgid "Replace"
 msgstr "Zamiani"
 
 #: kdeui/findreplace/kreplace.cpp:51
-#, fuzzy
-#| msgid "&All"
 msgctxt "@action:button Replace all occurrences"
 msgid "&All"
 msgstr "&Usio"
@@ -7683,15 +7595,11 @@ msgid "Do you want to restart search at the beginning?"
 msgstr "Chočaš paŭtaryć pošuk ad pačatku?"
 
 #: kdeui/findreplace/kreplace.cpp:352
-#, fuzzy
-#| msgid "Restart"
 msgctxt "@action:button Restart find & replace"
 msgid "Restart"
 msgstr "Paŭtary"
 
 #: kdeui/findreplace/kreplace.cpp:353
-#, fuzzy
-#| msgid "Stop"
 msgctxt "@action:button Stop find & replace"
 msgid "Stop"
 msgstr "Spyni"
@@ -7801,10 +7709,8 @@ msgid ""
 msgstr ""
 
 #: kdeui/shortcuts/kglobalaccel.cpp:530
-#, fuzzy
-#| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut"
-msgstr "Niazhoda z paŭsiudnym klavijaturnym skarotam"
+msgstr "Niazhoda z zarehistravanym paŭsiudnym klavijaturnym skarotam"
 
 #: kdeui/shortcuts/kgesture.cpp:517
 msgctxt "left mouse button"
@@ -8278,10 +8184,8 @@ msgid "No entries"
 msgstr "Niama"
 
 #: kdeui/actions/krecentfilesaction.cpp:84
-#, fuzzy
-#| msgid "Clear input"
 msgid "Clear list"
-msgstr "Vyčyści ŭpisanaje"
+msgstr "Vyčyści śpis"
 
 #: kdeui/actions/ktogglefullscreenaction.cpp:48
 #: kdeui/actions/ktogglefullscreenaction.cpp:55
@@ -8433,32 +8337,22 @@ msgid "Enter a search term or character here"
 msgstr "Vybiery znak albo tekst dla pošuku"
 
 #: kdeui/widgets/kcharselect.cpp:354
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Previous Item in List"
 msgctxt "Goes to previous character"
 msgid "Previous in History"
-msgstr "Papiaredni element u śpisie"
+msgstr "Raniej u historyi"
 
 #: kdeui/widgets/kcharselect.cpp:356
-#, fuzzy
-#| msgid "Previous Character"
 msgid "Previous Character in History"
-msgstr "Papiaredni znak"
+msgstr "Raniejšy znak z historyi"
 
 #: kdeui/widgets/kcharselect.cpp:361
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Next Item in List"
 msgctxt "Goes to next character"
 msgid "Next in History"
-msgstr "Nastupny element u śpisie"
+msgstr "Paźniej u historyi"
 
 #: kdeui/widgets/kcharselect.cpp:363
-#, fuzzy
-#| msgid "Next Character"
 msgid "Next Character in History"
-msgstr "Nastupny znak"
+msgstr "Paźniejšy znak z historyi"
 
 #: kdeui/widgets/kcharselect.cpp:371
 msgid "Select a category"
@@ -8573,17 +8467,13 @@ msgid "XML decimal entity:"
 msgstr "Dziesiatkovy farmat XML:"
 
 #: kdeui/widgets/kcharselect.cpp:870
-#, fuzzy
-#| msgid "Unicode category: "
 msgid "Unicode code point:"
-msgstr "Katehoryja Unikodu: "
+msgstr "Kodavy punkt Unikodu:"
 
 #: kdeui/widgets/kcharselect.cpp:871
-#, fuzzy
-#| msgid "XML decimal entity:"
 msgctxt "Character"
 msgid "In decimal:"
-msgstr "Dziesiatkovy farmat XML:"
+msgstr "Dziesiatkovy:"
 
 #: kdeui/widgets/kcharselect-translation.cpp:23
 msgctxt "KCharSelect section name"
@@ -9292,8 +9182,6 @@ msgstr ""
 #. By default the text is set in italic, which may not be appropriate
 #. for some languages and scripts (e.g. for CJK ideographs).
 #: kdeui/widgets/klineedit.cpp:89
-#, fuzzy
-#| msgid "1"
 msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
 msgid "1"
 msgstr "1"
@@ -9708,36 +9596,28 @@ msgid "The shortcut '%1' conflicts with the following key combinations:\n"
 msgstr ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:177
-#, fuzzy
-#| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut(s)"
-msgstr "Niazhoda z paŭsiudnym klavijaturnym skarotam"
+msgstr "Niazhoda z zaheristravanymi paŭsiudnymi klavijaturnymi skarotami"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:246
-#, fuzzy
-#| msgid "Shortcut conflict"
 msgid "Shortcut Conflict(s)"
 msgstr "Niazhoda klavijaturnych skarotaŭ"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:250
-#, fuzzy, kde-format
-#| msgctxt "header for an applications shortcut list"
-#| msgid "Shortcuts for %1"
+#, kde-format
 msgid "Shortcut(s) '%1' for action '%2'\n"
-msgstr "Klavijaturnyja skaroty dla %1"
+msgstr "Klavijaturnyja skaroty „%1” dla aperacyi „%2”\n"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:255
-#, fuzzy, kde-format
-#| msgid ""
-#| "The \"%1\" key sequence conflicts with \"%2\" for the \"%3\" action.\n"
-#| "Do you want to assign an empty shortcut to that action?"
+#, kde-format
 msgid ""
 "The \"%1\" shortcut is ambiguous with the following shortcuts.\n"
 "Do you want to assign an empty shortcut to these actions?\n"
 "%2"
 msgstr ""
-"Klavijaturny skarot „%1” kanfliktuje z „%2” dla aperacyi „%3”.\n"
-"Pryviazać pusty skarot da hetaj aperacyi?"
+"Klavijaturny skarot „%1” kanfliktuje z nastupnymi skarotami.\n"
+"Pryviazać pusty skarot dla hetych aperacyjaŭ?\n"
+"%2"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:269
 msgid "Shortcut conflict"
@@ -9777,10 +9657,8 @@ msgid "The key you just pressed is not supported by Qt."
 msgstr ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:719
-#, fuzzy
-#| msgid "Unsorted"
 msgid "Unsupported Key"
-msgstr "Biez paradku"
+msgstr "Niepadtrymanaja klaviša"
 
 #: kdeui/widgets/keditlistbox.cpp:326
 msgid "&Add"
@@ -9968,14 +9846,12 @@ msgid "Allow Tabulations"
 msgstr "Dazvol tabulacyju"
 
 #: kdeui/widgets/ktextedit.cpp:494
-#, fuzzy
-#| msgid "Speak custom text"
 msgid "Speak Text"
-msgstr "Pramaŭlaj ułasny tekst"
+msgstr "Pramoŭ tekst"
 
 #: kdeui/widgets/ktextedit.cpp:509
 msgid "Starting KTTSD Failed"
-msgstr ""
+msgstr "Nie ŭdałosia ŭklučyć KTTSD"
 
 #: kdeui/widgets/ktextedit.cpp:595 kdeui/widgets/ktextedit.cpp:606
 #, fuzzy, kde-format
@@ -11445,8 +11321,6 @@ msgid "Edit"
 msgstr "Źmiani"
 
 #: kross/ui/view.cpp:512
-#, fuzzy
-#| msgid "General"
 msgctxt "@title:group Script properties"
 msgid "General"
 msgstr "Hałoŭnaje"
@@ -12834,173 +12708,3 @@ msgstr "Štodzionnyja &parady"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Niama takoj funkcyi: „%1”."
-
-#~ msgid "Save Login Information"
-#~ msgstr "Zachavańnie ŭvachodnych źviestak"
-
-#, fuzzy
-#~| msgid "Back"
-#~ msgctxt "Goes to previous character"
-#~ msgid "Back"
-#~ msgstr "Nazad"
-
-#, fuzzy
-#~| msgid "Forward"
-#~ msgctxt "Goes to next character"
-#~ msgid "Forward"
-#~ msgstr "Dalej"
-
-#~ msgctxt "Character"
-#~ msgid ""
-#~ "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unicode code "
-#~ "point: %4<br />(In decimal: %5)</qt>"
-#~ msgstr ""
-#~ "<qt><font size=\"+4\" face=\"%1\">%2</font><br />%3<br />Unikodny kodavy "
-#~ "punkt: %4<br />(Dziesiatkovy: %5)</qt>"
-
-#~ msgid "Add Elements"
-#~ msgstr "Dadaj elementy"
-
-#~ msgid "Remove Elements"
-#~ msgstr "Vydali elementy"
-
-#~ msgid "Replace Element"
-#~ msgstr "Zamiani element"
-
-#~ msgid "Attribute Changed"
-#~ msgstr "Atrybut źmianiŭsia"
-
-#~ msgid "Sample KFormula application"
-#~ msgstr "Uzornaja aplikacyja „KFormula”"
-
-#~ msgid "Application showing a KFormula widget for debugging purposes"
-#~ msgstr "Aplikacyja, jakaja pakazvaje dziela adładžvańnia widžet „KFormula”"
-
-#, fuzzy
-#~| msgid "Options"
-#~ msgid "&Options"
-#~ msgstr "Opcyi"
-
-#~ msgid "None"
-#~ msgstr "Niama"
-
-#~ msgid "Unsorted"
-#~ msgstr "Biez paradku"
-
-#~ msgid "JavaScript console"
-#~ msgstr "Kansol JavaScript"
-
-#~ msgctxt "Next breakpoint"
-#~ msgid "&Next"
-#~ msgstr "&Nastupny"
-
-#~ msgid "&Step"
-#~ msgstr "&Kroč"
-
-#~ msgid "&Continue"
-#~ msgstr "&Praciahvaj"
-
-#~ msgid "St&op"
-#~ msgstr "&Spyni"
-
-#~ msgctxt "Next breakpoint"
-#~ msgid "Next"
-#~ msgstr "Nastupny"
-
-#~ msgid ""
-#~ "An error occurred while attempting to run a script on this page.\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr ""
-#~ "Ad sproby vykanać na hetaj staroncy skrypt uźnikła pamyłka.\n"
-#~ "\n"
-#~ "%1"
-
-#~ msgid "Form"
-#~ msgstr "Forma"
-
-#~ msgid "%1 %"
-#~ msgstr "%1 %"
-
-#~ msgid ""
-#~ "The '%1' key combination has already been allocated to the \"%2\" "
-#~ "action.\n"
-#~ "Do you want to reassign it from that action to the current one?"
-#~ msgstr ""
-#~ "Spałučeńnie klavišaŭ „%1” užo pryviazanaje da dziejańnia „%2”.\n"
-#~ "Ci chočaš pieraviazać jaho na novaje dziejańnie?"
-
-#~ msgid "Already open."
-#~ msgstr "Užo adčynieny."
-
-#~ msgid "Error opening file."
-#~ msgstr "Pamyłka adčynieńnia fajła."
-
-#~ msgid "Not a wallet file."
-#~ msgstr "Heta nia fajł kašalka."
-
-#~ msgid "Unsupported file format revision."
-#~ msgstr "Niepadtrymanaja revizija farmatu fajłaŭ."
-
-#~ msgid "Unknown encryption scheme."
-#~ msgstr "Nieviadomaja schiema šyfravańnia."
-
-#~ msgid "Corrupt file?"
-#~ msgstr "Paškodžany fajł?"
-
-#~ msgid "Error validating wallet integrity. Possibly corrupted."
-#~ msgstr "Pamyłka spraŭdžvańnia celnaści kašalka. Mahčyma, jon paškodžany."
-
-#~ msgid "Read error - possibly incorrect password."
-#~ msgstr "Pamyłka pračytańnia: mahčyma, padadzieny niapravilny parol."
-
-#~ msgid "Decryption error."
-#~ msgstr "Pamyłka ŭ apisańni."
-
-#~ msgctxt "@action"
-#~ msgid "OpenRecent"
-#~ msgstr "Adčyni niadaŭnaje"
-
-#~ msgctxt "@action"
-#~ msgid "SaveAs"
-#~ msgstr "Zapišy jak"
-
-#~ msgctxt "@action"
-#~ msgid "PrintPreview"
-#~ msgstr "Padhlad vydruku"
-
-#~ msgctxt "@action"
-#~ msgid "ActualSize"
-#~ msgstr "Sapraŭdny pamier"
-
-#~ msgctxt "@action"
-#~ msgid "EditBookmarks"
-#~ msgstr "Redahuj zakładki"
-
-#~ msgctxt "@action"
-#~ msgid "ShowToolbar"
-#~ msgstr "Pakažy panel pryładździa"
-
-#~ msgctxt "@action"
-#~ msgid "ShowStatusbar"
-#~ msgstr "Pakažy panel stanu"
-
-#~ msgctxt "@action"
-#~ msgid "ConfigureToolbars"
-#~ msgstr "Naładź paneli pryładździa"
-
-#~ msgctxt "@action"
-#~ msgid "ConfigureNotifications"
-#~ msgstr "Naładź nahadvańni"
-
-#~ msgctxt "@action"
-#~ msgid "SwitchApplicationLanguage"
-#~ msgstr "Źmiani movu aplikacyi"
-
-#~ msgctxt "@action"
-#~ msgid "AboutApp"
-#~ msgstr "Pra aplikacyju"
-
-#~ msgctxt "@action"
-#~ msgid "AboutKDE"
-#~ msgstr "Pra KDE"

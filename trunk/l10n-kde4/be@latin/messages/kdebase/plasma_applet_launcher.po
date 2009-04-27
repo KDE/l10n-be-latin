@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-26 10:54+0200\n"
+"POT-Creation-Date: 2009-04-27 10:59+0200\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -119,7 +119,7 @@ msgstr "Skončy sesiju"
 msgid "Lock"
 msgstr "Zablakuj"
 
-#: core/leavemodel.cpp:55 simpleapplet/simpleapplet.cpp:182
+#: core/leavemodel.cpp:55
 msgid "Lock the screen"
 msgstr "Zablakuj ekran"
 
@@ -141,7 +141,7 @@ msgstr "Vyklučy kamputar"
 msgid "Turn off computer"
 msgstr "Vyklučy kamputar"
 
-#: core/leavemodel.cpp:65 simpleapplet/simpleapplet.cpp:186
+#: core/leavemodel.cpp:65
 #, fuzzy
 #| msgctxt "Restart the computer"
 #| msgid "Restart"
@@ -314,6 +314,20 @@ msgstr "Zakładki"
 msgid "System Settings"
 msgstr ""
 
+#: simpleapplet/simpleapplet.cpp:182
+#, fuzzy
+#| msgid "Lock the screen"
+msgid "Lock Screen"
+msgstr "Zablakuj ekran"
+
+#: simpleapplet/simpleapplet.cpp:186
+#, fuzzy
+#| msgctxt "Restart the computer"
+#| msgid "Restart"
+msgctxt "Restart Computer"
+msgid "Restart"
+msgstr "Uklučy kamputar nanoŭ"
+
 #: simpleapplet/simpleapplet.cpp:245
 #, fuzzy
 #| msgid "Application Launcher"
@@ -386,11 +400,6 @@ msgstr "Aplikacyi"
 
 #~ msgid "Known Applications"
 #~ msgstr "Viadomyja aplikacyi"
-
-#, fuzzy
-#~| msgid "Lock the screen"
-#~ msgid "Lock Screen"
-#~ msgstr "Zablakuj ekran"
 
 #, fuzzy
 #~| msgid "Application Launcher"

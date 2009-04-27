@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-25 11:42+0200\n"
+"POT-Creation-Date: 2009-04-27 10:58+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -680,8 +680,11 @@ msgid "Rename..."
 msgstr "Źmiani nazvu..."
 
 #: panels/folders/treeviewcontextmenu.cpp:92
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
 msgctxt "@action:inmenu"
-msgid "Move To Trash"
+msgid "Move to Trash"
 msgstr "Vykiń u śmietnicu"
 
 #: panels/folders/treeviewcontextmenu.cpp:102
@@ -2267,6 +2270,10 @@ msgstr "Detali"
 msgctxt "@action:inmenu View Mode"
 msgid "Columns"
 msgstr "Słupki"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Move To Trash"
+#~ msgstr "Vykiń u śmietnicu"
 
 #, fuzzy
 #~| msgctxt "@action:inmenu File"

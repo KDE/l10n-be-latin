@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-29 07:19+0100\n"
+"POT-Creation-Date: 2009-04-28 06:35+0200\n"
 "PO-Revision-Date: 2008-10-05 10:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -35,15 +35,19 @@ msgstr "Apošniaja padłučanaja pryłada: %1"
 msgid "No devices plugged in"
 msgstr "Niama padłučanych pryładaŭ"
 
-#: notifierdialog.cpp:297
+#: notifierdialog.cpp:312
+#, fuzzy
+#| msgid ""
+#| "Cannot unmount the device.\n"
+#| "One or more files on this device are open within an application."
 msgid ""
-"Cannot unmount the device.\n"
+"Could not unmount the device.\n"
 "One or more files on this device are open within an application."
 msgstr ""
 "Nie ŭdałosia admantavać pryładu.\n"
 "Prynamsi, adzin fajł z hetaj pryłady adčynieny ŭ niejkaj aplikacyi."
 
-#: notifierdialog.cpp:313
+#: notifierdialog.cpp:318
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -51,7 +55,7 @@ msgstr ""
 "Nie ŭdałosia vysunuć dysk.\n"
 "Prynamsi, adzin fajł z hetaj pryłady adčynieny ŭ niejkaj aplikacyi."
 
-#: notifierdialog.cpp:400
+#: notifierdialog.cpp:405
 #, kde-format
 msgid "<font color=\"%1\">Devices recently plugged in:</font>"
 msgstr "<font color=\"%1\">Niadaŭna padłučanyja pryłady:</font>"

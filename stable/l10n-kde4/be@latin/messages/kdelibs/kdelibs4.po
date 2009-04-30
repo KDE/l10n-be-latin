@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-27 06:22+0200\n"
+"POT-Creation-Date: 2009-04-30 06:34+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1875,7 +1875,7 @@ msgstr ""
 "indent:0px;\">(jašče nieviadoma)</p></body></html>"
 
 #: kjs/object.cpp:584 kdeui/dialogs/kmessagebox.cpp:832
-#: kdeui/dialogs/kmessagebox.cpp:865 khtml/rendering/render_form.cpp:727
+#: kdeui/dialogs/kmessagebox.cpp:865 khtml/rendering/render_form.cpp:750
 msgid "Error"
 msgstr "Pamyłka"
 
@@ -9672,7 +9672,7 @@ msgstr "Pasuń &vyšej"
 msgid "Move &Down"
 msgstr "Pasuń &nižej"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:850
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:873
 msgid "Clear &History"
 msgstr "Vyčyści &historyju"
 
@@ -11140,36 +11140,36 @@ msgid "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 msgstr ""
 "Aŭtarskija pravy 2001, David Faure <email>david@mandrakesoft.com</email>"
 
-#: khtml/rendering/render_form.cpp:706
+#: khtml/rendering/render_form.cpp:729
 #, fuzzy
 #| msgid "Shortcut"
 msgid "New Web Shortcut"
 msgstr "Skarot"
 
-#: khtml/rendering/render_form.cpp:727
+#: khtml/rendering/render_form.cpp:750
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "„%1” užo pryviazany da „%2”"
 
-#: khtml/rendering/render_form.cpp:772
+#: khtml/rendering/render_form.cpp:795
 #, fuzzy
 #| msgid "Enter search phrase here"
 msgid "Search &provider name:"
 msgstr "Tut upišy šukany vyraz"
 
-#: khtml/rendering/render_form.cpp:774
+#: khtml/rendering/render_form.cpp:797
 #, fuzzy
 #| msgid "Enter search phrase here"
 msgid "New search provider"
 msgstr "Tut upišy šukany vyraz"
 
-#: khtml/rendering/render_form.cpp:779
+#: khtml/rendering/render_form.cpp:802
 #, fuzzy
 #| msgid "Shortcuts"
 msgid "UR&I shortcuts:"
 msgstr "Klavijaturnyja skaroty"
 
-#: khtml/rendering/render_form.cpp:865
+#: khtml/rendering/render_form.cpp:888
 #, fuzzy
 #| msgid "Configure Shortcuts"
 msgid "Create Web Shortcut"

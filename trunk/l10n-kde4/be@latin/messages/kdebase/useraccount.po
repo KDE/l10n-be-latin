@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-18 10:53+0100\n"
+"POT-Creation-Date: 2009-05-10 11:07+0200\n"
 "PO-Revision-Date: 2008-10-06 22:09+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -30,7 +30,7 @@ msgstr "&Zdabudź vyjavu..."
 msgid "(Custom)"
 msgstr "(Ułasnaja)"
 
-#: chfacedlg.cpp:113 main.cpp:258
+#: chfacedlg.cpp:113 main.cpp:262
 msgid "There was an error loading the image."
 msgstr "Padčas pračytańnia vyjavy ŭźnikła pamyłka."
 
@@ -55,67 +55,67 @@ msgstr "Vybiery vyjavu"
 msgid "Change &Password..."
 msgstr "Źmiani &parol..."
 
-#: main.cpp:84
+#: main.cpp:88
 msgid "Password & User Information"
 msgstr "Parol i źviestki pra karystańnika"
 
-#: main.cpp:86
+#: main.cpp:90
 msgid "(C) 2002, Braden MacDonald, (C) 2004 Ravikiran Rajagopal"
 msgstr "© 2002, Braden MacDonald, © 2004 Ravikiran Rajagopal"
 
-#: main.cpp:89
+#: main.cpp:93
 msgid "Frans Englich"
 msgstr "Frans Englich"
 
-#: main.cpp:89
+#: main.cpp:93
 msgid "Maintainer"
 msgstr "Dahladnik"
 
-#: main.cpp:90
+#: main.cpp:94
 msgid "Ravikiran Rajagopal"
 msgstr "Ravikiran Rajagopal"
 
-#: main.cpp:91
+#: main.cpp:95
 msgid "Michael Häckel"
 msgstr "Michael Häckel"
 
-#: main.cpp:93
+#: main.cpp:97
 msgid "Braden MacDonald"
 msgstr "Braden MacDonald"
 
-#: main.cpp:93
+#: main.cpp:97
 msgid "Face editor"
 msgstr "Redaktar vyjavaŭ"
 
-#: main.cpp:94
+#: main.cpp:98
 msgid "Geert Jansen"
 msgstr "Geert Jansen"
 
-#: main.cpp:94
+#: main.cpp:98
 msgid "Password changer"
 msgstr "Źmiena parolu"
 
-#: main.cpp:96
+#: main.cpp:100
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: main.cpp:97
+#: main.cpp:101
 msgid "Alex Zepeda"
 msgstr "Alex Zepeda"
 
-#: main.cpp:98
+#: main.cpp:102
 msgid "Hans Karlsson"
 msgstr "Hans Karlsson"
 
-#: main.cpp:98 main.cpp:99
+#: main.cpp:102 main.cpp:103
 msgid "Icons"
 msgstr "Ikony"
 
-#: main.cpp:99
+#: main.cpp:103
 msgid "Hermann Thomas"
 msgstr "Hermann Thomas"
 
-#: main.cpp:102
+#: main.cpp:106
 #, fuzzy
 #| msgid ""
 #| "<qt>Here you can change your personal information, which will be used in "
@@ -130,7 +130,7 @@ msgstr ""
 "tekstavyja redaktary dy inšyja prahramy. Svoj parol možna źmianić, kliknuŭšy "
 "ŭ knopku <em>Źmiani parol...</em>.</qt>"
 
-#: main.cpp:116
+#: main.cpp:120
 msgid ""
 "A program error occurred: the internal program 'kdepasswd' could not be "
 "found. You will not be able to change your password."
@@ -138,19 +138,19 @@ msgstr ""
 "U prahramie ŭźnikła pamyłka: nie ŭdałosia znajści ŭnutranuju prahramu "
 "„kdepasswd”. Ty nia zmožaš źmianić svoj parol."
 
-#: main.cpp:215
+#: main.cpp:219
 msgid "Please enter your password in order to save your settings:"
 msgstr "Upišy svoj parol, kab zapisać nałady:"
 
-#: main.cpp:218
+#: main.cpp:222
 msgid "You must enter your password in order to change your information."
 msgstr "Kab źmianić ułasnyja pryvatnyja źviestki, treba ŭpisać svoj parol."
 
-#: main.cpp:228
+#: main.cpp:232
 msgid "You must enter a correct password."
 msgstr "Treba ŭpisać pravilny parol."
 
-#: main.cpp:232
+#: main.cpp:236
 #, kde-format
 msgid ""
 "An error occurred and your password has probably not been changed. The error "
@@ -161,16 +161,16 @@ msgstr ""
 "nastupnaje paviedamleńnie:\n"
 "%1"
 
-#: main.cpp:246
+#: main.cpp:250
 #, kde-format
 msgid "There was an error saving the image: %1"
 msgstr "Padčas zapisu vyjavy ŭźnikła pamyłka: %1"
 
-#: main.cpp:272 main.cpp:306
+#: main.cpp:276 main.cpp:310
 msgid "Your administrator has disallowed changing your image."
 msgstr "Tvoj administratar zabaraniŭ źmianiać vyjavy."
 
-#: main.cpp:339
+#: main.cpp:343
 #, kde-format
 msgid ""
 "%1 does not appear to be an image file.\n"
@@ -223,61 +223,61 @@ msgstr "Uvachodnaja vyjava karystańnika"
 msgid "Password echo type"
 msgstr "Sposab vyjaŭleńnia parolaŭ"
 
-#. i18n: file: main_widget.ui:74
+#. i18n: file: main_widget.ui:68
 #. i18n: ectx: property (text), widget (QLabel, lblClickButtonInfo)
 #: rc.cpp:24
 msgid "<i>Click to change your image</i>"
 msgstr "<i>(Klikni, kab źmianić vyjavu)</i>"
 
-#. i18n: file: main_widget.ui:89
+#. i18n: file: main_widget.ui:83
 #. i18n: ectx: property (text), widget (KPushButton, btnChangePassword)
 #: rc.cpp:27
 msgid "Change Password..."
 msgstr "Źmiani parol..."
 
-#. i18n: file: main_widget.ui:118
+#. i18n: file: main_widget.ui:112
 #. i18n: ectx: property (title), widget (QGroupBox, grpUserInformation)
 #: rc.cpp:30
 msgid "User Information"
 msgstr "Źviestki pra karystańnika"
 
-#. i18n: file: main_widget.ui:124
+#. i18n: file: main_widget.ui:118
 #. i18n: ectx: property (text), widget (QLabel, lblRealName)
 #: rc.cpp:33
 msgid "&Name:"
 msgstr "&Imia:"
 
-#. i18n: file: main_widget.ui:147
+#. i18n: file: main_widget.ui:141
 #. i18n: ectx: property (text), widget (QLabel, lblOrganisation)
 #: rc.cpp:36
 msgid "&Organization:"
 msgstr "&Ustanova:"
 
-#. i18n: file: main_widget.ui:170
+#. i18n: file: main_widget.ui:164
 #. i18n: ectx: property (text), widget (QLabel, lblEmail)
 #: rc.cpp:39
 msgid "&Email address:"
 msgstr "&Adras e-maił:"
 
-#. i18n: file: main_widget.ui:193
+#. i18n: file: main_widget.ui:187
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: rc.cpp:42
 msgid "&SMTP server:"
 msgstr "&Server „SMTP”:"
 
-#. i18n: file: main_widget.ui:216
+#. i18n: file: main_widget.ui:210
 #. i18n: ectx: property (text), widget (QLabel, lblUIDTell)
 #: rc.cpp:45
 msgid "User ID:"
 msgstr "Identyfikatar:"
 
-#. i18n: file: main_widget.ui:242
+#. i18n: file: main_widget.ui:236
 #. i18n: ectx: property (title), widget (KButtonGroup, kcfg_EchoMode)
 #: rc.cpp:48
 msgid "At Password Prompt"
 msgstr "Pry ŭpisańni parola"
 
-#. i18n: file: main_widget.ui:248
+#. i18n: file: main_widget.ui:242
 #. i18n: ectx: property (text), widget (QRadioButton, rdbOneStar)
 #: rc.cpp:51
 #, fuzzy
@@ -285,7 +285,7 @@ msgstr "Pry ŭpisańni parola"
 msgid "Show one bullet for each letter"
 msgstr "Pakazvaj adnu zoračku dla kožnaj litary"
 
-#. i18n: file: main_widget.ui:255
+#. i18n: file: main_widget.ui:249
 #. i18n: ectx: property (text), widget (QRadioButton, rdbThreeStars)
 #: rc.cpp:54
 #, fuzzy
@@ -293,7 +293,7 @@ msgstr "Pakazvaj adnu zoračku dla kožnaj litary"
 msgid "Show three bullets for each letter"
 msgstr "Pakazvaj try zorački dla kožnaj litary"
 
-#. i18n: file: main_widget.ui:262
+#. i18n: file: main_widget.ui:256
 #. i18n: ectx: property (text), widget (QRadioButton, rdbShowPassword)
 #: rc.cpp:57
 msgid "Show nothing"

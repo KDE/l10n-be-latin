@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-09 10:04+0000\n"
+"POT-Creation-Date: 2009-05-11 11:04+0000\n"
 "PO-Revision-Date: 2008-09-04 00:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,12 +20,15 @@ msgctxt "Comment"
 msgid "Instant Messenger with a D-Bus interface"
 msgstr "Kamunikatar z interfejsam „D-Bus”"
 
-#: interfaces/kimproxy/interface/kcm_instantmessenger.desktop:1
-msgctxt "Name"
+#: interfaces/kimproxy/interface/kcm_instantmessenger.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Instant Messenger"
+msgctxt "Name|standard desktop component"
 msgid "Instant Messenger"
 msgstr "Kamunikatar"
 
-#: interfaces/kimproxy/interface/kcm_instantmessenger.desktop:76
+#: interfaces/kimproxy/interface/kcm_instantmessenger.desktop:77
 msgctxt "Comment"
 msgid ""
 "The instant messenger allows two-way chat between individuals and groups."
@@ -36,12 +39,15 @@ msgctxt "Comment"
 msgid "Text-to-Speech Service with a D-Bus interface"
 msgstr "Słužba ahałašeńnia tekstu z interfejsam „D-Bus”"
 
-#: interfaces/ktexteditor/kcm_ktexteditor.desktop:1
-msgctxt "Name"
+#: interfaces/ktexteditor/kcm_ktexteditor.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Embedded Text Editor"
+msgctxt "Name|standard desktop component"
 msgid "Embedded Text Editor"
 msgstr "Unutrany tekstavy redaktar"
 
-#: interfaces/ktexteditor/kcm_ktexteditor.desktop:85
+#: interfaces/ktexteditor/kcm_ktexteditor.desktop:86
 msgctxt "Comment"
 msgid ""
 "The text editor service provides applications with a text viewer and editor. "
@@ -119,6 +125,11 @@ msgstr ""
 "Spraŭdžvaje dla zapisvanych fajłaŭ Pythona kadavańnie j dadaje radok ź "
 "jahonym aznačeńniem"
 
+#: kate/plugins/timedate/ktexteditor_timedate_config.desktop:7
+msgctxt "Name"
+msgid "Format of Time & Date insertion"
+msgstr "Farmat ustaŭlanaha času j daty"
+
 #: kate/plugins/timedate/ktexteditor_timedate.desktop:18
 msgctxt "Name"
 msgid "Time & Date"
@@ -128,11 +139,6 @@ msgstr "Čas i data"
 msgctxt "Comment"
 msgid "Insert current Time & Date"
 msgstr "Ustaŭlaje ciapierašni čas i datu"
-
-#: kate/plugins/timedate/ktexteditor_timedate_config.desktop:7
-msgctxt "Name"
-msgid "Format of Time & Date insertion"
-msgstr "Farmat ustaŭlanaha času j daty"
 
 #: kdecore/all_languages.desktop:2
 msgctxt "Name"
@@ -1084,6 +1090,11 @@ msgctxt "Name"
 msgid "Embedded Java Applet Viewer"
 msgstr "Unutrany prahladnik apletaŭ Java"
 
+#: khtml/khtmladaptorpart.desktop:2
+msgctxt "Name"
+msgid "KHTML Extension Adaptor"
+msgstr "Adaptar dla pašyreńniaŭ KHTML"
+
 #: khtml/khtml.desktop:3
 msgctxt "Comment"
 msgid "Embeddable HTML viewing component"
@@ -1093,11 +1104,6 @@ msgstr "Unutrany kampanent dla prahladu HTML"
 msgctxt "Name"
 msgid "KHTML"
 msgstr "KHTML"
-
-#: khtml/khtmladaptorpart.desktop:2
-msgctxt "Name"
-msgid "KHTML Extension Adaptor"
-msgstr "Adaptar dla pašyreńniaŭ KHTML"
 
 #: khtml/khtmlimage.desktop:3
 msgctxt "Comment"
@@ -1354,11 +1360,6 @@ msgctxt "Comment"
 msgid "Plugin for the Rename Dialog"
 msgstr "Plugin dla akna źmieny nazvy"
 
-#: kio/tests/dummymeta.desktop:3
-msgctxt "Name"
-msgid "Dummy Meta"
-msgstr "Pustyja metaźviestki"
-
 #: kioslave/http/http_cache_cleaner.desktop:3
 msgctxt "Name"
 msgid "HTTP Cache Cleaner"
@@ -1378,6 +1379,11 @@ msgstr ""
 msgctxt "Comment"
 msgid "Keeps track of all cookies in the system"
 msgstr ""
+
+#: kio/tests/dummymeta.desktop:3
+msgctxt "Name"
+msgid "Dummy Meta"
+msgstr "Pustyja metaźviestki"
 
 #: knotify/tests/knotifytest.notifyrc:3
 msgctxt "Comment"
@@ -1474,6 +1480,11 @@ msgctxt "Comment"
 msgid "Plasma Animation Engine"
 msgstr "Systema animacyi „Plasma”"
 
+#: plasma/servicetypes/plasma-applet.desktop:5
+msgctxt "Comment"
+msgid "Plasma applet"
+msgstr "Aplet „Plasma”"
+
 #: plasma/servicetypes/plasma-applet-extenderapplet.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -1486,11 +1497,6 @@ msgstr "Zakančeńnie słovaŭ"
 msgctxt "Comment"
 msgid "Plasma scripting popup applet"
 msgstr "Skryptavy vypłyŭny aplet „Plasma”"
-
-#: plasma/servicetypes/plasma-applet.desktop:5
-msgctxt "Comment"
-msgid "Plasma applet"
-msgstr "Aplet „Plasma”"
 
 #: plasma/servicetypes/plasma-containment.desktop:5
 msgctxt "Comment"

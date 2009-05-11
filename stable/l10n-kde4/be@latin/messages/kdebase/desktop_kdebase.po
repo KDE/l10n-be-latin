@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-30 05:03+0000\n"
+"POT-Creation-Date: 2009-05-11 05:13+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -61,16 +61,6 @@ msgctxt "Comment"
 msgid "Configure file manager settings"
 msgstr "Naładź kiraŭnika fajłaŭ"
 
-#: apps/kappfinder/apps/Development/Forte.desktop:2
-msgctxt "GenericName"
-msgid "Java IDE"
-msgstr "Asiarodździa prahramavańnia ŭ movie Java"
-
-#: apps/kappfinder/apps/Development/Forte.desktop:58
-msgctxt "Name"
-msgid "Forte"
-msgstr "Forte"
-
 #: apps/kappfinder/apps/Development/assistant.desktop:3
 msgctxt "Name"
 msgid "Qt Assistant"
@@ -125,6 +115,16 @@ msgstr "Asiarodździe prahramavańnia „Eclipse”"
 msgctxt "Name"
 msgid "FormDesigner"
 msgstr "FormDesigner"
+
+#: apps/kappfinder/apps/Development/Forte.desktop:2
+msgctxt "GenericName"
+msgid "Java IDE"
+msgstr "Asiarodździa prahramavańnia ŭ movie Java"
+
+#: apps/kappfinder/apps/Development/Forte.desktop:58
+msgctxt "Name"
+msgid "Forte"
+msgstr "Forte"
 
 #: apps/kappfinder/apps/Development/j2mewtk.desktop:2
 msgctxt "GenericName"
@@ -224,27 +224,70 @@ msgctxt "Name"
 msgid "X Emacs"
 msgstr "X Emacs"
 
-#: apps/kappfinder/apps/Games/Arcade/ClanBomber.desktop:2
+#: apps/kappfinder/apps/Games/Arcade/alephone.desktop:2
 msgctxt "Name"
-msgid "ClanBomber"
-msgstr "ClanBomber"
+msgid "Alephone - No OpenGL"
+msgstr "Alephone (biez „OpenGL”)"
 
+#: apps/kappfinder/apps/Games/Arcade/alephone.desktop:76
+msgctxt "Comment"
+msgid ""
+"An open source version of Marathon Infinity for SDL that has OpenGL disabled"
+msgstr ""
+"Svabodnaja versija hulni „Marathon Infinity” dla systemy „SDL” z vyklučanym "
+"„OpenGL”"
+
+#: apps/kappfinder/apps/Games/Arcade/alephone-nogl.desktop:2
+msgctxt "Name"
+msgid "Alephone"
+msgstr "Alephone"
+
+#: apps/kappfinder/apps/Games/Arcade/alephone-nogl.desktop:21
+msgctxt "Comment"
+msgid "An open source version of Marathon Infinity for SDL"
+msgstr "Svabodnaja versija hulni „Marathon Infinity” dla systemy „SDL”"
+
+#: apps/kappfinder/apps/Games/Arcade/battalion.desktop:2
+msgctxt "Name"
+msgid "Batallion"
+msgstr "Batallion"
+
+#: apps/kappfinder/apps/Games/Arcade/battalion.desktop:36
 #: apps/kappfinder/apps/Games/Arcade/ClanBomber.desktop:28
+#: apps/kappfinder/apps/Games/Arcade/cxhextris.desktop:19
 #: apps/kappfinder/apps/Games/Arcade/GnobotsII.desktop:22
 #: apps/kappfinder/apps/Games/Arcade/Mures.desktop:24
+#: apps/kappfinder/apps/Games/Arcade/scavenger.desktop:30
 #: apps/kappfinder/apps/Games/Arcade/SuperMethaneBrothers.desktop:42
 #: apps/kappfinder/apps/Games/Arcade/Trophy.desktop:32
 #: apps/kappfinder/apps/Games/Arcade/XKobo.desktop:22
 #: apps/kappfinder/apps/Games/Arcade/XSoldier.desktop:28
-#: apps/kappfinder/apps/Games/Arcade/battalion.desktop:36
-#: apps/kappfinder/apps/Games/Arcade/cxhextris.desktop:19
-#: apps/kappfinder/apps/Games/Arcade/scavenger.desktop:30
 #: apps/kappfinder/apps/Games/Board/Gataxx.desktop:18
 #: apps/kappfinder/apps/Games/Board/Gnotravex.desktop:18
 #: apps/kappfinder/apps/Games/penguin-command.desktop:40
 msgctxt "GenericName"
 msgid "Arcade Game"
 msgstr "Arkadnaja hulnia"
+
+#: apps/kappfinder/apps/Games/Arcade/battleball.desktop:2
+msgctxt "Name"
+msgid "Battleball"
+msgstr "Battleball"
+
+#: apps/kappfinder/apps/Games/Arcade/battleball.desktop:28
+msgctxt "GenericName"
+msgid "Ball Game"
+msgstr "Hulnia ŭ miač"
+
+#: apps/kappfinder/apps/Games/Arcade/ClanBomber.desktop:2
+msgctxt "Name"
+msgid "ClanBomber"
+msgstr "ClanBomber"
+
+#: apps/kappfinder/apps/Games/Arcade/cxhextris.desktop:2
+msgctxt "Name"
+msgid "cxhextris"
+msgstr "cxhextris"
 
 #: apps/kappfinder/apps/Games/Arcade/FrozenBubble.desktop:2
 msgctxt "GenericName"
@@ -276,6 +319,22 @@ msgctxt "Name"
 msgid "Mures"
 msgstr "Mures"
 
+#: apps/kappfinder/apps/Games/Arcade/rocksndiamonds.desktop:2
+msgctxt "Name"
+msgid "Rocks n Diamonds"
+msgstr "Rocks'n'Diamonds"
+
+#: apps/kappfinder/apps/Games/Arcade/rocksndiamonds.desktop:44
+#: apps/kappfinder/apps/Games/Board/Glines.desktop:30
+msgctxt "GenericName"
+msgid "Tactical Game"
+msgstr "Taktyčnaja hulnia"
+
+#: apps/kappfinder/apps/Games/Arcade/scavenger.desktop:2
+msgctxt "Name"
+msgid "Scavenger"
+msgstr "Scavenger"
+
 #: apps/kappfinder/apps/Games/Arcade/SuperMethaneBrothers.desktop:2
 msgctxt "Name"
 msgid "Super Methane Brothers"
@@ -305,65 +364,6 @@ msgstr "XKobo"
 msgctxt "Name"
 msgid "XSoldier"
 msgstr "XSoldier"
-
-#: apps/kappfinder/apps/Games/Arcade/alephone-nogl.desktop:2
-msgctxt "Name"
-msgid "Alephone"
-msgstr "Alephone"
-
-#: apps/kappfinder/apps/Games/Arcade/alephone-nogl.desktop:21
-msgctxt "Comment"
-msgid "An open source version of Marathon Infinity for SDL"
-msgstr "Svabodnaja versija hulni „Marathon Infinity” dla systemy „SDL”"
-
-#: apps/kappfinder/apps/Games/Arcade/alephone.desktop:2
-msgctxt "Name"
-msgid "Alephone - No OpenGL"
-msgstr "Alephone (biez „OpenGL”)"
-
-#: apps/kappfinder/apps/Games/Arcade/alephone.desktop:76
-msgctxt "Comment"
-msgid ""
-"An open source version of Marathon Infinity for SDL that has OpenGL disabled"
-msgstr ""
-"Svabodnaja versija hulni „Marathon Infinity” dla systemy „SDL” z vyklučanym "
-"„OpenGL”"
-
-#: apps/kappfinder/apps/Games/Arcade/battalion.desktop:2
-msgctxt "Name"
-msgid "Batallion"
-msgstr "Batallion"
-
-#: apps/kappfinder/apps/Games/Arcade/battleball.desktop:2
-msgctxt "Name"
-msgid "Battleball"
-msgstr "Battleball"
-
-#: apps/kappfinder/apps/Games/Arcade/battleball.desktop:28
-msgctxt "GenericName"
-msgid "Ball Game"
-msgstr "Hulnia ŭ miač"
-
-#: apps/kappfinder/apps/Games/Arcade/cxhextris.desktop:2
-msgctxt "Name"
-msgid "cxhextris"
-msgstr "cxhextris"
-
-#: apps/kappfinder/apps/Games/Arcade/rocksndiamonds.desktop:2
-msgctxt "Name"
-msgid "Rocks n Diamonds"
-msgstr "Rocks'n'Diamonds"
-
-#: apps/kappfinder/apps/Games/Arcade/rocksndiamonds.desktop:44
-#: apps/kappfinder/apps/Games/Board/Glines.desktop:30
-msgctxt "GenericName"
-msgid "Tactical Game"
-msgstr "Taktyčnaja hulnia"
-
-#: apps/kappfinder/apps/Games/Arcade/scavenger.desktop:2
-msgctxt "Name"
-msgid "Scavenger"
-msgstr "Scavenger"
 
 #: apps/kappfinder/apps/Games/Board/Gataxx.desktop:2
 msgctxt "Name"
@@ -437,11 +437,6 @@ msgctxt "Name"
 msgid "Same GNOME"
 msgstr "Same dla GNOME"
 
-#: apps/kappfinder/apps/Games/Board/Xgammon.desktop:2
-msgctxt "Name"
-msgid "Xgammon"
-msgstr "Xgammon"
-
 #: apps/kappfinder/apps/Games/Board/xboard.desktop:2
 msgctxt "GenericName"
 msgid "Chess Game"
@@ -451,6 +446,11 @@ msgstr "Šachmatnaja hulnia"
 msgctxt "Name"
 msgid "Xboard"
 msgstr "Xboard"
+
+#: apps/kappfinder/apps/Games/Board/Xgammon.desktop:2
+msgctxt "Name"
+msgid "Xgammon"
+msgstr "Xgammon"
 
 #: apps/kappfinder/apps/Games/Card/AisleRiot.desktop:2
 msgctxt "Name"
@@ -485,6 +485,16 @@ msgctxt "Name"
 msgid "Clanbomber"
 msgstr "Clanbomber"
 
+#: apps/kappfinder/apps/Games/defendguin.desktop:3
+msgctxt "Name"
+msgid "Defendguin"
+msgstr "Defendguin"
+
+#: apps/kappfinder/apps/Games/defendguin.desktop:23
+msgctxt "GenericName"
+msgid "Game"
+msgstr "Hulnia"
+
 #: apps/kappfinder/apps/Games/Emulators/cmail.desktop:2
 msgctxt "Name"
 msgid "ChessMail"
@@ -514,6 +524,11 @@ msgstr "GTali"
 msgctxt "GenericName"
 msgid "Dice Game"
 msgstr "Hulnia ŭ kostki"
+
+#: apps/kappfinder/apps/Games/penguin-command.desktop:3
+msgctxt "Name"
+msgid "Penguin Command"
+msgstr "Penguin Command"
 
 #: apps/kappfinder/apps/Games/Roguelikes/angband.desktop:2
 msgctxt "Name"
@@ -602,95 +617,10 @@ msgctxt "Comment"
 msgid "A free Scorched Earth clone for UNIX and X"
 msgstr "Svabodnaja versija hulni „Scorched Earth” dla systemaŭ UNIX i X"
 
-#: apps/kappfinder/apps/Games/defendguin.desktop:3
-msgctxt "Name"
-msgid "Defendguin"
-msgstr "Defendguin"
-
-#: apps/kappfinder/apps/Games/defendguin.desktop:23
-msgctxt "GenericName"
-msgid "Game"
-msgstr "Hulnia"
-
-#: apps/kappfinder/apps/Games/penguin-command.desktop:3
-msgctxt "Name"
-msgid "Penguin Command"
-msgstr "Penguin Command"
-
 #: apps/kappfinder/apps/Games/xshipwars.desktop:3
 msgctxt "Name"
 msgid "XShipWars"
 msgstr "XShipWars"
-
-#: apps/kappfinder/apps/Graphics/ElectricEyes.desktop:2
-msgctxt "Name"
-msgid "Electric Eyes"
-msgstr "Electric Eyes"
-
-#: apps/kappfinder/apps/Graphics/ElectricEyes.desktop:44
-msgctxt "GenericName"
-msgid "Image Viewer"
-msgstr "Prahladnik dla vyjavaŭ"
-
-#: apps/kappfinder/apps/Graphics/GPhoto.desktop:2
-msgctxt "Name"
-msgid "GPhoto"
-msgstr "GPhoto"
-
-#: apps/kappfinder/apps/Graphics/GPhoto.desktop:24
-msgctxt "GenericName"
-msgid "Digital Camera Program"
-msgstr "Prahrama, jakaja absłuhoŭvaje ličbavyja kamery"
-
-#: apps/kappfinder/apps/Graphics/GnomeColorSelector.desktop:2
-msgctxt "Name"
-msgid "GNOME Color Selector"
-msgstr "Prahrama vybaru koleraŭ dla GNOME"
-
-#: apps/kappfinder/apps/Graphics/GnomeIconEditor.desktop:2
-msgctxt "Name"
-msgid "GNOME Icon Editor"
-msgstr "Redaktar ikonaŭ dla GNOME"
-
-#: apps/kappfinder/apps/Graphics/Gqview.desktop:2
-msgctxt "Name"
-msgid "Gqview"
-msgstr "Gqview"
-
-#: apps/kappfinder/apps/Graphics/Gqview.desktop:19
-msgctxt "GenericName"
-msgid "Image Browser"
-msgstr "Prahladnik katalohaŭ z vyjavami"
-
-#: apps/kappfinder/apps/Graphics/Sketch.desktop:2
-msgctxt "Name"
-msgid "Sketch"
-msgstr "Sketch"
-
-#: apps/kappfinder/apps/Graphics/Sketch.desktop:30
-msgctxt "GenericName"
-msgid "Vector-based Drawing Program"
-msgstr "Prahrama dla vektarnaha malavańnia"
-
-#: apps/kappfinder/apps/Graphics/Xpcd.desktop:2
-msgctxt "Name"
-msgid "Xpcd"
-msgstr "Xpcd"
-
-#: apps/kappfinder/apps/Graphics/Xpcd.desktop:14
-msgctxt "GenericName"
-msgid "PhotoCD Tools"
-msgstr "Pryładździe dla dyskaŭ „PhotoCD”"
-
-#: apps/kappfinder/apps/Graphics/Xwpick.desktop:2
-msgctxt "Name"
-msgid "Xwpick"
-msgstr "Xwpick"
-
-#: apps/kappfinder/apps/Graphics/Xwpick.desktop:14
-msgctxt "GenericName"
-msgid "Screen Capture Program"
-msgstr "Prahrama dla zapisu vidarysa z ekrana"
 
 #: apps/kappfinder/apps/Graphics/bitmap.desktop:2
 msgctxt "Name"
@@ -712,6 +642,16 @@ msgctxt "GenericName"
 msgid "3D Modeler/Renderer"
 msgstr "Prahrama dla madelavańnia j vyjaŭleńnia 3D-scenaŭ"
 
+#: apps/kappfinder/apps/Graphics/ElectricEyes.desktop:2
+msgctxt "Name"
+msgid "Electric Eyes"
+msgstr "Electric Eyes"
+
+#: apps/kappfinder/apps/Graphics/ElectricEyes.desktop:44
+msgctxt "GenericName"
+msgid "Image Viewer"
+msgstr "Prahladnik dla vyjavaŭ"
+
 #: apps/kappfinder/apps/Graphics/ghostview.desktop:2
 msgctxt "Name"
 msgid "GhostView"
@@ -731,6 +671,36 @@ msgstr "GIMP"
 msgctxt "GenericName"
 msgid "Image Manipulation Program"
 msgstr "Prahrama dla redahavańnia vyjavaŭ"
+
+#: apps/kappfinder/apps/Graphics/GnomeColorSelector.desktop:2
+msgctxt "Name"
+msgid "GNOME Color Selector"
+msgstr "Prahrama vybaru koleraŭ dla GNOME"
+
+#: apps/kappfinder/apps/Graphics/GnomeIconEditor.desktop:2
+msgctxt "Name"
+msgid "GNOME Icon Editor"
+msgstr "Redaktar ikonaŭ dla GNOME"
+
+#: apps/kappfinder/apps/Graphics/GPhoto.desktop:2
+msgctxt "Name"
+msgid "GPhoto"
+msgstr "GPhoto"
+
+#: apps/kappfinder/apps/Graphics/GPhoto.desktop:24
+msgctxt "GenericName"
+msgid "Digital Camera Program"
+msgstr "Prahrama, jakaja absłuhoŭvaje ličbavyja kamery"
+
+#: apps/kappfinder/apps/Graphics/Gqview.desktop:2
+msgctxt "Name"
+msgid "Gqview"
+msgstr "Gqview"
+
+#: apps/kappfinder/apps/Graphics/Gqview.desktop:19
+msgctxt "GenericName"
+msgid "Image Browser"
+msgstr "Prahladnik katalohaŭ z vyjavami"
 
 #: apps/kappfinder/apps/Graphics/gv.desktop:2
 msgctxt "Name"
@@ -752,6 +722,16 @@ msgstr "Inkscape"
 msgctxt "GenericName"
 msgid "Vector Drawing"
 msgstr "Vektarnaje malavańnie"
+
+#: apps/kappfinder/apps/Graphics/Sketch.desktop:2
+msgctxt "Name"
+msgid "Sketch"
+msgstr "Sketch"
+
+#: apps/kappfinder/apps/Graphics/Sketch.desktop:30
+msgctxt "GenericName"
+msgid "Vector-based Drawing Program"
+msgstr "Prahrama dla vektarnaha malavańnia"
 
 #: apps/kappfinder/apps/Graphics/sodipodi.desktop:2
 msgctxt "Name"
@@ -794,6 +774,16 @@ msgctxt "GenericName"
 msgid "Paint Program"
 msgstr "Prahrama dla malavańnia"
 
+#: apps/kappfinder/apps/Graphics/Xpcd.desktop:2
+msgctxt "Name"
+msgid "Xpcd"
+msgstr "Xpcd"
+
+#: apps/kappfinder/apps/Graphics/Xpcd.desktop:14
+msgctxt "GenericName"
+msgid "PhotoCD Tools"
+msgstr "Pryładździe dla dyskaŭ „PhotoCD”"
+
 #: apps/kappfinder/apps/Graphics/xv.desktop:2
 msgctxt "Name"
 msgid "XV"
@@ -804,6 +794,54 @@ msgctxt "GenericName"
 msgid "Picture Viewer"
 msgstr "Prahladnik dla vyjavaŭ"
 
+#: apps/kappfinder/apps/Graphics/Xwpick.desktop:2
+msgctxt "Name"
+msgid "Xwpick"
+msgstr "Xwpick"
+
+#: apps/kappfinder/apps/Graphics/Xwpick.desktop:14
+msgctxt "GenericName"
+msgid "Screen Capture Program"
+msgstr "Prahrama dla zapisu vidarysa z ekrana"
+
+#: apps/kappfinder/apps/Internet/arena.desktop:5
+msgctxt "Name"
+msgid "Arena"
+msgstr "Arena"
+
+#: apps/kappfinder/apps/Internet/arena.desktop:24
+#: apps/kappfinder/apps/Internet/epiphany.desktop:21
+#: apps/kappfinder/apps/Internet/Galeon.desktop:20
+#: apps/kappfinder/apps/Internet/mozilla.desktop:23
+#: apps/kappfinder/apps/Internet/mozilla-firefox.desktop:25
+#: apps/kappfinder/apps/Internet/netscape6.desktop:18
+#: apps/kappfinder/apps/Internet/netscape.desktop:23
+#: apps/kappfinder/apps/Internet/opera.desktop:21
+#: apps/kappfinder/apps/Internet/Terminal/Links.desktop:26
+#: apps/kappfinder/apps/Internet/Terminal/Lynx.desktop:16
+#: apps/kappfinder/apps/Internet/Terminal/w3m.desktop:15
+#: apps/konqueror/konqbrowser.desktop:25
+msgctxt "GenericName"
+msgid "Web Browser"
+msgstr "Hartač sieciva"
+
+#: apps/kappfinder/apps/Internet/balsa.desktop:2
+msgctxt "Name"
+msgid "Balsa"
+msgstr "Balsa"
+
+#: apps/kappfinder/apps/Internet/balsa.desktop:19
+#: apps/kappfinder/apps/Internet/Evolution.desktop:21
+#: apps/kappfinder/apps/Internet/mozilla-thunderbird.desktop:24
+#: apps/kappfinder/apps/Internet/Netscapemessenger.desktop:40
+#: apps/kappfinder/apps/Internet/Sylpheed.desktop:16
+#: apps/kappfinder/apps/Internet/Terminal/mutt.desktop:18
+#: apps/kappfinder/apps/Internet/Terminal/pine.desktop:22
+#: apps/kappfinder/apps/Internet/xfmail.desktop:21
+msgctxt "GenericName"
+msgid "Mail Client"
+msgstr "Paštar"
+
 #: apps/kappfinder/apps/Internet/BlueFish.desktop:2
 msgctxt "Name"
 msgid "BlueFish"
@@ -813,6 +851,39 @@ msgstr "BlueFish"
 msgctxt "GenericName"
 msgid "HTML Editor"
 msgstr "Redaktar HTML"
+
+#: apps/kappfinder/apps/Internet/btdownloadgui.desktop:3
+#: apps/kappfinder/apps/Internet/Terminal/btdownloadcurses.desktop:3
+msgctxt "GenericName"
+msgid "BitTorrent GUI"
+msgstr "Hrafičny interfejs dla prahramy „BitTorrent”"
+
+#: apps/kappfinder/apps/Internet/btdownloadgui.desktop:69
+msgctxt "Name"
+msgid "BitTorrent Python wxGTK GUI"
+msgstr "„wxGTK”-interfejs dla prahramy „BitTorrent”"
+
+#: apps/kappfinder/apps/Internet/coolmail.desktop:7
+msgctxt "Name"
+msgid "Coolmail"
+msgstr "Coolmail"
+
+#: apps/kappfinder/apps/Internet/coolmail.desktop:22
+#: apps/kappfinder/apps/Internet/Faces.desktop:29
+#: apps/kappfinder/apps/Internet/xbiff.desktop:28
+msgctxt "GenericName"
+msgid "Mail Alert"
+msgstr "Prahrama, jakaja infarmuje pra źjaŭleńnie novych listoŭ"
+
+#: apps/kappfinder/apps/Internet/dc_gui.desktop:4
+msgctxt "Name"
+msgid "DCTC GUI"
+msgstr "Hrafičny interfejs dla DCTC"
+
+#: apps/kappfinder/apps/Internet/dc_gui.desktop:49
+msgctxt "GenericName"
+msgid "Direct Connect Clone"
+msgstr "Versija prahramy „Direct Connect”"
 
 #: apps/kappfinder/apps/Internet/Dpsftp.desktop:2
 msgctxt "Name"
@@ -835,221 +906,6 @@ msgstr "DrakSync"
 msgctxt "GenericName"
 msgid "Folder Synchronization"
 msgstr "Prahrama dla synchranizacyi katalohaŭ"
-
-#: apps/kappfinder/apps/Internet/Evolution.desktop:2
-msgctxt "Name"
-msgid "Evolution"
-msgstr "Evalucyja"
-
-#: apps/kappfinder/apps/Internet/Evolution.desktop:21
-#: apps/kappfinder/apps/Internet/Netscapemessenger.desktop:40
-#: apps/kappfinder/apps/Internet/Sylpheed.desktop:16
-#: apps/kappfinder/apps/Internet/Terminal/mutt.desktop:18
-#: apps/kappfinder/apps/Internet/Terminal/pine.desktop:22
-#: apps/kappfinder/apps/Internet/balsa.desktop:19
-#: apps/kappfinder/apps/Internet/mozilla-thunderbird.desktop:24
-#: apps/kappfinder/apps/Internet/xfmail.desktop:21
-msgctxt "GenericName"
-msgid "Mail Client"
-msgstr "Paštar"
-
-#: apps/kappfinder/apps/Internet/Faces.desktop:2
-msgctxt "Name"
-msgid "Faces"
-msgstr "Faces"
-
-#: apps/kappfinder/apps/Internet/Faces.desktop:29
-#: apps/kappfinder/apps/Internet/coolmail.desktop:22
-#: apps/kappfinder/apps/Internet/xbiff.desktop:28
-msgctxt "GenericName"
-msgid "Mail Alert"
-msgstr "Prahrama, jakaja infarmuje pra źjaŭleńnie novych listoŭ"
-
-#: apps/kappfinder/apps/Internet/Fetchmailconf.desktop:2
-msgctxt "Name"
-msgid "Fetchmailconf"
-msgstr "Fetchmailconf"
-
-#: apps/kappfinder/apps/Internet/Fetchmailconf.desktop:20
-msgctxt "GenericName"
-msgid "Fetchmail Configuration"
-msgstr "Nałady słužby „Fetchmail”"
-
-#: apps/kappfinder/apps/Internet/Gabber.desktop:2
-msgctxt "Name"
-msgid "Gabber"
-msgstr "Gabber"
-
-#: apps/kappfinder/apps/Internet/Gabber.desktop:19
-#: apps/kappfinder/apps/Internet/gaim.desktop:18
-msgctxt "GenericName"
-msgid "Instant Messenger"
-msgstr "Internet-kamunikatar"
-
-#: apps/kappfinder/apps/Internet/Galeon.desktop:2
-msgctxt "Name"
-msgid "Galeon"
-msgstr "Galeon"
-
-#: apps/kappfinder/apps/Internet/Galeon.desktop:20
-#: apps/kappfinder/apps/Internet/Terminal/Links.desktop:26
-#: apps/kappfinder/apps/Internet/Terminal/Lynx.desktop:16
-#: apps/kappfinder/apps/Internet/Terminal/w3m.desktop:15
-#: apps/kappfinder/apps/Internet/arena.desktop:24
-#: apps/kappfinder/apps/Internet/epiphany.desktop:21
-#: apps/kappfinder/apps/Internet/mozilla-firefox.desktop:25
-#: apps/kappfinder/apps/Internet/mozilla.desktop:23
-#: apps/kappfinder/apps/Internet/netscape.desktop:23
-#: apps/kappfinder/apps/Internet/netscape6.desktop:18
-#: apps/kappfinder/apps/Internet/opera.desktop:21
-#: apps/konqueror/konqbrowser.desktop:25
-msgctxt "GenericName"
-msgid "Web Browser"
-msgstr "Hartač sieciva"
-
-#: apps/kappfinder/apps/Internet/GnomeICU.desktop:2
-msgctxt "Name"
-msgid "GNOMEICU"
-msgstr "GNOMEICU"
-
-#: apps/kappfinder/apps/Internet/GnomeICU.desktop:19
-#: apps/kappfinder/apps/Internet/licq.desktop:16
-msgctxt "GenericName"
-msgid "ICQ Messenger"
-msgstr "Kamunikatar dla ICQ"
-
-#: apps/kappfinder/apps/Internet/Netscapemessenger.desktop:2
-msgctxt "Name"
-msgid "Netscape Messenger"
-msgstr "Netscape Messenger"
-
-#: apps/kappfinder/apps/Internet/Nmapfe.desktop:2
-msgctxt "Name"
-msgid "Nmapfe"
-msgstr "Nmapfe"
-
-#: apps/kappfinder/apps/Internet/Nmapfe.desktop:12
-msgctxt "GenericName"
-msgid "Port Scanner"
-msgstr "Prahrama dla skanavańnia partoŭ"
-
-#: apps/kappfinder/apps/Internet/Pan.desktop:2
-msgctxt "Name"
-msgid "Pan"
-msgstr "Pan"
-
-#: apps/kappfinder/apps/Internet/Pan.desktop:19
-#: apps/kappfinder/apps/Internet/knews.desktop:25
-msgctxt "GenericName"
-msgid "Usenet News Reader"
-msgstr "Prahrama dla čytańnia navinaŭ ź sietki „Usenet”"
-
-#: apps/kappfinder/apps/Internet/Sylpheed.desktop:2
-msgctxt "Name"
-msgid "Sylpheed"
-msgstr "Sylpheed"
-
-#: apps/kappfinder/apps/Internet/Terminal/Links.desktop:2
-msgctxt "Name"
-msgid "Links"
-msgstr "Links"
-
-#: apps/kappfinder/apps/Internet/Terminal/Lynx.desktop:2
-msgctxt "Name"
-msgid "Lynx"
-msgstr "Lynx"
-
-#: apps/kappfinder/apps/Internet/Terminal/btdownloadcurses.desktop:3
-#: apps/kappfinder/apps/Internet/btdownloadgui.desktop:3
-msgctxt "GenericName"
-msgid "BitTorrent GUI"
-msgstr "Hrafičny interfejs dla prahramy „BitTorrent”"
-
-#: apps/kappfinder/apps/Internet/Terminal/btdownloadcurses.desktop:69
-msgctxt "Name"
-msgid "BitTorrent Python Curses GUI"
-msgstr "Curses-interfejs dla prahramy „BitTorrent”"
-
-#: apps/kappfinder/apps/Internet/Terminal/lftp.desktop:2
-#: apps/kappfinder/apps/Internet/Terminal/ncftp.desktop:13
-msgctxt "GenericName"
-msgid "FTP Client"
-msgstr "Klijent FTP"
-
-#: apps/kappfinder/apps/Internet/Terminal/lftp.desktop:86
-msgctxt "Name"
-msgid "Lftp"
-msgstr "Lftp"
-
-#: apps/kappfinder/apps/Internet/Terminal/mutt.desktop:5
-msgctxt "Name"
-msgid "Mutt"
-msgstr "Mutt"
-
-#: apps/kappfinder/apps/Internet/Terminal/ncftp.desktop:2
-msgctxt "Name"
-msgid "NcFTP"
-msgstr "NcFTP"
-
-#: apps/kappfinder/apps/Internet/Terminal/pine.desktop:5
-msgctxt "Name"
-msgid "Pine"
-msgstr "Pine"
-
-#: apps/kappfinder/apps/Internet/Terminal/silc.desktop:2
-msgctxt "GenericName"
-msgid "SILC Client"
-msgstr "Klijent dla SILC"
-
-#: apps/kappfinder/apps/Internet/Terminal/silc.desktop:84
-msgctxt "Name"
-msgid "SILC"
-msgstr "SILC"
-
-#: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:5
-msgctxt "Name"
-msgid "Slrn"
-msgstr "Slrn"
-
-#: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:15
-msgctxt "GenericName"
-msgid "News Reader"
-msgstr "Prahrama dla čytańnia navinaŭ"
-
-#: apps/kappfinder/apps/Internet/Terminal/w3m.desktop:2
-msgctxt "Name"
-msgid "w3m"
-msgstr "w3m"
-
-#: apps/kappfinder/apps/Internet/arena.desktop:5
-msgctxt "Name"
-msgid "Arena"
-msgstr "Arena"
-
-#: apps/kappfinder/apps/Internet/balsa.desktop:2
-msgctxt "Name"
-msgid "Balsa"
-msgstr "Balsa"
-
-#: apps/kappfinder/apps/Internet/btdownloadgui.desktop:69
-msgctxt "Name"
-msgid "BitTorrent Python wxGTK GUI"
-msgstr "„wxGTK”-interfejs dla prahramy „BitTorrent”"
-
-#: apps/kappfinder/apps/Internet/coolmail.desktop:7
-msgctxt "Name"
-msgid "Coolmail"
-msgstr "Coolmail"
-
-#: apps/kappfinder/apps/Internet/dc_gui.desktop:4
-msgctxt "Name"
-msgid "DCTC GUI"
-msgstr "Hrafičny interfejs dla DCTC"
-
-#: apps/kappfinder/apps/Internet/dc_gui.desktop:49
-msgctxt "GenericName"
-msgid "Direct Connect Clone"
-msgstr "Versija prahramy „Direct Connect”"
 
 #: apps/kappfinder/apps/Internet/ed2k_gui.desktop:4
 msgctxt "Name"
@@ -1077,15 +933,62 @@ msgctxt "GenericName"
 msgid "Network Analyzer"
 msgstr "Analizatar sietki"
 
-#: apps/kappfinder/apps/Internet/gFTP.desktop:2
+#: apps/kappfinder/apps/Internet/Evolution.desktop:2
 msgctxt "Name"
-msgid "gFTP"
-msgstr "gFTP"
+msgid "Evolution"
+msgstr "Evalucyja"
+
+#: apps/kappfinder/apps/Internet/Faces.desktop:2
+msgctxt "Name"
+msgid "Faces"
+msgstr "Faces"
+
+#: apps/kappfinder/apps/Internet/Fetchmailconf.desktop:2
+msgctxt "Name"
+msgid "Fetchmailconf"
+msgstr "Fetchmailconf"
+
+#: apps/kappfinder/apps/Internet/Fetchmailconf.desktop:20
+msgctxt "GenericName"
+msgid "Fetchmail Configuration"
+msgstr "Nałady słužby „Fetchmail”"
+
+#: apps/kappfinder/apps/Internet/Gabber.desktop:2
+msgctxt "Name"
+msgid "Gabber"
+msgstr "Gabber"
+
+#: apps/kappfinder/apps/Internet/Gabber.desktop:19
+#: apps/kappfinder/apps/Internet/gaim.desktop:18
+msgctxt "GenericName"
+msgid "Instant Messenger"
+msgstr "Internet-kamunikatar"
 
 #: apps/kappfinder/apps/Internet/gaim.desktop:2
 msgctxt "Name"
 msgid "Gaim"
 msgstr "Gaim"
+
+#: apps/kappfinder/apps/Internet/Galeon.desktop:2
+msgctxt "Name"
+msgid "Galeon"
+msgstr "Galeon"
+
+#: apps/kappfinder/apps/Internet/gFTP.desktop:2
+msgctxt "Name"
+msgid "gFTP"
+msgstr "gFTP"
+
+#: apps/kappfinder/apps/Internet/GnomeICU.desktop:2
+msgctxt "Name"
+msgid "GNOMEICU"
+msgstr "GNOMEICU"
+
+#: apps/kappfinder/apps/Internet/GnomeICU.desktop:19
+#: apps/kappfinder/apps/Internet/licq.desktop:16
+msgctxt "GenericName"
+msgid "ICQ Messenger"
+msgstr "Kamunikatar dla ICQ"
 
 #: apps/kappfinder/apps/Internet/gnomemeeting.desktop:2
 msgctxt "Name"
@@ -1132,6 +1035,12 @@ msgctxt "Name"
 msgid "KNews"
 msgstr "KNews"
 
+#: apps/kappfinder/apps/Internet/knews.desktop:25
+#: apps/kappfinder/apps/Internet/Pan.desktop:19
+msgctxt "GenericName"
+msgid "Usenet News Reader"
+msgstr "Prahrama dla čytańnia navinaŭ ź sietki „Usenet”"
+
 #: apps/kappfinder/apps/Internet/licq.desktop:4
 msgctxt "Name"
 msgid "Licq"
@@ -1147,6 +1056,11 @@ msgctxt "GenericName"
 msgid "MLDonkey GUI"
 msgstr "Hrafičny interfejs dla systemy „MLDonkey”"
 
+#: apps/kappfinder/apps/Internet/mozilla.desktop:5
+msgctxt "Name"
+msgid "Mozilla"
+msgstr "Mozilla"
+
 #: apps/kappfinder/apps/Internet/mozilla-firefox.desktop:5
 msgctxt "Name"
 msgid "Firefox"
@@ -1157,25 +1071,111 @@ msgctxt "Name"
 msgid "Thunderbird"
 msgstr "Thunderbird"
 
-#: apps/kappfinder/apps/Internet/mozilla.desktop:5
+#: apps/kappfinder/apps/Internet/netscape6.desktop:5
 msgctxt "Name"
-msgid "Mozilla"
-msgstr "Mozilla"
+msgid "Netscape 6"
+msgstr "Netscape 6"
 
 #: apps/kappfinder/apps/Internet/netscape.desktop:5
 msgctxt "Name"
 msgid "Netscape"
 msgstr "Netscape"
 
-#: apps/kappfinder/apps/Internet/netscape6.desktop:5
+#: apps/kappfinder/apps/Internet/Netscapemessenger.desktop:2
 msgctxt "Name"
-msgid "Netscape 6"
-msgstr "Netscape 6"
+msgid "Netscape Messenger"
+msgstr "Netscape Messenger"
+
+#: apps/kappfinder/apps/Internet/Nmapfe.desktop:2
+msgctxt "Name"
+msgid "Nmapfe"
+msgstr "Nmapfe"
+
+#: apps/kappfinder/apps/Internet/Nmapfe.desktop:12
+msgctxt "GenericName"
+msgid "Port Scanner"
+msgstr "Prahrama dla skanavańnia partoŭ"
 
 #: apps/kappfinder/apps/Internet/opera.desktop:2
 msgctxt "Name"
 msgid "Opera"
 msgstr "Opera"
+
+#: apps/kappfinder/apps/Internet/Pan.desktop:2
+msgctxt "Name"
+msgid "Pan"
+msgstr "Pan"
+
+#: apps/kappfinder/apps/Internet/Sylpheed.desktop:2
+msgctxt "Name"
+msgid "Sylpheed"
+msgstr "Sylpheed"
+
+#: apps/kappfinder/apps/Internet/Terminal/btdownloadcurses.desktop:69
+msgctxt "Name"
+msgid "BitTorrent Python Curses GUI"
+msgstr "Curses-interfejs dla prahramy „BitTorrent”"
+
+#: apps/kappfinder/apps/Internet/Terminal/lftp.desktop:2
+#: apps/kappfinder/apps/Internet/Terminal/ncftp.desktop:13
+msgctxt "GenericName"
+msgid "FTP Client"
+msgstr "Klijent FTP"
+
+#: apps/kappfinder/apps/Internet/Terminal/lftp.desktop:86
+msgctxt "Name"
+msgid "Lftp"
+msgstr "Lftp"
+
+#: apps/kappfinder/apps/Internet/Terminal/Links.desktop:2
+msgctxt "Name"
+msgid "Links"
+msgstr "Links"
+
+#: apps/kappfinder/apps/Internet/Terminal/Lynx.desktop:2
+msgctxt "Name"
+msgid "Lynx"
+msgstr "Lynx"
+
+#: apps/kappfinder/apps/Internet/Terminal/mutt.desktop:5
+msgctxt "Name"
+msgid "Mutt"
+msgstr "Mutt"
+
+#: apps/kappfinder/apps/Internet/Terminal/ncftp.desktop:2
+msgctxt "Name"
+msgid "NcFTP"
+msgstr "NcFTP"
+
+#: apps/kappfinder/apps/Internet/Terminal/pine.desktop:5
+msgctxt "Name"
+msgid "Pine"
+msgstr "Pine"
+
+#: apps/kappfinder/apps/Internet/Terminal/silc.desktop:2
+msgctxt "GenericName"
+msgid "SILC Client"
+msgstr "Klijent dla SILC"
+
+#: apps/kappfinder/apps/Internet/Terminal/silc.desktop:84
+msgctxt "Name"
+msgid "SILC"
+msgstr "SILC"
+
+#: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:5
+msgctxt "Name"
+msgid "Slrn"
+msgstr "Slrn"
+
+#: apps/kappfinder/apps/Internet/Terminal/slrn.desktop:15
+msgctxt "GenericName"
+msgid "News Reader"
+msgstr "Prahrama dla čytańnia navinaŭ"
+
+#: apps/kappfinder/apps/Internet/Terminal/w3m.desktop:2
+msgctxt "Name"
+msgid "w3m"
+msgstr "w3m"
 
 #: apps/kappfinder/apps/Internet/wireshark.desktop:2
 msgctxt "Name"
@@ -1206,45 +1206,6 @@ msgstr "XFMail"
 msgctxt "Name"
 msgid "X FTP"
 msgstr "X FTP"
-
-#: apps/kappfinder/apps/Multimedia/Aumix.desktop:2
-msgctxt "Name"
-msgid "Aumix"
-msgstr "Aumix"
-
-#: apps/kappfinder/apps/Multimedia/Aumix.desktop:16
-msgctxt "GenericName"
-msgid "Audio Mixer"
-msgstr "Mikser hukavoj systemy"
-
-#: apps/kappfinder/apps/Multimedia/Grip.desktop:2
-msgctxt "Name"
-msgid "Grip"
-msgstr "Grip"
-
-#: apps/kappfinder/apps/Multimedia/Grip.desktop:19
-msgctxt "GenericName"
-msgid "CD Player/Ripper"
-msgstr "Prajhravańnik i kapijavańnik dla CD-dyskaŭ"
-
-#: apps/kappfinder/apps/Multimedia/MP3info.desktop:2
-msgctxt "Name"
-msgid "MP3 Info"
-msgstr "MP3 Info"
-
-#: apps/kappfinder/apps/Multimedia/XMovie.desktop:2
-msgctxt "Name"
-msgid "XMovie"
-msgstr "XMovie"
-
-#: apps/kappfinder/apps/Multimedia/XMovie.desktop:19
-#: apps/kappfinder/apps/Multimedia/mplayer.desktop:2
-#: apps/kappfinder/apps/Multimedia/mtv.desktop:2
-#: apps/kappfinder/apps/Multimedia/realplayer.desktop:2
-#: apps/kappfinder/apps/Multimedia/xine.desktop:2
-msgctxt "GenericName"
-msgid "Video Player"
-msgstr "Prajhravańnik videa"
 
 #: apps/kappfinder/apps/Multimedia/alevt.desktop:2
 msgctxt "GenericName"
@@ -1307,6 +1268,16 @@ msgstr "Audacity"
 msgctxt "GenericName"
 msgid "Audio Editor"
 msgstr "Redaktar huku"
+
+#: apps/kappfinder/apps/Multimedia/Aumix.desktop:2
+msgctxt "Name"
+msgid "Aumix"
+msgstr "Aumix"
+
+#: apps/kappfinder/apps/Multimedia/Aumix.desktop:16
+msgctxt "GenericName"
+msgid "Audio Mixer"
+msgstr "Mikser hukavoj systemy"
 
 #: apps/kappfinder/apps/Multimedia/aviplay.desktop:2
 msgctxt "GenericName"
@@ -1391,6 +1362,16 @@ msgctxt "GenericName"
 msgid "Modular Synth"
 msgstr "Modulny syntezatar"
 
+#: apps/kappfinder/apps/Multimedia/Grip.desktop:2
+msgctxt "Name"
+msgid "Grip"
+msgstr "Grip"
+
+#: apps/kappfinder/apps/Multimedia/Grip.desktop:19
+msgctxt "GenericName"
+msgid "CD Player/Ripper"
+msgstr "Prajhravańnik i kapijavańnik dla CD-dyskaŭ"
+
 #: apps/kappfinder/apps/Multimedia/gtv.desktop:87
 msgctxt "Name"
 msgid "GTV"
@@ -1445,6 +1426,20 @@ msgstr "Meterbridge"
 msgctxt "Name"
 msgid "Mixxx"
 msgstr "Mixxx"
+
+#: apps/kappfinder/apps/Multimedia/MP3info.desktop:2
+msgctxt "Name"
+msgid "MP3 Info"
+msgstr "MP3 Info"
+
+#: apps/kappfinder/apps/Multimedia/mplayer.desktop:2
+#: apps/kappfinder/apps/Multimedia/mtv.desktop:2
+#: apps/kappfinder/apps/Multimedia/realplayer.desktop:2
+#: apps/kappfinder/apps/Multimedia/xine.desktop:2
+#: apps/kappfinder/apps/Multimedia/XMovie.desktop:19
+msgctxt "GenericName"
+msgid "Video Player"
+msgstr "Prajhravańnik videa"
 
 #: apps/kappfinder/apps/Multimedia/mplayer.desktop:87
 msgctxt "Name"
@@ -1566,16 +1561,6 @@ msgctxt "Name"
 msgid "Xine"
 msgstr "Xine"
 
-#: apps/kappfinder/apps/Multimedia/xmms-enqueue.desktop:2
-msgctxt "GenericName"
-msgid "Playlist Tool"
-msgstr "Pryłada dla składańnia śpisaŭ piesień"
-
-#: apps/kappfinder/apps/Multimedia/xmms-enqueue.desktop:88
-msgctxt "Name"
-msgid "Enqueue in XMMS"
-msgstr "Dadaj u XMMS"
-
 #: apps/kappfinder/apps/Multimedia/xmms.desktop:2
 msgctxt "GenericName"
 msgid "Multimedia Player"
@@ -1586,6 +1571,21 @@ msgctxt "Name"
 msgid "XMMS"
 msgstr "XMMS"
 
+#: apps/kappfinder/apps/Multimedia/xmms-enqueue.desktop:2
+msgctxt "GenericName"
+msgid "Playlist Tool"
+msgstr "Pryłada dla składańnia śpisaŭ piesień"
+
+#: apps/kappfinder/apps/Multimedia/xmms-enqueue.desktop:88
+msgctxt "Name"
+msgid "Enqueue in XMMS"
+msgstr "Dadaj u XMMS"
+
+#: apps/kappfinder/apps/Multimedia/XMovie.desktop:2
+msgctxt "Name"
+msgid "XMovie"
+msgstr "XMovie"
+
 #: apps/kappfinder/apps/Multimedia/zynaddsubfx.desktop:4
 msgctxt "Name"
 msgid "ZynaddsubFX"
@@ -1595,6 +1595,30 @@ msgstr "ZynaddsubFX"
 msgctxt "GenericName"
 msgid "Soft Synth"
 msgstr "Prahramny syntezatar"
+
+#: apps/kappfinder/apps/Office/abiword.desktop:2
+msgctxt "Name"
+msgid "AbiWord"
+msgstr "AbiWord"
+
+#: apps/kappfinder/apps/Office/abiword.desktop:19
+#: apps/kappfinder/apps/Office/lyx.desktop:14
+#: apps/kappfinder/apps/Office/WordPerfect2000.desktop:28
+#: apps/kappfinder/apps/Office/WordPerfect.desktop:26
+msgctxt "GenericName"
+msgid "Word Processor"
+msgstr "Tekstavy redaktar"
+
+#: apps/kappfinder/apps/Office/acroread.desktop:2
+msgctxt "Name"
+msgid "Acrobat Reader"
+msgstr "Acrobat Reader"
+
+#: apps/kappfinder/apps/Office/acroread.desktop:34
+#: apps/kappfinder/apps/Office/xpdf.desktop:20
+msgctxt "GenericName"
+msgid "PDF Viewer"
+msgstr "Hartač dla PDF"
 
 #: apps/kappfinder/apps/Office/Applix.desktop:2
 msgctxt "Name"
@@ -1642,6 +1666,16 @@ msgctxt "Name"
 msgid "GNOME Time Tracker"
 msgstr "GNOME Time Tracker"
 
+#: apps/kappfinder/apps/Office/gnucash.desktop:2
+msgctxt "Name"
+msgid "GnuCash"
+msgstr "GnuCash"
+
+#: apps/kappfinder/apps/Office/gnucash.desktop:22
+msgctxt "GenericName"
+msgid "Finance Manager"
+msgstr "Kiraŭnik dla hrošaj"
+
 #: apps/kappfinder/apps/Office/Gnumeric.desktop:2
 msgctxt "Name"
 msgid "Gnumeric"
@@ -1667,65 +1701,6 @@ msgstr "Ical"
 msgctxt "GenericName"
 msgid "Calendar Program"
 msgstr "Prahrama-kalandar"
-
-#: apps/kappfinder/apps/Office/WordPerfect.desktop:2
-msgctxt "Name"
-msgid "WordPerfect"
-msgstr "WordPerfect"
-
-#: apps/kappfinder/apps/Office/WordPerfect.desktop:26
-#: apps/kappfinder/apps/Office/WordPerfect2000.desktop:28
-#: apps/kappfinder/apps/Office/abiword.desktop:19
-#: apps/kappfinder/apps/Office/lyx.desktop:14
-msgctxt "GenericName"
-msgid "Word Processor"
-msgstr "Tekstavy redaktar"
-
-#: apps/kappfinder/apps/Office/WordPerfect2000.desktop:2
-msgctxt "Name"
-msgid "WordPerfect 2000"
-msgstr "WordPerfect 2000"
-
-#: apps/kappfinder/apps/Office/XAcc.desktop:2
-msgctxt "Name"
-msgid "xacc"
-msgstr "xacc"
-
-#: apps/kappfinder/apps/Office/XAcc.desktop:20
-msgctxt "GenericName"
-msgid "Personal Accounting Tool"
-msgstr "Pryłada dla ŭliku ŭłasnych hrošaj"
-
-#: apps/kappfinder/apps/Office/XsLite.desktop:2
-msgctxt "Name"
-msgid "XsLite"
-msgstr "XsLite"
-
-#: apps/kappfinder/apps/Office/abiword.desktop:2
-msgctxt "Name"
-msgid "AbiWord"
-msgstr "AbiWord"
-
-#: apps/kappfinder/apps/Office/acroread.desktop:2
-msgctxt "Name"
-msgid "Acrobat Reader"
-msgstr "Acrobat Reader"
-
-#: apps/kappfinder/apps/Office/acroread.desktop:34
-#: apps/kappfinder/apps/Office/xpdf.desktop:20
-msgctxt "GenericName"
-msgid "PDF Viewer"
-msgstr "Hartač dla PDF"
-
-#: apps/kappfinder/apps/Office/gnucash.desktop:2
-msgctxt "Name"
-msgid "GnuCash"
-msgstr "GnuCash"
-
-#: apps/kappfinder/apps/Office/gnucash.desktop:22
-msgctxt "GenericName"
-msgid "Finance Manager"
-msgstr "Kiraŭnik dla hrošaj"
 
 #: apps/kappfinder/apps/Office/lyx.desktop:2
 msgctxt "Name"
@@ -1777,10 +1752,60 @@ msgctxt "GenericName"
 msgid "Desktop Publishing"
 msgstr "Publikacyja"
 
+#: apps/kappfinder/apps/Office/WordPerfect2000.desktop:2
+msgctxt "Name"
+msgid "WordPerfect 2000"
+msgstr "WordPerfect 2000"
+
+#: apps/kappfinder/apps/Office/WordPerfect.desktop:2
+msgctxt "Name"
+msgid "WordPerfect"
+msgstr "WordPerfect"
+
+#: apps/kappfinder/apps/Office/XAcc.desktop:2
+msgctxt "Name"
+msgid "xacc"
+msgstr "xacc"
+
+#: apps/kappfinder/apps/Office/XAcc.desktop:20
+msgctxt "GenericName"
+msgid "Personal Accounting Tool"
+msgstr "Pryłada dla ŭliku ŭłasnych hrošaj"
+
 #: apps/kappfinder/apps/Office/xpdf.desktop:2
 msgctxt "Name"
 msgid "X PDF"
 msgstr "X PDF"
+
+#: apps/kappfinder/apps/Office/XsLite.desktop:2
+msgctxt "Name"
+msgid "XsLite"
+msgstr "XsLite"
+
+#: apps/kappfinder/apps/System/citrix_ica.desktop:2
+msgctxt "Name"
+msgid "Citrix ICA Client"
+msgstr "Klijent ICA dla „Citrix”"
+
+#: apps/kappfinder/apps/System/citrix_ica.desktop:77
+msgctxt "GenericName"
+msgid "WTS Client"
+msgstr "Klijent WTS"
+
+#: apps/kappfinder/apps/System/editres.desktop:2
+msgctxt "Name"
+msgid "EditXRes"
+msgstr "EditXRes"
+
+#: apps/kappfinder/apps/System/editres.desktop:19
+msgctxt "GenericName"
+msgid "X Resource Editor"
+msgstr "Redaktar resursaŭ dla systemy X"
+
+#: apps/kappfinder/apps/System/sam.desktop:2
+msgctxt "Name"
+msgid "SAM System-Administration"
+msgstr "SAM System-Administration"
 
 #: apps/kappfinder/apps/System/Terminal/aterm.desktop:5
 msgctxt "Name"
@@ -1823,31 +1848,6 @@ msgctxt "GenericName"
 msgid "Virtual Memory Statistics"
 msgstr "Statystyčnyja źviestki pra virtualnuju pamiać"
 
-#: apps/kappfinder/apps/System/citrix_ica.desktop:2
-msgctxt "Name"
-msgid "Citrix ICA Client"
-msgstr "Klijent ICA dla „Citrix”"
-
-#: apps/kappfinder/apps/System/citrix_ica.desktop:77
-msgctxt "GenericName"
-msgid "WTS Client"
-msgstr "Klijent WTS"
-
-#: apps/kappfinder/apps/System/editres.desktop:2
-msgctxt "Name"
-msgid "EditXRes"
-msgstr "EditXRes"
-
-#: apps/kappfinder/apps/System/editres.desktop:19
-msgctxt "GenericName"
-msgid "X Resource Editor"
-msgstr "Redaktar resursaŭ dla systemy X"
-
-#: apps/kappfinder/apps/System/sam.desktop:2
-msgctxt "Name"
-msgid "SAM System-Administration"
-msgstr "SAM System-Administration"
-
 #: apps/kappfinder/apps/System/wine.desktop:3
 msgctxt "Name"
 msgid "Wine"
@@ -1883,36 +1883,6 @@ msgctxt "GenericName"
 msgid "Linux Mascot"
 msgstr "Bialeh systemy „Linux”"
 
-#: apps/kappfinder/apps/Utilities/GKrellM.desktop:4
-msgctxt "Name"
-msgid "GKrellM"
-msgstr "GKrellM"
-
-#: apps/kappfinder/apps/Utilities/GKrellM.desktop:12
-msgctxt "GenericName"
-msgid "GNU Krell Monitors"
-msgstr "Prahrama dla vyjaŭleńnia systemnych manitoraŭ „GNU Krell”"
-
-#: apps/kappfinder/apps/Utilities/GnomeWho.desktop:2
-msgctxt "Name"
-msgid "GNOME Who"
-msgstr "GNOME Who"
-
-#: apps/kappfinder/apps/Utilities/GnomeWho.desktop:30
-msgctxt "GenericName"
-msgid "System Info Tool"
-msgstr "Pryłada, jakaja źbiraje źviestki pra systemu"
-
-#: apps/kappfinder/apps/Utilities/SystemInfo.desktop:2
-msgctxt "Name"
-msgid "System Info"
-msgstr "Źviestki pra systemu"
-
-#: apps/kappfinder/apps/Utilities/SystemLogViewer.desktop:2
-msgctxt "Name"
-msgid "System Log Viewer"
-msgstr "Hartač systemnych logaŭ"
-
 #: apps/kappfinder/apps/Utilities/calctool.desktop:2
 msgctxt "Name"
 msgid "Calctool"
@@ -1934,6 +1904,26 @@ msgctxt "GenericName"
 msgid "Personal Notes"
 msgstr "Ułasnyja zaciemy"
 
+#: apps/kappfinder/apps/Utilities/GKrellM.desktop:4
+msgctxt "Name"
+msgid "GKrellM"
+msgstr "GKrellM"
+
+#: apps/kappfinder/apps/Utilities/GKrellM.desktop:12
+msgctxt "GenericName"
+msgid "GNU Krell Monitors"
+msgstr "Prahrama dla vyjaŭleńnia systemnych manitoraŭ „GNU Krell”"
+
+#: apps/kappfinder/apps/Utilities/GnomeWho.desktop:2
+msgctxt "Name"
+msgid "GNOME Who"
+msgstr "GNOME Who"
+
+#: apps/kappfinder/apps/Utilities/GnomeWho.desktop:30
+msgctxt "GenericName"
+msgid "System Info Tool"
+msgstr "Pryłada, jakaja źbiraje źviestki pra systemu"
+
 #: apps/kappfinder/apps/Utilities/oclock.desktop:2
 msgctxt "Name"
 msgid "OClock"
@@ -1945,6 +1935,16 @@ msgctxt "GenericName"
 msgid "Clock"
 msgstr "Hadzińnik"
 
+#: apps/kappfinder/apps/Utilities/SystemInfo.desktop:2
+msgctxt "Name"
+msgid "System Info"
+msgstr "Źviestki pra systemu"
+
+#: apps/kappfinder/apps/Utilities/SystemLogViewer.desktop:2
+msgctxt "Name"
+msgid "System Log Viewer"
+msgstr "Hartač systemnych logaŭ"
+
 #: apps/kappfinder/apps/Utilities/xgnokii.desktop:2
 msgctxt "Name"
 msgid "X-Gnokii"
@@ -1954,36 +1954,6 @@ msgstr "X-Gnokii"
 msgctxt "GenericName"
 msgid "Mobile Phone Management Tool"
 msgstr "Pryłada dla kiravańnia mabilnym telefonam"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xkill.desktop:2
-msgctxt "Name"
-msgid "X Kill"
-msgstr "X Kill"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xkill.desktop:24
-msgctxt "GenericName"
-msgid "Window Termination Tool"
-msgstr "Pryłada dla źniščeńnia voknaŭ"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xrefresh.desktop:2
-msgctxt "Name"
-msgid "X Refresh"
-msgstr "X Refresh"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xrefresh.desktop:30
-msgctxt "GenericName"
-msgid "Refresh Screen"
-msgstr "Prahrama dla aktualizacyi ekrana"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xtraceroute.desktop:2
-msgctxt "Name"
-msgid "X Traceroute"
-msgstr "X Traceroute"
-
-#: apps/kappfinder/apps/Utilities/xutils/Xtraceroute.desktop:23
-msgctxt "GenericName"
-msgid "Network Tool"
-msgstr "Sietkavaja pryłada"
 
 #: apps/kappfinder/apps/Utilities/xutils/xcalc.desktop:2
 msgctxt "Name"
@@ -2015,6 +1985,16 @@ msgctxt "GenericName"
 msgid "Console Message Viewer"
 msgstr "Prahladnik kansolnych paviedamleńniaŭ"
 
+#: apps/kappfinder/apps/Utilities/xutils/Xkill.desktop:2
+msgctxt "Name"
+msgid "X Kill"
+msgstr "X Kill"
+
+#: apps/kappfinder/apps/Utilities/xutils/Xkill.desktop:24
+msgctxt "GenericName"
+msgid "Window Termination Tool"
+msgstr "Pryłada dla źniščeńnia voknaŭ"
+
 #: apps/kappfinder/apps/Utilities/xutils/xload.desktop:9
 msgctxt "Name"
 msgid "X Load"
@@ -2035,10 +2015,30 @@ msgctxt "GenericName"
 msgid "Desktop Magnifier"
 msgstr "Lupa dla rabočaha stała"
 
+#: apps/kappfinder/apps/Utilities/xutils/Xrefresh.desktop:2
+msgctxt "Name"
+msgid "X Refresh"
+msgstr "X Refresh"
+
+#: apps/kappfinder/apps/Utilities/xutils/Xrefresh.desktop:30
+msgctxt "GenericName"
+msgid "Refresh Screen"
+msgstr "Prahrama dla aktualizacyi ekrana"
+
 #: apps/kappfinder/apps/Utilities/xutils/xterm.desktop:85
 msgctxt "Name"
 msgid "X Terminal"
 msgstr "Terminał X"
+
+#: apps/kappfinder/apps/Utilities/xutils/Xtraceroute.desktop:2
+msgctxt "Name"
+msgid "X Traceroute"
+msgstr "X Traceroute"
+
+#: apps/kappfinder/apps/Utilities/xutils/Xtraceroute.desktop:23
+msgctxt "GenericName"
+msgid "Network Tool"
+msgstr "Sietkavaja pryłada"
 
 #: apps/kappfinder/kappfinder.desktop:9
 msgctxt "Name"
@@ -2260,6 +2260,11 @@ msgctxt "Comment"
 msgid "Attached IEEE 1394 devices"
 msgstr "Padłučanyja pryłady IEEE 1394"
 
+#: apps/konqueror/about/konq_aboutpage.desktop:3
+msgctxt "Name"
+msgid "About-Page for Konqueror"
+msgstr "Infarmacyjnaja staronka hartača „Konqueror”"
+
 #: apps/konqueror/Home.desktop:7 runtime/kioslave/desktop/Home.desktop:3
 #: workspace/khotkeys/data/konqueror_gestures_kde321.khotkeys:2145
 msgctxt "Name"
@@ -2270,11 +2275,6 @@ msgstr "Dom"
 msgctxt "GenericName"
 msgid "Personal Files"
 msgstr "Ułasnyja fajły"
-
-#: apps/konqueror/about/konq_aboutpage.desktop:3
-msgctxt "Name"
-msgid "About-Page for Konqueror"
-msgstr "Infarmacyjnaja staronka hartača „Konqueror”"
 
 #: apps/konqueror/kfmclient.desktop:9 apps/konqueror/kfmclient_dir.desktop:9
 #: apps/konqueror/kfmclient_html.desktop:9
@@ -2351,10 +2351,10 @@ msgid "Web Browsing"
 msgstr "Hartańnie sieciva"
 
 #: apps/konqueror/quickprint/text-ada-print.desktop:7
-#: apps/konqueror/quickprint/text-c++-print.desktop:7
 #: apps/konqueror/quickprint/text-c++h-print.desktop:7
-#: apps/konqueror/quickprint/text-c-print.desktop:7
 #: apps/konqueror/quickprint/text-ch-print.desktop:7
+#: apps/konqueror/quickprint/text-c-print.desktop:7
+#: apps/konqueror/quickprint/text-c++-print.desktop:7
 #: apps/konqueror/quickprint/text-css-print.desktop:7
 #: apps/konqueror/quickprint/text-diff-print.desktop:7
 #: apps/konqueror/quickprint/text-html-print.desktop:7
@@ -2530,15 +2530,15 @@ msgctxt "Name"
 msgid "UADescription (Lynx 2.8.3)"
 msgstr "UADescription (Lynx 2.8.3)"
 
-#: apps/konqueror/settings/kio/uasproviders/mozoncurrent.desktop:2
-msgctxt "Name"
-msgid "UADescription (Mozilla 1.7 on current)"
-msgstr "UADescription (Mozilla 1.7 na hetaj systemie)"
-
 #: apps/konqueror/settings/kio/uasproviders/mozoncurrent12.desktop:2
 msgctxt "Name"
 msgid "UADescription (Mozilla 1.2.1 on current)"
 msgstr "UADescription (Mozilla 1.2.1 na hetaj systemie)"
+
+#: apps/konqueror/settings/kio/uasproviders/mozoncurrent.desktop:2
+msgctxt "Name"
+msgid "UADescription (Mozilla 1.7 on current)"
+msgstr "UADescription (Mozilla 1.7 na hetaj systemie)"
 
 #: apps/konqueror/settings/kio/uasproviders/mozonwinxp.desktop:2
 msgctxt "Name"
@@ -2626,8 +2626,8 @@ msgid "Change the location important files are stored"
 msgstr "Źmiani miescy, dzie zachoŭvajucca važnyja fajły"
 
 #: apps/konqueror/settings/konq/fileappearance.desktop:11
-#: apps/konqueror/settings/konq/webappearance.desktop:12
 #: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:13
+#: apps/konqueror/settings/konq/webappearance.desktop:12
 #: workspace/systemsettings/categories/settings-appearance.desktop:8
 msgctxt "Name"
 msgid "Appearance"
@@ -2814,15 +2814,15 @@ msgctxt "Name"
 msgid "KDE Official FTP"
 msgstr "Aficyjny FTP-server KDE"
 
-#: apps/konqueror/sidebar/trees/init/remote/web/.directory:2
-msgctxt "Name"
-msgid "Web Sites"
-msgstr "Sajty"
-
 #: apps/konqueror/sidebar/trees/init/remote/web/apps_web.desktop:4
 msgctxt "Name"
 msgid "KDE Applications"
 msgstr "Aplikacyi KDE"
+
+#: apps/konqueror/sidebar/trees/init/remote/web/.directory:2
+msgctxt "Name"
+msgid "Web Sites"
+msgstr "Sajty"
 
 #: apps/konqueror/sidebar/trees/init/remote/web/dot_web.desktop:4
 msgctxt "Name"
@@ -2849,17 +2849,17 @@ msgctxt "Comment"
 msgid "This is the root of the filesystem"
 msgstr "Korań fajłavaj systemy."
 
-#: apps/konqueror/sidebar/trees/init/services.desktop:4
-#: apps/konqueror/sidebar/trees/init/services/.directory:3
-msgctxt "Name"
-msgid "Services"
-msgstr "Słužby"
-
 #: apps/konqueror/sidebar/trees/init/services/applications.desktop:5
 #: workspace/plasma/runners/services/plasma-runner-services.desktop:2
 msgctxt "Name"
 msgid "Applications"
 msgstr "Aplikacyi"
+
+#: apps/konqueror/sidebar/trees/init/services.desktop:4
+#: apps/konqueror/sidebar/trees/init/services/.directory:3
+msgctxt "Name"
+msgid "Services"
+msgstr "Słužby"
 
 #: apps/konqueror/sidebar/trees/init/services/printsystem.desktop:5
 msgctxt "Name"
@@ -2897,6 +2897,11 @@ msgstr "Konsole"
 msgctxt "GenericName"
 msgid "Terminal"
 msgstr "Terminał"
+
+#: apps/konsole/desktop/konsolehere.desktop:8
+msgctxt "Name"
+msgid "Open Terminal Here"
+msgstr "Adčyni terminał"
 
 #: apps/konsole/desktop/konsole.notifyrc:3
 msgctxt "Comment"
@@ -2953,11 +2958,6 @@ msgctxt "Comment"
 msgid "A session has exited with non-zero status"
 msgstr "Sesija skončyłasia ź nienulovym kodam stanu."
 
-#: apps/konsole/desktop/konsolehere.desktop:8
-msgctxt "Name"
-msgid "Open Terminal Here"
-msgstr "Adčyni terminał"
-
 #: apps/konsole/desktop/konsolepart.desktop:13
 #: apps/konsole/desktop/terminalemulator.desktop:5
 #: runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop:1
@@ -2974,6 +2974,27 @@ msgstr "Terminał dla chutkaha dostupu"
 msgctxt "Name"
 msgid "KWrite"
 msgstr "KWrite"
+
+#: apps/lib/konq/directory_bookmarkbar.desktop:3
+msgctxt "Name"
+msgid "Bookmark Toolbar"
+msgstr "Panel zakładak"
+
+#: apps/lib/konq/favicons/favicons.desktop:3
+msgctxt "Name"
+msgid "KDED Favicon Module"
+msgstr "Modul ikonaŭ sajtaŭ dla „KDE”"
+
+#: apps/lib/konq/favicons/favicons.desktop:81
+#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:63
+msgctxt "Comment"
+msgid "Shortcut icon support"
+msgstr "Absłuhoŭvańnie ikonaŭ sajtaŭ"
+
+#: apps/lib/konq/konqpopupmenuplugin.desktop:4
+msgctxt "Comment"
+msgid "Plugin for the Konqueror Popup Menu"
+msgstr "Plugin dla vypłyŭnoha menu prahramy „Konqueror”"
 
 #: apps/lib/konq/Templates/CDROM-Device.desktop:11
 #: apps/lib/konq/Templates/CDWRITER-Device.desktop:11
@@ -3007,16 +3028,6 @@ msgstr "Fajł HTML..."
 msgctxt "Comment"
 msgid "Enter HTML filename:"
 msgstr "Upišy nazvu fajła HTML:"
-
-#: apps/lib/konq/Templates/TextFile.desktop:2
-msgctxt "Name"
-msgid "Text File..."
-msgstr "Tekstavy fajł..."
-
-#: apps/lib/konq/Templates/TextFile.desktop:83
-msgctxt "Comment"
-msgid "Enter text filename:"
-msgstr "Upišy nazvu tekstavaha fajła:"
 
 #: apps/lib/konq/Templates/linkCAMERA.desktop:2
 msgctxt "Name"
@@ -3128,26 +3139,15 @@ msgctxt "Comment"
 msgid "New ZIP Device"
 msgstr "Novaja pryłada ZIP"
 
-#: apps/lib/konq/directory_bookmarkbar.desktop:3
+#: apps/lib/konq/Templates/TextFile.desktop:2
 msgctxt "Name"
-msgid "Bookmark Toolbar"
-msgstr "Panel zakładak"
+msgid "Text File..."
+msgstr "Tekstavy fajł..."
 
-#: apps/lib/konq/favicons/favicons.desktop:3
-msgctxt "Name"
-msgid "KDED Favicon Module"
-msgstr "Modul ikonaŭ sajtaŭ dla „KDE”"
-
-#: apps/lib/konq/favicons/favicons.desktop:81
-#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:63
+#: apps/lib/konq/Templates/TextFile.desktop:83
 msgctxt "Comment"
-msgid "Shortcut icon support"
-msgstr "Absłuhoŭvańnie ikonaŭ sajtaŭ"
-
-#: apps/lib/konq/konqpopupmenuplugin.desktop:4
-msgctxt "Comment"
-msgid "Plugin for the Konqueror Popup Menu"
-msgstr "Plugin dla vypłyŭnoha menu prahramy „Konqueror”"
+msgid "Enter text filename:"
+msgstr "Upišy nazvu tekstavaha fajła:"
 
 #: apps/nsplugins/khtml_plugins.desktop:14
 msgctxt "Name"
@@ -3346,16 +3346,6 @@ msgctxt "Comment"
 msgid "Sorry, I do not know this signal."
 msgstr "Hety syhnał nieviadomy dla prahramy."
 
-#: runtime/kcontrol/componentchooser/EXAMPLE.desktop:1
-msgctxt "Name"
-msgid "A nice name you have chosen for your interface"
-msgstr "Nazva, vybranaja dla tvajho interfejsu"
-
-#: runtime/kcontrol/componentchooser/EXAMPLE.desktop:80
-msgctxt "Comment"
-msgid "A helpful description of the interface for the top right info box"
-msgstr "Apisańnie dla vierchniaha pravaha pola źviestak"
-
 #: runtime/kcontrol/componentchooser/componentchooser.desktop:12
 msgctxt "Name"
 msgid "Default Applications"
@@ -3431,6 +3421,16 @@ msgstr "Akońnik"
 msgctxt "Comment"
 msgid "Here you can select the window manager to be run in your KDE session."
 msgstr "Tut možna vybrać akońnika, jaki ŭklučajecca pry ŭvachodzie ŭ KDE."
+
+#: runtime/kcontrol/componentchooser/EXAMPLE.desktop:1
+msgctxt "Name"
+msgid "A nice name you have chosen for your interface"
+msgstr "Nazva, vybranaja dla tvajho interfejsu"
+
+#: runtime/kcontrol/componentchooser/EXAMPLE.desktop:80
+msgctxt "Comment"
+msgid "A helpful description of the interface for the top right info box"
+msgstr "Apisańnie dla vierchniaha pravaha pola źviestak"
 
 #: runtime/kcontrol/componentchooser/windowmanagers/compiz-custom.desktop:2
 msgctxt "Name"
@@ -3574,6 +3574,41 @@ msgctxt "Name"
 msgid "Application Manuals"
 msgstr "Padručniki pa aplikacyjach"
 
+#: runtime/khelpcenter/plugins/contact.desktop:3
+msgctxt "Name"
+msgid "Contact Information"
+msgstr "Kantaktnyja źviestki"
+
+#: runtime/khelpcenter/plugins/faq.desktop:3
+msgctxt "Name"
+msgid "The KDE FAQ"
+msgstr "FAQ pra KDE"
+
+#: runtime/khelpcenter/plugins/info.desktop:2
+msgctxt "Name"
+msgid "Browse Info Pages"
+msgstr "Hartańnie infarmacyjnych staronak („info”)"
+
+#: runtime/khelpcenter/plugins/kcontrolmodules.desktop:2
+msgctxt "Name"
+msgid "Control Center Modules"
+msgstr "Moduli centra kiravańnia"
+
+#: runtime/khelpcenter/plugins/kicmodules.desktop:2
+msgctxt "Name"
+msgid "KInfoCenter Modules"
+msgstr "Moduli KInfoCenter"
+
+#: runtime/khelpcenter/plugins/kioslaves.desktop:2
+msgctxt "Name"
+msgid "Kioslaves"
+msgstr "Słužby „kioslave”"
+
+#: runtime/khelpcenter/plugins/links.desktop:3
+msgctxt "Name"
+msgid "KDE on the Web"
+msgstr "KDE ŭ siecivie"
+
 #: runtime/khelpcenter/plugins/Manpages/.directory:2
 msgctxt "Name"
 msgid "UNIX manual pages"
@@ -3629,10 +3664,20 @@ msgctxt "Name"
 msgid "(n) New"
 msgstr "(n) Novaje"
 
+#: runtime/khelpcenter/plugins/plasma.desktop:4
+msgctxt "Name"
+msgid "Plasma Manual"
+msgstr "Padručnik pa systemie „Plasma”"
+
 #: runtime/khelpcenter/plugins/Scrollkeeper/.directory:2
 msgctxt "Name"
 msgid "Scrollkeeper"
 msgstr "Scrollkeeper"
+
+#: runtime/khelpcenter/plugins/support.desktop:3
+msgctxt "Name"
+msgid "Supporting KDE"
+msgstr "Padtrymaj KDE"
 
 #: runtime/khelpcenter/plugins/Tutorials/.directory:3
 msgctxt "Name"
@@ -3663,51 +3708,6 @@ msgstr "Ilustravany padručnik dla „KDE”"
 msgctxt "Comment"
 msgid "Guide to KDE widgets"
 msgstr "Padručnik pra widžety „KDE”"
-
-#: runtime/khelpcenter/plugins/contact.desktop:3
-msgctxt "Name"
-msgid "Contact Information"
-msgstr "Kantaktnyja źviestki"
-
-#: runtime/khelpcenter/plugins/faq.desktop:3
-msgctxt "Name"
-msgid "The KDE FAQ"
-msgstr "FAQ pra KDE"
-
-#: runtime/khelpcenter/plugins/info.desktop:2
-msgctxt "Name"
-msgid "Browse Info Pages"
-msgstr "Hartańnie infarmacyjnych staronak („info”)"
-
-#: runtime/khelpcenter/plugins/kcontrolmodules.desktop:2
-msgctxt "Name"
-msgid "Control Center Modules"
-msgstr "Moduli centra kiravańnia"
-
-#: runtime/khelpcenter/plugins/kicmodules.desktop:2
-msgctxt "Name"
-msgid "KInfoCenter Modules"
-msgstr "Moduli KInfoCenter"
-
-#: runtime/khelpcenter/plugins/kioslaves.desktop:2
-msgctxt "Name"
-msgid "Kioslaves"
-msgstr "Słužby „kioslave”"
-
-#: runtime/khelpcenter/plugins/links.desktop:3
-msgctxt "Name"
-msgid "KDE on the Web"
-msgstr "KDE ŭ siecivie"
-
-#: runtime/khelpcenter/plugins/plasma.desktop:4
-msgctxt "Name"
-msgid "Plasma Manual"
-msgstr "Padručnik pa systemie „Plasma”"
-
-#: runtime/khelpcenter/plugins/support.desktop:3
-msgctxt "Name"
-msgid "Supporting KDE"
-msgstr "Padtrymaj KDE"
 
 #: runtime/khelpcenter/plugins/userguide.desktop:3
 msgctxt "Name"
@@ -4146,16 +4146,6 @@ msgctxt "Comment"
 msgid "Built-in unthemed CDE style"
 msgstr "Styl asiarodździa „CDE”"
 
-#: runtime/kstyles/themes/qtmotif.themerc:2
-msgctxt "Name"
-msgid "Motif"
-msgstr "Motif"
-
-#: runtime/kstyles/themes/qtmotif.themerc:17
-msgctxt "Comment"
-msgid "Built-in unthemed Motif style"
-msgstr "Styl widžetaŭ „Motif”"
-
 #: runtime/kstyles/themes/qtmotifplus.themerc:2
 msgctxt "Name"
 msgid "Motif Plus"
@@ -4165,6 +4155,16 @@ msgstr "Motif Plus"
 msgctxt "Comment"
 msgid "Built-in enhanced Motif style"
 msgstr "Lepšaja admiena styla widžetaŭ „Motif”"
+
+#: runtime/kstyles/themes/qtmotif.themerc:2
+msgctxt "Name"
+msgid "Motif"
+msgstr "Motif"
+
+#: runtime/kstyles/themes/qtmotif.themerc:17
+msgctxt "Comment"
+msgid "Built-in unthemed Motif style"
+msgstr "Styl widžetaŭ „Motif”"
 
 #: runtime/kstyles/themes/qtplatinum.themerc:2
 msgctxt "Name"
@@ -4418,18 +4418,6 @@ msgstr ""
 "http://search.cpan.org/search?mode=\\\\{mode,2,\"dist\"}&query=\\\\{query,"
 "q,1}"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/ctan.desktop:3
-msgctxt "Name"
-msgid "CTAN - Comprehensive TeX Archive Network"
-msgstr "CTAN: zbor prahramaŭ u movie „TeX”"
-
-#: runtime/kurifilter-plugins/ikws/searchproviders/ctan.desktop:59
-msgctxt "Query"
-msgid ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
-msgstr ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
-
 #: runtime/kurifilter-plugins/ikws/searchproviders/ctan_cat.desktop:3
 msgctxt "Name"
 msgid "CTAN Catalog"
@@ -4443,6 +4431,18 @@ msgid ""
 msgstr ""
 "http://tug.ctan.org/cgi-bin/search.py?metadataSearch=\\\\{@}"
 "&metadataSearchSubmit=Search"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/ctan.desktop:3
+msgctxt "Name"
+msgid "CTAN - Comprehensive TeX Archive Network"
+msgstr "CTAN: zbor prahramaŭ u movie „TeX”"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/ctan.desktop:59
+msgctxt "Query"
+msgid ""
+"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
+msgstr ""
+"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/dbug.desktop:3
 msgctxt "Name"
@@ -4646,16 +4646,6 @@ msgctxt "Query"
 msgid "http://directory.fsf.org/search/?query=\\\\{@}"
 msgstr "http://directory.fsf.org/search/?query=\\\\{@}"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/google.desktop:3
-msgctxt "Name"
-msgid "Google"
-msgstr "Google"
-
-#: runtime/kurifilter-plugins/ikws/searchproviders/google.desktop:24
-msgctxt "Query"
-msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
-msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
-
 #: runtime/kurifilter-plugins/ikws/searchproviders/google_advanced.desktop:3
 msgctxt "Name"
 msgid "Google Advanced Search"
@@ -4677,6 +4667,16 @@ msgstr ""
 "\\{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}&as_dt="
 "\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,\"active\"}"
 "&ie=UTF-8&oe=UTF-8"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/google.desktop:3
+msgctxt "Name"
+msgid "Google"
+msgstr "Google"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/google.desktop:24
+msgctxt "Query"
+msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
+msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/google_groups.desktop:3
 msgctxt "Name"
@@ -5049,16 +5049,6 @@ msgstr ""
 "http://www.google.com/search?sourceid=python-search&q=\\\\{@}"
 "&submit=Search&q=site%3Apython.org"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/qt.desktop:5
-msgctxt "Name"
-msgid "Latest Qt Online Documentation"
-msgstr "Dakumentacyja dla „Qt”"
-
-#: runtime/kurifilter-plugins/ikws/searchproviders/qt.desktop:83
-msgctxt "Query"
-msgid "http://doc.trolltech.com/latest/\\\\{@}.html"
-msgstr "http://doc.trolltech.com/latest/\\\\{@}.html"
-
 #: runtime/kurifilter-plugins/ikws/searchproviders/qt3.desktop:5
 msgctxt "Name"
 msgid "Qt3 Online Documentation"
@@ -5068,6 +5058,16 @@ msgstr "Dakumentacyja dla „Qt3”"
 msgctxt "Query"
 msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
 msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/qt.desktop:5
+msgctxt "Name"
+msgid "Latest Qt Online Documentation"
+msgstr "Dakumentacyja dla „Qt”"
+
+#: runtime/kurifilter-plugins/ikws/searchproviders/qt.desktop:83
+msgctxt "Query"
+msgid "http://doc.trolltech.com/latest/\\\\{@}.html"
+msgstr "http://doc.trolltech.com/latest/\\\\{@}.html"
 
 #: runtime/kurifilter-plugins/ikws/searchproviders/rae.desktop:5
 msgctxt "Name"
@@ -5295,11 +5295,6 @@ msgctxt "Comment"
 msgid "Wallet Server"
 msgstr ""
 
-#: runtime/l10n/C/entry.desktop:2
-msgctxt "Name"
-msgid "Default"
-msgstr "Zmoŭčany"
-
 #: runtime/l10n/ad/entry.desktop:2
 msgctxt "Name"
 msgid "Andorra"
@@ -5509,6 +5504,11 @@ msgstr "Centralnaja Azija"
 msgctxt "Name"
 msgid "Europe, Central"
 msgstr "Centralnaja Eŭropa"
+
+#: runtime/l10n/C/entry.desktop:2
+msgctxt "Name"
+msgid "Default"
+msgstr "Zmoŭčany"
 
 #: runtime/l10n/cf/entry.desktop:2
 msgctxt "Name"
@@ -6555,6 +6555,11 @@ msgctxt "Name"
 msgid "Internal Services"
 msgstr "Unutranyja słužby"
 
+#: runtime/menu/desktop/kde-development.directory:4
+msgctxt "Name"
+msgid "Development"
+msgstr "Raspracoŭvańnie"
+
 #: runtime/menu/desktop/kde-development-translation.directory:4
 #: runtime/menu/desktop/kde-development-translation.directory:92
 msgctxt "Name"
@@ -6567,15 +6572,15 @@ msgctxt "Name"
 msgid "Web Development"
 msgstr "Sieciŭnaje raspracoŭvańnie"
 
-#: runtime/menu/desktop/kde-development.directory:4
-msgctxt "Name"
-msgid "Development"
-msgstr "Raspracoŭvańnie"
-
 #: runtime/menu/desktop/kde-editors.directory:4
 msgctxt "Name"
 msgid "Editors"
 msgstr "Redaktary"
+
+#: runtime/menu/desktop/kde-education.directory:4
+msgctxt "Name"
+msgid "Education"
+msgstr "Adukacyja"
 
 #: runtime/menu/desktop/kde-edu-languages.directory:5
 msgctxt "Name"
@@ -6602,11 +6607,6 @@ msgctxt "Name"
 msgid "Teaching Tools"
 msgstr "Navučalnyja prahramy"
 
-#: runtime/menu/desktop/kde-education.directory:4
-msgctxt "Name"
-msgid "Education"
-msgstr "Adukacyja"
-
 #: runtime/menu/desktop/kde-games-arcade.directory:4
 msgctxt "Name"
 msgid "Arcade"
@@ -6621,6 +6621,11 @@ msgstr "Nastolnyja hulni"
 msgctxt "Name"
 msgid "Card Games"
 msgstr "Hulni ŭ karty"
+
+#: runtime/menu/desktop/kde-games.directory:4
+msgctxt "Name"
+msgid "Games"
+msgstr "Hulni"
 
 #: runtime/menu/desktop/kde-games-kids.directory:4
 msgctxt "Name"
@@ -6642,26 +6647,21 @@ msgctxt "Name"
 msgid "Tactics & Strategy"
 msgstr "Taktyka j stratehija"
 
-#: runtime/menu/desktop/kde-games.directory:4
-msgctxt "Name"
-msgid "Games"
-msgstr "Hulni"
-
 #: runtime/menu/desktop/kde-graphics.directory:4
 msgctxt "Name"
 msgid "Graphics"
 msgstr "Hrafika"
+
+#: runtime/menu/desktop/kde-internet.directory:4
+msgctxt "Name"
+msgid "Internet"
+msgstr "Internet"
 
 #: runtime/menu/desktop/kde-internet-terminal.directory:4
 #: runtime/menu/desktop/kde-system-terminal.directory:4
 msgctxt "Name"
 msgid "Terminal Applications"
 msgstr "Terminalnyja aplikacyi"
-
-#: runtime/menu/desktop/kde-internet.directory:4
-msgctxt "Name"
-msgid "Internet"
-msgstr "Internet"
 
 #: runtime/menu/desktop/kde-main.directory:5
 msgctxt "Name"
@@ -6729,6 +6729,16 @@ msgctxt "Comment"
 msgid "Desktop"
 msgstr "Rabočy stoł"
 
+#: runtime/menu/desktop/kde-utilities.directory:4
+msgctxt "Name"
+msgid "Utilities"
+msgstr "Pryładździe"
+
+#: runtime/menu/desktop/kde-utilities.directory:88
+msgctxt "Comment"
+msgid "Utilities"
+msgstr "Pryładździe"
+
 #: runtime/menu/desktop/kde-utilities-file.directory:4
 msgctxt "Name"
 msgid "File"
@@ -6768,16 +6778,6 @@ msgstr "Pryładździe systemy X"
 msgctxt "Comment"
 msgid "X Window Utilities"
 msgstr "Pryładździe systemy „X Window”"
-
-#: runtime/menu/desktop/kde-utilities.directory:4
-msgctxt "Name"
-msgid "Utilities"
-msgstr "Pryładździe"
-
-#: runtime/menu/desktop/kde-utilities.directory:88
-msgctxt "Comment"
-msgid "Utilities"
-msgstr "Pryładździe"
 
 #: runtime/nepomuk/kcm/kcm_nepomuk.desktop:11
 msgctxt "Name"
@@ -7010,6 +7010,11 @@ msgstr ""
 "Server, jaki pastanaŭlaje, što rabić ź źviestkami ad aplikacyjaŭ dla systemy "
 "„Phonon”"
 
+#: runtime/phonon/platform_kde/phononbackend.desktop:4
+msgctxt "Name"
+msgid "KDE Multimedia Backend"
+msgstr "Multymedyjnaja systema dla „KDE”"
+
 #: runtime/phonon/platform_kde/phonon.notifyrc:3
 msgctxt "Comment"
 msgid "Phonon: KDE's Multimedia Library"
@@ -7032,11 +7037,6 @@ msgid ""
 msgstr ""
 "Paviedamleńnie pra aŭtamatyčnaje vykarystańnie zapasnoj pryłady, kali niama "
 "hałoŭnaj."
-
-#: runtime/phonon/platform_kde/phononbackend.desktop:4
-msgctxt "Name"
-msgid "KDE Multimedia Backend"
-msgstr "Multymedyjnaja systema dla „KDE”"
 
 #: runtime/pics/hicolor/index.theme:2
 msgctxt "Name"
@@ -7584,6 +7584,16 @@ msgctxt "Comment"
 msgid "An emulation of the Plan 9 window manager 8-1/2"
 msgstr "Emulacyja akońnika „8-1/2” dla systemy „Plan 9”"
 
+#: workspace/kdm/kfrontend/sessions/aewm.desktop:5
+msgctxt "Name"
+msgid "AEWM"
+msgstr "AEWM"
+
+#: workspace/kdm/kfrontend/sessions/aewm.desktop:13
+msgctxt "Comment"
+msgid "A minimalist window manager"
+msgstr "Nievialiki akońnik"
+
 #: workspace/kdm/kfrontend/sessions/aewm++.desktop:5
 msgctxt "Name"
 msgid "AEWM++"
@@ -7597,16 +7607,6 @@ msgid ""
 msgstr ""
 "Nievialiki akońnik, jaki abapirajecca na bazu „AEWM”, ź lepšymi virtualnymi "
 "rabočymi stałami j niapoŭnaj uzhodnienaściu z systemaj GNOME"
-
-#: workspace/kdm/kfrontend/sessions/aewm.desktop:5
-msgctxt "Name"
-msgid "AEWM"
-msgstr "AEWM"
-
-#: workspace/kdm/kfrontend/sessions/aewm.desktop:13
-msgctxt "Comment"
-msgid "A minimalist window manager"
-msgstr "Nievialiki akońnik"
 
 #: workspace/kdm/kfrontend/sessions/afterstep.desktop:5
 msgctxt "Name"
@@ -7737,16 +7737,6 @@ msgctxt "Comment"
 msgid "The Fast Light Window Manager, based primarily on WM2"
 msgstr "„Fast Light Window Manager”, jaki abapirajecca na bazu „WM2”"
 
-#: workspace/kdm/kfrontend/sessions/fvwm.desktop:5
-msgctxt "Name"
-msgid "FVWM"
-msgstr "FVWM"
-
-#: workspace/kdm/kfrontend/sessions/fvwm.desktop:13
-msgctxt "Comment"
-msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
-msgstr "Mahutny akońnik, uzhodnieny z „ICCCM”, ź virtualnymi rabočymi stałami"
-
 #: workspace/kdm/kfrontend/sessions/fvwm95.desktop:5
 msgctxt "Name"
 msgid "FVWM95"
@@ -7757,6 +7747,16 @@ msgctxt "Comment"
 msgid "A Windows 95 look-alike derivative of FVWM"
 msgstr ""
 "Adhalinavańnie ad akońnika „FVWM”, jaki vyhladaje, jak systema „Windows 95”"
+
+#: workspace/kdm/kfrontend/sessions/fvwm.desktop:5
+msgctxt "Name"
+msgid "FVWM"
+msgstr "FVWM"
+
+#: workspace/kdm/kfrontend/sessions/fvwm.desktop:13
+msgctxt "Comment"
+msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
+msgstr "Mahutny akońnik, uzhodnieny z „ICCCM”, ź virtualnymi rabočymi stałami"
 
 #: workspace/kdm/kfrontend/sessions/gnome.desktop:5
 msgctxt "Name"
@@ -8039,20 +8039,6 @@ msgctxt "Comment"
 msgid "A simple window manager that resembles the NeXTStep look very closely"
 msgstr "Prosty akońnik, jaki imkniecca vyhladać, jak systema „NeXTStep”"
 
-#: workspace/kdm/kfrontend/sessions/xfce.desktop:5
-msgctxt "Name"
-msgid "XFce"
-msgstr "XFce"
-
-#: workspace/kdm/kfrontend/sessions/xfce.desktop:13
-msgctxt "Comment"
-msgid ""
-"The Cholesterol Free Desktop Environment. A desktop environment reminiscent "
-"of CDE"
-msgstr ""
-"„Cholesterol Free Desktop Environment”: rabočy stoł, jaki nahadvaje "
-"asiarodździe „CDE”"
-
 #: workspace/kdm/kfrontend/sessions/xfce4.desktop:5
 msgctxt "Name"
 msgid "XFce 4"
@@ -8065,6 +8051,20 @@ msgid ""
 "reminiscent of CDE"
 msgstr ""
 "„Cholesterol Free Desktop Environment 4”: rabočy stoł, jaki nahadvaje "
+"asiarodździe „CDE”"
+
+#: workspace/kdm/kfrontend/sessions/xfce.desktop:5
+msgctxt "Name"
+msgid "XFce"
+msgstr "XFce"
+
+#: workspace/kdm/kfrontend/sessions/xfce.desktop:13
+msgctxt "Comment"
+msgid ""
+"The Cholesterol Free Desktop Environment. A desktop environment reminiscent "
+"of CDE"
+msgstr ""
+"„Cholesterol Free Desktop Environment”: rabočy stoł, jaki nahadvaje "
 "asiarodździe „CDE”"
 
 #: workspace/kdm/kfrontend/themes/circles/KdmGreeterTheme.desktop:6
@@ -8807,8 +8807,8 @@ msgctxt "Comment"
 msgid "Blurs the background behind semi-transparent windows"
 msgstr ""
 
-#: workspace/kwin/effects/boxswitch.desktop:2
 #: workspace/kwin/effects/boxswitch_config.desktop:9
+#: workspace/kwin/effects/boxswitch.desktop:2
 msgctxt "Name"
 msgid "Box Switch"
 msgstr ""
@@ -8819,8 +8819,8 @@ msgid "Display thumbnails of windows in the alt+tab window switcher"
 msgstr ""
 "Pakazvaj padhlady akon u pieraklučniku, jaki vyklikajecca skarotam „Alt+Tab”"
 
-#: workspace/kwin/effects/coverswitch.desktop:2
 #: workspace/kwin/effects/coverswitch_config.desktop:9
+#: workspace/kwin/effects/coverswitch.desktop:2
 msgctxt "Name"
 msgid "Cover Switch"
 msgstr ""
@@ -8830,8 +8830,8 @@ msgctxt "Comment"
 msgid "Display a Cover Flow effect for the alt+tab window switcher"
 msgstr ""
 
-#: workspace/kwin/effects/cube.desktop:2
 #: workspace/kwin/effects/cube_config.desktop:9
+#: workspace/kwin/effects/cube.desktop:2
 msgctxt "Name"
 msgid "Desktop Cube"
 msgstr "Rabočy kub"
@@ -8841,8 +8841,8 @@ msgctxt "Comment"
 msgid "Display each virtual desktop on a side of a cube"
 msgstr "Pakazvaje virtualnyja rabočyja stały na bakoch kuba"
 
-#: workspace/kwin/effects/cylinder.desktop:2
 #: workspace/kwin/effects/cylinder_config.desktop:9
+#: workspace/kwin/effects/cylinder.desktop:2
 msgctxt "Name"
 msgid "Desktop Cylinder"
 msgstr "Rabočy cylinder"
@@ -8852,8 +8852,8 @@ msgctxt "Comment"
 msgid "Display each virtual desktop on the side of a cylinder"
 msgstr "Pakazvaje virtualnyja rabočyja stały na baku cylindra"
 
-#: workspace/kwin/effects/desktopgrid.desktop:2
 #: workspace/kwin/effects/desktopgrid_config.desktop:9
+#: workspace/kwin/effects/desktopgrid.desktop:2
 msgctxt "Name"
 msgid "Desktop Grid"
 msgstr "Rabočaja sietka"
@@ -8873,8 +8873,8 @@ msgctxt "Comment"
 msgid "Darkens the parent window of the currently active dialog"
 msgstr ""
 
-#: workspace/kwin/effects/diminactive.desktop:2
 #: workspace/kwin/effects/diminactive_config.desktop:9
+#: workspace/kwin/effects/diminactive.desktop:2
 msgctxt "Name"
 msgid "Dim Inactive"
 msgstr ""
@@ -8924,8 +8924,8 @@ msgctxt "Comment"
 msgid "Closed windows fall into pieces"
 msgstr ""
 
-#: workspace/kwin/effects/flipswitch.desktop:2
 #: workspace/kwin/effects/flipswitch_config.desktop:9
+#: workspace/kwin/effects/flipswitch.desktop:2
 msgctxt "Name"
 msgid "Flip Switch"
 msgstr ""
@@ -8936,8 +8936,8 @@ msgid ""
 "Flip through windows that are in a stack for the alt+tab window switcher"
 msgstr ""
 
-#: workspace/kwin/effects/invert.desktop:2
 #: workspace/kwin/effects/invert_config.desktop:9
+#: workspace/kwin/effects/invert.desktop:2
 msgctxt "Name"
 msgid "Invert"
 msgstr "Invercyja"
@@ -8962,8 +8962,8 @@ msgctxt "Comment"
 msgid "Desaturate the desktop when displaying the logout dialog"
 msgstr ""
 
-#: workspace/kwin/effects/lookingglass.desktop:2
 #: workspace/kwin/effects/lookingglass_config.desktop:9
+#: workspace/kwin/effects/lookingglass.desktop:2
 msgctxt "Name"
 msgid "Looking Glass"
 msgstr "Looking Glass"
@@ -8983,8 +8983,8 @@ msgctxt "Comment"
 msgid "Simulate a magic lamp when minimizing windows"
 msgstr "Minimalizuje vokny ŭ mahičnuju lampu."
 
-#: workspace/kwin/effects/magnifier.desktop:2
 #: workspace/kwin/effects/magnifier_config.desktop:9
+#: workspace/kwin/effects/magnifier.desktop:2
 msgctxt "Name"
 msgid "Magnifier"
 msgstr "Lupa"
@@ -8994,8 +8994,8 @@ msgctxt "Comment"
 msgid "Magnify the section of the screen that is near the mouse cursor"
 msgstr "Pavialičvaje častku ekrana pad kursoram myšy."
 
-#: workspace/kwin/effects/maketransparent.desktop:2
 #: workspace/kwin/effects/maketransparent_config.desktop:9
+#: workspace/kwin/effects/maketransparent.desktop:2
 msgctxt "Name"
 msgid "Translucency"
 msgstr "Prazrystaść"
@@ -9015,8 +9015,8 @@ msgctxt "Comment"
 msgid "Animate the minimizing of windows"
 msgstr "Animuje minimalizacyju akon."
 
-#: workspace/kwin/effects/mousemark.desktop:2
 #: workspace/kwin/effects/mousemark_config.desktop:9
+#: workspace/kwin/effects/mousemark.desktop:2
 msgctxt "Name"
 msgid "Mouse Mark"
 msgstr "Malavańnie myššu"
@@ -9026,8 +9026,8 @@ msgctxt "Comment"
 msgid "Allows you to draw lines on the desktop"
 msgstr "Uklučaje malavańnie rysaŭ na rabočym stale."
 
-#: workspace/kwin/effects/presentwindows.desktop:2
 #: workspace/kwin/effects/presentwindows_config.desktop:9
+#: workspace/kwin/effects/presentwindows.desktop:2
 msgctxt "Name"
 msgid "Present Windows"
 msgstr "Najaŭnyja vokny"
@@ -9047,8 +9047,8 @@ msgctxt "Comment"
 msgid "Animate the appearing of windows"
 msgstr "Animuje źjaŭleńnie akon."
 
-#: workspace/kwin/effects/shadow.desktop:2
 #: workspace/kwin/effects/shadow_config.desktop:9
+#: workspace/kwin/effects/shadow.desktop:2
 msgctxt "Name"
 msgid "Shadow"
 msgstr "Cień"
@@ -9058,8 +9058,8 @@ msgctxt "Comment"
 msgid "Draw shadows under windows"
 msgstr "Maluj cień pad voknami."
 
-#: workspace/kwin/effects/sharpen.desktop:2
 #: workspace/kwin/effects/sharpen_config.desktop:9
+#: workspace/kwin/effects/sharpen.desktop:2
 msgctxt "Name"
 msgid "Sharpen"
 msgstr ""
@@ -9069,8 +9069,8 @@ msgctxt "Comment"
 msgid "Make the entire desktop look sharper"
 msgstr ""
 
-#: workspace/kwin/effects/showfps.desktop:2
 #: workspace/kwin/effects/showfps_config.desktop:9
+#: workspace/kwin/effects/showfps.desktop:2
 msgctxt "Name"
 msgid "Show FPS"
 msgstr "Vyjaŭleńnie „FPS”"
@@ -9100,8 +9100,8 @@ msgctxt "Comment"
 msgid "Slide windows across the screen when switching virtual desktops"
 msgstr ""
 
-#: workspace/kwin/effects/snow.desktop:3
 #: workspace/kwin/effects/snow_config.desktop:9
+#: workspace/kwin/effects/snow.desktop:3
 msgctxt "Name"
 msgid "Snow"
 msgstr "Śnieh"
@@ -9111,8 +9111,8 @@ msgctxt "Comment"
 msgid "Simulate snow falling over the desktop"
 msgstr "Uklučaje śniehapad na rabočym stale."
 
-#: workspace/kwin/effects/sphere.desktop:2
 #: workspace/kwin/effects/sphere_config.desktop:9
+#: workspace/kwin/effects/sphere.desktop:2
 msgctxt "Name"
 msgid "Desktop Sphere"
 msgstr "Rabočaja kula"
@@ -9188,8 +9188,8 @@ msgctxt "Name"
 msgid "Test_Thumbnail"
 msgstr ""
 
-#: workspace/kwin/effects/test/videorecord.desktop:2
 #: workspace/kwin/effects/test/videorecord_config.desktop:9
+#: workspace/kwin/effects/test/videorecord.desktop:2
 msgctxt "Name"
 msgid "Video Record"
 msgstr "Videazapis"
@@ -9199,8 +9199,8 @@ msgctxt "Comment"
 msgid "Record a video of your desktop"
 msgstr "Zapisvaje videa z rabočaha stała."
 
-#: workspace/kwin/effects/thumbnailaside.desktop:2
 #: workspace/kwin/effects/thumbnailaside_config.desktop:9
+#: workspace/kwin/effects/thumbnailaside.desktop:2
 msgctxt "Name"
 msgid "Thumbnail Aside"
 msgstr "Padhlady akon"
@@ -9210,8 +9210,8 @@ msgctxt "Comment"
 msgid "Display window thumbnails on the edge of the screen"
 msgstr "Pakazvaje padhlady akon na krai ekrana."
 
-#: workspace/kwin/effects/trackmouse.desktop:2
 #: workspace/kwin/effects/trackmouse_config.desktop:9
+#: workspace/kwin/effects/trackmouse.desktop:2
 msgctxt "Name"
 msgid "Track Mouse"
 msgstr "Vyjaŭleńnie kursora"
@@ -9221,8 +9221,8 @@ msgctxt "Comment"
 msgid "Display a mouse cursor locating effect when activated"
 msgstr "Vyjaŭlaje miesca kursora."
 
-#: workspace/kwin/effects/wobblywindows.desktop:2
 #: workspace/kwin/effects/wobblywindows_config.desktop:9
+#: workspace/kwin/effects/wobblywindows.desktop:2
 msgctxt "Name"
 msgid "Wobbly Windows"
 msgstr "Skryŭleńnie akon"
@@ -9232,8 +9232,8 @@ msgctxt "Comment"
 msgid "Deform windows while they are moving"
 msgstr "Skryŭlaje vokny padčas pierasoŭvańnia."
 
-#: workspace/kwin/effects/zoom.desktop:2
 #: workspace/kwin/effects/zoom_config.desktop:9
+#: workspace/kwin/effects/zoom.desktop:2
 msgctxt "Name"
 msgid "Zoom"
 msgstr "Maštab"
@@ -10328,6 +10328,11 @@ msgctxt "Comment"
 msgid "Fast user switching"
 msgstr "Chutkaje pieraklučeńnie karystańnikaŭ"
 
+#: workspace/plasma/runners/shell/plasma-runner-shell_config.desktop:9
+msgctxt "Name"
+msgid "Shell Runner Config"
+msgstr "Nałady zahadnaha radka"
+
 #: workspace/plasma/runners/shell/plasma-runner-shell.desktop:2
 msgctxt "Name"
 msgid "Command Line"
@@ -10337,11 +10342,6 @@ msgstr "Zahadny radok"
 msgctxt "Comment"
 msgid "Executes shell commands"
 msgstr "Vykanańnie zahadaŭ abałonki."
-
-#: workspace/plasma/runners/shell/plasma-runner-shell_config.desktop:9
-msgctxt "Name"
-msgid "Shell Runner Config"
-msgstr "Nałady zahadnaha radka"
 
 #: workspace/plasma/runners/webshortcuts/plasma-runner-webshortcuts.desktop:84
 msgctxt "Comment"

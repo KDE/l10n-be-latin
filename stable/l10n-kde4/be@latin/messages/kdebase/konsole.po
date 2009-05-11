@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-20 06:24+0200\n"
+"POT-Creation-Date: 2009-05-11 07:03+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -313,392 +313,6 @@ msgstr "Klavijaturny skarot"
 msgid "Output"
 msgstr "Vyjście"
 
-#: MainWindow.cpp:223
-msgid "New &Tab"
-msgstr "Novaja &kartka"
-
-#: MainWindow.cpp:229
-msgid "New &Window"
-msgstr "Novaje &akno"
-
-#: MainWindow.cpp:234
-msgid "Remote Connection..."
-msgstr "Spałučeńnie ź inšym hostam..."
-
-#: MainWindow.cpp:245
-msgid "&Bookmarks"
-msgstr "&Zakładki"
-
-#: MainWindow.cpp:256
-msgid "Show Menu Bar"
-msgstr "Pakažy menu"
-
-#: MainWindow.cpp:278 Part.cpp:119
-msgid "Manage Profiles..."
-msgstr "Kiruj profilami..."
-
-#: MainWindow.cpp:349
-msgid "You have multiple tabs in this window, are you sure you want to quit?"
-msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
-
-#: MainWindow.cpp:351 SessionController.cpp:601
-msgid "Confirm Close"
-msgstr "Paćviardžeńnie začynieńnia"
-
-#: MainWindow.cpp:353
-msgid "Close Current Tab"
-msgstr "Začyni hetuju kartku"
-
-#: ManageProfilesDialog.cpp:48
-msgid "Manage Profiles"
-msgstr "Kiruj profilami..."
-
-#: ManageProfilesDialog.cpp:200
-msgid "Show in Menu"
-msgstr "Pakažy ŭ menu"
-
-#: ManageProfilesDialog.cpp:201
-msgid "Shortcut"
-msgstr "Skarot"
-
-#: ManageProfilesDialog.cpp:293
-msgid "New Profile"
-msgstr "Novy profil"
-
-#: Profile.cpp:143
-msgid "Shell"
-msgstr "Abałonka"
-
-#: ProfileList.cpp:48
-msgid "No profiles available"
-msgstr "Niama profilaŭ"
-
-#: RemoteConnectionDialog.cpp:39
-msgid "New Remote Connection"
-msgstr "Novaje spałučeńnie ź inšym hostam"
-
-#: RemoteConnectionDialog.cpp:41
-msgid "Connect"
-msgstr "Spałučy"
-
-#: Session.cpp:317
-msgid "Could not find binary: "
-msgstr "Nie ŭdałosia znajści prahramu: "
-
-#: Session.cpp:326
-msgid "Warning: "
-msgstr "Uvaha: "
-
-#: Session.cpp:367
-#, kde-format
-msgid ""
-"Could not find '%1', starting '%2' instead.  Please check your profile "
-"settings."
-msgstr ""
-"Nie ŭdałosia znajści „%1”, zamiest jaho pačynajem z „%2”. Spraŭdź nałady "
-"svajho profilu."
-
-#: Session.cpp:372
-msgid "Could not find an interactive shell to start."
-msgstr "Nie ŭdałosia znajści interakcyjnaj abałonki, kab jaje ŭklučyć."
-
-#: Session.cpp:406
-#, kde-format
-msgid "Could not start program '%1' with arguments '%2'."
-msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
-
-#: Session.cpp:516
-#, kde-format
-msgid "Silence in session '%1'"
-msgstr "Cišynia ŭ sesii „%1”"
-
-#: Session.cpp:551
-#, kde-format
-msgid "Bell in session '%1'"
-msgstr "Syhnał u sesii „%1”"
-
-#: Session.cpp:562
-#, kde-format
-msgid "Activity in session '%1'"
-msgstr "Aktyŭnaść u sesii „%1”"
-
-#: Session.cpp:700
-msgid "Finished"
-msgstr "Skončana"
-
-#: Session.cpp:709
-#, kde-format
-msgid "Program '%1' exited with status %2."
-msgstr "Prahrama „%1” skončyła pracu z kodam %2."
-
-#: Session.cpp:711
-#, kde-format
-msgid "Program '%1' crashed."
-msgstr "Prahrama „%1” złamałasia."
-
-#: Session.cpp:1028
-msgid "ZModem Progress"
-msgstr "Prahres „ZModem”"
-
-#: SessionController.cpp:378
-msgid "&Close Tab"
-msgstr "&Začyni kartku"
-
-#: SessionController.cpp:384
-msgid "Open Browser Here"
-msgstr "Adčyni ŭ hartačy"
-
-#: SessionController.cpp:391
-msgid "&Copy"
-msgstr "&Skapijuj"
-
-#: SessionController.cpp:395
-msgid "&Paste"
-msgstr "&Uklej"
-
-#: SessionController.cpp:408
-msgid "Paste Selection"
-msgstr "Uklej vyłučeńnie"
-
-#: SessionController.cpp:414
-msgid "&Rename Tab..."
-msgstr "&Źmiani nazvu kartki..."
-
-#: SessionController.cpp:420
-msgid "Copy Input To..."
-msgstr "Skapijuj uvachodnyja źviestki ŭ..."
-
-#: SessionController.cpp:425
-msgid "C&lear Display"
-msgstr "&Vyčyści vykład"
-
-#: SessionController.cpp:430
-msgid "Clear && Reset"
-msgstr "Vyčyści j viarni nałady"
-
-#: SessionController.cpp:435
-msgid "Monitor for &Activity"
-msgstr "Sačy za &aktyŭnaściu"
-
-#: SessionController.cpp:440
-msgid "Monitor for &Silence"
-msgstr "Sačy za &cišynioju"
-
-#: SessionController.cpp:446
-msgid "Character Encoding"
-msgstr "Kadavańnie znakaŭ"
-
-#: SessionController.cpp:453
-msgid "Increase Text Size"
-msgstr "Pavialič pamier tekstu"
-
-#: SessionController.cpp:459
-msgid "Decrease Text Size"
-msgstr "Pamienš pamier tekstu"
-
-#: SessionController.cpp:465
-msgid "Search Output..."
-msgstr "Šukaj u vychodnych źviestkach..."
-
-#: SessionController.cpp:474
-msgid "Find Next"
-msgstr "Šukaj dalej"
-
-#: SessionController.cpp:481
-msgid "Find Previous"
-msgstr "Šukaj raniej"
-
-#: SessionController.cpp:487
-msgid "Save Output..."
-msgstr "Zapišy vychodnyja źviestki..."
-
-#: SessionController.cpp:497
-msgid "Clear Scrollback"
-msgstr "Vyčyści historyju prakrutki"
-
-#: SessionController.cpp:501
-msgid "Clear Scrollback && Reset"
-msgstr "Vyčyści historyju prakrutki j viarni nałady"
-
-#: SessionController.cpp:507
-msgid "Edit Current Profile..."
-msgstr "Adredahuj dziejny profil..."
-
-#: SessionController.cpp:511
-msgid "Change Profile"
-msgstr "Źmiani profil"
-
-#: SessionController.cpp:551
-msgid "Rename Tab"
-msgstr "Źmiani nazvu kartki"
-
-#: SessionController.cpp:552
-msgid "Enter new tab text:"
-msgstr "Upišy nazvu dla novaj kartki:"
-
-#: SessionController.cpp:595
-msgid ""
-"A program is currently running in this session.  Are you sure you want to "
-"close it?"
-msgstr "U hetaj sesii ciapier pracuje prahrama. Sapraŭdy chočaš jaje začynić?"
-
-#: SessionController.cpp:598
-#, kde-format
-msgid ""
-"The program '%1' is currently running in this session.  Are you sure you "
-"want to close it?"
-msgstr ""
-"U hetaj sesii ciapier pracuje prahrama „%1”. Sapraŭdy chočaš jaje začynić?"
-
-#: SessionController.cpp:1082
-#, kde-format
-msgid "Save Output From %1"
-msgstr "Zapišy vychodnyja źviestki z „%1”"
-
-#: SessionController.cpp:1093
-#, kde-format
-msgid "%1 is an invalid URL, the output could not be saved."
-msgstr ""
-"„%1” jość niapravilnym adrasam. Nie ŭdałosia zapisać vychodnyja źviestki."
-
-#: SessionController.cpp:1182
-#, kde-format
-msgid ""
-"A problem occurred when saving the output.\n"
-"%1"
-msgstr ""
-"Padčas zapisu vychodnych źviestak uźnikła prablema.\n"
-"%1"
-
-#: SessionManager.cpp:856
-msgid "Number"
-msgstr "Numar"
-
-#: SessionManager.cpp:858
-msgid "Title"
-msgstr "Nazva"
-
-#: TabTitleFormatAction.cpp:34
-msgid "Program Name"
-msgstr "Nazva prahramy"
-
-#: TabTitleFormatAction.cpp:35
-msgid "Current Directory (Short)"
-msgstr "Dziejny kataloh (skaročana)"
-
-#: TabTitleFormatAction.cpp:36
-msgid "Current Directory (Long)"
-msgstr "Dziejny kataloh (doŭha)"
-
-#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:46
-msgid "Window Title Set by Shell"
-msgstr "Nazva akna aznačajecca abałonkaju"
-
-#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:47
-msgid "Session number"
-msgstr "Numar sesii"
-
-#: TabTitleFormatAction.cpp:43
-msgid "User Name"
-msgstr "Karystańnik"
-
-#: TabTitleFormatAction.cpp:44
-msgid "Remote Host (Short)"
-msgstr "Tamtejšy host (skaročana)"
-
-#: TabTitleFormatAction.cpp:45
-msgid "Remote Host (Long)"
-msgstr "Tamtejšy host (doŭha)"
-
-#: TerminalDisplay.cpp:1124 TerminalDisplay.cpp:1125
-msgid "Size: XXX x XXX"
-msgstr "Pamier: XXX x XXX"
-
-#: TerminalDisplay.cpp:1135
-#, kde-format
-msgid "Size: %1 x %2"
-msgstr "Pamier: %1 x %2"
-
-#: TerminalDisplay.cpp:2843
-msgid ""
-"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
-"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
-msgstr ""
-"<qt>Vyjście <a href=\"http://en.wikipedia.org/wiki/Flow_control"
-"\">ŭstrymanaje</a> skarotam „Ctrl+S”.  Naciśni <b>Ctrl+Q</b>, kab pracavać "
-"dalej.</qt>"
-
-#: ViewManager.cpp:129
-msgid "Next View"
-msgstr "Nastupny prahlad"
-
-#: ViewManager.cpp:130
-msgid "Previous View"
-msgstr "Papiaredni prahlad"
-
-#: ViewManager.cpp:131
-msgid "Next View Container"
-msgstr "Nastupnaje schovišča prahladu"
-
-#: ViewManager.cpp:133
-msgid "Move View Left"
-msgstr "Pasuń prahlad uleva"
-
-#: ViewManager.cpp:134
-msgid "Move View Right"
-msgstr "Pasuń prahlad uprava"
-
-#: ViewManager.cpp:144
-msgctxt "@action:inmenu"
-msgid "Split View Left/Right"
-msgstr "Padziali prahlad vertykalna"
-
-#: ViewManager.cpp:151
-msgctxt "@action:inmenu"
-msgid "Split View Top/Bottom"
-msgstr "Padziali prahlad haryzantalna"
-
-#: ViewManager.cpp:156
-msgctxt "@action:inmenu Close Active View"
-msgid "Close Active"
-msgstr "Začyni dziejny prahlad"
-
-#: ViewManager.cpp:165
-msgctxt "@action:inmenu Close Other Views"
-msgid "Close Others"
-msgstr "Začyni inšyja prahlady"
-
-#: ViewManager.cpp:175
-msgid "&Detach View"
-msgstr "&Adčapi prahlad"
-
-#: ViewManager.cpp:184
-msgctxt "@action:inmenu"
-msgid "Expand View"
-msgstr "Razharni prahlad"
-
-#: ViewManager.cpp:191
-msgctxt "@action:inmenu"
-msgid "Shrink View"
-msgstr "Zharni prahlad"
-
-#: ViewManager.cpp:211
-#, kde-format
-msgid "Switch to Tab %1"
-msgstr "Pieraklučy ŭ kartku %1"
-
-#: Vt102Emulation.cpp:965
-msgid ""
-"No keyboard translator available.  The information needed to convert key "
-"presses into characters to send to the terminal is missing."
-msgstr ""
-"Niama tranślatara klavijatury. Nie staje źviestak, patrebnych dla "
-"pierałažeńnia naciskaŭ klavišaŭ u znaki, vysyłanyja terminału."
-
-#: ZModemDialog.cpp:35
-msgid "&Stop"
-msgstr "&Spyni"
-
 #: main.cpp:63
 msgid "Konsole"
 msgstr "Konsole"
@@ -909,6 +523,66 @@ msgstr "Lars Knoll"
 #: main.cpp:205
 msgid "Thanks to many others.\n"
 msgstr "Našy padziaki dla inšych, chto nam dapamahaŭ.\n"
+
+#: MainWindow.cpp:223
+msgid "New &Tab"
+msgstr "Novaja &kartka"
+
+#: MainWindow.cpp:229
+msgid "New &Window"
+msgstr "Novaje &akno"
+
+#: MainWindow.cpp:234
+msgid "Remote Connection..."
+msgstr "Spałučeńnie ź inšym hostam..."
+
+#: MainWindow.cpp:245
+msgid "&Bookmarks"
+msgstr "&Zakładki"
+
+#: MainWindow.cpp:256
+msgid "Show Menu Bar"
+msgstr "Pakažy menu"
+
+#: MainWindow.cpp:278 Part.cpp:119
+msgid "Manage Profiles..."
+msgstr "Kiruj profilami..."
+
+#: MainWindow.cpp:349
+msgid "You have multiple tabs in this window, are you sure you want to quit?"
+msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
+
+#: MainWindow.cpp:351 SessionController.cpp:601
+msgid "Confirm Close"
+msgstr "Paćviardžeńnie začynieńnia"
+
+#: MainWindow.cpp:353
+msgid "Close Current Tab"
+msgstr "Začyni hetuju kartku"
+
+#: ManageProfilesDialog.cpp:48
+msgid "Manage Profiles"
+msgstr "Kiruj profilami..."
+
+#: ManageProfilesDialog.cpp:200
+msgid "Show in Menu"
+msgstr "Pakažy ŭ menu"
+
+#: ManageProfilesDialog.cpp:201
+msgid "Shortcut"
+msgstr "Skarot"
+
+#: ManageProfilesDialog.cpp:293
+msgid "New Profile"
+msgstr "Novy profil"
+
+#: Profile.cpp:143
+msgid "Shell"
+msgstr "Abałonka"
+
+#: ProfileList.cpp:48
+msgid "No profiles available"
+msgstr "Niama profilaŭ"
 
 #. i18n: file: ColorSchemeEditor.ui:21
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1810,6 +1484,14 @@ msgstr "Nałady"
 msgid "Help"
 msgstr "Dapamoha"
 
+#: RemoteConnectionDialog.cpp:39
+msgid "New Remote Connection"
+msgstr "Novaje spałučeńnie ź inšym hostam"
+
+#: RemoteConnectionDialog.cpp:41
+msgid "Connect"
+msgstr "Spałučy"
+
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
 msgstr "Čorny na śvietła-žoŭtym"
@@ -1853,6 +1535,324 @@ msgstr "Kansol systemy „Solaris”"
 #: schemas.cpp:11
 msgid "DEC VT420 Terminal"
 msgstr "Terminał „DEC VT420”"
+
+#: SessionController.cpp:378
+msgid "&Close Tab"
+msgstr "&Začyni kartku"
+
+#: SessionController.cpp:384
+msgid "Open Browser Here"
+msgstr "Adčyni ŭ hartačy"
+
+#: SessionController.cpp:391
+msgid "&Copy"
+msgstr "&Skapijuj"
+
+#: SessionController.cpp:395
+msgid "&Paste"
+msgstr "&Uklej"
+
+#: SessionController.cpp:408
+msgid "Paste Selection"
+msgstr "Uklej vyłučeńnie"
+
+#: SessionController.cpp:414
+msgid "&Rename Tab..."
+msgstr "&Źmiani nazvu kartki..."
+
+#: SessionController.cpp:420
+msgid "Copy Input To..."
+msgstr "Skapijuj uvachodnyja źviestki ŭ..."
+
+#: SessionController.cpp:425
+msgid "C&lear Display"
+msgstr "&Vyčyści vykład"
+
+#: SessionController.cpp:430
+msgid "Clear && Reset"
+msgstr "Vyčyści j viarni nałady"
+
+#: SessionController.cpp:435
+msgid "Monitor for &Activity"
+msgstr "Sačy za &aktyŭnaściu"
+
+#: SessionController.cpp:440
+msgid "Monitor for &Silence"
+msgstr "Sačy za &cišynioju"
+
+#: SessionController.cpp:446
+msgid "Character Encoding"
+msgstr "Kadavańnie znakaŭ"
+
+#: SessionController.cpp:453
+msgid "Increase Text Size"
+msgstr "Pavialič pamier tekstu"
+
+#: SessionController.cpp:459
+msgid "Decrease Text Size"
+msgstr "Pamienš pamier tekstu"
+
+#: SessionController.cpp:465
+msgid "Search Output..."
+msgstr "Šukaj u vychodnych źviestkach..."
+
+#: SessionController.cpp:474
+msgid "Find Next"
+msgstr "Šukaj dalej"
+
+#: SessionController.cpp:481
+msgid "Find Previous"
+msgstr "Šukaj raniej"
+
+#: SessionController.cpp:487
+msgid "Save Output..."
+msgstr "Zapišy vychodnyja źviestki..."
+
+#: SessionController.cpp:497
+msgid "Clear Scrollback"
+msgstr "Vyčyści historyju prakrutki"
+
+#: SessionController.cpp:501
+msgid "Clear Scrollback && Reset"
+msgstr "Vyčyści historyju prakrutki j viarni nałady"
+
+#: SessionController.cpp:507
+msgid "Edit Current Profile..."
+msgstr "Adredahuj dziejny profil..."
+
+#: SessionController.cpp:511
+msgid "Change Profile"
+msgstr "Źmiani profil"
+
+#: SessionController.cpp:551
+msgid "Rename Tab"
+msgstr "Źmiani nazvu kartki"
+
+#: SessionController.cpp:552
+msgid "Enter new tab text:"
+msgstr "Upišy nazvu dla novaj kartki:"
+
+#: SessionController.cpp:595
+msgid ""
+"A program is currently running in this session.  Are you sure you want to "
+"close it?"
+msgstr "U hetaj sesii ciapier pracuje prahrama. Sapraŭdy chočaš jaje začynić?"
+
+#: SessionController.cpp:598
+#, kde-format
+msgid ""
+"The program '%1' is currently running in this session.  Are you sure you "
+"want to close it?"
+msgstr ""
+"U hetaj sesii ciapier pracuje prahrama „%1”. Sapraŭdy chočaš jaje začynić?"
+
+#: SessionController.cpp:1082
+#, kde-format
+msgid "Save Output From %1"
+msgstr "Zapišy vychodnyja źviestki z „%1”"
+
+#: SessionController.cpp:1093
+#, kde-format
+msgid "%1 is an invalid URL, the output could not be saved."
+msgstr ""
+"„%1” jość niapravilnym adrasam. Nie ŭdałosia zapisać vychodnyja źviestki."
+
+#: SessionController.cpp:1182
+#, kde-format
+msgid ""
+"A problem occurred when saving the output.\n"
+"%1"
+msgstr ""
+"Padčas zapisu vychodnych źviestak uźnikła prablema.\n"
+"%1"
+
+#: Session.cpp:317
+msgid "Could not find binary: "
+msgstr "Nie ŭdałosia znajści prahramu: "
+
+#: Session.cpp:326
+msgid "Warning: "
+msgstr "Uvaha: "
+
+#: Session.cpp:367
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+"Nie ŭdałosia znajści „%1”, zamiest jaho pačynajem z „%2”. Spraŭdź nałady "
+"svajho profilu."
+
+#: Session.cpp:372
+msgid "Could not find an interactive shell to start."
+msgstr "Nie ŭdałosia znajści interakcyjnaj abałonki, kab jaje ŭklučyć."
+
+#: Session.cpp:406
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
+
+#: Session.cpp:516
+#, kde-format
+msgid "Silence in session '%1'"
+msgstr "Cišynia ŭ sesii „%1”"
+
+#: Session.cpp:551
+#, kde-format
+msgid "Bell in session '%1'"
+msgstr "Syhnał u sesii „%1”"
+
+#: Session.cpp:562
+#, kde-format
+msgid "Activity in session '%1'"
+msgstr "Aktyŭnaść u sesii „%1”"
+
+#: Session.cpp:700
+msgid "Finished"
+msgstr "Skončana"
+
+#: Session.cpp:709
+#, kde-format
+msgid "Program '%1' exited with status %2."
+msgstr "Prahrama „%1” skončyła pracu z kodam %2."
+
+#: Session.cpp:711
+#, kde-format
+msgid "Program '%1' crashed."
+msgstr "Prahrama „%1” złamałasia."
+
+#: Session.cpp:1028
+msgid "ZModem Progress"
+msgstr "Prahres „ZModem”"
+
+#: SessionManager.cpp:856
+msgid "Number"
+msgstr "Numar"
+
+#: SessionManager.cpp:858
+msgid "Title"
+msgstr "Nazva"
+
+#: TabTitleFormatAction.cpp:34
+msgid "Program Name"
+msgstr "Nazva prahramy"
+
+#: TabTitleFormatAction.cpp:35
+msgid "Current Directory (Short)"
+msgstr "Dziejny kataloh (skaročana)"
+
+#: TabTitleFormatAction.cpp:36
+msgid "Current Directory (Long)"
+msgstr "Dziejny kataloh (doŭha)"
+
+#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:46
+msgid "Window Title Set by Shell"
+msgstr "Nazva akna aznačajecca abałonkaju"
+
+#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:47
+msgid "Session number"
+msgstr "Numar sesii"
+
+#: TabTitleFormatAction.cpp:43
+msgid "User Name"
+msgstr "Karystańnik"
+
+#: TabTitleFormatAction.cpp:44
+msgid "Remote Host (Short)"
+msgstr "Tamtejšy host (skaročana)"
+
+#: TabTitleFormatAction.cpp:45
+msgid "Remote Host (Long)"
+msgstr "Tamtejšy host (doŭha)"
+
+#: TerminalDisplay.cpp:1124 TerminalDisplay.cpp:1125
+msgid "Size: XXX x XXX"
+msgstr "Pamier: XXX x XXX"
+
+#: TerminalDisplay.cpp:1135
+#, kde-format
+msgid "Size: %1 x %2"
+msgstr "Pamier: %1 x %2"
+
+#: TerminalDisplay.cpp:2843
+msgid ""
+"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
+"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
+msgstr ""
+"<qt>Vyjście <a href=\"http://en.wikipedia.org/wiki/Flow_control"
+"\">ŭstrymanaje</a> skarotam „Ctrl+S”.  Naciśni <b>Ctrl+Q</b>, kab pracavać "
+"dalej.</qt>"
+
+#: ViewManager.cpp:129
+msgid "Next View"
+msgstr "Nastupny prahlad"
+
+#: ViewManager.cpp:130
+msgid "Previous View"
+msgstr "Papiaredni prahlad"
+
+#: ViewManager.cpp:131
+msgid "Next View Container"
+msgstr "Nastupnaje schovišča prahladu"
+
+#: ViewManager.cpp:133
+msgid "Move View Left"
+msgstr "Pasuń prahlad uleva"
+
+#: ViewManager.cpp:134
+msgid "Move View Right"
+msgstr "Pasuń prahlad uprava"
+
+#: ViewManager.cpp:144
+msgctxt "@action:inmenu"
+msgid "Split View Left/Right"
+msgstr "Padziali prahlad vertykalna"
+
+#: ViewManager.cpp:151
+msgctxt "@action:inmenu"
+msgid "Split View Top/Bottom"
+msgstr "Padziali prahlad haryzantalna"
+
+#: ViewManager.cpp:156
+msgctxt "@action:inmenu Close Active View"
+msgid "Close Active"
+msgstr "Začyni dziejny prahlad"
+
+#: ViewManager.cpp:165
+msgctxt "@action:inmenu Close Other Views"
+msgid "Close Others"
+msgstr "Začyni inšyja prahlady"
+
+#: ViewManager.cpp:175
+msgid "&Detach View"
+msgstr "&Adčapi prahlad"
+
+#: ViewManager.cpp:184
+msgctxt "@action:inmenu"
+msgid "Expand View"
+msgstr "Razharni prahlad"
+
+#: ViewManager.cpp:191
+msgctxt "@action:inmenu"
+msgid "Shrink View"
+msgstr "Zharni prahlad"
+
+#: ViewManager.cpp:211
+#, kde-format
+msgid "Switch to Tab %1"
+msgstr "Pieraklučy ŭ kartku %1"
+
+#: Vt102Emulation.cpp:965
+msgid ""
+"No keyboard translator available.  The information needed to convert key "
+"presses into characters to send to the terminal is missing."
+msgstr ""
+"Niama tranślatara klavijatury. Nie staje źviestak, patrebnych dla "
+"pierałažeńnia naciskaŭ klavišaŭ u znaki, vysyłanyja terminału."
+
+#: ZModemDialog.cpp:35
+msgid "&Stop"
+msgstr "&Spyni"
 
 #, fuzzy
 #~| msgid "New..."

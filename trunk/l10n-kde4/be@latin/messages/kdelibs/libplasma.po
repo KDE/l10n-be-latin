@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-14 13:51+0200\n"
+"POT-Creation-Date: 2009-05-19 11:23+0200\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -173,43 +173,43 @@ msgstr ""
 msgid "Keyboard Shortcut"
 msgstr "Klavijaturny skarot"
 
-#: applet.cpp:2197
+#: applet.cpp:2207
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:2217
+#: applet.cpp:2227
 #, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine dla %1” dla widžeta „%2”."
 
-#: applet.cpp:2222
+#: applet.cpp:2232
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:2238 containment.cpp:148
+#: applet.cpp:2248 containment.cpp:148
 #, kde-format
 msgctxt "%1 is the name of the applet"
 msgid "Remove this %1"
 msgstr "Vydali hety aplet „%1”"
 
-#: applet.cpp:2240 containment.cpp:150
+#: applet.cpp:2250 containment.cpp:150
 #, fuzzy, kde-format
 #| msgid "%1 Settings"
 msgctxt "%1 is the name of the applet"
 msgid "%1 Settings"
 msgstr "Nałady „%1”"
 
-#: applet.cpp:2369
+#: applet.cpp:2379
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
-#: applet.cpp:2371
+#: applet.cpp:2381
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
@@ -331,7 +331,7 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Niapravilnaja („null”) pasłuha nia ŭmieje ničoha rabić."
 
-#: private/packages.cpp:42 private/packages.cpp:160
+#: private/packages.cpp:42 private/packages.cpp:162
 msgid "Images"
 msgstr "Vyjavy"
 
@@ -366,111 +366,111 @@ msgstr "Fajł „XML” dla naładaŭ"
 msgid "Main Script File"
 msgstr "Hałoŭny fajł sa skryptom"
 
-#: private/packages.cpp:94
+#: private/packages.cpp:96
 msgid "Images for dialogs"
 msgstr "Vyjavy dla dyjalohaŭ"
 
-#: private/packages.cpp:96
+#: private/packages.cpp:98
 msgid "Generic dialog background"
 msgstr "Zvyčajny fon dla dyjalohaŭ"
 
-#: private/packages.cpp:98
+#: private/packages.cpp:100
 msgid "Theme for the logout dialog"
 msgstr "Matyŭ dla dyjalohu vychadu"
 
-#: private/packages.cpp:100
+#: private/packages.cpp:102
 msgid "Wallpaper packages"
 msgstr "Pakunki sa špalerami"
 
-#: private/packages.cpp:102 private/packages.cpp:133
+#: private/packages.cpp:104 private/packages.cpp:135
 msgid "Images for widgets"
 msgstr "Vyjavy dla widžetaŭ"
 
-#: private/packages.cpp:104
+#: private/packages.cpp:106
 msgid "Background image for widgets"
 msgstr "Fonavaja vyjava dla widžetaŭ"
 
-#: private/packages.cpp:106
+#: private/packages.cpp:108
 msgid "Analog clock face"
 msgstr "Vyhlad strełkavaha hadzińnika"
 
-#: private/packages.cpp:108
+#: private/packages.cpp:110
 msgid "Background image for panels"
 msgstr "Fonavaja vyjava dla panelaŭ"
 
-#: private/packages.cpp:110
+#: private/packages.cpp:112
 msgid "Background for graphing widgets"
 msgstr "Fon dla widžetaŭ z hrafikami"
 
-#: private/packages.cpp:112
+#: private/packages.cpp:114
 msgid "Background image for tooltips"
 msgstr "Fonavaja vyjava dla padkazak"
 
-#: private/packages.cpp:114
+#: private/packages.cpp:116
 msgid "Opaque images for dialogs"
 msgstr "Nieprazrystyja vyjavy dla dyjalohaŭ"
 
-#: private/packages.cpp:116
+#: private/packages.cpp:118
 msgid "Opaque generic dialog background"
 msgstr "Zvyčajny nieprazrysty fon dla dyjalohaŭ"
 
-#: private/packages.cpp:118
+#: private/packages.cpp:120
 msgid "Opaque theme for the logout dialog"
 msgstr "Nieprazrysty matyŭ dla dyjalohu vychadu"
 
-#: private/packages.cpp:120
+#: private/packages.cpp:122
 msgid "Opaque images for widgets"
 msgstr "Nieprazrystyja vyjavy dla widžetaŭ"
 
-#: private/packages.cpp:122
+#: private/packages.cpp:124
 msgid "Opaque background image for panels"
 msgstr "Nieprazrystaja fonavaja vyjava dla panelaŭ"
 
-#: private/packages.cpp:124
+#: private/packages.cpp:126
 msgid "Opaque background image for tooltips"
 msgstr "Nieprazrystaja fonavaja vyjava dla padkazak"
 
-#: private/packages.cpp:127
+#: private/packages.cpp:129
 msgid "Low color images for dialogs"
 msgstr "Vyjavy z małoj kolkaściu koleraŭ dla dyjalohaŭ"
 
-#: private/packages.cpp:129
+#: private/packages.cpp:131
 msgid "Low color generic dialog background"
 msgstr "Zvyčajny fon z małoj kolkaściu koleraŭ dla dyjalohaŭ"
 
-#: private/packages.cpp:131
+#: private/packages.cpp:133
 msgid "Low color theme for the logout dialog"
 msgstr "Matyŭ z małoj kolkaściu koleraŭ dla dyjalohu vychadu"
 
-#: private/packages.cpp:135
+#: private/packages.cpp:137
 msgid "Low color background image for widgets"
 msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla widžetaŭ"
 
-#: private/packages.cpp:137
+#: private/packages.cpp:139
 msgid "Low color analog clock face"
 msgstr "Vyhlad strełkavaha hadzińnika z małoj kolkaściu koleraŭ"
 
-#: private/packages.cpp:139
+#: private/packages.cpp:141
 msgid "Low color background image for panels"
 msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla panelaŭ"
 
-#: private/packages.cpp:141
+#: private/packages.cpp:143
 msgid "Low color background for graphing widgets"
 msgstr "Fon z małoj kolkaściu koleraŭ dla widžetaŭ z hrafikami"
 
-#: private/packages.cpp:143
+#: private/packages.cpp:145
 msgid "Low color background image for tooltips"
 msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla padkazak"
 
-#: private/packages.cpp:145
+#: private/packages.cpp:147
 msgid "KColorScheme configuration file"
 msgstr "Fajł naładaŭ dla „KColorScheme”"
 
-#: private/packages.cpp:162
+#: private/packages.cpp:164
 msgid "Screenshot"
 msgstr "Zdymak ekranu"
 
-#: private/packages.cpp:192 private/packages.cpp:247
+#: private/packages.cpp:194 private/packages.cpp:249
 msgid "Recommended wallpaper file"
 msgstr "Paradžany fajł špaleraŭ"
 

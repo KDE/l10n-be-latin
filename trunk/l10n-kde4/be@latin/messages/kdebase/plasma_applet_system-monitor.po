@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-27 10:59+0200\n"
+"POT-Creation-Date: 2009-06-03 12:14+0200\n"
 "PO-Revision-Date: 2008-10-26 00:05+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: cpu.cpp:45 cpu.cpp:163 hwinfo.cpp:131
+#: cpu.cpp:45 cpu.cpp:164 hwinfo.cpp:131
 msgid "CPU"
 msgstr "Pracesar"
 
@@ -26,15 +26,15 @@ msgstr "Pracesar"
 msgid "total"
 msgstr ""
 
-#: cpu.cpp:184
+#: cpu.cpp:185
 msgid "CPUs"
 msgstr "Pracesary"
 
-#: cpu.cpp:191 net.cpp:200 ram.cpp:183 temperature.cpp:118
+#: cpu.cpp:192 net.cpp:200 ram.cpp:183 temperature.cpp:118
 msgid "Advanced"
 msgstr ""
 
-#: cpu.cpp:199 net.cpp:208 ram.cpp:191 temperature.cpp:126
+#: cpu.cpp:200 net.cpp:208 ram.cpp:191 temperature.cpp:126
 #, fuzzy
 #| msgid "seconds"
 msgid " second"

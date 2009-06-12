@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-09 11:29+0200\n"
+"POT-Creation-Date: 2009-06-12 11:16+0200\n"
 "PO-Revision-Date: 2008-12-27 00:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "notificationitemwatcher"
 msgstr "Paviedamleńnie dla „%1”"
 
-#: core/extendertask.cpp:154
+#: core/extendertask.cpp:156
 #, kde-format
 msgid "%1 Recently Completed Job:"
 msgid_plural "%1 Recently Completed Jobs:"
@@ -32,7 +32,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: core/extendertask.cpp:177
+#: core/extendertask.cpp:179
 #, kde-format
 msgid "%1 running job"
 msgid_plural "%1 running jobs"
@@ -40,7 +40,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: core/extendertask.cpp:181
+#: core/extendertask.cpp:183
 #, kde-format
 msgid "%1 suspended job"
 msgid_plural "%1 suspended jobs"
@@ -48,7 +48,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: core/extendertask.cpp:185
+#: core/extendertask.cpp:187
 #, fuzzy, kde-format
 #| msgid "Notification from %1"
 msgid "%1 notification"
@@ -57,19 +57,19 @@ msgstr[0] "Paviedamleńnie dla „%1”"
 msgstr[1] "Paviedamleńnie dla „%1”"
 msgstr[2] "Paviedamleńnie dla „%1”"
 
-#: core/extendertask.cpp:190
+#: core/extendertask.cpp:192
 #, fuzzy
 #| msgid "Notification from %1"
 msgid "No active jobs or notifications"
 msgstr "Paviedamleńnie dla „%1”"
 
-#: core/extendertask.cpp:193
+#: core/extendertask.cpp:195
 #, fuzzy
 #| msgid "No notifications and no jobs"
 msgid "Notifications and jobs"
 msgstr "Niama paviedamleńniaŭ dy zadańniaŭ"
 
-#: core/extendertask.cpp:246
+#: core/extendertask.cpp:248
 msgid "Show or hide notifications and jobs"
 msgstr "Pakažy ci schavaj paviedamleńni j zadańni"
 
@@ -175,23 +175,23 @@ msgstr ""
 msgid "Hardware control"
 msgstr ""
 
-#: ui/applet.cpp:177
+#: ui/applet.cpp:193
 msgid "No notifications and no jobs"
 msgstr "Niama paviedamleńniaŭ dy zadańniaŭ"
 
-#: ui/applet.cpp:451
+#: ui/applet.cpp:475
 msgid "Information"
 msgstr ""
 
-#: ui/applet.cpp:453
+#: ui/applet.cpp:477
 msgid "Choose which information to show"
 msgstr ""
 
-#: ui/applet.cpp:454
+#: ui/applet.cpp:478
 msgid "Auto Hide"
 msgstr "Aŭtamatyčna chavaj"
 
-#: ui/applet.cpp:673
+#: ui/applet.cpp:698
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "%1 is the name of the job, can be things like Copying, deleting, moving"
@@ -199,7 +199,7 @@ msgstr "Aŭtamatyčna chavaj"
 msgid "%1 [Finished]"
 msgstr "%1 (skončana)"
 
-#: ui/applet.cpp:707
+#: ui/applet.cpp:732
 msgid "Recently Completed Jobs"
 msgstr ""
 

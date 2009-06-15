@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwinstartmenu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-21 20:04+0200\n"
+"POT-Creation-Date: 2009-06-15 11:12+0200\n"
 "PO-Revision-Date: 2008-11-03 22:20+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -41,6 +41,12 @@ msgid ""
 "Install Start Menu entries (this is also the default when this option is not "
 "used)"
 msgstr "Zainstaluj elementy hałoŭnaha menu (zmoŭčanaja opcyja)"
+
+#: main.cpp:49
+#, fuzzy
+#| msgid "Remove installed Start Menu entries"
+msgid "query root path of Start Menu entries"
+msgstr "Vydali zainstalavanyja elementy hałoŭnaha menu"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

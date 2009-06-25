@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-11 12:49+0200\n"
+"POT-Creation-Date: 2009-06-25 14:47+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -143,8 +143,11 @@ msgstr "Adredahuj profil"
 #: EditProfileDialog.cpp:149
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
-msgid "Editing %1 profiles: %2"
-msgstr "Adredahuj profil „%1”"
+msgid "Editing profile: %2"
+msgid_plural "Editing %1 profiles: %2"
+msgstr[0] "Adredahuj profil „%1”"
+msgstr[1] "Adredahuj profil „%1”"
+msgstr[2] "Adredahuj profil „%1”"
 
 #: EditProfileDialog.cpp:152
 #, kde-format

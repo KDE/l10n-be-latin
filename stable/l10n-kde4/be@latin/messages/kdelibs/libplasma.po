@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-21 11:20+0200\n"
+"POT-Creation-Date: 2009-06-26 07:33+0200\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -55,7 +55,7 @@ msgstr "Čynnaść „%1”"
 msgid "Unknown Widget"
 msgstr "Nieviadomy widžet"
 
-#: applet.cpp:763 applet.cpp:1843 applet.cpp:1844
+#: applet.cpp:763 applet.cpp:1842 applet.cpp:1843
 msgctxt "misc category"
 msgid "Miscellaneous"
 msgstr "Roznaje"
@@ -173,43 +173,43 @@ msgstr ""
 msgid "Keyboard Shortcut"
 msgstr "Klavijaturny skarot"
 
-#: applet.cpp:2248
+#: applet.cpp:2260
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:2268
+#: applet.cpp:2280
 #, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine dla %1” dla widžeta „%2”."
 
-#: applet.cpp:2273
+#: applet.cpp:2285
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:2293 containment.cpp:149
+#: applet.cpp:2305 containment.cpp:149
 #, kde-format
 msgctxt "%1 is the name of the applet"
 msgid "Remove this %1"
 msgstr "Vydali hety aplet „%1”"
 
-#: applet.cpp:2295 containment.cpp:154
+#: applet.cpp:2307 containment.cpp:154
 #, fuzzy, kde-format
 #| msgid "%1 Settings"
 msgctxt "%1 is the name of the applet"
 msgid "%1 Settings"
 msgstr "Nałady „%1”"
 
-#: applet.cpp:2416
+#: applet.cpp:2428
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
-#: applet.cpp:2418
+#: applet.cpp:2430
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"

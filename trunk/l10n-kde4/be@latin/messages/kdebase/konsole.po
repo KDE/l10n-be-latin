@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-25 14:47+0200\n"
+"POT-Creation-Date: 2009-06-30 11:36+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -116,15 +116,15 @@ msgstr "Nienazvanaja schiema koleraŭ"
 msgid "Accessible Color Scheme"
 msgstr "Mahčymyja schiemy koleraŭ"
 
-#: ColorSchemeEditor.cpp:82 ManageProfilesDialog.cpp:222
+#: ColorSchemeEditor.cpp:83 ManageProfilesDialog.cpp:222
 msgid "Name"
 msgstr "Nazva"
 
-#: ColorSchemeEditor.cpp:82
+#: ColorSchemeEditor.cpp:83
 msgid "Color"
 msgstr "Koler"
 
-#: ColorSchemeEditor.cpp:102
+#: ColorSchemeEditor.cpp:103
 msgid ""
 "The background transparency setting will not be used because your desktop "
 "does not appear to support transparent windows."
@@ -154,35 +154,35 @@ msgstr[2] "Adredahuj profil „%1”"
 msgid "Edit Profile \"%1\""
 msgstr "Adredahuj profil „%1”"
 
-#: EditProfileDialog.cpp:280
+#: EditProfileDialog.cpp:283
 msgid "Edit Environment"
 msgstr "Adredahuj asiarodździe"
 
-#: EditProfileDialog.cpp:306
+#: EditProfileDialog.cpp:309
 msgid "Always Hide Tab Bar"
 msgstr "Zaŭždy chavaj kartki"
 
-#: EditProfileDialog.cpp:307
+#: EditProfileDialog.cpp:310
 msgid "Show Tab Bar When Needed"
 msgstr "Kali treba, pakazvaj kartki"
 
-#: EditProfileDialog.cpp:308
+#: EditProfileDialog.cpp:311
 msgid "Always Show Tab Bar"
 msgstr "Zaŭždy pakazvaj kartki"
 
-#: EditProfileDialog.cpp:313
+#: EditProfileDialog.cpp:316
 msgid "Below Terminal Displays"
 msgstr "Pad terminalnym vykładam"
 
-#: EditProfileDialog.cpp:314
+#: EditProfileDialog.cpp:317
 msgid "Above Terminal Displays"
 msgstr "Nad terminalnym vykładam"
 
-#: EditProfileDialog.cpp:410
+#: EditProfileDialog.cpp:413
 msgid "Select Initial Directory"
 msgstr "Vybiery pačatkovy kataloh"
 
-#: EditProfileDialog.cpp:427
+#: EditProfileDialog.cpp:430
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
@@ -190,24 +190,24 @@ msgstr ""
 "Hetaja schiema koleraŭ karystajecca prazrystym fonam, jaki nia ŭmieje "
 "absłuhoŭvać hetaja systema."
 
-#: EditProfileDialog.cpp:593
+#: EditProfileDialog.cpp:596
 #, kde-format
 msgid "%1, size %2"
 msgstr "%1, pamier %2"
 
-#: EditProfileDialog.cpp:706 EditProfileDialog.cpp:715
+#: EditProfileDialog.cpp:709 EditProfileDialog.cpp:718
 msgid "New Color Scheme"
 msgstr "Novaja schiema koleraŭ"
 
-#: EditProfileDialog.cpp:708
+#: EditProfileDialog.cpp:711
 msgid "Edit Color Scheme"
 msgstr "Adredahuj schiemu koleraŭ"
 
-#: EditProfileDialog.cpp:841 EditProfileDialog.cpp:852
+#: EditProfileDialog.cpp:844 EditProfileDialog.cpp:855
 msgid "New Key Binding List"
 msgstr "Novy śpis klavijaturnych skarotaŭ"
 
-#: EditProfileDialog.cpp:843
+#: EditProfileDialog.cpp:846
 msgid "Edit Key Binding List"
 msgstr "Adredahuj śpis klavijaturnych skarotaŭ"
 
@@ -666,7 +666,7 @@ msgid "Profile name:"
 msgstr "Nazva profilu:"
 
 #. i18n: file: EditProfileDialog.ui:65
-#. i18n: ectx: property (toolTip), widget (QLineEdit, profileNameEdit)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, profileNameEdit)
 #: rc.cpp:33 rc.cpp:430
 msgid "A descriptive name for the profile"
 msgstr "Nazva, jakaja apisvaje profil"
@@ -1192,7 +1192,7 @@ msgid "Word characters for double-click selection: "
 msgstr "Znaki, jakija dla vyłučeńnia dvuklikam uvažajucca za słoŭnyja: "
 
 #. i18n: file: EditProfileDialog.ui:969
-#. i18n: ectx: property (toolTip), widget (QLineEdit, wordCharacterEdit)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, wordCharacterEdit)
 #: rc.cpp:286 rc.cpp:683
 msgid ""
 "Characters which are considered part of a word when double-clicking to "

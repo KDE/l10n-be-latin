@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-25 07:58+0200\n"
+"POT-Creation-Date: 2009-06-30 07:07+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -8379,7 +8379,7 @@ msgstr "Dadaj u panel pryładździa"
 msgid "Configure Shortcut..."
 msgstr "Naładź skarot..."
 
-#: kdeui/xmlgui/kxmlguibuilder.cpp:179 kdeui/xmlgui/kxmlguibuilder.cpp:348
+#: kdeui/xmlgui/kxmlguibuilder.cpp:179 kdeui/xmlgui/kxmlguibuilder.cpp:345
 msgid "No text"
 msgstr "Niama tekstu"
 
@@ -9789,98 +9789,98 @@ msgstr "&Pra %1"
 msgid "About &KDE"
 msgstr "Pra &KDE"
 
-#: kdeui/widgets/ktoolbar.cpp:236
+#: kdeui/widgets/ktoolbar.cpp:268
 msgid "Toolbar Menu"
 msgstr "Menu ad paneli pryładździa"
 
-#: kdeui/widgets/ktoolbar.cpp:238
+#: kdeui/widgets/ktoolbar.cpp:270
 msgid "Orientation"
 msgstr "Aryjentacyja"
 
-#: kdeui/widgets/ktoolbar.cpp:241
+#: kdeui/widgets/ktoolbar.cpp:273
 msgctxt "toolbar position string"
 msgid "Top"
 msgstr "Źvierchu"
 
-#: kdeui/widgets/ktoolbar.cpp:243
+#: kdeui/widgets/ktoolbar.cpp:275
 msgctxt "toolbar position string"
 msgid "Left"
 msgstr "Źleva"
 
-#: kdeui/widgets/ktoolbar.cpp:244
+#: kdeui/widgets/ktoolbar.cpp:276
 msgctxt "toolbar position string"
 msgid "Right"
 msgstr "Sprava"
 
-#: kdeui/widgets/ktoolbar.cpp:245
+#: kdeui/widgets/ktoolbar.cpp:277
 msgctxt "toolbar position string"
 msgid "Bottom"
 msgstr "Źnizu"
 
-#: kdeui/widgets/ktoolbar.cpp:253
+#: kdeui/widgets/ktoolbar.cpp:285
 msgid "Text Position"
 msgstr "Miesca dla tekstu"
 
-#: kdeui/widgets/ktoolbar.cpp:256
+#: kdeui/widgets/ktoolbar.cpp:288
 msgid "Icons Only"
 msgstr "Tolki ikony"
 
-#: kdeui/widgets/ktoolbar.cpp:258
+#: kdeui/widgets/ktoolbar.cpp:289
 msgid "Text Only"
 msgstr "Tolki tekst"
 
-#: kdeui/widgets/ktoolbar.cpp:259
+#: kdeui/widgets/ktoolbar.cpp:290
 msgid "Text Alongside Icons"
 msgstr "Tekst kala ikonaŭ"
 
-#: kdeui/widgets/ktoolbar.cpp:260
+#: kdeui/widgets/ktoolbar.cpp:291
 msgid "Text Under Icons"
 msgstr "Tekst pad ikonami"
 
-#: kdeui/widgets/ktoolbar.cpp:268
+#: kdeui/widgets/ktoolbar.cpp:299
 msgid "Icon Size"
 msgstr "Pamier ikonaŭ"
 
-#: kdeui/widgets/ktoolbar.cpp:271
+#: kdeui/widgets/ktoolbar.cpp:302
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "Zmoŭčany"
 
-#: kdeui/widgets/ktoolbar.cpp:291 kdeui/widgets/ktoolbar.cpp:311
+#: kdeui/widgets/ktoolbar.cpp:319 kdeui/widgets/ktoolbar.cpp:339
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr "Mały (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:293 kdeui/widgets/ktoolbar.cpp:313
+#: kdeui/widgets/ktoolbar.cpp:321 kdeui/widgets/ktoolbar.cpp:341
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr "Siaredni (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:295 kdeui/widgets/ktoolbar.cpp:315
+#: kdeui/widgets/ktoolbar.cpp:323 kdeui/widgets/ktoolbar.cpp:343
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr "Vialiki (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:297 kdeui/widgets/ktoolbar.cpp:317
+#: kdeui/widgets/ktoolbar.cpp:325 kdeui/widgets/ktoolbar.cpp:345
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr "Vializny (%1x%2)"
 
-#: kdeui/widgets/ktoolbar.cpp:337 kdeui/widgets/ktoolbar.cpp:1368
+#: kdeui/widgets/ktoolbar.cpp:365 kdeui/widgets/ktoolbar.cpp:1286
 msgid "Unlock Toolbars"
 msgstr "Adčapi paneli pryładździa"
 
-#: kdeui/widgets/ktoolbar.cpp:337 kdeui/widgets/ktoolbar.cpp:1368
+#: kdeui/widgets/ktoolbar.cpp:365 kdeui/widgets/ktoolbar.cpp:1286
 msgid "Lock Toolbars"
 msgstr "Pryčapi paneli pryładździa"
 
-#: kdeui/widgets/ktoolbar.cpp:1281
+#: kdeui/widgets/ktoolbar.cpp:1199
 #, kde-format
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/widgets/ktoolbar.cpp:1282
+#: kdeui/widgets/ktoolbar.cpp:1200
 #, kde-format
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
@@ -11239,7 +11239,7 @@ msgstr "Skaroty &adrasoŭ:"
 msgid "Create Web Shortcut"
 msgstr "Stvary sieciŭny skarot"
 
-#: kinit/kinit.cpp:474
+#: kinit/kinit.cpp:478
 msgid ""
 "Unable to start new process.\n"
 "The system may have reached the maximum number of open files possible or the "
@@ -11249,7 +11249,7 @@ msgstr ""
 "Albo ty, albo systema siahnuła maksymalna mahčymaj kolkaści adčynienych "
 "fajłaŭ."
 
-#: kinit/kinit.cpp:493
+#: kinit/kinit.cpp:497
 msgid ""
 "Unable to create new process.\n"
 "The system may have reached the maximum number of processes possible or the "
@@ -11258,12 +11258,12 @@ msgstr ""
 "Nie ŭdałosia stvaryć novy praces.\n"
 "Albo ty, albo systema siahnuła maksymalna mahčymaj kolkaści pracesaŭ."
 
-#: kinit/kinit.cpp:584
+#: kinit/kinit.cpp:588
 #, kde-format
 msgid "Could not find '%1' executable."
 msgstr "Nie ŭdałosia znajści vykonvalny fajł „%1”."
 
-#: kinit/kinit.cpp:602
+#: kinit/kinit.cpp:606
 #, kde-format
 msgid ""
 "Could not open library '%1'.\n"
@@ -11272,7 +11272,7 @@ msgstr ""
 "Nie ŭdałosia adčynić biblijateku „%1”.\n"
 "%2"
 
-#: kinit/kinit.cpp:648
+#: kinit/kinit.cpp:652
 #, kde-format
 msgid ""
 "Could not find 'kdemain' in '%1'.\n"

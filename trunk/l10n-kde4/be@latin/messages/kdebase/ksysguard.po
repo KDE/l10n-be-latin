@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-08 20:30+0200\n"
+"POT-Creation-Date: 2009-07-01 12:45+0200\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -886,8 +886,10 @@ msgstr ""
 msgid "Horizontal Scale"
 msgstr "Maštab haryzantalnaj vosi"
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:134
-msgid "pixels per time period"
+#: SensorDisplayLib/FancyPlotterSettings.cc:129
+#, fuzzy
+#| msgid "pixels per time period"
+msgid "Pixels per time period:"
 msgstr "punktaŭ za peŭny čas"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:141

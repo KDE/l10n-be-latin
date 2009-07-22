@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-09 12:13+0200\n"
+"POT-Creation-Date: 2009-07-22 12:57+0200\n"
 "PO-Revision-Date: 2008-11-04 11:20+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -118,43 +118,43 @@ msgstr ""
 "pierakładu ŭ tvajoj movie. U takim vypadku jany buduć karystacca "
 "amerykanskaj admienaju anhielskaj movy.</p>"
 
-#: klocalesample.cpp:46
+#: klocalesample.cpp:45
 msgid "Numbers:"
 msgstr "Ličeńnie:"
 
-#: klocalesample.cpp:53
+#: klocalesample.cpp:50
 msgid "Money:"
 msgstr "Hrošy:"
 
-#: klocalesample.cpp:60
+#: klocalesample.cpp:55
 msgid "Date:"
 msgstr "Daty:"
 
-#: klocalesample.cpp:67
+#: klocalesample.cpp:60
 msgid "Short date:"
 msgstr "Karotkija daty:"
 
-#: klocalesample.cpp:74
+#: klocalesample.cpp:65
 msgid "Time:"
 msgstr "Čas:"
 
-#: klocalesample.cpp:114
+#: klocalesample.cpp:102
 msgid "This is how numbers will be displayed."
 msgstr "Tak buduć vyhladać liki."
 
-#: klocalesample.cpp:118
+#: klocalesample.cpp:106
 msgid "This is how monetary values will be displayed."
 msgstr "Tak buduć vyhladać hrašovyja adzinki."
 
-#: klocalesample.cpp:122
+#: klocalesample.cpp:110
 msgid "This is how date values will be displayed."
 msgstr "Tak buduć vyhladać daty."
 
-#: klocalesample.cpp:126
+#: klocalesample.cpp:114
 msgid "This is how date values will be displayed using a short notation."
 msgstr "Tak buduć vyhladać daty ŭ skaročanym zapisie."
 
-#: klocalesample.cpp:131
+#: klocalesample.cpp:119
 msgid "This is how the time will be displayed."
 msgstr "Tak budzie pakazvacca čas."
 
@@ -341,27 +341,27 @@ msgstr ""
 "dziesiatkovy dzielnik dla inšych likaŭ aznačajecca ŭ inšym miescy (u kartcy "
 "„Ličeńnie”).</p>"
 
-#: localenum.cpp:50
+#: localenum.cpp:48
 msgid "&Decimal symbol:"
 msgstr "&Dziesiatkovy znak:"
 
-#: localenum.cpp:60
+#: localenum.cpp:58
 msgid "Tho&usands separator:"
 msgstr "Dzielnik &tysiačnych nabojaŭ:"
 
-#: localenum.cpp:70
+#: localenum.cpp:68
 msgid "Positive si&gn:"
 msgstr "Dadatny &znak:"
 
-#: localenum.cpp:80
+#: localenum.cpp:78
 msgid "&Negative sign:"
 msgstr "&Admoŭny znak:"
 
-#: localenum.cpp:90 localetime.cpp:217
+#: localenum.cpp:88 localetime.cpp:215
 msgid "Di&git set:"
 msgstr ""
 
-#: localenum.cpp:208
+#: localenum.cpp:206
 msgid ""
 "<p>Here you can define the decimal separator used to display numbers (i.e. a "
 "dot or a comma in most countries).</p><p>Note that the decimal separator "
@@ -372,7 +372,7 @@ msgstr ""
 "heta kropka albo koska).</p><p>Uvaha: dziesiatkovy dzielnik dla hrašovych "
 "sumaŭ aznačajecca ŭ inšym miescy (u kartcy „Hrošy”).</p>"
 
-#: localenum.cpp:217
+#: localenum.cpp:215
 msgid ""
 "<p>Here you can define the thousands separator used to display numbers.</"
 "p><p>Note that the thousands separator used to display monetary values has "
@@ -382,7 +382,7 @@ msgstr ""
 "dzielnik tysiačnych nabojaŭ dla hrašovych sumaŭ aznačajecca ŭ inšym miescy "
 "(u kartcy „Hrošy”).</p>"
 
-#: localenum.cpp:225
+#: localenum.cpp:223
 msgid ""
 "Here you can specify text used to prefix positive numbers. Most people leave "
 "this blank."
@@ -390,7 +390,7 @@ msgstr ""
 "Tut možna aznačyć tekst, jaki mieścicca pierad dadatnymi likami. Balšynia "
 "ludziej pakidajuć hetaje pole pustym."
 
-#: localenum.cpp:231
+#: localenum.cpp:229
 msgid ""
 "Here you can specify text used to prefix negative numbers. This should not "
 "be empty, so you can distinguish positive and negative numbers. It is "
@@ -400,7 +400,7 @@ msgstr ""
 "nie pavinna być pustym, kab ty zmoh adroźnivać admoŭnyja liki ad dadatnych. "
 "Zvyčajna ŭ hetaje pole ŭpisvajuć znak minusa: „-”."
 
-#: localenum.cpp:238
+#: localenum.cpp:236
 #, fuzzy
 #| msgid ""
 #| "<p>Here you can define the thousands separator used to display numbers.</"
@@ -417,29 +417,29 @@ msgstr ""
 "dzielnik tysiačnych nabojaŭ dla hrašovych sumaŭ aznačajecca ŭ inšym miescy "
 "(u kartcy „Hrošy”).</p>"
 
-#: localeother.cpp:50
+#: localeother.cpp:48
 msgid "Paper format:"
 msgstr "Farmat papiery:"
 
-#: localeother.cpp:59
+#: localeother.cpp:57
 msgid "Measure system:"
 msgstr "Systema mieraŭ:"
 
-#: localeother.cpp:122
+#: localeother.cpp:120
 msgctxt "The Metric System"
 msgid "Metric"
 msgstr "Metryčnaja"
 
-#: localeother.cpp:123
+#: localeother.cpp:121
 msgctxt "The Imperial System"
 msgid "Imperial"
 msgstr "Imperskaja"
 
-#: localeother.cpp:125
+#: localeother.cpp:123
 msgid "A4"
 msgstr "A4"
 
-#: localeother.cpp:126
+#: localeother.cpp:124
 msgid "US Letter"
 msgstr "US Letter"
 
@@ -513,57 +513,57 @@ msgstr ""
 msgid "WEEKDAY"
 msgstr ""
 
-#: localetime.cpp:206
+#: localetime.cpp:204
 msgid "Calendar system:"
 msgstr "Kalandar:"
 
-#: localetime.cpp:228
+#: localetime.cpp:226
 msgid "Time format:"
 msgstr "Farmat času:"
 
-#: localetime.cpp:238
+#: localetime.cpp:236
 msgid "Date format:"
 msgstr "Farmat dataŭ:"
 
-#: localetime.cpp:246
+#: localetime.cpp:244
 msgid "Short date format:"
 msgstr "Skaročany farmat dataŭ:"
 
-#: localetime.cpp:254
+#: localetime.cpp:252
 msgid "Use declined form of month name"
 msgstr ""
 
-#: localetime.cpp:264
+#: localetime.cpp:262
 msgid "First day of the week:"
 msgstr "Pieršy dzień tydnia:"
 
-#: localetime.cpp:272
+#: localetime.cpp:270
 msgid "First working day of the week:"
 msgstr "Pieršy pracoŭny dzień tydnia:"
 
-#: localetime.cpp:280
+#: localetime.cpp:278
 msgid "Last working day of the week:"
 msgstr "Apošni pracoŭny dzień tydnia:"
 
-#: localetime.cpp:289
+#: localetime.cpp:287
 msgid "Day of the week for religious observance:"
 msgstr "Śviaty dzień tydnia:"
 
-#: localetime.cpp:499
+#: localetime.cpp:497
 msgctxt "some reasonable time formats for the language"
 msgid ""
 "HH:MM:SS\n"
 "pH:MM:SS AMPM"
 msgstr ""
 
-#: localetime.cpp:507
+#: localetime.cpp:505
 msgctxt "some reasonable date formats for the language"
 msgid ""
 "WEEKDAY MONTH dD YYYY\n"
 "SHORTWEEKDAY MONTH dD YYYY"
 msgstr ""
 
-#: localetime.cpp:515
+#: localetime.cpp:513
 msgctxt "some reasonable short date formats for the language"
 msgid ""
 "YYYY-MM-DD\n"
@@ -571,7 +571,7 @@ msgid ""
 "DD.MM.YYYY"
 msgstr ""
 
-#: localetime.cpp:526
+#: localetime.cpp:524
 msgid ""
 "<p>The text in this textbox will be used to format time strings. The "
 "sequences below will be replaced:</p><table><tr><td><b>HH</b></td><td>The "
@@ -586,7 +586,7 @@ msgid ""
 "treated as \"pm\" and midnight as \"am\".</td></tr></table>"
 msgstr ""
 
-#: localetime.cpp:549
+#: localetime.cpp:547
 msgid ""
 "<table><tr><td><b>YYYY</b></td><td>The year with century as a decimal number."
 "</td></tr><tr><td><b>YY</b></td><td>The year without century as a decimal "
@@ -601,46 +601,46 @@ msgid ""
 "td><td>The full weekday name.</td></tr></table>"
 msgstr ""
 
-#: localetime.cpp:570
+#: localetime.cpp:568
 msgid ""
 "<p>The text in this textbox will be used to format long dates. The sequences "
 "below will be replaced:</p>"
 msgstr ""
 
-#: localetime.cpp:576
+#: localetime.cpp:574
 msgid ""
 "<p>The text in this textbox will be used to format short dates. For "
 "instance, this is used when listing files. The sequences below will be "
 "replaced:</p>"
 msgstr ""
 
-#: localetime.cpp:595
+#: localetime.cpp:593
 msgid ""
 "<p>This option determines which day will be considered as the first one of "
 "the week.</p>"
 msgstr "<p>Hetaja opcyja aznačaje, jaki dzień jość pačatkam tydnia.</p>"
 
-#: localetime.cpp:600
+#: localetime.cpp:598
 msgid ""
 "<p>This option determines which day will be considered as the first working "
 "day of the week.</p>"
 msgstr ""
 "<p>Hetaja opcyja aznačaje, jaki dzień jość pačatkam pracoŭnaha tydnia.</p>"
 
-#: localetime.cpp:605
+#: localetime.cpp:603
 msgid ""
 "<p>This option determines which day will be considered as the last working "
 "day of the week.</p>"
 msgstr ""
 "<p>Hetaja opcyja aznačaje, jaki dzień jość kancom pracoŭnaha tydnia.</p>"
 
-#: localetime.cpp:610
+#: localetime.cpp:608
 msgid ""
 "<p>This option determines which day will be considered as the day of the "
 "week for religious observance.</p>"
 msgstr "<p>Hetaja opcyja aznačaje, jaki dzień jość śviatym dniom.</p>"
 
-#: localetime.cpp:617
+#: localetime.cpp:615
 msgid ""
 "<p>This option determines whether possessive form of month names should be "
 "used in dates.</p>"
@@ -648,7 +648,7 @@ msgstr ""
 "<p>Hetaja opcyja aznačaje, ci treba ŭžyvać u datach nazvy miesiaca ŭ rodnym "
 "skłonie.</p>"
 
-#: localetime.cpp:627
+#: localetime.cpp:625
 msgctxt "Day name list, option for no day of religious observance"
 msgid "None"
 msgstr "Niama"
@@ -687,7 +687,7 @@ msgstr "Miascovyja nałady"
 msgid "(C) 1998 Matthias Hoelzer, (C) 1999-2003 Hans Petter Bieker"
 msgstr "© 1998 Matthias Hoelzer, © 1999-2003 Hans Petter Bieker"
 
-#: toplevel.cpp:183
+#: toplevel.cpp:181
 msgid ""
 "Changed language settings apply only to newly started applications.\n"
 "To change the language of all programs, you will have to logout first."
@@ -696,11 +696,11 @@ msgstr ""
 "aplikacyjaŭ.\n"
 "Kab źmianić movu dla ŭsich prahram, treba spačatku vyjści z systemy."
 
-#: toplevel.cpp:187
+#: toplevel.cpp:185
 msgid "Applying Language Settings"
 msgstr "Prymianieńnie moŭnych naładaŭ"
 
-#: toplevel.cpp:224
+#: toplevel.cpp:222
 msgid ""
 "<h1>Country/Region & Language</h1>\n"
 "<p>From here you can configure language, numeric, and time \n"
@@ -718,27 +718,27 @@ msgstr ""
 "tady tvoj farmat času na 24-hadzinny, a taksama vyznačyła b dla ciabie\n"
 "znakam padziełu tysiačnych nabojaŭ kosku.</p>\n"
 
-#: toplevel.cpp:261
+#: toplevel.cpp:259
 msgid "Examples"
 msgstr "Uzory"
 
-#: toplevel.cpp:262
+#: toplevel.cpp:260
 msgid "&Locale"
 msgstr "&Lakalnaść"
 
-#: toplevel.cpp:263
+#: toplevel.cpp:261
 msgid "&Numbers"
 msgstr "&Ličeńnie"
 
-#: toplevel.cpp:264
+#: toplevel.cpp:262
 msgid "&Money"
 msgstr "&Hrošy"
 
-#: toplevel.cpp:265
+#: toplevel.cpp:263
 msgid "&Time && Dates"
 msgstr "&Čas i daty"
 
-#: toplevel.cpp:266
+#: toplevel.cpp:264
 msgid "&Other"
 msgstr "&Inšaje"
 

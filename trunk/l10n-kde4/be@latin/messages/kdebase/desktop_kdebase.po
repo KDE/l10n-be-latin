@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-28 05:07+0000\n"
+"POT-Creation-Date: 2009-07-30 05:04+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,7 +20,7 @@ msgctxt "Name"
 msgid "Dolphin"
 msgstr "Dolphin"
 
-#: apps/dolphin/src/dolphin.desktop:26
+#: apps/dolphin/src/dolphin.desktop:27
 msgctxt "GenericName"
 msgid "File Manager"
 msgstr "Kiraŭnik fajłaŭ"
@@ -9041,7 +9041,7 @@ msgctxt "Name"
 msgid "Screen unlocked"
 msgstr ""
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:149
+#: workspace/krunner/lock/kscreenlocker.notifyrc:150
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "A modifier key has been locked"
@@ -9049,12 +9049,12 @@ msgctxt "Comment"
 msgid "The screen has been unlocked"
 msgstr "Klavišny madyfikatar zamacavany"
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:169
+#: workspace/krunner/lock/kscreenlocker.notifyrc:170
 msgctxt "Name"
 msgid "Screen unlock failed"
 msgstr ""
 
-#: workspace/krunner/lock/kscreenlocker.notifyrc:185
+#: workspace/krunner/lock/kscreenlocker.notifyrc:186
 msgctxt "Comment"
 msgid "Failed attempt to unlock the screen"
 msgstr ""
@@ -9585,7 +9585,7 @@ msgctxt "Name"
 msgid "Sliding popups"
 msgstr ""
 
-#: workspace/kwin/effects/slidingpopups/slidingpopups.desktop:10
+#: workspace/kwin/effects/slidingpopups/slidingpopups.desktop:12
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "System information for Plasmoids"
@@ -11066,6 +11066,19 @@ msgstr "Skaroty dla sieciva"
 msgctxt "Comment"
 msgid "Allows user to use Konqueror's Web shortcuts"
 msgstr "Dazvalaje karystacca sieciŭnymi skarotami prahramy „Konqueror”."
+
+#: workspace/plasma/runners/windows/plasma-runner-windows.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Windows"
+msgctxt "Name|plasma runner"
+msgid "Windows"
+msgstr "Vokny"
+
+#: workspace/plasma/runners/windows/plasma-runner-windows.desktop:4
+msgctxt "Comment"
+msgid "List windows and desktops and switch them"
+msgstr ""
 
 #: workspace/plasma/scriptengines/google_gadgets/plasma-packagestructure-googlegadgets.desktop:2
 msgctxt "Name"

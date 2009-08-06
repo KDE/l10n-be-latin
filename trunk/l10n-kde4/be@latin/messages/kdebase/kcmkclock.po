@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-30 11:36+0200\n"
+"POT-Creation-Date: 2009-08-06 06:18+0200\n"
 "PO-Revision-Date: 2008-12-11 22:05+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,37 +18,37 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: dtime.cpp:81
+#: dtime.cpp:76
 msgid "Set date and time &automatically:"
 msgstr "&Aŭtamatyčna nastaŭlaj datu j čas:"
 
-#: dtime.cpp:107
+#: dtime.cpp:102
 msgid "Here you can change the system date's day of the month, month and year."
 msgstr "Tut možna źmianić datu, miesiac i hod dla ŭsioj systemy."
 
-#: dtime.cpp:135
+#: dtime.cpp:130
 msgid ""
 "Here you can change the system time. Click into the hours, minutes or "
 "seconds field to change the relevant value, either using the up and down "
 "buttons to the right or by entering a new value."
 msgstr ""
 
-#: dtime.cpp:212
+#: dtime.cpp:207
 msgid ""
 "Public Time Server (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
 "north-america.pool.ntp.org,oceania.pool.ntp.org"
 msgstr ""
 
-#: dtime.cpp:269
+#: dtime.cpp:264
 #, kde-format
 msgid "Unable to contact time server: %1."
 msgstr "Nie ŭdałosia spałučycca z serveram času: %1"
 
-#: dtime.cpp:273
+#: dtime.cpp:268
 msgid "Can not set date."
 msgstr "Nie ŭdałosia nastavić datu."
 
-#: dtime.cpp:291 main.cpp:62
+#: dtime.cpp:286 main.cpp:60
 msgid ""
 "<h1>Date & Time</h1> This control module can be used to set the system date "
 "and time. As these settings do not only affect you as a user, but rather the "
@@ -57,47 +57,47 @@ msgid ""
 "time should be corrected, please contact your system administrator."
 msgstr ""
 
-#: main.cpp:54
+#: main.cpp:52
 msgid "kcmclock"
 msgstr "kcmclock"
 
-#: main.cpp:54
+#: main.cpp:52
 msgid "KDE Clock Control Module"
 msgstr "Modul kiravańnia dla hadzińnika „KDE”"
 
-#: main.cpp:56
+#: main.cpp:54
 msgid "(c) 1996 - 2001 Luca Montecchiani"
 msgstr "© 1996 - 2001 Luca Montecchiani"
 
-#: main.cpp:58
+#: main.cpp:56
 msgid "Luca Montecchiani"
 msgstr "Luca Montecchiani"
 
-#: main.cpp:58
+#: main.cpp:56
 msgid "Original author"
 msgstr "Pieršy aŭtar"
 
-#: main.cpp:59
+#: main.cpp:57
 msgid "Paul Campbell"
 msgstr "Paul Campbell"
 
-#: main.cpp:59
+#: main.cpp:57
 msgid "Current Maintainer"
 msgstr "Ciapierašni dahladnik"
 
-#: main.cpp:60
+#: main.cpp:58
 msgid "Benjamin Meyer"
 msgstr "Benjamin Meyer"
 
-#: main.cpp:60
+#: main.cpp:58
 msgid "Added NTP support"
 msgstr "Dadaŭ absłuhoŭvańnie „NTP”"
 
-#: main.cpp:112
+#: main.cpp:110
 msgid "Failed to set system date/time/time zone."
 msgstr "Nie ŭdałosia nastavić datu, čas i časavy pojas dla ŭsioj systemy."
 
-#: main.cpp:112
+#: main.cpp:110
 msgid "Date/Time Error"
 msgstr "Pamyłka daty j času"
 
@@ -111,21 +111,21 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#: tzone.cpp:65
+#: tzone.cpp:58
 msgid "To change the local time zone, select your area from the list below"
 msgstr ""
 "Kab źmianić miascovy časavy pojas, vybiery ź nižejšaha śpisu svajo miesca "
 "pałažeńnia."
 
-#: tzone.cpp:95
+#: tzone.cpp:88
 #, kde-format
 msgid "Current local time zone: %1 (%2)"
 msgstr "Dziejny miascovy časavy pojas: %1 (%2)"
 
-#: tzone.cpp:120
+#: tzone.cpp:113
 msgid "Error setting new time zone."
 msgstr "Padčas nastaŭleńnia novaha časavaha pojasu ŭźnikła pamyłka."
 
-#: tzone.cpp:121
+#: tzone.cpp:114
 msgid "Time zone Error"
 msgstr "Pamyłka časavaha pojasu"

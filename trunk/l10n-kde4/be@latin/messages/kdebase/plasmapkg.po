@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-27 06:13+0200\n"
+"POT-Creation-Date: 2009-08-06 06:18+0200\n"
 "PO-Revision-Date: 2008-12-27 00:36+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,31 +18,31 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: main.cpp:42
+#: main.cpp:38
 msgid "Install, list, remove Plasma packages"
 msgstr "Instaluj, prahladaj i vydalaj pakunki „Plasma”"
 
-#: main.cpp:79
+#: main.cpp:75
 msgid "Plasma Package Manager"
 msgstr "Kiraŭnik pakunkaŭ „Plasma”"
 
-#: main.cpp:81
+#: main.cpp:77
 msgid "(C) 2008, Aaron Seigo"
 msgstr "© 2008, Aaron Seigo"
 
-#: main.cpp:82
+#: main.cpp:78
 msgid "Aaron Seigo"
 msgstr "Aaron Seigo"
 
-#: main.cpp:83
+#: main.cpp:79
 msgid "Original author"
 msgstr "Pieršy aŭtar"
 
-#: main.cpp:92
+#: main.cpp:88
 msgid "For install or remove, operates on packages installed for all users."
 msgstr "Instaluje j vydalaje pakunki, dastupnyja dla ŭsich karystańnikaŭ."
 
-#: main.cpp:98
+#: main.cpp:94
 #, fuzzy
 msgctxt ""
 "theme, wallpaper, etc. are keywords, but they may be translated, as both "
@@ -55,26 +55,26 @@ msgstr ""
 "Typ pakunka, naprykład, matyŭ, špalery, widžet „Plasma”, žarało źviestak, "
 "„Runner” itp."
 
-#: main.cpp:102
+#: main.cpp:98
 msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr "Zainstaluj pakunak u <path>"
 
-#: main.cpp:104
+#: main.cpp:100
 msgctxt "Do not translate <path>"
 msgid "Upgrade the package at <path>"
 msgstr "Zainstaluj pakunak u <path>"
 
-#: main.cpp:106
+#: main.cpp:102
 msgid "List installed packages"
 msgstr "Pakažy zainstalavanyja pakunki"
 
-#: main.cpp:108
+#: main.cpp:104
 msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr "Vydali pakunak z nazvaju <name>"
 
-#: main.cpp:110
+#: main.cpp:106
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
@@ -83,54 +83,54 @@ msgstr ""
 "budzie dziejničać sa zvyčajnymi katalohami źviestak, padadzienymi dla hetaj "
 "sesii systemy „KDE”."
 
-#: main.cpp:122
+#: main.cpp:118
 #, fuzzy
 #| msgid "plasmoid"
 msgctxt "package type"
 msgid "plasmoid"
 msgstr "widžet „Plasma”"
 
-#: main.cpp:127
+#: main.cpp:123
 #, fuzzy
 #| msgid "theme"
 msgctxt "package type"
 msgid "theme"
 msgstr "matyŭ"
 
-#: main.cpp:129
+#: main.cpp:125
 #, fuzzy
 #| msgid "wallpaper"
 msgctxt "package type"
 msgid "wallpaper"
 msgstr "špalery"
 
-#: main.cpp:131
+#: main.cpp:127
 #, fuzzy
 #| msgid "dataengine"
 msgctxt "package type"
 msgid "dataengine"
 msgstr "žarało źviestak"
 
-#: main.cpp:135
+#: main.cpp:131
 #, fuzzy
 #| msgid "runner"
 msgctxt "package type"
 msgid "runner"
 msgstr "runner"
 
-#: main.cpp:143
+#: main.cpp:139
 #, kde-format
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "Nie ŭdałosia znajści prydatny instalatar dla pakunka typu „%1”."
 
-#: main.cpp:152
+#: main.cpp:148
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "Nie ŭdałosia znajści prydatny instalatar dla pakunka typu „%1”. Uźnikła "
 "pamyłka: %2."
 
-#: main.cpp:170
+#: main.cpp:166
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
 "error message telling the user he can use only one"
@@ -139,32 +139,32 @@ msgid ""
 "one."
 msgstr ""
 
-#: main.cpp:210
+#: main.cpp:206
 #, kde-format
 msgid "Successfully removed %1"
 msgstr "Pakunak „%1” paśpiachova vydaleny."
 
-#: main.cpp:212
+#: main.cpp:208
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr "Nie ŭdałosia vydalić pakunak „%1”."
 
-#: main.cpp:217
+#: main.cpp:213
 #, kde-format
 msgid "Plugin %1 is not installed."
 msgstr "Plugin „%1” nie zainstalavany."
 
-#: main.cpp:222
+#: main.cpp:218
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "Pakunak „%1” paśpiachova zainstalavany."
 
-#: main.cpp:224
+#: main.cpp:220
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
 
-#: main.cpp:230
+#: main.cpp:226
 msgctxt ""
 "No option was given, this is the error message telling the user he needs at "
 "least one, do not translate install, remove, upgrade nor list"

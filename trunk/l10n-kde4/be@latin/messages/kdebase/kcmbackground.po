@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-01 12:45+0200\n"
+"POT-Creation-Date: 2009-08-06 06:18+0200\n"
 "PO-Revision-Date: 2008-12-11 21:45+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,16 +18,16 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: bgadvanced.cpp:58
+#: bgadvanced.cpp:53
 msgid "Advanced Background Settings"
 msgstr "Asablivyja nałady fonu"
 
-#: bgadvanced.cpp:225
+#: bgadvanced.cpp:220
 #, kde-format
 msgid "%1 min."
 msgstr "%1 chv."
 
-#: bgadvanced.cpp:262
+#: bgadvanced.cpp:257
 msgid ""
 "Unable to remove the program: the program is global and can only be removed "
 "by the system administrator."
@@ -35,16 +35,16 @@ msgstr ""
 "Nie ŭdałosia vydalić prahramu. Jana zainstalavanaja dla ŭsioj systemy, i "
 "tamu jaje moža vydalić tolki administratar."
 
-#: bgadvanced.cpp:264
+#: bgadvanced.cpp:259
 msgid "Cannot Remove Program"
 msgstr "Nie ŭdałosia vydalić prahramu"
 
-#: bgadvanced.cpp:268
+#: bgadvanced.cpp:263
 #, kde-format
 msgid "Are you sure you want to remove the program `%1'?"
 msgstr "Sapraŭdy chočaš vydalić prahramu „%1”?"
 
-#: bgadvanced.cpp:270
+#: bgadvanced.cpp:265
 msgid "Remove Background Program"
 msgstr "Vydali prahramu dla fonu"
 
@@ -56,53 +56,53 @@ msgstr "Vydali prahramu dla fonu"
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
 #. i18n: file: bgwallpaper_ui.ui:115
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
-#: bgadvanced.cpp:271 rc.cpp:18 rc.cpp:191 rc.cpp:215 rc.cpp:388
+#: bgadvanced.cpp:266 rc.cpp:18 rc.cpp:191 rc.cpp:215 rc.cpp:388
 msgid "&Remove"
 msgstr "&Vydali"
 
-#: bgadvanced.cpp:359
+#: bgadvanced.cpp:354
 msgid "Configure Background Program"
 msgstr "Naładź prahramu dla fonu"
 
-#: bgadvanced.cpp:371
+#: bgadvanced.cpp:366
 msgid "&Name:"
 msgstr "&Nazva:"
 
-#: bgadvanced.cpp:377
+#: bgadvanced.cpp:372
 msgid "Co&mment:"
 msgstr "&Kamentar:"
 
-#: bgadvanced.cpp:383
+#: bgadvanced.cpp:378
 msgid "Comman&d:"
 msgstr "&Zahad:"
 
-#: bgadvanced.cpp:389
+#: bgadvanced.cpp:384
 #, fuzzy
 msgid "&Preview cmd:"
 msgstr "Za&had dla padhladu:"
 
-#: bgadvanced.cpp:395
+#: bgadvanced.cpp:390
 msgid "&Executable:"
 msgstr "&Vykonvalny fajł:"
 
-#: bgadvanced.cpp:401
+#: bgadvanced.cpp:396
 msgid "&Refresh time:"
 msgstr "&Termin aktualizacyi:"
 
-#: bgadvanced.cpp:406
+#: bgadvanced.cpp:401
 msgid " min"
 msgstr " chv"
 
-#: bgadvanced.cpp:413
+#: bgadvanced.cpp:408
 msgid "New Command"
 msgstr "Novy zahad"
 
-#: bgadvanced.cpp:416
+#: bgadvanced.cpp:411
 #, kde-format
 msgid "New Command <%1>"
 msgstr "Novy zahad <%1>"
 
-#: bgadvanced.cpp:443
+#: bgadvanced.cpp:438
 msgid ""
 "You did not fill in the `Name' field.\n"
 "This is a required field."
@@ -110,7 +110,7 @@ msgstr ""
 "Ty nie zapoŭniŭ pole „Nazva”.\n"
 "Heta abaviazkova."
 
-#: bgadvanced.cpp:451
+#: bgadvanced.cpp:446
 #, kde-format
 msgid ""
 "There is already a program with the name `%1'.\n"
@@ -119,11 +119,11 @@ msgstr ""
 "Prahrama z nazvaju „%1” užo jość.\n"
 "Chočaš jaje zamianić?"
 
-#: bgadvanced.cpp:452
+#: bgadvanced.cpp:447
 msgid "Overwrite"
 msgstr "Zamiani"
 
-#: bgadvanced.cpp:458
+#: bgadvanced.cpp:453
 msgid ""
 "You did not fill in the `Executable' field.\n"
 "This is a required field."
@@ -131,7 +131,7 @@ msgstr ""
 "Ty nie zapoŭniŭ pole „Vykonvalny fajł”.\n"
 "Heta abaviazkova."
 
-#: bgadvanced.cpp:463
+#: bgadvanced.cpp:458
 msgid ""
 "You did not fill in the `Command' field.\n"
 "This is a required field."
@@ -139,11 +139,11 @@ msgstr ""
 "Ty nie zapoŭniŭ pole „Zahad”.\n"
 "Heta abaviazkova."
 
-#: bgdialog.cpp:117
+#: bgdialog.cpp:114
 msgid "Open file dialog"
 msgstr "Adčyni akno fajłaŭ"
 
-#: bgdialog.cpp:351
+#: bgdialog.cpp:348
 msgid ""
 "<p><h1>Background</h1> This module allows you to control the appearance of "
 "the virtual desktops. KDE offers a variety of options for customization, "
@@ -162,128 +162,128 @@ msgid ""
 "is updated periodically.</p>"
 msgstr ""
 
-#: bgdialog.cpp:404
+#: bgdialog.cpp:401
 #, kde-format
 msgid "Screen %1"
 msgstr "Ekran %1"
 
-#: bgdialog.cpp:407
+#: bgdialog.cpp:404
 msgid "Single Color"
 msgstr "Adzin koler"
 
-#: bgdialog.cpp:408
+#: bgdialog.cpp:405
 msgid "Horizontal Gradient"
 msgstr "Haryzantalny hradyjent"
 
-#: bgdialog.cpp:409
+#: bgdialog.cpp:406
 msgid "Vertical Gradient"
 msgstr "Vertykalny hradyjent"
 
-#: bgdialog.cpp:410
+#: bgdialog.cpp:407
 msgid "Pyramid Gradient"
 msgstr "Piramidavy hradyjent"
 
-#: bgdialog.cpp:411
+#: bgdialog.cpp:408
 msgid "Pipecross Gradient"
 msgstr "Kryžovy hradyjent"
 
-#: bgdialog.cpp:412
+#: bgdialog.cpp:409
 msgid "Elliptic Gradient"
 msgstr "Avalny hradyjent"
 
-#: bgdialog.cpp:427
+#: bgdialog.cpp:424
 msgid "Centered"
 msgstr "Pasiarod"
 
-#: bgdialog.cpp:428
+#: bgdialog.cpp:425
 msgid "Tiled"
 msgstr "Kafla"
 
-#: bgdialog.cpp:429
+#: bgdialog.cpp:426
 msgid "Center Tiled"
 msgstr "Kafla pasiarod"
 
-#: bgdialog.cpp:430
+#: bgdialog.cpp:427
 msgid "Centered Maxpect"
 msgstr ""
 
-#: bgdialog.cpp:431
+#: bgdialog.cpp:428
 msgid "Tiled Maxpect"
 msgstr ""
 
-#: bgdialog.cpp:432
+#: bgdialog.cpp:429
 msgid "Scaled"
 msgstr "Zmaštabavany"
 
-#: bgdialog.cpp:433
+#: bgdialog.cpp:430
 msgid "Centered Auto Fit"
 msgstr "Pasiarod, dapasavanaje"
 
-#: bgdialog.cpp:434
+#: bgdialog.cpp:431
 msgid "Scale & Crop"
 msgstr "Zmaštabavany j abatnuty"
 
-#: bgdialog.cpp:437
+#: bgdialog.cpp:434
 msgid "No Blending"
 msgstr "Biez damieškaŭ"
 
-#: bgdialog.cpp:438
+#: bgdialog.cpp:435
 msgid "Flat"
 msgstr "Roŭny"
 
-#: bgdialog.cpp:439
+#: bgdialog.cpp:436
 msgid "Horizontal"
 msgstr "Haryzantalny"
 
-#: bgdialog.cpp:440
+#: bgdialog.cpp:437
 msgid "Vertical"
 msgstr "Vertykalny"
 
-#: bgdialog.cpp:441
+#: bgdialog.cpp:438
 msgid "Pyramid"
 msgstr "Piramidavy"
 
-#: bgdialog.cpp:442
+#: bgdialog.cpp:439
 msgid "Pipecross"
 msgstr "Kryžovy"
 
-#: bgdialog.cpp:443
+#: bgdialog.cpp:440
 msgid "Elliptic"
 msgstr "Avalny"
 
-#: bgdialog.cpp:444
+#: bgdialog.cpp:441
 #, fuzzy
 msgid "Intensity"
 msgstr "Nasyčanaść"
 
-#: bgdialog.cpp:445
+#: bgdialog.cpp:442
 #, fuzzy
 msgid "Saturation"
 msgstr "Nasyčanaść"
 
-#: bgdialog.cpp:446
+#: bgdialog.cpp:443
 msgid "Contrast"
 msgstr "Kantrast"
 
-#: bgdialog.cpp:447
+#: bgdialog.cpp:444
 msgid "Hue Shift"
 msgstr "Zruch adcieńnia"
 
-#: bgdialog.cpp:592
+#: bgdialog.cpp:589
 msgid "Select Wallpaper"
 msgstr "Vybiery špalery"
 
-#: bgmonitor.cpp:52
+#: bgmonitor.cpp:51
 msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
 msgstr "Hetaja vyjava ekrana pakazvaje padhlad dla dziejnych naładaŭ."
 
-#: bgwallpaper.cpp:114
+#: bgwallpaper.cpp:112
 msgid "Setup Slide Show"
 msgstr "Naładź pakaz słajdaŭ"
 
-#: bgwallpaper.cpp:123
+#: bgwallpaper.cpp:121
 #, fuzzy
 #| msgid " min"
 msgid " minute"
@@ -292,7 +292,7 @@ msgstr[0] " chv"
 msgstr[1] " chv"
 msgstr[2] " chv"
 
-#: bgwallpaper.cpp:171
+#: bgwallpaper.cpp:169
 msgid "Select Image"
 msgstr "Vybiery vyjavu"
 

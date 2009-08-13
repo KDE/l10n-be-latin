@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-06 06:18+0200\n"
+"POT-Creation-Date: 2009-08-13 06:22+0200\n"
 "PO-Revision-Date: 2008-12-11 21:45+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -449,9 +449,8 @@ msgstr "Pamier padručnaj pamiaci dla fonu:"
 #. i18n: file: bgadvanced_ui.ui:160
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, m_spinCache)
 #: rc.cpp:68 rc.cpp:265
-#, fuzzy
-msgid " k"
-msgstr " kB"
+msgid " KiB"
+msgstr ""
 
 #. i18n: file: bgdialog_ui.ui:80
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonIdentifyScreens)
@@ -707,3 +706,7 @@ msgstr "Pasuń &nižej"
 #: rc.cpp:197 rc.cpp:394
 msgid "Move &Up"
 msgstr "Pasuń &vyšej"
+
+#, fuzzy
+#~ msgid " k"
+#~ msgstr " kB"

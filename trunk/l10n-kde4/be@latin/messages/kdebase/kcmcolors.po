@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-31 06:15+0200\n"
+"POT-Creation-Date: 2009-08-29 07:18+0200\n"
 "PO-Revision-Date: 2008-11-04 17:27+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -829,6 +829,9 @@ msgstr "Fon akna"
 #. i18n: file: preview.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:378 rc.cpp:974
+#, fuzzy
+#| msgid "Window text"
+msgctxt "color-kcm-preview"
 msgid "Window text"
 msgstr "Tekst akna"
 
@@ -841,6 +844,9 @@ msgstr ""
 #. i18n: file: preview.ui:66
 #. i18n: ectx: property (text), widget (QLabel, labelView0)
 #: rc.cpp:384 rc.cpp:980
+#, fuzzy
+#| msgid "Normal text"
+msgctxt "color-kcm-preview"
 msgid "Normal text"
 msgstr "Zvyčajny tekst"
 
@@ -854,20 +860,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelView3)
 #. i18n: file: preview.ui:199
 #. i18n: ectx: property (text), widget (QLabel, labelSelection3)
-#. i18n: file: setpreview.ui:59
-#. i18n: ectx: property (text), widget (QLabel, labelFore3)
-#. i18n: file: setpreview.ui:214
-#. i18n: ectx: property (text), widget (QLabel, labelBack3)
 #. i18n: file: preview.ui:81
 #. i18n: ectx: property (text), widget (QLabel, labelView3)
 #. i18n: file: preview.ui:199
 #. i18n: ectx: property (text), widget (QLabel, labelSelection3)
-#. i18n: file: setpreview.ui:59
-#. i18n: ectx: property (text), widget (QLabel, labelFore3)
-#. i18n: file: setpreview.ui:214
-#. i18n: ectx: property (text), widget (QLabel, labelBack3)
-#: rc.cpp:390 rc.cpp:438 rc.cpp:492 rc.cpp:547 rc.cpp:986 rc.cpp:1034
-#: rc.cpp:1088 rc.cpp:1143
+#: rc.cpp:390 rc.cpp:438 rc.cpp:986 rc.cpp:1034
+#, fuzzy
+#| msgid "link"
+msgctxt "color-kcm-preview"
 msgid "link"
 msgstr "łuč"
 
@@ -881,21 +881,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelView4)
 #. i18n: file: preview.ui:214
 #. i18n: ectx: property (text), widget (QLabel, labelSelection4)
-#. i18n: file: setpreview.ui:80
-#. i18n: ectx: property (text), widget (QLabel, labelFore4)
-#. i18n: file: setpreview.ui:236
-#. i18n: ectx: property (text), widget (QLabel, labelBack4)
 #. i18n: file: preview.ui:96
 #. i18n: ectx: property (text), widget (QLabel, labelView4)
 #. i18n: file: preview.ui:214
 #. i18n: ectx: property (text), widget (QLabel, labelSelection4)
-#. i18n: file: setpreview.ui:80
-#. i18n: ectx: property (text), widget (QLabel, labelFore4)
-#. i18n: file: setpreview.ui:236
-#. i18n: ectx: property (text), widget (QLabel, labelBack4)
-#: rc.cpp:396 rc.cpp:444 rc.cpp:498 rc.cpp:554 rc.cpp:992 rc.cpp:1040
-#: rc.cpp:1094 rc.cpp:1150
+#: rc.cpp:396 rc.cpp:444 rc.cpp:992 rc.cpp:1040
 #, fuzzy
+msgctxt "color-kcm-preview"
 msgid "visited"
 msgstr "vykarystany"
 
@@ -914,7 +906,10 @@ msgstr ""
 #. i18n: file: preview.ui:224
 #. i18n: ectx: property (text), widget (QLabel, labelSelection2)
 #: rc.cpp:402 rc.cpp:450 rc.cpp:998 rc.cpp:1046
-msgctxt "active (abbreviate)"
+#, fuzzy
+#| msgctxt "active (abbreviate)"
+#| msgid "a"
+msgctxt "color-kcm-preview"
 msgid "a"
 msgstr "d"
 
@@ -933,7 +928,10 @@ msgstr ""
 #. i18n: file: preview.ui:234
 #. i18n: ectx: property (text), widget (QLabel, labelSelection1)
 #: rc.cpp:408 rc.cpp:456 rc.cpp:1004 rc.cpp:1052
-msgctxt "inactive (abbreviate)"
+#, fuzzy
+#| msgctxt "inactive (abbreviate)"
+#| msgid "i"
+msgctxt "color-kcm-preview"
 msgid "i"
 msgstr "n"
 
@@ -953,6 +951,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelSelection5)
 #: rc.cpp:414 rc.cpp:462 rc.cpp:1010 rc.cpp:1058
 #, fuzzy
+msgctxt "color-kcm-preview"
 msgid "!"
 msgstr "!"
 
@@ -972,6 +971,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelSelection6)
 #: rc.cpp:420 rc.cpp:468 rc.cpp:1016 rc.cpp:1064
 #, fuzzy
+msgctxt "color-kcm-preview"
 msgid "="
 msgstr "="
 
@@ -991,6 +991,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelSelection7)
 #: rc.cpp:426 rc.cpp:474 rc.cpp:1022 rc.cpp:1070
 #, fuzzy
+msgctxt "color-kcm-preview"
 msgid "+"
 msgstr "+"
 
@@ -1003,6 +1004,9 @@ msgstr ""
 #. i18n: file: preview.ui:184
 #. i18n: ectx: property (text), widget (QLabel, labelSelection0)
 #: rc.cpp:432 rc.cpp:1028
+#, fuzzy
+#| msgid "Selected text"
+msgctxt "color-kcm-preview"
 msgid "Selected text"
 msgstr "Vyłučany tekst"
 
@@ -1059,6 +1063,9 @@ msgstr "Fon knopki"
 #. i18n: file: preview.ui:296
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: rc.cpp:480 rc.cpp:1076
+#, fuzzy
+#| msgid "Push Button"
+msgctxt "color-kcm-preview"
 msgid "Push Button"
 msgstr "Knopka"
 
@@ -1085,6 +1092,7 @@ msgstr "Zvyčajny fon"
 #. i18n: file: setpreview.ui:192
 #. i18n: ectx: property (text), widget (QLabel, labelBack0)
 #: rc.cpp:486 rc.cpp:540 rc.cpp:1082 rc.cpp:1136
+msgctxt "color-kcm-set-preview"
 msgid "normal"
 msgstr ""
 
@@ -1096,6 +1104,21 @@ msgstr ""
 msgid "Link Text on Normal Background"
 msgstr "Zvyčajny fon"
 
+#. i18n: file: setpreview.ui:59
+#. i18n: ectx: property (text), widget (QLabel, labelFore3)
+#. i18n: file: setpreview.ui:214
+#. i18n: ectx: property (text), widget (QLabel, labelBack3)
+#. i18n: file: setpreview.ui:59
+#. i18n: ectx: property (text), widget (QLabel, labelFore3)
+#. i18n: file: setpreview.ui:214
+#. i18n: ectx: property (text), widget (QLabel, labelBack3)
+#: rc.cpp:492 rc.cpp:547 rc.cpp:1088 rc.cpp:1143
+#, fuzzy
+#| msgid "link"
+msgctxt "color-kcm-set-preview"
+msgid "link"
+msgstr "łuč"
+
 #. i18n: file: setpreview.ui:77
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore4)
 #: rc.cpp:495 rc.cpp:1091
@@ -1103,6 +1126,20 @@ msgstr "Zvyčajny fon"
 #| msgid "Normal Background"
 msgid "Visited Text on Normal Background"
 msgstr "Zvyčajny fon"
+
+#. i18n: file: setpreview.ui:80
+#. i18n: ectx: property (text), widget (QLabel, labelFore4)
+#. i18n: file: setpreview.ui:236
+#. i18n: ectx: property (text), widget (QLabel, labelBack4)
+#. i18n: file: setpreview.ui:80
+#. i18n: ectx: property (text), widget (QLabel, labelFore4)
+#. i18n: file: setpreview.ui:236
+#. i18n: ectx: property (text), widget (QLabel, labelBack4)
+#: rc.cpp:498 rc.cpp:554 rc.cpp:1094 rc.cpp:1150
+#, fuzzy
+msgctxt "color-kcm-set-preview"
+msgid "visited"
+msgstr "vykarystany"
 
 #. i18n: file: setpreview.ui:90
 #. i18n: ectx: property (toolTip), widget (QWidget, widgetFore2)
@@ -1121,8 +1158,10 @@ msgstr "Zvyčajny fon"
 #. i18n: file: setpreview.ui:253
 #. i18n: ectx: property (text), widget (QLabel, labelBack2)
 #: rc.cpp:504 rc.cpp:561 rc.cpp:1100 rc.cpp:1157
+#, fuzzy
+msgctxt "color-kcm-set-preview"
 msgid "active"
-msgstr ""
+msgstr "Niadziejny"
 
 #. i18n: file: setpreview.ui:109
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore1)
@@ -1135,8 +1174,10 @@ msgstr "Zvyčajny fon"
 #. i18n: file: setpreview.ui:112
 #. i18n: ectx: property (text), widget (QLabel, labelFore1)
 #: rc.cpp:510 rc.cpp:1106
+#, fuzzy
+msgctxt "color-kcm-set-preview"
 msgid "inactive"
-msgstr ""
+msgstr "Niadziejny"
 
 #. i18n: file: setpreview.ui:125
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore5)
@@ -1155,8 +1196,10 @@ msgstr "Zvyčajny fon"
 #. i18n: file: setpreview.ui:286
 #. i18n: ectx: property (text), widget (QLabel, labelBack5)
 #: rc.cpp:516 rc.cpp:574 rc.cpp:1112 rc.cpp:1170
+#, fuzzy
+msgctxt "color-kcm-set-preview"
 msgid "negative"
-msgstr ""
+msgstr "Niadziejny"
 
 #. i18n: file: setpreview.ui:141
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore6)
@@ -1175,6 +1218,7 @@ msgstr "Zvyčajny fon"
 #. i18n: file: setpreview.ui:303
 #. i18n: ectx: property (text), widget (QLabel, labelBack6)
 #: rc.cpp:522 rc.cpp:581 rc.cpp:1118 rc.cpp:1177
+msgctxt "color-kcm-set-preview"
 msgid "neutral"
 msgstr ""
 
@@ -1195,6 +1239,7 @@ msgstr "Zvyčajny fon"
 #. i18n: file: setpreview.ui:320
 #. i18n: ectx: property (text), widget (QLabel, labelBack7)
 #: rc.cpp:528 rc.cpp:588 rc.cpp:1124 rc.cpp:1184
+msgctxt "color-kcm-set-preview"
 msgid "positive"
 msgstr ""
 
@@ -1209,6 +1254,7 @@ msgstr "Zvyčajny fon"
 #. i18n: file: setpreview.ui:176
 #. i18n: ectx: property (text), widget (QLabel, labelFore8)
 #: rc.cpp:534 rc.cpp:1130
+msgctxt "color-kcm-set-preview"
 msgid "hover"
 msgstr ""
 
@@ -1250,6 +1296,7 @@ msgstr "Dadatkovy fon"
 #. i18n: file: setpreview.ui:269
 #. i18n: ectx: property (text), widget (QLabel, labelBack1)
 #: rc.cpp:567 rc.cpp:1163
+msgctxt "color-kcm-set-preview"
 msgid "alternate"
 msgstr ""
 
@@ -1291,6 +1338,7 @@ msgstr "Zvyčajny fon"
 #. i18n: file: setpreview.ui:336
 #. i18n: ectx: property (text), widget (QLabel, labelFore9)
 #: rc.cpp:594 rc.cpp:1190
+msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr ""
 

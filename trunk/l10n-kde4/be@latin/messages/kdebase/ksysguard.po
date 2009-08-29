@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-27 07:10+0200\n"
+"POT-Creation-Date: 2009-08-29 07:19+0200\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -624,7 +624,7 @@ msgstr "Termin aktualizacyi:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: TimerSettings.cc:59 rc.cpp:26 WorkSheetSettings.cc:95
+#: TimerSettings.cc:59 rc.cpp:23 WorkSheetSettings.cc:95
 msgid " sec"
 msgstr " sek"
 
@@ -753,7 +753,7 @@ msgstr "Zekspartuj kartku"
 msgid "There are no tabs that could be deleted."
 msgstr "U ciabie niama kartak, jakija možna vydalić."
 
-#: Workspace.cc:294
+#: Workspace.cc:300
 #, kde-format
 msgid ""
 "<qt>To propose the current custom tab as a new System Monitor tab, email "
@@ -762,7 +762,7 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: Workspace.cc:294
+#: Workspace.cc:300
 #, fuzzy
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
@@ -780,7 +780,7 @@ msgstr "Intervał"
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
-#: SensorDisplayLib/DancingBarsSettings.cc:58 rc.cpp:92 rc.cpp:107
+#: SensorDisplayLib/DancingBarsSettings.cc:58 rc.cpp:89 rc.cpp:104
 #: WorkSheetSettings.cc:51
 msgid "Title"
 msgstr "Nazva"
@@ -788,7 +788,7 @@ msgstr "Nazva"
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, m_title)
 #: SensorDisplayLib/DancingBarsSettings.cc:63
-#: SensorDisplayLib/FancyPlotterSettings.cc:75 rc.cpp:56
+#: SensorDisplayLib/FancyPlotterSettings.cc:75 rc.cpp:53
 msgid "Enter the title of the display here."
 msgstr "Tut upišy nazvu prahladu."
 
@@ -828,7 +828,7 @@ msgstr "Tryvoha"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: SensorDisplayLib/DancingBarsSettings.cc:108 rc.cpp:29
+#: SensorDisplayLib/DancingBarsSettings.cc:108 rc.cpp:26
 msgid "Alarm for Minimum Value"
 msgstr "Tryvoha dla najmienšaj vartaści"
 
@@ -841,19 +841,19 @@ msgstr "Uklučy tryvohu"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:56
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cc:114 rc.cpp:35 rc.cpp:65
+#: SensorDisplayLib/DancingBarsSettings.cc:114 rc.cpp:32 rc.cpp:62
 msgid "Enable the minimum value alarm."
 msgstr "Uklučy tryvohu dla najmienšaj vartaści."
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:97
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: SensorDisplayLib/DancingBarsSettings.cc:117 rc.cpp:38
+#: SensorDisplayLib/DancingBarsSettings.cc:117 rc.cpp:35
 msgid "Lower limit:"
 msgstr "Nižniaja miaža:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:123
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
-#: SensorDisplayLib/DancingBarsSettings.cc:131 rc.cpp:41
+#: SensorDisplayLib/DancingBarsSettings.cc:131 rc.cpp:38
 msgid "Alarm for Maximum Value"
 msgstr "Tryvoha dla najbolšaj vartaści"
 
@@ -861,13 +861,13 @@ msgstr "Tryvoha dla najbolšaj vartaści"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:115
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cc:137 rc.cpp:47 rc.cpp:74
+#: SensorDisplayLib/DancingBarsSettings.cc:137 rc.cpp:44 rc.cpp:71
 msgid "Enable the maximum value alarm."
 msgstr "Uklučy tryvohu dla najbolšaj vartaści."
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:161
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: SensorDisplayLib/DancingBarsSettings.cc:140 rc.cpp:50
+#: SensorDisplayLib/DancingBarsSettings.cc:140 rc.cpp:47
 msgid "Upper limit:"
 msgstr "Vierchniaja miaža:"
 
@@ -894,7 +894,7 @@ msgstr "Nadzvyčajny koler:"
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:74
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: SensorDisplayLib/DancingBarsSettings.cc:176 SensorDisplayLib/LogFile.cc:100
-#: rc.cpp:89 rc.cpp:104 rc.cpp:116 rc.cpp:131
+#: rc.cpp:86 rc.cpp:101 rc.cpp:113 rc.cpp:128
 msgid "Background color:"
 msgstr "Koler fonu:"
 
@@ -1066,7 +1066,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
-#: SensorDisplayLib/FancyPlotterSettings.cc:196 rc.cpp:95 rc.cpp:110
+#: SensorDisplayLib/FancyPlotterSettings.cc:196 rc.cpp:92 rc.cpp:107
 msgid "Colors"
 msgstr "Kolery"
 
@@ -1102,12 +1102,12 @@ msgstr "Pasuń nižej"
 msgid "Sensor Logger"
 msgstr "Zapis źviestak ad sensara"
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:214
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:213
 msgid "OK"
 msgstr "Ok"
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:214
-#: SensorDisplayLib/FancyPlotter.cc:440 SensorDisplayLib/FancyPlotter.cc:508
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:213
+#: SensorDisplayLib/FancyPlotter.cc:439 SensorDisplayLib/FancyPlotter.cc:507
 msgid "Error"
 msgstr "Pamyłka"
 
@@ -1131,79 +1131,79 @@ msgstr ""
 "myšy j vybiery punkt <i>Ułaścivaści</i> z uźnikłaha menu. Kab vydalić "
 "prahlad z rabočaha arkuša, vybiery punkt <i>Vydali</i>.</p>%1</qt>"
 
-#: SensorDisplayLib/FancyPlotter.cc:108
+#: SensorDisplayLib/FancyPlotter.cc:107
 msgctxt "Largest axis title"
 msgid "99999 XXXX"
 msgstr "99999 XXXX"
 
-#: SensorDisplayLib/FancyPlotter.cc:436 SensorDisplayLib/FancyPlotter.cc:499
-#: SensorDisplayLib/FancyPlotter.cc:555
+#: SensorDisplayLib/FancyPlotter.cc:435 SensorDisplayLib/FancyPlotter.cc:498
+#: SensorDisplayLib/FancyPlotter.cc:559
 #, kde-format
 msgctxt "units"
 msgid "%1%"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:443
+#: SensorDisplayLib/FancyPlotter.cc:442
 #, fuzzy, kde-format
 msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr "<p><b>%1:</b><br>"
 
-#: SensorDisplayLib/FancyPlotter.cc:506
+#: SensorDisplayLib/FancyPlotter.cc:505
 #, fuzzy, kde-format
 msgctxt "%1 and %2 are sensor's last and maximum value"
 msgid "%1 of %2"
 msgstr "%1 z %2"
 
-#: SensorDisplayLib/FancyPlotter.cc:528
+#: SensorDisplayLib/FancyPlotter.cc:532
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:531
+#: SensorDisplayLib/FancyPlotter.cc:535
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:534
+#: SensorDisplayLib/FancyPlotter.cc:538
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:537
+#: SensorDisplayLib/FancyPlotter.cc:541
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:542
+#: SensorDisplayLib/FancyPlotter.cc:546
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:545
+#: SensorDisplayLib/FancyPlotter.cc:549
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:548
+#: SensorDisplayLib/FancyPlotter.cc:552
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:551
+#: SensorDisplayLib/FancyPlotter.cc:555
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:557
+#: SensorDisplayLib/FancyPlotter.cc:561
 #, fuzzy, kde-format
 #| msgctxt "a percentage"
 #| msgid "%"
@@ -1217,7 +1217,7 @@ msgstr "Zapis logaŭ"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
 #. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
-#: SensorDisplayLib/SensorLogger.cc:141 rc.cpp:23
+#: SensorDisplayLib/SensorLogger.cc:141 rc.cpp:20
 msgid "Timer Interval"
 msgstr "Intervał hadzińnika"
 
@@ -1275,7 +1275,7 @@ msgstr "Nałady fajła dla logaŭ"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cc:98 rc.cpp:128
+#: SensorDisplayLib/LogFile.cc:98 rc.cpp:125
 msgid "Foreground color:"
 msgstr "Hałoŭny koler:"
 
@@ -1314,44 +1314,38 @@ msgid "&File"
 msgstr "&Fajł"
 
 #. i18n: file: ksysguardui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:6
-msgid "&Edit"
-msgstr "&Redahuj"
-
-#. i18n: file: ksysguardui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:9
+#: rc.cpp:6
 #, fuzzy
 #| msgid "&File"
 msgid "&View"
 msgstr "&Fajł"
 
-#. i18n: file: ksysguardui.rc:20
+#. i18n: file: ksysguardui.rc:18
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:12
+#: rc.cpp:9
 msgid "&Settings"
 msgstr "&Nałady"
 
-#. i18n: file: ksysguardui.rc:23
+#. i18n: file: ksysguardui.rc:21
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:15
+#: rc.cpp:12
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: rc.cpp:16
+#: rc.cpp:13
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
-#: rc.cpp:17
+#: rc.cpp:14
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
-#: rc.cpp:20
+#: rc.cpp:17
 msgid "File"
 msgstr "Fajł"
 
@@ -1359,7 +1353,7 @@ msgstr "Fajł"
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
-#: rc.cpp:32 rc.cpp:68
+#: rc.cpp:29 rc.cpp:65
 msgid "&Enable alarm"
 msgstr "&Uklučy tryvožny syhnał"
 
@@ -1367,13 +1361,13 @@ msgstr "&Uklučy tryvožny syhnał"
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:118
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
-#: rc.cpp:44 rc.cpp:77
+#: rc.cpp:41 rc.cpp:74
 msgid "E&nable alarm"
 msgstr "U&klučy tryvožny syhnał"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:53
+#: rc.cpp:50
 #, fuzzy
 #| msgid "Title:"
 msgid "&Title:"
@@ -1381,37 +1375,37 @@ msgstr "Nazva:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:42
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
-#: rc.cpp:59
+#: rc.cpp:56
 msgid "Enable this to append the unit to the title of the display."
 msgstr "Uklučy hetuju opcyju, kab dadać da nazvy prahladu adzinku vymiareńnia."
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, m_showUnit)
-#: rc.cpp:62
+#: rc.cpp:59
 msgid "&Show unit"
 msgstr "&Pakazvaj adzinku vymiareńnia"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:85
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: rc.cpp:71
+#: rc.cpp:68
 msgid "Lo&wer limit:"
 msgstr "&Nižni kraj:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:144
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: rc.cpp:80
+#: rc.cpp:77
 msgid "&Upper limit:"
 msgstr "&Vierchni kraj:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:174
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:83
+#: rc.cpp:80
 msgid "Normal digit color:"
 msgstr "Zvyčajny koler ličbaŭ:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:201
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:86
+#: rc.cpp:83
 msgid "Alarm digit color:"
 msgstr "Tryvožny koler ličbaŭ:"
 
@@ -1419,31 +1413,31 @@ msgstr "Tryvožny koler ličbaŭ:"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:98 rc.cpp:113
+#: rc.cpp:95 rc.cpp:110
 msgid "Text color:"
 msgstr "Koler tekstu:"
 
 #. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:64
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:101
+#: rc.cpp:98
 msgid "Grid color:"
 msgstr "Koler sietki:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:119
+#: rc.cpp:116
 msgid "Alarm color:"
 msgstr "Tryvožny koler:"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:28
 #. i18n: ectx: attribute (title), widget (QWidget, textTab)
-#: rc.cpp:122
+#: rc.cpp:119
 msgid "&Text"
 msgstr "&Tekst"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:125
+#: rc.cpp:122
 #, fuzzy
 #| msgid "Title:"
 msgid "T&itle:"
@@ -1451,25 +1445,25 @@ msgstr "Nazva:"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:154
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:134
+#: rc.cpp:131
 msgid "Fi&lter"
 msgstr "&Filter"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:175
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:137
+#: rc.cpp:134
 msgid "&Add"
 msgstr "&Dadaj"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:182
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:140
+#: rc.cpp:137
 msgid "&Delete"
 msgstr "&Vydali"
 
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:189
 #. i18n: ectx: property (text), widget (QPushButton, changeButton)
-#: rc.cpp:143
+#: rc.cpp:140
 msgid "&Change"
 msgstr "&Źmiani"
 
@@ -1477,31 +1471,31 @@ msgstr "&Źmiani"
 #. i18n: file: ./ProcessTable.sgrd:3
 #. i18n: tag display attribute title
 #. i18n: file: ./ProcessTable.sgrd:5
-#: rc.cpp:146 rc.cpp:149
+#: rc.cpp:143 rc.cpp:146
 msgid "Process Table"
 msgstr "Tablica pracesaŭ"
 
 #. i18n: tag WorkSheet attribute title
 #. i18n: file: ./SystemLoad2.sgrd:3
-#: rc.cpp:152
+#: rc.cpp:149
 msgid "System Load"
 msgstr "Zaniataść systemy"
 
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad2.sgrd:5
-#: rc.cpp:155
+#: rc.cpp:152
 msgid "CPU History"
 msgstr "Historyja pracesara"
 
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad2.sgrd:8
-#: rc.cpp:158
+#: rc.cpp:155
 msgid "Memory and Swap History"
 msgstr "Historyja pamiaci"
 
 #. i18n: tag display attribute title
 #. i18n: file: ./SystemLoad2.sgrd:12
-#: rc.cpp:161
+#: rc.cpp:158
 msgid "Network History"
 msgstr "Historyja sietki"
 
@@ -1570,49 +1564,49 @@ msgstr ""
 msgid "KDE System Monitor"
 msgstr "Systemny nazirańnik „KDE”"
 
-#: ksysguard.cc:158 ksysguard.cc:527
+#: ksysguard.cc:154 ksysguard.cc:529
 msgid "System Monitor"
 msgstr "Systemny nazirańnik"
 
-#: ksysguard.cc:159
+#: ksysguard.cc:155
 msgid "&Refresh Tab"
 msgstr ""
 
-#: ksysguard.cc:160
+#: ksysguard.cc:156
 msgid "&New Tab..."
 msgstr "&Novaja kartka..."
 
-#: ksysguard.cc:161
+#: ksysguard.cc:157
 msgid "Import Tab Fr&om File..."
 msgstr "Z&impartuj kartku z fajła..."
 
-#: ksysguard.cc:162
+#: ksysguard.cc:158
 msgid "Save Tab &As..."
 msgstr "Zapišy kartku &jak..."
 
-#: ksysguard.cc:163
+#: ksysguard.cc:159
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
-#: ksysguard.cc:164
+#: ksysguard.cc:160
 msgid "Monitor &Remote Machine..."
 msgstr "Naziraj za &dalokim kamputaram..."
 
-#: ksysguard.cc:165
+#: ksysguard.cc:161
 msgid "&Download New Tabs..."
 msgstr "&Vaźmi novych kartak..."
 
-#: ksysguard.cc:166
+#: ksysguard.cc:162
 #, fuzzy
 #| msgid "&Download New Tabs..."
 msgid "&Upload Current Tab..."
 msgstr "&Vaźmi novych kartak..."
 
-#: ksysguard.cc:168
+#: ksysguard.cc:164
 msgid "Tab &Properties"
 msgstr "&Ułaścivaści kartki"
 
-#: ksysguard.cc:357
+#: ksysguard.cc:359
 #, fuzzy, kde-format
 msgid " 1 process "
 msgid_plural " %1 processes "
@@ -1620,81 +1614,81 @@ msgstr[0] " %1 pracesaŭ "
 msgstr[1] " %1 pracesaŭ "
 msgstr[2] " %1 pracesaŭ "
 
-#: ksysguard.cc:441
+#: ksysguard.cc:443
 #, fuzzy, kde-format
 msgid " CPU: %1% "
 msgstr " Pracesar: %1% "
 
-#: ksysguard.cc:455
+#: ksysguard.cc:457
 #, fuzzy, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Memory: %1 / %2 "
 msgstr " Pamiać: %1 / %2 "
 
-#: ksysguard.cc:482
+#: ksysguard.cc:484
 #, fuzzy
 msgid " No swap space available "
 msgstr " Niama pamiaci na padmien "
 
-#: ksysguard.cc:484
+#: ksysguard.cc:486
 #, fuzzy, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid " Swap: %1 / %2 "
 msgstr " Padmien: %1 / %2 "
 
-#: ksysguard.cc:529
+#: ksysguard.cc:531
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "© 1996-2008 Raspracoŭniki prahramy „Systemny nazirańnik KDE”"
 
-#: ksysguard.cc:530
+#: ksysguard.cc:532
 msgid "John Tapsell"
 msgstr "John Tapsell"
 
-#: ksysguard.cc:530
+#: ksysguard.cc:532
 msgid "Current Maintainer"
 msgstr "Ciapierašni dahladnik"
 
-#: ksysguard.cc:531
+#: ksysguard.cc:533
 msgid "Chris Schlaeger"
 msgstr "Chris Schlaeger"
 
-#: ksysguard.cc:531
+#: ksysguard.cc:533
 msgid "Previous Maintainer"
 msgstr "Były dahladnik"
 
-#: ksysguard.cc:532
+#: ksysguard.cc:534
 msgid "Greg Martyn"
 msgstr "Greg Martyn"
 
-#: ksysguard.cc:533
+#: ksysguard.cc:535
 msgid "Tobias Koenig"
 msgstr "Tobias Koenig"
 
-#: ksysguard.cc:534
+#: ksysguard.cc:536
 msgid "Nicolas Leclercq"
 msgstr "Nicolas Leclercq"
 
-#: ksysguard.cc:535
+#: ksysguard.cc:537
 msgid "Alex Sanda"
 msgstr "Alex Sanda"
 
-#: ksysguard.cc:536
+#: ksysguard.cc:538
 msgid "Bernd Johannes Wuebben"
 msgstr "Bernd Johannes Wuebben"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:539
 msgid "Ralf Mueller"
 msgstr "Ralf Mueller"
 
-#: ksysguard.cc:538
+#: ksysguard.cc:540
 msgid "Hamish Rodda"
 msgstr "Hamish Rodda"
 
-#: ksysguard.cc:539
+#: ksysguard.cc:541
 msgid "Torsten Kasch"
 msgstr "Torsten Kasch"
 
-#: ksysguard.cc:539
+#: ksysguard.cc:541
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
@@ -1704,9 +1698,12 @@ msgstr ""
 "Častkova kod uziaty (z dazvołam) z modula prahramy „top”\n"
 "ad William'a LeFebvre'a dla systemy „sunos5”."
 
-#: ksysguard.cc:548
+#: ksysguard.cc:550
 msgid "Optional worksheet files to load"
 msgstr "Dadatkovyja fajły rabočych arkušoŭ"
+
+#~ msgid "&Edit"
+#~ msgstr "&Redahuj"
 
 #, fuzzy
 #~| msgid "Automatic range detection"

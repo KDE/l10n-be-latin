@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-25 07:58+0200\n"
+"POT-Creation-Date: 2009-09-01 01:20+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -227,7 +227,7 @@ msgstr "Vyšli list da..."
 msgid "Copy Email Address"
 msgstr "Skapijuj paštovy adras"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:492
+#: HistorySizeDialog.cpp:51 SessionController.cpp:490
 msgid "Scrollback Options"
 msgstr "Opcyi historyi prakrutki"
 
@@ -567,7 +567,7 @@ msgstr "Kiruj profilami..."
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: MainWindow.cpp:348 SessionController.cpp:601
+#: MainWindow.cpp:348 SessionController.cpp:599
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
@@ -1579,109 +1579,109 @@ msgstr "Kansol systemy „Solaris”"
 msgid "DEC VT420 Terminal"
 msgstr "Terminał „DEC VT420”"
 
-#: SessionController.cpp:378
+#: SessionController.cpp:376
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
-#: SessionController.cpp:384
+#: SessionController.cpp:382
 msgid "Open Browser Here"
 msgstr "Adčyni ŭ hartačy"
 
-#: SessionController.cpp:391
+#: SessionController.cpp:389
 msgid "&Copy"
 msgstr "&Skapijuj"
 
-#: SessionController.cpp:395
+#: SessionController.cpp:393
 msgid "&Paste"
 msgstr "&Uklej"
 
-#: SessionController.cpp:408
+#: SessionController.cpp:406
 msgid "Paste Selection"
 msgstr "Uklej vyłučeńnie"
 
-#: SessionController.cpp:414
+#: SessionController.cpp:412
 msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: SessionController.cpp:420
+#: SessionController.cpp:418
 msgid "Copy Input To..."
 msgstr "Skapijuj uvachodnyja źviestki ŭ..."
 
-#: SessionController.cpp:425
+#: SessionController.cpp:423
 msgid "C&lear Display"
 msgstr "&Vyčyści vykład"
 
-#: SessionController.cpp:430
+#: SessionController.cpp:428
 msgid "Clear && Reset"
 msgstr "Vyčyści j viarni nałady"
 
-#: SessionController.cpp:435
+#: SessionController.cpp:433
 msgid "Monitor for &Activity"
 msgstr "Sačy za &aktyŭnaściu"
 
-#: SessionController.cpp:440
+#: SessionController.cpp:438
 msgid "Monitor for &Silence"
 msgstr "Sačy za &cišynioju"
 
-#: SessionController.cpp:446
+#: SessionController.cpp:444
 msgid "Character Encoding"
 msgstr "Kadavańnie znakaŭ"
 
-#: SessionController.cpp:453
+#: SessionController.cpp:451
 msgid "Increase Text Size"
 msgstr "Pavialič pamier tekstu"
 
-#: SessionController.cpp:459
+#: SessionController.cpp:457
 msgid "Decrease Text Size"
 msgstr "Pamienš pamier tekstu"
 
-#: SessionController.cpp:465
+#: SessionController.cpp:463
 msgid "Search Output..."
 msgstr "Šukaj u vychodnych źviestkach..."
 
-#: SessionController.cpp:474
+#: SessionController.cpp:472
 msgid "Find Next"
 msgstr "Šukaj dalej"
 
-#: SessionController.cpp:481
+#: SessionController.cpp:479
 msgid "Find Previous"
 msgstr "Šukaj raniej"
 
-#: SessionController.cpp:487
+#: SessionController.cpp:485
 msgid "Save Output..."
 msgstr "Zapišy vychodnyja źviestki..."
 
-#: SessionController.cpp:497
+#: SessionController.cpp:495
 msgid "Clear Scrollback"
 msgstr "Vyčyści historyju prakrutki"
 
-#: SessionController.cpp:501
+#: SessionController.cpp:499
 msgid "Clear Scrollback && Reset"
 msgstr "Vyčyści historyju prakrutki j viarni nałady"
 
-#: SessionController.cpp:507
+#: SessionController.cpp:505
 msgid "Edit Current Profile..."
 msgstr "Adredahuj dziejny profil..."
 
-#: SessionController.cpp:511
+#: SessionController.cpp:509
 msgid "Change Profile"
 msgstr "Źmiani profil"
 
-#: SessionController.cpp:551
+#: SessionController.cpp:549
 msgid "Rename Tab"
 msgstr "Źmiani nazvu kartki"
 
-#: SessionController.cpp:552
+#: SessionController.cpp:550
 msgid "Enter new tab text:"
 msgstr "Upišy nazvu dla novaj kartki:"
 
-#: SessionController.cpp:595
+#: SessionController.cpp:593
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "U hetaj sesii ciapier pracuje prahrama. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:598
+#: SessionController.cpp:596
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1689,18 +1689,18 @@ msgid ""
 msgstr ""
 "U hetaj sesii ciapier pracuje prahrama „%1”. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:1101
+#: SessionController.cpp:1108
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapišy vychodnyja źviestki z „%1”"
 
-#: SessionController.cpp:1112
+#: SessionController.cpp:1119
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 "„%1” jość niapravilnym adrasam. Nie ŭdałosia zapisać vychodnyja źviestki."
 
-#: SessionController.cpp:1201
+#: SessionController.cpp:1208
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"

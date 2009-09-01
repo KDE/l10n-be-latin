@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-31 06:06+0200\n"
+"POT-Creation-Date: 2009-09-01 06:21+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6772,7 +6772,7 @@ msgstr "Bolej nie pakazvaj hetkich paviedamleńniaŭ"
 msgid "About %1"
 msgstr "Pra %1"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:123
+#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:125
 msgid "Configure"
 msgstr "Naładź"
 
@@ -8660,6 +8660,16 @@ msgstr "Paneli pryładździa"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "biaz nazvy"
+
+#: kdeui/widgets/kcmodule.cpp:170
+msgid "You will be asked to authenticate before saving"
+msgstr ""
+
+#: kdeui/widgets/kcmodule.cpp:174
+#, fuzzy
+#| msgid "Do you want to reload KDE configuration?"
+msgid "You are not allowed to save the configuration"
+msgstr "Pieračytać nałady KDE?"
 
 #: kdeui/widgets/kactionselector.cpp:94
 msgid "&Available:"
@@ -11385,8 +11395,13 @@ msgid "Send Confirmation"
 msgstr "Paćvierdžańnie vysyłańnia"
 
 #: khtml/html/html_formimpl.cpp:440
-msgid "&Send Files"
-msgstr "&Vyšli fajły"
+#, fuzzy
+#| msgid "&Send Files"
+msgid "&Send File"
+msgid_plural "&Send Files"
+msgstr[0] "&Vyšli fajły"
+msgstr[1] "&Vyšli fajły"
+msgstr[2] "&Vyšli fajły"
 
 #: khtml/html/html_formimpl.cpp:2619
 msgid "Key Generator"
@@ -12218,27 +12233,7 @@ msgstr "Nie ŭdałosia źmiaścić u pamiać kampanent padhladu vydruku."
 msgid "Print Preview"
 msgstr "Padhlad vydruku"
 
-#: kutils/kcmoduleproxy.cpp:131
-msgid ""
-"<b>Changes in this section require root access.</b><br />On applying your "
-"changes you will have to supply your root password."
-msgstr ""
-"<b>Źmieny ŭ hetym addziele patrabujuć dostupu roota.</b><br />Dla "
-"prymianieńnia źmienaŭ treba budzie padać parol roota."
-
-#: kutils/kcmoduleproxy.cpp:138
-msgid ""
-"This section requires special permissions, probably for system-wide changes; "
-"therefore, it is required that you provide the root password to be able to "
-"change the module's properties. If you cannot provide the password, the "
-"changes of the module cannot be saved "
-msgstr ""
-"Kab uździejničać na hety addzieł, patrebnyja asablivyja pravy, mabyć, dla "
-"ahulnasystemnych źmienaŭ. Tamu kab mahčy źmianiać ułaścivaści hetaha modula, "
-"treba padać parol roota. Kali ty nie padaš parol, źmieny modula nielha "
-"budzie zapisać."
-
-#: kutils/kcmoduleproxy.cpp:159
+#: kutils/kcmoduleproxy.cpp:165
 #, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
@@ -13178,6 +13173,24 @@ msgstr "Štodzionnyja &parady"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Niama takoj funkcyi: „%1”."
+
+#~ msgid ""
+#~ "<b>Changes in this section require root access.</b><br />On applying your "
+#~ "changes you will have to supply your root password."
+#~ msgstr ""
+#~ "<b>Źmieny ŭ hetym addziele patrabujuć dostupu roota.</b><br />Dla "
+#~ "prymianieńnia źmienaŭ treba budzie padać parol roota."
+
+#~ msgid ""
+#~ "This section requires special permissions, probably for system-wide "
+#~ "changes; therefore, it is required that you provide the root password to "
+#~ "be able to change the module's properties. If you cannot provide the "
+#~ "password, the changes of the module cannot be saved "
+#~ msgstr ""
+#~ "Kab uździejničać na hety addzieł, patrebnyja asablivyja pravy, mabyć, dla "
+#~ "ahulnasystemnych źmienaŭ. Tamu kab mahčy źmianiać ułaścivaści hetaha "
+#~ "modula, treba padać parol roota. Kali ty nie padaš parol, źmieny modula "
+#~ "nielha budzie zapisać."
 
 #~ msgid "&Abort"
 #~ msgstr "&Spyni"

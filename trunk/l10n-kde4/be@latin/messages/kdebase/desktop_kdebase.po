@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-08 04:13+0000\n"
+"POT-Creation-Date: 2009-09-09 05:45+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3359,7 +3359,7 @@ msgctxt "Comment"
 msgid "Choose the default components for various services"
 msgstr "Vybiery zmoŭčanyja kampanenty dla roznych słužbaŭ"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_browser.desktop:2
+#: runtime/kcontrol/componentchooser/componentservices/kcm_browser.desktop:4
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Web Browser"
@@ -3367,7 +3367,7 @@ msgctxt "Name|standard desktop component"
 msgid "Web Browser"
 msgstr "Hartač sieciva"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_browser.desktop:44
+#: runtime/kcontrol/componentchooser/componentservices/kcm_browser.desktop:46
 msgctxt "Comment"
 msgid ""
 "Here you can configure your default web browser. All KDE applications in "
@@ -3376,7 +3376,7 @@ msgstr ""
 "Tut možna vybrać sabie zmoŭčany hartač sieciva. Usie aplikacyi KDE, u jakich "
 "ty karystajeśsia internet-łučami, pavinnyja źviartać uvahu na hetuju naładu."
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:2
+#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:4
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "File Manager"
@@ -3384,7 +3384,7 @@ msgctxt "Name|standard desktop component"
 msgid "File Manager"
 msgstr "Kiraŭnik fajłaŭ"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:44
+#: runtime/kcontrol/componentchooser/componentservices/kcm_filemanager.desktop:46
 msgctxt "Comment"
 msgid ""
 "Here you can configure your default file manager. The entries in the K menu "
@@ -3394,7 +3394,7 @@ msgstr ""
 "Tut možna vybrać sabie zmoŭčanaha fajłavaha kiraŭnika. Usie aplikacyi i "
 "punkty menu KDE, u jakich ty adčyniaješ katalohi, buduć im karystacca."
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_kemail.desktop:2
+#: runtime/kcontrol/componentchooser/componentservices/kcm_kemail.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Email Client"
@@ -3402,7 +3402,7 @@ msgctxt "Name|standard desktop component"
 msgid "Email Client"
 msgstr "Paštar"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_kemail.desktop:44
+#: runtime/kcontrol/componentchooser/componentservices/kcm_kemail.desktop:46
 msgctxt "Comment"
 msgid ""
 "This service allows you to configure your default email client. All KDE "
@@ -3412,7 +3412,7 @@ msgstr ""
 "Hetaja słužba dazvalaje vybrać sabie zmoŭčany paštar. Usie aplikacyi KDE, "
 "jakija karystajucca paštarom, pavinnyja źviartać uvahu na hetuju naładu."
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop:2
+#: runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Terminal Emulator"
@@ -3420,7 +3420,7 @@ msgctxt "Name|standard desktop component"
 msgid "Terminal Emulator"
 msgstr "Emulatar terminała"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop:45
+#: runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop:47
 msgctxt "Comment"
 msgid ""
 "This service allows you to configure your default terminal emulator. All KDE "
@@ -3431,7 +3431,7 @@ msgstr ""
 "aplikacyi KDE, jakija ŭklučajuć emulatar terminała, pavinnyja źviartać uvahu "
 "na hetuju naładu."
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:2
+#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
@@ -3439,7 +3439,7 @@ msgctxt "Name|standard desktop component"
 msgid "Window Manager"
 msgstr "Akońnik"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:45
+#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:47
 msgctxt "Comment"
 msgid "Here you can select the window manager to be run in your KDE session."
 msgstr "Tut možna vybrać akońnika, jaki ŭklučajecca pry ŭvachodzie ŭ KDE."
@@ -7881,7 +7881,7 @@ msgctxt "Name"
 msgid "Remote widgets policies"
 msgstr ""
 
-#: workspace/kcontrol/remotewidgets/remotewidgets.desktop:23
+#: workspace/kcontrol/remotewidgets/remotewidgets.desktop:24
 msgctxt "Comment"
 msgid "Define policies for remote plasma widgets"
 msgstr ""
@@ -11580,7 +11580,7 @@ msgctxt "Comment"
 msgid "Plasma Desktop Shell"
 msgstr "Rabočy abšar stała „Plasma”"
 
-#: workspace/plasma/shells/desktop/plasma-desktop.notifyrc:11
+#: workspace/plasma/shells/desktop/plasma-desktop.notifyrc:12
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Plasma MID"
@@ -11588,12 +11588,12 @@ msgctxt "Name"
 msgid "Plasma"
 msgstr "Plasma MID"
 
-#: workspace/plasma/shells/desktop/plasma-desktop.notifyrc:16
+#: workspace/plasma/shells/desktop/plasma-desktop.notifyrc:17
 msgctxt "Name"
 msgid "New plasmoid published"
 msgstr ""
 
-#: workspace/plasma/shells/desktop/plasma-desktop.notifyrc:24
+#: workspace/plasma/shells/desktop/plasma-desktop.notifyrc:26
 msgctxt "Comment"
 msgid "A new plasmoid is published on the network."
 msgstr ""

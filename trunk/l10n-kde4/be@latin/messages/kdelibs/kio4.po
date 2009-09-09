@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-02 07:21+0200\n"
+"POT-Creation-Date: 2009-09-09 07:26+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4922,12 +4922,12 @@ msgstr "Novy kataloh:"
 msgid "Opening connection to host %1"
 msgstr "Adčynieńnie spałučeńnia z hostam „%1”"
 
-#: ../kioslave/ftp/ftp.cpp:344
+#: ../kioslave/ftp/ftp.cpp:341
 #, kde-format
 msgid "Connected to host %1"
 msgstr "Spałučany z hostam „%1”"
 
-#: ../kioslave/ftp/ftp.cpp:383
+#: ../kioslave/ftp/ftp.cpp:387
 #, kde-format
 msgid ""
 "%1.\n"
@@ -4938,11 +4938,11 @@ msgstr ""
 "\n"
 "Pryčyna: %2"
 
-#: ../kioslave/ftp/ftp.cpp:412
+#: ../kioslave/ftp/ftp.cpp:416
 msgid "Sending login information"
 msgstr "Vysyłańnie źviestak dla ŭvachodu"
 
-#: ../kioslave/ftp/ftp.cpp:460
+#: ../kioslave/ftp/ftp.cpp:465
 #, kde-format
 msgid ""
 "Message sent:\n"
@@ -4959,25 +4959,25 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:468 ../kioslave/http/http.cpp:4876
+#: ../kioslave/ftp/ftp.cpp:473 ../kioslave/http/http.cpp:4876
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ../kioslave/ftp/ftp.cpp:470 ../kioslave/http/http.cpp:4883
+#: ../kioslave/ftp/ftp.cpp:475 ../kioslave/http/http.cpp:4883
 msgid "Site:"
 msgstr "Sajt:"
 
-#: ../kioslave/ftp/ftp.cpp:471
+#: ../kioslave/ftp/ftp.cpp:476
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: ../kioslave/ftp/ftp.cpp:534
+#: ../kioslave/ftp/ftp.cpp:549
 msgid "Login OK"
 msgstr "Uvachod: OK"
 
-#: ../kioslave/ftp/ftp.cpp:563
+#: ../kioslave/ftp/ftp.cpp:578
 #, kde-format
 msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-11 06:36+0200\n"
+"POT-Creation-Date: 2009-09-12 06:20+0200\n"
 "PO-Revision-Date: 2008-10-05 09:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -38,35 +38,41 @@ msgstr "Nastupnaja čynnaść"
 msgid "Previous Activity"
 msgstr "Papiaredniaja čynnaść"
 
-#: interactiveconsole.cpp:52
-msgid "&Clear"
+#: interactiveconsole.cpp:58
+msgid "&Execute"
 msgstr ""
 
-#: interactiveconsole.cpp:53
-msgid "&Run Script"
-msgstr ""
-
-#: interactiveconsole.cpp:56
+#: interactiveconsole.cpp:61
 #, fuzzy
 #| msgid "Desktop Settings"
 msgid "Desktop Shell Scripting Console"
 msgstr "Nałady rabočaha stała"
 
+#: interactiveconsole.cpp:68
+#, fuzzy
+#| msgid "Monitor"
+msgid "Editor"
+msgstr "Nazirańnik"
+
 #: interactiveconsole.cpp:106
+msgid "Output"
+msgstr ""
+
+#: interactiveconsole.cpp:157
 #, kde-format
 msgid "Unable to load script file <b>%1</b>"
 msgstr ""
 
-#: interactiveconsole.cpp:136 interactiveconsole.cpp:187
+#: interactiveconsole.cpp:190 interactiveconsole.cpp:247
 msgid "Open Script File"
 msgstr ""
 
-#: interactiveconsole.cpp:250
+#: interactiveconsole.cpp:317
 #, kde-format
 msgid "Executing script at %1"
 msgstr ""
 
-#: interactiveconsole.cpp:264
+#: interactiveconsole.cpp:331
 #, no-c-format, kde-format
 msgid "Runtime: %1ms"
 msgstr ""
@@ -296,9 +302,6 @@ msgstr ""
 
 #~ msgid "Name:"
 #~ msgstr "Nazva:"
-
-#~ msgid "Monitor"
-#~ msgstr "Nazirańnik"
 
 #~ msgid "Add Widgets"
 #~ msgstr "Dadaj widžetaŭ"

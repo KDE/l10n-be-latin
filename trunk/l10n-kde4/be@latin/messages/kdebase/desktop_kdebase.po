@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-12 05:01+0000\n"
+"POT-Creation-Date: 2009-09-14 04:52+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -45,6 +45,14 @@ msgstr "Detali"
 msgctxt "Name"
 msgid "Columns"
 msgstr "Słupki"
+
+#: apps/dolphin/src/fileviewsvnplugin.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Question"
+msgctxt "Name"
+msgid "Subversion"
+msgstr "Pytańnie"
 
 #: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:1
 #, fuzzy
@@ -9930,6 +9938,22 @@ msgstr "Achoŭnik ekrana"
 msgctxt "Comment"
 msgid "Configure active screen edges"
 msgstr "Naładź padručnuju pamiać sieciva"
+
+#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Duplicate Window"
+msgctxt "Name"
+msgid "Navigate Through Windows"
+msgstr "Skapijuj akno"
+
+#: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:14
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the behavior of Java and JavaScript"
+msgctxt "Comment"
+msgid "Configure the behaviour for navigating through windows"
+msgstr "Naładź pavodziny hartača dla prahramaŭ Java i JavaScript"
 
 #: workspace/kwin/kwin.notifyrc:3
 msgctxt "Comment"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-12 06:19+0200\n"
+"POT-Creation-Date: 2009-09-14 06:13+0200\n"
 "PO-Revision-Date: 2008-12-27 14:55+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -96,446 +96,476 @@ msgid "Walk Through Windows (Reverse)"
 msgstr "Pierachod pamiž voknami (advarotny kirunak)"
 
 #: kwinbindings.cpp:57
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows Alternative"
+msgstr "Pierachod pamiž voknami (advarotny kirunak)"
+
+#: kwinbindings.cpp:58
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows Alternative (Reverse)"
+msgstr "Pierachod pamiž voknami (advarotny kirunak)"
+
+#: kwinbindings.cpp:59
 msgid "Walk Through Desktops"
 msgstr "Pierachod pamiž rabočymi stałami"
 
-#: kwinbindings.cpp:58
+#: kwinbindings.cpp:60
 msgid "Walk Through Desktops (Reverse)"
 msgstr "Pierachod pamiž rabočymi stałami (advarotny kirunak)"
 
-#: kwinbindings.cpp:59
+#: kwinbindings.cpp:61
 msgid "Walk Through Desktop List"
 msgstr "Pierachod u śpisie rabočych stałoŭ"
 
-#: kwinbindings.cpp:60
+#: kwinbindings.cpp:62
 msgid "Walk Through Desktop List (Reverse)"
 msgstr "Pierachod u śpisie rabočych stałoŭ (advarotny kirunak)"
 
-#: kwinbindings.cpp:63
+#: kwinbindings.cpp:65
 msgid "Windows"
 msgstr "Vokny"
 
-#: kwinbindings.cpp:64
+#: kwinbindings.cpp:66
 msgid "Window Operations Menu"
 msgstr "Menu akonnych aperacyjaŭ"
 
-#: kwinbindings.cpp:66
+#: kwinbindings.cpp:68
 msgid "Close Window"
 msgstr "Začyni akno"
 
-#: kwinbindings.cpp:68
+#: kwinbindings.cpp:70
 msgid "Maximize Window"
 msgstr "Zmaksymalizuj akno"
 
-#: kwinbindings.cpp:70
+#: kwinbindings.cpp:72
 msgid "Maximize Window Vertically"
 msgstr "Zmaksymalizuj akno vertykalna"
 
-#: kwinbindings.cpp:72
+#: kwinbindings.cpp:74
 msgid "Maximize Window Horizontally"
 msgstr "Zmaksymalizuj akno haryzantalna"
 
-#: kwinbindings.cpp:74
+#: kwinbindings.cpp:76
 msgid "Minimize Window"
 msgstr "Źminimalizuj akno"
 
-#: kwinbindings.cpp:76
+#: kwinbindings.cpp:78
 msgid "Shade Window"
 msgstr "Zharni akno ŭ zahałovak"
 
-#: kwinbindings.cpp:78
+#: kwinbindings.cpp:80
 msgid "Move Window"
 msgstr "Pierasuń akno"
 
-#: kwinbindings.cpp:80
+#: kwinbindings.cpp:82
 msgid "Resize Window"
 msgstr "Źmiani pamiery akna"
 
-#: kwinbindings.cpp:82
+#: kwinbindings.cpp:84
 msgid "Raise Window"
 msgstr "Uźnimi akno"
 
-#: kwinbindings.cpp:84
+#: kwinbindings.cpp:86
 msgid "Lower Window"
 msgstr "Źniž akno"
 
-#: kwinbindings.cpp:86
+#: kwinbindings.cpp:88
 msgid "Toggle Window Raise/Lower"
 msgstr "Źmiani rovień akna"
 
-#: kwinbindings.cpp:88
+#: kwinbindings.cpp:90
 msgid "Make Window Fullscreen"
 msgstr "Razharni akno na ŭvieś ekran"
 
-#: kwinbindings.cpp:90
+#: kwinbindings.cpp:92
 msgid "Hide Window Border"
 msgstr "Schavaj abrys akna"
 
-#: kwinbindings.cpp:92
+#: kwinbindings.cpp:94
 msgid "Keep Window Above Others"
 msgstr "Uźnimi akno nad inšymi"
 
-#: kwinbindings.cpp:94
+#: kwinbindings.cpp:96
 msgid "Keep Window Below Others"
 msgstr "Źniž akno pad inšyja"
 
-#: kwinbindings.cpp:96
+#: kwinbindings.cpp:98
 msgid "Activate Window Demanding Attention"
 msgstr "Uklučy akno, jakoje vymahaje ŭvahi"
 
-#: kwinbindings.cpp:98
+#: kwinbindings.cpp:100
 msgid "Setup Window Shortcut"
 msgstr "Naładź skarot dla akna"
 
-#: kwinbindings.cpp:100
+#: kwinbindings.cpp:102
 msgid "Pack Window to the Right"
 msgstr "Vykładzi akno sprava"
 
-#: kwinbindings.cpp:102
+#: kwinbindings.cpp:104
 msgid "Pack Window to the Left"
 msgstr "Vykładzi akno źleva"
 
-#: kwinbindings.cpp:104
+#: kwinbindings.cpp:106
 msgid "Pack Window Up"
 msgstr "Vykładzi akno źvierchu"
 
-#: kwinbindings.cpp:106
+#: kwinbindings.cpp:108
 msgid "Pack Window Down"
 msgstr "Vykładzi akno źnizu"
 
-#: kwinbindings.cpp:108
+#: kwinbindings.cpp:110
 msgid "Pack Grow Window Horizontally"
 msgstr "Vykładzi akno, razharnuŭšy haryzantalna"
 
-#: kwinbindings.cpp:110
+#: kwinbindings.cpp:112
 msgid "Pack Grow Window Vertically"
 msgstr "Vykładzi akno, razharnuŭšy vertykalna"
 
-#: kwinbindings.cpp:112
+#: kwinbindings.cpp:114
 msgid "Pack Shrink Window Horizontally"
 msgstr "Vykładzi akno, pryharnuŭšy haryzantalna"
 
-#: kwinbindings.cpp:114
+#: kwinbindings.cpp:116
 msgid "Pack Shrink Window Vertically"
 msgstr "Vykładzi akno, pryharnuŭšy vertykalna"
 
 #: kwinbindings.cpp:118
+#, fuzzy
+#| msgid "Pack Window to the Left"
+msgid "Quick Tile Window to the Left"
+msgstr "Vykładzi akno źleva"
+
+#: kwinbindings.cpp:120
+#, fuzzy
+#| msgid "Pack Window to the Right"
+msgid "Quick Tile Window to the Right"
+msgstr "Vykładzi akno sprava"
+
+#: kwinbindings.cpp:124
 msgid "Window & Desktop"
 msgstr "Akno j rabočy stoł"
 
-#: kwinbindings.cpp:119
+#: kwinbindings.cpp:125
 msgid "Keep Window on All Desktops"
 msgstr "Pakazvaj akno na ŭsich rabočych stałach"
 
-#: kwinbindings.cpp:121
+#: kwinbindings.cpp:127
 msgid "Window to Desktop 1"
 msgstr "Akno na stale „1”"
 
-#: kwinbindings.cpp:122
+#: kwinbindings.cpp:128
 msgid "Window to Desktop 2"
 msgstr "Akno na stale „2”"
 
-#: kwinbindings.cpp:123
+#: kwinbindings.cpp:129
 msgid "Window to Desktop 3"
 msgstr "Akno na stale „3”"
 
-#: kwinbindings.cpp:124
+#: kwinbindings.cpp:130
 msgid "Window to Desktop 4"
 msgstr "Akno na stale „4”"
 
-#: kwinbindings.cpp:125
+#: kwinbindings.cpp:131
 msgid "Window to Desktop 5"
 msgstr "Akno na stale „5”"
 
-#: kwinbindings.cpp:126
+#: kwinbindings.cpp:132
 msgid "Window to Desktop 6"
 msgstr "Akno na stale „6”"
 
-#: kwinbindings.cpp:127
+#: kwinbindings.cpp:133
 msgid "Window to Desktop 7"
 msgstr "Akno na stale „7”"
 
-#: kwinbindings.cpp:128
+#: kwinbindings.cpp:134
 msgid "Window to Desktop 8"
 msgstr "Akno na stale „8”"
 
-#: kwinbindings.cpp:129
+#: kwinbindings.cpp:135
 msgid "Window to Desktop 9"
 msgstr "Akno na stale „9”"
 
-#: kwinbindings.cpp:130
+#: kwinbindings.cpp:136
 msgid "Window to Desktop 10"
 msgstr "Akno na stale „10”"
 
-#: kwinbindings.cpp:131
+#: kwinbindings.cpp:137
 msgid "Window to Desktop 11"
 msgstr "Akno na stale „11”"
 
-#: kwinbindings.cpp:132
+#: kwinbindings.cpp:138
 msgid "Window to Desktop 12"
 msgstr "Akno na stale „12”"
 
-#: kwinbindings.cpp:133
+#: kwinbindings.cpp:139
 msgid "Window to Desktop 13"
 msgstr "Akno na stale „13”"
 
-#: kwinbindings.cpp:134
+#: kwinbindings.cpp:140
 msgid "Window to Desktop 14"
 msgstr "Akno na stale „14”"
 
-#: kwinbindings.cpp:135
+#: kwinbindings.cpp:141
 msgid "Window to Desktop 15"
 msgstr "Akno na stale „15”"
 
-#: kwinbindings.cpp:136
+#: kwinbindings.cpp:142
 msgid "Window to Desktop 16"
 msgstr "Akno na stale „16”"
 
-#: kwinbindings.cpp:137
+#: kwinbindings.cpp:143
 msgid "Window to Desktop 17"
 msgstr "Akno na stale „17”"
 
-#: kwinbindings.cpp:138
+#: kwinbindings.cpp:144
 msgid "Window to Desktop 18"
 msgstr "Akno na stale „18”"
 
-#: kwinbindings.cpp:139
+#: kwinbindings.cpp:145
 msgid "Window to Desktop 19"
 msgstr "Akno na stale „19”"
 
-#: kwinbindings.cpp:140
+#: kwinbindings.cpp:146
 msgid "Window to Desktop 20"
 msgstr "Akno na stale „20”"
 
-#: kwinbindings.cpp:141
+#: kwinbindings.cpp:147
 msgid "Window to Next Desktop"
 msgstr "Akno na nastupny stoł"
 
-#: kwinbindings.cpp:142
+#: kwinbindings.cpp:148
 msgid "Window to Previous Desktop"
 msgstr "Akno na papieredni stoł"
 
-#: kwinbindings.cpp:143
+#: kwinbindings.cpp:149
 msgid "Window One Desktop to the Right"
 msgstr "Akno na praviejšy stoł"
 
-#: kwinbindings.cpp:144
+#: kwinbindings.cpp:150
 msgid "Window One Desktop to the Left"
 msgstr "Akno na laviejšy stoł"
 
-#: kwinbindings.cpp:145
+#: kwinbindings.cpp:151
 msgid "Window One Desktop Up"
 msgstr "Akno na vyšejšy stoł"
 
-#: kwinbindings.cpp:146
+#: kwinbindings.cpp:152
 msgid "Window One Desktop Down"
 msgstr "Akno na nižejšy stoł"
 
-#: kwinbindings.cpp:147
+#: kwinbindings.cpp:153
 msgid "Window to Screen 0"
 msgstr "Akno na ekran „0”"
 
-#: kwinbindings.cpp:148
+#: kwinbindings.cpp:154
 msgid "Window to Screen 1"
 msgstr "Akno na ekran „1”"
 
-#: kwinbindings.cpp:149
+#: kwinbindings.cpp:155
 msgid "Window to Screen 2"
 msgstr "Akno na ekran „2”"
 
-#: kwinbindings.cpp:150
+#: kwinbindings.cpp:156
 msgid "Window to Screen 3"
 msgstr "Akno na ekran „3”"
 
-#: kwinbindings.cpp:151
+#: kwinbindings.cpp:157
 msgid "Window to Screen 4"
 msgstr "Akno na ekran „4”"
 
-#: kwinbindings.cpp:152
+#: kwinbindings.cpp:158
 msgid "Window to Screen 5"
 msgstr "Akno na ekran „5”"
 
-#: kwinbindings.cpp:153
+#: kwinbindings.cpp:159
 msgid "Window to Screen 6"
 msgstr "Akno na ekran „6”"
 
-#: kwinbindings.cpp:154
+#: kwinbindings.cpp:160
 msgid "Window to Screen 7"
 msgstr "Akno na ekran „7”"
 
-#: kwinbindings.cpp:155
+#: kwinbindings.cpp:161
 msgid "Window to Next Screen"
 msgstr "Akno na nastupny ekran"
 
-#: kwinbindings.cpp:158
+#: kwinbindings.cpp:162
+#, fuzzy
+#| msgid "Show Desktop Grid"
+msgid "Show Desktop"
+msgstr "Sietka stała"
+
+#: kwinbindings.cpp:165
 msgid "Desktop Switching"
 msgstr "Pieraklučeńnie stałoŭ"
 
-#: kwinbindings.cpp:159
+#: kwinbindings.cpp:166
 msgid "Switch to Desktop 1"
 msgstr "Uklučy stoł „1”"
 
-#: kwinbindings.cpp:160
+#: kwinbindings.cpp:167
 msgid "Switch to Desktop 2"
 msgstr "Uklučy stoł „2”"
 
-#: kwinbindings.cpp:161
+#: kwinbindings.cpp:168
 msgid "Switch to Desktop 3"
 msgstr "Uklučy stoł „3”"
 
-#: kwinbindings.cpp:162
+#: kwinbindings.cpp:169
 msgid "Switch to Desktop 4"
 msgstr "Uklučy stoł „4”"
 
-#: kwinbindings.cpp:163
+#: kwinbindings.cpp:170
 msgid "Switch to Desktop 5"
 msgstr "Uklučy stoł „5”"
 
-#: kwinbindings.cpp:164
+#: kwinbindings.cpp:171
 msgid "Switch to Desktop 6"
 msgstr "Uklučy stoł „6”"
 
-#: kwinbindings.cpp:165
+#: kwinbindings.cpp:172
 msgid "Switch to Desktop 7"
 msgstr "Uklučy stoł „7”"
 
-#: kwinbindings.cpp:166
+#: kwinbindings.cpp:173
 msgid "Switch to Desktop 8"
 msgstr "Uklučy stoł „8”"
 
-#: kwinbindings.cpp:167
+#: kwinbindings.cpp:174
 msgid "Switch to Desktop 9"
 msgstr "Uklučy stoł „9”"
 
-#: kwinbindings.cpp:168
+#: kwinbindings.cpp:175
 msgid "Switch to Desktop 10"
 msgstr "Uklučy stoł „10”"
 
-#: kwinbindings.cpp:169
+#: kwinbindings.cpp:176
 msgid "Switch to Desktop 11"
 msgstr "Uklučy stoł „11”"
 
-#: kwinbindings.cpp:170
+#: kwinbindings.cpp:177
 msgid "Switch to Desktop 12"
 msgstr "Uklučy stoł „12”"
 
-#: kwinbindings.cpp:171
+#: kwinbindings.cpp:178
 msgid "Switch to Desktop 13"
 msgstr "Uklučy stoł „13”"
 
-#: kwinbindings.cpp:172
+#: kwinbindings.cpp:179
 msgid "Switch to Desktop 14"
 msgstr "Uklučy stoł „14”"
 
-#: kwinbindings.cpp:173
+#: kwinbindings.cpp:180
 msgid "Switch to Desktop 15"
 msgstr "Uklučy stoł „15”"
 
-#: kwinbindings.cpp:174
+#: kwinbindings.cpp:181
 msgid "Switch to Desktop 16"
 msgstr "Uklučy stoł „16”"
 
-#: kwinbindings.cpp:175
+#: kwinbindings.cpp:182
 msgid "Switch to Desktop 17"
 msgstr "Uklučy stoł „17”"
 
-#: kwinbindings.cpp:176
+#: kwinbindings.cpp:183
 msgid "Switch to Desktop 18"
 msgstr "Uklučy stoł „18”"
 
-#: kwinbindings.cpp:177
+#: kwinbindings.cpp:184
 msgid "Switch to Desktop 19"
 msgstr "Uklučy stoł „19”"
 
-#: kwinbindings.cpp:178
+#: kwinbindings.cpp:185
 msgid "Switch to Desktop 20"
 msgstr "Uklučy stoł „20”"
 
-#: kwinbindings.cpp:179
+#: kwinbindings.cpp:186
 msgid "Switch to Next Desktop"
 msgstr "Uklučy nastupny stoł"
 
-#: kwinbindings.cpp:180
+#: kwinbindings.cpp:187
 msgid "Switch to Previous Desktop"
 msgstr "Uklučy papiaredni stoł"
 
-#: kwinbindings.cpp:181
+#: kwinbindings.cpp:188
 msgid "Switch One Desktop to the Right"
 msgstr "Uklučy praviejšy stoł"
 
-#: kwinbindings.cpp:182
+#: kwinbindings.cpp:189
 msgid "Switch One Desktop to the Left"
 msgstr "Uklučy laviejšy stoł"
 
-#: kwinbindings.cpp:183
+#: kwinbindings.cpp:190
 msgid "Switch One Desktop Up"
 msgstr "Uklučy vyšejšy stoł"
 
-#: kwinbindings.cpp:184
+#: kwinbindings.cpp:191
 msgid "Switch One Desktop Down"
 msgstr "Uklučy nižejšy stoł"
 
-#: kwinbindings.cpp:185
+#: kwinbindings.cpp:192
 msgid "Switch to Screen 0"
 msgstr "Uklučy ekran „0”"
 
-#: kwinbindings.cpp:186
+#: kwinbindings.cpp:193
 msgid "Switch to Screen 1"
 msgstr "Uklučy ekran „1”"
 
-#: kwinbindings.cpp:187
+#: kwinbindings.cpp:194
 msgid "Switch to Screen 2"
 msgstr "Uklučy ekran „2”"
 
-#: kwinbindings.cpp:188
+#: kwinbindings.cpp:195
 msgid "Switch to Screen 3"
 msgstr "Uklučy ekran „3”"
 
-#: kwinbindings.cpp:189
+#: kwinbindings.cpp:196
 msgid "Switch to Screen 4"
 msgstr "Uklučy ekran „4”"
 
-#: kwinbindings.cpp:190
+#: kwinbindings.cpp:197
 msgid "Switch to Screen 5"
 msgstr "Uklučy ekran „5”"
 
-#: kwinbindings.cpp:191
+#: kwinbindings.cpp:198
 msgid "Switch to Screen 6"
 msgstr "Uklučy ekran „6”"
 
-#: kwinbindings.cpp:192
+#: kwinbindings.cpp:199
 msgid "Switch to Screen 7"
 msgstr "Uklučy ekran „7”"
 
-#: kwinbindings.cpp:193
+#: kwinbindings.cpp:200
 msgid "Switch to Next Screen"
 msgstr "Uklučy nastupny ekran"
 
-#: kwinbindings.cpp:196
+#: kwinbindings.cpp:203
 msgid "Miscellaneous"
 msgstr "Roznaje"
 
-#: kwinbindings.cpp:197
+#: kwinbindings.cpp:204
 msgid "Mouse Emulation"
 msgstr "Emulacyja myšy"
 
-#: kwinbindings.cpp:198
+#: kwinbindings.cpp:205
 msgid "Kill Window"
 msgstr "Zabi akno"
 
-#: kwinbindings.cpp:199
+#: kwinbindings.cpp:206
 msgid "Window Screenshot to Clipboard"
 msgstr "Źmiaści zdymak akna ŭ abmiennym bufery"
 
-#: kwinbindings.cpp:200
+#: kwinbindings.cpp:207
 msgid "Desktop Screenshot to Clipboard"
 msgstr "Źmiaści zdymak stała ŭ abmiennym bufery"
 
-#: kwinbindings.cpp:201
+#: kwinbindings.cpp:208
 msgid "Block Global Shortcuts"
 msgstr "Zabarani paŭsiudnyja skaroty"
 
-#: kwinbindings.cpp:202
+#: kwinbindings.cpp:209
 msgid "Suspend Compositing"
 msgstr "Ustrymaj kampazycyju"
 
@@ -631,10 +661,6 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#: tabbox.cpp:82
-msgid "*** No Windows ***"
-msgstr "*** Niama akon ***"
-
 #: useractions.cpp:73
 msgid "Keep &Above Others"
 msgstr "&Uźnimi nad inšymi"
@@ -707,7 +733,7 @@ msgstr "Na &stoł"
 msgid "&All Desktops"
 msgstr "&Na ŭsich stałach"
 
-#: useractions.cpp:439
+#: useractions.cpp:453
 #, kde-format
 msgid "Activate Window (%1)"
 msgstr "Uklučy akno (%1)"
@@ -873,6 +899,9 @@ msgstr "Nie ŭdałosia źmiaścić u pamiać plugin abrysaŭ akon, bo jon paško
 msgid "The library %1 is not a KWin plugin."
 msgstr "Biblijateka „%1” nia jość pluginam dla akońnika „KWin”."
 
+#~ msgid "*** No Windows ***"
+#~ msgstr "*** Niama akon ***"
+
 #~ msgid "kwin: failure during initialization; aborting"
 #~ msgstr "kwin: nie ŭdałosia zinicyjalizavacca: vychad."
 
@@ -892,9 +921,6 @@ msgstr "Biblijateka „%1” nia jość pluginam dla akońnika „KWin”."
 #~ msgctxt "@title:tab Advanced Settings"
 #~ msgid "Advanced"
 #~ msgstr "Asablivaje"
-
-#~ msgid "Show Desktop Grid"
-#~ msgstr "Sietka stała"
 
 #~ msgid "Disabled"
 #~ msgstr "Vyklučanaja"

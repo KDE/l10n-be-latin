@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-03 11:04+0200\n"
+"POT-Creation-Date: 2009-09-16 15:27+0200\n"
 "PO-Revision-Date: 2008-09-08 21:43+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -78,7 +78,7 @@ msgstr ""
 "šablon „*.txt” paviazany z typam „text/plain”, tamu ŭsie fajły, u jakich "
 "nazvy skančajucca na „.txt”, raspaznajucca jak fajły čystaha tekstu."
 
-#: filetypedetails.cpp:110 filetypesview.cpp:121 kservicelistwidget.cpp:129
+#: filetypedetails.cpp:110 filetypesview.cpp:122 kservicelistwidget.cpp:129
 msgid "Add..."
 msgstr "Dadaj..."
 
@@ -193,13 +193,13 @@ msgstr ""
 "šablony dla nazvaŭ fajłaŭ. Reč u tym što ŭ takich vypadkach KDE ŭmieje "
 "vyznačać peŭny typ pavodle źmieściva fajła.</p>"
 
-#: filetypesview.cpp:91
+#: filetypesview.cpp:92
 #, fuzzy
 #| msgid "F&ind file type or filename pattern:"
 msgid "Find file type or filename pattern"
 msgstr "&Šukaj typ fajłaŭ ci šablon nazvaŭ:"
 
-#: filetypesview.cpp:97
+#: filetypesview.cpp:98
 msgid ""
 "Enter a part of a filename pattern, and only file types with a matching file "
 "pattern will appear in the list. Alternatively, enter a part of a file type "
@@ -209,11 +209,11 @@ msgstr ""
 "šablony, jakija adpaviadajuć upisanamu. Jašče možna ŭpisać častku nazvy "
 "fajłavaha typu."
 
-#: filetypesview.cpp:105
+#: filetypesview.cpp:106
 msgid "Known Types"
 msgstr "Viadomyja typy"
 
-#: filetypesview.cpp:112
+#: filetypesview.cpp:113
 msgid ""
 "Here you can see a hierarchical list of the file types which are known on "
 "your system. Click on the '+' sign to expand a category, or the '-' sign to "
@@ -225,29 +225,29 @@ msgstr ""
 "Kab prahladzieć ci źmianić źviestki dla peŭnaha fajłavaha typu, vybiery jaho "
 "ŭ śpisie (naprykład, „text/html” dla fajłaŭ HTML) i vykarystaj knopki sprava."
 
-#: filetypesview.cpp:126
+#: filetypesview.cpp:127
 msgid "Click here to add a new file type."
 msgstr "Klikni siudy, kab dadać novy typ fajłaŭ."
 
-#: filetypesview.cpp:128 filetypesview.cpp:389
+#: filetypesview.cpp:129 filetypesview.cpp:390
 msgid "&Remove"
 msgstr "&Vydali"
 
-#: filetypesview.cpp:155
+#: filetypesview.cpp:156
 msgid "Select a file type by name or by extension"
 msgstr "Vybiery typ fajłaŭ pavodle nazvy albo pašyreńnia"
 
-#: filetypesview.cpp:385
+#: filetypesview.cpp:386
 #, fuzzy
 #| msgid "&Remove"
 msgid "&Revert"
 msgstr "&Vydali"
 
-#: filetypesview.cpp:386
+#: filetypesview.cpp:387
 msgid "Revert this file type to its initial system-wide definition"
 msgstr ""
 
-#: filetypesview.cpp:387
+#: filetypesview.cpp:388
 msgid ""
 "Click here to revert this file type to its initial system-wide definition, "
 "which undoes any changes made to the file type. Note that system-wide file "
@@ -256,11 +256,11 @@ msgid ""
 "from file contents can still end up using them)."
 msgstr ""
 
-#: filetypesview.cpp:390
+#: filetypesview.cpp:391
 msgid "Delete this file type definition completely"
 msgstr ""
 
-#: filetypesview.cpp:391
+#: filetypesview.cpp:392
 msgid ""
 "Click here to delete this file type definition completely. This is only "
 "possible for user-defined file types. System-wide file types cannot be "

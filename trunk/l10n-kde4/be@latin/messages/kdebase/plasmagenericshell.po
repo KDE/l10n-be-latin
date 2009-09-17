@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:11+0200\n"
+"POT-Creation-Date: 2009-09-17 06:22+0200\n"
 "PO-Revision-Date: 2008-12-02 00:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -98,38 +98,6 @@ msgstr ""
 msgid "Configure Plugin"
 msgstr ""
 
-#: openwidgetassistant.cpp:46
-msgid "Select the type of widget to install from the list below."
-msgstr "Vybiery ź nižejšaha śpisu typ widžeta, jaki treba zainstalavać."
-
-#: openwidgetassistant.cpp:54
-msgid "Plasmoid: Native plasma widget"
-msgstr "Rodny widžet systemy „Plasma”"
-
-#: openwidgetassistant.cpp:75
-msgid "Install New Widget From File"
-msgstr "Zainstaluj novy widžet z fajła"
-
-#: openwidgetassistant.cpp:80
-msgid "Select File"
-msgstr "Vybiery fajł"
-
-#: openwidgetassistant.cpp:172
-#, kde-format
-msgid "Could not load the required installer %1. The error given was: %2"
-msgstr ""
-"Nie ŭdałosia pračytać u pamiać patrebny insalatar „%1”. Uźnikła nastupnaja "
-"pamyłka: %2"
-
-#: openwidgetassistant.cpp:175 openwidgetassistant.cpp:187
-msgid "Installation Failure"
-msgstr "Niaŭdałaje instalavańnie"
-
-#: openwidgetassistant.cpp:186
-#, kde-format
-msgid "Installing the package %1 failed."
-msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
-
 #. i18n: file: ActivityConfiguration.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:3 rc.cpp:38
@@ -199,6 +167,29 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
+
+#~ msgid "Select the type of widget to install from the list below."
+#~ msgstr "Vybiery ź nižejšaha śpisu typ widžeta, jaki treba zainstalavać."
+
+#~ msgid "Plasmoid: Native plasma widget"
+#~ msgstr "Rodny widžet systemy „Plasma”"
+
+#~ msgid "Install New Widget From File"
+#~ msgstr "Zainstaluj novy widžet z fajła"
+
+#~ msgid "Select File"
+#~ msgstr "Vybiery fajł"
+
+#~ msgid "Could not load the required installer %1. The error given was: %2"
+#~ msgstr ""
+#~ "Nie ŭdałosia pračytać u pamiać patrebny insalatar „%1”. Uźnikła "
+#~ "nastupnaja pamyłka: %2"
+
+#~ msgid "Installation Failure"
+#~ msgstr "Niaŭdałaje instalavańnie"
+
+#~ msgid "Installing the package %1 failed."
+#~ msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
 
 #, fuzzy
 #~| msgid "Categories:"

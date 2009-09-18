@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-01 12:44+0200\n"
+"POT-Creation-Date: 2009-09-18 06:13+0200\n"
 "PO-Revision-Date: 2008-11-26 01:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -222,55 +222,55 @@ msgstr "Tut upišy ściežku da tvajho kataloha bazy źviestak „htdig”."
 msgid "By Category"
 msgstr "Pavodle katehoryjaŭ"
 
-#: kcmhelpcenter.cpp:63
+#: kcmhelpcenter.cpp:64
 msgid "Change Index Folder"
 msgstr "Źmiani kataloh indeksu"
 
-#: kcmhelpcenter.cpp:71 kcmhelpcenter.cpp:293
+#: kcmhelpcenter.cpp:72 kcmhelpcenter.cpp:294
 msgid "Index folder:"
 msgstr "Kataloh indeksu:"
 
-#: kcmhelpcenter.cpp:103
+#: kcmhelpcenter.cpp:104
 msgid "Build Search Indices"
 msgstr "Stvary indeksy pošuku"
 
-#: kcmhelpcenter.cpp:116
+#: kcmhelpcenter.cpp:117
 msgid "Index creation log:"
 msgstr "Log ad stvareńnia indeksu:"
 
-#: kcmhelpcenter.cpp:172
+#: kcmhelpcenter.cpp:173
 msgctxt ""
 "Label for button to close search index progress dialog after successful "
 "completion"
 msgid "Close"
 msgstr "Začyni"
 
-#: kcmhelpcenter.cpp:173
+#: kcmhelpcenter.cpp:174
 msgid "Index creation finished."
 msgstr "Stvareńnie indeksu skončanaje."
 
-#: kcmhelpcenter.cpp:176
+#: kcmhelpcenter.cpp:177
 msgctxt "Label for stopping search index generation before completion"
 msgid "Stop"
 msgstr "Spyni"
 
-#: kcmhelpcenter.cpp:202
+#: kcmhelpcenter.cpp:203
 msgid "Details &lt;&lt;"
 msgstr "Detali &lt;&lt;"
 
-#: kcmhelpcenter.cpp:215
+#: kcmhelpcenter.cpp:216
 msgid "Details &gt;&gt;"
 msgstr "Detali &gt;&gt;"
 
-#: kcmhelpcenter.cpp:232
+#: kcmhelpcenter.cpp:233
 msgid "Build Search Index"
 msgstr "Stvary indeks pošuku"
 
-#: kcmhelpcenter.cpp:241
+#: kcmhelpcenter.cpp:242
 msgid "Build Index"
 msgstr "Stvary indeks"
 
-#: kcmhelpcenter.cpp:272
+#: kcmhelpcenter.cpp:273
 msgid ""
 "To be able to search a document, a search\n"
 "index needs to exist. The status column of the list below shows whether an "
@@ -278,40 +278,40 @@ msgid ""
 "for a document exists.\n"
 msgstr ""
 
-#: kcmhelpcenter.cpp:275
+#: kcmhelpcenter.cpp:276
 msgid ""
 "To create an index, check the box in the list and press the\n"
 "\"Build Index\" button.\n"
 msgstr ""
 
-#: kcmhelpcenter.cpp:283
+#: kcmhelpcenter.cpp:285
 msgid "Search Scope"
 msgstr "Absiah pošuku"
 
-#: kcmhelpcenter.cpp:284
+#: kcmhelpcenter.cpp:285
 msgid "Status"
 msgstr "Stan"
 
-#: kcmhelpcenter.cpp:299
+#: kcmhelpcenter.cpp:300
 msgid "Change..."
 msgstr "Źmiani..."
 
-#: kcmhelpcenter.cpp:321
+#: kcmhelpcenter.cpp:322
 #, kde-format
 msgid "<qt>The folder <b>%1</b> does not exist; unable to create index.</qt>"
 msgstr "<qt>Kataloh <b>%1</b> nie isnuje. Nie ŭdałosia stvaryć indeks.</qt>"
 
-#: kcmhelpcenter.cpp:358
+#: kcmhelpcenter.cpp:361
 msgctxt "Describes the status of a documentation index that is present"
 msgid "OK"
 msgstr "Ok"
 
-#: kcmhelpcenter.cpp:361
+#: kcmhelpcenter.cpp:364
 msgctxt "Describes the status of a documentation index that is missing"
 msgid "Missing"
 msgstr "Niama"
 
-#: kcmhelpcenter.cpp:405
+#: kcmhelpcenter.cpp:408
 #, kde-format
 msgctxt ""
 " Generic prefix label for error messages when creating documentation index, "
@@ -319,25 +319,25 @@ msgctxt ""
 msgid "Document '%1' (%2):\n"
 msgstr "Dakument „%1” (%2):\n"
 
-#: kcmhelpcenter.cpp:410
+#: kcmhelpcenter.cpp:413
 msgid "No document type."
 msgstr "Nie staje typu dakumenta."
 
-#: kcmhelpcenter.cpp:416
+#: kcmhelpcenter.cpp:420
 #, kde-format
 msgid "No search handler available for document type '%1'."
 msgstr "Dla typu dakumentaŭ „%1” niama modula pošuku."
 
-#: kcmhelpcenter.cpp:423
+#: kcmhelpcenter.cpp:430
 #, kde-format
 msgid "No indexing command specified for document type '%1'."
 msgstr "Dla typu dakumentaŭ „%1” nie aznačany zahad indeksavańnia."
 
-#: kcmhelpcenter.cpp:541
+#: kcmhelpcenter.cpp:548
 msgid "Failed to build index."
 msgstr "Nie ŭdałosia stvaryć indeks."
 
-#: kcmhelpcenter.cpp:596
+#: kcmhelpcenter.cpp:603
 #, kde-format
 msgid ""
 "Error executing indexing build command:\n"
@@ -562,7 +562,17 @@ msgstr "Padčas vykanańnia zahadu pošuku „%1” uźnikła pamyłka."
 msgid "Error: %1"
 msgstr "Pamyłka: %1"
 
-#: searchhandler.cpp:214
+#: searchhandler.cpp:166 searchhandler.cpp:171
+#, kde-format
+msgid "'%1' not found, check your installation"
+msgstr ""
+
+#: searchhandler.cpp:176
+#, kde-format
+msgid "'%1' not found, install the package containing it"
+msgstr ""
+
+#: searchhandler.cpp:227
 msgid "No search command or URL specified."
 msgstr "Zahad pošuku ci adras nie aznačanyja."
 
@@ -587,35 +597,35 @@ msgstr "Naj&bolš vynikaŭ:"
 msgid "&Scope selection:"
 msgstr "&Vybar absiahu:"
 
-#: searchwidget.cpp:109
+#: searchwidget.cpp:110
 msgid "Scope"
 msgstr "Absiah"
 
-#: searchwidget.cpp:112
+#: searchwidget.cpp:113
 msgid "Build Search &Index..."
 msgstr "Stvary &indeks pošuku..."
 
-#: searchwidget.cpp:367
+#: searchwidget.cpp:368
 msgctxt "Label for searching documentation using custom (user defined) scope"
 msgid "Custom"
 msgstr "Ułasny"
 
-#: searchwidget.cpp:369
+#: searchwidget.cpp:370
 msgctxt "Label for searching documentation using default search scope"
 msgid "Default"
 msgstr "Zmoŭčany"
 
-#: searchwidget.cpp:371
+#: searchwidget.cpp:372
 msgctxt "Label for searching documentation in all subsections"
 msgid "All"
 msgstr "Usiudy"
 
-#: searchwidget.cpp:373
+#: searchwidget.cpp:374
 msgctxt "Label for scope that deselects all search subsections"
 msgid "None"
 msgstr "Nidzie"
 
-#: searchwidget.cpp:375
+#: searchwidget.cpp:376
 msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "nieviadomy"

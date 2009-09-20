@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-18 06:12+0200\n"
+"POT-Creation-Date: 2009-09-20 06:16+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -11001,52 +11001,52 @@ msgstr ""
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6676
+#: khtml/khtml_part.cpp:6680
 msgid "Security Warning"
 msgstr "Pieraściaroha systemy biaśpieki"
 
-#: khtml/khtml_part.cpp:6685
+#: khtml/khtml_part.cpp:6689
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>Dostup staronki, da jakoj niama davieru, da <br /><b>%1</b><br /> "
 "zakazany.</qt>"
 
-#: khtml/khtml_part.cpp:6686 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6690 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "Tryvožnaje papiaredžańnie systemy biaśpieki"
 
-#: khtml/khtml_part.cpp:7034
+#: khtml/khtml_part.cpp:7038
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "Kašalok „%1” adčynieny, ź jaho biaruć źviestki dla formaŭ i paroli."
 
-#: khtml/khtml_part.cpp:7094
+#: khtml/khtml_part.cpp:7098
 msgid "&Close Wallet"
 msgstr "&Začyni kašalok"
 
-#: khtml/khtml_part.cpp:7097
+#: khtml/khtml_part.cpp:7101
 msgid "&Allow storing passwords for this site"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7102
+#: khtml/khtml_part.cpp:7106
 #, kde-format
 msgid "Remove password for form %1"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7207
+#: khtml/khtml_part.cpp:7211
 msgid "JavaScript &Debugger"
 msgstr "&Adładžvańnik JavaScript"
 
-#: khtml/khtml_part.cpp:7239
+#: khtml/khtml_part.cpp:7243
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "Hetaj staroncy było zabaroniena adčynić novaje akno praz JavaScript."
 
-#: khtml/khtml_part.cpp:7245
+#: khtml/khtml_part.cpp:7249
 msgid "Popup Window Blocked"
 msgstr "Vypłyŭnoje akno ŭstrymanaje"
 
-#: khtml/khtml_part.cpp:7245
+#: khtml/khtml_part.cpp:7249
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
@@ -11057,7 +11057,7 @@ msgstr ""
 "Možaš kliknuć u hetuju ikonu ŭ paneli stanu, kab źmianić takija pavodziny\n"
 "systemy albo adčynić ustrymanaje akno."
 
-#: khtml/khtml_part.cpp:7258
+#: khtml/khtml_part.cpp:7262
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
@@ -11065,11 +11065,11 @@ msgstr[0] "&Pakažy %1 ŭstrymanaje vypłyŭnoje akno"
 msgstr[1] "&Pakažy %1 ŭstrymanyja vypłyŭnyja vokny"
 msgstr[2] "&Pakažy %1 ŭstrymanych vypłyŭnych voknaŭ"
 
-#: khtml/khtml_part.cpp:7259
+#: khtml/khtml_part.cpp:7263
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "Pakažy pasiŭnaje &akno z źviestkami pra ŭstrymanaje akno"
 
-#: khtml/khtml_part.cpp:7261
+#: khtml/khtml_part.cpp:7265
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&Naładź praviły dla stvareńnia novych akon praz JavaScript..."
 
@@ -11215,7 +11215,7 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Adčyni skrypt"
 
-#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2118
+#: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2115
 msgid "Confirmation: JavaScript Popup"
 msgstr "Paćvierdžańnie: vypłyŭnoje akno praz JavaScript"
 
@@ -11236,11 +11236,11 @@ msgstr ""
 "<qt>Hety sajt choča adčynić<p>%1</p>u novym aknie hartača praz JavaScript."
 "<br />Chočaš jamu heta dazvolić?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2125
+#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2122
 msgid "Allow"
 msgstr "Dazvol"
 
-#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2125
+#: khtml/ecma/kjs_window.cpp:1598 khtml/ecma/kjs_html.cpp:2122
 msgid "Do Not Allow"
 msgstr "Nie dazvol"
 
@@ -11278,7 +11278,7 @@ msgstr "Dadaj"
 msgid "Disallow"
 msgstr "Zabarani"
 
-#: khtml/ecma/kjs_html.cpp:2120
+#: khtml/ecma/kjs_html.cpp:2117
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -11288,7 +11288,7 @@ msgstr ""
 "JavaScript.\n"
 "Ci chočaš dazvolić vysyłańnie hetaj formy?"
 
-#: khtml/ecma/kjs_html.cpp:2123
+#: khtml/ecma/kjs_html.cpp:2120
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "

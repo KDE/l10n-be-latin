@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-21 05:57+0200\n"
+"POT-Creation-Date: 2009-09-24 06:14+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6935,6 +6935,11 @@ msgstr "Źmiani ikonu"
 msgid "Icon Te&xt:"
 msgstr "Tekst łuča:"
 
+#: kdeui/dialogs/kshortcutseditor.cpp:127
+#: kdeui/widgets/kcharselectdata.cpp:644
+msgid "Unknown"
+msgstr "Nieviadomy"
+
 #: kdeui/dialogs/kshortcutseditor.cpp:566
 #: kdeui/dialogs/kshortcutseditor.cpp:582
 msgid "Key Conflict"
@@ -9958,10 +9963,6 @@ msgstr ""
 msgid "Separator, Space"
 msgstr ""
 
-#: kdeui/widgets/kcharselectdata.cpp:644
-msgid "Unknown"
-msgstr "Nieviadomy"
-
 #: kdeui/widgets/ksqueezedtextlabel.cpp:158
 msgid "&Copy Full Text"
 msgstr "&Skapijuj uvieś tekst"
@@ -10654,7 +10655,7 @@ msgstr "Pryjmi"
 msgid "Reject"
 msgstr "Adkiń"
 
-#: khtml/khtml_settings.cpp:781
+#: khtml/khtml_settings.cpp:802
 msgid "Filter error"
 msgstr "Pamyłka ŭ filtry"
 

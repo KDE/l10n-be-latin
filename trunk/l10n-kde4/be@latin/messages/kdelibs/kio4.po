@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-03 06:15+0200\n"
+"POT-Creation-Date: 2009-10-06 05:58+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -94,7 +94,7 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Admantavańnie"
 
-#: kio/job.cpp:2016 kio/paste.cpp:64 kio/copyjob.cpp:1234 kio/copyjob.cpp:1783
+#: kio/job.cpp:2016 kio/paste.cpp:64 kio/copyjob.cpp:1243 kio/copyjob.cpp:1792
 #: kio/global.cpp:664
 msgid "File Already Exists"
 msgstr "Fajł užo isnuje"
@@ -518,11 +518,11 @@ msgstr "Abmini"
 msgid "AutoSkip"
 msgstr "Aŭtamatyčna abminaj"
 
-#: kio/copyjob.cpp:940 kio/global.cpp:674
+#: kio/copyjob.cpp:949 kio/global.cpp:674
 msgid "Folder Already Exists"
 msgstr "Kataloh užo isnuje"
 
-#: kio/copyjob.cpp:1234 kio/copyjob.cpp:1783
+#: kio/copyjob.cpp:1243 kio/copyjob.cpp:1792
 msgid "Already Exists as Folder"
 msgstr "Užo isnuje taki kataloh"
 
@@ -5001,13 +5001,13 @@ msgstr ""
 msgid "No media in device for %1"
 msgstr "U pryładzie „%1” niama nośbitu."
 
-#: ../kioslave/file/file_unix.cpp:563
+#: ../kioslave/file/file_unix.cpp:565
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 "Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
 
-#: ../kioslave/file/file_unix.cpp:576
+#: ../kioslave/file/file_unix.cpp:578
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."

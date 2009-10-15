@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-14 06:36+0200\n"
+"POT-Creation-Date: 2009-10-15 06:13+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6417,7 +6417,7 @@ msgstr "Šukaj"
 msgid "Cut"
 msgstr "Vytni"
 
-#: kdeui/util/kkeyserver_x11.cpp:113 kdeui/dialogs/kshortcutsdialog.cpp:120
+#: kdeui/util/kkeyserver_x11.cpp:113 kdeui/dialogs/kshortcutsdialog.cpp:124
 msgid "Print"
 msgstr "Vydrukuj"
 
@@ -6528,11 +6528,11 @@ msgstr ""
 "Dziejnaja schiema klavijaturnych skarotaŭ źmianiłasia. Zapisać jaje pierad "
 "tym, jak pierajści da inšaj?"
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:118
+#: kdeui/dialogs/kshortcutsdialog.cpp:122
 msgid "Configure Shortcuts"
 msgstr "Naładź klavijaturnyja skaroty"
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:125
+#: kdeui/dialogs/kshortcutsdialog.cpp:129
 msgid "Reset to Defaults"
 msgstr "Viarni zmoŭčanaje"
 
@@ -6910,6 +6910,30 @@ msgstr "Źmiani ikonu"
 #| msgid "Link Text:"
 msgid "Icon Te&xt:"
 msgstr "Tekst łuča:"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:66
+#, fuzzy
+#| msgid "Pages"
+msgid "All Pages"
+msgstr "Staronki"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:67
+#, fuzzy
+#| msgid "Pages"
+msgid "Odd Pages"
+msgstr "Staronki"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:68
+#, fuzzy
+#| msgid "Pages"
+msgid "Even Pages"
+msgstr "Staronki"
+
+#: kdeui/dialogs/kcupsoptionssettingswidget_p.cpp:79
+#, fuzzy
+#| msgid "Pages Per Sheet"
+msgid "Page Set"
+msgstr "Staronak na arkušy"
 
 #: kdeui/dialogs/kshortcutseditor.cpp:127
 #: kdeui/widgets/kcharselectdata.cpp:644
@@ -7382,7 +7406,7 @@ msgstr "&Ułučysia ŭ supolnaść KDE"
 msgid "&Support KDE"
 msgstr "&Padtrymaj KDE"
 
-#: kdeui/dialogs/kdeprintdialog.cpp:53
+#: kdeui/dialogs/kdeprintdialog.cpp:73
 msgctxt "@title:window"
 msgid "Print"
 msgstr "Vydruk"
@@ -12113,7 +12137,7 @@ msgstr "Re: %1"
 #, fuzzy
 #| msgid "Do &not store this time"
 msgctxt "@label:checkbox"
-msgid "Do not ask again for files of this type"
+msgid "Remember action for files of this type"
 msgstr "&Hetym razam nie zachoŭvaj"
 
 #: kparts/browseropenorsavequestion.cpp:142

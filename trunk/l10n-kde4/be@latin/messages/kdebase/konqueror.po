@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-09 06:14+0200\n"
+"POT-Creation-Date: 2009-10-16 06:15+0200\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -47,7 +47,7 @@ msgstr "© 1999-2008, raspracoŭniki prahramy „Konqueror”"
 msgid "http://konqueror.kde.org"
 msgstr "http://konqueror.kde.org"
 
-#: src/konqfactory.cpp:236
+#: src/konqfactory.cpp:236 sidebar/konqsidebar.cpp:30
 msgid "David Faure"
 msgstr "David Faure"
 
@@ -271,7 +271,7 @@ msgstr "Torben Weis"
 msgid "KFM author"
 msgstr "Aŭtar prahramy „KFM”"
 
-#: src/konqfactory.cpp:268 sidebar/konqsidebar.cpp:117
+#: src/konqfactory.cpp:268 sidebar/konqsidebar.cpp:29
 msgid "Joseph Wenninger"
 msgstr "Joseph Wenninger"
 
@@ -699,7 +699,7 @@ msgstr "&Naładź profili prahladu..."
 msgid "Load &View Profile"
 msgstr "&Adčytaj profil prahladu"
 
-#: src/konqmainwindow.cpp:3754 sidebar/web_module/web_module.h:61
+#: src/konqmainwindow.cpp:3754 sidebar/web_module/web_module.h:57
 msgid "&Reload"
 msgstr "&Pieračytaj"
 
@@ -961,7 +961,6 @@ msgid "Open the document in current window"
 msgstr "Adčyni dakument u hetym aknie"
 
 #: src/konqmainwindow.cpp:4638 sidebar/web_module/web_module.h:54
-#: sidebar/web_module/web_module.h:57
 msgid "Open in New &Window"
 msgstr "Adčyni ŭ &novym aknie"
 
@@ -1350,7 +1349,7 @@ msgstr[2] "Dzion"
 msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
 msgstr "<h1>Panel historyi</h1> Tut možna naładzić bakavuju panel historyi."
 
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:424
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:423
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr ""
@@ -1362,7 +1361,7 @@ msgid "&Create New Folder"
 msgstr "&Stvary novy kataloh"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:77
-#: sidebar/trees/konq_sidebartree.cpp:938
+#: sidebar/trees/konq_sidebartree.cpp:932
 msgid "Delete Folder"
 msgstr "Vydali kataloh"
 
@@ -1371,17 +1370,17 @@ msgid "Delete Bookmark"
 msgstr "Vydali zakładku"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:85
-#: sidebar/trees/konq_sidebartree.cpp:947
+#: sidebar/trees/konq_sidebartree.cpp:941
 msgid "Properties"
 msgstr "Ułaścivaści"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:89
-#: sidebar/trees/konq_sidebartree.cpp:950
+#: sidebar/trees/konq_sidebartree.cpp:944
 msgid "Open in New Window"
 msgstr "Adčyni ŭ novym aknie"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:93
-#: sidebar/trees/konq_sidebartree.cpp:953
+#: sidebar/trees/konq_sidebartree.cpp:947
 msgid "Open in New Tab"
 msgstr "Adčyni ŭ novaj kartcy"
 
@@ -1390,7 +1389,7 @@ msgid "Open Folder in Tabs"
 msgstr "Adčyni kataloh u kartkach"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:101
-#: sidebar/trees/konq_sidebartree.cpp:956
+#: sidebar/trees/konq_sidebartree.cpp:950
 msgid "Copy Link Address"
 msgstr "Skapijuj adras łuča"
 
@@ -1440,35 +1439,35 @@ msgstr "Miesca:"
 msgid "Add Bookmark"
 msgstr "Dadaj zakładku"
 
-#: sidebar/trees/konq_sidebartree.cpp:935
+#: sidebar/trees/konq_sidebartree.cpp:929
 msgid "&Create New Folder..."
 msgstr "&Stvary novy kataloh..."
 
-#: sidebar/trees/konq_sidebartree.cpp:941
+#: sidebar/trees/konq_sidebartree.cpp:935
 msgid "Rename"
 msgstr "Źmiani nazvu"
 
-#: sidebar/trees/konq_sidebartree.cpp:944
+#: sidebar/trees/konq_sidebartree.cpp:938
 msgid "Delete Link"
 msgstr "Vydali łuč"
 
-#: sidebar/trees/konq_sidebartree.cpp:995
+#: sidebar/trees/konq_sidebartree.cpp:989
 msgid "New Folder"
 msgstr "Novy kataloh"
 
-#: sidebar/trees/konq_sidebartree.cpp:999
+#: sidebar/trees/konq_sidebartree.cpp:993
 msgid "Create New Folder"
 msgstr "Stvary novy kataloh"
 
-#: sidebar/trees/konq_sidebartree.cpp:1000
+#: sidebar/trees/konq_sidebartree.cpp:994
 msgid "Enter folder name:"
 msgstr "Upišy nazvu kataloha:"
 
-#: sidebar/sidebar_widget.cpp:111
+#: sidebar/sidebar_widget.cpp:104
 msgid "Rollback to System Default"
 msgstr "Viarni systemnyja nałady"
 
-#: sidebar/sidebar_widget.cpp:117
+#: sidebar/sidebar_widget.cpp:110
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
@@ -1478,65 +1477,65 @@ msgstr ""
 "systemnyja elementy.<br /><b>Jaje niemahčyma paśla anulavać.</b><br /"
 ">Praciahvać?</qt>"
 
-#: sidebar/sidebar_widget.cpp:270
+#: sidebar/sidebar_widget.cpp:240
 msgid "Configure Navigation Panel"
 msgstr "Naładź panel miescaŭ"
 
-#: sidebar/sidebar_widget.cpp:272
+#: sidebar/sidebar_widget.cpp:242
 msgid "Add New"
 msgstr "Dadaj novy"
 
-#: sidebar/sidebar_widget.cpp:274
+#: sidebar/sidebar_widget.cpp:244
 msgid "Multiple Views"
 msgstr "Niekalki prahladaŭ"
 
-#: sidebar/sidebar_widget.cpp:276 sidebar/sidebar_widget.cpp:400
+#: sidebar/sidebar_widget.cpp:246 sidebar/sidebar_widget.cpp:362
 msgid "Show Tabs Left"
 msgstr "Pakazvaj kartki źleva"
 
-#: sidebar/sidebar_widget.cpp:277
+#: sidebar/sidebar_widget.cpp:247
 msgid "Show Configuration Button"
 msgstr "Pakazvaj knopku naładaŭ"
 
-#: sidebar/sidebar_widget.cpp:281
+#: sidebar/sidebar_widget.cpp:250
 msgid "Close Navigation Panel"
 msgstr "Začyni panel miescaŭ"
 
-#: sidebar/sidebar_widget.cpp:331
+#: sidebar/sidebar_widget.cpp:293
 msgid "This entry already exists."
 msgstr "Hety element užo isnuje."
 
-#: sidebar/sidebar_widget.cpp:345 sidebar/web_module/web_module.cpp:217
+#: sidebar/sidebar_widget.cpp:307 sidebar/web_module/web_module.cpp:217
 msgid "Web SideBar Plugin"
 msgstr "Plugin sieciŭnaj bakavoj paneli"
 
-#: sidebar/sidebar_widget.cpp:400
+#: sidebar/sidebar_widget.cpp:362
 msgid "Show Tabs Right"
 msgstr "Pakazvaj kartki sprava"
 
-#: sidebar/sidebar_widget.cpp:479
+#: sidebar/sidebar_widget.cpp:437
 msgid "Set Name"
 msgstr "Aznač nazvu"
 
-#: sidebar/sidebar_widget.cpp:479
+#: sidebar/sidebar_widget.cpp:437
 msgid "Enter the name:"
 msgstr "Upišy nazvu:"
 
-#: sidebar/sidebar_widget.cpp:497
+#: sidebar/sidebar_widget.cpp:455
 msgid "Enter a URL:"
 msgstr "Upišy adras:"
 
-#: sidebar/sidebar_widget.cpp:505
+#: sidebar/sidebar_widget.cpp:463
 #, kde-format
 msgid "<qt><b>%1</b> does not exist</qt>"
 msgstr "<qt><b>%1</b> nie isnuje.</qt>"
 
-#: sidebar/sidebar_widget.cpp:536
+#: sidebar/sidebar_widget.cpp:494
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>Sapraŭdy chočaš vydalić kartku <b>%1</b>?</qt>"
 
-#: sidebar/sidebar_widget.cpp:584
+#: sidebar/sidebar_widget.cpp:542
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -1546,23 +1545,23 @@ msgstr ""
 "pravaj knopkaj myšy ŭ lubuju knopku paneli miescaŭ i vybiery „Pakazvaj panel "
 "miescaŭ”."
 
-#: sidebar/sidebar_widget.cpp:670
+#: sidebar/sidebar_widget.cpp:627
 msgid "Configure Sidebar"
 msgstr "Naładź bakavuju panel"
 
-#: sidebar/sidebar_widget.cpp:787
+#: sidebar/sidebar_widget.cpp:744
 msgid "Set Name..."
 msgstr "Aznač nazvu..."
 
-#: sidebar/sidebar_widget.cpp:788
+#: sidebar/sidebar_widget.cpp:745
 msgid "Set URL..."
 msgstr "Aznač adras..."
 
-#: sidebar/sidebar_widget.cpp:789
+#: sidebar/sidebar_widget.cpp:746
 msgid "Set Icon..."
 msgstr "Aznač ikonu..."
 
-#: sidebar/sidebar_widget.cpp:791
+#: sidebar/sidebar_widget.cpp:748
 msgid "Remove"
 msgstr "Vydali"
 
@@ -1582,11 +1581,11 @@ msgstr " sekund"
 msgid "&Open Link"
 msgstr "&Adčyni łuč"
 
-#: sidebar/web_module/web_module.h:63
+#: sidebar/web_module/web_module.h:59
 msgid "Set &Automatic Reload"
 msgstr "Uklučy &aŭtamatyčnaje pieračytvańnie"
 
-#: sidebar/konqsidebar.cpp:116
+#: sidebar/konqsidebar.cpp:28
 msgid "Extended Sidebar"
 msgstr "Pašyranaja bakavaja panel"
 

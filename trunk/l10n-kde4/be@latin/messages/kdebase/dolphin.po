@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-20 06:07+0200\n"
+"POT-Creation-Date: 2009-10-21 07:08+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -670,17 +670,17 @@ msgctxt "@label"
 msgid "Change..."
 msgstr "Źmiani tagi..."
 
-#: panels/information/metadatawidget.cpp:199
+#: panels/information/metadatawidget.cpp:201
 msgctxt "@label"
 msgid "Type:"
 msgstr "Typ:"
 
-#: panels/information/metadatawidget.cpp:201
+#: panels/information/metadatawidget.cpp:203
 msgctxt "@label"
 msgid "Modified:"
 msgstr "Admiena:"
 
-#: panels/information/metadatawidget.cpp:202
+#: panels/information/metadatawidget.cpp:204
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Owner"
@@ -688,7 +688,7 @@ msgctxt "@label"
 msgid "Owner:"
 msgstr "Ułaśnik"
 
-#: panels/information/metadatawidget.cpp:203
+#: panels/information/metadatawidget.cpp:205
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Permissions"
@@ -696,7 +696,7 @@ msgctxt "@label"
 msgid "Permissions:"
 msgstr "Dazvoły"
 
-#: panels/information/metadatawidget.cpp:221
+#: panels/information/metadatawidget.cpp:223
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -704,7 +704,7 @@ msgctxt "@label"
 msgid "Rating:"
 msgstr "Paradkuj pavodle:"
 
-#: panels/information/metadatawidget.cpp:222
+#: panels/information/metadatawidget.cpp:224
 #, fuzzy
 #| msgctxt "@label Indicator when no tags defined"
 #| msgid "No Tags"
@@ -712,7 +712,7 @@ msgctxt "@label"
 msgid "Tags:"
 msgstr "Niama tagaŭ"
 
-#: panels/information/metadatawidget.cpp:223
+#: panels/information/metadatawidget.cpp:225
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -720,17 +720,17 @@ msgctxt "@label"
 msgid "Comment:"
 msgstr "Dadaj kamentar..."
 
-#: panels/information/metadatawidget.cpp:583
+#: panels/information/metadatawidget.cpp:596
 msgctxt "@label"
 msgid "Size:"
 msgstr "Pamier:"
 
-#: panels/information/metadatawidget.cpp:585
+#: panels/information/metadatawidget.cpp:598
 msgctxt "@label"
 msgid "Folder"
 msgstr "Kataloh"
 
-#: panels/information/metadatawidget.cpp:606
+#: panels/information/metadatawidget.cpp:619
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Total size:"
@@ -1465,28 +1465,28 @@ msgstr "Pakazvaj źviestki pra volnaje miesca ŭ paneli statusu"
 
 #: dolphinmainwindow.cpp:170
 msgctxt "@info:status"
-msgid "Copy operation completed."
-msgstr "Kapijavańnie skončyłasia."
+msgid "Successfully copied."
+msgstr ""
 
 #: dolphinmainwindow.cpp:174
 msgctxt "@info:status"
-msgid "Move operation completed."
-msgstr "Pieraniasieńnie skončyłasia."
+msgid "Successfully moved."
+msgstr ""
 
 #: dolphinmainwindow.cpp:178
 msgctxt "@info:status"
-msgid "Link operation completed."
-msgstr "Stvareńnie łuča skončyłasia."
+msgid "Successfully lined."
+msgstr ""
 
 #: dolphinmainwindow.cpp:182
 msgctxt "@info:status"
-msgid "Move to trash operation completed."
-msgstr "Vykidańnie ŭ śmietnicu skončyłasia."
+msgid "Successfully moved to trash."
+msgstr ""
 
 #: dolphinmainwindow.cpp:186
 msgctxt "@info:status"
-msgid "Renaming operation completed."
-msgstr "Źmiena nazvy skončyłasia."
+msgid "Successfully renamed."
+msgstr ""
 
 #: dolphinmainwindow.cpp:191
 msgctxt "@info:status"
@@ -2687,6 +2687,26 @@ msgstr "Detali"
 msgctxt "@action:inmenu View Mode"
 msgid "Columns"
 msgstr "Słupki"
+
+#~ msgctxt "@info:status"
+#~ msgid "Copy operation completed."
+#~ msgstr "Kapijavańnie skončyłasia."
+
+#~ msgctxt "@info:status"
+#~ msgid "Move operation completed."
+#~ msgstr "Pieraniasieńnie skončyłasia."
+
+#~ msgctxt "@info:status"
+#~ msgid "Link operation completed."
+#~ msgstr "Stvareńnie łuča skončyłasia."
+
+#~ msgctxt "@info:status"
+#~ msgid "Move to trash operation completed."
+#~ msgstr "Vykidańnie ŭ śmietnicu skončyłasia."
+
+#~ msgctxt "@info:status"
+#~ msgid "Renaming operation completed."
+#~ msgstr "Źmiena nazvy skončyłasia."
 
 #, fuzzy
 #~| msgctxt "@title:group"

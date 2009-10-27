@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-02 07:23+0200\n"
+"POT-Creation-Date: 2009-10-27 07:01+0100\n"
 "PO-Revision-Date: 2008-11-01 19:17+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,41 +18,57 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: main.cpp:48
+#: main.cpp:49
 msgid "Run Plasma widgets in their own window"
 msgstr "Uklučaj widžety „Plasma” ŭ asobnych voknach"
 
-#: main.cpp:83
+#: main.cpp:100
+msgid "No description available"
+msgstr "Niama apisańnia."
+
+#: main.cpp:117
 msgid "Plasma Widget Viewer"
 msgstr "Prahlad widžetaŭ „Plasma”"
 
-#: main.cpp:85
+#: main.cpp:119
 msgid "2007-2008, Frerich Raabe"
 msgstr "2007-2008, Frerich Raabe"
 
-#: main.cpp:87
+#: main.cpp:121
 msgid "Frerich Raabe"
 msgstr "Frerich Raabe"
 
-#: main.cpp:88
+#: main.cpp:122
 msgid "Original author"
 msgstr "Pieršy aŭtar"
 
-#: main.cpp:95
+#: main.cpp:129
 msgid "Name of the containment plugin"
 msgstr "Nazva plugina schovišča"
 
-#: main.cpp:97
+#: main.cpp:131
 msgctxt "Do not translate horizontal, vertical, mediacenter nor planar"
 msgid "The formfactor to use (horizontal, vertical, mediacenter or planar)"
 msgstr ""
 "Patrebnaja forma („horizontal”, „vertical”, „mediacenter” albo „planar”)"
 
-#: main.cpp:98
+#: main.cpp:132
 msgid "Displays a list of known applets"
 msgstr "Pakazvaje śpis viadomych widžetaŭ"
 
-#: main.cpp:100
+#: main.cpp:133
+#, fuzzy
+#| msgid "Displays a list of known applets"
+msgid "Displays a list of known wallpapers"
+msgstr "Pakazvaje śpis viadomych widžetaŭ"
+
+#: main.cpp:134
+#, fuzzy
+#| msgid "Displays a list of known applets"
+msgid "Displays a list of known containments"
+msgstr "Pakazvaje śpis viadomych widžetaŭ"
+
+#: main.cpp:136
 msgctxt ""
 "Do not translate floating, desktop, fullscreen, top, bottom, left nor right"
 msgid ""
@@ -63,36 +79,33 @@ msgstr ""
 "„fullscreen”: na ŭvieś ekran; „top”: uviersie; „bottom”: unizie; „left”: "
 "źleva; albo „right”: sprava)"
 
-#: main.cpp:102
+#: main.cpp:138
 msgid "The size in KB to set the pixmap cache to"
 msgstr "Pamier padručnaj pamiaci dla pikselnaj mapy ŭ kilabajtach"
 
-#: main.cpp:104
+#: main.cpp:140
 msgid "Desktop SVG theme to use"
 msgstr ""
 
-#: main.cpp:106
-msgid "Name of the wallpaper plugin"
-msgstr "Nazva plugina špaleraŭ"
+#: main.cpp:142
+msgid ""
+"Name of the wallpaper plugin. Requires a containment plugin to be specified."
+msgstr ""
 
-#: main.cpp:107
+#: main.cpp:143
 msgid ""
 "Name of applet to view; may refer to the plugin name or be a path (absolute "
 "or relative) to a package. If not provided, then an attempt is made to load "
 "a package from the current directory."
 msgstr ""
 
-#: main.cpp:110
+#: main.cpp:146
 msgid "Optional arguments of the applet to add"
 msgstr "Dadatkovyja arhumenty apleta, jaki treba dadać"
 
-#: main.cpp:111
+#: main.cpp:147
 msgid "List zeroconf announced remote widgets"
 msgstr ""
-
-#: main.cpp:135
-msgid "No description available"
-msgstr "Niama apisańnia."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -103,6 +116,9 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
+
+#~ msgid "Name of the wallpaper plugin"
+#~ msgstr "Nazva plugina špaleraŭ"
 
 #~ msgid "Name of applet to add (required)"
 #~ msgstr "Nazva apleta, jaki treba dadać (abaviazkovaja opcyja)"

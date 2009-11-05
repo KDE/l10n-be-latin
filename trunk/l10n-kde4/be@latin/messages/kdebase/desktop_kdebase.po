@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-04 06:31+0000\n"
+"POT-Creation-Date: 2009-11-05 06:00+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -53,6 +53,11 @@ msgstr "Słupki"
 msgctxt "Name"
 msgid "Subversion"
 msgstr "Pytańnie"
+
+#: apps/dolphin/src/fileviewversioncontrolplugin.desktop:4
+msgctxt "Comment"
+msgid "Version Control Plugin for File Views"
+msgstr ""
 
 #: apps/dolphin/src/kcm/kcmdolphingeneral.desktop:1
 #, fuzzy
@@ -8027,24 +8032,29 @@ msgctxt "Name"
 msgid "KRandRTray"
 msgstr "KRandRTray"
 
-#: workspace/kcontrol/randr/krandrtray.desktop:85
+#: workspace/kcontrol/randr/krandrtray.desktop:18
 msgctxt "GenericName"
 msgid "Screen Resize & Rotate"
 msgstr "Aplet dla źmieny pamieraŭ i pavarotu ekrana"
 
-#: workspace/kcontrol/randr/krandrtray.desktop:168
+#: workspace/kcontrol/randr/krandrtray.desktop:99
 msgctxt "Comment"
 msgid "A panel applet for resizing and reorientating X screens."
 msgstr ""
 "Aplet dla paneli, jaki absłuhoŭvaje źmienu pamieraŭ i pavarot ekranaŭ "
 "systemy X."
 
+#: workspace/kcontrol/randr/module/randrmonitor.desktop:2
+msgctxt "Name"
+msgid "Detecting RANDR (monitor) changes"
+msgstr ""
+
 #: workspace/kcontrol/randr/randr.desktop:14
 msgctxt "Name"
 msgid "Size & Orientation"
 msgstr "Pamiery j pavarot"
 
-#: workspace/kcontrol/randr/randr.desktop:99
+#: workspace/kcontrol/randr/randr.desktop:96
 msgctxt "Comment"
 msgid "Resize and Rotate your display"
 msgstr "Źmianieńnie pamieraŭ i pavarot ekrana"

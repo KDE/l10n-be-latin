@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-11 06:18+0100\n"
+"POT-Creation-Date: 2009-11-12 06:10+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -8218,7 +8218,7 @@ msgstr "Bolej nie pakazvaj hetkich paviedamleńniaŭ"
 msgid "About %1"
 msgstr "Pra %1"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:141
+#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:163
 msgid "Configure"
 msgstr "Naładź"
 
@@ -11908,25 +11908,20 @@ msgstr "Pramoŭ tekst"
 msgid "Starting KTTSD Failed"
 msgstr "Nie ŭdałosia ŭklučyć KTTSD"
 
-#: kdeui/widgets/ktextedit.cpp:633 kdeui/widgets/ktextedit.cpp:644
-#, kde-format
-msgid "Suggestions for %1"
-msgstr "Prapanovy dla %1"
-
-#: kdeui/widgets/ktextedit.cpp:635
-msgid "Ignore"
-msgstr "Abmini"
-
-#: kdeui/widgets/ktextedit.cpp:636
-msgid "Add to Dictionary"
-msgstr "Dadaj u słoŭnik"
-
-#: kdeui/widgets/ktextedit.cpp:638 kdeui/widgets/ktextedit.cpp:640
+#: kdeui/widgets/ktextedit.cpp:627
 #, kde-format
 msgid "No suggestions for %1"
 msgstr "Niama prapanovaŭ dla %1"
 
-#: kdeui/widgets/ktextedit.cpp:791
+#: kdeui/widgets/ktextedit.cpp:638
+msgid "Ignore"
+msgstr "Abmini"
+
+#: kdeui/widgets/ktextedit.cpp:639
+msgid "Add to Dictionary"
+msgstr "Dadaj u słoŭnik"
+
+#: kdeui/widgets/ktextedit.cpp:784
 msgid "Nothing to spell check."
 msgstr "Niama čaho spraŭdžvać."
 
@@ -14917,6 +14912,9 @@ msgstr "Štodzionnyja &parady"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "Niama takoj funkcyi: „%1”."
+
+#~ msgid "Suggestions for %1"
+#~ msgstr "Prapanovy dla %1"
 
 #~ msgid "Download New %1"
 #~ msgstr "Ściahni novy %1"

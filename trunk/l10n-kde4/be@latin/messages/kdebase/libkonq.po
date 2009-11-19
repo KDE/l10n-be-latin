@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-21 07:09+0200\n"
+"POT-Creation-Date: 2009-11-19 06:19+0100\n"
 "PO-Revision-Date: 2008-10-03 23:27+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,24 +18,24 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: knewmenu.cpp:145
+#: knewmenu.cpp:147
 msgid "Create New"
 msgstr "Stvary novaje"
 
-#: knewmenu.cpp:169
+#: knewmenu.cpp:171
 msgid "Link to Device"
 msgstr "Łuč dla pryłady"
 
-#: knewmenu.cpp:490
+#: knewmenu.cpp:495
 #, kde-format
 msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
 msgstr "<qt>Šablonnaha fajła <b>%1</b> nie isnuje.</qt>"
 
-#: knewmenu.cpp:499 knewmenu.cpp:545
+#: knewmenu.cpp:504 knewmenu.cpp:550
 msgid "File name:"
 msgstr "Nazva fajła:"
 
-#: knewmenu.cpp:559
+#: knewmenu.cpp:564
 msgid ""
 "Basic links can only point to local files or directories.\n"
 "Please use \"Link to Location\" for remote URLs."
@@ -104,27 +104,52 @@ msgstr "Zrabi &špalerami rabočaha stała"
 msgid "C&ancel"
 msgstr "&Anuluj"
 
-#: konq_operations.cpp:813 konq_operations.cpp:815 konq_operations.cpp:817
+#: konq_operations.cpp:814
+#, fuzzy
+#| msgid "Create New"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Stvary novaje"
+
+#: konq_operations.cpp:816
+#, fuzzy
+#| msgid "Enter folder name:"
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr "Upišy nazvy kataloha:"
+
+#: konq_operations.cpp:819
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot and will therefore the directory will be "
+"hidden by default."
+msgstr ""
+
+#: konq_operations.cpp:820
+msgid "Create hidden directory?"
+msgstr ""
+
+#: konq_operations.cpp:835 konq_operations.cpp:842
 msgid "New Folder"
 msgstr "Novy kataloh"
 
-#: konq_operations.cpp:818
+#: konq_operations.cpp:843
 msgid "Enter folder name:"
 msgstr "Upišy nazvy kataloha:"
 
-#: konq_operations.cpp:918
+#: konq_operations.cpp:947
 #, fuzzy
 #| msgid "New Folder"
 msgctxt "@action:inmenu"
 msgid "Paste One Folder"
 msgstr "Novy kataloh"
 
-#: konq_operations.cpp:919
+#: konq_operations.cpp:948
 msgctxt "@action:inmenu"
 msgid "Paste One File"
 msgstr ""
 
-#: konq_operations.cpp:922
+#: konq_operations.cpp:951
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Item"
@@ -133,12 +158,12 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: konq_operations.cpp:924
+#: konq_operations.cpp:953
 msgctxt "@action:inmenu"
 msgid "Paste Clipboard Contents..."
 msgstr ""
 
-#: konq_operations.cpp:928
+#: konq_operations.cpp:957
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr ""

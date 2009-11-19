@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-18 06:30+0100\n"
+"POT-Creation-Date: 2009-11-19 06:18+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -477,7 +477,7 @@ msgstr ""
 "Sertyfikat SSL byŭ admoŭleny, jak prasili. Ty možaš adklučyć takija "
 "pavodziny ŭ Centry kiravańnia KDE."
 
-#: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:817
+#: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:841
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -485,7 +485,7 @@ msgstr[0] "Ci ty sapraŭdy chočaš vydalić %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vydalić %1 hetyja elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vydalić %1 hetych elementaŭ?"
 
-#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:819
+#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:843
 msgid "Delete Files"
 msgstr "Vydaleńnie fajłaŭ"
 
@@ -497,7 +497,7 @@ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetyja elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetych elementaŭ?"
 
-#: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1859
+#: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1883
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
 
@@ -4773,7 +4773,7 @@ msgstr "Adčyni kataloh u redaktary zakładak"
 msgid "Delete Folder"
 msgstr "Vydali kataloh"
 
-#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1959
+#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1983
 msgid "Properties"
 msgstr "Ułaścivaści"
 
@@ -5631,8 +5631,9 @@ msgid "Files and folders selected"
 msgstr "Vyłučanyja katalohi j fajły"
 
 #: ../kfile/kfilewidget.cpp:988
-#, kde-format
-msgid "The file %1 could not be found"
+#, fuzzy, kde-format
+#| msgid "The file %1 could not be found"
+msgid "The file \"%1\" could not be found"
 msgstr "Nie ŭdałosia znajści fajł „%1”."
 
 #: ../kfile/kfilewidget.cpp:988
@@ -5832,12 +5833,12 @@ msgstr ""
 "Stvary novy kataloh u:\n"
 "%1"
 
-#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:770
+#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:794
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "Fajł ci kataloh z nazvaj „%1” užo isnuje."
 
-#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:773
+#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:797
 msgid "You do not have permission to create that folder."
 msgstr "Tabie nie staje dazvołu na stvareńnie hetaha kataloha."
 
@@ -5952,11 +5953,38 @@ msgstr ""
 msgid "Show Hidden Folders"
 msgstr "Pakažy schavanyja katalohi"
 
-#: ../kfile/kdiroperator.cpp:735 ../kfile/kdiroperator.cpp:743
+#: ../kfile/kdiroperator.cpp:735
+#, fuzzy
+#| msgid "Creating directory"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Stvareńnie kataloha"
+
+#: ../kfile/kdiroperator.cpp:737
+#, fuzzy
+#| msgid "Ru&n as a different user"
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr "&Uklučy ad asoby inšaha karystańnika"
+
+#: ../kfile/kdiroperator.cpp:740
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot and will therefore the directory will be "
+"hidden by default."
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:741
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create hidden directory?"
+msgstr "Stvareńnie kataloha"
+
+#: ../kfile/kdiroperator.cpp:751 ../kfile/kdiroperator.cpp:758
 msgid "New Folder"
 msgstr "Novy kataloh"
 
-#: ../kfile/kdiroperator.cpp:744
+#: ../kfile/kdiroperator.cpp:759
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -5965,15 +5993,15 @@ msgstr ""
 "Stvary novy kataloh u:\n"
 "%1"
 
-#: ../kfile/kdiroperator.cpp:788
+#: ../kfile/kdiroperator.cpp:812
 msgid "You did not select a file to delete."
 msgstr "Ty nia vybraŭ fajł, jaki chočaš vydalić."
 
-#: ../kfile/kdiroperator.cpp:789
+#: ../kfile/kdiroperator.cpp:813
 msgid "Nothing to Delete"
 msgstr "Niama čaho vydalać"
 
-#: ../kfile/kdiroperator.cpp:810
+#: ../kfile/kdiroperator.cpp:834
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -5982,19 +6010,19 @@ msgstr ""
 "<qt>Ci ty sapraŭdy chočaš vydalić\n"
 " <b>„%1”</b>?</qt>"
 
-#: ../kfile/kdiroperator.cpp:812
+#: ../kfile/kdiroperator.cpp:836
 msgid "Delete File"
 msgstr "Vydali fajł"
 
-#: ../kfile/kdiroperator.cpp:850
+#: ../kfile/kdiroperator.cpp:874
 msgid "You did not select a file to trash."
 msgstr "Ty nia vybraŭ fajł, jaki chočaš vykinuć u śmietnicu."
 
-#: ../kfile/kdiroperator.cpp:851
+#: ../kfile/kdiroperator.cpp:875
 msgid "Nothing to Trash"
 msgstr "Niama čaho vykidać u śmietnicu"
 
-#: ../kfile/kdiroperator.cpp:868
+#: ../kfile/kdiroperator.cpp:892
 #, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -6003,16 +6031,16 @@ msgstr ""
 "<qt>Ci ty sapraŭdy chočaš vykinuć u śmietnicu\n"
 " <b>„%1”</b>?</qt>"
 
-#: ../kfile/kdiroperator.cpp:870
+#: ../kfile/kdiroperator.cpp:894
 msgid "Trash File"
 msgstr "Vykiń u śmietnicu"
 
-#: ../kfile/kdiroperator.cpp:871 ../kfile/kdiroperator.cpp:878
+#: ../kfile/kdiroperator.cpp:895 ../kfile/kdiroperator.cpp:902
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "&Vykiń"
 
-#: ../kfile/kdiroperator.cpp:875
+#: ../kfile/kdiroperator.cpp:899
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
@@ -6020,103 +6048,103 @@ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hety %1 element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hetyja %1 elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hetyja %1 elementaŭ?"
 
-#: ../kfile/kdiroperator.cpp:877
+#: ../kfile/kdiroperator.cpp:901
 msgid "Trash Files"
 msgstr "Vykiń fajły"
 
-#: ../kfile/kdiroperator.cpp:1069 ../kfile/kdiroperator.cpp:1195
+#: ../kfile/kdiroperator.cpp:1093 ../kfile/kdiroperator.cpp:1219
 msgid "The specified folder does not exist or was not readable."
 msgstr "Aznačany kataloh nie isnuje, albo ŭ jaho nielha pisać."
 
-#: ../kfile/kdiroperator.cpp:1837
+#: ../kfile/kdiroperator.cpp:1861
 msgid "Menu"
 msgstr "Menu"
 
-#: ../kfile/kdiroperator.cpp:1841
+#: ../kfile/kdiroperator.cpp:1865
 msgid "Parent Folder"
 msgstr "Vyšejšy kataloh"
 
-#: ../kfile/kdiroperator.cpp:1848
+#: ../kfile/kdiroperator.cpp:1872
 msgid "Home Folder"
 msgstr "Chatni kataloh"
 
-#: ../kfile/kdiroperator.cpp:1851
+#: ../kfile/kdiroperator.cpp:1875
 msgid "Reload"
 msgstr "Pieračytaj"
 
-#: ../kfile/kdiroperator.cpp:1854
+#: ../kfile/kdiroperator.cpp:1878
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: ../kfile/kdiroperator.cpp:1865
+#: ../kfile/kdiroperator.cpp:1889
 msgid "Delete"
 msgstr "Vydali"
 
-#: ../kfile/kdiroperator.cpp:1872
+#: ../kfile/kdiroperator.cpp:1896
 msgid "Sorting"
 msgstr "Paradak"
 
-#: ../kfile/kdiroperator.cpp:1875
+#: ../kfile/kdiroperator.cpp:1899
 msgid "By Name"
 msgstr "Pavodle nazvaŭ"
 
-#: ../kfile/kdiroperator.cpp:1879
+#: ../kfile/kdiroperator.cpp:1903
 msgid "By Size"
 msgstr "Pavodle pamieraŭ"
 
-#: ../kfile/kdiroperator.cpp:1883
+#: ../kfile/kdiroperator.cpp:1907
 msgid "By Date"
 msgstr "Pavodle času"
 
-#: ../kfile/kdiroperator.cpp:1887
+#: ../kfile/kdiroperator.cpp:1911
 msgid "By Type"
 msgstr "Pavodle typaŭ"
 
-#: ../kfile/kdiroperator.cpp:1891
+#: ../kfile/kdiroperator.cpp:1915
 msgid "Descending"
 msgstr "Ad bolšaha k mienšamu"
 
-#: ../kfile/kdiroperator.cpp:1901
+#: ../kfile/kdiroperator.cpp:1925
 msgid "Icon Position"
 msgstr "Miesca ikon"
 
-#: ../kfile/kdiroperator.cpp:1904
+#: ../kfile/kdiroperator.cpp:1928
 msgid "Next to File Name"
 msgstr "Kala nazvy fajła"
 
-#: ../kfile/kdiroperator.cpp:1908
+#: ../kfile/kdiroperator.cpp:1932
 msgid "Above File Name"
 msgstr "Nad nazvaju fajła"
 
-#: ../kfile/kdiroperator.cpp:1919
+#: ../kfile/kdiroperator.cpp:1943
 msgid "Short View"
 msgstr "Karotki vyhlad"
 
-#: ../kfile/kdiroperator.cpp:1924
+#: ../kfile/kdiroperator.cpp:1948
 msgid "Detailed View"
 msgstr "Detalny vyhlad"
 
-#: ../kfile/kdiroperator.cpp:1929
+#: ../kfile/kdiroperator.cpp:1953
 msgid "Tree View"
 msgstr "Hierarchičny vyhlad"
 
-#: ../kfile/kdiroperator.cpp:1934
+#: ../kfile/kdiroperator.cpp:1958
 msgid "Detailed Tree View"
 msgstr "Detalny hierarchičny vyhlad"
 
-#: ../kfile/kdiroperator.cpp:1945
+#: ../kfile/kdiroperator.cpp:1969
 msgid "Show Hidden Files"
 msgstr "Pakažy schavanyja fajły"
 
-#: ../kfile/kdiroperator.cpp:1949
+#: ../kfile/kdiroperator.cpp:1973
 msgid "Show Aside Preview"
 msgstr "Pakažy zbočnyja padhlady"
 
-#: ../kfile/kdiroperator.cpp:1955
+#: ../kfile/kdiroperator.cpp:1979
 msgid "Show Preview"
 msgstr "Pakažy padhlady"
 
-#: ../kfile/kdiroperator.cpp:1966
+#: ../kfile/kdiroperator.cpp:1990
 msgid "&View"
 msgstr "&Vyhlad"
 

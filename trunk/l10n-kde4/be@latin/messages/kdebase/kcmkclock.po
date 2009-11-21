@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-08 05:59+0100\n"
+"POT-Creation-Date: 2009-11-21 06:19+0100\n"
 "PO-Revision-Date: 2008-12-11 22:05+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -53,13 +53,14 @@ msgstr "Padčas nastaŭleńnia novaha časavaha pojasu ŭźnikła pamyłka."
 msgid "Time zone Error"
 msgstr "Pamyłka časavaha pojasu"
 
-#: dtime.cpp:292 main.cpp:61
+#: dtime.cpp:292
 msgid ""
-"<h1>Date & Time</h1> This control module can be used to set the system date "
-"and time. As these settings do not only affect you as a user, but rather the "
-"whole system, you can only change these settings when you start the Control "
-"Center as root. If you do not have the root password, but feel the system "
-"time should be corrected, please contact your system administrator."
+"<h1>Date & Time</h1> This system settings module can be used to set the "
+"system date and time. As these settings do not only affect you as a user, "
+"but rather the whole system, you can only change these settings when you "
+"start the System Settings as root. If you do not have the root password, but "
+"feel the system time should be corrected, please contact your system "
+"administrator."
 msgstr ""
 
 #: main.cpp:53
@@ -97,6 +98,15 @@ msgstr "Benjamin Meyer"
 #: main.cpp:59
 msgid "Added NTP support"
 msgstr "Dadaŭ absłuhoŭvańnie „NTP”"
+
+#: main.cpp:61
+msgid ""
+"<h1>Date & Time</h1> This control module can be used to set the system date "
+"and time. As these settings do not only affect you as a user, but rather the "
+"whole system, you can only change these settings when you start the System "
+"Settings as root. If you do not have the root password, but feel the system "
+"time should be corrected, please contact your system administrator."
+msgstr ""
 
 #: main.cpp:97
 #, kde-format

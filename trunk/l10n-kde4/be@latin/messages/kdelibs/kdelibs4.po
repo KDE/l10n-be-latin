@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-05 06:14+0100\n"
+"POT-Creation-Date: 2009-12-06 06:14+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5451,6 +5451,10 @@ msgstr ""
 msgid "Could not make you a fan."
 msgstr "Nie ŭdałosia stvaryć časovy fajł."
 
+#: kdewebkit/kwebpage.cpp:197 khtml/khtml_ext.cpp:933
+msgid "Overwrite File?"
+msgstr "Nadpisać fajł?"
+
 #: dnssd/servicemodel.cpp:102
 msgid "Host"
 msgstr "Host"
@@ -10328,10 +10332,6 @@ msgstr "Upišy adras:"
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "Fajł z nazvaj „%1” užo isnuje. Ty sapraŭdy chočaš jaho nadpisać?"
-
-#: khtml/khtml_ext.cpp:933
-msgid "Overwrite File?"
-msgstr "Nadpisać fajł?"
 
 #: khtml/khtml_ext.cpp:933
 msgid "Overwrite"

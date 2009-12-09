@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-05 06:16+0100\n"
+"POT-Creation-Date: 2009-12-09 07:53+0100\n"
 "PO-Revision-Date: 2008-12-02 00:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -164,41 +164,119 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
+#: widgetsExplorer/appletsfiltering.cpp:185
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter Search Term"
+msgstr "Tut upišy šukany vyraz."
+
+#: widgetsExplorer/appletsfiltering.cpp:192
+#: widgetsExplorer/appletsfiltering.cpp:193
+msgid "Get New Widgets"
+msgstr "Vaźmi novych widžetaŭ"
+
+#: widgetsExplorer/appletsfiltering.cpp:309
+msgid "Download New Plasma Widgets"
+msgstr "Vaźmi novych widžetaŭ „Plasma”"
+
+#: widgetsExplorer/appletsfiltering.cpp:321
+#, fuzzy, kde-format
+msgctxt ""
+"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
+"desktop files"
+msgid "Download New %1"
+msgstr "Vaźmi novy „%1”"
+
+#: widgetsExplorer/appletsfiltering.cpp:331
+msgid "Install Widget From Local File..."
+msgstr "Zainstaluj widžet ź miascovaha fajła..."
+
+#: widgetsExplorer/applettooltip.cpp:120
+#, fuzzy
+#| msgid "Install New Widgets"
+msgid "Uninstall Widget"
+msgstr "Zainstaluj novych widžetaŭ"
+
+#: widgetsExplorer/applettooltip.cpp:176
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:182
+msgid "Author:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:191
+msgid "Website:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:195
+msgid "License:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:202
+msgid "Unknown Applet"
+msgstr ""
+
+#: widgetsExplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "Filtry"
+
+#: widgetsExplorer/openwidgetassistant.cpp:46
+msgid "Select the type of widget to install from the list below."
+msgstr "Vybiery ź nižejšaha śpisu typ widžeta, jaki treba zainstalavać."
+
+#: widgetsExplorer/openwidgetassistant.cpp:56
+msgid "Plasmoid: Native plasma widget"
+msgstr "Rodny widžet systemy „Plasma”"
+
+#: widgetsExplorer/openwidgetassistant.cpp:77
+msgid "Install New Widget From File"
+msgstr "Zainstaluj novy widžet z fajła"
+
+#: widgetsExplorer/openwidgetassistant.cpp:82
+msgid "Select File"
+msgstr "Vybiery fajł"
+
+#: widgetsExplorer/openwidgetassistant.cpp:176
+#, kde-format
+msgid "Could not load the required installer %1. The error given was: %2"
+msgstr ""
+"Nie ŭdałosia pračytać u pamiać patrebny insalatar „%1”. Uźnikła nastupnaja "
+"pamyłka: %2"
+
+#: widgetsExplorer/openwidgetassistant.cpp:179
+#: widgetsExplorer/openwidgetassistant.cpp:191
+msgid "Installation Failure"
+msgstr "Niaŭdałaje instalavańnie"
+
+#: widgetsExplorer/openwidgetassistant.cpp:190
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
+
+#: widgetsExplorer/plasmaappletitemmodel.cpp:183
+msgid "Containments"
+msgstr "Schoviščy"
+
+#: widgetsExplorer/widgetexplorer.cpp:120
+msgid "All Widgets"
+msgstr "Usie widžety"
+
+#: widgetsExplorer/widgetexplorer.cpp:124
+msgid "Running"
+msgstr ""
+
+#: widgetsExplorer/widgetexplorer.cpp:128
+#, fuzzy
+#| msgid "Categories:"
+msgid "Categories:"
+msgstr "Katehoryi:"
+
 #, fuzzy
 #~| msgid "Add Widget"
 #~ msgid "Add Trigger"
 #~ msgstr "Dadaj widžet"
-
-#~ msgid "Select the type of widget to install from the list below."
-#~ msgstr "Vybiery ź nižejšaha śpisu typ widžeta, jaki treba zainstalavać."
-
-#~ msgid "Plasmoid: Native plasma widget"
-#~ msgstr "Rodny widžet systemy „Plasma”"
-
-#~ msgid "Install New Widget From File"
-#~ msgstr "Zainstaluj novy widžet z fajła"
-
-#~ msgid "Select File"
-#~ msgstr "Vybiery fajł"
-
-#~ msgid "Could not load the required installer %1. The error given was: %2"
-#~ msgstr ""
-#~ "Nie ŭdałosia pračytać u pamiać patrebny insalatar „%1”. Uźnikła "
-#~ "nastupnaja pamyłka: %2"
-
-#~ msgid "Installation Failure"
-#~ msgstr "Niaŭdałaje instalavańnie"
-
-#~ msgid "Installing the package %1 failed."
-#~ msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
-
-#, fuzzy
-#~| msgid "Categories:"
-#~ msgid "Category:"
-#~ msgstr "Katehoryi:"
-
-#~ msgid "All Widgets"
-#~ msgstr "Usie widžety"
 
 #, fuzzy
 #~ msgctxt ""
@@ -216,27 +294,8 @@ msgstr "ihar.hrachyshka@gmail.com"
 #~ msgid "Currently Running Widgets"
 #~ msgstr "Ciapierašnija widžety"
 
-#~ msgid "Download New Plasma Widgets"
-#~ msgstr "Vaźmi novych widžetaŭ „Plasma”"
-
-#, fuzzy
-#~ msgctxt ""
-#~ "%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-"
-#~ "*.desktop files"
-#~ msgid "Download New %1"
-#~ msgstr "Vaźmi novy „%1”"
-
-#~ msgid "Install Widget From Local File..."
-#~ msgstr "Zainstaluj widžet ź miascovaha fajła..."
-
 #~ msgid "Widgets"
 #~ msgstr "Widžety"
-
-#~ msgid "Install New Widgets"
-#~ msgstr "Zainstaluj novych widžetaŭ"
-
-#~ msgid "Get New Widgets"
-#~ msgstr "Vaźmi novych widžetaŭ"
 
 #~ msgid "Close the dialog"
 #~ msgstr "Začyni hetaje akno"
@@ -270,12 +329,3 @@ msgstr "ihar.hrachyshka@gmail.com"
 #~ "pakazanaje akno, ź jakim možna brać ź sieciva novyja widžety. Knopka "
 #~ "„Zainstaluj z fajła” dazvalaje dadavać novyja widžety z fajłaŭ, "
 #~ "źmieščanych na tvaim dysku.</qt>"
-
-#~ msgid "Enter search phrase here"
-#~ msgstr "Tut upišy šukany vyraz."
-
-#~ msgid "Filters"
-#~ msgstr "Filtry"
-
-#~ msgid "Containments"
-#~ msgstr "Schoviščy"

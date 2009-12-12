@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-07 06:07+0100\n"
+"POT-Creation-Date: 2009-12-12 06:09+0100\n"
 "PO-Revision-Date: 2008-10-18 22:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -93,12 +93,16 @@ msgid "Ignore"
 msgstr "Abminaj vyjavy"
 
 #: editactiondialog.cpp:37
-msgid "Replace"
-msgstr ""
+#, fuzzy
+#| msgid "<empty clipboard>"
+msgid "Replace Clipboard"
+msgstr "<pusty abmienny bufer>"
 
 #: editactiondialog.cpp:39
-msgid "Add"
-msgstr ""
+#, fuzzy
+#| msgid "<empty clipboard>"
+msgid "Add to Clipboard"
+msgstr "<pusty abmienny bufer>"
 
 #: editactiondialog.cpp:219
 #, fuzzy
@@ -107,7 +111,7 @@ msgid "Command"
 msgstr "Dadaj zahad"
 
 #: editactiondialog.cpp:221
-msgid "Use Output"
+msgid "Output Handling"
 msgstr ""
 
 #. i18n: file: actionsconfig.ui:54

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-08 05:59+0100\n"
+"POT-Creation-Date: 2010-01-02 05:57+0100\n"
 "PO-Revision-Date: 2008-09-19 15:50+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -56,6 +56,9 @@ msgstr "Aznačana"
 #. i18n: file: kcmlayoutwidget.ui:467
 #. i18n: ectx: property (text), widget (QPushButton, btnXkbShortcut3d)
 #: kcmlayout.cpp:609 rc.cpp:110 rc.cpp:122 rc.cpp:255 rc.cpp:267
+#, fuzzy
+#| msgid "None"
+msgctxt "no shortcut defined"
 msgid "None"
 msgstr "Niama"
 

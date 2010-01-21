@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-16 05:59+0100\n"
+"POT-Creation-Date: 2010-01-21 06:07+0100\n"
 "PO-Revision-Date: 2008-10-24 22:25+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,102 +18,102 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: javascriptdataengine.cpp:93
+#: javascriptdataengine.cpp:95
 #, fuzzy
 #| msgid "Constructor takes at least 1 argument"
 msgid "setData() takes at least two arguments"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
 
-#: javascriptdataengine.cpp:124
+#: javascriptdataengine.cpp:126
 #, fuzzy
 #| msgid "Could not extract the AppletObject"
 msgid "Could not extract the DataEngineObject"
 msgstr "Nie ŭdałosia vyniać abjekt „AppletObject”."
 
-#: javascriptdataengine.cpp:128
+#: javascriptdataengine.cpp:130
 #, fuzzy
 #| msgid "Could not extract the Applet"
 msgid "Could not extract the DataEngine"
 msgstr "Nie ŭdałosia vyniać abjekt „Applet”."
 
-#: javascriptdataengine.cpp:138
+#: javascriptdataengine.cpp:140
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "removeAllData() takes at least one argument (the source name)"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: javascriptdataengine.cpp:156
+#: javascriptdataengine.cpp:158
 #, fuzzy
 #| msgid "Constructor takes at least 1 argument"
 msgid "removeData() takes at least two arguments (the source and key names)"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
 
-#: simplejavascriptapplet.cpp:128
+#: simplejavascriptapplet.cpp:130
 #, kde-format
 msgid ""
 "Script failure on line %1:\n"
 "%2"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:277
+#: simplejavascriptapplet.cpp:279
 #, fuzzy, kde-format
 #| msgid "Unable to open '%1'"
 msgid "Unable to load script file: %1"
 msgstr "Nie ŭdałosia adčynić „%1”."
 
-#: simplejavascriptapplet.cpp:473
+#: simplejavascriptapplet.cpp:484
 #, kde-format
 msgid "Authorization for required extension '%1' was denied."
 msgstr ""
 
-#: simplejavascriptapplet.cpp:611
+#: simplejavascriptapplet.cpp:623
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "dataEngine() takes one argument"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: simplejavascriptapplet.cpp:616 simplejavascriptapplet.cpp:634
+#: simplejavascriptapplet.cpp:628 simplejavascriptapplet.cpp:646
 msgid "Could not extract the Applet"
 msgstr "Nie ŭdałosia vyniać abjekt „Applet”."
 
-#: simplejavascriptapplet.cpp:627
+#: simplejavascriptapplet.cpp:639
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "service() takes two arguments"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: simplejavascriptapplet.cpp:647
+#: simplejavascriptapplet.cpp:659
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "animation() takes one argument"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: simplejavascriptapplet.cpp:655 simplejavascriptapplet.cpp:677
+#: simplejavascriptapplet.cpp:667 simplejavascriptapplet.cpp:689
 #, kde-format
 msgid "%1 is not a known animation type"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:697
+#: simplejavascriptapplet.cpp:709
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "loadui() takes one argument"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: simplejavascriptapplet.cpp:703
+#: simplejavascriptapplet.cpp:715
 #, kde-format
 msgid "Unable to open '%1'"
 msgstr "Nie ŭdałosia adčynić „%1”."
 
-#: simplejavascriptapplet.cpp:745 simplejavascriptapplet.cpp:761
+#: simplejavascriptapplet.cpp:757 simplejavascriptapplet.cpp:773
 msgid "Constructor takes at least 1 argument"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
 
-#: simplejavascriptapplet.cpp:859
+#: simplejavascriptapplet.cpp:893
 #, kde-format
 msgid "This operation was not supported, %1"
 msgstr ""
 
-#: simplejavascriptapplet.cpp:866
+#: simplejavascriptapplet.cpp:900
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "print() takes one argument"

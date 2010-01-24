@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-12 06:42+0100\n"
+"POT-Creation-Date: 2010-01-24 06:12+0100\n"
 "PO-Revision-Date: 2008-12-02 00:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -17,6 +17,42 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: tests/background.cpp:38
+msgid "Plasma"
+msgstr ""
+
+#: tests/background.cpp:40
+msgid "(C) 2008, Aaron Seigo"
+msgstr ""
+
+#: mousepluginwidget.cpp:46
+msgid "No plugins found, check your installation."
+msgstr ""
+
+#: mousepluginwidget.cpp:215
+msgid "Configure Plugin"
+msgstr ""
+
+#: mouseplugins.cpp:38
+msgid "Add Action..."
+msgstr ""
+
+#: mouseplugins.cpp:38
+msgid "Add another mouse action"
+msgstr ""
+
+#: mouseplugins.cpp:79
+msgid "This trigger is already assigned to another action."
+msgstr ""
+
+#: mouseplugins.cpp:79 mouseplugins.cpp:158
+msgid "Reassign"
+msgstr ""
+
+#: mouseplugins.cpp:158
+msgid "This trigger is assigned to another plugin."
+msgstr ""
 
 #: backgrounddialog.cpp:208
 msgid "Desktop Settings"
@@ -39,6 +75,158 @@ msgstr ""
 #: backgrounddialog.cpp:246
 msgid "Mouse Actions"
 msgstr ""
+
+#. i18n: file: ActivityConfiguration.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:3 rc.cpp:20
+msgid "Type:"
+msgstr ""
+
+#. i18n: file: ActivityConfiguration.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:6 rc.cpp:23
+msgid "Name:"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:50
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:9 rc.cpp:26
+msgid "Monitor"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:150
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#: rc.cpp:12 rc.cpp:29
+msgid "&Type:"
+msgstr ""
+
+#. i18n: file: MousePlugins.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, MousePlugins)
+#: rc.cpp:15 rc.cpp:32
+msgid "Mouse Plugins"
+msgstr ""
+
+#: rc.cpp:16
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: rc.cpp:17
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: widgetsexplorer/appletsfiltering.cpp:186
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter Search Term"
+msgstr "Tut upišy šukany vyraz."
+
+#: widgetsexplorer/appletsfiltering.cpp:191
+#: widgetsexplorer/appletsfiltering.cpp:192
+msgid "Get New Widgets"
+msgstr "Vaźmi novych widžetaŭ"
+
+#: widgetsexplorer/appletsfiltering.cpp:318
+msgid "Download New Plasma Widgets"
+msgstr "Vaźmi novych widžetaŭ „Plasma”"
+
+#: widgetsexplorer/appletsfiltering.cpp:330
+#, fuzzy, kde-format
+msgctxt ""
+"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
+"desktop files"
+msgid "Download New %1"
+msgstr "Vaźmi novy „%1”"
+
+#: widgetsexplorer/appletsfiltering.cpp:340
+msgid "Install Widget From Local File..."
+msgstr "Zainstaluj widžet ź miascovaha fajła..."
+
+#: widgetsexplorer/openwidgetassistant.cpp:46
+msgid "Select the type of widget to install from the list below."
+msgstr "Vybiery ź nižejšaha śpisu typ widžeta, jaki treba zainstalavać."
+
+#: widgetsexplorer/openwidgetassistant.cpp:56
+msgid "Plasmoid: Native plasma widget"
+msgstr "Rodny widžet systemy „Plasma”"
+
+#: widgetsexplorer/openwidgetassistant.cpp:77
+msgid "Install New Widget From File"
+msgstr "Zainstaluj novy widžet z fajła"
+
+#: widgetsexplorer/openwidgetassistant.cpp:82
+msgid "Select File"
+msgstr "Vybiery fajł"
+
+#: widgetsexplorer/openwidgetassistant.cpp:176
+#, kde-format
+msgid "Could not load the required installer %1. The error given was: %2"
+msgstr ""
+"Nie ŭdałosia pračytać u pamiać patrebny insalatar „%1”. Uźnikła nastupnaja "
+"pamyłka: %2"
+
+#: widgetsexplorer/openwidgetassistant.cpp:179
+#: widgetsexplorer/openwidgetassistant.cpp:191
+msgid "Installation Failure"
+msgstr "Niaŭdałaje instalavańnie"
+
+#: widgetsexplorer/openwidgetassistant.cpp:190
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
+
+#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "Filtry"
+
+#: widgetsexplorer/plasmaappletitemmodel.cpp:183
+msgid "Containments"
+msgstr "Schoviščy"
+
+#: widgetsexplorer/applettooltip.cpp:130
+#, fuzzy
+#| msgid "Install New Widgets"
+msgid "Uninstall Widget"
+msgstr "Zainstaluj novych widžetaŭ"
+
+#: widgetsexplorer/applettooltip.cpp:186
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:192
+#, kde-format
+msgid "<font color=\"%1\">Author:</font>"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:201
+#, kde-format
+msgid "<font color=\"%1\">Website:</font>"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:205
+#, kde-format
+msgid "<font color=\"%1\">License:</font>"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:214
+msgid "Unknown Applet"
+msgstr ""
+
+#: widgetsexplorer/widgetexplorer.cpp:120
+msgid "All Widgets"
+msgstr "Usie widžety"
+
+#: widgetsexplorer/widgetexplorer.cpp:124
+msgid "Running"
+msgstr ""
+
+#: widgetsexplorer/widgetexplorer.cpp:128
+#, fuzzy
+#| msgid "Categories:"
+msgid "Categories:"
+msgstr "Katehoryi:"
 
 #: mouseinputbutton.cpp:33
 #, fuzzy
@@ -95,186 +283,6 @@ msgid ""
 "Hold down the modifier keys you want, then click a mouse button or scroll a "
 "mouse wheel here"
 msgstr ""
-
-#: mouseplugins.cpp:38
-msgid "Add Action..."
-msgstr ""
-
-#: mouseplugins.cpp:38
-msgid "Add another mouse action"
-msgstr ""
-
-#: mouseplugins.cpp:79
-msgid "This trigger is already assigned to another action."
-msgstr ""
-
-#: mouseplugins.cpp:79 mouseplugins.cpp:158
-msgid "Reassign"
-msgstr ""
-
-#: mouseplugins.cpp:158
-msgid "This trigger is assigned to another plugin."
-msgstr ""
-
-#: mousepluginwidget.cpp:46
-msgid "No plugins found, check your installation."
-msgstr ""
-
-#: mousepluginwidget.cpp:215
-msgid "Configure Plugin"
-msgstr ""
-
-#. i18n: file: ActivityConfiguration.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:3 rc.cpp:20
-msgid "Type:"
-msgstr ""
-
-#. i18n: file: ActivityConfiguration.ui:40
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:6 rc.cpp:23
-msgid "Name:"
-msgstr ""
-
-#. i18n: file: BackgroundDialog.ui:50
-#. i18n: ectx: property (text), widget (QLabel, m_monitor)
-#: rc.cpp:9 rc.cpp:26
-msgid "Monitor"
-msgstr ""
-
-#. i18n: file: BackgroundDialog.ui:150
-#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
-#: rc.cpp:12 rc.cpp:29
-msgid "&Type:"
-msgstr ""
-
-#. i18n: file: MousePlugins.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, MousePlugins)
-#: rc.cpp:15 rc.cpp:32
-msgid "Mouse Plugins"
-msgstr ""
-
-#: rc.cpp:16
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Ihar Hračyška"
-
-#: rc.cpp:17
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ihar.hrachyshka@gmail.com"
-
-#: widgetsExplorer/appletsfiltering.cpp:186
-#, fuzzy
-#| msgid "Enter search phrase here"
-msgid "Enter Search Term"
-msgstr "Tut upišy šukany vyraz."
-
-#: widgetsExplorer/appletsfiltering.cpp:191
-#: widgetsExplorer/appletsfiltering.cpp:192
-msgid "Get New Widgets"
-msgstr "Vaźmi novych widžetaŭ"
-
-#: widgetsExplorer/appletsfiltering.cpp:318
-msgid "Download New Plasma Widgets"
-msgstr "Vaźmi novych widžetaŭ „Plasma”"
-
-#: widgetsExplorer/appletsfiltering.cpp:330
-#, fuzzy, kde-format
-msgctxt ""
-"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
-"desktop files"
-msgid "Download New %1"
-msgstr "Vaźmi novy „%1”"
-
-#: widgetsExplorer/appletsfiltering.cpp:340
-msgid "Install Widget From Local File..."
-msgstr "Zainstaluj widžet ź miascovaha fajła..."
-
-#: widgetsExplorer/applettooltip.cpp:130
-#, fuzzy
-#| msgid "Install New Widgets"
-msgid "Uninstall Widget"
-msgstr "Zainstaluj novych widžetaŭ"
-
-#: widgetsExplorer/applettooltip.cpp:186
-#, kde-format
-msgid "Version %1"
-msgstr ""
-
-#: widgetsExplorer/applettooltip.cpp:192
-#, kde-format
-msgid "<font color=\"%1\">Author:</font>"
-msgstr ""
-
-#: widgetsExplorer/applettooltip.cpp:201
-#, kde-format
-msgid "<font color=\"%1\">Website:</font>"
-msgstr ""
-
-#: widgetsExplorer/applettooltip.cpp:205
-#, kde-format
-msgid "<font color=\"%1\">License:</font>"
-msgstr ""
-
-#: widgetsExplorer/applettooltip.cpp:214
-msgid "Unknown Applet"
-msgstr ""
-
-#: widgetsExplorer/kcategorizeditemsviewmodels.cpp:72
-msgid "Filters"
-msgstr "Filtry"
-
-#: widgetsExplorer/openwidgetassistant.cpp:46
-msgid "Select the type of widget to install from the list below."
-msgstr "Vybiery ź nižejšaha śpisu typ widžeta, jaki treba zainstalavać."
-
-#: widgetsExplorer/openwidgetassistant.cpp:56
-msgid "Plasmoid: Native plasma widget"
-msgstr "Rodny widžet systemy „Plasma”"
-
-#: widgetsExplorer/openwidgetassistant.cpp:77
-msgid "Install New Widget From File"
-msgstr "Zainstaluj novy widžet z fajła"
-
-#: widgetsExplorer/openwidgetassistant.cpp:82
-msgid "Select File"
-msgstr "Vybiery fajł"
-
-#: widgetsExplorer/openwidgetassistant.cpp:176
-#, kde-format
-msgid "Could not load the required installer %1. The error given was: %2"
-msgstr ""
-"Nie ŭdałosia pračytać u pamiać patrebny insalatar „%1”. Uźnikła nastupnaja "
-"pamyłka: %2"
-
-#: widgetsExplorer/openwidgetassistant.cpp:179
-#: widgetsExplorer/openwidgetassistant.cpp:191
-msgid "Installation Failure"
-msgstr "Niaŭdałaje instalavańnie"
-
-#: widgetsExplorer/openwidgetassistant.cpp:190
-#, kde-format
-msgid "Installing the package %1 failed."
-msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
-
-#: widgetsExplorer/plasmaappletitemmodel.cpp:183
-msgid "Containments"
-msgstr "Schoviščy"
-
-#: widgetsExplorer/widgetexplorer.cpp:120
-msgid "All Widgets"
-msgstr "Usie widžety"
-
-#: widgetsExplorer/widgetexplorer.cpp:124
-msgid "Running"
-msgstr ""
-
-#: widgetsExplorer/widgetexplorer.cpp:128
-#, fuzzy
-#| msgid "Categories:"
-msgid "Categories:"
-msgstr "Katehoryi:"
 
 #, fuzzy
 #~| msgid "Add Widget"

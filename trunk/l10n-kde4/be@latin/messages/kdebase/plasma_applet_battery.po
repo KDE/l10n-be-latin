@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-24 06:12+0100\n"
+"POT-Creation-Date: 2010-01-30 06:11+0100\n"
 "PO-Revision-Date: 2008-10-05 10:22+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,51 +18,51 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: battery.cpp:264
+#: battery.cpp:265
 msgid "General"
 msgstr "Ahulnaje"
 
-#: battery.cpp:420
+#: battery.cpp:421
 msgid "Screen Brightness"
 msgstr "Jarkaść ekrana"
 
-#: battery.cpp:444
+#: battery.cpp:445
 msgid "Power Profile"
 msgstr "Enerhietyčny profil"
 
-#: battery.cpp:477
+#: battery.cpp:478
 msgid "Sleep"
 msgstr "Zaśni"
 
-#: battery.cpp:491
+#: battery.cpp:492
 msgid "Hibernate"
 msgstr "Zhibernuj"
 
-#: battery.cpp:505
+#: battery.cpp:506
 #, fuzzy
 #| msgid "Power Management"
 msgctxt "tooltip on the config button in the popup"
 msgid "Configure Power Management..."
 msgstr "Kiravańnie enerhijaj"
 
-#: battery.cpp:527
+#: battery.cpp:528
 msgid "Power Management"
 msgstr "Kiravańnie enerhijaj"
 
-#: battery.cpp:581
+#: battery.cpp:582
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "Battery:"
 msgstr "<b>Batareja:</b> niama<br />"
 
-#: battery.cpp:584
+#: battery.cpp:585 battery.cpp:602
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (charged)"
 msgstr "<b>Batareja:</b> %1% (całkom zapoŭnienaja)<br />"
 
-#: battery.cpp:586
+#: battery.cpp:587
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
@@ -70,61 +70,46 @@ msgctxt "Shown when a time estimate is not available"
 msgid "%1% (discharging)"
 msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
 
-#: battery.cpp:588
+#: battery.cpp:589 battery.cpp:606
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:591 battery.cpp:629
+#: battery.cpp:592 battery.cpp:628
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
-#: battery.cpp:599
+#: battery.cpp:600
 #, fuzzy, kde-format
-#| msgid "<b>Battery %1:</b> %2% (charging)<br />"
+#| msgctxt "Battery is not plugged in"
+#| msgid "<b>Battery:</b> not present<br />"
 msgctxt "Placeholder is the battery ID"
-msgid "<b>Battery %1:</b>"
-msgstr "<b>Batareja %1:</b> %2% (zapaŭniajecca)<br />"
+msgid "Battery %1:"
+msgstr "<b>Batareja:</b> niama<br />"
 
-#: battery.cpp:601
-#, fuzzy, kde-format
-#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
-msgctxt "state of battery"
-msgid "%1% (charged)"
-msgstr "<b>Batareja:</b> %1% (całkom zapoŭnienaja)<br />"
-
-#: battery.cpp:603
+#: battery.cpp:604
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgctxt "state of battery"
 msgid "%1% (discharging)"
 msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
 
-#: battery.cpp:605
-#, fuzzy, kde-format
-#| msgctxt "Shown when a time estimate is not available"
-#| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgctxt "state of battery"
-msgid "%1% (charging)"
-msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
-
-#: battery.cpp:609
+#: battery.cpp:610
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Plugged in"
 msgid "AC Adapter:"
 msgstr "<b>Blok siłkavańnia:</b> padłučany"
 
-#: battery.cpp:611
+#: battery.cpp:612
 msgid "Plugged in "
 msgstr ""
 
-#: battery.cpp:613
+#: battery.cpp:614
 msgid "Not plugged in"
 msgstr ""
 
-#: battery.cpp:628
+#: battery.cpp:627
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
@@ -148,6 +133,32 @@ msgstr ""
 #: rc.cpp:9 rc.cpp:18
 msgid "Show the state for &each battery present"
 msgstr "Pakazvaj &usie najaŭnyja batarei"
+
+#, fuzzy
+#~| msgid "<b>Battery %1:</b> %2% (charging)<br />"
+#~ msgctxt "Placeholder is the battery ID"
+#~ msgid "<b>Battery %1:</b>"
+#~ msgstr "<b>Batareja %1:</b> %2% (zapaŭniajecca)<br />"
+
+#, fuzzy
+#~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (charged)"
+#~ msgstr "<b>Batareja:</b> %1% (całkom zapoŭnienaja)<br />"
+
+#, fuzzy
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (discharging)"
+#~ msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
+
+#, fuzzy
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (charging)"
+#~ msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
 
 #, fuzzy
 #~| msgid "More..."

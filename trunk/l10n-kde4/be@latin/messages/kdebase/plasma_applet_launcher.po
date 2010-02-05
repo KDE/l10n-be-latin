@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-21 06:07+0100\n"
+"POT-Creation-Date: 2010-02-05 02:26+0100\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -56,11 +56,11 @@ msgid "Favorites"
 msgstr "Ułasnaje"
 
 #: ui/launcher.cpp:118 ui/launcher.cpp:205 core/recentlyusedmodel.cpp:120
-#: core/systemmodel.cpp:83 simpleapplet/simpleapplet.cpp:193
+#: core/systemmodel.cpp:84 simpleapplet/simpleapplet.cpp:193
 msgid "Applications"
 msgstr "Aplikacyi"
 
-#: ui/launcher.cpp:118 ui/launcher.cpp:239 core/systemmodel.cpp:352
+#: ui/launcher.cpp:118 ui/launcher.cpp:239 core/systemmodel.cpp:326
 #: simpleapplet/simpleapplet.cpp:194
 msgid "Computer"
 msgstr "Kamputar"
@@ -91,13 +91,13 @@ msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
 msgid "Clear Recent Documents"
 msgstr "Vyčyści śpis nadoječy adčynienych dakumentaŭ"
 
-#: ui/launcher.cpp:527
+#: ui/launcher.cpp:528
 #, kde-format
 msgctxt "login name, hostname"
 msgid "User <b>%1</b> on <b>%2</b>"
 msgstr "Karystańnik <b>%1</b> na <b>%2</b>"
 
-#: ui/launcher.cpp:529
+#: ui/launcher.cpp:530
 #, kde-format
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
@@ -231,23 +231,23 @@ msgstr "Nadoječy ŭklučanyja"
 msgid "Recently Used Applications"
 msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
 
-#: core/systemmodel.cpp:84
+#: core/systemmodel.cpp:85
 msgid "Places"
 msgstr "Miescy"
 
-#: core/systemmodel.cpp:85
+#: core/systemmodel.cpp:86
 msgid "Removable Storage"
 msgstr "Źmiennyja nośbity"
 
-#: core/systemmodel.cpp:86
+#: core/systemmodel.cpp:87
 msgid "Storage"
 msgstr "Nośbit"
 
-#: core/systemmodel.cpp:240 simpleapplet/simpleapplet.cpp:199
+#: core/systemmodel.cpp:214 simpleapplet/simpleapplet.cpp:199
 msgid "Run Command..."
 msgstr ""
 
-#: core/systemmodel.cpp:244
+#: core/systemmodel.cpp:218
 msgid "Run a command or a search query"
 msgstr ""
 

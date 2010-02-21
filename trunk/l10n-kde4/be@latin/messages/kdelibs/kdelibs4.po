@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-19 06:39+0100\n"
+"POT-Creation-Date: 2010-02-21 06:30+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1991,7 +1991,7 @@ msgstr "Hałoŭnaje akno"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:910 kparts/browserrun.cpp:323
+#: rc.cpp:910 kparts/browserrun.cpp:329
 msgid "Execute"
 msgstr "Vykanaj"
 
@@ -10098,7 +10098,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr "Prosty web-hartač, jaki karystajecca biblijatekaj KHTML"
 
 #: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3736 khtml/khtml_part.cpp:3946
-#: khtml/khtml_part.cpp:4338 kparts/browserrun.cpp:409
+#: khtml/khtml_part.cpp:4338 kparts/browserrun.cpp:415
 msgid "Save As"
 msgstr "Zapišy jak"
 
@@ -10354,14 +10354,14 @@ msgstr "Fajł z nazvaj „%1” užo isnuje. Ty sapraŭdy chočaš jaho nadpisa�
 msgid "Overwrite"
 msgstr "Nadpišy"
 
-#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:380
+#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:386
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 "U tvajoj ściežcy „$PATH” nie ŭdałosia znajści kiraŭnika ściahvańniaŭ fajłaŭ "
 "(%1)."
 
-#: khtml/khtml_ext.cpp:995 kparts/browserrun.cpp:381
+#: khtml/khtml_ext.cpp:995 kparts/browserrun.cpp:387
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -11606,7 +11606,7 @@ msgstr "© 2005-2007 Sebastian Sauer"
 msgid "Test the Kross framework!"
 msgstr "Test platformy Kross"
 
-#: kross/modules/form.cpp:303
+#: kross/modules/form.cpp:302
 #, fuzzy
 #| msgid "Cancel"
 msgid "Cancel?"
@@ -11956,12 +11956,12 @@ msgstr ""
 msgid "Close Document"
 msgstr "Začyni dakument"
 
-#: kparts/browserrun.cpp:322
+#: kparts/browserrun.cpp:328
 #, kde-format
 msgid "Do you really want to execute '%1'?"
 msgstr "Ty sapraŭdy chočaš vykanać „%1”?"
 
-#: kparts/browserrun.cpp:323
+#: kparts/browserrun.cpp:329
 msgid "Execute File?"
 msgstr "Vykanać fajł?"
 

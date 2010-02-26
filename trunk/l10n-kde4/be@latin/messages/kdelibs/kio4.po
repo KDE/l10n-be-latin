@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-23 07:04+0100\n"
+"POT-Creation-Date: 2010-02-26 06:15+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2507,7 +2507,7 @@ msgstr " (łučyć z „%1”)"
 msgid "Name:"
 msgstr "Nazva:"
 
-#: kio/kfileitem.cpp:1053 kfile/kpropertiesdialog.cpp:955
+#: kio/kfileitem.cpp:1053 kfile/kpropertiesdialog.cpp:957
 msgid "Type:"
 msgstr "Typ:"
 
@@ -2516,11 +2516,11 @@ msgstr "Typ:"
 msgid "Link to %1 (%2)"
 msgstr "Łuč da „%1” (%2)"
 
-#: kio/kfileitem.cpp:1062 kfile/kpropertiesdialog.cpp:1006
+#: kio/kfileitem.cpp:1062 kfile/kpropertiesdialog.cpp:1008
 msgid "Size:"
 msgstr "Pamier:"
 
-#: kio/kfileitem.cpp:1066 kfile/kpropertiesdialog.cpp:1066
+#: kio/kfileitem.cpp:1066 kfile/kpropertiesdialog.cpp:1068
 msgid "Modified:"
 msgstr "Admienieny:"
 
@@ -3254,7 +3254,7 @@ msgstr "KMailService"
 msgid "Mail service"
 msgstr "Paštovaja słužba"
 
-#: kfile/kurlrequesterdialog.cpp:59 kfile/kpropertiesdialog.cpp:992
+#: kfile/kurlrequesterdialog.cpp:59 kfile/kpropertiesdialog.cpp:994
 msgid "Location:"
 msgstr "Miesca:"
 
@@ -3367,7 +3367,7 @@ msgid "Owning Group"
 msgstr "Hrupa ŭłaśnikaŭ"
 
 #: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:465
-#: kfile/kpropertiesdialog.cpp:1995
+#: kfile/kpropertiesdialog.cpp:2010
 msgid "Others"
 msgstr "Inšyja"
 
@@ -3477,7 +3477,7 @@ msgstr "Fajły, jakija padtrymvajucca"
 msgid "Open file dialog"
 msgstr "Adčyni akno fajła"
 
-#: kfile/kdevicelistmodel.cpp:115
+#: kfile/kdevicelistmodel.cpp:116
 msgid "Device name"
 msgstr "Nazva pryłady"
 
@@ -3607,57 +3607,57 @@ msgctxt "@title:tab File properties"
 msgid "&General"
 msgstr "&Hałoŭnaje"
 
-#: kfile/kpropertiesdialog.cpp:969
+#: kfile/kpropertiesdialog.cpp:971
 msgid "Create new file type"
 msgstr "Stvary novy typ fajłaŭ"
 
-#: kfile/kpropertiesdialog.cpp:971
+#: kfile/kpropertiesdialog.cpp:973
 msgid "Edit file type"
 msgstr "Redahuj typ fajłaŭ"
 
-#: kfile/kpropertiesdialog.cpp:983
+#: kfile/kpropertiesdialog.cpp:985
 msgid "Contents:"
 msgstr "Źmieściva:"
 
-#: kfile/kpropertiesdialog.cpp:1025
+#: kfile/kpropertiesdialog.cpp:1027
 msgid "Calculate"
 msgstr "Padličy"
 
-#: kfile/kpropertiesdialog.cpp:1026
+#: kfile/kpropertiesdialog.cpp:1028
 msgid "Stop"
 msgstr "Spyni"
 
-#: kfile/kpropertiesdialog.cpp:1036 kfile/kpropertiesdialog.cpp:1228
+#: kfile/kpropertiesdialog.cpp:1038 kfile/kpropertiesdialog.cpp:1243
 msgid "Refresh"
 msgstr "Aktualizuj"
 
-#: kfile/kpropertiesdialog.cpp:1044
+#: kfile/kpropertiesdialog.cpp:1046
 msgid "Points to:"
 msgstr "Złučaje z:"
 
-#: kfile/kpropertiesdialog.cpp:1056
+#: kfile/kpropertiesdialog.cpp:1058
 msgid "Created:"
 msgstr "Stvorany:"
 
-#: kfile/kpropertiesdialog.cpp:1076
+#: kfile/kpropertiesdialog.cpp:1078
 msgid "Accessed:"
 msgstr "Dostup:"
 
-#: kfile/kpropertiesdialog.cpp:1097
+#: kfile/kpropertiesdialog.cpp:1099
 msgid "Mounted on:"
 msgstr "Zmantavany ŭ:"
 
-#: kfile/kpropertiesdialog.cpp:1105 kfile/kpropertiesdialog.cpp:2779
+#: kfile/kpropertiesdialog.cpp:1107 kfile/kpropertiesdialog.cpp:2794
 msgid "Device usage:"
 msgstr "Zaniataść pryłady:"
 
-#: kfile/kpropertiesdialog.cpp:1190
+#: kfile/kpropertiesdialog.cpp:1205
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
 msgstr "%1 volnaha miesca z %2 (zaniata %3%)"
 
-#: kfile/kpropertiesdialog.cpp:1207 kfile/kpropertiesdialog.cpp:1223
+#: kfile/kpropertiesdialog.cpp:1222 kfile/kpropertiesdialog.cpp:1238
 #, kde-format
 msgid "1 file"
 msgid_plural "%1 files"
@@ -3665,7 +3665,7 @@ msgstr[0] "%1 fajł"
 msgstr[1] "%1 fajły"
 msgstr[2] "%1 fajłaŭ"
 
-#: kfile/kpropertiesdialog.cpp:1208 kfile/kpropertiesdialog.cpp:1224
+#: kfile/kpropertiesdialog.cpp:1223 kfile/kpropertiesdialog.cpp:1239
 #, kde-format
 msgid "1 sub-folder"
 msgid_plural "%1 sub-folders"
@@ -3673,7 +3673,7 @@ msgstr[0] "%1 padkataloh"
 msgstr[1] "%1 padkatalohi"
 msgstr[2] "%1 padkatalohaŭ"
 
-#: kfile/kpropertiesdialog.cpp:1204
+#: kfile/kpropertiesdialog.cpp:1219
 #, kde-format
 msgid ""
 "Calculating... %1 (%2)\n"
@@ -3682,21 +3682,21 @@ msgstr ""
 "Padličvańnie... %1 (%2)\n"
 "%3, %4"
 
-#: kfile/kpropertiesdialog.cpp:1237
+#: kfile/kpropertiesdialog.cpp:1252
 msgid "Calculating..."
 msgstr "Padličvańnie..."
 
-#: kfile/kpropertiesdialog.cpp:1270
+#: kfile/kpropertiesdialog.cpp:1285
 #, kde-format
 msgid "At least %1"
 msgstr "Prynamsi, %1"
 
-#: kfile/kpropertiesdialog.cpp:1307
+#: kfile/kpropertiesdialog.cpp:1322
 msgid "The new file name is empty."
 msgstr "Novaja nazva fajła pustaja."
 
-#: kfile/kpropertiesdialog.cpp:1484 kfile/kpropertiesdialog.cpp:2657
-#: kfile/kpropertiesdialog.cpp:2965 kfile/kpropertiesdialog.cpp:3217
+#: kfile/kpropertiesdialog.cpp:1499 kfile/kpropertiesdialog.cpp:2672
+#: kfile/kpropertiesdialog.cpp:2980 kfile/kpropertiesdialog.cpp:3232
 #, kde-format
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
@@ -3705,75 +3705,75 @@ msgstr ""
 "<qt>Nie ŭdałosia zapisać ułaścivaści. Tabie nie staje dazvołu na zapis u <b>%"
 "1</b>.</qt>"
 
-#: kfile/kpropertiesdialog.cpp:1559 kfile/kpropertiesdialog.cpp:1563
-#: kfile/kpropertiesdialog.cpp:1568
+#: kfile/kpropertiesdialog.cpp:1574 kfile/kpropertiesdialog.cpp:1578
+#: kfile/kpropertiesdialog.cpp:1583
 msgid "Forbidden"
 msgstr "Zabaroniena"
 
-#: kfile/kpropertiesdialog.cpp:1560
+#: kfile/kpropertiesdialog.cpp:1575
 msgid "Can Read"
 msgstr "Možna pračytać"
 
-#: kfile/kpropertiesdialog.cpp:1561
+#: kfile/kpropertiesdialog.cpp:1576
 msgid "Can Read & Write"
 msgstr "Možna pračytać i zapisać"
 
-#: kfile/kpropertiesdialog.cpp:1564
+#: kfile/kpropertiesdialog.cpp:1579
 msgid "Can View Content"
 msgstr "Možna ŭbačyć źmieściva"
 
-#: kfile/kpropertiesdialog.cpp:1565
+#: kfile/kpropertiesdialog.cpp:1580
 msgid "Can View & Modify Content"
 msgstr "Možna ŭbačyć i źmianić źmieściva"
 
-#: kfile/kpropertiesdialog.cpp:1569
+#: kfile/kpropertiesdialog.cpp:1584
 msgid "Can View Content & Read"
 msgstr "Možna ŭbačyć źmieściva j pračytać"
 
-#: kfile/kpropertiesdialog.cpp:1570
+#: kfile/kpropertiesdialog.cpp:1585
 msgid "Can View/Read & Modify/Write"
 msgstr "Možna ŭbačyć i źmianić źmieściva, pračytać i zapisać"
 
-#: kfile/kpropertiesdialog.cpp:1666
+#: kfile/kpropertiesdialog.cpp:1681
 msgid "&Permissions"
 msgstr "&Dazvoły"
 
-#: kfile/kpropertiesdialog.cpp:1678 kfile/kpropertiesdialog.cpp:1920
+#: kfile/kpropertiesdialog.cpp:1693 kfile/kpropertiesdialog.cpp:1935
 msgid "Access Permissions"
 msgstr "&Dazvoły na dostup"
 
-#: kfile/kpropertiesdialog.cpp:1686
+#: kfile/kpropertiesdialog.cpp:1701
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
 msgstr[0] "Hety fajł jość łučom i nia maje dazvołaŭ."
 msgstr[1] "Hetyja fajły jość łučami j nia majuć dazvołaŭ."
 msgstr[2] "Hetyja fajły jość łučami j nia majuć dazvołaŭ."
 
-#: kfile/kpropertiesdialog.cpp:1690
+#: kfile/kpropertiesdialog.cpp:1705
 msgid "Only the owner can change permissions."
 msgstr "Tolki ŭłaśnik moža źmianiać dazvoły."
 
-#: kfile/kpropertiesdialog.cpp:1693
+#: kfile/kpropertiesdialog.cpp:1708
 msgid "O&wner:"
 msgstr "&Ułaśnik:"
 
-#: kfile/kpropertiesdialog.cpp:1699
+#: kfile/kpropertiesdialog.cpp:1714
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr "Aznačaje aperacyi, jakija moža vykonvać ułaśnik."
 
-#: kfile/kpropertiesdialog.cpp:1701
+#: kfile/kpropertiesdialog.cpp:1716
 msgid "Gro&up:"
 msgstr "&Hrupa:"
 
-#: kfile/kpropertiesdialog.cpp:1707
+#: kfile/kpropertiesdialog.cpp:1722
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr "Aznačaje aperacyi, jakija mohuć vykonvać udzielniki hetaj hrupy."
 
-#: kfile/kpropertiesdialog.cpp:1709
+#: kfile/kpropertiesdialog.cpp:1724
 msgid "O&thers:"
 msgstr "&Inšyja:"
 
-#: kfile/kpropertiesdialog.cpp:1715
+#: kfile/kpropertiesdialog.cpp:1730
 msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
 "group, are allowed to do."
@@ -3781,15 +3781,15 @@ msgstr ""
 "Aznačaje aperacyi, jakija mohuć vykonvać usie karystańniki, jakija nia jość "
 "udzielnikami hetaj hrupy ci ŭłaśnikami."
 
-#: kfile/kpropertiesdialog.cpp:1720
+#: kfile/kpropertiesdialog.cpp:1735
 msgid "Only own&er can rename and delete folder content"
 msgstr "Tolki &ŭłaśnik moža źmianiać nazvy j vydalać źmieściva ŭ katalohu"
 
-#: kfile/kpropertiesdialog.cpp:1721
+#: kfile/kpropertiesdialog.cpp:1736
 msgid "Is &executable"
 msgstr "&Vykonvalny"
 
-#: kfile/kpropertiesdialog.cpp:1725
+#: kfile/kpropertiesdialog.cpp:1740
 msgid ""
 "Enable this option to allow only the folder's owner to delete or rename the "
 "contained files and folders. Other users can only add new files, which "
@@ -3799,7 +3799,7 @@ msgstr ""
 "nazvy dla fajłaŭ i katalohaŭ, źmieščanych u im. Inšyja karystańniki zmohuć "
 "tolki dadavać novyja fajły, kali buduć mieć dazvoł na źmianieńnie źmieściva."
 
-#: kfile/kpropertiesdialog.cpp:1729
+#: kfile/kpropertiesdialog.cpp:1744
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
 "programs and scripts. It is required when you want to execute them."
@@ -3808,35 +3808,35 @@ msgstr ""
 "dla prahramaŭ i skryptoŭ. Ty pavinien jaje ŭklučyć, kali chočaš vykonvać "
 "hety fajł."
 
-#: kfile/kpropertiesdialog.cpp:1736
+#: kfile/kpropertiesdialog.cpp:1751
 msgid "A&dvanced Permissions"
 msgstr "&Asablivyja dazvoły"
 
-#: kfile/kpropertiesdialog.cpp:1745
+#: kfile/kpropertiesdialog.cpp:1760
 msgid "Ownership"
 msgstr "Naležnaść"
 
-#: kfile/kpropertiesdialog.cpp:1752
+#: kfile/kpropertiesdialog.cpp:1767
 msgid "User:"
 msgstr "Karystańnik:"
 
-#: kfile/kpropertiesdialog.cpp:1827
+#: kfile/kpropertiesdialog.cpp:1842
 msgid "Group:"
 msgstr "Hrupa:"
 
-#: kfile/kpropertiesdialog.cpp:1870
+#: kfile/kpropertiesdialog.cpp:1885
 msgid "Apply changes to all subfolders and their contents"
 msgstr "Prymiani źmieny dla ŭsich padkatalohaŭ dy ichnaha źmieściva"
 
-#: kfile/kpropertiesdialog.cpp:1910
+#: kfile/kpropertiesdialog.cpp:1925
 msgid "Advanced Permissions"
 msgstr "Asablivyja dazvoły"
 
-#: kfile/kpropertiesdialog.cpp:1928
+#: kfile/kpropertiesdialog.cpp:1943
 msgid "Class"
 msgstr "Klasa"
 
-#: kfile/kpropertiesdialog.cpp:1933
+#: kfile/kpropertiesdialog.cpp:1948
 msgid ""
 "Show\n"
 "Entries"
@@ -3844,19 +3844,19 @@ msgstr ""
 "Pakaz\n"
 "elementaŭ"
 
-#: kfile/kpropertiesdialog.cpp:1935
+#: kfile/kpropertiesdialog.cpp:1950
 msgid "Read"
 msgstr "Čytańnie"
 
-#: kfile/kpropertiesdialog.cpp:1940
+#: kfile/kpropertiesdialog.cpp:1955
 msgid "This flag allows viewing the content of the folder."
 msgstr "Hetaja opcyja dazvalaje prahladać źmieściva hataloha."
 
-#: kfile/kpropertiesdialog.cpp:1942
+#: kfile/kpropertiesdialog.cpp:1957
 msgid "The Read flag allows viewing the content of the file."
 msgstr "Hetaja opcyja dazvalaje prahladać źmieściva fajła."
 
-#: kfile/kpropertiesdialog.cpp:1946
+#: kfile/kpropertiesdialog.cpp:1961
 msgid ""
 "Write\n"
 "Entries"
@@ -3864,11 +3864,11 @@ msgstr ""
 "Zapis\n"
 "elementaŭ"
 
-#: kfile/kpropertiesdialog.cpp:1948
+#: kfile/kpropertiesdialog.cpp:1963
 msgid "Write"
 msgstr "Zapis"
 
-#: kfile/kpropertiesdialog.cpp:1953
+#: kfile/kpropertiesdialog.cpp:1968
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
 "and renaming can be limited using the Sticky flag."
@@ -3877,32 +3877,32 @@ msgstr ""
 "aperacyi vydaleńnia j źmieny nazvy možna abmiežavać z dapamohaj opcyi "
 "„Sticky”."
 
-#: kfile/kpropertiesdialog.cpp:1956
+#: kfile/kpropertiesdialog.cpp:1971
 msgid "The Write flag allows modifying the content of the file."
 msgstr "Hetaja opcyja dazvalaje źmianiać źmieściva fajła."
 
-#: kfile/kpropertiesdialog.cpp:1961
+#: kfile/kpropertiesdialog.cpp:1976
 msgctxt "Enter folder"
 msgid "Enter"
 msgstr "Uvachod"
 
-#: kfile/kpropertiesdialog.cpp:1962
+#: kfile/kpropertiesdialog.cpp:1977
 msgid "Enable this flag to allow entering the folder."
 msgstr "Uklučy hetuju opcyju, kab dazvolić uvachodzić u kataloh."
 
-#: kfile/kpropertiesdialog.cpp:1965
+#: kfile/kpropertiesdialog.cpp:1980
 msgid "Exec"
 msgstr "Vykanańnie"
 
-#: kfile/kpropertiesdialog.cpp:1966
+#: kfile/kpropertiesdialog.cpp:1981
 msgid "Enable this flag to allow executing the file as a program."
 msgstr "Uklučy hetuju opcyju, kab dazvolić vykonvać hety fajł jak prahramu."
 
-#: kfile/kpropertiesdialog.cpp:1976
+#: kfile/kpropertiesdialog.cpp:1991
 msgid "Special"
 msgstr "Asablivaje"
 
-#: kfile/kpropertiesdialog.cpp:1980
+#: kfile/kpropertiesdialog.cpp:1995
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
 "be seen in the right hand column."
@@ -3910,25 +3910,25 @@ msgstr ""
 "Asablivaja opcyja. Dziejničaje dla ŭsiaho kataloha. Peŭny sens opcyi možna "
 "ŭbačyć u pravym słupku."
 
-#: kfile/kpropertiesdialog.cpp:1983
+#: kfile/kpropertiesdialog.cpp:1998
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
 msgstr "Asablivaja opcyja. Peŭny sens opcyi možna ŭbačyć u pravym słupku."
 
-#: kfile/kpropertiesdialog.cpp:1987
+#: kfile/kpropertiesdialog.cpp:2002
 msgid "User"
 msgstr "Karystańnik"
 
-#: kfile/kpropertiesdialog.cpp:1991
+#: kfile/kpropertiesdialog.cpp:2006
 msgid "Group"
 msgstr "Hrupa"
 
-#: kfile/kpropertiesdialog.cpp:1999
+#: kfile/kpropertiesdialog.cpp:2014
 msgid "Set UID"
 msgstr "SUID"
 
-#: kfile/kpropertiesdialog.cpp:2003
+#: kfile/kpropertiesdialog.cpp:2018
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
 "files."
@@ -3936,7 +3936,7 @@ msgstr ""
 "Kali ŭklučanaja hetaja opcyja, ułaśnikam usich novych fajłaŭ budzie ŭłaśnik "
 "hetaha kataloha."
 
-#: kfile/kpropertiesdialog.cpp:2006
+#: kfile/kpropertiesdialog.cpp:2021
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the owner."
@@ -3944,18 +3944,18 @@ msgstr ""
 "Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie "
 "vykonvacca z dazvołami, ułaścivymi ŭłaśniku hetaha fajła."
 
-#: kfile/kpropertiesdialog.cpp:2010
+#: kfile/kpropertiesdialog.cpp:2025
 msgid "Set GID"
 msgstr "SGID"
 
-#: kfile/kpropertiesdialog.cpp:2014
+#: kfile/kpropertiesdialog.cpp:2029
 msgid ""
 "If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
 "Kali ŭklučanaja hetaja opcyja, hrupaj usich novych fajłaŭ budzie hrupa "
 "hetaha kataloha."
 
-#: kfile/kpropertiesdialog.cpp:2017
+#: kfile/kpropertiesdialog.cpp:2032
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the group."
@@ -3963,12 +3963,12 @@ msgstr ""
 "Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie "
 "vykonvacca z dazvołami, ułaścivymi hrupie hetaha fajła."
 
-#: kfile/kpropertiesdialog.cpp:2021
+#: kfile/kpropertiesdialog.cpp:2036
 msgctxt "File permission"
 msgid "Sticky"
 msgstr "Sticky"
 
-#: kfile/kpropertiesdialog.cpp:2025
+#: kfile/kpropertiesdialog.cpp:2040
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
 "rename files. Otherwise everybody with write permissions can do this."
@@ -3977,7 +3977,7 @@ msgstr ""
 "zmohuć vydalać i źmianiać u im nazvy fajłaŭ. Inačaj heta zmohuć rabić usie z "
 "dazvołam na zapis."
 
-#: kfile/kpropertiesdialog.cpp:2029
+#: kfile/kpropertiesdialog.cpp:2044
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
 "systems"
@@ -3985,97 +3985,97 @@ msgstr ""
 "Systema „Linux” nie karystajecca opcyjaj „Sticky”, ale inšyja systemy mohuć "
 "joju dziela čaho-niebudź karystacca."
 
-#: kfile/kpropertiesdialog.cpp:2206
+#: kfile/kpropertiesdialog.cpp:2221
 msgid "Link"
 msgstr "Łuč"
 
-#: kfile/kpropertiesdialog.cpp:2223
+#: kfile/kpropertiesdialog.cpp:2238
 msgid "Varying (No Change)"
 msgstr "Roznaje (biaź źmienaŭ)"
 
-#: kfile/kpropertiesdialog.cpp:2322
+#: kfile/kpropertiesdialog.cpp:2337
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
 msgstr[0] "Hety fajł maje asablivyja dazvoły."
 msgstr[1] "Hetyja fajły majuć asablivyja dazvoły."
 msgstr[2] "Hetyja fajły majuć asablivyja dazvoły."
 
-#: kfile/kpropertiesdialog.cpp:2343
+#: kfile/kpropertiesdialog.cpp:2358
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
 msgstr[0] "Hety kataloh maje asablivyja dazvoły."
 msgstr[1] "Hetyja katalohi majuć asablivyja dazvoły."
 msgstr[2] "Hetyja katalohi majuć asablivyja dazvoły."
 
-#: kfile/kpropertiesdialog.cpp:2359
+#: kfile/kpropertiesdialog.cpp:2374
 msgid "These files use advanced permissions."
 msgstr "Hetyja fajły majuć asablivyja dazvoły."
 
-#: kfile/kpropertiesdialog.cpp:2577
+#: kfile/kpropertiesdialog.cpp:2592
 msgid "U&RL"
 msgstr "&Adras"
 
-#: kfile/kpropertiesdialog.cpp:2584
+#: kfile/kpropertiesdialog.cpp:2599
 msgid "URL:"
 msgstr "Adras:"
 
-#: kfile/kpropertiesdialog.cpp:2712
+#: kfile/kpropertiesdialog.cpp:2727
 msgid "De&vice"
 msgstr "&Pryłada"
 
-#: kfile/kpropertiesdialog.cpp:2743
+#: kfile/kpropertiesdialog.cpp:2758
 msgid "Device (/dev/fd0):"
 msgstr "Pryłada (/dev/fd0):"
 
-#: kfile/kpropertiesdialog.cpp:2744
+#: kfile/kpropertiesdialog.cpp:2759
 msgid "Device:"
 msgstr "Pryłada:"
 
-#: kfile/kpropertiesdialog.cpp:2757
+#: kfile/kpropertiesdialog.cpp:2772
 msgid "Read only"
 msgstr "Tolki čytańnie"
 
-#: kfile/kpropertiesdialog.cpp:2761
+#: kfile/kpropertiesdialog.cpp:2776
 msgid "File system:"
 msgstr "Fajłavaja systema:"
 
-#: kfile/kpropertiesdialog.cpp:2769
+#: kfile/kpropertiesdialog.cpp:2784
 msgid "Mount point (/mnt/floppy):"
 msgstr "Punkt zmantavańnia (/mnt/floppy):"
 
-#: kfile/kpropertiesdialog.cpp:2770
+#: kfile/kpropertiesdialog.cpp:2785
 msgid "Mount point:"
 msgstr "Punkt zmantavańnia:"
 
-#: kfile/kpropertiesdialog.cpp:2803
+#: kfile/kpropertiesdialog.cpp:2818
 msgid "Unmounted Icon"
 msgstr "Ikona admantavanaj pryłady"
 
-#: kfile/kpropertiesdialog.cpp:2925
+#: kfile/kpropertiesdialog.cpp:2940
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 out of %2 (%3% used)"
 msgstr "%1 z %2 (zaniata %3%)"
 
-#: kfile/kpropertiesdialog.cpp:3024
+#: kfile/kpropertiesdialog.cpp:3039
 msgid "&Application"
 msgstr "&Aplikacyja"
 
-#: kfile/kpropertiesdialog.cpp:3148
+#: kfile/kpropertiesdialog.cpp:3163
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Dadaj typ fajłaŭ dla „%1”"
 
-#: kfile/kpropertiesdialog.cpp:3149
+#: kfile/kpropertiesdialog.cpp:3164
 msgid "Select one or more file types to add:"
 msgstr "Vybiery adzin ci niekalki typaŭ fajłaŭ, kab dadać:"
 
-#: kfile/kpropertiesdialog.cpp:3291
+#: kfile/kpropertiesdialog.cpp:3306
 msgid "Only executables on local file systems are supported."
 msgstr ""
 "Absłuhoŭvajucca tolki vykonvalnyja fajły z lakalnych fajłavych systemaŭ."
 
-#: kfile/kpropertiesdialog.cpp:3305
+#: kfile/kpropertiesdialog.cpp:3320
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"

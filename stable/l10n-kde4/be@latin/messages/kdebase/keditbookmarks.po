@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-08 06:11+0100\n"
+"POT-Creation-Date: 2010-02-26 20:27+0100\n"
 "PO-Revision-Date: 2008-10-04 23:44+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,118 +18,47 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: commands.cpp:117
-msgid "Insert Separator"
-msgstr "Uklej dzielnik"
+#: kebsearchline.cpp:273
+msgid "Search Columns"
+msgstr "Słupki pošuku"
 
-#: commands.cpp:126
-msgid "Create Bookmark"
-msgstr "Stvary zakładku"
+#: kebsearchline.cpp:276
+msgid "All Visible Columns"
+msgstr "Usie vidočnyja słupki"
 
-#: commands.cpp:135
-msgid "Create Folder"
-msgstr "Stvary kataloh"
-
-#: commands.cpp:144
+#: kebsearchline.cpp:285
 #, kde-format
-msgid "Copy %1"
-msgstr "Skapijuj „%1”"
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr "Słupok %1"
 
-#: commands.cpp:233
-#, fuzzy
-#| msgid "%1 Change"
-msgid "Icon Change"
-msgstr "Źmiena „%1”"
+#: kebsearchline.cpp:680
+msgid "S&earch:"
+msgstr "&Šukaj:"
 
-#: commands.cpp:235
-#, fuzzy
-#| msgid "%1 Change"
-msgid "Title Change"
-msgstr "Źmiena „%1”"
+#: bookmarkinfo.cpp:254
+msgid "Name:"
+msgstr "Nazva:"
 
-#: commands.cpp:237
-#, fuzzy
-#| msgid "%1 Change"
-msgid "URL Change"
-msgstr "Źmiena „%1”"
+#: bookmarkinfo.cpp:262
+msgid "Location:"
+msgstr "Miesca:"
 
-#: commands.cpp:239
-#, fuzzy
-#| msgid "Comment"
-msgid "Comment Change"
-msgstr "Kamentar"
+#: bookmarkinfo.cpp:270
+msgid "Comment:"
+msgstr "Kamentar:"
 
-#: commands.cpp:445
-#, kde-format
-msgid "Move %1"
-msgstr "Pieraniasi „%1”"
+#: bookmarkinfo.cpp:277
+msgid "First viewed:"
+msgstr "Pieršy prahlad:"
 
-#: commands.cpp:557
-msgid "Set as Bookmark Toolbar"
-msgstr "Źmiaści ŭ paneli zakładak"
+#: bookmarkinfo.cpp:280
+msgid "Viewed last:"
+msgstr "Apošni prahlad:"
 
-#: commands.cpp:593
-msgid "Copy Items"
-msgstr "Skapijuj"
-
-#: commands.cpp:594
-msgid "Move Items"
-msgstr "Pieraniasi"
-
-#: importers.cpp:55
-#, kde-format
-msgid "Import %1 Bookmarks"
-msgstr "Zimpartuj zakładki „%1”"
-
-#: importers.cpp:59
-#, kde-format
-msgid "%1 Bookmarks"
-msgstr "Zakładki „%1”"
-
-#: importers.cpp:89
-msgid "Import as a new subfolder or replace all the current bookmarks?"
-msgstr "Zimpartavać jak novy padkataloh albo zamianić usie dziejnyja zakładki?"
-
-#: importers.cpp:90
-#, kde-format
-msgid "%1 Import"
-msgstr "Impartavańnie „%1”"
-
-#: importers.cpp:91
-msgid "As New Folder"
-msgstr "Jak novy kataloh"
-
-#: importers.cpp:91
-msgid "Replace"
-msgstr "Zamiani"
-
-#: importers.cpp:201
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr "*.xbel|Fajły zakładak „Galeon” (*.xbel)"
-
-#: importers.cpp:210
-msgid "*.xml|KDE Bookmark Files (*.xml)"
-msgstr "*.xml|Fajły zakładak „KDE” (*.xml)"
-
-#: bookmarkmodel.cpp:86
-msgid "Bookmarks"
-msgstr "Zakładki"
-
-#: bookmarkmodel.cpp:184
-msgid "Bookmark"
-msgstr "Zakładka"
-
-#: bookmarkmodel.cpp:186
-msgid "URL"
-msgstr "Adras"
-
-#: bookmarkmodel.cpp:188
-msgid "Comment"
-msgstr "Kamentar"
-
-#: bookmarkmodel.cpp:190
-msgid "Status"
-msgstr "Stan"
+#: bookmarkinfo.cpp:283
+msgid "Times visited:"
+msgstr "Kolkaść naviedvańniaŭ:"
 
 #: main.cpp:66
 #, kde-format
@@ -266,6 +195,135 @@ msgstr "Možna padać tolki adnu opcyju „--export”."
 msgid "You may only specify a single --import option."
 msgstr "Možna padać tolki adnu opcyju „--import”."
 
+#: importers.cpp:55
+#, kde-format
+msgid "Import %1 Bookmarks"
+msgstr "Zimpartuj zakładki „%1”"
+
+#: importers.cpp:59
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr "Zakładki „%1”"
+
+#: importers.cpp:89
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr "Zimpartavać jak novy padkataloh albo zamianić usie dziejnyja zakładki?"
+
+#: importers.cpp:90
+#, kde-format
+msgid "%1 Import"
+msgstr "Impartavańnie „%1”"
+
+#: importers.cpp:91
+msgid "As New Folder"
+msgstr "Jak novy kataloh"
+
+#: importers.cpp:91
+msgid "Replace"
+msgstr "Zamiani"
+
+#: importers.cpp:201
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr "*.xbel|Fajły zakładak „Galeon” (*.xbel)"
+
+#: importers.cpp:210
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr "*.xml|Fajły zakładak „KDE” (*.xml)"
+
+#: bookmarkmodel.cpp:86
+msgid "Bookmarks"
+msgstr "Zakładki"
+
+#: bookmarkmodel.cpp:184
+msgid "Bookmark"
+msgstr "Zakładka"
+
+#: bookmarkmodel.cpp:186
+msgid "URL"
+msgstr "Adras"
+
+#: bookmarkmodel.cpp:188
+msgid "Comment"
+msgstr "Kamentar"
+
+#: bookmarkmodel.cpp:190
+msgid "Status"
+msgstr "Stan"
+
+#: commands.cpp:117
+msgid "Insert Separator"
+msgstr "Uklej dzielnik"
+
+#: commands.cpp:126
+msgid "Create Bookmark"
+msgstr "Stvary zakładku"
+
+#: commands.cpp:135
+msgid "Create Folder"
+msgstr "Stvary kataloh"
+
+#: commands.cpp:144
+#, kde-format
+msgid "Copy %1"
+msgstr "Skapijuj „%1”"
+
+#: commands.cpp:233
+#, fuzzy
+#| msgid "%1 Change"
+msgid "Icon Change"
+msgstr "Źmiena „%1”"
+
+#: commands.cpp:235
+#, fuzzy
+#| msgid "%1 Change"
+msgid "Title Change"
+msgstr "Źmiena „%1”"
+
+#: commands.cpp:237
+#, fuzzy
+#| msgid "%1 Change"
+msgid "URL Change"
+msgstr "Źmiena „%1”"
+
+#: commands.cpp:239
+#, fuzzy
+#| msgid "Comment"
+msgid "Comment Change"
+msgstr "Kamentar"
+
+#: commands.cpp:445
+#, kde-format
+msgid "Move %1"
+msgstr "Pieraniasi „%1”"
+
+#: commands.cpp:557
+msgid "Set as Bookmark Toolbar"
+msgstr "Źmiaści ŭ paneli zakładak"
+
+#: commands.cpp:593
+msgid "Copy Items"
+msgstr "Skapijuj"
+
+#: commands.cpp:594
+msgid "Move Items"
+msgstr "Pieraniasi"
+
+#: favicons.cpp:81 testlink.cpp:130
+msgid "OK"
+msgstr "Ok"
+
+#: favicons.cpp:81
+msgid "No favicon found"
+msgstr "Ikona sajta nia znojdzienaja."
+
+#: favicons.cpp:93
+msgid "Updating favicon..."
+msgstr "Aktualizacyja ikony sajta..."
+
+#: favicons.cpp:102
+msgid "Local file"
+msgstr "Miascovy fajł"
+
 #: kbookmarkmerger.cpp:39
 msgid "KBookmarkMerger"
 msgstr "KBookmarkMerger"
@@ -290,208 +348,6 @@ msgstr "Pieršy aŭtar"
 #: kbookmarkmerger.cpp:49
 msgid "Directory to scan for extra bookmarks"
 msgstr "Kataloh, dzie treba šukać dadatkovyja zakładki"
-
-#: bookmarkinfo.cpp:254
-msgid "Name:"
-msgstr "Nazva:"
-
-#: bookmarkinfo.cpp:262
-msgid "Location:"
-msgstr "Miesca:"
-
-#: bookmarkinfo.cpp:270
-msgid "Comment:"
-msgstr "Kamentar:"
-
-#: bookmarkinfo.cpp:277
-msgid "First viewed:"
-msgstr "Pieršy prahlad:"
-
-#: bookmarkinfo.cpp:280
-msgid "Viewed last:"
-msgstr "Apošni prahlad:"
-
-#: bookmarkinfo.cpp:283
-msgid "Times visited:"
-msgstr "Kolkaść naviedvańniaŭ:"
-
-#: kebsearchline.cpp:273
-msgid "Search Columns"
-msgstr "Słupki pošuku"
-
-#: kebsearchline.cpp:276
-msgid "All Visible Columns"
-msgstr "Usie vidočnyja słupki"
-
-#: kebsearchline.cpp:285
-#, kde-format
-msgctxt "Column number %1"
-msgid "Column No. %1"
-msgstr "Słupok %1"
-
-#: kebsearchline.cpp:680
-msgid "S&earch:"
-msgstr "&Šukaj:"
-
-#: favicons.cpp:81 testlink.cpp:130
-msgid "OK"
-msgstr "Ok"
-
-#: favicons.cpp:81
-msgid "No favicon found"
-msgstr "Ikona sajta nia znojdzienaja."
-
-#: favicons.cpp:93
-msgid "Updating favicon..."
-msgstr "Aktualizacyja ikony sajta..."
-
-#: favicons.cpp:102
-msgid "Local file"
-msgstr "Miascovy fajł"
-
-#. i18n: file: keditbookmarks-genui.rc:6
-#. i18n: ectx: Menu (file)
-#. i18n: file: keditbookmarksui.rc:6
-#. i18n: ectx: Menu (file)
-#. i18n: file: keditbookmarks-genui.rc:6
-#. i18n: ectx: Menu (file)
-#. i18n: file: keditbookmarksui.rc:6
-#. i18n: ectx: Menu (file)
-#: rc.cpp:3 rc.cpp:24 rc.cpp:56 rc.cpp:77
-msgid "&File"
-msgstr "&Fajł"
-
-#. i18n: file: keditbookmarks-genui.rc:13
-#. i18n: ectx: Menu (edit)
-#. i18n: file: keditbookmarksui.rc:32
-#. i18n: ectx: Menu (edit)
-#. i18n: file: keditbookmarks-genui.rc:13
-#. i18n: ectx: Menu (edit)
-#. i18n: file: keditbookmarksui.rc:32
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:6 rc.cpp:33 rc.cpp:59 rc.cpp:86
-msgid "&Edit"
-msgstr "&Redahuj"
-
-#. i18n: file: keditbookmarks-genui.rc:25
-#. i18n: ectx: Menu (view)
-#. i18n: file: keditbookmarksui.rc:44
-#. i18n: ectx: Menu (view)
-#. i18n: file: keditbookmarks-genui.rc:25
-#. i18n: ectx: Menu (view)
-#. i18n: file: keditbookmarksui.rc:44
-#. i18n: ectx: Menu (view)
-#: rc.cpp:9 rc.cpp:36 rc.cpp:62 rc.cpp:89
-msgid "&View"
-msgstr "&Vyhlad"
-
-#. i18n: file: keditbookmarks-genui.rc:30
-#. i18n: ectx: Menu (folder)
-#. i18n: file: keditbookmarksui.rc:49
-#. i18n: ectx: Menu (folder)
-#. i18n: file: keditbookmarks-genui.rc:30
-#. i18n: ectx: Menu (folder)
-#. i18n: file: keditbookmarksui.rc:49
-#. i18n: ectx: Menu (folder)
-#: rc.cpp:12 rc.cpp:39 rc.cpp:65 rc.cpp:92
-msgid "&Folder"
-msgstr "&Kataloh"
-
-#. i18n: file: keditbookmarks-genui.rc:38
-#. i18n: ectx: Menu (bookmark)
-#. i18n: file: keditbookmarksui.rc:58
-#. i18n: ectx: Menu (bookmark)
-#. i18n: file: keditbookmarks-genui.rc:38
-#. i18n: ectx: Menu (bookmark)
-#. i18n: file: keditbookmarksui.rc:58
-#. i18n: ectx: Menu (bookmark)
-#: rc.cpp:15 rc.cpp:42 rc.cpp:68 rc.cpp:95
-msgid "&Bookmark"
-msgstr "&Zakładka"
-
-#. i18n: file: keditbookmarks-genui.rc:42
-#. i18n: ectx: Menu (settings)
-#. i18n: file: keditbookmarksui.rc:74
-#. i18n: ectx: Menu (settings)
-#. i18n: file: keditbookmarks-genui.rc:42
-#. i18n: ectx: Menu (settings)
-#. i18n: file: keditbookmarksui.rc:74
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:18 rc.cpp:48 rc.cpp:71 rc.cpp:101
-msgid "&Settings"
-msgstr "&Nałady"
-
-#. i18n: file: keditbookmarks-genui.rc:48
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: keditbookmarksui.rc:81
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: keditbookmarks-genui.rc:48
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: keditbookmarksui.rc:81
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:21 rc.cpp:51 rc.cpp:74 rc.cpp:104
-msgid "Main Toolbar"
-msgstr "Hałoŭnaja panel pryładździa"
-
-#. i18n: file: keditbookmarksui.rc:10
-#. i18n: ectx: Menu (import)
-#: rc.cpp:27 rc.cpp:80
-msgid "&Import"
-msgstr "&Zimpartuj"
-
-#. i18n: file: keditbookmarksui.rc:20
-#. i18n: ectx: Menu (export)
-#: rc.cpp:30 rc.cpp:83
-msgid "&Export"
-msgstr "&Zekspartuj"
-
-#. i18n: file: keditbookmarksui.rc:66
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:45 rc.cpp:98
-msgid "&Tools"
-msgstr "&Pryładździe"
-
-#: rc.cpp:52
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Ihar Hračyška"
-
-#: rc.cpp:53
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ihar.hrachyshka@gmail.com"
-
-#: testlink.cpp:107
-msgid "Checking..."
-msgstr "Spraŭdžvańnie..."
-
-#: importers.h:101
-msgid "Galeon"
-msgstr "Galeon"
-
-#: importers.h:111
-msgid "KDE"
-msgstr "KDE"
-
-#: importers.h:132
-msgid "Netscape"
-msgstr "Netscape"
-
-#: importers.h:142
-msgid "Mozilla"
-msgstr "Mozilla"
-
-#: importers.h:152
-msgid "IE"
-msgstr "IE"
-
-#: importers.h:164
-msgid "Opera"
-msgstr "Opera"
-
-#: importers.h:176
-msgid "Crashes"
-msgstr "Złomy"
 
 #: actionsimpl.cpp:92
 msgid "&Delete"
@@ -649,9 +505,153 @@ msgstr "Paradkuj pavodle alfabetu"
 msgid "Delete Items"
 msgstr "Vydali elementy"
 
+#: importers.h:101
+msgid "Galeon"
+msgstr "Galeon"
+
+#: importers.h:111
+msgid "KDE"
+msgstr "KDE"
+
+#: importers.h:132
+msgid "Netscape"
+msgstr "Netscape"
+
+#: importers.h:142
+msgid "Mozilla"
+msgstr "Mozilla"
+
+#: importers.h:152
+msgid "IE"
+msgstr "IE"
+
+#: importers.h:164
+msgid "Opera"
+msgstr "Opera"
+
+#: importers.h:176
+msgid "Crashes"
+msgstr "Złomy"
+
 #: exporters.cpp:48
 msgid "My Bookmarks"
 msgstr "Maje zakładki"
+
+#: testlink.cpp:107
+msgid "Checking..."
+msgstr "Spraŭdžvańnie..."
+
+#. i18n: file: keditbookmarks-genui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarksui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarks-genui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarksui.rc:6
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:24 rc.cpp:56 rc.cpp:77
+msgid "&File"
+msgstr "&Fajł"
+
+#. i18n: file: keditbookmarks-genui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarksui.rc:32
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarks-genui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarksui.rc:32
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6 rc.cpp:33 rc.cpp:59 rc.cpp:86
+msgid "&Edit"
+msgstr "&Redahuj"
+
+#. i18n: file: keditbookmarks-genui.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarksui.rc:44
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarks-genui.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarksui.rc:44
+#. i18n: ectx: Menu (view)
+#: rc.cpp:9 rc.cpp:36 rc.cpp:62 rc.cpp:89
+msgid "&View"
+msgstr "&Vyhlad"
+
+#. i18n: file: keditbookmarks-genui.rc:30
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarksui.rc:49
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarks-genui.rc:30
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarksui.rc:49
+#. i18n: ectx: Menu (folder)
+#: rc.cpp:12 rc.cpp:39 rc.cpp:65 rc.cpp:92
+msgid "&Folder"
+msgstr "&Kataloh"
+
+#. i18n: file: keditbookmarks-genui.rc:38
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarksui.rc:58
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarks-genui.rc:38
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarksui.rc:58
+#. i18n: ectx: Menu (bookmark)
+#: rc.cpp:15 rc.cpp:42 rc.cpp:68 rc.cpp:95
+msgid "&Bookmark"
+msgstr "&Zakładka"
+
+#. i18n: file: keditbookmarks-genui.rc:42
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarksui.rc:74
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarks-genui.rc:42
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarksui.rc:74
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:18 rc.cpp:48 rc.cpp:71 rc.cpp:101
+msgid "&Settings"
+msgstr "&Nałady"
+
+#. i18n: file: keditbookmarks-genui.rc:48
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarksui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarks-genui.rc:48
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarksui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:21 rc.cpp:51 rc.cpp:74 rc.cpp:104
+msgid "Main Toolbar"
+msgstr "Hałoŭnaja panel pryładździa"
+
+#. i18n: file: keditbookmarksui.rc:10
+#. i18n: ectx: Menu (import)
+#: rc.cpp:27 rc.cpp:80
+msgid "&Import"
+msgstr "&Zimpartuj"
+
+#. i18n: file: keditbookmarksui.rc:20
+#. i18n: ectx: Menu (export)
+#: rc.cpp:30 rc.cpp:83
+msgid "&Export"
+msgstr "&Zekspartuj"
+
+#. i18n: file: keditbookmarksui.rc:66
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:45 rc.cpp:98
+msgid "&Tools"
+msgstr "&Pryładździe"
+
+#: rc.cpp:52
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: rc.cpp:53
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
 
 #~ msgid "Icon"
 #~ msgstr "Ikona"

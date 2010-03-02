@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:11+0200\n"
+"POT-Creation-Date: 2010-03-02 04:18+0100\n"
 "PO-Revision-Date: 2008-12-27 00:01+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,33 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ktrash.cpp:32
-msgid "ktrash"
-msgstr "ktrash"
+#: kio_trash_win.cpp:228 kio_trash.cpp:140
+msgid "This file is already in the trash bin."
+msgstr "Hety fajł užo lažyć u śmietnicy."
 
-#: ktrash.cpp:34
-msgid ""
-"Helper program to handle the KDE trash can\n"
-"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
-"'url' trash:/\""
+#: kio_trash_win.cpp:241
+msgid "not supported"
 msgstr ""
-"Dapamožnaja prahrama, jakaja absłuhoŭvaje śmietnicu „KDE”\n"
-"Uvaha: nie karystajsia modulem „ktrash” dla vykidańnia fajłaŭ. Lepš "
-"pasprabuj zahad: „kioclient move 'adras' trash:/”"
 
-#: ktrash.cpp:38
-msgid "Empty the contents of the trash"
-msgstr "Vyčyści śmietnicu"
+#: kio_trash_win.cpp:252 kio_trash.cpp:228
+msgid "Internal error in copyOrMove, should never happen"
+msgstr ""
 
-#: ktrash.cpp:40
-msgid "Restore a trashed file to its original location"
-msgstr "Uznavi vykinuty fajł u byłym miescy"
-
-#: ktrash.cpp:42
-msgid "Ignored"
-msgstr "Abminuta"
-
-#: trashimpl.cpp:1116
+#: trashimpl.cpp:1114
 msgid ""
 "The trash has reached its maximum size!\n"
 "Cleanup the trash manually."
@@ -52,7 +38,7 @@ msgstr ""
 "Śmietnica zapoŭniłasia!\n"
 "Vyčyści jaje samastojna."
 
-#: trashimpl.cpp:1127
+#: trashimpl.cpp:1125
 msgid "The file is too large to be trashed."
 msgstr "Fajł nadta vialiki dla śmietnicy."
 
@@ -181,17 +167,31 @@ msgstr ""
 "miescy. Možna stvaryć hety kataloh i paŭtaryć sprobu ŭznaŭleńnia albo "
 "pieraciahnuć patrebny fajł u inšaje miesca."
 
-#: kio_trash.cpp:140 kio_trash_win.cpp:228
-msgid "This file is already in the trash bin."
-msgstr "Hety fajł užo lažyć u śmietnicy."
+#: ktrash.cpp:32
+msgid "ktrash"
+msgstr "ktrash"
 
-#: kio_trash.cpp:228 kio_trash_win.cpp:252
-msgid "Internal error in copyOrMove, should never happen"
+#: ktrash.cpp:34
+msgid ""
+"Helper program to handle the KDE trash can\n"
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
+"'url' trash:/\""
 msgstr ""
+"Dapamožnaja prahrama, jakaja absłuhoŭvaje śmietnicu „KDE”\n"
+"Uvaha: nie karystajsia modulem „ktrash” dla vykidańnia fajłaŭ. Lepš "
+"pasprabuj zahad: „kioclient move 'adras' trash:/”"
 
-#: kio_trash_win.cpp:241
-msgid "not supported"
-msgstr ""
+#: ktrash.cpp:38
+msgid "Empty the contents of the trash"
+msgstr "Vyčyści śmietnicu"
+
+#: ktrash.cpp:40
+msgid "Restore a trashed file to its original location"
+msgstr "Uznavi vykinuty fajł u byłym miescy"
+
+#: ktrash.cpp:42
+msgid "Ignored"
+msgstr "Abminuta"
 
 #~ msgid "Protocol name"
 #~ msgstr "Nazva pratakoła"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-04 22:27+0100\n"
+"POT-Creation-Date: 2010-03-10 04:48+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -434,7 +434,7 @@ msgstr ""
 #| msgctxt "@title"
 #| msgid "File Manager"
 msgctxt "@label"
-msgid "File Name"
+msgid "Filename"
 msgstr "Fajłavy kiraŭnik"
 
 #: panels/information/knfotranslator.cpp:49
@@ -2712,36 +2712,36 @@ msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Miesca „%1” niapravilnaje."
 
-#: dolphinviewcontainer.cpp:283
+#: dolphinviewcontainer.cpp:284
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:291
+#: dolphinviewcontainer.cpp:292
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Čytańnie kataloha..."
 
-#: dolphinviewcontainer.cpp:306
+#: dolphinviewcontainer.cpp:307
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:402
+#: dolphinviewcontainer.cpp:403
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje sieciŭnych staronak, tamu ŭklučyła "
 "hartač."
 
-#: dolphinviewcontainer.cpp:414
+#: dolphinviewcontainer.cpp:415
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje hetaha pratakołu, tamu ŭklučyła "
 "aplikacyju „Konqueror”."
 
-#: dolphinviewcontainer.cpp:421
+#: dolphinviewcontainer.cpp:422
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Niapravilny pratakoł"
@@ -3355,6 +3355,13 @@ msgstr ""
 #: rc.cpp:251
 msgid "Criteria"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@title"
+#~| msgid "File Manager"
+#~ msgctxt "@label"
+#~ msgid "File Name"
+#~ msgstr "Fajłavy kiraŭnik"
 
 #~ msgctxt "@label"
 #~ msgid "Type:"

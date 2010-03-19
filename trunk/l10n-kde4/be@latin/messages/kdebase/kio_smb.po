@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_smb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-23 06:14+0100\n"
+"POT-Creation-Date: 2010-03-19 04:54+0100\n"
 "PO-Revision-Date: 2008-09-08 22:53+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -122,7 +122,7 @@ msgstr ""
 msgid "Unknown error condition in stat: %1"
 msgstr "Nieviadomaja pamyłka ŭ funkcyi „stat”: %1"
 
-#: kio_smb_mount.cpp:125 kio_smb_mount.cpp:166
+#: kio_smb_mount.cpp:109 kio_smb_mount.cpp:145
 msgid ""
 "\n"
 "Make sure that the samba package is installed properly on your system."
@@ -130,7 +130,7 @@ msgstr ""
 "\n"
 "Spraŭdź, kab u systemie byŭ pravilna zainstalavany pakunak „samba”."
 
-#: kio_smb_mount.cpp:135
+#: kio_smb_mount.cpp:122
 #, kde-format
 msgid ""
 "Mounting of share \"%1\" from host \"%2\" by user \"%3\" failed.\n"
@@ -139,7 +139,7 @@ msgstr ""
 "Nie ŭdałosia zmantavać supolny kataloh „%1” hosta „%2” ad asoby „%3”.\n"
 "%4"
 
-#: kio_smb_mount.cpp:176
+#: kio_smb_mount.cpp:158
 #, kde-format
 msgid ""
 "Unmounting of mountpoint \"%1\" failed.\n"

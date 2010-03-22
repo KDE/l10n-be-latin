@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-20 21:13+0000\n"
+"POT-Creation-Date: 2010-03-22 03:46+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4777,7 +4777,7 @@ msgctxt "Name"
 msgid "Google Maps"
 msgstr "Hrupy „Google”"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/google_maps.desktop:18
+#: runtime/kurifilter-plugins/ikws/searchproviders/google_maps.desktop:19
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -5382,7 +5382,7 @@ msgctxt "Name"
 msgid "YouTube"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/youtube.desktop:16
+#: runtime/kurifilter-plugins/ikws/searchproviders/youtube.desktop:17
 msgctxt "Query"
 msgid "http://www.youtube.com/results?search_query=\\\\{@}&search_type=&aq=f"
 msgstr ""
@@ -8705,7 +8705,7 @@ msgctxt "Name"
 msgid "Drive Ejector"
 msgstr ""
 
-#: runtime/solidautoeject/solidautoeject.desktop:21
+#: runtime/solidautoeject/solidautoeject.desktop:22
 msgctxt "Comment"
 msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
@@ -9566,7 +9566,7 @@ msgctxt "Name"
 msgid "LXDE"
 msgstr ""
 
-#: workspace/kdm/kfrontend/sessions/lxde.desktop:18
+#: workspace/kdm/kfrontend/sessions/lxde.desktop:19
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The UNIX Desktop Environment"
@@ -12672,19 +12672,6 @@ msgctxt "Comment"
 msgid "Access hidden applications minimized in the system tray"
 msgstr "Dostup da schavanych u systemnym trei aplikacyjaŭ"
 
-#: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:3
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "KDE Notification Daemon"
-msgctxt "Name"
-msgid "Status Notifier Manager"
-msgstr "Słužba infarmavańnia KDE"
-
-#: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:17
-msgctxt "Comment"
-msgid "Manages services that provide status notifier user interfaces"
-msgstr ""
-
 #: workspace/plasma/generic/applets/webbrowser/plasma-applet-webbrowser.desktop:3
 msgctxt "Name"
 msgid "Web Browser"
@@ -13007,6 +12994,34 @@ msgstr "Systema navinaŭ z žarołaŭ „RSS”"
 msgctxt "Comment"
 msgid "Device data via Solid"
 msgstr "Źviestki „SolidDevice” dla widžetaŭ „Plasma”"
+
+#: workspace/plasma/generic/dataengines/statusnotifieritem/plasma_engine_statusnotifieritem.desktop:2
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "System Process Information"
+msgctxt "Name"
+msgid "StatusNotifierItem Informations"
+msgstr "Źviestki pra systemnyja pracesy"
+
+#: workspace/plasma/generic/dataengines/statusnotifieritem/plasma_engine_statusnotifieritem.desktop:37
+msgctxt "Comment"
+msgid ""
+"Engine for Applications status information based on the StatusNotifier "
+"protocol."
+msgstr ""
+
+#: workspace/plasma/generic/dataengines/statusnotifieritem/statusnotifierwatcher/statusnotifierwatcher.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KDE Notification Daemon"
+msgctxt "Name"
+msgid "Status Notifier Manager"
+msgstr "Słužba infarmavańnia KDE"
+
+#: workspace/plasma/generic/dataengines/statusnotifieritem/statusnotifierwatcher/statusnotifierwatcher.desktop:17
+msgctxt "Comment"
+msgid "Manages services that provide status notifier user interfaces"
+msgstr ""
 
 #: workspace/plasma/generic/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:83
 #, fuzzy
@@ -15153,13 +15168,6 @@ msgstr ""
 #~ msgctxt "Keywords"
 #~ msgid "Date and Time"
 #~ msgstr "Data j čas"
-
-#, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "System Process Information"
-#~ msgctxt "Keywords"
-#~ msgid "System Information"
-#~ msgstr "Źviestki pra systemnyja pracesy"
 
 #, fuzzy
 #~| msgctxt "Name"

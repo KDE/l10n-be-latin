@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_webbrowser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-02 04:19+0100\n"
+"POT-Creation-Date: 2010-03-23 04:35+0100\n"
 "PO-Revision-Date: 2008-10-24 22:21+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: browsermessagebox.cpp:39
+msgid "OK"
+msgstr ""
+
+#: browsermessagebox.cpp:44
+msgid "Cancel"
+msgstr ""
 
 #: errorpage.cpp:106
 #, kde-format
@@ -123,6 +131,10 @@ msgstr ""
 
 #: webbrowser.cpp:642
 msgid "Do not store this time"
+msgstr ""
+
+#: webviewoverlay.cpp:45
+msgid "Close"
 msgstr ""
 
 #~ msgctxt "@action:button"

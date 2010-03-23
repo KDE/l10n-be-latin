@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-19 04:54+0100\n"
+"POT-Creation-Date: 2010-03-23 04:34+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5909,6 +5909,293 @@ msgstr "Adčyni akno fajła"
 msgid "&View"
 msgstr "&Vyhlad"
 
+#: ../kfile/knfotranslator.cpp:33 ../kfile/kfilemetadataprovider.cpp:283
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@label"
+msgid "Comment"
+msgstr "Kamentar"
+
+#: ../kfile/knfotranslator.cpp:34
+#, fuzzy
+#| msgid "Created:"
+msgctxt "@label creation date"
+msgid "Created"
+msgstr "Stvorany:"
+
+#: ../kfile/knfotranslator.cpp:35
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label file content size"
+msgid "Size"
+msgstr "Pamier"
+
+#: ../kfile/knfotranslator.cpp:36
+msgctxt "@label file depends from"
+msgid "Depends"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:37
+#, fuzzy
+#| msgid "Parent Folder"
+msgctxt "@label parent directory"
+msgid "Part of"
+msgstr "Vyšejšy kataloh"
+
+#: ../kfile/knfotranslator.cpp:38
+#, fuzzy
+#| msgid "Modified:"
+msgctxt "@label modified date of file"
+msgid "Modified"
+msgstr "Admienieny:"
+
+#: ../kfile/knfotranslator.cpp:39
+#, fuzzy
+#| msgid "Mime Type"
+msgctxt "@label"
+msgid "MIME Type"
+msgstr "Typ MIME"
+
+#: ../kfile/knfotranslator.cpp:40
+#, fuzzy
+#| msgid "Contents:"
+msgctxt "@label"
+msgid "Content"
+msgstr "Źmieściva:"
+
+#: ../kfile/knfotranslator.cpp:41
+#, fuzzy
+#| msgid "File"
+msgctxt "@label music title"
+msgid "Title"
+msgstr "Fajł"
+
+#: ../kfile/knfotranslator.cpp:42
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@label file URL"
+msgid "Location"
+msgstr "Miesca:"
+
+#: ../kfile/knfotranslator.cpp:43
+#, fuzzy
+#| msgid "Created:"
+msgctxt "@label"
+msgid "Creator"
+msgstr "Stvorany:"
+
+#: ../kfile/knfotranslator.cpp:44
+msgctxt "@label"
+msgid "Average Bitrate"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:45
+msgctxt "@label"
+msgid "Channels"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:46
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@label number of characters"
+msgid "Characters"
+msgstr "Katehoryi"
+
+#: ../kfile/knfotranslator.cpp:47
+#, fuzzy
+#| msgid "C&onnect"
+msgctxt "@label"
+msgid "Codec"
+msgstr "&Spałučy"
+
+#: ../kfile/knfotranslator.cpp:48
+msgctxt "@label"
+msgid "Color Depth"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:49
+#, fuzzy
+#| msgid "Device name"
+msgctxt "@label"
+msgid "Filename"
+msgstr "Nazva pryłady"
+
+#: ../kfile/knfotranslator.cpp:50
+msgctxt "@label"
+msgid "Height"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:51
+msgctxt "@label"
+msgid "Interlace Mode"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:52
+#, fuzzy
+#| msgid "Link"
+msgctxt "@label number of lines"
+msgid "Lines"
+msgstr "Łuč"
+
+#: ../kfile/knfotranslator.cpp:53
+msgctxt "@label"
+msgid "Programming Language"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:54
+msgctxt "@label"
+msgid "Sample Rate"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:55
+#, fuzzy
+#| msgid "Write"
+msgctxt "@label"
+msgid "Width"
+msgstr "Zapis"
+
+#: ../kfile/knfotranslator.cpp:56
+msgctxt "@label number of words"
+msgid "Words"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:57
+msgctxt "@label EXIF aperture value"
+msgid "Aperture"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:58
+msgctxt "@label EXIF"
+msgid "Exposure Bias Value"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:59
+msgctxt "@label EXIF"
+msgid "Exposure Time"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:60
+#, fuzzy
+#| msgid "Class"
+msgctxt "@label EXIF"
+msgid "Flash"
+msgstr "Klasa"
+
+#: ../kfile/knfotranslator.cpp:61
+msgctxt "@label EXIF"
+msgid "Focal Length"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:62
+msgctxt "@label EXIF"
+msgid "Focal Length 35 mm"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:63
+msgctxt "@label EXIF"
+msgid "ISO Speed Ratings"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:64
+#, fuzzy
+#| msgid "Mask"
+msgctxt "@label EXIF"
+msgid "Make"
+msgstr "Maska"
+
+#: ../kfile/knfotranslator.cpp:65
+msgctxt "@label EXIF"
+msgid "Metering Mode"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:66
+msgctxt "@label EXIF"
+msgid "Model"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:67
+#, fuzzy
+#| msgid "Organization:"
+msgctxt "@label EXIF"
+msgid "Orientation"
+msgstr "Ustanova:"
+
+#: ../kfile/knfotranslator.cpp:68
+msgctxt "@label EXIF"
+msgid "White Balance"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:69
+#, fuzzy
+#| msgctxt "@title:tab File properties"
+#| msgid "&General"
+msgctxt "@label music genre"
+msgid "Genre"
+msgstr "&Hałoŭnaje"
+
+#: ../kfile/knfotranslator.cpp:70
+msgctxt "@label music album"
+msgid "Album"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:71
+msgctxt "@label music track number"
+msgid "Track"
+msgstr ""
+
+#: ../kfile/knfotranslator.cpp:72 ../kfile/kfilemetadatawidget.cpp:506
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label file type"
+msgid "Type"
+msgstr "Typ"
+
+#: ../kfile/kfilemetadatawidget.cpp:431
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Pamier"
+
+#: ../kfile/kfilemetadatawidget.cpp:433
+#, fuzzy
+#| msgid "1 Folder"
+#| msgid_plural "%1 Folders"
+msgctxt "@label"
+msgid "Folder"
+msgstr "%1 kataloh"
+
+#: ../kfile/kfilemetadatawidget.cpp:446
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size:"
+msgstr "Pamier:"
+
+#: ../kfile/kfilemetadatawidget.cpp:508
+#, fuzzy
+#| msgid "Modified:"
+msgctxt "@label"
+msgid "Modified"
+msgstr "Admienieny:"
+
+#: ../kfile/kfilemetadatawidget.cpp:509
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "Ułaśnik"
+
+#: ../kfile/kfilemetadatawidget.cpp:510
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Dazvoły"
+
 #: ../kfile/kdirselectdialog.cpp:128
 msgctxt "folder name"
 msgid "New Folder"
@@ -5953,6 +6240,34 @@ msgstr "Pakažy schavanyja katalohi"
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Ułaścivaści"
+
+#: ../kfile/ktaggingwidget.cpp:85
+#, fuzzy
+#| msgid "Add..."
+msgctxt "@label"
+msgid "Add Tags..."
+msgstr "Dadaj..."
+
+#: ../kfile/ktaggingwidget.cpp:91 ../kfile/kcommentwidget.cpp:69
+#, fuzzy
+#| msgid "Calculating..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "Padličvańnie..."
+
+#: ../kfile/kfilemetadataprovider.cpp:279
+#, fuzzy
+#| msgid "Sorting"
+msgctxt "@label"
+msgid "Rating"
+msgstr "Paradak"
+
+#: ../kfile/kfilemetadataprovider.cpp:281
+#, fuzzy
+#| msgid "Trash"
+msgctxt "@label"
+msgid "Tags"
+msgstr "Śmietnica"
 
 #: ../kfile/kfileplacesview.cpp:561
 msgctxt "@action:inmenu"
@@ -6070,27 +6385,27 @@ msgstr ""
 "aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie "
 "vidać z usich aplikacyjaŭ.</qt>"
 
-#: ../kfile/kurlnavigator.cpp:450
+#: ../kfile/kurlnavigator.cpp:451
 msgid "Copy"
 msgstr "Skapijuj"
 
-#: ../kfile/kurlnavigator.cpp:454
+#: ../kfile/kurlnavigator.cpp:455
 msgid "Paste"
 msgstr "Uklej"
 
-#: ../kfile/kurlnavigator.cpp:461
+#: ../kfile/kurlnavigator.cpp:462
 msgid "Edit"
 msgstr "Redahuj"
 
-#: ../kfile/kurlnavigator.cpp:464
+#: ../kfile/kurlnavigator.cpp:465
 msgid "Navigate"
 msgstr "Pierajdzi"
 
-#: ../kfile/kurlnavigator.cpp:479
+#: ../kfile/kurlnavigator.cpp:480
 msgid "Show Full Path"
 msgstr "Pakažy ŭsiu ściežku"
 
-#: ../kfile/kurlnavigator.cpp:610
+#: ../kfile/kurlnavigator.cpp:611
 msgid "Custom Path"
 msgstr "Ułasnaja ściežka"
 
@@ -6244,6 +6559,27 @@ msgstr "Klikni, kab bačyć panel miesca"
 msgid "Click to Edit Location"
 msgstr "Klikni, kab adredahavać adras miesca"
 
+#: ../kfile/kcommentwidget.cpp:63
+#, fuzzy
+#| msgid "Add Entry..."
+msgctxt "@label"
+msgid "Add Comment..."
+msgstr "Dadaj praviła..."
+
+#: ../kfile/kcommentwidget.cpp:111
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:window"
+msgid "Change Comment"
+msgstr "Kamentar"
+
+#: ../kfile/kcommentwidget.cpp:112
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:window"
+msgid "Add Comment"
+msgstr "Kamentar"
+
 #: ../kfile/kprotocolcombo.cpp:162
 msgctxt "@item:inmenu"
 msgid "Devices"
@@ -6258,6 +6594,97 @@ msgstr "Subversion"
 msgctxt "@item:inmenu"
 msgid "Other"
 msgstr "Inšaje"
+
+#: ../kfile/kedittagsdialog.cpp:48
+msgctxt "@title:window"
+msgid "Change Tags"
+msgstr ""
+
+#: ../kfile/kedittagsdialog.cpp:49
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr ""
+
+#: ../kfile/kedittagsdialog.cpp:58
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
+msgstr ""
+
+#: ../kfile/kedittagsdialog.cpp:71
+#, fuzzy
+#| msgid "Created:"
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr "Stvorany:"
+
+#: ../kfile/kedittagsdialog.cpp:93
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@info"
+msgid "Delete tag"
+msgstr "Vydali"
+
+#: ../kfile/kedittagsdialog.cpp:205
+#, kde-format
+msgctxt "@info"
+msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
+msgstr ""
+
+#: ../kfile/kedittagsdialog.cpp:207
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@title"
+msgid "Delete tag"
+msgstr "Vydali"
+
+#: ../kfile/kedittagsdialog.cpp:208
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Vydali"
+
+#: ../kfile/kedittagsdialog.cpp:209
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""
+
+#: ../kfile/kfilemetadataconfigurationwidget.cpp:100
+#, fuzzy
+#| msgid "Type"
+msgctxt "@item::inlistbox"
+msgid "Type"
+msgstr "Typ"
+
+#: ../kfile/kfilemetadataconfigurationwidget.cpp:101
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@item::inlistbox"
+msgid "Size"
+msgstr "Pamier"
+
+#: ../kfile/kfilemetadataconfigurationwidget.cpp:102
+#, fuzzy
+#| msgid "Modified:"
+msgctxt "@item::inlistbox"
+msgid "Modified"
+msgstr "Admienieny:"
+
+#: ../kfile/kfilemetadataconfigurationwidget.cpp:103
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@item::inlistbox"
+msgid "Owner"
+msgstr "Ułaśnik"
+
+#: ../kfile/kfilemetadataconfigurationwidget.cpp:104
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Permissions"
+msgctxt "@item::inlistbox"
+msgid "Permissions"
+msgstr "Dazvoły"
 
 #~ msgid "&Auto Skip"
 #~ msgstr "&Aŭtamatyčna minaj"

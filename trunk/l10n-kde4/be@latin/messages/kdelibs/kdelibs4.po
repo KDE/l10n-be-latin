@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-25 04:18+0100\n"
+"POT-Creation-Date: 2010-03-26 04:36+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2359,7 +2359,7 @@ msgstr "Sebastian Sauer"
 
 #: kross/test/main.cpp:149 kross/console/main.cpp:102 kross/qts/main.cpp:63
 #: kde3support/kdeui/k3aboutdialog.cpp:184 kded/kbuildsycoca.cpp:621
-#: kded/kbuildsycoca.cpp:622 kded/khostname.cpp:220
+#: kded/kbuildsycoca.cpp:622
 msgid "Author"
 msgstr "Aŭtar"
 
@@ -2510,11 +2510,11 @@ msgid "(c) 2001, Waldo Bastian"
 msgstr "© 2001, Waldo Bastian"
 
 #: kconf_update/kconf_update.cpp:963 khtml/khtml_global.cpp:213
-#: kded/kbuildsycoca.cpp:622 kded/khostname.cpp:220
+#: kded/kbuildsycoca.cpp:622
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: nepomuk/query/queryparser.cpp:342
+#: nepomuk/query/queryparser.cpp:360
 #, fuzzy
 #| msgid "Esfand"
 msgctxt ""
@@ -2525,7 +2525,7 @@ msgctxt ""
 msgid "and"
 msgstr "Esfand"
 
-#: nepomuk/query/queryparser.cpp:351
+#: nepomuk/query/queryparser.cpp:369
 #, fuzzy
 #| msgctxt "Mordad short"
 #| msgid "Mor"
@@ -3196,33 +3196,50 @@ msgstr "Pravajder: %1"
 msgid "All Categories"
 msgstr "Staronki"
 
-#: knewstuff/knewstuff3/core/installation.cpp:151
+#: knewstuff/knewstuff3/core/installation.cpp:154
 msgid "Invalid item."
 msgstr ""
 
-#: knewstuff/knewstuff3/core/installation.cpp:158
+#: knewstuff/knewstuff3/core/installation.cpp:161
 #, kde-format
 msgid "Download of item failed: no download url for \"%1\""
 msgstr ""
 
-#: knewstuff/knewstuff3/core/installation.cpp:193
+#: knewstuff/knewstuff3/core/installation.cpp:196
 #, kde-format
 msgid "Download of \"%1\" failed, error: %2"
 msgstr ""
 
-#: knewstuff/knewstuff3/core/installation.cpp:260
+#: knewstuff/knewstuff3/core/installation.cpp:204
+msgid ""
+"The downloaded file is a html file. This indicates a link to a website "
+"instead of the actual download. Would you like to open the site with a "
+"browser instead?"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:204
+#, fuzzy
+#| msgid "Could not set non-blocking mode"
+msgid "Possibly bad download link"
+msgstr "Nie ŭdałosia ŭklučyć biazblokavy režym"
+
+#: knewstuff/knewstuff3/core/installation.cpp:207
+msgid "Downloaded file was a HTML file. Opened in browser."
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:279
 #, fuzzy, kde-format
 #| msgid "Could not install %1"
 msgid "Could not install \"%1\": file not found."
 msgstr "Nie ŭdałosia zainstalavać „%1”."
 
-#: knewstuff/knewstuff3/core/installation.cpp:451
+#: knewstuff/knewstuff3/core/installation.cpp:470
 #, fuzzy
 #| msgid "Overwrite File?"
 msgid "Overwrite existing file?"
 msgstr "Nadpisać fajł?"
 
-#: knewstuff/knewstuff3/core/installation.cpp:451
+#: knewstuff/knewstuff3/core/installation.cpp:470
 #, fuzzy
 #| msgid "Download"
 msgid "Download File:"
@@ -8429,15 +8446,15 @@ msgstr "Pošuk u siecivie"
 msgid "&Search"
 msgstr "&Šukaj"
 
-#: kded/kded.cpp:858
+#: kded/kded.cpp:862
 msgid "KDE Daemon"
 msgstr "Słužba KDE"
 
-#: kded/kded.cpp:860
+#: kded/kded.cpp:864
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr "Słužba KDE – pry patrebie aktualizoŭvaje bazu źviestak „Sycoca”"
 
-#: kded/kded.cpp:863
+#: kded/kded.cpp:867
 msgid "Check Sycoca database only once"
 msgstr "Tolki adnojčy praviaraj bazu źviestak „Sycoca”"
 
@@ -8486,34 +8503,6 @@ msgstr "Tolki pravier, ci pravilna stvarajecca menu"
 #: kded/kbuildsycoca.cpp:631
 msgid "Track menu id for debug purposes"
 msgstr "Adsočvaj identyfikatar menu dla adładžvańnia"
-
-#: kded/khostname.cpp:72
-msgid "Error: HOME environment variable not set.\n"
-msgstr "Pamyłka: ułaścivaść asiarodździa „HOME” nia maje značeńnia.\n"
-
-#: kded/khostname.cpp:82
-msgid "Error: DISPLAY environment variable not set.\n"
-msgstr "Pamyłka: ułaścivaść asiarodździa „DISPLAY” nia maje značeńnia.\n"
-
-#: kded/khostname.cpp:217
-msgid "KDontChangeTheHostName"
-msgstr "KDontChangeTheHostName"
-
-#: kded/khostname.cpp:218
-msgid "Informs KDE about a change in hostname"
-msgstr "Paviedamlaje asiarodździu KDE pra źmieny nazvy hosta"
-
-#: kded/khostname.cpp:219
-msgid "(c) 2001 Waldo Bastian"
-msgstr "© 2001 Waldo Bastian"
-
-#: kded/khostname.cpp:223
-msgid "Old hostname"
-msgstr "Byłaja nazva hosta"
-
-#: kded/khostname.cpp:224
-msgid "New hostname"
-msgstr "Novaja nazva hosta"
 
 #: kpty/kptydevice.cpp:306
 msgid "Error reading from PTY"
@@ -12271,24 +12260,24 @@ msgid "Minimize"
 msgstr "Minimalizuj"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:353
-#: kdeui/notifications/kstatusnotifieritem.cpp:780
+#: kdeui/notifications/kstatusnotifieritem.cpp:355
+#: kdeui/notifications/kstatusnotifieritem.cpp:781
 msgid "&Minimize"
 msgstr "&Minimalizuj"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:778
+#: kdeui/notifications/kstatusnotifieritem.cpp:779
 msgid "&Restore"
 msgstr "&Adnavi"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:788
+#: kdeui/notifications/kstatusnotifieritem.cpp:789
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>Ty sapraŭdy chočaš vyjści z <b>%1</b>?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:791
+#: kdeui/notifications/kstatusnotifieritem.cpp:792
 msgid "Confirm Quit From System Tray"
 msgstr "Paćvierdžańnie vychadu z systemnaha treja"
 
@@ -13259,6 +13248,27 @@ msgstr "Što &heta?"
 msgid "Tip of the &Day"
 msgstr "Štodzionnyja &parady"
 
+#~ msgid "Error: HOME environment variable not set.\n"
+#~ msgstr "Pamyłka: ułaścivaść asiarodździa „HOME” nia maje značeńnia.\n"
+
+#~ msgid "Error: DISPLAY environment variable not set.\n"
+#~ msgstr "Pamyłka: ułaścivaść asiarodździa „DISPLAY” nia maje značeńnia.\n"
+
+#~ msgid "KDontChangeTheHostName"
+#~ msgstr "KDontChangeTheHostName"
+
+#~ msgid "Informs KDE about a change in hostname"
+#~ msgstr "Paviedamlaje asiarodździu KDE pra źmieny nazvy hosta"
+
+#~ msgid "(c) 2001 Waldo Bastian"
+#~ msgstr "© 2001 Waldo Bastian"
+
+#~ msgid "Old hostname"
+#~ msgstr "Byłaja nazva hosta"
+
+#~ msgid "New hostname"
+#~ msgstr "Novaja nazva hosta"
+
 #, fuzzy
 #~| msgid "Description"
 #~ msgid "description"
@@ -13273,11 +13283,6 @@ msgstr "Štodzionnyja &parady"
 #~| msgid "Could not construct value"
 #~ msgid "Could not get account balance."
 #~ msgstr "Nie ŭdałosia skanstrujavać vartaść."
-
-#, fuzzy
-#~| msgid "Could not set non-blocking mode"
-#~ msgid "Could not get download link."
-#~ msgstr "Nie ŭdałosia ŭklučyć biazblokavy režym"
 
 #, fuzzy
 #~| msgid "Download"

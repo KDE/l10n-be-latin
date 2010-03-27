@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-12 04:25+0100\n"
+"POT-Creation-Date: 2010-03-27 04:22+0100\n"
 "PO-Revision-Date: 2008-10-05 10:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -57,12 +57,15 @@ msgstr[1] "%1 aperacyi dla hetaj pryłady"
 msgstr[2] "%1 aperacyjaŭ dla hetaj pryłady"
 
 #: devicenotifier.cpp:271
-msgid "No devices plugged in"
+#, fuzzy
+#| msgid "No devices plugged in"
+msgid "No devices available."
 msgstr "Niama padłučanych pryładaŭ"
 
 #: devicenotifier.cpp:275
-#, kde-format
-msgid "Last plugged in device: %1"
+#, fuzzy, kde-format
+#| msgid "Last plugged in device: %1"
+msgid "Most recent device: %1"
 msgstr "Apošniaja padłučanaja pryłada: %1"
 
 #: devicenotifier.cpp:377
@@ -133,9 +136,7 @@ msgstr ""
 msgid "All devices"
 msgstr ""
 
-#, fuzzy
-#~| msgid "No devices plugged in"
-#~ msgid "No devices plugged in."
+#~ msgid "No devices plugged in"
 #~ msgstr "Niama padłučanych pryładaŭ"
 
 #, fuzzy

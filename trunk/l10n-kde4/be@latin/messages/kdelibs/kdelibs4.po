@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-26 04:36+0100\n"
+"POT-Creation-Date: 2010-03-27 04:20+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -665,7 +665,8 @@ msgstr "Pieračytaj"
 #. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:235
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
-#: rc.cpp:288 rc.cpp:426 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:135
+#: rc.cpp:288 rc.cpp:426 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:128
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:229
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:192
 msgid "Update"
@@ -703,7 +704,7 @@ msgstr "Apisańnie:"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:223
 #. i18n: ectx: property (text), widget (QLabel, priceLabel_2)
-#: rc.cpp:303 knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:132
+#: rc.cpp:303 knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:135
 #, fuzzy
 #| msgid "Changelog"
 msgid "Changelog:"
@@ -983,8 +984,10 @@ msgstr ""
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:225
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: rc.cpp:423 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:150
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:160
+#: rc.cpp:423 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:143
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:153
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:244
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:254
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:65
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:144
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:149
@@ -998,7 +1001,8 @@ msgstr "Zainstaluj"
 
 #. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:245
 #. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
-#: rc.cpp:429 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:131
+#: rc.cpp:429 knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:124
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:225
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:66
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:133
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:534
@@ -3124,8 +3128,8 @@ msgid "Download New Stuff..."
 msgstr "Ściahni novyja cikavostki"
 
 #: knewstuff/knewstuff3/downloaddialog.cpp:81
-#: knewstuff/knewstuff3/downloadwidget.cpp:203
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:67
+#: knewstuff/knewstuff3/downloadwidget.cpp:205
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:70
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:127
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:555
 msgid "Get Hot New Stuff"
@@ -3138,7 +3142,7 @@ msgctxt "Program name followed by 'Add On Installer'"
 msgid "%1 Add-On Installer"
 msgstr "Instaloŭnik dadatkaŭ dla %1"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:117
+#: knewstuff/knewstuff3/downloadwidget.cpp:119
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
 #, fuzzy
 #| msgid "Timeout. Check Internet connection!"
@@ -3147,50 +3151,50 @@ msgstr ""
 "Biaz vyniku skončyŭsia termin čakańnia. Pravier dziejnaść spałučeńnia ź "
 "siecivam."
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:175
+#: knewstuff/knewstuff3/downloadwidget.cpp:177
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:252
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:503
 #, kde-format
 msgid "Server: %1"
 msgstr "Server: %1"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:176
+#: knewstuff/knewstuff3/downloadwidget.cpp:178
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:504
 #, kde-format
 msgid "<br />Provider: %1"
 msgstr "<br />Pravajder: %1"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:177
+#: knewstuff/knewstuff3/downloadwidget.cpp:179
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:505
 #, kde-format
 msgid "<br />Version: %1"
 msgstr "<br />Versija: %1"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:181
+#: knewstuff/knewstuff3/downloadwidget.cpp:183
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:82
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:258
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:509
 msgid "Provider information"
 msgstr "Źviestki ab pravajdery"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:192
+#: knewstuff/knewstuff3/downloadwidget.cpp:194
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:535
 #, kde-format
 msgid "Could not install %1"
 msgstr "Nie ŭdałosia zainstalavać „%1”."
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:193
+#: knewstuff/knewstuff3/downloadwidget.cpp:195
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:536
 msgid "Get Hot New Stuff!"
 msgstr "Atrymaj novyja cikavostki!"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:246
+#: knewstuff/knewstuff3/downloadwidget.cpp:259
 #, fuzzy
 #| msgid "Provider: %1"
 msgid "All Providers"
 msgstr "Pravajder: %1"
 
-#: knewstuff/knewstuff3/downloadwidget.cpp:253
+#: knewstuff/knewstuff3/downloadwidget.cpp:266
 #, fuzzy
 #| msgid "Pages"
 msgid "All Categories"
@@ -3263,7 +3267,7 @@ msgid "Could not load get hot new stuff providers from file: %1"
 msgstr ""
 
 #: knewstuff/knewstuff3/core/engine.cpp:209
-#: knewstuff/knewstuff3/core/engine.cpp:457
+#: knewstuff/knewstuff3/core/engine.cpp:460
 #, fuzzy
 #| msgid "Loading Applet"
 msgid "Loading data"
@@ -3278,13 +3282,13 @@ msgstr ""
 msgid "Loading of providers from file: %1 failed"
 msgstr ""
 
-#: knewstuff/knewstuff3/core/engine.cpp:419
+#: knewstuff/knewstuff3/core/engine.cpp:422
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
 #, kde-format
 msgid "Re: %1"
 msgstr "Re: %1"
 
-#: knewstuff/knewstuff3/core/engine.cpp:459
+#: knewstuff/knewstuff3/core/engine.cpp:462
 #, fuzzy, kde-format
 #| msgid "Loading Preview"
 msgid "Loading one preview"
@@ -3293,17 +3297,13 @@ msgstr[0] "Atrymańnie padhladu"
 msgstr[1] "Atrymańnie padhladu"
 msgstr[2] "Atrymańnie padhladu"
 
-#: knewstuff/knewstuff3/core/engine.cpp:461
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:140
+#: knewstuff/knewstuff3/core/engine.cpp:464
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:133
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:234
 #, fuzzy
 #| msgid "Install"
 msgid "Installing"
 msgstr "Zainstaluj"
-
-#: knewstuff/knewstuff3/core/engine.cpp:463
-#: khtml/ecma/debugger/debugwindow.cpp:272
-msgid "Ready"
-msgstr "Hatova"
 
 #: knewstuff/knewstuff3/core/security.cpp:75
 #: knewstuff/knewstuff2/core/security.cpp:75
@@ -3357,7 +3357,7 @@ msgstr ""
 "zainstalavanaja prahrama <i>gpg</i>. Padpisańnie fajłaŭ niemahčymaje, pakul "
 "u systemie nia budzie hetaj aplikacyi.</qt>"
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:312
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:314
 #, kde-format
 msgctxt ""
 "the price of a download item, parameter 1 is the currency, 2 is the price"
@@ -3366,7 +3366,7 @@ msgid ""
 "Do you want to buy it?"
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:324
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:326
 #, kde-format
 msgid ""
 "Your account balance is too low:\n"
@@ -3374,71 +3374,76 @@ msgid ""
 "Price: %2"
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:367
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:369
 #, fuzzy
 #| msgid "No text was replaced."
 msgctxt "voting for an item (good/bad)"
 msgid "Your vote was recorded."
 msgstr "Ničoha nie było zamieniena."
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:383
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:385
 msgid "You are now a fan."
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:394
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:396
 #, kde-format
 msgid "Network error. (%1)"
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:398
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:400
 msgid "Too many requests to server. Please try again in a few minutes."
 msgstr ""
 
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:400
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:402
 #, kde-format
 msgid "Unknown Open Collaboration Service API error. (%1)"
 msgstr ""
 
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:120
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:123
 #, fuzzy, kde-format
 #| msgid "Suggestions for %1"
 msgid "Details for %1"
 msgstr "Prapanovy dla %1"
 
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:137
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:140
 #, fuzzy
 #| msgid "Homepage"
 msgctxt "A link to the description of this Get Hot New Stuff item"
 msgid "Visit homepage..."
 msgstr "Chatniaja staronka"
 
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:158
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:162
 #, fuzzy
 #| msgid "Loading Preview"
 msgid "Loading preview..."
 msgstr "Atrymańnie padhladu"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:145
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:138
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:239
 #, fuzzy
 #| msgid "Update"
 msgid "Updating"
 msgstr "Aktualizuj"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:155
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:148
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:249
 #, fuzzy
 #| msgid "Install"
 msgid "Install Again"
 msgstr "Zainstaluj"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:182
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:175
 #, fuzzy
 #| msgid "Details"
 msgid "Details..."
 msgstr "Detali"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:231
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:233
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:235
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:224
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:226
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:228
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:165
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:167
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:169
 #, fuzzy, kde-format
 #| msgctxt "@interface/rich"
 #| msgid "<i>%1</i>"
@@ -3446,7 +3451,8 @@ msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
 msgstr "<i>%1</i>"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:249
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:242
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:191
 #, kde-format
 msgid "1 fan"
 msgid_plural "%1 fans"
@@ -3454,7 +3460,8 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:252
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:245
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:194
 #, fuzzy, kde-format
 #| msgid "Download"
 msgid "1 download"
@@ -3463,13 +3470,15 @@ msgstr[0] "Zabiary z servera"
 msgstr[1] "Zabiary z servera"
 msgstr[2] "Zabiary z servera"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:271
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:264
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:115
 #, fuzzy, kde-format
 #| msgid "Rating: %1"
 msgid "Rating: %1%"
 msgstr "Acenka: %1"
 
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:322
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:315
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:311
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:264
 msgid "Loading Preview"
 msgstr "Atrymańnie padhladu"
@@ -7302,6 +7311,10 @@ msgstr "&Adładź"
 #: khtml/ecma/debugger/debugwindow.cpp:266
 msgid "Close source"
 msgstr "Začyni vytočny kod"
+
+#: khtml/ecma/debugger/debugwindow.cpp:272
+msgid "Ready"
+msgstr "Hatova"
 
 #: khtml/ecma/debugger/debugwindow.cpp:621
 #, kde-format

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-28 05:33+0200\n"
+"POT-Creation-Date: 2010-03-31 04:27+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2131,12 +2131,12 @@ msgctxt "@info:status"
 msgid "The name must contain at least one # character."
 msgstr "Nazva pavinna ŭtrymvać jak mienš adzin znak „#”."
 
-#: dolphindetailsview.cpp:151
+#: dolphindetailsview.cpp:155
 msgctxt "@option:check"
 msgid "Expandable Folders"
 msgstr "Razhortvańnie katalohaŭ"
 
-#: dolphindetailsview.cpp:598
+#: dolphindetailsview.cpp:602
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "Słupki"
@@ -2151,19 +2151,19 @@ msgctxt "@info:tooltip"
 msgid "Select Item"
 msgstr "Vyłučy element"
 
-#: dolphinview.cpp:502
+#: dolphinview.cpp:508
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> vyłučany"
 
-#: dolphinview.cpp:503
+#: dolphinview.cpp:509
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr "<filename>%1</filename> vyłučany (%2)"
 
-#: dolphinview.cpp:507
+#: dolphinview.cpp:513
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -2172,7 +2172,7 @@ msgstr[0] "Vyłučany %1 kataloh"
 msgstr[1] "Vyłučanyja %1 katalohi"
 msgstr[2] "Vyłučanyja %1 katalohaŭ"
 
-#: dolphinview.cpp:508
+#: dolphinview.cpp:514
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -2181,64 +2181,64 @@ msgstr[0] "Vyłučany %1 fajł"
 msgstr[1] "Vyłučanyja %1 fajły"
 msgstr[2] "Vyłučanyja %1 fajłaŭ"
 
-#: dolphinview.cpp:510
+#: dolphinview.cpp:516
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: dolphinview.cpp:513
+#: dolphinview.cpp:519
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: dolphinview.cpp:1120
+#: dolphinview.cpp:1126
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Vydaleńnie skončyłasia."
 
-#: dolphinview.cpp:1205
+#: dolphinview.cpp:1211
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Miesca pustoje."
 
-#: dolphinview.cpp:1207
+#: dolphinview.cpp:1213
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Miesca „%1” niapravilnaje."
 
-#: dolphinviewcontainer.cpp:284
+#: dolphinviewcontainer.cpp:285
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:292
+#: dolphinviewcontainer.cpp:293
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Čytańnie kataloha..."
 
-#: dolphinviewcontainer.cpp:307
+#: dolphinviewcontainer.cpp:308
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:403
+#: dolphinviewcontainer.cpp:404
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje sieciŭnych staronak, tamu ŭklučyła "
 "hartač."
 
-#: dolphinviewcontainer.cpp:415
+#: dolphinviewcontainer.cpp:416
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje hetaha pratakołu, tamu ŭklučyła "
 "aplikacyju „Konqueror”."
 
-#: dolphinviewcontainer.cpp:422
+#: dolphinviewcontainer.cpp:423
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Niapravilny pratakoł"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solid-powermanagement\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-27 10:51+0100\n"
+"POT-Creation-Date: 2010-04-02 04:57+0200\n"
 "PO-Revision-Date: 2008-12-27 01:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -72,8 +72,6 @@ msgid ""
 "             # - If the 'suspend' option is specified, give the list of "
 "suspend\n"
 "             # methods supported by the system\n"
-"             # - If the 'scheme' option is specified, give the list of\n"
-"             # power management schemes supported by this system\n"
 "             # - If the 'cpufreq' option is specified, give the list of\n"
 "             # supported CPU frequency policies\n"
 msgstr ""
@@ -88,11 +86,18 @@ msgstr ""
 "             # źmianieńnia čaścini pracesara, jakija absłuhoŭvaje hetaja "
 "systema\n"
 
-#: solid-powermanagement.cpp:209
+#: solid-powermanagement.cpp:207
+#, fuzzy
+#| msgid ""
+#| "             # Set power management options of the system.\n"
+#| "             # - If the 'scheme' option is specified, the power "
+#| "management\n"
+#| "             # scheme set corresponds to 'value'\n"
+#| "             # - If the 'cpufreq' option is specified, the CPU frequency "
+#| "policy\n"
+#| "             # set corresponds to 'value'\n"
 msgid ""
 "             # Set power management options of the system.\n"
-"             # - If the 'scheme' option is specified, the power management\n"
-"             # scheme set corresponds to 'value'\n"
 "             # - If the 'cpufreq' option is specified, the CPU frequency "
 "policy\n"
 "             # set corresponds to 'value'\n"
@@ -106,11 +111,11 @@ msgstr ""
 "             # čaścini pracesara buduć vystaŭlenyja adpaviedna padadzienaj "
 "vartaści\n"
 
-#: solid-powermanagement.cpp:216
+#: solid-powermanagement.cpp:212
 msgid "             # Suspend the computer using the given 'method'.\n"
 msgstr "             # Usypi kamputar u aznačany sposab.\n"
 
-#: solid-powermanagement.cpp:219
+#: solid-powermanagement.cpp:215
 msgid ""
 "             # Set and get brightness options of the system.\n"
 "             # - If the 'set' option is specified, the brightness is\n"
@@ -126,48 +131,46 @@ msgstr ""
 "nałada jarkaści\n"
 "             # (u adsotkach)\n"
 
-#: solid-powermanagement.cpp:270 solid-powermanagement.cpp:289
+#: solid-powermanagement.cpp:262 solid-powermanagement.cpp:277
 #, kde-format
 msgid "Syntax Error: Unknown option '%1'"
 msgstr "Syntaksnaja pamyłka: nieviadomaja opcyja „%1”"
 
-#: solid-powermanagement.cpp:306
+#: solid-powermanagement.cpp:294
 #, kde-format
 msgid "Syntax Error: Unknown command '%1'"
 msgstr "Syntaksnaja pamyłka: nieviadomy zahad „%1”"
 
-#: solid-powermanagement.cpp:355
+#: solid-powermanagement.cpp:343
 #, kde-format
 msgid "Unsupported suspend method: %1"
 msgstr "Sposab snu nie absłuhoŭvajecca: %1"
 
-#: solid-powermanagement.cpp:363
+#: solid-powermanagement.cpp:351
 #, fuzzy
 #| msgid "Error: unsupported operation!"
 msgid "Error: unsupported operation."
 msgstr "Pamyłka: aperacyja nie absłuhoŭvajecca!"
 
-#: solid-powermanagement.cpp:374
+#: solid-powermanagement.cpp:362
 #, kde-format
 msgid "Error: %1"
 msgstr "Pamyłka: %1"
 
-#: solid-powermanagement.cpp:411
-#, kde-format
-msgid "Unsupported scheme: %1"
-msgstr "Schiema nie absłuhoŭvajecca: %1"
-
-#: solid-powermanagement.cpp:498
+#: solid-powermanagement.cpp:451
 #, kde-format
 msgid "Unsupported cpufreq policy: %1"
 msgstr "Praviły źmianieńnia čaścini pracesara nie absłuhoŭvajucca: %1"
 
-#: solid-powermanagement.cpp:529
+#: solid-powermanagement.cpp:482
 #, kde-format
 msgid "Progress: %1%"
 msgstr "Prahres: %1%"
 
-#: solid-powermanagement.cpp:534
+#: solid-powermanagement.cpp:487
 #, kde-format
 msgid "Info: %1"
 msgstr "Źviestki: %1"
+
+#~ msgid "Unsupported scheme: %1"
+#~ msgstr "Schiema nie absłuhoŭvajecca: %1"

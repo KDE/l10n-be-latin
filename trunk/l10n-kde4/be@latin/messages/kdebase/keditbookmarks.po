@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-08 04:27+0200\n"
+"POT-Creation-Date: 2010-04-09 04:54+0200\n"
 "PO-Revision-Date: 2008-10-04 23:44+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -282,36 +282,36 @@ msgstr "Źmiena „%1”"
 msgid "Comment Change"
 msgstr "Kamentar"
 
-#: commands.cpp:401
+#: commands.cpp:359
 #, kde-format
 msgid "Move %1"
 msgstr "Pieraniasi „%1”"
 
-#: commands.cpp:518
+#: commands.cpp:476
 msgid "Set as Bookmark Toolbar"
 msgstr "Źmiaści ŭ paneli zakładak"
 
-#: commands.cpp:554
+#: commands.cpp:512
 msgid "Copy Items"
 msgstr "Skapijuj"
 
-#: commands.cpp:555
+#: commands.cpp:513
 msgid "Move Items"
 msgstr "Pieraniasi"
 
-#: favicons.cpp:82 testlink.cpp:131
+#: favicons.cpp:86 testlink.cpp:132
 msgid "OK"
 msgstr "Ok"
 
-#: favicons.cpp:82
+#: favicons.cpp:86
 msgid "No favicon found"
 msgstr "Ikona sajta nia znojdzienaja."
 
-#: favicons.cpp:94
+#: favicons.cpp:100
 msgid "Updating favicon..."
 msgstr "Aktualizacyja ikony sajta..."
 
-#: favicons.cpp:103
+#: favicons.cpp:109
 msgid "Local file"
 msgstr "Miascovy fajł"
 
@@ -366,7 +366,7 @@ msgstr "&Źmiani ikonu..."
 msgid "Update Favicon"
 msgstr "Aktualizuj ikonu sajta"
 
-#: actionsimpl.cpp:124 actionsimpl.cpp:491
+#: actionsimpl.cpp:124 actionsimpl.cpp:497
 msgid "Recursive Sort"
 msgstr "Rekursiŭny paradak"
 
@@ -470,31 +470,31 @@ msgstr "Zekspartuj zakładki „&Internet Explorer”..."
 msgid "Export &Mozilla Bookmarks..."
 msgstr "Zekspartuj zakładki „&Mozilla”..."
 
-#: actionsimpl.cpp:285
+#: actionsimpl.cpp:291
 msgid "*.html|HTML Bookmark Listing"
 msgstr "*.html|Śpis zakładak u farmacie „HTML”"
 
-#: actionsimpl.cpp:329
+#: actionsimpl.cpp:335
 msgid "Cut Items"
 msgstr "Vytni elementy"
 
-#: actionsimpl.cpp:354
+#: actionsimpl.cpp:360
 msgid "Paste"
 msgstr "Uklej"
 
-#: actionsimpl.cpp:364
+#: actionsimpl.cpp:370
 msgid "Create New Bookmark Folder"
 msgstr "Stvary novy kataloh dla zakładak"
 
-#: actionsimpl.cpp:365
+#: actionsimpl.cpp:371
 msgid "New folder:"
 msgstr "Novy kataloh:"
 
-#: actionsimpl.cpp:505
+#: actionsimpl.cpp:511
 msgid "Sort Alphabetically"
 msgstr "Paradkuj pavodle alfabetu"
 
-#: actionsimpl.cpp:513
+#: actionsimpl.cpp:519
 msgid "Delete Items"
 msgstr "Vydali elementy"
 
@@ -526,31 +526,31 @@ msgstr "Opera"
 msgid "My Bookmarks"
 msgstr "Maje zakładki"
 
-#: testlink.cpp:108
+#: testlink.cpp:109
 msgid "Checking..."
 msgstr "Spraŭdžvańnie..."
 
-#: bookmarkinfowidget.cpp:250
+#: bookmarkinfowidget.cpp:246
 msgid "Name:"
 msgstr "Nazva:"
 
-#: bookmarkinfowidget.cpp:258
+#: bookmarkinfowidget.cpp:254
 msgid "Location:"
 msgstr "Miesca:"
 
-#: bookmarkinfowidget.cpp:266
+#: bookmarkinfowidget.cpp:262
 msgid "Comment:"
 msgstr "Kamentar:"
 
-#: bookmarkinfowidget.cpp:273
+#: bookmarkinfowidget.cpp:269
 msgid "First viewed:"
 msgstr "Pieršy prahlad:"
 
-#: bookmarkinfowidget.cpp:276
+#: bookmarkinfowidget.cpp:272
 msgid "Viewed last:"
 msgstr "Apošni prahlad:"
 
-#: bookmarkinfowidget.cpp:279
+#: bookmarkinfowidget.cpp:275
 msgid "Times visited:"
 msgstr "Kolkaść naviedvańniaŭ:"
 

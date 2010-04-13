@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-02 04:57+0200\n"
+"POT-Creation-Date: 2010-04-13 05:23+0200\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -592,9 +592,7 @@ msgstr "Kali karystańnik nie pracuje bolš za"
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, DPMSSuspendTime)
 #. i18n: file: kcmodule/profileEditPage.ui:442
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, DPMSPowerOffTime)
-#. i18n: file: kcmodule/generalPage.ui:136
-#. i18n: ectx: property (suffix), widget (KIntNumInput, suspendWaitTime)
-#: rc.cpp:32 rc.cpp:71 rc.cpp:77 rc.cpp:83 rc.cpp:128
+#: rc.cpp:32 rc.cpp:71 rc.cpp:77 rc.cpp:83
 msgid " min"
 msgstr " chv"
 
@@ -787,6 +785,15 @@ msgstr "Dazvol słužbie „PowerDevil” kiravać enerhijaj tvajho ekrana"
 #: rc.cpp:125
 msgid "Before doing a suspend action, wait"
 msgstr "Pierad snom pačakaj"
+
+#. i18n: file: kcmodule/generalPage.ui:136
+#. i18n: ectx: property (suffix), widget (KIntNumInput, suspendWaitTime)
+#: rc.cpp:128
+#, fuzzy
+#| msgctxt "As in \"seconds\""
+#| msgid "sec"
+msgid " sec"
+msgstr "sek"
 
 #. i18n: file: kcmodule/generalPage.ui:139
 #. i18n: ectx: property (specialValueText), widget (KIntNumInput, suspendWaitTime)
@@ -1270,13 +1277,6 @@ msgstr ""
 #~ "zasynańniem budzie peŭny čas pakazvać interakcyjnaje paviedamleńnie pra "
 #~ "hetuju padzieju. Kali karystańnik kliknie ŭ hetaje paviedamleńnie, tady "
 #~ "zaplanavanaja aperacyja nie budzie vykananaja."
-
-#, fuzzy
-#~| msgctxt "As in \"seconds\""
-#~| msgid "sec"
-#~ msgctxt "As in \"seconds\""
-#~ msgid " sec"
-#~ msgstr "sek"
 
 #, fuzzy
 #~| msgid "Actions"

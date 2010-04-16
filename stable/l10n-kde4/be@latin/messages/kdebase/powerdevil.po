@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-26 20:28+0100\n"
+"POT-Creation-Date: 2010-04-16 01:21+0200\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 "Nie ŭdałosia spałučycca z interfejsam batarei!\n"
 "Spraudź nałady svajoj systemy."
 
-#: daemon/PowerDevilDaemon.cpp:318
+#: daemon/PowerDevilDaemon.cpp:320
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -58,19 +58,19 @@ msgid ""
 "canceled."
 msgstr "Blok siłkavańnia padłučany."
 
-#: daemon/PowerDevilDaemon.cpp:321
+#: daemon/PowerDevilDaemon.cpp:323
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "Blok siłkavańnia padłučany."
 
-#: daemon/PowerDevilDaemon.cpp:327
+#: daemon/PowerDevilDaemon.cpp:329
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "Blok siłkavańnia adłučany."
 
-#: daemon/PowerDevilDaemon.cpp:504
+#: daemon/PowerDevilDaemon.cpp:506
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -89,7 +89,7 @@ msgstr[2] ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: daemon/PowerDevilDaemon.cpp:517
+#: daemon/PowerDevilDaemon.cpp:519
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to disk "
@@ -110,7 +110,7 @@ msgstr[2] ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie na dysku praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: daemon/PowerDevilDaemon.cpp:530
+#: daemon/PowerDevilDaemon.cpp:532
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -131,7 +131,7 @@ msgstr[2] ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie ŭ pamiaci praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: daemon/PowerDevilDaemon.cpp:543
+#: daemon/PowerDevilDaemon.cpp:545
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your battery has reached critical level, the PC is going Standby in %1 "
@@ -152,7 +152,7 @@ msgstr[2] ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar pačnie čakać praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: daemon/PowerDevilDaemon.cpp:554
+#: daemon/PowerDevilDaemon.cpp:556
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -162,19 +162,19 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Jak maha chutčej zapišy vynik svajoj "
 "pracy!"
 
-#: daemon/PowerDevilDaemon.cpp:560
+#: daemon/PowerDevilDaemon.cpp:562
 #, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
 msgstr "Zarad tvajoj batarei vymahaje ŭvahi."
 
-#: daemon/PowerDevilDaemon.cpp:564
+#: daemon/PowerDevilDaemon.cpp:566
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
 msgstr "Tvaja batareja maje nizki zarad."
 
-#: daemon/PowerDevilDaemon.cpp:695
+#: daemon/PowerDevilDaemon.cpp:697
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be halted in %1 seconds. Click here to block the "
@@ -191,7 +191,7 @@ msgstr[2] ""
 "Kamputar budzie vyklučany praz %1 sekund. Klikni siudy, kab anulavać hetuju "
 "dzieju."
 
-#: daemon/PowerDevilDaemon.cpp:715
+#: daemon/PowerDevilDaemon.cpp:717
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be suspended to disk in %1 seconds. Click here to block "
@@ -208,7 +208,7 @@ msgstr[2] ""
 "Kamputar zaśnie na dysku praz %1 sekund. Klikni siudy, kab anulavać hetuju "
 "dzieju."
 
-#: daemon/PowerDevilDaemon.cpp:735
+#: daemon/PowerDevilDaemon.cpp:737
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be suspended to RAM in %1 seconds. Click here to block "
@@ -225,7 +225,7 @@ msgstr[2] ""
 "Kamputar zaśnie ŭ pamiaci praz %1 sekund. Klikni siudy, kab anulavać hetuju "
 "dzieju."
 
-#: daemon/PowerDevilDaemon.cpp:755
+#: daemon/PowerDevilDaemon.cpp:757
 #, fuzzy, kde-format
 #| msgid ""
 #| "The computer will be put into standby in %1 seconds. Click here to block "
@@ -242,20 +242,20 @@ msgstr[2] ""
 "Kamputar pačnie čakać praz %1 sekund. Klikni siudy, kab anulavać hetuju "
 "dzieju."
 
-#: daemon/PowerDevilDaemon.cpp:860
+#: daemon/PowerDevilDaemon.cpp:862
 msgid "There was an error while suspending:"
 msgstr "Padčas zasynańnia ŭźnikła pamyłka:"
 
-#: daemon/PowerDevilDaemon.cpp:981
+#: daemon/PowerDevilDaemon.cpp:983
 msgid "The screen is being locked"
 msgstr "Ekran zablakavany"
 
-#: daemon/PowerDevilDaemon.cpp:999
+#: daemon/PowerDevilDaemon.cpp:997
 msgctxt "Interrupts the suspension/shutdown process"
 msgid "Cancel"
 msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:1047 daemon/PowerDevilDaemon.cpp:1385
+#: daemon/PowerDevilDaemon.cpp:1045 daemon/PowerDevilDaemon.cpp:1383
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -267,51 +267,51 @@ msgstr ""
 "Byŭ vybrany profil „%1”, ale jon nie isnuje!\n"
 "Spraŭdź słušnaść naładaŭ słužby „PowerDevil”."
 
-#: daemon/PowerDevilDaemon.cpp:1150
+#: daemon/PowerDevilDaemon.cpp:1148
 #, kde-format
 msgid "Profile changed to \"%1\""
 msgstr "Profil źmienieny na „%1”"
 
-#: daemon/PowerDevilDaemon.cpp:1181 kcmodule/EditPage.cpp:150
+#: daemon/PowerDevilDaemon.cpp:1179 kcmodule/EditPage.cpp:150
 #: kcmodule/CapabilitiesPage.cpp:152 kcmodule/CapabilitiesPage.cpp:257
 msgid "Performance"
 msgstr "Chutkaść"
 
-#: daemon/PowerDevilDaemon.cpp:1185 kcmodule/EditPage.cpp:156
+#: daemon/PowerDevilDaemon.cpp:1183 kcmodule/EditPage.cpp:156
 #: kcmodule/CapabilitiesPage.cpp:156
 msgid "Dynamic (ondemand)"
 msgstr "Dynamična (pry patrebie)"
 
-#: daemon/PowerDevilDaemon.cpp:1189 kcmodule/EditPage.cpp:160
+#: daemon/PowerDevilDaemon.cpp:1187 kcmodule/EditPage.cpp:160
 #: kcmodule/CapabilitiesPage.cpp:160
 msgid "Dynamic (conservative)"
 msgstr "Dynamična (kanservacyjna)"
 
-#: daemon/PowerDevilDaemon.cpp:1193 kcmodule/EditPage.cpp:165
+#: daemon/PowerDevilDaemon.cpp:1191 kcmodule/EditPage.cpp:165
 #: kcmodule/CapabilitiesPage.cpp:164
 msgid "Powersave"
 msgstr "Aščadžańnie enerhii"
 
-#: daemon/PowerDevilDaemon.cpp:1197 kcmodule/EditPage.cpp:170
+#: daemon/PowerDevilDaemon.cpp:1195 kcmodule/EditPage.cpp:170
 #: kcmodule/CapabilitiesPage.cpp:168
 msgid "Userspace"
 msgstr "Absiah karystańnika"
 
-#: daemon/PowerDevilDaemon.cpp:1211 kcmodule/GeneralPage.cpp:73
+#: daemon/PowerDevilDaemon.cpp:1209 kcmodule/GeneralPage.cpp:73
 #: kcmodule/EditPage.cpp:127 kcmodule/EditPage.cpp:128
 #: kcmodule/EditPage.cpp:129 kcmodule/EditPage.cpp:130
 #: kcmodule/CapabilitiesPage.cpp:128
 msgid "Suspend to Disk"
 msgstr "Zaśni na dysku"
 
-#: daemon/PowerDevilDaemon.cpp:1215 kcmodule/GeneralPage.cpp:77
+#: daemon/PowerDevilDaemon.cpp:1213 kcmodule/GeneralPage.cpp:77
 #: kcmodule/EditPage.cpp:134 kcmodule/EditPage.cpp:135
 #: kcmodule/EditPage.cpp:136 kcmodule/EditPage.cpp:137
 #: kcmodule/CapabilitiesPage.cpp:132
 msgid "Suspend to RAM"
 msgstr "Zaśni ŭ pamiaci"
 
-#: daemon/PowerDevilDaemon.cpp:1219 kcmodule/GeneralPage.cpp:81
+#: daemon/PowerDevilDaemon.cpp:1217 kcmodule/GeneralPage.cpp:81
 #: kcmodule/EditPage.cpp:141 kcmodule/EditPage.cpp:142
 #: kcmodule/EditPage.cpp:143 kcmodule/EditPage.cpp:144
 #: kcmodule/CapabilitiesPage.cpp:136

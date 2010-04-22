@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasmaclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-08 04:27+0200\n"
+"POT-Creation-Date: 2010-04-22 00:36+0200\n"
 "PO-Revision-Date: 2008-10-25 23:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,18 +18,33 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: calendartable.cpp:607 clockapplet.cpp:538
+#: calendartable.cpp:565
+#, kde-format
+msgid "<i>Holiday</i>: %1"
+msgstr ""
+
+#: calendartable.cpp:574
+#, kde-format
+msgid "<i>Event</i>: %1<br>"
+msgstr ""
+
+#: calendartable.cpp:584
+#, kde-format
+msgid "<i>Todo</i>: %1<br>"
+msgstr ""
+
+#: calendartable.cpp:707 clockapplet.cpp:538
 msgid "Calendar"
 msgstr "Kalandar"
 
-#: calendartable.cpp:610
+#: calendartable.cpp:710
 #, fuzzy
 #| msgctxt "Local time zone"
 #| msgid "Local"
 msgid "Local"
 msgstr "Miascovy"
 
-#: calendartable.cpp:625
+#: calendartable.cpp:725
 msgid "Do not show holidays"
 msgstr ""
 

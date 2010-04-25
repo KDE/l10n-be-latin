@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-24 04:52+0200\n"
+"POT-Creation-Date: 2010-04-25 04:53+0200\n"
 "PO-Revision-Date: 2008-10-05 09:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -191,23 +191,23 @@ msgstr "Uviersie"
 msgid "Bottom"
 msgstr "Unizie"
 
-#: plasmaapp.cpp:230
+#: plasmaapp.cpp:231
 msgid "Show Dashboard"
 msgstr "Pakažy rabočuju placoŭku"
 
-#: plasmaapp.cpp:665
+#: plasmaapp.cpp:695
 #, fuzzy
 #| msgid "Next Activity"
-msgid "Add Activity"
+msgid "Activities..."
 msgstr "Nastupnaja čynnaść"
 
-#: plasmaapp.cpp:1067
+#: plasmaapp.cpp:1100
 #, kde-format
 msgid ""
 "A new widget has become available on the network:<br><b>%1</b> - <i>%2</i>"
 msgstr ""
 
-#: plasmaapp.cpp:1069
+#: plasmaapp.cpp:1102
 #, fuzzy
 #| msgid "Next Activity"
 msgid "Add to current activity"
@@ -249,6 +249,11 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+#~| msgid "Next Activity"
+#~ msgid "Add Activity"
+#~ msgstr "Nastupnaja čynnaść"
+
+#, fuzzy
 #~| msgid "Desktop Settings"
 #~ msgid "Plasma Settings"
 #~ msgstr "Nałady rabočaha stała"
@@ -273,11 +278,6 @@ msgstr ""
 
 #~ msgid "Wallpaper"
 #~ msgstr "Špalery"
-
-#, fuzzy
-#~| msgid "Next Activity"
-#~ msgid "Activity"
-#~ msgstr "Nastupnaja čynnaść"
 
 #~ msgid ""
 #~ "This picture of a monitor contains a preview of what the current settings "

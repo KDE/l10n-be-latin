@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-25 03:12+0000\n"
+"POT-Creation-Date: 2010-04-26 02:55+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -8354,7 +8354,7 @@ msgctxt "Name"
 msgid "KInfoCenter"
 msgstr "KInfoCenter"
 
-#: workspace/kinfocenter/kinfocenter.desktop:19
+#: workspace/kinfocenter/kinfocenter.desktop:96
 msgctxt "GenericName"
 msgid "Info Center"
 msgstr "Infarmacyjny centar"
@@ -8367,7 +8367,7 @@ msgctxt "Name"
 msgid "Device Viewer"
 msgstr "Prahladnik dla vyjavaŭ"
 
-#: workspace/kinfocenter/Modules/devinfo/devinfo.desktop:23
+#: workspace/kinfocenter/Modules/devinfo/devinfo.desktop:19
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Picture Viewer"
@@ -8380,7 +8380,7 @@ msgctxt "Name"
 msgid "DMA-Channels"
 msgstr "Kanały DMA"
 
-#: workspace/kinfocenter/Modules/info/dma.desktop:25
+#: workspace/kinfocenter/Modules/info/dma.desktop:104
 msgctxt "Comment"
 msgid "DMA information"
 msgstr "Źviestki pra DMA"
@@ -8390,7 +8390,7 @@ msgctxt "Name"
 msgid "Interrupts"
 msgstr "Pierarvańni"
 
-#: workspace/kinfocenter/Modules/info/interrupts.desktop:25
+#: workspace/kinfocenter/Modules/info/interrupts.desktop:104
 msgctxt "Comment"
 msgid "Interrupt information"
 msgstr "Źviestki ab pierarvańniach"
@@ -8400,7 +8400,7 @@ msgctxt "Name"
 msgid "IO-Ports"
 msgstr "Porty dla pierasyłańnia źviestak"
 
-#: workspace/kinfocenter/Modules/info/ioports.desktop:25
+#: workspace/kinfocenter/Modules/info/ioports.desktop:104
 msgctxt "Comment"
 msgid "IO-port information"
 msgstr "Źviestki pra porty pierasyłańnia"
@@ -8410,7 +8410,7 @@ msgctxt "Name"
 msgid "Processor"
 msgstr "Pracesar"
 
-#: workspace/kinfocenter/Modules/info/processor.desktop:26
+#: workspace/kinfocenter/Modules/info/processor.desktop:103
 msgctxt "Comment"
 msgid "Processor information"
 msgstr "Źviestki ab pracesary"
@@ -8420,7 +8420,7 @@ msgctxt "Name"
 msgid "SCSI"
 msgstr "SCSI"
 
-#: workspace/kinfocenter/Modules/info/scsi.desktop:24
+#: workspace/kinfocenter/Modules/info/scsi.desktop:104
 msgctxt "Comment"
 msgid "SCSI information"
 msgstr "Źviestki pra SCSI"
@@ -8430,7 +8430,7 @@ msgctxt "Name"
 msgid "Summary"
 msgstr ""
 
-#: workspace/kinfocenter/Modules/infosummary/kcm_infosummary.desktop:22
+#: workspace/kinfocenter/Modules/infosummary/kcm_infosummary.desktop:17
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Hardware"
@@ -8443,7 +8443,7 @@ msgctxt "Name"
 msgid "X-Server"
 msgstr "Server X"
 
-#: workspace/kinfocenter/Modules/info/xserver.desktop:24
+#: workspace/kinfocenter/Modules/info/xserver.desktop:103
 msgctxt "Comment"
 msgid "X-Server information"
 msgstr "Źviestki pra server X"
@@ -8453,7 +8453,7 @@ msgctxt "Name"
 msgid "Memory"
 msgstr "Pamiać"
 
-#: workspace/kinfocenter/Modules/memory/kcm_memory.desktop:23
+#: workspace/kinfocenter/Modules/memory/kcm_memory.desktop:103
 msgctxt "Comment"
 msgid "Memory information"
 msgstr "Źviestki pra pamiać"
@@ -8463,7 +8463,7 @@ msgctxt "Name"
 msgid "Network Interfaces"
 msgstr "Sietkavyja interfejsy"
 
-#: workspace/kinfocenter/Modules/nics/nic.desktop:23
+#: workspace/kinfocenter/Modules/nics/nic.desktop:85
 #: workspace/plasma/generic/dataengines/network/plasma-dataengine-network.desktop:74
 msgctxt "Comment"
 msgid "Network interface information"
@@ -8474,7 +8474,7 @@ msgctxt "Name"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: workspace/kinfocenter/Modules/opengl/opengl.desktop:23
+#: workspace/kinfocenter/Modules/opengl/opengl.desktop:101
 msgctxt "Comment"
 msgid "OpenGL information"
 msgstr "Źviestki pra OpenGL"
@@ -8484,7 +8484,7 @@ msgctxt "Name"
 msgid "PCI"
 msgstr "PCI"
 
-#: workspace/kinfocenter/Modules/pci/kcm_pci.desktop:23
+#: workspace/kinfocenter/Modules/pci/kcm_pci.desktop:102
 msgctxt "Comment"
 msgid "PCI information"
 msgstr "Źviestki pra PCI"
@@ -8494,7 +8494,7 @@ msgctxt "Name"
 msgid "Samba Status"
 msgstr "Stanovišča słužby „Samba”"
 
-#: workspace/kinfocenter/Modules/samba/smbstatus.desktop:23
+#: workspace/kinfocenter/Modules/samba/smbstatus.desktop:102
 msgctxt "Comment"
 msgid "Samba status monitor"
 msgstr "Nazirańnik za stanoviščam słužby „Samba”"
@@ -8504,7 +8504,7 @@ msgctxt "Name"
 msgid "USB Devices"
 msgstr "Pryłady USB"
 
-#: workspace/kinfocenter/Modules/usbview/kcmusb.desktop:23
+#: workspace/kinfocenter/Modules/usbview/kcmusb.desktop:102
 msgctxt "Comment"
 msgid "USB devices attached to this computer"
 msgstr "Padłučanyja pryłady USB"
@@ -8514,7 +8514,7 @@ msgctxt "Name"
 msgid "IEEE 1394 Devices"
 msgstr "Pryłady IEEE 1394"
 
-#: workspace/kinfocenter/Modules/view1394/kcmview1394.desktop:23
+#: workspace/kinfocenter/Modules/view1394/kcmview1394.desktop:101
 msgctxt "Comment"
 msgid "Attached IEEE 1394 devices"
 msgstr "Padłučanyja pryłady IEEE 1394"
@@ -10251,6 +10251,42 @@ msgstr ""
 #: workspace/kwin/kwin.notifyrc:6723
 msgctxt "Comment"
 msgid "Some effects are not supported by backend or hardware."
+msgstr ""
+
+#: workspace/kwin/kwin.notifyrc:6780
+msgctxt "Name"
+msgid "Tiling Enabled"
+msgstr ""
+
+#: workspace/kwin/kwin.notifyrc:6781
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "A modifier key has been locked"
+msgctxt "Comment"
+msgid "Tiling mode has been enabled"
+msgstr "Klavišny madyfikatar zamacavany"
+
+#: workspace/kwin/kwin.notifyrc:6785
+msgctxt "Name"
+msgid "Tiling Disabled"
+msgstr ""
+
+#: workspace/kwin/kwin.notifyrc:6786
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Slow keys has been enabled or disabled"
+msgctxt "Comment"
+msgid "Tiling mode has been disabled"
+msgstr "Pavolnyja klavišy źmianili svajo stanovišča."
+
+#: workspace/kwin/kwin.notifyrc:6790
+msgctxt "Name"
+msgid "Tiling Layout Changed"
+msgstr ""
+
+#: workspace/kwin/kwin.notifyrc:6791
+msgctxt "Comment"
+msgid "Tiling Layout has been changed"
 msgstr ""
 
 #: workspace/kwrited/kwrited-autostart.desktop:2

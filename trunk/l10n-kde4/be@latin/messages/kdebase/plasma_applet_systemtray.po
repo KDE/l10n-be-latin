@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-25 04:53+0200\n"
+"POT-Creation-Date: 2010-04-29 04:52+0200\n"
 "PO-Revision-Date: 2008-12-27 00:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,85 +18,85 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ui/applet.cpp:435
+#: ui/applet.cpp:444
 msgid "Information"
 msgstr ""
 
-#: ui/applet.cpp:437
+#: ui/applet.cpp:446
 msgid "Choose which information to show"
 msgstr ""
 
-#: ui/applet.cpp:438
+#: ui/applet.cpp:447
 msgid "Auto Hide"
 msgstr "Aŭtamatyčna chavaj"
 
-#: ui/applet.cpp:485
+#: ui/applet.cpp:494
 #, fuzzy
 #| msgid "Auto Hide"
 msgctxt "Item will be automatically shown or hidden from the systray"
 msgid "Auto"
 msgstr "Aŭtamatyčna chavaj"
 
-#: ui/applet.cpp:486
+#: ui/applet.cpp:495
 #, fuzzy
 #| msgid "Hidden icons:"
 msgctxt "Item is never visible in the systray"
 msgid "Hidden"
 msgstr "Schavanyja ikony:"
 
-#: ui/applet.cpp:487
+#: ui/applet.cpp:496
 msgctxt "Item is always visible in the systray"
 msgid "Always Visible"
 msgstr ""
 
-#: ui/applet.cpp:505
+#: ui/applet.cpp:514
 msgctxt "Categories of items in the systemtray that will be shown or hidden"
 msgid "Shown item categories"
 msgstr ""
 
-#: ui/applet.cpp:508
+#: ui/applet.cpp:517
 #, fuzzy
 #| msgid "Show or hide notifications and jobs"
 msgctxt "Systemtray items that describe the status of a generic application"
 msgid "Application status"
 msgstr "Pakažy ci schavaj paviedamleńni j zadańni"
 
-#: ui/applet.cpp:518
+#: ui/applet.cpp:527
 #, fuzzy
 #| msgid "Notification from %1"
 msgctxt "Items communication related, such as chat or email clients"
 msgid "Communications"
 msgstr "Paviedamleńnie dla „%1”"
 
-#: ui/applet.cpp:528
+#: ui/applet.cpp:537
 msgctxt "Items about the status of the system, such as a filesystem indexer"
 msgid "System services"
 msgstr ""
 
-#: ui/applet.cpp:538
+#: ui/applet.cpp:547
 msgctxt "Items about hardware, such as battery or volume control"
 msgid "Hardware control"
 msgstr ""
 
-#: ui/applet.cpp:548
+#: ui/applet.cpp:557
 msgctxt "Other uncategorized systemtray items"
 msgid "Miscellaneous"
 msgstr ""
 
-#: ui/applet.cpp:567
+#: ui/applet.cpp:576
 msgctxt ""
 "Extra items to be manually added in the systray, such as little Plasma "
 "widgets"
 msgid "Extra items"
 msgstr ""
 
-#: ui/taskarea.cpp:597
+#: ui/taskarea.cpp:609
 #, fuzzy
 #| msgid "Visible icons:"
 msgid "Hide icons"
 msgstr "Vidočnyja ikony:"
 
-#: ui/taskarea.cpp:599
+#: ui/taskarea.cpp:611
 msgid "Show hidden icons"
 msgstr ""
 

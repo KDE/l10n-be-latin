@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-02 04:37+0200\n"
+"POT-Creation-Date: 2010-05-03 04:52+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -237,7 +237,7 @@ msgstr "Vyšli list da..."
 msgid "Copy Email Address"
 msgstr "Skapijuj paštovy adras"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:527
+#: HistorySizeDialog.cpp:51 SessionController.cpp:501
 msgid "Scrollback Options"
 msgstr "Opcyi historyi prakrutki"
 
@@ -563,39 +563,49 @@ msgstr "Lars Knoll"
 msgid "Thanks to many others.\n"
 msgstr "Našy padziaki dla inšych, chto nam dapamahaŭ.\n"
 
-#: MainWindow.cpp:235
+#. i18n: file: ../desktop/konsoleui.rc:45
+#. i18n: ectx: Menu (new-tab)
+#: MainWindow.cpp:233 rc.cpp:882
 msgid "New &Tab"
 msgstr "Novaja &kartka"
 
-#: MainWindow.cpp:241
+#: MainWindow.cpp:238
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "&Default Profile"
+msgstr "Vydali profil"
+
+#: MainWindow.cpp:244
 msgid "New &Window"
 msgstr "Novaje &akno"
 
-#: MainWindow.cpp:246
+#: MainWindow.cpp:249
 msgid "Remote Connection..."
 msgstr "Spałučeńnie ź inšym hostam..."
 
-#: MainWindow.cpp:257
+#: MainWindow.cpp:260
 msgid "&Bookmarks"
 msgstr "&Zakładki"
 
-#: MainWindow.cpp:268
+#: MainWindow.cpp:271
 msgid "Show Menu Bar"
 msgstr "Pakažy menu"
 
-#: MainWindow.cpp:290 Part.cpp:116
-msgid "Manage Profiles..."
+#: MainWindow.cpp:293 Part.cpp:116
+#, fuzzy
+#| msgid "Manage Profiles..."
+msgid "Configure Profiles..."
 msgstr "Kiruj profilami..."
 
-#: MainWindow.cpp:363
+#: MainWindow.cpp:376
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: MainWindow.cpp:365 SessionController.cpp:633
+#: MainWindow.cpp:378 SessionController.cpp:608
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: MainWindow.cpp:367
+#: MainWindow.cpp:380
 msgid "Close Current Tab"
 msgstr "Začyni hetuju kartku"
 
@@ -1504,7 +1514,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#. i18n: file: ../desktop/sessionui.rc:14
+#. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
 #: rc.cpp:849
 #, fuzzy
@@ -1512,13 +1522,13 @@ msgstr "ihar.hrachyshka@gmail.com"
 msgid "Copy Input To"
 msgstr "Skapijuj uvachodnyja źviestki ŭ..."
 
-#. i18n: file: ../desktop/sessionui.rc:47
+#. i18n: file: ../desktop/sessionui.rc:43
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:852
 msgid "Debug"
 msgstr "Adładžvańnie"
 
-#. i18n: file: ../desktop/sessionui.rc:65
+#. i18n: file: ../desktop/sessionui.rc:62
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/partui.rc:25
 #. i18n: ectx: Menu (change-profile)
@@ -1538,39 +1548,33 @@ msgstr "&Historyja prakrutki"
 msgid "File"
 msgstr "Fajł"
 
-#. i18n: file: ../desktop/konsoleui.rc:15
+#. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:867
 msgid "Edit"
 msgstr "Redahuj"
 
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (history)
-#: rc.cpp:870
-msgid "Scrollback"
-msgstr "Historyja prakrutki"
-
-#. i18n: file: ../desktop/konsoleui.rc:21
+#. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:873
+#: rc.cpp:870
 msgid "View"
 msgstr "Vyhlad"
 
-#. i18n: file: ../desktop/konsoleui.rc:22
+#. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:876
+#: rc.cpp:873
 msgid "Split View"
 msgstr "Padziali prahlad"
 
-#. i18n: file: ../desktop/konsoleui.rc:40
+#. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:879
+#: rc.cpp:876
 msgid "Settings"
 msgstr "Nałady"
 
-#. i18n: file: ../desktop/konsoleui.rc:47
+#. i18n: file: ../desktop/konsoleui.rc:42
 #. i18n: ectx: Menu (help)
-#: rc.cpp:882
+#: rc.cpp:879
 msgid "Help"
 msgstr "Dapamoha"
 
@@ -1638,111 +1642,96 @@ msgstr "&Začyni kartku"
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:408
-msgid "&Copy"
-msgstr "&Skapijuj"
-
-#: SessionController.cpp:412
-msgid "&Paste"
-msgstr "&Uklej"
-
-#: SessionController.cpp:425
+#: SessionController.cpp:416
 msgid "Paste Selection"
 msgstr "Uklej vyłučeńnie"
 
-#: SessionController.cpp:431
+#: SessionController.cpp:422
 msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: SessionController.cpp:438
+#: SessionController.cpp:429
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:445
+#: SessionController.cpp:436
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: SessionController.cpp:452
+#: SessionController.cpp:443
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:459
+#: SessionController.cpp:450
 #, fuzzy
 #| msgid "Clear && Reset"
 msgid "Clear and Reset"
 msgstr "Vyčyści j viarni nałady"
 
-#: SessionController.cpp:464
+#: SessionController.cpp:455
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:470
+#: SessionController.cpp:461
 msgid "Monitor for &Activity"
 msgstr "Sačy za &aktyŭnaściu"
 
-#: SessionController.cpp:475
+#: SessionController.cpp:466
 msgid "Monitor for &Silence"
 msgstr "Sačy za &cišynioju"
 
-#: SessionController.cpp:481
+#: SessionController.cpp:472
 msgid "Character Encoding"
 msgstr "Kadavańnie znakaŭ"
 
-#: SessionController.cpp:488
-msgid "Increase Text Size"
-msgstr "Pavialič pamier tekstu"
+#: SessionController.cpp:479
+msgid "Enlarge Font"
+msgstr ""
 
-#: SessionController.cpp:494
-msgid "Decrease Text Size"
-msgstr "Pamienš pamier tekstu"
+#: SessionController.cpp:482
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Shrink View"
+msgid "Shrink Font"
+msgstr "Zharni prahlad"
 
-#: SessionController.cpp:500
-msgid "Search Output..."
-msgstr "Šukaj u vychodnych źviestkach..."
-
-#: SessionController.cpp:509
-msgid "Find Next"
-msgstr "Šukaj dalej"
-
-#: SessionController.cpp:516
-msgid "Find Previous"
-msgstr "Šukaj raniej"
-
-#: SessionController.cpp:522
-msgid "Save Output..."
+#: SessionController.cpp:498
+#, fuzzy
+#| msgid "Save Output..."
+msgid "Save Output As..."
 msgstr "Zapišy vychodnyja źviestki..."
 
-#: SessionController.cpp:532
+#: SessionController.cpp:506
 #, fuzzy
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "Vyčyści historyju prakrutki j viarni nałady"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:513
 msgid "Edit Current Profile..."
 msgstr "Adredahuj dziejny profil..."
 
-#: SessionController.cpp:542
+#: SessionController.cpp:517
 msgid "Change Profile"
 msgstr "Źmiani profil"
 
-#: SessionController.cpp:583
+#: SessionController.cpp:558
 msgid "Rename Tab"
 msgstr "Źmiani nazvu kartki"
 
-#: SessionController.cpp:584
+#: SessionController.cpp:559
 msgid "Enter new tab text:"
 msgstr "Upišy nazvu dla novaj kartki:"
 
-#: SessionController.cpp:627
+#: SessionController.cpp:602
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "U hetaj sesii ciapier pracuje prahrama. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:630
+#: SessionController.cpp:605
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1750,44 +1739,44 @@ msgid ""
 msgstr ""
 "U hetaj sesii ciapier pracuje prahrama „%1”. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:1188
+#: SessionController.cpp:1163
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1197
+#: SessionController.cpp:1172
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1209
+#: SessionController.cpp:1184
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1218
+#: SessionController.cpp:1193
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1224
+#: SessionController.cpp:1199
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1296
+#: SessionController.cpp:1271
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapišy vychodnyja źviestki z „%1”"
 
-#: SessionController.cpp:1307
+#: SessionController.cpp:1282
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 "„%1” jość niapravilnym adrasam. Nie ŭdałosia zapisać vychodnyja źviestki."
 
-#: SessionController.cpp:1396
+#: SessionController.cpp:1371
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2012,6 +2001,30 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "&Spyni"
+
+#~ msgid "Scrollback"
+#~ msgstr "Historyja prakrutki"
+
+#~ msgid "&Copy"
+#~ msgstr "&Skapijuj"
+
+#~ msgid "&Paste"
+#~ msgstr "&Uklej"
+
+#~ msgid "Increase Text Size"
+#~ msgstr "Pavialič pamier tekstu"
+
+#~ msgid "Decrease Text Size"
+#~ msgstr "Pamienš pamier tekstu"
+
+#~ msgid "Search Output..."
+#~ msgstr "Šukaj u vychodnych źviestkach..."
+
+#~ msgid "Find Next"
+#~ msgstr "Šukaj dalej"
+
+#~ msgid "Find Previous"
+#~ msgstr "Šukaj raniej"
 
 #~ msgid "Open Browser Here"
 #~ msgstr "Adčyni ŭ hartačy"

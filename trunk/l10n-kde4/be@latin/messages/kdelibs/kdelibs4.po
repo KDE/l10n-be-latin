@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-05 04:48+0200\n"
+"POT-Creation-Date: 2010-05-06 04:53+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -698,7 +698,7 @@ msgstr "BSD"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:207
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:300 khtml/khtml_part.cpp:1849
+#: rc.cpp:300 khtml/khtml_part.cpp:1850
 msgid "Description:"
 msgstr "Apisańnie:"
 
@@ -1025,7 +1025,7 @@ msgstr "Paštovy adras:"
 
 #. i18n: file: knewstuff/knewstuff2/ui/UploadDialog.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:444 kross/ui/view.cpp:151 kdeui/colors/kcolordialog.cpp:1254
+#: rc.cpp:444 kross/ui/view.cpp:151 kdeui/colors/kcolordialog.cpp:1258
 msgid "Name:"
 msgstr "Nazva:"
 
@@ -4218,7 +4218,7 @@ msgstr "Aplikacyja KDE"
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kernel/kcmdlineargs.cpp:498 khtml/khtml_part.cpp:4728
+#: kdecore/kernel/kcmdlineargs.cpp:498 khtml/khtml_part.cpp:4733
 msgid "KDE"
 msgstr "KDE"
 
@@ -6304,7 +6304,7 @@ msgstr "Tekst nia znojdzieny: „%1”."
 msgid "Access Keys activated"
 msgstr ""
 
-#: khtml/khtmlview.cpp:2954 khtml/khtmlview.cpp:2996 khtml/khtml_part.cpp:4675
+#: khtml/khtmlview.cpp:2954 khtml/khtmlview.cpp:2996 khtml/khtml_part.cpp:4680
 #: khtml/html/html_formimpl.cpp:1606 khtml/html/html_formimpl.cpp:1818
 msgid "Submit"
 msgstr "Pierašli"
@@ -6338,8 +6338,8 @@ msgstr "Adkiń"
 msgid "Filter error"
 msgstr "Pamyłka ŭ filtry"
 
-#: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3685 khtml/khtml_part.cpp:3914
-#: khtml/khtml_part.cpp:4306 kparts/browserrun.cpp:415
+#: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3687 khtml/khtml_part.cpp:3916
+#: khtml/khtml_part.cpp:4311 kparts/browserrun.cpp:415
 msgid "Save As"
 msgstr "Zapišy jak"
 
@@ -6511,15 +6511,15 @@ msgstr "Adčyni ŭ &novaj kartcy"
 msgid "Reload Frame"
 msgstr "Aktualizuj frejm"
 
-#: khtml/khtml_ext.cpp:505 khtml/khtml_part.cpp:466
+#: khtml/khtml_ext.cpp:505 khtml/khtml_part.cpp:467
 msgid "Print Frame..."
 msgstr "Vydrukuj frejm..."
 
-#: khtml/khtml_ext.cpp:511 khtml/khtml_part.cpp:329
+#: khtml/khtml_ext.cpp:511 khtml/khtml_part.cpp:330
 msgid "Save &Frame As..."
 msgstr "Zapišy &frejm jak..."
 
-#: khtml/khtml_ext.cpp:516 khtml/khtml_part.cpp:304
+#: khtml/khtml_ext.cpp:516 khtml/khtml_part.cpp:305
 msgid "View Frame Source"
 msgstr "Pakažy vytočny kod frejm"
 
@@ -6636,179 +6636,179 @@ msgstr "%1%"
 msgid "Inactive"
 msgstr "Niadziejny"
 
-#: khtml/khtml_part.cpp:296
+#: khtml/khtml_part.cpp:297
 msgid "View Do&cument Source"
 msgstr "Pakažy vytočny kod &dakumenta"
 
-#: khtml/khtml_part.cpp:312
+#: khtml/khtml_part.cpp:313
 msgid "View Document Information"
 msgstr "Pakažy źviestki pra dakument"
 
-#: khtml/khtml_part.cpp:320
+#: khtml/khtml_part.cpp:321
 msgid "Save &Background Image As..."
 msgstr "Zapišy &fonavuju vyjavu jak..."
 
-#: khtml/khtml_part.cpp:341 khtml/khtml_part.cpp:3996
+#: khtml/khtml_part.cpp:342 khtml/khtml_part.cpp:3998
 msgid "SSL"
 msgstr "SSL"
 
-#: khtml/khtml_part.cpp:345
+#: khtml/khtml_part.cpp:346
 msgid "Print Rendering Tree to STDOUT"
 msgstr "Vypišy hierarchiju vyjaŭleńnia ŭ STDOUT"
 
-#: khtml/khtml_part.cpp:349
+#: khtml/khtml_part.cpp:350
 msgid "Print DOM Tree to STDOUT"
 msgstr "Vypišy hierarchiju DOM u STDOUT"
 
-#: khtml/khtml_part.cpp:353
+#: khtml/khtml_part.cpp:354
 msgid "Stop Animated Images"
 msgstr "Spyni animacyju vyjavaŭ"
 
-#: khtml/khtml_part.cpp:357
+#: khtml/khtml_part.cpp:358
 msgid "Set &Encoding"
 msgstr "Vybiery &kadavańnie"
 
-#: khtml/khtml_part.cpp:396
+#: khtml/khtml_part.cpp:397
 msgid "Use S&tylesheet"
 msgstr "Karystajsia &stylevym arkušom"
 
-#: khtml/khtml_part.cpp:401
+#: khtml/khtml_part.cpp:402
 msgid "Enlarge Font"
 msgstr "Pavialič šryft"
 
-#: khtml/khtml_part.cpp:404
+#: khtml/khtml_part.cpp:405
 msgid ""
 "<qt>Enlarge Font<br /><br />Make the font in this window bigger. Click and "
 "hold down the mouse button for a menu with all available font sizes.</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:408
+#: khtml/khtml_part.cpp:409
 msgid "Shrink Font"
 msgstr "Źmienšy šryft"
 
-#: khtml/khtml_part.cpp:411
+#: khtml/khtml_part.cpp:412
 msgid ""
 "<qt>Shrink Font<br /><br />Make the font in this window smaller. Click and "
 "hold down the mouse button for a menu with all available font sizes.</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:429
+#: khtml/khtml_part.cpp:430
 msgid ""
 "<qt>Find text<br /><br />Shows a dialog that allows you to find text on the "
 "displayed page.</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:434
+#: khtml/khtml_part.cpp:435
 msgid ""
 "<qt>Find next<br /><br />Find the next occurrence of the text that you have "
 "found using the <b>Find Text</b> function.</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:440
+#: khtml/khtml_part.cpp:441
 msgid ""
 "<qt>Find previous<br /><br />Find the previous occurrence of the text that "
 "you have found using the <b>Find Text</b> function.</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:444
+#: khtml/khtml_part.cpp:445
 msgid "Find Text as You Type"
 msgstr ""
 
-#: khtml/khtml_part.cpp:449
+#: khtml/khtml_part.cpp:450
 msgid "Find Links as You Type"
 msgstr ""
 
-#: khtml/khtml_part.cpp:470
+#: khtml/khtml_part.cpp:471
 msgid ""
 "<qt>Print Frame<br /><br />Some pages have several frames. To print only a "
 "single frame, click on it and then use this function.</qt>"
 msgstr ""
 
-#: khtml/khtml_part.cpp:485
+#: khtml/khtml_part.cpp:486
 msgid "Toggle Caret Mode"
 msgstr "Pieraklučy sposab raboty karetki"
 
-#: khtml/khtml_part.cpp:736
+#: khtml/khtml_part.cpp:737
 #, kde-format
 msgid "The fake user-agent '%1' is in use."
 msgstr ""
 
-#: khtml/khtml_part.cpp:1207
+#: khtml/khtml_part.cpp:1208
 msgid "This web page contains coding errors."
 msgstr "Hetaja staronka maje pamyłki ŭ kodzie."
 
-#: khtml/khtml_part.cpp:1249
+#: khtml/khtml_part.cpp:1250
 msgid "&Hide Errors"
 msgstr "&Schavaj pamyłki"
 
-#: khtml/khtml_part.cpp:1250
+#: khtml/khtml_part.cpp:1251
 msgid "&Disable Error Reporting"
 msgstr "&Nie paviedamlaj pra pamyłki"
 
-#: khtml/khtml_part.cpp:1294
+#: khtml/khtml_part.cpp:1295
 #, kde-format
 msgid "<qt><b>Error</b>: %1: %2</qt>"
 msgstr "<qt><b>Pamyłka</b>: %1: %2</qt>"
 
-#: khtml/khtml_part.cpp:1343
+#: khtml/khtml_part.cpp:1344
 #, kde-format
 msgid "<qt><b>Error</b>: node %1: %2</qt>"
 msgstr "<qt><b>Pamyłka</b>: vuzieł %1: %2</qt>"
 
-#: khtml/khtml_part.cpp:1454
+#: khtml/khtml_part.cpp:1455
 msgid "Display Images on Page"
 msgstr "Pakazvaj vyjavy na staroncy"
 
-#: khtml/khtml_part.cpp:1821
+#: khtml/khtml_part.cpp:1822
 #, kde-format
 msgid "Error: %1 - %2"
 msgstr "Pamyłka: %1 - %2"
 
-#: khtml/khtml_part.cpp:1826
+#: khtml/khtml_part.cpp:1827
 msgid "The requested operation could not be completed"
 msgstr "Nie ŭdałosia skončyć zapatrabavanuju aperacyju."
 
-#: khtml/khtml_part.cpp:1832
+#: khtml/khtml_part.cpp:1833
 msgid "Technical Reason: "
 msgstr "Techničnaje tłumačeńnie: "
 
-#: khtml/khtml_part.cpp:1837
+#: khtml/khtml_part.cpp:1838
 msgid "Details of the Request:"
 msgstr "Detali zapytu:"
 
-#: khtml/khtml_part.cpp:1839
+#: khtml/khtml_part.cpp:1840
 #, kde-format
 msgid "URL: %1"
 msgstr "Adras: %1"
 
-#: khtml/khtml_part.cpp:1842
+#: khtml/khtml_part.cpp:1843
 #, kde-format
 msgid "Protocol: %1"
 msgstr "Pratakoł: %1"
 
-#: khtml/khtml_part.cpp:1845
+#: khtml/khtml_part.cpp:1846
 #, kde-format
 msgid "Date and Time: %1"
 msgstr "Data j čas: %1"
 
-#: khtml/khtml_part.cpp:1847
+#: khtml/khtml_part.cpp:1848
 #, kde-format
 msgid "Additional Information: %1"
 msgstr "Dadatkovyja źviestki: %1"
 
-#: khtml/khtml_part.cpp:1855
+#: khtml/khtml_part.cpp:1856
 msgid "Possible Causes:"
 msgstr "Mahčymyja pryčyny:"
 
-#: khtml/khtml_part.cpp:1862
+#: khtml/khtml_part.cpp:1863
 msgid "Possible Solutions:"
 msgstr "Mahčymyja raźviazki:"
 
-#: khtml/khtml_part.cpp:2245
+#: khtml/khtml_part.cpp:2246
 msgid "Page loaded."
 msgstr "Staronka pračytanaja."
 
-#: khtml/khtml_part.cpp:2247
+#: khtml/khtml_part.cpp:2248
 #, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
@@ -6816,25 +6816,25 @@ msgstr[0] "%1 vyjava z %2 pračytanaja."
 msgstr[1] "%1 vyjavy z %2 pračytanyja."
 msgstr[2] "%1 vyjavaŭ z %2 pračytanyja."
 
-#: khtml/khtml_part.cpp:2409
+#: khtml/khtml_part.cpp:2410
 msgid "Automatic Detection"
 msgstr "Aŭtamatyčnaje vyznačeńnie"
 
-#: khtml/khtml_part.cpp:3494 khtml/khtml_part.cpp:3581
-#: khtml/khtml_part.cpp:3592
+#: khtml/khtml_part.cpp:3496 khtml/khtml_part.cpp:3583
+#: khtml/khtml_part.cpp:3594
 msgid " (In new window)"
 msgstr " (U novym aknie)"
 
-#: khtml/khtml_part.cpp:3533
+#: khtml/khtml_part.cpp:3535
 msgid "Symbolic Link"
 msgstr "Symbaličny łuč"
 
-#: khtml/khtml_part.cpp:3535
+#: khtml/khtml_part.cpp:3537
 #, kde-format
 msgid "%1 (Link)"
 msgstr "%1 (Łuč)"
 
-#: khtml/khtml_part.cpp:3555
+#: khtml/khtml_part.cpp:3557
 #, fuzzy, kde-format
 #| msgid "%2 (%1 bytes)"
 msgid "%2 (%1 byte)"
@@ -6843,32 +6843,32 @@ msgstr[0] "%2 (%1 bajtaŭ)"
 msgstr[1] "%2 (%1 bajtaŭ)"
 msgstr[2] "%2 (%1 bajtaŭ)"
 
-#: khtml/khtml_part.cpp:3559
+#: khtml/khtml_part.cpp:3561
 #, kde-format
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 Kb)"
 
-#: khtml/khtml_part.cpp:3594
+#: khtml/khtml_part.cpp:3596
 msgid " (In other frame)"
 msgstr " (U inšym frejmie)"
 
-#: khtml/khtml_part.cpp:3599
+#: khtml/khtml_part.cpp:3601
 msgid "Email to: "
 msgstr "Pišy na: "
 
-#: khtml/khtml_part.cpp:3605
+#: khtml/khtml_part.cpp:3607
 msgid " - Subject: "
 msgstr " – Tema: "
 
-#: khtml/khtml_part.cpp:3607
+#: khtml/khtml_part.cpp:3609
 msgid " - CC: "
 msgstr " – CC: "
 
-#: khtml/khtml_part.cpp:3609
+#: khtml/khtml_part.cpp:3611
 msgid " - BCC: "
 msgstr " – BCC: "
 
-#: khtml/khtml_part.cpp:3690
+#: khtml/khtml_part.cpp:3692
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to follow "
@@ -6877,20 +6877,20 @@ msgstr ""
 "<qt>Hetaja staronka, da jakoj niama davieru, łučyć z <br /><b>%1</b>.<br /"
 ">Ci chočaš śledavać łuču?</qt>"
 
-#: khtml/khtml_part.cpp:3691
+#: khtml/khtml_part.cpp:3693
 msgid "Follow"
 msgstr "Śleduj"
 
-#: khtml/khtml_part.cpp:3792
+#: khtml/khtml_part.cpp:3794
 msgid "Frame Information"
 msgstr "Źviestki pra frejm"
 
-#: khtml/khtml_part.cpp:3798
+#: khtml/khtml_part.cpp:3800
 #, kde-format
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[Ułaścivaści]</a>"
 
-#: khtml/khtml_part.cpp:3824
+#: khtml/khtml_part.cpp:3826
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Turkish"
@@ -6898,39 +6898,39 @@ msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Quirks"
 msgstr "Turecki"
 
-#: khtml/khtml_part.cpp:3827
+#: khtml/khtml_part.cpp:3829
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Almost standards"
 msgstr ""
 
-#: khtml/khtml_part.cpp:3831
+#: khtml/khtml_part.cpp:3833
 #, fuzzy
 #| msgid "Start"
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Strict"
 msgstr "Pačni"
 
-#: khtml/khtml_part.cpp:3902
+#: khtml/khtml_part.cpp:3904
 msgid "Save Background Image As"
 msgstr "Zapišy fonavuju vyjavu jak"
 
-#: khtml/khtml_part.cpp:3994
+#: khtml/khtml_part.cpp:3996
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr ""
 
-#: khtml/khtml_part.cpp:4013
+#: khtml/khtml_part.cpp:4015
 msgid "Save Frame As"
 msgstr "Zapišy frejm jak"
 
-#: khtml/khtml_part.cpp:4057
+#: khtml/khtml_part.cpp:4059
 msgid "&Find in Frame..."
 msgstr "&Znajdzi ŭ frejmie..."
 
-#: khtml/khtml_part.cpp:4059 kdeui/actions/kstandardaction_p.h:64
+#: khtml/khtml_part.cpp:4061 kdeui/actions/kstandardaction_p.h:64
 msgid "&Find..."
 msgstr "&Znajdzi..."
 
-#: khtml/khtml_part.cpp:4616
+#: khtml/khtml_part.cpp:4621
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -6942,16 +6942,16 @@ msgstr ""
 "Inšy karystańnik sieciva moža pierachapić ich i pračytać.\n"
 "Ty sapraŭdy chočaš praciahnuć?"
 
-#: khtml/khtml_part.cpp:4619 khtml/khtml_part.cpp:4628
-#: khtml/khtml_part.cpp:4652
+#: khtml/khtml_part.cpp:4624 khtml/khtml_part.cpp:4633
+#: khtml/khtml_part.cpp:4657
 msgid "Network Transmission"
 msgstr "Sietkavaje vysyłańnie"
 
-#: khtml/khtml_part.cpp:4619 khtml/khtml_part.cpp:4629
+#: khtml/khtml_part.cpp:4624 khtml/khtml_part.cpp:4634
 msgid "&Send Unencrypted"
 msgstr "&Vyšli niezašyfravanymi"
 
-#: khtml/khtml_part.cpp:4626
+#: khtml/khtml_part.cpp:4631
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -6960,7 +6960,7 @@ msgstr ""
 "Uvaha: Tvaje źviestki buduć pierasłanyja praź sieciva niezašyfravanymi.\n"
 "Ty sapraŭdy chočaš praciahnuć?"
 
-#: khtml/khtml_part.cpp:4650
+#: khtml/khtml_part.cpp:4655
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -6968,11 +6968,11 @@ msgstr ""
 "Hety sajt sprabuje vysłać źviestki, upisanyja ŭ formu, e-maiłam.\n"
 "Ty sapraŭdy chočaš praciahnuć?"
 
-#: khtml/khtml_part.cpp:4653
+#: khtml/khtml_part.cpp:4658
 msgid "&Send Email"
 msgstr "&Vyšli e-maiłam"
 
-#: khtml/khtml_part.cpp:4674
+#: khtml/khtml_part.cpp:4679
 #, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
@@ -6981,7 +6981,7 @@ msgstr ""
 "<qt>Forma budzie pierasłanaja da <br /><b>%1</b><br /> na fajłavaj systemie."
 "<br />Chočaš jaje pierasłać?</qt>"
 
-#: khtml/khtml_part.cpp:4728
+#: khtml/khtml_part.cpp:4733
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
@@ -6989,57 +6989,57 @@ msgstr ""
 "Hety sajt pasprabavaŭ pryčapić fajł z tvajho kamputara da źviestak, jakija "
 "vysyłajucca z formaj. Fajł byŭ adčepleny dziela tvajoj biaśpieki."
 
-#: khtml/khtml_part.cpp:5747
+#: khtml/khtml_part.cpp:5752
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6660
+#: khtml/khtml_part.cpp:6665
 msgid "Security Warning"
 msgstr "Pieraściaroha systemy biaśpieki"
 
-#: khtml/khtml_part.cpp:6669
+#: khtml/khtml_part.cpp:6674
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>Dostup staronki, da jakoj niama davieru, da <br /><b>%1</b><br /> "
 "zakazany.</qt>"
 
-#: khtml/khtml_part.cpp:6670 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6675 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "Tryvožnaje papiaredžańnie systemy biaśpieki"
 
-#: khtml/khtml_part.cpp:7018
+#: khtml/khtml_part.cpp:7023
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "Kašalok „%1” adčynieny, ź jaho biaruć źviestki dla formaŭ i paroli."
 
-#: khtml/khtml_part.cpp:7078
+#: khtml/khtml_part.cpp:7083
 msgid "&Close Wallet"
 msgstr "&Začyni kašalok"
 
-#: khtml/khtml_part.cpp:7081
+#: khtml/khtml_part.cpp:7086
 msgid "&Allow storing passwords for this site"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7086
+#: khtml/khtml_part.cpp:7091
 #, kde-format
 msgid "Remove password for form %1"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7191
+#: khtml/khtml_part.cpp:7196
 msgid "JavaScript &Debugger"
 msgstr "&Adładžvańnik JavaScript"
 
-#: khtml/khtml_part.cpp:7223
+#: khtml/khtml_part.cpp:7228
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "Hetaj staroncy było zabaroniena adčynić novaje akno praz JavaScript."
 
-#: khtml/khtml_part.cpp:7229
+#: khtml/khtml_part.cpp:7234
 msgid "Popup Window Blocked"
 msgstr "Vypłyŭnoje akno ŭstrymanaje"
 
-#: khtml/khtml_part.cpp:7229
+#: khtml/khtml_part.cpp:7234
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
@@ -7050,7 +7050,7 @@ msgstr ""
 "Možaš kliknuć u hetuju ikonu ŭ paneli stanu, kab źmianić takija pavodziny\n"
 "systemy albo adčynić ustrymanaje akno."
 
-#: khtml/khtml_part.cpp:7242
+#: khtml/khtml_part.cpp:7247
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
@@ -7058,11 +7058,11 @@ msgstr[0] "&Pakažy %1 ŭstrymanaje vypłyŭnoje akno"
 msgstr[1] "&Pakažy %1 ŭstrymanyja vypłyŭnyja vokny"
 msgstr[2] "&Pakažy %1 ŭstrymanych vypłyŭnych voknaŭ"
 
-#: khtml/khtml_part.cpp:7243
+#: khtml/khtml_part.cpp:7248
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "Pakažy pasiŭnaje &akno z źviestkami pra ŭstrymanaje akno"
 
-#: khtml/khtml_part.cpp:7245
+#: khtml/khtml_part.cpp:7250
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&Naładź praviły dla stvareńnia novych akon praz JavaScript..."
 
@@ -13067,46 +13067,46 @@ msgstr "Host"
 msgid "Port"
 msgstr "Port"
 
-#: kdeui/colors/kcolordialog.cpp:100
+#: kdeui/colors/kcolordialog.cpp:103
 msgctxt "palette name"
 msgid "* Recent Colors *"
 msgstr "* Niadaŭnyja kolery *"
 
-#: kdeui/colors/kcolordialog.cpp:101
+#: kdeui/colors/kcolordialog.cpp:104
 msgctxt "palette name"
 msgid "* Custom Colors *"
 msgstr "* Ułasnyja kolery *"
 
-#: kdeui/colors/kcolordialog.cpp:102
+#: kdeui/colors/kcolordialog.cpp:105
 msgctxt "palette name"
 msgid "Forty Colors"
 msgstr "Sorak koleraŭ"
 
-#: kdeui/colors/kcolordialog.cpp:103
+#: kdeui/colors/kcolordialog.cpp:106
 msgctxt "palette name"
 msgid "Oxygen Colors"
 msgstr "Kisłarodnyja kolery"
 
-#: kdeui/colors/kcolordialog.cpp:104
+#: kdeui/colors/kcolordialog.cpp:107
 msgctxt "palette name"
 msgid "Rainbow Colors"
 msgstr "Viasiołka"
 
-#: kdeui/colors/kcolordialog.cpp:105
+#: kdeui/colors/kcolordialog.cpp:108
 msgctxt "palette name"
 msgid "Royal Colors"
 msgstr "Kniaskija kolery"
 
-#: kdeui/colors/kcolordialog.cpp:106
+#: kdeui/colors/kcolordialog.cpp:109
 msgctxt "palette name"
 msgid "Web Colors"
 msgstr "Kolery Sieciva"
 
-#: kdeui/colors/kcolordialog.cpp:560
+#: kdeui/colors/kcolordialog.cpp:563
 msgid "Named Colors"
 msgstr "Nazoŭnyja kolery"
 
-#: kdeui/colors/kcolordialog.cpp:747
+#: kdeui/colors/kcolordialog.cpp:750
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unable to read X11 RGB color strings. The following file location(s) were "
@@ -13132,56 +13132,61 @@ msgstr[2] ""
 "Nie ŭdałosia pračytać nazvy RGB-koleraŭ systemy X11. Prahledžanyja "
 "nastupnyja miescy fajłaŭ:\n"
 
-#: kdeui/colors/kcolordialog.cpp:1022
+#: kdeui/colors/kcolordialog.cpp:1025
 msgid "Select Color"
 msgstr "Vybiery koler"
 
-#: kdeui/colors/kcolordialog.cpp:1106
+#: kdeui/colors/kcolordialog.cpp:1109
 msgid "Hue:"
 msgstr "Adcieńnie:"
 
-#: kdeui/colors/kcolordialog.cpp:1116
+#: kdeui/colors/kcolordialog.cpp:1115
+msgctxt "The angular degree unit (for hue)"
+msgid "°"
+msgstr ""
+
+#: kdeui/colors/kcolordialog.cpp:1120
 msgid "Saturation:"
 msgstr "Nasyčanaść:"
 
-#: kdeui/colors/kcolordialog.cpp:1126
+#: kdeui/colors/kcolordialog.cpp:1130
 msgctxt "This is the V of HSV"
 msgid "Value:"
 msgstr "Vartaść:"
 
-#: kdeui/colors/kcolordialog.cpp:1140
+#: kdeui/colors/kcolordialog.cpp:1144
 msgid "Red:"
 msgstr "Čyrvony:"
 
-#: kdeui/colors/kcolordialog.cpp:1150
+#: kdeui/colors/kcolordialog.cpp:1154
 msgid "Green:"
 msgstr "Zialony:"
 
-#: kdeui/colors/kcolordialog.cpp:1160
+#: kdeui/colors/kcolordialog.cpp:1164
 msgid "Blue:"
 msgstr "Sini:"
 
-#: kdeui/colors/kcolordialog.cpp:1172
+#: kdeui/colors/kcolordialog.cpp:1176
 msgid "Alpha:"
 msgstr ""
 
-#: kdeui/colors/kcolordialog.cpp:1226
+#: kdeui/colors/kcolordialog.cpp:1230
 msgid "&Add to Custom Colors"
 msgstr "&Dadaj u ŭłasnyja kolery"
 
-#: kdeui/colors/kcolordialog.cpp:1261
+#: kdeui/colors/kcolordialog.cpp:1265
 msgid "HTML:"
 msgstr "HTML:"
 
-#: kdeui/colors/kcolordialog.cpp:1352
+#: kdeui/colors/kcolordialog.cpp:1356
 msgid "Default color"
 msgstr "Zmoŭčany koler"
 
-#: kdeui/colors/kcolordialog.cpp:1419
+#: kdeui/colors/kcolordialog.cpp:1423
 msgid "-default-"
 msgstr "-zmoŭčany-"
 
-#: kdeui/colors/kcolordialog.cpp:1727
+#: kdeui/colors/kcolordialog.cpp:1670
 msgid "-unnamed-"
 msgstr "-biaz nazvy-"
 

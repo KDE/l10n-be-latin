@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-13 04:47+0200\n"
+"POT-Creation-Date: 2010-05-26 04:55+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -623,9 +623,11 @@ msgstr "Novy profil"
 msgid "Shell"
 msgstr "Abałonka"
 
-#: ProfileList.cpp:48
-msgid "No profiles available"
-msgstr "Niama profilaŭ"
+#: ProfileList.cpp:49
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "Default profile"
+msgstr "Vydali profil"
 
 #. i18n: file: ColorSchemeEditor.ui:21
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -2014,13 +2016,11 @@ msgstr ""
 msgid "&Stop"
 msgstr "&Spyni"
 
+#~ msgid "No profiles available"
+#~ msgstr "Niama profilaŭ"
+
 #~ msgid "Word characters for double-click selection: "
 #~ msgstr "Znaki, jakija dla vyłučeńnia dvuklikam uvažajucca za słoŭnyja: "
-
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "&Default Profile"
-#~ msgstr "Vydali profil"
 
 #~ msgid "Show Menu Bar"
 #~ msgstr "Pakažy menu"

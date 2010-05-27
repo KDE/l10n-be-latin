@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-26 04:58+0200\n"
+"POT-Creation-Date: 2010-05-27 04:54+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2326,7 +2326,7 @@ msgstr "Paćviardžeńnie dla anulavańnia kapijavańnia"
 msgid "Blocked request."
 msgstr "Zablakavany zapyt."
 
-#: kio/pastedialog.cpp:56
+#: kio/pastedialog.cpp:55
 msgid "Data format:"
 msgstr "Farmat źviestak:"
 
@@ -2764,6 +2764,7 @@ msgid "Select Folder"
 msgstr "Vybiery kataloh"
 
 #: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:132
+#: ../kfile/knewfilemenu.cpp:513
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Novy kataloh"
@@ -2785,23 +2786,23 @@ msgctxt "@label:textbox"
 msgid "Comment:"
 msgstr "&Kamentar:"
 
-#: bookmarks/kbookmarkdialog.cc:333
+#: bookmarks/kbookmarkdialog.cc:331
 msgctxt "@title:window"
 msgid "Create New Bookmark Folder"
 msgstr "Stvary novy kataloh z zakładkami"
 
-#: bookmarks/kbookmarkdialog.cc:334
+#: bookmarks/kbookmarkdialog.cc:332
 #, kde-format
 msgctxt "@title:window"
 msgid "Create New Bookmark Folder in %1"
 msgstr "Stvary novy kataloh z zakładkami ŭ „%1”"
 
-#: bookmarks/kbookmarkdialog.cc:337
+#: bookmarks/kbookmarkdialog.cc:335
 msgctxt "@label:textbox"
 msgid "New folder:"
 msgstr "Novy kataloh:"
 
-#: bookmarks/kbookmarkdialog.cc:369
+#: bookmarks/kbookmarkdialog.cc:367
 #, fuzzy
 #| msgid "Bookmarks"
 msgctxt "name of the container of all browser bookmarks"
@@ -2951,7 +2952,7 @@ msgstr "Fajły, jakija padtrymvajucca"
 #: kfile/kfiledialog.cpp:514 kfile/kfiledialog.cpp:538
 #: kfile/kfiledialog.cpp:548 kfile/kfiledialog.cpp:574
 #: kfile/kfiledialog.cpp:606 kfile/kfiledialog.cpp:661
-#: kfile/kurlrequesterdialog.cpp:130 kfile/kencodingfiledialog.cpp:107
+#: kfile/kurlrequesterdialog.cpp:129 kfile/kencodingfiledialog.cpp:107
 #: kfile/kencodingfiledialog.cpp:125 kfile/kencodingfiledialog.cpp:140
 #: kfile/kencodingfiledialog.cpp:158 kfile/kicondialog.cpp:689
 msgid "Open"
@@ -2967,20 +2968,20 @@ msgstr "Zapišy jak"
 msgid "Open file dialog"
 msgstr "Adčyni akno fajła"
 
-#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:455
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
 msgid "Owner"
 msgstr "Ułaśnik"
 
-#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:460
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
 msgid "Owning Group"
 msgstr "Hrupa ŭłaśnikaŭ"
 
-#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:465
+#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
 #: kfile/kpropertiesdialog.cpp:2011
 msgid "Others"
 msgstr "Inšyja"
 
-#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:470
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
 msgid "Mask"
 msgstr "Maska"
 
@@ -3013,54 +3014,54 @@ msgstr " (Zmoŭčana)"
 msgid "Edit ACL Entry"
 msgstr "Redahuj praviła dostupu"
 
-#: kfile/kacleditwidget.cpp:440
+#: kfile/kacleditwidget.cpp:439
 msgid "Entry Type"
 msgstr "Typ praviła"
 
-#: kfile/kacleditwidget.cpp:446
+#: kfile/kacleditwidget.cpp:445
 msgid "Default for new files in this folder"
 msgstr "Zmoŭčana dla novych fajłaŭ u hetym katalohu"
 
-#: kfile/kacleditwidget.cpp:475
+#: kfile/kacleditwidget.cpp:474
 msgid "Named user"
 msgstr "Nazva karystańnika"
 
-#: kfile/kacleditwidget.cpp:480
+#: kfile/kacleditwidget.cpp:479
 msgid "Named group"
 msgstr "Nazva hrupy"
 
-#: kfile/kacleditwidget.cpp:500
+#: kfile/kacleditwidget.cpp:499
 msgid "User: "
 msgstr "Karystańnik: "
 
-#: kfile/kacleditwidget.cpp:506
+#: kfile/kacleditwidget.cpp:505
 msgid "Group: "
 msgstr "Hrupa: "
 
-#: kfile/kacleditwidget.cpp:626
+#: kfile/kacleditwidget.cpp:625
 msgid "Type"
 msgstr "Typ"
 
-#: kfile/kacleditwidget.cpp:627
+#: kfile/kacleditwidget.cpp:626
 msgid "Name"
 msgstr "Nazva"
 
-#: kfile/kacleditwidget.cpp:628
+#: kfile/kacleditwidget.cpp:627
 msgctxt "read permission"
 msgid "r"
 msgstr "r"
 
-#: kfile/kacleditwidget.cpp:629
+#: kfile/kacleditwidget.cpp:628
 msgctxt "write permission"
 msgid "w"
 msgstr "w"
 
-#: kfile/kacleditwidget.cpp:630
+#: kfile/kacleditwidget.cpp:629
 msgctxt "execute permission"
 msgid "x"
 msgstr "x"
 
-#: kfile/kacleditwidget.cpp:631
+#: kfile/kacleditwidget.cpp:630
 msgid "Effective"
 msgstr "Dziejnyja"
 
@@ -4110,7 +4111,7 @@ msgstr ""
 "<qt>Vybiery prahramu. Kali patrebnaj prahramy niama ŭ śpisie, upišy jejnuju "
 "nazvu albo klikni ŭ knopku prahladu.</qt>"
 
-#: kfile/kopenwithdialog.cpp:601
+#: kfile/kopenwithdialog.cpp:600
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -4138,19 +4139,19 @@ msgstr ""
 "%m - małaja ikona\n"
 "%c - kamentar"
 
-#: kfile/kopenwithdialog.cpp:635
+#: kfile/kopenwithdialog.cpp:634
 msgid "Run in &terminal"
 msgstr "Uklučy ŭ &terminale"
 
-#: kfile/kopenwithdialog.cpp:652
+#: kfile/kopenwithdialog.cpp:651
 msgid "&Do not close when command exits"
 msgstr "&Nie začyniaj paśla vychadu z zahadu"
 
-#: kfile/kopenwithdialog.cpp:669
+#: kfile/kopenwithdialog.cpp:668
 msgid "&Remember application association for this type of file"
 msgstr "&Zapomni poviaź aplikacyi z hetym typam fajłaŭ"
 
-#: kfile/kopenwithdialog.cpp:807
+#: kfile/kopenwithdialog.cpp:806
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
@@ -4159,7 +4160,7 @@ msgstr ""
 "Nie ŭdałosia atrymać nazvy vykonvalnaha fajła z „%1”. Pravilna ŭpišy nazvu "
 "prahramy."
 
-#: kfile/kopenwithdialog.cpp:853
+#: kfile/kopenwithdialog.cpp:852
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr "Nie ŭdałosia znajści „%1”. Pravilna ŭpišy nazvu prahramy."
@@ -6379,29 +6380,29 @@ msgctxt "@action:button"
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: ../kfile/kdirselectdialog.cpp:322
+#: ../kfile/kdirselectdialog.cpp:321
 msgctxt "@action:inmenu"
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: ../kfile/kdirselectdialog.cpp:329
+#: ../kfile/kdirselectdialog.cpp:328
 #, fuzzy
 #| msgid "Move to Trash"
 msgctxt "@action:inmenu"
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
 
-#: ../kfile/kdirselectdialog.cpp:336
+#: ../kfile/kdirselectdialog.cpp:335
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "Vydali"
 
-#: ../kfile/kdirselectdialog.cpp:345
+#: ../kfile/kdirselectdialog.cpp:344
 msgctxt "@option:check"
 msgid "Show Hidden Folders"
 msgstr "Pakažy schavanyja katalohi"
 
-#: ../kfile/kdirselectdialog.cpp:352
+#: ../kfile/kdirselectdialog.cpp:351
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Ułaścivaści"
@@ -6451,7 +6452,7 @@ msgstr "Zachoŭvaj"
 msgid "Edit Places Entry"
 msgstr "Redahuj miesca"
 
-#: ../kfile/kfileplaceeditdialog.cpp:97
+#: ../kfile/kfileplaceeditdialog.cpp:96
 #, fuzzy
 #| msgid ""
 #| "<qt>This is the text that will appear in the Places panel.<br /><br />The "
@@ -6467,19 +6468,19 @@ msgstr ""
 "pavinna składacca z adnaho-dvuch słovaŭ, jakija b nahadvali tabie, čaho jany "
 "datyčać.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:103
+#: ../kfile/kfileplaceeditdialog.cpp:102
 #, fuzzy
 #| msgid "&Name:"
 msgid "L&abel:"
 msgstr "&Nazva:"
 
-#: ../kfile/kfileplaceeditdialog.cpp:105
+#: ../kfile/kfileplaceeditdialog.cpp:104
 #, fuzzy
 #| msgid "Enter a description"
 msgid "Enter descriptive label here"
 msgstr "Apišy"
 
-#: ../kfile/kfileplaceeditdialog.cpp:109
+#: ../kfile/kfileplaceeditdialog.cpp:108
 #, kde-format
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
@@ -6492,11 +6493,11 @@ msgstr ""
 "org/pub/kde/stable<br /><br />Kliknuŭšy ŭ knopku, źmieščanuju kala "
 "tekstavaha pola, možna pierajści ŭ adpaviednaje miesca.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:115
+#: ../kfile/kfileplaceeditdialog.cpp:114
 msgid "&Location:"
 msgstr "&Miesca:"
 
-#: ../kfile/kfileplaceeditdialog.cpp:119
+#: ../kfile/kfileplaceeditdialog.cpp:118
 msgid ""
 "<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
 "on the button to select a different icon.</qt>"
@@ -6504,16 +6505,16 @@ msgstr ""
 "<qt>Hetaja ikona budzie źmieščanaja ŭ paneli miescaŭ.<br /><br />Klikni ŭ "
 "hetuju knopku, kab vybrać inšuju.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:122
+#: ../kfile/kfileplaceeditdialog.cpp:121
 msgid "Choose an &icon:"
 msgstr "Vybiery &ikonu:"
 
-#: ../kfile/kfileplaceeditdialog.cpp:139
+#: ../kfile/kfileplaceeditdialog.cpp:138
 #, kde-format
 msgid "&Only show when using this application (%1)"
 msgstr "Pakazvaj tolki dla &hetaj aplikacyi (%1)"
 
-#: ../kfile/kfileplaceeditdialog.cpp:141
+#: ../kfile/kfileplaceeditdialog.cpp:140
 #, kde-format
 msgid ""
 "<qt>Select this setting if you want this entry to show only when using the "
@@ -6587,7 +6588,10 @@ msgstr ""
 msgid "Create hidden directory?"
 msgstr "Stvareńnie kataloha"
 
-#: ../kfile/knewfilemenu.cpp:504 ../kfile/knewfilemenu.cpp:513
+#: ../kfile/knewfilemenu.cpp:504
+#, fuzzy
+#| msgid "New Folder"
+msgctxt "Default name for a new folder"
 msgid "New Folder"
 msgstr "Novy kataloh"
 

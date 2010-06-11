@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-10 04:41+0200\n"
+"POT-Creation-Date: 2010-06-11 04:57+0200\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -525,19 +525,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#. i18n: file: kcmodule/profileEditPage.ui:23
+#. i18n: file: kcmodule/profileEditPage.ui:27
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:5
 msgid "Profile Management"
 msgstr "Kiravańnie profilami"
 
-#. i18n: file: kcmodule/profileEditPage.ui:52
+#. i18n: file: kcmodule/profileEditPage.ui:50
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: rc.cpp:8
 msgid "Actions"
 msgstr "Aperacyi"
 
-#. i18n: file: kcmodule/profileEditPage.ui:58
+#. i18n: file: kcmodule/profileEditPage.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, disableCompositing)
 #: rc.cpp:11
 #, fuzzy
@@ -545,39 +545,11 @@ msgstr "Aperacyi"
 msgid "Disable desktop effects, if active"
 msgstr "Vyklučy kampazycyju akońnika „KWin”, kali jana ŭklučanaja"
 
-#. i18n: file: kcmodule/profileEditPage.ui:65
-#. i18n: ectx: property (toolTip), widget (QCheckBox, dimDisplayOnIdle)
-#: rc.cpp:14
-msgid "Activate automatic dimming"
-msgstr "Uklučy aŭtamatyčnaje zaciamnieńnie"
-
-#. i18n: file: kcmodule/profileEditPage.ui:71
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, dimDisplayOnIdle)
-#: rc.cpp:17
-msgid "Automatically dims the display when the system is idle."
-msgstr ""
-"Aŭtamatyčna zaciamniaje ekran, kali karystańnik nie pracuje z systemaj."
-
-#. i18n: file: kcmodule/profileEditPage.ui:74
-#. i18n: ectx: property (text), widget (QCheckBox, dimDisplayOnIdle)
-#: rc.cpp:20
-msgid "Dim display when idle for more than"
-msgstr "Zaciamniaj ekran, kali karystańnik nie pracuje bolš za"
-
-#. i18n: file: kcmodule/profileEditPage.ui:99
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, dimOnIdleTime)
-#: rc.cpp:23
-#, fuzzy
-#| msgid " min"
-msgctxt "Minutes"
-msgid " min"
-msgstr " chv"
-
-#. i18n: file: kcmodule/profileEditPage.ui:115
+#. i18n: file: kcmodule/profileEditPage.ui:69
 #. i18n: ectx: property (whatsThis), widget (QLabel, PoweredIdleLabel_2)
-#. i18n: file: kcmodule/profileEditPage.ui:164
+#. i18n: file: kcmodule/profileEditPage.ui:118
 #. i18n: ectx: property (whatsThis), widget (KComboBox, idleCombo)
-#: rc.cpp:26 rc.cpp:35
+#: rc.cpp:14 rc.cpp:23
 msgid ""
 "To prevent data loss or other damage, you can have the system suspend or "
 "hibernate, so you do not run accidentally out of battery power. Configure "
@@ -588,63 +560,63 @@ msgstr ""
 "uvieś zarad. Naładź, pry jakim astatkavym zaradzie vykonvać aznačanuju "
 "aperacyju."
 
-#. i18n: file: kcmodule/profileEditPage.ui:118
+#. i18n: file: kcmodule/profileEditPage.ui:72
 #. i18n: ectx: property (text), widget (QLabel, PoweredIdleLabel_2)
-#: rc.cpp:29
+#: rc.cpp:17
 msgid "When the system is idle for more than"
 msgstr "Kali karystańnik nie pracuje bolš za"
 
-#. i18n: file: kcmodule/profileEditPage.ui:139
+#. i18n: file: kcmodule/profileEditPage.ui:93
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, idleTime)
-#. i18n: file: kcmodule/profileEditPage.ui:393
+#. i18n: file: kcmodule/profileEditPage.ui:350
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, DPMSStandbyTime)
-#. i18n: file: kcmodule/profileEditPage.ui:419
+#. i18n: file: kcmodule/profileEditPage.ui:376
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, DPMSSuspendTime)
-#. i18n: file: kcmodule/profileEditPage.ui:442
+#. i18n: file: kcmodule/profileEditPage.ui:399
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, DPMSPowerOffTime)
-#: rc.cpp:32 rc.cpp:71 rc.cpp:77 rc.cpp:83
+#: rc.cpp:20 rc.cpp:71 rc.cpp:77 rc.cpp:83
 msgid " min"
 msgstr " chv"
 
-#. i18n: file: kcmodule/profileEditPage.ui:176
+#. i18n: file: kcmodule/profileEditPage.ui:130
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:38
+#: rc.cpp:26
 #, fuzzy
 #| msgid "When Laptop Lid Closed"
 msgid "When laptop lid closed"
 msgstr "Kali laptop začynieny"
 
-#. i18n: file: kcmodule/profileEditPage.ui:198
+#. i18n: file: kcmodule/profileEditPage.ui:152
 #. i18n: ectx: property (whatsThis), widget (KComboBox, laptopClosedCombo)
-#: rc.cpp:41
+#: rc.cpp:29
 msgid "This action will be performed when the laptop lid gets closed"
 msgstr "Hetaja aperacyja budzie vykonvacca, kali laptop začyniajecca."
 
-#. i18n: file: kcmodule/profileEditPage.ui:205
+#. i18n: file: kcmodule/profileEditPage.ui:159
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:44
+#: rc.cpp:32
 #, fuzzy
 #| msgid "When Power Button pressed"
 msgid "When power button pressed"
 msgstr "Kali nacisnutaja knopka ŭklučeńnia"
 
-#. i18n: file: kcmodule/profileEditPage.ui:231
+#. i18n: file: kcmodule/profileEditPage.ui:185
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:47
+#: rc.cpp:35
 #, fuzzy
 #| msgid "When Sleep Button pressed"
 msgid "When sleep button pressed"
 msgstr "Kali nacisnutaja knopka snu"
 
-#. i18n: file: kcmodule/profileEditPage.ui:268
+#. i18n: file: kcmodule/profileEditPage.ui:220
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:50
+#: rc.cpp:38
 msgid "Screen"
 msgstr "Ekran"
 
-#. i18n: file: kcmodule/profileEditPage.ui:276
+#. i18n: file: kcmodule/profileEditPage.ui:226
 #. i18n: ectx: property (toolTip), widget (QLabel, PoweredBrightnessLabel_2)
-#: rc.cpp:53
+#: rc.cpp:41
 msgid ""
 "With this slider you can set the brightness when the system is plugged into "
 "the socket outlet"
@@ -652,23 +624,51 @@ msgstr ""
 "Hetym rehulataram možaš aznačyć jarkaść ekrana ŭ vypadku, kali systema "
 "padłučanaja ŭ razietku."
 
-#. i18n: file: kcmodule/profileEditPage.ui:279
+#. i18n: file: kcmodule/profileEditPage.ui:229
 #. i18n: ectx: property (text), widget (QLabel, PoweredBrightnessLabel_2)
-#: rc.cpp:56
+#: rc.cpp:44
 #, fuzzy
 #| msgid "Brightness"
 msgid "Brightness:"
 msgstr "Jarkaść"
 
-#. i18n: file: kcmodule/profileEditPage.ui:331
+#. i18n: file: kcmodule/profileEditPage.ui:270
+#. i18n: ectx: property (toolTip), widget (QCheckBox, dimDisplayOnIdle)
+#: rc.cpp:47
+msgid "Activate automatic dimming"
+msgstr "Uklučy aŭtamatyčnaje zaciamnieńnie"
+
+#. i18n: file: kcmodule/profileEditPage.ui:276
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, dimDisplayOnIdle)
+#: rc.cpp:50
+msgid "Automatically dims the display when the system is idle."
+msgstr ""
+"Aŭtamatyčna zaciamniaje ekran, kali karystańnik nie pracuje z systemaj."
+
+#. i18n: file: kcmodule/profileEditPage.ui:279
+#. i18n: ectx: property (text), widget (QCheckBox, dimDisplayOnIdle)
+#: rc.cpp:53
+msgid "Dim display when idle for more than"
+msgstr "Zaciamniaj ekran, kali karystańnik nie pracuje bolš za"
+
+#. i18n: file: kcmodule/profileEditPage.ui:304
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, dimOnIdleTime)
+#: rc.cpp:56
+#, fuzzy
+#| msgid " min"
+msgctxt "Minutes"
+msgid " min"
+msgstr " chv"
+
+#. i18n: file: kcmodule/profileEditPage.ui:317
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSEnable)
 #: rc.cpp:59
 msgid "&Enable display power management"
 msgstr "&Uklučy kiravańnie enerhijaj dla ekrana"
 
-#. i18n: file: kcmodule/profileEditPage.ui:374
+#. i18n: file: kcmodule/profileEditPage.ui:331
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, DPMSStandbyEnabled)
-#. i18n: file: kcmodule/profileEditPage.ui:390
+#. i18n: file: kcmodule/profileEditPage.ui:347
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, DPMSStandbyTime)
 #: rc.cpp:62 rc.cpp:68
 msgid ""
@@ -678,31 +678,31 @@ msgstr ""
 "Aznač termin biaździejnaści, pa jakim ekran pavinien pačać čakać. Heta "
 "pieršy rovień aščadžańnia enerhii."
 
-#. i18n: file: kcmodule/profileEditPage.ui:377
+#. i18n: file: kcmodule/profileEditPage.ui:334
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSStandbyEnabled)
 #: rc.cpp:65
 msgid "&Standby after"
 msgstr "&Čakaj praz"
 
-#. i18n: file: kcmodule/profileEditPage.ui:406
+#. i18n: file: kcmodule/profileEditPage.ui:363
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSSuspendEnabled)
 #: rc.cpp:74
 msgid "S&uspend after"
 msgstr "&Zaśni praz"
 
-#. i18n: file: kcmodule/profileEditPage.ui:429
+#. i18n: file: kcmodule/profileEditPage.ui:386
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSPowerOffEnabled)
 #: rc.cpp:80
 msgid "&Power off after"
 msgstr "&Vyklučy praz"
 
-#. i18n: file: kcmodule/profileEditPage.ui:468
+#. i18n: file: kcmodule/profileEditPage.ui:423
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: rc.cpp:86
 msgid "CPU and System"
 msgstr "Pracesar i systema"
 
-#. i18n: file: kcmodule/profileEditPage.ui:483
+#. i18n: file: kcmodule/profileEditPage.ui:438
 #. i18n: ectx: property (text), widget (QCheckBox, SetPowerSaveCheckBox)
 #: rc.cpp:89
 #, fuzzy
@@ -710,7 +710,7 @@ msgstr "Pracesar i systema"
 msgid "Enable system power saving"
 msgstr "&Uklučy kiravańnie enerhijaj dla ekrana"
 
-#. i18n: file: kcmodule/profileEditPage.ui:512
+#. i18n: file: kcmodule/profileEditPage.ui:467
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:92
 #, fuzzy
@@ -718,25 +718,25 @@ msgstr "&Uklučy kiravańnie enerhijaj dla ekrana"
 msgid "When loading profile execute:"
 msgstr "Kali ŭklučajecca profil, vykonvaj"
 
-#. i18n: file: kcmodule/profileEditPage.ui:530
+#. i18n: file: kcmodule/profileEditPage.ui:483
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:95
 msgid "New Profile"
 msgstr "Novy profil"
 
-#. i18n: file: kcmodule/profileEditPage.ui:535
+#. i18n: file: kcmodule/profileEditPage.ui:488
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:98
 msgid "Delete Profile"
 msgstr "Vydali profil"
 
-#. i18n: file: kcmodule/profileEditPage.ui:540
+#. i18n: file: kcmodule/profileEditPage.ui:493
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:101
 msgid "Import Profiles"
 msgstr "Zimpartuj profili"
 
-#. i18n: file: kcmodule/profileEditPage.ui:545
+#. i18n: file: kcmodule/profileEditPage.ui:498
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: rc.cpp:104
 msgid "Export Profiles"

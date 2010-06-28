@@ -1,0 +1,180 @@
+# translation of kcmkclock.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkclock\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"PO-Revision-Date: 2008-12-11 22:05+0200\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: dtime.cpp:100
+msgid ""
+"Here you can change the system time. Click into the hours, minutes or "
+"seconds field to change the relevant value, either using the up and down "
+"buttons to the right or by entering a new value."
+msgstr ""
+
+#: dtime.cpp:124
+#, kde-format
+msgid "Current local time zone: %1 (%2)"
+msgstr "Dziejny miascovy časavy pojas: %1 (%2)"
+
+#: dtime.cpp:191
+msgid ""
+"Public Time Server (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
+"north-america.pool.ntp.org,oceania.pool.ntp.org"
+msgstr ""
+
+#: dtime.cpp:270
+#, kde-format
+msgid "Unable to contact time server: %1."
+msgstr "Nie ŭdałosia spałučycca z serveram času: %1"
+
+#: dtime.cpp:274
+msgid "Can not set date."
+msgstr "Nie ŭdałosia nastavić datu."
+
+#: dtime.cpp:277
+msgid "Error setting new time zone."
+msgstr "Padčas nastaŭleńnia novaha časavaha pojasu ŭźnikła pamyłka."
+
+#: dtime.cpp:278
+msgid "Time zone Error"
+msgstr "Pamyłka časavaha pojasu"
+
+#: dtime.cpp:295
+msgid ""
+"<h1>Date & Time</h1> This system settings module can be used to set the "
+"system date and time. As these settings do not only affect you as a user, "
+"but rather the whole system, you can only change these settings when you "
+"start the System Settings as root. If you do not have the root password, but "
+"feel the system time should be corrected, please contact your system "
+"administrator."
+msgstr ""
+
+#: main.cpp:53
+msgid "kcmclock"
+msgstr "kcmclock"
+
+#: main.cpp:53
+msgid "KDE Clock Control Module"
+msgstr "Modul kiravańnia dla hadzińnika „KDE”"
+
+#: main.cpp:55
+msgid "(c) 1996 - 2001 Luca Montecchiani"
+msgstr "© 1996 - 2001 Luca Montecchiani"
+
+#: main.cpp:57
+msgid "Luca Montecchiani"
+msgstr "Luca Montecchiani"
+
+#: main.cpp:57
+msgid "Original author"
+msgstr "Pieršy aŭtar"
+
+#: main.cpp:58
+msgid "Paul Campbell"
+msgstr "Paul Campbell"
+
+#: main.cpp:58
+msgid "Current Maintainer"
+msgstr "Ciapierašni dahladnik"
+
+#: main.cpp:59
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: main.cpp:59
+msgid "Added NTP support"
+msgstr "Dadaŭ absłuhoŭvańnie „NTP”"
+
+#: main.cpp:61
+msgid ""
+"<h1>Date & Time</h1> This control module can be used to set the system date "
+"and time. As these settings do not only affect you as a user, but rather the "
+"whole system, you can only change these settings when you start the System "
+"Settings as root. If you do not have the root password, but feel the system "
+"time should be corrected, please contact your system administrator."
+msgstr ""
+
+#: main.cpp:98
+#, kde-format
+msgid "Unable to authenticate/execute the action: %1, %2"
+msgstr ""
+
+#. i18n: file: dateandtime.ui:22
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:3
+msgid "Date and Time"
+msgstr ""
+
+#. i18n: file: dateandtime.ui:30
+#. i18n: ectx: property (text), widget (QCheckBox, setDateTimeAuto)
+#: rc.cpp:6
+msgid "Set date and time &automatically:"
+msgstr "&Aŭtamatyčna nastaŭlaj datu j čas:"
+
+#. i18n: file: dateandtime.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:9
+msgid "Time server:"
+msgstr ""
+
+#. i18n: file: dateandtime.ui:83
+#. i18n: ectx: property (whatsThis), widget (KDatePicker, cal)
+#: rc.cpp:12
+msgid "Here you can change the system date's day of the month, month and year."
+msgstr "Tut možna źmianić datu, miesiac i hod dla ŭsioj systemy."
+
+#. i18n: file: dateandtime.ui:116
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:15
+#, fuzzy
+#| msgid "Time zone Error"
+msgid "Time Zone"
+msgstr "Pamyłka časavaha pojasu"
+
+#. i18n: file: dateandtime.ui:122
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:18
+#, fuzzy
+#| msgid "To change the local time zone, select your area from the list below"
+msgid "To change the local time zone, select your area from the list below."
+msgstr ""
+"Kab źmianić miascovy časavy pojas, vybiery ź nižejšaha śpisu svajo miesca "
+"pałažeńnia."
+
+#. i18n: file: dateandtime.ui:145
+#. i18n: ectx: property (text), widget (QLabel, m_local)
+#: rc.cpp:21
+#, fuzzy
+#| msgid "Current local time zone: %1 (%2)"
+msgid "Current local time zone:"
+msgstr "Dziejny miascovy časavy pojas: %1 (%2)"
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#~ msgid "Failed to set system date/time/time zone."
+#~ msgstr "Nie ŭdałosia nastavić datu, čas i časavy pojas dla ŭsioj systemy."
+
+#~ msgid "Date/Time Error"
+#~ msgstr "Pamyłka daty j času"

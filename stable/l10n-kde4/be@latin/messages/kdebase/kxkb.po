@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-12 04:59+0200\n"
+"POT-Creation-Date: 2010-06-30 01:19+0200\n"
 "PO-Revision-Date: 2008-09-19 15:50+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -106,6 +106,19 @@ msgstr "Nazva"
 msgid "XKB extension failed to initialize"
 msgstr ""
 
+#: layout_widget.cpp:131 layout_widget.cpp:132
+#, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
+msgctxt "tooltip title"
+msgid "Keyboard Layout"
+msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
+
+#: flags.cpp:119
+#, kde-format
+msgctxt "layout - variant"
+msgid "%1 - %2"
+msgstr ""
+
 #~ msgid "Layout Name"
 #~ msgstr "Nazva vykładu"
 
@@ -129,11 +142,6 @@ msgstr ""
 
 #~ msgid "Configure..."
 #~ msgstr "Naładź..."
-
-#, fuzzy
-#~| msgid "KDE Keyboard Layout Switcher"
-#~ msgid "Keyboard Layout"
-#~ msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
 
 #~ msgid "KDE will configure layouts and start layout indicator"
 #~ msgstr "KDE naładzić vykłady i ŭklučyć adpaviedny indykatar."

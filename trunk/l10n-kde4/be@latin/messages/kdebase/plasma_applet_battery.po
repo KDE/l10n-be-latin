@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-14 04:46+0200\n"
+"POT-Creation-Date: 2010-07-10 04:54+0200\n"
 "PO-Revision-Date: 2008-10-05 10:22+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,14 +18,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: battery.cpp:198 battery.cpp:670
+#: battery.cpp:198 battery.cpp:667
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "Battery:"
 msgstr "<b>Batareja:</b> niama<br />"
 
-#: battery.cpp:205 battery.cpp:677
+#: battery.cpp:205 battery.cpp:674
 #, fuzzy, kde-format
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
@@ -33,17 +33,17 @@ msgctxt "Placeholder is the battery ID"
 msgid "Battery %1:"
 msgstr "<b>Batareja:</b> niama<br />"
 
-#: battery.cpp:216 battery.cpp:684
+#: battery.cpp:216 battery.cpp:681
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Plugged in"
 msgid "AC Adapter:"
 msgstr "<b>Blok siłkavańnia:</b> padłučany"
 
-#: battery.cpp:217 battery.cpp:686
+#: battery.cpp:217 battery.cpp:683
 msgid "Plugged in"
 msgstr ""
 
-#: battery.cpp:217 battery.cpp:688
+#: battery.cpp:217 battery.cpp:685
 msgid "Not plugged in"
 msgstr ""
 
@@ -51,72 +51,85 @@ msgstr ""
 msgid "General"
 msgstr "Ahulnaje"
 
-#: battery.cpp:497
+#: battery.cpp:495
+#, fuzzy
+#| msgid "Time remaining: <b>%1</b><br />"
+msgctxt "Label for remaining time"
+msgid "Time Remaining:"
+msgstr "Zastałosia času: <b>%1</b><br />"
+
+#: battery.cpp:516
+#, fuzzy
+#| msgid "Screen Brightness"
+msgid "Screen Brightness:"
+msgstr "Jarkaść ekrana"
+
+#: battery.cpp:518
 msgid "Screen Brightness"
 msgstr "Jarkaść ekrana"
 
-#: battery.cpp:517
+#: battery.cpp:535
 #, fuzzy
 #| msgid "Power Profile"
 msgid "Power Profile:"
 msgstr "Enerhietyčny profil"
 
-#: battery.cpp:547
+#: battery.cpp:563
 #, fuzzy
 #| msgid "Sleep"
 msgctxt "Suspend the computer to RAM; translation should be short"
 msgid "Sleep"
 msgstr "Zaśni"
 
-#: battery.cpp:561
+#: battery.cpp:570
 #, fuzzy
 #| msgid "Hibernate"
 msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "Zhibernuj"
 
-#: battery.cpp:574
+#: battery.cpp:577
 #, fuzzy
 #| msgid "Power Management"
 msgctxt "tooltip on the config button in the popup"
 msgid "Configure Power Management..."
 msgstr "Kiravańnie enerhijaj"
 
-#: battery.cpp:593
+#: battery.cpp:591
 msgid "Power Management"
 msgstr "Kiravańnie enerhijaj"
 
-#: battery.cpp:640
+#: battery.cpp:637
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (charged)"
 msgstr "<b>Batareja:</b> %1% (całkom zapoŭnienaja)<br />"
 
-#: battery.cpp:645
+#: battery.cpp:642
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "%1% (discharging)"
 msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
 
-#: battery.cpp:651
+#: battery.cpp:648
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: battery.cpp:654 battery.cpp:703
+#: battery.cpp:651 battery.cpp:700
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
 
-#: battery.cpp:702
+#: battery.cpp:699
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "<b>Battery:</b> "
 msgstr "<b>Batareja:</b> niama<br />"
 
-#: battery.cpp:954 battery.cpp:985 battery.cpp:997
+#: battery.cpp:951 battery.cpp:982 battery.cpp:994
 #, kde-format
 msgctxt "overlay on the battery, needs to be really tiny"
 msgid "%1%"
@@ -185,9 +198,6 @@ msgstr "Pakazvaj &usie najaŭnyja batarei"
 #~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 #~ msgid "1% (fully charged)"
 #~ msgstr "<b>Batareja:</b> %1% (całkom zapoŭnienaja)<br />"
-
-#~ msgid "Time remaining: <b>%1</b><br />"
-#~ msgstr "Zastałosia času: <b>%1</b><br />"
 
 #~ msgid "<b>Battery:</b> %1% (charging)<br />"
 #~ msgstr "<b>Batareja:</b> %1% (zapaŭniajecca)<br />"

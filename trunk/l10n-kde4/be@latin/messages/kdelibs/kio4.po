@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-21 05:15+0200\n"
+"POT-Creation-Date: 2010-07-22 04:54+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3414,7 +3414,7 @@ msgctxt "@label music track number"
 msgid "Track"
 msgstr ""
 
-#: kfile/knfotranslator.cpp:78 kfile/kfilemetadatawidget.cpp:625
+#: kfile/knfotranslator.cpp:78 kfile/kfilemetadatawidget.cpp:624
 #, fuzzy
 #| msgid "Type"
 msgctxt "@label file type"
@@ -4008,36 +4008,28 @@ msgctxt "@label"
 msgid "Size"
 msgstr "Pamier"
 
-#: kfile/kfilemetadatawidget.cpp:525
-#, fuzzy
-#| msgid "1 Folder"
-#| msgid_plural "%1 Folders"
-msgctxt "@label"
-msgid "Folder"
-msgstr "%1 kataloh"
-
-#: kfile/kfilemetadatawidget.cpp:541
+#: kfile/kfilemetadatawidget.cpp:540
 #, fuzzy
 #| msgid "Size:"
 msgctxt "@label"
 msgid "Total Size"
 msgstr "Pamier:"
 
-#: kfile/kfilemetadatawidget.cpp:627
+#: kfile/kfilemetadatawidget.cpp:626
 #, fuzzy
 #| msgid "Modified:"
 msgctxt "@label"
 msgid "Modified"
 msgstr "Admienieny:"
 
-#: kfile/kfilemetadatawidget.cpp:628
+#: kfile/kfilemetadatawidget.cpp:627
 #, fuzzy
 #| msgid "Owner"
 msgctxt "@label"
 msgid "Owner"
 msgstr "Ułaśnik"
 
-#: kfile/kfilemetadatawidget.cpp:629
+#: kfile/kfilemetadatawidget.cpp:628
 #, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Permissions"
@@ -6557,7 +6549,7 @@ msgstr "Pierajdzi"
 msgid "Show Full Path"
 msgstr "Pakažy ŭsiu ściežku"
 
-#: ../kfile/kurlnavigator.cpp:688
+#: ../kfile/kurlnavigator.cpp:683
 msgid "Custom Path"
 msgstr "Ułasnaja ściežka"
 
@@ -6705,6 +6697,13 @@ msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
 #: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
 msgstr "Pakažy schavanyja katalohi"
+
+#, fuzzy
+#~| msgid "1 Folder"
+#~| msgid_plural "%1 Folders"
+#~ msgctxt "@label"
+#~ msgid "Folder"
+#~ msgstr "%1 kataloh"
 
 #~ msgid "size %1 (%2)"
 #~ msgstr "pamier %1 (%2)"

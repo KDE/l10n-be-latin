@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-22 04:54+0200\n"
+"POT-Creation-Date: 2010-07-23 05:17+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1975,7 +1975,7 @@ msgstr "Užo jość padobny fajł z nazvaj „%1”."
 msgid "A newer item named '%1' already exists."
 msgstr "Užo jość naviejšy element z nazvaj „%1”."
 
-#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1095
+#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1094
 #: kio/kdirlister.cpp:329
 #, kde-format
 msgid ""
@@ -2525,46 +2525,46 @@ msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
 msgid "Open with:"
 msgstr "Adčyni ŭ:"
 
-#: kio/krun.cpp:530
+#: kio/krun.cpp:529
 msgid "You are not authorized to execute this file."
 msgstr "Tabie nielha vykonvać hety fajł."
 
-#: kio/krun.cpp:553
+#: kio/krun.cpp:552
 #, kde-format
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"
 
-#: kio/krun.cpp:661
+#: kio/krun.cpp:660
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
 
-#: kio/krun.cpp:855
+#: kio/krun.cpp:854
 msgid "You are not authorized to execute this service."
 msgstr "Tabie nielha vykonvać hetuju słužbu."
 
-#: kio/krun.cpp:867
+#: kio/krun.cpp:866
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Aściaroha"
 
-#: kio/krun.cpp:881
+#: kio/krun.cpp:880
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 
-#: kio/krun.cpp:895
+#: kio/krun.cpp:894
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
 
-#: kio/krun.cpp:928
+#: kio/krun.cpp:927
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: kio/krun.cpp:1128
+#: kio/krun.cpp:1127
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -2573,7 +2573,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: kio/krun.cpp:1706
+#: kio/krun.cpp:1705
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"
@@ -2638,37 +2638,37 @@ msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "&Aperacyi"
 
-#: kio/kfileitemactions.cpp:522
+#: kio/kfileitemactions.cpp:528
 #, fuzzy, kde-format
 #| msgid "Open &with %1"
 msgid "&Open with %1"
 msgstr "Adčyni &ŭ: %1"
 
-#: kio/kfileitemactions.cpp:525 ../kfile/kfilewidget.cpp:1956
+#: kio/kfileitemactions.cpp:539 ../kfile/kfilewidget.cpp:1956
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: kio/kfileitemactions.cpp:540
+#: kio/kfileitemactions.cpp:554
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "&Adčyni ŭ"
 
-#: kio/kfileitemactions.cpp:557
+#: kio/kfileitemactions.cpp:571
 msgctxt "@action:inmenu Open With"
 msgid "&Other..."
 msgstr "&Inšaje..."
 
-#: kio/kfileitemactions.cpp:559 kio/kfileitemactions.cpp:571
+#: kio/kfileitemactions.cpp:573 kio/kfileitemactions.cpp:585
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "&Adčyni ŭ..."
 
-#: kio/kfileitemactions.cpp:673
+#: kio/kfileitemactions.cpp:687
 #, kde-format
 msgid "Open &with %1"
 msgstr "Adčyni &ŭ: %1"
 
-#: kio/kfileitemactions.cpp:675
+#: kio/kfileitemactions.cpp:689
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"

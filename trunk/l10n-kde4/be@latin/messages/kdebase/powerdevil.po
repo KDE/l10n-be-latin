@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-11 04:57+0200\n"
+"POT-Creation-Date: 2010-07-26 05:17+0200\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -23,11 +23,15 @@ msgid "PowerDevil"
 msgstr "PowerDevil"
 
 #: daemon/PowerDevilDaemon.cpp:142
-msgid "A Power Management tool for KDE4"
+#, fuzzy
+#| msgid "A Power Management tool for KDE4"
+msgid "A Power Management tool"
 msgstr "Pryłada dla kiravańnia enerhijaj u systemie „KDE4”"
 
-#: daemon/PowerDevilDaemon.cpp:143
-msgid "(c) 2008 Dario Freddi"
+#: daemon/PowerDevilDaemon.cpp:143 kcmodule/PowerDevilKCM.cpp:54
+#, fuzzy
+#| msgid "(c) 2008 Dario Freddi"
+msgid "Copyright © 2008–2011 Dario Freddi"
 msgstr "© 2008 Dario Freddi"
 
 #: daemon/PowerDevilDaemon.cpp:146 kcmodule/PowerDevilKCM.cpp:59
@@ -342,27 +346,39 @@ msgstr "Nałady słužby „PowerDevil”"
 msgid "A configurator for PowerDevil"
 msgstr "Nałady słužby „PowerDevil”"
 
-#: kcmodule/PowerDevilKCM.cpp:54
-msgid "(c), 2008 Dario Freddi"
-msgstr "© 2008 Dario Freddi"
-
 #: kcmodule/PowerDevilKCM.cpp:55
+#, fuzzy
+#| msgid ""
+#| "From this module, you can configure the Daemon, create and edit "
+#| "powersaving profiles, and see your system's capabilities."
 msgid ""
 "From this module, you can configure the Daemon, create and edit powersaving "
-"profiles, and see your system's capabilities."
+"profiles, and see your system’s capabilities."
 msgstr ""
 "Z hetaha modula ty možaš naładžvać słužbu, stvarać i redahavać profili "
 "aščadžańnia enerhii j hladzieć, jakija mahčymaści absłuhoŭvaje tvaja systema."
 
 #: kcmodule/PowerDevilKCM.cpp:64
+#, fuzzy
+#| msgid ""
+#| "<h1>PowerDevil configuration</h1> <p>This module lets you configure "
+#| "PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
+#| "started upon KDE startup.</p> <p>PowerDevil has 2 levels of "
+#| "configuration: a general one, that is always applied, and a profile-based "
+#| "one, that lets you configure a specific behavior in every situation. You "
+#| "can also have a look at your system capabilities in the last tab. To get "
+#| "you started, first configure the options in the first 2 tabs. Then switch "
+#| "to the fourth one, and create/edit your profiles. Last but not least, "
+#| "assign your profiles in the third Tab. You do not have to restart "
+#| "PowerDevil, just click \"Apply\", and you are done.</p>"
 msgid ""
 "<h1>PowerDevil configuration</h1> <p>This module lets you configure "
 "PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
-"started upon KDE startup.</p> <p>PowerDevil has 2 levels of configuration: a "
+"started upon startup.</p> <p>PowerDevil has two levels of configuration: a "
 "general one, that is always applied, and a profile-based one, that lets you "
 "configure a specific behavior in every situation. You can also have a look "
 "at your system capabilities in the last tab. To get you started, first "
-"configure the options in the first 2 tabs. Then switch to the fourth one, "
+"configure the options in the first two tabs. Then switch to the fourth one, "
 "and create/edit your profiles. Last but not least, assign your profiles in "
 "the third Tab. You do not have to restart PowerDevil, just click \"Apply\", "
 "and you are done.</p>"
@@ -1032,6 +1048,9 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia ŭklučyć modul naładaŭ, bo ŭ słužby „PowerDevil” uźnikła "
 "prablema. Nižej možna pračytać padrabiaźniej."
+
+#~ msgid "(c), 2008 Dario Freddi"
+#~ msgstr "© 2008 Dario Freddi"
 
 #, fuzzy
 #~| msgid "System powersaving scheme"

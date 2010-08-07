@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-06 05:14+0200\n"
+"POT-Creation-Date: 2010-08-07 05:02+0200\n"
 "PO-Revision-Date: 2008-10-24 22:25+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,35 +18,45 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: dataengine/javascriptdataengine.cpp:103
+#: dataengine/javascriptdataengine.cpp:110
 #, fuzzy
 #| msgid "Constructor takes at least 1 argument"
 msgid "setData() takes at least two arguments"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
 
-#: dataengine/javascriptdataengine.cpp:144
+#: dataengine/javascriptdataengine.cpp:151
 #, fuzzy
 #| msgid "Could not extract the AppletObject"
 msgid "Could not extract the DataEngineObject"
 msgstr "Nie ŭdałosia vyniać abjekt „AppletObject”."
 
-#: dataengine/javascriptdataengine.cpp:148
+#: dataengine/javascriptdataengine.cpp:155
 #, fuzzy
 #| msgid "Could not extract the Applet"
 msgid "Could not extract the DataEngine"
 msgstr "Nie ŭdałosia vyniać abjekt „Applet”."
 
-#: dataengine/javascriptdataengine.cpp:158
+#: dataengine/javascriptdataengine.cpp:165
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "removeAllData() takes at least one argument (the source name)"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: dataengine/javascriptdataengine.cpp:176
+#: dataengine/javascriptdataengine.cpp:183
 #, fuzzy
 #| msgid "Constructor takes at least 1 argument"
 msgid "removeData() takes at least two arguments (the source and key names)"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
+
+#: dataengine/javascriptdataengine.cpp:221
+#: dataengine/javascriptdataengine.cpp:226
+msgid "Service requires at least one parameter: the name of the service"
+msgstr ""
+
+#: dataengine/javascriptdataengine.cpp:236
+#, kde-format
+msgid "Requested service %1 ws not found in the Package."
+msgstr ""
 
 #: plasmoid/appletauthorization.cpp:36
 #, kde-format

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-28 05:08+0200\n"
+"POT-Creation-Date: 2010-08-22 05:43+0200\n"
 "PO-Revision-Date: 2008-11-26 01:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -459,63 +459,33 @@ msgstr "Stvary"
 msgid "Do Not Create"
 msgstr "Nie stvaraj"
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
 #. i18n: file: khelpcenter.kcfg:11
 #. i18n: ectx: label, entry, group (Search)
-#: rc.cpp:3 rc.cpp:29
+#: rc.cpp:5
 msgid "Path to index directory."
 msgstr "Ściežka kataloha indeksu."
 
 #. i18n: file: khelpcenter.kcfg:12
 #. i18n: ectx: whatsthis, entry, group (Search)
-#: rc.cpp:6 rc.cpp:32
+#: rc.cpp:8
 msgid "Path to directory containing search indices."
 msgstr "Ściežka kataloha z indeksami pošuku."
 
 #. i18n: file: khelpcenter.kcfg:26
 #. i18n: ectx: label, entry, group (Layout)
-#: rc.cpp:9 rc.cpp:35
+#: rc.cpp:11
 msgid "Currently visible navigator tab"
 msgstr "Dziejna ŭklučanaja kartka navihacyi"
-
-#. i18n: file: khelpcenterui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:12
-msgid "&File"
-msgstr "&Fajł"
-
-#. i18n: file: khelpcenterui.rc:10
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:15
-msgid "&Edit"
-msgstr "&Redahuj"
-
-#. i18n: file: khelpcenterui.rc:18
-#. i18n: ectx: Menu (view)
-#: rc.cpp:18
-msgid "&View"
-msgstr "&Vyhlad"
-
-#. i18n: file: khelpcenterui.rc:23
-#. i18n: ectx: Menu (go)
-#: rc.cpp:21
-msgid "&Go"
-msgstr "&Idzi"
-
-#. i18n: file: khelpcenterui.rc:37
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:24
-msgid "Main Toolbar"
-msgstr "Hałoŭnaja panel pryładździa"
-
-#: rc.cpp:25
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Ihar Hračyška"
-
-#: rc.cpp:26
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ihar.hrachyshka@gmail.com"
 
 #: searchengine.cpp:78
 msgid "Error: No document type specified."
@@ -625,6 +595,21 @@ msgstr "nieviadomy"
 #: view.cpp:212
 msgid "Copy Link Address"
 msgstr "Skapijuj adras spasyłki"
+
+#~ msgid "&File"
+#~ msgstr "&Fajł"
+
+#~ msgid "&Edit"
+#~ msgstr "&Redahuj"
+
+#~ msgid "&View"
+#~ msgstr "&Vyhlad"
+
+#~ msgid "&Go"
+#~ msgstr "&Idzi"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Hałoŭnaja panel pryładździa"
 
 #~ msgid "Build Search Index..."
 #~ msgstr "Stvary indeks pošuku..."

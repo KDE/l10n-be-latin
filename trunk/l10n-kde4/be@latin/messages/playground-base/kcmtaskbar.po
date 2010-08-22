@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmtaskbar\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 05:03+0200\n"
+"POT-Creation-Date: 2010-08-22 05:54+0200\n"
 "PO-Revision-Date: 2008-11-04 13:03+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -119,23 +119,33 @@ msgstr "Pieraklučaj vokny"
 msgid "Custom"
 msgstr "Ułasny"
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
 #. i18n: file: kcmtaskbarui.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget)
 #. i18n: file: kcmtaskbarui.ui:32
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:3 rc.cpp:6
+#: rc.cpp:5 rc.cpp:8
 msgid "Taskbar"
 msgstr "Panel zadańniaŭ"
 
 #. i18n: file: kcmtaskbarui.ui:47
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:9
+#: rc.cpp:11
 msgid "Show windows from all sc&reens"
 msgstr "Pakazvaj vokny z usich &ekranaŭ"
 
 #. i18n: file: kcmtaskbarui.ui:55
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:12
+#: rc.cpp:14
 msgid ""
 "Turning this option off will cause the taskbar to display <b>only</b> "
 "windows which are on the same Xinerama screen as the taskbar.\n"
@@ -145,13 +155,13 @@ msgstr ""
 
 #. i18n: file: kcmtaskbarui.ui:63
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:17
+#: rc.cpp:19
 msgid "Sort windows by desk&top"
 msgstr "Paradkuj vokny dla &roznych stałoŭ"
 
 #. i18n: file: kcmtaskbarui.ui:71
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:20
+#: rc.cpp:22
 msgid ""
 "Selecting this option causes the taskbar to show windows in order of the "
 "desktop they appear on.\n"
@@ -161,13 +171,13 @@ msgstr ""
 
 #. i18n: file: kcmtaskbarui.ui:96
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:25
+#: rc.cpp:27
 msgid "&Show windows from all desktops"
 msgstr "&Pakazvaj vokny z usich stałoŭ"
 
 #. i18n: file: kcmtaskbarui.ui:104
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:28
+#: rc.cpp:30
 msgid ""
 "Turning this option off will cause the taskbar to display <b>only</b> the "
 "windows on the current desktop. \n"
@@ -177,13 +187,13 @@ msgstr ""
 
 #. i18n: file: kcmtaskbarui.ui:112
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:33
+#: rc.cpp:35
 msgid "Sho&w application icons"
 msgstr "P&akazvaj ikony aplikacyjaŭ"
 
 #. i18n: file: kcmtaskbarui.ui:120
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:36
+#: rc.cpp:38
 msgid ""
 "Select this option if you want window icons to appear along with their "
 "titles in the taskbar.\n"
@@ -193,13 +203,13 @@ msgstr ""
 
 #. i18n: file: kcmtaskbarui.ui:128
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:41
+#: rc.cpp:43
 msgid "Show window list &button"
 msgstr "Pakazvaj &knopku dla śpisu akon"
 
 #. i18n: file: kcmtaskbarui.ui:134
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:44
+#: rc.cpp:46
 msgid ""
 "Selecting this option causes the taskbar to display a button that, when "
 "clicked, shows a list of all windows in a popup menu."
@@ -207,13 +217,13 @@ msgstr ""
 
 #. i18n: file: kcmtaskbarui.ui:142
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:47
+#: rc.cpp:49
 msgid "Show o&nly minimized windows"
 msgstr "Pakazvaj &tolki źminimalizavanyja vokny"
 
 #. i18n: file: kcmtaskbarui.ui:147
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:50
+#: rc.cpp:52
 msgid ""
 "Select this option if you want the taskbar to display <b>only</b> minimized "
 "windows. \n"
@@ -224,13 +234,13 @@ msgstr ""
 
 #. i18n: file: kcmtaskbarui.ui:155
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:55
+#: rc.cpp:57
 msgid "&Group similar tasks:"
 msgstr "&Hurtuj padobnyja zadańni:"
 
 #. i18n: file: kcmtaskbarui.ui:178
 #. i18n: ectx: property (whatsThis), widget (QComboBox)
-#: rc.cpp:58
+#: rc.cpp:60
 msgid ""
 "The taskbar can group similar windows into single buttons. When one of these "
 "window group buttons are clicked on a menu appears showing all the windows "
@@ -246,40 +256,30 @@ msgstr ""
 
 #. i18n: file: kcmtaskbarui.ui:186
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:65
+#: rc.cpp:67
 msgid "A&ppearance:"
 msgstr "&Vonkavaść:"
 
 #. i18n: file: kcmtaskbarui.ui:204
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:68
+#: rc.cpp:70
 msgid "Actions"
 msgstr "Aperacyi"
 
 #. i18n: file: kcmtaskbarui.ui:215
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:71
+#: rc.cpp:73
 msgid "&Left button:"
 msgstr "&Levaja knopka:"
 
 #. i18n: file: kcmtaskbarui.ui:226
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:74
+#: rc.cpp:76
 msgid "&Middle button:"
 msgstr "&Siaredniaja knopka:"
 
 #. i18n: file: kcmtaskbarui.ui:237
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:77
+#: rc.cpp:79
 msgid "Right b&utton:"
 msgstr "&Pravaja knopka:"
-
-#: rc.cpp:78
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Ihar Hračyška"
-
-#: rc.cpp:79
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ihar.hrachyshka@gmail.com"

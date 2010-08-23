@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-10 06:03+0200\n"
+"POT-Creation-Date: 2010-08-23 05:29+0200\n"
 "PO-Revision-Date: 2008-10-24 22:25+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -17,6 +17,52 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: common/javascriptaddonpackagestructure.cpp:30
+#: common/javascriptaddonpackagestructure.cpp:40
+msgid "Main Script File"
+msgstr ""
+
+#: common/scriptenv.cpp:119
+#, fuzzy, kde-format
+#| msgid "Unable to open '%1'"
+msgid "Unable to load script file: %1"
+msgstr "Nie ŭdałosia adčynić „%1”."
+
+#: common/scriptenv.cpp:353
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "debug takes one argument"
+msgstr "„print” pryjmaje adzin arhument."
+
+#: common/scriptenv.cpp:363
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "print() takes one argument"
+msgstr "„print” pryjmaje adzin arhument."
+
+#: common/scriptenv.cpp:373
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "listAddons takes one argument: addon type"
+msgstr "„print” pryjmaje adzin arhument."
+
+#: common/scriptenv.cpp:401 common/scriptenv.cpp:408
+#, fuzzy
+#| msgid "print takes one argument"
+msgid "loadAddon takes two arguments: addon type and addon name to load"
+msgstr "„print” pryjmaje adzin arhument."
+
+#: common/scriptenv.cpp:416
+#, kde-format
+msgid "Failed to find Addon %1 of type %1"
+msgstr ""
+
+#: common/scriptenv.cpp:427
+#, fuzzy, kde-format
+#| msgid "Unable to open '%1'"
+msgid "Failed to open script file for Addon %1: %2"
+msgstr "Nie ŭdałosia adčynić „%1”."
 
 #: dataengine/javascriptdataengine.cpp:110
 #, fuzzy
@@ -111,52 +157,6 @@ msgstr "Nie ŭdałosia adčynić „%1”."
 #: plasmoid/simplejavascriptapplet.cpp:742
 msgid "Constructor takes at least 1 argument"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
-
-#: common/javascriptaddonpackagestructure.cpp:30
-#: common/javascriptaddonpackagestructure.cpp:40
-msgid "Main Script File"
-msgstr ""
-
-#: common/scriptenv.cpp:119
-#, fuzzy, kde-format
-#| msgid "Unable to open '%1'"
-msgid "Unable to load script file: %1"
-msgstr "Nie ŭdałosia adčynić „%1”."
-
-#: common/scriptenv.cpp:353
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "debug takes one argument"
-msgstr "„print” pryjmaje adzin arhument."
-
-#: common/scriptenv.cpp:363
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "print() takes one argument"
-msgstr "„print” pryjmaje adzin arhument."
-
-#: common/scriptenv.cpp:373
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "listAddons takes one argument: addon type"
-msgstr "„print” pryjmaje adzin arhument."
-
-#: common/scriptenv.cpp:401 common/scriptenv.cpp:408
-#, fuzzy
-#| msgid "print takes one argument"
-msgid "loadAddon takes two arguments: addon type and addon name to load"
-msgstr "„print” pryjmaje adzin arhument."
-
-#: common/scriptenv.cpp:416
-#, kde-format
-msgid "Failed to find Addon %1 of type %1"
-msgstr ""
-
-#: common/scriptenv.cpp:427
-#, fuzzy, kde-format
-#| msgid "Unable to open '%1'"
-msgid "Failed to open script file for Addon %1: %2"
-msgstr "Nie ŭdałosia adčynić „%1”."
 
 #, fuzzy
 #~| msgid "The parent must be a QGraphicsWidget"

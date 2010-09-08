@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-07 02:32+0200\n"
+"POT-Creation-Date: 2010-09-08 06:57+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1975,7 +1975,7 @@ msgstr "Užo jość padobny fajł z nazvaj „%1”."
 msgid "A newer item named '%1' already exists."
 msgstr "Užo jość naviejšy element z nazvaj „%1”."
 
-#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1094
+#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1122
 #: kio/kdirlister.cpp:329
 #, kde-format
 msgid ""
@@ -2525,46 +2525,46 @@ msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
 msgid "Open with:"
 msgstr "Adčyni ŭ:"
 
-#: kio/krun.cpp:529
+#: kio/krun.cpp:577
 msgid "You are not authorized to execute this file."
 msgstr "Tabie nielha vykonvać hety fajł."
 
-#: kio/krun.cpp:552
+#: kio/krun.cpp:600
 #, kde-format
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"
 
-#: kio/krun.cpp:660
+#: kio/krun.cpp:708
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
 
-#: kio/krun.cpp:854
+#: kio/krun.cpp:882
 msgid "You are not authorized to execute this service."
 msgstr "Tabie nielha vykonvać hetuju słužbu."
 
-#: kio/krun.cpp:866
+#: kio/krun.cpp:894
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Aściaroha"
 
-#: kio/krun.cpp:880
+#: kio/krun.cpp:908
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 
-#: kio/krun.cpp:894
+#: kio/krun.cpp:922
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
 
-#: kio/krun.cpp:927
+#: kio/krun.cpp:955
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: kio/krun.cpp:1127
+#: kio/krun.cpp:1155
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -2573,7 +2573,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: kio/krun.cpp:1704
+#: kio/krun.cpp:1732
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"
@@ -3571,7 +3571,7 @@ msgstr "Zmantavany ŭ:"
 msgid "Device usage:"
 msgstr "Zaniataść pryłady:"
 
-#: kfile/kpropertiesdialog.cpp:1206
+#: kfile/kpropertiesdialog.cpp:1206 kfile/kpropertiesdialog.cpp:2941
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
@@ -3970,12 +3970,6 @@ msgstr "Punkt zmantavańnia:"
 #: kfile/kpropertiesdialog.cpp:2819
 msgid "Unmounted Icon"
 msgstr "Ikona admantavanaj pryłady"
-
-#: kfile/kpropertiesdialog.cpp:2941
-#, kde-format
-msgctxt "Available space out of total partition size (percent used)"
-msgid "%1 out of %2 (%3% used)"
-msgstr "%1 z %2 (zaniata %3%)"
 
 #: kfile/kpropertiesdialog.cpp:3040
 msgid "&Application"
@@ -6719,6 +6713,10 @@ msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
 #: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
 msgstr "Pakažy schavanyja katalohi"
+
+#~ msgctxt "Available space out of total partition size (percent used)"
+#~ msgid "%1 out of %2 (%3% used)"
+#~ msgstr "%1 z %2 (zaniata %3%)"
 
 #, fuzzy
 #~| msgid "1 Folder"

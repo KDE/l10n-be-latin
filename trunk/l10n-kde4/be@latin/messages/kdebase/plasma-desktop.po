@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-07 02:28+0200\n"
+"POT-Creation-Date: 2010-09-08 06:54+0200\n"
 "PO-Revision-Date: 2008-10-05 09:48+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -114,8 +114,10 @@ msgid "The KDE desktop, panels and widgets workspace application."
 msgstr "Rabočy stoł, paneli j placoŭka dla widžetaŭ systemy „KDE”."
 
 #: main.cpp:102
-msgid "Plasma Workspace"
-msgstr "Rabočaja placoŭka „Plasma”"
+#, fuzzy
+#| msgid "Desktop Theme"
+msgid "Plasma Desktop Shell"
+msgstr "Matyŭ rabočaha stała"
 
 #: main.cpp:104
 #, fuzzy
@@ -294,6 +296,9 @@ msgstr "Nastupnaja čynnaść"
 msgid "Clone current activity"
 msgstr "Nastupnaja čynnaść"
 
+#~ msgid "Plasma Workspace"
+#~ msgstr "Rabočaja placoŭka „Plasma”"
+
 #~ msgid "Desktop"
 #~ msgstr "Rabočy stoł"
 
@@ -344,9 +349,6 @@ msgstr "Nastupnaja čynnaść"
 
 #~ msgid "Desktop Activity"
 #~ msgstr "Čynnaść na rabočym stale"
-
-#~ msgid "Desktop Theme"
-#~ msgstr "Matyŭ rabočaha stała"
 
 #~ msgid "Theme:"
 #~ msgstr "Matyŭ:"

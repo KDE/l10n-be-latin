@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-20 01:23+0200\n"
+"POT-Creation-Date: 2010-09-09 01:29+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2169,13 +2169,13 @@ msgstr "Nielha pierakinuć kataloh u samoha siabie."
 
 #. i18n: file: dolphinpart.rc:4
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:3 rc.cpp:245
+#: rc.cpp:3 rc.cpp:267
 msgid "&Edit"
 msgstr "&Redahuj"
 
 #. i18n: file: dolphinpart.rc:14
 #. i18n: ectx: Menu (selection)
-#: rc.cpp:6 rc.cpp:248
+#: rc.cpp:6 rc.cpp:270
 #, fuzzy
 #| msgctxt "@action:inmenu Edit"
 #| msgid "Invert Selection"
@@ -2185,33 +2185,33 @@ msgstr "Pieramiani vyłučeńnie"
 
 #. i18n: file: dolphinpart.rc:23
 #. i18n: ectx: Menu (view)
-#: rc.cpp:9 rc.cpp:251
+#: rc.cpp:9 rc.cpp:273
 msgid "&View"
 msgstr "&Prahlad"
 
 #. i18n: file: dolphinpart.rc:32
 #. i18n: ectx: Menu (go)
-#: rc.cpp:12 rc.cpp:254
+#: rc.cpp:12 rc.cpp:276
 msgid "&Go"
 msgstr "&Idzi"
 
 #. i18n: file: dolphinpart.rc:40
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:15 rc.cpp:257
+#: rc.cpp:15 rc.cpp:279
 msgctxt "@title:menu"
 msgid "Tools"
 msgstr "Pryładździe"
 
 #. i18n: file: dolphinpart.rc:48
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:18 rc.cpp:260
+#: rc.cpp:18 rc.cpp:282
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "Panel pryładździa „Dolphin”"
 
 #. i18n: file: dolphinui.rc:34
 #. i18n: ectx: Menu (navigation_bar)
-#: rc.cpp:21 rc.cpp:236
+#: rc.cpp:21 rc.cpp:258
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Location:"
@@ -2221,14 +2221,14 @@ msgstr "Miesca:"
 
 #. i18n: file: dolphinui.rc:89
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:24 rc.cpp:239
+#: rc.cpp:24 rc.cpp:261
 msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
 
 #. i18n: file: dolphinui.rc:101
 #. i18n: ectx: ToolBar (searchToolBar)
-#: rc.cpp:27 rc.cpp:242
+#: rc.cpp:27 rc.cpp:264
 #, fuzzy
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
@@ -2270,7 +2270,7 @@ msgstr "Pakazvaj schavanyja fajły"
 #. i18n: ectx: label, entry (FontFamily), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:9
 #. i18n: ectx: label, entry (FontFamily), group (ColumnMode)
-#: rc.cpp:38 rc.cpp:71 rc.cpp:158
+#: rc.cpp:38 rc.cpp:75 rc.cpp:170
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font family"
@@ -2283,7 +2283,7 @@ msgstr "Siamja šryftoŭ"
 #. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:13
 #. i18n: ectx: label, entry (UseSystemFont), group (ColumnMode)
-#: rc.cpp:41 rc.cpp:68 rc.cpp:161
+#: rc.cpp:41 rc.cpp:72 rc.cpp:173
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use system font"
@@ -2296,7 +2296,7 @@ msgstr "Karystajsia systemnym šryftom"
 #. i18n: ectx: label, entry (FontSize), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:17
 #. i18n: ectx: label, entry (FontSize), group (ColumnMode)
-#: rc.cpp:44 rc.cpp:74 rc.cpp:164
+#: rc.cpp:44 rc.cpp:78 rc.cpp:176
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font size"
@@ -2309,7 +2309,7 @@ msgstr "Pamier šryfta"
 #. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:21
 #. i18n: ectx: label, entry (ItalicFont), group (ColumnMode)
-#: rc.cpp:47 rc.cpp:77 rc.cpp:167
+#: rc.cpp:47 rc.cpp:81 rc.cpp:179
 #, fuzzy
 #| msgctxt "@label Font style"
 #| msgid "Italic"
@@ -2322,7 +2322,7 @@ msgstr "Kursiŭny"
 #. i18n: ectx: label, entry (FontWeight), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:25
 #. i18n: ectx: label, entry (FontWeight), group (ColumnMode)
-#: rc.cpp:50 rc.cpp:80 rc.cpp:170
+#: rc.cpp:50 rc.cpp:84 rc.cpp:182
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font weight"
@@ -2335,7 +2335,7 @@ msgstr "Vyšynia šryfta"
 #. i18n: ectx: label, entry (IconSize), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:29
 #. i18n: ectx: label, entry (IconSize), group (ColumnMode)
-#: rc.cpp:53 rc.cpp:92 rc.cpp:173
+#: rc.cpp:53 rc.cpp:96 rc.cpp:185
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Icon size"
@@ -2348,7 +2348,7 @@ msgstr "Pamier ikony"
 #. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:33
 #. i18n: ectx: label, entry (PreviewSize), group (ColumnMode)
-#: rc.cpp:56 rc.cpp:98 rc.cpp:176
+#: rc.cpp:56 rc.cpp:102 rc.cpp:188
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Preview size"
@@ -2372,7 +2372,7 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:10
 #. i18n: ectx: label, entry (Arrangement), group (IconsMode)
-#: rc.cpp:65
+#: rc.cpp:69
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Arrangement"
@@ -2381,7 +2381,7 @@ msgstr "Paradak"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:34
 #. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
-#: rc.cpp:83
+#: rc.cpp:87
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Item height"
@@ -2390,7 +2390,7 @@ msgstr "Vyšynia elementa"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:42
 #. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
-#: rc.cpp:86
+#: rc.cpp:90
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Item width"
@@ -2399,7 +2399,7 @@ msgstr "Šyrynia elementa"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:50
 #. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
-#: rc.cpp:89
+#: rc.cpp:93
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Grid spacing"
@@ -2408,7 +2408,7 @@ msgstr "Adlehłaść pamiž elementami sietki"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:58
 #. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
-#: rc.cpp:95
+#: rc.cpp:99
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Number of textlines"
@@ -2417,13 +2417,13 @@ msgstr "Kolkaść tekstavych radkoŭ"
 
 #. i18n: file: settings/dolphin_versioncontrolsettings.kcfg:7
 #. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
-#: rc.cpp:101
+#: rc.cpp:111
 msgid "Enabled plugins"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:9
 #. i18n: ectx: label, entry (EditableUrl), group (General)
-#: rc.cpp:104
+#: rc.cpp:114
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the URL be editable for the user"
@@ -2432,13 +2432,13 @@ msgstr "Ci moža karystańnik źmianiać adras"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:13
 #. i18n: ectx: label, entry (UrlCompletionMode), group (General)
-#: rc.cpp:107
+#: rc.cpp:117
 msgid "Text completion mode of the URL Navigator"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:17
 #. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: rc.cpp:110
+#: rc.cpp:120
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the full path be shown inside the location bar"
@@ -2447,7 +2447,7 @@ msgstr "Ci pakazvać poŭnuju ściežku ŭ paneli adrasu"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:21
 #. i18n: ectx: label, entry (FirstRun), group (General)
-#: rc.cpp:113
+#: rc.cpp:123
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Is the application started the first time"
@@ -2456,7 +2456,7 @@ msgstr "Ci aplikacyja ŭklučanaja ŭpieršyniu"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:25
 #. i18n: ectx: label, entry (HomeUrl), group (General)
-#: rc.cpp:116
+#: rc.cpp:126
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -2465,7 +2465,7 @@ msgstr "Chatni adras"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:29
 #. i18n: ectx: label, entry (SplitView), group (General)
-#: rc.cpp:119
+#: rc.cpp:129
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Split the view into two panes"
@@ -2474,7 +2474,7 @@ msgstr "Padziali prahlad na dźvie častki"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:33
 #. i18n: ectx: label, entry (FilterBar), group (General)
-#: rc.cpp:122
+#: rc.cpp:132
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the filter bar be shown"
@@ -2483,7 +2483,7 @@ msgstr "Ci pakazvajecca panel filtru"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:37
 #. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: rc.cpp:125
+#: rc.cpp:135
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the view properties be used for all directories"
@@ -2492,7 +2492,7 @@ msgstr "Ci karystacca ŭłaścivaściami prahladu dla ŭsich katalohaŭ"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:41
 #. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: rc.cpp:128
+#: rc.cpp:138
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Browse through archives"
@@ -2501,13 +2501,13 @@ msgstr "Prahlad archivaŭ"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:45
 #. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: rc.cpp:131
+#: rc.cpp:141
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:49
 #. i18n: ectx: label, entry (RenameInline), group (General)
-#: rc.cpp:134
+#: rc.cpp:144
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -2516,7 +2516,7 @@ msgstr "Źmianiaj nazvu ŭnutry"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:53
 #. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: rc.cpp:137
+#: rc.cpp:147
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show selection toggle"
@@ -2525,7 +2525,7 @@ msgstr "Pakazvaj pieraklučnik vyłučeńnia"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:57
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: rc.cpp:140
+#: rc.cpp:150
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -2534,7 +2534,7 @@ msgstr "Pakazvaj padkazki"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:61
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: rc.cpp:143
+#: rc.cpp:153
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
@@ -2543,7 +2543,7 @@ msgstr "Pakazvaj zahady „Skapijuj u” i „Pieraniasi ŭ”"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:65
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: rc.cpp:146
+#: rc.cpp:156
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Timestamp since when the view properties are valid"
@@ -2552,7 +2552,7 @@ msgstr "Čas ad naładžvańnia praviłaŭ prahladu"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:68
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: rc.cpp:149
+#: rc.cpp:159
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use auto-expanding folders for all view types"
@@ -2561,7 +2561,7 @@ msgstr "Razhortvańnie katalohaŭ dla ŭsich sposabaŭ prahladu"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:72
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: rc.cpp:152
+#: rc.cpp:162
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -2570,7 +2570,7 @@ msgstr "Pakazvaj maštaboŭnik u paneli statusu"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:76
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: rc.cpp:155
+#: rc.cpp:165
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -2579,7 +2579,7 @@ msgstr "Pakazvaj źviestki pra volnaje miesca ŭ paneli statusu"
 
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:37
 #. i18n: ectx: label, entry (ColumnWidth), group (ColumnMode)
-#: rc.cpp:179
+#: rc.cpp:191
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Column width"
@@ -2588,14 +2588,14 @@ msgstr "Šyrynia słupka"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:11
 #. i18n: ectx: label, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:182
+#: rc.cpp:198
 msgctxt "@label"
 msgid "Show hidden files"
 msgstr "Pakazvaj schavanyja fajły"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:12
 #. i18n: ectx: whatsthis, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:185
+#: rc.cpp:201
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled hidden files, such as those starting with a '.', "
@@ -2606,14 +2606,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:19
 #. i18n: ectx: label, entry (ViewMode), group (Dolphin)
-#: rc.cpp:188
+#: rc.cpp:204
 msgctxt "@label"
 msgid "View Mode"
 msgstr "Sposab prahladu"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:20
 #. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
-#: rc.cpp:191
+#: rc.cpp:207
 msgctxt "@info:whatsthis"
 msgid ""
 "This option controls the style of the view. Currently supported values "
@@ -2624,14 +2624,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:27
 #. i18n: ectx: label, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:194
+#: rc.cpp:210
 msgctxt "@label"
 msgid "Show preview"
 msgstr "Pakazvaj padhlady"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:28
 #. i18n: ectx: whatsthis, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:197
+#: rc.cpp:213
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, a preview of the file content is shown as an "
@@ -2640,14 +2640,14 @@ msgstr "Kali ŭklučanaja hetaja opcyja, padhlad fajłaŭ jość ichnymi ikonami
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:33
 #. i18n: ectx: label, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:200
+#: rc.cpp:216
 msgctxt "@label"
 msgid "Categorized Sorting"
 msgstr "Paradkavańnie pavodle katehoryjaŭ"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:34
 #. i18n: ectx: whatsthis, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:203
+#: rc.cpp:219
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, the sorted items are summarized by their "
@@ -2658,14 +2658,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:39
 #. i18n: ectx: label, entry (Sorting), group (Dolphin)
-#: rc.cpp:206
+#: rc.cpp:222
 msgctxt "@label"
 msgid "Sort files by"
 msgstr "Paradkuj fajły pavodle"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:40
 #. i18n: ectx: whatsthis, entry (Sorting), group (Dolphin)
-#: rc.cpp:209
+#: rc.cpp:225
 msgctxt "@info:whatsthis"
 msgid ""
 "This option defines which attribute (name, size, date, etc.) sorting is "
@@ -2676,42 +2676,42 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:47
 #. i18n: ectx: label, entry (SortOrder), group (Dolphin)
-#: rc.cpp:212
+#: rc.cpp:228
 msgctxt "@label"
 msgid "Order in which to sort files"
 msgstr "Paradak fajłaŭ"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:54
 #. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
-#: rc.cpp:215
+#: rc.cpp:231
 msgctxt "@label"
 msgid "Show folders first when sorting files and folders"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:59
 #. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: rc.cpp:218
+#: rc.cpp:234
 msgctxt "@label"
 msgid "Additional information"
 msgstr "Dadatkovyja źviestki"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:64
 #. i18n: ectx: label, entry (Timestamp), group (Dolphin)
-#: rc.cpp:221
+#: rc.cpp:237
 msgctxt "@label"
 msgid "Properties last changed"
 msgstr "Apošniaja źmiena ŭłaścivaściaŭ"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:65
 #. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: rc.cpp:224
+#: rc.cpp:240
 msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr "Apošniaja źmiena karystańnikam ułaścivaściaŭ."
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:7
 #. i18n: ectx: label, entry (Location), group (Search)
-#: rc.cpp:227
+#: rc.cpp:249
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Location:"
@@ -2720,13 +2720,13 @@ msgstr "Miesca:"
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:11
 #. i18n: ectx: label, entry (What), group (Search)
-#: rc.cpp:230
+#: rc.cpp:252
 msgid "What"
 msgstr ""
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:15
 #. i18n: ectx: label, entry (Criteria), group (Search)
-#: rc.cpp:233
+#: rc.cpp:255
 msgid "Criteria"
 msgstr ""
 

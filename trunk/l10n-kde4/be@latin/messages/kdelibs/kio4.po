@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-08 06:57+0200\n"
+"POT-Creation-Date: 2010-09-09 06:06+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2764,7 +2764,7 @@ msgid "Select Folder"
 msgstr "Vybiery kataloh"
 
 #: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:132
-#: ../kfile/knewfilemenu.cpp:513
+#: ../kfile/knewfilemenu.cpp:991
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Novy kataloh"
@@ -6569,62 +6569,13 @@ msgstr "Pakažy ŭsiu ściežku"
 msgid "Custom Path"
 msgstr "Ułasnaja ściežka"
 
-#: ../kfile/knewfilemenu.cpp:177
+#: ../kfile/knewfilemenu.cpp:354 ../kfile/knewfilemenu.cpp:848
 #, fuzzy
-#| msgid "Created:"
-msgid "Create New"
-msgstr "Stvorany:"
+#| msgid "Store"
+msgid "Sorry"
+msgstr "Zachoŭvaj"
 
-#: ../kfile/knewfilemenu.cpp:190
-#, fuzzy
-#| msgid "Device"
-msgid "Link to Device"
-msgstr "Pryłada"
-
-#: ../kfile/knewfilemenu.cpp:486
-#, fuzzy
-#| msgid "Creating directory"
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "Stvareńnie kataloha"
-
-#: ../kfile/knewfilemenu.cpp:488
-#, fuzzy
-#| msgid "Ru&n as a different user"
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr "&Uklučy ad asoby inšaha karystańnika"
-
-#: ../kfile/knewfilemenu.cpp:491
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:492
-#, fuzzy
-#| msgid "Creating directory"
-msgid "Create hidden directory?"
-msgstr "Stvareńnie kataloha"
-
-#: ../kfile/knewfilemenu.cpp:504
-#, fuzzy
-#| msgid "New Folder"
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "Novy kataloh"
-
-#: ../kfile/knewfilemenu.cpp:514
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"Stvary novy kataloh u:\n"
-"%1"
-
-#: ../kfile/knewfilemenu.cpp:606
+#: ../kfile/knewfilemenu.cpp:363
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
@@ -6634,17 +6585,88 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: ../kfile/knewfilemenu.cpp:615 ../kfile/knewfilemenu.cpp:661
+#: ../kfile/knewfilemenu.cpp:382
+#, fuzzy
+#| msgid "Creating directory"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Stvareńnie kataloha"
+
+#: ../kfile/knewfilemenu.cpp:384
+#, fuzzy
+#| msgid "Ru&n as a different user"
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr "&Uklučy ad asoby inšaha karystańnika"
+
+#: ../kfile/knewfilemenu.cpp:387
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create hidden directory?"
+msgstr "Stvareńnie kataloha"
+
+#: ../kfile/knewfilemenu.cpp:391
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:393
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:475 ../kfile/knewfilemenu.cpp:533
 #, fuzzy
 #| msgid "Device name"
 msgid "File name:"
 msgstr "Nazva pryłady"
 
-#: ../kfile/knewfilemenu.cpp:675
+#: ../kfile/knewfilemenu.cpp:478
+#, fuzzy
+#| msgid "Could Not Create Symbolic Link"
+msgid "Create Symlink"
+msgstr "Nie ŭdałosia stvaryć symbalny łuč"
+
+#: ../kfile/knewfilemenu.cpp:537
+#, fuzzy
+#| msgid "Created:"
+msgid "Create link to URL"
+msgstr "Stvorany:"
+
+#: ../kfile/knewfilemenu.cpp:858
 msgid ""
 "Basic links can only point to local files or directories.\n"
 "Please use \"Link to Location\" for remote URLs."
 msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:923
+#, fuzzy
+#| msgid "Created:"
+msgid "Create New"
+msgstr "Stvorany:"
+
+#: ../kfile/knewfilemenu.cpp:936
+#, fuzzy
+#| msgid "Device"
+msgid "Link to Device"
+msgstr "Pryłada"
+
+#: ../kfile/knewfilemenu.cpp:981
+#, fuzzy
+#| msgid "New Folder"
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "Novy kataloh"
+
+#: ../kfile/knewfilemenu.cpp:995
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"Stvary novy kataloh u:\n"
+"%1"
 
 #: ../kfile/kfileplacesmodel.cpp:117
 #, fuzzy
@@ -6755,12 +6777,6 @@ msgstr "Pakažy schavanyja katalohi"
 #~ msgctxt "@label"
 #~ msgid "Add Tags..."
 #~ msgstr "Dadaj..."
-
-#, fuzzy
-#~| msgid "Created:"
-#~ msgctxt "@label"
-#~ msgid "Create new tag:"
-#~ msgstr "Stvorany:"
 
 #, fuzzy
 #~| msgid "Delete"

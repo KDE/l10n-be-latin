@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-07 02:28+0200\n"
+"POT-Creation-Date: 2010-09-16 06:16+0200\n"
 "PO-Revision-Date: 2008-10-24 22:25+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -93,42 +93,42 @@ msgstr "Nie ŭdałosia adčynić „%1”."
 msgid "Failed to open script file for Addon %1: %2"
 msgstr "Nie ŭdałosia adčynić „%1”."
 
-#: dataengine/javascriptdataengine.cpp:110
+#: dataengine/javascriptdataengine.cpp:112
 #, fuzzy
 #| msgid "Constructor takes at least 1 argument"
 msgid "setData() takes at least two arguments"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
 
-#: dataengine/javascriptdataengine.cpp:151
+#: dataengine/javascriptdataengine.cpp:153
 #, fuzzy
 #| msgid "Could not extract the AppletObject"
 msgid "Could not extract the DataEngineObject"
 msgstr "Nie ŭdałosia vyniać abjekt „AppletObject”."
 
-#: dataengine/javascriptdataengine.cpp:155
+#: dataengine/javascriptdataengine.cpp:157
 #, fuzzy
 #| msgid "Could not extract the Applet"
 msgid "Could not extract the DataEngine"
 msgstr "Nie ŭdałosia vyniać abjekt „Applet”."
 
-#: dataengine/javascriptdataengine.cpp:165
+#: dataengine/javascriptdataengine.cpp:167
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "removeAllData() takes at least one argument (the source name)"
 msgstr "„print” pryjmaje adzin arhument."
 
-#: dataengine/javascriptdataengine.cpp:183
+#: dataengine/javascriptdataengine.cpp:185
 #, fuzzy
 #| msgid "Constructor takes at least 1 argument"
 msgid "removeData() takes at least two arguments (the source and key names)"
 msgstr "Kanstruktar pryjmaje prynamsi adzin arhument."
 
-#: dataengine/javascriptdataengine.cpp:221
-#: dataengine/javascriptdataengine.cpp:226
+#: dataengine/javascriptdataengine.cpp:223
+#: dataengine/javascriptdataengine.cpp:228
 msgid "Service requires at least one parameter: the name of the service"
 msgstr ""
 
-#: dataengine/javascriptdataengine.cpp:236
+#: dataengine/javascriptdataengine.cpp:238
 #, kde-format
 msgid "Requested service %1 was not found in the Package."
 msgstr ""

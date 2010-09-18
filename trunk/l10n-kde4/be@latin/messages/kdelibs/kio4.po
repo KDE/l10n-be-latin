@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-14 06:33+0200\n"
+"POT-Creation-Date: 2010-09-18 06:02+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3414,7 +3414,7 @@ msgctxt "@label music track number"
 msgid "Track"
 msgstr ""
 
-#: kfile/knfotranslator.cpp:78 kfile/kfilemetadatawidget.cpp:626
+#: kfile/knfotranslator.cpp:78
 #, fuzzy
 #| msgid "Type"
 msgctxt "@label file type"
@@ -3994,42 +3994,47 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
 
-#: kfile/kfilemetadatawidget.cpp:525
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "Pamier"
-
-#: kfile/kfilemetadatawidget.cpp:542
+#: kfile/kfilemetadatawidget.cpp:519
 #, fuzzy
 #| msgid "Size:"
 msgctxt "@label"
-msgid "Total Size"
+msgid "Size:"
 msgstr "Pamier:"
 
-#: kfile/kfilemetadatawidget.cpp:628
+#: kfile/kfilemetadatawidget.cpp:536
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size:"
+msgstr "Pamier:"
+
+#: kfile/kfilemetadatawidget.cpp:620
+#, fuzzy
+#| msgid "Type:"
+msgctxt "@label file type"
+msgid "Type:"
+msgstr "Typ:"
+
+#: kfile/kfilemetadatawidget.cpp:622
 #, fuzzy
 #| msgid "Modified:"
 msgctxt "@label"
-msgid "Modified"
+msgid "Modified:"
 msgstr "Admienieny:"
 
-#: kfile/kfilemetadatawidget.cpp:629
+#: kfile/kfilemetadatawidget.cpp:623
 #, fuzzy
-#| msgid "Owner"
+#| msgid "Owner:"
 msgctxt "@label"
-msgid "Owner"
-msgstr "Ułaśnik"
+msgid "Owner:"
+msgstr "Ułaśnik:"
 
-#: kfile/kfilemetadatawidget.cpp:630
+#: kfile/kfilemetadatawidget.cpp:624
 #, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Permissions"
+#| msgid "Permissions:"
 msgctxt "@label"
-msgid "Permissions"
-msgstr "Dazvoły"
+msgid "Permissions:"
+msgstr "Dazvoły:"
 
 #: kfile/kfilemetadataprovider.cpp:304
 #, fuzzy
@@ -6735,6 +6740,32 @@ msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
 #: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
 msgstr "Pakažy schavanyja katalohi"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Size"
+#~ msgctxt "@label"
+#~ msgid "Size"
+#~ msgstr "Pamier"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@label"
+#~ msgid "Modified"
+#~ msgstr "Admienieny:"
+
+#, fuzzy
+#~| msgid "Owner"
+#~ msgctxt "@label"
+#~ msgid "Owner"
+#~ msgstr "Ułaśnik"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Permissions"
+#~ msgctxt "@label"
+#~ msgid "Permissions"
+#~ msgstr "Dazvoły"
 
 #~ msgctxt "Available space out of total partition size (percent used)"
 #~ msgid "%1 out of %2 (%3% used)"

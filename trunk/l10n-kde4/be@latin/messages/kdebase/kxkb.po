@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-02 06:58+0200\n"
+"POT-Creation-Date: 2010-09-21 07:09+0200\n"
 "PO-Revision-Date: 2008-09-19 15:50+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -102,11 +102,21 @@ msgstr "Admiena"
 msgid "Label"
 msgstr "Nazva"
 
-#: keyboard_applet.cpp:48
+#: keyboard_applet.cpp:49
 msgid "XKB extension failed to initialize"
 msgstr ""
 
-#: layout_widget.cpp:131 layout_widget.cpp:132
+#: keyboard_applet.cpp:209 layout_widget.cpp:239
+#, kde-format
+msgctxt "short layout label - full layout name"
+msgid "%1 - %2"
+msgstr ""
+
+#: keyboard_applet.cpp:218 layout_widget.cpp:248
+msgid "Configure..."
+msgstr "Naładź..."
+
+#: layout_widget.cpp:133 layout_widget.cpp:134
 #, fuzzy
 #| msgid "KDE Keyboard Layout Switcher"
 msgctxt "tooltip title"
@@ -139,9 +149,6 @@ msgstr ""
 
 #~ msgid "Error changing keyboard layout to '%1'"
 #~ msgstr "Pamyłka źmieny klavijaturnaha vykładu na „%1”."
-
-#~ msgid "Configure..."
-#~ msgstr "Naładź..."
 
 #~ msgid "KDE will configure layouts and start layout indicator"
 #~ msgstr "KDE naładzić vykłady i ŭklučyć adpaviedny indykatar."

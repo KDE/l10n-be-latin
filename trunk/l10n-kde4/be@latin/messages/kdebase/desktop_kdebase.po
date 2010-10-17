@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-16 04:24+0000\n"
+"POT-Creation-Date: 2010-10-17 04:46+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6968,7 +6968,7 @@ msgctxt "Name"
 msgid "Declarative widget"
 msgstr ""
 
-#: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-applet-declartive.desktop:4
+#: runtime/plasma/scriptengines/javascript/data/plasma-scriptengine-applet-declartive.desktop:7
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Native Plasma widget written in JavaScript"
@@ -7396,7 +7396,7 @@ msgctxt "Name"
 msgid "Cursor Theme"
 msgstr "Fajły kursoraŭ"
 
-#: workspace/kcontrol/input/cursortheme.desktop:26
+#: workspace/kcontrol/input/cursortheme.desktop:27
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Customize individual desktop theme items"
@@ -9976,6 +9976,19 @@ msgctxt "Comment"
 msgid "Simulate snow falling over the desktop"
 msgstr "Uklučaje śniehapad na rabočym stale."
 
+#: workspace/kwin/effects/startupfeedback/startupfeedback.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Launch Feedback"
+msgctxt "Name"
+msgid "Startup Feedback"
+msgstr "Vyjaŭleńnie ŭklučeńnia"
+
+#: workspace/kwin/effects/startupfeedback/startupfeedback.desktop:3
+msgctxt "Comment"
+msgid "Helper effect for startup feedback"
+msgstr ""
+
 #: workspace/kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:2
 msgctxt "Name"
 msgid "Taskbar Thumbnails"
@@ -10694,7 +10707,7 @@ msgid ""
 "The compositing performance was too slow and compositing has been suspended"
 msgstr "Chutkaść kampazycyi była zamałoj, i tamu jana była vyklučanaja."
 
-#: workspace/kwin/kwin.notifyrc:6661
+#: workspace/kwin/kwin.notifyrc:6662
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Strigi file indexing has been suspended"
@@ -10702,27 +10715,27 @@ msgctxt "Name"
 msgid "Compositing has been suspended"
 msgstr "Słužba „Strigi” pierapyniła indeksavańnie fajłaŭ."
 
-#: workspace/kwin/kwin.notifyrc:6719
+#: workspace/kwin/kwin.notifyrc:6720
 msgctxt "Comment"
 msgid "Another application has requested to suspend compositing."
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6776
+#: workspace/kwin/kwin.notifyrc:6778
 msgctxt "Name"
 msgid "Effects not supported"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6837
+#: workspace/kwin/kwin.notifyrc:6839
 msgctxt "Comment"
 msgid "Some effects are not supported by backend or hardware."
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6896
+#: workspace/kwin/kwin.notifyrc:6899
 msgctxt "Name"
 msgid "Tiling Enabled"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:6935
+#: workspace/kwin/kwin.notifyrc:6938
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "A modifier key has been locked"
@@ -10730,12 +10743,12 @@ msgctxt "Comment"
 msgid "Tiling mode has been enabled"
 msgstr "Klavišny madyfikatar zamacavany"
 
-#: workspace/kwin/kwin.notifyrc:6976
+#: workspace/kwin/kwin.notifyrc:6979
 msgctxt "Name"
 msgid "Tiling Disabled"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:7015
+#: workspace/kwin/kwin.notifyrc:7018
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Slow keys has been enabled or disabled"
@@ -10743,12 +10756,12 @@ msgctxt "Comment"
 msgid "Tiling mode has been disabled"
 msgstr "Pavolnyja klavišy źmianili svajo stanovišča."
 
-#: workspace/kwin/kwin.notifyrc:7056
+#: workspace/kwin/kwin.notifyrc:7059
 msgctxt "Name"
 msgid "Tiling Layout Changed"
 msgstr ""
 
-#: workspace/kwin/kwin.notifyrc:7095
+#: workspace/kwin/kwin.notifyrc:7098
 msgctxt "Comment"
 msgid "Tiling Layout has been changed"
 msgstr ""
@@ -11075,7 +11088,7 @@ msgctxt "Comment"
 msgid "Default desktop toolbox for the Plasma desktop shell"
 msgstr ""
 
-#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-desktoptoolbox.desktop:19
+#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-desktoptoolbox.desktop:20
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
@@ -11088,7 +11101,7 @@ msgctxt "Comment"
 msgid "Default panel toolbox for the Plasma desktop shell"
 msgstr ""
 
-#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-paneltoolbox.desktop:19
+#: workspace/plasma/desktop/shell/toolbox/plasma-toolbox-paneltoolbox.desktop:20
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
@@ -11675,7 +11688,7 @@ msgctxt "Name"
 msgid "Pastebin"
 msgstr "Pose"
 
-#: workspace/plasma/generic/dataengines/share/backends/pastebinca/metadata.desktop:21
+#: workspace/plasma/generic/dataengines/share/backends/pastebinca/metadata.desktop:22
 msgctxt "Comment"
 msgid "Enables the share of text using pastebin.ca service"
 msgstr ""
@@ -12514,7 +12527,7 @@ msgctxt "Name"
 msgid "UPower PowerDevil Backend"
 msgstr "PowerDevil"
 
-#: workspace/powerdevil/daemon/backends/upower/powerdevilupowerbackend.desktop:13
+#: workspace/powerdevil/daemon/backends/upower/powerdevilupowerbackend.desktop:14
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Hardware power management using freedesktop.org HAL daemon"
@@ -12543,7 +12556,7 @@ msgctxt "Name"
 msgid "Global settings"
 msgstr "Nałady koleraŭ"
 
-#: workspace/powerdevil/kcmodule/powerdevilglobalconfig.desktop:15
+#: workspace/powerdevil/kcmodule/powerdevilglobalconfig.desktop:16
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"

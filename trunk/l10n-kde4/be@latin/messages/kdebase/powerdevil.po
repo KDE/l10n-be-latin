@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-28 06:08+0200\n"
+"POT-Creation-Date: 2010-10-30 06:12+0200\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -17,15 +17,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: SuspensionLockHandler.cpp:75
-#, kde-format
-msgid ""
-"The application %1 is inhibiting suspension for the following reason:\n"
-"%2"
-msgstr ""
-"Aplikacyja „%1” hetak tłumačyć admaŭleńnie ad snu:\n"
-"%2"
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:57
 #: actions/bundled/suspendsessionconfig.cpp:71
@@ -166,17 +157,23 @@ msgstr "Dario Freddi"
 msgid "Developer"
 msgstr "Hałoŭny raspracoŭnik"
 
-#: powerdevilcore.cpp:159
+#: powerdevilcore.cpp:78
+msgid ""
+"No valid Power Management backend plugins were found. A new installation "
+"might solve this problem."
+msgstr ""
+
+#: powerdevilcore.cpp:173
 msgctxt "Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:166
+#: powerdevilcore.cpp:180
 msgctxt "Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:242
+#: powerdevilcore.cpp:256
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -188,14 +185,14 @@ msgstr ""
 "Byŭ vybrany profil „%1”, ale jon nie isnuje!\n"
 "Spraŭdź słušnaść naładaŭ słužby „PowerDevil”."
 
-#: powerdevilcore.cpp:255
+#: powerdevilcore.cpp:269
 #, kde-format
 msgid ""
 "The profile \"%1\" tried to activate %2, a non existent action. This is "
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
 
-#: powerdevilcore.cpp:284
+#: powerdevilcore.cpp:298
 #, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -207,7 +204,7 @@ msgstr ""
 "Nie ŭdałosia spałučycca z interfejsam batarei!\n"
 "Spraudź nałady svajoj systemy."
 
-#: powerdevilcore.cpp:340
+#: powerdevilcore.cpp:354
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -215,19 +212,27 @@ msgid ""
 "been cancelled"
 msgstr "Blok siłkavańnia padłučany."
 
-#: powerdevilcore.cpp:342
+#: powerdevilcore.cpp:356
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "Blok siłkavańnia padłučany."
 
-#: powerdevilcore.cpp:345
+#: powerdevilcore.cpp:359
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "Blok siłkavańnia adłučany."
 
-#: powerdevilcore.cpp:376
+#: powerdevilcore.cpp:365
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+
+#: powerdevilcore.cpp:392
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -238,7 +243,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:381
+#: powerdevilcore.cpp:397
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -250,7 +255,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:386
+#: powerdevilcore.cpp:402
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -261,7 +266,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie ŭ pamiaci praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:391
+#: powerdevilcore.cpp:407
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -271,13 +276,13 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Jak maha chutčej zapišy vynik svajoj "
 "pracy!"
 
-#: powerdevilcore.cpp:397
+#: powerdevilcore.cpp:413
 #, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
 msgstr "Zarad tvajoj batarei vymahaje ŭvahi."
 
-#: powerdevilcore.cpp:402
+#: powerdevilcore.cpp:418
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
@@ -311,6 +316,13 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
+
+#~ msgid ""
+#~ "The application %1 is inhibiting suspension for the following reason:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Aplikacyja „%1” hetak tłumačyć admaŭleńnie ad snu:\n"
+#~ "%2"
 
 #~ msgid "PowerDevil"
 #~ msgstr "PowerDevil"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:12+0200\n"
+"POT-Creation-Date: 2010-11-01 06:11+0100\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,10 +19,10 @@ msgstr ""
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:57
-#: actions/bundled/suspendsessionconfig.cpp:71
-#: actions/bundled/runscriptconfig.cpp:76
-#: actions/bundled/disabledesktopeffectsconfig.cpp:65
-#: actions/bundled/dimdisplayconfig.cpp:60
+#: actions/bundled/suspendsessionconfig.cpp:74
+#: actions/bundled/runscriptconfig.cpp:78
+#: actions/bundled/disabledesktopeffectsconfig.cpp:67
+#: actions/bundled/dimdisplayconfig.cpp:61
 msgid " min"
 msgstr " chv"
 
@@ -36,90 +36,90 @@ msgstr "&Vyklučy praz"
 msgid "Level"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:75
-#: actions/bundled/handlebuttoneventsconfig.cpp:77
+#: actions/bundled/suspendsessionconfig.cpp:78
+#: actions/bundled/handlebuttoneventsconfig.cpp:78
 msgid "Do nothing"
 msgstr "Ničoha nie rabi"
 
-#: actions/bundled/suspendsessionconfig.cpp:77
-#: actions/bundled/handlebuttoneventsconfig.cpp:79
+#: actions/bundled/suspendsessionconfig.cpp:80
+#: actions/bundled/handlebuttoneventsconfig.cpp:80
 msgid "Sleep"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:80
-#: actions/bundled/handlebuttoneventsconfig.cpp:82
+#: actions/bundled/suspendsessionconfig.cpp:83
+#: actions/bundled/handlebuttoneventsconfig.cpp:83
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:82
-#: actions/bundled/handlebuttoneventsconfig.cpp:84
+#: actions/bundled/suspendsessionconfig.cpp:85
+#: actions/bundled/handlebuttoneventsconfig.cpp:85
 msgid "Shutdown"
 msgstr "Vyklučy kamputar"
 
-#: actions/bundled/suspendsessionconfig.cpp:83
-#: actions/bundled/handlebuttoneventsconfig.cpp:85
+#: actions/bundled/suspendsessionconfig.cpp:86
+#: actions/bundled/handlebuttoneventsconfig.cpp:86
 #, fuzzy
 #| msgid "Lock Screen"
 msgid "Lock screen"
 msgstr "Zablakuj ekran"
 
-#: actions/bundled/suspendsessionconfig.cpp:92
-#: actions/bundled/runscriptconfig.cpp:79
-#: actions/bundled/runscriptconfig.cpp:100
-#: actions/bundled/disabledesktopeffectsconfig.cpp:68
-#: actions/bundled/disabledesktopeffectsconfig.cpp:89
-#: actions/bundled/dimdisplayconfig.cpp:61
+#: actions/bundled/suspendsessionconfig.cpp:95
+#: actions/bundled/runscriptconfig.cpp:81
+#: actions/bundled/runscriptconfig.cpp:102
+#: actions/bundled/disabledesktopeffectsconfig.cpp:70
+#: actions/bundled/disabledesktopeffectsconfig.cpp:91
+#: actions/bundled/dimdisplayconfig.cpp:62
 msgid "After"
 msgstr ""
 
-#: actions/bundled/runscriptconfig.cpp:68
+#: actions/bundled/runscriptconfig.cpp:70
 msgid "Script"
 msgstr ""
 
-#: actions/bundled/runscriptconfig.cpp:77
-#: actions/bundled/disabledesktopeffectsconfig.cpp:67
+#: actions/bundled/runscriptconfig.cpp:79
+#: actions/bundled/disabledesktopeffectsconfig.cpp:69
 #, fuzzy
 #| msgid "New Profile"
 msgid "On Profile Load"
 msgstr "Novy profil"
 
-#: actions/bundled/runscriptconfig.cpp:78
+#: actions/bundled/runscriptconfig.cpp:80
 msgid "On Profile Unload"
 msgstr ""
 
-#: actions/bundled/runscriptconfig.cpp:89
+#: actions/bundled/runscriptconfig.cpp:91
 msgid "Run script"
 msgstr ""
 
-#: actions/bundled/disabledesktopeffectsconfig.cpp:79
+#: actions/bundled/disabledesktopeffectsconfig.cpp:81
 #, fuzzy
 #| msgid "Disable KWin compositing, if active"
 msgid "Disable effects"
 msgstr "Vyklučy kampazycyju akońnika „KWin”, kali jana ŭklučanaja"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:87
+#: actions/bundled/handlebuttoneventsconfig.cpp:88
 #, fuzzy
 #| msgid "Prompt Log out dialog"
 msgid "Prompt log out dialog"
 msgstr "Pakazvaj akno vychadu"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:89
+#: actions/bundled/handlebuttoneventsconfig.cpp:90
 msgid "Turn off screen"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:98
+#: actions/bundled/handlebuttoneventsconfig.cpp:99
 #, fuzzy
 #| msgid "When Laptop Lid Closed"
 msgid "When laptop lid closed"
 msgstr "Kali laptop začynieny"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:99
+#: actions/bundled/handlebuttoneventsconfig.cpp:100
 #, fuzzy
 #| msgid "When Power Button pressed"
 msgid "When power button pressed"
 msgstr "Kali nacisnutaja knopka ŭklučeńnia"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:100
+#: actions/bundled/handlebuttoneventsconfig.cpp:101
 #, fuzzy
 #| msgid "When Sleep Button pressed"
 msgid "When sleep button pressed"
@@ -131,31 +131,29 @@ msgstr "Kali nacisnutaja knopka snu"
 msgid "Unsupported suspend method"
 msgstr "Viadomyja sposaby snu"
 
-#: kdedpowerdevil.cpp:48
+#: kdedpowerdevil.cpp:49
 #, fuzzy
 #| msgid "A Power Management tool for KDE4"
 msgid "KDE Power Management System"
 msgstr "Pryłada dla kiravańnia enerhijaj u systemie „KDE4”"
 
-#: kdedpowerdevil.cpp:49
+#: kdedpowerdevil.cpp:50
 msgid ""
 "KDE Power Management System is PowerDevil, an advanced, modular and "
 "lightweight Power Management daemon"
 msgstr ""
 
-#: kdedpowerdevil.cpp:52
+#: kdedpowerdevil.cpp:53
 msgid "(c) 2010 MetalWorkers Co."
 msgstr ""
 
-#: kdedpowerdevil.cpp:55
+#: kdedpowerdevil.cpp:56
 msgid "Dario Freddi"
 msgstr "Dario Freddi"
 
-#: kdedpowerdevil.cpp:55
-#, fuzzy
-#| msgid "Main Developer"
-msgid "Developer"
-msgstr "Hałoŭny raspracoŭnik"
+#: kdedpowerdevil.cpp:56
+msgid "Maintainer"
+msgstr "Dahladnik"
 
 #: powerdevilcore.cpp:78
 msgid ""
@@ -317,6 +315,11 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
+#, fuzzy
+#~| msgid "Main Developer"
+#~ msgid "Developer"
+#~ msgstr "Hałoŭny raspracoŭnik"
+
 #~ msgid ""
 #~ "The application %1 is inhibiting suspension for the following reason:\n"
 #~ "%2"
@@ -336,9 +339,6 @@ msgstr "ihar.hrachyshka@gmail.com"
 #~| msgid "(c), 2008 Dario Freddi"
 #~ msgid "(c) 2008 Dario Freddi"
 #~ msgstr "© 2008 Dario Freddi"
-
-#~ msgid "Maintainer"
-#~ msgstr "Dahladnik"
 
 #, fuzzy
 #~| msgid "The power adaptor has been plugged in"

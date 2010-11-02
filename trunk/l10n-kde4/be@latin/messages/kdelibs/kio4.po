@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:15+0200\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3169,7 +3169,7 @@ msgstr ""
 msgid "P&review"
 msgstr "&Padhlad"
 
-#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:308
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:406
 #, fuzzy
 #| msgid "Comment"
 msgctxt "@label"
@@ -4063,61 +4063,63 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
 
-#: kfile/kfilemetadatawidget.cpp:541
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Size:"
-msgstr "Pamier:"
-
-#: kfile/kfilemetadatawidget.cpp:558
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size:"
-msgstr "Pamier:"
-
-#: kfile/kfilemetadatawidget.cpp:642
-#, fuzzy
-#| msgid "Type:"
-msgctxt "@label file type"
-msgid "Type:"
-msgstr "Typ:"
-
-#: kfile/kfilemetadatawidget.cpp:644
+#: kfile/kfilemetadataprovider.cpp:407
 #, fuzzy
 #| msgid "Modified:"
 msgctxt "@label"
-msgid "Modified:"
+msgid "Modified"
 msgstr "Admienieny:"
 
-#: kfile/kfilemetadatawidget.cpp:645
+#: kfile/kfilemetadataprovider.cpp:408
 #, fuzzy
-#| msgid "Owner:"
+#| msgid "Owner"
 msgctxt "@label"
-msgid "Owner:"
-msgstr "Ułaśnik:"
+msgid "Owner"
+msgstr "Ułaśnik"
 
-#: kfile/kfilemetadatawidget.cpp:646
+#: kfile/kfilemetadataprovider.cpp:409
 #, fuzzy
-#| msgid "Permissions:"
+#| msgctxt "@title:column"
+#| msgid "Permissions"
 msgctxt "@label"
-msgid "Permissions:"
-msgstr "Dazvoły:"
+msgid "Permissions"
+msgstr "Dazvoły"
 
-#: kfile/kfilemetadataprovider.cpp:304
+#: kfile/kfilemetadataprovider.cpp:410
 #, fuzzy
 #| msgid "Sorting"
 msgctxt "@label"
 msgid "Rating"
 msgstr "Paradak"
 
-#: kfile/kfilemetadataprovider.cpp:306
+#: kfile/kfilemetadataprovider.cpp:411
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Pamier"
+
+#: kfile/kfilemetadataprovider.cpp:412
 #, fuzzy
 #| msgid "Trash"
 msgctxt "@label"
 msgid "Tags"
 msgstr "Śmietnica"
+
+#: kfile/kfilemetadataprovider.cpp:413
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Pamier:"
+
+#: kfile/kfilemetadataprovider.cpp:414
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Typ"
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
@@ -4252,43 +4254,6 @@ msgstr "Kamentar"
 msgctxt "@title:window"
 msgid "Add Comment"
 msgstr "Kamentar"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:171
-#, fuzzy
-#| msgid "Type"
-msgctxt "@item::inlistbox"
-msgid "Type"
-msgstr "Typ"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:172
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Size"
-msgctxt "@item::inlistbox"
-msgid "Size"
-msgstr "Pamier"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:173
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@item::inlistbox"
-msgid "Modified"
-msgstr "Admienieny:"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:174
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@item::inlistbox"
-msgid "Owner"
-msgstr "Ułaśnik"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:175
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Permissions"
-msgctxt "@item::inlistbox"
-msgid "Permissions"
-msgstr "Dazvoły"
 
 #: misc/ksendbugmail/main.cpp:43
 msgid "Error connecting to server."
@@ -6958,6 +6923,68 @@ msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
 msgid "Show Hidden Folders"
 msgstr "Pakažy schavanyja katalohi"
 
+#, fuzzy
+#~| msgid "Size:"
+#~ msgctxt "@label"
+#~ msgid "Size:"
+#~ msgstr "Pamier:"
+
+#, fuzzy
+#~| msgid "Type:"
+#~ msgctxt "@label file type"
+#~ msgid "Type:"
+#~ msgstr "Typ:"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@label"
+#~ msgid "Modified:"
+#~ msgstr "Admienieny:"
+
+#, fuzzy
+#~| msgid "Owner:"
+#~ msgctxt "@label"
+#~ msgid "Owner:"
+#~ msgstr "Ułaśnik:"
+
+#, fuzzy
+#~| msgid "Permissions:"
+#~ msgctxt "@label"
+#~ msgid "Permissions:"
+#~ msgstr "Dazvoły:"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Size"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Size"
+#~ msgstr "Pamier"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Modified"
+#~ msgstr "Admienieny:"
+
+#, fuzzy
+#~| msgid "Owner"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Owner"
+#~ msgstr "Ułaśnik"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Permissions"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Permissions"
+#~ msgstr "Dazvoły"
+
 #~ msgid "Unmounted Icon"
 #~ msgstr "Ikona admantavanaj pryłady"
 
@@ -6978,32 +7005,6 @@ msgstr "Pakažy schavanyja katalohi"
 #~ msgstr ""
 #~ "Hetaja aperacyja nadpisała b fajł „%1” samym saboj.\n"
 #~ "Upišy novuju nazvu fajła:"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Size"
-#~ msgctxt "@label"
-#~ msgid "Size"
-#~ msgstr "Pamier"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label"
-#~ msgid "Modified"
-#~ msgstr "Admienieny:"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@label"
-#~ msgid "Owner"
-#~ msgstr "Ułaśnik"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Permissions"
-#~ msgctxt "@label"
-#~ msgid "Permissions"
-#~ msgstr "Dazvoły"
 
 #~ msgctxt "Available space out of total partition size (percent used)"
 #~ msgid "%1 out of %2 (%3% used)"

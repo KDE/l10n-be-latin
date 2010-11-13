@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-12 06:36+0100\n"
+"POT-Creation-Date: 2010-11-13 12:16+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2312,10 +2312,6 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "Paćviardžeńnie dla anulavańnia kapijavańnia"
 
-#: kio/accessmanagerreply_p.cpp:69
-msgid "Blocked request."
-msgstr "Zablakavany zapyt."
-
 #: kio/pastedialog.cpp:55
 msgid "Data format:"
 msgstr "Farmat źviestak:"
@@ -2712,6 +2708,16 @@ msgstr "Hrupa"
 msgctxt "@title:column"
 msgid "Type"
 msgstr "Typ"
+
+#: kio/accessmanager.cpp:154
+msgid "Blocked request."
+msgstr "Zablakavany zapyt."
+
+#: kio/accessmanager.cpp:192
+#, fuzzy
+#| msgid "Unknown Host"
+msgid "Unknown HTTP verb."
+msgstr "Nieviadomy host"
 
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."

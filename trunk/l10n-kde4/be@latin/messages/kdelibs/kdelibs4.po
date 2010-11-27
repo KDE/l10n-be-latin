@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-26 06:29+0100\n"
+"POT-Creation-Date: 2010-11-27 06:49+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4480,7 +4480,7 @@ msgstr "Aplikacyja KDE"
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kernel/kcmdlineargs.cpp:496 khtml/khtml_part.cpp:4816
+#: kdecore/kernel/kcmdlineargs.cpp:496 khtml/khtml_part.cpp:4814
 msgid "KDE"
 msgstr "KDE"
 
@@ -6634,7 +6634,7 @@ msgstr "Plugin „%1” vykarystoŭvaje niaŭzhodnienuju biblijateku KDE („%2�
 msgid "Access Keys activated"
 msgstr ""
 
-#: khtml/khtmlview.cpp:2799 khtml/khtmlview.cpp:2841 khtml/khtml_part.cpp:4763
+#: khtml/khtmlview.cpp:2799 khtml/khtmlview.cpp:2841 khtml/khtml_part.cpp:4761
 #: khtml/html/html_formimpl.cpp:1632 khtml/html/html_formimpl.cpp:1844
 msgid "Submit"
 msgstr "Pierašli"
@@ -7278,7 +7278,7 @@ msgstr "&Znajdzi ŭ frejmie..."
 msgid "&Find..."
 msgstr "&Znajdzi..."
 
-#: khtml/khtml_part.cpp:4704
+#: khtml/khtml_part.cpp:4702
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -7290,16 +7290,16 @@ msgstr ""
 "Inšy karystańnik sieciva moža pierachapić ich i pračytać.\n"
 "Ty sapraŭdy chočaš praciahnuć?"
 
-#: khtml/khtml_part.cpp:4707 khtml/khtml_part.cpp:4716
-#: khtml/khtml_part.cpp:4740
+#: khtml/khtml_part.cpp:4705 khtml/khtml_part.cpp:4714
+#: khtml/khtml_part.cpp:4738
 msgid "Network Transmission"
 msgstr "Sietkavaje vysyłańnie"
 
-#: khtml/khtml_part.cpp:4707 khtml/khtml_part.cpp:4717
+#: khtml/khtml_part.cpp:4705 khtml/khtml_part.cpp:4715
 msgid "&Send Unencrypted"
 msgstr "&Vyšli niezašyfravanymi"
 
-#: khtml/khtml_part.cpp:4714
+#: khtml/khtml_part.cpp:4712
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -7308,7 +7308,7 @@ msgstr ""
 "Uvaha: Tvaje źviestki buduć pierasłanyja praź sieciva niezašyfravanymi.\n"
 "Ty sapraŭdy chočaš praciahnuć?"
 
-#: khtml/khtml_part.cpp:4738
+#: khtml/khtml_part.cpp:4736
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -7316,11 +7316,11 @@ msgstr ""
 "Hety sajt sprabuje vysłać źviestki, upisanyja ŭ formu, e-maiłam.\n"
 "Ty sapraŭdy chočaš praciahnuć?"
 
-#: khtml/khtml_part.cpp:4741
+#: khtml/khtml_part.cpp:4739
 msgid "&Send Email"
 msgstr "&Vyšli e-maiłam"
 
-#: khtml/khtml_part.cpp:4762
+#: khtml/khtml_part.cpp:4760
 #, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
@@ -7329,7 +7329,7 @@ msgstr ""
 "<qt>Forma budzie pierasłanaja da <br /><b>%1</b><br /> na fajłavaj systemie."
 "<br />Chočaš jaje pierasłać?</qt>"
 
-#: khtml/khtml_part.cpp:4816
+#: khtml/khtml_part.cpp:4814
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-03 02:18+0100\n"
+"POT-Creation-Date: 2011-01-08 02:21+0100\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: actions/dpms/powerdevildpmsactionconfig.cpp:57
-#: actions/bundled/suspendsessionconfig.cpp:73
-#: actions/bundled/runscriptconfig.cpp:78
-#: actions/bundled/disabledesktopeffectsconfig.cpp:67
-#: actions/bundled/dimdisplayconfig.cpp:61
+#: actions/dpms/powerdevildpmsactionconfig.cpp:59
+#: actions/bundled/suspendsessionconfig.cpp:75
+#: actions/bundled/runscriptconfig.cpp:80
+#: actions/bundled/disabledesktopeffectsconfig.cpp:69
+#: actions/bundled/dimdisplayconfig.cpp:63
 msgid " min"
 msgstr " chv"
 
-#: actions/dpms/powerdevildpmsactionconfig.cpp:58
+#: actions/dpms/powerdevildpmsactionconfig.cpp:60
 #, fuzzy
 #| msgid "&Power off after"
 msgid "Switch off after"
@@ -42,22 +42,22 @@ msgid "Do nothing"
 msgstr "Ničoha nie rabi"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:77
-#: actions/bundled/suspendsessionconfig.cpp:78
+#: actions/bundled/suspendsessionconfig.cpp:80
 msgid "Sleep"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:80
-#: actions/bundled/suspendsessionconfig.cpp:81
+#: actions/bundled/suspendsessionconfig.cpp:83
 msgid "Hibernate"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:82
-#: actions/bundled/suspendsessionconfig.cpp:83
+#: actions/bundled/suspendsessionconfig.cpp:85
 msgid "Shutdown"
 msgstr "Vyklučy kamputar"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:83
-#: actions/bundled/suspendsessionconfig.cpp:84
+#: actions/bundled/suspendsessionconfig.cpp:86
 #, fuzzy
 #| msgid "Lock Screen"
 msgid "Lock screen"
@@ -85,12 +85,12 @@ msgstr "Kali laptop začynieny"
 msgid "When power button pressed"
 msgstr "Kali nacisnutaja knopka ŭklučeńnia"
 
-#: actions/bundled/suspendsessionconfig.cpp:93
-#: actions/bundled/runscriptconfig.cpp:81
-#: actions/bundled/runscriptconfig.cpp:102
-#: actions/bundled/disabledesktopeffectsconfig.cpp:70
-#: actions/bundled/disabledesktopeffectsconfig.cpp:91
-#: actions/bundled/dimdisplayconfig.cpp:62
+#: actions/bundled/suspendsessionconfig.cpp:95
+#: actions/bundled/runscriptconfig.cpp:83
+#: actions/bundled/runscriptconfig.cpp:104
+#: actions/bundled/disabledesktopeffectsconfig.cpp:72
+#: actions/bundled/disabledesktopeffectsconfig.cpp:93
+#: actions/bundled/dimdisplayconfig.cpp:64
 msgid "After"
 msgstr ""
 
@@ -98,22 +98,22 @@ msgstr ""
 msgid "Script"
 msgstr ""
 
-#: actions/bundled/runscriptconfig.cpp:79
-#: actions/bundled/disabledesktopeffectsconfig.cpp:69
+#: actions/bundled/runscriptconfig.cpp:81
+#: actions/bundled/disabledesktopeffectsconfig.cpp:71
 #, fuzzy
 #| msgid "New Profile"
 msgid "On Profile Load"
 msgstr "Novy profil"
 
-#: actions/bundled/runscriptconfig.cpp:80
+#: actions/bundled/runscriptconfig.cpp:82
 msgid "On Profile Unload"
 msgstr ""
 
-#: actions/bundled/runscriptconfig.cpp:91
+#: actions/bundled/runscriptconfig.cpp:93
 msgid "Run script"
 msgstr ""
 
-#: actions/bundled/disabledesktopeffectsconfig.cpp:81
+#: actions/bundled/disabledesktopeffectsconfig.cpp:83
 #, fuzzy
 #| msgid "Disable KWin compositing, if active"
 msgid "Disable effects"

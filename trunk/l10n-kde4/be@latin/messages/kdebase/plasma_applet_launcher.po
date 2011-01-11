@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-01-11 02:36+0100\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -65,30 +65,30 @@ msgstr ""
 msgid "Run Command..."
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:202 core/leavemodel.cpp:56
+#: simpleapplet/simpleapplet.cpp:202 core/leavemodel.cpp:57
 msgid "Switch User"
 msgstr "Źmiani karystańnika"
 
-#: simpleapplet/simpleapplet.cpp:203 core/leavemodel.cpp:68
+#: simpleapplet/simpleapplet.cpp:203 core/leavemodel.cpp:69
 msgid "Save Session"
 msgstr "Zapišy sesiju"
 
-#: simpleapplet/simpleapplet.cpp:204 core/leavemodel.cpp:54
+#: simpleapplet/simpleapplet.cpp:204 core/leavemodel.cpp:55
 #, fuzzy
 #| msgid "Lock the screen"
 msgid "Lock Screen"
 msgstr "Zablakuj ekran"
 
-#: simpleapplet/simpleapplet.cpp:205 core/leavemodel.cpp:72
+#: simpleapplet/simpleapplet.cpp:205 core/leavemodel.cpp:73
 msgctxt "Puts the system on standby"
 msgid "Standby"
 msgstr "Pačakaj"
 
-#: simpleapplet/simpleapplet.cpp:206 core/leavemodel.cpp:76
+#: simpleapplet/simpleapplet.cpp:206 core/leavemodel.cpp:77
 msgid "Hibernate"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:207 core/leavemodel.cpp:80
+#: simpleapplet/simpleapplet.cpp:207 core/leavemodel.cpp:81
 msgid "Sleep"
 msgstr ""
 
@@ -100,19 +100,19 @@ msgctxt "Restart Computer"
 msgid "Restart"
 msgstr "Uklučy kamputar nanoŭ"
 
-#: simpleapplet/simpleapplet.cpp:209 core/leavemodel.cpp:60
+#: simpleapplet/simpleapplet.cpp:209 core/leavemodel.cpp:61
 #, fuzzy
 #| msgid "Shutdown"
 msgid "Shut down"
 msgstr "Vyklučy kamputar"
 
-#: simpleapplet/simpleapplet.cpp:210 core/leavemodel.cpp:48
+#: simpleapplet/simpleapplet.cpp:210 core/leavemodel.cpp:49
 #, fuzzy
 #| msgid "Logout"
 msgid "Log out"
 msgstr "Vyjdzi"
 
-#: simpleapplet/simpleapplet.cpp:211 core/leavemodel.cpp:105
+#: simpleapplet/simpleapplet.cpp:211 core/leavemodel.cpp:106
 #: ui/launcher.cpp:163
 msgid "Leave"
 msgstr "Vyjdzi"
@@ -238,25 +238,25 @@ msgstr "Nośbit"
 msgid "Run a command or a search query"
 msgstr ""
 
-#: core/leavemodel.cpp:50
+#: core/leavemodel.cpp:51
 msgid "End session"
 msgstr "Skončy sesiju"
 
-#: core/leavemodel.cpp:52
+#: core/leavemodel.cpp:53
 msgid "Lock"
 msgstr "Zablakuj"
 
-#: core/leavemodel.cpp:58
+#: core/leavemodel.cpp:59
 msgid "Start a parallel session as a different user"
 msgstr "Pačni jašče adnu sesiju dla inšaha karystańnika"
 
-#: core/leavemodel.cpp:62
+#: core/leavemodel.cpp:63
 #, fuzzy
 #| msgid "Turn off the computer"
 msgid "Turn off computer"
 msgstr "Vyklučy kamputar"
 
-#: core/leavemodel.cpp:64
+#: core/leavemodel.cpp:65
 #, fuzzy
 #| msgctxt "Restart the computer"
 #| msgid "Restart"
@@ -264,35 +264,35 @@ msgctxt "Restart computer"
 msgid "Restart"
 msgstr "Uklučy kamputar nanoŭ"
 
-#: core/leavemodel.cpp:66
+#: core/leavemodel.cpp:67
 #, fuzzy
 #| msgid "Restart the computer"
 msgid "Restart Computer"
 msgstr "Uklučy kamputar nanoŭ"
 
-#: core/leavemodel.cpp:70
+#: core/leavemodel.cpp:71
 msgid "Save current session for next login"
 msgstr "Zapišy dziejnuju sesiju, kab uznavić pry nastupnym uvachodzie"
 
-#: core/leavemodel.cpp:74
+#: core/leavemodel.cpp:75
 msgid "Pause without logging out"
 msgstr "Prypyni biaz vychadu"
 
-#: core/leavemodel.cpp:78
+#: core/leavemodel.cpp:79
 #, fuzzy
 #| msgid "Suspend to Disk"
 msgid "Suspend to disk"
 msgstr "Zaśni na dysku"
 
-#: core/leavemodel.cpp:82
+#: core/leavemodel.cpp:83
 msgid "Suspend to RAM"
 msgstr "Zaśni ŭ pamiaci"
 
-#: core/leavemodel.cpp:117
+#: core/leavemodel.cpp:118
 msgid "Session"
 msgstr "Sesija"
 
-#: core/leavemodel.cpp:139
+#: core/leavemodel.cpp:146
 msgid "System"
 msgstr "Systema"
 
@@ -315,34 +315,6 @@ msgstr "Usie aplikacyi"
 #: core/recentlyusedmodel.cpp:109
 msgid "Documents"
 msgstr "Dakumenty"
-
-#: ui/contextmenufactory.cpp:83
-msgid "Advanced"
-msgstr "Asablivaje"
-
-#: ui/contextmenufactory.cpp:158
-msgid "Remove From Favorites"
-msgstr "Vydali z ułasnaha"
-
-#: ui/contextmenufactory.cpp:163
-msgid "Add to Favorites"
-msgstr "Dadaj va ŭłasnaje"
-
-#: ui/contextmenufactory.cpp:195
-msgid "Add to Desktop"
-msgstr "Dadaj na stoł"
-
-#: ui/contextmenufactory.cpp:203
-msgid "Add to Panel"
-msgstr "Dadaj na panel"
-
-#: ui/contextmenufactory.cpp:228
-msgid "Eject"
-msgstr "Vysuń"
-
-#: ui/contextmenufactory.cpp:230
-msgid "Safely Remove"
-msgstr "Biaśpiečna adłučy"
 
 #: ui/launcher.cpp:178
 msgid "Sort Alphabetically (A to Z)"
@@ -371,6 +343,34 @@ msgstr "Karystańnik <b>%1</b> na <b>%2</b>"
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b> na <b>%3</b>"
+
+#: ui/contextmenufactory.cpp:83
+msgid "Advanced"
+msgstr "Asablivaje"
+
+#: ui/contextmenufactory.cpp:158
+msgid "Remove From Favorites"
+msgstr "Vydali z ułasnaha"
+
+#: ui/contextmenufactory.cpp:163
+msgid "Add to Favorites"
+msgstr "Dadaj va ŭłasnaje"
+
+#: ui/contextmenufactory.cpp:195
+msgid "Add to Desktop"
+msgstr "Dadaj na stoł"
+
+#: ui/contextmenufactory.cpp:203
+msgid "Add to Panel"
+msgstr "Dadaj na panel"
+
+#: ui/contextmenufactory.cpp:228
+msgid "Eject"
+msgstr "Vysuń"
+
+#: ui/contextmenufactory.cpp:230
+msgid "Safely Remove"
+msgstr "Biaśpiečna adłučy"
 
 #: ui/searchbar.cpp:70
 #, fuzzy

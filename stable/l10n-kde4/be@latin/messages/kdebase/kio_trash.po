@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 14:25+0100\n"
+"POT-Creation-Date: 2011-02-02 12:17+0100\n"
 "PO-Revision-Date: 2008-12-27 00:01+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -17,30 +17,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: kio_trash_win.cpp:228 kio_trash.cpp:140
-msgid "This file is already in the trash bin."
-msgstr "Hety fajł užo lažyć u śmietnicy."
-
-#: kio_trash_win.cpp:241
-msgid "not supported"
-msgstr ""
-
-#: kio_trash_win.cpp:252 kio_trash.cpp:228
-msgid "Internal error in copyOrMove, should never happen"
-msgstr ""
-
-#: trashimpl.cpp:1125
-msgid ""
-"The trash has reached its maximum size!\n"
-"Cleanup the trash manually."
-msgstr ""
-"Śmietnica zapoŭniłasia!\n"
-"Vyčyści jaje samastojna."
-
-#: trashimpl.cpp:1136
-msgid "The file is too large to be trashed."
-msgstr "Fajł nadta vialiki dla śmietnicy."
 
 #: kcmtrash.cpp:120
 msgid "Byte"
@@ -167,6 +143,18 @@ msgstr ""
 "miescy. Možna stvaryć hety kataloh i paŭtaryć sprobu ŭznaŭleńnia albo "
 "pieraciahnuć patrebny fajł u inšaje miesca."
 
+#: kio_trash.cpp:140 kio_trash_win.cpp:228
+msgid "This file is already in the trash bin."
+msgstr "Hety fajł užo lažyć u śmietnicy."
+
+#: kio_trash.cpp:228 kio_trash_win.cpp:252
+msgid "Internal error in copyOrMove, should never happen"
+msgstr ""
+
+#: kio_trash_win.cpp:241
+msgid "not supported"
+msgstr ""
+
 #: ktrash.cpp:32
 msgid "ktrash"
 msgstr "ktrash"
@@ -192,6 +180,18 @@ msgstr "Uznavi vykinuty fajł u byłym miescy"
 #: ktrash.cpp:42
 msgid "Ignored"
 msgstr "Abminuta"
+
+#: trashimpl.cpp:1125
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
+msgstr ""
+"Śmietnica zapoŭniłasia!\n"
+"Vyčyści jaje samastojna."
+
+#: trashimpl.cpp:1136
+msgid "The file is too large to be trashed."
+msgstr "Fajł nadta vialiki dla śmietnicy."
 
 #~ msgid "Protocol name"
 #~ msgstr "Nazva pratakoła"

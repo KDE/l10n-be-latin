@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-25 02:50+0100\n"
+"POT-Creation-Date: 2011-02-02 03:07+0100\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,74 +18,34 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: actions/dpms/powerdevildpmsactionconfig.cpp:59
-#: actions/bundled/suspendsessionconfig.cpp:75
-#: actions/bundled/runscriptconfig.cpp:80
-#: actions/bundled/disabledesktopeffectsconfig.cpp:69
-#: actions/bundled/dimdisplayconfig.cpp:63
-msgid " min"
-msgstr " chv"
-
-#: actions/dpms/powerdevildpmsactionconfig.cpp:60
-#, fuzzy
-#| msgid "&Power off after"
-msgid "Switch off after"
-msgstr "&Vyklučy praz"
-
 #: actions/bundled/brightnesscontrolconfig.cpp:63
 msgctxt "Brightness level, label for the slider"
 msgid "Level"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:80
-#: actions/bundled/handlebuttoneventsconfig.cpp:79
-msgid "Sleep"
-msgstr ""
+#: actions/bundled/dimdisplayconfig.cpp:63
+#: actions/bundled/disabledesktopeffectsconfig.cpp:69
+#: actions/bundled/runscriptconfig.cpp:80
+#: actions/bundled/suspendsessionconfig.cpp:75
+#: actions/dpms/powerdevildpmsactionconfig.cpp:59
+msgid " min"
+msgstr " chv"
 
-#: actions/bundled/suspendsessionconfig.cpp:83
-#: actions/bundled/handlebuttoneventsconfig.cpp:82
-msgid "Hibernate"
-msgstr ""
-
-#: actions/bundled/suspendsessionconfig.cpp:85
-#: actions/bundled/handlebuttoneventsconfig.cpp:84
-msgid "Shutdown"
-msgstr "Vyklučy kamputar"
-
-#: actions/bundled/suspendsessionconfig.cpp:86
-#: actions/bundled/handlebuttoneventsconfig.cpp:85
-#, fuzzy
-#| msgid "Lock Screen"
-msgid "Lock screen"
-msgstr "Zablakuj ekran"
-
-#: actions/bundled/suspendsessionconfig.cpp:95
-#: actions/bundled/runscriptconfig.cpp:83
-#: actions/bundled/runscriptconfig.cpp:104
+#: actions/bundled/dimdisplayconfig.cpp:64
 #: actions/bundled/disabledesktopeffectsconfig.cpp:72
 #: actions/bundled/disabledesktopeffectsconfig.cpp:93
-#: actions/bundled/dimdisplayconfig.cpp:64
+#: actions/bundled/runscriptconfig.cpp:83
+#: actions/bundled/runscriptconfig.cpp:104
+#: actions/bundled/suspendsessionconfig.cpp:95
 msgid "After"
 msgstr ""
 
-#: actions/bundled/runscriptconfig.cpp:70
-msgid "Script"
-msgstr ""
-
-#: actions/bundled/runscriptconfig.cpp:81
 #: actions/bundled/disabledesktopeffectsconfig.cpp:71
+#: actions/bundled/runscriptconfig.cpp:81
 #, fuzzy
 #| msgid "New Profile"
 msgid "On Profile Load"
 msgstr "Novy profil"
-
-#: actions/bundled/runscriptconfig.cpp:82
-msgid "On Profile Unload"
-msgstr ""
-
-#: actions/bundled/runscriptconfig.cpp:93
-msgid "Run script"
-msgstr ""
 
 #: actions/bundled/disabledesktopeffectsconfig.cpp:83
 #, fuzzy
@@ -93,13 +53,31 @@ msgstr ""
 msgid "Disable effects"
 msgstr "Vyklučy kampazycyju akońnika „KWin”, kali jana ŭklučanaja"
 
-#: actions/bundled/suspendsession.cpp:114
-msgid "The screen is being locked"
-msgstr "Ekran zablakavany"
-
 #: actions/bundled/handlebuttoneventsconfig.cpp:77
 msgid "Do nothing"
 msgstr "Ničoha nie rabi"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:79
+#: actions/bundled/suspendsessionconfig.cpp:80
+msgid "Sleep"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:82
+#: actions/bundled/suspendsessionconfig.cpp:83
+msgid "Hibernate"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:84
+#: actions/bundled/suspendsessionconfig.cpp:85
+msgid "Shutdown"
+msgstr "Vyklučy kamputar"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:85
+#: actions/bundled/suspendsessionconfig.cpp:86
+#, fuzzy
+#| msgid "Lock Screen"
+msgid "Lock screen"
+msgstr "Zablakuj ekran"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:87
 #, fuzzy
@@ -122,6 +100,28 @@ msgstr "Kali laptop začynieny"
 #| msgid "When Power Button pressed"
 msgid "When power button pressed"
 msgstr "Kali nacisnutaja knopka ŭklučeńnia"
+
+#: actions/bundled/runscriptconfig.cpp:70
+msgid "Script"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:82
+msgid "On Profile Unload"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:93
+msgid "Run script"
+msgstr ""
+
+#: actions/bundled/suspendsession.cpp:114
+msgid "The screen is being locked"
+msgstr "Ekran zablakavany"
+
+#: actions/dpms/powerdevildpmsactionconfig.cpp:60
+#, fuzzy
+#| msgid "&Power off after"
+msgid "Switch off after"
+msgstr "&Vyklučy praz"
 
 #: backends/upower/upowersuspendjob.cpp:76
 #, fuzzy
@@ -153,88 +153,92 @@ msgstr "Dario Freddi"
 msgid "Maintainer"
 msgstr "Dahladnik"
 
-#: powerdevilcore.cpp:69
+#: powerdevilcore.cpp:70
 msgid ""
 "No valid Power Management backend plugins are available. A new installation "
 "might solve this problem."
 msgstr ""
 
-#: powerdevilcore.cpp:97
+#: powerdevilcore.cpp:98
 msgid ""
 "Your Power Profiles have been updated to be used with the new KDE Power "
 "Management System. You can tweak them or generate a new set of defaults from "
 "System Settings."
 msgstr ""
 
-#: powerdevilcore.cpp:149
+#: powerdevilcore.cpp:153
 msgctxt "Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:156
+#: powerdevilcore.cpp:160
 msgctxt "Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:163
+#: powerdevilcore.cpp:167
 msgctxt "Global shortcut"
 msgid "Sleep"
 msgstr ""
 
-#: powerdevilcore.cpp:170
+#: powerdevilcore.cpp:174
 msgctxt "Global shortcut"
 msgid "Hibernate"
 msgstr ""
 
-#: powerdevilcore.cpp:191
+#: powerdevilcore.cpp:197
 #, kde-format
 msgid ""
-"Your battery capacity is %2%. This means your battery is broken and needs a "
+"Your battery capacity is %1%. This means your battery is broken and needs a "
 "replacement. Please contact your hardware vendor for more details."
-msgid_plural ""
-"One of your batteries (ID %3) has a capacity of %2%. This means it is broken "
+msgstr ""
+
+#: powerdevilcore.cpp:203
+#, kde-format
+msgid ""
+"One of your batteries (ID %2) has a capacity of %1%. This means it is broken "
 "and needs a replacement. Please contact your hardware vendor for more "
 "details."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr ""
 
-#: powerdevilcore.cpp:204
+#: powerdevilcore.cpp:216
 #, kde-format
 msgid ""
-"Your battery might have been recalled by %2. Usually, when vendors recall "
+"Your battery might have been recalled by %1. Usually, when vendors recall "
 "the hardware, it is because of factory defects which are usually eligible "
-"for a free repair or substitution. Please check <a href=\"%3\">%2's website</"
+"for a free repair or substitution. Please check <a href=\"%2\">%1's website</"
 "a> to verify if your battery is faulted."
-msgid_plural ""
-"One of your batteries (ID %4) might have been recalled by %2. Usually, when "
-"vendors recall the hardware, it is because of factory defects which are "
-"usually eligible for a free repair or substitution. Please check <a href=\"%3"
-"\">%2's website</a> to verify if your battery is faulted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr ""
 
-#: powerdevilcore.cpp:258
+#: powerdevilcore.cpp:224
+#, kde-format
+msgid ""
+"One of your batteries (ID %3) might have been recalled by %1. Usually, when "
+"vendors recall the hardware, it is because of factory defects which are "
+"usually eligible for a free repair or substitution. Please check <a href=\"%2"
+"\">%1's website</a> to verify if your battery is faulted."
+msgstr ""
+
+#: powerdevilcore.cpp:274
 #, fuzzy
 #| msgid "Performance"
 msgctxt "Name of a power profile"
 msgid "Performance"
 msgstr "Chutkaść"
 
-#: powerdevilcore.cpp:260
+#: powerdevilcore.cpp:276
 #, fuzzy
 #| msgid "Powersave"
 msgctxt "Name of a power profile"
 msgid "Powersave"
 msgstr "Aščadžańnie enerhii"
 
-#: powerdevilcore.cpp:262
+#: powerdevilcore.cpp:278
 msgctxt "Name of a power profile"
 msgid "Aggressive powersave"
 msgstr ""
 
-#: powerdevilcore.cpp:319
+#: powerdevilcore.cpp:335
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -246,14 +250,14 @@ msgstr ""
 "Byŭ vybrany profil „%1”, ale jon nie isnuje!\n"
 "Spraŭdź słušnaść naładaŭ słužby „PowerDevil”."
 
-#: powerdevilcore.cpp:332
+#: powerdevilcore.cpp:348
 #, kde-format
 msgid ""
 "The profile \"%1\" tried to activate %2, a non existent action. This is "
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
 
-#: powerdevilcore.cpp:374
+#: powerdevilcore.cpp:390
 #, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -265,7 +269,7 @@ msgstr ""
 "Nie ŭdałosia spałučycca z interfejsam batarei!\n"
 "Spraudź nałady svajoj systemy."
 
-#: powerdevilcore.cpp:422
+#: powerdevilcore.cpp:438
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -273,19 +277,19 @@ msgid ""
 "been canceled."
 msgstr "Blok siłkavańnia padłučany."
 
-#: powerdevilcore.cpp:424
+#: powerdevilcore.cpp:440
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "Blok siłkavańnia padłučany."
 
-#: powerdevilcore.cpp:427
+#: powerdevilcore.cpp:443
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "Blok siłkavańnia adłučany."
 
-#: powerdevilcore.cpp:433
+#: powerdevilcore.cpp:449
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -293,7 +297,7 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:460
+#: powerdevilcore.cpp:476
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -304,7 +308,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:466
+#: powerdevilcore.cpp:482
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -316,7 +320,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:472
+#: powerdevilcore.cpp:488
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -327,7 +331,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie ŭ pamiaci praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:478
+#: powerdevilcore.cpp:494
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -337,13 +341,13 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Jak maha chutčej zapišy vynik svajoj "
 "pracy!"
 
-#: powerdevilcore.cpp:484
+#: powerdevilcore.cpp:500
 #, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
 msgstr "Zarad tvajoj batarei vymahaje ŭvahi."
 
-#: powerdevilcore.cpp:489
+#: powerdevilcore.cpp:505
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."

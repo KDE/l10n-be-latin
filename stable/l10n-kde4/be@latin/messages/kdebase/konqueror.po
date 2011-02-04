@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 12:17+0100\n"
+"POT-Creation-Date: 2011-02-04 10:21+0100\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -345,28 +345,6 @@ msgstr "%1/s"
 msgid "Stalled"
 msgstr "Zahrazła"
 
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "Padlad &u „%1”"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "Pakažy %1"
-
-#: src/konqhistorydialog.cpp:45
-#, fuzzy
-#| msgid "Clear History"
-msgctxt "@title:window"
-msgid "History"
-msgstr "Vyčyści historyju"
-
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Paradkuj"
-
 #: src/konqhistorymodel.cpp:137
 #, kde-format
 msgid ""
@@ -427,6 +405,11 @@ msgstr "Pavodle &dataŭ"
 msgid "Search in history"
 msgstr "Vyčyści historyju"
 
+#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Paradkuj"
+
 #: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
 msgid "Do you really want to clear the entire history?"
 msgstr "Sapraŭdy chočaš vyčyścić usiu historyju?"
@@ -434,6 +417,155 @@ msgstr "Sapraŭdy chočaš vyčyścić usiu historyju?"
 #: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
 msgid "Clear History?"
 msgstr "Vyčyścić historyju?"
+
+#: src/konqprofiledlg.cpp:111
+msgid "Profile Management"
+msgstr "Kiravańnie profilami"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "&Źmiani nazvu profilu"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "&Vydali profil"
+
+#: src/konqsessiondlg.cpp:77
+msgid "Manage Sessions"
+msgstr "Kiruj sesijami"
+
+#: src/konqsessiondlg.cpp:81
+msgid "&Open"
+msgstr "&Adčyni"
+
+#: src/konqsessiondlg.cpp:175
+#, fuzzy
+#| msgid "Rename session"
+msgid "Rename Session"
+msgstr "Źmiani nazvu sesii"
+
+#: src/konqsessiondlg.cpp:223
+msgid "Save Session"
+msgstr "Zapišy sesiju"
+
+#: src/konqsessiondlg.cpp:247
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr "Sesija z nazvaj „%1” užo isnuje. Chočaš jaje zamianić?"
+
+#: src/konqsessiondlg.cpp:248
+msgid "Session exists. Overwrite?"
+msgstr "Sesija isnuje. Zamianić?"
+
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+"Prahrama „Konqueror” minuły raz kiepska skončyła pracu. Uznavić tuju sesiju?"
+
+#: src/konqsessionmanager.cpp:332
+msgid "Restore Session?"
+msgstr "Uznavić sesiju?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "Uznavi sesiju"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "Nie ŭznaŭlaj"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "Spytaj paźniej"
+
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju "
+"kartku, klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. "
+"Tekst na kartcy aznačaje jejnaje źmieściva. Kab ubačyć poŭnuju nazvu, "
+"źmiaści kursor myšy na patrebnaj kartcy."
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr "Adčyni novuju kartku"
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr "Začyni hetuju kartku"
+
+#: src/konqtabs.cpp:326 src/konqmainwindow.cpp:3612
+msgid "&Reload All Tabs"
+msgstr "&Pieračytaj usie kartki"
+
+#: src/konqtabs.cpp:349 src/konqmainwindow.cpp:2439
+#: src/konqmainwindow.cpp:3550
+msgid "Close &Other Tabs"
+msgstr "Začyni &inšyja kartki"
+
+#: src/konqtabs.cpp:460 src/konqmainwindow.cpp:3523
+msgid "&New Tab"
+msgstr "&Novaja kartka"
+
+#: src/konqtabs.cpp:465
+msgid "&Duplicate Tab"
+msgstr "&Skapijuj kartku"
+
+#: src/konqtabs.cpp:470
+msgid "&Reload Tab"
+msgstr "&Pieračytaj kartku"
+
+#: src/konqtabs.cpp:477
+msgid "Other Tabs"
+msgstr "Inšyja kartki"
+
+#: src/konqtabs.cpp:482
+msgid "D&etach Tab"
+msgstr "&Adčapi kartku"
+
+#: src/konqtabs.cpp:488
+msgid "&Close Tab"
+msgstr "&Začyni kartku"
+
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr "&Anuluj: začynieńnie kartki"
+
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr "&Anuluj: začynieńnie akna"
+
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
+msgstr ""
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "Padlad &u „%1”"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "Pakažy %1"
+
+#: src/konqhistorydialog.cpp:45
+#, fuzzy
+#| msgid "Clear History"
+msgctxt "@title:window"
+msgid "History"
+msgstr "Vyčyści historyju"
 
 #: src/konqmain.cpp:96
 #, fuzzy
@@ -588,11 +720,6 @@ msgstr "Sapraŭdy začynić usie inšyja kartki?"
 msgid "Close Other Tabs Confirmation"
 msgstr "Paćviardžeńnie začynieńnia inšych kartak"
 
-#: src/konqmainwindow.cpp:2439 src/konqmainwindow.cpp:3550
-#: src/konqtabs.cpp:349
-msgid "Close &Other Tabs"
-msgstr "Začyni &inšyja kartki"
-
 #: src/konqmainwindow.cpp:2454
 msgid ""
 "This tab contains changes that have not been submitted.\n"
@@ -733,10 +860,6 @@ msgstr "Padziali prahlad &vertykalna"
 msgid "Split View &Top/Bottom"
 msgstr "Padziali prahlad &haryzantalna"
 
-#: src/konqmainwindow.cpp:3523 src/konqtabs.cpp:460
-msgid "&New Tab"
-msgstr "&Novaja kartka"
-
 #: src/konqmainwindow.cpp:3529
 msgid "&Duplicate Current Tab"
 msgstr "&Skapijuj hetuju kartku"
@@ -789,10 +912,6 @@ msgstr "&Adčytaj profil prahladu"
 #: src/konqmainwindow.cpp:3607 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "&Pieračytaj"
-
-#: src/konqmainwindow.cpp:3612 src/konqtabs.cpp:326
-msgid "&Reload All Tabs"
-msgstr "&Pieračytaj usie kartki"
 
 #: src/konqmainwindow.cpp:3620
 msgid "&Force Reload"
@@ -1133,125 +1252,6 @@ msgstr ""
 "Uźnikła pamyłka ŭ naładžvańni. Ty pryviazaŭ prahramu „Konqueror” da „%1”, "
 "ale jana nia ŭmieje absłuhoŭvać fajłaŭ takoha typu."
 
-#: src/konqprofiledlg.cpp:111
-msgid "Profile Management"
-msgstr "Kiravańnie profilami"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "&Źmiani nazvu profilu"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "&Vydali profil"
-
-#: src/konqsessiondlg.cpp:77
-msgid "Manage Sessions"
-msgstr "Kiruj sesijami"
-
-#: src/konqsessiondlg.cpp:81
-msgid "&Open"
-msgstr "&Adčyni"
-
-#: src/konqsessiondlg.cpp:175
-#, fuzzy
-#| msgid "Rename session"
-msgid "Rename Session"
-msgstr "Źmiani nazvu sesii"
-
-#: src/konqsessiondlg.cpp:223
-msgid "Save Session"
-msgstr "Zapišy sesiju"
-
-#: src/konqsessiondlg.cpp:247
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr "Sesija z nazvaj „%1” užo isnuje. Chočaš jaje zamianić?"
-
-#: src/konqsessiondlg.cpp:248
-msgid "Session exists. Overwrite?"
-msgstr "Sesija isnuje. Zamianić?"
-
-#: src/konqsessionmanager.cpp:330
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-"Prahrama „Konqueror” minuły raz kiepska skončyła pracu. Uznavić tuju sesiju?"
-
-#: src/konqsessionmanager.cpp:332
-msgid "Restore Session?"
-msgstr "Uznavić sesiju?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "Uznavi sesiju"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "Nie ŭznaŭlaj"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "Spytaj paźniej"
-
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju "
-"kartku, klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. "
-"Tekst na kartcy aznačaje jejnaje źmieściva. Kab ubačyć poŭnuju nazvu, "
-"źmiaści kursor myšy na patrebnaj kartcy."
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "Adčyni novuju kartku"
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "Začyni hetuju kartku"
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr "&Skapijuj kartku"
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr "&Pieračytaj kartku"
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr "Inšyja kartki"
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr "&Adčapi kartku"
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "&Začyni kartku"
-
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr "&Anuluj: začynieńnie kartki"
-
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr "&Anuluj: začynieńnie akna"
-
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
 #: src/konqview.cpp:1199
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -1538,6 +1538,25 @@ msgstr ""
 "Nie ŭdałosia znajści ŭ hierarchii vyšejšy element „%1”. Heta ŭnutranaja "
 "pamyłka."
 
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "Nazva:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
+
 #: sidebar/trees/konq_sidebartree.cpp:203
 msgid "&Create New Folder..."
 msgstr "&Stvary novy kataloh..."
@@ -1565,25 +1584,6 @@ msgstr "Stvary novy kataloh"
 #: sidebar/trees/konq_sidebartree.cpp:956
 msgid "Enter folder name:"
 msgstr "Upišy nazvu kataloha:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "Nazva:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
 
 #: sidebar/web_module/web_module.cpp:57
 msgid "&Open Link"

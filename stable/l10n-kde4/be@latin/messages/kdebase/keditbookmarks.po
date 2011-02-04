@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-03 11:05+0100\n"
+"POT-Creation-Date: 2011-02-04 10:21+0100\n"
 "PO-Revision-Date: 2008-10-04 23:44+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -171,6 +171,30 @@ msgstr "Paradkuj pavodle alfabetu"
 #: actionsimpl.cpp:526
 msgid "Delete Items"
 msgstr "Vydali elementy"
+
+#: bookmarkinfowidget.cpp:240
+msgid "Name:"
+msgstr "Nazva:"
+
+#: bookmarkinfowidget.cpp:248
+msgid "Location:"
+msgstr "Miesca:"
+
+#: bookmarkinfowidget.cpp:256
+msgid "Comment:"
+msgstr "Kamentar:"
+
+#: bookmarkinfowidget.cpp:263
+msgid "First viewed:"
+msgstr "Pieršy prahlad:"
+
+#: bookmarkinfowidget.cpp:266
+msgid "Viewed last:"
+msgstr "Apošni prahlad:"
+
+#: bookmarkinfowidget.cpp:269
+msgid "Times visited:"
+msgstr "Kolkaść naviedvańniaŭ:"
 
 #: exporters.cpp:48
 msgid "My Bookmarks"
@@ -534,30 +558,6 @@ msgstr "Možna padać tolki adnu opcyju „--import”."
 #: testlink.cpp:76
 msgid "Checking..."
 msgstr "Spraŭdžvańnie..."
-
-#: bookmarkinfowidget.cpp:240
-msgid "Name:"
-msgstr "Nazva:"
-
-#: bookmarkinfowidget.cpp:248
-msgid "Location:"
-msgstr "Miesca:"
-
-#: bookmarkinfowidget.cpp:256
-msgid "Comment:"
-msgstr "Kamentar:"
-
-#: bookmarkinfowidget.cpp:263
-msgid "First viewed:"
-msgstr "Pieršy prahlad:"
-
-#: bookmarkinfowidget.cpp:266
-msgid "Viewed last:"
-msgstr "Apošni prahlad:"
-
-#: bookmarkinfowidget.cpp:269
-msgid "Times visited:"
-msgstr "Kolkaść naviedvańniaŭ:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

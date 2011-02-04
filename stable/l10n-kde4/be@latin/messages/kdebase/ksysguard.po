@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 12:18+0100\n"
+"POT-Creation-Date: 2011-02-04 10:22+0100\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -775,55 +775,6 @@ msgstr "Upišy kolkaść słupkoŭ dla hetaha rabočaha arkuša."
 msgid "Enter the title of the worksheet here."
 msgstr "Tut upišy nazvu dla hetaha rabočaha arkuša."
 
-#: Workspace.cc:112
-#, kde-format
-msgid "Sheet %1"
-msgstr "Arkuš „%1”"
-
-#: Workspace.cc:171
-#, kde-format
-msgid ""
-"The tab '%1' contains unsaved data.\n"
-"Do you want to save the tab?"
-msgstr ""
-"Kartka „%1” źmiaščaje niezapisanyja źviestki.\n"
-"Chočaš ich zapisać?"
-
-#: Workspace.cc:186
-msgid "*.sgrd|Sensor Files (*.sgrd)"
-msgstr "*.sgrd|Fajły sensaraŭ (*.sgrd)"
-
-#: Workspace.cc:186
-msgid "Select Tab File to Import"
-msgstr "Vybiery fajł kartak, kab zimpartavać jaho"
-
-#: Workspace.cc:214 Workspace.cc:235
-msgid "You do not have a tab that could be saved."
-msgstr "U ciabie niama kartki, jakuju možna zapisać."
-
-#: Workspace.cc:242
-msgid "Export Tab"
-msgstr "Zekspartuj kartku"
-
-#: Workspace.cc:260
-msgid "There are no tabs that could be deleted."
-msgstr "U ciabie niama kartak, jakija možna vydalić."
-
-#: Workspace.cc:300
-#, kde-format
-msgid ""
-"<qt>To propose the current custom tab as a new System Monitor tab, email "
-"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
-"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
-"qt>"
-msgstr ""
-
-#: Workspace.cc:300
-#, fuzzy
-#| msgid "System Monitor"
-msgid "Upload custom System Monitor tab"
-msgstr "Systemny nazirańnik"
-
 #: ksgrd/SensorAgent.cc:109
 #, fuzzy, kde-format
 msgctxt "%1 is a host name"
@@ -1496,6 +1447,55 @@ msgstr ""
 #: ksysguard.cc:551
 msgid "Optional worksheet files to load"
 msgstr "Dadatkovyja fajły rabočych arkušoŭ"
+
+#: Workspace.cc:112
+#, kde-format
+msgid "Sheet %1"
+msgstr "Arkuš „%1”"
+
+#: Workspace.cc:171
+#, kde-format
+msgid ""
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
+msgstr ""
+"Kartka „%1” źmiaščaje niezapisanyja źviestki.\n"
+"Chočaš ich zapisać?"
+
+#: Workspace.cc:186
+msgid "*.sgrd|Sensor Files (*.sgrd)"
+msgstr "*.sgrd|Fajły sensaraŭ (*.sgrd)"
+
+#: Workspace.cc:186
+msgid "Select Tab File to Import"
+msgstr "Vybiery fajł kartak, kab zimpartavać jaho"
+
+#: Workspace.cc:214 Workspace.cc:235
+msgid "You do not have a tab that could be saved."
+msgstr "U ciabie niama kartki, jakuju možna zapisać."
+
+#: Workspace.cc:242
+msgid "Export Tab"
+msgstr "Zekspartuj kartku"
+
+#: Workspace.cc:260
+msgid "There are no tabs that could be deleted."
+msgstr "U ciabie niama kartak, jakija možna vydalić."
+
+#: Workspace.cc:300
+#, kde-format
+msgid ""
+"<qt>To propose the current custom tab as a new System Monitor tab, email "
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
+msgstr ""
+
+#: Workspace.cc:300
+#, fuzzy
+#| msgid "System Monitor"
+msgid "Upload custom System Monitor tab"
+msgstr "Systemny nazirańnik"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

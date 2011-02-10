@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-09 11:40+0100\n"
+"POT-Creation-Date: 2011-02-10 11:45+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -36,19 +36,27 @@ msgid "Unable to load the widget"
 msgstr "Nie ŭdałosia źmiaścić widžet u pamiać"
 
 #: applet.cpp:648
-msgid "Ok"
+#, fuzzy
+#| msgid "Ok"
+msgid "&Ok"
 msgstr "Dobra"
 
-#: applet.cpp:651
-msgid "Yes"
+#: applet.cpp:651 applet.cpp:1102
+#, fuzzy
+#| msgid "Yes"
+msgid "&Yes"
 msgstr "Tak"
 
-#: applet.cpp:654
-msgid "No"
+#: applet.cpp:654 applet.cpp:1109
+#, fuzzy
+#| msgid "No"
+msgid "&No"
 msgstr "Nie"
 
-#: applet.cpp:657
-msgid "Cancel"
+#: applet.cpp:657 applet.cpp:1116
+#, fuzzy
+#| msgid "Cancel"
+msgid "&Cancel"
 msgstr "Anuluj"
 
 #: applet.cpp:808
@@ -79,24 +87,6 @@ msgstr "Naładź..."
 #: applet.cpp:1094
 msgid "&OK"
 msgstr ""
-
-#: applet.cpp:1102
-#, fuzzy
-#| msgid "Yes"
-msgid "&Yes"
-msgstr "Tak"
-
-#: applet.cpp:1109
-#, fuzzy
-#| msgid "No"
-msgid "&No"
-msgstr "Nie"
-
-#: applet.cpp:1116
-#, fuzzy
-#| msgid "Cancel"
-msgid "&Cancel"
-msgstr "Anuluj"
 
 #: applet.cpp:1153
 msgid "OK"
@@ -741,6 +731,15 @@ msgstr "šukany vyraz"
 #: wallpaper.cpp:223
 msgid "Unknown Wallpaper"
 msgstr "Nieviadomyja špalery"
+
+#~ msgid "Yes"
+#~ msgstr "Tak"
+
+#~ msgid "No"
+#~ msgstr "Nie"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
 
 #~ msgid "Unknown Activity"
 #~ msgstr "Nieviadomaja čynnaść"

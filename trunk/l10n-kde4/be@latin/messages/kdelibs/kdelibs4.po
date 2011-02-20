@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-15 03:32+0100\n"
+"POT-Creation-Date: 2011-02-20 03:34+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6200,7 +6200,7 @@ msgid "Reset Toolbars"
 msgstr "Anuluj źmieny ŭ panelach pryładździa"
 
 #: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1836
+#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1839
 msgid "Reset"
 msgstr "Anuluj źmieny"
 
@@ -10363,7 +10363,7 @@ msgid "Access Keys activated"
 msgstr ""
 
 #: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4761
-#: khtml/html/html_formimpl.cpp:1632 khtml/html/html_formimpl.cpp:1844
+#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
 msgid "Submit"
 msgstr "Pierašli"
 
@@ -10967,37 +10967,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Adčyni skrypt"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2174
 msgid "Confirmation: JavaScript Popup"
 msgstr "Paćvierdžańnie: vypłyŭnoje akno praz JavaScript"
-
-#: khtml/ecma/kjs_html.cpp:2170
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Hety sajt vysyłaje formu, jakaja adčynić novaje akno hartača praz "
-"JavaScript.\n"
-"Ci chočaš dazvolić vysyłańnie hetaj formy?"
-
-#: khtml/ecma/kjs_html.cpp:2173
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Hety sajt vysyłaje formu, jakaja adčynić <p>%1</p> u novym aknie hartača "
-"praz JavaScript.<br />Ci chočaš dazvolić vysyłańnie hetaj formy?</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2175 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "Dazvol"
-
-#: khtml/ecma/kjs_html.cpp:2175 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "Nie dazvol"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -11015,6 +10987,14 @@ msgid ""
 msgstr ""
 "<qt>Hety sajt choča adčynić<p>%1</p>u novym aknie hartača praz JavaScript."
 "<br />Chočaš jamu heta dazvolić?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+msgid "Allow"
+msgstr "Dazvol"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+msgid "Do Not Allow"
+msgstr "Nie dazvol"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -11049,6 +11029,26 @@ msgstr "Dadaj"
 #: khtml/ecma/kjs_window.cpp:2883
 msgid "Disallow"
 msgstr "Zabarani"
+
+#: khtml/ecma/kjs_html.cpp:2176
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Hety sajt vysyłaje formu, jakaja adčynić novaje akno hartača praz "
+"JavaScript.\n"
+"Ci chočaš dazvolić vysyłańnie hetaj formy?"
+
+#: khtml/ecma/kjs_html.cpp:2179
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Hety sajt vysyłaje formu, jakaja adčynić <p>%1</p> u novym aknie hartača "
+"praz JavaScript.<br />Ci chočaš dazvolić vysyłańnie hetaj formy?</qt>"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
@@ -11177,6 +11177,31 @@ msgstr ""
 msgid "Line"
 msgstr ""
 
+#: khtml/html/html_objectimpl.cpp:610
+#, kde-format
+msgid ""
+"No plugin found for '%1'.\n"
+"Do you want to download one from %2?"
+msgstr ""
+"Dla „%1” nia znojdzieny plugin.\n"
+"Ci chočaš zabrać taki plugin z „%2”?"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Missing Plugin"
+msgstr "Nie staje plugina"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Download"
+msgstr "Zabiary z servera"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Do Not Download"
+msgstr "Nie zabiraj z servera"
+
+#: khtml/html/htmlparser.cpp:1938
+msgid "This is a searchable index. Enter search keywords: "
+msgstr ""
+
 #: khtml/html/html_formimpl.cpp:422
 msgid ""
 "The following files will not be uploaded because they could not be found.\n"
@@ -11216,34 +11241,9 @@ msgstr[0] "&Vyšli fajły"
 msgstr[1] "&Vyšli fajły"
 msgstr[2] "&Vyšli fajły"
 
-#: khtml/html/html_formimpl.cpp:2688
+#: khtml/html/html_formimpl.cpp:2701
 msgid "Key Generator"
 msgstr "Hieneratar klučoŭ"
-
-#: khtml/html/html_objectimpl.cpp:610
-#, kde-format
-msgid ""
-"No plugin found for '%1'.\n"
-"Do you want to download one from %2?"
-msgstr ""
-"Dla „%1” nia znojdzieny plugin.\n"
-"Ci chočaš zabrać taki plugin z „%2”?"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Missing Plugin"
-msgstr "Nie staje plugina"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Download"
-msgstr "Zabiary z servera"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Do Not Download"
-msgstr "Nie zabiraj z servera"
-
-#: khtml/html/htmlparser.cpp:1938
-msgid "This is a searchable index. Enter search keywords: "
-msgstr ""
 
 #: khtml/java/kjavaapplet.cpp:224
 #, kde-format

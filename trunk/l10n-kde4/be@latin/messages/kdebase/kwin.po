@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-18 03:30+0100\n"
+"POT-Creation-Date: 2011-02-21 03:38+0100\n"
 "PO-Revision-Date: 2008-12-27 14:55+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -810,13 +810,13 @@ msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "Sietka stała"
 
-#: tiling.cpp:74
+#: tiling.cpp:73
 #, fuzzy
 #| msgid "Disabled"
 msgid "Tiling Disabled"
 msgstr "Vyklučanaja"
 
-#: tiling.cpp:78
+#: tiling.cpp:77
 msgid "Tiling Enabled"
 msgstr ""
 
@@ -1065,86 +1065,66 @@ msgstr ""
 msgid "&Terminate Application %1"
 msgstr ""
 
-#: lib/kcommondecoration.cpp:291
-#, fuzzy, kde-format
-#| msgid "<center><b>%1 preview</b></center>"
-msgid "<center><b>%1</b></center>"
-msgstr "<center><b>Padhlad dla %1</b></center>"
-
-#: lib/kcommondecoration.cpp:381
-msgid "Menu"
-msgstr "Menu"
-
-#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:607
-msgid "Not on all desktops"
-msgstr "Nie na ŭsich stałach"
-
-#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:608
-msgid "On all desktops"
-msgstr "Na ŭsich stałach"
-
-#: lib/kcommondecoration.cpp:412
-msgid "Help"
-msgstr "Dapamoha"
-
-#: lib/kcommondecoration.cpp:425
-msgid "Minimize"
-msgstr "Źminimalizuj"
-
-#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:595
-msgid "Restore"
-msgstr "Uznavi"
-
-#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:594
-msgid "Maximize"
-msgstr "Zmaksymalizuj"
-
-#: lib/kcommondecoration.cpp:455
-msgid "Close"
-msgstr "Začyni"
-
-#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:648
-msgid "Do not keep above others"
-msgstr "Nie ŭźnimaj nad inšymi"
-
-#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:648
-#: lib/kcommondecoration.cpp:669
-msgid "Keep above others"
-msgstr "Uźnimi nad inšymi"
-
-#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:663
-msgid "Do not keep below others"
-msgstr "Nie źnižaj pad inšyja"
-
-#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:654
-#: lib/kcommondecoration.cpp:663
-msgid "Keep below others"
-msgstr "Źniž pad inšyja"
-
-#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:619
-msgid "Unshade"
-msgstr "Razharni z zahałoŭka"
-
-#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:620
-msgid "Shade"
-msgstr "Zharni ŭ zahałovak"
-
-#: lib/kdecoration_plugins_p.cpp:128
-msgid "No window decoration plugin library was found."
-msgstr "Plugin abrysaŭ akon nia znojdzieny."
-
-#: lib/kdecoration_plugins_p.cpp:153
-msgid "The default decoration plugin is corrupt and could not be loaded."
-msgstr "Nie ŭdałosia źmiaścić u pamiać plugin abrysaŭ akon, bo jon paškodžany."
-
-#: lib/kdecoration_plugins_p.cpp:165 lib/kdecoration_plugins_p.cpp:170
-#, kde-format
-msgid "The library %1 is not a KWin plugin."
-msgstr "Biblijateka „%1” nia jość pluginam dla akońnika „KWin”."
-
 #: tabbox/clientmodel.cpp:56
 msgid "*** No Windows ***"
 msgstr "*** Niama akon ***"
+
+#, fuzzy
+#~| msgid "<center><b>%1 preview</b></center>"
+#~ msgid "<center><b>%1</b></center>"
+#~ msgstr "<center><b>Padhlad dla %1</b></center>"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Not on all desktops"
+#~ msgstr "Nie na ŭsich stałach"
+
+#~ msgid "On all desktops"
+#~ msgstr "Na ŭsich stałach"
+
+#~ msgid "Help"
+#~ msgstr "Dapamoha"
+
+#~ msgid "Minimize"
+#~ msgstr "Źminimalizuj"
+
+#~ msgid "Restore"
+#~ msgstr "Uznavi"
+
+#~ msgid "Maximize"
+#~ msgstr "Zmaksymalizuj"
+
+#~ msgid "Close"
+#~ msgstr "Začyni"
+
+#~ msgid "Do not keep above others"
+#~ msgstr "Nie ŭźnimaj nad inšymi"
+
+#~ msgid "Keep above others"
+#~ msgstr "Uźnimi nad inšymi"
+
+#~ msgid "Do not keep below others"
+#~ msgstr "Nie źnižaj pad inšyja"
+
+#~ msgid "Keep below others"
+#~ msgstr "Źniž pad inšyja"
+
+#~ msgid "Unshade"
+#~ msgstr "Razharni z zahałoŭka"
+
+#~ msgid "Shade"
+#~ msgstr "Zharni ŭ zahałovak"
+
+#~ msgid "No window decoration plugin library was found."
+#~ msgstr "Plugin abrysaŭ akon nia znojdzieny."
+
+#~ msgid "The default decoration plugin is corrupt and could not be loaded."
+#~ msgstr ""
+#~ "Nie ŭdałosia źmiaścić u pamiać plugin abrysaŭ akon, bo jon paškodžany."
+
+#~ msgid "The library %1 is not a KWin plugin."
+#~ msgstr "Biblijateka „%1” nia jość pluginam dla akońnika „KWin”."
 
 #~ msgid "Window Screenshot to Clipboard"
 #~ msgstr "Źmiaści zdymak akna ŭ abmiennym bufery"

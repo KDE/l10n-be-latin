@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-04 03:30+0100\n"
+"POT-Creation-Date: 2011-03-05 03:48+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -600,15 +600,15 @@ msgstr "&Zakładki"
 msgid "Configure Profiles..."
 msgstr "Kiruj profilami..."
 
-#: MainWindow.cpp:383
+#: MainWindow.cpp:393
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: MainWindow.cpp:385 SessionController.cpp:604
+#: MainWindow.cpp:395 SessionController.cpp:604
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: MainWindow.cpp:387
+#: MainWindow.cpp:397
 msgid "Close Current Tab"
 msgstr "Začyni hetuju kartku"
 
@@ -1967,23 +1967,31 @@ msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
 #: ViewManager.cpp:138
-msgid "Next View"
-msgstr "Nastupny prahlad"
+#, fuzzy
+#| msgid "New &Tab"
+msgid "Next Tab"
+msgstr "Novaja &kartka"
 
 #: ViewManager.cpp:139
-msgid "Previous View"
-msgstr "Papiaredni prahlad"
+#, fuzzy
+#| msgid "Previous"
+msgid "Previous Tab"
+msgstr "Papiaredni"
 
 #: ViewManager.cpp:140
 msgid "Next View Container"
 msgstr "Nastupnaje schovišča prahladu"
 
 #: ViewManager.cpp:142
-msgid "Move View Left"
+#, fuzzy
+#| msgid "Move View Left"
+msgid "Move Tab Left"
 msgstr "Pasuń prahlad uleva"
 
 #: ViewManager.cpp:143
-msgid "Move View Right"
+#, fuzzy
+#| msgid "Move View Right"
+msgid "Move Tab Right"
 msgstr "Pasuń prahlad uprava"
 
 #: ViewManager.cpp:153
@@ -2038,6 +2046,12 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "&Spyni"
+
+#~ msgid "Next View"
+#~ msgstr "Nastupny prahlad"
+
+#~ msgid "Previous View"
+#~ msgstr "Papiaredni prahlad"
 
 #~ msgid "Match case"
 #~ msgstr "Adroźnivaj pamier litaraŭ"

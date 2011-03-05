@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-02 12:43+0100\n"
+"POT-Creation-Date: 2011-03-05 13:17+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6048,7 +6048,7 @@ msgstr "Spałučany z „%1”. Čakańnie adkazu..."
 msgid "Server processing request, please wait..."
 msgstr "Server pierapracoŭvaje zapyt. Pačakaj..."
 
-#: ../kioslave/http/http.cpp:3278 ../kioslave/http/http.cpp:5057
+#: ../kioslave/http/http.cpp:3278 ../kioslave/http/http.cpp:5063
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -6056,7 +6056,7 @@ msgstr ""
 "Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
 "parol dla proxy-servera."
 
-#: ../kioslave/http/http.cpp:3281 ../kioslave/http/http.cpp:5061
+#: ../kioslave/http/http.cpp:3281 ../kioslave/http/http.cpp:5067
 msgid "Proxy:"
 msgstr "Proxy:"
 
@@ -6064,11 +6064,11 @@ msgstr "Proxy:"
 msgid "Authentication Failed."
 msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
 
-#: ../kioslave/http/http.cpp:3345 ../kioslave/http/http.cpp:5063
+#: ../kioslave/http/http.cpp:3345 ../kioslave/http/http.cpp:5069
 msgid "Proxy Authentication Failed."
 msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
 
-#: ../kioslave/http/http.cpp:3355 ../kioslave/http/http.cpp:5062
+#: ../kioslave/http/http.cpp:3355 ../kioslave/http/http.cpp:5068
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
@@ -6094,12 +6094,12 @@ msgstr "Zapyt źviestak dla vysyłańnia"
 msgid "Sending data to %1"
 msgstr "Vysyłańnie źviestak u „%1”"
 
-#: ../kioslave/http/http.cpp:4246
+#: ../kioslave/http/http.cpp:4252
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Atrymańnie „%1” ad „%2”..."
 
-#: ../kioslave/http/http.cpp:4252
+#: ../kioslave/http/http.cpp:4258
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr "Atrymańnie źviestak ad „%1”..."

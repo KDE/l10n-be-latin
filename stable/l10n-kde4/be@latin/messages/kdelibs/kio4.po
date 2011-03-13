@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-08 13:43+0100\n"
+"POT-Creation-Date: 2011-03-13 12:10+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -331,34 +331,6 @@ msgstr "x"
 #: kfile/kacleditwidget.cpp:630
 msgid "Effective"
 msgstr "Dziejnyja"
-
-#: kfile/kcommentwidget.cpp:65
-#, fuzzy
-#| msgid "Add Entry..."
-msgctxt "@label"
-msgid "Add Comment..."
-msgstr "Dadaj praviła..."
-
-#: kfile/kcommentwidget.cpp:71
-#, fuzzy
-#| msgid "Calculating..."
-msgctxt "@label"
-msgid "Change..."
-msgstr "Padličvańnie..."
-
-#: kfile/kcommentwidget.cpp:124
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:window"
-msgid "Change Comment"
-msgstr "Kamentar"
-
-#: kfile/kcommentwidget.cpp:125
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:window"
-msgid "Add Comment"
-msgstr "Kamentar"
 
 #: kfile/kdevicelistmodel.cpp:116
 msgid "Device name"
@@ -1571,6 +1543,34 @@ msgstr "Stanovišča"
 #: kfile/kicondialog.cpp:691
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr "*.png *.xpm *.svg *.svgz|Fajły ikonaŭ (*.png *.xpm *.svg *.svgz)"
+
+#: kfile/kcommentwidget.cpp:65
+#, fuzzy
+#| msgid "Add Entry..."
+msgctxt "@label"
+msgid "Add Comment..."
+msgstr "Dadaj praviła..."
+
+#: kfile/kcommentwidget.cpp:71
+#, fuzzy
+#| msgid "Calculating..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "Padličvańnie..."
+
+#: kfile/kcommentwidget.cpp:124
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:window"
+msgid "Change Comment"
+msgstr "Kamentar"
+
+#: kfile/kcommentwidget.cpp:125
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:window"
+msgid "Add Comment"
+msgstr "Kamentar"
 
 #: kio/job.cpp:156
 msgctxt "@title job"

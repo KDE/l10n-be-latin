@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-12 03:43+0100\n"
+"POT-Creation-Date: 2011-03-18 03:37+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5083,6 +5083,34 @@ msgstr "Aperacyja nie absłuhoŭvajecca"
 msgid "Timed out trying to connect to remote host"
 msgstr "Spałučeńnie z tamtejšym hostam nia ŭkłałasia ŭ termin"
 
+#: kdecore/network/netsupp.cpp:892
+msgid "address family for nodename not supported"
+msgstr "rod adrasoŭ dla nazvy vuzła nie padtrymvajecca"
+
+#: kdecore/network/netsupp.cpp:894
+msgid "invalid value for 'ai_flags'"
+msgstr "niapravilnaje značeńnie „ai_flags”"
+
+#: kdecore/network/netsupp.cpp:896
+msgid "'ai_family' not supported"
+msgstr "„ai_family” nie padtrymvajecca"
+
+#: kdecore/network/netsupp.cpp:898
+msgid "no address associated with nodename"
+msgstr "z nazvaj vuzła nie źviavany anijaki adras"
+
+#: kdecore/network/netsupp.cpp:900
+msgid "servname not supported for ai_socktype"
+msgstr "nazva słužby, nie padtrymanaja dla „ai_socktype”"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "'ai_socktype' not supported"
+msgstr "„ai_socktype” nie padtrymvajecca"
+
+#: kdecore/network/netsupp.cpp:902
+msgid "system error"
+msgstr "systemnaja pamyłka"
+
 #: kdecore/network/ktcpsocket.cpp:152
 msgctxt "SSL error"
 msgid "No error"
@@ -5159,34 +5187,6 @@ msgstr "Zadoŭhi łancuh sertyfikataŭ."
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "Nieviadomaja pamyłka"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "rod adrasoŭ dla nazvy vuzła nie padtrymvajecca"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "niapravilnaje značeńnie „ai_flags”"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "„ai_family” nie padtrymvajecca"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "z nazvaj vuzła nie źviavany anijaki adras"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "nazva słužby, nie padtrymanaja dla „ai_socktype”"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "„ai_socktype” nie padtrymvajecca"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "systemnaja pamyłka"
 
 #: kdecore/services/kmimetyperepository.cpp:603
 #, kde-format

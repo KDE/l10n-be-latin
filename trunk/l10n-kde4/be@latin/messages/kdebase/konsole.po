@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-14 03:35+0100\n"
+"POT-Creation-Date: 2011-03-19 03:32+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -600,15 +600,19 @@ msgstr "&Zakładki"
 msgid "Configure Profiles..."
 msgstr "Kiruj profilami..."
 
-#: MainWindow.cpp:393
+#: MainWindow.cpp:301
+msgid "Activate Menu"
+msgstr ""
+
+#: MainWindow.cpp:398
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: MainWindow.cpp:395 SessionController.cpp:612
+#: MainWindow.cpp:400 SessionController.cpp:612
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: MainWindow.cpp:397
+#: MainWindow.cpp:402
 msgid "Close Current Tab"
 msgstr "Začyni hetuju kartku"
 

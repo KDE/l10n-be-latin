@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-02 03:37+0200\n"
+"POT-Creation-Date: 2011-04-05 03:53+0200\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -46,14 +46,6 @@ msgstr "Viarni klasyčny vykład menu"
 msgctxt "General configuration page"
 msgid "General"
 msgstr "Ahulnaje"
-
-#: core/applicationmodel.cpp:335
-msgid "Games"
-msgstr ""
-
-#: core/applicationmodel.cpp:425 ui/flipscrollview.cpp:138
-msgid "All Applications"
-msgstr "Usie aplikacyi"
 
 #: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
 #: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:116 ui/launcher.cpp:175
@@ -220,6 +212,14 @@ msgstr ""
 #: ui/launcher.cpp:118 ui/launcher.cpp:239
 msgid "Computer"
 msgstr "Kamputar"
+
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr ""
+
+#: core/applicationmodel.cpp:429 ui/flipscrollview.cpp:138
+msgid "All Applications"
+msgstr "Usie aplikacyi"
 
 #: main.cpp:32
 msgid "Kickoff"

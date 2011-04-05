@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-04 03:34+0200\n"
+"POT-Creation-Date: 2011-04-05 03:54+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -576,39 +576,39 @@ msgstr "Lars Knoll"
 msgid "Thanks to many others.\n"
 msgstr "Našy padziaki dla inšych, chto nam dapamahaŭ.\n"
 
-#: MainWindow.cpp:241
+#: MainWindow.cpp:252
 #, fuzzy
 #| msgid "New &Tab"
 msgid "&New Tab"
 msgstr "Novaja &kartka"
 
-#: MainWindow.cpp:250
+#: MainWindow.cpp:261
 msgid "New &Window"
 msgstr "Novaje &akno"
 
-#: MainWindow.cpp:261
+#: MainWindow.cpp:272
 msgid "&Bookmarks"
 msgstr "&Zakładki"
 
-#: MainWindow.cpp:288 Part.cpp:101
+#: MainWindow.cpp:299 Part.cpp:101
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Profiles..."
 msgstr "Kiruj profilami..."
 
-#: MainWindow.cpp:294
+#: MainWindow.cpp:305
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:391
+#: MainWindow.cpp:402
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: MainWindow.cpp:393 SessionController.cpp:612
+#: MainWindow.cpp:404 SessionController.cpp:612
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: MainWindow.cpp:395
+#: MainWindow.cpp:406
 msgid "Close Current Tab"
 msgstr "Začyni hetuju kartku"
 
@@ -1497,55 +1497,55 @@ msgstr "Zrabi vybrany profil zmoŭčanym dla novych terminalnych sesijaŭ"
 msgid "Set as Default"
 msgstr "Zrabi zmoŭčanym"
 
-#. i18n: file: ../desktop/konsoleui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:421
-msgid "File"
-msgstr "Fajł"
-
-#. i18n: file: ../desktop/konsoleui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:424
-msgid "Edit"
-msgstr "Redahuj"
-
-#. i18n: file: ../desktop/konsoleui.rc:17
-#. i18n: ectx: Menu (view)
-#: rc.cpp:427
-msgid "View"
-msgstr "Vyhlad"
-
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (view-split)
-#: rc.cpp:430
-msgid "Split View"
-msgstr "Padziali prahlad"
-
-#. i18n: file: ../desktop/konsoleui.rc:33
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:433
-msgid "Settings"
-msgstr "Nałady"
-
-#. i18n: file: ../desktop/konsoleui.rc:42
-#. i18n: ectx: Menu (help)
-#: rc.cpp:436
-msgid "Help"
-msgstr "Dapamoha"
-
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:439
+#: rc.cpp:421
 msgid "S&crollback"
 msgstr "&Historyja prakrutki"
 
 #. i18n: file: ../desktop/partui.rc:26
 #. i18n: ectx: Menu (change-profile)
-#. i18n: file: ../desktop/sessionui.rc:57
+#. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (change-profile)
-#: rc.cpp:442 rc.cpp:451
+#: rc.cpp:424 rc.cpp:451
 msgid "&Change Profile"
 msgstr "&Źmiani profil"
+
+#. i18n: file: ../desktop/konsoleui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:427
+msgid "File"
+msgstr "Fajł"
+
+#. i18n: file: ../desktop/konsoleui.rc:14
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:430
+msgid "Edit"
+msgstr "Redahuj"
+
+#. i18n: file: ../desktop/konsoleui.rc:17
+#. i18n: ectx: Menu (view)
+#: rc.cpp:433
+msgid "View"
+msgstr "Vyhlad"
+
+#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: ectx: Menu (view-split)
+#: rc.cpp:436
+msgid "Split View"
+msgstr "Padziali prahlad"
+
+#. i18n: file: ../desktop/konsoleui.rc:33
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:439
+msgid "Settings"
+msgstr "Nałady"
+
+#. i18n: file: ../desktop/konsoleui.rc:44
+#. i18n: ectx: Menu (help)
+#: rc.cpp:442
+msgid "Help"
+msgstr "Dapamoha"
 
 #. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
@@ -1555,7 +1555,7 @@ msgstr "&Źmiani profil"
 msgid "Copy Input To"
 msgstr "Skapijuj uvachodnyja źviestki ŭ..."
 
-#. i18n: file: ../desktop/sessionui.rc:38
+#. i18n: file: ../desktop/sessionui.rc:41
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:448
 msgid "Debug"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-05 03:54+0200\n"
+"POT-Creation-Date: 2011-04-06 03:40+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1890,19 +1890,26 @@ msgstr ""
 "\">ŭstrymanaje</a> skarotam „Ctrl+S”.  Naciśni <b>Ctrl+Q</b>, kab pracavać "
 "dalej.</qt>"
 
-#: ViewContainer.cpp:492
+#: ViewContainer.cpp:490
 #, fuzzy
 #| msgid "&Detach View"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "&Adčapi prahlad"
 
-#: ViewContainer.cpp:496
+#: ViewContainer.cpp:494
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
+
+#: ViewContainer.cpp:498
+#, fuzzy
+#| msgid "&Close Tab"
+msgctxt "@action:inmenu"
+msgid "&Close Tab"
+msgstr "&Začyni kartku"
 
 #: ViewManager.cpp:138
 #, fuzzy
@@ -2042,12 +2049,6 @@ msgstr "&Spyni"
 
 #~ msgid "Search reached top, continued from bottom."
 #~ msgstr "Pošuk dasiahnuŭ pačatku, praciahvajem z kanca."
-
-#, fuzzy
-#~| msgid "&Close Tab"
-#~ msgctxt "@action:inmenu"
-#~ msgid "&Close Tab"
-#~ msgstr "&Začyni kartku"
 
 #~ msgid "New &Tab"
 #~ msgstr "Novaja &kartka"

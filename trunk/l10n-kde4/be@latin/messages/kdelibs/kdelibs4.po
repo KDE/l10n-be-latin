@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-10 03:59+0200\n"
+"POT-Creation-Date: 2011-04-15 04:00+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -12565,19 +12565,6 @@ msgctxt "Description of the notified event"
 msgid "Description"
 msgstr "Apisańnie"
 
-#: kparts/browserextension.cpp:645
-#, kde-format
-msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
-msgstr "<qt>Chočaš pašukać „<b>%1</b>” u siecivie?</qt>"
-
-#: kparts/browserextension.cpp:646
-msgid "Internet Search"
-msgstr "Pošuk u siecivie"
-
-#: kparts/browserextension.cpp:646
-msgid "&Search"
-msgstr "&Šukaj"
-
 #: kparts/browseropenorsavequestion.cpp:100
 #, fuzzy, kde-format
 #| msgid "Re: %1"
@@ -12673,6 +12660,19 @@ msgstr "Ty sapraŭdy chočaš vykanać „%1”?"
 #: kparts/browserrun.cpp:336
 msgid "Execute File?"
 msgstr "Vykanać fajł?"
+
+#: kparts/browserextension.cpp:645
+#, kde-format
+msgid "<qt>Do you want to search the Internet for <b>%1</b>?</qt>"
+msgstr "<qt>Chočaš pašukać „<b>%1</b>” u siecivie?</qt>"
+
+#: kparts/browserextension.cpp:646
+msgid "Internet Search"
+msgstr "Pošuk u siecivie"
+
+#: kparts/browserextension.cpp:646
+msgid "&Search"
+msgstr "&Šukaj"
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"

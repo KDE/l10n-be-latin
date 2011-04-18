@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-17 03:49+0200\n"
+"POT-Creation-Date: 2011-04-18 03:49+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1848,10 +1848,16 @@ msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
 
 #: SessionManager.cpp:935
+#, fuzzy
+#| msgid "Number"
+msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "Numar"
 
 #: SessionManager.cpp:937
+#, fuzzy
+#| msgid "Title"
+msgctxt "@item:intable The session title"
 msgid "Title"
 msgstr "Nazva"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-27 04:03+0200\n"
+"POT-Creation-Date: 2011-04-28 04:09+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3385,7 +3385,7 @@ msgid "The server was too busy responding to other requests to respond."
 msgstr ""
 "Server byŭ nadta zaniaty adkazam na inšyja zapyty i nia zmoh adkazać tabie."
 
-#: kio/global.cpp:1094 kio/slavebase.cpp:1290
+#: kio/global.cpp:1094 kio/slavebase.cpp:1299
 msgid "Unknown Error"
 msgstr "Nieviadomaja pamyłka"
 
@@ -4000,14 +4000,6 @@ msgstr ""
 "Nie ŭdałosia stvaryć słužbu „ioslave”:\n"
 "Słužba „klauncher” paviedamiła: %1"
 
-#: kio/slavebase.h:266 kio/slavebase.h:286
-msgid "&Yes"
-msgstr "&Tak"
-
-#: kio/slavebase.h:267 kio/slavebase.h:287
-msgid "&No"
-msgstr "&Nie"
-
 #: kio/slaveinterface.cpp:416 kio/tcpslavebase.cpp:840 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Detali"
@@ -4299,6 +4291,14 @@ msgstr[2] "&Uklej %1 adrasoŭ"
 #: kio/paste.cpp:391
 msgid "&Paste Clipboard Contents"
 msgstr "&Uklej źmieściva abmiennaha bufera"
+
+#: kio/slavebase.h:266 kio/slavebase.h:286
+msgid "&Yes"
+msgstr "&Tak"
+
+#: kio/slavebase.h:267 kio/slavebase.h:287
+msgid "&No"
+msgstr "&Nie"
 
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:225
 #, fuzzy, kde-format

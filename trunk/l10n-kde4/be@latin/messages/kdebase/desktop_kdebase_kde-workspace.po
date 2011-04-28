@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-27 02:46+0000\n"
+"POT-Creation-Date: 2011-04-28 02:52+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3826,7 +3826,7 @@ msgctxt "Name"
 msgid "Activities"
 msgstr "Panel zaniatkaŭ"
 
-#: plasma/desktop/applets/showActivityManager/plasma-applet-org.kde.showActivityManager.desktop:3
+#: plasma/desktop/applets/showActivityManager/plasma-applet-org.kde.showActivityManager.desktop:22
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Activity Bar"
@@ -3933,6 +3933,14 @@ msgctxt "Name"
 msgid "Default Panel"
 msgstr "Zmoŭčany sini matyŭ"
 
+#: plasma/desktop/shell/data/layouts/org.kde.plasma-desktop.desktopIcons/metadata.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Sessions"
+msgctxt "Name"
+msgid "Desktop Icons"
+msgstr "Sesii rabočaha stała"
+
 #: plasma/desktop/shell/data/layouts/org.kde.plasma-desktop.findWidgets/metadata.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -3945,6 +3953,15 @@ msgstr "Vokny"
 msgctxt "Name"
 msgid "Photos Activity"
 msgstr ""
+
+#: plasma/desktop/shell/data/layouts/org.kde.plasma-desktop.SaL/metadata.desktop:3
+#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Search Engine"
+msgctxt "Name"
+msgid "Search and Launch"
+msgstr "Systema pošuku"
 
 #: plasma/desktop/shell/data/plasma-desktop.desktop:4
 msgctxt "Name"
@@ -4568,7 +4585,7 @@ msgctxt "Name"
 msgid "img.susepaste.org"
 msgstr ""
 
-#: plasma/generic/dataengines/share/backends/imgsusepasteorg/metadata.desktop:12
+#: plasma/generic/dataengines/share/backends/imgsusepasteorg/metadata.desktop:14
 msgctxt "Comment"
 msgid "Allows images to be shared using the susepaste.org service"
 msgstr ""
@@ -5143,14 +5160,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "A containment for a panel"
 msgstr "Jomišča dla paneli"
-
-#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Search Engine"
-msgctxt "Name"
-msgid "Search and Launch"
-msgstr "Systema pošuku"
 
 #: plasma/netbook/containments/sal/plasma-containment-sal.desktop:49
 msgctxt "Comment"

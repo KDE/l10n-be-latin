@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-28 02:52+0000\n"
+"POT-Creation-Date: 2011-04-29 02:52+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2148,6 +2148,19 @@ msgctxt "Comment"
 msgid "A style that works well with high contrast color schemes"
 msgstr "Styl, jaki dobra spałučajecca z kolernymi schiemami vysokaha kantrastu"
 
+#: kstyles/oxygen/config/oxygen-settings.desktop:5
+msgctxt "GenericName"
+msgid "Advanced Widget and Window Decoration Settings"
+msgstr ""
+
+#: kstyles/oxygen/config/oxygen-settings.desktop:7
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "System Bell Configuration"
+msgctxt "Name"
+msgid "Oxygen Advanced Configuration"
+msgstr "Nałady systemnaha hukavoha syhnału"
+
 #: kstyles/oxygen/oxygen.themerc:87
 #: kwin/clients/oxygen/oxygenclient.desktop:88
 msgctxt "Comment"
@@ -2725,6 +2738,19 @@ msgstr "Malavańnie myššu"
 msgctxt "Comment"
 msgid "Allows you to draw lines on the desktop"
 msgstr "Uklučaje malavańnie rysaŭ na rabočym stale."
+
+#: kwin/effects/outline/outline.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Guinea"
+msgctxt "Name"
+msgid "Outline"
+msgstr "Gvineja"
+
+#: kwin/effects/outline/outline.desktop:4
+msgctxt "Comment"
+msgid "Helper effect to render an outline"
+msgstr ""
 
 #: kwin/effects/presentwindows/presentwindows_config.desktop:9
 #: kwin/effects/presentwindows/presentwindows.desktop:2
@@ -9701,10 +9727,6 @@ msgstr ""
 #~ msgstr "Hambija"
 
 #~ msgctxt "Name"
-#~ msgid "Guinea"
-#~ msgstr "Gvineja"
-
-#~ msgctxt "Name"
 #~ msgid "Guadeloupe"
 #~ msgstr "Guadelupa"
 
@@ -11542,13 +11564,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Sound and Video Configuration"
 #~ msgstr "Nałady huku j videa"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "System Bell Configuration"
-#~ msgctxt "Comment"
-#~ msgid "Xine Backend Configuration"
-#~ msgstr "Nałady systemnaha hukavoha syhnału"
 
 #, fuzzy
 #~| msgctxt "Name"

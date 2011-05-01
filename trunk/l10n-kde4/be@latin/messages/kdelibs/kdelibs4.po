@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-27 04:02+0200\n"
+"POT-Creation-Date: 2011-05-01 04:12+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2526,82 +2526,6 @@ msgstr "Numar słupka %1"
 msgid "S&earch:"
 msgstr "&Šukaj:"
 
-#: kde3support/kdeui/k3passworddialog.cpp:358
-msgid "&Password:"
-msgstr "&Parol:"
-
-#: kde3support/kdeui/k3passworddialog.cpp:376
-msgid "&Keep password"
-msgstr "&Zachavaj parol"
-
-#: kde3support/kdeui/k3passworddialog.cpp:414
-#: kdeui/dialogs/knewpassworddialog.cpp:76
-msgid ""
-"The password strength meter gives an indication of the security of the "
-"password you have entered.  To improve the strength of the password, try:\n"
-" - using a longer password;\n"
-" - using a mixture of upper- and lower-case letters;\n"
-" - using numbers or symbols, such as #, as well as letters."
-msgstr ""
-"Miernik vartaści parolu padkazvaje, nakolki biaśpiečny ŭpišany parol. Kab "
-"pavialičyć vartaść parolu, pasprabuj:\n"
-" – padoŭžyć jaho;\n"
-" – užyć u im i vialikija, i małyja litary;\n"
-" – užyć razam ź litarami ličby, asablivyja znaki, naprykład, „#”."
-
-#: kde3support/kdeui/k3passworddialog.cpp:499
-#: kdeui/dialogs/knewpassworddialog.cpp:236
-msgid "You entered two different passwords. Please try again."
-msgstr "Ty ŭpisaŭ roznyja paroli. Paŭtary sprobu."
-
-#: kde3support/kdeui/k3passworddialog.cpp:506
-#: kdeui/dialogs/knewpassworddialog.cpp:245
-msgid ""
-"The password you have entered has a low strength. To improve the strength of "
-"the password, try:\n"
-" - using a longer password;\n"
-" - using a mixture of upper- and lower-case letters;\n"
-" - using numbers or symbols as well as letters.\n"
-"\n"
-"Would you like to use this password anyway?"
-msgstr ""
-"Upisany taboju parol maju małuju vartaść. Kab pavialičyć jaje, pasprabuj:\n"
-" – padoŭžyć parol;\n"
-" – užyć u im i vialikija, i małyja litary;\n"
-" – užyć razam ź litarami ličby, asablivyja znaki, naprykład, „#”.\n"
-"\n"
-"Ci chočaš, nie zvažajučy na hetyja pieraściarohi, karystacca hetym parolem?"
-
-#: kde3support/kdeui/k3passworddialog.cpp:514
-#: kdeui/dialogs/knewpassworddialog.cpp:253
-msgid "Low Password Strength"
-msgstr "Małaja vartaść parolu"
-
-#: kde3support/kdeui/k3passworddialog.cpp:562
-#: kde3support/kdeui/k3passworddialog.cpp:566
-#: kde3support/kdeui/k3passworddialog.cpp:587
-msgid "Password Input"
-msgstr "Upisańnie parolu"
-
-#: kde3support/kdeui/k3passworddialog.cpp:617
-#: kdeui/dialogs/knewpassworddialog.cpp:166
-msgid "Password is empty"
-msgstr "Pusty parol"
-
-#: kde3support/kdeui/k3passworddialog.cpp:620
-#: kdeui/dialogs/knewpassworddialog.cpp:171
-#, kde-format
-msgid "Password must be at least 1 character long"
-msgid_plural "Password must be at least %1 characters long"
-msgstr[0] "Parol nia moža być karaciejšym ad %1 znaka."
-msgstr[1] "Parol nia moža być karaciejšym ad %1 znakaŭ."
-msgstr[2] "Parol nia moža być karaciejšym ad %1 znakaŭ."
-
-#: kde3support/kdeui/k3passworddialog.cpp:622
-#: kdeui/dialogs/knewpassworddialog.cpp:175
-msgid "Passwords match"
-msgstr "Paroli nia roźniacca"
-
 #: kde3support/kdeui/k3sconfig.cpp:110
 msgctxt "@option:check"
 msgid "Do Spellchecking"
@@ -2874,6 +2798,82 @@ msgstr "&Nazad"
 msgctxt "Opposite to Back"
 msgid "&Next"
 msgstr "&Dalej"
+
+#: kde3support/kdeui/k3passworddialog.cpp:358
+msgid "&Password:"
+msgstr "&Parol:"
+
+#: kde3support/kdeui/k3passworddialog.cpp:376
+msgid "&Keep password"
+msgstr "&Zachavaj parol"
+
+#: kde3support/kdeui/k3passworddialog.cpp:414
+#: kdeui/dialogs/knewpassworddialog.cpp:76
+msgid ""
+"The password strength meter gives an indication of the security of the "
+"password you have entered.  To improve the strength of the password, try:\n"
+" - using a longer password;\n"
+" - using a mixture of upper- and lower-case letters;\n"
+" - using numbers or symbols, such as #, as well as letters."
+msgstr ""
+"Miernik vartaści parolu padkazvaje, nakolki biaśpiečny ŭpišany parol. Kab "
+"pavialičyć vartaść parolu, pasprabuj:\n"
+" – padoŭžyć jaho;\n"
+" – užyć u im i vialikija, i małyja litary;\n"
+" – užyć razam ź litarami ličby, asablivyja znaki, naprykład, „#”."
+
+#: kde3support/kdeui/k3passworddialog.cpp:499
+#: kdeui/dialogs/knewpassworddialog.cpp:236
+msgid "You entered two different passwords. Please try again."
+msgstr "Ty ŭpisaŭ roznyja paroli. Paŭtary sprobu."
+
+#: kde3support/kdeui/k3passworddialog.cpp:506
+#: kdeui/dialogs/knewpassworddialog.cpp:245
+msgid ""
+"The password you have entered has a low strength. To improve the strength of "
+"the password, try:\n"
+" - using a longer password;\n"
+" - using a mixture of upper- and lower-case letters;\n"
+" - using numbers or symbols as well as letters.\n"
+"\n"
+"Would you like to use this password anyway?"
+msgstr ""
+"Upisany taboju parol maju małuju vartaść. Kab pavialičyć jaje, pasprabuj:\n"
+" – padoŭžyć parol;\n"
+" – užyć u im i vialikija, i małyja litary;\n"
+" – užyć razam ź litarami ličby, asablivyja znaki, naprykład, „#”.\n"
+"\n"
+"Ci chočaš, nie zvažajučy na hetyja pieraściarohi, karystacca hetym parolem?"
+
+#: kde3support/kdeui/k3passworddialog.cpp:514
+#: kdeui/dialogs/knewpassworddialog.cpp:253
+msgid "Low Password Strength"
+msgstr "Małaja vartaść parolu"
+
+#: kde3support/kdeui/k3passworddialog.cpp:562
+#: kde3support/kdeui/k3passworddialog.cpp:566
+#: kde3support/kdeui/k3passworddialog.cpp:587
+msgid "Password Input"
+msgstr "Upisańnie parolu"
+
+#: kde3support/kdeui/k3passworddialog.cpp:617
+#: kdeui/dialogs/knewpassworddialog.cpp:166
+msgid "Password is empty"
+msgstr "Pusty parol"
+
+#: kde3support/kdeui/k3passworddialog.cpp:620
+#: kdeui/dialogs/knewpassworddialog.cpp:171
+#, kde-format
+msgid "Password must be at least 1 character long"
+msgid_plural "Password must be at least %1 characters long"
+msgstr[0] "Parol nia moža być karaciejšym ad %1 znaka."
+msgstr[1] "Parol nia moža być karaciejšym ad %1 znakaŭ."
+msgstr[2] "Parol nia moža być karaciejšym ad %1 znakaŭ."
+
+#: kde3support/kdeui/k3passworddialog.cpp:622
+#: kdeui/dialogs/knewpassworddialog.cpp:175
+msgid "Passwords match"
+msgstr "Paroli nia roźniacca"
 
 #: kde3support/kio/kfile/k3fileview.cpp:123
 msgid "Unknown View"
@@ -13251,80 +13251,6 @@ msgctxt "@label"
 msgid "Change..."
 msgstr "Źmiani &ikonu..."
 
-#: nepomuk/utils/datefacet.cpp:119
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Anytime"
-msgstr ""
-
-#: nepomuk/utils/datefacet.cpp:121
-#, fuzzy
-#| msgid "Today"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Today"
-msgstr "Siońnia"
-
-#: nepomuk/utils/datefacet.cpp:123
-#, fuzzy
-#| msgid "Yesterday"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Yesterday"
-msgstr "Učora"
-
-#: nepomuk/utils/datefacet.cpp:125
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "This Week"
-msgstr ""
-
-#: nepomuk/utils/datefacet.cpp:127
-#, fuzzy
-#| msgid "&Last Page"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Last Week"
-msgstr "&Apošniaja staronka"
-
-#: nepomuk/utils/datefacet.cpp:129
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "This Month"
-msgstr ""
-
-#: nepomuk/utils/datefacet.cpp:131
-#, fuzzy
-#| msgid "Next month"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Last Month"
-msgstr "Nastupny miesiac"
-
-#: nepomuk/utils/datefacet.cpp:133
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "This Year"
-msgstr ""
-
-#: nepomuk/utils/datefacet.cpp:135
-#, fuzzy
-#| msgid "&Last Page"
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources"
-msgid "Last Year"
-msgstr "&Apošniaja staronka"
-
-#: nepomuk/utils/datefacet.cpp:137
-#, fuzzy
-#| msgctxt "Custom color"
-#| msgid "Custom..."
-msgctxt ""
-"referring to a filter on the modification and usage date of files/resources "
-"that will open a dialog to choose a date range"
-msgid "Custom..."
-msgstr "Ułasny..."
-
 #: nepomuk/utils/daterangeselectionwidget.cpp:201
 msgid "This Week"
 msgstr ""
@@ -13503,6 +13429,80 @@ msgstr "Fajł"
 msgctxt "@option:check Do filter on type - show everything but files"
 msgid "Other"
 msgstr "Inšy"
+
+#: nepomuk/utils/datefacet.cpp:119
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Anytime"
+msgstr ""
+
+#: nepomuk/utils/datefacet.cpp:121
+#, fuzzy
+#| msgid "Today"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Today"
+msgstr "Siońnia"
+
+#: nepomuk/utils/datefacet.cpp:123
+#, fuzzy
+#| msgid "Yesterday"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Yesterday"
+msgstr "Učora"
+
+#: nepomuk/utils/datefacet.cpp:125
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "This Week"
+msgstr ""
+
+#: nepomuk/utils/datefacet.cpp:127
+#, fuzzy
+#| msgid "&Last Page"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Last Week"
+msgstr "&Apošniaja staronka"
+
+#: nepomuk/utils/datefacet.cpp:129
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "This Month"
+msgstr ""
+
+#: nepomuk/utils/datefacet.cpp:131
+#, fuzzy
+#| msgid "Next month"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Last Month"
+msgstr "Nastupny miesiac"
+
+#: nepomuk/utils/datefacet.cpp:133
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "This Year"
+msgstr ""
+
+#: nepomuk/utils/datefacet.cpp:135
+#, fuzzy
+#| msgid "&Last Page"
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources"
+msgid "Last Year"
+msgstr "&Apošniaja staronka"
+
+#: nepomuk/utils/datefacet.cpp:137
+#, fuzzy
+#| msgctxt "Custom color"
+#| msgid "Custom..."
+msgctxt ""
+"referring to a filter on the modification and usage date of files/resources "
+"that will open a dialog to choose a date range"
+msgid "Custom..."
+msgstr "Ułasny..."
 
 #: kdeui/colors/kcolorcombo.cpp:352
 msgctxt "Custom color"

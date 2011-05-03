@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-30 03:45+0200\n"
+"POT-Creation-Date: 2011-05-03 04:06+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -918,11 +918,6 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: views/draganddrophelper.cpp:108
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "Nielha pierakinuć kataloh u samoha siabie."
-
 #: views/renamedialog.cpp:54
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -965,6 +960,11 @@ msgstr[2] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
 msgctxt "@info"
 msgid "(# will be replaced by ascending numbers)"
 msgstr "(znak „#” budzie zamienieny na liki, ad mienšaha k bolšamu)"
+
+#: views/draganddrophelper.cpp:108
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "Nielha pierakinuć kataloh u samoha siabie."
 
 #: views/dolphindirlister.cpp:41
 #, fuzzy

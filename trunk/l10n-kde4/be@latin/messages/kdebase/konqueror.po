@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-06 02:23+0100\n"
+"POT-Creation-Date: 2011-05-10 04:06+0200\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -22,15 +22,6 @@ msgstr ""
 #: src/konqmainwindow.cpp:5067
 msgid "no name"
 msgstr "biaz nazvy"
-
-#: src/konqextensionmanager.cpp:54
-msgid "Configure"
-msgstr "Naładź"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Pašyreńni"
 
 #: src/konqfactory.cpp:90
 #, kde-format
@@ -384,57 +375,6 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr "Roznaje"
 
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4534
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "Adčyni ŭ &novym aknie"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Adčyni ŭ novaj kartcy"
-
-#: src/konqhistoryview.cpp:71
-#, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "Skapijuj adras łuča"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "&Vydali"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "&Vyčyści historyju"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "&Nałady..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "Pavodle &nazvaŭ"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "Pavodle &dataŭ"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "Vyčyści historyju"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Sapraŭdy chočaš vyčyścić usiu historyju?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-msgid "Clear History?"
-msgstr "Vyčyścić historyju?"
-
 #: src/konqmain.cpp:96
 #, fuzzy
 #| msgid "Start without a default window"
@@ -483,6 +423,139 @@ msgstr ""
 msgid "Location to open"
 msgstr "Patrebny adras"
 
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju "
+"kartku, klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. "
+"Tekst na kartcy aznačaje jejnaje źmieściva. Kab ubačyć poŭnuju nazvu, "
+"źmiaści kursor myšy na patrebnaj kartcy."
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr "Adčyni novuju kartku"
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr "Začyni hetuju kartku"
+
+#: src/konqtabs.cpp:326 src/konqmainwindow.cpp:3645
+msgid "&Reload All Tabs"
+msgstr "&Pieračytaj usie kartki"
+
+#: src/konqtabs.cpp:349 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:3583
+msgid "Close &Other Tabs"
+msgstr "Začyni &inšyja kartki"
+
+#: src/konqtabs.cpp:460 src/konqmainwindow.cpp:3556
+msgid "&New Tab"
+msgstr "&Novaja kartka"
+
+#: src/konqtabs.cpp:465
+msgid "&Duplicate Tab"
+msgstr "&Skapijuj kartku"
+
+#: src/konqtabs.cpp:470
+msgid "&Reload Tab"
+msgstr "&Pieračytaj kartku"
+
+#: src/konqtabs.cpp:477
+msgid "Other Tabs"
+msgstr "Inšyja kartki"
+
+#: src/konqtabs.cpp:482
+msgid "D&etach Tab"
+msgstr "&Adčapi kartku"
+
+#: src/konqtabs.cpp:488
+msgid "&Close Tab"
+msgstr "&Začyni kartku"
+
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr "&Anuluj: začynieńnie kartki"
+
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr "&Anuluj: začynieńnie akna"
+
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
+msgstr ""
+
+#: src/konqextensionmanager.cpp:54
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Naładź"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Pašyreńni"
+
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4534
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "Adčyni ŭ &novym aknie"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "Adčyni ŭ novaj kartcy"
+
+#: src/konqhistoryview.cpp:71
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "Skapijuj adras łuča"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "&Vydali"
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "&Vyčyści historyju"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "&Nałady..."
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "Pavodle &nazvaŭ"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "Pavodle &dataŭ"
+
+#: src/konqhistoryview.cpp:111
+#, fuzzy
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "Vyčyści historyju"
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "Sapraŭdy chočaš vyčyścić usiu historyju?"
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+#, fuzzy
+#| msgid "Clear History?"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Vyčyścić historyju?"
+
 #: src/konqmainwindow.cpp:571
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -504,6 +577,9 @@ msgstr ""
 #: src/konqmainwindow.cpp:2414 src/konqmainwindow.cpp:2444
 #: src/konqmainwindow.cpp:2486 src/konqmainwindow.cpp:2508
 #: src/konqmainwindow.cpp:4969 src/konqviewmanager.cpp:1427
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
 msgid "Discard Changes?"
 msgstr "Anulavać źmieny?"
 
@@ -589,13 +665,11 @@ msgid "Do you really want to close all other tabs?"
 msgstr "Sapraŭdy začynić usie inšyja kartki?"
 
 #: src/konqmainwindow.cpp:2470
+#, fuzzy
+#| msgid "Close Other Tabs Confirmation"
+msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "Paćviardžeńnie začynieńnia inšych kartak"
-
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:3583
-#: src/konqtabs.cpp:349
-msgid "Close &Other Tabs"
-msgstr "Začyni &inšyja kartki"
 
 #: src/konqmainwindow.cpp:2485
 msgid ""
@@ -614,6 +688,9 @@ msgstr ""
 "Pieračytaŭšy ŭsie kartki, ty ich straciš."
 
 #: src/konqmainwindow.cpp:2550
+#, fuzzy
+#| msgid "Enter Target"
+msgctxt "@title:window"
 msgid "Enter Target"
 msgstr "Upišy metavaje miesca"
 
@@ -737,10 +814,6 @@ msgstr "Padziali prahlad &vertykalna"
 msgid "Split View &Top/Bottom"
 msgstr "Padziali prahlad &haryzantalna"
 
-#: src/konqmainwindow.cpp:3556 src/konqtabs.cpp:460
-msgid "&New Tab"
-msgstr "&Novaja kartka"
-
 #: src/konqmainwindow.cpp:3562
 msgid "&Duplicate Current Tab"
 msgstr "&Skapijuj hetuju kartku"
@@ -793,10 +866,6 @@ msgstr "&Adčytaj profil prahladu"
 #: src/konqmainwindow.cpp:3640 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "&Pieračytaj"
-
-#: src/konqmainwindow.cpp:3645 src/konqtabs.cpp:326
-msgid "&Reload All Tabs"
-msgstr "&Pieračytaj usie kartki"
 
 #: src/konqmainwindow.cpp:3653
 msgid "&Force Reload"
@@ -1039,6 +1108,9 @@ msgstr ""
 "być doŭhim. Praciahvać?"
 
 #: src/konqmainwindow.cpp:4360
+#, fuzzy
+#| msgid "Open bookmarks folder in new tabs"
+msgctxt "@title:window"
 msgid "Open bookmarks folder in new tabs"
 msgstr "Adčyni kataloh zakładak u novych kartkach"
 
@@ -1082,6 +1154,9 @@ msgid ""
 msgstr "U hetym aknie adčynienyja niekalki kartak. Sapraŭdy chočaš vyjści?"
 
 #: src/konqmainwindow.cpp:4934 src/konqviewmanager.cpp:1413
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "Paćviardžeńnie"
 
@@ -1112,6 +1187,9 @@ msgstr ""
 "Bakavaja panel nie pracuje ci jaje niama. Nie ŭdałosia dadać novy element."
 
 #: src/konqmainwindow.cpp:5134 src/konqmainwindow.cpp:5141
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "Sieciŭnaja bakavaja panel"
 
@@ -1138,6 +1216,9 @@ msgstr ""
 "ale jana nia ŭmieje absłuhoŭvać fajłaŭ takoha typu."
 
 #: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
 msgid "Profile Management"
 msgstr "Kiravańnie profilami"
 
@@ -1150,6 +1231,9 @@ msgid "&Delete Profile"
 msgstr "&Vydali profil"
 
 #: src/konqsessiondlg.cpp:77
+#, fuzzy
+#| msgid "Manage Sessions"
+msgctxt "@title:window"
 msgid "Manage Sessions"
 msgstr "Kiruj sesijami"
 
@@ -1160,10 +1244,14 @@ msgstr "&Adčyni"
 #: src/konqsessiondlg.cpp:175
 #, fuzzy
 #| msgid "Rename session"
+msgctxt "@title:window"
 msgid "Rename Session"
 msgstr "Źmiani nazvu sesii"
 
 #: src/konqsessiondlg.cpp:223
+#, fuzzy
+#| msgid "Save Session"
+msgctxt "@title:window"
 msgid "Save Session"
 msgstr "Zapišy sesiju"
 
@@ -1174,6 +1262,9 @@ msgid ""
 msgstr "Sesija z nazvaj „%1” užo isnuje. Chočaš jaje zamianić?"
 
 #: src/konqsessiondlg.cpp:248
+#, fuzzy
+#| msgid "Session exists. Overwrite?"
+msgctxt "@title:window"
 msgid "Session exists. Overwrite?"
 msgstr "Sesija isnuje. Zamianić?"
 
@@ -1187,6 +1278,9 @@ msgstr ""
 "Prahrama „Konqueror” minuły raz kiepska skončyła pracu. Uznavić tuju sesiju?"
 
 #: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
 msgid "Restore Session?"
 msgstr "Uznavić sesiju?"
 
@@ -1202,60 +1296,6 @@ msgstr "Nie ŭznaŭlaj"
 msgid "Ask Me Later"
 msgstr "Spytaj paźniej"
 
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju "
-"kartku, klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. "
-"Tekst na kartcy aznačaje jejnaje źmieściva. Kab ubačyć poŭnuju nazvu, "
-"źmiaści kursor myšy na patrebnaj kartcy."
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "Adčyni novuju kartku"
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "Začyni hetuju kartku"
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr "&Skapijuj kartku"
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr "&Pieračytaj kartku"
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr "Inšyja kartki"
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr "&Adčapi kartku"
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "&Začyni kartku"
-
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr "&Anuluj: začynieńnie kartki"
-
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr "&Anuluj: začynieńnie akna"
-
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
 #: src/konqview.cpp:1199
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -1267,6 +1307,9 @@ msgstr ""
 "(naprykład, pošuk ci zamaŭleńnie tavaru), buduć paŭtoranyja."
 
 #: src/konqview.cpp:1201
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
 msgid "Warning"
 msgstr "Uvaha"
 
@@ -1355,6 +1398,188 @@ msgstr ""
 msgid "Extended Sidebar"
 msgstr "Pašyranaja bakavaja panel"
 
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
+msgid "&Create New Folder"
+msgstr "&Stvary novy kataloh"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
+#: sidebar/trees/konq_sidebartree.cpp:207
+msgid "Delete Folder"
+msgstr "Vydali kataloh"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
+msgid "Delete Bookmark"
+msgstr "Vydali zakładku"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
+#: sidebar/trees/konq_sidebartree.cpp:224
+msgid "Properties"
+msgstr "Ułaścivaści"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
+#: sidebar/trees/konq_sidebartree.cpp:228
+msgid "Open in New Window"
+msgstr "Adčyni ŭ novym aknie"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
+msgid "Open Folder in Tabs"
+msgstr "Adčyni kataloh u kartkach"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
+#: sidebar/trees/konq_sidebartree.cpp:236
+msgid "Copy Link Address"
+msgstr "Skapijuj adras łuča"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+"Sapraŭdy chočaš vydalić kataloh z zakładkami\n"
+"„%1”?"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+"Sapraŭdy chočaš vydalić zakładku\n"
+"„%1”?"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+#, fuzzy
+#| msgid "Bookmark Folder Deletion"
+msgctxt "@title:window"
+msgid "Bookmark Folder Deletion"
+msgstr "Vydaleńnie kataloha z zakładkami"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+#, fuzzy
+#| msgid "Bookmark Deletion"
+msgctxt "@title:window"
+msgid "Bookmark Deletion"
+msgstr "Vydaleńnie zakładki"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+#, fuzzy
+#| msgid "Bookmark Properties"
+msgctxt "@title:window"
+msgid "Bookmark Properties"
+msgstr "Ułaścivaści zakładki"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
+msgid "&Update"
+msgstr "&Aktualizuj"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
+msgid "Name:"
+msgstr "Nazva:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
+msgid "Location:"
+msgstr "Miesca:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+#, fuzzy
+#| msgid "Add Bookmark"
+msgctxt "@title:window"
+msgid "Add Bookmark"
+msgstr "Dadaj zakładku"
+
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr ""
+"Nie ŭdałosia znajści ŭ hierarchii vyšejšy element „%1”. Heta ŭnutranaja "
+"pamyłka."
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "Nazva:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:203
+msgid "&Create New Folder..."
+msgstr "&Stvary novy kataloh..."
+
+#: sidebar/trees/konq_sidebartree.cpp:211
+msgid "Move to Trash"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:215
+msgid "Rename"
+msgstr "Źmiani nazvu"
+
+#: sidebar/trees/konq_sidebartree.cpp:220
+msgid "Delete Link"
+msgstr "Vydali łuč"
+
+#: sidebar/trees/konq_sidebartree.cpp:951
+msgid "New Folder"
+msgstr "Novy kataloh"
+
+#: sidebar/trees/konq_sidebartree.cpp:955
+#, fuzzy
+#| msgid "Create New Folder"
+msgctxt "@title:window"
+msgid "Create New Folder"
+msgstr "Stvary novy kataloh"
+
+#: sidebar/trees/konq_sidebartree.cpp:956
+msgid "Enter folder name:"
+msgstr "Upišy nazvu kataloha:"
+
+#: sidebar/web_module/web_module.cpp:57
+msgid "&Open Link"
+msgstr "&Adčyni łuč"
+
+#: sidebar/web_module/web_module.cpp:73
+msgid "Set &Automatic Reload"
+msgstr "Uklučy &aŭtamatyčnaje pieračytvańnie"
+
+#: sidebar/web_module/web_module.cpp:137
+#, fuzzy
+#| msgid "Set Refresh Timeout (0 disables)"
+msgctxt "@title:window"
+msgid "Set Refresh Timeout (0 disables)"
+msgstr "Aznač termin čakańnia aktualizacyi („0” vyklučaje)"
+
+#: sidebar/web_module/web_module.cpp:145
+msgid " min"
+msgstr " chvilin"
+
+#: sidebar/web_module/web_module.cpp:148
+msgid " sec"
+msgstr " sekund"
+
+#: sidebar/web_module/web_module.cpp:280
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "Sieciŭnaja bakavaja panel"
+
+#: sidebar/web_module/web_module.cpp:301
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr ""
+
 #: sidebar/sidebar_widget.cpp:94
 msgid "Rollback to System Default"
 msgstr "Viarni systemnyja nałady"
@@ -1404,6 +1629,9 @@ msgid "Show Tabs Right"
 msgstr "Pakazvaj kartki sprava"
 
 #: sidebar/sidebar_widget.cpp:287
+#, fuzzy
+#| msgid "Set Name"
+msgctxt "@title:window"
 msgid "Set Name"
 msgstr "Aznač nazvu"
 
@@ -1456,170 +1684,6 @@ msgstr "Vydali"
 #| msgid "Web Sidebar"
 msgid "Web module"
 msgstr "Sieciŭnaja bakavaja panel"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
-msgid "&Create New Folder"
-msgstr "&Stvary novy kataloh"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
-#: sidebar/trees/konq_sidebartree.cpp:207
-msgid "Delete Folder"
-msgstr "Vydali kataloh"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
-msgid "Delete Bookmark"
-msgstr "Vydali zakładku"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
-#: sidebar/trees/konq_sidebartree.cpp:224
-msgid "Properties"
-msgstr "Ułaścivaści"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
-#: sidebar/trees/konq_sidebartree.cpp:228
-msgid "Open in New Window"
-msgstr "Adčyni ŭ novym aknie"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
-msgid "Open Folder in Tabs"
-msgstr "Adčyni kataloh u kartkach"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
-#: sidebar/trees/konq_sidebartree.cpp:236
-msgid "Copy Link Address"
-msgstr "Skapijuj adras łuča"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
-msgstr ""
-"Sapraŭdy chočaš vydalić kataloh z zakładkami\n"
-"„%1”?"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
-msgstr ""
-"Sapraŭdy chočaš vydalić zakładku\n"
-"„%1”?"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
-msgid "Bookmark Folder Deletion"
-msgstr "Vydaleńnie kataloha z zakładkami"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
-msgid "Bookmark Deletion"
-msgstr "Vydaleńnie zakładki"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
-msgid "Bookmark Properties"
-msgstr "Ułaścivaści zakładki"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
-msgid "&Update"
-msgstr "&Aktualizuj"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
-msgid "Name:"
-msgstr "Nazva:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
-msgid "Location:"
-msgstr "Miesca:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-msgid "Add Bookmark"
-msgstr "Dadaj zakładku"
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr ""
-"Nie ŭdałosia znajści ŭ hierarchii vyšejšy element „%1”. Heta ŭnutranaja "
-"pamyłka."
-
-#: sidebar/trees/konq_sidebartree.cpp:203
-msgid "&Create New Folder..."
-msgstr "&Stvary novy kataloh..."
-
-#: sidebar/trees/konq_sidebartree.cpp:211
-msgid "Move to Trash"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:215
-msgid "Rename"
-msgstr "Źmiani nazvu"
-
-#: sidebar/trees/konq_sidebartree.cpp:220
-msgid "Delete Link"
-msgstr "Vydali łuč"
-
-#: sidebar/trees/konq_sidebartree.cpp:951
-msgid "New Folder"
-msgstr "Novy kataloh"
-
-#: sidebar/trees/konq_sidebartree.cpp:955
-msgid "Create New Folder"
-msgstr "Stvary novy kataloh"
-
-#: sidebar/trees/konq_sidebartree.cpp:956
-msgid "Enter folder name:"
-msgstr "Upišy nazvu kataloha:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "Nazva:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:57
-msgid "&Open Link"
-msgstr "&Adčyni łuč"
-
-#: sidebar/web_module/web_module.cpp:73
-msgid "Set &Automatic Reload"
-msgstr "Uklučy &aŭtamatyčnaje pieračytvańnie"
-
-#: sidebar/web_module/web_module.cpp:137
-msgid "Set Refresh Timeout (0 disables)"
-msgstr "Aznač termin čakańnia aktualizacyi („0” vyklučaje)"
-
-#: sidebar/web_module/web_module.cpp:145
-msgid " min"
-msgstr " chvilin"
-
-#: sidebar/web_module/web_module.cpp:148
-msgid " sec"
-msgstr " sekund"
-
-#: sidebar/web_module/web_module.cpp:280
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr "Sieciŭnaja bakavaja panel"
-
-#: sidebar/web_module/web_module.cpp:301
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr ""
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
@@ -2135,6 +2199,9 @@ msgid ""
 msgstr "Sapraŭdy pierastać pakazvać uvodziny dla profila hartańnia sieciva?"
 
 #: about/konq_aboutpage.cc:465
+#, fuzzy
+#| msgid "Faster Startup?"
+msgctxt "@title:window"
 msgid "Faster Startup?"
 msgstr "Paskoryć uklučeńnie?"
 

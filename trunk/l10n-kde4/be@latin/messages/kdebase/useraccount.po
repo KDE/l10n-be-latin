@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-12 04:10+0100\n"
+"POT-Creation-Date: 2011-05-10 04:06+0200\n"
 "PO-Revision-Date: 2008-10-06 22:09+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,6 +19,9 @@ msgstr ""
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: chfacedlg.cpp:56
+#, fuzzy
+#| msgid "Change your Face"
+msgctxt "@title:window"
 msgid "Change your Face"
 msgstr "Źmiani svaju vyjavu"
 
@@ -48,6 +51,9 @@ msgid "&Save copy in custom faces folder for future use"
 msgstr "&Zapišy kopiju ŭ kataloh dla ŭłasnych vyjavaŭ"
 
 #: chfacedlg.cpp:149
+#, fuzzy
+#| msgid "Choose Image"
+msgctxt "@title:window"
 msgid "Choose Image"
 msgstr "Vybiery vyjavu"
 

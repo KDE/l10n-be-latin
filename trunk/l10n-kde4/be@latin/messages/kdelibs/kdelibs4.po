@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-13 04:13+0200\n"
+"POT-Creation-Date: 2011-05-17 04:19+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5022,14 +5022,6 @@ msgctxt "Socket error code RemotelyDisconnected"
 msgid "remote host closed connection"
 msgstr "tamtejšy host začyniŭ spałučeńnie"
 
-#: kdecore/network/k3socks.cpp:137
-msgid "NEC SOCKS client"
-msgstr "Klijent dla NEC SOCKS"
-
-#: kdecore/network/k3socks.cpp:172
-msgid "Dante SOCKS client"
-msgstr "Klijent dla Dante SOCKS"
-
 #: kdecore/network/klocalsocket_unix.cpp:178
 #: kdecore/network/klocalsocket_unix.cpp:246
 msgid "Specified socket path is invalid"
@@ -5203,6 +5195,14 @@ msgstr "Zadoŭhi łancuh sertyfikataŭ."
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "Nieviadomaja pamyłka"
+
+#: kdecore/network/k3socks.cpp:137
+msgid "NEC SOCKS client"
+msgstr "Klijent dla NEC SOCKS"
+
+#: kdecore/network/k3socks.cpp:172
+msgid "Dante SOCKS client"
+msgstr "Klijent dla Dante SOCKS"
 
 #: kdecore/services/kmimetyperepository.cpp:603
 #, kde-format

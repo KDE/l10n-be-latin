@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-13 13:32+0200\n"
+"POT-Creation-Date: 2011-05-17 15:34+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6198,7 +6198,7 @@ msgid "Reset Toolbars"
 msgstr "Anuluj źmieny ŭ panelach pryładździa"
 
 #: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2813
-#: khtml/khtmlview.cpp:2846 khtml/html/html_formimpl.cpp:1836
+#: khtml/khtmlview.cpp:2846 khtml/html/html_formimpl.cpp:1839
 msgid "Reset"
 msgstr "Anuluj źmieny"
 
@@ -10487,7 +10487,7 @@ msgid "Access Keys activated"
 msgstr ""
 
 #: khtml/khtmlview.cpp:2799 khtml/khtmlview.cpp:2841 khtml/khtml_part.cpp:4764
-#: khtml/html/html_formimpl.cpp:1632 khtml/html/html_formimpl.cpp:1844
+#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
 msgid "Submit"
 msgstr "Pierašli"
 
@@ -11175,6 +11175,31 @@ msgstr "Spasyłka"
 msgid "Loaded Scripts"
 msgstr "Źmieščanyja ŭ pamiać skrypty"
 
+#: khtml/html/html_objectimpl.cpp:610
+#, kde-format
+msgid ""
+"No plugin found for '%1'.\n"
+"Do you want to download one from %2?"
+msgstr ""
+"Dla „%1” nia znojdzieny plugin.\n"
+"Ci chočaš zabrać taki plugin z „%2”?"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Missing Plugin"
+msgstr "Nie staje plugina"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Download"
+msgstr "Zabiary z servera"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Do Not Download"
+msgstr "Nie zabiraj z servera"
+
+#: khtml/html/htmlparser.cpp:1938
+msgid "This is a searchable index. Enter search keywords: "
+msgstr ""
+
 #: khtml/html/html_formimpl.cpp:422
 msgid ""
 "The following files will not be uploaded because they could not be found.\n"
@@ -11214,34 +11239,9 @@ msgstr[0] "&Vyšli fajły"
 msgstr[1] "&Vyšli fajły"
 msgstr[2] "&Vyšli fajły"
 
-#: khtml/html/html_formimpl.cpp:2688
+#: khtml/html/html_formimpl.cpp:2691
 msgid "Key Generator"
 msgstr "Hieneratar klučoŭ"
-
-#: khtml/html/html_objectimpl.cpp:610
-#, kde-format
-msgid ""
-"No plugin found for '%1'.\n"
-"Do you want to download one from %2?"
-msgstr ""
-"Dla „%1” nia znojdzieny plugin.\n"
-"Ci chočaš zabrać taki plugin z „%2”?"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Missing Plugin"
-msgstr "Nie staje plugina"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Download"
-msgstr "Zabiary z servera"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Do Not Download"
-msgstr "Nie zabiraj z servera"
-
-#: khtml/html/htmlparser.cpp:1938
-msgid "This is a searchable index. Enter search keywords: "
-msgstr ""
 
 #: khtml/java/kjavaapplet.cpp:224
 #, kde-format

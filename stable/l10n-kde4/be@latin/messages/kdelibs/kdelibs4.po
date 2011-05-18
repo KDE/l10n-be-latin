@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-17 15:34+0200\n"
+"POT-Creation-Date: 2011-05-18 14:18+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -7860,12 +7860,6 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "Pra KDE"
 
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Send Confirmation"
-msgid "Spell Checking Configuration"
-msgstr "Paćvierdžańnie vysyłańnia"
-
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:443
 msgctxt "@title:window"
@@ -7895,6 +7889,12 @@ msgstr "Spraŭdžvańnie pravapisu anulavanaje."
 #: kdeui/sonnet/dialog.cpp:439 kdeui/sonnet/dialog.cpp:443
 msgid "Spell check complete."
 msgstr "Spraŭdžvańnie pravapisu skončanaje."
+
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Send Confirmation"
+msgid "Spell Checking Configuration"
+msgstr "Paćvierdžańnie vysyłańnia"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""

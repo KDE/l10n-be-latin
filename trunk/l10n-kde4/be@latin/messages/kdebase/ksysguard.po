@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-27 03:48+0200\n"
+"POT-Creation-Date: 2011-05-23 03:56+0200\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -376,85 +376,6 @@ msgstr ""
 msgid "Terabytes"
 msgstr "Temperatura"
 
-#: SensorDisplayLib/FancyPlotter.cpp:178
-msgctxt "Largest axis title"
-msgid "99999 XXXX"
-msgstr "99999 XXXX"
-
-#: SensorDisplayLib/FancyPlotter.cpp:515 SensorDisplayLib/FancyPlotter.cpp:586
-#: SensorDisplayLib/FancyPlotter.cpp:649
-#, kde-format
-msgctxt "units"
-msgid "%1%"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:523
-#, fuzzy, kde-format
-msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
-msgid "<p><b>%1:</b><br>"
-msgstr "<p><b>%1:</b><br>"
-
-#: SensorDisplayLib/FancyPlotter.cpp:594
-#, fuzzy, kde-format
-msgid "%1 of %2%1"
-msgstr "%1 z %2"
-
-#: SensorDisplayLib/FancyPlotter.cpp:622
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:625
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:628
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:631
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:636
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:639
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:642
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:645
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:651
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgctxt "unitless - just a number"
-msgid "%1"
-msgstr "%"
-
 #: SensorDisplayLib/FancyPlotterSettings.cpp:51
 #, fuzzy
 #| msgid "Signal Plotter Settings"
@@ -612,6 +533,85 @@ msgstr ""
 "<qt><p>Heta prahlad sensara. Kab źmianić jaho, klikni siudy pravaj knopkaj "
 "myšy j vybiery punkt <i>Ułaścivaści</i> z uźnikłaha menu. Kab vydalić "
 "prahlad z rabočaha arkuša, vybiery punkt <i>Vydali</i>.</p>%1</qt>"
+
+#: SensorDisplayLib/FancyPlotter.cpp:178
+msgctxt "Largest axis title"
+msgid "99999 XXXX"
+msgstr "99999 XXXX"
+
+#: SensorDisplayLib/FancyPlotter.cpp:515 SensorDisplayLib/FancyPlotter.cpp:586
+#: SensorDisplayLib/FancyPlotter.cpp:649
+#, kde-format
+msgctxt "units"
+msgid "%1%"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:523
+#, fuzzy, kde-format
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
+msgid "<p><b>%1:</b><br>"
+msgstr "<p><b>%1:</b><br>"
+
+#: SensorDisplayLib/FancyPlotter.cpp:594
+#, fuzzy, kde-format
+msgid "%1 of %2%1"
+msgstr "%1 z %2"
+
+#: SensorDisplayLib/FancyPlotter.cpp:622
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:625
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:628
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:631
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:636
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:639
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:642
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:645
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB/s"
+msgstr ""
+
+#: SensorDisplayLib/FancyPlotter.cpp:651
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgctxt "unitless - just a number"
+msgid "%1"
+msgstr "%"
 
 #: ksgrd/SensorAgent.cpp:109
 #, fuzzy, kde-format
@@ -1391,39 +1391,6 @@ msgstr "Upišy zahad, jaki ŭklučaje słužbu „ksysguardd” na patrebnym ho�
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr "naprykład, „ssh -l root remote.host.org ksysguardd”"
 
-#: SensorBrowser.cpp:117
-msgid "Sensor Browser"
-msgstr "Sensary"
-
-#: SensorBrowser.cpp:474
-#, fuzzy
-#| msgid "Drag sensors to empty cells of a worksheet or the panel applet."
-msgid "Drag sensors to empty cells of a worksheet "
-msgstr ""
-"Pieraciahvaj sensary, kab vyzvalić miesca na rabočym arkušy albo ŭ aplecie "
-"dla paneli."
-
-#: SensorBrowser.cpp:475
-#, fuzzy
-#| msgid ""
-#| "The sensor browser lists the connected hosts and the sensors that they "
-#| "provide. Click and drag sensors into drop zones of a worksheet or the "
-#| "panel applet. A display will appear that visualizes the values provided "
-#| "by the sensor. Some sensor displays can display values of multiple "
-#| "sensors. Simply drag other sensors on to the display to add more sensors."
-msgid ""
-"The sensor browser lists the connected hosts and the sensors that they "
-"provide. Click and drag sensors into drop zones of a worksheet. A display "
-"will appear that visualizes the values provided by the sensor. Some sensor "
-"displays can display values of multiple sensors. Simply drag other sensors "
-"on to the display to add more sensors."
-msgstr ""
-"Tut źmiaščajecca śpis spałučanych hostaŭ dy inchnych sensaraŭ. Kali ty "
-"pieraciahnieš siudy sensar, tady ty jaho ŭbačyš tut i zmožaš ź jahonaj "
-"dapamohaju adsočvać źmieny ŭ systemie. Niekatoryja prahlady mohuć vyjaŭlać "
-"źviestki ź niekalkich sensaraŭ. Dziela hetaha prosta pieraciahvaj "
-"dadatkovyja sensary."
-
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
 msgstr "Nałady hadzińnika"
@@ -1474,55 +1441,6 @@ msgstr "Upišy kolkaść słupkoŭ dla hetaha rabočaha arkuša."
 #: WorkSheetSettings.cpp:101
 msgid "Enter the title of the worksheet here."
 msgstr "Tut upišy nazvu dla hetaha rabočaha arkuša."
-
-#: Workspace.cpp:113
-#, kde-format
-msgid "Sheet %1"
-msgstr "Arkuš „%1”"
-
-#: Workspace.cpp:172
-#, kde-format
-msgid ""
-"The tab '%1' contains unsaved data.\n"
-"Do you want to save the tab?"
-msgstr ""
-"Kartka „%1” źmiaščaje niezapisanyja źviestki.\n"
-"Chočaš ich zapisać?"
-
-#: Workspace.cpp:187
-msgid "*.sgrd|Sensor Files (*.sgrd)"
-msgstr "*.sgrd|Fajły sensaraŭ (*.sgrd)"
-
-#: Workspace.cpp:187
-msgid "Select Tab File to Import"
-msgstr "Vybiery fajł kartak, kab zimpartavać jaho"
-
-#: Workspace.cpp:215 Workspace.cpp:236
-msgid "You do not have a tab that could be saved."
-msgstr "U ciabie niama kartki, jakuju možna zapisać."
-
-#: Workspace.cpp:243
-msgid "Export Tab"
-msgstr "Zekspartuj kartku"
-
-#: Workspace.cpp:261
-msgid "There are no tabs that could be deleted."
-msgstr "U ciabie niama kartak, jakija možna vydalić."
-
-#: Workspace.cpp:301
-#, kde-format
-msgid ""
-"<qt>To propose the current custom tab as a new System Monitor tab, email "
-"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
-"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
-"qt>"
-msgstr ""
-
-#: Workspace.cpp:301
-#, fuzzy
-#| msgid "System Monitor"
-msgid "Upload custom System Monitor tab"
-msgstr "Systemny nazirańnik"
 
 #: WorkSheet.cpp:88
 #, kde-format
@@ -1734,6 +1652,88 @@ msgstr ""
 #: ksysguard.cpp:551
 msgid "Optional worksheet files to load"
 msgstr "Dadatkovyja fajły rabočych arkušoŭ"
+
+#: SensorBrowser.cpp:117
+msgid "Sensor Browser"
+msgstr "Sensary"
+
+#: SensorBrowser.cpp:474
+#, fuzzy
+#| msgid "Drag sensors to empty cells of a worksheet or the panel applet."
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr ""
+"Pieraciahvaj sensary, kab vyzvalić miesca na rabočym arkušy albo ŭ aplecie "
+"dla paneli."
+
+#: SensorBrowser.cpp:475
+#, fuzzy
+#| msgid ""
+#| "The sensor browser lists the connected hosts and the sensors that they "
+#| "provide. Click and drag sensors into drop zones of a worksheet or the "
+#| "panel applet. A display will appear that visualizes the values provided "
+#| "by the sensor. Some sensor displays can display values of multiple "
+#| "sensors. Simply drag other sensors on to the display to add more sensors."
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+"Tut źmiaščajecca śpis spałučanych hostaŭ dy inchnych sensaraŭ. Kali ty "
+"pieraciahnieš siudy sensar, tady ty jaho ŭbačyš tut i zmožaš ź jahonaj "
+"dapamohaju adsočvać źmieny ŭ systemie. Niekatoryja prahlady mohuć vyjaŭlać "
+"źviestki ź niekalkich sensaraŭ. Dziela hetaha prosta pieraciahvaj "
+"dadatkovyja sensary."
+
+#: Workspace.cpp:113
+#, kde-format
+msgid "Sheet %1"
+msgstr "Arkuš „%1”"
+
+#: Workspace.cpp:172
+#, kde-format
+msgid ""
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
+msgstr ""
+"Kartka „%1” źmiaščaje niezapisanyja źviestki.\n"
+"Chočaš ich zapisać?"
+
+#: Workspace.cpp:187
+msgid "*.sgrd|Sensor Files (*.sgrd)"
+msgstr "*.sgrd|Fajły sensaraŭ (*.sgrd)"
+
+#: Workspace.cpp:187
+msgid "Select Tab File to Import"
+msgstr "Vybiery fajł kartak, kab zimpartavać jaho"
+
+#: Workspace.cpp:215 Workspace.cpp:236
+msgid "You do not have a tab that could be saved."
+msgstr "U ciabie niama kartki, jakuju možna zapisać."
+
+#: Workspace.cpp:243
+msgid "Export Tab"
+msgstr "Zekspartuj kartku"
+
+#: Workspace.cpp:261
+msgid "There are no tabs that could be deleted."
+msgstr "U ciabie niama kartak, jakija možna vydalić."
+
+#: Workspace.cpp:301
+#, kde-format
+msgid ""
+"<qt>To propose the current custom tab as a new System Monitor tab, email "
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
+msgstr ""
+
+#: Workspace.cpp:301
+#, fuzzy
+#| msgid "System Monitor"
+msgid "Upload custom System Monitor tab"
+msgstr "Systemny nazirańnik"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

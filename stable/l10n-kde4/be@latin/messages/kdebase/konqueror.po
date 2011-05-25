@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-13 13:19+0200\n"
+"POT-Creation-Date: 2011-05-25 13:08+0200\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1252,24 +1252,6 @@ msgstr ""
 "Uźnikła pamyłka ŭ naładžvańni. Ty pryviazaŭ prahramu „Konqueror” da „%1”, "
 "ale jana nia ŭmieje absłuhoŭvać fajłaŭ takoha typu."
 
-#: src/konqview.cpp:1199
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-"Staronka, jakuju ty sprabuješ pahladzieć, jość vynikam vysłanym źviestak "
-"formy. Kali ty pierašleš źviestki, to ŭsie aperacyi, vykananyja formaj "
-"(naprykład, pošuk ci zamaŭleńnie tavaru), buduć paŭtoranyja."
-
-#: src/konqview.cpp:1201
-msgid "Warning"
-msgstr "Uvaha"
-
-#: src/konqview.cpp:1201
-msgid "Resend"
-msgstr "Pierašli"
-
 #: src/konqviewmanager.cpp:1404
 msgid ""
 "You have multiple tabs open in this window.\n"
@@ -1289,6 +1271,24 @@ msgid ""
 msgstr ""
 "Hetaja kartka ŭtrymvaje niavysłanyja źviestki.\n"
 "Adčytaŭšy profil, ty ich straciš."
+
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"Staronka, jakuju ty sprabuješ pahladzieć, jość vynikam vysłanym źviestak "
+"formy. Kali ty pierašleš źviestki, to ŭsie aperacyi, vykananyja formaj "
+"(naprykład, pošuk ci zamaŭleńnie tavaru), buduć paŭtoranyja."
+
+#: src/konqview.cpp:1205
+msgid "Warning"
+msgstr "Uvaha"
+
+#: src/konqview.cpp:1205
+msgid "Resend"
+msgstr "Pierašli"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy

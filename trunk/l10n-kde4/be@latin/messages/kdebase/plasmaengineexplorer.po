@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:11+0200\n"
+"POT-Creation-Date: 2011-06-01 04:09+0200\n"
 "PO-Revision-Date: 2008-12-27 00:35+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -40,13 +40,13 @@ msgstr "Krynica źviestak"
 
 #. i18n: file: serviceviewer.ui:67
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:162 rc.cpp:26 serviceviewer.cpp:140
+#: engineexplorer.cpp:162 rc.cpp:26 serviceviewer.cpp:142
 msgid "Key"
 msgstr "Kluč"
 
 #. i18n: file: serviceviewer.ui:72
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:162 rc.cpp:29 serviceviewer.cpp:140
+#: engineexplorer.cpp:162 rc.cpp:29 serviceviewer.cpp:142
 msgid "Value"
 msgstr "Vartaść"
 
@@ -241,51 +241,51 @@ msgstr "&Aperacyja:"
 msgid "Operation count"
 msgstr "Kolkaść aperacyjaŭ"
 
-#: serviceviewer.cpp:44
+#: serviceviewer.cpp:46
 msgid "Start Operation"
 msgstr "Pačni aperacyju"
 
-#: serviceviewer.cpp:51
+#: serviceviewer.cpp:53
 msgctxt "Plasma engine with unknown name"
 msgid "Unknown"
 msgstr "Nieviadomaja"
 
-#: serviceviewer.cpp:52
+#: serviceviewer.cpp:54
 msgctxt "Plasma service with unknown name"
 msgid "Unknown"
 msgstr "Nieviadomaja"
 
-#: serviceviewer.cpp:66
+#: serviceviewer.cpp:68
 #, kde-format
 msgctxt "%1 is a Plasma service name"
 msgid "%1 Service Explorer"
 msgstr "Prahlad pasłuhi „%1”"
 
-#: serviceviewer.cpp:68
+#: serviceviewer.cpp:70
 #, fuzzy, kde-format
 #| msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
 msgctxt "Source: name of the data, Service: writes data instead of fetching"
 msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
 msgstr "Žarało źviestak: <b>%1</b>. Krynica: <b>%2</b>. Pasłuha: <b>%3</b>"
 
-#: serviceviewer.cpp:169
+#: serviceviewer.cpp:171
 #, kde-format
 msgid "%1 operation with destination %2 failed. The error was:<p><b>%3</b>"
 msgstr ""
 "Nie ŭdałosia vykanać aperacyju „%1” z metaju „%2”. Uźnikła pamyłka:<p><b>%3</"
 "b>"
 
-#: serviceviewer.cpp:172 serviceviewer.cpp:183
+#: serviceviewer.cpp:174 serviceviewer.cpp:185
 msgid "Operation Result"
 msgstr "Vynik aperacyi"
 
-#: serviceviewer.cpp:176
+#: serviceviewer.cpp:178
 #, fuzzy
 #| msgid "No response from job!"
 msgid "No response from job."
 msgstr "Ad zadańnia nie było adkazu."
 
-#: serviceviewer.cpp:180
+#: serviceviewer.cpp:182
 #, kde-format
 msgid ""
 "%1 operation with destination %2 returned successfully. The result was:<p><b>"
@@ -294,7 +294,7 @@ msgstr ""
 "Aperacyja „%1” z metaju „%2” paśpiachova vykananaja. Viernuty vynik:<p><b>%"
 "3</b>"
 
-#: serviceviewer.cpp:205
+#: serviceviewer.cpp:207
 #, kde-format
 msgid "One active operation ..."
 msgid_plural "%1 operations active ..."

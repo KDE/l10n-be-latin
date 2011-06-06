@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-18 14:18+0200\n"
+"POT-Creation-Date: 2011-06-06 14:19+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -9620,66 +9620,6 @@ msgstr "Niepadtrymanaja klaviša"
 msgid "without name"
 msgstr "biaz nazvy"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "1"
-
-#: kdeui/widgets/klineedit.cpp:296
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "Vyčyści tekst"
-
-#: kdeui/widgets/klineedit.cpp:1181
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "Zakančeńnie tekstu"
-
-#: kdeui/widgets/klineedit.cpp:1188
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "Niama"
-
-#: kdeui/widgets/klineedit.cpp:1189
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "Ručnoje"
-
-#: kdeui/widgets/klineedit.cpp:1190
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "Aŭtamatyčnaje"
-
-#: kdeui/widgets/klineedit.cpp:1191
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "Vypłyŭny śpis"
-
-#: kdeui/widgets/klineedit.cpp:1192
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "Abmiežavana aŭtamatyčnaje"
-
-#: kdeui/widgets/klineedit.cpp:1193
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "Vypłyŭny śpis i aŭtamatyčnaje"
-
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "Zmoŭčana"
-
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "Aperacyi z vyjavaj"
@@ -9881,6 +9821,21 @@ msgstr ""
 msgid "&Copy Full Text"
 msgstr "&Skapijuj uvieś tekst"
 
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "1"
+
 #: kdeui/widgets/ktextedit.cpp:526
 msgid "Speak Text"
 msgstr "Pramoŭ tekst"
@@ -10016,6 +9971,51 @@ msgstr "%1"
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
 msgstr "%1"
+
+#: kdeui/widgets/klineedit.cpp:296
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "Vyčyści tekst"
+
+#: kdeui/widgets/klineedit.cpp:1181
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "Zakančeńnie tekstu"
+
+#: kdeui/widgets/klineedit.cpp:1188
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Niama"
+
+#: kdeui/widgets/klineedit.cpp:1189
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "Ručnoje"
+
+#: kdeui/widgets/klineedit.cpp:1190
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "Aŭtamatyčnaje"
+
+#: kdeui/widgets/klineedit.cpp:1191
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "Vypłyŭny śpis"
+
+#: kdeui/widgets/klineedit.cpp:1192
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "Abmiežavana aŭtamatyčnaje"
+
+#: kdeui/widgets/klineedit.cpp:1193
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "Vypłyŭny śpis i aŭtamatyčnaje"
+
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Zmoŭčana"
 
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:564
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177

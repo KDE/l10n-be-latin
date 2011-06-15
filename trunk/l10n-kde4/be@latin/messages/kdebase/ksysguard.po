@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-14 04:25+0200\n"
+"POT-Creation-Date: 2011-06-15 04:00+0200\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1442,75 +1442,6 @@ msgstr "Upišy kolkaść słupkoŭ dla hetaha rabočaha arkuša."
 msgid "Enter the title of the worksheet here."
 msgstr "Tut upišy nazvu dla hetaha rabočaha arkuša."
 
-#: WorkSheet.cpp:88
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "Nie ŭdałosia adčynić fajł „%1”."
-
-#: WorkSheet.cpp:96
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "Fajł „%1” nie źmiaščaje słušnaha kodu „XML”."
-
-#: WorkSheet.cpp:103
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-"Fajł „%1” nie źmiaščaje słušnaha aznačeńnia rabočaha arkuša, jaki pavinien "
-"mieć typ dakumentaŭ „KSysGuardWorkSheet”."
-
-#: WorkSheet.cpp:127
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr "Fajł „%1” maje niasłušny pamier rabočaha arkuša."
-
-#: WorkSheet.cpp:228
-#, kde-format
-msgid "Cannot save file %1"
-msgstr "Nie ŭdałosia zapisać fajł „%1”."
-
-#: WorkSheet.cpp:274
-msgid "The clipboard does not contain a valid display description."
-msgstr "Abmienny bufer nie źmiaščaje słušnaha apisańnia prahladu."
-
-#: WorkSheet.cpp:375
-msgid "Select Display Type"
-msgstr "Vybiery typ prahladu"
-
-#: WorkSheet.cpp:376
-msgid "&Line graph"
-msgstr "&Hrafik"
-
-#: WorkSheet.cpp:377
-msgid "&Digital display"
-msgstr "&Ličby"
-
-#: WorkSheet.cpp:378
-msgid "&Bar graph"
-msgstr "&Pałosy"
-
-#: WorkSheet.cpp:379
-msgid "Log to a &file"
-msgstr "Zapisvaj logi ŭ &fajł"
-
-#: WorkSheet.cpp:528
-#, fuzzy
-#| msgid "&Remove Display"
-msgid "Remove this display?"
-msgstr "&Vydali prahlad"
-
-#: WorkSheet.cpp:529
-#, fuzzy
-#| msgid "&Remove Display"
-msgid "Remove Display"
-msgstr "&Vydali prahlad"
-
-#: WorkSheet.cpp:570
-msgid "Dummy"
-msgstr "Pusty"
-
 #: ksysguard.cpp:74
 msgid "KDE System Monitor"
 msgstr "Systemny nazirańnik „KDE”"
@@ -1734,6 +1665,75 @@ msgstr ""
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
 msgstr "Systemny nazirańnik"
+
+#: WorkSheet.cpp:89
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "Nie ŭdałosia adčynić fajł „%1”."
+
+#: WorkSheet.cpp:97
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "Fajł „%1” nie źmiaščaje słušnaha kodu „XML”."
+
+#: WorkSheet.cpp:104
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"Fajł „%1” nie źmiaščaje słušnaha aznačeńnia rabočaha arkuša, jaki pavinien "
+"mieć typ dakumentaŭ „KSysGuardWorkSheet”."
+
+#: WorkSheet.cpp:128
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "Fajł „%1” maje niasłušny pamier rabočaha arkuša."
+
+#: WorkSheet.cpp:229
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "Nie ŭdałosia zapisać fajł „%1”."
+
+#: WorkSheet.cpp:275
+msgid "The clipboard does not contain a valid display description."
+msgstr "Abmienny bufer nie źmiaščaje słušnaha apisańnia prahladu."
+
+#: WorkSheet.cpp:376
+msgid "Select Display Type"
+msgstr "Vybiery typ prahladu"
+
+#: WorkSheet.cpp:377
+msgid "&Line graph"
+msgstr "&Hrafik"
+
+#: WorkSheet.cpp:378
+msgid "&Digital display"
+msgstr "&Ličby"
+
+#: WorkSheet.cpp:379
+msgid "&Bar graph"
+msgstr "&Pałosy"
+
+#: WorkSheet.cpp:380
+msgid "Log to a &file"
+msgstr "Zapisvaj logi ŭ &fajł"
+
+#: WorkSheet.cpp:529
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove this display?"
+msgstr "&Vydali prahlad"
+
+#: WorkSheet.cpp:530
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove Display"
+msgstr "&Vydali prahlad"
+
+#: WorkSheet.cpp:571
+msgid "Dummy"
+msgstr "Pusty"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

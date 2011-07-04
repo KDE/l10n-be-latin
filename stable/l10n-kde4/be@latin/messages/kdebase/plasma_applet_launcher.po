@@ -1,0 +1,488 @@
+# translation of plasma_applet_launcher.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_launcher\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-05-31 04:15+0200\n"
+"PO-Revision-Date: 2008-12-27 00:41+0200\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: applet/applet.cpp:84
+msgid "Kickoff Application Launcher"
+msgstr "Uklučeńnie aplikacyjaŭ „Kickoff”"
+
+#: applet/applet.cpp:85
+msgid ""
+"Favorites, applications, computer places, recently used items and desktop "
+"sessions"
+msgstr ""
+"Ułasnaje, aplikacyi, miescy na kamputary, nadoječy vykarystanyja rečy dy "
+"sesii rabočaha stała"
+
+#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:345
+#, fuzzy
+#| msgid "Applications"
+msgid "Edit Applications..."
+msgstr "Aplikacyi"
+
+#: applet/applet.cpp:114
+msgid "Switch to Classic Menu Style"
+msgstr "Viarni klasyčny vykład menu"
+
+#: applet/applet.cpp:159
+#, fuzzy
+#| msgid "General"
+msgctxt "General configuration page"
+msgid "General"
+msgstr "Ahulnaje"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "Ułasnaje"
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Chatni kataloh"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Sietkavyja katalohi"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Dakumenty"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
+msgid "Applications"
+msgstr "Aplikacyi"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:124 ui/launcher.cpp:249
+msgid "Recently Used"
+msgstr "Nadoječy ŭklučanyja"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "Nadoječy ŭklučanyja"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
+
+#: core/systemmodel.cpp:85
+msgid "Places"
+msgstr "Miescy"
+
+#: core/systemmodel.cpp:86
+msgid "Removable Storage"
+msgstr "Źmiennyja nośbity"
+
+#: core/systemmodel.cpp:87
+msgid "Storage"
+msgstr "Nośbit"
+
+#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr ""
+
+#: core/systemmodel.cpp:219
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:123 ui/launcher.cpp:270
+msgid "Computer"
+msgstr "Kamputar"
+
+#: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
+#, fuzzy
+#| msgid "Logout"
+msgid "Log out"
+msgstr "Vyjdzi"
+
+#: core/leavemodel.cpp:51
+msgid "End session"
+msgstr "Skončy sesiju"
+
+#: core/leavemodel.cpp:53
+msgid "Lock"
+msgstr "Zablakuj"
+
+#: core/leavemodel.cpp:55
+#, fuzzy
+#| msgid "Lock the screen"
+msgid "Lock screen"
+msgstr "Zablakuj ekran"
+
+#: core/leavemodel.cpp:57
+#, fuzzy
+#| msgid "Switch User"
+msgid "Switch user"
+msgstr "Źmiani karystańnika"
+
+#: core/leavemodel.cpp:59
+msgid "Start a parallel session as a different user"
+msgstr "Pačni jašče adnu sesiju dla inšaha karystańnika"
+
+#: core/leavemodel.cpp:61 simpleapplet/simpleapplet.cpp:209
+#, fuzzy
+#| msgid "Shutdown"
+msgid "Shut down"
+msgstr "Vyklučy kamputar"
+
+#: core/leavemodel.cpp:63
+#, fuzzy
+#| msgid "Turn off the computer"
+msgid "Turn off computer"
+msgstr "Vyklučy kamputar"
+
+#: core/leavemodel.cpp:65
+#, fuzzy
+#| msgctxt "Restart the computer"
+#| msgid "Restart"
+msgctxt "Restart computer"
+msgid "Restart"
+msgstr "Uklučy kamputar nanoŭ"
+
+#: core/leavemodel.cpp:67
+#, fuzzy
+#| msgid "Restart the computer"
+msgid "Restart computer"
+msgstr "Uklučy kamputar nanoŭ"
+
+#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:203
+msgid "Save Session"
+msgstr "Zapišy sesiju"
+
+#: core/leavemodel.cpp:71
+msgid "Save current session for next login"
+msgstr "Zapišy dziejnuju sesiju, kab uznavić pry nastupnym uvachodzie"
+
+#: core/leavemodel.cpp:73 simpleapplet/simpleapplet.cpp:205
+msgctxt "Puts the system on standby"
+msgid "Standby"
+msgstr "Pačakaj"
+
+#: core/leavemodel.cpp:75
+msgid "Pause without logging out"
+msgstr "Prypyni biaz vychadu"
+
+#: core/leavemodel.cpp:77 simpleapplet/simpleapplet.cpp:206
+msgid "Hibernate"
+msgstr ""
+
+#: core/leavemodel.cpp:79
+#, fuzzy
+#| msgid "Suspend to Disk"
+msgid "Suspend to disk"
+msgstr "Zaśni na dysku"
+
+#: core/leavemodel.cpp:81 simpleapplet/simpleapplet.cpp:207
+msgid "Sleep"
+msgstr ""
+
+#: core/leavemodel.cpp:83
+msgid "Suspend to RAM"
+msgstr "Zaśni ŭ pamiaci"
+
+#: core/leavemodel.cpp:106 simpleapplet/simpleapplet.cpp:211
+#: ui/launcher.cpp:179
+msgid "Leave"
+msgstr "Vyjdzi"
+
+#: core/leavemodel.cpp:118
+msgid "Session"
+msgstr "Sesija"
+
+#: core/leavemodel.cpp:146
+msgid "System"
+msgstr "Systema"
+
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr ""
+
+#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
+msgid "All Applications"
+msgstr "Usie aplikacyi"
+
+#: main.cpp:32
+msgid "Kickoff"
+msgstr "Kickoff"
+
+#: main.cpp:33
+msgid "Application Launcher"
+msgstr "Uklučeńnie aplikacyjaŭ"
+
+#: simpleapplet/simpleapplet.cpp:194
+#, fuzzy
+#| msgctxt "@item:inlistbox View:"
+#| msgid "Bookmarks"
+msgid "Bookmarks"
+msgstr "Zakładki"
+
+#: simpleapplet/simpleapplet.cpp:200
+msgid "System Settings"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:202
+msgid "Switch User"
+msgstr "Źmiani karystańnika"
+
+#: simpleapplet/simpleapplet.cpp:204
+#, fuzzy
+#| msgid "Lock the screen"
+msgid "Lock Screen"
+msgstr "Zablakuj ekran"
+
+#: simpleapplet/simpleapplet.cpp:208
+#, fuzzy
+#| msgctxt "Restart the computer"
+#| msgid "Restart"
+msgctxt "Restart Computer"
+msgid "Restart"
+msgstr "Uklučy kamputar nanoŭ"
+
+#: simpleapplet/simpleapplet.cpp:267
+#, fuzzy
+#| msgid "Application Launcher"
+msgid "Application Launcher Menu"
+msgstr "Uklučeńnie aplikacyjaŭ"
+
+#: simpleapplet/simpleapplet.cpp:335
+#, fuzzy
+#| msgid "Kickoff Application Launcher"
+msgid "Switch to Application Launcher Style"
+msgstr "Uklučeńnie aplikacyjaŭ „Kickoff”"
+
+#: simpleapplet/simpleapplet.cpp:445
+#, fuzzy
+#| msgctxt ""
+#| "@label:listbox Which category of items to view in a KMenu-like menu"
+#| msgid "View:"
+msgid "View"
+msgstr "Pakazvaj:"
+
+#: simpleapplet/simpleapplet.cpp:452
+msgid "Icon:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:459
+msgctxt "@label:listbox How to present applications in a KMenu-like menu"
+msgid "Format:"
+msgstr "Forma:"
+
+#: simpleapplet/simpleapplet.cpp:463
+msgctxt "@item:inlistbox Format:"
+msgid "Name Only"
+msgstr "Tolki nazva"
+
+#: simpleapplet/simpleapplet.cpp:464
+msgctxt "@item:inlistbox Format:"
+msgid "Description Only"
+msgstr "Tolki apisańnie"
+
+#: simpleapplet/simpleapplet.cpp:465
+msgctxt "@item:inlistbox Format:"
+msgid "Name Description"
+msgstr "Nazva Apisańnie"
+
+#: simpleapplet/simpleapplet.cpp:466
+msgctxt "@item:inlistbox Format:"
+msgid "Description (Name)"
+msgstr "Apisańnie (Nazva)"
+
+#: simpleapplet/simpleapplet.cpp:467
+msgctxt "@item:inlistbox Format:"
+msgid "Name - Description"
+msgstr "Nazva - Apisańnie"
+
+#: simpleapplet/simpleapplet.cpp:472
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently used applications:"
+msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
+
+#: simpleapplet/simpleapplet.cpp:482
+msgid "Show menu titles:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:489
+#, fuzzy
+#| msgid "Applications"
+msgid "Options"
+msgstr "Aplikacyi"
+
+#: simpleapplet/simpleapplet.cpp:626
+#, fuzzy
+#| msgid "Applications"
+msgid "Actions"
+msgstr "Aplikacyi"
+
+#: ui/searchbar.cpp:70
+#, fuzzy
+#| msgid "Search:"
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Šukaj:"
+
+#: ui/contextmenufactory.cpp:85
+msgid "Advanced"
+msgstr "Asablivaje"
+
+#: ui/contextmenufactory.cpp:178
+msgid "Remove From Favorites"
+msgstr "Vydali z ułasnaha"
+
+#: ui/contextmenufactory.cpp:183
+msgid "Add to Favorites"
+msgstr "Dadaj va ŭłasnaje"
+
+#: ui/contextmenufactory.cpp:215
+msgid "Add to Desktop"
+msgstr "Dadaj na stoł"
+
+#: ui/contextmenufactory.cpp:223
+msgid "Add to Panel"
+msgstr "Dadaj na panel"
+
+#: ui/contextmenufactory.cpp:236
+msgid "Uninstall"
+msgstr ""
+
+#: ui/contextmenufactory.cpp:261
+msgid "Eject"
+msgstr "Vysuń"
+
+#: ui/contextmenufactory.cpp:263
+msgid "Safely Remove"
+msgstr "Biaśpiečna adłučy"
+
+#: ui/launcher.cpp:194
+msgid "Sort Alphabetically (A to Z)"
+msgstr "Paradkuj pavodle alfabetu (ad A da Z)"
+
+#: ui/launcher.cpp:197
+msgid "Sort Alphabetically (Z to A)"
+msgstr "Paradkuj pavodle alfabetu (ad Z da A)"
+
+#: ui/launcher.cpp:251
+msgid "Clear Recent Applications"
+msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
+
+#: ui/launcher.cpp:252
+msgid "Clear Recent Documents"
+msgstr "Vyčyści śpis nadoječy adčynienych dakumentaŭ"
+
+#: ui/launcher.cpp:560
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "Karystańnik <b>%1</b> na <b>%2</b>"
+
+#: ui/launcher.cpp:562
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b> na <b>%3</b>"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#. i18n: file: applet/kickoffConfig.ui:27
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:5
+#, fuzzy
+#| msgid "Known Applications"
+msgid "Show applications by &name:"
+msgstr "Viadomyja aplikacyi"
+
+#. i18n: file: applet/kickoffConfig.ui:73
+#. i18n: ectx: property (text), widget (QLabel, iconLabel)
+#: rc.cpp:8
+msgid "&Icon:"
+msgstr ""
+
+#. i18n: file: applet/kickoffConfig.ui:86
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:11
+#, fuzzy
+#| msgid "Switch tabs on hover"
+msgid "Switch &tabs on hover:"
+msgstr "Pieraklučaj kartki pad kursoram"
+
+#~ msgid "Switch to Kickoff Menu Style"
+#~ msgstr "Viarni vykład menu „Kichoff”"
+
+#~ msgid "Menu Editor"
+#~ msgstr "Redaktar menu"
+
+#~ msgid "Web Searches"
+#~ msgstr "Sieciŭny pošuk"
+
+#~ msgid "Search web for '%1'"
+#~ msgstr "Šukaj u siecivie „%1”"
+
+#~ msgid "Lock the screen"
+#~ msgstr "Zablakuj ekran"
+
+#~ msgid "Known Applications"
+#~ msgstr "Viadomyja aplikacyi"
+
+#, fuzzy
+#~| msgid "Application Launcher"
+#~ msgid "Classic Application Launcher"
+#~ msgstr "Uklučeńnie aplikacyjaŭ"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox View:"
+#~| msgid "Standard"
+#~ msgid "Standard"
+#~ msgstr "Zvyčajnaje"
+
+#~ msgid "Leave..."
+#~ msgstr "Vyjdzi..."
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Favorites"
+#~ msgstr "Ułasnaje"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Applications"
+#~ msgstr "Aplikacyi"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Computer"
+#~ msgstr "Kamputar"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Recently Used"
+#~ msgstr "Nadoječy ŭžyvanaje"
+
+#~ msgctxt "@item:inlistbox View:"
+#~ msgid "Leave"
+#~ msgstr "Pakiń"

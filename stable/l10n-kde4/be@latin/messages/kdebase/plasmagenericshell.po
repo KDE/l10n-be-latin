@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-31 04:15+0200\n"
+"POT-Creation-Date: 2011-07-05 04:23+0200\n"
 "PO-Revision-Date: 2008-12-02 00:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -224,10 +224,6 @@ msgstr "Niaŭdałaje instalavańnie"
 msgid "Installing the package %1 failed."
 msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
 
-#: widgetsexplorer/plasmaappletitemmodel.cpp:194
-msgid "Containments"
-msgstr "Schoviščy"
-
 #: widgetsexplorer/widgetexplorer.cpp:115
 msgid "All Widgets"
 msgstr "Usie widžety"
@@ -276,6 +272,10 @@ msgstr "Vaźmi novy „%1”"
 #: widgetsexplorer/appletsfiltering.cpp:331
 msgid "Install Widget From Local File..."
 msgstr "Zainstaluj widžet ź miascovaha fajła..."
+
+#: widgetsexplorer/plasmaappletitemmodel.cpp:194
+msgid "Containments"
+msgstr "Schoviščy"
 
 #: backgrounddialog.cpp:211
 msgid "Desktop Settings"

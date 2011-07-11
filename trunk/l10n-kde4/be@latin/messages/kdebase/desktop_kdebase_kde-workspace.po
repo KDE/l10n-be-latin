@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-10 03:04+0000\n"
+"POT-Creation-Date: 2011-07-11 03:53+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -902,6 +902,29 @@ msgid "A keyboard-friendly window manager with tiled windows, based on PWM"
 msgstr ""
 "Akońnik, jaki dobra pracuje z klavijaturaju dy ŭmieje kaflevy vykład akon, a "
 "taksama abapirajecca na bazu „PWM”"
+
+#: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Performance"
+msgctxt "Name"
+msgid "KDE Plasma Workspace"
+msgstr "Chutkaść KDE"
+
+#: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:7
+msgctxt "Comment"
+msgid "The desktop made by KDE"
+msgstr ""
+
+#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:6
+msgctxt "Name"
+msgid "KDE Plasma Workspace (failsafe session)"
+msgstr ""
+
+#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:7
+msgctxt "Comment"
+msgid "The desktop made by KDE (failsafe session)"
+msgstr ""
 
 #: kdm/kfrontend/sessions/larswm.desktop:5
 msgctxt "Name"
@@ -5163,7 +5186,7 @@ msgctxt "Comment"
 msgid "A containment for a panel"
 msgstr "Jomišča dla paneli"
 
-#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:53
+#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:54
 msgctxt "Comment"
 msgid "Full screen application launcher with search interface"
 msgstr ""
@@ -8037,13 +8060,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Notifications triggered by hardware devices"
 #~ msgstr "Infarmavańnie j dostup da novych pryładaŭ"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Performance"
-#~ msgctxt "Comment"
-#~ msgid "KDE Workspace"
-#~ msgstr "Chutkaść KDE"
 
 #~ msgctxt "Name"
 #~ msgid "Trash: Emptied"

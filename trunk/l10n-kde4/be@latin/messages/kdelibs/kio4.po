@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-08 04:18+0200\n"
+"POT-Creation-Date: 2011-07-12 04:33+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -122,17 +122,6 @@ msgstr "Zakładki"
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr "*.adr|Zakładki „Opera” (*.adr)"
 
-#: bookmarks/kbookmarkmanager.cc:443
-#, kde-format
-msgid ""
-"Unable to save bookmarks in %1. Reported error was: %2. This error message "
-"will only be shown once. The cause of the error needs to be fixed as quickly "
-"as possible, which is most likely a full hard drive."
-msgstr ""
-"Nie ŭdałosia zapisać zakładki ŭ „%1”. Uźnikła pamyłka: %2. Hetaje "
-"paviedamleńnie pra pamyłku budzie pakazanaje tolki adnojčy. Pryčynu pamyłki "
-"treba jak maha chutčej vypravić. Mabyć, usio praz zapoŭnienaść dyska."
-
 #: bookmarks/kbookmarkmenu.cc:267
 msgid "Add Bookmark Here"
 msgstr "Dadaj siudy zakładku"
@@ -231,106 +220,20 @@ msgstr "Adčyni ŭ novym aknie"
 msgid "Open in New Tab"
 msgstr "Adčyni ŭ novaj kartcy"
 
+#: bookmarks/kbookmarkmanager.cc:443
+#, kde-format
+msgid ""
+"Unable to save bookmarks in %1. Reported error was: %2. This error message "
+"will only be shown once. The cause of the error needs to be fixed as quickly "
+"as possible, which is most likely a full hard drive."
+msgstr ""
+"Nie ŭdałosia zapisać zakładki ŭ „%1”. Uźnikła pamyłka: %2. Hetaje "
+"paviedamleńnie pra pamyłku budzie pakazanaje tolki adnojčy. Pryčynu pamyłki "
+"treba jak maha chutčej vypravić. Mabyć, usio praz zapoŭnienaść dyska."
+
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
 msgstr "Atrymańnie paškodžanych źviestak."
-
-#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
-msgid "Owner"
-msgstr "Ułaśnik"
-
-#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
-msgid "Owning Group"
-msgstr "Hrupa ŭłaśnikaŭ"
-
-#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
-#: kfile/kpropertiesdialog.cpp:2001
-msgid "Others"
-msgstr "Inšyja"
-
-#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
-msgid "Mask"
-msgstr "Maska"
-
-#: kfile/kacleditwidget.cpp:65
-msgid "Named User"
-msgstr "Nazva karystańnika"
-
-#: kfile/kacleditwidget.cpp:66
-msgid "Named Group"
-msgstr "Nazva hrupy"
-
-#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
-#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
-msgid "Add Entry..."
-msgstr "Dadaj praviła..."
-
-#: kfile/kacleditwidget.cpp:102
-msgid "Edit Entry..."
-msgstr "Redahuj praviła..."
-
-#: kfile/kacleditwidget.cpp:106
-msgid "Delete Entry"
-msgstr "Vydali praviła"
-
-#: kfile/kacleditwidget.cpp:307
-msgid " (Default)"
-msgstr " (Zmoŭčana)"
-
-#: kfile/kacleditwidget.cpp:431
-msgid "Edit ACL Entry"
-msgstr "Redahuj praviła dostupu"
-
-#: kfile/kacleditwidget.cpp:439
-msgid "Entry Type"
-msgstr "Typ praviła"
-
-#: kfile/kacleditwidget.cpp:445
-msgid "Default for new files in this folder"
-msgstr "Zmoŭčana dla novych fajłaŭ u hetym katalohu"
-
-#: kfile/kacleditwidget.cpp:474
-msgid "Named user"
-msgstr "Nazva karystańnika"
-
-#: kfile/kacleditwidget.cpp:479
-msgid "Named group"
-msgstr "Nazva hrupy"
-
-#: kfile/kacleditwidget.cpp:499
-msgid "User: "
-msgstr "Karystańnik: "
-
-#: kfile/kacleditwidget.cpp:505
-msgid "Group: "
-msgstr "Hrupa: "
-
-#: kfile/kacleditwidget.cpp:625
-msgid "Type"
-msgstr "Typ"
-
-#: kfile/kacleditwidget.cpp:626
-msgid "Name"
-msgstr "Nazva"
-
-#: kfile/kacleditwidget.cpp:627
-msgctxt "read permission"
-msgid "r"
-msgstr "r"
-
-#: kfile/kacleditwidget.cpp:628
-msgctxt "write permission"
-msgid "w"
-msgstr "w"
-
-#: kfile/kacleditwidget.cpp:629
-msgctxt "execute permission"
-msgid "x"
-msgstr "x"
-
-#: kfile/kacleditwidget.cpp:630
-msgid "Effective"
-msgstr "Dziejnyja"
 
 #: kfile/kdevicelistmodel.cpp:116
 msgid "Device name"
@@ -1230,6 +1133,11 @@ msgstr "Karystańnik"
 msgid "Group"
 msgstr "Hrupa"
 
+#: kfile/kpropertiesdialog.cpp:2001 kfile/kacleditwidget.cpp:63
+#: kfile/kacleditwidget.cpp:464
+msgid "Others"
+msgstr "Inšyja"
+
 #: kfile/kpropertiesdialog.cpp:2005
 msgid "Set UID"
 msgstr "SUID"
@@ -1481,6 +1389,98 @@ msgstr "Stanovišča"
 #: kfile/kicondialog.cpp:691
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr "*.png *.xpm *.svg *.svgz|Fajły ikonaŭ (*.png *.xpm *.svg *.svgz)"
+
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
+msgid "Owner"
+msgstr "Ułaśnik"
+
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
+msgid "Owning Group"
+msgstr "Hrupa ŭłaśnikaŭ"
+
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
+msgid "Mask"
+msgstr "Maska"
+
+#: kfile/kacleditwidget.cpp:65
+msgid "Named User"
+msgstr "Nazva karystańnika"
+
+#: kfile/kacleditwidget.cpp:66
+msgid "Named Group"
+msgstr "Nazva hrupy"
+
+#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
+#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
+msgid "Add Entry..."
+msgstr "Dadaj praviła..."
+
+#: kfile/kacleditwidget.cpp:102
+msgid "Edit Entry..."
+msgstr "Redahuj praviła..."
+
+#: kfile/kacleditwidget.cpp:106
+msgid "Delete Entry"
+msgstr "Vydali praviła"
+
+#: kfile/kacleditwidget.cpp:307
+msgid " (Default)"
+msgstr " (Zmoŭčana)"
+
+#: kfile/kacleditwidget.cpp:431
+msgid "Edit ACL Entry"
+msgstr "Redahuj praviła dostupu"
+
+#: kfile/kacleditwidget.cpp:439
+msgid "Entry Type"
+msgstr "Typ praviła"
+
+#: kfile/kacleditwidget.cpp:445
+msgid "Default for new files in this folder"
+msgstr "Zmoŭčana dla novych fajłaŭ u hetym katalohu"
+
+#: kfile/kacleditwidget.cpp:474
+msgid "Named user"
+msgstr "Nazva karystańnika"
+
+#: kfile/kacleditwidget.cpp:479
+msgid "Named group"
+msgstr "Nazva hrupy"
+
+#: kfile/kacleditwidget.cpp:499
+msgid "User: "
+msgstr "Karystańnik: "
+
+#: kfile/kacleditwidget.cpp:505
+msgid "Group: "
+msgstr "Hrupa: "
+
+#: kfile/kacleditwidget.cpp:625
+msgid "Type"
+msgstr "Typ"
+
+#: kfile/kacleditwidget.cpp:626
+msgid "Name"
+msgstr "Nazva"
+
+#: kfile/kacleditwidget.cpp:627
+msgctxt "read permission"
+msgid "r"
+msgstr "r"
+
+#: kfile/kacleditwidget.cpp:628
+msgctxt "write permission"
+msgid "w"
+msgstr "w"
+
+#: kfile/kacleditwidget.cpp:629
+msgctxt "execute permission"
+msgid "x"
+msgstr "x"
+
+#: kfile/kacleditwidget.cpp:630
+msgid "Effective"
+msgstr "Dziejnyja"
 
 #: kfile/kfilemetadataprovider.cpp:400
 #, fuzzy
@@ -6298,13 +6298,6 @@ msgstr "Klikni, kab bačyć panel miesca"
 msgid "Click to Edit Location"
 msgstr "Klikni, kab adredahavać adras miesca"
 
-#: ../kfile/kurlnavigatorbutton.cpp:611
-#, fuzzy
-#| msgid "Store"
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr "Zachoŭvaj"
-
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
 msgid "*|All Files"
 msgstr "*|Usie fajły"
@@ -6985,6 +6978,13 @@ msgstr "Pakažy ŭsiu ściežku"
 #: ../kfile/kurlnavigator.cpp:690
 msgid "Custom Path"
 msgstr "Ułasnaja ściežka"
+
+#: ../kfile/kurlnavigatorbutton.cpp:612
+#, fuzzy
+#| msgid "Store"
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Zachoŭvaj"
 
 #~ msgid "A newer item named '%1' already exists."
 #~ msgstr "Užo jość naviejšy element z nazvaj „%1”."

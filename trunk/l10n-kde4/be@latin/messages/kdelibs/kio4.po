@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-12 04:33+0200\n"
+"POT-Creation-Date: 2011-07-13 04:16+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5604,12 +5604,12 @@ msgstr "Suma MD5:"
 msgid "SHA1 digest:"
 msgstr "Suma MD5:"
 
-#: ../kioslave/file/file.cpp:211
+#: ../kioslave/file/file_unix.cpp:231
 #, kde-format
-msgid "Setting ACL for %1"
-msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
+msgid "Cannot copy file from %1 to %2. (Errno: %3)"
+msgstr "Nie ŭdałosia skapijavać fajł z „%1” u „%2” (numar pamyłki: %3)."
 
-#: ../kioslave/file/file.cpp:728 ../kioslave/file/file_unix.cpp:300
+#: ../kioslave/file/file_unix.cpp:300 ../kioslave/file/file.cpp:728
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -5617,6 +5617,27 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia źmianić dazvoły na\n"
 "%1"
+
+#: ../kioslave/file/file_unix.cpp:344
+#, kde-format
+msgid "No media in device for %1"
+msgstr "U pryładzie „%1” niama nośbitu."
+
+#: ../kioslave/file/file_unix.cpp:613
+#, kde-format
+msgid "Could not get user id for given user name %1"
+msgstr ""
+"Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
+
+#: ../kioslave/file/file_unix.cpp:626
+#, kde-format
+msgid "Could not get group id for given group name %1"
+msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."
+
+#: ../kioslave/file/file.cpp:211
+#, kde-format
+msgid "Setting ACL for %1"
+msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
 
 #: ../kioslave/file/file.cpp:918
 msgid "No Media inserted or Media not recognized."
@@ -5650,27 +5671,6 @@ msgstr "Zapis u „%1” nie padtrymvajecca."
 #, kde-format
 msgid "Could not read %1"
 msgstr "Nie ŭdałosia pračytać z „%1”."
-
-#: ../kioslave/file/file_unix.cpp:231
-#, kde-format
-msgid "Cannot copy file from %1 to %2. (Errno: %3)"
-msgstr "Nie ŭdałosia skapijavać fajł z „%1” u „%2” (numar pamyłki: %3)."
-
-#: ../kioslave/file/file_unix.cpp:344
-#, kde-format
-msgid "No media in device for %1"
-msgstr "U pryładzie „%1” niama nośbitu."
-
-#: ../kioslave/file/file_unix.cpp:613
-#, kde-format
-msgid "Could not get user id for given user name %1"
-msgstr ""
-"Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
-
-#: ../kioslave/file/file_unix.cpp:626
-#, kde-format
-msgid "Could not get group id for given group name %1"
-msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."
 
 #: ../kioslave/ftp/ftp.cpp:341
 #, kde-format

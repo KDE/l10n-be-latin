@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-15 04:00+0200\n"
+"POT-Creation-Date: 2011-07-26 04:19+0200\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -612,698 +612,6 @@ msgstr ""
 "<qt><p>Heta prahlad sensara. Kab źmianić jaho, klikni siudy pravaj knopkaj "
 "myšy j vybiery punkt <i>Ułaścivaści</i> z uźnikłaha menu. Kab vydalić "
 "prahlad z rabočaha arkuša, vybiery punkt <i>Vydali</i>.</p>%1</qt>"
-
-#: ksgrd/SensorAgent.cpp:109
-#, fuzzy, kde-format
-msgctxt "%1 is a host name"
-msgid ""
-"Message from %1:\n"
-"%2"
-msgstr ""
-"Paviedamleńnie ad „%1”:\n"
-"%2"
-
-#: ksgrd/SensorShellAgent.cpp:126
-#, kde-format
-msgid "Could not run daemon program '%1'."
-msgstr "Nie ŭdałosia ŭklučyć słužbu „%1”."
-
-#: ksgrd/SensorShellAgent.cpp:133
-#, kde-format
-msgid "The daemon program '%1' failed."
-msgstr "Nie ŭdałosia ŭklučyć słužbu „%1”."
-
-#: ksgrd/SensorSocketAgent.cpp:103
-#, kde-format
-msgid "Connection to %1 refused"
-msgstr "Spałučeńnie z hostam „%1” adchilenaje"
-
-#: ksgrd/SensorSocketAgent.cpp:107
-#, kde-format
-msgid "Host %1 not found"
-msgstr "Nie ŭdałosia znajści host „%1”"
-
-#: ksgrd/SensorSocketAgent.cpp:111
-#, kde-format
-msgid ""
-"An error occurred with the network (e.g. the network cable was accidentally "
-"unplugged) for host %1."
-msgstr ""
-"Uźnikła sietkavaja pamyłka ŭ spałučeńni z hostam „%1” (mahčyma, raptoŭna "
-"adłučyŭsia sietkavy drot)."
-
-#: ksgrd/SensorSocketAgent.cpp:115
-#, kde-format
-msgid "Error for host %1: %2"
-msgstr "Pamyłka dla hosta „%1”: %2"
-
-#: ksgrd/SensorManager.cpp:60
-msgid "Change"
-msgstr "Źmiani"
-
-#: ksgrd/SensorManager.cpp:61
-msgid "Rate"
-msgstr "Čaścinia"
-
-#: ksgrd/SensorManager.cpp:63
-msgid "CPU Load"
-msgstr "Zaniataść pracesara"
-
-#: ksgrd/SensorManager.cpp:64
-msgid "Idling"
-msgstr "Marna"
-
-#: ksgrd/SensorManager.cpp:65
-msgid "Nice Load"
-msgstr "Zaniataść „nice”"
-
-#: ksgrd/SensorManager.cpp:66
-msgid "User Load"
-msgstr "Zaniataść karystańnika"
-
-#: ksgrd/SensorManager.cpp:67
-#, fuzzy
-#| msgid "System Load"
-msgctxt "@item sensor description"
-msgid "System Load"
-msgstr "Zaniataść systemy"
-
-#: ksgrd/SensorManager.cpp:68
-msgid "Waiting"
-msgstr "Čakańnie"
-
-#: ksgrd/SensorManager.cpp:69
-#, fuzzy
-#| msgid "Interrupts"
-msgid "Interrupt Load"
-msgstr "Pierarvańni"
-
-#: ksgrd/SensorManager.cpp:70
-msgid "Total Load"
-msgstr "Ahulnaja zaniataść"
-
-#: ksgrd/SensorManager.cpp:71
-msgid "Memory"
-msgstr "Pamiać"
-
-#: ksgrd/SensorManager.cpp:72
-msgid "Physical Memory"
-msgstr "Fizyčnaja pamiać"
-
-#: ksgrd/SensorManager.cpp:73
-msgid "Swap Memory"
-msgstr "Padmiennaja pamiać"
-
-#: ksgrd/SensorManager.cpp:74
-msgid "Cached Memory"
-msgstr "Padručnaja pamiać"
-
-#: ksgrd/SensorManager.cpp:75
-msgid "Buffered Memory"
-msgstr "Bufernaja pamiać"
-
-#: ksgrd/SensorManager.cpp:76
-msgid "Used Memory"
-msgstr "Zaniataja pamiać"
-
-#: ksgrd/SensorManager.cpp:77
-msgid "Application Memory"
-msgstr "Pamiać aplikacyjaŭ"
-
-#: ksgrd/SensorManager.cpp:78
-msgid "Free Memory"
-msgstr "Volnaja pamiać"
-
-#: ksgrd/SensorManager.cpp:79
-msgid "Active Memory"
-msgstr "Dziejnaja pamiać"
-
-#: ksgrd/SensorManager.cpp:80
-msgid "Inactive Memory"
-msgstr "Niadziejnaja pamiać"
-
-#: ksgrd/SensorManager.cpp:81
-msgid "Wired Memory"
-msgstr "Źviazanaja pamiać"
-
-#: ksgrd/SensorManager.cpp:82
-msgid "Exec Pages"
-msgstr "Staronki kodu"
-
-#: ksgrd/SensorManager.cpp:83
-msgid "File Pages"
-msgstr "Staronki fajłaŭ"
-
-#: ksgrd/SensorManager.cpp:86
-#, fuzzy
-#| msgid "Processors"
-msgid "Processes"
-msgstr "Pracesary"
-
-#: ksgrd/SensorManager.cpp:87 ksgrd/SensorManager.cpp:227
-msgid "Process Controller"
-msgstr "Kiraŭnik pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:88
-msgid "Last Process ID"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:89
-#, fuzzy
-#| msgid "Process Count"
-msgid "Process Spawn Count"
-msgstr "Kolkaść pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:90
-msgid "Process Count"
-msgstr "Kolkaść pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:91
-#, fuzzy
-#| msgid "Process Count"
-msgid "Idle Processes Count"
-msgstr "Kolkaść pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:92
-#, fuzzy
-#| msgid "Process Count"
-msgid "Running Processes Count"
-msgstr "Kolkaść pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:93
-#, fuzzy
-#| msgid "Process Count"
-msgid "Sleeping Processes Count"
-msgstr "Kolkaść pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:94
-#, fuzzy
-#| msgid "Process Count"
-msgid "Stopped Processes Count"
-msgstr "Kolkaść pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:95
-#, fuzzy
-#| msgid "Process Count"
-msgid "Zombie Processes Count"
-msgstr "Kolkaść pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:96
-#, fuzzy
-#| msgid "Process Count"
-msgid "Waiting Processes Count"
-msgstr "Kolkaść pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:97
-#, fuzzy
-#| msgid "Process Count"
-msgid "Locked Processes Count"
-msgstr "Kolkaść pracesaŭ"
-
-#: ksgrd/SensorManager.cpp:99
-msgid "Disk Throughput"
-msgstr "Zaniataść dysku"
-
-#: ksgrd/SensorManager.cpp:100
-msgctxt "CPU Load"
-msgid "Load"
-msgstr "Zaniataść"
-
-#: ksgrd/SensorManager.cpp:101
-msgid "Total Accesses"
-msgstr "Usich dostupaŭ"
-
-#: ksgrd/SensorManager.cpp:102
-msgid "Read Accesses"
-msgstr "Čytańni"
-
-#: ksgrd/SensorManager.cpp:103
-msgid "Write Accesses"
-msgstr "Zapisy"
-
-#: ksgrd/SensorManager.cpp:104
-msgid "Read Data"
-msgstr "Pračytanyja źviestki"
-
-#: ksgrd/SensorManager.cpp:105
-msgid "Written Data"
-msgstr "Zapisanyja źviestki"
-
-#: ksgrd/SensorManager.cpp:106
-msgid "Milliseconds spent reading"
-msgstr "Kolki milisekund čytańnia"
-
-#: ksgrd/SensorManager.cpp:107
-msgid "Milliseconds spent writing"
-msgstr "Kolki milisekund pisańnia"
-
-#: ksgrd/SensorManager.cpp:108
-msgid "I/Os currently in progress"
-msgstr "Dziejnyja aperacyi pierasyłańnia źviestak"
-
-#: ksgrd/SensorManager.cpp:109
-msgid "Pages In"
-msgstr "Uchodnyja staronki"
-
-#: ksgrd/SensorManager.cpp:110
-msgid "Pages Out"
-msgstr "Vychodnyja staronki"
-
-#: ksgrd/SensorManager.cpp:111
-msgid "Context Switches"
-msgstr "Źmieny kantekstu"
-
-#: ksgrd/SensorManager.cpp:112
-msgid "Traps"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:113
-#, fuzzy
-#| msgid "System Load"
-msgid "System Calls"
-msgstr "Zaniataść systemy"
-
-#: ksgrd/SensorManager.cpp:114
-msgid "Network"
-msgstr "Sietka"
-
-#: ksgrd/SensorManager.cpp:115
-msgid "Interfaces"
-msgstr "Interfejsy"
-
-#: ksgrd/SensorManager.cpp:116
-msgid "Receiver"
-msgstr "Atrymańnik"
-
-#: ksgrd/SensorManager.cpp:117
-msgid "Transmitter"
-msgstr "Pierasyłańnik"
-
-#: ksgrd/SensorManager.cpp:119
-#, fuzzy
-#| msgid "Rate"
-msgid "Data Rate"
-msgstr "Čaścinia"
-
-#: ksgrd/SensorManager.cpp:120
-#, fuzzy
-#| msgid "Compressed Packets"
-msgid "Compressed Packets Rate"
-msgstr "Skampresavanyja pakunki"
-
-#: ksgrd/SensorManager.cpp:121
-#, fuzzy
-#| msgid "Dropped Packets"
-msgid "Dropped Packets Rate"
-msgstr "Adkinutyja pakunki"
-
-#: ksgrd/SensorManager.cpp:122
-#, fuzzy
-#| msgid "Errors"
-msgid "Error Rate"
-msgstr "Pamyłki"
-
-#: ksgrd/SensorManager.cpp:123
-#, fuzzy
-#| msgid "FIFO Overruns"
-msgid "FIFO Overruns Rate"
-msgstr "Pierapaŭnieńni „FIFO”"
-
-#: ksgrd/SensorManager.cpp:124
-#, fuzzy
-#| msgid "Frame Errors"
-msgid "Frame Error Rate"
-msgstr "Pamyłki frejmaŭ"
-
-#: ksgrd/SensorManager.cpp:125
-#, fuzzy
-#| msgid "Multicast"
-msgid "Multicast Packet Rate"
-msgstr "Multicast"
-
-#: ksgrd/SensorManager.cpp:126
-#, fuzzy
-#| msgid "Packets"
-msgid "Packet Rate"
-msgstr "Pakunki"
-
-#: ksgrd/SensorManager.cpp:127
-#, fuzzy
-#| msgid "Errors"
-msgctxt "@item sensor description ('carrier' is a type of network signal)"
-msgid "Carrier Loss Rate"
-msgstr "Pamyłki"
-
-#: ksgrd/SensorManager.cpp:128 ksgrd/SensorManager.cpp:139
-msgid "Collisions"
-msgstr "Kalizii"
-
-#: ksgrd/SensorManager.cpp:130
-msgid "Data"
-msgstr "Źviestki"
-
-#: ksgrd/SensorManager.cpp:131
-msgid "Compressed Packets"
-msgstr "Skampresavanyja pakunki"
-
-#: ksgrd/SensorManager.cpp:132
-msgid "Dropped Packets"
-msgstr "Adkinutyja pakunki"
-
-#: ksgrd/SensorManager.cpp:133
-msgid "Errors"
-msgstr "Pamyłki"
-
-#: ksgrd/SensorManager.cpp:134
-msgid "FIFO Overruns"
-msgstr "Pierapaŭnieńni „FIFO”"
-
-#: ksgrd/SensorManager.cpp:135
-msgid "Frame Errors"
-msgstr "Pamyłki frejmaŭ"
-
-#: ksgrd/SensorManager.cpp:136
-#, fuzzy
-#| msgid "Multicast"
-msgid "Multicast Packets"
-msgstr "Multicast"
-
-#: ksgrd/SensorManager.cpp:137
-msgid "Packets"
-msgstr "Pakunki"
-
-#: ksgrd/SensorManager.cpp:138
-msgctxt "@item sensor description ('carrier' is a type of network signal)"
-msgid "Carrier Losses"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:141
-msgid "Sockets"
-msgstr "Sokiety"
-
-#: ksgrd/SensorManager.cpp:142
-msgid "Total Number"
-msgstr "Ahulnaja kolkaść"
-
-#: ksgrd/SensorManager.cpp:143 ksgrd/SensorManager.cpp:228
-msgid "Table"
-msgstr "Tablica"
-
-#: ksgrd/SensorManager.cpp:144
-msgid "Advanced Power Management"
-msgstr "Admysłovaje kiravańnie enerhijaj"
-
-#: ksgrd/SensorManager.cpp:145
-msgid "ACPI"
-msgstr "ACPI"
-
-#: ksgrd/SensorManager.cpp:146
-msgid "Thermal Zone"
-msgstr "Temperaturnaja zona"
-
-#: ksgrd/SensorManager.cpp:147
-msgid "Temperature"
-msgstr "Temperatura"
-
-#: ksgrd/SensorManager.cpp:148
-#, fuzzy
-#| msgid "Temperature"
-msgid "Average CPU Temperature"
-msgstr "Temperatura"
-
-#: ksgrd/SensorManager.cpp:149
-msgid "Fan"
-msgstr "Vietrahon"
-
-#: ksgrd/SensorManager.cpp:150
-msgid "State"
-msgstr "Stan"
-
-#: ksgrd/SensorManager.cpp:151
-msgid "Battery"
-msgstr "Batareja"
-
-#: ksgrd/SensorManager.cpp:152
-#, fuzzy
-#| msgid "Battery Charge"
-msgid "Battery Capacity"
-msgstr "Zarad batarei"
-
-#: ksgrd/SensorManager.cpp:153
-msgid "Battery Charge"
-msgstr "Zarad batarei"
-
-#: ksgrd/SensorManager.cpp:154
-msgid "Battery Usage"
-msgstr "Vykarystańnie batarei"
-
-#: ksgrd/SensorManager.cpp:155
-#, fuzzy
-#| msgid "Battery Usage"
-msgid "Battery Voltage"
-msgstr "Vykarystańnie batarei"
-
-#: ksgrd/SensorManager.cpp:156
-#, fuzzy
-#| msgid "Battery Charge"
-msgid "Battery Discharge Rate"
-msgstr "Zarad batarei"
-
-#: ksgrd/SensorManager.cpp:157
-msgid "Remaining Time"
-msgstr "Zastały čas"
-
-#: ksgrd/SensorManager.cpp:158
-msgid "Interrupts"
-msgstr "Pierarvańni"
-
-#: ksgrd/SensorManager.cpp:159
-msgid "Load Average (1 min)"
-msgstr "Siaredniaja zaniataść (1 chvilina)"
-
-#: ksgrd/SensorManager.cpp:160
-msgid "Load Average (5 min)"
-msgstr "Siaredniaja zaniataść (5 chvilin)"
-
-#: ksgrd/SensorManager.cpp:161
-msgid "Load Average (15 min)"
-msgstr "Siaredniaja zaniataść (15 chvilin)"
-
-#: ksgrd/SensorManager.cpp:162
-msgid "Clock Frequency"
-msgstr "Čaścinia hadzińnika"
-
-#: ksgrd/SensorManager.cpp:163
-#, fuzzy
-#| msgid "Clock Frequency"
-msgid "Average Clock Frequency"
-msgstr "Čaścinia hadzińnika"
-
-#: ksgrd/SensorManager.cpp:164
-msgid "Hardware Sensors"
-msgstr "Aparaturnyja sensary"
-
-#: ksgrd/SensorManager.cpp:165
-msgid "Partition Usage"
-msgstr "Zaniataść partycyi"
-
-#: ksgrd/SensorManager.cpp:166
-msgid "Used Space"
-msgstr "Absiah karystańnika"
-
-#: ksgrd/SensorManager.cpp:167
-msgid "Free Space"
-msgstr "Volnaja prastora"
-
-#: ksgrd/SensorManager.cpp:168
-msgid "Fill Level"
-msgstr "Poŭnaść"
-
-#: ksgrd/SensorManager.cpp:169
-#, fuzzy
-#| msgid "User Load"
-msgid "Used Inodes"
-msgstr "Zaniataść karystańnika"
-
-#: ksgrd/SensorManager.cpp:170
-msgid "Free Inodes"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:171
-msgid "Inode Level"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:172
-msgid "System"
-msgstr "Systema"
-
-#: ksgrd/SensorManager.cpp:173
-msgid "Uptime"
-msgstr "Čas pracy"
-
-#: ksgrd/SensorManager.cpp:174
-msgid "Linux Soft Raid (md)"
-msgstr "Prahramny „RAID” systemy „Linux” (md)"
-
-#: ksgrd/SensorManager.cpp:175
-msgid "Processors"
-msgstr "Pracesary"
-
-#: ksgrd/SensorManager.cpp:176
-msgid "Cores"
-msgstr "Jadry"
-
-#: ksgrd/SensorManager.cpp:177
-#, fuzzy
-#| msgid "Number of displays:"
-msgid "Number of Blocks"
-msgstr "Kolkaść prahladaŭ:"
-
-#: ksgrd/SensorManager.cpp:178
-#, fuzzy
-#| msgid "Total Number"
-msgid "Total Number of Devices"
-msgstr "Ahulnaja kolkaść"
-
-#: ksgrd/SensorManager.cpp:179
-msgid "Failed Devices"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:180
-msgid "Spare Devices"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:181
-#, fuzzy
-#| msgid "Number of displays:"
-msgid "Number of Raid Devices"
-msgstr "Kolkaść prahladaŭ:"
-
-#: ksgrd/SensorManager.cpp:182
-msgid "Working Devices"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:183
-msgid "Active Devices"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:184
-#, fuzzy
-#| msgid "Number of displays:"
-msgid "Number of Devices"
-msgstr "Kolkaść prahladaŭ:"
-
-#: ksgrd/SensorManager.cpp:185
-msgid "Resyncing Percent"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:186
-msgid "Disk Information"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:189
-#, kde-format
-msgid "CPU %1"
-msgstr "CPU „%1”"
-
-#: ksgrd/SensorManager.cpp:190
-#, kde-format
-msgid "Disk %1"
-msgstr "Dysk „%1”"
-
-#: ksgrd/SensorManager.cpp:194
-#, fuzzy, kde-format
-#| msgid "Battery"
-msgid "Battery %1"
-msgstr "Batareja"
-
-#: ksgrd/SensorManager.cpp:195
-#, kde-format
-msgid "Fan %1"
-msgstr "Vietrahon „%1”"
-
-#: ksgrd/SensorManager.cpp:196
-#, kde-format
-msgid "Temperature %1"
-msgstr "Temperatura „%1”"
-
-#: ksgrd/SensorManager.cpp:199
-msgid "Total"
-msgstr "Ahułam"
-
-#: ksgrd/SensorManager.cpp:200
-#, fuzzy
-#| msgid "Interrupts"
-msgid "Software Interrupts"
-msgstr "Pierarvańni"
-
-#: ksgrd/SensorManager.cpp:201
-#, fuzzy
-#| msgid "Interrupts"
-msgid "Hardware Interrupts"
-msgstr "Pierarvańni"
-
-#: ksgrd/SensorManager.cpp:206 ksgrd/SensorManager.cpp:208
-#, kde-format
-msgid "Int %1"
-msgstr "Pierarvańnie „%1”"
-
-#: ksgrd/SensorManager.cpp:213
-msgctxt "the unit 1 per second"
-msgid "1/s"
-msgstr "1/s"
-
-#: ksgrd/SensorManager.cpp:214
-msgid "kBytes"
-msgstr "kB"
-
-#: ksgrd/SensorManager.cpp:215
-msgctxt "the unit minutes"
-msgid "min"
-msgstr "chv"
-
-#: ksgrd/SensorManager.cpp:216
-msgctxt "the frequency unit"
-msgid "MHz"
-msgstr "MHz"
-
-#: ksgrd/SensorManager.cpp:217
-msgctxt "a percentage"
-msgid "%"
-msgstr "%"
-
-#: ksgrd/SensorManager.cpp:218
-msgctxt "the unit milliamperes"
-msgid "mA"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:219
-msgctxt "the unit milliampere hours"
-msgid "mAh"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:220
-msgctxt "the unit milliwatts"
-msgid "mW"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:221
-msgctxt "the unit milliwatt hours"
-msgid "mWh"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:222
-msgctxt "the unit millivolts"
-msgid "mV"
-msgstr ""
-
-#: ksgrd/SensorManager.cpp:225
-msgid "Integer Value"
-msgstr "Cełaja vartaść"
-
-#: ksgrd/SensorManager.cpp:226
-msgid "Floating Point Value"
-msgstr "Vartaść ź niefiksavanaj koskaj"
 
 #: HostConnector.cpp:44
 msgid "Connect Host"
@@ -1934,6 +1242,486 @@ msgstr "Historyja pamiaci"
 #: rc.cpp:158
 msgid "Network History"
 msgstr "Historyja sietki"
+
+#, fuzzy
+#~ msgctxt "%1 is a host name"
+#~ msgid ""
+#~ "Message from %1:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Paviedamleńnie ad „%1”:\n"
+#~ "%2"
+
+#~ msgid "Could not run daemon program '%1'."
+#~ msgstr "Nie ŭdałosia ŭklučyć słužbu „%1”."
+
+#~ msgid "The daemon program '%1' failed."
+#~ msgstr "Nie ŭdałosia ŭklučyć słužbu „%1”."
+
+#~ msgid "Connection to %1 refused"
+#~ msgstr "Spałučeńnie z hostam „%1” adchilenaje"
+
+#~ msgid "Host %1 not found"
+#~ msgstr "Nie ŭdałosia znajści host „%1”"
+
+#~ msgid ""
+#~ "An error occurred with the network (e.g. the network cable was "
+#~ "accidentally unplugged) for host %1."
+#~ msgstr ""
+#~ "Uźnikła sietkavaja pamyłka ŭ spałučeńni z hostam „%1” (mahčyma, raptoŭna "
+#~ "adłučyŭsia sietkavy drot)."
+
+#~ msgid "Error for host %1: %2"
+#~ msgstr "Pamyłka dla hosta „%1”: %2"
+
+#~ msgid "Change"
+#~ msgstr "Źmiani"
+
+#~ msgid "Rate"
+#~ msgstr "Čaścinia"
+
+#~ msgid "CPU Load"
+#~ msgstr "Zaniataść pracesara"
+
+#~ msgid "Idling"
+#~ msgstr "Marna"
+
+#~ msgid "Nice Load"
+#~ msgstr "Zaniataść „nice”"
+
+#~ msgid "User Load"
+#~ msgstr "Zaniataść karystańnika"
+
+#, fuzzy
+#~| msgid "System Load"
+#~ msgctxt "@item sensor description"
+#~ msgid "System Load"
+#~ msgstr "Zaniataść systemy"
+
+#~ msgid "Waiting"
+#~ msgstr "Čakańnie"
+
+#, fuzzy
+#~| msgid "Interrupts"
+#~ msgid "Interrupt Load"
+#~ msgstr "Pierarvańni"
+
+#~ msgid "Total Load"
+#~ msgstr "Ahulnaja zaniataść"
+
+#~ msgid "Memory"
+#~ msgstr "Pamiać"
+
+#~ msgid "Physical Memory"
+#~ msgstr "Fizyčnaja pamiać"
+
+#~ msgid "Swap Memory"
+#~ msgstr "Padmiennaja pamiać"
+
+#~ msgid "Cached Memory"
+#~ msgstr "Padručnaja pamiać"
+
+#~ msgid "Buffered Memory"
+#~ msgstr "Bufernaja pamiać"
+
+#~ msgid "Used Memory"
+#~ msgstr "Zaniataja pamiać"
+
+#~ msgid "Application Memory"
+#~ msgstr "Pamiać aplikacyjaŭ"
+
+#~ msgid "Free Memory"
+#~ msgstr "Volnaja pamiać"
+
+#~ msgid "Active Memory"
+#~ msgstr "Dziejnaja pamiać"
+
+#~ msgid "Inactive Memory"
+#~ msgstr "Niadziejnaja pamiać"
+
+#~ msgid "Wired Memory"
+#~ msgstr "Źviazanaja pamiać"
+
+#~ msgid "Exec Pages"
+#~ msgstr "Staronki kodu"
+
+#~ msgid "File Pages"
+#~ msgstr "Staronki fajłaŭ"
+
+#, fuzzy
+#~| msgid "Processors"
+#~ msgid "Processes"
+#~ msgstr "Pracesary"
+
+#~ msgid "Process Controller"
+#~ msgstr "Kiraŭnik pracesaŭ"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Process Spawn Count"
+#~ msgstr "Kolkaść pracesaŭ"
+
+#~ msgid "Process Count"
+#~ msgstr "Kolkaść pracesaŭ"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Idle Processes Count"
+#~ msgstr "Kolkaść pracesaŭ"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Running Processes Count"
+#~ msgstr "Kolkaść pracesaŭ"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Sleeping Processes Count"
+#~ msgstr "Kolkaść pracesaŭ"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Stopped Processes Count"
+#~ msgstr "Kolkaść pracesaŭ"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Zombie Processes Count"
+#~ msgstr "Kolkaść pracesaŭ"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Waiting Processes Count"
+#~ msgstr "Kolkaść pracesaŭ"
+
+#, fuzzy
+#~| msgid "Process Count"
+#~ msgid "Locked Processes Count"
+#~ msgstr "Kolkaść pracesaŭ"
+
+#~ msgid "Disk Throughput"
+#~ msgstr "Zaniataść dysku"
+
+#~ msgctxt "CPU Load"
+#~ msgid "Load"
+#~ msgstr "Zaniataść"
+
+#~ msgid "Total Accesses"
+#~ msgstr "Usich dostupaŭ"
+
+#~ msgid "Read Accesses"
+#~ msgstr "Čytańni"
+
+#~ msgid "Write Accesses"
+#~ msgstr "Zapisy"
+
+#~ msgid "Read Data"
+#~ msgstr "Pračytanyja źviestki"
+
+#~ msgid "Written Data"
+#~ msgstr "Zapisanyja źviestki"
+
+#~ msgid "Milliseconds spent reading"
+#~ msgstr "Kolki milisekund čytańnia"
+
+#~ msgid "Milliseconds spent writing"
+#~ msgstr "Kolki milisekund pisańnia"
+
+#~ msgid "I/Os currently in progress"
+#~ msgstr "Dziejnyja aperacyi pierasyłańnia źviestak"
+
+#~ msgid "Pages In"
+#~ msgstr "Uchodnyja staronki"
+
+#~ msgid "Pages Out"
+#~ msgstr "Vychodnyja staronki"
+
+#~ msgid "Context Switches"
+#~ msgstr "Źmieny kantekstu"
+
+#, fuzzy
+#~| msgid "System Load"
+#~ msgid "System Calls"
+#~ msgstr "Zaniataść systemy"
+
+#~ msgid "Network"
+#~ msgstr "Sietka"
+
+#~ msgid "Interfaces"
+#~ msgstr "Interfejsy"
+
+#~ msgid "Receiver"
+#~ msgstr "Atrymańnik"
+
+#~ msgid "Transmitter"
+#~ msgstr "Pierasyłańnik"
+
+#, fuzzy
+#~| msgid "Rate"
+#~ msgid "Data Rate"
+#~ msgstr "Čaścinia"
+
+#, fuzzy
+#~| msgid "Compressed Packets"
+#~ msgid "Compressed Packets Rate"
+#~ msgstr "Skampresavanyja pakunki"
+
+#, fuzzy
+#~| msgid "Dropped Packets"
+#~ msgid "Dropped Packets Rate"
+#~ msgstr "Adkinutyja pakunki"
+
+#, fuzzy
+#~| msgid "Errors"
+#~ msgid "Error Rate"
+#~ msgstr "Pamyłki"
+
+#, fuzzy
+#~| msgid "FIFO Overruns"
+#~ msgid "FIFO Overruns Rate"
+#~ msgstr "Pierapaŭnieńni „FIFO”"
+
+#, fuzzy
+#~| msgid "Frame Errors"
+#~ msgid "Frame Error Rate"
+#~ msgstr "Pamyłki frejmaŭ"
+
+#, fuzzy
+#~| msgid "Multicast"
+#~ msgid "Multicast Packet Rate"
+#~ msgstr "Multicast"
+
+#, fuzzy
+#~| msgid "Packets"
+#~ msgid "Packet Rate"
+#~ msgstr "Pakunki"
+
+#, fuzzy
+#~| msgid "Errors"
+#~ msgctxt "@item sensor description ('carrier' is a type of network signal)"
+#~ msgid "Carrier Loss Rate"
+#~ msgstr "Pamyłki"
+
+#~ msgid "Collisions"
+#~ msgstr "Kalizii"
+
+#~ msgid "Data"
+#~ msgstr "Źviestki"
+
+#~ msgid "Compressed Packets"
+#~ msgstr "Skampresavanyja pakunki"
+
+#~ msgid "Dropped Packets"
+#~ msgstr "Adkinutyja pakunki"
+
+#~ msgid "Errors"
+#~ msgstr "Pamyłki"
+
+#~ msgid "FIFO Overruns"
+#~ msgstr "Pierapaŭnieńni „FIFO”"
+
+#~ msgid "Frame Errors"
+#~ msgstr "Pamyłki frejmaŭ"
+
+#, fuzzy
+#~| msgid "Multicast"
+#~ msgid "Multicast Packets"
+#~ msgstr "Multicast"
+
+#~ msgid "Packets"
+#~ msgstr "Pakunki"
+
+#~ msgid "Sockets"
+#~ msgstr "Sokiety"
+
+#~ msgid "Total Number"
+#~ msgstr "Ahulnaja kolkaść"
+
+#~ msgid "Table"
+#~ msgstr "Tablica"
+
+#~ msgid "Advanced Power Management"
+#~ msgstr "Admysłovaje kiravańnie enerhijaj"
+
+#~ msgid "ACPI"
+#~ msgstr "ACPI"
+
+#~ msgid "Thermal Zone"
+#~ msgstr "Temperaturnaja zona"
+
+#~ msgid "Temperature"
+#~ msgstr "Temperatura"
+
+#, fuzzy
+#~| msgid "Temperature"
+#~ msgid "Average CPU Temperature"
+#~ msgstr "Temperatura"
+
+#~ msgid "Fan"
+#~ msgstr "Vietrahon"
+
+#~ msgid "State"
+#~ msgstr "Stan"
+
+#~ msgid "Battery"
+#~ msgstr "Batareja"
+
+#, fuzzy
+#~| msgid "Battery Charge"
+#~ msgid "Battery Capacity"
+#~ msgstr "Zarad batarei"
+
+#~ msgid "Battery Charge"
+#~ msgstr "Zarad batarei"
+
+#~ msgid "Battery Usage"
+#~ msgstr "Vykarystańnie batarei"
+
+#, fuzzy
+#~| msgid "Battery Usage"
+#~ msgid "Battery Voltage"
+#~ msgstr "Vykarystańnie batarei"
+
+#, fuzzy
+#~| msgid "Battery Charge"
+#~ msgid "Battery Discharge Rate"
+#~ msgstr "Zarad batarei"
+
+#~ msgid "Remaining Time"
+#~ msgstr "Zastały čas"
+
+#~ msgid "Interrupts"
+#~ msgstr "Pierarvańni"
+
+#~ msgid "Load Average (1 min)"
+#~ msgstr "Siaredniaja zaniataść (1 chvilina)"
+
+#~ msgid "Load Average (5 min)"
+#~ msgstr "Siaredniaja zaniataść (5 chvilin)"
+
+#~ msgid "Load Average (15 min)"
+#~ msgstr "Siaredniaja zaniataść (15 chvilin)"
+
+#~ msgid "Clock Frequency"
+#~ msgstr "Čaścinia hadzińnika"
+
+#, fuzzy
+#~| msgid "Clock Frequency"
+#~ msgid "Average Clock Frequency"
+#~ msgstr "Čaścinia hadzińnika"
+
+#~ msgid "Hardware Sensors"
+#~ msgstr "Aparaturnyja sensary"
+
+#~ msgid "Partition Usage"
+#~ msgstr "Zaniataść partycyi"
+
+#~ msgid "Used Space"
+#~ msgstr "Absiah karystańnika"
+
+#~ msgid "Free Space"
+#~ msgstr "Volnaja prastora"
+
+#~ msgid "Fill Level"
+#~ msgstr "Poŭnaść"
+
+#, fuzzy
+#~| msgid "User Load"
+#~ msgid "Used Inodes"
+#~ msgstr "Zaniataść karystańnika"
+
+#~ msgid "System"
+#~ msgstr "Systema"
+
+#~ msgid "Uptime"
+#~ msgstr "Čas pracy"
+
+#~ msgid "Linux Soft Raid (md)"
+#~ msgstr "Prahramny „RAID” systemy „Linux” (md)"
+
+#~ msgid "Processors"
+#~ msgstr "Pracesary"
+
+#~ msgid "Cores"
+#~ msgstr "Jadry"
+
+#, fuzzy
+#~| msgid "Number of displays:"
+#~ msgid "Number of Blocks"
+#~ msgstr "Kolkaść prahladaŭ:"
+
+#, fuzzy
+#~| msgid "Total Number"
+#~ msgid "Total Number of Devices"
+#~ msgstr "Ahulnaja kolkaść"
+
+#, fuzzy
+#~| msgid "Number of displays:"
+#~ msgid "Number of Raid Devices"
+#~ msgstr "Kolkaść prahladaŭ:"
+
+#, fuzzy
+#~| msgid "Number of displays:"
+#~ msgid "Number of Devices"
+#~ msgstr "Kolkaść prahladaŭ:"
+
+#~ msgid "CPU %1"
+#~ msgstr "CPU „%1”"
+
+#~ msgid "Disk %1"
+#~ msgstr "Dysk „%1”"
+
+#, fuzzy
+#~| msgid "Battery"
+#~ msgid "Battery %1"
+#~ msgstr "Batareja"
+
+#~ msgid "Fan %1"
+#~ msgstr "Vietrahon „%1”"
+
+#~ msgid "Temperature %1"
+#~ msgstr "Temperatura „%1”"
+
+#~ msgid "Total"
+#~ msgstr "Ahułam"
+
+#, fuzzy
+#~| msgid "Interrupts"
+#~ msgid "Software Interrupts"
+#~ msgstr "Pierarvańni"
+
+#, fuzzy
+#~| msgid "Interrupts"
+#~ msgid "Hardware Interrupts"
+#~ msgstr "Pierarvańni"
+
+#~ msgid "Int %1"
+#~ msgstr "Pierarvańnie „%1”"
+
+#~ msgctxt "the unit 1 per second"
+#~ msgid "1/s"
+#~ msgstr "1/s"
+
+#~ msgid "kBytes"
+#~ msgstr "kB"
+
+#~ msgctxt "the unit minutes"
+#~ msgid "min"
+#~ msgstr "chv"
+
+#~ msgctxt "the frequency unit"
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgctxt "a percentage"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Integer Value"
+#~ msgstr "Cełaja vartaść"
+
+#~ msgid "Floating Point Value"
+#~ msgstr "Vartaść ź niefiksavanaj koskaj"
 
 #, fuzzy
 #~| msgid " sec"

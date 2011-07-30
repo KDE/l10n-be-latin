@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-29 04:15+0200\n"
+"POT-Creation-Date: 2011-07-30 04:14+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -13302,6 +13302,31 @@ msgstr ""
 msgid "The ontology files containing the ontologies to be generated."
 msgstr ""
 
+#: nepomuk/ui/nepomukmassupdatejob.cpp:76
+msgid "Changing annotations"
+msgstr "Źmiena anatacyjaŭ"
+
+#: nepomuk/ui/tagwidget.cpp:61
+#, fuzzy
+#| msgid "Show all options"
+msgctxt "@label"
+msgid "Show all tags..."
+msgstr "Pakažy ŭsie opcyi"
+
+#: nepomuk/ui/tagwidget.cpp:112
+#, fuzzy
+#| msgid "Add..."
+msgctxt "@label"
+msgid "Add Tags..."
+msgstr "Dadaj..."
+
+#: nepomuk/ui/tagwidget.cpp:112
+#, fuzzy
+#| msgid "Change &Icon..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "Źmiani &ikonu..."
+
 #: nepomuk/ui/kedittagsdialog.cpp:49
 #, fuzzy
 #| msgid "Change Icon"
@@ -13361,31 +13386,6 @@ msgstr "Vydali"
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Anuluj"
-
-#: nepomuk/ui/nepomukmassupdatejob.cpp:76
-msgid "Changing annotations"
-msgstr "Źmiena anatacyjaŭ"
-
-#: nepomuk/ui/tagwidget.cpp:61
-#, fuzzy
-#| msgid "Show all options"
-msgctxt "@label"
-msgid "Show all tags..."
-msgstr "Pakažy ŭsie opcyi"
-
-#: nepomuk/ui/tagwidget.cpp:112
-#, fuzzy
-#| msgid "Add..."
-msgctxt "@label"
-msgid "Add Tags..."
-msgstr "Dadaj..."
-
-#: nepomuk/ui/tagwidget.cpp:112
-#, fuzzy
-#| msgid "Change &Icon..."
-msgctxt "@label"
-msgid "Change..."
-msgstr "Źmiani &ikonu..."
 
 #: nepomuk/utils/daterangeselectionwidget.cpp:201
 msgid "This Week"

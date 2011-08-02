@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-13 03:56+0200\n"
+"POT-Creation-Date: 2011-08-02 05:23+0200\n"
 "PO-Revision-Date: 2008-10-04 23:44+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: exporters.cpp:48
 msgid "My Bookmarks"
@@ -29,11 +30,6 @@ msgstr "Ok"
 #: favicons.cpp:72
 msgid "Updating favicon..."
 msgstr "Aktualizacyja ikony sajta..."
-
-#: faviconupdater.cpp:87
-#, kde-format
-msgid "%1; no HTML component found (%2)"
-msgstr ""
 
 #: importers.h:102
 msgid "Galeon"
@@ -203,52 +199,6 @@ msgctxt "(qtundo-format)"
 msgid "Move Items"
 msgstr "Pieraniasi"
 
-#: kebsearchline.cpp:273
-msgid "Search Columns"
-msgstr "Słupki pošuku"
-
-#: kebsearchline.cpp:276
-msgid "All Visible Columns"
-msgstr "Usie vidočnyja słupki"
-
-#: kebsearchline.cpp:285
-#, kde-format
-msgctxt "Column number %1"
-msgid "Column No. %1"
-msgstr "Słupok %1"
-
-#: kebsearchline.cpp:680
-msgid "S&earch:"
-msgstr "&Šukaj:"
-
-#: testlink.cpp:76
-msgid "Checking..."
-msgstr "Spraŭdžvańnie..."
-
-#: bookmarkinfowidget.cpp:240
-msgid "Name:"
-msgstr "Nazva:"
-
-#: bookmarkinfowidget.cpp:248
-msgid "Location:"
-msgstr "Miesca:"
-
-#: bookmarkinfowidget.cpp:256
-msgid "Comment:"
-msgstr "Kamentar:"
-
-#: bookmarkinfowidget.cpp:263
-msgid "First viewed:"
-msgstr "Pieršy prahlad:"
-
-#: bookmarkinfowidget.cpp:266
-msgid "Viewed last:"
-msgstr "Apošni prahlad:"
-
-#: bookmarkinfowidget.cpp:269
-msgid "Times visited:"
-msgstr "Kolkaść naviedvańniaŭ:"
-
 #: main.cpp:68
 #, kde-format
 msgid ""
@@ -398,6 +348,45 @@ msgstr "Možna padać tolki adnu opcyju „--export”."
 #: main.cpp:171
 msgid "You may only specify a single --import option."
 msgstr "Možna padać tolki adnu opcyju „--import”."
+
+#: importers.cpp:56
+#, fuzzy, kde-format
+#| msgid "Import %1 Bookmarks"
+msgctxt "(qtundo-format)"
+msgid "Import %1 Bookmarks"
+msgstr "Zimpartuj zakładki „%1”"
+
+#: importers.cpp:60
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr "Zakładki „%1”"
+
+#: importers.cpp:92
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr "Zimpartavać jak novy padkataloh albo zamianić usie dziejnyja zakładki?"
+
+#: importers.cpp:93
+#, fuzzy, kde-format
+#| msgid "%1 Import"
+msgctxt "@title:window"
+msgid "%1 Import"
+msgstr "Impartavańnie „%1”"
+
+#: importers.cpp:94
+msgid "As New Folder"
+msgstr "Jak novy kataloh"
+
+#: importers.cpp:94
+msgid "Replace"
+msgstr "Zamiani"
+
+#: importers.cpp:199
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr "*.xbel|Fajły zakładak „Galeon” (*.xbel)"
+
+#: importers.cpp:208
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr "*.xml|Fajły zakładak „KDE” (*.xml)"
 
 #: actionsimpl.cpp:97
 msgid "&Delete"
@@ -575,44 +564,56 @@ msgctxt "(qtundo-format)"
 msgid "Delete Items"
 msgstr "Vydali elementy"
 
-#: importers.cpp:56
-#, fuzzy, kde-format
-#| msgid "Import %1 Bookmarks"
-msgctxt "(qtundo-format)"
-msgid "Import %1 Bookmarks"
-msgstr "Zimpartuj zakładki „%1”"
+#: bookmarkinfowidget.cpp:240
+msgid "Name:"
+msgstr "Nazva:"
 
-#: importers.cpp:60
+#: bookmarkinfowidget.cpp:248
+msgid "Location:"
+msgstr "Miesca:"
+
+#: bookmarkinfowidget.cpp:256
+msgid "Comment:"
+msgstr "Kamentar:"
+
+#: bookmarkinfowidget.cpp:263
+msgid "First viewed:"
+msgstr "Pieršy prahlad:"
+
+#: bookmarkinfowidget.cpp:266
+msgid "Viewed last:"
+msgstr "Apošni prahlad:"
+
+#: bookmarkinfowidget.cpp:269
+msgid "Times visited:"
+msgstr "Kolkaść naviedvańniaŭ:"
+
+#: faviconupdater.cpp:87
 #, kde-format
-msgid "%1 Bookmarks"
-msgstr "Zakładki „%1”"
+msgid "%1; no HTML component found (%2)"
+msgstr ""
 
-#: importers.cpp:92
-msgid "Import as a new subfolder or replace all the current bookmarks?"
-msgstr "Zimpartavać jak novy padkataloh albo zamianić usie dziejnyja zakładki?"
+#: kebsearchline.cpp:273
+msgid "Search Columns"
+msgstr "Słupki pošuku"
 
-#: importers.cpp:93
-#, fuzzy, kde-format
-#| msgid "%1 Import"
-msgctxt "@title:window"
-msgid "%1 Import"
-msgstr "Impartavańnie „%1”"
+#: kebsearchline.cpp:276
+msgid "All Visible Columns"
+msgstr "Usie vidočnyja słupki"
 
-#: importers.cpp:94
-msgid "As New Folder"
-msgstr "Jak novy kataloh"
+#: kebsearchline.cpp:285
+#, kde-format
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr "Słupok %1"
 
-#: importers.cpp:94
-msgid "Replace"
-msgstr "Zamiani"
+#: kebsearchline.cpp:680
+msgid "S&earch:"
+msgstr "&Šukaj:"
 
-#: importers.cpp:199
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr "*.xbel|Fajły zakładak „Galeon” (*.xbel)"
-
-#: importers.cpp:208
-msgid "*.xml|KDE Bookmark Files (*.xml)"
-msgstr "*.xml|Fajły zakładak „KDE” (*.xml)"
+#: testlink.cpp:76
+msgid "Checking..."
+msgstr "Spraŭdžvańnie..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

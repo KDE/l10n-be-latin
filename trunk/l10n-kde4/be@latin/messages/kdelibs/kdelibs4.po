@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:20+0200\n"
+"POT-Creation-Date: 2011-08-04 03:00+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5896,27 +5896,6 @@ msgctxt "@title:window"
 msgid "Print"
 msgstr "Vydruk"
 
-#: kdeui/dialogs/kdialog.cpp:250
-msgid "&Try"
-msgstr "&Sprabuj"
-
-#: kdeui/dialogs/kdialog.cpp:452
-msgid "modified"
-msgstr "źmienieny"
-
-#: kdeui/dialogs/kdialog.cpp:462
-msgctxt "Document/application separator in titlebar"
-msgid " – "
-msgstr " – "
-
-#: kdeui/dialogs/kdialog.cpp:833
-msgid "&Details"
-msgstr "&Detali"
-
-#: kdeui/dialogs/kdialog.cpp:985
-msgid "Get help..."
-msgstr "Atrymaj dapamohu..."
-
 #: kdeui/dialogs/kedittoolbar.cpp:58
 msgid "--- separator ---"
 msgstr "--- dzielnik ---"
@@ -6650,6 +6629,27 @@ msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
 
+#: kdeui/dialogs/kdialog.cpp:250
+msgid "&Try"
+msgstr "&Sprabuj"
+
+#: kdeui/dialogs/kdialog.cpp:452
+msgid "modified"
+msgstr "źmienieny"
+
+#: kdeui/dialogs/kdialog.cpp:462
+msgctxt "Document/application separator in titlebar"
+msgid " – "
+msgstr " – "
+
+#: kdeui/dialogs/kdialog.cpp:833
+msgid "&Details"
+msgstr "&Detali"
+
+#: kdeui/dialogs/kdialog.cpp:986
+msgid "Get help..."
+msgstr "Atrymaj dapamohu..."
+
 #: kdeui/findreplace/kfind.cpp:50
 msgid "Find Next"
 msgstr "Znajdzi nastupnaje"
@@ -7381,31 +7381,31 @@ msgstr ""
 msgid "Unknown Application"
 msgstr "Nieviadomaja aplikacyja"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:419
-#: kdeui/notifications/kstatusnotifieritem.cpp:857
+#: kdeui/notifications/ksystemtrayicon.cpp:156
+msgid "Minimize"
+msgstr "Minimalizuj"
+
 #: kdeui/notifications/ksystemtrayicon.cpp:215
+#: kdeui/notifications/kstatusnotifieritem.cpp:487
+#: kdeui/notifications/kstatusnotifieritem.cpp:925
 msgid "&Minimize"
 msgstr "&Minimalizuj"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:855
 #: kdeui/notifications/ksystemtrayicon.cpp:219
+#: kdeui/notifications/kstatusnotifieritem.cpp:923
 msgid "&Restore"
 msgstr "&Adnavi"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:865
 #: kdeui/notifications/ksystemtrayicon.cpp:239
+#: kdeui/notifications/kstatusnotifieritem.cpp:933
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>Ty sapraŭdy chočaš vyjści z <b>%1</b>?</qt>"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:868
 #: kdeui/notifications/ksystemtrayicon.cpp:242
+#: kdeui/notifications/kstatusnotifieritem.cpp:936
 msgid "Confirm Quit From System Tray"
 msgstr "Paćvierdžańnie vychadu z systemnaha treja"
-
-#: kdeui/notifications/ksystemtrayicon.cpp:156
-msgid "Minimize"
-msgstr "Minimalizuj"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:209
 msgctxt "@title:window"
@@ -9125,145 +9125,145 @@ msgctxt "KCharselect unicode block name"
 msgid "Specials"
 msgstr ""
 
-#: kdeui/widgets/kcharselect.cpp:336 kdeui/widgets/kcharselect.cpp:338
+#: kdeui/widgets/kcharselect.cpp:339 kdeui/widgets/kcharselect.cpp:341
 msgid "Enter a search term or character here"
 msgstr "Vybiery znak albo tekst dla pošuku"
 
-#: kdeui/widgets/kcharselect.cpp:356
+#: kdeui/widgets/kcharselect.cpp:359
 msgctxt "Goes to previous character"
 msgid "Previous in History"
 msgstr "Raniej u historyi"
 
-#: kdeui/widgets/kcharselect.cpp:358
+#: kdeui/widgets/kcharselect.cpp:361
 msgid "Previous Character in History"
 msgstr "Raniejšy znak z historyi"
 
-#: kdeui/widgets/kcharselect.cpp:363
+#: kdeui/widgets/kcharselect.cpp:366
 msgctxt "Goes to next character"
 msgid "Next in History"
 msgstr "Paźniej u historyi"
 
-#: kdeui/widgets/kcharselect.cpp:365
+#: kdeui/widgets/kcharselect.cpp:368
 msgid "Next Character in History"
 msgstr "Paźniejšy znak z historyi"
 
-#: kdeui/widgets/kcharselect.cpp:373
+#: kdeui/widgets/kcharselect.cpp:376
 msgid "Select a category"
 msgstr "Vybiery katehoryju"
 
-#: kdeui/widgets/kcharselect.cpp:376
+#: kdeui/widgets/kcharselect.cpp:379
 msgid "Select a block to be displayed"
 msgstr "Vybiery patrebny addzieł"
 
-#: kdeui/widgets/kcharselect.cpp:389
+#: kdeui/widgets/kcharselect.cpp:392
 msgid "Set font"
 msgstr "Vybiery šryft"
 
-#: kdeui/widgets/kcharselect.cpp:396
+#: kdeui/widgets/kcharselect.cpp:399
 msgid "Set font size"
 msgstr "Naładź pamier šryfta"
 
-#: kdeui/widgets/kcharselect.cpp:627
+#: kdeui/widgets/kcharselect.cpp:630
 msgid "Character:"
 msgstr "Znak:"
 
-#: kdeui/widgets/kcharselect.cpp:633
+#: kdeui/widgets/kcharselect.cpp:636
 msgid "Name: "
 msgstr "Nazva: "
 
-#: kdeui/widgets/kcharselect.cpp:641
+#: kdeui/widgets/kcharselect.cpp:644
 msgid "Annotations and Cross References"
 msgstr "Tłumačeńni j kryžavanyja spasyłańni"
 
-#: kdeui/widgets/kcharselect.cpp:645
+#: kdeui/widgets/kcharselect.cpp:648
 msgid "Alias names:"
 msgstr "Pseŭdanimy:"
 
-#: kdeui/widgets/kcharselect.cpp:653
+#: kdeui/widgets/kcharselect.cpp:656
 msgid "Notes:"
 msgstr "Zaciem:"
 
-#: kdeui/widgets/kcharselect.cpp:661
+#: kdeui/widgets/kcharselect.cpp:664
 msgid "See also:"
 msgstr "Taksama:"
 
-#: kdeui/widgets/kcharselect.cpp:673
+#: kdeui/widgets/kcharselect.cpp:676
 msgid "Equivalents:"
 msgstr "Raŭnaznačnaje:"
 
-#: kdeui/widgets/kcharselect.cpp:681
+#: kdeui/widgets/kcharselect.cpp:684
 msgid "Approximate equivalents:"
 msgstr "Prykładnaje raŭnaznačnaje:"
 
-#: kdeui/widgets/kcharselect.cpp:690
+#: kdeui/widgets/kcharselect.cpp:693
 msgid "CJK Ideograph Information"
 msgstr "Ideahrafičnyja źviestki CJK"
 
-#: kdeui/widgets/kcharselect.cpp:693
+#: kdeui/widgets/kcharselect.cpp:696
 msgid "Definition in English: "
 msgstr "Anhielskaje aznačeńnie: "
 
-#: kdeui/widgets/kcharselect.cpp:698
+#: kdeui/widgets/kcharselect.cpp:701
 msgid "Mandarin Pronunciation: "
 msgstr "Mandarynavaje vymaŭleńnie: "
 
-#: kdeui/widgets/kcharselect.cpp:703
+#: kdeui/widgets/kcharselect.cpp:706
 msgid "Cantonese Pronunciation: "
 msgstr "Kantonskaje vymaŭleńnie: "
 
-#: kdeui/widgets/kcharselect.cpp:708
+#: kdeui/widgets/kcharselect.cpp:711
 msgid "Japanese On Pronunciation: "
 msgstr "Japonskaje (On) vymaŭleńnie: "
 
-#: kdeui/widgets/kcharselect.cpp:713
+#: kdeui/widgets/kcharselect.cpp:716
 msgid "Japanese Kun Pronunciation: "
 msgstr "Japonskaje (Kun) vymaŭleńnie: "
 
-#: kdeui/widgets/kcharselect.cpp:718
+#: kdeui/widgets/kcharselect.cpp:721
 msgid "Tang Pronunciation: "
 msgstr "Vymaŭleńnie Tang: "
 
-#: kdeui/widgets/kcharselect.cpp:723
+#: kdeui/widgets/kcharselect.cpp:726
 msgid "Korean Pronunciation: "
 msgstr "Karejskaje vymaŭleńnie: "
 
-#: kdeui/widgets/kcharselect.cpp:729
+#: kdeui/widgets/kcharselect.cpp:732
 msgid "General Character Properties"
 msgstr "Hałoŭnyja ŭłaścivaści znaka"
 
-#: kdeui/widgets/kcharselect.cpp:730
+#: kdeui/widgets/kcharselect.cpp:733
 msgid "Block: "
 msgstr "Addzieł: "
 
-#: kdeui/widgets/kcharselect.cpp:731
+#: kdeui/widgets/kcharselect.cpp:734
 msgid "Unicode category: "
 msgstr "Katehoryja Unikodu: "
 
-#: kdeui/widgets/kcharselect.cpp:735
+#: kdeui/widgets/kcharselect.cpp:738
 msgid "Various Useful Representations"
 msgstr "Roznyja karysnyja vyjaŭleńni"
 
-#: kdeui/widgets/kcharselect.cpp:736
+#: kdeui/widgets/kcharselect.cpp:739
 msgid "UTF-8:"
 msgstr "UTF-8:"
 
-#: kdeui/widgets/kcharselect.cpp:739
+#: kdeui/widgets/kcharselect.cpp:742
 msgid "UTF-16: "
 msgstr "UTF-16: "
 
-#: kdeui/widgets/kcharselect.cpp:740
+#: kdeui/widgets/kcharselect.cpp:743
 msgid "C octal escaped UTF-8: "
 msgstr "Aśmiarkovy UTF-8 dla C: "
 
-#: kdeui/widgets/kcharselect.cpp:743
+#: kdeui/widgets/kcharselect.cpp:746
 msgid "XML decimal entity:"
 msgstr "Dziesiatkovy farmat XML:"
 
-#: kdeui/widgets/kcharselect.cpp:872
+#: kdeui/widgets/kcharselect.cpp:875
 msgid "Unicode code point:"
 msgstr "Kodavy punkt Unikodu:"
 
-#: kdeui/widgets/kcharselect.cpp:873
+#: kdeui/widgets/kcharselect.cpp:876
 msgctxt "Character"
 msgid "In decimal:"
 msgstr "Dziesiatkovy:"

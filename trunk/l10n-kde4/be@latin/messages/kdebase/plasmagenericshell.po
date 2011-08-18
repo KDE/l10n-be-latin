@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:38+0200\n"
+"POT-Creation-Date: 2011-08-18 03:37+0200\n"
 "PO-Revision-Date: 2008-12-02 00:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -192,39 +192,6 @@ msgstr ""
 msgid "Filters"
 msgstr "Filtry"
 
-#: widgetsexplorer/openwidgetassistant.cpp:46
-msgid "Select the type of widget to install from the list below."
-msgstr "Vybiery ź nižejšaha śpisu typ widžeta, jaki treba zainstalavać."
-
-#: widgetsexplorer/openwidgetassistant.cpp:56
-msgid "Plasmoid: Native plasma widget"
-msgstr "Rodny widžet systemy „Plasma”"
-
-#: widgetsexplorer/openwidgetassistant.cpp:77
-msgid "Install New Widget From File"
-msgstr "Zainstaluj novy widžet z fajła"
-
-#: widgetsexplorer/openwidgetassistant.cpp:82
-msgid "Select File"
-msgstr "Vybiery fajł"
-
-#: widgetsexplorer/openwidgetassistant.cpp:176
-#, kde-format
-msgid "Could not load the required installer %1. The error given was: %2"
-msgstr ""
-"Nie ŭdałosia pračytać u pamiać patrebny insalatar „%1”. Uźnikła nastupnaja "
-"pamyłka: %2"
-
-#: widgetsexplorer/openwidgetassistant.cpp:179
-#: widgetsexplorer/openwidgetassistant.cpp:191
-msgid "Installation Failure"
-msgstr "Niaŭdałaje instalavańnie"
-
-#: widgetsexplorer/openwidgetassistant.cpp:190
-#, kde-format
-msgid "Installing the package %1 failed."
-msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
-
 #: widgetsexplorer/plasmaappletitemmodel.cpp:194
 msgid "Containments"
 msgstr "Schoviščy"
@@ -277,6 +244,39 @@ msgstr "Vaźmi novy „%1”"
 #: widgetsexplorer/appletsfiltering.cpp:331
 msgid "Install Widget From Local File..."
 msgstr "Zainstaluj widžet ź miascovaha fajła..."
+
+#: widgetsexplorer/openwidgetassistant.cpp:46
+msgid "Select the type of widget to install from the list below."
+msgstr "Vybiery ź nižejšaha śpisu typ widžeta, jaki treba zainstalavać."
+
+#: widgetsexplorer/openwidgetassistant.cpp:56
+msgid "Plasmoid: Native plasma widget"
+msgstr "Rodny widžet systemy „Plasma”"
+
+#: widgetsexplorer/openwidgetassistant.cpp:77
+msgid "Install New Widget From File"
+msgstr "Zainstaluj novy widžet z fajła"
+
+#: widgetsexplorer/openwidgetassistant.cpp:82
+msgid "Select File"
+msgstr "Vybiery fajł"
+
+#: widgetsexplorer/openwidgetassistant.cpp:176
+#, kde-format
+msgid "Could not load the required installer %1. The error given was: %2"
+msgstr ""
+"Nie ŭdałosia pračytać u pamiać patrebny insalatar „%1”. Uźnikła nastupnaja "
+"pamyłka: %2"
+
+#: widgetsexplorer/openwidgetassistant.cpp:179
+#: widgetsexplorer/openwidgetassistant.cpp:191
+msgid "Installation Failure"
+msgstr "Niaŭdałaje instalavańnie"
+
+#: widgetsexplorer/openwidgetassistant.cpp:190
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
 
 #: backgrounddialog.cpp:211
 msgid "Desktop Settings"

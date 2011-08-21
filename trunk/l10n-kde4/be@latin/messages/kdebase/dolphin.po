@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-16 04:49+0200\n"
+"POT-Creation-Date: 2011-08-21 03:31+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1311,7 +1311,15 @@ msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemlistwidget.cpp:624
+#: kitemviews/kfileitemmodel.cpp:622
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Documentation"
+msgctxt "@item:intable"
+msgid "No destination"
+msgstr "Dakumentacyja"
+
+#: kitemviews/kfileitemlistwidget.cpp:626
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -1322,14 +1330,6 @@ msgid_plural "%1 items"
 msgstr[0] "Vyłučany %1 element"
 msgstr[1] "Vyłučanyja %1 elementy"
 msgstr[2] "Vyłučanyja %1 elementaŭ"
-
-#: kitemviews/kfileitemmodel.cpp:622
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Documentation"
-msgctxt "@item:intable"
-msgid "No destination"
-msgstr "Dakumentacyja"
 
 #: dolphinviewcontainer.cpp:339
 msgctxt "@info:progress"

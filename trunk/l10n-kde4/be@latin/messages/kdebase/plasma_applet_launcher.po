@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-18 03:37+0200\n"
+"POT-Creation-Date: 2011-09-08 04:08+0200\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -48,18 +48,18 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr "Ahulnaje"
 
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr ""
+
+#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
+msgid "All Applications"
+msgstr "Usie aplikacyi"
+
 #: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
 #: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
 msgid "Favorites"
 msgstr "Ułasnaje"
-
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Chatni kataloh"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Sietkavyja katalohi"
 
 #: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -165,13 +165,13 @@ msgstr "Sesija"
 msgid "System"
 msgstr "Systema"
 
-#: core/applicationmodel.cpp:335
-msgid "Games"
-msgstr ""
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Chatni kataloh"
 
-#: core/applicationmodel.cpp:429 ui/launcher.cpp:975
-msgid "All Applications"
-msgstr "Usie aplikacyi"
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Sietkavyja katalohi"
 
 #: core/recentlyusedmodel.cpp:109
 msgid "Documents"
@@ -340,13 +340,6 @@ msgstr "Aplikacyi"
 msgid "Actions"
 msgstr "Aplikacyi"
 
-#: ui/searchbar.cpp:70
-#, fuzzy
-#| msgid "Search:"
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Šukaj:"
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "Asablivaje"
@@ -406,6 +399,13 @@ msgstr "Karystańnik <b>%1</b> na <b>%2</b>"
 msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b> na <b>%3</b>"
+
+#: ui/searchbar.cpp:70
+#, fuzzy
+#| msgid "Search:"
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Šukaj:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

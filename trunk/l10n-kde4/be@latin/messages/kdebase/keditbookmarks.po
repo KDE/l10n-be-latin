@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:23+0200\n"
+"POT-Creation-Date: 2011-09-08 03:52+0200\n"
 "PO-Revision-Date: 2008-10-04 23:44+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,375 +18,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: exporters.cpp:48
-msgid "My Bookmarks"
-msgstr "Maje zakładki"
-
-#: favicons.cpp:56 testlink.cpp:97
-msgid "OK"
-msgstr "Ok"
-
-#: favicons.cpp:72
-msgid "Updating favicon..."
-msgstr "Aktualizacyja ikony sajta..."
-
-#: importers.h:102
-msgid "Galeon"
-msgstr "Galeon"
-
-#: importers.h:112
-msgid "KDE"
-msgstr "KDE"
-
-#: importers.h:133
-msgid "Netscape"
-msgstr "Netscape"
-
-#: importers.h:143
-msgid "Mozilla"
-msgstr "Mozilla"
-
-#: importers.h:153
-msgid "IE"
-msgstr "IE"
-
-#: importers.h:165
-msgid "Opera"
-msgstr "Opera"
-
-#: kbookmarkmerger.cpp:39
-msgid "KBookmarkMerger"
-msgstr "KBookmarkMerger"
-
-#: kbookmarkmerger.cpp:40
-msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
-msgstr ""
-"Źmiaščaje zakładki, zainstalavanyja inšymi asobami, u schoviščy karystańnika"
-
-#: kbookmarkmerger.cpp:42
-msgid "Copyright © 2005 Frerich Raabe"
-msgstr "Copyright © 2005 Frerich Raabe"
-
-#: kbookmarkmerger.cpp:43
-msgid "Frerich Raabe"
-msgstr "Frerich Raabe"
-
-#: kbookmarkmerger.cpp:43
-msgid "Original author"
-msgstr "Pieršy aŭtar"
-
-#: kbookmarkmerger.cpp:49
-msgid "Directory to scan for extra bookmarks"
-msgstr "Kataloh, dzie treba šukać dadatkovyja zakładki"
-
-#: kbookmarkmodel/model.cpp:116
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "name of the container of all browser bookmarks"
-msgid "Bookmarks"
-msgstr "Zakładki"
-
-#: kbookmarkmodel/model.cpp:220
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@title:column name of a bookmark"
-msgid "Name"
-msgstr "Nazva:"
-
-#: kbookmarkmodel/model.cpp:224
-#, fuzzy
-#| msgid "Location:"
-msgctxt "@title:column name of a bookmark"
-msgid "Location"
-msgstr "Miesca:"
-
-#: kbookmarkmodel/model.cpp:228
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:column comment for a bookmark"
-msgid "Comment"
-msgstr "Kamentar"
-
-#: kbookmarkmodel/model.cpp:232
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:column status of a bookmark"
-msgid "Status"
-msgstr "Stan"
-
-#: kbookmarkmodel/commands.cpp:68
-#, fuzzy
-#| msgid "Insert Separator"
-msgctxt "(qtundo-format)"
-msgid "Insert Separator"
-msgstr "Uklej dzielnik"
-
-#: kbookmarkmodel/commands.cpp:77
-#, fuzzy
-#| msgid "Create Bookmark"
-msgctxt "(qtundo-format)"
-msgid "Create Bookmark"
-msgstr "Stvary zakładku"
-
-#: kbookmarkmodel/commands.cpp:86
-#, fuzzy
-#| msgid "Create Folder"
-msgctxt "(qtundo-format)"
-msgid "Create Folder"
-msgstr "Stvary kataloh"
-
-#: kbookmarkmodel/commands.cpp:95
-#, fuzzy, kde-format
-#| msgid "Copy %1"
-msgctxt "(qtundo-format)"
-msgid "Copy %1"
-msgstr "Skapijuj „%1”"
-
-#: kbookmarkmodel/commands.cpp:183
-#, fuzzy
-#| msgid "%1 Change"
-msgctxt "(qtundo-format)"
-msgid "Icon Change"
-msgstr "Źmiena „%1”"
-
-#: kbookmarkmodel/commands.cpp:185
-#, fuzzy
-#| msgid "%1 Change"
-msgctxt "(qtundo-format)"
-msgid "Title Change"
-msgstr "Źmiena „%1”"
-
-#: kbookmarkmodel/commands.cpp:187
-#, fuzzy
-#| msgid "%1 Change"
-msgctxt "(qtundo-format)"
-msgid "URL Change"
-msgstr "Źmiena „%1”"
-
-#: kbookmarkmodel/commands.cpp:189
-#, fuzzy
-#| msgid "Comment"
-msgctxt "(qtundo-format)"
-msgid "Comment Change"
-msgstr "Kamentar"
-
-#: kbookmarkmodel/commands.cpp:364
-#, fuzzy, kde-format
-#| msgid "Move %1"
-msgctxt "(qtundo-format)"
-msgid "Move %1"
-msgstr "Pieraniasi „%1”"
-
-#: kbookmarkmodel/commands.cpp:481
-#, fuzzy
-#| msgid "Set as Bookmark Toolbar"
-msgctxt "(qtundo-format)"
-msgid "Set as Bookmark Toolbar"
-msgstr "Źmiaści ŭ paneli zakładak"
-
-#: kbookmarkmodel/commands.cpp:517
-#, fuzzy
-#| msgid "Copy Items"
-msgctxt "(qtundo-format)"
-msgid "Copy Items"
-msgstr "Skapijuj"
-
-#: kbookmarkmodel/commands.cpp:518
-#, fuzzy
-#| msgid "Move Items"
-msgctxt "(qtundo-format)"
-msgid "Move Items"
-msgstr "Pieraniasi"
-
-#: main.cpp:68
-#, kde-format
-msgid ""
-"Another instance of %1 is already running. Do you really want to open "
-"another instance or continue work in the same instance?\n"
-"Please note that, unfortunately, duplicate views are read-only."
-msgstr ""
-"Užo pracuje inšaja kopija prahramy „%1”. Sapraŭdy treba adčynić inšuju "
-"kopiju albo praciahvać pracavać u toj samaj kopii?\n"
-"Nažal, paŭtornyja kopii dastupnyja tolki dla čytańnia."
-
-#: main.cpp:71
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "Uvaha"
-
-#: main.cpp:72
-msgid "Run Another"
-msgstr "Uklučy inšuju kopiju"
-
-#: main.cpp:73
-msgid "Continue in Same"
-msgstr "Praciahvaj u toj samaj kopii"
-
-#: main.cpp:96
-msgid "Bookmark Editor"
-msgstr "Redaktar zakładak"
-
-#: main.cpp:97
-msgid "Bookmark Organizer and Editor"
-msgstr "Kiraŭnik i redaktar zakładak"
-
-#: main.cpp:99
-msgid "Copyright 2000-2007, KDE developers"
-msgstr "Copyright © 2000-2007, Raspracoŭniki KDE"
-
-#: main.cpp:100
-msgid "David Faure"
-msgstr "David Faure"
-
-#: main.cpp:100
-msgid "Initial author"
-msgstr "Pieršy aŭtar"
-
-#: main.cpp:101
-msgid "Alexander Kellett"
-msgstr "Alexander Kellett"
-
-#: main.cpp:101
-msgid "Author"
-msgstr "Aŭtar"
-
-#: main.cpp:108
-msgid "Import bookmarks from a file in Mozilla format"
-msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Mozilla”"
-
-#: main.cpp:109
-msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
-msgstr ""
-"Zimpartuj zakładki z fajła ŭ farmacie „Netscape” (4.x ci raniejšaj versii)"
-
-#: main.cpp:110
-msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
-msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Internet Explorer”"
-
-#: main.cpp:111
-msgid "Import bookmarks from a file in Opera format"
-msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Opera”"
-
-#: main.cpp:112
-#, fuzzy
-#| msgid "Import bookmarks from a file in Opera format"
-msgid "Import bookmarks from a file in KDE2 format"
-msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Opera”"
-
-#: main.cpp:113
-#, fuzzy
-#| msgid "Import bookmarks from a file in Opera format"
-msgid "Import bookmarks from a file in Galeon format"
-msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Opera”"
-
-#: main.cpp:114
-msgid "Export bookmarks to a file in Mozilla format"
-msgstr "Zekspartuj zakładki ŭ fajł u farmacie „Mozilla”"
-
-#: main.cpp:115
-msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
-msgstr ""
-"Zekspartuj zakładki ŭ fajł u farmacie „Netscape” (4.x ci raniejšaj versii)"
-
-#: main.cpp:116
-msgid "Export bookmarks to a file in a printable HTML format"
-msgstr ""
-"Zekspartuj zakładki ŭ fajł u farmacie „HTML”, padrychtavanym dla vydruku"
-
-#: main.cpp:117
-msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
-msgstr "Zekspartuj zakładki ŭ fajł u farmacie „Internet Explorer”"
-
-#: main.cpp:118
-msgid "Export bookmarks to a file in Opera format"
-msgstr "Zekspartuj zakładki ŭ fajł u farmacie „Opera”"
-
-#: main.cpp:119
-msgid "Open at the given position in the bookmarks file"
-msgstr "Adčyni ŭ peŭnym miescy fajła z zakładkami"
-
-#: main.cpp:120
-msgid "Set the user-readable caption, for example \"Konsole\""
-msgstr "Aznač podpis, naprykład, „Konsole”"
-
-#: main.cpp:121
-msgid "Hide all browser related functions"
-msgstr "Schavaj usie aperacyi, źviazanyja z hartańniem sieciva"
-
-#: main.cpp:122
-#, fuzzy
-#| msgid ""
-#| "A unique name that represents this bookmark collection, usually the "
-#| "kinstance name.\n"
-#| "This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
-#| "KFileDialog bookmarks, etc.\n"
-#| "The final DBus object path is /KBookmarkManager/dbusObjectName"
-msgid ""
-"A unique name that represents this bookmark collection, usually the "
-"kinstance name.\n"
-"This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
-"KFileDialog bookmarks, etc.\n"
-"The final D-Bus object path is /KBookmarkManager/dbusObjectName"
-msgstr ""
-"Niepaŭtornaja nazva, jakaja identyfikuje hety zbor zakładak, zvyčajna heta "
-"nazva „kinstance”.\n"
-"Heta „konqueror” dla zakładak prahramy „Konqueror”, „kfile” dla zakładak "
-"dyjalohavych voknaŭ „KFileDialog” itp.\n"
-"Kančatkovaja ściežka abjekta „D-Bus”: /KBookmarkManager/dbusObjectName"
-
-#: main.cpp:125
-msgid "File to edit"
-msgstr "Fajł dla redahavańnia"
-
-#: main.cpp:166
-msgid "You may only specify a single --export option."
-msgstr "Možna padać tolki adnu opcyju „--export”."
-
-#: main.cpp:171
-msgid "You may only specify a single --import option."
-msgstr "Možna padać tolki adnu opcyju „--import”."
-
-#: importers.cpp:56
-#, fuzzy, kde-format
-#| msgid "Import %1 Bookmarks"
-msgctxt "(qtundo-format)"
-msgid "Import %1 Bookmarks"
-msgstr "Zimpartuj zakładki „%1”"
-
-#: importers.cpp:60
-#, kde-format
-msgid "%1 Bookmarks"
-msgstr "Zakładki „%1”"
-
-#: importers.cpp:92
-msgid "Import as a new subfolder or replace all the current bookmarks?"
-msgstr "Zimpartavać jak novy padkataloh albo zamianić usie dziejnyja zakładki?"
-
-#: importers.cpp:93
-#, fuzzy, kde-format
-#| msgid "%1 Import"
-msgctxt "@title:window"
-msgid "%1 Import"
-msgstr "Impartavańnie „%1”"
-
-#: importers.cpp:94
-msgid "As New Folder"
-msgstr "Jak novy kataloh"
-
-#: importers.cpp:94
-msgid "Replace"
-msgstr "Zamiani"
-
-#: importers.cpp:199
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr "*.xbel|Fajły zakładak „Galeon” (*.xbel)"
-
-#: importers.cpp:208
-msgid "*.xml|KDE Bookmark Files (*.xml)"
-msgstr "*.xml|Fajły zakładak „KDE” (*.xml)"
 
 #: actionsimpl.cpp:97
 msgid "&Delete"
@@ -588,10 +219,229 @@ msgstr "Apošni prahlad:"
 msgid "Times visited:"
 msgstr "Kolkaść naviedvańniaŭ:"
 
+#: exporters.cpp:48
+msgid "My Bookmarks"
+msgstr "Maje zakładki"
+
+#: favicons.cpp:56 testlink.cpp:97
+msgid "OK"
+msgstr "Ok"
+
+#: favicons.cpp:72
+msgid "Updating favicon..."
+msgstr "Aktualizacyja ikony sajta..."
+
 #: faviconupdater.cpp:87
 #, kde-format
 msgid "%1; no HTML component found (%2)"
 msgstr ""
+
+#: importers.cpp:56
+#, fuzzy, kde-format
+#| msgid "Import %1 Bookmarks"
+msgctxt "(qtundo-format)"
+msgid "Import %1 Bookmarks"
+msgstr "Zimpartuj zakładki „%1”"
+
+#: importers.cpp:60
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr "Zakładki „%1”"
+
+#: importers.cpp:92
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr "Zimpartavać jak novy padkataloh albo zamianić usie dziejnyja zakładki?"
+
+#: importers.cpp:93
+#, fuzzy, kde-format
+#| msgid "%1 Import"
+msgctxt "@title:window"
+msgid "%1 Import"
+msgstr "Impartavańnie „%1”"
+
+#: importers.cpp:94
+msgid "As New Folder"
+msgstr "Jak novy kataloh"
+
+#: importers.cpp:94
+msgid "Replace"
+msgstr "Zamiani"
+
+#: importers.cpp:199
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr "*.xbel|Fajły zakładak „Galeon” (*.xbel)"
+
+#: importers.cpp:208
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr "*.xml|Fajły zakładak „KDE” (*.xml)"
+
+#: importers.h:102
+msgid "Galeon"
+msgstr "Galeon"
+
+#: importers.h:112
+msgid "KDE"
+msgstr "KDE"
+
+#: importers.h:133
+msgid "Netscape"
+msgstr "Netscape"
+
+#: importers.h:143
+msgid "Mozilla"
+msgstr "Mozilla"
+
+#: importers.h:153
+msgid "IE"
+msgstr "IE"
+
+#: importers.h:165
+msgid "Opera"
+msgstr "Opera"
+
+#: kbookmarkmerger.cpp:39
+msgid "KBookmarkMerger"
+msgstr "KBookmarkMerger"
+
+#: kbookmarkmerger.cpp:40
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr ""
+"Źmiaščaje zakładki, zainstalavanyja inšymi asobami, u schoviščy karystańnika"
+
+#: kbookmarkmerger.cpp:42
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr "Copyright © 2005 Frerich Raabe"
+
+#: kbookmarkmerger.cpp:43
+msgid "Frerich Raabe"
+msgstr "Frerich Raabe"
+
+#: kbookmarkmerger.cpp:43
+msgid "Original author"
+msgstr "Pieršy aŭtar"
+
+#: kbookmarkmerger.cpp:49
+msgid "Directory to scan for extra bookmarks"
+msgstr "Kataloh, dzie treba šukać dadatkovyja zakładki"
+
+#: kbookmarkmodel/commands.cpp:68
+#, fuzzy
+#| msgid "Insert Separator"
+msgctxt "(qtundo-format)"
+msgid "Insert Separator"
+msgstr "Uklej dzielnik"
+
+#: kbookmarkmodel/commands.cpp:77
+#, fuzzy
+#| msgid "Create Bookmark"
+msgctxt "(qtundo-format)"
+msgid "Create Bookmark"
+msgstr "Stvary zakładku"
+
+#: kbookmarkmodel/commands.cpp:86
+#, fuzzy
+#| msgid "Create Folder"
+msgctxt "(qtundo-format)"
+msgid "Create Folder"
+msgstr "Stvary kataloh"
+
+#: kbookmarkmodel/commands.cpp:95
+#, fuzzy, kde-format
+#| msgid "Copy %1"
+msgctxt "(qtundo-format)"
+msgid "Copy %1"
+msgstr "Skapijuj „%1”"
+
+#: kbookmarkmodel/commands.cpp:183
+#, fuzzy
+#| msgid "%1 Change"
+msgctxt "(qtundo-format)"
+msgid "Icon Change"
+msgstr "Źmiena „%1”"
+
+#: kbookmarkmodel/commands.cpp:185
+#, fuzzy
+#| msgid "%1 Change"
+msgctxt "(qtundo-format)"
+msgid "Title Change"
+msgstr "Źmiena „%1”"
+
+#: kbookmarkmodel/commands.cpp:187
+#, fuzzy
+#| msgid "%1 Change"
+msgctxt "(qtundo-format)"
+msgid "URL Change"
+msgstr "Źmiena „%1”"
+
+#: kbookmarkmodel/commands.cpp:189
+#, fuzzy
+#| msgid "Comment"
+msgctxt "(qtundo-format)"
+msgid "Comment Change"
+msgstr "Kamentar"
+
+#: kbookmarkmodel/commands.cpp:364
+#, fuzzy, kde-format
+#| msgid "Move %1"
+msgctxt "(qtundo-format)"
+msgid "Move %1"
+msgstr "Pieraniasi „%1”"
+
+#: kbookmarkmodel/commands.cpp:481
+#, fuzzy
+#| msgid "Set as Bookmark Toolbar"
+msgctxt "(qtundo-format)"
+msgid "Set as Bookmark Toolbar"
+msgstr "Źmiaści ŭ paneli zakładak"
+
+#: kbookmarkmodel/commands.cpp:517
+#, fuzzy
+#| msgid "Copy Items"
+msgctxt "(qtundo-format)"
+msgid "Copy Items"
+msgstr "Skapijuj"
+
+#: kbookmarkmodel/commands.cpp:518
+#, fuzzy
+#| msgid "Move Items"
+msgctxt "(qtundo-format)"
+msgid "Move Items"
+msgstr "Pieraniasi"
+
+#: kbookmarkmodel/model.cpp:116
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "name of the container of all browser bookmarks"
+msgid "Bookmarks"
+msgstr "Zakładki"
+
+#: kbookmarkmodel/model.cpp:220
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "Nazva:"
+
+#: kbookmarkmodel/model.cpp:224
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr "Miesca:"
+
+#: kbookmarkmodel/model.cpp:228
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
+msgid "Comment"
+msgstr "Kamentar"
+
+#: kbookmarkmodel/model.cpp:232
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:column status of a bookmark"
+msgid "Status"
+msgstr "Stan"
 
 #: kebsearchline.cpp:273
 msgid "Search Columns"
@@ -610,6 +460,156 @@ msgstr "Słupok %1"
 #: kebsearchline.cpp:680
 msgid "S&earch:"
 msgstr "&Šukaj:"
+
+#: main.cpp:68
+#, kde-format
+msgid ""
+"Another instance of %1 is already running. Do you really want to open "
+"another instance or continue work in the same instance?\n"
+"Please note that, unfortunately, duplicate views are read-only."
+msgstr ""
+"Užo pracuje inšaja kopija prahramy „%1”. Sapraŭdy treba adčynić inšuju "
+"kopiju albo praciahvać pracavać u toj samaj kopii?\n"
+"Nažal, paŭtornyja kopii dastupnyja tolki dla čytańnia."
+
+#: main.cpp:71
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Uvaha"
+
+#: main.cpp:72
+msgid "Run Another"
+msgstr "Uklučy inšuju kopiju"
+
+#: main.cpp:73
+msgid "Continue in Same"
+msgstr "Praciahvaj u toj samaj kopii"
+
+#: main.cpp:96
+msgid "Bookmark Editor"
+msgstr "Redaktar zakładak"
+
+#: main.cpp:97
+msgid "Bookmark Organizer and Editor"
+msgstr "Kiraŭnik i redaktar zakładak"
+
+#: main.cpp:99
+msgid "Copyright 2000-2007, KDE developers"
+msgstr "Copyright © 2000-2007, Raspracoŭniki KDE"
+
+#: main.cpp:100
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:100
+msgid "Initial author"
+msgstr "Pieršy aŭtar"
+
+#: main.cpp:101
+msgid "Alexander Kellett"
+msgstr "Alexander Kellett"
+
+#: main.cpp:101
+msgid "Author"
+msgstr "Aŭtar"
+
+#: main.cpp:108
+msgid "Import bookmarks from a file in Mozilla format"
+msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Mozilla”"
+
+#: main.cpp:109
+msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
+msgstr ""
+"Zimpartuj zakładki z fajła ŭ farmacie „Netscape” (4.x ci raniejšaj versii)"
+
+#: main.cpp:110
+msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
+msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Internet Explorer”"
+
+#: main.cpp:111
+msgid "Import bookmarks from a file in Opera format"
+msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Opera”"
+
+#: main.cpp:112
+#, fuzzy
+#| msgid "Import bookmarks from a file in Opera format"
+msgid "Import bookmarks from a file in KDE2 format"
+msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Opera”"
+
+#: main.cpp:113
+#, fuzzy
+#| msgid "Import bookmarks from a file in Opera format"
+msgid "Import bookmarks from a file in Galeon format"
+msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Opera”"
+
+#: main.cpp:114
+msgid "Export bookmarks to a file in Mozilla format"
+msgstr "Zekspartuj zakładki ŭ fajł u farmacie „Mozilla”"
+
+#: main.cpp:115
+msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
+msgstr ""
+"Zekspartuj zakładki ŭ fajł u farmacie „Netscape” (4.x ci raniejšaj versii)"
+
+#: main.cpp:116
+msgid "Export bookmarks to a file in a printable HTML format"
+msgstr ""
+"Zekspartuj zakładki ŭ fajł u farmacie „HTML”, padrychtavanym dla vydruku"
+
+#: main.cpp:117
+msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
+msgstr "Zekspartuj zakładki ŭ fajł u farmacie „Internet Explorer”"
+
+#: main.cpp:118
+msgid "Export bookmarks to a file in Opera format"
+msgstr "Zekspartuj zakładki ŭ fajł u farmacie „Opera”"
+
+#: main.cpp:119
+msgid "Open at the given position in the bookmarks file"
+msgstr "Adčyni ŭ peŭnym miescy fajła z zakładkami"
+
+#: main.cpp:120
+msgid "Set the user-readable caption, for example \"Konsole\""
+msgstr "Aznač podpis, naprykład, „Konsole”"
+
+#: main.cpp:121
+msgid "Hide all browser related functions"
+msgstr "Schavaj usie aperacyi, źviazanyja z hartańniem sieciva"
+
+#: main.cpp:122
+#, fuzzy
+#| msgid ""
+#| "A unique name that represents this bookmark collection, usually the "
+#| "kinstance name.\n"
+#| "This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
+#| "KFileDialog bookmarks, etc.\n"
+#| "The final DBus object path is /KBookmarkManager/dbusObjectName"
+msgid ""
+"A unique name that represents this bookmark collection, usually the "
+"kinstance name.\n"
+"This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
+"KFileDialog bookmarks, etc.\n"
+"The final D-Bus object path is /KBookmarkManager/dbusObjectName"
+msgstr ""
+"Niepaŭtornaja nazva, jakaja identyfikuje hety zbor zakładak, zvyčajna heta "
+"nazva „kinstance”.\n"
+"Heta „konqueror” dla zakładak prahramy „Konqueror”, „kfile” dla zakładak "
+"dyjalohavych voknaŭ „KFileDialog” itp.\n"
+"Kančatkovaja ściežka abjekta „D-Bus”: /KBookmarkManager/dbusObjectName"
+
+#: main.cpp:125
+msgid "File to edit"
+msgstr "Fajł dla redahavańnia"
+
+#: main.cpp:166
+msgid "You may only specify a single --export option."
+msgstr "Možna padać tolki adnu opcyju „--export”."
+
+#: main.cpp:171
+msgid "You may only specify a single --import option."
+msgstr "Možna padać tolki adnu opcyju „--import”."
 
 #: testlink.cpp:76
 msgid "Checking..."

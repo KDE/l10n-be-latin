@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-25 09:25+0000\n"
+"POT-Creation-Date: 2011-09-09 09:45+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -80,27 +80,6 @@ msgstr "Oxygen"
 msgctxt "Comment"
 msgid "Theme done in the Oxygen style"
 msgstr "Matyŭ u styli „Oxygen”"
-
-#: drkonqi/data/debuggers/external/gdbrc:2
-#: drkonqi/data/debuggers/internal/gdbrc:2
-msgctxt "Name"
-msgid "gdb"
-msgstr ""
-
-#: drkonqi/data/debuggers/external/kdbgrc:2
-msgctxt "Name"
-msgid "kdbg"
-msgstr ""
-
-#: drkonqi/data/debuggers/internal/dbxrc:2
-msgctxt "Name"
-msgid "dbx"
-msgstr ""
-
-#: drkonqi/data/debuggers/internal/kdbgwinrc:2
-msgctxt "Name"
-msgid "kdbgwin"
-msgstr ""
 
 #: kcontrol/componentchooser/componentchooser.desktop:13
 msgctxt "Name"
@@ -540,17 +519,6 @@ msgctxt "Comment"
 msgid "Monitors directories for changes"
 msgstr ""
 
-#: kioslave/desktop/directory.trash:3 kioslave/trash/kcmtrash.desktop:1
-#: kioslave/trash/kcmtrash.desktop:168
-msgctxt "Name"
-msgid "Trash"
-msgstr "Śmietnica"
-
-#: kioslave/desktop/directory.trash:83
-msgctxt "Comment"
-msgid "Contains removed files"
-msgstr "Zachoŭvaje vydalenyja fajły"
-
 #: kioslave/desktop/Home.desktop:3
 msgctxt "Name"
 msgid "Home"
@@ -709,6 +677,11 @@ msgstr ""
 msgctxt "Name"
 msgid "Microsoft Windows Images"
 msgstr ""
+
+#: kioslave/trash/kcmtrash.desktop:1 kioslave/trash/kcmtrash.desktop:168
+msgctxt "Name"
+msgid "Trash"
+msgstr "Śmietnica"
 
 #: kioslave/trash/kcmtrash.desktop:81
 msgctxt "Comment"
@@ -6034,6 +6007,10 @@ msgstr "Aparatura"
 msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "Contains removed files"
+#~ msgstr "Zachoŭvaje vydalenyja fajły"
 
 #, fuzzy
 #~| msgctxt "Comment"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-18 03:28+0200\n"
+"POT-Creation-Date: 2011-09-19 03:32+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -549,7 +549,7 @@ msgstr[0] "Vyłučany %1 element"
 msgstr[1] "Vyłučanyja %1 elementy"
 msgstr[2] "Vyłučanyja %1 elementaŭ"
 
-#: kitemviews/kfileitemmodel.cpp:798
+#: kitemviews/kfileitemmodel.cpp:822
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1789,19 +1789,19 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Dadatkovyja źviestki"
 
-#: views/dolphinview.cpp:496
+#: views/dolphinview.cpp:498
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> vyłučany"
 
-#: views/dolphinview.cpp:497
+#: views/dolphinview.cpp:499
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr "<filename>%1</filename> vyłučany (%2)"
 
-#: views/dolphinview.cpp:501
+#: views/dolphinview.cpp:503
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -1810,7 +1810,7 @@ msgstr[0] "Vyłučany %1 kataloh"
 msgstr[1] "Vyłučanyja %1 katalohi"
 msgstr[2] "Vyłučanyja %1 katalohaŭ"
 
-#: views/dolphinview.cpp:502
+#: views/dolphinview.cpp:504
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -1819,29 +1819,29 @@ msgstr[0] "Vyłučany %1 fajł"
 msgstr[1] "Vyłučanyja %1 fajły"
 msgstr[2] "Vyłučanyja %1 fajłaŭ"
 
-#: views/dolphinview.cpp:504
+#: views/dolphinview.cpp:506
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:507
+#: views/dolphinview.cpp:509
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1039
+#: views/dolphinview.cpp:1043
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Vydaleńnie skončyłasia."
 
-#: views/dolphinview.cpp:1091
+#: views/dolphinview.cpp:1095
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Miesca pustoje."
 
-#: views/dolphinview.cpp:1093
+#: views/dolphinview.cpp:1097
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."

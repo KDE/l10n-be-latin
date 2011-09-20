@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-16 03:42+0200\n"
+"POT-Creation-Date: 2011-09-20 05:12+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -647,7 +647,7 @@ msgstr ""
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: MainWindow.cpp:404 SessionController.cpp:636
+#: MainWindow.cpp:404 SessionController.cpp:642
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
@@ -1635,13 +1635,13 @@ msgstr "&Historyja prakrutki"
 
 #. i18n: file: ../desktop/partui.rc:26
 #. i18n: ectx: Menu (change-profile)
-#. i18n: file: ../desktop/sessionui.rc:60
+#. i18n: file: ../desktop/sessionui.rc:62
 #. i18n: ectx: Menu (change-profile)
 #: rc.cpp:461 rc.cpp:470
 msgid "&Change Profile"
 msgstr "&Źmiani profil"
 
-#. i18n: file: ../desktop/sessionui.rc:15
+#. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
 #: rc.cpp:464
 #, fuzzy
@@ -1649,7 +1649,7 @@ msgstr "&Źmiani profil"
 msgid "Copy Input To"
 msgstr "Skapijuj uvachodnyja źviestki ŭ..."
 
-#. i18n: file: ../desktop/sessionui.rc:41
+#. i18n: file: ../desktop/sessionui.rc:43
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:467
 msgid "Debug"
@@ -1711,105 +1711,111 @@ msgstr "Terminał „DEC VT420”"
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:426
+#: SessionController.cpp:428
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
-#: SessionController.cpp:431
+#: SessionController.cpp:433
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:447
+#: SessionController.cpp:449
+#, fuzzy
+#| msgid "Select All"
+msgid "&Select All"
+msgstr "Vyłučy ŭsio"
+
+#: SessionController.cpp:453
 msgid "Paste Selection"
 msgstr "Uklej vyłučeńnie"
 
-#: SessionController.cpp:452
+#: SessionController.cpp:458
 msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: SessionController.cpp:457
+#: SessionController.cpp:463
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:463
+#: SessionController.cpp:469
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: SessionController.cpp:468
+#: SessionController.cpp:474
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:474
+#: SessionController.cpp:480
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:479
+#: SessionController.cpp:485
 msgid "Monitor for &Activity"
 msgstr "Sačy za &aktyŭnaściu"
 
-#: SessionController.cpp:484
+#: SessionController.cpp:490
 msgid "Monitor for &Silence"
 msgstr "Sačy za &cišynioju"
 
-#: SessionController.cpp:490
+#: SessionController.cpp:496
 #, fuzzy
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "Kadavańnie"
 
-#: SessionController.cpp:498
+#: SessionController.cpp:504
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:503
+#: SessionController.cpp:509
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Shrink View"
 msgid "Shrink Font"
 msgstr "Zharni prahlad"
 
-#: SessionController.cpp:521
+#: SessionController.cpp:527
 #, fuzzy
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "Zapišy vychodnyja źviestki..."
 
-#: SessionController.cpp:524
+#: SessionController.cpp:530
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Scrollback..."
 msgstr "Kiruj profilami..."
 
-#: SessionController.cpp:528
+#: SessionController.cpp:534
 msgid "Clear Scrollback"
 msgstr "Vyčyści historyju prakrutki"
 
-#: SessionController.cpp:532
+#: SessionController.cpp:538
 #, fuzzy
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "Vyčyści historyju prakrutki j viarni nałady"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:544
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "Kiruj profilami..."
 
-#: SessionController.cpp:541
+#: SessionController.cpp:547
 msgid "Change Profile"
 msgstr "Źmiani profil"
 
-#: SessionController.cpp:630
+#: SessionController.cpp:636
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "U hetaj sesii ciapier pracuje prahrama. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:633
+#: SessionController.cpp:639
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1817,44 +1823,44 @@ msgid ""
 msgstr ""
 "U hetaj sesii ciapier pracuje prahrama „%1”. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:1225
+#: SessionController.cpp:1236
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1234
+#: SessionController.cpp:1245
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1246
+#: SessionController.cpp:1257
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1255
+#: SessionController.cpp:1266
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1261
+#: SessionController.cpp:1272
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1333
+#: SessionController.cpp:1344
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapišy vychodnyja źviestki z „%1”"
 
-#: SessionController.cpp:1344
+#: SessionController.cpp:1355
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 "„%1” jość niapravilnym adrasam. Nie ŭdałosia zapisać vychodnyja źviestki."
 
-#: SessionController.cpp:1433
+#: SessionController.cpp:1444
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"

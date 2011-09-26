@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phonon_kde\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2011-09-26 04:19+0200\n"
 "PO-Revision-Date: 2008-12-27 15:03+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,21 +19,17 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: kdeplatformplugin.cpp:135
-msgid "create method returned 0"
-msgstr "metad „create” viarnuŭ „0”"
-
-#: kdeplatformplugin.cpp:167
+#: kdeplatformplugin.cpp:148
 #, kde-format
 msgid "<qt>Unable to use the <b>%1</b> Multimedia Backend:<br/>%2</qt>"
 msgstr ""
 "<qt>Nie ŭdałosia vykarystać multymedyjnuju systemu <b>%1</b>:<br/>%2</qt>"
 
-#: kdeplatformplugin.cpp:188
+#: kdeplatformplugin.cpp:169
 msgid "Unable to find a Multimedia Backend"
 msgstr "Nie ŭdałosia znajści multymedyjnuju systemu"
 
-#: kdeplatformplugin.cpp:223
+#: kdeplatformplugin.cpp:204
 msgid "Unable to find the requested Multimedia Backend"
 msgstr "Nie ŭdałosia znajści patrebnuju multymedyjnuju systemu"
 
@@ -46,3 +42,6 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
+
+#~ msgid "create method returned 0"
+#~ msgstr "metad „create” viarnuŭ „0”"

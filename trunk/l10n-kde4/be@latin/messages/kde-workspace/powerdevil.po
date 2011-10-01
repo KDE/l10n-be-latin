@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:40+0200\n"
+"POT-Creation-Date: 2011-10-01 04:28+0200\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -25,7 +25,6 @@ msgid "Level"
 msgstr ""
 
 #: actions/bundled/dimdisplayconfig.cpp:63
-#: actions/bundled/disabledesktopeffectsconfig.cpp:69
 #: actions/bundled/runscriptconfig.cpp:80
 #: actions/bundled/suspendsessionconfig.cpp:75
 #: actions/dpms/powerdevildpmsactionconfig.cpp:59
@@ -33,26 +32,11 @@ msgid " min"
 msgstr " chv"
 
 #: actions/bundled/dimdisplayconfig.cpp:64
-#: actions/bundled/disabledesktopeffectsconfig.cpp:72
-#: actions/bundled/disabledesktopeffectsconfig.cpp:93
 #: actions/bundled/runscriptconfig.cpp:83
 #: actions/bundled/runscriptconfig.cpp:104
 #: actions/bundled/suspendsessionconfig.cpp:95
 msgid "After"
 msgstr ""
-
-#: actions/bundled/disabledesktopeffectsconfig.cpp:71
-#: actions/bundled/runscriptconfig.cpp:81
-#, fuzzy
-#| msgid "New Profile"
-msgid "On Profile Load"
-msgstr "Novy profil"
-
-#: actions/bundled/disabledesktopeffectsconfig.cpp:83
-#, fuzzy
-#| msgid "Disable KWin compositing, if active"
-msgid "Disable effects"
-msgstr "Vyklučy kampazycyju akońnika „KWin”, kali jana ŭklučanaja"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:77
 msgid "Do nothing"
@@ -105,6 +89,12 @@ msgstr "Kali nacisnutaja knopka ŭklučeńnia"
 #: actions/bundled/runscriptconfig.cpp:70
 msgid "Script"
 msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:81
+#, fuzzy
+#| msgid "New Profile"
+msgid "On Profile Load"
+msgstr "Novy profil"
 
 #: actions/bundled/runscriptconfig.cpp:82
 msgid "On Profile Unload"
@@ -239,7 +229,7 @@ msgctxt "Name of a power profile"
 msgid "Aggressive powersave"
 msgstr ""
 
-#: powerdevilcore.cpp:325
+#: powerdevilcore.cpp:332
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -251,14 +241,14 @@ msgstr ""
 "Byŭ vybrany profil „%1”, ale jon nie isnuje!\n"
 "Spraŭdź słušnaść naładaŭ słužby „PowerDevil”."
 
-#: powerdevilcore.cpp:338
+#: powerdevilcore.cpp:345
 #, kde-format
 msgid ""
 "The profile \"%1\" tried to activate %2, a non existent action. This is "
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
 
-#: powerdevilcore.cpp:380
+#: powerdevilcore.cpp:387
 #, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -270,7 +260,7 @@ msgstr ""
 "Nie ŭdałosia spałučycca z interfejsam batarei!\n"
 "Spraudź nałady svajoj systemy."
 
-#: powerdevilcore.cpp:428
+#: powerdevilcore.cpp:435
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -278,19 +268,19 @@ msgid ""
 "been canceled."
 msgstr "Blok siłkavańnia padłučany."
 
-#: powerdevilcore.cpp:430
+#: powerdevilcore.cpp:437
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "Blok siłkavańnia padłučany."
 
-#: powerdevilcore.cpp:433
+#: powerdevilcore.cpp:440
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "Blok siłkavańnia adłučany."
 
-#: powerdevilcore.cpp:439
+#: powerdevilcore.cpp:446
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -298,7 +288,7 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:466
+#: powerdevilcore.cpp:473
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -309,7 +299,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:472
+#: powerdevilcore.cpp:479
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -321,7 +311,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:478
+#: powerdevilcore.cpp:485
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -332,7 +322,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie ŭ pamiaci praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:484
+#: powerdevilcore.cpp:491
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -342,13 +332,13 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Jak maha chutčej zapišy vynik svajoj "
 "pracy!"
 
-#: powerdevilcore.cpp:490
+#: powerdevilcore.cpp:497
 #, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
 msgstr "Zarad tvajoj batarei vymahaje ŭvahi."
 
-#: powerdevilcore.cpp:495
+#: powerdevilcore.cpp:502
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
@@ -363,6 +353,11 @@ msgstr "Ihar Hračyška"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
+
+#, fuzzy
+#~| msgid "Disable KWin compositing, if active"
+#~ msgid "Disable effects"
+#~ msgstr "Vyklučy kampazycyju akońnika „KWin”, kali jana ŭklučanaja"
 
 #, fuzzy
 #~| msgid "When Sleep Button pressed"

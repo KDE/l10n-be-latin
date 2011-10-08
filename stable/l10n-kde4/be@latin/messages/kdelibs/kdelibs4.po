@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-26 11:12+0200\n"
+"POT-Creation-Date: 2011-10-08 11:49+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6618,7 +6618,7 @@ msgid "Warning"
 msgstr "Papiaredžańnie"
 
 #: kdeui/dialogs/kmessagebox.cpp:841 kdeui/dialogs/kmessagebox.cpp:871
-#: khtml/rendering/render_form.cpp:814 kjs/object.cpp:553
+#: khtml/rendering/render_form.cpp:813 kjs/object.cpp:553
 #: knewstuff/knewstuff3/uploaddialog.cpp:528
 msgid "Error"
 msgstr "Pamyłka"
@@ -9584,7 +9584,7 @@ msgstr "&Pra %1"
 msgid "About &KDE"
 msgstr "Pra &KDE"
 
-#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:937
+#: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
 msgstr "Vyčyści &historyju"
 
@@ -11209,29 +11209,29 @@ msgstr "Začynić akno?"
 msgid "Confirmation Required"
 msgstr "Treba paćvierdzić"
 
-#: khtml/ecma/kjs_window.cpp:2875
+#: khtml/ecma/kjs_window.cpp:2874
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "Ci chočaš dadać zakładku dla miesca „%1” u svoj zbor?"
 
-#: khtml/ecma/kjs_window.cpp:2878
+#: khtml/ecma/kjs_window.cpp:2877
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
 "added to your collection?"
 msgstr "Ci chočaš dadać zakładku z nazvaj „%2” dla miesca „%1” u svoj zbor?"
 
-#: khtml/ecma/kjs_window.cpp:2886
+#: khtml/ecma/kjs_window.cpp:2885
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "JavaScript sprabuje dadać zakładku"
 
-#: khtml/ecma/kjs_window.cpp:2890
+#: khtml/ecma/kjs_window.cpp:2889
 msgid "Insert"
 msgstr "Dadaj"
 
-#: khtml/ecma/kjs_window.cpp:2890
+#: khtml/ecma/kjs_window.cpp:2889
 msgid "Disallow"
 msgstr "Zabarani"
 
@@ -11450,6 +11450,30 @@ msgstr "Aplet „%1” uklučany."
 msgid "Applet \"%1\" stopped"
 msgstr "Aplet „%1” spynieny."
 
+#: khtml/java/kjavaappletviewer.cpp:129
+msgid "Applet Parameters"
+msgstr "Parametry apleta"
+
+#: khtml/java/kjavaappletviewer.cpp:139
+msgid "Parameter"
+msgstr "Parametar"
+
+#: khtml/java/kjavaappletviewer.cpp:143
+msgid "Class"
+msgstr "Klasa"
+
+#: khtml/java/kjavaappletviewer.cpp:149
+msgid "Base URL"
+msgstr "Bazavy adras"
+
+#: khtml/java/kjavaappletviewer.cpp:155
+msgid "Archives"
+msgstr "Archivy"
+
+#: khtml/java/kjavaappletviewer.cpp:475
+msgid "KDE Java Applet Plugin"
+msgstr "Plugin KDE dla apletaŭ Java"
+
 #: khtml/java/kjavaappletserver.cpp:146
 msgid "Loading Applet"
 msgstr "Źmiaščeńnie apleta ŭ pamiać"
@@ -11484,30 +11508,6 @@ msgstr ""
 msgid "&Grant All"
 msgstr ""
 
-#: khtml/java/kjavaappletviewer.cpp:129
-msgid "Applet Parameters"
-msgstr "Parametry apleta"
-
-#: khtml/java/kjavaappletviewer.cpp:139
-msgid "Parameter"
-msgstr "Parametar"
-
-#: khtml/java/kjavaappletviewer.cpp:143
-msgid "Class"
-msgstr "Klasa"
-
-#: khtml/java/kjavaappletviewer.cpp:149
-msgid "Base URL"
-msgstr "Bazavy adras"
-
-#: khtml/java/kjavaappletviewer.cpp:155
-msgid "Archives"
-msgstr "Archivy"
-
-#: khtml/java/kjavaappletviewer.cpp:475
-msgid "KDE Java Applet Plugin"
-msgstr "Plugin KDE dla apletaŭ Java"
-
 #: khtml/kmultipart/kmultipart.cpp:41
 msgid "KMultiPart"
 msgstr "KMultiPart"
@@ -11532,28 +11532,28 @@ msgstr ""
 msgid "Play"
 msgstr ""
 
-#: khtml/rendering/render_form.cpp:793
+#: khtml/rendering/render_form.cpp:792
 msgid "New Web Shortcut"
 msgstr "Novy sieciŭny skarot"
 
-#: khtml/rendering/render_form.cpp:814
+#: khtml/rendering/render_form.cpp:813
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "„%1” užo pryviazany da „%2”"
 
-#: khtml/rendering/render_form.cpp:859
+#: khtml/rendering/render_form.cpp:858
 msgid "Search &provider name:"
 msgstr "&Nazva systemy pošuku:"
 
-#: khtml/rendering/render_form.cpp:861
+#: khtml/rendering/render_form.cpp:860
 msgid "New search provider"
 msgstr "Novaja systema pošuku"
 
-#: khtml/rendering/render_form.cpp:866
+#: khtml/rendering/render_form.cpp:865
 msgid "UR&I shortcuts:"
 msgstr "Skaroty &adrasoŭ:"
 
-#: khtml/rendering/render_form.cpp:952
+#: khtml/rendering/render_form.cpp:951
 msgid "Create Web Shortcut"
 msgstr "Stvary sieciŭny skarot"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-24 08:57+0200\n"
+"POT-Creation-Date: 2011-10-26 11:35+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1636,7 +1636,7 @@ msgid "Folder Already Exists"
 msgstr "Kataloh užo isnuje"
 
 #: kio/copyjob.cpp:1349 kio/copyjob.cpp:1921 kio/global.cpp:669
-#: kio/job.cpp:2209 kio/paste.cpp:116
+#: kio/job.cpp:2218 kio/paste.cpp:116
 msgid "File Already Exists"
 msgstr "Fajł užo isnuje"
 
@@ -5727,12 +5727,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:576 ../kioslave/http/http.cpp:3405
+#: ../kioslave/ftp/ftp.cpp:576 ../kioslave/http/http.cpp:3475
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:3407
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:3477
 msgid "Site:"
 msgstr "Sajt:"
 
@@ -5750,8 +5750,8 @@ msgstr "Uvachod: OK"
 msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
 
-#: ../kioslave/ftp/ftp.cpp:2549 ../kioslave/http/http.cpp:3417
-#: ../kioslave/http/http.cpp:5321
+#: ../kioslave/ftp/ftp.cpp:2549 ../kioslave/http/http.cpp:3487
+#: ../kioslave/http/http.cpp:5398
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5759,19 +5759,19 @@ msgstr ""
 "Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
 "parol dla proxy-servera."
 
-#: ../kioslave/ftp/ftp.cpp:2553 ../kioslave/http/http.cpp:3420
-#: ../kioslave/http/http.cpp:5325
+#: ../kioslave/ftp/ftp.cpp:2553 ../kioslave/http/http.cpp:3490
+#: ../kioslave/http/http.cpp:5402
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/ftp/ftp.cpp:2554 ../kioslave/http/http.cpp:3494
-#: ../kioslave/http/http.cpp:5326
+#: ../kioslave/ftp/ftp.cpp:2554 ../kioslave/http/http.cpp:3564
+#: ../kioslave/http/http.cpp:5403
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
-#: ../kioslave/ftp/ftp.cpp:2555 ../kioslave/http/http.cpp:3484
-#: ../kioslave/http/http.cpp:5327
+#: ../kioslave/ftp/ftp.cpp:2555 ../kioslave/http/http.cpp:3554
+#: ../kioslave/http/http.cpp:5404
 msgid "Proxy Authentication Failed."
 msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
 
@@ -5948,70 +5948,66 @@ msgstr "Pieračytaj kanfihuracyjny fajł"
 msgid "No host specified."
 msgstr "Host nie aznačany."
 
-#: ../kioslave/http/http.cpp:1471
-msgid "The resource cannot be deleted."
-msgstr "Aznačany resurs nie ŭdałosia vydalić."
-
-#: ../kioslave/http/http.cpp:1592
+#: ../kioslave/http/http.cpp:1582
 msgid "Otherwise, the request would have succeeded."
 msgstr "Inačaj zapyt by vykanaŭsia."
 
-#: ../kioslave/http/http.cpp:1596
+#: ../kioslave/http/http.cpp:1586
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "atrymać vartaści dla ŭłaścivaściaŭ"
 
-#: ../kioslave/http/http.cpp:1599
+#: ../kioslave/http/http.cpp:1589
 msgctxt "request type"
 msgid "set property values"
 msgstr "aznačyć vartaści dla ŭłaścivaściaŭ"
 
-#: ../kioslave/http/http.cpp:1602
+#: ../kioslave/http/http.cpp:1592
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "stvaryć zapatrabavany kataloh"
 
-#: ../kioslave/http/http.cpp:1605
+#: ../kioslave/http/http.cpp:1595
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "skapijavać aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1608
+#: ../kioslave/http/http.cpp:1598
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "pieranieści aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1611
+#: ../kioslave/http/http.cpp:1601
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "pašukać u aznačanym katalohu"
 
-#: ../kioslave/http/http.cpp:1614
+#: ../kioslave/http/http.cpp:1604
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "zablakavać aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1617
+#: ../kioslave/http/http.cpp:1607
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "adblakavać aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1620
+#: ../kioslave/http/http.cpp:1610
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "vydalić aznačany fajł ci kataloh"
 
-#: ../kioslave/http/http.cpp:1623
+#: ../kioslave/http/http.cpp:1613
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "zapytać u servera pra jahonyja zdolnaści"
 
-#: ../kioslave/http/http.cpp:1626
+#: ../kioslave/http/http.cpp:1616
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "atrymać źmieściva aznačanaha fajła ci kataloha"
 
-#: ../kioslave/http/http.cpp:1629
+#: ../kioslave/http/http.cpp:1619
 #, fuzzy
 #| msgctxt "request type"
 #| msgid "search in the specified folder"
@@ -6019,17 +6015,17 @@ msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "pašukać u aznačanym katalohu"
 
-#: ../kioslave/http/http.cpp:1640
+#: ../kioslave/http/http.cpp:1630
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
-#: ../kioslave/http/http.cpp:1648
+#: ../kioslave/http/http.cpp:1638
 msgid "The server does not support the WebDAV protocol."
 msgstr "Server nie absłuhoŭvaje pratakoł „WebDAV”."
 
-#: ../kioslave/http/http.cpp:1690
+#: ../kioslave/http/http.cpp:1680
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -6038,17 +6034,17 @@ msgid ""
 msgstr ""
 "Padčas sproby %1 dla „%2” uźnikła pamyłka. Nižej padadzieny śpis pryčynaŭ."
 
-#: ../kioslave/http/http.cpp:1704 ../kioslave/http/http.cpp:1793
+#: ../kioslave/http/http.cpp:1694 ../kioslave/http/http.cpp:1825
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Sprobie %1 zabaronieny dostup."
 
-#: ../kioslave/http/http.cpp:1710
+#: ../kioslave/http/http.cpp:1700
 msgid "The specified folder already exists."
 msgstr "Aznačany kataloh užo isnuje."
 
-#: ../kioslave/http/http.cpp:1716 ../kioslave/http/http.cpp:1798
+#: ../kioslave/http/http.cpp:1706 ../kioslave/http/http.cpp:1831
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
@@ -6056,7 +6052,7 @@ msgstr ""
 "Niemahčyma stvaryć resurs u metavym miescy, pakul nia buduć stvorany "
 "pasiarednija katalohi, jakija viaduć da hetaha resursu."
 
-#: ../kioslave/http/http.cpp:1724
+#: ../kioslave/http/http.cpp:1714
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -6064,26 +6060,26 @@ msgid ""
 "requesting that files are not overwritten. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1732
+#: ../kioslave/http/http.cpp:1722
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1738
+#: ../kioslave/http/http.cpp:1728
 msgid "The server does not support the request type of the body."
 msgstr "Server nie absłuhoŭvaje typu zapytaŭ, padadzienaha ŭ ciele."
 
-#: ../kioslave/http/http.cpp:1743 ../kioslave/http/http.cpp:1805
+#: ../kioslave/http/http.cpp:1733 ../kioslave/http/http.cpp:1839
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Nie ŭdałosia %1, bo resurs zablakavany."
 
-#: ../kioslave/http/http.cpp:1747
+#: ../kioslave/http/http.cpp:1737
 msgid "This action was prevented by another error."
 msgstr "Hetaj aperacyi pieraškodziła inšaja pamyłka."
 
-#: ../kioslave/http/http.cpp:1753 ../kioslave/http/http.cpp:1810
+#: ../kioslave/http/http.cpp:1743 ../kioslave/http/http.cpp:1845
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -6092,7 +6088,7 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia %1, bo metavy server nie pryniaŭ hetaha fajła ci kataloha."
 
-#: ../kioslave/http/http.cpp:1760 ../kioslave/http/http.cpp:1816
+#: ../kioslave/http/http.cpp:1750 ../kioslave/http/http.cpp:1852
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
@@ -6100,24 +6096,28 @@ msgstr ""
 "Metavamu resursu nie chapiła volnaha miesca, kab zapisać novuju admienu, "
 "jakaja ŭźnikła paśla vykanańnia hetaj funkcyi."
 
-#: ../kioslave/http/http.cpp:1783
+#: ../kioslave/http/http.cpp:1803
+msgid "The resource cannot be deleted."
+msgstr "Aznačany resurs nie ŭdałosia vydalić."
+
+#: ../kioslave/http/http.cpp:1816
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "pakłaści „%1” na server"
 
-#: ../kioslave/http/http.cpp:1823
+#: ../kioslave/http/http.cpp:1866
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
-#: ../kioslave/http/http.cpp:2619
+#: ../kioslave/http/http.cpp:2688
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "Spałučany z „%1”. Čakańnie adkazu..."
 
-#: ../kioslave/http/http.cpp:2950
+#: ../kioslave/http/http.cpp:3019
 #, kde-format
 msgctxt "@warning: Security check on url being accessed"
 msgid ""
@@ -6126,42 +6126,42 @@ msgid ""
 "<p>Is \"%1\" the site you want to visit?"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:2957
+#: ../kioslave/http/http.cpp:3026
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3034
+#: ../kioslave/http/http.cpp:3103
 msgid "Server processing request, please wait..."
 msgstr "Server pierapracoŭvaje zapyt. Pačakaj..."
 
-#: ../kioslave/http/http.cpp:3481
+#: ../kioslave/http/http.cpp:3551
 msgid "Authentication Failed."
 msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
 
-#: ../kioslave/http/http.cpp:3527
+#: ../kioslave/http/http.cpp:3597
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Akno aŭtaryzavańnia"
 
-#: ../kioslave/http/http.cpp:3544
+#: ../kioslave/http/http.cpp:3614
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
 msgstr "Akno aŭtaryzavańnia"
 
-#: ../kioslave/http/http.cpp:3933 ../kioslave/http/http.cpp:3987
+#: ../kioslave/http/http.cpp:4003 ../kioslave/http/http.cpp:4057
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Vysyłańnie źviestak u „%1”"
 
-#: ../kioslave/http/http.cpp:4448
+#: ../kioslave/http/http.cpp:4519
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Atrymańnie „%1” ad „%2”..."
 
-#: ../kioslave/http/http.cpp:4454
+#: ../kioslave/http/http.cpp:4525
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr "Atrymańnie źviestak ad „%1”..."

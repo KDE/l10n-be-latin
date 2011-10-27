@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-23 10:53+0200\n"
+"POT-Creation-Date: 2011-10-27 11:08+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -13441,14 +13441,14 @@ msgctxt "@option:check A filter on file type - audio files"
 msgid "Audio"
 msgstr ""
 
-#: nepomuk/utils/facet.cpp:139 nepomuk/utils/typefacet.cpp:71
+#: nepomuk/utils/facet.cpp:139 nepomuk/utils/typefacet.cpp:70
 #, fuzzy
 #| msgid "&View"
 msgctxt "@option:check A filter on file type - media video"
 msgid "Video"
 msgstr "&Vyhlad"
 
-#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:75
+#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:74
 #, fuzzy
 #| msgid "Pages"
 msgctxt "@option:check A filter on file type"
@@ -13541,49 +13541,6 @@ msgctxt "@title:column The Nepomuk resource's RDF type"
 msgid "Resource Type"
 msgstr "Vidy słužbaŭ"
 
-#: nepomuk/utils/typefacet.cpp:82
-#, fuzzy
-#| msgid "Contact author"
-msgctxt "@option:check A filter on resource type"
-msgid "Contacts"
-msgstr "Źviarnisia da aŭtara"
-
-#: nepomuk/utils/typefacet.cpp:84
-#, fuzzy
-#| msgid "Email"
-msgctxt "@option:check A filter on resource type"
-msgid "Emails"
-msgstr "Emaił"
-
-#: nepomuk/utils/typefacet.cpp:86
-#, fuzzy
-#| msgid "Task"
-msgctxt "@option:check A filter on resource type"
-msgid "Tasks"
-msgstr "Zadańnie"
-
-#: nepomuk/utils/typefacet.cpp:88
-#, fuzzy
-#| msgid "Task"
-msgctxt "@option:check A filter on resource type"
-msgid "Tags"
-msgstr "Zadańnie"
-
-#: nepomuk/utils/typefacet.cpp:222 nepomuk/utils/typefacet.cpp:231
-#, fuzzy
-#| msgid "File"
-msgctxt "@option:check Do filter on type - show only files"
-msgid "Files"
-msgstr "Fajł"
-
-#: nepomuk/utils/typefacet.cpp:224 nepomuk/utils/typefacet.cpp:233
-#, fuzzy
-#| msgctxt "@item Text character set"
-#| msgid "Other"
-msgctxt "@option:check Do filter on type - show everything but files"
-msgid "Other"
-msgstr "Inšy"
-
 #: nepomuk/utils/datefacet.cpp:119
 msgctxt ""
 "referring to a filter on the modification and usage date of files/resources"
@@ -13663,6 +13620,49 @@ msgstr "Ułasny..."
 #| msgid "Enter search phrase here"
 msgid "Enter Search Terms..."
 msgstr "Tut upišy šukany vyraz"
+
+#: nepomuk/utils/typefacet.cpp:81
+#, fuzzy
+#| msgid "Contact author"
+msgctxt "@option:check A filter on resource type"
+msgid "Contacts"
+msgstr "Źviarnisia da aŭtara"
+
+#: nepomuk/utils/typefacet.cpp:83
+#, fuzzy
+#| msgid "Email"
+msgctxt "@option:check A filter on resource type"
+msgid "Emails"
+msgstr "Emaił"
+
+#: nepomuk/utils/typefacet.cpp:85
+#, fuzzy
+#| msgid "Task"
+msgctxt "@option:check A filter on resource type"
+msgid "Tasks"
+msgstr "Zadańnie"
+
+#: nepomuk/utils/typefacet.cpp:87
+#, fuzzy
+#| msgid "Task"
+msgctxt "@option:check A filter on resource type"
+msgid "Tags"
+msgstr "Zadańnie"
+
+#: nepomuk/utils/typefacet.cpp:221 nepomuk/utils/typefacet.cpp:230
+#, fuzzy
+#| msgid "File"
+msgctxt "@option:check Do filter on type - show only files"
+msgid "Files"
+msgstr "Fajł"
+
+#: nepomuk/utils/typefacet.cpp:223 nepomuk/utils/typefacet.cpp:232
+#, fuzzy
+#| msgctxt "@item Text character set"
+#| msgid "Other"
+msgctxt "@option:check Do filter on type - show everything but files"
+msgid "Other"
+msgstr "Inšy"
 
 #: kdeui/colors/kcolorcombo.cpp:352
 msgctxt "Custom color"

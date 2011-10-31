@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-17 03:50+0200\n"
+"POT-Creation-Date: 2011-10-31 04:19+0100\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -55,11 +55,6 @@ msgstr ""
 #: core/applicationmodel.cpp:429 ui/launcher.cpp:975
 msgid "All Applications"
 msgstr "Usie aplikacyi"
-
-#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
-msgid "Favorites"
-msgstr "Ułasnaje"
 
 #: core/models.cpp:121
 msgid "Home Folder"
@@ -223,6 +218,11 @@ msgstr "Sesija"
 #: core/leavemodel.cpp:149
 msgid "System"
 msgstr "Systema"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "Ułasnaje"
 
 #: main.cpp:32
 msgid "Kickoff"

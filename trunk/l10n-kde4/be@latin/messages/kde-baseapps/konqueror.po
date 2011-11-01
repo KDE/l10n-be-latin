@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-08 03:53+0200\n"
+"POT-Creation-Date: 2011-11-01 04:46+0100\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1243,47 +1243,6 @@ msgstr "Nie ŭznaŭlaj"
 msgid "Ask Me Later"
 msgstr "Spytaj paźniej"
 
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju "
-"kartku, klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. "
-"Tekst na kartcy aznačaje jejnaje źmieściva. Kab ubačyć poŭnuju nazvu, "
-"źmiaści kursor myšy na patrebnaj kartcy."
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "Adčyni novuju kartku"
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "Začyni hetuju kartku"
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr "&Skapijuj kartku"
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr "&Pieračytaj kartku"
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr "Inšyja kartki"
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr "&Adčapi kartku"
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "&Začyni kartku"
-
 #: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
 msgid "Und&o: Closed Tab"
 msgstr "&Anuluj: začynieńnie kartki"
@@ -1337,6 +1296,47 @@ msgid ""
 msgstr ""
 "Hetaja kartka ŭtrymvaje niavysłanyja źviestki.\n"
 "Adčytaŭšy profil, ty ich straciš."
+
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju "
+"kartku, klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. "
+"Tekst na kartcy aznačaje jejnaje źmieściva. Kab ubačyć poŭnuju nazvu, "
+"źmiaści kursor myšy na patrebnaj kartcy."
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr "Adčyni novuju kartku"
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr "Začyni hetuju kartku"
+
+#: src/konqtabs.cpp:465
+msgid "&Duplicate Tab"
+msgstr "&Skapijuj kartku"
+
+#: src/konqtabs.cpp:470
+msgid "&Reload Tab"
+msgstr "&Pieračytaj kartku"
+
+#: src/konqtabs.cpp:477
+msgid "Other Tabs"
+msgstr "Inšyja kartki"
+
+#: src/konqtabs.cpp:482
+msgid "D&etach Tab"
+msgstr "&Adčapi kartku"
+
+#: src/konqtabs.cpp:488
+msgid "&Close Tab"
+msgstr "&Začyni kartku"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy

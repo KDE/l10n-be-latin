@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-02 04:02+0100\n"
+"POT-Creation-Date: 2011-11-03 03:59+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -187,21 +187,21 @@ msgctxt "@item:intable Palette name"
 msgid "Accessible Color Scheme"
 msgstr "Mahčymyja schiemy koleraŭ"
 
-#: ColorSchemeEditor.cpp:86
+#: ColorSchemeEditor.cpp:72
 #, fuzzy
 #| msgid "Name"
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "Nazva"
 
-#: ColorSchemeEditor.cpp:86
+#: ColorSchemeEditor.cpp:72
 #, fuzzy
 #| msgid "Color"
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "Koler"
 
-#: ColorSchemeEditor.cpp:107
+#: ColorSchemeEditor.cpp:93
 #, fuzzy
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -214,7 +214,7 @@ msgstr ""
 "Nałady prazrystaha fonu nie paŭpłyvajuć na stoł, tamu što jon nia ŭmieje "
 "rabić vokny prazrystymi."
 
-#: ColorSchemeEditor.cpp:144
+#: ColorSchemeEditor.cpp:130
 msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
@@ -694,39 +694,39 @@ msgstr "Lars Knoll"
 msgid "Thanks to many others.\n"
 msgstr "Našy padziaki dla inšych, chto nam dapamahaŭ.\n"
 
-#: MainWindow.cpp:255
+#: MainWindow.cpp:254
 #, fuzzy
 #| msgid "New &Tab"
 msgid "&New Tab"
 msgstr "Novaja &kartka"
 
-#: MainWindow.cpp:264
+#: MainWindow.cpp:263
 msgid "New &Window"
 msgstr "Novaje &akno"
 
-#: MainWindow.cpp:275
+#: MainWindow.cpp:274
 msgid "&Bookmarks"
 msgstr "&Zakładki"
 
-#: MainWindow.cpp:294 Part.cpp:100
+#: MainWindow.cpp:292 Part.cpp:100
 #, fuzzy
 #| msgid "Manage Profiles"
 msgid "Manage Profiles..."
 msgstr "Kiruj profilami..."
 
-#: MainWindow.cpp:300
+#: MainWindow.cpp:298
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:417
+#: MainWindow.cpp:415
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: MainWindow.cpp:419 SessionController.cpp:632 SessionController.cpp:658
+#: MainWindow.cpp:417 SessionController.cpp:632 SessionController.cpp:658
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: MainWindow.cpp:421
+#: MainWindow.cpp:419
 msgid "Close Current Tab"
 msgstr "Začyni hetuju kartku"
 

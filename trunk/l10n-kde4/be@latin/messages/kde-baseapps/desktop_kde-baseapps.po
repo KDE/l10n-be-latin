@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-10 02:13+0000\n"
+"POT-Creation-Date: 2011-11-07 03:30+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -37,14 +37,17 @@ msgid "Icons"
 msgstr "Ikony"
 
 #: dolphin/src/dolphinpart.desktop:197
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Compiz"
+msgctxt "Name"
+msgid "Compact"
+msgstr "Compiz"
+
+#: dolphin/src/dolphinpart.desktop:203
 msgctxt "Name"
 msgid "Details"
 msgstr "Detali"
-
-#: dolphin/src/dolphinpart.desktop:287
-msgctxt "Name"
-msgid "Columns"
-msgstr "Słupki"
 
 #: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:1
 #, fuzzy
@@ -1372,6 +1375,10 @@ msgid "Display the contents of folders"
 msgstr "Pakazvaj źmieściva kataloha (zmoŭčana: stała)"
 
 #~ msgctxt "Name"
+#~ msgid "Columns"
+#~ msgstr "Słupki"
+
+#~ msgctxt "Name"
 #~ msgid "Shell"
 #~ msgstr "Abałonka"
 
@@ -1584,10 +1591,6 @@ msgstr "Pakazvaj źmieściva kataloha (zmoŭčana: stała)"
 #~ msgid ""
 #~ "Compiz custom (create wrapper script 'compiz-kde-launcher' to launch it)"
 #~ msgstr "Ułasny „Compiz” (stvary skrypt „compiz-kde-launcher”)"
-
-#~ msgctxt "Name"
-#~ msgid "Compiz"
-#~ msgstr "Compiz"
 
 #~ msgctxt "Name"
 #~ msgid "Metacity (GNOME)"

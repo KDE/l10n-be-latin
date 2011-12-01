@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-27 11:34+0100\n"
+"POT-Creation-Date: 2011-12-01 11:37+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -59,8 +59,8 @@ msgctxt "@title:window"
 msgid "Select Folder"
 msgstr "Vybiery kataloh"
 
-#: bookmarks/kbookmarkdialog.cc:159 ../kfile/knewfilemenu.cpp:1015
-#: ../kfile/kdirselectdialog.cpp:135
+#: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:135
+#: ../kfile/knewfilemenu.cpp:1013
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Novy kataloh"
@@ -6166,111 +6166,6 @@ msgstr "kio_metainfo"
 msgid "No metainfo for %1"
 msgstr "Niama metaźviestak pra „%1”."
 
-#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
-#, fuzzy
-#| msgid "Store"
-msgid "Sorry"
-msgstr "Zachoŭvaj"
-
-#: ../kfile/knewfilemenu.cpp:377
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
-#| "does not exist.</qt>"
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr ""
-"<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
-"isnuje.</qt>"
-
-#: ../kfile/knewfilemenu.cpp:396
-#, fuzzy
-#| msgid "Creating directory"
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "Stvareńnie kataloha"
-
-#: ../kfile/knewfilemenu.cpp:398
-#, fuzzy
-#| msgid "Ru&n as a different user"
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr "&Uklučy ad asoby inšaha karystańnika"
-
-#: ../kfile/knewfilemenu.cpp:401
-#, fuzzy
-#| msgid "Creating directory"
-msgid "Create hidden directory?"
-msgstr "Stvareńnie kataloha"
-
-#: ../kfile/knewfilemenu.cpp:405
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:407
-msgid "Do not ask again"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
-#, fuzzy
-#| msgid "Device name"
-msgid "File name:"
-msgstr "Nazva pryłady"
-
-#: ../kfile/knewfilemenu.cpp:503
-#, fuzzy
-#| msgid "Could Not Create Symbolic Link"
-msgid "Create Symlink"
-msgstr "Nie ŭdałosia stvaryć symbalny łuč"
-
-#: ../kfile/knewfilemenu.cpp:562
-#, fuzzy
-#| msgid "Created:"
-msgid "Create link to URL"
-msgstr "Stvorany:"
-
-#: ../kfile/knewfilemenu.cpp:608 ../kfile/knewfilemenu.cpp:656
-#, kde-format
-msgctxt "@item:inmenu Create New"
-msgid "%1"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:882
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:947
-#, fuzzy
-#| msgid "Created:"
-msgid "Create New"
-msgstr "Stvorany:"
-
-#: ../kfile/knewfilemenu.cpp:960
-#, fuzzy
-#| msgid "Device"
-msgid "Link to Device"
-msgstr "Pryłada"
-
-#: ../kfile/knewfilemenu.cpp:1005
-#, fuzzy
-#| msgid "New Folder"
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "Novy kataloh"
-
-#: ../kfile/knewfilemenu.cpp:1019
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"Stvary novy kataloh u:\n"
-"%1"
-
 #: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
 msgstr "Pakažy schavanyja katalohi"
@@ -6372,265 +6267,6 @@ msgstr "Pakažy ŭsiu ściežku"
 #: ../kfile/kurlnavigator.cpp:698
 msgid "Custom Path"
 msgstr "Ułasnaja ściežka"
-
-#: ../kfile/kfilewidget.cpp:286
-msgid ""
-"<qt>While typing in the text area, you may be presented with possible "
-"matches. This feature can be controlled by clicking with the right mouse "
-"button and selecting a preferred mode from the <b>Text Completion</b> menu.</"
-"qt>"
-msgstr ""
-"<qt>Padčas upisvańnia tekstu ŭ pole tabie mohuć prapanavać mahčymyja "
-"varyjanty zakančeńnia. Hetyja pavodziny možna źmianić, kliknuŭšy pravaj "
-"knopkaj myšy ŭ pole j vybraŭšy patrebny sposab u menu <b>Zakančeńnie tekstu</"
-"b></qt>."
-
-#: ../kfile/kfilewidget.cpp:364
-#, kde-format
-msgid "Drive: %1"
-msgstr "Pryłada: %1"
-
-#: ../kfile/kfilewidget.cpp:419
-#, kde-format
-msgid ""
-"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
-"if the current location is file:/home/%1 clicking this button will take you "
-"to file:/home.</qt>"
-msgstr ""
-"<qt>Klikni ŭ hetuju knopku, kab pierajści ŭ vyšejšy kataloh.<br /><br /"
-">Naprykład, kali ciapier ty ŭ miescy z adrasam „file:/home/%1”, to kliknuŭšy "
-"ŭ hetuju knopku, ty pierajdzieš u „file:/home”.</qt>"
-
-#: ../kfile/kfilewidget.cpp:423
-msgid "Click this button to move backwards one step in the browsing history."
-msgstr ""
-"Klikni ŭ hetuju knopku, kab viarnucca nazad na adzin krok u śpisie "
-"prahladanych miescaŭ."
-
-#: ../kfile/kfilewidget.cpp:424
-msgid "Click this button to move forward one step in the browsing history."
-msgstr ""
-"Klikni ŭ hetuju knopku, kab pajści napierad na adzin krok u śpisie "
-"prahladanych miescaŭ."
-
-#: ../kfile/kfilewidget.cpp:426
-msgid "Click this button to reload the contents of the current location."
-msgstr "Klikni ŭ hetuju knopku, kab pieračytać źmieściva hetaha miesca."
-
-#: ../kfile/kfilewidget.cpp:428
-msgid "Click this button to create a new folder."
-msgstr "Klikni ŭ hetuju knopku, kab stvaryć novy kataloh."
-
-#: ../kfile/kfilewidget.cpp:434
-msgid "Show Places Navigation Panel"
-msgstr "Pakažy panel miescaŭ"
-
-#: ../kfile/kfilewidget.cpp:441
-msgid "Show Bookmarks"
-msgstr "Pakažy zakładki"
-
-#: ../kfile/kfilewidget.cpp:446
-msgid "Options"
-msgstr "Opcyi"
-
-#: ../kfile/kfilewidget.cpp:448
-msgid ""
-"<qt>This is the preferences menu for the file dialog. Various options can be "
-"accessed from this menu including: <ul><li>how files are sorted in the list</"
-"li><li>types of view, including icon and list</li><li>showing of hidden "
-"files</li><li>the Places navigation panel</li><li>file previews</"
-"li><li>separating folders from files</li></ul></qt>"
-msgstr ""
-"<qt>Heta menu ŭłasnych naładaŭ dla akna vybaru fajłaŭ. Tut možna vybrać: "
-"<ul><li>jak paradkavać fajły ŭ śpisie;</li><li>jak prahladać źmieściva "
-"katalohaŭ: jak ikony, u śpisie i h.d.;</li><li>ci pakazvać schavanyja fajły;"
-"</li><li>ci pakazvać panel miescaŭ;</li><li>ci pakazvać dla fajłaŭ padhlady;"
-"</li><li>ci adasablać katalohi ad fajłaŭ.</li></ul></qt>"
-
-#: ../kfile/kfilewidget.cpp:491
-msgid "Zoom out"
-msgstr "Pamienš"
-
-#: ../kfile/kfilewidget.cpp:493
-msgid "Zoom in"
-msgstr "Pavialič"
-
-#: ../kfile/kfilewidget.cpp:557
-msgid ""
-"<qt>This is the filter to apply to the file list. File names that do not "
-"match the filter will not be shown.<p>You may select from one of the preset "
-"filters in the drop down menu, or you may enter a custom filter directly "
-"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
-msgstr ""
-"<qt>Filtar, jaki budzie vykarystany dla śpisa fajłaŭ. Nazvy fajłaŭ, jakija "
-"nie adpaviadajuć hetamu filtru, nia buduć pakazvacca.<p>Ty možaš albo vybrać "
-"najaŭny šablon z vypłyŭnoha menu, albo ŭpisać ułasny filter u tekstavaje "
-"pole.</p><p>Možna karystacca specyjalnymi znakami, naprykład, „*” i „?”.</"
-"p></qt>"
-
-#: ../kfile/kfilewidget.cpp:563
-msgid "&Filter:"
-msgstr "&Filtruj:"
-
-#: ../kfile/kfilewidget.cpp:788
-msgid "You can only select one file"
-msgstr "Možna vybrać tolki adzin fajł."
-
-#: ../kfile/kfilewidget.cpp:789
-msgid "More than one file provided"
-msgstr "Padadzienyja niekalki fajłaŭ."
-
-#: ../kfile/kfilewidget.cpp:953
-msgid "You can only select local files"
-msgstr "Možna vybrać tolki lakalnyja fajły."
-
-#: ../kfile/kfilewidget.cpp:954
-msgid "Remote files not accepted"
-msgstr "Nielha vybrać fajły ź inšych hostaŭ"
-
-#: ../kfile/kfilewidget.cpp:972
-msgid ""
-"More than one folder has been selected and this dialog does not accept "
-"folders, so it is not possible to decide which one to enter. Please select "
-"only one folder to list it."
-msgstr ""
-
-#: ../kfile/kfilewidget.cpp:972
-msgid "More than one folder provided"
-msgstr "Padadzienyja niekalki katalohaŭ"
-
-#: ../kfile/kfilewidget.cpp:980
-msgid ""
-"At least one folder and one file has been selected. Selected files will be "
-"ignored and the selected folder will be listed"
-msgstr ""
-
-#: ../kfile/kfilewidget.cpp:980
-msgid "Files and folders selected"
-msgstr "Vyłučanyja katalohi j fajły"
-
-#: ../kfile/kfilewidget.cpp:995
-#, fuzzy, kde-format
-#| msgid "The file %1 could not be found"
-msgid "The file \"%1\" could not be found"
-msgstr "Nie ŭdałosia znajści fajł „%1”."
-
-#: ../kfile/kfilewidget.cpp:995
-msgid "Cannot open file"
-msgstr "Nie ŭdałosia adčynić fajł"
-
-#: ../kfile/kfilewidget.cpp:1266
-msgid "This is the name to save the file as."
-msgstr "Nazva dla zapisvanaha fajła."
-
-#: ../kfile/kfilewidget.cpp:1271
-msgid ""
-"This is the list of files to open. More than one file can be specified by "
-"listing several files, separated by spaces."
-msgstr ""
-"Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, "
-"padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
-
-#: ../kfile/kfilewidget.cpp:1278
-msgid "This is the name of the file to open."
-msgstr "Nazva fajła, jaki treba adčynić."
-
-#: ../kfile/kfilewidget.cpp:1292
-#, fuzzy
-#| msgid "Places"
-msgctxt "@title:window"
-msgid "Places"
-msgstr "Miescy"
-
-#: ../kfile/kfilewidget.cpp:1481
-#, kde-format
-msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
-
-#: ../kfile/kfilewidget.cpp:1482
-msgid "Overwrite File?"
-msgstr "Nadpisać fajł?"
-
-#: ../kfile/kfilewidget.cpp:1613
-msgid ""
-"The chosen filenames do not\n"
-"appear to be valid."
-msgstr ""
-"Nazvy vybranych fajłaŭ\n"
-"niapravilnyja."
-
-#: ../kfile/kfilewidget.cpp:1615
-msgid "Invalid Filenames"
-msgstr "Niapravilnyja nazvy fajłaŭ"
-
-#: ../kfile/kfilewidget.cpp:1695
-msgid "You can only select local files."
-msgstr "Možna vybrać tolki lakalnyja fajły."
-
-#: ../kfile/kfilewidget.cpp:1696
-msgid "Remote Files Not Accepted"
-msgstr "Nielha vybrać fajły ź inšych hostaŭ"
-
-#: ../kfile/kfilewidget.cpp:1799
-msgid "*|All Folders"
-msgstr "*|Usie katalohi"
-
-#: ../kfile/kfilewidget.cpp:2051
-#, fuzzy, kde-format
-msgid "Icon size: %1 pixels (standard size)"
-msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
-
-#: ../kfile/kfilewidget.cpp:2054
-#, fuzzy, kde-format
-msgid "Icon size: %1 pixels"
-msgstr "Pamier ikon: %1 punktaŭ"
-
-#: ../kfile/kfilewidget.cpp:2174
-#, kde-format
-msgid "Automatically select filename e&xtension (%1)"
-msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
-
-#: ../kfile/kfilewidget.cpp:2175
-#, kde-format
-msgid "the extension <b>%1</b>"
-msgstr "pašyreńnie <b>%1</b>"
-
-#: ../kfile/kfilewidget.cpp:2183
-msgid "Automatically select filename e&xtension"
-msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
-
-#: ../kfile/kfilewidget.cpp:2184
-msgid "a suitable extension"
-msgstr "prydatnaje pašyreńnie"
-
-#: ../kfile/kfilewidget.cpp:2194
-#, kde-format
-msgid ""
-"This option enables some convenient features for saving files with "
-"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
-"will be updated if you change the file type to save in.<br /><br /></"
-"li><li>If no extension is specified in the <b>%2</b> text area when you "
-"click <b>Save</b>, %3 will be added to the end of the filename (if the "
-"filename does not already exist). This extension is based on the file type "
-"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
-"an extension for the filename, you can either turn this option off or you "
-"can suppress it by adding a period (.) to the end of the filename (the "
-"period will be automatically removed).</li></ol>If unsure, keep this option "
-"enabled as it makes your files more manageable."
-msgstr ""
-
-#: ../kfile/kfilewidget.cpp:2497
-msgid ""
-"<qt>This button allows you to bookmark specific locations. Click on this "
-"button to open the bookmark menu where you may add, edit or select a "
-"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
-"otherwise operate like bookmarks elsewhere in KDE.</qt>"
-msgstr ""
-"<qt>Hetaja knopka dazvalaje stvarać zakładki dla peŭnych miescaŭ. Klikni ŭ "
-"hetuju knopku, kab adčynić menu zakładak. Tudy ty možaš dadavać novyja "
-"zakładki, redahavać ci vybirać najaŭnyja zakładki.<br /><br />Jany "
-"adnosiacca tolki da akna vybaru fajłaŭ, ale dziejničajuć, jak zvyčajnyja "
-"zakładki systemy KDE.</qt>"
 
 #: ../kfile/kfileplaceeditdialog.cpp:90
 #, fuzzy
@@ -6951,6 +6587,111 @@ msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Ułaścivaści"
 
+#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:871
+#, fuzzy
+#| msgid "Store"
+msgid "Sorry"
+msgstr "Zachoŭvaj"
+
+#: ../kfile/knewfilemenu.cpp:377
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
+#| "does not exist.</qt>"
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr ""
+"<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
+"isnuje.</qt>"
+
+#: ../kfile/knewfilemenu.cpp:396
+#, fuzzy
+#| msgid "Creating directory"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Stvareńnie kataloha"
+
+#: ../kfile/knewfilemenu.cpp:398
+#, fuzzy
+#| msgid "Ru&n as a different user"
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr "&Uklučy ad asoby inšaha karystańnika"
+
+#: ../kfile/knewfilemenu.cpp:401
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create hidden directory?"
+msgstr "Stvareńnie kataloha"
+
+#: ../kfile/knewfilemenu.cpp:405
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:407
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:557
+#, fuzzy
+#| msgid "Device name"
+msgid "File name:"
+msgstr "Nazva pryłady"
+
+#: ../kfile/knewfilemenu.cpp:503
+#, fuzzy
+#| msgid "Could Not Create Symbolic Link"
+msgid "Create Symlink"
+msgstr "Nie ŭdałosia stvaryć symbalny łuč"
+
+#: ../kfile/knewfilemenu.cpp:561
+#, fuzzy
+#| msgid "Created:"
+msgid "Create link to URL"
+msgstr "Stvorany:"
+
+#: ../kfile/knewfilemenu.cpp:607 ../kfile/knewfilemenu.cpp:655
+#, kde-format
+msgctxt "@item:inmenu Create New"
+msgid "%1"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:881
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:945
+#, fuzzy
+#| msgid "Created:"
+msgid "Create New"
+msgstr "Stvorany:"
+
+#: ../kfile/knewfilemenu.cpp:958
+#, fuzzy
+#| msgid "Device"
+msgid "Link to Device"
+msgstr "Pryłada"
+
+#: ../kfile/knewfilemenu.cpp:1003
+#, fuzzy
+#| msgid "New Folder"
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "Novy kataloh"
+
+#: ../kfile/knewfilemenu.cpp:1017
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"Stvary novy kataloh u:\n"
+"%1"
+
 #: ../kfile/kfileplacesview.cpp:575
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
@@ -6999,6 +6740,265 @@ msgstr "Subversion"
 msgctxt "@item:inmenu"
 msgid "Other"
 msgstr "Inšaje"
+
+#: ../kfile/kfilewidget.cpp:286
+msgid ""
+"<qt>While typing in the text area, you may be presented with possible "
+"matches. This feature can be controlled by clicking with the right mouse "
+"button and selecting a preferred mode from the <b>Text Completion</b> menu.</"
+"qt>"
+msgstr ""
+"<qt>Padčas upisvańnia tekstu ŭ pole tabie mohuć prapanavać mahčymyja "
+"varyjanty zakančeńnia. Hetyja pavodziny možna źmianić, kliknuŭšy pravaj "
+"knopkaj myšy ŭ pole j vybraŭšy patrebny sposab u menu <b>Zakančeńnie tekstu</"
+"b></qt>."
+
+#: ../kfile/kfilewidget.cpp:364
+#, kde-format
+msgid "Drive: %1"
+msgstr "Pryłada: %1"
+
+#: ../kfile/kfilewidget.cpp:419
+#, kde-format
+msgid ""
+"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
+"if the current location is file:/home/%1 clicking this button will take you "
+"to file:/home.</qt>"
+msgstr ""
+"<qt>Klikni ŭ hetuju knopku, kab pierajści ŭ vyšejšy kataloh.<br /><br /"
+">Naprykład, kali ciapier ty ŭ miescy z adrasam „file:/home/%1”, to kliknuŭšy "
+"ŭ hetuju knopku, ty pierajdzieš u „file:/home”.</qt>"
+
+#: ../kfile/kfilewidget.cpp:423
+msgid "Click this button to move backwards one step in the browsing history."
+msgstr ""
+"Klikni ŭ hetuju knopku, kab viarnucca nazad na adzin krok u śpisie "
+"prahladanych miescaŭ."
+
+#: ../kfile/kfilewidget.cpp:424
+msgid "Click this button to move forward one step in the browsing history."
+msgstr ""
+"Klikni ŭ hetuju knopku, kab pajści napierad na adzin krok u śpisie "
+"prahladanych miescaŭ."
+
+#: ../kfile/kfilewidget.cpp:426
+msgid "Click this button to reload the contents of the current location."
+msgstr "Klikni ŭ hetuju knopku, kab pieračytać źmieściva hetaha miesca."
+
+#: ../kfile/kfilewidget.cpp:428
+msgid "Click this button to create a new folder."
+msgstr "Klikni ŭ hetuju knopku, kab stvaryć novy kataloh."
+
+#: ../kfile/kfilewidget.cpp:434
+msgid "Show Places Navigation Panel"
+msgstr "Pakažy panel miescaŭ"
+
+#: ../kfile/kfilewidget.cpp:441
+msgid "Show Bookmarks"
+msgstr "Pakažy zakładki"
+
+#: ../kfile/kfilewidget.cpp:446
+msgid "Options"
+msgstr "Opcyi"
+
+#: ../kfile/kfilewidget.cpp:448
+msgid ""
+"<qt>This is the preferences menu for the file dialog. Various options can be "
+"accessed from this menu including: <ul><li>how files are sorted in the list</"
+"li><li>types of view, including icon and list</li><li>showing of hidden "
+"files</li><li>the Places navigation panel</li><li>file previews</"
+"li><li>separating folders from files</li></ul></qt>"
+msgstr ""
+"<qt>Heta menu ŭłasnych naładaŭ dla akna vybaru fajłaŭ. Tut možna vybrać: "
+"<ul><li>jak paradkavać fajły ŭ śpisie;</li><li>jak prahladać źmieściva "
+"katalohaŭ: jak ikony, u śpisie i h.d.;</li><li>ci pakazvać schavanyja fajły;"
+"</li><li>ci pakazvać panel miescaŭ;</li><li>ci pakazvać dla fajłaŭ padhlady;"
+"</li><li>ci adasablać katalohi ad fajłaŭ.</li></ul></qt>"
+
+#: ../kfile/kfilewidget.cpp:491
+msgid "Zoom out"
+msgstr "Pamienš"
+
+#: ../kfile/kfilewidget.cpp:493
+msgid "Zoom in"
+msgstr "Pavialič"
+
+#: ../kfile/kfilewidget.cpp:557
+msgid ""
+"<qt>This is the filter to apply to the file list. File names that do not "
+"match the filter will not be shown.<p>You may select from one of the preset "
+"filters in the drop down menu, or you may enter a custom filter directly "
+"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
+msgstr ""
+"<qt>Filtar, jaki budzie vykarystany dla śpisa fajłaŭ. Nazvy fajłaŭ, jakija "
+"nie adpaviadajuć hetamu filtru, nia buduć pakazvacca.<p>Ty možaš albo vybrać "
+"najaŭny šablon z vypłyŭnoha menu, albo ŭpisać ułasny filter u tekstavaje "
+"pole.</p><p>Možna karystacca specyjalnymi znakami, naprykład, „*” i „?”.</"
+"p></qt>"
+
+#: ../kfile/kfilewidget.cpp:563
+msgid "&Filter:"
+msgstr "&Filtruj:"
+
+#: ../kfile/kfilewidget.cpp:788
+msgid "You can only select one file"
+msgstr "Možna vybrać tolki adzin fajł."
+
+#: ../kfile/kfilewidget.cpp:789
+msgid "More than one file provided"
+msgstr "Padadzienyja niekalki fajłaŭ."
+
+#: ../kfile/kfilewidget.cpp:953
+msgid "You can only select local files"
+msgstr "Možna vybrać tolki lakalnyja fajły."
+
+#: ../kfile/kfilewidget.cpp:954
+msgid "Remote files not accepted"
+msgstr "Nielha vybrać fajły ź inšych hostaŭ"
+
+#: ../kfile/kfilewidget.cpp:972
+msgid ""
+"More than one folder has been selected and this dialog does not accept "
+"folders, so it is not possible to decide which one to enter. Please select "
+"only one folder to list it."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:972
+msgid "More than one folder provided"
+msgstr "Padadzienyja niekalki katalohaŭ"
+
+#: ../kfile/kfilewidget.cpp:980
+msgid ""
+"At least one folder and one file has been selected. Selected files will be "
+"ignored and the selected folder will be listed"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:980
+msgid "Files and folders selected"
+msgstr "Vyłučanyja katalohi j fajły"
+
+#: ../kfile/kfilewidget.cpp:995
+#, fuzzy, kde-format
+#| msgid "The file %1 could not be found"
+msgid "The file \"%1\" could not be found"
+msgstr "Nie ŭdałosia znajści fajł „%1”."
+
+#: ../kfile/kfilewidget.cpp:995
+msgid "Cannot open file"
+msgstr "Nie ŭdałosia adčynić fajł"
+
+#: ../kfile/kfilewidget.cpp:1266
+msgid "This is the name to save the file as."
+msgstr "Nazva dla zapisvanaha fajła."
+
+#: ../kfile/kfilewidget.cpp:1271
+msgid ""
+"This is the list of files to open. More than one file can be specified by "
+"listing several files, separated by spaces."
+msgstr ""
+"Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, "
+"padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
+
+#: ../kfile/kfilewidget.cpp:1278
+msgid "This is the name of the file to open."
+msgstr "Nazva fajła, jaki treba adčynić."
+
+#: ../kfile/kfilewidget.cpp:1292
+#, fuzzy
+#| msgid "Places"
+msgctxt "@title:window"
+msgid "Places"
+msgstr "Miescy"
+
+#: ../kfile/kfilewidget.cpp:1481
+#, kde-format
+msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
+msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
+
+#: ../kfile/kfilewidget.cpp:1482
+msgid "Overwrite File?"
+msgstr "Nadpisać fajł?"
+
+#: ../kfile/kfilewidget.cpp:1613
+msgid ""
+"The chosen filenames do not\n"
+"appear to be valid."
+msgstr ""
+"Nazvy vybranych fajłaŭ\n"
+"niapravilnyja."
+
+#: ../kfile/kfilewidget.cpp:1615
+msgid "Invalid Filenames"
+msgstr "Niapravilnyja nazvy fajłaŭ"
+
+#: ../kfile/kfilewidget.cpp:1695
+msgid "You can only select local files."
+msgstr "Možna vybrać tolki lakalnyja fajły."
+
+#: ../kfile/kfilewidget.cpp:1696
+msgid "Remote Files Not Accepted"
+msgstr "Nielha vybrać fajły ź inšych hostaŭ"
+
+#: ../kfile/kfilewidget.cpp:1799
+msgid "*|All Folders"
+msgstr "*|Usie katalohi"
+
+#: ../kfile/kfilewidget.cpp:2051
+#, fuzzy, kde-format
+msgid "Icon size: %1 pixels (standard size)"
+msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
+
+#: ../kfile/kfilewidget.cpp:2054
+#, fuzzy, kde-format
+msgid "Icon size: %1 pixels"
+msgstr "Pamier ikon: %1 punktaŭ"
+
+#: ../kfile/kfilewidget.cpp:2174
+#, kde-format
+msgid "Automatically select filename e&xtension (%1)"
+msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
+
+#: ../kfile/kfilewidget.cpp:2175
+#, kde-format
+msgid "the extension <b>%1</b>"
+msgstr "pašyreńnie <b>%1</b>"
+
+#: ../kfile/kfilewidget.cpp:2183
+msgid "Automatically select filename e&xtension"
+msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
+
+#: ../kfile/kfilewidget.cpp:2184
+msgid "a suitable extension"
+msgstr "prydatnaje pašyreńnie"
+
+#: ../kfile/kfilewidget.cpp:2194
+#, kde-format
+msgid ""
+"This option enables some convenient features for saving files with "
+"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
+"will be updated if you change the file type to save in.<br /><br /></"
+"li><li>If no extension is specified in the <b>%2</b> text area when you "
+"click <b>Save</b>, %3 will be added to the end of the filename (if the "
+"filename does not already exist). This extension is based on the file type "
+"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
+"an extension for the filename, you can either turn this option off or you "
+"can suppress it by adding a period (.) to the end of the filename (the "
+"period will be automatically removed).</li></ol>If unsure, keep this option "
+"enabled as it makes your files more manageable."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:2497
+msgid ""
+"<qt>This button allows you to bookmark specific locations. Click on this "
+"button to open the bookmark menu where you may add, edit or select a "
+"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
+"otherwise operate like bookmarks elsewhere in KDE.</qt>"
+msgstr ""
+"<qt>Hetaja knopka dazvalaje stvarać zakładki dla peŭnych miescaŭ. Klikni ŭ "
+"hetuju knopku, kab adčynić menu zakładak. Tudy ty možaš dadavać novyja "
+"zakładki, redahavać ci vybirać najaŭnyja zakładki.<br /><br />Jany "
+"adnosiacca tolki da akna vybaru fajłaŭ, ale dziejničajuć, jak zvyčajnyja "
+"zakładki systemy KDE.</qt>"
 
 #~ msgid "The specified folder already exists."
 #~ msgstr "Aznačany kataloh užo isnuje."

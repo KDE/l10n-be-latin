@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-01 08:10+0000\n"
+"POT-Creation-Date: 2011-12-06 08:31+0000\n"
 "PO-Revision-Date: 2008-09-04 00:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1190,6 +1190,11 @@ msgctxt "Comment"
 msgid "SSL Versions and Certificates"
 msgstr ""
 
+#: kio/kssl/kcm/kcm_ssl.desktop:111
+msgctxt "X-KDE-Keywords"
+msgid "SSL,Security,Network,Protocol,Certificates,Encryption,HTTPS"
+msgstr ""
+
 #: kio/kurifilterplugin.desktop:4
 msgctxt "Name"
 msgid "Enhanced Browsing Plugin"
@@ -1494,6 +1499,13 @@ msgstr "Šyfravańnie"
 msgctxt "Comment"
 msgid "Configure SSL, manage certificates, and other cryptography settings"
 msgstr "Naładžvaje SSL, kiruje sertyfikatami, inšyja nałady šyfravańnia"
+
+#: security/crypto/crypto.desktop:179
+msgctxt "X-KDE-Keywords"
+msgid ""
+"Crypto,Krypto,Cryptography,encryption,SSL,https,certificates,ciphers,TLS,"
+"secure,security"
+msgstr ""
 
 #: security/kcert/kcertpart.desktop:3
 msgctxt "Comment"

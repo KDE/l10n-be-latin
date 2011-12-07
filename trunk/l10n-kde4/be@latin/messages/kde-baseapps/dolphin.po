@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-06 05:12+0100\n"
+"POT-Creation-Date: 2011-12-07 03:15+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -407,7 +407,7 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr ""
 
-#: panels/search/searchpanel.cpp:139
+#: panels/search/searchpanel.cpp:140
 #, fuzzy
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Small"
@@ -415,7 +415,7 @@ msgctxt "option:check Refers to a filter on image size"
 msgid "Small"
 msgstr "Małaja"
 
-#: panels/search/searchpanel.cpp:141
+#: panels/search/searchpanel.cpp:142
 #, fuzzy
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Medium"
@@ -423,7 +423,7 @@ msgctxt "option:check Refers to a filter on image size"
 msgid "Medium"
 msgstr "Siaredniaja"
 
-#: panels/search/searchpanel.cpp:144
+#: panels/search/searchpanel.cpp:145
 #, fuzzy
 #| msgctxt "@item:inlistbox Text width"
 #| msgid "Large"
@@ -1211,11 +1211,6 @@ msgstr "Pieračytaj"
 msgid "Default"
 msgstr "Zmoŭčany:"
 
-#: views/draganddrophelper.cpp:50
-msgctxt "@info:status"
-msgid "A folder cannot be dropped into itself"
-msgstr "Nielha pierakinuć kataloh u samoha siabie."
-
 #: views/renamedialog.cpp:57
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -1531,6 +1526,11 @@ msgstr "Miesca pustoje."
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Miesca „%1” niapravilnaje."
+
+#: views/draganddrophelper.cpp:49
+msgctxt "@info:status"
+msgid "A folder cannot be dropped into itself"
+msgstr "Nielha pierakinuć kataloh u samoha siabie."
 
 #: main.cpp:35
 msgctxt "@title"

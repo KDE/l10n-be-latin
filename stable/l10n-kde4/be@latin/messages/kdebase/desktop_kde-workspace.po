@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-19 16:22+0000\n"
+"POT-Creation-Date: 2011-12-20 17:17+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -657,6 +657,16 @@ msgctxt "Comment"
 msgid "An emulation of the Plan 9 window manager 8-1/2"
 msgstr "Emulacyja akońnika „8-1/2” dla systemy „Plan 9”"
 
+#: kdm/kfrontend/sessions/aewm.desktop:5
+msgctxt "Name"
+msgid "AEWM"
+msgstr "AEWM"
+
+#: kdm/kfrontend/sessions/aewm.desktop:94
+msgctxt "Comment"
+msgid "A minimalist window manager"
+msgstr "Nievialiki akońnik"
+
 #: kdm/kfrontend/sessions/aewm++.desktop:5
 msgctxt "Name"
 msgid "AEWM++"
@@ -670,16 +680,6 @@ msgid ""
 msgstr ""
 "Nievialiki akońnik, jaki abapirajecca na bazu „AEWM”, ź lepšymi virtualnymi "
 "rabočymi stałami j niapoŭnaj uzhodnienaściu z systemaj GNOME"
-
-#: kdm/kfrontend/sessions/aewm.desktop:5
-msgctxt "Name"
-msgid "AEWM"
-msgstr "AEWM"
-
-#: kdm/kfrontend/sessions/aewm.desktop:94
-msgctxt "Comment"
-msgid "A minimalist window manager"
-msgstr "Nievialiki akońnik"
 
 #: kdm/kfrontend/sessions/afterstep.desktop:5
 msgctxt "Name"
@@ -828,16 +828,6 @@ msgctxt "Comment"
 msgid "The Fast Light Window Manager, based primarily on WM2"
 msgstr "„Fast Light Window Manager”, jaki abapirajecca na bazu „WM2”"
 
-#: kdm/kfrontend/sessions/fvwm.desktop:5
-msgctxt "Name"
-msgid "FVWM"
-msgstr "FVWM"
-
-#: kdm/kfrontend/sessions/fvwm.desktop:93
-msgctxt "Comment"
-msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
-msgstr "Mahutny akońnik, uzhodnieny z „ICCCM”, ź virtualnymi rabočymi stałami"
-
 #: kdm/kfrontend/sessions/fvwm95.desktop:5
 msgctxt "Name"
 msgid "FVWM95"
@@ -848,6 +838,16 @@ msgctxt "Comment"
 msgid "A Windows 95 look-alike derivative of FVWM"
 msgstr ""
 "Adhalinavańnie ad akońnika „FVWM”, jaki vyhladaje, jak systema „Windows 95”"
+
+#: kdm/kfrontend/sessions/fvwm.desktop:5
+msgctxt "Name"
+msgid "FVWM"
+msgstr "FVWM"
+
+#: kdm/kfrontend/sessions/fvwm.desktop:93
+msgctxt "Comment"
+msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
+msgstr "Mahutny akońnik, uzhodnieny z „ICCCM”, ź virtualnymi rabočymi stałami"
 
 #: kdm/kfrontend/sessions/gnome.desktop:5
 msgctxt "Name"
@@ -897,16 +897,6 @@ msgstr ""
 "Akońnik, jaki dobra pracuje z klavijaturaju dy ŭmieje kaflevy vykład akon, a "
 "taksama abapirajecca na bazu „PWM”"
 
-#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:6
-msgctxt "Name"
-msgid "KDE Plasma Workspace (failsafe session)"
-msgstr ""
-
-#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:45
-msgctxt "Comment"
-msgid "The desktop made by KDE (failsafe session)"
-msgstr ""
-
 #: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:6
 #, fuzzy
 #| msgctxt "Name"
@@ -918,6 +908,16 @@ msgstr "Chutkaść KDE"
 #: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:45
 msgctxt "Comment"
 msgid "The desktop made by KDE"
+msgstr ""
+
+#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:6
+msgctxt "Name"
+msgid "KDE Plasma Workspace (failsafe session)"
+msgstr ""
+
+#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:45
+msgctxt "Comment"
+msgid "The desktop made by KDE (failsafe session)"
 msgstr ""
 
 #: kdm/kfrontend/sessions/larswm.desktop:5
@@ -1171,20 +1171,6 @@ msgctxt "Comment"
 msgid "A simple window manager that resembles the NeXTStep look very closely"
 msgstr "Prosty akońnik, jaki imkniecca vyhladać, jak systema „NeXTStep”"
 
-#: kdm/kfrontend/sessions/xfce.desktop:5
-msgctxt "Name"
-msgid "XFce"
-msgstr "XFce"
-
-#: kdm/kfrontend/sessions/xfce.desktop:94
-msgctxt "Comment"
-msgid ""
-"The Cholesterol Free Desktop Environment. A desktop environment reminiscent "
-"of CDE"
-msgstr ""
-"„Cholesterol Free Desktop Environment”: rabočy stoł, jaki nahadvaje "
-"asiarodździe „CDE”"
-
 #: kdm/kfrontend/sessions/xfce4.desktop:5
 #, fuzzy
 #| msgctxt "Name"
@@ -1200,6 +1186,20 @@ msgid ""
 "reminiscent of CDE"
 msgstr ""
 "„Cholesterol Free Desktop Environment 4”: rabočy stoł, jaki nahadvaje "
+"asiarodździe „CDE”"
+
+#: kdm/kfrontend/sessions/xfce.desktop:5
+msgctxt "Name"
+msgid "XFce"
+msgstr "XFce"
+
+#: kdm/kfrontend/sessions/xfce.desktop:94
+msgctxt "Comment"
+msgid ""
+"The Cholesterol Free Desktop Environment. A desktop environment reminiscent "
+"of CDE"
+msgstr ""
+"„Cholesterol Free Desktop Environment”: rabočy stoł, jaki nahadvaje "
 "asiarodździe „CDE”"
 
 #: kdm/kfrontend/themes/circles/KdmGreeterTheme.desktop:6
@@ -1739,6 +1739,16 @@ msgctxt "Name"
 msgid "Network Information"
 msgstr "Źviestki pra pamiać"
 
+#: kinfocenter/kinfocenter.desktop:9
+msgctxt "Name"
+msgid "KInfoCenter"
+msgstr "KInfoCenter"
+
+#: kinfocenter/kinfocenter.desktop:99
+msgctxt "GenericName"
+msgid "Info Center"
+msgstr "Infarmacyjny centar"
+
 #: kinfocenter/Modules/devinfo/devinfo.desktop:13
 #, fuzzy
 #| msgctxt "GenericName"
@@ -1795,16 +1805,6 @@ msgctxt "Comment"
 msgid "SCSI information"
 msgstr "Źviestki pra SCSI"
 
-#: kinfocenter/Modules/info/xserver.desktop:13
-msgctxt "Name"
-msgid "X-Server"
-msgstr "Server X"
-
-#: kinfocenter/Modules/info/xserver.desktop:106
-msgctxt "Comment"
-msgid "X-Server information"
-msgstr "Źviestki pra server X"
-
 #: kinfocenter/Modules/infosummary/kcm_infosummary.desktop:11
 msgctxt "Name"
 msgid "Summary"
@@ -1817,6 +1817,16 @@ msgstr ""
 msgctxt "Comment"
 msgid "Hardware Information Summary"
 msgstr "Aparatura"
+
+#: kinfocenter/Modules/info/xserver.desktop:13
+msgctxt "Name"
+msgid "X-Server"
+msgstr "Server X"
+
+#: kinfocenter/Modules/info/xserver.desktop:106
+msgctxt "Comment"
+msgid "X-Server information"
+msgstr "Źviestki pra server X"
 
 #: kinfocenter/Modules/memory/kcm_memory.desktop:12
 msgctxt "Name"
@@ -1888,16 +1898,6 @@ msgstr "Pryłady IEEE 1394"
 msgctxt "Comment"
 msgid "Attached IEEE 1394 devices"
 msgstr "Padłučanyja pryłady IEEE 1394"
-
-#: kinfocenter/kinfocenter.desktop:9
-msgctxt "Name"
-msgid "KInfoCenter"
-msgstr "KInfoCenter"
-
-#: kinfocenter/kinfocenter.desktop:99
-msgctxt "GenericName"
-msgid "Info Center"
-msgstr "Infarmacyjny centar"
 
 #: klipper/klipper.desktop:2
 msgctxt "Name"
@@ -2277,16 +2277,6 @@ msgctxt "Comment"
 msgid "Style that uses the Apple Appearance Manager"
 msgstr ""
 
-#: kstyles/themes/qtmotif.themerc:2
-msgctxt "Name"
-msgid "Motif"
-msgstr "Motif"
-
-#: kstyles/themes/qtmotif.themerc:87
-msgctxt "Comment"
-msgid "Built-in unthemed Motif style"
-msgstr "Styl widžetaŭ „Motif”"
-
 #: kstyles/themes/qtmotifplus.themerc:2
 msgctxt "Name"
 msgid "Motif Plus"
@@ -2296,6 +2286,16 @@ msgstr "Motif Plus"
 msgctxt "Comment"
 msgid "Built-in enhanced Motif style"
 msgstr "Lepšaja admiena styla widžetaŭ „Motif”"
+
+#: kstyles/themes/qtmotif.themerc:2
+msgctxt "Name"
+msgid "Motif"
+msgstr "Motif"
+
+#: kstyles/themes/qtmotif.themerc:87
+msgctxt "Comment"
+msgid "Built-in unthemed Motif style"
+msgstr "Styl widžetaŭ „Motif”"
 
 #: kstyles/themes/qtplastique.themerc:2
 #, fuzzy
@@ -2446,6 +2446,462 @@ msgctxt "Description"
 msgid "(Default) Disable focus stealing prevention for XV"
 msgstr "(Zmoŭčana) Vyklučy abaronu ad zachopu fokusu dla prahramy „XV”"
 
+#: kwin/effects/blur/blur_config.desktop:9 kwin/effects/blur/blur.desktop:2
+msgctxt "Name"
+msgid "Blur"
+msgstr ""
+
+#: kwin/effects/blur/blur.desktop:85
+msgctxt "Comment"
+msgid "Blurs the background behind semi-transparent windows"
+msgstr ""
+
+#: kwin/effects/boxswitch/boxswitch_config.desktop:9
+#: kwin/effects/boxswitch/boxswitch.desktop:2
+msgctxt "Name"
+msgid "Box Switch"
+msgstr ""
+
+#: kwin/effects/boxswitch/boxswitch.desktop:79
+msgctxt "Comment"
+msgid "Display thumbnails of windows in the alt+tab window switcher"
+msgstr ""
+"Pakazvaj padhlady akon u pieraklučniku, jaki vyklikajecca skarotam „Alt+Tab”"
+
+#: kwin/effects/coverswitch/coverswitch_config.desktop:9
+#: kwin/effects/coverswitch/coverswitch.desktop:2
+msgctxt "Name"
+msgid "Cover Switch"
+msgstr ""
+
+#: kwin/effects/coverswitch/coverswitch.desktop:73
+msgctxt "Comment"
+msgid "Display a Cover Flow effect for the alt+tab window switcher"
+msgstr ""
+
+#: kwin/effects/cube/cube_config.desktop:9 kwin/effects/cube/cube.desktop:2
+msgctxt "Name"
+msgid "Desktop Cube"
+msgstr "Rabočy kub"
+
+#: kwin/effects/cube/cube.desktop:79
+msgctxt "Comment"
+msgid "Display each virtual desktop on a side of a cube"
+msgstr "Pakazvaje virtualnyja rabočyja stały na bakoch kuba"
+
+#: kwin/effects/cube/cubeslide_config.desktop:9
+#: kwin/effects/cube/cubeslide.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Cube"
+msgctxt "Name"
+msgid "Desktop Cube Animation"
+msgstr "Rabočy kub"
+
+#: kwin/effects/cube/cubeslide.desktop:70
+msgctxt "Comment"
+msgid "Animate desktop switching with a cube"
+msgstr ""
+
+#: kwin/effects/dashboard/dashboard_config.desktop:9
+#: kwin/effects/dashboard/dashboard.desktop:2
+#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:2
+msgctxt "Name"
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: kwin/effects/dashboard/dashboard.desktop:77
+msgctxt "Comment"
+msgid "Desaturate the desktop when displaying the Plasma dashboard"
+msgstr ""
+
+#: kwin/effects/desktopgrid/desktopgrid_config.desktop:9
+#: kwin/effects/desktopgrid/desktopgrid.desktop:2
+msgctxt "Name"
+msgid "Desktop Grid"
+msgstr "Rabočaja sietka"
+
+#: kwin/effects/desktopgrid/desktopgrid.desktop:82
+msgctxt "Comment"
+msgid "Zoom out so all desktops are displayed side-by-side in a grid"
+msgstr ""
+
+#: kwin/effects/dialogparent/dialogparent.desktop:2
+msgctxt "Name"
+msgid "Dialog Parent"
+msgstr ""
+
+#: kwin/effects/dialogparent/dialogparent.desktop:79
+msgctxt "Comment"
+msgid "Darkens the parent window of the currently active dialog"
+msgstr ""
+
+#: kwin/effects/diminactive/diminactive_config.desktop:9
+#: kwin/effects/diminactive/diminactive.desktop:2
+msgctxt "Name"
+msgid "Dim Inactive"
+msgstr ""
+
+#: kwin/effects/diminactive/diminactive.desktop:78
+msgctxt "Comment"
+msgid "Darken inactive windows"
+msgstr ""
+
+#: kwin/effects/dimscreen/dimscreen.desktop:2
+msgctxt "Name"
+msgid "Dim Screen for Administrator Mode"
+msgstr ""
+
+#: kwin/effects/dimscreen/dimscreen.desktop:73
+msgctxt "Comment"
+msgid "Darkens the entire screen when requesting root privileges"
+msgstr ""
+
+#: kwin/effects/explosion/explosion.desktop:2
+msgctxt "Name"
+msgid "Explosion"
+msgstr "Vybuch"
+
+#: kwin/effects/explosion/explosion.desktop:84
+msgctxt "Comment"
+msgid "Make windows explode when they are closed"
+msgstr "Vokny začyniajucca z vybucham."
+
+#: kwin/effects/fadedesktop/fadedesktop.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "SaverDesktop"
+msgctxt "Name"
+msgid "Fade Desktop"
+msgstr "SaverDesktop"
+
+#: kwin/effects/fadedesktop/fadedesktop.desktop:69
+msgctxt "Comment"
+msgid "Fade between virtual desktops when switching between them"
+msgstr ""
+
+#: kwin/effects/fade/fade.desktop:2
+msgctxt "Name"
+msgid "Fade"
+msgstr ""
+
+#: kwin/effects/fade/fade.desktop:83
+msgctxt "Comment"
+msgid "Make windows smoothly fade in and out when they are shown or hidden"
+msgstr ""
+
+#: kwin/effects/fallapart/fallapart.desktop:2
+msgctxt "Name"
+msgid "Fall Apart"
+msgstr ""
+
+#: kwin/effects/fallapart/fallapart.desktop:78
+msgctxt "Comment"
+msgid "Closed windows fall into pieces"
+msgstr ""
+
+#: kwin/effects/flipswitch/flipswitch_config.desktop:9
+#: kwin/effects/flipswitch/flipswitch.desktop:2
+msgctxt "Name"
+msgid "Flip Switch"
+msgstr ""
+
+#: kwin/effects/flipswitch/flipswitch.desktop:72
+msgctxt "Comment"
+msgid ""
+"Flip through windows that are in a stack for the alt+tab window switcher"
+msgstr ""
+
+#: kwin/effects/glide/glide_config.desktop:9
+#: kwin/effects/glide/glide.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Glines"
+msgctxt "Name"
+msgid "Glide"
+msgstr "Glines"
+
+#: kwin/effects/glide/glide.desktop:62
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Make windows explode when they are closed"
+msgctxt "Comment"
+msgid "Windows Glide Effect as they are open and closed"
+msgstr "Vokny začyniajucca z vybucham."
+
+#: kwin/effects/highlightwindow/highlightwindow.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Duplicate Window"
+msgctxt "Name"
+msgid "Highlight Window"
+msgstr "Skapijuj akno"
+
+#: kwin/effects/highlightwindow/highlightwindow.desktop:71
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Display window thumbnails when hovering over taskbar entries"
+msgctxt "Comment"
+msgid "Highlight the appropriate window when hovering over taskbar entries"
+msgstr ""
+"Pakazvaje padhlady akon, kali kursor nad adpaviednym zadańniem u paneli."
+
+#: kwin/effects/invert/invert_config.desktop:9
+#: kwin/effects/invert/invert.desktop:2
+msgctxt "Name"
+msgid "Invert"
+msgstr "Invercyja"
+
+#: kwin/effects/invert/invert.desktop:84
+msgctxt "Comment"
+msgid "Inverts the color of the desktop and windows"
+msgstr "Invertuje kolery stała j akon"
+
+#: kwin/effects/kwineffect.desktop:5
+msgctxt "Comment"
+msgid "KWin Effect"
+msgstr "Efekty akońnika „KWin”"
+
+#: kwin/effects/login/login.desktop:2
+msgctxt "Name"
+msgid "Login"
+msgstr "Uvachod"
+
+#: kwin/effects/login/login.desktop:88
+msgctxt "Comment"
+msgid "Smoothly fade to the desktop when logging in"
+msgstr ""
+
+#: kwin/effects/logout/logout.desktop:2
+msgctxt "Name"
+msgid "Logout"
+msgstr "Vychad"
+
+#: kwin/effects/logout/logout.desktop:88
+msgctxt "Comment"
+msgid "Desaturate the desktop when displaying the logout dialog"
+msgstr ""
+
+#: kwin/effects/lookingglass/lookingglass_config.desktop:9
+#: kwin/effects/lookingglass/lookingglass.desktop:2
+msgctxt "Name"
+msgid "Looking Glass"
+msgstr "Looking Glass"
+
+#: kwin/effects/lookingglass/lookingglass.desktop:78
+msgctxt "Comment"
+msgid "A screen magnifier that looks like a fisheye lens"
+msgstr ""
+
+#: kwin/effects/magiclamp/magiclamp_config.desktop:9
+#: kwin/effects/magiclamp/magiclamp.desktop:2
+msgctxt "Name"
+msgid "Magic Lamp"
+msgstr "Mahičnaja lampa"
+
+#: kwin/effects/magiclamp/magiclamp.desktop:74
+msgctxt "Comment"
+msgid "Simulate a magic lamp when minimizing windows"
+msgstr "Minimalizuje vokny ŭ mahičnuju lampu."
+
+#: kwin/effects/magnifier/magnifier_config.desktop:9
+#: kwin/effects/magnifier/magnifier.desktop:2
+msgctxt "Name"
+msgid "Magnifier"
+msgstr "Lupa"
+
+#: kwin/effects/magnifier/magnifier.desktop:87
+msgctxt "Comment"
+msgid "Magnify the section of the screen that is near the mouse cursor"
+msgstr "Pavialičvaje častku ekrana pad kursoram myšy."
+
+#: kwin/effects/minimizeanimation/minimizeanimation.desktop:2
+msgctxt "Name"
+msgid "Minimize Animation"
+msgstr "Animacyja minimalizacyi akna"
+
+#: kwin/effects/minimizeanimation/minimizeanimation.desktop:82
+msgctxt "Comment"
+msgid "Animate the minimizing of windows"
+msgstr "Animuje minimalizacyju akon."
+
+#: kwin/effects/mousemark/mousemark_config.desktop:9
+#: kwin/effects/mousemark/mousemark.desktop:2
+msgctxt "Name"
+msgid "Mouse Mark"
+msgstr "Malavańnie myššu"
+
+#: kwin/effects/mousemark/mousemark.desktop:82
+msgctxt "Comment"
+msgid "Allows you to draw lines on the desktop"
+msgstr "Uklučaje malavańnie rysaŭ na rabočym stale."
+
+#: kwin/effects/outline/outline.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Guinea"
+msgctxt "Name"
+msgid "Outline"
+msgstr "Gvineja"
+
+#: kwin/effects/outline/outline.desktop:48
+msgctxt "Comment"
+msgid "Helper effect to render an outline"
+msgstr ""
+
+#: kwin/effects/presentwindows/presentwindows_config.desktop:9
+#: kwin/effects/presentwindows/presentwindows.desktop:2
+msgctxt "Name"
+msgid "Present Windows"
+msgstr "Najaŭnyja vokny"
+
+#: kwin/effects/presentwindows/presentwindows.desktop:82
+msgctxt "Comment"
+msgid "Zoom out until all opened windows can be displayed side-by-side"
+msgstr ""
+
+#: kwin/effects/resize/resize_config.desktop:9
+#: kwin/effects/resize/resize.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Present Windows"
+msgctxt "Name"
+msgid "Resize Window"
+msgstr "Najaŭnyja vokny"
+
+#: kwin/effects/resize/resize.desktop:70
+msgctxt "Comment"
+msgid "Resizes windows with a fast texture scale instead of updating contents"
+msgstr ""
+
+#: kwin/effects/scalein/scalein.desktop:2
+msgctxt "Name"
+msgid "Scale In"
+msgstr ""
+
+#: kwin/effects/scalein/scalein.desktop:80
+msgctxt "Comment"
+msgid "Animate the appearing of windows"
+msgstr "Animuje źjaŭleńnie akon."
+
+#: kwin/effects/screenshot/screenshot.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screenshot"
+msgstr "Achoŭnik ekrana"
+
+#: kwin/effects/screenshot/screenshot.desktop:59
+msgctxt "Comment"
+msgid "Saves screenshot of active window into the home directory"
+msgstr ""
+
+#: kwin/effects/sheet/sheet.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Stylesheets"
+msgctxt "Name"
+msgid "Sheet"
+msgstr "Stylnyja arkušy"
+
+#: kwin/effects/sheet/sheet.desktop:71
+msgctxt "Comment"
+msgid ""
+"Make modal dialogs smoothly fly in and out when they are shown or hidden"
+msgstr ""
+
+#: kwin/effects/showfps/showfps_config.desktop:9
+#: kwin/effects/showfps/showfps.desktop:2
+msgctxt "Name"
+msgid "Show FPS"
+msgstr "Vyjaŭleńnie „FPS”"
+
+#: kwin/effects/showfps/showfps.desktop:83
+msgctxt "Comment"
+msgid "Display KWin's performance in the corner of the screen"
+msgstr ""
+
+#: kwin/effects/showpaint/showpaint.desktop:2
+msgctxt "Name"
+msgid "Show Paint"
+msgstr ""
+
+#: kwin/effects/showpaint/showpaint.desktop:79
+msgctxt "Comment"
+msgid "Highlight areas of the desktop that have been recently updated"
+msgstr ""
+
+#: kwin/effects/slideback/slideback.desktop:2
+msgctxt "Name"
+msgid "Slide Back"
+msgstr ""
+
+#: kwin/effects/slideback/slideback.desktop:71
+msgctxt "Comment"
+msgid "Slide back windows losing focus"
+msgstr ""
+
+#: kwin/effects/slide/slide.desktop:2
+msgctxt "Name"
+msgid "Slide"
+msgstr ""
+
+#: kwin/effects/slide/slide.desktop:73
+msgctxt "Comment"
+msgid "Slide windows across the screen when switching virtual desktops"
+msgstr ""
+
+#: kwin/effects/slidingpopups/slidingpopups.desktop:2
+msgctxt "Name"
+msgid "Sliding popups"
+msgstr ""
+
+#: kwin/effects/slidingpopups/slidingpopups.desktop:67
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "System information for Plasmoids"
+msgctxt "Comment"
+msgid "Sliding animation for Plasma popups"
+msgstr "Systemnyja źviestki dla widžetaŭ „Plasma”"
+
+#: kwin/effects/snaphelper/snaphelper.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Saint Helena"
+msgctxt "Name"
+msgid "Snap Helper"
+msgstr "Vyspa Śviatoj Aleny"
+
+#: kwin/effects/snaphelper/snaphelper.desktop:70
+msgctxt "Comment"
+msgid "Help you locate the center of the screen when moving a window."
+msgstr ""
+
+#: kwin/effects/startupfeedback/startupfeedback.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Launch Feedback"
+msgctxt "Name"
+msgid "Startup Feedback"
+msgstr "Vyjaŭleńnie ŭklučeńnia"
+
+#: kwin/effects/startupfeedback/startupfeedback.desktop:55
+msgctxt "Comment"
+msgid "Helper effect for startup feedback"
+msgstr ""
+
+#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:2
+msgctxt "Name"
+msgid "Taskbar Thumbnails"
+msgstr "Padhlady dla paneli zadańniaŭ"
+
+#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:78
+msgctxt "Comment"
+msgid "Display window thumbnails when hovering over taskbar entries"
+msgstr ""
+"Pakazvaje padhlady akon, kali kursor nad adpaviednym zadańniem u paneli."
+
 #: kwin/effects/_test/demo_liquid.desktop:2
 msgctxt "Name"
 msgid "Demo Liquid"
@@ -2504,8 +2960,8 @@ msgctxt "Comment"
 msgid "Demonstration effect for using EffectFrames"
 msgstr ""
 
-#: kwin/effects/_test/slidetabs/slidetabs.desktop:2
 #: kwin/effects/_test/slidetabs/slidetabs_config.desktop:9
+#: kwin/effects/_test/slidetabs/slidetabs.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Close Tab"
@@ -2518,8 +2974,8 @@ msgctxt "Comment"
 msgid "Slide windows when switching or grouping tabs."
 msgstr ""
 
-#: kwin/effects/_test/swiveltabs/swiveltabs.desktop:2
 #: kwin/effects/_test/swiveltabs/swiveltabs_config.desktop:9
+#: kwin/effects/_test/swiveltabs/swiveltabs.desktop:2
 msgctxt "Name"
 msgid "Swivel Tabs"
 msgstr ""
@@ -2544,8 +3000,8 @@ msgctxt "Name"
 msgid "Test_Thumbnail"
 msgstr ""
 
-#: kwin/effects/_test/videorecord.desktop:2
 #: kwin/effects/_test/videorecord_config.desktop:9
+#: kwin/effects/_test/videorecord.desktop:2
 msgctxt "Name"
 msgid "Video Record"
 msgstr "Videazapis"
@@ -2555,464 +3011,8 @@ msgctxt "Comment"
 msgid "Record a video of your desktop"
 msgstr "Zapisvaje videa z rabočaha stała."
 
-#: kwin/effects/blur/blur.desktop:2 kwin/effects/blur/blur_config.desktop:9
-msgctxt "Name"
-msgid "Blur"
-msgstr ""
-
-#: kwin/effects/blur/blur.desktop:85
-msgctxt "Comment"
-msgid "Blurs the background behind semi-transparent windows"
-msgstr ""
-
-#: kwin/effects/boxswitch/boxswitch.desktop:2
-#: kwin/effects/boxswitch/boxswitch_config.desktop:9
-msgctxt "Name"
-msgid "Box Switch"
-msgstr ""
-
-#: kwin/effects/boxswitch/boxswitch.desktop:79
-msgctxt "Comment"
-msgid "Display thumbnails of windows in the alt+tab window switcher"
-msgstr ""
-"Pakazvaj padhlady akon u pieraklučniku, jaki vyklikajecca skarotam „Alt+Tab”"
-
-#: kwin/effects/coverswitch/coverswitch.desktop:2
-#: kwin/effects/coverswitch/coverswitch_config.desktop:9
-msgctxt "Name"
-msgid "Cover Switch"
-msgstr ""
-
-#: kwin/effects/coverswitch/coverswitch.desktop:73
-msgctxt "Comment"
-msgid "Display a Cover Flow effect for the alt+tab window switcher"
-msgstr ""
-
-#: kwin/effects/cube/cube.desktop:2 kwin/effects/cube/cube_config.desktop:9
-msgctxt "Name"
-msgid "Desktop Cube"
-msgstr "Rabočy kub"
-
-#: kwin/effects/cube/cube.desktop:79
-msgctxt "Comment"
-msgid "Display each virtual desktop on a side of a cube"
-msgstr "Pakazvaje virtualnyja rabočyja stały na bakoch kuba"
-
-#: kwin/effects/cube/cubeslide.desktop:2
-#: kwin/effects/cube/cubeslide_config.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Cube"
-msgctxt "Name"
-msgid "Desktop Cube Animation"
-msgstr "Rabočy kub"
-
-#: kwin/effects/cube/cubeslide.desktop:70
-msgctxt "Comment"
-msgid "Animate desktop switching with a cube"
-msgstr ""
-
-#: kwin/effects/dashboard/dashboard.desktop:2
-#: kwin/effects/dashboard/dashboard_config.desktop:9
-#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:2
-msgctxt "Name"
-msgid "Dashboard"
-msgstr "Dashboard"
-
-#: kwin/effects/dashboard/dashboard.desktop:77
-msgctxt "Comment"
-msgid "Desaturate the desktop when displaying the Plasma dashboard"
-msgstr ""
-
-#: kwin/effects/desktopgrid/desktopgrid.desktop:2
-#: kwin/effects/desktopgrid/desktopgrid_config.desktop:9
-msgctxt "Name"
-msgid "Desktop Grid"
-msgstr "Rabočaja sietka"
-
-#: kwin/effects/desktopgrid/desktopgrid.desktop:82
-msgctxt "Comment"
-msgid "Zoom out so all desktops are displayed side-by-side in a grid"
-msgstr ""
-
-#: kwin/effects/dialogparent/dialogparent.desktop:2
-msgctxt "Name"
-msgid "Dialog Parent"
-msgstr ""
-
-#: kwin/effects/dialogparent/dialogparent.desktop:79
-msgctxt "Comment"
-msgid "Darkens the parent window of the currently active dialog"
-msgstr ""
-
-#: kwin/effects/diminactive/diminactive.desktop:2
-#: kwin/effects/diminactive/diminactive_config.desktop:9
-msgctxt "Name"
-msgid "Dim Inactive"
-msgstr ""
-
-#: kwin/effects/diminactive/diminactive.desktop:78
-msgctxt "Comment"
-msgid "Darken inactive windows"
-msgstr ""
-
-#: kwin/effects/dimscreen/dimscreen.desktop:2
-msgctxt "Name"
-msgid "Dim Screen for Administrator Mode"
-msgstr ""
-
-#: kwin/effects/dimscreen/dimscreen.desktop:73
-msgctxt "Comment"
-msgid "Darkens the entire screen when requesting root privileges"
-msgstr ""
-
-#: kwin/effects/explosion/explosion.desktop:2
-msgctxt "Name"
-msgid "Explosion"
-msgstr "Vybuch"
-
-#: kwin/effects/explosion/explosion.desktop:84
-msgctxt "Comment"
-msgid "Make windows explode when they are closed"
-msgstr "Vokny začyniajucca z vybucham."
-
-#: kwin/effects/fade/fade.desktop:2
-msgctxt "Name"
-msgid "Fade"
-msgstr ""
-
-#: kwin/effects/fade/fade.desktop:83
-msgctxt "Comment"
-msgid "Make windows smoothly fade in and out when they are shown or hidden"
-msgstr ""
-
-#: kwin/effects/fadedesktop/fadedesktop.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "SaverDesktop"
-msgctxt "Name"
-msgid "Fade Desktop"
-msgstr "SaverDesktop"
-
-#: kwin/effects/fadedesktop/fadedesktop.desktop:69
-msgctxt "Comment"
-msgid "Fade between virtual desktops when switching between them"
-msgstr ""
-
-#: kwin/effects/fallapart/fallapart.desktop:2
-msgctxt "Name"
-msgid "Fall Apart"
-msgstr ""
-
-#: kwin/effects/fallapart/fallapart.desktop:78
-msgctxt "Comment"
-msgid "Closed windows fall into pieces"
-msgstr ""
-
-#: kwin/effects/flipswitch/flipswitch.desktop:2
-#: kwin/effects/flipswitch/flipswitch_config.desktop:9
-msgctxt "Name"
-msgid "Flip Switch"
-msgstr ""
-
-#: kwin/effects/flipswitch/flipswitch.desktop:72
-msgctxt "Comment"
-msgid ""
-"Flip through windows that are in a stack for the alt+tab window switcher"
-msgstr ""
-
-#: kwin/effects/glide/glide.desktop:2
-#: kwin/effects/glide/glide_config.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Glines"
-msgctxt "Name"
-msgid "Glide"
-msgstr "Glines"
-
-#: kwin/effects/glide/glide.desktop:62
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Make windows explode when they are closed"
-msgctxt "Comment"
-msgid "Windows Glide Effect as they are open and closed"
-msgstr "Vokny začyniajucca z vybucham."
-
-#: kwin/effects/highlightwindow/highlightwindow.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Duplicate Window"
-msgctxt "Name"
-msgid "Highlight Window"
-msgstr "Skapijuj akno"
-
-#: kwin/effects/highlightwindow/highlightwindow.desktop:71
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Display window thumbnails when hovering over taskbar entries"
-msgctxt "Comment"
-msgid "Highlight the appropriate window when hovering over taskbar entries"
-msgstr ""
-"Pakazvaje padhlady akon, kali kursor nad adpaviednym zadańniem u paneli."
-
-#: kwin/effects/invert/invert.desktop:2
-#: kwin/effects/invert/invert_config.desktop:9
-msgctxt "Name"
-msgid "Invert"
-msgstr "Invercyja"
-
-#: kwin/effects/invert/invert.desktop:84
-msgctxt "Comment"
-msgid "Inverts the color of the desktop and windows"
-msgstr "Invertuje kolery stała j akon"
-
-#: kwin/effects/kwineffect.desktop:5
-msgctxt "Comment"
-msgid "KWin Effect"
-msgstr "Efekty akońnika „KWin”"
-
-#: kwin/effects/login/login.desktop:2
-msgctxt "Name"
-msgid "Login"
-msgstr "Uvachod"
-
-#: kwin/effects/login/login.desktop:88
-msgctxt "Comment"
-msgid "Smoothly fade to the desktop when logging in"
-msgstr ""
-
-#: kwin/effects/logout/logout.desktop:2
-msgctxt "Name"
-msgid "Logout"
-msgstr "Vychad"
-
-#: kwin/effects/logout/logout.desktop:88
-msgctxt "Comment"
-msgid "Desaturate the desktop when displaying the logout dialog"
-msgstr ""
-
-#: kwin/effects/lookingglass/lookingglass.desktop:2
-#: kwin/effects/lookingglass/lookingglass_config.desktop:9
-msgctxt "Name"
-msgid "Looking Glass"
-msgstr "Looking Glass"
-
-#: kwin/effects/lookingglass/lookingglass.desktop:78
-msgctxt "Comment"
-msgid "A screen magnifier that looks like a fisheye lens"
-msgstr ""
-
-#: kwin/effects/magiclamp/magiclamp.desktop:2
-#: kwin/effects/magiclamp/magiclamp_config.desktop:9
-msgctxt "Name"
-msgid "Magic Lamp"
-msgstr "Mahičnaja lampa"
-
-#: kwin/effects/magiclamp/magiclamp.desktop:74
-msgctxt "Comment"
-msgid "Simulate a magic lamp when minimizing windows"
-msgstr "Minimalizuje vokny ŭ mahičnuju lampu."
-
-#: kwin/effects/magnifier/magnifier.desktop:2
-#: kwin/effects/magnifier/magnifier_config.desktop:9
-msgctxt "Name"
-msgid "Magnifier"
-msgstr "Lupa"
-
-#: kwin/effects/magnifier/magnifier.desktop:87
-msgctxt "Comment"
-msgid "Magnify the section of the screen that is near the mouse cursor"
-msgstr "Pavialičvaje častku ekrana pad kursoram myšy."
-
-#: kwin/effects/minimizeanimation/minimizeanimation.desktop:2
-msgctxt "Name"
-msgid "Minimize Animation"
-msgstr "Animacyja minimalizacyi akna"
-
-#: kwin/effects/minimizeanimation/minimizeanimation.desktop:82
-msgctxt "Comment"
-msgid "Animate the minimizing of windows"
-msgstr "Animuje minimalizacyju akon."
-
-#: kwin/effects/mousemark/mousemark.desktop:2
-#: kwin/effects/mousemark/mousemark_config.desktop:9
-msgctxt "Name"
-msgid "Mouse Mark"
-msgstr "Malavańnie myššu"
-
-#: kwin/effects/mousemark/mousemark.desktop:82
-msgctxt "Comment"
-msgid "Allows you to draw lines on the desktop"
-msgstr "Uklučaje malavańnie rysaŭ na rabočym stale."
-
-#: kwin/effects/outline/outline.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Guinea"
-msgctxt "Name"
-msgid "Outline"
-msgstr "Gvineja"
-
-#: kwin/effects/outline/outline.desktop:48
-msgctxt "Comment"
-msgid "Helper effect to render an outline"
-msgstr ""
-
-#: kwin/effects/presentwindows/presentwindows.desktop:2
-#: kwin/effects/presentwindows/presentwindows_config.desktop:9
-msgctxt "Name"
-msgid "Present Windows"
-msgstr "Najaŭnyja vokny"
-
-#: kwin/effects/presentwindows/presentwindows.desktop:82
-msgctxt "Comment"
-msgid "Zoom out until all opened windows can be displayed side-by-side"
-msgstr ""
-
-#: kwin/effects/resize/resize.desktop:2
-#: kwin/effects/resize/resize_config.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Present Windows"
-msgctxt "Name"
-msgid "Resize Window"
-msgstr "Najaŭnyja vokny"
-
-#: kwin/effects/resize/resize.desktop:70
-msgctxt "Comment"
-msgid "Resizes windows with a fast texture scale instead of updating contents"
-msgstr ""
-
-#: kwin/effects/scalein/scalein.desktop:2
-msgctxt "Name"
-msgid "Scale In"
-msgstr ""
-
-#: kwin/effects/scalein/scalein.desktop:80
-msgctxt "Comment"
-msgid "Animate the appearing of windows"
-msgstr "Animuje źjaŭleńnie akon."
-
-#: kwin/effects/screenshot/screenshot.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screenshot"
-msgstr "Achoŭnik ekrana"
-
-#: kwin/effects/screenshot/screenshot.desktop:59
-msgctxt "Comment"
-msgid "Saves screenshot of active window into the home directory"
-msgstr ""
-
-#: kwin/effects/sheet/sheet.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Stylesheets"
-msgctxt "Name"
-msgid "Sheet"
-msgstr "Stylnyja arkušy"
-
-#: kwin/effects/sheet/sheet.desktop:71
-msgctxt "Comment"
-msgid ""
-"Make modal dialogs smoothly fly in and out when they are shown or hidden"
-msgstr ""
-
-#: kwin/effects/showfps/showfps.desktop:2
-#: kwin/effects/showfps/showfps_config.desktop:9
-msgctxt "Name"
-msgid "Show FPS"
-msgstr "Vyjaŭleńnie „FPS”"
-
-#: kwin/effects/showfps/showfps.desktop:83
-msgctxt "Comment"
-msgid "Display KWin's performance in the corner of the screen"
-msgstr ""
-
-#: kwin/effects/showpaint/showpaint.desktop:2
-msgctxt "Name"
-msgid "Show Paint"
-msgstr ""
-
-#: kwin/effects/showpaint/showpaint.desktop:79
-msgctxt "Comment"
-msgid "Highlight areas of the desktop that have been recently updated"
-msgstr ""
-
-#: kwin/effects/slide/slide.desktop:2
-msgctxt "Name"
-msgid "Slide"
-msgstr ""
-
-#: kwin/effects/slide/slide.desktop:73
-msgctxt "Comment"
-msgid "Slide windows across the screen when switching virtual desktops"
-msgstr ""
-
-#: kwin/effects/slideback/slideback.desktop:2
-msgctxt "Name"
-msgid "Slide Back"
-msgstr ""
-
-#: kwin/effects/slideback/slideback.desktop:71
-msgctxt "Comment"
-msgid "Slide back windows losing focus"
-msgstr ""
-
-#: kwin/effects/slidingpopups/slidingpopups.desktop:2
-msgctxt "Name"
-msgid "Sliding popups"
-msgstr ""
-
-#: kwin/effects/slidingpopups/slidingpopups.desktop:67
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "System information for Plasmoids"
-msgctxt "Comment"
-msgid "Sliding animation for Plasma popups"
-msgstr "Systemnyja źviestki dla widžetaŭ „Plasma”"
-
-#: kwin/effects/snaphelper/snaphelper.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Saint Helena"
-msgctxt "Name"
-msgid "Snap Helper"
-msgstr "Vyspa Śviatoj Aleny"
-
-#: kwin/effects/snaphelper/snaphelper.desktop:70
-msgctxt "Comment"
-msgid "Help you locate the center of the screen when moving a window."
-msgstr ""
-
-#: kwin/effects/startupfeedback/startupfeedback.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Launch Feedback"
-msgctxt "Name"
-msgid "Startup Feedback"
-msgstr "Vyjaŭleńnie ŭklučeńnia"
-
-#: kwin/effects/startupfeedback/startupfeedback.desktop:55
-msgctxt "Comment"
-msgid "Helper effect for startup feedback"
-msgstr ""
-
-#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:2
-msgctxt "Name"
-msgid "Taskbar Thumbnails"
-msgstr "Padhlady dla paneli zadańniaŭ"
-
-#: kwin/effects/taskbarthumbnail/taskbarthumbnail.desktop:78
-msgctxt "Comment"
-msgid "Display window thumbnails when hovering over taskbar entries"
-msgstr ""
-"Pakazvaje padhlady akon, kali kursor nad adpaviednym zadańniem u paneli."
-
-#: kwin/effects/thumbnailaside/thumbnailaside.desktop:2
 #: kwin/effects/thumbnailaside/thumbnailaside_config.desktop:9
+#: kwin/effects/thumbnailaside/thumbnailaside.desktop:2
 msgctxt "Name"
 msgid "Thumbnail Aside"
 msgstr "Padhlady akon"
@@ -3022,8 +3022,8 @@ msgctxt "Comment"
 msgid "Display window thumbnails on the edge of the screen"
 msgstr "Pakazvaje padhlady akon na krai ekrana."
 
-#: kwin/effects/trackmouse/trackmouse.desktop:2
 #: kwin/effects/trackmouse/trackmouse_config.desktop:9
+#: kwin/effects/trackmouse/trackmouse.desktop:2
 msgctxt "Name"
 msgid "Track Mouse"
 msgstr "Vyjaŭleńnie kursora"
@@ -3033,8 +3033,8 @@ msgctxt "Comment"
 msgid "Display a mouse cursor locating effect when activated"
 msgstr "Vyjaŭlaje miesca kursora."
 
-#: kwin/effects/translucency/translucency.desktop:2
 #: kwin/effects/translucency/translucency_config.desktop:9
+#: kwin/effects/translucency/translucency.desktop:2
 msgctxt "Name"
 msgid "Translucency"
 msgstr "Prazrystaść"
@@ -3044,8 +3044,8 @@ msgctxt "Comment"
 msgid "Make windows translucent under different conditions"
 msgstr "Robić vokny prazrystymi dla peŭnych umovaŭ"
 
-#: kwin/effects/windowgeometry/windowgeometry.desktop:3
 #: kwin/effects/windowgeometry/windowgeometry_config.desktop:9
+#: kwin/effects/windowgeometry/windowgeometry.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Move Start"
@@ -3058,8 +3058,8 @@ msgctxt "Comment"
 msgid "Display window geometries on move/resize"
 msgstr ""
 
-#: kwin/effects/wobblywindows/wobblywindows.desktop:2
 #: kwin/effects/wobblywindows/wobblywindows_config.desktop:9
+#: kwin/effects/wobblywindows/wobblywindows.desktop:2
 msgctxt "Name"
 msgid "Wobbly Windows"
 msgstr "Skryŭleńnie akon"
@@ -3069,7 +3069,7 @@ msgctxt "Comment"
 msgid "Deform windows while they are moving"
 msgstr "Skryŭlaje vokny padčas pierasoŭvańnia."
 
-#: kwin/effects/zoom/zoom.desktop:2 kwin/effects/zoom/zoom_config.desktop:9
+#: kwin/effects/zoom/zoom_config.desktop:9 kwin/effects/zoom/zoom.desktop:2
 msgctxt "Name"
 msgid "Zoom"
 msgstr "Maštab"
@@ -3890,22 +3890,6 @@ msgctxt "Comment"
 msgid "Plasmoid to show list of opened windows."
 msgstr ""
 
-#: plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop"
-msgctxt "Name|plasma containment"
-msgid "Desktop"
-msgstr "Rabočy stoł"
-
-#: plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:71
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Default desktop containment"
-msgctxt "Comment"
-msgid "Default desktop"
-msgstr "Zmoŭčanaje jomišča dla rabočaha stała"
-
 #: plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -3921,6 +3905,22 @@ msgstr "Dashboard"
 msgctxt "Comment"
 msgid "Widget Dashboard"
 msgstr "Dashboard"
+
+#: plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
+msgctxt "Name|plasma containment"
+msgid "Desktop"
+msgstr "Rabočy stoł"
+
+#: plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:71
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Default desktop containment"
+msgctxt "Comment"
+msgid "Default desktop"
+msgstr "Zmoŭčanaje jomišča dla rabočaha stała"
 
 #: plasma/desktop/containments/panel/plasma-containment-panel.desktop:2
 #, fuzzy
@@ -3947,15 +3947,6 @@ msgstr "Rabočy abšar stała „Plasma”"
 msgctxt "Comment"
 msgid "Interact with the Plasma desktop shell"
 msgstr ""
-
-#: plasma/desktop/shell/data/layouts/org.kde.plasma-desktop.SaL/metadata.desktop:3
-#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Search Engine"
-msgctxt "Name"
-msgid "Search and Launch"
-msgstr "Systema pošuku"
 
 #: plasma/desktop/shell/data/layouts/org.kde.plasma-desktop.defaultPanel/metadata.desktop:3
 #, fuzzy
@@ -3985,6 +3976,15 @@ msgstr "Vokny"
 msgctxt "Name"
 msgid "Photos Activity"
 msgstr ""
+
+#: plasma/desktop/shell/data/layouts/org.kde.plasma-desktop.SaL/metadata.desktop:3
+#: plasma/netbook/containments/sal/plasma-containment-sal.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Search Engine"
+msgctxt "Name"
+msgid "Search and Launch"
+msgstr "Systema pošuku"
 
 #: plasma/desktop/shell/data/plasma-desktop.desktop:4
 msgctxt "Name"
@@ -4883,6 +4883,14 @@ msgctxt "Comment"
 msgid "Calculate expressions"
 msgstr "Padlik vyrazaŭ."
 
+#: plasma/generic/runners/kill/plasma-runner-kill_config.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Applications"
+msgctxt "Name"
+msgid "Kill Applications"
+msgstr "Aplikacyi KDE"
+
 #: plasma/generic/runners/kill/plasma-runner-kill.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -4895,14 +4903,6 @@ msgstr "Terminalnyja aplikacyi"
 msgctxt "Comment"
 msgid "Stop applications that are currently running"
 msgstr ""
-
-#: plasma/generic/runners/kill/plasma-runner-kill_config.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KDE Applications"
-msgctxt "Name"
-msgid "Kill Applications"
-msgstr "Aplikacyi KDE"
 
 #: plasma/generic/runners/locations/plasma-runner-locations.desktop:2
 msgctxt "Name"

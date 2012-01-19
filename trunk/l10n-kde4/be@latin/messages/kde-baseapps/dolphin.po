@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-18 04:14+0100\n"
+"POT-Creation-Date: 2012-01-19 03:45+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1193,24 +1193,6 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "Nieviadomy pamier"
 
-#: views/dolphinremoteencoding.cpp:53
-msgid "Select Remote Charset"
-msgstr ""
-
-#: views/dolphinremoteencoding.cpp:117
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Reload"
-msgid "Reload"
-msgstr "Pieračytaj"
-
-#: views/dolphinremoteencoding.cpp:118
-#, fuzzy
-#| msgctxt "@label:listbox"
-#| msgid "Default:"
-msgid "Default"
-msgstr "Zmoŭčany:"
-
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 #, fuzzy
 #| msgctxt "@label"
@@ -1311,6 +1293,24 @@ msgstr "Miesca pustoje."
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Miesca „%1” niapravilnaje."
+
+#: views/dolphinremoteencoding.cpp:53
+msgid "Select Remote Charset"
+msgstr ""
+
+#: views/dolphinremoteencoding.cpp:117
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Reload"
+msgid "Reload"
+msgstr "Pieračytaj"
+
+#: views/dolphinremoteencoding.cpp:118
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Default:"
+msgid "Default"
+msgstr "Zmoŭčany:"
 
 #: views/dolphinviewactionhandler.cpp:92
 #, fuzzy

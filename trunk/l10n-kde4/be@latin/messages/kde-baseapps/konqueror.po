@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-10 04:05+0100\n"
+"POT-Creation-Date: 2012-01-28 04:12+0100\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -628,60 +628,6 @@ msgstr "Anulavać źmieny?"
 msgid "&Discard Changes"
 msgstr "&Anuluj źmieny"
 
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju "
-"kartku, klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. "
-"Tekst na kartcy aznačaje jejnaje źmieściva. Kab ubačyć poŭnuju nazvu, "
-"źmiaści kursor myšy na patrebnaj kartcy."
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "Adčyni novuju kartku"
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "Začyni hetuju kartku"
-
-#: src/konqtabs.cpp:326 src/konqmainwindow.cpp:3683
-msgid "&Reload All Tabs"
-msgstr "&Pieračytaj usie kartki"
-
-#: src/konqtabs.cpp:349 src/konqmainwindow.cpp:2496
-#: src/konqmainwindow.cpp:3621
-msgid "Close &Other Tabs"
-msgstr "Začyni &inšyja kartki"
-
-#: src/konqtabs.cpp:460 src/konqmainwindow.cpp:3594
-msgid "&New Tab"
-msgstr "&Novaja kartka"
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr "&Skapijuj kartku"
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr "&Pieračytaj kartku"
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr "Inšyja kartki"
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr "&Adčapi kartku"
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "&Začyni kartku"
-
 #: src/konqview.cpp:1203
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -800,6 +746,11 @@ msgstr "Sapraŭdy začynić usie inšyja kartki?"
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "Paćviardžeńnie začynieńnia inšych kartak"
+
+#: src/konqmainwindow.cpp:2496 src/konqmainwindow.cpp:3621
+#: src/konqtabs.cpp:352
+msgid "Close &Other Tabs"
+msgstr "Začyni &inšyja kartki"
 
 #: src/konqmainwindow.cpp:2511
 msgid ""
@@ -944,6 +895,10 @@ msgstr "Padziali prahlad &vertykalna"
 msgid "Split View &Top/Bottom"
 msgstr "Padziali prahlad &haryzantalna"
 
+#: src/konqmainwindow.cpp:3594 src/konqtabs.cpp:463
+msgid "&New Tab"
+msgstr "&Novaja kartka"
+
 #: src/konqmainwindow.cpp:3600
 msgid "&Duplicate Current Tab"
 msgstr "&Skapijuj hetuju kartku"
@@ -996,6 +951,10 @@ msgstr "&Adčytaj profil prahladu"
 #: src/konqmainwindow.cpp:3678 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "&Pieračytaj"
+
+#: src/konqmainwindow.cpp:3683 src/konqtabs.cpp:329
+msgid "&Reload All Tabs"
+msgstr "&Pieračytaj usie kartki"
 
 #: src/konqmainwindow.cpp:3691
 msgid "&Force Reload"
@@ -1337,6 +1296,47 @@ msgid ""
 msgstr ""
 "Uźnikła pamyłka ŭ naładžvańni. Ty pryviazaŭ prahramu „Konqueror” da „%1”, "
 "ale jana nia ŭmieje absłuhoŭvać fajłaŭ takoha typu."
+
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+"Hetaja panel źmiaščaje śpis adčynienych kartak. Kab pieraklučyć u peŭnuju "
+"kartku, klikni ŭ jaje. Ty možaš pieraklučać kartki klavijaturnymi skarotami. "
+"Tekst na kartcy aznačaje jejnaje źmieściva. Kab ubačyć poŭnuju nazvu, "
+"źmiaści kursor myšy na patrebnaj kartcy."
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr "Adčyni novuju kartku"
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr "Začyni hetuju kartku"
+
+#: src/konqtabs.cpp:468
+msgid "&Duplicate Tab"
+msgstr "&Skapijuj kartku"
+
+#: src/konqtabs.cpp:473
+msgid "&Reload Tab"
+msgstr "&Pieračytaj kartku"
+
+#: src/konqtabs.cpp:480
+msgid "Other Tabs"
+msgstr "Inšyja kartki"
+
+#: src/konqtabs.cpp:485
+msgid "D&etach Tab"
+msgstr "&Adčapi kartku"
+
+#: src/konqtabs.cpp:491
+msgid "&Close Tab"
+msgstr "&Začyni kartku"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy

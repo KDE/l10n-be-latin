@@ -1,0 +1,200 @@
+# translation of solid-network.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: solid-network\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-08-02 05:40+0200\n"
+"PO-Revision-Date: 2008-12-27 01:28+0200\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: solid-network.cpp:53
+msgid "solid-network"
+msgstr "solid-network"
+
+#: solid-network.cpp:55
+msgid ""
+"KDE tool for querying and controlling your network interfaces from the "
+"command line"
+msgstr ""
+"Prahrama „KDE” dla zapytańniaŭ i kiravańnia sietkavymi interfejsami z "
+"zahadnaha radka"
+
+#: solid-network.cpp:365
+msgid "Syntax Error: Not enough arguments"
+msgstr "Syntaksnaja pamyłka: nie staje arhumentaŭ"
+
+#: solid-network.cpp:371
+msgid "Syntax Error: Too many arguments"
+msgstr "Syntaksnaja pamyłka: zašmat arhumentaŭ"
+
+#: solid-network.cpp:383
+msgid "Show available commands by domains"
+msgstr "Pakažy mahčymyja zahady pavodle damenaŭ"
+
+#: solid-network.cpp:385
+msgid "Command (see --commands)"
+msgstr "Zahad (hlań „--commands”)"
+
+#: solid-network.cpp:387
+msgid "Arguments for command"
+msgstr "Arhumenty dla zahadu"
+
+#: solid-network.cpp:399
+msgid "Syntax:"
+msgstr "Syntaks:"
+
+#: solid-network.cpp:402
+msgid "             # List the network devices present.\n"
+msgstr "             # Pakažy najaŭnyja sietkavyja pryłady.\n"
+
+#: solid-network.cpp:405
+msgid ""
+"             # List the networks known to the device specified by 'uni'.\n"
+msgstr ""
+"             # Pakažy śpis sietak, viadomych pryładzie z peŭnym „uni”.\n"
+
+#: solid-network.cpp:408
+msgid ""
+"             # Query whether networking features are active or not.\n"
+"             # - If the 'status' option is given, return whether\n"
+"             # networking is enabled for the system\n"
+"             # - If the 'wireless' option is given, return whether\n"
+"             # wireless is enabled for the system\n"
+"             # - If the 'wireless-hardware' option is given,\n"
+"             #  return whether the wireless hardware is enabled\n"
+"             # - If the 'interface' option is given, print the\n"
+"             # properties of the network interface that 'uni' refers to.\n"
+"             # - If the 'network' option is given, print the\n"
+"             # properties of the network on 'device-uni' that 'network-uni' "
+"refers to.\n"
+msgstr ""
+"             # Zapytaj, ci ŭklučanyja sietkavyja mahčymaści.\n"
+"             # - Kali padadzienaja opcyja „status”, viartaje vartaść,\n"
+"             # jakaja vyznačaje, ci ŭklučanaje ŭ systemie absłuhoŭvańnie "
+"sietki\n"
+"             # - Kali padadzienaja opcyja „wireless”, viartaje vartaść,\n"
+"             # jakaja vyznačaje, ci ŭklučanaje ŭ systemie absłuhoŭvańnie "
+"biazdrotavych sietak\n"
+"             # - Kali padadzienaja opcyja „wireless-hardware”, viartaje "
+"vartaść,\n"
+"             #  jakaja vyznačaje, ci ŭklučanaja aparatura dla absłuhoŭvańnia "
+"biazdrotavych sietak\n"
+"             # - Kali padadzienaja opcyja „interface”, pakazvaje "
+"ŭłaścivaści\n"
+"             # sietkavaha interfejsu z aznačanym „uni”.\n"
+"             # - Kali padadzienaja opcyja „network”, pakazvaje ŭłaścivaści\n"
+"             # sietki dla sietki „network-uni”, na pryładzie „device-uni”.\n"
+
+#: solid-network.cpp:421 solid-network.cpp:424
+msgid "             # Enable or disable networking on this system.\n"
+msgstr ""
+"             # Uklučy albo vyklučy absłuhoŭvańnie sietki ŭ hetaj systemie.\n"
+
+#: solid-network.cpp:427
+msgid ""
+"             # Activate the network 'network-uni' on 'device-uni'.\n"
+"             # Optionally, use WEP128, open-system encryption with hex key "
+"'key'. (Hardcoded)\n"
+"             # Where 'authentication' is one of:\n"
+"             # wep hex64|ascii64|hex128|ascii128|passphrase64|passphrase128 "
+"'key' [open|shared]\n"
+"             # wpapsk wpa|wpa2 tkip|ccmp-aes password\n"
+"             # wpaeap UNIMPLEMENTED IN SOLIDSHELL\n"
+msgstr ""
+"             # Zadziejničaj sietku „network-uni” na pryładzie „device-uni”.\n"
+"             # Dadatkova možna padać parol „WEP128” (žorstka pryznačany)\n"
+"             # Mahčymaja aŭtaryzacyja:\n"
+"             # wep hex64|ascii64|hex128|ascii128|passphrase64|passphrase128 "
+"'key' [open|shared]\n"
+"             # wpapsk wpa|wpa2 tkip|ccmp-aes password\n"
+"             # wpaeap NIAMA Ŭ ABAŁONCY SOLIDSHELL\n"
+
+#: solid-network.cpp:477 solid-network.cpp:497 solid-network.cpp:516
+#, kde-format
+msgid "Syntax Error: Unknown option '%1'"
+msgstr "Syntaksnaja pamyłka: nieviadomaja opcyja „%1”"
+
+#: solid-network.cpp:527
+msgid "Not implemented"
+msgstr "Pakul nie absłuhoŭvajecca"
+
+#: solid-network.cpp:578
+#, kde-format
+msgid "Unrecognised WEP type '%1'"
+msgstr "Nieviadomy typ „WEP” „%1”"
+
+#: solid-network.cpp:594
+#, kde-format
+msgid "Unrecognised WEP method '%1'"
+msgstr "Nieviadomy metad „WEP” „%1”"
+
+#: solid-network.cpp:611
+#, kde-format
+msgid "Unrecognised WPA version '%1'"
+msgstr "Nieviadomaja versija „WPA” „%1”"
+
+#: solid-network.cpp:622
+#, kde-format
+msgid "Unrecognised WPA encryption protocol '%1'"
+msgstr "Nieviadomy pratakoł šyfravańnia „WPA” „%1”"
+
+#: solid-network.cpp:633
+#, kde-format
+msgid "Unimplemented auth scheme '%1'"
+msgstr "Schiema aŭtaryzacyi „%1”, jakaja nie absłuhoŭvajecca"
+
+#: solid-network.cpp:650
+#, kde-format
+msgid "Syntax Error: Unknown object '%1'"
+msgstr "Syntaksnaja pamyłka: nieviadomy abjekt „%1”"
+
+#: solid-network.cpp:666
+#, kde-format
+msgid "Syntax Error: Unknown command '%1'"
+msgstr "Syntaksnaja pamyłka: nieviadomy zahad „%1”"
+
+#: solid-network.cpp:675
+msgid "networking: is enabled"
+msgstr "absłuhoŭvańnie sietki: uklučanaje"
+
+#: solid-network.cpp:677
+msgid "networking: is not enabled"
+msgstr "absłuhoŭvańnie sietki: nia ŭklučanaje"
+
+#: solid-network.cpp:684
+msgid "wireless: is enabled"
+msgstr "absłuhoŭvańnie biazdrotavych sietak: uklučanaje"
+
+#: solid-network.cpp:686
+msgid "wireless: is not enabled"
+msgstr "absłuhoŭvańnie biazdrotavych sietak: nia ŭklučanaje"
+
+#: solid-network.cpp:693
+msgid "wireless hardware: is enabled"
+msgstr "aparatura dla biazdrotavych sietak: uklučanaja"
+
+#: solid-network.cpp:695
+msgid "wireless hardware: is not enabled"
+msgstr "aparatura dla biazdrotavych sietak: nia ŭklučanaja"
+
+#: solid-network.cpp:804
+#, kde-format
+msgid "Progress: %1%"
+msgstr "Prahres: %1%"
+
+#: solid-network.cpp:809
+#, kde-format
+msgid "Info: %1"
+msgstr "Źviestki: %1"

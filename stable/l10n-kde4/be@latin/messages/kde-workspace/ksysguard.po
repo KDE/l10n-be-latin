@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-08 03:51+0100\n"
+"POT-Creation-Date: 2012-01-29 13:35+0100\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,125 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: HostConnector.cpp:44
-msgid "Connect Host"
-msgstr "Spałučy host"
-
-#: HostConnector.cpp:55
-msgid "Host:"
-msgstr "Host:"
-
-#: HostConnector.cpp:65
-msgid "Enter the name of the host you want to connect to."
-msgstr "Upišy nazvu hosta, ź jakim chočaš spałučycca."
-
-#: HostConnector.cpp:71
-msgid "Connection Type"
-msgstr "Typ spałučeńnia"
-
-#: HostConnector.cpp:77
-msgid "ssh"
-msgstr "SSH"
-
-#: HostConnector.cpp:80
-msgid "Select this to use the secure shell to login to the remote host."
-msgstr ""
-"Vybiery hetuju opcyju, kali chočaš uvajści ŭ daloki host praź biaśpiečnuju "
-"abałonku „SSH”."
-
-#: HostConnector.cpp:83
-msgid "rsh"
-msgstr "RSH"
-
-#: HostConnector.cpp:84
-msgid "Select this to use the remote shell to login to the remote host."
-msgstr ""
-"Vybiery hetuju opcyju, kali chočaš uvajści ŭ daloki host praź abałonku „RSH”."
-
-#: HostConnector.cpp:87
-msgid "Daemon"
-msgstr "Słužba"
-
-#: HostConnector.cpp:88
-msgid ""
-"Select this if you want to connect to a ksysguard daemon that is running on "
-"the machine you want to connect to, and is listening for client requests."
-msgstr ""
-"Vybiery hetuju opcyju, kali chočaš spałučycca sa słužbaju „ksysguard”, "
-"jakaja pracuje na dalokim hoście j čakaje zvarotaŭ ad klijentaŭ."
-
-#: HostConnector.cpp:91
-msgid "Custom command"
-msgstr "Ułasny zahad"
-
-#: HostConnector.cpp:92
-msgid ""
-"Select this to use the command you entered below to start ksysguardd on the "
-"remote host."
-msgstr ""
-"Vybiery hetuju opcyju, kali chočaš uklučać słužbu „ksysguardd” na dalokim "
-"hoście hetym zahadam."
-
-#: HostConnector.cpp:95
-msgid "Port:"
-msgstr "Port:"
-
-#: HostConnector.cpp:102
-msgid ""
-"Enter the port number on which the ksysguard daemon is listening for "
-"connections."
-msgstr ""
-"Upišy numar porta, na jakim słužba „ksysguard” budzie čakać spałučeńniaŭ."
-
-#: HostConnector.cpp:105
-msgid "e.g.  3112"
-msgstr "naprykład, „3112”"
-
-#: HostConnector.cpp:108
-msgid "Command:"
-msgstr "Zahad:"
-
-#: HostConnector.cpp:117
-msgid "Enter the command that runs ksysguardd on the host you want to monitor."
-msgstr "Upišy zahad, jaki ŭklučaje słužbu „ksysguardd” na patrebnym hoście."
-
-#: HostConnector.cpp:121
-msgid "e.g. ssh -l root remote.host.org ksysguardd"
-msgstr "naprykład, „ssh -l root remote.host.org ksysguardd”"
-
-#: SensorBrowser.cpp:117
-msgid "Sensor Browser"
-msgstr "Sensary"
-
-#: SensorBrowser.cpp:474
-#, fuzzy
-#| msgid "Drag sensors to empty cells of a worksheet or the panel applet."
-msgid "Drag sensors to empty cells of a worksheet "
-msgstr ""
-"Pieraciahvaj sensary, kab vyzvalić miesca na rabočym arkušy albo ŭ aplecie "
-"dla paneli."
-
-#: SensorBrowser.cpp:475
-#, fuzzy
-#| msgid ""
-#| "The sensor browser lists the connected hosts and the sensors that they "
-#| "provide. Click and drag sensors into drop zones of a worksheet or the "
-#| "panel applet. A display will appear that visualizes the values provided "
-#| "by the sensor. Some sensor displays can display values of multiple "
-#| "sensors. Simply drag other sensors on to the display to add more sensors."
-msgid ""
-"The sensor browser lists the connected hosts and the sensors that they "
-"provide. Click and drag sensors into drop zones of a worksheet. A display "
-"will appear that visualizes the values provided by the sensor. Some sensor "
-"displays can display values of multiple sensors. Simply drag other sensors "
-"on to the display to add more sensors."
-msgstr ""
-"Tut źmiaščajecca śpis spałučanych hostaŭ dy inchnych sensaraŭ. Kali ty "
-"pieraciahnieš siudy sensar, tady ty jaho ŭbačyš tut i zmožaš ź jahonaj "
-"dapamohaju adsočvać źmieny ŭ systemie. Niekatoryja prahlady mohuć vyjaŭlać "
-"źviestki ź niekalkich sensaraŭ. Dziela hetaha prosta pieraciahvaj "
-"dadatkovyja sensary."
-
 #: SensorDisplayLib/DancingBars.cpp:96 SensorDisplayLib/FancyPlotter.cpp:283
 msgid "OK"
 msgstr "Ok"
@@ -146,6 +27,76 @@ msgstr "Ok"
 #: SensorDisplayLib/FancyPlotter.cpp:519 SensorDisplayLib/FancyPlotter.cpp:597
 msgid "Error"
 msgstr "Pamyłka"
+
+#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
+msgid "Drop Sensor Here"
+msgstr "Kiń siudy sensar"
+
+#: SensorDisplayLib/DummyDisplay.cpp:32
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+"Heta pusty abšar u rabočym arkušy. Kali ty pieraciahnieš siudy sensar, tady "
+"ty jaho ŭbačyš tut i zmožaš ź jahonaj dapamohaju adsočvać źmieny ŭ systemie."
+
+#: SensorDisplayLib/ListViewSettings.cpp:30
+msgid "List View Settings"
+msgstr "Nałady prahladu śpisam"
+
+#: SensorDisplayLib/MultiMeterSettings.cpp:31
+#, fuzzy
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "Nałady mnahamiernika"
+
+#: SensorDisplayLib/SensorDisplay.cpp:118
+#: SensorDisplayLib/SensorLogger.cpp:598
+msgid "&Properties"
+msgstr "&Ułaścivaści"
+
+#: SensorDisplayLib/SensorDisplay.cpp:123
+#: SensorDisplayLib/SensorLogger.cpp:603
+msgid "&Remove Display"
+msgstr "&Vydali prahlad"
+
+#: SensorDisplayLib/SensorDisplay.cpp:190
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
+"<qt><p>Heta prahlad sensara. Kab źmianić jaho, klikni siudy pravaj knopkaj "
+"myšy j vybiery punkt <i>Ułaścivaści</i> z uźnikłaha menu. Kab vydalić "
+"prahlad z rabočaha arkuša, vybiery punkt <i>Vydali</i>.</p>%1</qt>"
+
+#: SensorDisplayLib/SensorLoggerSettings.cpp:30
+msgid "Sensor Logger Settings"
+msgstr "Nałady zapisu logaŭ ad sensara"
+
+#: SensorDisplayLib/SensorModel.cpp:166
+msgid "Host"
+msgstr "Host"
+
+#: SensorDisplayLib/SensorModel.cpp:169
+msgid "Sensor"
+msgstr "Sensar"
+
+#: SensorDisplayLib/SensorModel.cpp:172
+msgid "Unit"
+msgstr "Adzinka"
+
+#: SensorDisplayLib/SensorModel.cpp:175
+msgid "Status"
+msgstr "Stan"
+
+#: SensorDisplayLib/SensorModel.cpp:178
+msgid "Label"
+msgstr "Podpis"
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:43
 msgid "Edit BarGraph Preferences"
@@ -321,19 +272,6 @@ msgstr "Podpis dla hrafika"
 #: SensorDisplayLib/DancingBarsSettings.cpp:367
 msgid "Enter new label:"
 msgstr "Padaj novy podpis:"
-
-#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
-msgid "Drop Sensor Here"
-msgstr "Kiń siudy sensar"
-
-#: SensorDisplayLib/DummyDisplay.cpp:32
-msgid ""
-"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
-"and drop it here. A sensor display will appear that allows you to monitor "
-"the values of the sensor over time."
-msgstr ""
-"Heta pusty abšar u rabočym arkušy. Kali ty pieraciahnieš siudy sensar, tady "
-"ty jaho ŭbačyš tut i zmožaš ź jahonaj dapamohaju adsočvać źmieny ŭ systemie."
 
 #: SensorDisplayLib/FancyPlotter.cpp:178
 msgctxt "Largest axis title"
@@ -560,73 +498,6 @@ msgstr "Pasuń vyšej"
 msgid "Move Down"
 msgstr "Pasuń nižej"
 
-#: SensorDisplayLib/ListViewSettings.cpp:30
-msgid "List View Settings"
-msgstr "Nałady prahladu śpisam"
-
-#: SensorDisplayLib/MultiMeterSettings.cpp:31
-#, fuzzy
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
-msgid "Multimeter Settings"
-msgstr "Nałady mnahamiernika"
-
-#: SensorDisplayLib/SensorDisplay.cpp:118
-#: SensorDisplayLib/SensorLogger.cpp:598
-msgid "&Properties"
-msgstr "&Ułaścivaści"
-
-#: SensorDisplayLib/SensorDisplay.cpp:123
-#: SensorDisplayLib/SensorLogger.cpp:603
-msgid "&Remove Display"
-msgstr "&Vydali prahlad"
-
-#: SensorDisplayLib/SensorDisplay.cpp:190
-#, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
-"<qt><p>Heta prahlad sensara. Kab źmianić jaho, klikni siudy pravaj knopkaj "
-"myšy j vybiery punkt <i>Ułaścivaści</i> z uźnikłaha menu. Kab vydalić "
-"prahlad z rabočaha arkuša, vybiery punkt <i>Vydali</i>.</p>%1</qt>"
-
-#: SensorDisplayLib/SensorLoggerSettings.cpp:30
-msgid "Sensor Logger Settings"
-msgstr "Nałady zapisu logaŭ ad sensara"
-
-#: SensorDisplayLib/SensorModel.cpp:166
-msgid "Host"
-msgstr "Host"
-
-#: SensorDisplayLib/SensorModel.cpp:169
-msgid "Sensor"
-msgstr "Sensar"
-
-#: SensorDisplayLib/SensorModel.cpp:172
-msgid "Unit"
-msgstr "Adzinka"
-
-#: SensorDisplayLib/SensorModel.cpp:175
-msgid "Status"
-msgstr "Stan"
-
-#: SensorDisplayLib/SensorModel.cpp:178
-msgid "Label"
-msgstr "Podpis"
-
-#: SensorDisplayLib/LogFile.cpp:92
-msgid "File logging settings"
-msgstr "Nałady fajła dla logaŭ"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:54
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:113
-msgid "Foreground color:"
-msgstr "Hałoŭny koler:"
-
 #: SensorDisplayLib/ListView.cpp:45
 #, fuzzy, kde-format
 #| msgctxt "a percentage"
@@ -690,6 +561,16 @@ msgstr ""
 msgid "Terabytes"
 msgstr "Temperatura"
 
+#: SensorDisplayLib/LogFile.cpp:92
+msgid "File logging settings"
+msgstr "Nałady fajła dla logaŭ"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:54
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:113
+msgid "Foreground color:"
+msgstr "Hałoŭny koler:"
+
 #: SensorDisplayLib/SensorLogger.cpp:138
 msgid "Logging"
 msgstr "Zapis logaŭ"
@@ -733,29 +614,6 @@ msgstr "&Spyni zapis logaŭ"
 msgid "S&tart Logging"
 msgstr "&Pačni zapisvać logi"
 
-#: TimerSettings.cpp:38
-msgid "Timer Settings"
-msgstr "Nałady hadzińnika"
-
-#: TimerSettings.cpp:48
-msgid "Use update interval of worksheet"
-msgstr "Zvažaj na termin aktualizacyi rabočaha arkuša"
-
-#: TimerSettings.cpp:51 WorkSheetSettings.cpp:90
-msgid "Update interval:"
-msgstr "Termin aktualizacyi:"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
-#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: TimerSettings.cpp:58 WorkSheetSettings.cpp:94 rc.cpp:65
-msgid " sec"
-msgstr " sek"
-
-#: TimerSettings.cpp:61 WorkSheetSettings.cpp:100
-msgid "All displays of the sheet are updated at the rate specified here."
-msgstr ""
-"Usie prahlady hetaha arkuša aktualizujucca z čaścinioju, aznačanaj tut."
-
 #: WorkSheetSettings.cpp:40
 msgid "Tab Properties"
 msgstr "Ułaścivaści kartki"
@@ -780,9 +638,220 @@ msgstr "Upišy kolkaść radkoŭ dla hetaha rabočaha arkuša."
 msgid "Enter the number of columns the sheet should have."
 msgstr "Upišy kolkaść słupkoŭ dla hetaha rabočaha arkuša."
 
+#: WorkSheetSettings.cpp:90 TimerSettings.cpp:51
+msgid "Update interval:"
+msgstr "Termin aktualizacyi:"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
+#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
+#: WorkSheetSettings.cpp:94 TimerSettings.cpp:58 rc.cpp:65
+msgid " sec"
+msgstr " sek"
+
+#: WorkSheetSettings.cpp:100 TimerSettings.cpp:61
+msgid "All displays of the sheet are updated at the rate specified here."
+msgstr ""
+"Usie prahlady hetaha arkuša aktualizujucca z čaścinioju, aznačanaj tut."
+
 #: WorkSheetSettings.cpp:101
 msgid "Enter the title of the worksheet here."
 msgstr "Tut upišy nazvu dla hetaha rabočaha arkuša."
+
+#: HostConnector.cpp:44
+msgid "Connect Host"
+msgstr "Spałučy host"
+
+#: HostConnector.cpp:55
+msgid "Host:"
+msgstr "Host:"
+
+#: HostConnector.cpp:65
+msgid "Enter the name of the host you want to connect to."
+msgstr "Upišy nazvu hosta, ź jakim chočaš spałučycca."
+
+#: HostConnector.cpp:71
+msgid "Connection Type"
+msgstr "Typ spałučeńnia"
+
+#: HostConnector.cpp:77
+msgid "ssh"
+msgstr "SSH"
+
+#: HostConnector.cpp:80
+msgid "Select this to use the secure shell to login to the remote host."
+msgstr ""
+"Vybiery hetuju opcyju, kali chočaš uvajści ŭ daloki host praź biaśpiečnuju "
+"abałonku „SSH”."
+
+#: HostConnector.cpp:83
+msgid "rsh"
+msgstr "RSH"
+
+#: HostConnector.cpp:84
+msgid "Select this to use the remote shell to login to the remote host."
+msgstr ""
+"Vybiery hetuju opcyju, kali chočaš uvajści ŭ daloki host praź abałonku „RSH”."
+
+#: HostConnector.cpp:87
+msgid "Daemon"
+msgstr "Słužba"
+
+#: HostConnector.cpp:88
+msgid ""
+"Select this if you want to connect to a ksysguard daemon that is running on "
+"the machine you want to connect to, and is listening for client requests."
+msgstr ""
+"Vybiery hetuju opcyju, kali chočaš spałučycca sa słužbaju „ksysguard”, "
+"jakaja pracuje na dalokim hoście j čakaje zvarotaŭ ad klijentaŭ."
+
+#: HostConnector.cpp:91
+msgid "Custom command"
+msgstr "Ułasny zahad"
+
+#: HostConnector.cpp:92
+msgid ""
+"Select this to use the command you entered below to start ksysguardd on the "
+"remote host."
+msgstr ""
+"Vybiery hetuju opcyju, kali chočaš uklučać słužbu „ksysguardd” na dalokim "
+"hoście hetym zahadam."
+
+#: HostConnector.cpp:95
+msgid "Port:"
+msgstr "Port:"
+
+#: HostConnector.cpp:102
+msgid ""
+"Enter the port number on which the ksysguard daemon is listening for "
+"connections."
+msgstr ""
+"Upišy numar porta, na jakim słužba „ksysguard” budzie čakać spałučeńniaŭ."
+
+#: HostConnector.cpp:105
+msgid "e.g.  3112"
+msgstr "naprykład, „3112”"
+
+#: HostConnector.cpp:108
+msgid "Command:"
+msgstr "Zahad:"
+
+#: HostConnector.cpp:117
+msgid "Enter the command that runs ksysguardd on the host you want to monitor."
+msgstr "Upišy zahad, jaki ŭklučaje słužbu „ksysguardd” na patrebnym hoście."
+
+#: HostConnector.cpp:121
+msgid "e.g. ssh -l root remote.host.org ksysguardd"
+msgstr "naprykład, „ssh -l root remote.host.org ksysguardd”"
+
+#: SensorBrowser.cpp:117
+msgid "Sensor Browser"
+msgstr "Sensary"
+
+#: SensorBrowser.cpp:474
+#, fuzzy
+#| msgid "Drag sensors to empty cells of a worksheet or the panel applet."
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr ""
+"Pieraciahvaj sensary, kab vyzvalić miesca na rabočym arkušy albo ŭ aplecie "
+"dla paneli."
+
+#: SensorBrowser.cpp:475
+#, fuzzy
+#| msgid ""
+#| "The sensor browser lists the connected hosts and the sensors that they "
+#| "provide. Click and drag sensors into drop zones of a worksheet or the "
+#| "panel applet. A display will appear that visualizes the values provided "
+#| "by the sensor. Some sensor displays can display values of multiple "
+#| "sensors. Simply drag other sensors on to the display to add more sensors."
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+"Tut źmiaščajecca śpis spałučanych hostaŭ dy inchnych sensaraŭ. Kali ty "
+"pieraciahnieš siudy sensar, tady ty jaho ŭbačyš tut i zmožaš ź jahonaj "
+"dapamohaju adsočvać źmieny ŭ systemie. Niekatoryja prahlady mohuć vyjaŭlać "
+"źviestki ź niekalkich sensaraŭ. Dziela hetaha prosta pieraciahvaj "
+"dadatkovyja sensary."
+
+#: TimerSettings.cpp:38
+msgid "Timer Settings"
+msgstr "Nałady hadzińnika"
+
+#: TimerSettings.cpp:48
+msgid "Use update interval of worksheet"
+msgstr "Zvažaj na termin aktualizacyi rabočaha arkuša"
+
+#: WorkSheet.cpp:88
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "Nie ŭdałosia adčynić fajł „%1”."
+
+#: WorkSheet.cpp:96
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "Fajł „%1” nie źmiaščaje słušnaha kodu „XML”."
+
+#: WorkSheet.cpp:103
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"Fajł „%1” nie źmiaščaje słušnaha aznačeńnia rabočaha arkuša, jaki pavinien "
+"mieć typ dakumentaŭ „KSysGuardWorkSheet”."
+
+#: WorkSheet.cpp:127
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "Fajł „%1” maje niasłušny pamier rabočaha arkuša."
+
+#: WorkSheet.cpp:228
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "Nie ŭdałosia zapisać fajł „%1”."
+
+#: WorkSheet.cpp:274
+msgid "The clipboard does not contain a valid display description."
+msgstr "Abmienny bufer nie źmiaščaje słušnaha apisańnia prahladu."
+
+#: WorkSheet.cpp:375
+msgid "Select Display Type"
+msgstr "Vybiery typ prahladu"
+
+#: WorkSheet.cpp:376
+msgid "&Line graph"
+msgstr "&Hrafik"
+
+#: WorkSheet.cpp:377
+msgid "&Digital display"
+msgstr "&Ličby"
+
+#: WorkSheet.cpp:378
+msgid "&Bar graph"
+msgstr "&Pałosy"
+
+#: WorkSheet.cpp:379
+msgid "Log to a &file"
+msgstr "Zapisvaj logi ŭ &fajł"
+
+#: WorkSheet.cpp:533
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove this display?"
+msgstr "&Vydali prahlad"
+
+#: WorkSheet.cpp:534
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove Display"
+msgstr "&Vydali prahlad"
+
+#: WorkSheet.cpp:575
+msgid "Dummy"
+msgstr "Pusty"
 
 #: Workspace.cpp:113
 #, kde-format
@@ -974,75 +1043,6 @@ msgstr ""
 #: ksysguard.cpp:551
 msgid "Optional worksheet files to load"
 msgstr "Dadatkovyja fajły rabočych arkušoŭ"
-
-#: WorkSheet.cpp:88
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "Nie ŭdałosia adčynić fajł „%1”."
-
-#: WorkSheet.cpp:96
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "Fajł „%1” nie źmiaščaje słušnaha kodu „XML”."
-
-#: WorkSheet.cpp:103
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-"Fajł „%1” nie źmiaščaje słušnaha aznačeńnia rabočaha arkuša, jaki pavinien "
-"mieć typ dakumentaŭ „KSysGuardWorkSheet”."
-
-#: WorkSheet.cpp:127
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr "Fajł „%1” maje niasłušny pamier rabočaha arkuša."
-
-#: WorkSheet.cpp:228
-#, kde-format
-msgid "Cannot save file %1"
-msgstr "Nie ŭdałosia zapisać fajł „%1”."
-
-#: WorkSheet.cpp:274
-msgid "The clipboard does not contain a valid display description."
-msgstr "Abmienny bufer nie źmiaščaje słušnaha apisańnia prahladu."
-
-#: WorkSheet.cpp:375
-msgid "Select Display Type"
-msgstr "Vybiery typ prahladu"
-
-#: WorkSheet.cpp:376
-msgid "&Line graph"
-msgstr "&Hrafik"
-
-#: WorkSheet.cpp:377
-msgid "&Digital display"
-msgstr "&Ličby"
-
-#: WorkSheet.cpp:378
-msgid "&Bar graph"
-msgstr "&Pałosy"
-
-#: WorkSheet.cpp:379
-msgid "Log to a &file"
-msgstr "Zapisvaj logi ŭ &fajł"
-
-#: WorkSheet.cpp:533
-#, fuzzy
-#| msgid "&Remove Display"
-msgid "Remove this display?"
-msgstr "&Vydali prahlad"
-
-#: WorkSheet.cpp:534
-#, fuzzy
-#| msgid "&Remove Display"
-msgid "Remove Display"
-msgstr "&Vydali prahlad"
-
-#: WorkSheet.cpp:575
-msgid "Dummy"
-msgstr "Pusty"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

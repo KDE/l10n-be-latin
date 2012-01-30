@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 04:12+0100\n"
+"POT-Creation-Date: 2012-01-30 05:14+0100\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -584,50 +584,6 @@ msgstr "&Anuluj: začynieńnie akna"
 msgid "Und&o"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"U hetym aknie adčynienyja niekalki kartak.\n"
-"Adčytaŭšy profil prahladu, ty ich straciš."
-
-#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4985
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Paćviardžeńnie"
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "Adčytaj profil prahladu"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Hetaja kartka ŭtrymvaje niavysłanyja źviestki.\n"
-"Adčytaŭšy profil, ty ich straciš."
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2534 src/konqmainwindow.cpp:5020
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Anulavać źmieny?"
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:5020
-msgid "&Discard Changes"
-msgstr "&Anuluj źmieny"
-
 #: src/konqview.cpp:1203
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -665,6 +621,23 @@ msgid ""
 msgstr ""
 "Hetaja staronka ŭtrymvaje niavysłanyja źmieny.\n"
 "Pieračytaŭšy staronku, ty ich straciš."
+
+#: src/konqmainwindow.cpp:1633 src/konqmainwindow.cpp:2360
+#: src/konqmainwindow.cpp:2440 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2534
+#: src/konqmainwindow.cpp:5020 src/konqviewmanager.cpp:1423
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Anulavać źmieny?"
+
+#: src/konqmainwindow.cpp:1633 src/konqmainwindow.cpp:2360
+#: src/konqmainwindow.cpp:2440 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2535
+#: src/konqmainwindow.cpp:5020 src/konqviewmanager.cpp:1423
+msgid "&Discard Changes"
+msgstr "&Anuluj źmieny"
 
 #: src/konqmainwindow.cpp:1743
 msgid "File Management"
@@ -1242,6 +1215,13 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "U hetym aknie adčynienyja niekalki kartak. Sapraŭdy chočaš vyjści?"
 
+#: src/konqmainwindow.cpp:4985 src/konqviewmanager.cpp:1409
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Paćviardžeńnie"
+
 #: src/konqmainwindow.cpp:4987
 msgid "C&lose Current Tab"
 msgstr "&Začyni hetuju kartku"
@@ -1337,6 +1317,26 @@ msgstr "&Adčapi kartku"
 #: src/konqtabs.cpp:491
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"U hetym aknie adčynienyja niekalki kartak.\n"
+"Adčytaŭšy profil prahladu, ty ich straciš."
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "Adčytaj profil prahladu"
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Hetaja kartka ŭtrymvaje niavysłanyja źviestki.\n"
+"Adčytaŭšy profil, ty ich straciš."
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy

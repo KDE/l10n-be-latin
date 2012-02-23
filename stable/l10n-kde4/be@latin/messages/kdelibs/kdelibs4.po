@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-22 11:11+0100\n"
+"POT-Creation-Date: 2012-02-23 11:32+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -10363,6 +10363,164 @@ msgstr "Vyjava - %1x%2 punktaŭ"
 msgid "Done."
 msgstr "Zroblena."
 
+#: khtml/khtml_ext.cpp:418
+msgid "&Copy Text"
+msgstr "&Skapijuj tekst"
+
+#: khtml/khtml_ext.cpp:432
+#, kde-format
+msgid "Open '%1'"
+msgstr "Adčyni „%1”"
+
+#: khtml/khtml_ext.cpp:449
+msgid "&Copy Email Address"
+msgstr "&Skapijuj adras e-maiła"
+
+#: khtml/khtml_ext.cpp:454
+msgid "&Save Link As..."
+msgstr "&Zapišy łuč jak..."
+
+#: khtml/khtml_ext.cpp:459
+msgid "&Copy Link Address"
+msgstr "&Skapijuj adras łuča"
+
+#: khtml/khtml_ext.cpp:471
+msgctxt "@title:menu HTML frame/iframe"
+msgid "Frame"
+msgstr "Frejm"
+
+#: khtml/khtml_ext.cpp:472
+msgid "Open in New &Window"
+msgstr "Adčyni ŭ novym &aknie"
+
+#: khtml/khtml_ext.cpp:478
+msgid "Open in &This Window"
+msgstr "Adčyni ŭ &hetym aknie"
+
+#: khtml/khtml_ext.cpp:483
+msgid "Open in &New Tab"
+msgstr "Adčyni ŭ &novaj kartcy"
+
+#: khtml/khtml_ext.cpp:493
+msgid "Reload Frame"
+msgstr "Aktualizuj frejm"
+
+#: khtml/khtml_ext.cpp:498 khtml/khtml_part.cpp:421
+msgid "Print Frame..."
+msgstr "Vydrukuj frejm..."
+
+#: khtml/khtml_ext.cpp:504 khtml/khtml_part.cpp:281
+msgid "Save &Frame As..."
+msgstr "Zapišy &frejm jak..."
+
+#: khtml/khtml_ext.cpp:509 khtml/khtml_part.cpp:258
+msgid "View Frame Source"
+msgstr "Pakažy vytočny kod frejm"
+
+#: khtml/khtml_ext.cpp:514
+msgid "View Frame Information"
+msgstr "Pakažy źviestki pra frejm"
+
+#: khtml/khtml_ext.cpp:524
+msgid "Block IFrame..."
+msgstr "Zablakuj IFrame..."
+
+#: khtml/khtml_ext.cpp:549
+msgid "Save Image As..."
+msgstr "Zapišy vyjavu jak..."
+
+#: khtml/khtml_ext.cpp:554
+msgid "Send Image..."
+msgstr "Vyšli vyjavu..."
+
+#: khtml/khtml_ext.cpp:560
+msgid "Copy Image"
+msgstr "Skapijuj vyjavu"
+
+#: khtml/khtml_ext.cpp:568
+msgid "Copy Image Location"
+msgstr "Skapijuj adras vyjavy"
+
+#: khtml/khtml_ext.cpp:577
+#, kde-format
+msgid "View Image (%1)"
+msgstr "Pakažy vyjavu (%1)"
+
+#: khtml/khtml_ext.cpp:583
+msgid "Block Image..."
+msgstr "Zablakuj vyjavu..."
+
+#: khtml/khtml_ext.cpp:591
+#, kde-format
+msgid "Block Images From %1"
+msgstr "Blakuj vyjavy z „%1”"
+
+#: khtml/khtml_ext.cpp:603
+msgid "Stop Animations"
+msgstr "Spyni animacyju"
+
+#: khtml/khtml_ext.cpp:640
+#, kde-format
+msgid "Search for '%1' with %2"
+msgstr "Šukaj vyraz „%1” z dapamohaj „%2”"
+
+#: khtml/khtml_ext.cpp:650
+#, kde-format
+msgid "Search for '%1' with"
+msgstr "Šukaj vyraz „%1” z dapamohaj"
+
+#: khtml/khtml_ext.cpp:694
+msgid "Save Link As"
+msgstr "Zapišy łuč jak"
+
+#: khtml/khtml_ext.cpp:714
+msgid "Save Image As"
+msgstr "Zapišy vyjavu jak"
+
+#: khtml/khtml_ext.cpp:728 khtml/khtml_ext.cpp:741
+msgid "Add URL to Filter"
+msgstr "Dadaj adras u filtar"
+
+#: khtml/khtml_ext.cpp:729 khtml/khtml_ext.cpp:742
+msgid "Enter the URL:"
+msgstr "Upišy adras:"
+
+#: khtml/khtml_ext.cpp:879
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "Fajł z nazvaj „%1” užo isnuje. Ty sapraŭdy chočaš jaho nadpisać?"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite File?"
+msgstr "Nadpisać fajł?"
+
+#: khtml/khtml_ext.cpp:879
+msgid "Overwrite"
+msgstr "Nadpišy"
+
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
+#, kde-format
+msgid "The Download Manager (%1) could not be found in your $PATH "
+msgstr ""
+"U tvajoj ściežcy „$PATH” nie ŭdałosia znajści kiraŭnika ściahvańniaŭ fajłaŭ "
+"(%1)."
+
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
+msgid ""
+"Try to reinstall it  \n"
+"\n"
+"The integration with Konqueror will be disabled."
+msgstr ""
+"Pasprabuj pierainstalavać jaho.\n"
+"\n"
+"Intehravanaść z aplikacyjaj „Konqueror” vyklučanaja."
+
+#: khtml/khtml_ext.cpp:1023
+#, no-c-format
+msgid "Default Font Size (100%)"
+msgstr "Zmoŭčany pamier šryfta (100%)"
+
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr "TestRegressionGui"
@@ -10375,10 +10533,6 @@ msgstr "Hrafičnaja abałonka dla testaŭ na paharšeńni ŭ „khtml”."
 msgid "View Do&cument Source"
 msgstr "Pakažy vytočny kod &dakumenta"
 
-#: khtml/khtml_part.cpp:258 khtml/khtml_ext.cpp:509
-msgid "View Frame Source"
-msgstr "Pakažy vytočny kod frejm"
-
 #: khtml/khtml_part.cpp:265
 msgid "View Document Information"
 msgstr "Pakažy źviestki pra dakument"
@@ -10386,10 +10540,6 @@ msgstr "Pakažy źviestki pra dakument"
 #: khtml/khtml_part.cpp:272
 msgid "Save &Background Image As..."
 msgstr "Zapišy &fonavuju vyjavu jak..."
-
-#: khtml/khtml_part.cpp:281 khtml/khtml_ext.cpp:504
-msgid "Save &Frame As..."
-msgstr "Zapišy &frejm jak..."
 
 #: khtml/khtml_part.cpp:293 khtml/khtml_part.cpp:4027
 msgid "SSL"
@@ -10478,10 +10628,6 @@ msgstr ""
 msgid ""
 "This shortcut shows the find bar, and sets the option \"Find links only\"."
 msgstr ""
-
-#: khtml/khtml_part.cpp:421 khtml/khtml_ext.cpp:498
-msgid "Print Frame..."
-msgstr "Vydrukuj frejm..."
 
 #: khtml/khtml_part.cpp:425
 msgid ""
@@ -10847,152 +10993,6 @@ msgstr "Adkiń"
 #: khtml/khtml_settings.cpp:916
 msgid "Filter error"
 msgstr "Pamyłka ŭ filtry"
-
-#: khtml/khtml_ext.cpp:418
-msgid "&Copy Text"
-msgstr "&Skapijuj tekst"
-
-#: khtml/khtml_ext.cpp:432
-#, kde-format
-msgid "Open '%1'"
-msgstr "Adčyni „%1”"
-
-#: khtml/khtml_ext.cpp:449
-msgid "&Copy Email Address"
-msgstr "&Skapijuj adras e-maiła"
-
-#: khtml/khtml_ext.cpp:454
-msgid "&Save Link As..."
-msgstr "&Zapišy łuč jak..."
-
-#: khtml/khtml_ext.cpp:459
-msgid "&Copy Link Address"
-msgstr "&Skapijuj adras łuča"
-
-#: khtml/khtml_ext.cpp:471
-msgctxt "@title:menu HTML frame/iframe"
-msgid "Frame"
-msgstr "Frejm"
-
-#: khtml/khtml_ext.cpp:472
-msgid "Open in New &Window"
-msgstr "Adčyni ŭ novym &aknie"
-
-#: khtml/khtml_ext.cpp:478
-msgid "Open in &This Window"
-msgstr "Adčyni ŭ &hetym aknie"
-
-#: khtml/khtml_ext.cpp:483
-msgid "Open in &New Tab"
-msgstr "Adčyni ŭ &novaj kartcy"
-
-#: khtml/khtml_ext.cpp:493
-msgid "Reload Frame"
-msgstr "Aktualizuj frejm"
-
-#: khtml/khtml_ext.cpp:514
-msgid "View Frame Information"
-msgstr "Pakažy źviestki pra frejm"
-
-#: khtml/khtml_ext.cpp:524
-msgid "Block IFrame..."
-msgstr "Zablakuj IFrame..."
-
-#: khtml/khtml_ext.cpp:549
-msgid "Save Image As..."
-msgstr "Zapišy vyjavu jak..."
-
-#: khtml/khtml_ext.cpp:554
-msgid "Send Image..."
-msgstr "Vyšli vyjavu..."
-
-#: khtml/khtml_ext.cpp:560
-msgid "Copy Image"
-msgstr "Skapijuj vyjavu"
-
-#: khtml/khtml_ext.cpp:568
-msgid "Copy Image Location"
-msgstr "Skapijuj adras vyjavy"
-
-#: khtml/khtml_ext.cpp:577
-#, kde-format
-msgid "View Image (%1)"
-msgstr "Pakažy vyjavu (%1)"
-
-#: khtml/khtml_ext.cpp:583
-msgid "Block Image..."
-msgstr "Zablakuj vyjavu..."
-
-#: khtml/khtml_ext.cpp:591
-#, kde-format
-msgid "Block Images From %1"
-msgstr "Blakuj vyjavy z „%1”"
-
-#: khtml/khtml_ext.cpp:603
-msgid "Stop Animations"
-msgstr "Spyni animacyju"
-
-#: khtml/khtml_ext.cpp:640
-#, kde-format
-msgid "Search for '%1' with %2"
-msgstr "Šukaj vyraz „%1” z dapamohaj „%2”"
-
-#: khtml/khtml_ext.cpp:650
-#, kde-format
-msgid "Search for '%1' with"
-msgstr "Šukaj vyraz „%1” z dapamohaj"
-
-#: khtml/khtml_ext.cpp:694
-msgid "Save Link As"
-msgstr "Zapišy łuč jak"
-
-#: khtml/khtml_ext.cpp:714
-msgid "Save Image As"
-msgstr "Zapišy vyjavu jak"
-
-#: khtml/khtml_ext.cpp:728 khtml/khtml_ext.cpp:741
-msgid "Add URL to Filter"
-msgstr "Dadaj adras u filtar"
-
-#: khtml/khtml_ext.cpp:729 khtml/khtml_ext.cpp:742
-msgid "Enter the URL:"
-msgstr "Upišy adras:"
-
-#: khtml/khtml_ext.cpp:879
-#, kde-format
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr "Fajł z nazvaj „%1” užo isnuje. Ty sapraŭdy chočaš jaho nadpisać?"
-
-#: khtml/khtml_ext.cpp:879
-msgid "Overwrite File?"
-msgstr "Nadpisać fajł?"
-
-#: khtml/khtml_ext.cpp:879
-msgid "Overwrite"
-msgstr "Nadpišy"
-
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
-#, kde-format
-msgid "The Download Manager (%1) could not be found in your $PATH "
-msgstr ""
-"U tvajoj ściežcy „$PATH” nie ŭdałosia znajści kiraŭnika ściahvańniaŭ fajłaŭ "
-"(%1)."
-
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
-msgid ""
-"Try to reinstall it  \n"
-"\n"
-"The integration with Konqueror will be disabled."
-msgstr ""
-"Pasprabuj pierainstalavać jaho.\n"
-"\n"
-"Intehravanaść z aplikacyjaj „Konqueror” vyklučanaja."
-
-#: khtml/khtml_ext.cpp:1023
-#, no-c-format
-msgid "Default Font Size (100%)"
-msgstr "Zmoŭčany pamier šryfta (100%)"
 
 #: khtml/test_regression.cpp:619
 msgid "Directory containing tests, basedir and output directories."

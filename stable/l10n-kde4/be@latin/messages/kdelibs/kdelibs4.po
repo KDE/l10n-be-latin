@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-23 11:32+0100\n"
+"POT-Creation-Date: 2012-02-24 11:23+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -11611,9 +11611,18 @@ msgstr ""
 "Nie ŭdałosia znajści „kdemain” ŭ „%1”.\n"
 "%2"
 
+#: kinit/klauncher_main.cpp:62
+msgid ""
+"klauncher: This program is not supposed to be started manually.\n"
+"klauncher: It is started automatically by kdeinit4.\n"
+msgstr ""
+"klauncher: Hetuju prahramu nia treba ŭklučać samastojna.\n"
+"klauncher: Jaje aŭtamatyčna ŭklučaje słužba „kdeinit4”.\n"
+
 #: kinit/klauncher.cpp:564
-#, kde-format
-msgid "KDEInit could not launch '%1'."
+#, fuzzy, kde-format
+#| msgid "KDEInit could not launch '%1'."
+msgid "KDEInit could not launch '%1'"
 msgstr "KDEInit nia zmoh uklučyć „%1”."
 
 #: kinit/klauncher.cpp:745 kinit/klauncher.cpp:774 kinit/klauncher.cpp:789
@@ -11645,14 +11654,6 @@ msgstr "Nieviadomy pratakoł „%1”.\n"
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "Pamyłka ŭ źmiaščeńni ŭ pamiać „%1”.\n"
-
-#: kinit/klauncher_main.cpp:62
-msgid ""
-"klauncher: This program is not supposed to be started manually.\n"
-"klauncher: It is started automatically by kdeinit4.\n"
-msgstr ""
-"klauncher: Hetuju prahramu nia treba ŭklučać samastojna.\n"
-"klauncher: Jaje aŭtamatyčna ŭklučaje słužba „kdeinit4”.\n"
 
 #: kjs/object.cpp:554
 msgid "Evaluation error"

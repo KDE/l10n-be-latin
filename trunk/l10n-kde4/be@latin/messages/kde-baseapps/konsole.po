@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-24 04:15+0100\n"
+"POT-Creation-Date: 2012-02-25 04:25+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -203,7 +203,7 @@ msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "Koler"
 
-#: ColorSchemeEditor.cpp:86
+#: ColorSchemeEditor.cpp:90
 #, fuzzy
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -216,12 +216,12 @@ msgstr ""
 "Nałady prazrystaha fonu nie paŭpłyvajuć na stoł, tamu što jon nia ŭmieje "
 "rabić vokny prazrystymi."
 
-#: ColorSchemeEditor.cpp:123
+#: ColorSchemeEditor.cpp:127
 msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:200
+#: ColorSchemeEditor.cpp:204
 msgid "Click to choose different color"
 msgstr ""
 
@@ -251,21 +251,21 @@ msgstr[2] "Adredahuj profil „%1”"
 msgid "Edit Profile \"%1\""
 msgstr "Adredahuj profil „%1”"
 
-#: EditProfileDialog.cpp:247
+#: EditProfileDialog.cpp:251
 #, fuzzy
 #| msgid "Profile name:"
 msgid "Profile name is empty."
 msgstr "Nazva profilu:"
 
-#: EditProfileDialog.cpp:308
+#: EditProfileDialog.cpp:312
 msgid "One environment variable per line"
 msgstr ""
 
-#: EditProfileDialog.cpp:310
+#: EditProfileDialog.cpp:314
 msgid "Edit Environment"
 msgstr "Adredahuj asiarodździe"
 
-#: EditProfileDialog.cpp:332
+#: EditProfileDialog.cpp:336
 msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
@@ -273,24 +273,24 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: EditProfileDialog.cpp:420
+#: EditProfileDialog.cpp:424
 msgid "Select Initial Directory"
 msgstr "Vybiery pačatkovy kataloh"
 
-#: EditProfileDialog.cpp:602
+#: EditProfileDialog.cpp:609
 #, kde-format
 msgid "%1, size %2"
 msgstr "%1, pamier %2"
 
-#: EditProfileDialog.cpp:711 EditProfileDialog.cpp:720
+#: EditProfileDialog.cpp:718 EditProfileDialog.cpp:727
 msgid "New Color Scheme"
 msgstr "Novaja schiema koleraŭ"
 
-#: EditProfileDialog.cpp:713
+#: EditProfileDialog.cpp:720
 msgid "Edit Color Scheme"
 msgstr "Adredahuj schiemu koleraŭ"
 
-#: EditProfileDialog.cpp:784
+#: EditProfileDialog.cpp:791
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
@@ -298,21 +298,21 @@ msgstr ""
 "Hetaja schiema koleraŭ karystajecca prazrystym fonam, jaki nia ŭmieje "
 "absłuhoŭvać hetaja systema."
 
-#: EditProfileDialog.cpp:789
+#: EditProfileDialog.cpp:796
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:894 EditProfileDialog.cpp:905
+#: EditProfileDialog.cpp:901 EditProfileDialog.cpp:912
 msgid "New Key Binding List"
 msgstr "Novy śpis klavijaturnych skarotaŭ"
 
-#: EditProfileDialog.cpp:896
+#: EditProfileDialog.cpp:903
 msgid "Edit Key Binding List"
 msgstr "Adredahuj śpis klavijaturnych skarotaŭ"
 
-#: EditProfileDialog.cpp:984 HistorySizeDialog.cpp:77
+#: EditProfileDialog.cpp:991 HistorySizeDialog.cpp:77
 #, fuzzy
 #| msgid "lines"
 msgctxt "Unit of scrollback"
@@ -322,7 +322,7 @@ msgstr[0] "radkoŭ"
 msgstr[1] "radkoŭ"
 msgstr[2] "radkoŭ"
 
-#: EditProfileDialog.cpp:1165
+#: EditProfileDialog.cpp:1172
 msgid "--- Type anything in this box ---"
 msgstr ""
 
@@ -2135,39 +2135,39 @@ msgstr "Nie ŭdałosia znajści interakcyjnaj abałonki, kab jaje ŭklučyć."
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
 
-#: Session.cpp:579
+#: Session.cpp:580
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Cišynia ŭ sesii „%1”"
 
-#: Session.cpp:626
+#: Session.cpp:627
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Syhnał u sesii „%1”"
 
-#: Session.cpp:629
+#: Session.cpp:630
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Aktyŭnaść u sesii „%1”"
 
-#: Session.cpp:794
+#: Session.cpp:795
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Skončana"
 
-#: Session.cpp:808 Session.cpp:820
+#: Session.cpp:809 Session.cpp:821
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Prahrama „%1” złamałasia."
 
-#: Session.cpp:810
+#: Session.cpp:811
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 
-#: Session.cpp:1142
+#: Session.cpp:1143
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
 

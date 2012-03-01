@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-28 17:39+0100\n"
+"POT-Creation-Date: 2012-03-01 11:26+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -9734,6 +9734,111 @@ msgstr ""
 msgid "Rotate &Counterclockwise"
 msgstr ""
 
+#: kdeui/widgets/ktoolbar.cpp:292
+#, fuzzy
+#| msgid "Show help"
+msgctxt "@title:menu"
+msgid "Show Text"
+msgstr "Pakažy daviedku"
+
+#: kdeui/widgets/ktoolbar.cpp:295
+#, fuzzy
+#| msgid "Toolbar Menu"
+msgctxt "@title:menu"
+msgid "Toolbar Settings"
+msgstr "Menu ad paneli pryładździa"
+
+#: kdeui/widgets/ktoolbar.cpp:297
+msgid "Orientation"
+msgstr "Aryjentacyja"
+
+#: kdeui/widgets/ktoolbar.cpp:299
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "Źvierchu"
+
+#: kdeui/widgets/ktoolbar.cpp:301
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "Źleva"
+
+#: kdeui/widgets/ktoolbar.cpp:302
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "Sprava"
+
+#: kdeui/widgets/ktoolbar.cpp:303
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "Źnizu"
+
+#: kdeui/widgets/ktoolbar.cpp:311
+msgid "Text Position"
+msgstr "Miesca dla tekstu"
+
+#: kdeui/widgets/ktoolbar.cpp:313
+msgid "Icons Only"
+msgstr "Tolki ikony"
+
+#: kdeui/widgets/ktoolbar.cpp:314
+msgid "Text Only"
+msgstr "Tolki tekst"
+
+#: kdeui/widgets/ktoolbar.cpp:315
+msgid "Text Alongside Icons"
+msgstr "Tekst kala ikonaŭ"
+
+#: kdeui/widgets/ktoolbar.cpp:316
+msgid "Text Under Icons"
+msgstr "Tekst pad ikonami"
+
+#: kdeui/widgets/ktoolbar.cpp:324
+msgid "Icon Size"
+msgstr "Pamier ikonaŭ"
+
+#: kdeui/widgets/ktoolbar.cpp:326
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "Zmoŭčany"
+
+#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
+#, kde-format
+msgid "Small (%1x%2)"
+msgstr "Mały (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
+#, kde-format
+msgid "Medium (%1x%2)"
+msgstr "Siaredni (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
+#, kde-format
+msgid "Large (%1x%2)"
+msgstr "Vialiki (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
+#, kde-format
+msgid "Huge (%1x%2)"
+msgstr "Vializny (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:389
+#, fuzzy
+#| msgid "Lock Toolbars"
+msgid "Lock Toolbar Positions"
+msgstr "Pryčapi paneli pryładździa"
+
+#: kdeui/widgets/ktoolbar.cpp:1321
+#, kde-format
+msgctxt "@action:intoolbar Text label of toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/widgets/ktoolbar.cpp:1322
+#, kde-format
+msgctxt "@info:tooltip Tooltip of toolbar button"
+msgid "%1"
+msgstr "%1"
+
 #: kdeui/widgets/krichtextwidget.cpp:232
 msgctxt "@action"
 msgid "Text &Color..."
@@ -9966,111 +10071,6 @@ msgstr "Rehijon"
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgid "Comment"
 msgstr "Kamentar"
-
-#: kdeui/widgets/ktoolbar.cpp:292
-#, fuzzy
-#| msgid "Show help"
-msgctxt "@title:menu"
-msgid "Show Text"
-msgstr "Pakažy daviedku"
-
-#: kdeui/widgets/ktoolbar.cpp:295
-#, fuzzy
-#| msgid "Toolbar Menu"
-msgctxt "@title:menu"
-msgid "Toolbar Settings"
-msgstr "Menu ad paneli pryładździa"
-
-#: kdeui/widgets/ktoolbar.cpp:297
-msgid "Orientation"
-msgstr "Aryjentacyja"
-
-#: kdeui/widgets/ktoolbar.cpp:299
-msgctxt "toolbar position string"
-msgid "Top"
-msgstr "Źvierchu"
-
-#: kdeui/widgets/ktoolbar.cpp:301
-msgctxt "toolbar position string"
-msgid "Left"
-msgstr "Źleva"
-
-#: kdeui/widgets/ktoolbar.cpp:302
-msgctxt "toolbar position string"
-msgid "Right"
-msgstr "Sprava"
-
-#: kdeui/widgets/ktoolbar.cpp:303
-msgctxt "toolbar position string"
-msgid "Bottom"
-msgstr "Źnizu"
-
-#: kdeui/widgets/ktoolbar.cpp:311
-msgid "Text Position"
-msgstr "Miesca dla tekstu"
-
-#: kdeui/widgets/ktoolbar.cpp:313
-msgid "Icons Only"
-msgstr "Tolki ikony"
-
-#: kdeui/widgets/ktoolbar.cpp:314
-msgid "Text Only"
-msgstr "Tolki tekst"
-
-#: kdeui/widgets/ktoolbar.cpp:315
-msgid "Text Alongside Icons"
-msgstr "Tekst kala ikonaŭ"
-
-#: kdeui/widgets/ktoolbar.cpp:316
-msgid "Text Under Icons"
-msgstr "Tekst pad ikonami"
-
-#: kdeui/widgets/ktoolbar.cpp:324
-msgid "Icon Size"
-msgstr "Pamier ikonaŭ"
-
-#: kdeui/widgets/ktoolbar.cpp:326
-msgctxt "@item:inmenu Icon size"
-msgid "Default"
-msgstr "Zmoŭčany"
-
-#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
-#, kde-format
-msgid "Small (%1x%2)"
-msgstr "Mały (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
-#, kde-format
-msgid "Medium (%1x%2)"
-msgstr "Siaredni (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
-#, kde-format
-msgid "Large (%1x%2)"
-msgstr "Vialiki (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
-#, kde-format
-msgid "Huge (%1x%2)"
-msgstr "Vializny (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:389
-#, fuzzy
-#| msgid "Lock Toolbars"
-msgid "Lock Toolbar Positions"
-msgstr "Pryčapi paneli pryładździa"
-
-#: kdeui/widgets/ktoolbar.cpp:1319
-#, kde-format
-msgctxt "@action:intoolbar Text label of toolbar button"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/widgets/ktoolbar.cpp:1320
-#, kde-format
-msgctxt "@info:tooltip Tooltip of toolbar button"
-msgid "%1"
-msgstr "%1"
 
 #: kdeui/widgets/kdatecombobox.cpp:145
 #, fuzzy

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-01 11:26+0100\n"
+"POT-Creation-Date: 2012-03-12 11:15+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -10363,6 +10363,14 @@ msgstr "Vyjava - %1x%2 punktaŭ"
 msgid "Done."
 msgstr "Zroblena."
 
+#: khtml/test_regression_gui_main.cpp:34
+msgid "TestRegressionGui"
+msgstr "TestRegressionGui"
+
+#: khtml/test_regression_gui_main.cpp:35
+msgid "GUI for the khtml regression tester"
+msgstr "Hrafičnaja abałonka dla testaŭ na paharšeńni ŭ „khtml”."
+
 #: khtml/khtml_ext.cpp:418
 msgid "&Copy Text"
 msgstr "&Skapijuj tekst"
@@ -10520,14 +10528,6 @@ msgstr ""
 #, no-c-format
 msgid "Default Font Size (100%)"
 msgstr "Zmoŭčany pamier šryfta (100%)"
-
-#: khtml/test_regression_gui_main.cpp:34
-msgid "TestRegressionGui"
-msgstr "TestRegressionGui"
-
-#: khtml/test_regression_gui_main.cpp:35
-msgid "GUI for the khtml regression tester"
-msgstr "Hrafičnaja abałonka dla testaŭ na paharšeńni ŭ „khtml”."
 
 #: khtml/khtml_part.cpp:251
 msgid "View Do&cument Source"
@@ -10982,11 +10982,11 @@ msgstr "Pakažy pasiŭnaje &akno z źviestkami pra ŭstrymanaje akno"
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "&Naładź praviły dla stvareńnia novych akon praz JavaScript..."
 
-#: khtml/khtml_settings.cpp:235
+#: khtml/khtml_settings.cpp:235 kparts/htmlextension.cpp:117
 msgid "Accept"
 msgstr "Pryjmi"
 
-#: khtml/khtml_settings.cpp:236
+#: khtml/khtml_settings.cpp:236 kparts/htmlextension.cpp:119
 msgid "Reject"
 msgstr "Adkiń"
 

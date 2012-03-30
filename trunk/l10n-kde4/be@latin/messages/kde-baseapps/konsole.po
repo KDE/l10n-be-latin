@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-27 06:07+0200\n"
+"POT-Creation-Date: 2012-03-30 05:05+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: Application.cpp:419
+#: Application.cpp:420
 msgid "Toggle Background Window"
 msgstr ""
 
@@ -683,53 +683,53 @@ msgstr "Lars Knoll"
 msgid "Thanks to many others.\n"
 msgstr "Našy padziaki dla inšych, chto nam dapamahaŭ.\n"
 
-#: MainWindow.cpp:277
+#: MainWindow.cpp:278
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "Novaja &kartka"
 
-#: MainWindow.cpp:286
+#: MainWindow.cpp:287
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "&Začyni kartku"
 
-#: MainWindow.cpp:293
+#: MainWindow.cpp:294
 #, fuzzy
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "Novaje &akno"
 
-#: MainWindow.cpp:300
+#: MainWindow.cpp:301
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:305
+#: MainWindow.cpp:306
 #, fuzzy
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "&Zakładki"
 
-#: MainWindow.cpp:323
+#: MainWindow.cpp:324
 #, fuzzy
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "Kiruj profilami..."
 
-#: MainWindow.cpp:329
+#: MainWindow.cpp:330
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:518
+#: MainWindow.cpp:519
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -741,25 +741,25 @@ msgstr[0] "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 msgstr[1] "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 msgstr[2] "U ciabie ŭ hetym aknie niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: MainWindow.cpp:522
+#: MainWindow.cpp:523
 #, fuzzy
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: MainWindow.cpp:524
+#: MainWindow.cpp:525
 msgid "Close Current Tab"
 msgstr "Začyni hetuju kartku"
 
-#: MainWindow.cpp:621
+#: MainWindow.cpp:622
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#: MainWindow.cpp:626
+#: MainWindow.cpp:627
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
@@ -799,7 +799,7 @@ msgctxt "@item This will be used as part of the file name"
 msgid "New Profile"
 msgstr "Novy profil"
 
-#: Part.cpp:95
+#: Part.cpp:96
 #, fuzzy
 #| msgid "Manage Profiles"
 msgid "Manage Profiles..."
@@ -2155,14 +2155,14 @@ msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
 
-#: SessionManager.cpp:917
+#: SessionManager.cpp:388
 #, fuzzy
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "Numar"
 
-#: SessionManager.cpp:919
+#: SessionManager.cpp:390
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item:intable The session title"
@@ -2233,16 +2233,16 @@ msgstr "Farmat nazvy kartki:"
 msgid "Insert remote title format"
 msgstr "Farmat nazvy dla kartki inšaha hosta:"
 
-#: TerminalDisplay.cpp:1076 TerminalDisplay.cpp:1077
+#: TerminalDisplay.cpp:1108 TerminalDisplay.cpp:1109
 msgid "Size: XXX x XXX"
 msgstr "Pamier: XXX x XXX"
 
-#: TerminalDisplay.cpp:1087
+#: TerminalDisplay.cpp:1119
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "Pamier: %1 x %2"
 
-#: TerminalDisplay.cpp:2579
+#: TerminalDisplay.cpp:2611
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
@@ -2251,13 +2251,13 @@ msgstr ""
 "\">ŭstrymanaje</a> skarotam „Ctrl+S”.  Naciśni <b>Ctrl+Q</b>, kab pracavać "
 "dalej.</qt>"
 
-#: TerminalDisplay.cpp:2814
+#: TerminalDisplay.cpp:2851
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "Uklej vyłučeńnie"
 
-#: TerminalDisplay.cpp:2829
+#: TerminalDisplay.cpp:2866
 msgid "Change &Directory To"
 msgstr ""
 
@@ -2296,86 +2296,86 @@ msgctxt "@info:tooltip"
 msgid "Close current tab"
 msgstr "Začyni hetuju kartku"
 
-#: ViewManager.cpp:149
+#: ViewManager.cpp:150
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "Novaja &kartka"
 
-#: ViewManager.cpp:150
+#: ViewManager.cpp:151
 #, fuzzy
 #| msgid "Previous"
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "Papiaredni"
 
-#: ViewManager.cpp:151
+#: ViewManager.cpp:152
 #, fuzzy
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "Pieraklučy ŭ kartku %1"
 
-#: ViewManager.cpp:152
+#: ViewManager.cpp:153
 #, fuzzy
 #| msgid "Next View Container"
 msgctxt "@action Shortcut entry"
 msgid "Next View Container"
 msgstr "Nastupnaje schovišča prahladu"
 
-#: ViewManager.cpp:154
+#: ViewManager.cpp:155
 #, fuzzy
 #| msgid "Move View Left"
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr "Pasuń prahlad uleva"
 
-#: ViewManager.cpp:155
+#: ViewManager.cpp:156
 #, fuzzy
 #| msgid "Move View Right"
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr "Pasuń prahlad uprava"
 
-#: ViewManager.cpp:164
+#: ViewManager.cpp:165
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "Padziali prahlad vertykalna"
 
-#: ViewManager.cpp:171
+#: ViewManager.cpp:172
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "Padziali prahlad haryzantalna"
 
-#: ViewManager.cpp:176
+#: ViewManager.cpp:177
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr "Začyni dziejny prahlad"
 
-#: ViewManager.cpp:185
+#: ViewManager.cpp:186
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "Začyni inšyja prahlady"
 
-#: ViewManager.cpp:194
+#: ViewManager.cpp:195
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr "Razharni prahlad"
 
-#: ViewManager.cpp:202
+#: ViewManager.cpp:203
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "Zharni prahlad"
 
-#: ViewManager.cpp:212
+#: ViewManager.cpp:213
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "Začyni hetuju kartku"
 
-#: ViewManager.cpp:233
+#: ViewManager.cpp:234
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"

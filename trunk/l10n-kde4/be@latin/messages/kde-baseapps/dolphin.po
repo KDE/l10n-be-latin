@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-12 04:33+0200\n"
+"POT-Creation-Date: 2012-04-13 04:11+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1139,6 +1139,61 @@ msgctxt "@label"
 msgid "Select which additional information should be shown:"
 msgstr ""
 
+#: statusbar/dolphinstatusbar.cpp:63
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgid "Zoom slider"
+msgstr "Pakazvaj maštaboŭnik"
+
+#: statusbar/dolphinstatusbar.cpp:76
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "Stop"
+msgstr "Spyni"
+
+#: statusbar/dolphinstatusbar.cpp:78
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Sorting:"
+msgctxt "@tooltip"
+msgid "Stop loading"
+msgstr "Paradkuj pavodle:"
+
+#: statusbar/dolphinstatusbar.cpp:226
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Copy"
+msgctxt "@action:inmenu"
+msgid "Copy Text"
+msgstr "Skapijuj"
+
+#: statusbar/dolphinstatusbar.cpp:227
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "Pakazvaj maštaboŭnik"
+
+#: statusbar/dolphinstatusbar.cpp:231
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show space information"
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "Pakazvaj źviestki pra volnaje miesca"
+
+#: statusbar/dolphinstatusbar.cpp:308
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Size: 1 pixel"
+msgid_plural "Size: %1 pixels"
+msgstr[0] "Pamier: %1 punkt"
+msgstr[1] "Pamier: %1 punkty"
+msgstr[2] "Pamier: %1 punktaŭ"
+
 #: statusbar/statusbarspaceinfo.cpp:79 statusbar/statusbarspaceinfo.cpp:87
 msgctxt "@info:status"
 msgid "Unknown size"
@@ -1149,58 +1204,6 @@ msgstr "Nieviadomy pamier"
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 volnaha miesca"
-
-#: statusbar/dolphinstatusbar.cpp:65
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show zoom slider"
-msgid "Zoom slider"
-msgstr "Pakazvaj maštaboŭnik"
-
-#: statusbar/dolphinstatusbar.cpp:86
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Stop"
-msgid "Stop"
-msgstr "Spyni"
-
-#: statusbar/dolphinstatusbar.cpp:273
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Information"
-msgctxt "@action:inmenu"
-msgid "Copy Information Message"
-msgstr "Źviestki"
-
-#: statusbar/dolphinstatusbar.cpp:276
-msgctxt "@action:inmenu"
-msgid "Copy Error Message"
-msgstr ""
-
-#: statusbar/dolphinstatusbar.cpp:281
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show zoom slider"
-msgctxt "@action:inmenu"
-msgid "Show Zoom Slider"
-msgstr "Pakazvaj maštaboŭnik"
-
-#: statusbar/dolphinstatusbar.cpp:285
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show space information"
-msgctxt "@action:inmenu"
-msgid "Show Space Information"
-msgstr "Pakazvaj źviestki pra volnaje miesca"
-
-#: statusbar/dolphinstatusbar.cpp:374
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Size: 1 pixel"
-msgid_plural "Size: %1 pixels"
-msgstr[0] "Pamier: %1 punkt"
-msgstr[1] "Pamier: %1 punkty"
-msgstr[2] "Pamier: %1 punktaŭ"
 
 #: views/dolphinview.cpp:517
 #, kde-format
@@ -1564,12 +1567,329 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(znak „#” budzie zamienieny na liki, ad mienšaha k bolšamu)"
 
-#: dolphinviewcontainer.cpp:338
+#: dolphinmainwindow.cpp:334
+msgctxt "@info:status"
+msgid "Successfully copied."
+msgstr ""
+
+#: dolphinmainwindow.cpp:337
+msgctxt "@info:status"
+msgid "Successfully moved."
+msgstr ""
+
+#: dolphinmainwindow.cpp:340
+msgctxt "@info:status"
+msgid "Successfully linked."
+msgstr ""
+
+#: dolphinmainwindow.cpp:343
+msgctxt "@info:status"
+msgid "Successfully moved to trash."
+msgstr ""
+
+#: dolphinmainwindow.cpp:346
+msgctxt "@info:status"
+msgid "Successfully renamed."
+msgstr ""
+
+#: dolphinmainwindow.cpp:350
+msgctxt "@info:status"
+msgid "Created folder."
+msgstr "Kataloh stvorany."
+
+#: dolphinmainwindow.cpp:427
+msgctxt "@info"
+msgid "Go back"
+msgstr ""
+
+#: dolphinmainwindow.cpp:433
+msgctxt "@info"
+msgid "Go forward"
+msgstr ""
+
+#: dolphinmainwindow.cpp:595
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Information"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Źviestki"
+
+#: dolphinmainwindow.cpp:599
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "C&lose Current Tab"
+msgstr "Začyni kartku"
+
+#: dolphinmainwindow.cpp:607
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr ""
+
+#: dolphinmainwindow.cpp:609
+msgid "Do not ask again"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1210
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Novaja kartka"
+
+#: dolphinmainwindow.cpp:1213
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1215
+msgctxt "@action:inmenu"
+msgid "Close Other Tabs"
+msgstr "Začyni inšyja kartki"
+
+#: dolphinmainwindow.cpp:1217
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Začyni kartku"
+
+#: dolphinmainwindow.cpp:1446
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Location:"
+msgctxt "@action:inmenu"
+msgid "Location Bar"
+msgstr "Miesca:"
+
+#: dolphinmainwindow.cpp:1454
+#, fuzzy
+#| msgid "&Go"
+msgctxt "@action:inmenu"
+msgid "Go"
+msgstr "&Idzi"
+
+#: dolphinmainwindow.cpp:1464
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Tools"
+msgctxt "@action:inmenu"
+msgid "Tools"
+msgstr "Pryładździe"
+
+#: dolphinmainwindow.cpp:1478
+msgctxt "@action:inmenu"
+msgid "Help"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1561 dolphincontextmenu.cpp:248
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Stvary novuju"
+
+#: dolphinmainwindow.cpp:1568
+msgctxt "@action:inmenu File"
+msgid "New &Window"
+msgstr "Novaje &akno"
+
+#: dolphinmainwindow.cpp:1574
+msgctxt "@action:inmenu File"
+msgid "New Tab"
+msgstr "Novaja kartka"
+
+#: dolphinmainwindow.cpp:1580
+msgctxt "@action:inmenu File"
+msgid "Close Tab"
+msgstr "Začyni kartku"
+
+#: dolphinmainwindow.cpp:1603
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Paste"
+msgctxt "@action:inmenu Edit"
+msgid "Paste"
+msgstr "Uklej"
+
+#: dolphinmainwindow.cpp:1608
+msgctxt "@action:inmenu Edit"
+msgid "Select All"
+msgstr "Vyłučy ŭsio"
+
+#: dolphinmainwindow.cpp:1613 dolphinpart.cpp:164
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr "Pieramiani vyłučeńnie"
+
+#: dolphinmainwindow.cpp:1626
+msgctxt "@action:inmenu View"
+msgid "Reload"
+msgstr "Pieračytaj"
+
+#: dolphinmainwindow.cpp:1632
+msgctxt "@action:inmenu View"
+msgid "Stop"
+msgstr "Spyni"
+
+#: dolphinmainwindow.cpp:1633
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Sorting:"
+msgctxt "@info"
+msgid "Stop loading"
+msgstr "Paradkuj pavodle:"
+
+#: dolphinmainwindow.cpp:1638
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Editable Location"
+msgstr "Źmiennaje miesca"
+
+#: dolphinmainwindow.cpp:1643
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Replace Location"
+msgstr "Zamiani miesca"
+
+#: dolphinmainwindow.cpp:1654
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "Recently Closed Tabs"
+msgstr "Začyni kartku"
+
+#: dolphinmainwindow.cpp:1660
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "Empty Recently Closed Tabs"
+msgstr "Začyni kartku"
+
+#: dolphinmainwindow.cpp:1678
+msgctxt "@action:inmenu Tools"
+msgid "Show Filter Bar"
+msgstr "Pakazvaj panel filtru"
+
+#: dolphinmainwindow.cpp:1684
+msgctxt "@action:inmenu Tools"
+msgid "Compare Files"
+msgstr "Paraŭnaj fajły"
+
+#: dolphinmainwindow.cpp:1690
+#, fuzzy
+#| msgctxt "@action:inmenu Tools"
+#| msgid "Open &Terminal"
+msgctxt "@action:inmenu Tools"
+msgid "Open Terminal"
+msgstr "Adčyni &terminał"
+
+#: dolphinmainwindow.cpp:1711
+msgctxt "@action:inmenu"
+msgid "Activate Next Tab"
+msgstr "Pierajdzi da nastupnaj kartki"
+
+#: dolphinmainwindow.cpp:1716
+msgctxt "@action:inmenu"
+msgid "Activate Previous Tab"
+msgstr "Pierajdzi da papiaredniaj kartki"
+
+#: dolphinmainwindow.cpp:1722
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "Adčyni ŭ novaj kartcy"
+
+#: dolphinmainwindow.cpp:1727
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "Adčyni ŭ novym aknie"
+
+#: dolphinmainwindow.cpp:1737
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Unlock Panels"
+msgstr "Paneli"
+
+#: dolphinmainwindow.cpp:1739
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Lock Panels"
+msgstr "Paneli"
+
+#: dolphinmainwindow.cpp:1745
+msgctxt "@title:window"
+msgid "Information"
+msgstr "Źviestki"
+
+#: dolphinmainwindow.cpp:1766
+msgctxt "@title:window"
+msgid "Folders"
+msgstr "Katalohi"
+
+#: dolphinmainwindow.cpp:1785
+msgctxt "@title:window Shell terminal"
+msgid "Terminal"
+msgstr "Terminał"
+
+#: dolphinmainwindow.cpp:1807
+msgctxt "@title:window"
+msgid "Search"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1835
+msgctxt "@title:window"
+msgid "Places"
+msgstr "Miescy"
+
+#: dolphinmainwindow.cpp:1863
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Panels"
+msgctxt "@action:inmenu View"
+msgid "Panels"
+msgstr "Paneli"
+
+#: dolphinmainwindow.cpp:1937
+msgctxt "@action"
+msgid "Control"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2110
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "Začyni"
+
+#: dolphinmainwindow.cpp:2111
+msgctxt "@info"
+msgid "Close right view"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2114
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr "Začyni"
+
+#: dolphinmainwindow.cpp:2115
+msgctxt "@info"
+msgid "Close left view"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2119
+msgctxt "@action:intoolbar Split view"
+msgid "Split"
+msgstr "Padziali"
+
+#: dolphinmainwindow.cpp:2120
+#, fuzzy
+#| msgctxt "@option:check Startup Settings"
+#| msgid "Split view mode"
+msgctxt "@info"
+msgid "Split view"
+msgstr "Sposab padzielenaha prahladu"
+
+#: dolphinviewcontainer.cpp:366
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Čytańnie kataloha..."
 
-#: dolphinviewcontainer.cpp:346
+#: dolphinviewcontainer.cpp:374
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1577,31 +1897,31 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "Paradkuj pavodle:"
 
-#: dolphinviewcontainer.cpp:357
+#: dolphinviewcontainer.cpp:385
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:377
+#: dolphinviewcontainer.cpp:405
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:514
+#: dolphinviewcontainer.cpp:521
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje sieciŭnych staronak, tamu ŭklučyła "
 "hartač."
 
-#: dolphinviewcontainer.cpp:526
+#: dolphinviewcontainer.cpp:535
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje hetaha pratakołu, tamu ŭklučyła "
 "aplikacyju „Konqueror”."
 
-#: dolphinviewcontainer.cpp:533
+#: dolphinviewcontainer.cpp:543
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Niapravilny pratakoł"
@@ -2193,11 +2513,6 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "Uznavi"
 
-#: dolphincontextmenu.cpp:248 dolphinmainwindow.cpp:1567
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "Stvary novuju"
-
 #: dolphincontextmenu.cpp:261
 msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
@@ -2342,318 +2657,6 @@ msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "Patrebny dakument"
 
-#: dolphinmainwindow.cpp:334
-msgctxt "@info:status"
-msgid "Successfully copied."
-msgstr ""
-
-#: dolphinmainwindow.cpp:338
-msgctxt "@info:status"
-msgid "Successfully moved."
-msgstr ""
-
-#: dolphinmainwindow.cpp:342
-msgctxt "@info:status"
-msgid "Successfully linked."
-msgstr ""
-
-#: dolphinmainwindow.cpp:346
-msgctxt "@info:status"
-msgid "Successfully moved to trash."
-msgstr ""
-
-#: dolphinmainwindow.cpp:350
-msgctxt "@info:status"
-msgid "Successfully renamed."
-msgstr ""
-
-#: dolphinmainwindow.cpp:355
-msgctxt "@info:status"
-msgid "Created folder."
-msgstr "Kataloh stvorany."
-
-#: dolphinmainwindow.cpp:433
-msgctxt "@info"
-msgid "Go back"
-msgstr ""
-
-#: dolphinmainwindow.cpp:439
-msgctxt "@info"
-msgid "Go forward"
-msgstr ""
-
-#: dolphinmainwindow.cpp:601
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Information"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Źviestki"
-
-#: dolphinmainwindow.cpp:605
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgid "C&lose Current Tab"
-msgstr "Začyni kartku"
-
-#: dolphinmainwindow.cpp:613
-msgid ""
-"You have multiple tabs open in this window, are you sure you want to quit?"
-msgstr ""
-
-#: dolphinmainwindow.cpp:615
-msgid "Do not ask again"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1219
-msgctxt "@action:inmenu"
-msgid "New Tab"
-msgstr "Novaja kartka"
-
-#: dolphinmainwindow.cpp:1222
-msgctxt "@action:inmenu"
-msgid "Detach Tab"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1224
-msgctxt "@action:inmenu"
-msgid "Close Other Tabs"
-msgstr "Začyni inšyja kartki"
-
-#: dolphinmainwindow.cpp:1226
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr "Začyni kartku"
-
-#: dolphinmainwindow.cpp:1452
-#, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Location:"
-msgctxt "@action:inmenu"
-msgid "Location Bar"
-msgstr "Miesca:"
-
-#: dolphinmainwindow.cpp:1460
-#, fuzzy
-#| msgid "&Go"
-msgctxt "@action:inmenu"
-msgid "Go"
-msgstr "&Idzi"
-
-#: dolphinmainwindow.cpp:1470
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Tools"
-msgctxt "@action:inmenu"
-msgid "Tools"
-msgstr "Pryładździe"
-
-#: dolphinmainwindow.cpp:1484
-msgctxt "@action:inmenu"
-msgid "Help"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1574
-msgctxt "@action:inmenu File"
-msgid "New &Window"
-msgstr "Novaje &akno"
-
-#: dolphinmainwindow.cpp:1580
-msgctxt "@action:inmenu File"
-msgid "New Tab"
-msgstr "Novaja kartka"
-
-#: dolphinmainwindow.cpp:1586
-msgctxt "@action:inmenu File"
-msgid "Close Tab"
-msgstr "Začyni kartku"
-
-#: dolphinmainwindow.cpp:1609
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Paste"
-msgctxt "@action:inmenu Edit"
-msgid "Paste"
-msgstr "Uklej"
-
-#: dolphinmainwindow.cpp:1614
-msgctxt "@action:inmenu Edit"
-msgid "Select All"
-msgstr "Vyłučy ŭsio"
-
-#: dolphinmainwindow.cpp:1619 dolphinpart.cpp:164
-msgctxt "@action:inmenu Edit"
-msgid "Invert Selection"
-msgstr "Pieramiani vyłučeńnie"
-
-#: dolphinmainwindow.cpp:1632
-msgctxt "@action:inmenu View"
-msgid "Reload"
-msgstr "Pieračytaj"
-
-#: dolphinmainwindow.cpp:1638
-msgctxt "@action:inmenu View"
-msgid "Stop"
-msgstr "Spyni"
-
-#: dolphinmainwindow.cpp:1639
-#, fuzzy
-#| msgctxt "@label:listbox"
-#| msgid "Sorting:"
-msgctxt "@info"
-msgid "Stop loading"
-msgstr "Paradkuj pavodle:"
-
-#: dolphinmainwindow.cpp:1644
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Editable Location"
-msgstr "Źmiennaje miesca"
-
-#: dolphinmainwindow.cpp:1649
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Replace Location"
-msgstr "Zamiani miesca"
-
-#: dolphinmainwindow.cpp:1660
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgid "Recently Closed Tabs"
-msgstr "Začyni kartku"
-
-#: dolphinmainwindow.cpp:1666
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgid "Empty Recently Closed Tabs"
-msgstr "Začyni kartku"
-
-#: dolphinmainwindow.cpp:1684
-msgctxt "@action:inmenu Tools"
-msgid "Show Filter Bar"
-msgstr "Pakazvaj panel filtru"
-
-#: dolphinmainwindow.cpp:1690
-msgctxt "@action:inmenu Tools"
-msgid "Compare Files"
-msgstr "Paraŭnaj fajły"
-
-#: dolphinmainwindow.cpp:1696
-#, fuzzy
-#| msgctxt "@action:inmenu Tools"
-#| msgid "Open &Terminal"
-msgctxt "@action:inmenu Tools"
-msgid "Open Terminal"
-msgstr "Adčyni &terminał"
-
-#: dolphinmainwindow.cpp:1717
-msgctxt "@action:inmenu"
-msgid "Activate Next Tab"
-msgstr "Pierajdzi da nastupnaj kartki"
-
-#: dolphinmainwindow.cpp:1722
-msgctxt "@action:inmenu"
-msgid "Activate Previous Tab"
-msgstr "Pierajdzi da papiaredniaj kartki"
-
-#: dolphinmainwindow.cpp:1728
-msgctxt "@action:inmenu"
-msgid "Open in New Tab"
-msgstr "Adčyni ŭ novaj kartcy"
-
-#: dolphinmainwindow.cpp:1733
-msgctxt "@action:inmenu"
-msgid "Open in New Window"
-msgstr "Adčyni ŭ novym aknie"
-
-#: dolphinmainwindow.cpp:1743
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Unlock Panels"
-msgstr "Paneli"
-
-#: dolphinmainwindow.cpp:1745
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Lock Panels"
-msgstr "Paneli"
-
-#: dolphinmainwindow.cpp:1751
-msgctxt "@title:window"
-msgid "Information"
-msgstr "Źviestki"
-
-#: dolphinmainwindow.cpp:1772
-msgctxt "@title:window"
-msgid "Folders"
-msgstr "Katalohi"
-
-#: dolphinmainwindow.cpp:1791
-msgctxt "@title:window Shell terminal"
-msgid "Terminal"
-msgstr "Terminał"
-
-#: dolphinmainwindow.cpp:1813
-msgctxt "@title:window"
-msgid "Search"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1841
-msgctxt "@title:window"
-msgid "Places"
-msgstr "Miescy"
-
-#: dolphinmainwindow.cpp:1869
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Panels"
-msgctxt "@action:inmenu View"
-msgid "Panels"
-msgstr "Paneli"
-
-#: dolphinmainwindow.cpp:1943
-msgctxt "@action"
-msgid "Control"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2116
-msgctxt "@action:intoolbar Close right view"
-msgid "Close"
-msgstr "Začyni"
-
-#: dolphinmainwindow.cpp:2117
-msgctxt "@info"
-msgid "Close right view"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2120
-msgctxt "@action:intoolbar Close left view"
-msgid "Close"
-msgstr "Začyni"
-
-#: dolphinmainwindow.cpp:2121
-msgctxt "@info"
-msgid "Close left view"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2125
-msgctxt "@action:intoolbar Split view"
-msgid "Split"
-msgstr "Padziali"
-
-#: dolphinmainwindow.cpp:2126
-#, fuzzy
-#| msgctxt "@option:check Startup Settings"
-#| msgid "Split view mode"
-msgctxt "@info"
-msgid "Split view"
-msgstr "Sposab padzielenaha prahladu"
-
 #: dolphinpart.cpp:145
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
@@ -2743,6 +2746,13 @@ msgstr ""
 #: dolphinpart.cpp:469
 msgid "Unselect all items matching this pattern:"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Information"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Information Message"
+#~ msgstr "Źviestki"
 
 #, fuzzy
 #~| msgctxt "@info:credit"

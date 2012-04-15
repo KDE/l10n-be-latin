@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-11 02:55+0000\n"
+"POT-Creation-Date: 2012-04-15 02:20+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -50,7 +50,7 @@ msgctxt "Name"
 msgid "Application dashboard"
 msgstr "Uklučeńnie aplikacyi"
 
-#: desktoptheme/appdashboard/metadata.desktop:58
+#: desktoptheme/appdashboard/metadata.desktop:59
 msgctxt "Comment"
 msgid "Intended as Application dashboard default"
 msgstr ""
@@ -398,7 +398,7 @@ msgctxt "Comment"
 msgid "An application registered new global shortcuts."
 msgstr ""
 
-#: kglobalaccel/kglobalaccel.notifyrc:441
+#: kglobalaccel/kglobalaccel.notifyrc:442
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "KDED Global Shortcuts Server"
@@ -406,7 +406,7 @@ msgctxt "Name"
 msgid "Global Shortcut Triggered"
 msgstr "Słužba paŭsiudnych klavijaturnych skarotaŭ dla „KDE”"
 
-#: kglobalaccel/kglobalaccel.notifyrc:510
+#: kglobalaccel/kglobalaccel.notifyrc:512
 msgctxt "Comment"
 msgid "The user triggered a global shortcut"
 msgstr ""
@@ -665,7 +665,7 @@ msgctxt "Name"
 msgid "Recent Document Watcher"
 msgstr "Niadaŭnyja dakumenty"
 
-#: kioslave/recentdocuments/recentdocumentsnotifier.desktop:27
+#: kioslave/recentdocuments/recentdocumentsnotifier.desktop:28
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Recent Documents"
@@ -827,32 +827,32 @@ msgctxt "Comment"
 msgid "Notifications triggered by hardware devices"
 msgstr "Infarmavańnie j dostup da novych pryładaŭ"
 
-#: knotify/hardwarenotifications.notifyrc:131
+#: knotify/hardwarenotifications.notifyrc:132
 msgctxt "Name"
 msgid "Device Notifier"
 msgstr "Infarmavańnie pra novyja pryłady"
 
-#: knotify/hardwarenotifications.notifyrc:208
+#: knotify/hardwarenotifications.notifyrc:209
 msgctxt "Comment"
 msgid "The Plasma device notifier is present"
 msgstr ""
 
-#: knotify/hardwarenotifications.notifyrc:269
+#: knotify/hardwarenotifications.notifyrc:271
 msgctxt "Name"
 msgid "Mount or unmount error"
 msgstr ""
 
-#: knotify/hardwarenotifications.notifyrc:334
+#: knotify/hardwarenotifications.notifyrc:336
 msgctxt "Comment"
 msgid "There has been a problem mounting or unmounting a device"
 msgstr ""
 
-#: knotify/hardwarenotifications.notifyrc:404
+#: knotify/hardwarenotifications.notifyrc:407
 msgctxt "Name"
 msgid "The device can be safely removed"
 msgstr ""
 
-#: knotify/hardwarenotifications.notifyrc:464
+#: knotify/hardwarenotifications.notifyrc:467
 msgctxt "Comment"
 msgid "The device which has been just unmounted is now safe to remove."
 msgstr ""
@@ -1054,7 +1054,7 @@ msgctxt "Name"
 msgid "Password Caching"
 msgstr "Absłuhoŭvańnie zapaminańnia parolaŭ"
 
-#: kpasswdserver/kpasswdserver.desktop:67
+#: kpasswdserver/kpasswdserver.desktop:68
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Password caching support"
@@ -5605,7 +5605,7 @@ msgctxt "Name"
 msgid "Nepomuk File Indexing Controller"
 msgstr ""
 
-#: nepomuk/controller/nepomukcontroller.desktop:56
+#: nepomuk/controller/nepomukcontroller.desktop:57
 msgctxt "Comment"
 msgid "System tray icon to control the behaviour of the Nepomuk file indexer"
 msgstr ""
@@ -5672,7 +5672,7 @@ msgctxt "Name"
 msgid "Nepomuk Backup and Sync"
 msgstr ""
 
-#: nepomuk/services/backupsync/service/nepomukbackupsync.desktop:66
+#: nepomuk/services/backupsync/service/nepomukbackupsync.desktop:67
 msgctxt "Comment"
 msgid "Nepomuk Service which handles backup and sync."
 msgstr ""
@@ -5722,12 +5722,12 @@ msgstr ""
 "Słužba „Strigi” pačała pačatkovaje indeksavańnie fajłaŭ u kamputary, dziela "
 "chutčejšaha pošuku."
 
-#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:218
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:219
 msgctxt "Name"
 msgid "Initial Indexing finished"
 msgstr "Skončyłasia pačatkovaje indeksavańnie."
 
-#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:296
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:297
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid ""
@@ -5740,12 +5740,12 @@ msgstr ""
 "Słužba „Strigi” pačała pačatkovaje indeksavańnie fajłaŭ u kamputary, dziela "
 "chutčejšaha pošuku."
 
-#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:365
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:367
 msgctxt "Name"
 msgid "Indexing suspended"
 msgstr "Indeksavańnie spynienaje"
 
-#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:443
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:445
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Strigi file indexing has been suspended"
@@ -5753,12 +5753,12 @@ msgctxt "Comment"
 msgid "File indexing has been suspended by the search service."
 msgstr "Słužba „Strigi” pierapyniła indeksavańnie fajłaŭ."
 
-#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:512
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:515
 msgctxt "Name"
 msgid "Indexing resumed"
 msgstr "Indeksavańnie praciahnutaje"
 
-#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:590
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:593
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Strigi file indexing has been resumed"
@@ -5846,32 +5846,32 @@ msgctxt "Comment"
 msgid "The Nepomuk Semantic Desktop system could not be started"
 msgstr ""
 
-#: nepomuk/services/storage/nepomukstorage.notifyrc:271
+#: nepomuk/services/storage/nepomukstorage.notifyrc:272
 msgctxt "Name"
 msgid "Converting Nepomuk data"
 msgstr "Pieraŭtvareńnie źviestak „Nepomuk”"
 
-#: nepomuk/services/storage/nepomukstorage.notifyrc:347
+#: nepomuk/services/storage/nepomukstorage.notifyrc:348
 msgctxt "Comment"
 msgid "All Nepomuk data is converted to a new storage backend"
 msgstr "Usie źviestki „Nepomuk” pieraŭtvoranyja dla novaha schovišča."
 
-#: nepomuk/services/storage/nepomukstorage.notifyrc:426
+#: nepomuk/services/storage/nepomukstorage.notifyrc:427
 msgctxt "Name"
 msgid "Converting Nepomuk data failed"
 msgstr "Nie ŭdałosia pieraŭtvaryć źviestki „Nepomuk”."
 
-#: nepomuk/services/storage/nepomukstorage.notifyrc:502
+#: nepomuk/services/storage/nepomukstorage.notifyrc:503
 msgctxt "Comment"
 msgid "Converting Nepomuk data to a new backend failed"
 msgstr "Nie ŭdałosia pieraŭtvaryć źviestki „Nepomuk” dla novaha schovišča."
 
-#: nepomuk/services/storage/nepomukstorage.notifyrc:581
+#: nepomuk/services/storage/nepomukstorage.notifyrc:582
 msgctxt "Name"
 msgid "Converting Nepomuk data done"
 msgstr "Pieraŭtvareńnie źviestak „Nepomuk” skončanaje."
 
-#: nepomuk/services/storage/nepomukstorage.notifyrc:657
+#: nepomuk/services/storage/nepomukstorage.notifyrc:658
 msgctxt "Comment"
 msgid "Successfully converted Nepomuk data to new backend"
 msgstr ""
@@ -5910,7 +5910,7 @@ msgctxt "Comment"
 msgid "Xine Backend Configuration"
 msgstr "Nałady systemnaha hukavoha syhnału"
 
-#: phonon/kcm/xine/kcm_phononxine.desktop:174
+#: phonon/kcm/xine/kcm_phononxine.desktop:175
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Xine"
@@ -5949,7 +5949,7 @@ msgctxt "Name"
 msgid "Audio Output Device Changed"
 msgstr ""
 
-#: phonon/platform_kde/phonon.notifyrc:215
+#: phonon/platform_kde/phonon.notifyrc:216
 msgctxt "Comment"
 msgid "Notification when audio output device has automatically changed"
 msgstr ""
@@ -5987,7 +5987,7 @@ msgctxt "Name"
 msgid "Save remote widgets' policies"
 msgstr ""
 
-#: plasma/remotewidgetshelper/kcm_remotewidgets.actions:63
+#: plasma/remotewidgetshelper/kcm_remotewidgets.actions:64
 msgctxt "Description"
 msgid "Prevents the system from saving remote plasma widgets' policies"
 msgstr ""
@@ -6018,7 +6018,7 @@ msgctxt "Name"
 msgid "Declarative widget"
 msgstr ""
 
-#: plasma/scriptengines/javascript/data/plasma-scriptengine-applet-declarative.desktop:58
+#: plasma/scriptengines/javascript/data/plasma-scriptengine-applet-declarative.desktop:59
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Native Plasma widget written in JavaScript"
@@ -6070,7 +6070,7 @@ msgctxt "Comment"
 msgid "Windows Platform Manager"
 msgstr "Akońnik"
 
-#: platforms/win/config/platform.desktop:153
+#: platforms/win/config/platform.desktop:154
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Platinum"
@@ -6113,7 +6113,7 @@ msgctxt "Name"
 msgid "Drive Ejector"
 msgstr ""
 
-#: solidautoeject/solidautoeject.desktop:69
+#: solidautoeject/solidautoeject.desktop:70
 msgctxt "Comment"
 msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
@@ -6144,7 +6144,7 @@ msgctxt "Name"
 msgid "Removable Device Automounter"
 msgstr ""
 
-#: solid-device-automounter/kded/device_automounter.desktop:73
+#: solid-device-automounter/kded/device_automounter.desktop:74
 msgctxt "Comment"
 msgid "Automatically mounts devices as needed"
 msgstr ""

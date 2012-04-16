@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-14 04:18+0200\n"
+"POT-Creation-Date: 2012-04-16 03:42+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -617,39 +617,6 @@ msgctxt "@title:window"
 msgid "Configure Preview for %1"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:49
-#, fuzzy
-#| msgctxt "@title:group"
-#| msgid "View Properties"
-msgctxt "@label"
-msgid "View properties:"
-msgstr "Praviły prahladu"
-
-#: settings/general/behaviorsettingspage.cpp:53
-msgctxt "@option:radio"
-msgid "Remember view properties for each folder"
-msgstr "Zapaminaj praviły prahladu dla kožnaha kataloha"
-
-#: settings/general/behaviorsettingspage.cpp:54
-msgctxt "@option:radio"
-msgid "Use common view properties for all folders"
-msgstr "Karystajsia ahulnymi ŭłaścivaściami prahladu dla ŭsich katalohaŭ"
-
-#: settings/general/behaviorsettingspage.cpp:61
-msgctxt "@option:check"
-msgid "Show tooltips"
-msgstr "Pakazvaj padkazki"
-
-#: settings/general/behaviorsettingspage.cpp:64
-msgctxt "@option:check"
-msgid "Show selection marker"
-msgstr "Pakazvaj mietku vyłučeńnia"
-
-#: settings/general/behaviorsettingspage.cpp:67
-msgctxt "option:check"
-msgid "Natural sorting of items"
-msgstr ""
-
 #: settings/general/confirmationssettingspage.cpp:44
 #, fuzzy
 #| msgctxt "@title:group"
@@ -736,6 +703,44 @@ msgstr "Pakazvaj maštaboŭnik"
 msgctxt "@option:check"
 msgid "Show space information"
 msgstr "Pakazvaj źviestki pra volnaje miesca"
+
+#: settings/general/behaviorsettingspage.cpp:50
+#, fuzzy
+#| msgid "&View"
+msgctxt "@title:group"
+msgid "View"
+msgstr "&Prahlad"
+
+#: settings/general/behaviorsettingspage.cpp:53
+#, fuzzy
+#| msgctxt "@option:radio"
+#| msgid "Remember view properties for each folder"
+msgctxt "@option:radio"
+msgid "Remember properties for each folder"
+msgstr "Zapaminaj praviły prahladu dla kožnaha kataloha"
+
+#: settings/general/behaviorsettingspage.cpp:54
+#, fuzzy
+#| msgctxt "@option:radio"
+#| msgid "Use common view properties for all folders"
+msgctxt "@option:radio"
+msgid "Use common properties for all folders"
+msgstr "Karystajsia ahulnymi ŭłaścivaściami prahladu dla ŭsich katalohaŭ"
+
+#: settings/general/behaviorsettingspage.cpp:61
+msgctxt "@option:check"
+msgid "Show tooltips"
+msgstr "Pakazvaj padkazki"
+
+#: settings/general/behaviorsettingspage.cpp:64
+msgctxt "@option:check"
+msgid "Show selection marker"
+msgstr "Pakazvaj mietku vyłučeńnia"
+
+#: settings/general/behaviorsettingspage.cpp:67
+msgctxt "option:check"
+msgid "Natural sorting of items"
+msgstr ""
 
 #: settings/kcm/kcmdolphinviewmodes.cpp:58
 #: settings/viewmodes/viewsettingspage.cpp:45
@@ -1217,61 +1222,6 @@ msgctxt "@label"
 msgid "Select which additional information should be shown:"
 msgstr ""
 
-#: statusbar/dolphinstatusbar.cpp:63
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show zoom slider"
-msgid "Zoom slider"
-msgstr "Pakazvaj maštaboŭnik"
-
-#: statusbar/dolphinstatusbar.cpp:76
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Stop"
-msgid "Stop"
-msgstr "Spyni"
-
-#: statusbar/dolphinstatusbar.cpp:78
-#, fuzzy
-#| msgctxt "@label:listbox"
-#| msgid "Sorting:"
-msgctxt "@tooltip"
-msgid "Stop loading"
-msgstr "Paradkuj pavodle:"
-
-#: statusbar/dolphinstatusbar.cpp:226
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Copy"
-msgctxt "@action:inmenu"
-msgid "Copy Text"
-msgstr "Skapijuj"
-
-#: statusbar/dolphinstatusbar.cpp:227
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show zoom slider"
-msgctxt "@action:inmenu"
-msgid "Show Zoom Slider"
-msgstr "Pakazvaj maštaboŭnik"
-
-#: statusbar/dolphinstatusbar.cpp:231
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show space information"
-msgctxt "@action:inmenu"
-msgid "Show Space Information"
-msgstr "Pakazvaj źviestki pra volnaje miesca"
-
-#: statusbar/dolphinstatusbar.cpp:308
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Size: 1 pixel"
-msgid_plural "Size: %1 pixels"
-msgstr[0] "Pamier: %1 punkt"
-msgstr[1] "Pamier: %1 punkty"
-msgstr[2] "Pamier: %1 punktaŭ"
-
 #: statusbar/statusbarspaceinfo.cpp:79 statusbar/statusbarspaceinfo.cpp:87
 msgctxt "@info:status"
 msgid "Unknown size"
@@ -1282,6 +1232,61 @@ msgstr "Nieviadomy pamier"
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 volnaha miesca"
+
+#: statusbar/dolphinstatusbar.cpp:69
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgid "Zoom slider"
+msgstr "Pakazvaj maštaboŭnik"
+
+#: statusbar/dolphinstatusbar.cpp:82
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "Stop"
+msgstr "Spyni"
+
+#: statusbar/dolphinstatusbar.cpp:84
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Sorting:"
+msgctxt "@tooltip"
+msgid "Stop loading"
+msgstr "Paradkuj pavodle:"
+
+#: statusbar/dolphinstatusbar.cpp:257
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Copy"
+msgctxt "@action:inmenu"
+msgid "Copy Text"
+msgstr "Skapijuj"
+
+#: statusbar/dolphinstatusbar.cpp:258
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "Pakazvaj maštaboŭnik"
+
+#: statusbar/dolphinstatusbar.cpp:262
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show space information"
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "Pakazvaj źviestki pra volnaje miesca"
+
+#: statusbar/dolphinstatusbar.cpp:345
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Size: 1 pixel"
+msgid_plural "Size: %1 pixels"
+msgstr[0] "Pamier: %1 punkt"
+msgstr[1] "Pamier: %1 punkty"
+msgstr[2] "Pamier: %1 punktaŭ"
 
 #: views/dolphinview.cpp:517
 #, kde-format
@@ -2836,6 +2841,13 @@ msgstr ""
 #: dolphinpart.cpp:469
 msgid "Unselect all items matching this pattern:"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "View Properties"
+#~ msgctxt "@label"
+#~ msgid "View properties:"
+#~ msgstr "Praviły prahladu"
 
 #, fuzzy
 #~| msgctxt "@title:window"

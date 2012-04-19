@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-17 17:57+0200\n"
+"POT-Creation-Date: 2012-04-19 12:53+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5840,12 +5840,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5327
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5331
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5329
+#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5333
 msgid "Site:"
 msgstr "Sajt:"
 
@@ -5863,8 +5863,8 @@ msgstr "Uvachod: OK"
 msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
 
-#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5221
-#: ../kioslave/http/http.cpp:5339
+#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5222
+#: ../kioslave/http/http.cpp:5343
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5872,19 +5872,19 @@ msgstr ""
 "Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
 "parol dla proxy-servera."
 
-#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5225
-#: ../kioslave/http/http.cpp:5342
+#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5226
+#: ../kioslave/http/http.cpp:5346
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5226
-#: ../kioslave/http/http.cpp:5422
+#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5227
+#: ../kioslave/http/http.cpp:5426
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
-#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5227
-#: ../kioslave/http/http.cpp:5359
+#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5229
+#: ../kioslave/http/http.cpp:5363
 msgid "Proxy Authentication Failed."
 msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
 
@@ -6254,17 +6254,17 @@ msgstr "Vysyłańnie źviestak u „%1”"
 msgid "Retrieving %1 from %2..."
 msgstr "Atrymańnie „%1” ad „%2”..."
 
-#: ../kioslave/http/http.cpp:5358
+#: ../kioslave/http/http.cpp:5362
 msgid "Authentication Failed."
 msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
 
-#: ../kioslave/http/http.cpp:5452
+#: ../kioslave/http/http.cpp:5456
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Akno aŭtaryzavańnia"
 
-#: ../kioslave/http/http.cpp:5468
+#: ../kioslave/http/http.cpp:5472
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."

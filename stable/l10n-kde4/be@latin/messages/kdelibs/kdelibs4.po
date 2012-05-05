@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-01 19:10+0200\n"
+"POT-Creation-Date: 2012-05-05 12:43+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -11126,37 +11126,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Adčyni skrypt"
 
-#: khtml/ecma/kjs_html.cpp:2162 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2162
 msgid "Confirmation: JavaScript Popup"
 msgstr "Paćvierdžańnie: vypłyŭnoje akno praz JavaScript"
-
-#: khtml/ecma/kjs_html.cpp:2164
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Hety sajt vysyłaje formu, jakaja adčynić novaje akno hartača praz "
-"JavaScript.\n"
-"Ci chočaš dazvolić vysyłańnie hetaj formy?"
-
-#: khtml/ecma/kjs_html.cpp:2167
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Hety sajt vysyłaje formu, jakaja adčynić <p>%1</p> u novym aknie hartača "
-"praz JavaScript.<br />Ci chočaš dazvolić vysyłańnie hetaj formy?</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "Dazvol"
-
-#: khtml/ecma/kjs_html.cpp:2169 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "Nie dazvol"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -11174,6 +11146,14 @@ msgid ""
 msgstr ""
 "<qt>Hety sajt choča adčynić<p>%1</p>u novym aknie hartača praz JavaScript."
 "<br />Chočaš jamu heta dazvolić?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Allow"
+msgstr "Dazvol"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2169
+msgid "Do Not Allow"
+msgstr "Nie dazvol"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -11209,6 +11189,26 @@ msgstr "Dadaj"
 msgid "Disallow"
 msgstr "Zabarani"
 
+#: khtml/ecma/kjs_html.cpp:2164
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Hety sajt vysyłaje formu, jakaja adčynić novaje akno hartača praz "
+"JavaScript.\n"
+"Ci chočaš dazvolić vysyłańnie hetaj formy?"
+
+#: khtml/ecma/kjs_html.cpp:2167
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Hety sajt vysyłaje formu, jakaja adčynić <p>%1</p> u novym aknie hartača "
+"praz JavaScript.<br />Ci chočaš dazvolić vysyłańnie hetaj formy?</qt>"
+
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
 msgstr "Kansol"
@@ -11224,14 +11224,6 @@ msgstr "Pamyłka ŭ JavaScript"
 #: khtml/ecma/debugger/errordlg.cpp:49
 msgid "&Do not show this message again"
 msgstr "&Bolej nie pakazvaj hetkich paviedamleńniaŭ"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:43
-msgid "Local Variables"
-msgstr "Lakalnyja źmiennyja"
-
-#: khtml/ecma/debugger/localvariabledock.cpp:51
-msgid "Reference"
-msgstr "Spasyłka"
 
 #: khtml/ecma/debugger/callstackdock.cpp:37
 msgid "Call Stack"
@@ -11335,6 +11327,14 @@ msgstr "Raźlik vykinuŭ vyklučeńnie „%1”."
 #: khtml/ecma/debugger/scriptsdock.cpp:43
 msgid "Loaded Scripts"
 msgstr "Źmieščanyja ŭ pamiać skrypty"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:43
+msgid "Local Variables"
+msgstr "Lakalnyja źmiennyja"
+
+#: khtml/ecma/debugger/localvariabledock.cpp:51
+msgid "Reference"
+msgstr "Spasyłka"
 
 #: khtml/html/htmlparser.cpp:1938
 msgid "This is a searchable index. Enter search keywords: "

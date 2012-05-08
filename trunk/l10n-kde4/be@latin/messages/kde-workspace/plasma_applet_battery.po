@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-06 07:30+0100\n"
+"POT-Creation-Date: 2012-05-08 06:32+0200\n"
 "PO-Revision-Date: 2008-10-05 10:22+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,172 +19,171 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: battery.cpp:182
-#, fuzzy
-#| msgctxt "Battery is not plugged in"
-#| msgid "<b>Battery:</b> not present<br />"
-msgid "<b>Battery:</b>"
-msgstr "<b>Batareja:</b> niama<br />"
-
-#: battery.cpp:189
-#, fuzzy, kde-format
-#| msgid "<b>Battery %1:</b> %2% (charging)<br />"
-msgctxt "tooltip: placeholder is the battery ID"
-msgid "<b>Battery %1:</b>"
-msgstr "<b>Batareja %1:</b> %2% (zapaŭniajecca)<br />"
-
-#: battery.cpp:200
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Plugged in"
-msgctxt "tooltip"
-msgid "<b>AC Adapter:</b>"
-msgstr "<b>Blok siłkavańnia:</b> padłučany"
-
-#: battery.cpp:201
-msgctxt "tooltip"
-msgid "Plugged in"
-msgstr ""
-
-#: battery.cpp:201
-msgctxt "tooltip"
-msgid "Not plugged in"
-msgstr ""
-
-#: battery.cpp:376
-msgid "General"
-msgstr "Ahulnaje"
-
-#: battery.cpp:553
-#, fuzzy
-#| msgid "Time remaining: <b>%1</b><br />"
-msgctxt "Label for remaining time"
-msgid "Time Remaining:"
-msgstr "Zastałosia času: <b>%1</b><br />"
-
-#: battery.cpp:560
-#, fuzzy
-#| msgid "Power Management"
-msgctxt "Label for power management inhibition"
-msgid "Power management enabled:"
-msgstr "Kiravańnie enerhijaj"
-
-#: battery.cpp:582
-#, fuzzy
-#| msgid "Screen Brightness"
-msgid "Screen Brightness:"
-msgstr "Jarkaść ekrana"
-
-#: battery.cpp:603
-#, fuzzy
-#| msgid "Sleep"
-msgctxt "Suspend the computer to RAM; translation should be short"
-msgid "Sleep"
-msgstr "Zaśni"
-
-#: battery.cpp:610
-#, fuzzy
-#| msgid "Hibernate"
-msgctxt "Suspend the computer to disk; translation should be short"
-msgid "Hibernate"
-msgstr "Zhibernuj"
-
-#: battery.cpp:617
-#, fuzzy
-#| msgid "Power Management"
-msgctxt "tooltip on the config button in the popup"
-msgid "Configure Power Management..."
-msgstr "Kiravańnie enerhijaj"
-
-#: battery.cpp:619
-msgid "Power Settings"
-msgstr ""
-
-#: battery.cpp:675
-#, fuzzy, kde-format
-#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
-msgid "%1% (charged)"
-msgstr "<b>Batareja:</b> %1% (całkom zapoŭnienaja)<br />"
-
-#: battery.cpp:677
-#, fuzzy, kde-format
-#| msgctxt "Shown when a time estimate is not available"
-#| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgid "%1% (discharging)"
-msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
-
-#: battery.cpp:679
-#, kde-format
-msgid "%1% (charging)"
-msgstr ""
-
-#: battery.cpp:683
-msgctxt "Battery is not plugged in"
-msgid "Not present"
-msgstr ""
-
-#: battery.cpp:699 battery.cpp:732
+#: contents/ui/PopupDialog.qml:52
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "Battery:"
 msgstr "<b>Batareja:</b> niama<br />"
 
-#: battery.cpp:706
-#, fuzzy, kde-format
-#| msgctxt "Battery is not plugged in"
-#| msgid "<b>Battery:</b> not present<br />"
-msgctxt "Placeholder is the battery ID"
-msgid "Battery %1:"
-msgstr "<b>Batareja:</b> niama<br />"
-
-#: battery.cpp:713
+#: contents/ui/PopupDialog.qml:57
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Plugged in"
 msgid "AC Adapter:"
 msgstr "<b>Blok siłkavańnia:</b> padłučany"
 
-#: battery.cpp:715
-msgid "<b>Plugged in</b>"
+#: contents/ui/PopupDialog.qml:62
+#, fuzzy
+#| msgid "Time remaining: <b>%1</b><br />"
+msgctxt "Label for remaining time"
+msgid "Time Remaining:"
+msgstr "Zastałosia času: <b>%1</b><br />"
+
+#: contents/ui/PopupDialog.qml:68
+#, fuzzy
+#| msgid "Power Management"
+msgctxt "Label for power management inhibition"
+msgid "Power management enabled:"
+msgstr "Kiravańnie enerhijaj"
+
+#: contents/ui/PopupDialog.qml:73
+#, fuzzy
+#| msgid "Screen Brightness"
+msgid "Screen Brightness:"
+msgstr "Jarkaść ekrana"
+
+#: contents/ui/PopupDialog.qml:88 contents/ui/batterymonitor.qml:74
+msgctxt "Battery is not plugged in"
+msgid "Not present"
 msgstr ""
 
-#: battery.cpp:717
+#: contents/ui/PopupDialog.qml:93
+msgid "Plugged in"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:93
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Not plugged in"
-msgid "<b>Not plugged in</b>"
+msgid "Not plugged in"
 msgstr "<b>Blok siłkavańnia:</b> nie padłučany"
 
-#: battery.cpp:733
-msgctxt "Battery is not plugged in"
-msgid "<b>Not present</b>"
-msgstr ""
-
-#: battery.cpp:965 battery.cpp:996 battery.cpp:1008
+#: contents/ui/PopupDialog.qml:124
 #, kde-format
-msgctxt "overlay on the battery, needs to be really tiny"
-msgid "%1%"
+msgid "1 hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: contents/ui/PopupDialog.qml:125
+#, kde-format
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: contents/ui/PopupDialog.qml:141
+#, fuzzy
+#| msgid "Sleep"
+msgctxt "Suspend the computer to RAM; translation should be short"
+msgid "Sleep"
+msgstr "Zaśni"
+
+#: contents/ui/PopupDialog.qml:150
+#, fuzzy
+#| msgid "Hibernate"
+msgctxt "Suspend the computer to disk; translation should be short"
+msgid "Hibernate"
+msgstr "Zhibernuj"
+
+#: contents/ui/batterymonitor.qml:72
+#, fuzzy
+#| msgctxt "Battery is not plugged in"
+#| msgid "<b>Battery:</b> not present<br />"
+msgid "<b>Battery:</b>"
+msgstr "<b>Batareja:</b> niama<br />"
+
+#: contents/ui/batterymonitor.qml:76
+#, fuzzy
+#| msgid "<b>AC Adapter:</b> Plugged in"
+msgctxt "tooltip"
+msgid "<b>AC Adapter:</b>"
+msgstr "<b>Blok siłkavańnia:</b> padłučany"
+
+#: contents/ui/batterymonitor.qml:78
+msgctxt "tooltip"
+msgid "Plugged in"
 msgstr ""
 
-#: battery.cpp:1080
+#: contents/ui/batterymonitor.qml:78
+msgctxt "tooltip"
+msgid "Not plugged in"
+msgstr ""
+
+#: contents/ui/batterymonitor.qml:94
+#, kde-format
+msgid "%1% (charging)"
+msgstr ""
+
+#: contents/ui/batterymonitor.qml:95
+#, fuzzy, kde-format
+#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+msgid "%1% (charged)"
+msgstr "<b>Batareja:</b> %1% (całkom zapoŭnienaja)<br />"
+
+#: contents/ui/batterymonitor.qml:97
+#, fuzzy, kde-format
+#| msgctxt "Shown when a time estimate is not available"
+#| msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgid "%1% (discharging)"
+msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
+
+#: contents/ui/batterymonitor.qml:144
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
 
-#. i18n: file: batteryConfig.ui:14
+#. i18n: file: contents/ui/config.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
 #: rc.cpp:3
 msgid "Configure Battery Monitor"
 msgstr "Naładź nazirańnika za batarejaj"
 
-#. i18n: file: batteryConfig.ui:23
-#. i18n: ectx: property (text), widget (QCheckBox, showBatteryStringCheckBox)
+#. i18n: file: contents/ui/config.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showMultipleBatteries)
 #: rc.cpp:6
-msgid "Show charge &information"
-msgstr ""
-
-#. i18n: file: batteryConfig.ui:33
-#. i18n: ectx: property (text), widget (QCheckBox, showMultipleBatteriesCheckBox)
-#: rc.cpp:9
 msgid "Show the state for &each battery present"
 msgstr "Pakazvaj &usie najaŭnyja batarei"
+
+#. i18n: file: contents/ui/config.ui:30
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showRemainingTime)
+#: rc.cpp:9
+#, fuzzy
+#| msgid "Show the percentage of &charge on the battery"
+msgid "Show remaining time for the battery"
+msgstr "&Pakazvaj kolkaść pracentaŭ zaradu dla batarei"
+
+#, fuzzy
+#~| msgid "<b>Battery %1:</b> %2% (charging)<br />"
+#~ msgctxt "tooltip: placeholder is the battery ID"
+#~ msgid "<b>Battery %1:</b>"
+#~ msgstr "<b>Batareja %1:</b> %2% (zapaŭniajecca)<br />"
+
+#~ msgid "General"
+#~ msgstr "Ahulnaje"
+
+#, fuzzy
+#~| msgid "Power Management"
+#~ msgctxt "tooltip on the config button in the popup"
+#~ msgid "Configure Power Management..."
+#~ msgstr "Kiravańnie enerhijaj"
+
+#, fuzzy
+#~| msgctxt "Battery is not plugged in"
+#~| msgid "<b>Battery:</b> not present<br />"
+#~ msgctxt "Placeholder is the battery ID"
+#~ msgid "Battery %1:"
+#~ msgstr "<b>Batareja:</b> niama<br />"
 
 #, fuzzy
 #~| msgid "Power Profile"
@@ -253,9 +252,6 @@ msgstr "Pakazvaj &usie najaŭnyja batarei"
 
 #~ msgid "<b>Battery %1:</b> %2% (discharging)<br />"
 #~ msgstr "<b>Batareja %1:</b> %2% (spustašajecca)<br />"
-
-#~ msgid "Show the percentage of &charge on the battery"
-#~ msgstr "&Pakazvaj kolkaść pracentaŭ zaradu dla batarei"
 
 #~ msgid "<b>1 hour 1 minute</b> remaining<br />"
 #~ msgid_plural "<b>1 hour %1 minutes</b> remaining<br />"

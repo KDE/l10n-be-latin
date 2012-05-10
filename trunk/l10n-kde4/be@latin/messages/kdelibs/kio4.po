@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-20 04:15+0200\n"
+"POT-Creation-Date: 2012-05-10 04:26+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1622,7 +1622,7 @@ msgstr ""
 "<qt>Vybiery prahramu. Kali patrebnaj prahramy niama ŭ śpisie, upišy jejnuju "
 "nazvu albo klikni ŭ knopku prahladu.</qt>"
 
-#: kfile/kopenwithdialog.cpp:601
+#: kfile/kopenwithdialog.cpp:602
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -1650,19 +1650,19 @@ msgstr ""
 "%m - małaja ikona\n"
 "%c - kamentar"
 
-#: kfile/kopenwithdialog.cpp:636
+#: kfile/kopenwithdialog.cpp:637
 msgid "Run in &terminal"
 msgstr "Uklučy ŭ &terminale"
 
-#: kfile/kopenwithdialog.cpp:653
+#: kfile/kopenwithdialog.cpp:654
 msgid "&Do not close when command exits"
 msgstr "&Nie začyniaj paśla vychadu z zahadu"
 
-#: kfile/kopenwithdialog.cpp:670
+#: kfile/kopenwithdialog.cpp:671
 msgid "&Remember application association for this type of file"
 msgstr "&Zapomni poviaź aplikacyi z hetym typam fajłaŭ"
 
-#: kfile/kopenwithdialog.cpp:814
+#: kfile/kopenwithdialog.cpp:815
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
@@ -1671,7 +1671,7 @@ msgstr ""
 "Nie ŭdałosia atrymać nazvy vykonvalnaha fajła z „%1”. Pravilna ŭpišy nazvu "
 "prahramy."
 
-#: kfile/kopenwithdialog.cpp:860
+#: kfile/kopenwithdialog.cpp:861
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr "Nie ŭdałosia znajści „%1”. Pravilna ŭpišy nazvu prahramy."
@@ -4136,6 +4136,32 @@ msgstr "&Tak"
 msgid "&No"
 msgstr "&Nie"
 
+#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:81
+msgid "&Details"
+msgstr "&Detali"
+
+#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:848 kssl/sslui.cpp:120
+msgid "&Forever"
+msgstr "&Pryjmaj nadalej"
+
+#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:82
+msgid "Co&ntinue"
+msgstr "&Praciahvaj"
+
+#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:849 kssl/sslui.cpp:121
+#, fuzzy
+#| msgid "&Current Sessions Only"
+msgid "&Current Session only"
+msgstr "&Tolki dla dziejnych sesijaŭ"
+
+#: kio/slaveinterface.cpp:496
+msgid "The peer SSL certificate chain appears to be corrupt."
+msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
+
+#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:776
+msgid "SSL"
+msgstr "SSL"
+
 #: kio/skipdialog.cpp:37
 msgid "Information"
 msgstr "Źviestki"
@@ -4175,32 +4201,6 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia stvaryć słužbu „ioslave”:\n"
 "Słužba „klauncher” paviedamiła: %1"
-
-#: kio/slaveinterface.cpp:415 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:81
-msgid "&Details"
-msgstr "&Detali"
-
-#: kio/slaveinterface.cpp:417 kio/tcpslavebase.cpp:848 kssl/sslui.cpp:120
-msgid "&Forever"
-msgstr "&Pryjmaj nadalej"
-
-#: kio/slaveinterface.cpp:422 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:82
-msgid "Co&ntinue"
-msgstr "&Praciahvaj"
-
-#: kio/slaveinterface.cpp:424 kio/tcpslavebase.cpp:849 kssl/sslui.cpp:121
-#, fuzzy
-#| msgid "&Current Sessions Only"
-msgid "&Current Session only"
-msgstr "&Tolki dla dziejnych sesijaŭ"
-
-#: kio/slaveinterface.cpp:483
-msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
-
-#: kio/slaveinterface.cpp:485 kio/tcpslavebase.cpp:776
-msgid "SSL"
-msgstr "SSL"
 
 #: kio/renamedialog.cpp:131
 msgid "Appl&y to All"
@@ -5840,12 +5840,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5331
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5333
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5333
+#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5335
 msgid "Site:"
 msgstr "Sajt:"
 
@@ -5864,7 +5864,7 @@ msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
 
 #: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5222
-#: ../kioslave/http/http.cpp:5343
+#: ../kioslave/http/http.cpp:5345
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5873,18 +5873,18 @@ msgstr ""
 "parol dla proxy-servera."
 
 #: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5226
-#: ../kioslave/http/http.cpp:5346
+#: ../kioslave/http/http.cpp:5348
 msgid "Proxy:"
 msgstr "Proxy:"
 
 #: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5227
-#: ../kioslave/http/http.cpp:5426
+#: ../kioslave/http/http.cpp:5428
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
 #: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5229
-#: ../kioslave/http/http.cpp:5363
+#: ../kioslave/http/http.cpp:5365
 msgid "Proxy Authentication Failed."
 msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
 
@@ -6254,17 +6254,17 @@ msgstr "Vysyłańnie źviestak u „%1”"
 msgid "Retrieving %1 from %2..."
 msgstr "Atrymańnie „%1” ad „%2”..."
 
-#: ../kioslave/http/http.cpp:5362
+#: ../kioslave/http/http.cpp:5364
 msgid "Authentication Failed."
 msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
 
-#: ../kioslave/http/http.cpp:5456
+#: ../kioslave/http/http.cpp:5461
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Akno aŭtaryzavańnia"
 
-#: ../kioslave/http/http.cpp:5472
+#: ../kioslave/http/http.cpp:5477
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."

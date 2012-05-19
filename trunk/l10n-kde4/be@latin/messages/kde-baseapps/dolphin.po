@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-18 04:35+0200\n"
+"POT-Creation-Date: 2012-05-19 04:38+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -667,7 +667,7 @@ msgctxt "@title:window"
 msgid "Edit Places Entry"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:232
+#: panels/places/placesitemmodel.cpp:233
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -675,7 +675,7 @@ msgctxt "@item"
 msgid "Eject '%1'"
 msgstr "Dadaj kamentar..."
 
-#: panels/places/placesitemmodel.cpp:268
+#: panels/places/placesitemmodel.cpp:269
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -683,7 +683,7 @@ msgctxt "@item"
 msgid "Release '%1'"
 msgstr "Pieračytaj"
 
-#: panels/places/placesitemmodel.cpp:270
+#: panels/places/placesitemmodel.cpp:271
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -691,7 +691,7 @@ msgctxt "@item"
 msgid "Safely Remove '%1'"
 msgstr "Pieračytaj"
 
-#: panels/places/placesitemmodel.cpp:273
+#: panels/places/placesitemmodel.cpp:274
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Reload"
@@ -699,13 +699,13 @@ msgctxt "@item"
 msgid "Unmount '%1'"
 msgstr "Pieračytaj"
 
-#: panels/places/placesitemmodel.cpp:310
+#: panels/places/placesitemmodel.cpp:296
 #, kde-format
 msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:726
+#: panels/places/placesitemmodel.cpp:758
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -713,7 +713,7 @@ msgctxt "@item"
 msgid "Home"
 msgstr "Chatni adras"
 
-#: panels/places/placesitemmodel.cpp:729
+#: panels/places/placesitemmodel.cpp:761
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -721,12 +721,12 @@ msgctxt "@item"
 msgid "Network"
 msgstr "&Sietkavyja katalohi"
 
-#: panels/places/placesitemmodel.cpp:732
+#: panels/places/placesitemmodel.cpp:764
 msgctxt "@item"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:735
+#: panels/places/placesitemmodel.cpp:767
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Trash"
@@ -734,7 +734,7 @@ msgctxt "@item"
 msgid "Trash"
 msgstr "Śmietnica"
 
-#: panels/places/placesitemmodel.cpp:740
+#: panels/places/placesitemmodel.cpp:772
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -742,7 +742,7 @@ msgctxt "@item Recently Accessed"
 msgid "Today"
 msgstr "Siońnia"
 
-#: panels/places/placesitemmodel.cpp:743
+#: panels/places/placesitemmodel.cpp:775
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -750,7 +750,7 @@ msgctxt "@item Recently Accessed"
 msgid "Yesterday"
 msgstr "Učora"
 
-#: panels/places/placesitemmodel.cpp:746
+#: panels/places/placesitemmodel.cpp:778
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -758,7 +758,7 @@ msgctxt "@item Recently Accessed"
 msgid "This Month"
 msgstr "U hetym miesiacy"
 
-#: panels/places/placesitemmodel.cpp:749
+#: panels/places/placesitemmodel.cpp:781
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -766,7 +766,7 @@ msgctxt "@item Recently Accessed"
 msgid "Last Month"
 msgstr "U hetym miesiacy"
 
-#: panels/places/placesitemmodel.cpp:752
+#: panels/places/placesitemmodel.cpp:784
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -774,7 +774,7 @@ msgctxt "@item Commonly Accessed"
 msgid "Documents"
 msgstr "Dakumentacyja"
 
-#: panels/places/placesitemmodel.cpp:755
+#: panels/places/placesitemmodel.cpp:787
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -782,12 +782,12 @@ msgctxt "@item Commonly Accessed"
 msgid "Images"
 msgstr "Padhlady fajłaŭ"
 
-#: panels/places/placesitemmodel.cpp:758
+#: panels/places/placesitemmodel.cpp:790
 msgctxt "@item Commonly Accessed"
 msgid "Audio Files"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:761
+#: panels/places/placesitemmodel.cpp:793
 msgctxt "@item Commonly Accessed"
 msgid "Videos"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-11 04:15+0200\n"
+"POT-Creation-Date: 2012-05-25 07:22+0200\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -38,6 +38,27 @@ msgstr "&Vydali profil"
 #: src/konqmainwindow.cpp:5119
 msgid "no name"
 msgstr "biaz nazvy"
+
+#: src/konqview.cpp:1200
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"Staronka, jakuju ty sprabuješ pahladzieć, jość vynikam vysłanym źviestak "
+"formy. Kali ty pierašleš źviestki, to ŭsie aperacyi, vykananyja formaj "
+"(naprykład, pošuk ci zamaŭleńnie tavaru), buduć paŭtoranyja."
+
+#: src/konqview.cpp:1202
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Uvaha"
+
+#: src/konqview.cpp:1202
+msgid "Resend"
+msgstr "Pierašli"
 
 #: src/konqguiclients.cpp:66
 #, kde-format
@@ -885,27 +906,6 @@ msgstr "&Anuluj: začynieńnie akna"
 #: src/konqundomanager.cpp:122
 msgid "Und&o"
 msgstr ""
-
-#: src/konqview.cpp:1203
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-"Staronka, jakuju ty sprabuješ pahladzieć, jość vynikam vysłanym źviestak "
-"formy. Kali ty pierašleš źviestki, to ŭsie aperacyi, vykananyja formaj "
-"(naprykład, pošuk ci zamaŭleńnie tavaru), buduć paŭtoranyja."
-
-#: src/konqview.cpp:1205
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "Uvaha"
-
-#: src/konqview.cpp:1205
-msgid "Resend"
-msgstr "Pierašli"
 
 #: src/konqsessiondlg.cpp:78
 #, fuzzy

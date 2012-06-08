@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-08 06:32+0200\n"
+"POT-Creation-Date: 2012-06-08 08:21+0200\n"
 "PO-Revision-Date: 2008-10-05 10:22+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -52,7 +52,7 @@ msgstr "Kiravańnie enerhijaj"
 msgid "Screen Brightness:"
 msgstr "Jarkaść ekrana"
 
-#: contents/ui/PopupDialog.qml:88 contents/ui/batterymonitor.qml:74
+#: contents/ui/PopupDialog.qml:88 contents/ui/batterymonitor.qml:76
 msgctxt "Battery is not plugged in"
 msgid "Not present"
 msgstr ""
@@ -97,49 +97,49 @@ msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "Zhibernuj"
 
-#: contents/ui/batterymonitor.qml:72
+#: contents/ui/batterymonitor.qml:74
 #, fuzzy
 #| msgctxt "Battery is not plugged in"
 #| msgid "<b>Battery:</b> not present<br />"
 msgid "<b>Battery:</b>"
 msgstr "<b>Batareja:</b> niama<br />"
 
-#: contents/ui/batterymonitor.qml:76
+#: contents/ui/batterymonitor.qml:78
 #, fuzzy
 #| msgid "<b>AC Adapter:</b> Plugged in"
 msgctxt "tooltip"
 msgid "<b>AC Adapter:</b>"
 msgstr "<b>Blok siłkavańnia:</b> padłučany"
 
-#: contents/ui/batterymonitor.qml:78
+#: contents/ui/batterymonitor.qml:80
 msgctxt "tooltip"
 msgid "Plugged in"
 msgstr ""
 
-#: contents/ui/batterymonitor.qml:78
+#: contents/ui/batterymonitor.qml:80
 msgctxt "tooltip"
 msgid "Not plugged in"
 msgstr ""
 
-#: contents/ui/batterymonitor.qml:94
+#: contents/ui/batterymonitor.qml:96
 #, kde-format
 msgid "%1% (charging)"
 msgstr ""
 
-#: contents/ui/batterymonitor.qml:95
+#: contents/ui/batterymonitor.qml:97
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (charged)"
 msgstr "<b>Batareja:</b> %1% (całkom zapoŭnienaja)<br />"
 
-#: contents/ui/batterymonitor.qml:97
+#: contents/ui/batterymonitor.qml:99
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "%1% (discharging)"
 msgstr "<b>Batareja:</b> %1% (spustašajecca)<br />"
 
-#: contents/ui/batterymonitor.qml:144
+#: contents/ui/batterymonitor.qml:146
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-22 04:15+0100\n"
+"POT-Creation-Date: 2012-06-09 04:39+0200\n"
 "PO-Revision-Date: 2008-12-02 00:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -187,6 +187,41 @@ msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
 msgid "Filters"
 msgstr "Filtry"
 
+#: widgetsexplorer/package/contents/ui/Tooltip.qml:86
+msgid "License: "
+msgstr ""
+
+#: widgetsexplorer/package/contents/ui/Tooltip.qml:95
+msgid "Author: "
+msgstr ""
+
+#: widgetsexplorer/package/contents/ui/Tooltip.qml:115
+#, fuzzy
+#| msgid "Install New Widgets"
+msgid "Uninstall"
+msgstr "Zainstaluj novych widžetaŭ"
+
+#: widgetsexplorer/package/contents/ui/main.qml:155
+#: widgetsexplorer/package/contents/ui/main.qml:217
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter search term..."
+msgstr "Tut upišy šukany vyraz."
+
+#: widgetsexplorer/package/contents/ui/main.qml:161
+#: widgetsexplorer/package/contents/ui/main.qml:223
+#, fuzzy
+#| msgid "Categories:"
+msgid "Categories"
+msgstr "Katehoryi:"
+
+#: widgetsexplorer/package/contents/ui/main.qml:171
+#: widgetsexplorer/package/contents/ui/main.qml:232
+#, fuzzy
+#| msgid "Get New Widgets"
+msgid "Get new widgets"
+msgstr "Vaźmi novych widžetaŭ"
+
 #: widgetsexplorer/plasmaappletitemmodel.cpp:226
 msgid "Containments"
 msgstr "Schoviščy"
@@ -309,26 +344,6 @@ msgstr ""
 #: rc.cpp:20
 msgid "Mouse Plugins"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Categories:"
-#~ msgid "Categories"
-#~ msgstr "Katehoryi:"
-
-#, fuzzy
-#~| msgid "Enter search phrase here"
-#~ msgid "Enter Search Term"
-#~ msgstr "Tut upišy šukany vyraz."
-
-#, fuzzy
-#~| msgid "Get New Widgets"
-#~ msgid "Get New Widgets..."
-#~ msgstr "Vaźmi novych widžetaŭ"
-
-#, fuzzy
-#~| msgid "Install New Widgets"
-#~ msgid "Uninstall Widget"
-#~ msgstr "Zainstaluj novych widžetaŭ"
 
 #, fuzzy
 #~| msgid "Add Widget"

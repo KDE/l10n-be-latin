@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-09 04:39+0200\n"
+"POT-Creation-Date: 2012-06-12 07:27+0200\n"
 "PO-Revision-Date: 2008-12-02 00:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -187,44 +187,40 @@ msgstr "Nie ŭdałosia zainstalavać pakunak „%1”."
 msgid "Filters"
 msgstr "Filtry"
 
-#: widgetsexplorer/package/contents/ui/Tooltip.qml:86
+#: widgetsexplorer/package/contents/ui/Tooltip.qml:102
 msgid "License: "
 msgstr ""
 
-#: widgetsexplorer/package/contents/ui/Tooltip.qml:95
+#: widgetsexplorer/package/contents/ui/Tooltip.qml:111
 msgid "Author: "
 msgstr ""
 
-#: widgetsexplorer/package/contents/ui/Tooltip.qml:115
+#: widgetsexplorer/package/contents/ui/Tooltip.qml:131
 #, fuzzy
 #| msgid "Install New Widgets"
 msgid "Uninstall"
 msgstr "Zainstaluj novych widžetaŭ"
 
-#: widgetsexplorer/package/contents/ui/main.qml:155
-#: widgetsexplorer/package/contents/ui/main.qml:217
+#: widgetsexplorer/package/contents/ui/main.qml:159
+#: widgetsexplorer/package/contents/ui/main.qml:221
 #, fuzzy
 #| msgid "Enter search phrase here"
 msgid "Enter search term..."
 msgstr "Tut upišy šukany vyraz."
 
-#: widgetsexplorer/package/contents/ui/main.qml:161
-#: widgetsexplorer/package/contents/ui/main.qml:223
+#: widgetsexplorer/package/contents/ui/main.qml:165
+#: widgetsexplorer/package/contents/ui/main.qml:227
 #, fuzzy
 #| msgid "Categories:"
 msgid "Categories"
 msgstr "Katehoryi:"
 
-#: widgetsexplorer/package/contents/ui/main.qml:171
-#: widgetsexplorer/package/contents/ui/main.qml:232
+#: widgetsexplorer/package/contents/ui/main.qml:175
+#: widgetsexplorer/package/contents/ui/main.qml:236
 #, fuzzy
 #| msgid "Get New Widgets"
 msgid "Get new widgets"
 msgstr "Vaźmi novych widžetaŭ"
-
-#: widgetsexplorer/plasmaappletitemmodel.cpp:226
-msgid "Containments"
-msgstr "Schoviščy"
 
 #: widgetsexplorer/widgetexplorer.cpp:127
 msgid "All Widgets"
@@ -255,6 +251,10 @@ msgstr "Vaźmi novy „%1”"
 #: widgetsexplorer/widgetexplorer.cpp:275
 msgid "Install Widget From Local File..."
 msgstr "Zainstaluj widžet ź miascovaha fajła..."
+
+#: widgetsexplorer/plasmaappletitemmodel.cpp:226
+msgid "Containments"
+msgstr "Schoviščy"
 
 #: backgrounddialog.cpp:209
 msgid "Desktop Settings"

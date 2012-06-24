@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 19:42+0200\n"
+"POT-Creation-Date: 2012-06-24 12:03+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5037,54 +5037,6 @@ msgstr "Nieviadomaja pamyłka sokietu"
 msgid "Operation not supported"
 msgstr "Aperacyja nie absłuhoŭvajecca"
 
-#: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
-msgid "no error"
-msgstr "biez pamyłak"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "rod adrasoŭ dla nazvy vuzła nie padtrymvajecca"
-
-#: kdecore/network/netsupp.cpp:893 kdecore/network/k3resolver.cpp:547
-msgid "temporary failure in name resolution"
-msgstr "časovaja niaŭdača ŭ raźviazańni nazvy"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "niapravilnaje značeńnie „ai_flags”"
-
-#: kdecore/network/netsupp.cpp:895 kdecore/network/k3resolver.cpp:548
-msgid "non-recoverable failure in name resolution"
-msgstr "niaŭdača ŭ raźviazańni nazvy, jakuju niemahčyma abminuć"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "„ai_family” nie padtrymvajecca"
-
-#: kdecore/network/netsupp.cpp:897 kdecore/network/k3resolver.cpp:550
-msgid "memory allocation failure"
-msgstr "niaŭdača ŭ raźmierkavańni pamiaci"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "z nazvaj vuzła nie źviavany anijaki adras"
-
-#: kdecore/network/netsupp.cpp:899 kdecore/network/k3resolver.cpp:551
-msgid "name or service not known"
-msgstr "nieviadomaja nazva ci słužba"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "nazva słužby, nie padtrymanaja dla „ai_socktype”"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "„ai_socktype” nie padtrymvajecca"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "systemnaja pamyłka"
-
 #: kdecore/network/k3socks.cpp:137
 msgid "NEC SOCKS client"
 msgstr "Klijent dla NEC SOCKS"
@@ -5098,13 +5050,33 @@ msgstr "Klijent dla Dante SOCKS"
 msgid "Timed out trying to connect to remote host"
 msgstr "Spałučeńnie z tamtejšym hostam nia ŭkłałasia ŭ termin"
 
+#: kdecore/network/k3resolver.cpp:545 kdecore/network/netsupp.cpp:894
+msgid "no error"
+msgstr "biez pamyłak"
+
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
 msgstr "zapatrabavany rod nie padtrymvajecca dla hetaj nazvy hosta"
 
+#: kdecore/network/k3resolver.cpp:547 kdecore/network/netsupp.cpp:896
+msgid "temporary failure in name resolution"
+msgstr "časovaja niaŭdača ŭ raźviazańni nazvy"
+
+#: kdecore/network/k3resolver.cpp:548 kdecore/network/netsupp.cpp:898
+msgid "non-recoverable failure in name resolution"
+msgstr "niaŭdača ŭ raźviazańni nazvy, jakuju niemahčyma abminuć"
+
 #: kdecore/network/k3resolver.cpp:549
 msgid "invalid flags"
 msgstr "niapravilnyja ŭłaścivaści"
+
+#: kdecore/network/k3resolver.cpp:550 kdecore/network/netsupp.cpp:900
+msgid "memory allocation failure"
+msgstr "niaŭdača ŭ raźmierkavańni pamiaci"
+
+#: kdecore/network/k3resolver.cpp:551 kdecore/network/netsupp.cpp:902
+msgid "name or service not known"
+msgstr "nieviadomaja nazva ci słužba"
 
 #: kdecore/network/k3resolver.cpp:552
 msgid "requested family not supported"
@@ -5208,6 +5180,34 @@ msgstr "Zadoŭhi łancuh sertyfikataŭ."
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "Nieviadomaja pamyłka"
+
+#: kdecore/network/netsupp.cpp:895
+msgid "address family for nodename not supported"
+msgstr "rod adrasoŭ dla nazvy vuzła nie padtrymvajecca"
+
+#: kdecore/network/netsupp.cpp:897
+msgid "invalid value for 'ai_flags'"
+msgstr "niapravilnaje značeńnie „ai_flags”"
+
+#: kdecore/network/netsupp.cpp:899
+msgid "'ai_family' not supported"
+msgstr "„ai_family” nie padtrymvajecca"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "no address associated with nodename"
+msgstr "z nazvaj vuzła nie źviavany anijaki adras"
+
+#: kdecore/network/netsupp.cpp:903
+msgid "servname not supported for ai_socktype"
+msgstr "nazva słužby, nie padtrymanaja dla „ai_socktype”"
+
+#: kdecore/network/netsupp.cpp:904
+msgid "'ai_socktype' not supported"
+msgstr "„ai_socktype” nie padtrymvajecca"
+
+#: kdecore/network/netsupp.cpp:905
+msgid "system error"
+msgstr "systemnaja pamyłka"
 
 #: kdecore/services/kmimetyperepository.cpp:611
 #, kde-format
@@ -5515,18 +5515,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Aŭtamatyčna vyznačanaje"
 
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-
-#: kdeui/actions/kaction.cpp:126
-msgid "Ambiguous shortcut detected"
-msgstr ""
-
 #: kdeui/actions/krecentfilesaction.cpp:81
 msgid "No Entries"
 msgstr "Ničoha niama"
@@ -5615,6 +5603,18 @@ msgstr "Na ŭvieś ekran"
 #: kdeui/actions/ktogglefullscreenaction.cpp:55
 msgctxt "@info:tooltip"
 msgid "Display the window in full screen"
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:126
+msgid "Ambiguous shortcut detected"
 msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84

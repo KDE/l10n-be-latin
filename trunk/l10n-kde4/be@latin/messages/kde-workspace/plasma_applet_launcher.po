@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-22 05:19+0200\n"
+"POT-Creation-Date: 2012-07-10 08:59+0200\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -48,70 +48,6 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr "Ahulnaje"
 
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Chatni kataloh"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Sietkavyja katalohi"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "Dakumenty"
-
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
-msgid "Applications"
-msgstr "Aplikacyi"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:124 ui/launcher.cpp:249
-msgid "Recently Used"
-msgstr "Nadoječy ŭklučanyja"
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "Nadoječy ŭklučanyja"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
-
-#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
-msgid "Favorites"
-msgstr "Ułasnaje"
-
-#: core/systemmodel.cpp:75
-msgid "Places"
-msgstr "Miescy"
-
-#: core/systemmodel.cpp:76
-msgid "Removable Storage"
-msgstr "Źmiennyja nośbity"
-
-#: core/systemmodel.cpp:77
-msgid "Storage"
-msgstr "Nośbit"
-
-#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
-msgid "Run Command..."
-msgstr ""
-
-#: core/systemmodel.cpp:211
-msgid "Run a command or a search query"
-msgstr ""
-
-#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:123 ui/launcher.cpp:270
-msgid "Computer"
-msgstr "Kamputar"
-
 #: core/applicationmodel.cpp:334
 msgid "Games"
 msgstr ""
@@ -119,6 +55,11 @@ msgstr ""
 #: core/applicationmodel.cpp:428 ui/launcher.cpp:976
 msgid "All Applications"
 msgstr "Usie aplikacyi"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "Ułasnaje"
 
 #: core/leavemodel.cpp:50 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -223,6 +164,65 @@ msgstr "Sesija"
 #: core/leavemodel.cpp:150
 msgid "System"
 msgstr "Systema"
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Chatni kataloh"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Sietkavyja katalohi"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Dakumenty"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
+msgid "Applications"
+msgstr "Aplikacyi"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:124 ui/launcher.cpp:249
+msgid "Recently Used"
+msgstr "Nadoječy ŭklučanyja"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "Nadoječy ŭklučanyja"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
+
+#: core/systemmodel.cpp:75
+msgid "Places"
+msgstr "Miescy"
+
+#: core/systemmodel.cpp:76
+msgid "Removable Storage"
+msgstr "Źmiennyja nośbity"
+
+#: core/systemmodel.cpp:77
+msgid "Storage"
+msgstr "Nośbit"
+
+#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr ""
+
+#: core/systemmodel.cpp:211
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:123 ui/launcher.cpp:270
+msgid "Computer"
+msgstr "Kamputar"
 
 #: main.cpp:32
 msgid "Kickoff"
@@ -340,41 +340,6 @@ msgstr "Aplikacyi"
 msgid "Actions"
 msgstr "Aplikacyi"
 
-#: ui/searchbar.cpp:70
-#, fuzzy
-#| msgid "Search:"
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Šukaj:"
-
-#: ui/launcher.cpp:194
-msgid "Sort Alphabetically (A to Z)"
-msgstr "Paradkuj pavodle alfabetu (ad A da Z)"
-
-#: ui/launcher.cpp:197
-msgid "Sort Alphabetically (Z to A)"
-msgstr "Paradkuj pavodle alfabetu (ad Z da A)"
-
-#: ui/launcher.cpp:251
-msgid "Clear Recent Applications"
-msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
-
-#: ui/launcher.cpp:252
-msgid "Clear Recent Documents"
-msgstr "Vyčyści śpis nadoječy adčynienych dakumentaŭ"
-
-#: ui/launcher.cpp:560
-#, kde-format
-msgctxt "login name, hostname"
-msgid "User <b>%1</b> on <b>%2</b>"
-msgstr "Karystańnik <b>%1</b> na <b>%2</b>"
-
-#: ui/launcher.cpp:562
-#, kde-format
-msgctxt "full name, login name, hostname"
-msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr "<b>%1 (%2)</b> na <b>%3</b>"
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "Asablivaje"
@@ -406,6 +371,41 @@ msgstr "Vysuń"
 #: ui/contextmenufactory.cpp:263
 msgid "Safely Remove"
 msgstr "Biaśpiečna adłučy"
+
+#: ui/launcher.cpp:194
+msgid "Sort Alphabetically (A to Z)"
+msgstr "Paradkuj pavodle alfabetu (ad A da Z)"
+
+#: ui/launcher.cpp:197
+msgid "Sort Alphabetically (Z to A)"
+msgstr "Paradkuj pavodle alfabetu (ad Z da A)"
+
+#: ui/launcher.cpp:251
+msgid "Clear Recent Applications"
+msgstr "Vyčyści śpis nadoječy ŭklučanych aplikacyj"
+
+#: ui/launcher.cpp:252
+msgid "Clear Recent Documents"
+msgstr "Vyčyści śpis nadoječy adčynienych dakumentaŭ"
+
+#: ui/launcher.cpp:560
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "Karystańnik <b>%1</b> na <b>%2</b>"
+
+#: ui/launcher.cpp:562
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b> na <b>%3</b>"
+
+#: ui/searchbar.cpp:70
+#, fuzzy
+#| msgid "Search:"
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Šukaj:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

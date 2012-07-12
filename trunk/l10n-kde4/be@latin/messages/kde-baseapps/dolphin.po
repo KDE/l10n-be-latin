@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-25 04:52+0200\n"
+"POT-Creation-Date: 2012-07-12 04:27+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -561,81 +561,33 @@ msgstr ""
 msgid "&Only show when using this application (%1)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:157 dolphincontextmenu.cpp:174
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Vyčyści śmietnicu"
-
-#: panels/places/placespanel.cpp:161 panels/places/placespanel.cpp:167
-#: panels/places/placespanel.cpp:228
+#: panels/places/placesitem.cpp:150
 #, fuzzy
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Add Entry..."
-msgstr "Dadaj kamentar..."
+#| msgctxt "@title:window"
+#| msgid "Places"
+msgctxt "@item"
+msgid "Places"
+msgstr "Miescy"
 
-#: panels/places/placespanel.cpp:163
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Edit '%1'..."
-msgstr "Dadaj kamentar..."
-
-#: panels/places/placespanel.cpp:170
-#, fuzzy, kde-format
+#: panels/places/placesitem.cpp:151
+#, fuzzy
 #| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@item:inmenu"
-msgid "Open '%1' in New Tab"
-msgstr "Adčyni ŭ novaj kartcy"
+#| msgid "Close Tab"
+msgctxt "@item"
+msgid "Recently Accessed"
+msgstr "Začyni kartku"
 
-#: panels/places/placespanel.cpp:175
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu View"
-#| msgid "Reload"
-msgctxt "@item:inmenu"
-msgid "Remove '%1'"
-msgstr "Pieračytaj"
-
-#: panels/places/placespanel.cpp:178
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Hide '%1'"
-msgstr ""
-
-#: panels/places/placespanel.cpp:187 panels/places/placespanel.cpp:232
+#: panels/places/placesitem.cpp:152
 #, fuzzy
-#| msgctxt "@label"
-#| msgid "Show tooltips"
-msgctxt "@item:inmenu"
-msgid "Show All Entries"
-msgstr "Pakazvaj padkazki"
+#| msgctxt "@title:menu"
+#| msgid "Main Toolbar"
+msgctxt "@item"
+msgid "Search For"
+msgstr "Hałoŭnaja panel pryładździa"
 
-#: panels/places/placespanel.cpp:298
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr ""
-"Ty sapraŭdy chočaš vyčyścić śmietnicu? Buduć vydalenyja ŭsio jejnaje "
-"źmieściva."
-
-#: panels/places/placespanel.cpp:302
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "Vyčyści śmietnicu"
-
-#: panels/places/placespanel.cpp:322
-#, fuzzy
-#| msgctxt "@action:inmenu Add current folder to places"
-#| msgid "Add to Places"
-msgctxt "@title:window"
-msgid "Add Places Entry"
-msgstr "Dadaj u miescy"
-
-#: panels/places/placespanel.cpp:338
-msgctxt "@title:window"
-msgid "Edit Places Entry"
+#: panels/places/placesitem.cpp:153
+msgctxt "@item"
+msgid "Devices"
 msgstr ""
 
 #: panels/places/placesitemmodel.cpp:264
@@ -676,7 +628,7 @@ msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:892
+#: panels/places/placesitemmodel.cpp:897
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -684,7 +636,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "Chatni adras"
 
-#: panels/places/placesitemmodel.cpp:895
+#: panels/places/placesitemmodel.cpp:900
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -692,12 +644,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "&Sietkavyja katalohi"
 
-#: panels/places/placesitemmodel.cpp:898
+#: panels/places/placesitemmodel.cpp:903
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:901
+#: panels/places/placesitemmodel.cpp:906
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Trash"
@@ -705,7 +657,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Śmietnica"
 
-#: panels/places/placesitemmodel.cpp:906
+#: panels/places/placesitemmodel.cpp:911
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -713,7 +665,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "Siońnia"
 
-#: panels/places/placesitemmodel.cpp:909
+#: panels/places/placesitemmodel.cpp:914
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -721,7 +673,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "Učora"
 
-#: panels/places/placesitemmodel.cpp:912
+#: panels/places/placesitemmodel.cpp:917
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -729,7 +681,7 @@ msgctxt "KFile System Bookmarks"
 msgid "This Month"
 msgstr "U hetym miesiacy"
 
-#: panels/places/placesitemmodel.cpp:915
+#: panels/places/placesitemmodel.cpp:920
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -737,7 +689,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Last Month"
 msgstr "U hetym miesiacy"
 
-#: panels/places/placesitemmodel.cpp:918
+#: panels/places/placesitemmodel.cpp:923
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -745,7 +697,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Dakumentacyja"
 
-#: panels/places/placesitemmodel.cpp:921
+#: panels/places/placesitemmodel.cpp:926
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -753,43 +705,91 @@ msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Padhlady fajłaŭ"
 
-#: panels/places/placesitemmodel.cpp:924
+#: panels/places/placesitemmodel.cpp:929
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:927
+#: panels/places/placesitemmodel.cpp:932
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: panels/places/placesitem.cpp:150
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Places"
-msgctxt "@item"
-msgid "Places"
-msgstr "Miescy"
+#: panels/places/placespanel.cpp:158 dolphincontextmenu.cpp:174
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Vyčyści śmietnicu"
 
-#: panels/places/placesitem.cpp:151
+#: panels/places/placespanel.cpp:162 panels/places/placespanel.cpp:168
+#: panels/places/placespanel.cpp:229
 #, fuzzy
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Add Entry..."
+msgstr "Dadaj kamentar..."
+
+#: panels/places/placespanel.cpp:164
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Edit '%1'..."
+msgstr "Dadaj kamentar..."
+
+#: panels/places/placespanel.cpp:171
+#, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgctxt "@item"
-msgid "Recently Accessed"
-msgstr "Začyni kartku"
+#| msgid "Open in New Tab"
+msgctxt "@item:inmenu"
+msgid "Open '%1' in New Tab"
+msgstr "Adčyni ŭ novaj kartcy"
 
-#: panels/places/placesitem.cpp:152
+#: panels/places/placespanel.cpp:176
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu View"
+#| msgid "Reload"
+msgctxt "@item:inmenu"
+msgid "Remove '%1'"
+msgstr "Pieračytaj"
+
+#: panels/places/placespanel.cpp:179
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Hide '%1'"
+msgstr ""
+
+#: panels/places/placespanel.cpp:188 panels/places/placespanel.cpp:233
 #, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Main Toolbar"
-msgctxt "@item"
-msgid "Search For"
-msgstr "Hałoŭnaja panel pryładździa"
+#| msgctxt "@label"
+#| msgid "Show tooltips"
+msgctxt "@item:inmenu"
+msgid "Show All Entries"
+msgstr "Pakazvaj padkazki"
 
-#: panels/places/placesitem.cpp:153
-msgctxt "@item"
-msgid "Devices"
+#: panels/places/placespanel.cpp:315
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr ""
+"Ty sapraŭdy chočaš vyčyścić śmietnicu? Buduć vydalenyja ŭsio jejnaje "
+"źmieściva."
+
+#: panels/places/placespanel.cpp:319
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Vyčyści śmietnicu"
+
+#: panels/places/placespanel.cpp:339
+#, fuzzy
+#| msgctxt "@action:inmenu Add current folder to places"
+#| msgid "Add to Places"
+msgctxt "@title:window"
+msgid "Add Places Entry"
+msgstr "Dadaj u miescy"
+
+#: panels/places/placespanel.cpp:355
+msgctxt "@title:window"
+msgid "Edit Places Entry"
 msgstr ""
 
 #: search/dolphinsearchbox.cpp:110
@@ -1988,63 +1988,6 @@ msgctxt "@info"
 msgid "Details view mode"
 msgstr "Sposab padzielenaha prahladu"
 
-#: dolphincontextmenu.cpp:196
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "Uznavi"
-
-#: dolphincontextmenu.cpp:235 dolphinmainwindow.cpp:1485
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "Stvary novuju"
-
-#: dolphincontextmenu.cpp:248
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "Dadaj u miescy"
-
-#: dolphincontextmenu.cpp:255
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "Adčyni ŭ novym aknie"
-
-#: dolphincontextmenu.cpp:261
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "Adčyni ŭ novaj kartcy"
-
-#: dolphincontextmenu.cpp:330
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "Dadaj u miescy"
-
-#: dolphincontextmenu.cpp:423
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "Uklej u kataloh"
-
-#: dolphincontextmenu.cpp:534
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "Vykiń u śmietnicu"
-
-#: dolphincontextmenu.cpp:537
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "Vydali"
-
 #: dolphinmainwindow.cpp:318
 msgctxt "@info:status"
 msgid "Successfully copied."
@@ -2156,6 +2099,11 @@ msgstr "Pryładździe"
 msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
+
+#: dolphinmainwindow.cpp:1485 dolphincontextmenu.cpp:235
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Stvary novuju"
 
 #: dolphinmainwindow.cpp:1492
 msgctxt "@action:inmenu File"
@@ -2393,6 +2341,250 @@ msgstr ""
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Niapravilny pratakoł"
+
+#: dolphincontextmenu.cpp:196
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "Uznavi"
+
+#: dolphincontextmenu.cpp:248
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "Dadaj u miescy"
+
+#: dolphincontextmenu.cpp:255
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "Adčyni ŭ novym aknie"
+
+#: dolphincontextmenu.cpp:261
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "Adčyni ŭ novaj kartcy"
+
+#: dolphincontextmenu.cpp:330
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Dadaj u miescy"
+
+#: dolphincontextmenu.cpp:423
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "Uklej u kataloh"
+
+#: dolphincontextmenu.cpp:534
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "Vykiń u śmietnicu"
+
+#: dolphincontextmenu.cpp:537
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "Vydali"
+
+#: dolphinpart.cpp:145
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "&Redahuj typ fajłaŭ..."
+
+#: dolphinpart.cpp:149
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Select Item"
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "Vyłučy element"
+
+#: dolphinpart.cpp:154
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr ""
+
+#: dolphinpart.cpp:160
+#, fuzzy
+#| msgctxt "@action:inmenu Edit"
+#| msgid "Select All"
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr "Vyłučy ŭsio"
+
+#: dolphinpart.cpp:177
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "&Aplikacyi"
+
+#: dolphinpart.cpp:180
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "&Sietkavyja katalohi"
+
+#: dolphinpart.cpp:183
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "&Nałady"
+
+#: dolphinpart.cpp:186
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "Śmietnica"
+
+#: dolphinpart.cpp:189
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "Aŭtamatyčnaje ŭklučeńnie"
+
+#: dolphinpart.cpp:194
+#, fuzzy
+#| msgctxt "@action:inmenu Tools"
+#| msgid "Find File..."
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "Šukaj fajł..."
+
+#: dolphinpart.cpp:202
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "Adčyni &terminał"
+
+#: dolphinpart.cpp:271
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "Układ „Dolphin”"
+
+#: dolphinpart.cpp:455
+#, fuzzy
+#| msgctxt "@action:inmenu Edit"
+#| msgid "Select All"
+msgctxt "@title:window"
+msgid "Select"
+msgstr "Vyłučy ŭsio"
+
+#: dolphinpart.cpp:456
+msgid "Select all items matching this pattern:"
+msgstr ""
+
+#: dolphinpart.cpp:462
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr ""
+
+#: dolphinpart.cpp:463
+msgid "Unselect all items matching this pattern:"
+msgstr ""
+
+#: main.cpp:35
+msgctxt "@title"
+msgid "Dolphin"
+msgstr "Dolphin"
+
+#: main.cpp:37
+msgctxt "@title"
+msgid "File Manager"
+msgstr "Fajłavy kiraŭnik"
+
+#: main.cpp:39
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006-2008 Peter Penz"
+msgctxt "@info:credit"
+msgid "(C) 2006-2012 Peter Penz"
+msgstr "© 2006-2008 Peter Penz"
+
+#: main.cpp:41
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "Peter Penz"
+
+#: main.cpp:42
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer and developer"
+msgstr "Dahladnik i raspracoŭnik"
+
+#: main.cpp:44
+msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr ""
+
+#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
+#: main.cpp:63 main.cpp:66
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "Raspracoŭnik"
+
+#: main.cpp:47
+msgctxt "@info:credit"
+msgid "Sebastian Trüg"
+msgstr ""
+
+#: main.cpp:50
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:53
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:56
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "Rafael Fernández López"
+
+#: main.cpp:59
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "Kevin Ottens"
+
+#: main.cpp:62
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "Holger Freyther"
+
+#: main.cpp:65
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "Max Blazejak"
+
+#: main.cpp:68
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "Michael Austin"
+
+#: main.cpp:69
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "Dakumentacyja"
+
+#: main.cpp:79
+msgctxt "@info:shell"
+msgid "The files and directories passed as arguments will be selected."
+msgstr ""
+
+#: main.cpp:81
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr ""
+
+#: main.cpp:82
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "Patrebny dakument"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2986,198 +3178,6 @@ msgstr "Pryładździe"
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "Panel pryładździa „Dolphin”"
-
-#: dolphinpart.cpp:145
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "&Redahuj typ fajłaŭ..."
-
-#: dolphinpart.cpp:149
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Select Item"
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "Vyłučy element"
-
-#: dolphinpart.cpp:154
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr ""
-
-#: dolphinpart.cpp:160
-#, fuzzy
-#| msgctxt "@action:inmenu Edit"
-#| msgid "Select All"
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr "Vyłučy ŭsio"
-
-#: dolphinpart.cpp:177
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "&Aplikacyi"
-
-#: dolphinpart.cpp:180
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "&Sietkavyja katalohi"
-
-#: dolphinpart.cpp:183
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "&Nałady"
-
-#: dolphinpart.cpp:186
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "Śmietnica"
-
-#: dolphinpart.cpp:189
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "Aŭtamatyčnaje ŭklučeńnie"
-
-#: dolphinpart.cpp:194
-#, fuzzy
-#| msgctxt "@action:inmenu Tools"
-#| msgid "Find File..."
-msgctxt "@action:inmenu Tools"
-msgid "Find File..."
-msgstr "Šukaj fajł..."
-
-#: dolphinpart.cpp:202
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "Adčyni &terminał"
-
-#: dolphinpart.cpp:271
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "Układ „Dolphin”"
-
-#: dolphinpart.cpp:455
-#, fuzzy
-#| msgctxt "@action:inmenu Edit"
-#| msgid "Select All"
-msgctxt "@title:window"
-msgid "Select"
-msgstr "Vyłučy ŭsio"
-
-#: dolphinpart.cpp:456
-msgid "Select all items matching this pattern:"
-msgstr ""
-
-#: dolphinpart.cpp:462
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr ""
-
-#: dolphinpart.cpp:463
-msgid "Unselect all items matching this pattern:"
-msgstr ""
-
-#: main.cpp:35
-msgctxt "@title"
-msgid "Dolphin"
-msgstr "Dolphin"
-
-#: main.cpp:37
-msgctxt "@title"
-msgid "File Manager"
-msgstr "Fajłavy kiraŭnik"
-
-#: main.cpp:39
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2008 Peter Penz"
-msgctxt "@info:credit"
-msgid "(C) 2006-2012 Peter Penz"
-msgstr "© 2006-2008 Peter Penz"
-
-#: main.cpp:41
-msgctxt "@info:credit"
-msgid "Peter Penz"
-msgstr "Peter Penz"
-
-#: main.cpp:42
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Maintainer and developer"
-msgctxt "@info:credit"
-msgid "Maintainer and developer"
-msgstr "Dahladnik i raspracoŭnik"
-
-#: main.cpp:44
-msgctxt "@info:credit"
-msgid "Frank Reininghaus"
-msgstr ""
-
-#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
-#: main.cpp:63 main.cpp:66
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "Raspracoŭnik"
-
-#: main.cpp:47
-msgctxt "@info:credit"
-msgid "Sebastian Trüg"
-msgstr ""
-
-#: main.cpp:50
-msgctxt "@info:credit"
-msgid "David Faure"
-msgstr "David Faure"
-
-#: main.cpp:53
-msgctxt "@info:credit"
-msgid "Aaron J. Seigo"
-msgstr "Aaron J. Seigo"
-
-#: main.cpp:56
-msgctxt "@info:credit"
-msgid "Rafael Fernández López"
-msgstr "Rafael Fernández López"
-
-#: main.cpp:59
-msgctxt "@info:credit"
-msgid "Kevin Ottens"
-msgstr "Kevin Ottens"
-
-#: main.cpp:62
-msgctxt "@info:credit"
-msgid "Holger Freyther"
-msgstr "Holger Freyther"
-
-#: main.cpp:65
-msgctxt "@info:credit"
-msgid "Max Blazejak"
-msgstr "Max Blazejak"
-
-#: main.cpp:68
-msgctxt "@info:credit"
-msgid "Michael Austin"
-msgstr "Michael Austin"
-
-#: main.cpp:69
-msgctxt "@info:credit"
-msgid "Documentation"
-msgstr "Dakumentacyja"
-
-#: main.cpp:79
-msgctxt "@info:shell"
-msgid "The files and directories passed as arguments will be selected."
-msgstr ""
-
-#: main.cpp:81
-msgctxt "@info:shell"
-msgid "Dolphin will get started with a split view."
-msgstr ""
-
-#: main.cpp:82
-msgctxt "@info:shell"
-msgid "Document to open"
-msgstr "Patrebny dakument"
 
 #, fuzzy
 #~| msgctxt "@title:group Date"

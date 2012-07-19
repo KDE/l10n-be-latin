@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-07 04:35+0200\n"
+"POT-Creation-Date: 2012-07-19 04:58+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3802,7 +3802,7 @@ msgstr "Vysuń"
 msgid "Unmount"
 msgstr "Admantuj"
 
-#: kio/kdirlister.cpp:389 kio/krun.cpp:1133 kio/paste.cpp:335
+#: kio/kdirlister.cpp:389 kio/krun.cpp:1135 kio/paste.cpp:335
 #: kio/renamedialog.cpp:411
 #, kde-format
 msgid ""
@@ -4003,46 +4003,46 @@ msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
 msgid "Open with:"
 msgstr "Adčyni ŭ:"
 
-#: kio/krun.cpp:581
+#: kio/krun.cpp:583
 msgid "You are not authorized to execute this file."
 msgstr "Tabie nielha vykonvać hety fajł."
 
-#: kio/krun.cpp:604
+#: kio/krun.cpp:606
 #, kde-format
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"
 
-#: kio/krun.cpp:712
+#: kio/krun.cpp:714
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
 
-#: kio/krun.cpp:886
+#: kio/krun.cpp:888
 msgid "You are not authorized to execute this service."
 msgstr "Tabie nielha vykonvać hetuju słužbu."
 
-#: kio/krun.cpp:898
+#: kio/krun.cpp:900
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Aściaroha"
 
-#: kio/krun.cpp:912
+#: kio/krun.cpp:914
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 
-#: kio/krun.cpp:926
+#: kio/krun.cpp:928
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
 
-#: kio/krun.cpp:959
+#: kio/krun.cpp:961
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: kio/krun.cpp:1165
+#: kio/krun.cpp:1167
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -4051,7 +4051,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: kio/krun.cpp:1787
+#: kio/krun.cpp:1789
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"

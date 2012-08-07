@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-03 06:01+0200\n"
+"POT-Creation-Date: 2012-08-07 08:18+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4998,7 +4998,7 @@ msgid "Connection timed out"
 msgstr "Spałučeńnie nia ŭkłałasia ŭ termin čakańnia"
 
 #: kdecore/network/klocalsocket_unix.cpp:213
-#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:560
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:538
 msgid "Unknown error"
 msgstr "Nieviadomaja pamyłka"
 
@@ -5613,8 +5613,8 @@ msgstr "Pakažy panel &stanu"
 #| "Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
 #| "bottom of the window used for status information."
 msgid ""
-"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
-"bottom of the window used for status information."
+"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
+"window used for status information.</p>"
 msgstr "Pakažy panel stanu<br /><br />Pakazvaje panel stanu ŭnizie akna."
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
@@ -7171,18 +7171,12 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "Tut možna vybrać patrebny styl šryfta."
 
-#: kdeui/fonts/kfontchooser.cpp:295 kdeui/fonts/kfontchooser.cpp:623
-#: kdeui/fonts/kfontchooser.cpp:640
-msgctxt "@item font"
-msgid "Regular"
-msgstr "Zvyčajny"
-
-#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:644
+#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:639
 msgctxt "@item font"
 msgid "Italic"
 msgstr "Kursiŭny"
 
-#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:645
+#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:640
 msgctxt "@item font"
 msgid "Oblique"
 msgstr "Nachileny"
@@ -7242,7 +7236,7 @@ msgstr "Sapraŭdny šryft"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:630
+#: kdeui/fonts/kfontchooser.cpp:625
 #, kde-format
 msgctxt "@item Font style"
 msgid "%1"
@@ -9462,114 +9456,6 @@ msgstr ""
 msgid "Separator, Space"
 msgstr ""
 
-#: kdeui/widgets/ktoolbar.cpp:292
-#, fuzzy
-#| msgid "Show help"
-msgctxt "@title:menu"
-msgid "Show Text"
-msgstr "Pakažy daviedku"
-
-#: kdeui/widgets/ktoolbar.cpp:295
-#, fuzzy
-#| msgid "Toolbar Menu"
-msgctxt "@title:menu"
-msgid "Toolbar Settings"
-msgstr "Menu ad paneli pryładździa"
-
-#: kdeui/widgets/ktoolbar.cpp:297
-#, fuzzy
-#| msgid "Orientation"
-msgctxt "Toolbar orientation"
-msgid "Orientation"
-msgstr "Aryjentacyja"
-
-#: kdeui/widgets/ktoolbar.cpp:299
-msgctxt "toolbar position string"
-msgid "Top"
-msgstr "Źvierchu"
-
-#: kdeui/widgets/ktoolbar.cpp:301
-msgctxt "toolbar position string"
-msgid "Left"
-msgstr "Źleva"
-
-#: kdeui/widgets/ktoolbar.cpp:302
-msgctxt "toolbar position string"
-msgid "Right"
-msgstr "Sprava"
-
-#: kdeui/widgets/ktoolbar.cpp:303
-msgctxt "toolbar position string"
-msgid "Bottom"
-msgstr "Źnizu"
-
-#: kdeui/widgets/ktoolbar.cpp:311
-msgid "Text Position"
-msgstr "Miesca dla tekstu"
-
-#: kdeui/widgets/ktoolbar.cpp:313
-msgid "Icons Only"
-msgstr "Tolki ikony"
-
-#: kdeui/widgets/ktoolbar.cpp:314
-msgid "Text Only"
-msgstr "Tolki tekst"
-
-#: kdeui/widgets/ktoolbar.cpp:315
-msgid "Text Alongside Icons"
-msgstr "Tekst kala ikonaŭ"
-
-#: kdeui/widgets/ktoolbar.cpp:316
-msgid "Text Under Icons"
-msgstr "Tekst pad ikonami"
-
-#: kdeui/widgets/ktoolbar.cpp:324
-msgid "Icon Size"
-msgstr "Pamier ikonaŭ"
-
-#: kdeui/widgets/ktoolbar.cpp:326
-msgctxt "@item:inmenu Icon size"
-msgid "Default"
-msgstr "Zmoŭčany"
-
-#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
-#, kde-format
-msgid "Small (%1x%2)"
-msgstr "Mały (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
-#, kde-format
-msgid "Medium (%1x%2)"
-msgstr "Siaredni (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
-#, kde-format
-msgid "Large (%1x%2)"
-msgstr "Vialiki (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
-#, kde-format
-msgid "Huge (%1x%2)"
-msgstr "Vializny (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:389
-#, fuzzy
-#| msgid "Lock Toolbars"
-msgid "Lock Toolbar Positions"
-msgstr "Pryčapi paneli pryładździa"
-
-#: kdeui/widgets/ktoolbar.cpp:1326
-#, kde-format
-msgctxt "@action:intoolbar Text label of toolbar button"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/widgets/ktoolbar.cpp:1327
-#, kde-format
-msgctxt "@info:tooltip Tooltip of toolbar button"
-msgid "%1"
-msgstr "%1"
-
 #. i18n: Placeholder text in text edit widgets is the text appearing
 #. before any user input, briefly explaining to the user what to type
 #. (e.g. "Enter message").
@@ -9662,6 +9548,51 @@ msgstr "Pasuń &vyšej"
 #: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
 msgid "Move &Down"
 msgstr "Pasuń &nižej"
+
+#: kdeui/widgets/klineedit.cpp:296
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "Vyčyści tekst"
+
+#: kdeui/widgets/klineedit.cpp:1213
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "Zakančeńnie tekstu"
+
+#: kdeui/widgets/klineedit.cpp:1220
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Niama"
+
+#: kdeui/widgets/klineedit.cpp:1221
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "Ručnoje"
+
+#: kdeui/widgets/klineedit.cpp:1222
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "Aŭtamatyčnaje"
+
+#: kdeui/widgets/klineedit.cpp:1223
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "Vypłyŭny śpis"
+
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "Abmiežavana aŭtamatyčnaje"
+
+#: kdeui/widgets/klineedit.cpp:1225
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "Vypłyŭny śpis i aŭtamatyčnaje"
+
+#: kdeui/widgets/klineedit.cpp:1256
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Zmoŭčana"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:993
 msgid "Clear &History"
@@ -9818,51 +9749,6 @@ msgstr ""
 msgid "You are not allowed to save the configuration"
 msgstr "Pieračytać nałady KDE?"
 
-#: kdeui/widgets/klineedit.cpp:296
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "Vyčyści tekst"
-
-#: kdeui/widgets/klineedit.cpp:1216
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "Zakančeńnie tekstu"
-
-#: kdeui/widgets/klineedit.cpp:1223
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "Niama"
-
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "Ručnoje"
-
-#: kdeui/widgets/klineedit.cpp:1225
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "Aŭtamatyčnaje"
-
-#: kdeui/widgets/klineedit.cpp:1226
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "Vypłyŭny śpis"
-
-#: kdeui/widgets/klineedit.cpp:1227
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "Abmiežavana aŭtamatyčnaje"
-
-#: kdeui/widgets/klineedit.cpp:1228
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "Vypłyŭny śpis i aŭtamatyčnaje"
-
-#: kdeui/widgets/klineedit.cpp:1259
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "Zmoŭčana"
-
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "Aperacyi z vyjavaj"
@@ -9874,6 +9760,113 @@ msgstr ""
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:205
 msgid "Rotate &Counterclockwise"
 msgstr ""
+
+#: kdeui/widgets/ktoolbar.cpp:292
+#, fuzzy
+#| msgid "Show help"
+msgctxt "@title:menu"
+msgid "Show Text"
+msgstr "Pakažy daviedku"
+
+#: kdeui/widgets/ktoolbar.cpp:295
+#, fuzzy
+#| msgid "Toolbar Menu"
+msgctxt "@title:menu"
+msgid "Toolbar Settings"
+msgstr "Menu ad paneli pryładździa"
+
+#: kdeui/widgets/ktoolbar.cpp:297
+#, fuzzy
+#| msgid "Orientation"
+msgid "Orientation"
+msgstr "Aryjentacyja"
+
+#: kdeui/widgets/ktoolbar.cpp:299
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "Źvierchu"
+
+#: kdeui/widgets/ktoolbar.cpp:301
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "Źleva"
+
+#: kdeui/widgets/ktoolbar.cpp:302
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "Sprava"
+
+#: kdeui/widgets/ktoolbar.cpp:303
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "Źnizu"
+
+#: kdeui/widgets/ktoolbar.cpp:311
+msgid "Text Position"
+msgstr "Miesca dla tekstu"
+
+#: kdeui/widgets/ktoolbar.cpp:313
+msgid "Icons Only"
+msgstr "Tolki ikony"
+
+#: kdeui/widgets/ktoolbar.cpp:314
+msgid "Text Only"
+msgstr "Tolki tekst"
+
+#: kdeui/widgets/ktoolbar.cpp:315
+msgid "Text Alongside Icons"
+msgstr "Tekst kala ikonaŭ"
+
+#: kdeui/widgets/ktoolbar.cpp:316
+msgid "Text Under Icons"
+msgstr "Tekst pad ikonami"
+
+#: kdeui/widgets/ktoolbar.cpp:324
+msgid "Icon Size"
+msgstr "Pamier ikonaŭ"
+
+#: kdeui/widgets/ktoolbar.cpp:326
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "Zmoŭčany"
+
+#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
+#, kde-format
+msgid "Small (%1x%2)"
+msgstr "Mały (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
+#, kde-format
+msgid "Medium (%1x%2)"
+msgstr "Siaredni (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
+#, kde-format
+msgid "Large (%1x%2)"
+msgstr "Vialiki (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
+#, kde-format
+msgid "Huge (%1x%2)"
+msgstr "Vializny (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:389
+#, fuzzy
+#| msgid "Lock Toolbars"
+msgid "Lock Toolbar Positions"
+msgstr "Pryčapi paneli pryładździa"
+
+#: kdeui/widgets/ktoolbar.cpp:1326
+#, kde-format
+msgctxt "@action:intoolbar Text label of toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/widgets/ktoolbar.cpp:1327
+#, kde-format
+msgctxt "@info:tooltip Tooltip of toolbar button"
+msgid "%1"
+msgstr "%1"
 
 #: kdeui/widgets/krichtextwidget.cpp:232
 msgctxt "@action"
@@ -13183,15 +13176,15 @@ msgstr "Vybiery kampanenty"
 msgid "Enable component"
 msgstr "Uklučy kampanent"
 
-#: nepomuk/core/resource.cpp:554
+#: nepomuk/core/resource.cpp:532
 msgid "Success"
 msgstr "Paśpiachovaść"
 
-#: nepomuk/core/resource.cpp:556
+#: nepomuk/core/resource.cpp:534
 msgid "Communication error"
 msgstr "Pamyłka ŭ kamunikavańni"
 
-#: nepomuk/core/resource.cpp:558
+#: nepomuk/core/resource.cpp:536
 msgid "Invalid type in Database"
 msgstr "Niapravilny typ u bazie źviestak"
 
@@ -14199,6 +14192,10 @@ msgstr "am"
 #: kdecore/date/kdatetime.cpp:2991
 msgid "pm"
 msgstr "pm"
+
+#~ msgctxt "@item font"
+#~ msgid "Regular"
+#~ msgstr "Zvyčajny"
 
 #~ msgid "What's &This"
 #~ msgstr "Što &heta"

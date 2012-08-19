@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:12+0200\n"
+"POT-Creation-Date: 2012-08-19 04:32+0200\n"
 "PO-Revision-Date: 2008-10-06 20:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -422,8 +422,8 @@ msgid "Unable to search dates in the future."
 msgstr "Nie ŭdałosia adšukać daty z pryšłaści."
 
 #: kftabdlg.cpp:690
-msgid "Do Not Set"
-msgstr "Nie aznačaj"
+msgid "Size is too big. Set maximum size value?"
+msgstr "Pamier zavialiki. Aznačyć najbolšy mahčymy pamier?"
 
 #: kftabdlg.cpp:690
 msgid "Error"
@@ -434,8 +434,8 @@ msgid "Set"
 msgstr "Aznač"
 
 #: kftabdlg.cpp:690
-msgid "Size is too big. Set maximum size value?"
-msgstr "Pamier zavialiki. Aznačyć najbolšy mahčymy pamier?"
+msgid "Do Not Set"
+msgstr "Nie aznačaj"
 
 #: kftabdlg.cpp:887
 #, fuzzy
@@ -513,20 +513,20 @@ msgid "(c) 1998-2003, The KDE Developers"
 msgstr "© 1998-2003, raspracoŭniki KDE"
 
 #: main.cpp:38
-msgid "Current Maintainer"
-msgstr "Dziejny dahladnik"
-
-#: main.cpp:38
 msgid "Eric Coquelle"
 msgstr "Eric Coquelle"
 
-#: main.cpp:39
-msgid "Developer"
-msgstr "Raspracoŭnik"
+#: main.cpp:38
+msgid "Current Maintainer"
+msgstr "Dziejny dahladnik"
 
 #: main.cpp:39
 msgid "Mark W. Webb"
 msgstr "Mark W. Webb"
+
+#: main.cpp:39
+msgid "Developer"
+msgstr "Raspracoŭnik"
 
 #: main.cpp:40
 msgid "Beppe Grimaldi"
@@ -573,12 +573,12 @@ msgid "Hans Petter Bieker"
 msgstr "Hans Petter Bieker"
 
 #: main.cpp:50
-msgid "UI Design"
-msgstr "Interfejs karystańnika"
-
-#: main.cpp:50
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
+
+#: main.cpp:50
+msgid "UI Design"
+msgstr "Interfejs karystańnika"
 
 #: main.cpp:51
 msgid "Alexander Neundorf"

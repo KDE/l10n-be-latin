@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:32+0200\n"
+"POT-Creation-Date: 2012-08-20 03:59+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,6 +18,1460 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
+#, kde-format
+msgid "A file or folder named %1 already exists."
+msgstr "Fajł ci kataloh z nazvaj „%1” užo isnuje."
+
+#: ../kfile/kdiroperator.cpp:768 ../kfile/kdirselectdialog.cpp:163
+msgid "You do not have permission to create that folder."
+msgstr "Tabie nie staje dazvołu na stvareńnie hetaha kataloha."
+
+#: ../kfile/kdiroperator.cpp:783
+msgid "You did not select a file to delete."
+msgstr "Ty nia vybraŭ fajł, jaki chočaš vydalić."
+
+#: ../kfile/kdiroperator.cpp:784
+msgid "Nothing to Delete"
+msgstr "Niama čaho vydalać"
+
+#: ../kfile/kdiroperator.cpp:805
+#, kde-format
+msgid ""
+"<qt>Do you really want to delete\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+"<qt>Ci ty sapraŭdy chočaš vydalić\n"
+" <b>„%1”</b>?</qt>"
+
+#: ../kfile/kdiroperator.cpp:807
+msgid "Delete File"
+msgstr "Vydali fajł"
+
+#: ../kfile/kdiroperator.cpp:812 kio/jobuidelegate.cpp:149
+#, kde-format
+msgid "Do you really want to delete this item?"
+msgid_plural "Do you really want to delete these %1 items?"
+msgstr[0] "Ci ty sapraŭdy chočaš vydalić %1 hety element?"
+msgstr[1] "Ci ty sapraŭdy chočaš vydalić %1 hetyja elementy?"
+msgstr[2] "Ci ty sapraŭdy chočaš vydalić %1 hetych elementaŭ?"
+
+#: ../kfile/kdiroperator.cpp:814 kio/jobuidelegate.cpp:151
+msgid "Delete Files"
+msgstr "Vydaleńnie fajłaŭ"
+
+#: ../kfile/kdiroperator.cpp:845
+msgid "You did not select a file to trash."
+msgstr "Ty nia vybraŭ fajł, jaki chočaš vykinuć u śmietnicu."
+
+#: ../kfile/kdiroperator.cpp:846
+msgid "Nothing to Trash"
+msgstr "Niama čaho vykidać u śmietnicu"
+
+#: ../kfile/kdiroperator.cpp:863
+#, kde-format
+msgid ""
+"<qt>Do you really want to trash\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+"<qt>Ci ty sapraŭdy chočaš vykinuć u śmietnicu\n"
+" <b>„%1”</b>?</qt>"
+
+#: ../kfile/kdiroperator.cpp:865
+msgid "Trash File"
+msgstr "Vykiń u śmietnicu"
+
+#: ../kfile/kdiroperator.cpp:866 ../kfile/kdiroperator.cpp:873
+msgctxt "to trash"
+msgid "&Trash"
+msgstr "&Vykiń"
+
+#: ../kfile/kdiroperator.cpp:870
+#, kde-format
+msgid "translators: not called for n == 1"
+msgid_plural "Do you really want to trash these %1 items?"
+msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hety %1 element?"
+msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hetyja %1 elementy?"
+msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hetyja %1 elementaŭ?"
+
+#: ../kfile/kdiroperator.cpp:872
+msgid "Trash Files"
+msgstr "Vykiń fajły"
+
+#: ../kfile/kdiroperator.cpp:1064 ../kfile/kdiroperator.cpp:1201
+msgid "The specified folder does not exist or was not readable."
+msgstr "Aznačany kataloh nie isnuje, albo ŭ jaho nielha pisać."
+
+#: ../kfile/kdiroperator.cpp:1852
+msgid "Menu"
+msgstr "Menu"
+
+#: ../kfile/kdiroperator.cpp:1856
+msgid "Parent Folder"
+msgstr "Vyšejšy kataloh"
+
+#: ../kfile/kdiroperator.cpp:1863
+msgid "Home Folder"
+msgstr "Chatni kataloh"
+
+#: ../kfile/kdiroperator.cpp:1866
+msgid "Reload"
+msgstr "Pieračytaj"
+
+#: ../kfile/kdiroperator.cpp:1869
+msgid "New Folder..."
+msgstr "Novy kataloh..."
+
+#: ../kfile/kdiroperator.cpp:1874 kio/jobuidelegate.cpp:172
+msgid "Move to Trash"
+msgstr "Vykidańnie ŭ śmietnicu"
+
+#: ../kfile/kdiroperator.cpp:1880
+msgid "Delete"
+msgstr "Vydali"
+
+#: ../kfile/kdiroperator.cpp:1887
+msgid "Sorting"
+msgstr "Paradak"
+
+#: ../kfile/kdiroperator.cpp:1890
+msgid "By Name"
+msgstr "Pavodle nazvaŭ"
+
+#: ../kfile/kdiroperator.cpp:1894
+msgid "By Size"
+msgstr "Pavodle pamieraŭ"
+
+#: ../kfile/kdiroperator.cpp:1898
+msgid "By Date"
+msgstr "Pavodle času"
+
+#: ../kfile/kdiroperator.cpp:1902
+msgid "By Type"
+msgstr "Pavodle typaŭ"
+
+#: ../kfile/kdiroperator.cpp:1906
+msgid "Descending"
+msgstr "Ad bolšaha k mienšamu"
+
+#: ../kfile/kdiroperator.cpp:1910
+msgid "Folders First"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1920
+msgid "Icon Position"
+msgstr "Miesca ikon"
+
+#: ../kfile/kdiroperator.cpp:1923
+msgid "Next to File Name"
+msgstr "Kala nazvy fajła"
+
+#: ../kfile/kdiroperator.cpp:1927
+msgid "Above File Name"
+msgstr "Nad nazvaju fajła"
+
+#: ../kfile/kdiroperator.cpp:1938
+msgid "Short View"
+msgstr "Karotki vyhlad"
+
+#: ../kfile/kdiroperator.cpp:1943
+msgid "Detailed View"
+msgstr "Detalny vyhlad"
+
+#: ../kfile/kdiroperator.cpp:1948
+msgid "Tree View"
+msgstr "Hierarchičny vyhlad"
+
+#: ../kfile/kdiroperator.cpp:1953
+msgid "Detailed Tree View"
+msgstr "Detalny hierarchičny vyhlad"
+
+#: ../kfile/kdiroperator.cpp:1964
+msgid "Show Hidden Files"
+msgstr "Pakažy schavanyja fajły"
+
+#: ../kfile/kdiroperator.cpp:1968
+msgid "Show Aside Preview"
+msgstr "Pakažy zbočnyja padhlady"
+
+#: ../kfile/kdiroperator.cpp:1974
+msgid "Show Preview"
+msgstr "Pakažy padhlady"
+
+#: ../kfile/kdiroperator.cpp:1978
+#, fuzzy
+#| msgid "Open file dialog"
+msgid "Open File Manager"
+msgstr "Adčyni akno fajła"
+
+#: ../kfile/kdiroperator.cpp:1983 bookmarks/kbookmarkmenu.cc:281
+msgid "Properties"
+msgstr "Ułaścivaści"
+
+#: ../kfile/kdiroperator.cpp:1990
+msgid "&View"
+msgstr "&Vyhlad"
+
+#: ../kfile/kdirselectdialog.cpp:131
+msgctxt "folder name"
+msgid "New Folder"
+msgstr "Novy kataloh"
+
+#: ../kfile/kdirselectdialog.cpp:135 ../kfile/knewfilemenu.cpp:1034
+#: bookmarks/kbookmarkdialog.cc:159
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "Novy kataloh"
+
+#: ../kfile/kdirselectdialog.cpp:136
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"Stvary novy kataloh u:\n"
+"%1"
+
+#: ../kfile/kdirselectdialog.cpp:281 bookmarks/kbookmarkdialog.cc:132
+msgctxt "@title:window"
+msgid "Select Folder"
+msgstr "Vybiery kataloh"
+
+#: ../kfile/kdirselectdialog.cpp:283
+msgctxt "@action:button"
+msgid "New Folder..."
+msgstr "Novy kataloh..."
+
+#: ../kfile/kdirselectdialog.cpp:324
+msgctxt "@action:inmenu"
+msgid "New Folder..."
+msgstr "Novy kataloh..."
+
+#: ../kfile/kdirselectdialog.cpp:331
+#, fuzzy
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "Vykidańnie ŭ śmietnicu"
+
+#: ../kfile/kdirselectdialog.cpp:338
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "Vydali"
+
+#: ../kfile/kdirselectdialog.cpp:347
+msgctxt "@option:check"
+msgid "Show Hidden Folders"
+msgstr "Pakažy schavanyja katalohi"
+
+#: ../kfile/kdirselectdialog.cpp:354
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Ułaścivaści"
+
+#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
+msgid "*|All Files"
+msgstr "*|Usie fajły"
+
+#: ../kfile/kfilefiltercombo.cpp:185 kfile/kfiledialog.cpp:357
+msgid "All Supported Files"
+msgstr "Fajły, jakija padtrymvajucca"
+
+#: ../kfile/kfilefiltercombo.cpp:194
+#, fuzzy
+#| msgid "*|All Files"
+msgid "All Files"
+msgstr "*|Usie fajły"
+
+#: ../kfile/kfileplaceeditdialog.cpp:90
+#, fuzzy
+#| msgid "Edit Places Entry"
+msgid "Add Places Entry"
+msgstr "Redahuj miesca"
+
+#: ../kfile/kfileplaceeditdialog.cpp:92
+msgid "Edit Places Entry"
+msgstr "Redahuj miesca"
+
+#: ../kfile/kfileplaceeditdialog.cpp:103
+#, fuzzy
+#| msgid ""
+#| "<qt>This is the text that will appear in the Places panel.<br /><br />The "
+#| "description should consist of one or two words that will help you "
+#| "remember what this entry refers to.</qt>"
+msgid ""
+"<qt>This is the text that will appear in the Places panel.<br /><br />The "
+"label should consist of one or two words that will help you remember what "
+"this entry refers to. If you do not enter a label, it will be derived from "
+"the location's URL.</qt>"
+msgstr ""
+"<qt>Heta tekst, jaki pakazvajecca ŭ paneli miescaŭ.<br /><br />Apisańnie "
+"pavinna składacca z adnaho-dvuch słovaŭ, jakija b nahadvali tabie, čaho jany "
+"datyčać.</qt>"
+
+#: ../kfile/kfileplaceeditdialog.cpp:109
+#, fuzzy
+#| msgid "&Name:"
+msgid "L&abel:"
+msgstr "&Nazva:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:111
+#, fuzzy
+#| msgid "Enter a description"
+msgid "Enter descriptive label here"
+msgstr "Apišy"
+
+#: ../kfile/kfileplaceeditdialog.cpp:115
+#, kde-format
+msgid ""
+"<qt>This is the location associated with the entry. Any valid URL may be "
+"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
+"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
+"edit box you can browse to an appropriate URL.</qt>"
+msgstr ""
+"<qt>Heta adras, źviazany z hetym elementam. Tut možna ŭpisać luby dziejny "
+"adras. Naprykład:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
+"org/pub/kde/stable<br /><br />Kliknuŭšy ŭ knopku, źmieščanuju kala "
+"tekstavaha pola, možna pierajści ŭ adpaviednaje miesca.</qt>"
+
+#: ../kfile/kfileplaceeditdialog.cpp:121
+msgid "&Location:"
+msgstr "&Miesca:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:127
+msgid ""
+"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
+"on the button to select a different icon.</qt>"
+msgstr ""
+"<qt>Hetaja ikona budzie źmieščanaja ŭ paneli miescaŭ.<br /><br />Klikni ŭ "
+"hetuju knopku, kab vybrać inšuju.</qt>"
+
+#: ../kfile/kfileplaceeditdialog.cpp:130
+msgid "Choose an &icon:"
+msgstr "Vybiery &ikonu:"
+
+#: ../kfile/kfileplaceeditdialog.cpp:147
+#, kde-format
+msgid "&Only show when using this application (%1)"
+msgstr "Pakazvaj tolki dla &hetaj aplikacyi (%1)"
+
+#: ../kfile/kfileplaceeditdialog.cpp:149
+#, kde-format
+msgid ""
+"<qt>Select this setting if you want this entry to show only when using the "
+"current application (%1).<br /><br />If this setting is not selected, the "
+"entry will be available in all applications.</qt>"
+msgstr ""
+"<qt>Uklučy hetuju opcyju, kali chočaš bačyć hety element tolki ŭ dziejnaj "
+"aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie "
+"vidać z usich aplikacyjaŭ.</qt>"
+
+#: ../kfile/kfileplacesmodel.cpp:117
+#, fuzzy
+#| msgctxt "Home Directory"
+#| msgid "Home"
+msgctxt "KFile System Bookmarks"
+msgid "Home"
+msgstr "Dom"
+
+#: ../kfile/kfileplacesmodel.cpp:120
+#, fuzzy
+#| msgid "Network"
+msgctxt "KFile System Bookmarks"
+msgid "Network"
+msgstr "Sietka"
+
+#: ../kfile/kfileplacesmodel.cpp:132
+#, fuzzy
+#| msgid "Root"
+msgctxt "KFile System Bookmarks"
+msgid "Root"
+msgstr "Korań"
+
+#: ../kfile/kfileplacesmodel.cpp:136
+#, fuzzy
+#| msgid "Trash"
+msgctxt "KFile System Bookmarks"
+msgid "Trash"
+msgstr "Śmietnica"
+
+#: ../kfile/kfileplacesmodel.cpp:734
+#, kde-format
+msgid "&Release '%1'"
+msgstr "&Vyzvali „%1”"
+
+#: ../kfile/kfileplacesmodel.cpp:736
+#, kde-format
+msgid "&Safely Remove '%1'"
+msgstr "&Biaśpiečna vysuń „%1”"
+
+#: ../kfile/kfileplacesmodel.cpp:739
+#, kde-format
+msgid "&Unmount '%1'"
+msgstr "&Admantuj „%1”"
+
+#: ../kfile/kfileplacesmodel.cpp:760
+#, kde-format
+msgid "&Eject '%1'"
+msgstr "V&ysuń „%1”"
+
+#: ../kfile/kfileplacesmodel.cpp:794
+#, kde-format
+msgid "The device '%1' is not a disk and cannot be ejected."
+msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
+
+#: ../kfile/kfileplacesmodel.cpp:830
+#, kde-format
+msgid "An error occurred while accessing '%1', the system responded: %2"
+msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
+
+#: ../kfile/kfileplacesmodel.cpp:834
+#, kde-format
+msgid "An error occurred while accessing '%1'"
+msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
+
+#: ../kfile/kfileplacesview.cpp:575
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Vyčyści śmietnicu"
+
+#: ../kfile/kfileplacesview.cpp:580 ../kfile/kfileplacesview.cpp:601
+#: ../kfile/kfileplacesview.cpp:608 kfile/kacleditwidget.cpp:98
+msgid "Add Entry..."
+msgstr "Dadaj praviła..."
+
+#: ../kfile/kfileplacesview.cpp:582
+#, fuzzy, kde-format
+#| msgid "Edit Entry..."
+msgid "&Edit Entry '%1'..."
+msgstr "Redahuj praviła..."
+
+#: ../kfile/kfileplacesview.cpp:604
+#, fuzzy, kde-format
+#| msgid "&Hide '%1'"
+msgid "&Hide Entry '%1'"
+msgstr "&Schavaj „%1”"
+
+#: ../kfile/kfileplacesview.cpp:613
+msgid "&Show All Entries"
+msgstr "&Pakažy ŭsie elementy"
+
+#: ../kfile/kfileplacesview.cpp:624
+#, fuzzy, kde-format
+#| msgid "&Remove '%1'"
+msgid "&Remove Entry '%1'"
+msgstr "&Vydali „%1”"
+
+#: ../kfile/kfileplacesview.cpp:636
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr ""
+"Ty sapraŭdy chočaš vyčyścić śmietnicu? Usio jejnaje źmieściva budzie "
+"vydalenaje."
+
+#: ../kfile/kfileplacesview.cpp:640 kio/jobuidelegate.cpp:161
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Vyčyści śmietnicu"
+
+#: ../kfile/kfiletreeview.cpp:187
+msgid "Show Hidden Folders"
+msgstr "Pakažy schavanyja katalohi"
+
+#: ../kfile/kfilewidget.cpp:286
+msgid ""
+"<qt>While typing in the text area, you may be presented with possible "
+"matches. This feature can be controlled by clicking with the right mouse "
+"button and selecting a preferred mode from the <b>Text Completion</b> menu.</"
+"qt>"
+msgstr ""
+"<qt>Padčas upisvańnia tekstu ŭ pole tabie mohuć prapanavać mahčymyja "
+"varyjanty zakančeńnia. Hetyja pavodziny možna źmianić, kliknuŭšy pravaj "
+"knopkaj myšy ŭ pole j vybraŭšy patrebny sposab u menu <b>Zakančeńnie tekstu</"
+"b></qt>."
+
+#: ../kfile/kfilewidget.cpp:364
+#, kde-format
+msgid "Drive: %1"
+msgstr "Pryłada: %1"
+
+#: ../kfile/kfilewidget.cpp:419
+#, kde-format
+msgid ""
+"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
+"if the current location is file:/home/%1 clicking this button will take you "
+"to file:/home.</qt>"
+msgstr ""
+"<qt>Klikni ŭ hetuju knopku, kab pierajści ŭ vyšejšy kataloh.<br /><br /"
+">Naprykład, kali ciapier ty ŭ miescy z adrasam „file:/home/%1”, to kliknuŭšy "
+"ŭ hetuju knopku, ty pierajdzieš u „file:/home”.</qt>"
+
+#: ../kfile/kfilewidget.cpp:423
+msgid "Click this button to move backwards one step in the browsing history."
+msgstr ""
+"Klikni ŭ hetuju knopku, kab viarnucca nazad na adzin krok u śpisie "
+"prahladanych miescaŭ."
+
+#: ../kfile/kfilewidget.cpp:424
+msgid "Click this button to move forward one step in the browsing history."
+msgstr ""
+"Klikni ŭ hetuju knopku, kab pajści napierad na adzin krok u śpisie "
+"prahladanych miescaŭ."
+
+#: ../kfile/kfilewidget.cpp:426
+msgid "Click this button to reload the contents of the current location."
+msgstr "Klikni ŭ hetuju knopku, kab pieračytać źmieściva hetaha miesca."
+
+#: ../kfile/kfilewidget.cpp:428
+msgid "Click this button to create a new folder."
+msgstr "Klikni ŭ hetuju knopku, kab stvaryć novy kataloh."
+
+#: ../kfile/kfilewidget.cpp:434
+msgid "Show Places Navigation Panel"
+msgstr "Pakažy panel miescaŭ"
+
+#: ../kfile/kfilewidget.cpp:441
+msgid "Show Bookmarks"
+msgstr "Pakažy zakładki"
+
+#: ../kfile/kfilewidget.cpp:446
+msgid "Options"
+msgstr "Opcyi"
+
+#: ../kfile/kfilewidget.cpp:448
+msgid ""
+"<qt>This is the preferences menu for the file dialog. Various options can be "
+"accessed from this menu including: <ul><li>how files are sorted in the list</"
+"li><li>types of view, including icon and list</li><li>showing of hidden "
+"files</li><li>the Places navigation panel</li><li>file previews</"
+"li><li>separating folders from files</li></ul></qt>"
+msgstr ""
+"<qt>Heta menu ŭłasnych naładaŭ dla akna vybaru fajłaŭ. Tut možna vybrać: "
+"<ul><li>jak paradkavać fajły ŭ śpisie;</li><li>jak prahladać źmieściva "
+"katalohaŭ: jak ikony, u śpisie i h.d.;</li><li>ci pakazvać schavanyja fajły;"
+"</li><li>ci pakazvać panel miescaŭ;</li><li>ci pakazvać dla fajłaŭ padhlady;"
+"</li><li>ci adasablać katalohi ad fajłaŭ.</li></ul></qt>"
+
+#: ../kfile/kfilewidget.cpp:491
+msgid "Zoom out"
+msgstr "Pamienš"
+
+#: ../kfile/kfilewidget.cpp:493
+msgid "Zoom in"
+msgstr "Pavialič"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: ../kfile/kfilewidget.cpp:534 kfile/kpropertiesdesktopbase.ui:17
+msgid "&Name:"
+msgstr "&Nazva:"
+
+#: ../kfile/kfilewidget.cpp:557
+msgid ""
+"<qt>This is the filter to apply to the file list. File names that do not "
+"match the filter will not be shown.<p>You may select from one of the preset "
+"filters in the drop down menu, or you may enter a custom filter directly "
+"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
+msgstr ""
+"<qt>Filtar, jaki budzie vykarystany dla śpisa fajłaŭ. Nazvy fajłaŭ, jakija "
+"nie adpaviadajuć hetamu filtru, nia buduć pakazvacca.<p>Ty možaš albo vybrać "
+"najaŭny šablon z vypłyŭnoha menu, albo ŭpisać ułasny filter u tekstavaje "
+"pole.</p><p>Možna karystacca specyjalnymi znakami, naprykład, „*” i „?”.</"
+"p></qt>"
+
+#: ../kfile/kfilewidget.cpp:563
+msgid "&Filter:"
+msgstr "&Filtruj:"
+
+#: ../kfile/kfilewidget.cpp:788
+msgid "You can only select one file"
+msgstr "Možna vybrać tolki adzin fajł."
+
+#: ../kfile/kfilewidget.cpp:789
+msgid "More than one file provided"
+msgstr "Padadzienyja niekalki fajłaŭ."
+
+#: ../kfile/kfilewidget.cpp:953
+msgid "You can only select local files"
+msgstr "Možna vybrać tolki lakalnyja fajły."
+
+#: ../kfile/kfilewidget.cpp:954
+msgid "Remote files not accepted"
+msgstr "Nielha vybrać fajły ź inšych hostaŭ"
+
+#: ../kfile/kfilewidget.cpp:972
+msgid ""
+"More than one folder has been selected and this dialog does not accept "
+"folders, so it is not possible to decide which one to enter. Please select "
+"only one folder to list it."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:972
+msgid "More than one folder provided"
+msgstr "Padadzienyja niekalki katalohaŭ"
+
+#: ../kfile/kfilewidget.cpp:980
+msgid ""
+"At least one folder and one file has been selected. Selected files will be "
+"ignored and the selected folder will be listed"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:980
+msgid "Files and folders selected"
+msgstr "Vyłučanyja katalohi j fajły"
+
+#: ../kfile/kfilewidget.cpp:995
+#, fuzzy, kde-format
+#| msgid "The file %1 could not be found"
+msgid "The file \"%1\" could not be found"
+msgstr "Nie ŭdałosia znajści fajł „%1”."
+
+#: ../kfile/kfilewidget.cpp:995
+msgid "Cannot open file"
+msgstr "Nie ŭdałosia adčynić fajł"
+
+#: ../kfile/kfilewidget.cpp:1266
+msgid "This is the name to save the file as."
+msgstr "Nazva dla zapisvanaha fajła."
+
+#: ../kfile/kfilewidget.cpp:1271
+msgid ""
+"This is the list of files to open. More than one file can be specified by "
+"listing several files, separated by spaces."
+msgstr ""
+"Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, "
+"padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
+
+#: ../kfile/kfilewidget.cpp:1278
+msgid "This is the name of the file to open."
+msgstr "Nazva fajła, jaki treba adčynić."
+
+#: ../kfile/kfilewidget.cpp:1292
+#, fuzzy
+#| msgid "Places"
+msgctxt "@title:window"
+msgid "Places"
+msgstr "Miescy"
+
+#: ../kfile/kfilewidget.cpp:1481
+#, kde-format
+msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
+msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
+
+#: ../kfile/kfilewidget.cpp:1482
+msgid "Overwrite File?"
+msgstr "Nadpisać fajł?"
+
+#: ../kfile/kfilewidget.cpp:1613
+msgid ""
+"The chosen filenames do not\n"
+"appear to be valid."
+msgstr ""
+"Nazvy vybranych fajłaŭ\n"
+"niapravilnyja."
+
+#: ../kfile/kfilewidget.cpp:1615
+msgid "Invalid Filenames"
+msgstr "Niapravilnyja nazvy fajłaŭ"
+
+#: ../kfile/kfilewidget.cpp:1695
+msgid "You can only select local files."
+msgstr "Možna vybrać tolki lakalnyja fajły."
+
+#: ../kfile/kfilewidget.cpp:1696
+msgid "Remote Files Not Accepted"
+msgstr "Nielha vybrać fajły ź inšych hostaŭ"
+
+#: ../kfile/kfilewidget.cpp:1799
+msgid "*|All Folders"
+msgstr "*|Usie katalohi"
+
+#: ../kfile/kfilewidget.cpp:1966 kio/kfileitemactions.cpp:546
+msgid "&Open"
+msgstr "&Adčyni"
+
+#: ../kfile/kfilewidget.cpp:2051
+#, fuzzy, kde-format
+msgid "Icon size: %1 pixels (standard size)"
+msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
+
+#: ../kfile/kfilewidget.cpp:2054
+#, fuzzy, kde-format
+msgid "Icon size: %1 pixels"
+msgstr "Pamier ikon: %1 punktaŭ"
+
+#: ../kfile/kfilewidget.cpp:2191
+#, kde-format
+msgid "Automatically select filename e&xtension (%1)"
+msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
+
+#: ../kfile/kfilewidget.cpp:2192
+#, kde-format
+msgid "the extension <b>%1</b>"
+msgstr "pašyreńnie <b>%1</b>"
+
+#: ../kfile/kfilewidget.cpp:2200
+msgid "Automatically select filename e&xtension"
+msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
+
+#: ../kfile/kfilewidget.cpp:2201
+msgid "a suitable extension"
+msgstr "prydatnaje pašyreńnie"
+
+#: ../kfile/kfilewidget.cpp:2211
+#, kde-format
+msgid ""
+"This option enables some convenient features for saving files with "
+"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
+"will be updated if you change the file type to save in.<br /><br /></"
+"li><li>If no extension is specified in the <b>%2</b> text area when you "
+"click <b>Save</b>, %3 will be added to the end of the filename (if the "
+"filename does not already exist). This extension is based on the file type "
+"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
+"an extension for the filename, you can either turn this option off or you "
+"can suppress it by adding a period (.) to the end of the filename (the "
+"period will be automatically removed).</li></ol>If unsure, keep this option "
+"enabled as it makes your files more manageable."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:2514 bookmarks/kbookmarkimporter_ns.cc:165
+#: bookmarks/kbookmarkimporter_ns.cc:166
+msgid "Bookmarks"
+msgstr "Zakładki"
+
+#: ../kfile/kfilewidget.cpp:2518
+msgid ""
+"<qt>This button allows you to bookmark specific locations. Click on this "
+"button to open the bookmark menu where you may add, edit or select a "
+"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
+"otherwise operate like bookmarks elsewhere in KDE.</qt>"
+msgstr ""
+"<qt>Hetaja knopka dazvalaje stvarać zakładki dla peŭnych miescaŭ. Klikni ŭ "
+"hetuju knopku, kab adčynić menu zakładak. Tudy ty možaš dadavać novyja "
+"zakładki, redahavać ci vybirać najaŭnyja zakładki.<br /><br />Jany "
+"adnosiacca tolki da akna vybaru fajłaŭ, ale dziejničajuć, jak zvyčajnyja "
+"zakładki systemy KDE.</qt>"
+
+#: ../kfile/knewfilemenu.cpp:365 ../kfile/knewfilemenu.cpp:880
+#, fuzzy
+#| msgid "Store"
+msgid "Sorry"
+msgstr "Zachoŭvaj"
+
+#: ../kfile/knewfilemenu.cpp:374
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
+#| "does not exist.</qt>"
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr ""
+"<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
+"isnuje.</qt>"
+
+#: ../kfile/knewfilemenu.cpp:393
+#, fuzzy
+#| msgid "Creating directory"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Stvareńnie kataloha"
+
+#: ../kfile/knewfilemenu.cpp:395
+#, fuzzy
+#| msgid "Ru&n as a different user"
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr "&Uklučy ad asoby inšaha karystańnika"
+
+#: ../kfile/knewfilemenu.cpp:398
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create hidden directory?"
+msgstr "Stvareńnie kataloha"
+
+#: ../kfile/knewfilemenu.cpp:402
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:404
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:497 ../kfile/knewfilemenu.cpp:566
+#, fuzzy
+#| msgid "Device name"
+msgid "File name:"
+msgstr "Nazva pryłady"
+
+#: ../kfile/knewfilemenu.cpp:500
+#, fuzzy
+#| msgid "Could Not Create Symbolic Link"
+msgid "Create Symlink"
+msgstr "Nie ŭdałosia stvaryć symbalny łuč"
+
+#: ../kfile/knewfilemenu.cpp:570
+#, fuzzy
+#| msgid "Created:"
+msgid "Create link to URL"
+msgstr "Stvorany:"
+
+#: ../kfile/knewfilemenu.cpp:616 ../kfile/knewfilemenu.cpp:664
+#, kde-format
+msgctxt "@item:inmenu Create New"
+msgid "%1"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:890
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:966
+#, fuzzy
+#| msgid "Created:"
+msgid "Create New"
+msgstr "Stvorany:"
+
+#: ../kfile/knewfilemenu.cpp:979
+#, fuzzy
+#| msgid "Device"
+msgid "Link to Device"
+msgstr "Pryłada"
+
+#: ../kfile/knewfilemenu.cpp:1024
+#, fuzzy
+#| msgid "New Folder"
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "Novy kataloh"
+
+#: ../kfile/knewfilemenu.cpp:1038
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"Stvary novy kataloh u:\n"
+"%1"
+
+#: ../kfile/kurlnavigator.cpp:431
+msgid "Copy"
+msgstr "Skapijuj"
+
+#: ../kfile/kurlnavigator.cpp:435
+msgid "Paste"
+msgstr "Uklej"
+
+#: ../kfile/kurlnavigator.cpp:442
+msgid "Edit"
+msgstr "Redahuj"
+
+#: ../kfile/kurlnavigator.cpp:445
+msgid "Navigate"
+msgstr "Pierajdzi"
+
+#: ../kfile/kurlnavigator.cpp:460
+msgid "Show Full Path"
+msgstr "Pakažy ŭsiu ściežku"
+
+#: ../kfile/kurlnavigator.cpp:698
+msgid "Custom Path"
+msgstr "Ułasnaja ściežka"
+
+#: ../kfile/kurlnavigatorbutton.cpp:675
+#, fuzzy
+#| msgid "Store"
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Zachoŭvaj"
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:173
+msgctxt "@item:inmenu"
+msgid "Devices"
+msgstr "Pryłady"
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:177
+msgctxt "@item:inmenu"
+msgid "Subversion"
+msgstr "Subversion"
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:181
+msgctxt "@item:inmenu"
+msgid "Other"
+msgstr "Inšaje"
+
+#: ../kfile/kurlnavigatortogglebutton.cpp:93
+msgid "Click for Location Navigation"
+msgstr "Klikni, kab bačyć panel miesca"
+
+#: ../kfile/kurlnavigatortogglebutton.cpp:95
+msgid "Click to Edit Location"
+msgstr "Klikni, kab adredahavać adras miesca"
+
+#: ../kioslave/file/file.cpp:211
+#, kde-format
+msgid "Setting ACL for %1"
+msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
+
+#: ../kioslave/file/file.cpp:728 ../kioslave/file/file_unix.cpp:300
+#, kde-format
+msgid ""
+"Could not change permissions for\n"
+"%1"
+msgstr ""
+"Nie ŭdałosia źmianić dazvoły na\n"
+"%1"
+
+#: ../kioslave/file/file.cpp:923
+msgid "No Media inserted or Media not recognized."
+msgstr "Nośbit nia ŭsunuty albo nie raspaznany."
+
+#: ../kioslave/file/file.cpp:933 ../kioslave/file/file.cpp:1142
+msgid "\"vold\" is not running."
+msgstr "Słužba „vold” nie pracuje."
+
+#: ../kioslave/file/file.cpp:968
+msgid "Could not find program \"mount\""
+msgstr "Nie ŭdałosia znajści prahramu „mount”."
+
+#: ../kioslave/file/file.cpp:1047
+#, fuzzy
+#| msgid "Writing to %1 is not supported."
+msgid "mounting is not supported by wince."
+msgstr "Zapis u „%1” nie padtrymvajecca."
+
+#: ../kioslave/file/file.cpp:1155
+msgid "Could not find program \"umount\""
+msgstr "Nie ŭdałosia znajści prahramu „umount”."
+
+#: ../kioslave/file/file.cpp:1169
+#, fuzzy
+#| msgid "Writing to %1 is not supported."
+msgid "unmounting is not supported by wince."
+msgstr "Zapis u „%1” nie padtrymvajecca."
+
+#: ../kioslave/file/file.cpp:1256
+#, kde-format
+msgid "Could not read %1"
+msgstr "Nie ŭdałosia pračytać z „%1”."
+
+#: ../kioslave/file/file_unix.cpp:231
+#, kde-format
+msgid "Cannot copy file from %1 to %2. (Errno: %3)"
+msgstr "Nie ŭdałosia skapijavać fajł z „%1” u „%2” (numar pamyłki: %3)."
+
+#: ../kioslave/file/file_unix.cpp:344
+#, kde-format
+msgid "No media in device for %1"
+msgstr "U pryładzie „%1” niama nośbitu."
+
+#: ../kioslave/file/file_unix.cpp:613
+#, kde-format
+msgid "Could not get user id for given user name %1"
+msgstr ""
+"Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
+
+#: ../kioslave/file/file_unix.cpp:626
+#, kde-format
+msgid "Could not get group id for given group name %1"
+msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."
+
+#: ../kioslave/ftp/ftp.cpp:356
+#, kde-format
+msgid "Opening connection to host %1"
+msgstr "Adčynieńnie spałučeńnia z hostam „%1”"
+
+#: ../kioslave/ftp/ftp.cpp:371
+#, kde-format
+msgid "Connected to host %1"
+msgstr "Spałučany z hostam „%1”"
+
+#: ../kioslave/ftp/ftp.cpp:478
+#, kde-format
+msgid ""
+"%1.\n"
+"\n"
+"Reason: %2"
+msgstr ""
+"%1.\n"
+"\n"
+"Pryčyna: %2"
+
+#: ../kioslave/ftp/ftp.cpp:507
+msgid "Sending login information"
+msgstr "Vysyłańnie źviestak dla ŭvachodu"
+
+#: ../kioslave/ftp/ftp.cpp:570
+#, kde-format
+msgid ""
+"Message sent:\n"
+"Login using username=%1 and password=[hidden]\n"
+"\n"
+"Server replied:\n"
+"%2\n"
+"\n"
+msgstr ""
+"Vysłanaje paviedamleńnie:\n"
+"Uvachod z nazvaj karystańnika „%1” i parolem „[schavana]”\n"
+"\n"
+"Server adkazaŭ:\n"
+"%2\n"
+"\n"
+
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5355
+msgid "You need to supply a username and a password to access this site."
+msgstr ""
+"Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
+
+#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5357
+msgid "Site:"
+msgstr "Sajt:"
+
+#: ../kioslave/ftp/ftp.cpp:581
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: ../kioslave/ftp/ftp.cpp:679
+msgid "Login OK"
+msgstr "Uvachod: OK"
+
+#: ../kioslave/ftp/ftp.cpp:708
+#, kde-format
+msgid "Could not login to %1."
+msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
+
+#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5245
+#: ../kioslave/http/http.cpp:5367
+msgid ""
+"You need to supply a username and a password for the proxy server listed "
+"below before you are allowed to access any sites."
+msgstr ""
+"Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
+"parol dla proxy-servera."
+
+#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5249
+#: ../kioslave/http/http.cpp:5370
+msgid "Proxy:"
+msgstr "Proxy:"
+
+#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5250
+#: ../kioslave/http/http.cpp:5450
+#, kde-format
+msgid "<b>%1</b> at <b>%2</b>"
+msgstr "<b>%1</b> na <b>%2</b>"
+
+#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5252
+#: ../kioslave/http/http.cpp:5387
+msgid "Proxy Authentication Failed."
+msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
+
+#: ../kioslave/http/http.cpp:601
+msgid "No host specified."
+msgstr "Host nie aznačany."
+
+#: ../kioslave/http/http.cpp:1594
+msgid "Otherwise, the request would have succeeded."
+msgstr "Inačaj zapyt by vykanaŭsia."
+
+#: ../kioslave/http/http.cpp:1598
+msgctxt "request type"
+msgid "retrieve property values"
+msgstr "atrymać vartaści dla ŭłaścivaściaŭ"
+
+#: ../kioslave/http/http.cpp:1601
+msgctxt "request type"
+msgid "set property values"
+msgstr "aznačyć vartaści dla ŭłaścivaściaŭ"
+
+#: ../kioslave/http/http.cpp:1604
+msgctxt "request type"
+msgid "create the requested folder"
+msgstr "stvaryć zapatrabavany kataloh"
+
+#: ../kioslave/http/http.cpp:1607
+msgctxt "request type"
+msgid "copy the specified file or folder"
+msgstr "skapijavać aznačany fajł ci kataloh"
+
+#: ../kioslave/http/http.cpp:1610
+msgctxt "request type"
+msgid "move the specified file or folder"
+msgstr "pieranieści aznačany fajł ci kataloh"
+
+#: ../kioslave/http/http.cpp:1613
+msgctxt "request type"
+msgid "search in the specified folder"
+msgstr "pašukać u aznačanym katalohu"
+
+#: ../kioslave/http/http.cpp:1616
+msgctxt "request type"
+msgid "lock the specified file or folder"
+msgstr "zablakavać aznačany fajł ci kataloh"
+
+#: ../kioslave/http/http.cpp:1619
+msgctxt "request type"
+msgid "unlock the specified file or folder"
+msgstr "adblakavać aznačany fajł ci kataloh"
+
+#: ../kioslave/http/http.cpp:1622
+msgctxt "request type"
+msgid "delete the specified file or folder"
+msgstr "vydalić aznačany fajł ci kataloh"
+
+#: ../kioslave/http/http.cpp:1625
+msgctxt "request type"
+msgid "query the server's capabilities"
+msgstr "zapytać u servera pra jahonyja zdolnaści"
+
+#: ../kioslave/http/http.cpp:1628
+msgctxt "request type"
+msgid "retrieve the contents of the specified file or folder"
+msgstr "atrymać źmieściva aznačanaha fajła ci kataloha"
+
+#: ../kioslave/http/http.cpp:1631
+#, fuzzy
+#| msgctxt "request type"
+#| msgid "search in the specified folder"
+msgctxt "request type"
+msgid "run a report in the specified folder"
+msgstr "pašukać u aznačanym katalohu"
+
+#: ../kioslave/http/http.cpp:1642
+#, kde-format
+msgctxt "%1: code, %2: request type"
+msgid "An unexpected error (%1) occurred while attempting to %2."
+msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
+
+#: ../kioslave/http/http.cpp:1650
+msgid "The server does not support the WebDAV protocol."
+msgstr "Server nie absłuhoŭvaje pratakoł „WebDAV”."
+
+#: ../kioslave/http/http.cpp:1692
+#, kde-format
+msgctxt "%1: request type, %2: url"
+msgid ""
+"An error occurred while attempting to %1, %2. A summary of the reasons is "
+"below."
+msgstr ""
+"Padčas sproby %1 dla „%2” uźnikła pamyłka. Nižej padadzieny śpis pryčynaŭ."
+
+#: ../kioslave/http/http.cpp:1706 ../kioslave/http/http.cpp:1838
+#, kde-format
+msgctxt "%1: request type"
+msgid "Access was denied while attempting to %1."
+msgstr "Sprobie %1 zabaronieny dostup."
+
+#: ../kioslave/http/http.cpp:1719 ../kioslave/http/http.cpp:1844
+msgid ""
+"A resource cannot be created at the destination until one or more "
+"intermediate collections (folders) have been created."
+msgstr ""
+"Niemahčyma stvaryć resurs u metavym miescy, pakul nia buduć stvorany "
+"pasiarednija katalohi, jakija viaduć da hetaha resursu."
+
+#: ../kioslave/http/http.cpp:1727
+#, kde-format
+msgid ""
+"The server was unable to maintain the liveness of the properties listed in "
+"the propertybehavior XML element or you attempted to overwrite a file while "
+"requesting that files are not overwritten. %1"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1735
+#, kde-format
+msgid "The requested lock could not be granted. %1"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1741
+msgid "The server does not support the request type of the body."
+msgstr "Server nie absłuhoŭvaje typu zapytaŭ, padadzienaha ŭ ciele."
+
+#: ../kioslave/http/http.cpp:1746 ../kioslave/http/http.cpp:1852
+#, kde-format
+msgctxt "%1: request type"
+msgid "Unable to %1 because the resource is locked."
+msgstr "Nie ŭdałosia %1, bo resurs zablakavany."
+
+#: ../kioslave/http/http.cpp:1750
+msgid "This action was prevented by another error."
+msgstr "Hetaj aperacyi pieraškodziła inšaja pamyłka."
+
+#: ../kioslave/http/http.cpp:1756 ../kioslave/http/http.cpp:1858
+#, kde-format
+msgctxt "%1: request type"
+msgid ""
+"Unable to %1 because the destination server refuses to accept the file or "
+"folder."
+msgstr ""
+"Nie ŭdałosia %1, bo metavy server nie pryniaŭ hetaha fajła ci kataloha."
+
+#: ../kioslave/http/http.cpp:1763 ../kioslave/http/http.cpp:1865
+msgid ""
+"The destination resource does not have sufficient space to record the state "
+"of the resource after the execution of this method."
+msgstr ""
+"Metavamu resursu nie chapiła volnaha miesca, kab zapisać novuju admienu, "
+"jakaja ŭźnikła paśla vykanańnia hetaj funkcyi."
+
+#: ../kioslave/http/http.cpp:1816
+msgid "The resource cannot be deleted."
+msgstr "Aznačany resurs nie ŭdałosia vydalić."
+
+#: ../kioslave/http/http.cpp:1829
+#, kde-format
+msgctxt "request type"
+msgid "upload %1"
+msgstr "pakłaści „%1” na server"
+
+#: ../kioslave/http/http.cpp:1879
+#, kde-format
+msgctxt "%1: response code, %2: request type"
+msgid "An unexpected error (%1) occurred while attempting to %2."
+msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
+
+#: ../kioslave/http/http.cpp:2705
+#, kde-format
+msgid "%1 contacted. Waiting for reply..."
+msgstr "Spałučany z „%1”. Čakańnie adkazu..."
+
+#: ../kioslave/http/http.cpp:3037
+#, kde-format
+msgctxt "@warning: Security check on url being accessed"
+msgid ""
+"You are about to log in to the site \"%1\" with the username \"%2\", but the "
+"website does not require authentication. This may be an attempt to trick you."
+"<p>Is \"%1\" the site you want to visit?"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:3044
+msgctxt "@title:window"
+msgid "Confirm Website Access"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:3121
+msgid "Server processing request, please wait..."
+msgstr "Server pierapracoŭvaje zapyt. Pačakaj..."
+
+#: ../kioslave/http/http.cpp:3827 ../kioslave/http/http.cpp:3881
+#, kde-format
+msgid "Sending data to %1"
+msgstr "Vysyłańnie źviestak u „%1”"
+
+#: ../kioslave/http/http.cpp:4347
+#, kde-format
+msgid "Retrieving %1 from %2..."
+msgstr "Atrymańnie „%1” ad „%2”..."
+
+#: ../kioslave/http/http.cpp:5386
+msgid "Authentication Failed."
+msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
+
+#: ../kioslave/http/http.cpp:5483
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Authorization failed."
+msgstr "Akno aŭtaryzavańnia"
+
+#: ../kioslave/http/http.cpp:5499
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Unknown Authorization method."
+msgstr "Akno aŭtaryzavańnia"
+
+#: ../kioslave/http/http_cache_cleaner.cpp:728
+#: ../kioslave/http/http_cache_cleaner.cpp:729
+msgid "KDE HTTP cache maintenance tool"
+msgstr "Pryłada KDE dla kiravańnia padručnaj pamiaćciu HTTP"
+
+#: ../kioslave/http/http_cache_cleaner.cpp:732
+msgid "Empty the cache"
+msgstr "Vyčyści padručnuju pamiać"
+
+#: ../kioslave/http/http_cache_cleaner.cpp:733
+#, fuzzy
+#| msgid "Display SSL &Information"
+msgid "Display information about cache file"
+msgstr "Pakažy &źviestki SSL"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:64
+msgid "Cookie Alert"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:97
+#, kde-format
+msgid "You received a cookie from"
+msgid_plural "You received %1 cookies from"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:115
+msgid " <b>[Cross Domain]</b>"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:118
+msgid "Do you want to accept or reject?"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:126
+msgid "Apply Choice To"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
+msgid "&Only this cookie"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
+msgid "&Only these cookies"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:132
+msgid ""
+"Select this option to accept/reject only this cookie. You will be prompted "
+"if another cookie is received. <em>(see WebBrowsing/Cookies in the System "
+"Settings)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:136
+msgid "All cookies from this do&main"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:139
+msgid ""
+"Select this option to accept/reject all cookies from this site. Choosing "
+"this option will add a new policy for the site this cookie originated from. "
+"This policy will be permanent until you manually change it from the System "
+"Settings <em>(see WebBrowsing/Cookies in the System Settings)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:145
+msgid "All &cookies"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:148
+msgid ""
+"Select this option to accept/reject all cookies from anywhere. Choosing this "
+"option will change the global cookie policy set in the System Settings for "
+"all cookies <em>(see WebBrowsing/Cookies in the System Settings)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:162
+msgid "&Accept"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:163
+msgid "&Reject"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:165
+msgid "See or modify the cookie information"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:200
+msgid "Cookie Details"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:205 kio/kfileitem.cpp:1129
+msgid "Name:"
+msgstr "Nazva:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:213
+msgid "Value:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:220
+msgid "Expires:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:227
+msgid "Path:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:234
+msgid "Domain:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:241
+msgid "Exposure:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:250
+msgctxt "Next cookie"
+msgid "&Next >>"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:255
+msgid "Show details of the next cookie"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:282
+msgid "Not specified"
+msgstr "Nie aznačana"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:291
+msgid "End of Session"
+msgstr "Kaniec sesii"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:296
+msgid "Secure servers only"
+msgstr "Tolki biaśpiečnyja servery"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:298
+msgid "Secure servers, page scripts"
+msgstr "Biaśpiečnyja servery j skrypty na staronkach"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:303
+msgid "Servers"
+msgstr "Servery"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:305
+msgid "Servers, page scripts"
+msgstr "Servery j skrypty na staronkach"
+
+#: ../kioslave/http/kcookiejar/main.cpp:33
+msgid "HTTP Cookie Daemon"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:37
+msgid "HTTP cookie daemon"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:40
+msgid "Shut down cookie jar"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:41
+msgid "Remove cookies for domain"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:42
+msgid "Remove all cookies"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:43
+msgid "Reload configuration file"
+msgstr "Pieračytaj kanfihuracyjny fajł"
+
+#: ../kioslave/metainfo/metainfo.cpp:39
+msgid "kio_metainfo"
+msgstr "kio_metainfo"
+
+#: ../kioslave/metainfo/metainfo.cpp:98
+#, kde-format
+msgid "No metainfo for %1"
+msgstr "Niama metaźviestak pra „%1”."
 
 #: bookmarks/kbookmark.cc:323
 msgid "--- separator ---"
@@ -53,17 +1507,6 @@ msgstr "&Novy kataloh..."
 msgctxt "@title:window"
 msgid "Add Bookmarks"
 msgstr "Dadaj zakładki"
-
-#: bookmarks/kbookmarkdialog.cc:132 ../kfile/kdirselectdialog.cpp:281
-msgctxt "@title:window"
-msgid "Select Folder"
-msgstr "Vybiery kataloh"
-
-#: bookmarks/kbookmarkdialog.cc:159 ../kfile/knewfilemenu.cpp:1034
-#: ../kfile/kdirselectdialog.cpp:135
-msgctxt "@title:window"
-msgid "New Folder"
-msgstr "Novy kataloh"
 
 #: bookmarks/kbookmarkdialog.cc:292
 msgctxt "@label:textbox"
@@ -113,31 +1556,10 @@ msgstr "*.html|Fajły HTML (*.html)"
 msgid "<!-- This file was generated by Konqueror -->"
 msgstr "<!-- Hety fajł byŭ vyrableny ŭ prahramie „Konqueror” -->"
 
-#: bookmarks/kbookmarkimporter_ns.cc:165 bookmarks/kbookmarkimporter_ns.cc:166
-#: ../kfile/kfilewidget.cpp:2514
-msgid "Bookmarks"
-msgstr "Zakładki"
-
 #: bookmarks/kbookmarkimporter_opera.cc:121
 #: bookmarks/kbookmarkimporter_opera.cc:125
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr "*.adr|Zakładki „Opera” (*.adr)"
-
-#: bookmarks/konqbookmarkmenu.cc:61 bookmarks/konqbookmarkmenu.cc:78
-msgid "Hide in toolbar"
-msgstr "Schavaj u paneli pryładździa"
-
-#: bookmarks/konqbookmarkmenu.cc:61 bookmarks/konqbookmarkmenu.cc:78
-msgid "Show in toolbar"
-msgstr "Pakažy ŭ paneli pryładździa"
-
-#: bookmarks/konqbookmarkmenu.cc:71
-msgid "Open in New Window"
-msgstr "Adčyni ŭ novym aknie"
-
-#: bookmarks/konqbookmarkmenu.cc:72
-msgid "Open in New Tab"
-msgstr "Adčyni ŭ novaj kartcy"
 
 #: bookmarks/kbookmarkmanager.cc:443
 #, kde-format
@@ -161,10 +1583,6 @@ msgstr "Adčyni kataloh u redaktary zakładak"
 #: bookmarks/kbookmarkmenu.cc:275
 msgid "Delete Folder"
 msgstr "Vydali kataloh"
-
-#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1983
-msgid "Properties"
-msgstr "Ułaścivaści"
 
 #: bookmarks/kbookmarkmenu.cc:286
 msgid "Copy Link Address"
@@ -232,9 +1650,278 @@ msgstr "Novy kataloh z zakładkami..."
 msgid "Create a new bookmark folder in this menu"
 msgstr "Stvary novy kataloh z zakładkami ŭ hetym menu"
 
+#: bookmarks/konqbookmarkmenu.cc:61 bookmarks/konqbookmarkmenu.cc:78
+msgid "Hide in toolbar"
+msgstr "Schavaj u paneli pryładździa"
+
+#: bookmarks/konqbookmarkmenu.cc:61 bookmarks/konqbookmarkmenu.cc:78
+msgid "Show in toolbar"
+msgstr "Pakažy ŭ paneli pryładździa"
+
+#: bookmarks/konqbookmarkmenu.cc:71
+msgid "Open in New Window"
+msgstr "Adčyni ŭ novym aknie"
+
+#: bookmarks/konqbookmarkmenu.cc:72
+msgid "Open in New Tab"
+msgstr "Adčyni ŭ novaj kartcy"
+
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
 msgstr "Atrymańnie paškodžanych źviestak."
+
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
+msgid "Owner"
+msgstr "Ułaśnik"
+
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
+msgid "Owning Group"
+msgstr "Hrupa ŭłaśnikaŭ"
+
+#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
+#: kfile/kpropertiesdialog.cpp:2003
+msgid "Others"
+msgstr "Inšyja"
+
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
+msgid "Mask"
+msgstr "Maska"
+
+#: kfile/kacleditwidget.cpp:65
+msgid "Named User"
+msgstr "Nazva karystańnika"
+
+#: kfile/kacleditwidget.cpp:66
+msgid "Named Group"
+msgstr "Nazva hrupy"
+
+#: kfile/kacleditwidget.cpp:102
+msgid "Edit Entry..."
+msgstr "Redahuj praviła..."
+
+#: kfile/kacleditwidget.cpp:106
+msgid "Delete Entry"
+msgstr "Vydali praviła"
+
+#: kfile/kacleditwidget.cpp:307
+msgid " (Default)"
+msgstr " (Zmoŭčana)"
+
+#: kfile/kacleditwidget.cpp:431
+msgid "Edit ACL Entry"
+msgstr "Redahuj praviła dostupu"
+
+#: kfile/kacleditwidget.cpp:439
+msgid "Entry Type"
+msgstr "Typ praviła"
+
+#: kfile/kacleditwidget.cpp:445
+msgid "Default for new files in this folder"
+msgstr "Zmoŭčana dla novych fajłaŭ u hetym katalohu"
+
+#: kfile/kacleditwidget.cpp:474
+msgid "Named user"
+msgstr "Nazva karystańnika"
+
+#: kfile/kacleditwidget.cpp:479
+msgid "Named group"
+msgstr "Nazva hrupy"
+
+#: kfile/kacleditwidget.cpp:499
+msgid "User: "
+msgstr "Karystańnik: "
+
+#: kfile/kacleditwidget.cpp:505
+msgid "Group: "
+msgstr "Hrupa: "
+
+#: kfile/kacleditwidget.cpp:625
+msgid "Type"
+msgstr "Typ"
+
+#: kfile/kacleditwidget.cpp:626
+msgid "Name"
+msgstr "Nazva"
+
+#: kfile/kacleditwidget.cpp:627
+msgctxt "read permission"
+msgid "r"
+msgstr "r"
+
+#: kfile/kacleditwidget.cpp:628
+msgctxt "write permission"
+msgid "w"
+msgstr "w"
+
+#: kfile/kacleditwidget.cpp:629
+msgctxt "execute permission"
+msgid "x"
+msgstr "x"
+
+#: kfile/kacleditwidget.cpp:630
+msgid "Effective"
+msgstr "Dziejnyja"
+
+#: kfile/kcommentwidget.cpp:65
+#, fuzzy
+#| msgid "Add Entry..."
+msgctxt "@label"
+msgid "Add Comment..."
+msgstr "Dadaj praviła..."
+
+#: kfile/kcommentwidget.cpp:71
+#, fuzzy
+#| msgid "Calculating..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "Padličvańnie..."
+
+#: kfile/kcommentwidget.cpp:124
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:window"
+msgid "Change Comment"
+msgstr "Kamentar"
+
+#: kfile/kcommentwidget.cpp:125
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:window"
+msgid "Add Comment"
+msgstr "Kamentar"
+
+#: kfile/kdevicelistmodel.cpp:116
+msgid "Device name"
+msgstr "Nazva pryłady"
+
+#: kfile/kencodingfiledialog.cpp:49
+msgid "Encoding:"
+msgstr "Kadavańnie:"
+
+#: kfile/kencodingfiledialog.cpp:106 kfile/kencodingfiledialog.cpp:124
+#: kfile/kencodingfiledialog.cpp:139 kfile/kencodingfiledialog.cpp:157
+#: kfile/kfiledialog.cpp:480 kfile/kfiledialog.cpp:490
+#: kfile/kfiledialog.cpp:511 kfile/kfiledialog.cpp:535
+#: kfile/kfiledialog.cpp:545 kfile/kfiledialog.cpp:571
+#: kfile/kfiledialog.cpp:603 kfile/kfiledialog.cpp:658
+#: kfile/kicondialog.cpp:693 kfile/kurlrequesterdialog.cpp:128
+msgid "Open"
+msgstr "Adčyni"
+
+#: kfile/kencodingfiledialog.cpp:177 kfile/kencodingfiledialog.cpp:198
+#: kfile/kfiledialog.cpp:738 kfile/kfiledialog.cpp:757
+#: kfile/kfiledialog.cpp:794 kfile/kfiledialog.cpp:836
+msgid "Save As"
+msgstr "Zapišy jak"
+
+#: kfile/kfiledialog.cpp:126
+msgid "*|All files"
+msgstr "*|Usie fajły"
+
+#: kfile/kfilemetadataprovider.cpp:223
+#, fuzzy, kde-format
+#| msgctxt "Items in a folder"
+#| msgid "1 item"
+#| msgid_plural "%1 items"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 element"
+msgstr[1] "%1 elementy"
+msgstr[2] "%1 elementaŭ"
+
+#: kfile/kfilemetadataprovider.cpp:423 kfile/knfotranslator.cpp:40
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@label"
+msgid "Comment"
+msgstr "Kamentar"
+
+#: kfile/kfilemetadataprovider.cpp:424
+#, fuzzy
+#| msgid "Modified:"
+msgctxt "@label"
+msgid "Modified"
+msgstr "Admienieny:"
+
+#: kfile/kfilemetadataprovider.cpp:425
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "Ułaśnik"
+
+#: kfile/kfilemetadataprovider.cpp:426
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Dazvoły"
+
+#: kfile/kfilemetadataprovider.cpp:427
+#, fuzzy
+#| msgid "Sorting"
+msgctxt "@label"
+msgid "Rating"
+msgstr "Paradak"
+
+#: kfile/kfilemetadataprovider.cpp:428
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Pamier"
+
+#: kfile/kfilemetadataprovider.cpp:429
+#, fuzzy
+#| msgid "Trash"
+msgctxt "@label"
+msgid "Tags"
+msgstr "Śmietnica"
+
+#: kfile/kfilemetadataprovider.cpp:430
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Pamier:"
+
+#: kfile/kfilemetadataprovider.cpp:431
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Typ"
+
+#: kfile/kfilemetadatareaderprocess.cpp:237
+msgid "KFileMetaDataReader"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:239
+msgid "KFileMetaDataReader can be used to read metadata from a file"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:241
+msgid "(C) 2011, Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:242
+msgid "Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:242
+msgid "Current maintainer"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:248
+msgid "Only the meta data that is part of the file is read"
+msgstr ""
+
+#: kfile/kfilemetadatareaderprocess.cpp:249
+msgid "List of URLs where the meta-data should be read from"
+msgstr ""
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
@@ -318,12 +2005,110 @@ msgstr ""
 "Spraŭdź, kab skrypt Perl z nazvaj „fileshareset” mieŭ ułaścivaść „SUID” dla "
 "karystańnika „root”."
 
-#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:423
+#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
+msgid "Select Icon"
+msgstr "Abiary ikonu"
+
+#: kfile/kicondialog.cpp:369
+msgid "Icon Source"
+msgstr "Krynica ikony"
+
+#: kfile/kicondialog.cpp:378
+msgid "S&ystem icons:"
+msgstr "&Systemnyja ikony:"
+
+#: kfile/kicondialog.cpp:385
+msgid "O&ther icons:"
+msgstr "&Inšyja ikony:"
+
+#. i18n: ectx: property (text), widget (QPushButton, browseButton)
+#: kfile/kicondialog.cpp:388 kfile/kpropertiesdesktopbase.ui:121
+msgid "&Browse..."
+msgstr "&Prahladaj..."
+
+#: kfile/kicondialog.cpp:399
+msgid "&Search:"
+msgstr "&Šukaj:"
+
+#: kfile/kicondialog.cpp:406
+msgid "Search interactively for icon names (e.g. folder)."
+msgstr "Dziejny pošuk nazvaŭ ikonaŭ (naprykład, „kataloh”)."
+
+#: kfile/kicondialog.cpp:437
+msgid "Actions"
+msgstr "Aperacyi"
+
+#: kfile/kicondialog.cpp:438
+msgid "Animations"
+msgstr "Animacyja"
+
+#: kfile/kicondialog.cpp:439
+msgid "Applications"
+msgstr "Aplikacyi"
+
+#: kfile/kicondialog.cpp:440
+msgid "Categories"
+msgstr "Katehoryi"
+
+#: kfile/kicondialog.cpp:441
+msgid "Devices"
+msgstr "Pryłady"
+
+#: kfile/kicondialog.cpp:442
+msgid "Emblems"
+msgstr "Znaki"
+
+#: kfile/kicondialog.cpp:443
+msgid "Emotes"
+msgstr "Smajliki"
+
+#: kfile/kicondialog.cpp:444
+msgid "Filesystems"
+msgstr "Fajłavaja systema"
+
+#: kfile/kicondialog.cpp:445
+msgid "International"
+msgstr "Mižnarodnaje"
+
+#: kfile/kicondialog.cpp:446
+msgid "Mimetypes"
+msgstr "Typy MIME"
+
+#: kfile/kicondialog.cpp:447
+msgid "Places"
+msgstr "Miescy"
+
+#: kfile/kicondialog.cpp:448
+msgid "Status"
+msgstr "Stanovišča"
+
+#: kfile/kicondialog.cpp:691
+msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr "*.png *.xpm *.svg *.svgz|Fajły ikonaŭ (*.png *.xpm *.svg *.svgz)"
+
+#: kfile/kmetaprops.cpp:57
+msgctxt "@title:window"
+msgid "Configure Shown Data"
+msgstr ""
+
+#: kfile/kmetaprops.cpp:62
+msgctxt "@label::textbox"
+msgid "Select which data should be shown:"
+msgstr ""
+
+#: kfile/kmetaprops.cpp:120
 #, fuzzy
-#| msgid "Comment"
-msgctxt "@label"
-msgid "Comment"
-msgstr "Kamentar"
+#| msgid "Calculating..."
+msgctxt "@action:button"
+msgid "Configure..."
+msgstr "Padličvańnie..."
+
+#: kfile/kmetaprops.cpp:130
+#, fuzzy
+#| msgid "Information"
+msgctxt "@title:tab"
+msgid "Information"
+msgstr "Źviestki"
 
 #: kfile/knfotranslator.cpp:41
 #, fuzzy
@@ -750,41 +2535,419 @@ msgctxt "@label Number of untranslated strings"
 msgid "Untranslated"
 msgstr ""
 
+#: kfile/kopenwithdialog.cpp:269
+msgid "Known Applications"
+msgstr "Viadomyja aplikacyi"
+
+#: kfile/kopenwithdialog.cpp:483
+msgid "Open With"
+msgstr "Adčyni ŭ"
+
+#: kfile/kopenwithdialog.cpp:488
+#, kde-format
+msgid ""
+"<qt>Select the program that should be used to open <b>%1</b>. If the program "
+"is not listed, enter the name or click the browse button.</qt>"
+msgstr ""
+"<qt>Vybiery prahramu, u jakoj treba adčynić <b>%1</b>. Kali patrebnaj "
+"prahramy niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</"
+"qt>"
+
+#: kfile/kopenwithdialog.cpp:494
+msgid "Choose the name of the program with which to open the selected files."
+msgstr "Vybiery nazvu prahramy, u jakoj treba adčynić zaznačanyja fajły."
+
+#: kfile/kopenwithdialog.cpp:521
+#, kde-format
+msgid "Choose Application for %1"
+msgstr "Vybiery aplikacyju dla „%1”"
+
+#: kfile/kopenwithdialog.cpp:522
+#, kde-format
+msgid ""
+"<qt>Select the program for the file type: <b>%1</b>. If the program is not "
+"listed, enter the name or click the browse button.</qt>"
+msgstr ""
+"<qt>Vybiery prahramu dla fajłaŭ typu <b>%1</b>. Kali patrebnaj prahramy "
+"niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</qt>"
+
+#: kfile/kopenwithdialog.cpp:537
+msgid "Choose Application"
+msgstr "Vybiery aplikacyju"
+
+#: kfile/kopenwithdialog.cpp:538
+msgid ""
+"<qt>Select a program. If the program is not listed, enter the name or click "
+"the browse button.</qt>"
+msgstr ""
+"<qt>Vybiery prahramu. Kali patrebnaj prahramy niama ŭ śpisie, upišy jejnuju "
+"nazvu albo klikni ŭ knopku prahladu.</qt>"
+
+#: kfile/kopenwithdialog.cpp:602
+msgid ""
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the directory of the file to open\n"
+"%D - a list of directories\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the comment"
+msgstr ""
+"U zahadzie ty možaš źmiaścić nastupnyja spałučeńni znakaŭ, jakija buduć "
+"zamienienyja adpaviednymi značeńniami pry ŭklučeńni prahramy:\n"
+"%f - adna nazva fajła\n"
+"%F - śpis fajłaŭ: dla aplikacyjaŭ, jakija ŭmiejuć adnačasova adčynić "
+"niekalki lakalnych fajłaŭ\n"
+"%u - adzin adras\n"
+"%U - śpis adrasoŭ\n"
+"%d - kataloh fajła, jaki adčyniajecca\n"
+"%D - śpis katalohaŭ\n"
+"%i - ikona\n"
+"%m - małaja ikona\n"
+"%c - kamentar"
+
+#: kfile/kopenwithdialog.cpp:637
+msgid "Run in &terminal"
+msgstr "Uklučy ŭ &terminale"
+
+#: kfile/kopenwithdialog.cpp:654
+msgid "&Do not close when command exits"
+msgstr "&Nie začyniaj paśla vychadu z zahadu"
+
+#: kfile/kopenwithdialog.cpp:671
+msgid "&Remember application association for this type of file"
+msgstr "&Zapomni poviaź aplikacyi z hetym typam fajłaŭ"
+
+#: kfile/kopenwithdialog.cpp:815
+#, kde-format
+msgid ""
+"Could not extract executable name from '%1', please type a valid program "
+"name."
+msgstr ""
+"Nie ŭdałosia atrymać nazvy vykonvalnaha fajła z „%1”. Pravilna ŭpišy nazvu "
+"prahramy."
+
+#: kfile/kopenwithdialog.cpp:861
+#, kde-format
+msgid "'%1' not found, please type a valid program name."
+msgstr "Nie ŭdałosia znajści „%1”. Pravilna ŭpišy nazvu prahramy."
+
 #: kfile/kpreviewprops.cpp:50
 msgid "P&review"
 msgstr "&Padhlad"
 
-#: kfile/kfilemetadatareaderprocess.cpp:237
-msgid "KFileMetaDataReader"
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2)
+#: kfile/kpropertiesdesktopadvbase.ui:11
+msgctxt ""
+"@title:group Title of a group that lets the user choose options about the "
+"terminal when launching a program"
+msgid "Terminal"
+msgstr "Terminał"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:33
+msgid ""
+"Check this option if the application you want to run is a text mode "
+"application or if you want the information that is provided by the terminal "
+"emulator window."
+msgstr ""
+"Uklučy hetuju opcyju, kali aplikacyja maje tekstavy kštałt albo kali chočaš "
+"pračytać vychodnyja źviestki ad prahramy."
+
+#. i18n: ectx: property (text), widget (QCheckBox, terminalCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:36
+msgid "&Run in terminal"
+msgstr "&Uklučy ŭ terminale"
+
+#. i18n: ectx: property (text), widget (QLabel, terminalEditLabel)
+#: kfile/kpropertiesdesktopadvbase.ui:43
+msgid "&Terminal options:"
+msgstr "&Opcyi terminała:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCloseCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:53
+msgid ""
+"Check this option if the text mode application offers relevant information "
+"on exit. Keeping the terminal emulator open allows you to retrieve this "
+"information."
+msgstr ""
+"Uklučy hetuju opcyju, kali aplikacyja tekstavaha kštałtu vyvodzić pry "
+"vychadzie važnyja źviestki. Kali terminał nia budzie začynieny, tady ty "
+"zmožaš ich pračytać."
+
+#. i18n: ectx: property (text), widget (QCheckBox, terminalCloseCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:56
+msgid "Do not &close when command exits"
+msgstr "&Nie začyniaj paśla vychadu z zahada"
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2_2)
+#: kfile/kpropertiesdesktopadvbase.ui:69
+msgctxt ""
+"@title:group Title of a group that lets the user choose which user to use "
+"when launching a program"
+msgid "User"
+msgstr "Karystańnik"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, suidCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:75
+msgid ""
+"Check this option if you want to run this application with a different user "
+"id. Every process has a different user id associated with it. This id code "
+"determines file access and other permissions. The password of the user is "
+"required to use this option."
+msgstr ""
+"Uklučy hetuju opcyju, kali chočaš uklučyć hetuju aplikacyju ad asoby inšaha "
+"karystańnika. Kožny praces maje peŭny identyfikatar karystańnika, jaki "
+"aznačaje dazvoły na dostup da roznych fajłaŭ itp. Dla hetkaha ŭklučeńnia "
+"treba padać parol adpaviednaha karystańnika."
+
+#. i18n: ectx: property (text), widget (QCheckBox, suidCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:78
+msgid "Ru&n as a different user"
+msgstr "&Uklučy ad asoby inšaha karystańnika"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, suidEditLabel)
+#: kfile/kpropertiesdesktopadvbase.ui:101
+msgid "Enter the user name you want to run the application as."
+msgstr "Upišy nazvu karystańnika, ad asoby jakoha treba ŭklučyć aplikacyju."
+
+#. i18n: ectx: property (text), widget (QLabel, suidEditLabel)
+#: kfile/kpropertiesdesktopadvbase.ui:104
+msgid "&Username:"
+msgstr "&Nazva karystańnika:"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, suidEdit)
+#: kfile/kpropertiesdesktopadvbase.ui:114
+msgid "Enter the user name you want to run the application as here."
+msgstr ""
+"Siudy ŭpišy nazvu karystańnika, ad asoby jakoha treba ŭklučyć aplikacyju."
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup4)
+#: kfile/kpropertiesdesktopadvbase.ui:124
+msgctxt ""
+"@title:group Title of a group that lets the user choose options regargin "
+"program startup"
+msgid "Startup"
+msgstr "Uklučeńnie"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, startupInfoCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:130
+msgid ""
+"Check this option if you want to make clear that your application has "
+"started. This visual feedback may appear as a busy cursor or in the taskbar."
+msgstr ""
+"Uklučy hetuju opcyju, kab być peŭnym, što aplikacyja ŭklučyłasia. Hetaje "
+"vyjaŭleńnie moža pakazvać „zaniaty” kursor albo paznačać zadańnie ŭ paneli."
+
+#. i18n: ectx: property (text), widget (QCheckBox, startupInfoCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:133
+msgid "Enable &launch feedback"
+msgstr "Uklučy &vyjaŭleńnie ŭklučeńnia"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, systrayCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:140
+msgid ""
+"Check this option if you want to have a system tray handle for your "
+"application."
+msgstr ""
+"Uklučy hetuju opcyju, kali chočaš, kab u hetaj aplikacyi byŭ asobny element "
+"u systemnym trei."
+
+#. i18n: ectx: property (text), widget (QCheckBox, systrayCheck)
+#: kfile/kpropertiesdesktopadvbase.ui:143
+msgid "&Place in system tray"
+msgstr "&Źmiaści ŭ systemnym trei"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel12)
+#: kfile/kpropertiesdesktopadvbase.ui:150
+msgid "&D-Bus registration:"
+msgstr "&Rehistracyja praz „D-Bus”:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
+#: kfile/kpropertiesdesktopadvbase.ui:161
+msgid "None"
+msgstr "Niama"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
+#: kfile/kpropertiesdesktopadvbase.ui:166
+msgid "Multiple Instances"
+msgstr "Niekalki kopijaŭ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
+#: kfile/kpropertiesdesktopadvbase.ui:171
+msgid "Single Instance"
+msgstr "Adna kopija"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
+#: kfile/kpropertiesdesktopadvbase.ui:176
+msgid "Run Until Finished"
+msgstr "Vykonvaj da kanca"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameEdit)
+#: kfile/kpropertiesdesktopbase.ui:14 kfile/kpropertiesdesktopbase.ui:27
+msgid ""
+"Type the name you want to give to this application here. This application "
+"will appear under this name in the applications menu and in the panel."
+msgstr ""
+"Tut upišy nazvu dla hetaj aplikacyi. Hetuju nazvu jana budzie mieć u menu "
+"aplikacyjaŭ i ŭ paneli."
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, genNameEdit)
+#: kfile/kpropertiesdesktopbase.ui:34 kfile/kpropertiesdesktopbase.ui:47
+msgid ""
+"Type the description of this application, based on its use, here. Examples: "
+"a dial up application (KPPP) would be \"Dial up tool\"."
+msgstr ""
+"Tut apišy aplikacyju, adpaviedna jejnaj mecie. Naprykład, aplikacyju dla "
+"„dialup”-spałučeńniaŭ ź siecivam možna apisać jak „Prahrama dla dialup-"
+"internetu”."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: kfile/kpropertiesdesktopbase.ui:37
+msgid "&Description:"
+msgstr "&Apisańnie:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, commentEdit)
+#: kfile/kpropertiesdesktopbase.ui:54 kfile/kpropertiesdesktopbase.ui:67
+msgid "Type any comment you think is useful here."
+msgstr "Siudy ŭpišy luby kamentar, jaki ličyš patrebnym."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: kfile/kpropertiesdesktopbase.ui:57
+msgid "Comm&ent:"
+msgstr "&Kamentar:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, commandEdit)
+#: kfile/kpropertiesdesktopbase.ui:85 kfile/kpropertiesdesktopbase.ui:111
+#, no-c-format
+msgid ""
+"Type the command to start this application here.\n"
+"\n"
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the directory of the file to open\n"
+"%D - a list of directories\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the caption"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:239
-msgid "KFileMetaDataReader can be used to read metadata from a file"
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: kfile/kpropertiesdesktopbase.ui:88
+msgid "Co&mmand:"
+msgstr "&Zahad:"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, browseButton)
+#: kfile/kpropertiesdesktopbase.ui:118
+msgid ""
+"Click here to browse your file system in order to find the desired "
+"executable."
+msgstr ""
+"Klikni siudy, kab znajści ŭ fajłavaj systemie patrebny vykonvalny fajł."
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, pathEdit)
+#: kfile/kpropertiesdesktopbase.ui:130 kfile/kpropertiesdesktopbase.ui:143
+msgid "Sets the working directory for your application."
+msgstr "Aznačaje dla tvajoj aplikacyi rabočy kataloh."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: kfile/kpropertiesdesktopbase.ui:133
+msgid "&Work path:"
+msgstr "&Rabočy kataloh:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel7)
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, filetypeList)
+#: kfile/kpropertiesdesktopbase.ui:157 kfile/kpropertiesdesktopbase.ui:178
+msgid ""
+"<qt><p>This list should show the types of file that your application can "
+"handle. This list is organized by <u>mimetypes</u>.</p>\n"
+"<p>MIME, Multipurpose Internet (e)Mail Extension, is a standard protocol for "
+"identifying the type of data based on filename extensions and correspondent "
+"<u>mimetypes</u>. Example: the \"bmp\" part that comes after the dot in "
+"flower.bmp indicates that it is a specific kind of image, <u>image/x-bmp</"
+"u>. To know which application should open each type of file, the system "
+"should be informed about the abilities of each application to handle these "
+"extensions and mimetypes.</p>\n"
+"<p>If you want to associate this application with one or more mimetypes that "
+"are not in this list, click on the button <b>Add</b> below. If there are one "
+"or more filetypes that this application cannot handle, you may want to "
+"remove them from the list clicking on the button <b>Remove</b> below.</p></"
+"qt>"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:241
-msgid "(C) 2011, Peter Penz"
-msgstr ""
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: kfile/kpropertiesdesktopbase.ui:160
+msgid "&Supported file types:"
+msgstr "&Typy fajłaŭ z absłuhoŭvańniem:"
 
-#: kfile/kfilemetadatareaderprocess.cpp:242
-msgid "Peter Penz"
-msgstr ""
+#. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
+#: kfile/kpropertiesdesktopbase.ui:191
+msgid "Mimetype"
+msgstr "Typ MIME"
 
-#: kfile/kfilemetadatareaderprocess.cpp:242
-msgid "Current maintainer"
-msgstr ""
+#. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
+#: kfile/kpropertiesdesktopbase.ui:196
+msgid "Description"
+msgstr "Apisańnie"
 
-#: kfile/kfilemetadatareaderprocess.cpp:248
-msgid "Only the meta data that is part of the file is read"
+#. i18n: ectx: property (whatsThis), widget (QPushButton, addFiletypeButton)
+#: kfile/kpropertiesdesktopbase.ui:206
+msgid ""
+"Click on this button if you want to add a type of file (mimetype) that your "
+"application can handle."
 msgstr ""
+"Klikni ŭ hetuju knopku, kali chočaš dadać typ fajłaŭ („MIME”), jaki "
+"absłuhoŭvaje hetaja aplikacyja."
 
-#: kfile/kfilemetadatareaderprocess.cpp:249
-msgid "List of URLs where the meta-data should be read from"
+#. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
+#. i18n: ectx: property (text), widget (KPushButton, add)
+#: kfile/kpropertiesdesktopbase.ui:209 kssl/kcm/cacertificates.ui:111
+msgid "Add..."
+msgstr "Dadaj..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, delFiletypeButton)
+#: kfile/kpropertiesdesktopbase.ui:216
+msgid ""
+"If you want to remove a type of file (mimetype) that your application cannot "
+"handle, select the mimetype in the list above and click on this button."
 msgstr ""
+"Kali chočaš vydalić adzin z typaŭ fajłaŭ („MIME”), jakija nie absłuhoŭvaje "
+"hetaja aplikacyja, vybiery patrebny typ „MIME” i klikni ŭ hetuju knopku."
 
-#: kfile/kurlrequester.cpp:246
-msgid "Open file dialog"
-msgstr "Adčyni akno fajła"
+#. i18n: ectx: property (text), widget (QPushButton, delFiletypeButton)
+#. i18n: ectx: property (text), widget (KPushButton, removeSelection)
+#: kfile/kpropertiesdesktopbase.ui:219 kssl/kcm/cacertificates.ui:104
+msgid "Remove"
+msgstr "Vydali"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, advancedButton)
+#: kfile/kpropertiesdesktopbase.ui:242
+msgid ""
+"Click here to modify the way this application will run, launch feedback, D-"
+"Bus options or to run it as a different user."
+msgstr ""
+"Klikni siudy, kab źmianić sposab uklučeńnia aplikacyi, vyjaŭleńnie, opcyi „D-"
+"Bus”, dziejnaha karystańnika."
+
+#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
+#: kfile/kpropertiesdesktopbase.ui:245
+msgid "Ad&vanced Options"
+msgstr "&Asablivyja opcyi"
 
 #: kfile/kpropertiesdialog.cpp:212 kfile/kpropertiesdialog.cpp:227
 #: kfile/kpropertiesdialog.cpp:239 kfile/kpropertiesdialog.cpp:254
@@ -874,6 +3037,15 @@ msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
 msgstr "%1 volnaha miesca z %2 (zaniata %3%)"
 
+#: kfile/kpropertiesdialog.cpp:1210
+#, kde-format
+msgid ""
+"Calculating... %1 (%2)\n"
+"%3, %4"
+msgstr ""
+"Padličvańnie... %1 (%2)\n"
+"%3, %4"
+
 #: kfile/kpropertiesdialog.cpp:1213 kfile/kpropertiesdialog.cpp:1229
 #, kde-format
 msgid "1 file"
@@ -889,15 +3061,6 @@ msgid_plural "%1 sub-folders"
 msgstr[0] "%1 padkataloh"
 msgstr[1] "%1 padkatalohi"
 msgstr[2] "%1 padkatalohaŭ"
-
-#: kfile/kpropertiesdialog.cpp:1210
-#, kde-format
-msgid ""
-"Calculating... %1 (%2)\n"
-"%3, %4"
-msgstr ""
-"Padličvańnie... %1 (%2)\n"
-"%3, %4"
 
 #: kfile/kpropertiesdialog.cpp:1243
 msgid "Calculating..."
@@ -1141,11 +3304,6 @@ msgstr "Karystańnik"
 msgid "Group"
 msgstr "Hrupa"
 
-#: kfile/kpropertiesdialog.cpp:2003 kfile/kacleditwidget.cpp:63
-#: kfile/kacleditwidget.cpp:464
-msgid "Others"
-msgstr "Inšyja"
-
 #: kfile/kpropertiesdialog.cpp:2007
 msgid "Set UID"
 msgstr "SUID"
@@ -1292,435 +3450,9 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
 
-#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
-msgid "Owner"
-msgstr "Ułaśnik"
-
-#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
-msgid "Owning Group"
-msgstr "Hrupa ŭłaśnikaŭ"
-
-#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
-msgid "Mask"
-msgstr "Maska"
-
-#: kfile/kacleditwidget.cpp:65
-msgid "Named User"
-msgstr "Nazva karystańnika"
-
-#: kfile/kacleditwidget.cpp:66
-msgid "Named Group"
-msgstr "Nazva hrupy"
-
-#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
-#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
-msgid "Add Entry..."
-msgstr "Dadaj praviła..."
-
-#: kfile/kacleditwidget.cpp:102
-msgid "Edit Entry..."
-msgstr "Redahuj praviła..."
-
-#: kfile/kacleditwidget.cpp:106
-msgid "Delete Entry"
-msgstr "Vydali praviła"
-
-#: kfile/kacleditwidget.cpp:307
-msgid " (Default)"
-msgstr " (Zmoŭčana)"
-
-#: kfile/kacleditwidget.cpp:431
-msgid "Edit ACL Entry"
-msgstr "Redahuj praviła dostupu"
-
-#: kfile/kacleditwidget.cpp:439
-msgid "Entry Type"
-msgstr "Typ praviła"
-
-#: kfile/kacleditwidget.cpp:445
-msgid "Default for new files in this folder"
-msgstr "Zmoŭčana dla novych fajłaŭ u hetym katalohu"
-
-#: kfile/kacleditwidget.cpp:474
-msgid "Named user"
-msgstr "Nazva karystańnika"
-
-#: kfile/kacleditwidget.cpp:479
-msgid "Named group"
-msgstr "Nazva hrupy"
-
-#: kfile/kacleditwidget.cpp:499
-msgid "User: "
-msgstr "Karystańnik: "
-
-#: kfile/kacleditwidget.cpp:505
-msgid "Group: "
-msgstr "Hrupa: "
-
-#: kfile/kacleditwidget.cpp:625
-msgid "Type"
-msgstr "Typ"
-
-#: kfile/kacleditwidget.cpp:626
-msgid "Name"
-msgstr "Nazva"
-
-#: kfile/kacleditwidget.cpp:627
-msgctxt "read permission"
-msgid "r"
-msgstr "r"
-
-#: kfile/kacleditwidget.cpp:628
-msgctxt "write permission"
-msgid "w"
-msgstr "w"
-
-#: kfile/kacleditwidget.cpp:629
-msgctxt "execute permission"
-msgid "x"
-msgstr "x"
-
-#: kfile/kacleditwidget.cpp:630
-msgid "Effective"
-msgstr "Dziejnyja"
-
-#: kfile/kdevicelistmodel.cpp:116
-msgid "Device name"
-msgstr "Nazva pryłady"
-
-#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
-msgid "Select Icon"
-msgstr "Abiary ikonu"
-
-#: kfile/kicondialog.cpp:369
-msgid "Icon Source"
-msgstr "Krynica ikony"
-
-#: kfile/kicondialog.cpp:378
-msgid "S&ystem icons:"
-msgstr "&Systemnyja ikony:"
-
-#: kfile/kicondialog.cpp:385
-msgid "O&ther icons:"
-msgstr "&Inšyja ikony:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
-#. i18n: ectx: property (text), widget (QPushButton, browseButton)
-#: kfile/kicondialog.cpp:388 rc.cpp:134
-msgid "&Browse..."
-msgstr "&Prahladaj..."
-
-#: kfile/kicondialog.cpp:399
-msgid "&Search:"
-msgstr "&Šukaj:"
-
-#: kfile/kicondialog.cpp:406
-msgid "Search interactively for icon names (e.g. folder)."
-msgstr "Dziejny pošuk nazvaŭ ikonaŭ (naprykład, „kataloh”)."
-
-#: kfile/kicondialog.cpp:437
-msgid "Actions"
-msgstr "Aperacyi"
-
-#: kfile/kicondialog.cpp:438
-msgid "Animations"
-msgstr "Animacyja"
-
-#: kfile/kicondialog.cpp:439
-msgid "Applications"
-msgstr "Aplikacyi"
-
-#: kfile/kicondialog.cpp:440
-msgid "Categories"
-msgstr "Katehoryi"
-
-#: kfile/kicondialog.cpp:441
-msgid "Devices"
-msgstr "Pryłady"
-
-#: kfile/kicondialog.cpp:442
-msgid "Emblems"
-msgstr "Znaki"
-
-#: kfile/kicondialog.cpp:443
-msgid "Emotes"
-msgstr "Smajliki"
-
-#: kfile/kicondialog.cpp:444
-msgid "Filesystems"
-msgstr "Fajłavaja systema"
-
-#: kfile/kicondialog.cpp:445
-msgid "International"
-msgstr "Mižnarodnaje"
-
-#: kfile/kicondialog.cpp:446
-msgid "Mimetypes"
-msgstr "Typy MIME"
-
-#: kfile/kicondialog.cpp:447
-msgid "Places"
-msgstr "Miescy"
-
-#: kfile/kicondialog.cpp:448
-msgid "Status"
-msgstr "Stanovišča"
-
-#: kfile/kicondialog.cpp:691
-msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
-msgstr "*.png *.xpm *.svg *.svgz|Fajły ikonaŭ (*.png *.xpm *.svg *.svgz)"
-
-#: kfile/kicondialog.cpp:693 kfile/kfiledialog.cpp:480
-#: kfile/kfiledialog.cpp:490 kfile/kfiledialog.cpp:511
-#: kfile/kfiledialog.cpp:535 kfile/kfiledialog.cpp:545
-#: kfile/kfiledialog.cpp:571 kfile/kfiledialog.cpp:603
-#: kfile/kfiledialog.cpp:658 kfile/kencodingfiledialog.cpp:106
-#: kfile/kencodingfiledialog.cpp:124 kfile/kencodingfiledialog.cpp:139
-#: kfile/kencodingfiledialog.cpp:157 kfile/kurlrequesterdialog.cpp:128
-msgid "Open"
-msgstr "Adčyni"
-
-#: kfile/kmetaprops.cpp:57
-msgctxt "@title:window"
-msgid "Configure Shown Data"
-msgstr ""
-
-#: kfile/kmetaprops.cpp:62
-msgctxt "@label::textbox"
-msgid "Select which data should be shown:"
-msgstr ""
-
-#: kfile/kmetaprops.cpp:120
-#, fuzzy
-#| msgid "Calculating..."
-msgctxt "@action:button"
-msgid "Configure..."
-msgstr "Padličvańnie..."
-
-#: kfile/kmetaprops.cpp:130
-#, fuzzy
-#| msgid "Information"
-msgctxt "@title:tab"
-msgid "Information"
-msgstr "Źviestki"
-
-#: kfile/kopenwithdialog.cpp:269
-msgid "Known Applications"
-msgstr "Viadomyja aplikacyi"
-
-#: kfile/kopenwithdialog.cpp:483
-msgid "Open With"
-msgstr "Adčyni ŭ"
-
-#: kfile/kopenwithdialog.cpp:488
-#, kde-format
-msgid ""
-"<qt>Select the program that should be used to open <b>%1</b>. If the program "
-"is not listed, enter the name or click the browse button.</qt>"
-msgstr ""
-"<qt>Vybiery prahramu, u jakoj treba adčynić <b>%1</b>. Kali patrebnaj "
-"prahramy niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</"
-"qt>"
-
-#: kfile/kopenwithdialog.cpp:494
-msgid "Choose the name of the program with which to open the selected files."
-msgstr "Vybiery nazvu prahramy, u jakoj treba adčynić zaznačanyja fajły."
-
-#: kfile/kopenwithdialog.cpp:521
-#, kde-format
-msgid "Choose Application for %1"
-msgstr "Vybiery aplikacyju dla „%1”"
-
-#: kfile/kopenwithdialog.cpp:522
-#, kde-format
-msgid ""
-"<qt>Select the program for the file type: <b>%1</b>. If the program is not "
-"listed, enter the name or click the browse button.</qt>"
-msgstr ""
-"<qt>Vybiery prahramu dla fajłaŭ typu <b>%1</b>. Kali patrebnaj prahramy "
-"niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</qt>"
-
-#: kfile/kopenwithdialog.cpp:537
-msgid "Choose Application"
-msgstr "Vybiery aplikacyju"
-
-#: kfile/kopenwithdialog.cpp:538
-msgid ""
-"<qt>Select a program. If the program is not listed, enter the name or click "
-"the browse button.</qt>"
-msgstr ""
-"<qt>Vybiery prahramu. Kali patrebnaj prahramy niama ŭ śpisie, upišy jejnuju "
-"nazvu albo klikni ŭ knopku prahladu.</qt>"
-
-#: kfile/kopenwithdialog.cpp:602
-msgid ""
-"Following the command, you can have several place holders which will be "
-"replaced with the actual values when the actual program is run:\n"
-"%f - a single file name\n"
-"%F - a list of files; use for applications that can open several local files "
-"at once\n"
-"%u - a single URL\n"
-"%U - a list of URLs\n"
-"%d - the directory of the file to open\n"
-"%D - a list of directories\n"
-"%i - the icon\n"
-"%m - the mini-icon\n"
-"%c - the comment"
-msgstr ""
-"U zahadzie ty možaš źmiaścić nastupnyja spałučeńni znakaŭ, jakija buduć "
-"zamienienyja adpaviednymi značeńniami pry ŭklučeńni prahramy:\n"
-"%f - adna nazva fajła\n"
-"%F - śpis fajłaŭ: dla aplikacyjaŭ, jakija ŭmiejuć adnačasova adčynić "
-"niekalki lakalnych fajłaŭ\n"
-"%u - adzin adras\n"
-"%U - śpis adrasoŭ\n"
-"%d - kataloh fajła, jaki adčyniajecca\n"
-"%D - śpis katalohaŭ\n"
-"%i - ikona\n"
-"%m - małaja ikona\n"
-"%c - kamentar"
-
-#: kfile/kopenwithdialog.cpp:637
-msgid "Run in &terminal"
-msgstr "Uklučy ŭ &terminale"
-
-#: kfile/kopenwithdialog.cpp:654
-msgid "&Do not close when command exits"
-msgstr "&Nie začyniaj paśla vychadu z zahadu"
-
-#: kfile/kopenwithdialog.cpp:671
-msgid "&Remember application association for this type of file"
-msgstr "&Zapomni poviaź aplikacyi z hetym typam fajłaŭ"
-
-#: kfile/kopenwithdialog.cpp:815
-#, kde-format
-msgid ""
-"Could not extract executable name from '%1', please type a valid program "
-"name."
-msgstr ""
-"Nie ŭdałosia atrymać nazvy vykonvalnaha fajła z „%1”. Pravilna ŭpišy nazvu "
-"prahramy."
-
-#: kfile/kopenwithdialog.cpp:861
-#, kde-format
-msgid "'%1' not found, please type a valid program name."
-msgstr "Nie ŭdałosia znajści „%1”. Pravilna ŭpišy nazvu prahramy."
-
-#: kfile/kcommentwidget.cpp:65
-#, fuzzy
-#| msgid "Add Entry..."
-msgctxt "@label"
-msgid "Add Comment..."
-msgstr "Dadaj praviła..."
-
-#: kfile/kcommentwidget.cpp:71
-#, fuzzy
-#| msgid "Calculating..."
-msgctxt "@label"
-msgid "Change..."
-msgstr "Padličvańnie..."
-
-#: kfile/kcommentwidget.cpp:124
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:window"
-msgid "Change Comment"
-msgstr "Kamentar"
-
-#: kfile/kcommentwidget.cpp:125
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:window"
-msgid "Add Comment"
-msgstr "Kamentar"
-
-#: kfile/kfiledialog.cpp:126
-msgid "*|All files"
-msgstr "*|Usie fajły"
-
-#: kfile/kfiledialog.cpp:357 ../kfile/kfilefiltercombo.cpp:185
-msgid "All Supported Files"
-msgstr "Fajły, jakija padtrymvajucca"
-
-#: kfile/kfiledialog.cpp:738 kfile/kfiledialog.cpp:757
-#: kfile/kfiledialog.cpp:794 kfile/kfiledialog.cpp:836
-#: kfile/kencodingfiledialog.cpp:177 kfile/kencodingfiledialog.cpp:198
-msgid "Save As"
-msgstr "Zapišy jak"
-
-#: kfile/kencodingfiledialog.cpp:49
-msgid "Encoding:"
-msgstr "Kadavańnie:"
-
-#: kfile/kfilemetadataprovider.cpp:223
-#, fuzzy, kde-format
-#| msgctxt "Items in a folder"
-#| msgid "1 item"
-#| msgid_plural "%1 items"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1 element"
-msgstr[1] "%1 elementy"
-msgstr[2] "%1 elementaŭ"
-
-#: kfile/kfilemetadataprovider.cpp:424
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@label"
-msgid "Modified"
-msgstr "Admienieny:"
-
-#: kfile/kfilemetadataprovider.cpp:425
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@label"
-msgid "Owner"
-msgstr "Ułaśnik"
-
-#: kfile/kfilemetadataprovider.cpp:426
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Permissions"
-msgctxt "@label"
-msgid "Permissions"
-msgstr "Dazvoły"
-
-#: kfile/kfilemetadataprovider.cpp:427
-#, fuzzy
-#| msgid "Sorting"
-msgctxt "@label"
-msgid "Rating"
-msgstr "Paradak"
-
-#: kfile/kfilemetadataprovider.cpp:428
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "Pamier"
-
-#: kfile/kfilemetadataprovider.cpp:429
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@label"
-msgid "Tags"
-msgstr "Śmietnica"
-
-#: kfile/kfilemetadataprovider.cpp:430
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size"
-msgstr "Pamier:"
-
-#: kfile/kfilemetadataprovider.cpp:431
-#, fuzzy
-#| msgid "Type"
-msgctxt "@label"
-msgid "Type"
-msgstr "Typ"
+#: kfile/kurlrequester.cpp:246
+msgid "Open file dialog"
+msgstr "Adčyni akno fajła"
 
 #: kio/accessmanager.cpp:221
 msgid "Blocked request."
@@ -3697,29 +5429,12 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Admantavańnie"
 
-#: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:812
-#, kde-format
-msgid "Do you really want to delete this item?"
-msgid_plural "Do you really want to delete these %1 items?"
-msgstr[0] "Ci ty sapraŭdy chočaš vydalić %1 hety element?"
-msgstr[1] "Ci ty sapraŭdy chočaš vydalić %1 hetyja elementy?"
-msgstr[2] "Ci ty sapraŭdy chočaš vydalić %1 hetych elementaŭ?"
-
-#: kio/jobuidelegate.cpp:151 ../kfile/kdiroperator.cpp:814
-msgid "Delete Files"
-msgstr "Vydaleńnie fajłaŭ"
-
 #: kio/jobuidelegate.cpp:159
 msgctxt "@info"
 msgid ""
 "Do you want to permanently delete all items from Trash? This action cannot "
 "be undone."
 msgstr ""
-
-#: kio/jobuidelegate.cpp:161 ../kfile/kfileplacesview.cpp:640
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "Vyčyści śmietnicu"
 
 #: kio/jobuidelegate.cpp:170
 #, kde-format
@@ -3728,10 +5443,6 @@ msgid_plural "Do you really want to move these %1 items to the trash?"
 msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetyja elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetych elementaŭ?"
-
-#: kio/jobuidelegate.cpp:172 ../kfile/kdiroperator.cpp:1874
-msgid "Move to Trash"
-msgstr "Vykidańnie ŭ śmietnicu"
 
 #: kio/jobuidelegate.cpp:173
 msgctxt "Verb"
@@ -3876,10 +5587,6 @@ msgstr "(%1, łuč da „%2”)"
 msgid " (Points to %1)"
 msgstr " (łučyć z „%1”)"
 
-#: kio/kfileitem.cpp:1129 ../kioslave/http/kcookiejar/kcookiewin.cpp:205
-msgid "Name:"
-msgstr "Nazva:"
-
 #: kio/kfileitem.cpp:1134
 #, kde-format
 msgid "Link to %1 (%2)"
@@ -3903,10 +5610,6 @@ msgstr "&Aperacyi"
 #| msgid "Open &with %1"
 msgid "&Open with %1"
 msgstr "Adčyni &ŭ: %1"
-
-#: kio/kfileitemactions.cpp:546 ../kfile/kfilewidget.cpp:1966
-msgid "&Open"
-msgstr "&Adčyni"
 
 #: kio/kfileitemactions.cpp:561
 msgctxt "@title:menu"
@@ -4078,131 +5781,9 @@ msgstr "Nie ŭdałosia pračytać z fajła „%1”."
 msgid "ERROR: Unknown protocol '%1'"
 msgstr "PAMYŁKA: Nieviadomy pratakoł „%1”."
 
-#: kio/pastedialog.cpp:55
-msgid "Data format:"
-msgstr "Farmat źviestak:"
-
-#: kio/tcpslavebase.cpp:334
-msgid ""
-"You are about to leave secure mode. Transmissions will no longer be "
-"encrypted.\n"
-"This means that a third party could observe your data in transit."
-msgstr ""
-"Ty pakidaješ biaśpiečny sposab raboty. Źviestki bolš nia buduć vysyłacca "
-"zašyfravanymi.\n"
-"Inšy karystańnik sieciva zmoža padhladzieć pierasyłanyja źviestki."
-
-#: kio/tcpslavebase.cpp:340 kio/tcpslavebase.cpp:700
-msgid "Security Information"
-msgstr "Infarmacyja pra biaśpiečnaść spałučeńnia"
-
-#: kio/tcpslavebase.cpp:341
-msgid "C&ontinue Loading"
-msgstr "&Praciahvaj"
-
-#: kio/tcpslavebase.cpp:453
-#, kde-format
-msgctxt "%1 is a host name"
-msgid "%1: SSL negotiation failed"
-msgstr "%1: nie ŭdałosia zaćvierdzić SSL"
-
-#: kio/tcpslavebase.cpp:694
-msgid ""
-"You are about to enter secure mode. All transmissions will be encrypted "
-"unless otherwise noted.\n"
-"This means that no third party will be able to easily observe your data in "
-"transit."
-msgstr ""
-"Ty ŭvachodziš u biaśpiečny sposab raboty. Źviestki buduć vysyłacca "
-"zašyfravanymi (kali nie paznačana inačaj).\n"
-"Inšy karystańnik sieciva nia zmoža lohka padhladzieć pierasyłanyja źviestki."
-
-#: kio/tcpslavebase.cpp:701
-msgid "Display SSL &Information"
-msgstr "Pakažy &źviestki SSL"
-
-#: kio/tcpslavebase.cpp:702
-msgid "C&onnect"
-msgstr "&Spałučy"
-
-#: kio/tcpslavebase.cpp:838
-msgid "Enter the certificate password:"
-msgstr "Upišy parol dla sertyfikata:"
-
-#: kio/tcpslavebase.cpp:839
-msgid "SSL Certificate Password"
-msgstr "Parol dla sertyfikata SSL"
-
-#: kio/tcpslavebase.cpp:852
-msgid "Unable to open the certificate. Try a new password?"
-msgstr "Nie ŭdałosia adčynić sertyfikat. Pasprabuješ inšy parol?"
-
-#: kio/tcpslavebase.cpp:865
-msgid "The procedure to set the client certificate for the session failed."
-msgstr "Nie ŭdałosia aznačyć dla sesii sertyfikat klijenta."
-
-#: kio/tcpslavebase.cpp:867 kio/slaveinterface.cpp:498
-msgid "SSL"
-msgstr "SSL"
-
-#: kio/tcpslavebase.cpp:911 kssl/sslui.cpp:71
-#, kde-format
-msgid ""
-"The server failed the authenticity check (%1).\n"
-"\n"
-msgstr ""
-"Serveru nie ŭdałosia spraŭdzić tojesnaść (%1).\n"
-"\n"
-
-#: kio/tcpslavebase.cpp:921 kio/tcpslavebase.cpp:938 kio/tcpslavebase.cpp:1040
-#: kio/tcpslavebase.cpp:1052 kssl/sslui.cpp:80 kssl/sslui.cpp:119
-msgid "Server Authentication"
-msgstr "Spraŭdžvańnie tojesnaści servera"
-
-#: kio/tcpslavebase.cpp:922 kio/slaveinterface.cpp:427 kssl/sslui.cpp:81
-msgid "&Details"
-msgstr "&Detali"
-
-#: kio/tcpslavebase.cpp:922 kio/slaveinterface.cpp:434 kssl/sslui.cpp:82
-msgid "Co&ntinue"
-msgstr "&Praciahvaj"
-
-#: kio/tcpslavebase.cpp:935 kssl/sslui.cpp:116
-msgid ""
-"Would you like to accept this certificate forever without being prompted?"
-msgstr ""
-"Ci chočaš nadalej pryjmać hety sertyfikat, nie paćviardžajučy štoraz svaju "
-"zhodu?"
-
-#: kio/tcpslavebase.cpp:939 kio/slaveinterface.cpp:429 kssl/sslui.cpp:120
-msgid "&Forever"
-msgstr "&Pryjmaj nadalej"
-
-#: kio/tcpslavebase.cpp:940 kio/slaveinterface.cpp:436 kssl/sslui.cpp:121
-#, fuzzy
-#| msgid "&Current Sessions Only"
-msgid "&Current Session only"
-msgstr "&Tolki dla dziejnych sesijaŭ"
-
-#: kio/tcpslavebase.cpp:1039
-msgid ""
-"You have indicated that you wish to accept this certificate, but it is not "
-"issued to the server who is presenting it. Do you wish to continue loading?"
-msgstr ""
-"Ty adkazaŭ, što chočaš pryniać hety sertyfikat, ale jon nie naležyć serveru, "
-"jaki jaho pakazvaje. Sapraŭdy chočaš praciahnuć čytańnie?"
-
-#: kio/tcpslavebase.cpp:1051
-#, fuzzy
-#| msgid ""
-#| "SSL certificate is being rejected as requested. You can disable this in "
-#| "the KDE Control Center."
-msgid ""
-"SSL certificate is being rejected as requested. You can disable this in the "
-"KDE System Settings."
-msgstr ""
-"Sertyfikat SSL byŭ admoŭleny, jak prasili. Ty možaš adklučyć takija "
-"pavodziny ŭ Centry kiravańnia KDE."
+#: kio/passworddialog.cpp:57
+msgid "Authorization Dialog"
+msgstr "Akno aŭtaryzavańnia"
 
 #: kio/paste.cpp:98 kio/paste.cpp:191
 msgid "Filename for clipboard content:"
@@ -4246,57 +5827,9 @@ msgstr[2] "&Uklej %1 adrasoŭ"
 msgid "&Paste Clipboard Contents"
 msgstr "&Uklej źmieściva abmiennaha bufera"
 
-#: kio/slavebase.h:266 kio/slavebase.h:286
-msgid "&Yes"
-msgstr "&Tak"
-
-#: kio/slavebase.h:267 kio/slavebase.h:287
-msgid "&No"
-msgstr "&Nie"
-
-#: kio/slaveinterface.cpp:496
-msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
-
-#: kio/skipdialog.cpp:37
-msgid "Information"
-msgstr "Źviestki"
-
-#: kio/skipdialog.cpp:44
-msgid "Skip"
-msgstr "Abmini"
-
-#: kio/skipdialog.cpp:47
-msgid "AutoSkip"
-msgstr "Aŭtamatyčna abminaj"
-
-#: kio/passworddialog.cpp:57
-msgid "Authorization Dialog"
-msgstr "Akno aŭtaryzavańnia"
-
-#: kio/slave.cpp:438
-#, kde-format
-msgid "Unknown protocol '%1'."
-msgstr "Nieviadomy pratakoł „%1”."
-
-#: kio/slave.cpp:447
-#, kde-format
-msgid "Can not find io-slave for protocol '%1'."
-msgstr "Nie ŭdałosia znajści słužbu „ioslave” dla pratakołu „%1”."
-
-#: kio/slave.cpp:466
-#, kde-format
-msgid "Cannot talk to klauncher: %1"
-msgstr "Nie ŭdałosia parazumiecca z słužbaj „klauncher”: %1"
-
-#: kio/slave.cpp:474
-#, kde-format
-msgid ""
-"Unable to create io-slave:\n"
-"klauncher said: %1"
-msgstr ""
-"Nie ŭdałosia stvaryć słužbu „ioslave”:\n"
-"Słužba „klauncher” paviedamiła: %1"
+#: kio/pastedialog.cpp:55
+msgid "Data format:"
+msgstr "Farmat źviestak:"
 
 #: kio/renamedialog.cpp:131
 msgid "Appl&y to All"
@@ -4423,6 +5956,334 @@ msgstr "Užo jość starejšy element z nazvaj „%1”."
 msgid "Rename:"
 msgstr "&Źmiani nazvu"
 
+#: kio/skipdialog.cpp:37
+msgid "Information"
+msgstr "Źviestki"
+
+#: kio/skipdialog.cpp:44
+msgid "Skip"
+msgstr "Abmini"
+
+#: kio/skipdialog.cpp:47
+msgid "AutoSkip"
+msgstr "Aŭtamatyčna abminaj"
+
+#: kio/slave.cpp:438
+#, kde-format
+msgid "Unknown protocol '%1'."
+msgstr "Nieviadomy pratakoł „%1”."
+
+#: kio/slave.cpp:447
+#, kde-format
+msgid "Can not find io-slave for protocol '%1'."
+msgstr "Nie ŭdałosia znajści słužbu „ioslave” dla pratakołu „%1”."
+
+#: kio/slave.cpp:466
+#, kde-format
+msgid "Cannot talk to klauncher: %1"
+msgstr "Nie ŭdałosia parazumiecca z słužbaj „klauncher”: %1"
+
+#: kio/slave.cpp:474
+#, kde-format
+msgid ""
+"Unable to create io-slave:\n"
+"klauncher said: %1"
+msgstr ""
+"Nie ŭdałosia stvaryć słužbu „ioslave”:\n"
+"Słužba „klauncher” paviedamiła: %1"
+
+#: kio/slavebase.h:266 kio/slavebase.h:286
+msgid "&Yes"
+msgstr "&Tak"
+
+#: kio/slavebase.h:267 kio/slavebase.h:287
+msgid "&No"
+msgstr "&Nie"
+
+#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:922 kssl/sslui.cpp:81
+msgid "&Details"
+msgstr "&Detali"
+
+#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:939 kssl/sslui.cpp:120
+msgid "&Forever"
+msgstr "&Pryjmaj nadalej"
+
+#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:922 kssl/sslui.cpp:82
+msgid "Co&ntinue"
+msgstr "&Praciahvaj"
+
+#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:940 kssl/sslui.cpp:121
+#, fuzzy
+#| msgid "&Current Sessions Only"
+msgid "&Current Session only"
+msgstr "&Tolki dla dziejnych sesijaŭ"
+
+#: kio/slaveinterface.cpp:496
+msgid "The peer SSL certificate chain appears to be corrupt."
+msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
+
+#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:867
+msgid "SSL"
+msgstr "SSL"
+
+#: kio/tcpslavebase.cpp:334
+msgid ""
+"You are about to leave secure mode. Transmissions will no longer be "
+"encrypted.\n"
+"This means that a third party could observe your data in transit."
+msgstr ""
+"Ty pakidaješ biaśpiečny sposab raboty. Źviestki bolš nia buduć vysyłacca "
+"zašyfravanymi.\n"
+"Inšy karystańnik sieciva zmoža padhladzieć pierasyłanyja źviestki."
+
+#: kio/tcpslavebase.cpp:340 kio/tcpslavebase.cpp:700
+msgid "Security Information"
+msgstr "Infarmacyja pra biaśpiečnaść spałučeńnia"
+
+#: kio/tcpslavebase.cpp:341
+msgid "C&ontinue Loading"
+msgstr "&Praciahvaj"
+
+#: kio/tcpslavebase.cpp:453
+#, kde-format
+msgctxt "%1 is a host name"
+msgid "%1: SSL negotiation failed"
+msgstr "%1: nie ŭdałosia zaćvierdzić SSL"
+
+#: kio/tcpslavebase.cpp:694
+msgid ""
+"You are about to enter secure mode. All transmissions will be encrypted "
+"unless otherwise noted.\n"
+"This means that no third party will be able to easily observe your data in "
+"transit."
+msgstr ""
+"Ty ŭvachodziš u biaśpiečny sposab raboty. Źviestki buduć vysyłacca "
+"zašyfravanymi (kali nie paznačana inačaj).\n"
+"Inšy karystańnik sieciva nia zmoža lohka padhladzieć pierasyłanyja źviestki."
+
+#: kio/tcpslavebase.cpp:701
+msgid "Display SSL &Information"
+msgstr "Pakažy &źviestki SSL"
+
+#: kio/tcpslavebase.cpp:702
+msgid "C&onnect"
+msgstr "&Spałučy"
+
+#: kio/tcpslavebase.cpp:838
+msgid "Enter the certificate password:"
+msgstr "Upišy parol dla sertyfikata:"
+
+#: kio/tcpslavebase.cpp:839
+msgid "SSL Certificate Password"
+msgstr "Parol dla sertyfikata SSL"
+
+#: kio/tcpslavebase.cpp:852
+msgid "Unable to open the certificate. Try a new password?"
+msgstr "Nie ŭdałosia adčynić sertyfikat. Pasprabuješ inšy parol?"
+
+#: kio/tcpslavebase.cpp:865
+msgid "The procedure to set the client certificate for the session failed."
+msgstr "Nie ŭdałosia aznačyć dla sesii sertyfikat klijenta."
+
+#: kio/tcpslavebase.cpp:911 kssl/sslui.cpp:71
+#, kde-format
+msgid ""
+"The server failed the authenticity check (%1).\n"
+"\n"
+msgstr ""
+"Serveru nie ŭdałosia spraŭdzić tojesnaść (%1).\n"
+"\n"
+
+#: kio/tcpslavebase.cpp:921 kio/tcpslavebase.cpp:938 kio/tcpslavebase.cpp:1040
+#: kio/tcpslavebase.cpp:1052 kssl/sslui.cpp:80 kssl/sslui.cpp:119
+msgid "Server Authentication"
+msgstr "Spraŭdžvańnie tojesnaści servera"
+
+#: kio/tcpslavebase.cpp:935 kssl/sslui.cpp:116
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
+msgstr ""
+"Ci chočaš nadalej pryjmać hety sertyfikat, nie paćviardžajučy štoraz svaju "
+"zhodu?"
+
+#: kio/tcpslavebase.cpp:1039
+msgid ""
+"You have indicated that you wish to accept this certificate, but it is not "
+"issued to the server who is presenting it. Do you wish to continue loading?"
+msgstr ""
+"Ty adkazaŭ, što chočaš pryniać hety sertyfikat, ale jon nie naležyć serveru, "
+"jaki jaho pakazvaje. Sapraŭdy chočaš praciahnuć čytańnie?"
+
+#: kio/tcpslavebase.cpp:1051
+#, fuzzy
+#| msgid ""
+#| "SSL certificate is being rejected as requested. You can disable this in "
+#| "the KDE Control Center."
+msgid ""
+"SSL certificate is being rejected as requested. You can disable this in the "
+"KDE System Settings."
+msgstr ""
+"Sertyfikat SSL byŭ admoŭleny, jak prasili. Ty možaš adklučyć takija "
+"pavodziny ŭ Centry kiravańnia KDE."
+
+#. i18n: ectx: property (text), widget (QLabel, commonNameTag)
+#: kssl/certificateparty.ui:28
+msgid "Common name:"
+msgstr "Nazva:"
+
+#. i18n: ectx: property (text), widget (QLabel, commonName)
+#: kssl/certificateparty.ui:38
+msgid "Acme Co."
+msgstr "Acme Co."
+
+#. i18n: ectx: property (text), widget (QLabel, organizationTag)
+#: kssl/certificateparty.ui:48
+msgid "Organization:"
+msgstr "Ustanova:"
+
+#. i18n: ectx: property (text), widget (QLabel, organization)
+#: kssl/certificateparty.ui:58
+msgid "Acme Sundry Products Company"
+msgstr "Hurtoŭnaja kampanija Acme"
+
+#. i18n: ectx: property (text), widget (QLabel, organizationalUnitTag)
+#: kssl/certificateparty.ui:68
+msgid "Organizational unit:"
+msgstr "Addzieł u ŭstanovie:"
+
+#. i18n: ectx: property (text), widget (QLabel, organizationalUnit)
+#: kssl/certificateparty.ui:78
+msgid "Fraud Department"
+msgstr "Addzieł machlarstvaŭ"
+
+#. i18n: ectx: property (text), widget (QLabel, countryTag)
+#: kssl/certificateparty.ui:88
+msgid "Country:"
+msgstr "Kraina:"
+
+#. i18n: ectx: property (text), widget (QLabel, country)
+#: kssl/certificateparty.ui:98
+msgid "Canada"
+msgstr "Biełaruś"
+
+#. i18n: ectx: property (text), widget (QLabel, stateTag)
+#: kssl/certificateparty.ui:108
+msgid "State:"
+msgstr "Štat:"
+
+#. i18n: ectx: property (text), widget (QLabel, state)
+#: kssl/certificateparty.ui:118
+msgid "Quebec"
+msgstr "-"
+
+#. i18n: ectx: property (text), widget (QLabel, cityTag)
+#: kssl/certificateparty.ui:128
+msgid "City:"
+msgstr "Horad:"
+
+#. i18n: ectx: property (text), widget (QLabel, city)
+#: kssl/certificateparty.ui:138
+msgid "Lakeridge Meadows"
+msgstr "Miensk"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: kssl/kcm/cacertificates.ui:24
+#, fuzzy
+#| msgid "Organization:"
+msgid "Organization / Common Name"
+msgstr "Ustanova:"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: kssl/kcm/cacertificates.ui:29
+#, fuzzy
+#| msgid "Organizational unit:"
+msgid "Organizational Unit"
+msgstr "Addzieł u ŭstanovie:"
+
+#. i18n: ectx: property (text), widget (QPushButton, displaySelection)
+#: kssl/kcm/cacertificates.ui:42
+msgid "Display..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, disableSelection)
+#: kssl/kcm/cacertificates.ui:68
+msgid "Disable"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, enableSelection)
+#: kssl/kcm/cacertificates.ui:78
+#, fuzzy
+#| msgid "Emblems"
+msgid "Enable"
+msgstr "Znaki"
+
+#: kssl/kcm/cacertificatespage.cpp:131
+#, fuzzy
+#| msgid "Send certificate"
+msgid "System certificates"
+msgstr "Vyšli sertyfikat"
+
+#: kssl/kcm/cacertificatespage.cpp:138
+#, fuzzy
+#| msgid "Send certificate"
+msgid "User-added certificates"
+msgstr "Vyšli sertyfikat"
+
+#: kssl/kcm/cacertificatespage.cpp:295
+#, fuzzy
+#| msgid "Certificate"
+msgid "Pick Certificates"
+msgstr "Sertyfikat"
+
+#. i18n: ectx: property (text), widget (QLabel, subjectHeading)
+#: kssl/kcm/displaycert.ui:23
+#, fuzzy
+#| msgid "Security Information"
+msgid "<b>Subject Information</b>"
+msgstr "Infarmacyja pra biaśpiečnaść spałučeńnia"
+
+#. i18n: ectx: property (text), widget (QLabel, issuerHeading)
+#: kssl/kcm/displaycert.ui:39
+#, fuzzy
+#| msgid "<b>Possible solutions</b>:"
+msgid "<b>Issuer Information</b>"
+msgstr "<b>Mahčymyja raźviazki</b>:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kssl/kcm/displaycert.ui:55
+#, fuzzy
+#| msgid "<b>%1</b>"
+msgid "<b>Other</b>"
+msgstr "<b>%1</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, validityPeriodLabel)
+#: kssl/kcm/displaycert.ui:64
+#, fuzzy
+#| msgid "Validity period:"
+msgid "Validity period"
+msgstr "Termin dziejnaści:"
+
+#. i18n: ectx: property (text), widget (QLabel, serialNumberLabel)
+#: kssl/kcm/displaycert.ui:78
+#, fuzzy
+#| msgid "Serial Number:"
+msgid "Serial number"
+msgstr "Seryjny numar:"
+
+#. i18n: ectx: property (text), widget (QLabel, md5DigestLabel)
+#: kssl/kcm/displaycert.ui:92
+#, fuzzy
+#| msgid "MD5 Digest:"
+msgid "MD5 digest"
+msgstr "Suma MD5:"
+
+#. i18n: ectx: property (text), widget (QLabel, sha1DigestLabel)
+#: kssl/kcm/displaycert.ui:106
+#, fuzzy
+#| msgid "MD5 Digest:"
+msgid "SHA1 digest"
+msgstr "Suma MD5:"
+
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:217
 #, fuzzy, kde-format
 #| msgctxt "folders, files"
@@ -4451,23 +6312,63 @@ msgstr ""
 msgid "SSL Signers"
 msgstr "Łuč"
 
-#: kssl/kcm/cacertificatespage.cpp:131
-#, fuzzy
-#| msgid "Send certificate"
-msgid "System certificates"
-msgstr "Vyšli sertyfikat"
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: kssl/keygenwizard.ui:35
+msgid ""
+"You have indicated that you wish to obtain or purchase a secure certificate. "
+"This wizard is intended to guide you through the procedure. You may cancel "
+"at any time, and this will abort the transaction."
+msgstr ""
+"Ty śćvierdziŭ, što chočaš nabyć sertyfikat biaśpiečnaści. Hetaja prahrama "
+"dapamoža heta zrabić. U luby čas ty zmožaš admovicca, i tady nijakich "
+"zapytaŭ nia budzie vysłana ŭ sieciva."
 
-#: kssl/kcm/cacertificatespage.cpp:138
-#, fuzzy
-#| msgid "Send certificate"
-msgid "User-added certificates"
-msgstr "Vyšli sertyfikat"
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: kssl/keygenwizard2.ui:35
+msgid ""
+"You must now provide a password for the certificate request. Please choose a "
+"very secure password as this will be used to encrypt your private key."
+msgstr ""
+"Ciapier, kab ździejśnić zapyt sertyfikata, treba padać parol. Vybiery vielmi "
+"biaśpiečny parol, bo ź im budzie zašyfravany tvoj pryvatny kluč."
 
-#: kssl/kcm/cacertificatespage.cpp:295
-#, fuzzy
-#| msgid "Certificate"
-msgid "Pick Certificates"
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: kssl/keygenwizard2.ui:48
+msgid "&Repeat password:"
+msgstr "&Paŭtary parol:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: kssl/keygenwizard2.ui:58
+msgid "&Choose password:"
+msgstr "&Abiary parol:"
+
+#: kssl/ksslcertdialog.cpp:58
+msgid "Certificate"
 msgstr "Sertyfikat"
+
+#: kssl/ksslcertdialog.cpp:66
+msgid "Save selection for this host."
+msgstr "Zapišy vybranaje dla hetaha hosta."
+
+#: kssl/ksslcertdialog.cpp:75
+msgid "Send certificate"
+msgstr "Vyšli sertyfikat"
+
+#: kssl/ksslcertdialog.cpp:79
+msgid "Do not send a certificate"
+msgstr "Nie vysyłaj sertyfikat"
+
+#: kssl/ksslcertdialog.cpp:84
+msgid "KDE SSL Certificate Dialog"
+msgstr "Akno sertyfikata SSL dla KDE"
+
+#: kssl/ksslcertdialog.cpp:141
+#, kde-format
+msgid ""
+"The server <b>%1</b> requests a certificate.<br /><br />Select a certificate "
+"to use from the list below:"
+msgstr ""
+"Server <b>%1</b> patrabuje sertyfikat.<br /><br />Abiary ź śpisu patrebny:"
 
 #: kssl/ksslcertificate.cpp:204
 msgid "Signature Algorithm: "
@@ -4785,48 +6686,6 @@ msgstr "Hety sertyfikat niedarečny."
 msgid "The certificate is invalid."
 msgstr "Hety sertyfikat niapravilny."
 
-#: kssl/ksslpemcallback.cpp:37
-msgid "Certificate password"
-msgstr "Parol sertyfikata"
-
-#: kssl/ksslutils.cpp:78
-msgid "GMT"
-msgstr "GMT"
-
-#: kssl/sslui.cpp:52
-msgid ""
-"The remote host did not send any SSL certificates.\n"
-"Aborting because the identity of the host cannot be established."
-msgstr ""
-
-#: kssl/ksslcertdialog.cpp:58
-msgid "Certificate"
-msgstr "Sertyfikat"
-
-#: kssl/ksslcertdialog.cpp:66
-msgid "Save selection for this host."
-msgstr "Zapišy vybranaje dla hetaha hosta."
-
-#: kssl/ksslcertdialog.cpp:75
-msgid "Send certificate"
-msgstr "Vyšli sertyfikat"
-
-#: kssl/ksslcertdialog.cpp:79
-msgid "Do not send a certificate"
-msgstr "Nie vysyłaj sertyfikat"
-
-#: kssl/ksslcertdialog.cpp:84
-msgid "KDE SSL Certificate Dialog"
-msgstr "Akno sertyfikata SSL dla KDE"
-
-#: kssl/ksslcertdialog.cpp:141
-#, kde-format
-msgid ""
-"The server <b>%1</b> requests a certificate.<br /><br />Select a certificate "
-"to use from the list below:"
-msgstr ""
-"Server <b>%1</b> patrabuje sertyfikat.<br /><br />Abiary ź śpisu patrebny:"
-
 #: kssl/ksslinfodialog.cpp:65 kssl/ksslkeygen.cpp:124
 msgid "KDE SSL Information"
 msgstr "Źviestki pra SSL dla KDE"
@@ -4866,6 +6725,14 @@ msgstr ""
 "Niekatoryja častki hetaha dakumenta abaronienyja z dapamohaj SSL, ale "
 "bolšaja častka nie abaronienaja."
 
+#: kssl/ksslinfodialog.cpp:185
+#, fuzzy, kde-format
+#| msgctxt "folders, files (size)"
+#| msgid "%1, %2 (%3)"
+msgctxt "%1, using %2 bits of a %3 bit key"
+msgid "%1, %2 %3"
+msgstr "%1, %2 (%3)"
+
 #: kssl/ksslinfodialog.cpp:187
 #, kde-format
 msgctxt "Part of: %1, using %2 bits of a %3 bit key"
@@ -4884,14 +6751,6 @@ msgid_plural "of a %1 bit key"
 msgstr[0] "%1, karystajecca %2 bitami z %3-bitnaha kluča"
 msgstr[1] "%1, karystajecca %2 bitami z %3-bitnaha kluča"
 msgstr[2] "%1, karystajecca %2 bitami z %3-bitnaha kluča"
-
-#: kssl/ksslinfodialog.cpp:185
-#, fuzzy, kde-format
-#| msgctxt "folders, files (size)"
-#| msgid "%1, %2 (%3)"
-msgctxt "%1, using %2 bits of a %3 bit key"
-msgid "%1, %2 %3"
-msgstr "%1, %2 (%3)"
 
 #: kssl/ksslinfodialog.cpp:206
 msgctxt "The certificate is not trusted"
@@ -4955,6 +6814,93 @@ msgstr "512  (nizki rovień)"
 msgid "No SSL support."
 msgstr "SSL nie absłuhoŭvajecca."
 
+#: kssl/ksslpemcallback.cpp:37
+msgid "Certificate password"
+msgstr "Parol sertyfikata"
+
+#: kssl/ksslutils.cpp:78
+msgid "GMT"
+msgstr "GMT"
+
+#. i18n: ectx: property (text), widget (QLabel, encryptionIndicator)
+#: kssl/sslinfo.ui:17
+msgid "[padlock]"
+msgstr "[padlock]"
+
+#. i18n: ectx: property (text), widget (QLabel, addressTag)
+#: kssl/sslinfo.ui:34
+msgctxt "Web page address"
+msgid "Address:"
+msgstr "Adras:"
+
+#. i18n: ectx: property (text), widget (QLabel, ipTag)
+#: kssl/sslinfo.ui:54
+#, fuzzy
+#| msgid "IP Address:"
+msgid "IP address:"
+msgstr "Adras IP:"
+
+#. i18n: ectx: property (text), widget (QLabel, encryptionTag)
+#: kssl/sslinfo.ui:74
+msgid "Encryption:"
+msgstr "Šyfravańnie:"
+
+#. i18n: ectx: property (text), widget (QLabel, detailsTag)
+#: kssl/sslinfo.ui:94
+msgid "Details:"
+msgstr "Detali:"
+
+#. i18n: ectx: property (text), widget (QLabel, sslVersionTag)
+#: kssl/sslinfo.ui:114
+#, fuzzy
+#| msgid "SSL Version:"
+msgid "SSL version:"
+msgstr "Versija SSL:"
+
+#. i18n: ectx: property (text), widget (QLabel, certSelectorTag)
+#: kssl/sslinfo.ui:134
+#, fuzzy
+#| msgid "Certificate Chain"
+msgid "Certificate chain:"
+msgstr "Łancuh sertyfikataŭ"
+
+#. i18n: ectx: property (text), widget (QLabel, trustedTag)
+#: kssl/sslinfo.ui:163
+msgid "Trusted:"
+msgstr "Davierany:"
+
+#. i18n: ectx: property (text), widget (QLabel, validityPeriodTag)
+#: kssl/sslinfo.ui:183
+msgid "Validity period:"
+msgstr "Termin dziejnaści:"
+
+#. i18n: ectx: property (text), widget (QLabel, serialTag)
+#: kssl/sslinfo.ui:203
+#, fuzzy
+#| msgid "Serial Number:"
+msgid "Serial number:"
+msgstr "Seryjny numar:"
+
+#. i18n: ectx: property (text), widget (QLabel, digestTag)
+#: kssl/sslinfo.ui:223
+#, fuzzy
+#| msgid "MD5 Digest:"
+msgid "MD5 digest:"
+msgstr "Suma MD5:"
+
+#. i18n: ectx: property (text), widget (QLabel, sha1DigestTag)
+#: kssl/sslinfo.ui:243
+#, fuzzy
+#| msgid "MD5 Digest:"
+msgid "SHA1 digest:"
+msgstr "Suma MD5:"
+
+#: kssl/sslui.cpp:52
+msgid ""
+"The remote host did not send any SSL certificates.\n"
+"Aborting because the identity of the host cannot be established."
+msgstr ""
+
 #: misc/kmailservice.cpp:30
 msgid "KMailService"
 msgstr "KMailService"
@@ -4963,14 +6909,9 @@ msgstr "KMailService"
 msgid "Mail service"
 msgstr "Paštovaja słužba"
 
-#: misc/kpac/script.cpp:752
-msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
-msgstr ""
-
-#: misc/kpac/script.cpp:763
-#, kde-format
-msgid "Got an invalid reply when calling %1"
-msgstr ""
+#: misc/kpac/discovery.cpp:111
+msgid "Could not find a usable proxy configuration script"
+msgstr "Nie ŭdałosia znajści prydatny skrypt naładžvańnia proxy"
 
 #: misc/kpac/downloader.cpp:93
 #, kde-format
@@ -5003,9 +6944,14 @@ msgstr ""
 "Skrypt naładžvańnia proxy viarnuŭ pamyłku:\n"
 "%1"
 
-#: misc/kpac/discovery.cpp:111
-msgid "Could not find a usable proxy configuration script"
-msgstr "Nie ŭdałosia znajści prydatny skrypt naładžvańnia proxy"
+#: misc/kpac/script.cpp:752
+msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
+msgstr ""
+
+#: misc/kpac/script.cpp:763
+#, kde-format
+msgid "Got an invalid reply when calling %1"
+msgstr ""
 
 #: misc/ksendbugmail/main.cpp:43
 msgid "Error connecting to server."
@@ -5068,2046 +7014,6 @@ msgstr "prahrama dla pratakoła „telnet”"
 #, kde-format
 msgid "You do not have permission to access the %1 protocol."
 msgstr "Tabie nie staje dazvołu na dostup da pratakołu „%1”."
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Ihar Hračyška"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ihar.hrachyshka@gmail.com"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:11
-#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2)
-#: rc.cpp:5
-msgctxt ""
-"@title:group Title of a group that lets the user choose options about the "
-"terminal when launching a program"
-msgid "Terminal"
-msgstr "Terminał"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:33
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCheck)
-#: rc.cpp:8
-msgid ""
-"Check this option if the application you want to run is a text mode "
-"application or if you want the information that is provided by the terminal "
-"emulator window."
-msgstr ""
-"Uklučy hetuju opcyju, kali aplikacyja maje tekstavy kštałt albo kali chočaš "
-"pračytać vychodnyja źviestki ad prahramy."
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:36
-#. i18n: ectx: property (text), widget (QCheckBox, terminalCheck)
-#: rc.cpp:11
-msgid "&Run in terminal"
-msgstr "&Uklučy ŭ terminale"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:43
-#. i18n: ectx: property (text), widget (QLabel, terminalEditLabel)
-#: rc.cpp:14
-msgid "&Terminal options:"
-msgstr "&Opcyi terminała:"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:53
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCloseCheck)
-#: rc.cpp:17
-msgid ""
-"Check this option if the text mode application offers relevant information "
-"on exit. Keeping the terminal emulator open allows you to retrieve this "
-"information."
-msgstr ""
-"Uklučy hetuju opcyju, kali aplikacyja tekstavaha kštałtu vyvodzić pry "
-"vychadzie važnyja źviestki. Kali terminał nia budzie začynieny, tady ty "
-"zmožaš ich pračytać."
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:56
-#. i18n: ectx: property (text), widget (QCheckBox, terminalCloseCheck)
-#: rc.cpp:20
-msgid "Do not &close when command exits"
-msgstr "&Nie začyniaj paśla vychadu z zahada"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:69
-#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2_2)
-#: rc.cpp:23
-msgctxt ""
-"@title:group Title of a group that lets the user choose which user to use "
-"when launching a program"
-msgid "User"
-msgstr "Karystańnik"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:75
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, suidCheck)
-#: rc.cpp:26
-msgid ""
-"Check this option if you want to run this application with a different user "
-"id. Every process has a different user id associated with it. This id code "
-"determines file access and other permissions. The password of the user is "
-"required to use this option."
-msgstr ""
-"Uklučy hetuju opcyju, kali chočaš uklučyć hetuju aplikacyju ad asoby inšaha "
-"karystańnika. Kožny praces maje peŭny identyfikatar karystańnika, jaki "
-"aznačaje dazvoły na dostup da roznych fajłaŭ itp. Dla hetkaha ŭklučeńnia "
-"treba padać parol adpaviednaha karystańnika."
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:78
-#. i18n: ectx: property (text), widget (QCheckBox, suidCheck)
-#: rc.cpp:29
-msgid "Ru&n as a different user"
-msgstr "&Uklučy ad asoby inšaha karystańnika"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:101
-#. i18n: ectx: property (whatsThis), widget (QLabel, suidEditLabel)
-#: rc.cpp:32
-msgid "Enter the user name you want to run the application as."
-msgstr "Upišy nazvu karystańnika, ad asoby jakoha treba ŭklučyć aplikacyju."
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:104
-#. i18n: ectx: property (text), widget (QLabel, suidEditLabel)
-#: rc.cpp:35
-msgid "&Username:"
-msgstr "&Nazva karystańnika:"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:114
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, suidEdit)
-#: rc.cpp:38
-msgid "Enter the user name you want to run the application as here."
-msgstr ""
-"Siudy ŭpišy nazvu karystańnika, ad asoby jakoha treba ŭklučyć aplikacyju."
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:124
-#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup4)
-#: rc.cpp:41
-msgctxt ""
-"@title:group Title of a group that lets the user choose options regargin "
-"program startup"
-msgid "Startup"
-msgstr "Uklučeńnie"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:130
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, startupInfoCheck)
-#: rc.cpp:44
-msgid ""
-"Check this option if you want to make clear that your application has "
-"started. This visual feedback may appear as a busy cursor or in the taskbar."
-msgstr ""
-"Uklučy hetuju opcyju, kab być peŭnym, što aplikacyja ŭklučyłasia. Hetaje "
-"vyjaŭleńnie moža pakazvać „zaniaty” kursor albo paznačać zadańnie ŭ paneli."
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:133
-#. i18n: ectx: property (text), widget (QCheckBox, startupInfoCheck)
-#: rc.cpp:47
-msgid "Enable &launch feedback"
-msgstr "Uklučy &vyjaŭleńnie ŭklučeńnia"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:140
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, systrayCheck)
-#: rc.cpp:50
-msgid ""
-"Check this option if you want to have a system tray handle for your "
-"application."
-msgstr ""
-"Uklučy hetuju opcyju, kali chočaš, kab u hetaj aplikacyi byŭ asobny element "
-"u systemnym trei."
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:143
-#. i18n: ectx: property (text), widget (QCheckBox, systrayCheck)
-#: rc.cpp:53
-msgid "&Place in system tray"
-msgstr "&Źmiaści ŭ systemnym trei"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:150
-#. i18n: ectx: property (text), widget (QLabel, textLabel12)
-#: rc.cpp:56
-msgid "&D-Bus registration:"
-msgstr "&Rehistracyja praz „D-Bus”:"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:161
-#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
-#: rc.cpp:59
-msgid "None"
-msgstr "Niama"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:166
-#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
-#: rc.cpp:62
-msgid "Multiple Instances"
-msgstr "Niekalki kopijaŭ"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:171
-#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
-#: rc.cpp:65
-msgid "Single Instance"
-msgstr "Adna kopija"
-
-#. i18n: file: kfile/kpropertiesdesktopadvbase.ui:176
-#. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
-#: rc.cpp:68
-msgid "Run Until Finished"
-msgstr "Vykonvaj da kanca"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:14
-#. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:27
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameEdit)
-#: rc.cpp:71 rc.cpp:77
-msgid ""
-"Type the name you want to give to this application here. This application "
-"will appear under this name in the applications menu and in the panel."
-msgstr ""
-"Tut upišy nazvu dla hetaj aplikacyi. Hetuju nazvu jana budzie mieć u menu "
-"aplikacyjaŭ i ŭ paneli."
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:17
-#. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: rc.cpp:74 ../kfile/kfilewidget.cpp:534
-msgid "&Name:"
-msgstr "&Nazva:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:34
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:47
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, genNameEdit)
-#: rc.cpp:80 rc.cpp:86
-msgid ""
-"Type the description of this application, based on its use, here. Examples: "
-"a dial up application (KPPP) would be \"Dial up tool\"."
-msgstr ""
-"Tut apišy aplikacyju, adpaviedna jejnaj mecie. Naprykład, aplikacyju dla "
-"„dialup”-spałučeńniaŭ ź siecivam možna apisać jak „Prahrama dla dialup-"
-"internetu”."
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:37
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:83
-msgid "&Description:"
-msgstr "&Apisańnie:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:54
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:67
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, commentEdit)
-#: rc.cpp:89 rc.cpp:95
-msgid "Type any comment you think is useful here."
-msgstr "Siudy ŭpišy luby kamentar, jaki ličyš patrebnym."
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:57
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:92
-msgid "Comm&ent:"
-msgstr "&Kamentar:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:85
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:111
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, commandEdit)
-#: rc.cpp:99 rc.cpp:117
-#, no-c-format
-msgid ""
-"Type the command to start this application here.\n"
-"\n"
-"Following the command, you can have several place holders which will be "
-"replaced with the actual values when the actual program is run:\n"
-"%f - a single file name\n"
-"%F - a list of files; use for applications that can open several local files "
-"at once\n"
-"%u - a single URL\n"
-"%U - a list of URLs\n"
-"%d - the directory of the file to open\n"
-"%D - a list of directories\n"
-"%i - the icon\n"
-"%m - the mini-icon\n"
-"%c - the caption"
-msgstr ""
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:88
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:113
-msgid "Co&mmand:"
-msgstr "&Zahad:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:118
-#. i18n: ectx: property (whatsThis), widget (QPushButton, browseButton)
-#: rc.cpp:131
-msgid ""
-"Click here to browse your file system in order to find the desired "
-"executable."
-msgstr ""
-"Klikni siudy, kab znajści ŭ fajłavaj systemie patrebny vykonvalny fajł."
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:130
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:143
-#. i18n: ectx: property (whatsThis), widget (KUrlRequester, pathEdit)
-#: rc.cpp:137 rc.cpp:143
-msgid "Sets the working directory for your application."
-msgstr "Aznačaje dla tvajoj aplikacyi rabočy kataloh."
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:133
-#. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: rc.cpp:140
-msgid "&Work path:"
-msgstr "&Rabočy kataloh:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:157
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel7)
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:178
-#. i18n: ectx: property (whatsThis), widget (QTreeWidget, filetypeList)
-#: rc.cpp:146 rc.cpp:154
-msgid ""
-"<qt><p>This list should show the types of file that your application can "
-"handle. This list is organized by <u>mimetypes</u>.</p>\n"
-"<p>MIME, Multipurpose Internet (e)Mail Extension, is a standard protocol for "
-"identifying the type of data based on filename extensions and correspondent "
-"<u>mimetypes</u>. Example: the \"bmp\" part that comes after the dot in "
-"flower.bmp indicates that it is a specific kind of image, <u>image/x-bmp</"
-"u>. To know which application should open each type of file, the system "
-"should be informed about the abilities of each application to handle these "
-"extensions and mimetypes.</p>\n"
-"<p>If you want to associate this application with one or more mimetypes that "
-"are not in this list, click on the button <b>Add</b> below. If there are one "
-"or more filetypes that this application cannot handle, you may want to "
-"remove them from the list clicking on the button <b>Remove</b> below.</p></"
-"qt>"
-msgstr ""
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:160
-#. i18n: ectx: property (text), widget (QLabel, textLabel7)
-#: rc.cpp:151
-msgid "&Supported file types:"
-msgstr "&Typy fajłaŭ z absłuhoŭvańniem:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:191
-#. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
-#: rc.cpp:159
-msgid "Mimetype"
-msgstr "Typ MIME"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:196
-#. i18n: ectx: property (text), widget (QTreeWidget, filetypeList)
-#: rc.cpp:162
-msgid "Description"
-msgstr "Apisańnie"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:206
-#. i18n: ectx: property (whatsThis), widget (QPushButton, addFiletypeButton)
-#: rc.cpp:165
-msgid ""
-"Click on this button if you want to add a type of file (mimetype) that your "
-"application can handle."
-msgstr ""
-"Klikni ŭ hetuju knopku, kali chočaš dadać typ fajłaŭ („MIME”), jaki "
-"absłuhoŭvaje hetaja aplikacyja."
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:209
-#. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
-#. i18n: file: kssl/kcm/cacertificates.ui:111
-#. i18n: ectx: property (text), widget (KPushButton, add)
-#: rc.cpp:168 rc.cpp:201
-msgid "Add..."
-msgstr "Dadaj..."
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:216
-#. i18n: ectx: property (whatsThis), widget (QPushButton, delFiletypeButton)
-#: rc.cpp:171
-msgid ""
-"If you want to remove a type of file (mimetype) that your application cannot "
-"handle, select the mimetype in the list above and click on this button."
-msgstr ""
-"Kali chočaš vydalić adzin z typaŭ fajłaŭ („MIME”), jakija nie absłuhoŭvaje "
-"hetaja aplikacyja, vybiery patrebny typ „MIME” i klikni ŭ hetuju knopku."
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:219
-#. i18n: ectx: property (text), widget (QPushButton, delFiletypeButton)
-#. i18n: file: kssl/kcm/cacertificates.ui:104
-#. i18n: ectx: property (text), widget (KPushButton, removeSelection)
-#: rc.cpp:174 rc.cpp:198
-msgid "Remove"
-msgstr "Vydali"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:242
-#. i18n: ectx: property (whatsThis), widget (QPushButton, advancedButton)
-#: rc.cpp:177
-msgid ""
-"Click here to modify the way this application will run, launch feedback, D-"
-"Bus options or to run it as a different user."
-msgstr ""
-"Klikni siudy, kab źmianić sposab uklučeńnia aplikacyi, vyjaŭleńnie, opcyi „D-"
-"Bus”, dziejnaha karystańnika."
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:245
-#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
-#: rc.cpp:180
-msgid "Ad&vanced Options"
-msgstr "&Asablivyja opcyi"
-
-#. i18n: file: kssl/kcm/cacertificates.ui:24
-#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
-#: rc.cpp:183
-#, fuzzy
-#| msgid "Organization:"
-msgid "Organization / Common Name"
-msgstr "Ustanova:"
-
-#. i18n: file: kssl/kcm/cacertificates.ui:29
-#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
-#: rc.cpp:186
-#, fuzzy
-#| msgid "Organizational unit:"
-msgid "Organizational Unit"
-msgstr "Addzieł u ŭstanovie:"
-
-#. i18n: file: kssl/kcm/cacertificates.ui:42
-#. i18n: ectx: property (text), widget (QPushButton, displaySelection)
-#: rc.cpp:189
-msgid "Display..."
-msgstr ""
-
-#. i18n: file: kssl/kcm/cacertificates.ui:68
-#. i18n: ectx: property (text), widget (KPushButton, disableSelection)
-#: rc.cpp:192
-msgid "Disable"
-msgstr ""
-
-#. i18n: file: kssl/kcm/cacertificates.ui:78
-#. i18n: ectx: property (text), widget (QPushButton, enableSelection)
-#: rc.cpp:195
-#, fuzzy
-#| msgid "Emblems"
-msgid "Enable"
-msgstr "Znaki"
-
-#. i18n: file: kssl/kcm/displaycert.ui:23
-#. i18n: ectx: property (text), widget (QLabel, subjectHeading)
-#: rc.cpp:204
-#, fuzzy
-#| msgid "Security Information"
-msgid "<b>Subject Information</b>"
-msgstr "Infarmacyja pra biaśpiečnaść spałučeńnia"
-
-#. i18n: file: kssl/kcm/displaycert.ui:39
-#. i18n: ectx: property (text), widget (QLabel, issuerHeading)
-#: rc.cpp:207
-#, fuzzy
-#| msgid "<b>Possible solutions</b>:"
-msgid "<b>Issuer Information</b>"
-msgstr "<b>Mahčymyja raźviazki</b>:"
-
-#. i18n: file: kssl/kcm/displaycert.ui:55
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:210
-#, fuzzy
-#| msgid "<b>%1</b>"
-msgid "<b>Other</b>"
-msgstr "<b>%1</b>"
-
-#. i18n: file: kssl/kcm/displaycert.ui:64
-#. i18n: ectx: property (text), widget (QLabel, validityPeriodLabel)
-#: rc.cpp:213
-#, fuzzy
-#| msgid "Validity period:"
-msgid "Validity period"
-msgstr "Termin dziejnaści:"
-
-#. i18n: file: kssl/kcm/displaycert.ui:78
-#. i18n: ectx: property (text), widget (QLabel, serialNumberLabel)
-#: rc.cpp:216
-#, fuzzy
-#| msgid "Serial Number:"
-msgid "Serial number"
-msgstr "Seryjny numar:"
-
-#. i18n: file: kssl/kcm/displaycert.ui:92
-#. i18n: ectx: property (text), widget (QLabel, md5DigestLabel)
-#: rc.cpp:219
-#, fuzzy
-#| msgid "MD5 Digest:"
-msgid "MD5 digest"
-msgstr "Suma MD5:"
-
-#. i18n: file: kssl/kcm/displaycert.ui:106
-#. i18n: ectx: property (text), widget (QLabel, sha1DigestLabel)
-#: rc.cpp:222
-#, fuzzy
-#| msgid "MD5 Digest:"
-msgid "SHA1 digest"
-msgstr "Suma MD5:"
-
-#. i18n: file: kssl/keygenwizard.ui:35
-#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:225
-msgid ""
-"You have indicated that you wish to obtain or purchase a secure certificate. "
-"This wizard is intended to guide you through the procedure. You may cancel "
-"at any time, and this will abort the transaction."
-msgstr ""
-"Ty śćvierdziŭ, što chočaš nabyć sertyfikat biaśpiečnaści. Hetaja prahrama "
-"dapamoža heta zrabić. U luby čas ty zmožaš admovicca, i tady nijakich "
-"zapytaŭ nia budzie vysłana ŭ sieciva."
-
-#. i18n: file: kssl/keygenwizard2.ui:35
-#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
-#: rc.cpp:228
-msgid ""
-"You must now provide a password for the certificate request. Please choose a "
-"very secure password as this will be used to encrypt your private key."
-msgstr ""
-"Ciapier, kab ździejśnić zapyt sertyfikata, treba padać parol. Vybiery vielmi "
-"biaśpiečny parol, bo ź im budzie zašyfravany tvoj pryvatny kluč."
-
-#. i18n: file: kssl/keygenwizard2.ui:48
-#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: rc.cpp:231
-msgid "&Repeat password:"
-msgstr "&Paŭtary parol:"
-
-#. i18n: file: kssl/keygenwizard2.ui:58
-#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
-#: rc.cpp:234
-msgid "&Choose password:"
-msgstr "&Abiary parol:"
-
-#. i18n: file: kssl/certificateparty.ui:28
-#. i18n: ectx: property (text), widget (QLabel, commonNameTag)
-#: rc.cpp:237
-msgid "Common name:"
-msgstr "Nazva:"
-
-#. i18n: file: kssl/certificateparty.ui:38
-#. i18n: ectx: property (text), widget (QLabel, commonName)
-#: rc.cpp:240
-msgid "Acme Co."
-msgstr "Acme Co."
-
-#. i18n: file: kssl/certificateparty.ui:48
-#. i18n: ectx: property (text), widget (QLabel, organizationTag)
-#: rc.cpp:243
-msgid "Organization:"
-msgstr "Ustanova:"
-
-#. i18n: file: kssl/certificateparty.ui:58
-#. i18n: ectx: property (text), widget (QLabel, organization)
-#: rc.cpp:246
-msgid "Acme Sundry Products Company"
-msgstr "Hurtoŭnaja kampanija Acme"
-
-#. i18n: file: kssl/certificateparty.ui:68
-#. i18n: ectx: property (text), widget (QLabel, organizationalUnitTag)
-#: rc.cpp:249
-msgid "Organizational unit:"
-msgstr "Addzieł u ŭstanovie:"
-
-#. i18n: file: kssl/certificateparty.ui:78
-#. i18n: ectx: property (text), widget (QLabel, organizationalUnit)
-#: rc.cpp:252
-msgid "Fraud Department"
-msgstr "Addzieł machlarstvaŭ"
-
-#. i18n: file: kssl/certificateparty.ui:88
-#. i18n: ectx: property (text), widget (QLabel, countryTag)
-#: rc.cpp:255
-msgid "Country:"
-msgstr "Kraina:"
-
-#. i18n: file: kssl/certificateparty.ui:98
-#. i18n: ectx: property (text), widget (QLabel, country)
-#: rc.cpp:258
-msgid "Canada"
-msgstr "Biełaruś"
-
-#. i18n: file: kssl/certificateparty.ui:108
-#. i18n: ectx: property (text), widget (QLabel, stateTag)
-#: rc.cpp:261
-msgid "State:"
-msgstr "Štat:"
-
-#. i18n: file: kssl/certificateparty.ui:118
-#. i18n: ectx: property (text), widget (QLabel, state)
-#: rc.cpp:264
-msgid "Quebec"
-msgstr "-"
-
-#. i18n: file: kssl/certificateparty.ui:128
-#. i18n: ectx: property (text), widget (QLabel, cityTag)
-#: rc.cpp:267
-msgid "City:"
-msgstr "Horad:"
-
-#. i18n: file: kssl/certificateparty.ui:138
-#. i18n: ectx: property (text), widget (QLabel, city)
-#: rc.cpp:270
-msgid "Lakeridge Meadows"
-msgstr "Miensk"
-
-#. i18n: file: kssl/sslinfo.ui:17
-#. i18n: ectx: property (text), widget (QLabel, encryptionIndicator)
-#: rc.cpp:273
-msgid "[padlock]"
-msgstr "[padlock]"
-
-#. i18n: file: kssl/sslinfo.ui:34
-#. i18n: ectx: property (text), widget (QLabel, addressTag)
-#: rc.cpp:276
-msgctxt "Web page address"
-msgid "Address:"
-msgstr "Adras:"
-
-#. i18n: file: kssl/sslinfo.ui:54
-#. i18n: ectx: property (text), widget (QLabel, ipTag)
-#: rc.cpp:279
-#, fuzzy
-#| msgid "IP Address:"
-msgid "IP address:"
-msgstr "Adras IP:"
-
-#. i18n: file: kssl/sslinfo.ui:74
-#. i18n: ectx: property (text), widget (QLabel, encryptionTag)
-#: rc.cpp:282
-msgid "Encryption:"
-msgstr "Šyfravańnie:"
-
-#. i18n: file: kssl/sslinfo.ui:94
-#. i18n: ectx: property (text), widget (QLabel, detailsTag)
-#: rc.cpp:285
-msgid "Details:"
-msgstr "Detali:"
-
-#. i18n: file: kssl/sslinfo.ui:114
-#. i18n: ectx: property (text), widget (QLabel, sslVersionTag)
-#: rc.cpp:288
-#, fuzzy
-#| msgid "SSL Version:"
-msgid "SSL version:"
-msgstr "Versija SSL:"
-
-#. i18n: file: kssl/sslinfo.ui:134
-#. i18n: ectx: property (text), widget (QLabel, certSelectorTag)
-#: rc.cpp:291
-#, fuzzy
-#| msgid "Certificate Chain"
-msgid "Certificate chain:"
-msgstr "Łancuh sertyfikataŭ"
-
-#. i18n: file: kssl/sslinfo.ui:163
-#. i18n: ectx: property (text), widget (QLabel, trustedTag)
-#: rc.cpp:294
-msgid "Trusted:"
-msgstr "Davierany:"
-
-#. i18n: file: kssl/sslinfo.ui:183
-#. i18n: ectx: property (text), widget (QLabel, validityPeriodTag)
-#: rc.cpp:297
-msgid "Validity period:"
-msgstr "Termin dziejnaści:"
-
-#. i18n: file: kssl/sslinfo.ui:203
-#. i18n: ectx: property (text), widget (QLabel, serialTag)
-#: rc.cpp:300
-#, fuzzy
-#| msgid "Serial Number:"
-msgid "Serial number:"
-msgstr "Seryjny numar:"
-
-#. i18n: file: kssl/sslinfo.ui:223
-#. i18n: ectx: property (text), widget (QLabel, digestTag)
-#: rc.cpp:303
-#, fuzzy
-#| msgid "MD5 Digest:"
-msgid "MD5 digest:"
-msgstr "Suma MD5:"
-
-#. i18n: file: kssl/sslinfo.ui:243
-#. i18n: ectx: property (text), widget (QLabel, sha1DigestTag)
-#: rc.cpp:306
-#, fuzzy
-#| msgid "MD5 Digest:"
-msgid "SHA1 digest:"
-msgstr "Suma MD5:"
-
-#: ../kioslave/file/file_unix.cpp:231
-#, kde-format
-msgid "Cannot copy file from %1 to %2. (Errno: %3)"
-msgstr "Nie ŭdałosia skapijavać fajł z „%1” u „%2” (numar pamyłki: %3)."
-
-#: ../kioslave/file/file_unix.cpp:300 ../kioslave/file/file.cpp:728
-#, kde-format
-msgid ""
-"Could not change permissions for\n"
-"%1"
-msgstr ""
-"Nie ŭdałosia źmianić dazvoły na\n"
-"%1"
-
-#: ../kioslave/file/file_unix.cpp:344
-#, kde-format
-msgid "No media in device for %1"
-msgstr "U pryładzie „%1” niama nośbitu."
-
-#: ../kioslave/file/file_unix.cpp:613
-#, kde-format
-msgid "Could not get user id for given user name %1"
-msgstr ""
-"Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
-
-#: ../kioslave/file/file_unix.cpp:626
-#, kde-format
-msgid "Could not get group id for given group name %1"
-msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."
-
-#: ../kioslave/file/file.cpp:211
-#, kde-format
-msgid "Setting ACL for %1"
-msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
-
-#: ../kioslave/file/file.cpp:923
-msgid "No Media inserted or Media not recognized."
-msgstr "Nośbit nia ŭsunuty albo nie raspaznany."
-
-#: ../kioslave/file/file.cpp:933 ../kioslave/file/file.cpp:1142
-msgid "\"vold\" is not running."
-msgstr "Słužba „vold” nie pracuje."
-
-#: ../kioslave/file/file.cpp:968
-msgid "Could not find program \"mount\""
-msgstr "Nie ŭdałosia znajści prahramu „mount”."
-
-#: ../kioslave/file/file.cpp:1047
-#, fuzzy
-#| msgid "Writing to %1 is not supported."
-msgid "mounting is not supported by wince."
-msgstr "Zapis u „%1” nie padtrymvajecca."
-
-#: ../kioslave/file/file.cpp:1155
-msgid "Could not find program \"umount\""
-msgstr "Nie ŭdałosia znajści prahramu „umount”."
-
-#: ../kioslave/file/file.cpp:1169
-#, fuzzy
-#| msgid "Writing to %1 is not supported."
-msgid "unmounting is not supported by wince."
-msgstr "Zapis u „%1” nie padtrymvajecca."
-
-#: ../kioslave/file/file.cpp:1256
-#, kde-format
-msgid "Could not read %1"
-msgstr "Nie ŭdałosia pračytać z „%1”."
-
-#: ../kioslave/ftp/ftp.cpp:356
-#, kde-format
-msgid "Opening connection to host %1"
-msgstr "Adčynieńnie spałučeńnia z hostam „%1”"
-
-#: ../kioslave/ftp/ftp.cpp:371
-#, kde-format
-msgid "Connected to host %1"
-msgstr "Spałučany z hostam „%1”"
-
-#: ../kioslave/ftp/ftp.cpp:478
-#, kde-format
-msgid ""
-"%1.\n"
-"\n"
-"Reason: %2"
-msgstr ""
-"%1.\n"
-"\n"
-"Pryčyna: %2"
-
-#: ../kioslave/ftp/ftp.cpp:507
-msgid "Sending login information"
-msgstr "Vysyłańnie źviestak dla ŭvachodu"
-
-#: ../kioslave/ftp/ftp.cpp:570
-#, kde-format
-msgid ""
-"Message sent:\n"
-"Login using username=%1 and password=[hidden]\n"
-"\n"
-"Server replied:\n"
-"%2\n"
-"\n"
-msgstr ""
-"Vysłanaje paviedamleńnie:\n"
-"Uvachod z nazvaj karystańnika „%1” i parolem „[schavana]”\n"
-"\n"
-"Server adkazaŭ:\n"
-"%2\n"
-"\n"
-
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5355
-msgid "You need to supply a username and a password to access this site."
-msgstr ""
-"Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
-
-#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5357
-msgid "Site:"
-msgstr "Sajt:"
-
-#: ../kioslave/ftp/ftp.cpp:581
-#, kde-format
-msgid "<b>%1</b>"
-msgstr "<b>%1</b>"
-
-#: ../kioslave/ftp/ftp.cpp:679
-msgid "Login OK"
-msgstr "Uvachod: OK"
-
-#: ../kioslave/ftp/ftp.cpp:708
-#, kde-format
-msgid "Could not login to %1."
-msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
-
-#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5245
-#: ../kioslave/http/http.cpp:5367
-msgid ""
-"You need to supply a username and a password for the proxy server listed "
-"below before you are allowed to access any sites."
-msgstr ""
-"Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
-"parol dla proxy-servera."
-
-#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5249
-#: ../kioslave/http/http.cpp:5370
-msgid "Proxy:"
-msgstr "Proxy:"
-
-#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5250
-#: ../kioslave/http/http.cpp:5450
-#, kde-format
-msgid "<b>%1</b> at <b>%2</b>"
-msgstr "<b>%1</b> na <b>%2</b>"
-
-#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5252
-#: ../kioslave/http/http.cpp:5387
-msgid "Proxy Authentication Failed."
-msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
-
-#: ../kioslave/http/http_cache_cleaner.cpp:728
-#: ../kioslave/http/http_cache_cleaner.cpp:729
-msgid "KDE HTTP cache maintenance tool"
-msgstr "Pryłada KDE dla kiravańnia padručnaj pamiaćciu HTTP"
-
-#: ../kioslave/http/http_cache_cleaner.cpp:732
-msgid "Empty the cache"
-msgstr "Vyčyści padručnuju pamiać"
-
-#: ../kioslave/http/http_cache_cleaner.cpp:733
-#, fuzzy
-#| msgid "Display SSL &Information"
-msgid "Display information about cache file"
-msgstr "Pakažy &źviestki SSL"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:64
-msgid "Cookie Alert"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:97
-#, kde-format
-msgid "You received a cookie from"
-msgid_plural "You received %1 cookies from"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:115
-msgid " <b>[Cross Domain]</b>"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:118
-msgid "Do you want to accept or reject?"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:126
-msgid "Apply Choice To"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
-msgid "&Only this cookie"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
-msgid "&Only these cookies"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:132
-msgid ""
-"Select this option to accept/reject only this cookie. You will be prompted "
-"if another cookie is received. <em>(see WebBrowsing/Cookies in the System "
-"Settings)</em>."
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:136
-msgid "All cookies from this do&main"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:139
-msgid ""
-"Select this option to accept/reject all cookies from this site. Choosing "
-"this option will add a new policy for the site this cookie originated from. "
-"This policy will be permanent until you manually change it from the System "
-"Settings <em>(see WebBrowsing/Cookies in the System Settings)</em>."
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:145
-msgid "All &cookies"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:148
-msgid ""
-"Select this option to accept/reject all cookies from anywhere. Choosing this "
-"option will change the global cookie policy set in the System Settings for "
-"all cookies <em>(see WebBrowsing/Cookies in the System Settings)</em>."
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:162
-msgid "&Accept"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:163
-msgid "&Reject"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:165
-msgid "See or modify the cookie information"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:200
-msgid "Cookie Details"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:213
-msgid "Value:"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:220
-msgid "Expires:"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:227
-msgid "Path:"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:234
-msgid "Domain:"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:241
-msgid "Exposure:"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:250
-msgctxt "Next cookie"
-msgid "&Next >>"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:255
-msgid "Show details of the next cookie"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:282
-msgid "Not specified"
-msgstr "Nie aznačana"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:291
-msgid "End of Session"
-msgstr "Kaniec sesii"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:296
-msgid "Secure servers only"
-msgstr "Tolki biaśpiečnyja servery"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:298
-msgid "Secure servers, page scripts"
-msgstr "Biaśpiečnyja servery j skrypty na staronkach"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:303
-msgid "Servers"
-msgstr "Servery"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:305
-msgid "Servers, page scripts"
-msgstr "Servery j skrypty na staronkach"
-
-#: ../kioslave/http/kcookiejar/main.cpp:33
-msgid "HTTP Cookie Daemon"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/main.cpp:37
-msgid "HTTP cookie daemon"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/main.cpp:40
-msgid "Shut down cookie jar"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/main.cpp:41
-msgid "Remove cookies for domain"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/main.cpp:42
-msgid "Remove all cookies"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/main.cpp:43
-msgid "Reload configuration file"
-msgstr "Pieračytaj kanfihuracyjny fajł"
-
-#: ../kioslave/http/http.cpp:601
-msgid "No host specified."
-msgstr "Host nie aznačany."
-
-#: ../kioslave/http/http.cpp:1594
-msgid "Otherwise, the request would have succeeded."
-msgstr "Inačaj zapyt by vykanaŭsia."
-
-#: ../kioslave/http/http.cpp:1598
-msgctxt "request type"
-msgid "retrieve property values"
-msgstr "atrymać vartaści dla ŭłaścivaściaŭ"
-
-#: ../kioslave/http/http.cpp:1601
-msgctxt "request type"
-msgid "set property values"
-msgstr "aznačyć vartaści dla ŭłaścivaściaŭ"
-
-#: ../kioslave/http/http.cpp:1604
-msgctxt "request type"
-msgid "create the requested folder"
-msgstr "stvaryć zapatrabavany kataloh"
-
-#: ../kioslave/http/http.cpp:1607
-msgctxt "request type"
-msgid "copy the specified file or folder"
-msgstr "skapijavać aznačany fajł ci kataloh"
-
-#: ../kioslave/http/http.cpp:1610
-msgctxt "request type"
-msgid "move the specified file or folder"
-msgstr "pieranieści aznačany fajł ci kataloh"
-
-#: ../kioslave/http/http.cpp:1613
-msgctxt "request type"
-msgid "search in the specified folder"
-msgstr "pašukać u aznačanym katalohu"
-
-#: ../kioslave/http/http.cpp:1616
-msgctxt "request type"
-msgid "lock the specified file or folder"
-msgstr "zablakavać aznačany fajł ci kataloh"
-
-#: ../kioslave/http/http.cpp:1619
-msgctxt "request type"
-msgid "unlock the specified file or folder"
-msgstr "adblakavać aznačany fajł ci kataloh"
-
-#: ../kioslave/http/http.cpp:1622
-msgctxt "request type"
-msgid "delete the specified file or folder"
-msgstr "vydalić aznačany fajł ci kataloh"
-
-#: ../kioslave/http/http.cpp:1625
-msgctxt "request type"
-msgid "query the server's capabilities"
-msgstr "zapytać u servera pra jahonyja zdolnaści"
-
-#: ../kioslave/http/http.cpp:1628
-msgctxt "request type"
-msgid "retrieve the contents of the specified file or folder"
-msgstr "atrymać źmieściva aznačanaha fajła ci kataloha"
-
-#: ../kioslave/http/http.cpp:1631
-#, fuzzy
-#| msgctxt "request type"
-#| msgid "search in the specified folder"
-msgctxt "request type"
-msgid "run a report in the specified folder"
-msgstr "pašukać u aznačanym katalohu"
-
-#: ../kioslave/http/http.cpp:1642
-#, kde-format
-msgctxt "%1: code, %2: request type"
-msgid "An unexpected error (%1) occurred while attempting to %2."
-msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
-
-#: ../kioslave/http/http.cpp:1650
-msgid "The server does not support the WebDAV protocol."
-msgstr "Server nie absłuhoŭvaje pratakoł „WebDAV”."
-
-#: ../kioslave/http/http.cpp:1692
-#, kde-format
-msgctxt "%1: request type, %2: url"
-msgid ""
-"An error occurred while attempting to %1, %2. A summary of the reasons is "
-"below."
-msgstr ""
-"Padčas sproby %1 dla „%2” uźnikła pamyłka. Nižej padadzieny śpis pryčynaŭ."
-
-#: ../kioslave/http/http.cpp:1706 ../kioslave/http/http.cpp:1838
-#, kde-format
-msgctxt "%1: request type"
-msgid "Access was denied while attempting to %1."
-msgstr "Sprobie %1 zabaronieny dostup."
-
-#: ../kioslave/http/http.cpp:1719 ../kioslave/http/http.cpp:1844
-msgid ""
-"A resource cannot be created at the destination until one or more "
-"intermediate collections (folders) have been created."
-msgstr ""
-"Niemahčyma stvaryć resurs u metavym miescy, pakul nia buduć stvorany "
-"pasiarednija katalohi, jakija viaduć da hetaha resursu."
-
-#: ../kioslave/http/http.cpp:1727
-#, kde-format
-msgid ""
-"The server was unable to maintain the liveness of the properties listed in "
-"the propertybehavior XML element or you attempted to overwrite a file while "
-"requesting that files are not overwritten. %1"
-msgstr ""
-
-#: ../kioslave/http/http.cpp:1735
-#, kde-format
-msgid "The requested lock could not be granted. %1"
-msgstr ""
-
-#: ../kioslave/http/http.cpp:1741
-msgid "The server does not support the request type of the body."
-msgstr "Server nie absłuhoŭvaje typu zapytaŭ, padadzienaha ŭ ciele."
-
-#: ../kioslave/http/http.cpp:1746 ../kioslave/http/http.cpp:1852
-#, kde-format
-msgctxt "%1: request type"
-msgid "Unable to %1 because the resource is locked."
-msgstr "Nie ŭdałosia %1, bo resurs zablakavany."
-
-#: ../kioslave/http/http.cpp:1750
-msgid "This action was prevented by another error."
-msgstr "Hetaj aperacyi pieraškodziła inšaja pamyłka."
-
-#: ../kioslave/http/http.cpp:1756 ../kioslave/http/http.cpp:1858
-#, kde-format
-msgctxt "%1: request type"
-msgid ""
-"Unable to %1 because the destination server refuses to accept the file or "
-"folder."
-msgstr ""
-"Nie ŭdałosia %1, bo metavy server nie pryniaŭ hetaha fajła ci kataloha."
-
-#: ../kioslave/http/http.cpp:1763 ../kioslave/http/http.cpp:1865
-msgid ""
-"The destination resource does not have sufficient space to record the state "
-"of the resource after the execution of this method."
-msgstr ""
-"Metavamu resursu nie chapiła volnaha miesca, kab zapisać novuju admienu, "
-"jakaja ŭźnikła paśla vykanańnia hetaj funkcyi."
-
-#: ../kioslave/http/http.cpp:1816
-msgid "The resource cannot be deleted."
-msgstr "Aznačany resurs nie ŭdałosia vydalić."
-
-#: ../kioslave/http/http.cpp:1829
-#, kde-format
-msgctxt "request type"
-msgid "upload %1"
-msgstr "pakłaści „%1” na server"
-
-#: ../kioslave/http/http.cpp:1879
-#, kde-format
-msgctxt "%1: response code, %2: request type"
-msgid "An unexpected error (%1) occurred while attempting to %2."
-msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
-
-#: ../kioslave/http/http.cpp:2705
-#, kde-format
-msgid "%1 contacted. Waiting for reply..."
-msgstr "Spałučany z „%1”. Čakańnie adkazu..."
-
-#: ../kioslave/http/http.cpp:3037
-#, kde-format
-msgctxt "@warning: Security check on url being accessed"
-msgid ""
-"You are about to log in to the site \"%1\" with the username \"%2\", but the "
-"website does not require authentication. This may be an attempt to trick you."
-"<p>Is \"%1\" the site you want to visit?"
-msgstr ""
-
-#: ../kioslave/http/http.cpp:3044
-msgctxt "@title:window"
-msgid "Confirm Website Access"
-msgstr ""
-
-#: ../kioslave/http/http.cpp:3121
-msgid "Server processing request, please wait..."
-msgstr "Server pierapracoŭvaje zapyt. Pačakaj..."
-
-#: ../kioslave/http/http.cpp:3827 ../kioslave/http/http.cpp:3881
-#, kde-format
-msgid "Sending data to %1"
-msgstr "Vysyłańnie źviestak u „%1”"
-
-#: ../kioslave/http/http.cpp:4347
-#, kde-format
-msgid "Retrieving %1 from %2..."
-msgstr "Atrymańnie „%1” ad „%2”..."
-
-#: ../kioslave/http/http.cpp:5386
-msgid "Authentication Failed."
-msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
-
-#: ../kioslave/http/http.cpp:5483
-#, fuzzy
-#| msgid "Authorization Dialog"
-msgid "Authorization failed."
-msgstr "Akno aŭtaryzavańnia"
-
-#: ../kioslave/http/http.cpp:5499
-#, fuzzy
-#| msgid "Authorization Dialog"
-msgid "Unknown Authorization method."
-msgstr "Akno aŭtaryzavańnia"
-
-#: ../kioslave/metainfo/metainfo.cpp:39
-msgid "kio_metainfo"
-msgstr "kio_metainfo"
-
-#: ../kioslave/metainfo/metainfo.cpp:98
-#, kde-format
-msgid "No metainfo for %1"
-msgstr "Niama metaźviestak pra „%1”."
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:173
-msgctxt "@item:inmenu"
-msgid "Devices"
-msgstr "Pryłady"
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:177
-msgctxt "@item:inmenu"
-msgid "Subversion"
-msgstr "Subversion"
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:181
-msgctxt "@item:inmenu"
-msgid "Other"
-msgstr "Inšaje"
-
-#: ../kfile/kfileplacesmodel.cpp:117
-#, fuzzy
-#| msgctxt "Home Directory"
-#| msgid "Home"
-msgctxt "KFile System Bookmarks"
-msgid "Home"
-msgstr "Dom"
-
-#: ../kfile/kfileplacesmodel.cpp:120
-#, fuzzy
-#| msgid "Network"
-msgctxt "KFile System Bookmarks"
-msgid "Network"
-msgstr "Sietka"
-
-#: ../kfile/kfileplacesmodel.cpp:132
-#, fuzzy
-#| msgid "Root"
-msgctxt "KFile System Bookmarks"
-msgid "Root"
-msgstr "Korań"
-
-#: ../kfile/kfileplacesmodel.cpp:136
-#, fuzzy
-#| msgid "Trash"
-msgctxt "KFile System Bookmarks"
-msgid "Trash"
-msgstr "Śmietnica"
-
-#: ../kfile/kfileplacesmodel.cpp:734
-#, kde-format
-msgid "&Release '%1'"
-msgstr "&Vyzvali „%1”"
-
-#: ../kfile/kfileplacesmodel.cpp:736
-#, kde-format
-msgid "&Safely Remove '%1'"
-msgstr "&Biaśpiečna vysuń „%1”"
-
-#: ../kfile/kfileplacesmodel.cpp:739
-#, kde-format
-msgid "&Unmount '%1'"
-msgstr "&Admantuj „%1”"
-
-#: ../kfile/kfileplacesmodel.cpp:760
-#, kde-format
-msgid "&Eject '%1'"
-msgstr "V&ysuń „%1”"
-
-#: ../kfile/kfileplacesmodel.cpp:794
-#, kde-format
-msgid "The device '%1' is not a disk and cannot be ejected."
-msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
-
-#: ../kfile/kfileplacesmodel.cpp:830
-#, kde-format
-msgid "An error occurred while accessing '%1', the system responded: %2"
-msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
-
-#: ../kfile/kfileplacesmodel.cpp:834
-#, kde-format
-msgid "An error occurred while accessing '%1'"
-msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
-
-#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
-msgid "*|All Files"
-msgstr "*|Usie fajły"
-
-#: ../kfile/kfilefiltercombo.cpp:194
-#, fuzzy
-#| msgid "*|All Files"
-msgid "All Files"
-msgstr "*|Usie fajły"
-
-#: ../kfile/kurlnavigatortogglebutton.cpp:93
-msgid "Click for Location Navigation"
-msgstr "Klikni, kab bačyć panel miesca"
-
-#: ../kfile/kurlnavigatortogglebutton.cpp:95
-msgid "Click to Edit Location"
-msgstr "Klikni, kab adredahavać adras miesca"
-
-#: ../kfile/knewfilemenu.cpp:365 ../kfile/knewfilemenu.cpp:880
-#, fuzzy
-#| msgid "Store"
-msgid "Sorry"
-msgstr "Zachoŭvaj"
-
-#: ../kfile/knewfilemenu.cpp:374
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
-#| "does not exist.</qt>"
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr ""
-"<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
-"isnuje.</qt>"
-
-#: ../kfile/knewfilemenu.cpp:393
-#, fuzzy
-#| msgid "Creating directory"
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "Stvareńnie kataloha"
-
-#: ../kfile/knewfilemenu.cpp:395
-#, fuzzy
-#| msgid "Ru&n as a different user"
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr "&Uklučy ad asoby inšaha karystańnika"
-
-#: ../kfile/knewfilemenu.cpp:398
-#, fuzzy
-#| msgid "Creating directory"
-msgid "Create hidden directory?"
-msgstr "Stvareńnie kataloha"
-
-#: ../kfile/knewfilemenu.cpp:402
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:404
-msgid "Do not ask again"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:497 ../kfile/knewfilemenu.cpp:566
-#, fuzzy
-#| msgid "Device name"
-msgid "File name:"
-msgstr "Nazva pryłady"
-
-#: ../kfile/knewfilemenu.cpp:500
-#, fuzzy
-#| msgid "Could Not Create Symbolic Link"
-msgid "Create Symlink"
-msgstr "Nie ŭdałosia stvaryć symbalny łuč"
-
-#: ../kfile/knewfilemenu.cpp:570
-#, fuzzy
-#| msgid "Created:"
-msgid "Create link to URL"
-msgstr "Stvorany:"
-
-#: ../kfile/knewfilemenu.cpp:616 ../kfile/knewfilemenu.cpp:664
-#, kde-format
-msgctxt "@item:inmenu Create New"
-msgid "%1"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:890
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:966
-#, fuzzy
-#| msgid "Created:"
-msgid "Create New"
-msgstr "Stvorany:"
-
-#: ../kfile/knewfilemenu.cpp:979
-#, fuzzy
-#| msgid "Device"
-msgid "Link to Device"
-msgstr "Pryłada"
-
-#: ../kfile/knewfilemenu.cpp:1024
-#, fuzzy
-#| msgid "New Folder"
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "Novy kataloh"
-
-#: ../kfile/knewfilemenu.cpp:1038
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"Stvary novy kataloh u:\n"
-"%1"
-
-#: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
-#, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr "Fajł ci kataloh z nazvaj „%1” užo isnuje."
-
-#: ../kfile/kdiroperator.cpp:768 ../kfile/kdirselectdialog.cpp:163
-msgid "You do not have permission to create that folder."
-msgstr "Tabie nie staje dazvołu na stvareńnie hetaha kataloha."
-
-#: ../kfile/kdiroperator.cpp:783
-msgid "You did not select a file to delete."
-msgstr "Ty nia vybraŭ fajł, jaki chočaš vydalić."
-
-#: ../kfile/kdiroperator.cpp:784
-msgid "Nothing to Delete"
-msgstr "Niama čaho vydalać"
-
-#: ../kfile/kdiroperator.cpp:805
-#, kde-format
-msgid ""
-"<qt>Do you really want to delete\n"
-" <b>'%1'</b>?</qt>"
-msgstr ""
-"<qt>Ci ty sapraŭdy chočaš vydalić\n"
-" <b>„%1”</b>?</qt>"
-
-#: ../kfile/kdiroperator.cpp:807
-msgid "Delete File"
-msgstr "Vydali fajł"
-
-#: ../kfile/kdiroperator.cpp:845
-msgid "You did not select a file to trash."
-msgstr "Ty nia vybraŭ fajł, jaki chočaš vykinuć u śmietnicu."
-
-#: ../kfile/kdiroperator.cpp:846
-msgid "Nothing to Trash"
-msgstr "Niama čaho vykidać u śmietnicu"
-
-#: ../kfile/kdiroperator.cpp:863
-#, kde-format
-msgid ""
-"<qt>Do you really want to trash\n"
-" <b>'%1'</b>?</qt>"
-msgstr ""
-"<qt>Ci ty sapraŭdy chočaš vykinuć u śmietnicu\n"
-" <b>„%1”</b>?</qt>"
-
-#: ../kfile/kdiroperator.cpp:865
-msgid "Trash File"
-msgstr "Vykiń u śmietnicu"
-
-#: ../kfile/kdiroperator.cpp:866 ../kfile/kdiroperator.cpp:873
-msgctxt "to trash"
-msgid "&Trash"
-msgstr "&Vykiń"
-
-#: ../kfile/kdiroperator.cpp:870
-#, kde-format
-msgid "translators: not called for n == 1"
-msgid_plural "Do you really want to trash these %1 items?"
-msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hety %1 element?"
-msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hetyja %1 elementy?"
-msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hetyja %1 elementaŭ?"
-
-#: ../kfile/kdiroperator.cpp:872
-msgid "Trash Files"
-msgstr "Vykiń fajły"
-
-#: ../kfile/kdiroperator.cpp:1064 ../kfile/kdiroperator.cpp:1201
-msgid "The specified folder does not exist or was not readable."
-msgstr "Aznačany kataloh nie isnuje, albo ŭ jaho nielha pisać."
-
-#: ../kfile/kdiroperator.cpp:1852
-msgid "Menu"
-msgstr "Menu"
-
-#: ../kfile/kdiroperator.cpp:1856
-msgid "Parent Folder"
-msgstr "Vyšejšy kataloh"
-
-#: ../kfile/kdiroperator.cpp:1863
-msgid "Home Folder"
-msgstr "Chatni kataloh"
-
-#: ../kfile/kdiroperator.cpp:1866
-msgid "Reload"
-msgstr "Pieračytaj"
-
-#: ../kfile/kdiroperator.cpp:1869
-msgid "New Folder..."
-msgstr "Novy kataloh..."
-
-#: ../kfile/kdiroperator.cpp:1880
-msgid "Delete"
-msgstr "Vydali"
-
-#: ../kfile/kdiroperator.cpp:1887
-msgid "Sorting"
-msgstr "Paradak"
-
-#: ../kfile/kdiroperator.cpp:1890
-msgid "By Name"
-msgstr "Pavodle nazvaŭ"
-
-#: ../kfile/kdiroperator.cpp:1894
-msgid "By Size"
-msgstr "Pavodle pamieraŭ"
-
-#: ../kfile/kdiroperator.cpp:1898
-msgid "By Date"
-msgstr "Pavodle času"
-
-#: ../kfile/kdiroperator.cpp:1902
-msgid "By Type"
-msgstr "Pavodle typaŭ"
-
-#: ../kfile/kdiroperator.cpp:1906
-msgid "Descending"
-msgstr "Ad bolšaha k mienšamu"
-
-#: ../kfile/kdiroperator.cpp:1910
-msgid "Folders First"
-msgstr ""
-
-#: ../kfile/kdiroperator.cpp:1920
-msgid "Icon Position"
-msgstr "Miesca ikon"
-
-#: ../kfile/kdiroperator.cpp:1923
-msgid "Next to File Name"
-msgstr "Kala nazvy fajła"
-
-#: ../kfile/kdiroperator.cpp:1927
-msgid "Above File Name"
-msgstr "Nad nazvaju fajła"
-
-#: ../kfile/kdiroperator.cpp:1938
-msgid "Short View"
-msgstr "Karotki vyhlad"
-
-#: ../kfile/kdiroperator.cpp:1943
-msgid "Detailed View"
-msgstr "Detalny vyhlad"
-
-#: ../kfile/kdiroperator.cpp:1948
-msgid "Tree View"
-msgstr "Hierarchičny vyhlad"
-
-#: ../kfile/kdiroperator.cpp:1953
-msgid "Detailed Tree View"
-msgstr "Detalny hierarchičny vyhlad"
-
-#: ../kfile/kdiroperator.cpp:1964
-msgid "Show Hidden Files"
-msgstr "Pakažy schavanyja fajły"
-
-#: ../kfile/kdiroperator.cpp:1968
-msgid "Show Aside Preview"
-msgstr "Pakažy zbočnyja padhlady"
-
-#: ../kfile/kdiroperator.cpp:1974
-msgid "Show Preview"
-msgstr "Pakažy padhlady"
-
-#: ../kfile/kdiroperator.cpp:1978
-#, fuzzy
-#| msgid "Open file dialog"
-msgid "Open File Manager"
-msgstr "Adčyni akno fajła"
-
-#: ../kfile/kdiroperator.cpp:1990
-msgid "&View"
-msgstr "&Vyhlad"
-
-#: ../kfile/kfileplaceeditdialog.cpp:90
-#, fuzzy
-#| msgid "Edit Places Entry"
-msgid "Add Places Entry"
-msgstr "Redahuj miesca"
-
-#: ../kfile/kfileplaceeditdialog.cpp:92
-msgid "Edit Places Entry"
-msgstr "Redahuj miesca"
-
-#: ../kfile/kfileplaceeditdialog.cpp:103
-#, fuzzy
-#| msgid ""
-#| "<qt>This is the text that will appear in the Places panel.<br /><br />The "
-#| "description should consist of one or two words that will help you "
-#| "remember what this entry refers to.</qt>"
-msgid ""
-"<qt>This is the text that will appear in the Places panel.<br /><br />The "
-"label should consist of one or two words that will help you remember what "
-"this entry refers to. If you do not enter a label, it will be derived from "
-"the location's URL.</qt>"
-msgstr ""
-"<qt>Heta tekst, jaki pakazvajecca ŭ paneli miescaŭ.<br /><br />Apisańnie "
-"pavinna składacca z adnaho-dvuch słovaŭ, jakija b nahadvali tabie, čaho jany "
-"datyčać.</qt>"
-
-#: ../kfile/kfileplaceeditdialog.cpp:109
-#, fuzzy
-#| msgid "&Name:"
-msgid "L&abel:"
-msgstr "&Nazva:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:111
-#, fuzzy
-#| msgid "Enter a description"
-msgid "Enter descriptive label here"
-msgstr "Apišy"
-
-#: ../kfile/kfileplaceeditdialog.cpp:115
-#, kde-format
-msgid ""
-"<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
-"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
-"edit box you can browse to an appropriate URL.</qt>"
-msgstr ""
-"<qt>Heta adras, źviazany z hetym elementam. Tut možna ŭpisać luby dziejny "
-"adras. Naprykład:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
-"org/pub/kde/stable<br /><br />Kliknuŭšy ŭ knopku, źmieščanuju kala "
-"tekstavaha pola, možna pierajści ŭ adpaviednaje miesca.</qt>"
-
-#: ../kfile/kfileplaceeditdialog.cpp:121
-msgid "&Location:"
-msgstr "&Miesca:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:127
-msgid ""
-"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
-"on the button to select a different icon.</qt>"
-msgstr ""
-"<qt>Hetaja ikona budzie źmieščanaja ŭ paneli miescaŭ.<br /><br />Klikni ŭ "
-"hetuju knopku, kab vybrać inšuju.</qt>"
-
-#: ../kfile/kfileplaceeditdialog.cpp:130
-msgid "Choose an &icon:"
-msgstr "Vybiery &ikonu:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:147
-#, kde-format
-msgid "&Only show when using this application (%1)"
-msgstr "Pakazvaj tolki dla &hetaj aplikacyi (%1)"
-
-#: ../kfile/kfileplaceeditdialog.cpp:149
-#, kde-format
-msgid ""
-"<qt>Select this setting if you want this entry to show only when using the "
-"current application (%1).<br /><br />If this setting is not selected, the "
-"entry will be available in all applications.</qt>"
-msgstr ""
-"<qt>Uklučy hetuju opcyju, kali chočaš bačyć hety element tolki ŭ dziejnaj "
-"aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie "
-"vidać z usich aplikacyjaŭ.</qt>"
-
-#: ../kfile/kfileplacesview.cpp:575
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Vyčyści śmietnicu"
-
-#: ../kfile/kfileplacesview.cpp:582
-#, fuzzy, kde-format
-#| msgid "Edit Entry..."
-msgid "&Edit Entry '%1'..."
-msgstr "Redahuj praviła..."
-
-#: ../kfile/kfileplacesview.cpp:604
-#, fuzzy, kde-format
-#| msgid "&Hide '%1'"
-msgid "&Hide Entry '%1'"
-msgstr "&Schavaj „%1”"
-
-#: ../kfile/kfileplacesview.cpp:613
-msgid "&Show All Entries"
-msgstr "&Pakažy ŭsie elementy"
-
-#: ../kfile/kfileplacesview.cpp:624
-#, fuzzy, kde-format
-#| msgid "&Remove '%1'"
-msgid "&Remove Entry '%1'"
-msgstr "&Vydali „%1”"
-
-#: ../kfile/kfileplacesview.cpp:636
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr ""
-"Ty sapraŭdy chočaš vyčyścić śmietnicu? Usio jejnaje źmieściva budzie "
-"vydalenaje."
-
-#: ../kfile/kfiletreeview.cpp:187
-msgid "Show Hidden Folders"
-msgstr "Pakažy schavanyja katalohi"
-
-#: ../kfile/kurlnavigator.cpp:431
-msgid "Copy"
-msgstr "Skapijuj"
-
-#: ../kfile/kurlnavigator.cpp:435
-msgid "Paste"
-msgstr "Uklej"
-
-#: ../kfile/kurlnavigator.cpp:442
-msgid "Edit"
-msgstr "Redahuj"
-
-#: ../kfile/kurlnavigator.cpp:445
-msgid "Navigate"
-msgstr "Pierajdzi"
-
-#: ../kfile/kurlnavigator.cpp:460
-msgid "Show Full Path"
-msgstr "Pakažy ŭsiu ściežku"
-
-#: ../kfile/kurlnavigator.cpp:698
-msgid "Custom Path"
-msgstr "Ułasnaja ściežka"
-
-#: ../kfile/kurlnavigatorbutton.cpp:675
-#, fuzzy
-#| msgid "Store"
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr "Zachoŭvaj"
-
-#: ../kfile/kdirselectdialog.cpp:131
-msgctxt "folder name"
-msgid "New Folder"
-msgstr "Novy kataloh"
-
-#: ../kfile/kdirselectdialog.cpp:136
-#, kde-format
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"Stvary novy kataloh u:\n"
-"%1"
-
-#: ../kfile/kdirselectdialog.cpp:283
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr "Novy kataloh..."
-
-#: ../kfile/kdirselectdialog.cpp:324
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr "Novy kataloh..."
-
-#: ../kfile/kdirselectdialog.cpp:331
-#, fuzzy
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "Move to Trash"
-msgstr "Vykidańnie ŭ śmietnicu"
-
-#: ../kfile/kdirselectdialog.cpp:338
-msgctxt "@action:inmenu"
-msgid "Delete"
-msgstr "Vydali"
-
-#: ../kfile/kdirselectdialog.cpp:347
-msgctxt "@option:check"
-msgid "Show Hidden Folders"
-msgstr "Pakažy schavanyja katalohi"
-
-#: ../kfile/kdirselectdialog.cpp:354
-msgctxt "@action:inmenu"
-msgid "Properties"
-msgstr "Ułaścivaści"
-
-#: ../kfile/kfilewidget.cpp:286
-msgid ""
-"<qt>While typing in the text area, you may be presented with possible "
-"matches. This feature can be controlled by clicking with the right mouse "
-"button and selecting a preferred mode from the <b>Text Completion</b> menu.</"
-"qt>"
-msgstr ""
-"<qt>Padčas upisvańnia tekstu ŭ pole tabie mohuć prapanavać mahčymyja "
-"varyjanty zakančeńnia. Hetyja pavodziny možna źmianić, kliknuŭšy pravaj "
-"knopkaj myšy ŭ pole j vybraŭšy patrebny sposab u menu <b>Zakančeńnie tekstu</"
-"b></qt>."
-
-#: ../kfile/kfilewidget.cpp:364
-#, kde-format
-msgid "Drive: %1"
-msgstr "Pryłada: %1"
-
-#: ../kfile/kfilewidget.cpp:419
-#, kde-format
-msgid ""
-"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
-"if the current location is file:/home/%1 clicking this button will take you "
-"to file:/home.</qt>"
-msgstr ""
-"<qt>Klikni ŭ hetuju knopku, kab pierajści ŭ vyšejšy kataloh.<br /><br /"
-">Naprykład, kali ciapier ty ŭ miescy z adrasam „file:/home/%1”, to kliknuŭšy "
-"ŭ hetuju knopku, ty pierajdzieš u „file:/home”.</qt>"
-
-#: ../kfile/kfilewidget.cpp:423
-msgid "Click this button to move backwards one step in the browsing history."
-msgstr ""
-"Klikni ŭ hetuju knopku, kab viarnucca nazad na adzin krok u śpisie "
-"prahladanych miescaŭ."
-
-#: ../kfile/kfilewidget.cpp:424
-msgid "Click this button to move forward one step in the browsing history."
-msgstr ""
-"Klikni ŭ hetuju knopku, kab pajści napierad na adzin krok u śpisie "
-"prahladanych miescaŭ."
-
-#: ../kfile/kfilewidget.cpp:426
-msgid "Click this button to reload the contents of the current location."
-msgstr "Klikni ŭ hetuju knopku, kab pieračytać źmieściva hetaha miesca."
-
-#: ../kfile/kfilewidget.cpp:428
-msgid "Click this button to create a new folder."
-msgstr "Klikni ŭ hetuju knopku, kab stvaryć novy kataloh."
-
-#: ../kfile/kfilewidget.cpp:434
-msgid "Show Places Navigation Panel"
-msgstr "Pakažy panel miescaŭ"
-
-#: ../kfile/kfilewidget.cpp:441
-msgid "Show Bookmarks"
-msgstr "Pakažy zakładki"
-
-#: ../kfile/kfilewidget.cpp:446
-msgid "Options"
-msgstr "Opcyi"
-
-#: ../kfile/kfilewidget.cpp:448
-msgid ""
-"<qt>This is the preferences menu for the file dialog. Various options can be "
-"accessed from this menu including: <ul><li>how files are sorted in the list</"
-"li><li>types of view, including icon and list</li><li>showing of hidden "
-"files</li><li>the Places navigation panel</li><li>file previews</"
-"li><li>separating folders from files</li></ul></qt>"
-msgstr ""
-"<qt>Heta menu ŭłasnych naładaŭ dla akna vybaru fajłaŭ. Tut možna vybrać: "
-"<ul><li>jak paradkavać fajły ŭ śpisie;</li><li>jak prahladać źmieściva "
-"katalohaŭ: jak ikony, u śpisie i h.d.;</li><li>ci pakazvać schavanyja fajły;"
-"</li><li>ci pakazvać panel miescaŭ;</li><li>ci pakazvać dla fajłaŭ padhlady;"
-"</li><li>ci adasablać katalohi ad fajłaŭ.</li></ul></qt>"
-
-#: ../kfile/kfilewidget.cpp:491
-msgid "Zoom out"
-msgstr "Pamienš"
-
-#: ../kfile/kfilewidget.cpp:493
-msgid "Zoom in"
-msgstr "Pavialič"
-
-#: ../kfile/kfilewidget.cpp:557
-msgid ""
-"<qt>This is the filter to apply to the file list. File names that do not "
-"match the filter will not be shown.<p>You may select from one of the preset "
-"filters in the drop down menu, or you may enter a custom filter directly "
-"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
-msgstr ""
-"<qt>Filtar, jaki budzie vykarystany dla śpisa fajłaŭ. Nazvy fajłaŭ, jakija "
-"nie adpaviadajuć hetamu filtru, nia buduć pakazvacca.<p>Ty možaš albo vybrać "
-"najaŭny šablon z vypłyŭnoha menu, albo ŭpisać ułasny filter u tekstavaje "
-"pole.</p><p>Možna karystacca specyjalnymi znakami, naprykład, „*” i „?”.</"
-"p></qt>"
-
-#: ../kfile/kfilewidget.cpp:563
-msgid "&Filter:"
-msgstr "&Filtruj:"
-
-#: ../kfile/kfilewidget.cpp:788
-msgid "You can only select one file"
-msgstr "Možna vybrać tolki adzin fajł."
-
-#: ../kfile/kfilewidget.cpp:789
-msgid "More than one file provided"
-msgstr "Padadzienyja niekalki fajłaŭ."
-
-#: ../kfile/kfilewidget.cpp:953
-msgid "You can only select local files"
-msgstr "Možna vybrać tolki lakalnyja fajły."
-
-#: ../kfile/kfilewidget.cpp:954
-msgid "Remote files not accepted"
-msgstr "Nielha vybrać fajły ź inšych hostaŭ"
-
-#: ../kfile/kfilewidget.cpp:972
-msgid ""
-"More than one folder has been selected and this dialog does not accept "
-"folders, so it is not possible to decide which one to enter. Please select "
-"only one folder to list it."
-msgstr ""
-
-#: ../kfile/kfilewidget.cpp:972
-msgid "More than one folder provided"
-msgstr "Padadzienyja niekalki katalohaŭ"
-
-#: ../kfile/kfilewidget.cpp:980
-msgid ""
-"At least one folder and one file has been selected. Selected files will be "
-"ignored and the selected folder will be listed"
-msgstr ""
-
-#: ../kfile/kfilewidget.cpp:980
-msgid "Files and folders selected"
-msgstr "Vyłučanyja katalohi j fajły"
-
-#: ../kfile/kfilewidget.cpp:995
-#, fuzzy, kde-format
-#| msgid "The file %1 could not be found"
-msgid "The file \"%1\" could not be found"
-msgstr "Nie ŭdałosia znajści fajł „%1”."
-
-#: ../kfile/kfilewidget.cpp:995
-msgid "Cannot open file"
-msgstr "Nie ŭdałosia adčynić fajł"
-
-#: ../kfile/kfilewidget.cpp:1266
-msgid "This is the name to save the file as."
-msgstr "Nazva dla zapisvanaha fajła."
-
-#: ../kfile/kfilewidget.cpp:1271
-msgid ""
-"This is the list of files to open. More than one file can be specified by "
-"listing several files, separated by spaces."
-msgstr ""
-"Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, "
-"padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
-
-#: ../kfile/kfilewidget.cpp:1278
-msgid "This is the name of the file to open."
-msgstr "Nazva fajła, jaki treba adčynić."
-
-#: ../kfile/kfilewidget.cpp:1292
-#, fuzzy
-#| msgid "Places"
-msgctxt "@title:window"
-msgid "Places"
-msgstr "Miescy"
-
-#: ../kfile/kfilewidget.cpp:1481
-#, kde-format
-msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
-msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
-
-#: ../kfile/kfilewidget.cpp:1482
-msgid "Overwrite File?"
-msgstr "Nadpisać fajł?"
-
-#: ../kfile/kfilewidget.cpp:1613
-msgid ""
-"The chosen filenames do not\n"
-"appear to be valid."
-msgstr ""
-"Nazvy vybranych fajłaŭ\n"
-"niapravilnyja."
-
-#: ../kfile/kfilewidget.cpp:1615
-msgid "Invalid Filenames"
-msgstr "Niapravilnyja nazvy fajłaŭ"
-
-#: ../kfile/kfilewidget.cpp:1695
-msgid "You can only select local files."
-msgstr "Možna vybrać tolki lakalnyja fajły."
-
-#: ../kfile/kfilewidget.cpp:1696
-msgid "Remote Files Not Accepted"
-msgstr "Nielha vybrać fajły ź inšych hostaŭ"
-
-#: ../kfile/kfilewidget.cpp:1799
-msgid "*|All Folders"
-msgstr "*|Usie katalohi"
-
-#: ../kfile/kfilewidget.cpp:2051
-#, fuzzy, kde-format
-msgid "Icon size: %1 pixels (standard size)"
-msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
-
-#: ../kfile/kfilewidget.cpp:2054
-#, fuzzy, kde-format
-msgid "Icon size: %1 pixels"
-msgstr "Pamier ikon: %1 punktaŭ"
-
-#: ../kfile/kfilewidget.cpp:2191
-#, kde-format
-msgid "Automatically select filename e&xtension (%1)"
-msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
-
-#: ../kfile/kfilewidget.cpp:2192
-#, kde-format
-msgid "the extension <b>%1</b>"
-msgstr "pašyreńnie <b>%1</b>"
-
-#: ../kfile/kfilewidget.cpp:2200
-msgid "Automatically select filename e&xtension"
-msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
-
-#: ../kfile/kfilewidget.cpp:2201
-msgid "a suitable extension"
-msgstr "prydatnaje pašyreńnie"
-
-#: ../kfile/kfilewidget.cpp:2211
-#, kde-format
-msgid ""
-"This option enables some convenient features for saving files with "
-"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
-"will be updated if you change the file type to save in.<br /><br /></"
-"li><li>If no extension is specified in the <b>%2</b> text area when you "
-"click <b>Save</b>, %3 will be added to the end of the filename (if the "
-"filename does not already exist). This extension is based on the file type "
-"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
-"an extension for the filename, you can either turn this option off or you "
-"can suppress it by adding a period (.) to the end of the filename (the "
-"period will be automatically removed).</li></ol>If unsure, keep this option "
-"enabled as it makes your files more manageable."
-msgstr ""
-
-#: ../kfile/kfilewidget.cpp:2518
-msgid ""
-"<qt>This button allows you to bookmark specific locations. Click on this "
-"button to open the bookmark menu where you may add, edit or select a "
-"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
-"otherwise operate like bookmarks elsewhere in KDE.</qt>"
-msgstr ""
-"<qt>Hetaja knopka dazvalaje stvarać zakładki dla peŭnych miescaŭ. Klikni ŭ "
-"hetuju knopku, kab adčynić menu zakładak. Tudy ty možaš dadavać novyja "
-"zakładki, redahavać ci vybirać najaŭnyja zakładki.<br /><br />Jany "
-"adnosiacca tolki da akna vybaru fajłaŭ, ale dziejničajuć, jak zvyčajnyja "
-"zakładki systemy KDE.</qt>"
 
 #~ msgid "The specified folder already exists."
 #~ msgstr "Aznačany kataloh užo isnuje."

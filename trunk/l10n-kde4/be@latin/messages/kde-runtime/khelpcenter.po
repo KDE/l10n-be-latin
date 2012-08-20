@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:46+0200\n"
+"POT-Creation-Date: 2012-08-20 04:51+0200\n"
 "PO-Revision-Date: 2008-11-26 01:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,6 +18,14 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
 
 #: application.cpp:59 navigator.cpp:439
 msgid "KDE Help Center"
@@ -370,6 +378,41 @@ msgstr "Dakument dla indeksavańnia"
 msgid "Index directory"
 msgstr "Kataloh indeksu"
 
+#. i18n: ectx: label, entry, group (Search)
+#: khelpcenter.kcfg:11
+msgid "Path to index directory."
+msgstr "Ściežka kataloha indeksu."
+
+#. i18n: ectx: whatsthis, entry, group (Search)
+#: khelpcenter.kcfg:12
+msgid "Path to directory containing search indices."
+msgstr "Ściežka kataloha z indeksami pošuku."
+
+#. i18n: ectx: label, entry, group (Layout)
+#: khelpcenter.kcfg:26
+msgid "Currently visible navigator tab"
+msgstr "Dziejna ŭklučanaja kartka navihacyi"
+
+#. i18n: ectx: Menu (edit)
+#: khelpcenterui.rc:5
+msgid "&Edit"
+msgstr "&Redahuj"
+
+#. i18n: ectx: Menu (view)
+#: khelpcenterui.rc:13
+msgid "&View"
+msgstr "&Vyhlad"
+
+#. i18n: ectx: Menu (go)
+#: khelpcenterui.rc:18
+msgid "&Go"
+msgstr "&Idzi"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: khelpcenterui.rc:34
+msgid "Main Toolbar"
+msgstr "Hałoŭnaja panel pryładździa"
+
 #: mainwindow.cpp:72
 msgid "Search Error Log"
 msgstr "Log pamyłak pošuku"
@@ -461,58 +504,6 @@ msgstr "Stvary"
 #: navigator.cpp:575
 msgid "Do Not Create"
 msgstr "Nie stvaraj"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Ihar Hračyška"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ihar.hrachyshka@gmail.com"
-
-#. i18n: file: khelpcenter.kcfg:11
-#. i18n: ectx: label, entry, group (Search)
-#: rc.cpp:5
-msgid "Path to index directory."
-msgstr "Ściežka kataloha indeksu."
-
-#. i18n: file: khelpcenter.kcfg:12
-#. i18n: ectx: whatsthis, entry, group (Search)
-#: rc.cpp:8
-msgid "Path to directory containing search indices."
-msgstr "Ściežka kataloha z indeksami pošuku."
-
-#. i18n: file: khelpcenter.kcfg:26
-#. i18n: ectx: label, entry, group (Layout)
-#: rc.cpp:11
-msgid "Currently visible navigator tab"
-msgstr "Dziejna ŭklučanaja kartka navihacyi"
-
-#. i18n: file: khelpcenterui.rc:5
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:15
-msgid "&Edit"
-msgstr "&Redahuj"
-
-#. i18n: file: khelpcenterui.rc:13
-#. i18n: ectx: Menu (view)
-#: rc.cpp:18
-msgid "&View"
-msgstr "&Vyhlad"
-
-#. i18n: file: khelpcenterui.rc:18
-#. i18n: ectx: Menu (go)
-#: rc.cpp:21
-msgid "&Go"
-msgstr "&Idzi"
-
-#. i18n: file: khelpcenterui.rc:34
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:24
-msgid "Main Toolbar"
-msgstr "Hałoŭnaja panel pryładździa"
 
 #: searchengine.cpp:78
 msgid "Error: No document type specified."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 15:39+0200\n"
+"POT-Creation-Date: 2012-08-21 19:32+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -920,12 +920,12 @@ msgstr "Klikni, kab bačyć panel miesca"
 msgid "Click to Edit Location"
 msgstr "Klikni, kab adredahavać adras miesca"
 
-#: ../kioslave/file/file.cpp:211
+#: ../kioslave/file/file.cpp:204
 #, kde-format
 msgid "Setting ACL for %1"
 msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
 
-#: ../kioslave/file/file.cpp:728 ../kioslave/file/file_unix.cpp:300
+#: ../kioslave/file/file.cpp:721 ../kioslave/file/file_unix.cpp:300
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -934,35 +934,35 @@ msgstr ""
 "Nie ŭdałosia źmianić dazvoły na\n"
 "%1"
 
-#: ../kioslave/file/file.cpp:923
+#: ../kioslave/file/file.cpp:916
 msgid "No Media inserted or Media not recognized."
 msgstr "Nośbit nia ŭsunuty albo nie raspaznany."
 
-#: ../kioslave/file/file.cpp:933 ../kioslave/file/file.cpp:1142
+#: ../kioslave/file/file.cpp:926 ../kioslave/file/file.cpp:1135
 msgid "\"vold\" is not running."
 msgstr "Słužba „vold” nie pracuje."
 
-#: ../kioslave/file/file.cpp:968
+#: ../kioslave/file/file.cpp:961
 msgid "Could not find program \"mount\""
 msgstr "Nie ŭdałosia znajści prahramu „mount”."
 
-#: ../kioslave/file/file.cpp:1047
+#: ../kioslave/file/file.cpp:1040
 #, fuzzy
 #| msgid "Writing to %1 is not supported."
 msgid "mounting is not supported by wince."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: ../kioslave/file/file.cpp:1155
+#: ../kioslave/file/file.cpp:1148
 msgid "Could not find program \"umount\""
 msgstr "Nie ŭdałosia znajści prahramu „umount”."
 
-#: ../kioslave/file/file.cpp:1169
+#: ../kioslave/file/file.cpp:1162
 #, fuzzy
 #| msgid "Writing to %1 is not supported."
 msgid "unmounting is not supported by wince."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: ../kioslave/file/file.cpp:1256
+#: ../kioslave/file/file.cpp:1249
 #, kde-format
 msgid "Could not read %1"
 msgstr "Nie ŭdałosia pračytać z „%1”."

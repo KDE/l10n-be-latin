@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-30 04:28+0200\n"
+"POT-Creation-Date: 2012-09-05 13:01+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6000,19 +6000,19 @@ msgstr "&Tak"
 msgid "&No"
 msgstr "&Nie"
 
-#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:922 kssl/sslui.cpp:81
+#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:846 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Detali"
 
-#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:939 kssl/sslui.cpp:120
+#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:863 kssl/sslui.cpp:120
 msgid "&Forever"
 msgstr "&Pryjmaj nadalej"
 
-#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:922 kssl/sslui.cpp:82
+#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:846 kssl/sslui.cpp:82
 msgid "Co&ntinue"
 msgstr "&Praciahvaj"
 
-#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:940 kssl/sslui.cpp:121
+#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:864 kssl/sslui.cpp:121
 #, fuzzy
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
@@ -6022,7 +6022,7 @@ msgstr "&Tolki dla dziejnych sesijaŭ"
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
 
-#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:867
+#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:791
 msgid "SSL"
 msgstr "SSL"
 
@@ -6036,7 +6036,7 @@ msgstr ""
 "zašyfravanymi.\n"
 "Inšy karystańnik sieciva zmoža padhladzieć pierasyłanyja źviestki."
 
-#: kio/tcpslavebase.cpp:340 kio/tcpslavebase.cpp:700
+#: kio/tcpslavebase.cpp:340 kio/tcpslavebase.cpp:624
 msgid "Security Information"
 msgstr "Infarmacyja pra biaśpiečnaść spałučeńnia"
 
@@ -6050,7 +6050,7 @@ msgctxt "%1 is a host name"
 msgid "%1: SSL negotiation failed"
 msgstr "%1: nie ŭdałosia zaćvierdzić SSL"
 
-#: kio/tcpslavebase.cpp:694
+#: kio/tcpslavebase.cpp:618
 msgid ""
 "You are about to enter secure mode. All transmissions will be encrypted "
 "unless otherwise noted.\n"
@@ -6061,31 +6061,31 @@ msgstr ""
 "zašyfravanymi (kali nie paznačana inačaj).\n"
 "Inšy karystańnik sieciva nia zmoža lohka padhladzieć pierasyłanyja źviestki."
 
-#: kio/tcpslavebase.cpp:701
+#: kio/tcpslavebase.cpp:625
 msgid "Display SSL &Information"
 msgstr "Pakažy &źviestki SSL"
 
-#: kio/tcpslavebase.cpp:702
+#: kio/tcpslavebase.cpp:626
 msgid "C&onnect"
 msgstr "&Spałučy"
 
-#: kio/tcpslavebase.cpp:838
+#: kio/tcpslavebase.cpp:762
 msgid "Enter the certificate password:"
 msgstr "Upišy parol dla sertyfikata:"
 
-#: kio/tcpslavebase.cpp:839
+#: kio/tcpslavebase.cpp:763
 msgid "SSL Certificate Password"
 msgstr "Parol dla sertyfikata SSL"
 
-#: kio/tcpslavebase.cpp:852
+#: kio/tcpslavebase.cpp:776
 msgid "Unable to open the certificate. Try a new password?"
 msgstr "Nie ŭdałosia adčynić sertyfikat. Pasprabuješ inšy parol?"
 
-#: kio/tcpslavebase.cpp:865
+#: kio/tcpslavebase.cpp:789
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Nie ŭdałosia aznačyć dla sesii sertyfikat klijenta."
 
-#: kio/tcpslavebase.cpp:911 kssl/sslui.cpp:71
+#: kio/tcpslavebase.cpp:835 kssl/sslui.cpp:71
 #, kde-format
 msgid ""
 "The server failed the authenticity check (%1).\n"
@@ -6094,19 +6094,19 @@ msgstr ""
 "Serveru nie ŭdałosia spraŭdzić tojesnaść (%1).\n"
 "\n"
 
-#: kio/tcpslavebase.cpp:921 kio/tcpslavebase.cpp:938 kio/tcpslavebase.cpp:1040
-#: kio/tcpslavebase.cpp:1052 kssl/sslui.cpp:80 kssl/sslui.cpp:119
+#: kio/tcpslavebase.cpp:845 kio/tcpslavebase.cpp:862 kio/tcpslavebase.cpp:964
+#: kio/tcpslavebase.cpp:976 kssl/sslui.cpp:80 kssl/sslui.cpp:119
 msgid "Server Authentication"
 msgstr "Spraŭdžvańnie tojesnaści servera"
 
-#: kio/tcpslavebase.cpp:935 kssl/sslui.cpp:116
+#: kio/tcpslavebase.cpp:859 kssl/sslui.cpp:116
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "Ci chočaš nadalej pryjmać hety sertyfikat, nie paćviardžajučy štoraz svaju "
 "zhodu?"
 
-#: kio/tcpslavebase.cpp:1039
+#: kio/tcpslavebase.cpp:963
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
@@ -6114,7 +6114,7 @@ msgstr ""
 "Ty adkazaŭ, što chočaš pryniać hety sertyfikat, ale jon nie naležyć serveru, "
 "jaki jaho pakazvaje. Sapraŭdy chočaš praciahnuć čytańnie?"
 
-#: kio/tcpslavebase.cpp:1051
+#: kio/tcpslavebase.cpp:975
 #, fuzzy
 #| msgid ""
 #| "SSL certificate is being rejected as requested. You can disable this in "

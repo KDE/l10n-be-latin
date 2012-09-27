@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-25 09:19+0000\n"
+"POT-Creation-Date: 2012-09-27 03:38+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -219,7 +219,7 @@ msgstr ""
 "Pryłada dla naładžvańnia prahramaŭ, jakija aŭtamatyčna ŭklučajucca z "
 "systemaj KDE."
 
-#: kcontrol/autostart/autostart.desktop:141
+#: kcontrol/autostart/autostart.desktop:138
 msgctxt "X-KDE-Keywords"
 msgid "Autostart Manager,autostart,startup,system startup,kde start,cron"
 msgstr ""
@@ -274,7 +274,7 @@ msgctxt "Comment"
 msgid "Configure date and time settings"
 msgstr "Nałady klavijatury j myšy"
 
-#: kcontrol/dateandtime/clock.desktop:147
+#: kcontrol/dateandtime/clock.desktop:144
 msgctxt "X-KDE-Keywords"
 msgid ""
 "clock,date,time,time zone,ntp,synchronize,calendar,local time,region time"
@@ -598,21 +598,27 @@ msgid ""
 msgstr ""
 
 #: kcontrol/screensaver/screensaver.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
 msgctxt "Name"
-msgid "Screen Saver"
+msgid "Screen Locker"
 msgstr "Achoŭnik ekrana"
 
-#: kcontrol/screensaver/screensaver.desktop:106
+#: kcontrol/screensaver/screensaver.desktop:16
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Screen Saver Settings"
 msgctxt "Comment"
-msgid "Screen Saver Settings"
+msgid "Screen Locker Settings"
 msgstr "Nałady achoŭnika ekrana"
 
-#: kcontrol/screensaver/screensaver.desktop:199
+#: kcontrol/screensaver/screensaver.desktop:18
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Screen Saver"
 msgctxt "X-KDE-Keywords"
-msgid "screensavers,Priority"
+msgid "screensavers,Priority,locking,security"
 msgstr "Achoŭnik ekrana"
 
 #: kcontrol/smartcard/smartcard.desktop:15
@@ -2311,7 +2317,7 @@ msgctxt "Name"
 msgid "Password dialog"
 msgstr "Absłuhoŭvańnie zapaminańnia parolaŭ"
 
-#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:10
+#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:12
 msgctxt "Comment"
 msgid ""
 "Screen locker that provides a password dialog and an interface to switch the "
@@ -7074,6 +7080,10 @@ msgstr "Prahladnik šryftoŭ"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Screen Saver"
+#~ msgstr "Achoŭnik ekrana"
 
 #, fuzzy
 #~| msgctxt "Name"

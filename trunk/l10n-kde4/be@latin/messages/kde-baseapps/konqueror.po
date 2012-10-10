@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-29 04:54+0200\n"
+"POT-Creation-Date: 2012-10-10 10:09+0200\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2227,33 +2227,58 @@ msgstr "Vydali"
 msgid "Open tabs inside current window"
 msgstr "Adčyni kartki ŭ dziejnym aknie"
 
-#: src/konqsessionmanager.cpp:330
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-"Prahrama „Konqueror” minuły raz kiepska skončyła pracu. Uznavić tuju sesiju?"
-
-#: src/konqsessionmanager.cpp:332
+#: src/konqsessionmanager.cpp:98
 #, fuzzy
 #| msgid "Restore Session?"
 msgctxt "@title:window"
 msgid "Restore Session?"
 msgstr "Uznavić sesiju?"
 
-#: src/konqsessionmanager.cpp:333
+#: src/konqsessionmanager.cpp:101
+#, fuzzy
+#| msgid "Restore Session"
+msgctxt "@action:button yes"
 msgid "Restore Session"
 msgstr "Uznavi sesiju"
 
-#: src/konqsessionmanager.cpp:334
+#: src/konqsessionmanager.cpp:102
+#, fuzzy
+#| msgid "Do Not Restore"
+msgctxt "@action:button no"
 msgid "Do Not Restore"
 msgstr "Nie ŭznaŭlaj"
 
-#: src/konqsessionmanager.cpp:335
+#: src/konqsessionmanager.cpp:103
+#, fuzzy
+#| msgid "Ask Me Later"
+msgctxt "@action:button ask later"
 msgid "Ask Me Later"
 msgstr "Spytaj paźniej"
+
+#: src/konqsessionmanager.cpp:131
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore these previous "
+"sessions?"
+msgstr ""
+"Prahrama „Konqueror” minuły raz kiepska skončyła pracu. Uznavić tuju sesiju?"
+
+#: src/konqsessionmanager.cpp:145
+msgctxt "@tooltip:session list"
+msgid "Uncheck the sessions you do not want to be restored"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:177
+#, fuzzy, kde-format
+#| msgid "&Window"
+msgctxt "@item:treewidget"
+msgid "Window %1"
+msgstr "&Akno"
+
+#: src/konqsessionmanager.cpp:218
+msgid "Do not ask again"
+msgstr ""
 
 #: src/konqtabs.cpp:67
 msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 05:29+0200\n"
+"POT-Creation-Date: 2012-10-12 04:43+0200\n"
 "PO-Revision-Date: 2008-09-19 15:50+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,6 +18,22 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: bindings.cpp:34
+msgid "Switch to Next Keyboard Layout"
+msgstr "Uklučy nastupny vykład"
+
+#: bindings.cpp:35
+#, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
+msgid "KDE Keyboard Layout Switcher"
+msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
+
+#: bindings.cpp:67
+#, fuzzy, kde-format
+#| msgid "Error changing keyboard layout to '%1'"
+msgid "Switch keyboard layout to %1"
+msgstr "Pamyłka źmieny klavijaturnaha vykładu na „%1”."
 
 #: flags.cpp:138
 #, kde-format
@@ -148,14 +164,8 @@ msgstr "Naładź..."
 #~ msgid "A utility to switch keyboard maps"
 #~ msgstr "Pryłada dla pieraklučeńnia klavijaturnych vykładaŭ"
 
-#~ msgid "Switch to Next Keyboard Layout"
-#~ msgstr "Uklučy nastupny vykład"
-
 #~ msgid "Group %1"
 #~ msgstr "Hrupa „%1”"
-
-#~ msgid "Error changing keyboard layout to '%1'"
-#~ msgstr "Pamyłka źmieny klavijaturnaha vykładu na „%1”."
 
 #~ msgid "KDE will configure layouts and start layout indicator"
 #~ msgstr "KDE naładzić vykłady i ŭklučyć adpaviedny indykatar."

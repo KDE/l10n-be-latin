@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-14 02:37+0100\n"
+"POT-Creation-Date: 2013-01-04 02:54+0100\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1030,8 +1030,8 @@ msgctxt "@title:window"
 msgid "Add web sidebar module"
 msgstr ""
 
-#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5197
-#: src/konqmainwindow.cpp:5257
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5199
+#: src/konqmainwindow.cpp:5259
 msgid "no name"
 msgstr "biaz nazvy"
 
@@ -1485,7 +1485,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:1724 src/konqmainwindow.cpp:2464
 #: src/konqmainwindow.cpp:2555 src/konqmainwindow.cpp:2585
 #: src/konqmainwindow.cpp:2627 src/konqmainwindow.cpp:2649
-#: src/konqmainwindow.cpp:5159 src/konqviewmanager.cpp:1426
+#: src/konqmainwindow.cpp:5161 src/konqviewmanager.cpp:1423
 #, fuzzy
 #| msgid "Discard Changes?"
 msgctxt "@title:window"
@@ -1495,7 +1495,7 @@ msgstr "Anulavać źmieny?"
 #: src/konqmainwindow.cpp:1724 src/konqmainwindow.cpp:2464
 #: src/konqmainwindow.cpp:2555 src/konqmainwindow.cpp:2585
 #: src/konqmainwindow.cpp:2627 src/konqmainwindow.cpp:2650
-#: src/konqmainwindow.cpp:5159 src/konqviewmanager.cpp:1426
+#: src/konqmainwindow.cpp:5161 src/konqviewmanager.cpp:1423
 msgid "&Discard Changes"
 msgstr "&Anuluj źmieny"
 
@@ -2042,37 +2042,37 @@ msgstr "Adčyni ŭ novaj &kartcy"
 msgid "Open the document in a new tab"
 msgstr "Adčyni dakument u novaj kartcy"
 
-#: src/konqmainwindow.cpp:4936
+#: src/konqmainwindow.cpp:4938
 msgid "&Open With"
 msgstr "&Adčyni"
 
-#: src/konqmainwindow.cpp:4950
+#: src/konqmainwindow.cpp:4952
 #, kde-format
 msgid "Open with %1"
 msgstr "Adčyni ŭ „%1”"
 
-#: src/konqmainwindow.cpp:4996
+#: src/konqmainwindow.cpp:4998
 msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "&Sposab prahladu"
 
-#: src/konqmainwindow.cpp:5122
+#: src/konqmainwindow.cpp:5124
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "U hetym aknie adčynienyja niekalki kartak. Sapraŭdy chočaš vyjści?"
 
-#: src/konqmainwindow.cpp:5124 src/konqviewmanager.cpp:1412
+#: src/konqmainwindow.cpp:5126 src/konqviewmanager.cpp:1409
 #, fuzzy
 #| msgid "Confirmation"
 msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "Paćviardžeńnie"
 
-#: src/konqmainwindow.cpp:5126
+#: src/konqmainwindow.cpp:5128
 msgid "C&lose Current Tab"
 msgstr "&Začyni hetuju kartku"
 
-#: src/konqmainwindow.cpp:5155
+#: src/konqmainwindow.cpp:5157
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -2080,7 +2080,7 @@ msgstr ""
 "Hetaja kartka ŭtrymvaje niavysłanyja źmieny.\n"
 "Začyniŭšy akno, ty ich straciš."
 
-#: src/konqmainwindow.cpp:5156
+#: src/konqmainwindow.cpp:5158
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -2088,33 +2088,33 @@ msgstr ""
 "Hetaja staronka ŭtrymvaje niavysłanyja źmieny.\n"
 "Začyniŭšy akno, ty ich straciš."
 
-#: src/konqmainwindow.cpp:5324
+#: src/konqmainwindow.cpp:5326
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 "Bakavaja panel nie pracuje ci jaje niama. Nie ŭdałosia dadać novy element."
 
-#: src/konqmainwindow.cpp:5324 src/konqmainwindow.cpp:5331
+#: src/konqmainwindow.cpp:5326 src/konqmainwindow.cpp:5333
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "Sieciŭnaja bakavaja panel"
 
-#: src/konqmainwindow.cpp:5329
+#: src/konqmainwindow.cpp:5331
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "Dadać novaje sieciŭnaje pašyreńnie „%1” u bakavuju panel?"
 
-#: src/konqmainwindow.cpp:5331
+#: src/konqmainwindow.cpp:5333
 msgid "Add"
 msgstr "Dadaj"
 
-#: src/konqmainwindow.cpp:5331
+#: src/konqmainwindow.cpp:5333
 msgid "Do Not Add"
 msgstr "Nie dadavaj"
 
-#: src/konqmainwindow.cpp:5644
+#: src/konqmainwindow.cpp:5646
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -2536,7 +2536,7 @@ msgstr "Uvaha"
 msgid "Resend"
 msgstr "Pierašli"
 
-#: src/konqviewmanager.cpp:1410
+#: src/konqviewmanager.cpp:1407
 msgid ""
 "You have multiple tabs open in this window.\n"
 "Loading a view profile will close them."
@@ -2544,11 +2544,11 @@ msgstr ""
 "U hetym aknie adčynienyja niekalki kartak.\n"
 "Adčytaŭšy profil prahladu, ty ich straciš."
 
-#: src/konqviewmanager.cpp:1413
+#: src/konqviewmanager.cpp:1410
 msgid "Load View Profile"
 msgstr "Adčytaj profil prahladu"
 
-#: src/konqviewmanager.cpp:1425
+#: src/konqviewmanager.cpp:1422
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."

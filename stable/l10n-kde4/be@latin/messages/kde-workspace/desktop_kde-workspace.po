@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-09 10:02+0000\n"
+"POT-Creation-Date: 2013-01-11 08:48+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -24,7 +24,7 @@ msgctxt "Name"
 msgid "Application menus daemon"
 msgstr "Padručniki pa aplikacyjach"
 
-#: appmenu/appmenu.desktop:36
+#: appmenu/appmenu.desktop:37
 msgctxt "Comment"
 msgid "Transfers application's menu to the desktop"
 msgstr ""
@@ -56,13 +56,13 @@ msgid "Low Disk Space"
 msgstr ""
 
 #: freespacenotifier/freespacenotifier.notifyrc:134
-#: powerdevil/powerdevil.notifyrc:99
+#: powerdevil/powerdevil.notifyrc:100
 msgctxt "Name"
 msgid "Warning"
 msgstr "Uvaha"
 
 #: freespacenotifier/freespacenotifier.notifyrc:221
-#: powerdevil/powerdevil.notifyrc:186
+#: powerdevil/powerdevil.notifyrc:187
 msgctxt "Comment"
 msgid "Used for warning notifications"
 msgstr "Dla aścierahalnych paviedamleńniaŭ"
@@ -230,7 +230,7 @@ msgstr ""
 "Pryłada dla naładžvańnia prahramaŭ, jakija aŭtamatyčna ŭklučajucca z "
 "systemaj KDE."
 
-#: kcontrol/autostart/autostart.desktop:138
+#: kcontrol/autostart/autostart.desktop:140
 msgctxt "X-KDE-Keywords"
 msgid "Autostart Manager,autostart,startup,system startup,kde start,cron"
 msgstr ""
@@ -616,7 +616,7 @@ msgctxt "Name"
 msgid "Screen Locker"
 msgstr "Achoŭnik ekrana"
 
-#: kcontrol/screensaver/screensaver.desktop:50
+#: kcontrol/screensaver/screensaver.desktop:51
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Screen Saver Settings"
@@ -624,7 +624,7 @@ msgctxt "Comment"
 msgid "Screen Locker Settings"
 msgstr "Nałady achoŭnika ekrana"
 
-#: kcontrol/screensaver/screensaver.desktop:86
+#: kcontrol/screensaver/screensaver.desktop:88
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Screen Saver"
@@ -672,17 +672,17 @@ msgctxt "Name"
 msgid "Menubar manager"
 msgstr "Kiraŭnik dla kalendara"
 
-#: kcontrol/style/kcmstyle.notifyrc:33
+#: kcontrol/style/kcmstyle.notifyrc:35
 msgctxt "Comment"
 msgid "Menubar exporter"
 msgstr ""
 
-#: kcontrol/style/kcmstyle.notifyrc:64
+#: kcontrol/style/kcmstyle.notifyrc:67
 msgctxt "Name"
 msgid "Menubar changed"
 msgstr ""
 
-#: kcontrol/style/kcmstyle.notifyrc:94
+#: kcontrol/style/kcmstyle.notifyrc:98
 msgctxt "Comment"
 msgid "Settings changes will take effect only on application restart"
 msgstr ""
@@ -2359,7 +2359,7 @@ msgctxt "Name"
 msgid "Password dialog"
 msgstr "Absłuhoŭvańnie zapaminańnia parolaŭ"
 
-#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:36
+#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:37
 msgctxt "Comment"
 msgid ""
 "Screen locker that provides a password dialog and an interface to switch the "
@@ -2735,7 +2735,7 @@ msgctxt "Name"
 msgid "KDE TouchPad Enabler Daemon"
 msgstr ""
 
-#: ktouchpadenabler/ktouchpadenabler.desktop:45
+#: ktouchpadenabler/ktouchpadenabler.desktop:46
 msgctxt "Comment"
 msgid "Toggles the enable status of the TouchPad"
 msgstr ""
@@ -3053,7 +3053,7 @@ msgctxt "Comment"
 msgid "Animation for a window going to maximize/restore from maximize"
 msgstr ""
 
-#: kwin/effects/maximize/package/metadata.desktop:33
+#: kwin/effects/maximize/package/metadata.desktop:34
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Maximize"
@@ -3080,7 +3080,7 @@ msgctxt "Name"
 msgid "Mouse Click Animation"
 msgstr "Jašče"
 
-#: kwin/effects/mouseclick/mouseclick.desktop:37
+#: kwin/effects/mouseclick/mouseclick.desktop:38
 msgctxt "Comment"
 msgid ""
 "Creates an animation whenever a mouse button is clicked. This is useful for "
@@ -6242,27 +6242,27 @@ msgctxt "Comment"
 msgid "Power Management System"
 msgstr "Kiravańnie enerhijaj"
 
-#: powerdevil/powerdevil.notifyrc:261
+#: powerdevil/powerdevil.notifyrc:262
 msgctxt "Name"
 msgid "Notification"
 msgstr "Infarmavańnie"
 
-#: powerdevil/powerdevil.notifyrc:346
+#: powerdevil/powerdevil.notifyrc:347
 msgctxt "Comment"
 msgid "Used for standard notifications"
 msgstr "Dla zvyčajnych infarmavańniaŭ"
 
-#: powerdevil/powerdevil.notifyrc:421
+#: powerdevil/powerdevil.notifyrc:422
 msgctxt "Name"
 msgid "Critical notification"
 msgstr "Važnaje infarmavańnie"
 
-#: powerdevil/powerdevil.notifyrc:497
+#: powerdevil/powerdevil.notifyrc:498
 msgctxt "Comment"
 msgid "Notifies a critical event"
 msgstr "Paviedamlaje pra važnuju padzieju"
 
-#: powerdevil/powerdevil.notifyrc:573
+#: powerdevil/powerdevil.notifyrc:574
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Low Battery"
@@ -6270,12 +6270,12 @@ msgctxt "Name"
 msgid "Battery Low"
 msgstr "Nizki zarad batarei"
 
-#: powerdevil/powerdevil.notifyrc:608
+#: powerdevil/powerdevil.notifyrc:610
 msgctxt "Comment"
 msgid "Your battery has reached low level"
 msgstr "Tvaja batareja maje nizki zarad."
 
-#: powerdevil/powerdevil.notifyrc:690
+#: powerdevil/powerdevil.notifyrc:692
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Battery at critical level"
@@ -6283,7 +6283,7 @@ msgctxt "Name"
 msgid "Battery Critical"
 msgstr "Batareja maje vielmi nizki zarad"
 
-#: powerdevil/powerdevil.notifyrc:726
+#: powerdevil/powerdevil.notifyrc:729
 msgctxt "Comment"
 msgid ""
 "Your battery has reached critical level. This notification triggers a "
@@ -6294,37 +6294,37 @@ msgstr ""
 "ličylnik da času vykanańnia aznačanych dziejańniaŭ. My raim pakinuć jaho "
 "ŭklučanym."
 
-#: powerdevil/powerdevil.notifyrc:800
+#: powerdevil/powerdevil.notifyrc:803
 msgctxt "Name"
 msgid "Charge Complete"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:836
+#: powerdevil/powerdevil.notifyrc:840
 msgctxt "Comment"
 msgid "The battery is fully charged"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:876
+#: powerdevil/powerdevil.notifyrc:881
 msgctxt "Name"
 msgid "AC adaptor plugged in"
 msgstr "Padłučany blok siłkavańnia"
 
-#: powerdevil/powerdevil.notifyrc:952
+#: powerdevil/powerdevil.notifyrc:957
 msgctxt "Comment"
 msgid "The power adaptor has been plugged in"
 msgstr "Padłučany blok siłkavańnia."
 
-#: powerdevil/powerdevil.notifyrc:1034
+#: powerdevil/powerdevil.notifyrc:1039
 msgctxt "Name"
 msgid "AC adaptor unplugged"
 msgstr "Adłučany blok siłkavańnia"
 
-#: powerdevil/powerdevil.notifyrc:1110
+#: powerdevil/powerdevil.notifyrc:1115
 msgctxt "Comment"
 msgid "The power adaptor has been unplugged"
 msgstr "Adłučany blok siłkavańnia."
 
-#: powerdevil/powerdevil.notifyrc:1192
+#: powerdevil/powerdevil.notifyrc:1197
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Fatal Error"
@@ -6332,7 +6332,7 @@ msgctxt "Name"
 msgid "Internal Error"
 msgstr "Važnaja pamyłka"
 
-#: powerdevil/powerdevil.notifyrc:1228
+#: powerdevil/powerdevil.notifyrc:1234
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "PowerDevil has triggered an internal error"
@@ -6340,17 +6340,17 @@ msgctxt "Comment"
 msgid "The KDE Power Management System has triggered an internal error"
 msgstr "Słužba „PowerDevil” napatkała ŭnutranuju pamyłku."
 
-#: powerdevil/powerdevil.notifyrc:1288
+#: powerdevil/powerdevil.notifyrc:1294
 msgctxt "Name"
 msgid "Suspension inhibited"
 msgstr "Son zabaronieny"
 
-#: powerdevil/powerdevil.notifyrc:1358
+#: powerdevil/powerdevil.notifyrc:1364
 msgctxt "Comment"
 msgid "The suspension has been inhibited because an application requested it"
 msgstr "Son zabaronieny niejkaj aplikacyjaj."
 
-#: powerdevil/powerdevil.notifyrc:1432
+#: powerdevil/powerdevil.notifyrc:1438
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Browser Identification"
@@ -6358,7 +6358,7 @@ msgctxt "Name"
 msgid "Broken battery notification"
 msgstr "Identyfikacyja hartača"
 
-#: powerdevil/powerdevil.notifyrc:1488
+#: powerdevil/powerdevil.notifyrc:1494
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "PowerDevil has triggered an internal error"
@@ -6434,9 +6434,9 @@ msgctxt "Name|AC adapter plugged in"
 msgid "Plugged"
 msgstr "Phluid"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:43
+#: solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:44
 #: solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:366
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:329
+#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:330
 #: solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:217
 #: solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:216
 #: solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:146
@@ -6513,12 +6513,12 @@ msgctxt "Name|battery plugged in"
 msgid "Plugged"
 msgstr "Phluid"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:186
+#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:187
 msgctxt "Name"
 msgid "Rechargeable"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:254
+#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:255
 #: solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:141
 msgctxt "Name"
 msgid "Type"
@@ -6844,7 +6844,7 @@ msgctxt "Comment"
 msgid "Manage actions available to the user when connecting new devices"
 msgstr ""
 
-#: solid/solid-actions-kcm/solid-actions.desktop:119
+#: solid/solid-actions-kcm/solid-actions.desktop:120
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Device Information"

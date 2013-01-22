@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-20 02:42+0000\n"
+"POT-Creation-Date: 2013-01-22 04:56+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -725,10 +725,10 @@ msgstr "Rabočy kub"
 #: kioslave/thumbnail/directorythumbnail.desktop:3
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Files and Directories"
+#| msgid "Folder"
 msgctxt "Name"
-msgid "Directories"
-msgstr "Fajły j katalohi"
+msgid "Folders"
+msgstr "Kataloh"
 
 #: kioslave/thumbnail/djvuthumbnail.desktop:3
 msgctxt "Name"
@@ -5935,6 +5935,13 @@ msgid "Provides a user interface for hardware events"
 msgstr ""
 
 #, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Files and Directories"
+#~ msgctxt "Name"
+#~ msgid "Directories"
+#~ msgstr "Fajły j katalohi"
+
+#, fuzzy
 #~| msgctxt "Comment"
 #~| msgid "System Bell Configuration"
 #~ msgctxt "Comment"
@@ -6916,10 +6923,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Test"
 #~ msgstr "Test"
-
-#~ msgctxt "Name"
-#~ msgid "Folder"
-#~ msgstr "Kataloh"
 
 #~ msgctxt "Name"
 #~ msgid "FTP Archives"

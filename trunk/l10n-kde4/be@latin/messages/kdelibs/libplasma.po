@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-22 04:07+0100\n"
+"POT-Creation-Date: 2013-01-31 06:03+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -213,7 +213,7 @@ msgstr ""
 msgid "Keyboard Shortcut"
 msgstr "Klavijaturny skarot"
 
-#: applet.cpp:2116 applet.cpp:2155 package.cpp:782
+#: applet.cpp:2116 applet.cpp:2155 package.cpp:804
 #, kde-format
 msgctxt ""
 "%1 is the name of a plasmoid, %2 the name of the machine that plasmoid is "
@@ -240,28 +240,22 @@ msgstr "Nałady „%1”"
 
 #: applet.cpp:2803
 #, kde-format
-msgctxt "Package file, name of the widget"
-msgid "Could not locate the %1 package required for the %2 widget."
-msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
-
-#: applet.cpp:2823
-#, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "Nie ŭdałosia stvaryć abjekt „ScriptEngine dla %1” dla widžeta „%2”."
 
-#: applet.cpp:2828
+#: applet.cpp:2808
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
-#: applet.cpp:2983
+#: applet.cpp:2962
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
-#: applet.cpp:2987
+#: applet.cpp:2966
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
@@ -780,6 +774,10 @@ msgstr "šukany vyraz"
 #: wallpaper.cpp:245
 msgid "Unknown Wallpaper"
 msgstr "Nieviadomyja špalery"
+
+#~ msgctxt "Package file, name of the widget"
+#~ msgid "Could not locate the %1 package required for the %2 widget."
+#~ msgstr "Nie ŭdałosia znajści pakunak „%1”, jaki patrebny widžetu „%2”."
 
 #~ msgid "Ok"
 #~ msgstr "Dobra"

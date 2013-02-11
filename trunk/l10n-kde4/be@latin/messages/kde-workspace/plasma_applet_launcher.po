@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2012-10-20 05:02+0200\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -55,6 +55,25 @@ msgstr "Viarni klasyčny vykład menu"
 msgctxt "General configuration page"
 msgid "General"
 msgstr "Ahulnaje"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: applet/kickoffConfig.ui:27
+#, fuzzy
+#| msgid "Known Applications"
+msgid "Show applications by &name:"
+msgstr "Viadomyja aplikacyi"
+
+#. i18n: ectx: property (text), widget (QLabel, iconLabel)
+#: applet/kickoffConfig.ui:73
+msgid "&Icon:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: applet/kickoffConfig.ui:86
+#, fuzzy
+#| msgid "Switch tabs on hover"
+msgid "Switch &tabs on hover:"
+msgstr "Pieraklučaj kartki pad kursoram"
 
 #: core/applicationmodel.cpp:334
 msgid "Games"
@@ -421,16 +440,6 @@ msgstr "<b>%1 (%2)</b> na <b>%3</b>"
 msgctxt "Label of the search bar textedit"
 msgid "Search:"
 msgstr "Šukaj:"
-
-#, fuzzy
-#~| msgid "Known Applications"
-#~ msgid "Show applications by &name:"
-#~ msgstr "Viadomyja aplikacyi"
-
-#, fuzzy
-#~| msgid "Switch tabs on hover"
-#~ msgid "Switch &tabs on hover:"
-#~ msgstr "Pieraklučaj kartki pad kursoram"
 
 #~ msgid "Switch to Kickoff Menu Style"
 #~ msgstr "Viarni vykład menu „Kichoff”"

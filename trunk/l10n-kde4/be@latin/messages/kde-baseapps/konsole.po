@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 17:33+0100\n"
+"POT-Creation-Date: 2013-02-15 03:35+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2542,16 +2542,16 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "Farmat nazvy dla kartki inšaha hosta:"
 
-#: TerminalDisplay.cpp:1139 TerminalDisplay.cpp:1140
+#: TerminalDisplay.cpp:1142 TerminalDisplay.cpp:1143
 msgid "Size: XXX x XXX"
 msgstr "Pamier: XXX x XXX"
 
-#: TerminalDisplay.cpp:1151
+#: TerminalDisplay.cpp:1154
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "Pamier: %1 x %2"
 
-#: TerminalDisplay.cpp:2586
+#: TerminalDisplay.cpp:2589
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -2559,13 +2559,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: TerminalDisplay.cpp:2589
+#: TerminalDisplay.cpp:2592
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: TerminalDisplay.cpp:2764
+#: TerminalDisplay.cpp:2767
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
@@ -2574,13 +2574,13 @@ msgstr ""
 "\">ŭstrymanaje</a> skarotam „Ctrl+S”.  Naciśni <b>Ctrl+Q</b>, kab pracavać "
 "dalej.</qt>"
 
-#: TerminalDisplay.cpp:3018
+#: TerminalDisplay.cpp:3021
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "Uklej vyłučeńnie"
 
-#: TerminalDisplay.cpp:3032
+#: TerminalDisplay.cpp:3035
 msgid "Change &Directory To"
 msgstr ""
 
@@ -2726,7 +2726,7 @@ msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "Pieraklučy ŭ kartku %1"
 
-#: Vt102Emulation.cpp:1054
+#: Vt102Emulation.cpp:1056
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."

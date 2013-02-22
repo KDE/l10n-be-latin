@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 03:55+0100\n"
+"POT-Creation-Date: 2013-02-22 13:00+0100\n"
 "PO-Revision-Date: 2008-12-27 14:55+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -27,12 +27,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#: activation.cpp:750
+#: activation.cpp:726
 #, kde-format
 msgid "Window '%1' demands attention."
 msgstr "Akno „%1” vymahaje ŭvahi."
 
-#: composite.cpp:397
+#: composite.cpp:400
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -560,70 +560,70 @@ msgid ""
 "software rendering in this case."
 msgstr ""
 
-#: tabbox/tabbox.cpp:357
+#: tabbox/tabbox.cpp:358
 #, fuzzy
 #| msgid "Show Desktop Grid"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "Sietka stała"
 
-#: tabbox/tabbox.cpp:502
+#: tabbox/tabbox.cpp:503
 msgid "Walk Through Windows"
 msgstr "Pierachod pamiž voknami"
 
-#: tabbox/tabbox.cpp:503
-msgid "Walk Through Windows (Reverse)"
-msgstr "Pierachod pamiž voknami (advarotny kirunak)"
-
 #: tabbox/tabbox.cpp:504
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative"
+msgid "Walk Through Windows (Reverse)"
 msgstr "Pierachod pamiž voknami (advarotny kirunak)"
 
 #: tabbox/tabbox.cpp:505
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative (Reverse)"
+msgid "Walk Through Windows Alternative"
 msgstr "Pierachod pamiž voknami (advarotny kirunak)"
 
 #: tabbox/tabbox.cpp:506
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application"
+msgid "Walk Through Windows Alternative (Reverse)"
 msgstr "Pierachod pamiž voknami (advarotny kirunak)"
 
 #: tabbox/tabbox.cpp:507
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application (Reverse)"
+msgid "Walk Through Windows of Current Application"
 msgstr "Pierachod pamiž voknami (advarotny kirunak)"
 
 #: tabbox/tabbox.cpp:508
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative"
+msgid "Walk Through Windows of Current Application (Reverse)"
 msgstr "Pierachod pamiž voknami (advarotny kirunak)"
 
 #: tabbox/tabbox.cpp:509
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative"
 msgstr "Pierachod pamiž voknami (advarotny kirunak)"
 
 #: tabbox/tabbox.cpp:510
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgstr "Pierachod pamiž voknami (advarotny kirunak)"
+
+#: tabbox/tabbox.cpp:511
 msgid "Walk Through Desktops"
 msgstr "Pierachod pamiž rabočymi stałami"
 
-#: tabbox/tabbox.cpp:511
+#: tabbox/tabbox.cpp:512
 msgid "Walk Through Desktops (Reverse)"
 msgstr "Pierachod pamiž rabočymi stałami (advarotny kirunak)"
 
-#: tabbox/tabbox.cpp:512
+#: tabbox/tabbox.cpp:513
 msgid "Walk Through Desktop List"
 msgstr "Pierachod u śpisie rabočych stałoŭ"
 
-#: tabbox/tabbox.cpp:513
+#: tabbox/tabbox.cpp:514
 msgid "Walk Through Desktop List (Reverse)"
 msgstr "Pierachod u śpisie rabočych stałoŭ (advarotny kirunak)"
 
@@ -846,7 +846,7 @@ msgstr "Uklučy nižejšy stoł"
 msgid "Switch to Desktop %1"
 msgstr "Uklučy stoł „1”"
 
-#: workspace.cpp:1964
+#: workspace.cpp:1912
 msgctxt "Introductory text shown in the support information."
 msgid ""
 "KWin Support Information:\n"

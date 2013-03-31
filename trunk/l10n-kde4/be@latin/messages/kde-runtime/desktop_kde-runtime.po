@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-04 03:40+0000\n"
+"POT-Creation-Date: 2013-03-31 03:06+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -50,7 +50,7 @@ msgctxt "Name"
 msgid "Application dashboard"
 msgstr "Uklučeńnie aplikacyi"
 
-#: desktoptheme/appdashboard/metadata.desktop:62
+#: desktoptheme/appdashboard/metadata.desktop:63
 msgctxt "Comment"
 msgid "Intended as Application dashboard default"
 msgstr ""
@@ -398,7 +398,7 @@ msgctxt "Comment"
 msgid "An application registered new global shortcuts."
 msgstr ""
 
-#: kglobalaccel/kglobalaccel.notifyrc:450
+#: kglobalaccel/kglobalaccel.notifyrc:451
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "KDED Global Shortcuts Server"
@@ -406,7 +406,7 @@ msgctxt "Name"
 msgid "Global Shortcut Triggered"
 msgstr "Słužba paŭsiudnych klavijaturnych skarotaŭ dla „KDE”"
 
-#: kglobalaccel/kglobalaccel.notifyrc:522
+#: kglobalaccel/kglobalaccel.notifyrc:523
 msgctxt "Comment"
 msgid "The user triggered a global shortcut"
 msgstr ""
@@ -673,7 +673,7 @@ msgctxt "Name"
 msgid "Recent Document Watcher"
 msgstr "Niadaŭnyja dakumenty"
 
-#: kioslave/recentdocuments/recentdocumentsnotifier.desktop:64
+#: kioslave/recentdocuments/recentdocumentsnotifier.desktop:65
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Recent Documents"
@@ -835,32 +835,32 @@ msgctxt "Comment"
 msgid "Notifications triggered by hardware devices"
 msgstr "Infarmavańnie j dostup da novych pryładaŭ"
 
-#: knotify/hardwarenotifications.notifyrc:137
+#: knotify/hardwarenotifications.notifyrc:138
 msgctxt "Name"
 msgid "Device Notifier"
 msgstr "Infarmavańnie pra novyja pryłady"
 
-#: knotify/hardwarenotifications.notifyrc:214
+#: knotify/hardwarenotifications.notifyrc:215
 msgctxt "Comment"
 msgid "The Plasma device notifier is present"
 msgstr ""
 
-#: knotify/hardwarenotifications.notifyrc:279
+#: knotify/hardwarenotifications.notifyrc:281
 msgctxt "Name"
 msgid "Mount or unmount error"
 msgstr ""
 
-#: knotify/hardwarenotifications.notifyrc:346
+#: knotify/hardwarenotifications.notifyrc:349
 msgctxt "Comment"
 msgid "There has been a problem mounting or unmounting a device"
 msgstr ""
 
-#: knotify/hardwarenotifications.notifyrc:420
+#: knotify/hardwarenotifications.notifyrc:424
 msgctxt "Name"
 msgid "The device can be safely removed"
 msgstr ""
 
-#: knotify/hardwarenotifications.notifyrc:483
+#: knotify/hardwarenotifications.notifyrc:488
 msgctxt "Comment"
 msgid "The device which has been just unmounted is now safe to remove."
 msgstr ""
@@ -1226,7 +1226,7 @@ msgctxt "Name"
 msgid "Beolingus Online Dictionary"
 msgstr ""
 
-#: kurifilter-plugins/ikws/searchproviders/beolingus.desktop:72
+#: kurifilter-plugins/ikws/searchproviders/beolingus.desktop:73
 msgctxt "Query"
 msgid ""
 "http://dict.tu-chemnitz.de/dings.cgi?"
@@ -1417,7 +1417,7 @@ msgctxt "Name"
 msgid "CNRTL/TILF French dictionary"
 msgstr ""
 
-#: kurifilter-plugins/ikws/searchproviders/dictfr.desktop:76
+#: kurifilter-plugins/ikws/searchproviders/dictfr.desktop:77
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.dict.cc/?s=\\\\{@}"
@@ -1473,7 +1473,7 @@ msgctxt "Name"
 msgid "Duck Duck Go Info"
 msgstr ""
 
-#: kurifilter-plugins/ikws/searchproviders/duckduckgo_info.desktop:72
+#: kurifilter-plugins/ikws/searchproviders/duckduckgo_info.desktop:73
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://dx.doi.org/\\\\{@}"
@@ -1602,7 +1602,7 @@ msgctxt "Name"
 msgid "Flickr Creative Commons"
 msgstr ""
 
-#: kurifilter-plugins/ikws/searchproviders/flickrcc.desktop:71
+#: kurifilter-plugins/ikws/searchproviders/flickrcc.desktop:72
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -5613,7 +5613,7 @@ msgctxt "Name"
 msgid "Nepomuk File Indexing Controller"
 msgstr ""
 
-#: nepomuk/controller/nepomukcontroller.desktop:60
+#: nepomuk/controller/nepomukcontroller.desktop:61
 msgctxt "Comment"
 msgid "System tray icon to control the behaviour of the Nepomuk file indexer"
 msgstr ""
@@ -5631,7 +5631,7 @@ msgctxt "Comment"
 msgid "Nepomuk Server Configuration"
 msgstr "Nałady servera „Nepomuk”/„Strigi”"
 
-#: nepomuk/kcm/kcm_nepomuk.desktop:135
+#: nepomuk/kcm/kcm_nepomuk.desktop:136
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Nepomuk Strigi Service"
@@ -5704,7 +5704,7 @@ msgctxt "Name"
 msgid "Audio Output Device Changed"
 msgstr ""
 
-#: phonon/platform_kde/phonon.notifyrc:221
+#: phonon/platform_kde/phonon.notifyrc:222
 msgctxt "Comment"
 msgid "Notification when audio output device has automatically changed"
 msgstr ""
@@ -5727,7 +5727,7 @@ msgctxt "Name"
 msgid "Newspaper Layout"
 msgstr "Sietka j spałučeńni"
 
-#: plasma/containments/newspaper/plasma-containment-newspaper.desktop:67
+#: plasma/containments/newspaper/plasma-containment-newspaper.desktop:68
 msgctxt "Comment"
 msgid "A layout that puts widgets into columns"
 msgstr ""
@@ -5742,7 +5742,7 @@ msgctxt "Name"
 msgid "Save remote widgets' policies"
 msgstr ""
 
-#: plasma/remotewidgetshelper/kcm_remotewidgets.actions:66
+#: plasma/remotewidgetshelper/kcm_remotewidgets.actions:67
 msgctxt "Description"
 msgid "Prevents the system from saving remote plasma widgets' policies"
 msgstr ""
@@ -5763,7 +5763,7 @@ msgctxt "Name"
 msgid "Javascript Addon"
 msgstr "Java i JavaScript"
 
-#: plasma/scriptengines/javascript/data/plasma-packagestructure-javascript-addon.desktop:66
+#: plasma/scriptengines/javascript/data/plasma-packagestructure-javascript-addon.desktop:67
 msgctxt "Comment"
 msgid "Addons for Javascript Plasma plugins"
 msgstr ""
@@ -5773,7 +5773,7 @@ msgctxt "Name"
 msgid "Declarative widget"
 msgstr ""
 
-#: plasma/scriptengines/javascript/data/plasma-scriptengine-applet-declarative.desktop:61
+#: plasma/scriptengines/javascript/data/plasma-scriptengine-applet-declarative.desktop:62
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Native Plasma widget written in JavaScript"
@@ -5838,7 +5838,7 @@ msgctxt "Name"
 msgid "KDE Shutdown"
 msgstr ""
 
-#: platforms/win/kwinshutdown/kwinshutdown.desktop:63
+#: platforms/win/kwinshutdown/kwinshutdown.desktop:64
 msgctxt "Comment"
 msgid "kill running KDE applications and processes"
 msgstr ""
@@ -5868,7 +5868,7 @@ msgctxt "Name"
 msgid "Drive Ejector"
 msgstr ""
 
-#: solidautoeject/solidautoeject.desktop:72
+#: solidautoeject/solidautoeject.desktop:73
 msgctxt "Comment"
 msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
@@ -5881,7 +5881,7 @@ msgctxt "X-KDE-Keywords"
 msgid "Mount,Removable,Devices,Automatic"
 msgstr "Pryłady USB"
 
-#: solid-device-automounter/kcm/device_automounter_kcm.desktop:68
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:69
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -5889,7 +5889,7 @@ msgctxt "Name"
 msgid "Removable Devices"
 msgstr "Pryłady USB"
 
-#: solid-device-automounter/kcm/device_automounter_kcm.desktop:138
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:140
 msgctxt "Comment"
 msgid "Configure automatic handling of removable storage media"
 msgstr ""
@@ -5899,7 +5899,7 @@ msgctxt "Name"
 msgid "Removable Device Automounter"
 msgstr ""
 
-#: solid-device-automounter/kded/device_automounter.desktop:77
+#: solid-device-automounter/kded/device_automounter.desktop:78
 msgctxt "Comment"
 msgid "Automatically mounts devices as needed"
 msgstr ""
@@ -5929,7 +5929,7 @@ msgctxt "Name"
 msgid "Hardware Detection"
 msgstr "Aparatura"
 
-#: soliduiserver/soliduiserver.desktop:75
+#: soliduiserver/soliduiserver.desktop:76
 msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""

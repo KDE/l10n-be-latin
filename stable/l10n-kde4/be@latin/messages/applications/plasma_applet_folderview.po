@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-12 10:41+0200\n"
+"POT-Creation-Date: 2013-04-16 19:02+0200\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,174 +19,174 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: folderview.cpp:717
+#: folderview.cpp:715
 msgid "Title"
 msgstr ""
 
-#: folderview.cpp:722 folderview.cpp:731 folderview.cpp:2178
+#: folderview.cpp:720 folderview.cpp:729 folderview.cpp:2185
 msgid "None"
 msgstr ""
 
-#: folderview.cpp:724 folderview.cpp:732 folderview.cpp:2181
+#: folderview.cpp:722 folderview.cpp:730 folderview.cpp:2188
 msgid "Default"
 msgstr ""
 
-#: folderview.cpp:726 folderview.cpp:733 folderview.cpp:2184
+#: folderview.cpp:724 folderview.cpp:731 folderview.cpp:2191
 msgid "Full path"
 msgstr ""
 
-#: folderview.cpp:746
+#: folderview.cpp:744
 msgctxt "Sort Icons"
 msgid "Unsorted"
 msgstr "Biez paradku"
 
-#: folderview.cpp:753
+#: folderview.cpp:751
 #, fuzzy
 #| msgid "Top to Bottom"
 msgid "Top to Bottom, Left to Right"
 msgstr "Źvierchu ŭniz"
 
-#: folderview.cpp:754
+#: folderview.cpp:752
 #, fuzzy
 #| msgid "Top to Bottom"
 msgid "Top to Bottom, Right to Left"
 msgstr "Źvierchu ŭniz"
 
-#: folderview.cpp:755
+#: folderview.cpp:753
 #, fuzzy
 #| msgid "Left to Right"
 msgid "Left to Right, Top to Bottom"
 msgstr "Źleva ŭprava"
 
-#: folderview.cpp:756
+#: folderview.cpp:754
 #, fuzzy
 #| msgid "Left to Right"
 msgid "Right to Left, Top to Bottom"
 msgstr "Źleva ŭprava"
 
-#: folderview.cpp:758
+#: folderview.cpp:756
 msgid "Show All Files"
 msgstr "Pakazvaj usie fajły"
 
-#: folderview.cpp:759
+#: folderview.cpp:757
 msgid "Show Files Matching"
 msgstr "Pakazvaj adpaviednyja fajły"
 
-#: folderview.cpp:760
+#: folderview.cpp:758
 msgid "Hide Files Matching"
 msgstr "Chavaj adpaviednyja fajły"
 
-#: folderview.cpp:803
+#: folderview.cpp:801
 msgctxt ""
 "Title of the page that lets the user choose which location should the "
 "folderview show"
 msgid "Location"
 msgstr "Miesca"
 
-#: folderview.cpp:804
+#: folderview.cpp:802
 msgctxt ""
 "Title of the page that lets the user choose how the folderview should be "
 "shown"
 msgid "Display"
 msgstr "Vyjaŭleńnie"
 
-#: folderview.cpp:805
+#: folderview.cpp:803
 msgctxt ""
 "Title of the page that lets the user choose how to filter the folderview "
 "contents"
 msgid "Filter"
 msgstr "Filter"
 
-#: folderview.cpp:1420
+#: folderview.cpp:1418
 msgid "Desktop Folder"
 msgstr "Kataloh stała"
 
-#: folderview.cpp:1513
+#: folderview.cpp:1511
 msgid "&Reload"
 msgstr "&Pieračytaj"
 
-#: folderview.cpp:1516
+#: folderview.cpp:1514
 msgid "&Refresh Desktop"
 msgstr "&Aktualizuj stoł"
 
-#: folderview.cpp:1516
+#: folderview.cpp:1514
 msgid "&Refresh View"
 msgstr "&Aktualizuj prahlad"
 
-#: folderview.cpp:1524 popupview.cpp:266
+#: folderview.cpp:1522 popupview.cpp:272
 msgid "&Rename"
 msgstr "&Źmiani nazvu"
 
-#: folderview.cpp:1529 popupview.cpp:270
+#: folderview.cpp:1527 popupview.cpp:276
 msgid "&Move to Trash"
 msgstr "&Vykiń u śmietnicu"
 
-#: folderview.cpp:1535 popupview.cpp:275
+#: folderview.cpp:1533 popupview.cpp:281
 msgid "&Empty Trash Bin"
 msgstr ""
 
-#: folderview.cpp:1540 popupview.cpp:280
+#: folderview.cpp:1538 popupview.cpp:286
 msgid "&Delete"
 msgstr "&Vydali"
 
-#: folderview.cpp:1559
+#: folderview.cpp:1557
 msgid "Align to Grid"
 msgstr "Dapasuj da sietki"
 
-#: folderview.cpp:1564
+#: folderview.cpp:1562
 msgctxt "Icons on the desktop"
 msgid "Lock in Place"
 msgstr "Zamacuj na miascoch"
 
-#: folderview.cpp:1571
+#: folderview.cpp:1569
 msgctxt "Sort icons"
 msgid "By Name"
 msgstr "Pavodle nazvy"
 
-#: folderview.cpp:1572
+#: folderview.cpp:1570
 msgctxt "Sort icons"
 msgid "By Size"
 msgstr "Pavodle pamieraŭ"
 
-#: folderview.cpp:1573
+#: folderview.cpp:1571
 msgctxt "Sort icons"
 msgid "By Type"
 msgstr "Pavodle typaŭ"
 
-#: folderview.cpp:1574
+#: folderview.cpp:1572
 msgctxt "Sort icons"
 msgid "By Date"
 msgstr "Pavodle dataŭ"
 
-#: folderview.cpp:1590
+#: folderview.cpp:1588
 msgctxt "Sort icons"
 msgid "Ascending"
 msgstr ""
 
-#: folderview.cpp:1591
+#: folderview.cpp:1589
 msgctxt "Sort icons"
 msgid "Descending"
 msgstr ""
 
-#: folderview.cpp:1599
+#: folderview.cpp:1597
 msgctxt "Sort icons"
 msgid "Folders First"
 msgstr "Spačatku katalohi"
 
-#: folderview.cpp:1604
+#: folderview.cpp:1602
 msgid "Sort Icons"
 msgstr "Paradkuj ikony"
 
 #. i18n: ectx: property (text), widget (QLabel, iconsTitle)
-#: folderview.cpp:1621 folderviewDisplayConfig.ui:80
+#: folderview.cpp:1619 folderviewDisplayConfig.ui:80
 msgid "Icons"
 msgstr "Ikony"
 
-#: folderview.cpp:1650
+#: folderview.cpp:1648
 msgid "&Paste"
 msgstr "&Uklej"
 
-#: folderview.cpp:2097
+#: folderview.cpp:2104
 #, kde-format
 msgctxt "Inserted as %1 in the message below."
 msgid "1 folder"
@@ -195,7 +195,7 @@ msgstr[0] "%1 kataloh"
 msgstr[1] "%1 katalohi"
 msgstr[2] "%1 katalohaŭ"
 
-#: folderview.cpp:2098
+#: folderview.cpp:2105
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
 msgid "1 file"
@@ -204,13 +204,13 @@ msgstr[0] "%1 fajł"
 msgstr[1] "%1 fajły"
 msgstr[2] "%1 fajłaŭ"
 
-#: folderview.cpp:2102 tooltipwidget.cpp:197
+#: folderview.cpp:2109 tooltipwidget.cpp:197
 #, kde-format
 msgctxt "%1 and %2 are the messages translated above."
 msgid "%1, %2."
 msgstr "%1, %2."
 
-#: folderview.cpp:2104
+#: folderview.cpp:2111
 #, kde-format
 msgid "1 file."
 msgid_plural "%1 files."
@@ -568,11 +568,11 @@ msgstr "Tut upišy ściežku ci adras."
 msgid "Check the file types you want icon previews for:"
 msgstr "Aznač typy fajłaŭ, dla jakich treba pakazvać padhlady:"
 
-#: iconview.cpp:1240
+#: iconview.cpp:1250
 msgid "This folder is empty."
 msgstr ""
 
-#: iconview.cpp:2195
+#: iconview.cpp:2205
 msgid "Set as &Wallpaper"
 msgstr ""
 

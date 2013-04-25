@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-24 02:19+0000\n"
+"POT-Creation-Date: 2013-04-25 02:34+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2787,18 +2787,6 @@ msgctxt "Comment"
 msgid "Blurs the background behind semi-transparent windows"
 msgstr ""
 
-#: kwin/effects/boxswitch/boxswitch_config.desktop:9
-#: kwin/effects/boxswitch/boxswitch.desktop:2
-msgctxt "Name"
-msgid "Box Switch"
-msgstr ""
-
-#: kwin/effects/boxswitch/boxswitch.desktop:79
-msgctxt "Comment"
-msgid "Display thumbnails of windows in the alt+tab window switcher"
-msgstr ""
-"Pakazvaj padhlady akon u pieraklučniku, jaki vyklikajecca skarotam „Alt+Tab”"
-
 #: kwin/effects/coverswitch/coverswitch_config.desktop:9
 #: kwin/effects/coverswitch/coverswitch.desktop:2
 msgctxt "Name"
@@ -3665,6 +3653,14 @@ msgid ""
 "Wall"
 msgstr ""
 
+#: kwin/tabbox/kwindesktopswitcher.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Manager"
+msgctxt "Comment"
+msgid "KWin Desktop Switcher Layout"
+msgstr "Akońnik"
+
 #: kwin/tabbox/kwinwindowswitcher.desktop:5
 #, fuzzy
 #| msgctxt "Name"
@@ -3700,6 +3696,7 @@ msgid "A compact window switcher layout"
 msgstr ""
 
 #: kwin/tabbox/qml/clients/informative/metadata.desktop:2
+#: kwin/tabbox/qml/desktops/informative/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Information"
@@ -3772,6 +3769,27 @@ msgstr "Vokny"
 #: kwin/tabbox/qml/clients/window_strip/metadata.desktop:43
 msgctxt "Comment"
 msgid "Window switcher layout for Plasma Active"
+msgstr ""
+
+#: kwin/tabbox/qml/desktops/informative/metadata.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Manager"
+msgctxt "Comment"
+msgid "An informative desktop switcher layout"
+msgstr "Akońnik"
+
+#: kwin/tabbox/qml/desktops/previews/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Preview"
+msgctxt "Name"
+msgid "Previews"
+msgstr "Padhlad fajłaŭ"
+
+#: kwin/tabbox/qml/desktops/previews/metadata.desktop:3
+msgctxt "Comment"
+msgid "A desktop switcher layout with previews of the desktops"
 msgstr ""
 
 #: kwrited/kwrited-autostart.desktop:2
@@ -6622,6 +6640,12 @@ msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
 
+#~ msgctxt "Comment"
+#~ msgid "Display thumbnails of windows in the alt+tab window switcher"
+#~ msgstr ""
+#~ "Pakazvaj padhlady akon u pieraklučniku, jaki vyklikajecca skarotam „Alt"
+#~ "+Tab”"
+
 #~ msgctxt "Name"
 #~ msgid "Change to Desktop 1"
 #~ msgstr "Pierajdzi na stoł 1"
@@ -7663,10 +7687,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Reduces Konqueror startup time"
 #~ msgstr "Źmianšaje čas, patrebny dla ŭklučeńnia prahramy „Konqueror”"
-
-#~ msgctxt "Name"
-#~ msgid "File Preview"
-#~ msgstr "Padhlad fajłaŭ"
 
 #~ msgctxt "Name"
 #~ msgid "KDE Development"

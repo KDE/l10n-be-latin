@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-21 17:48+0200\n"
+"POT-Creation-Date: 2013-05-22 04:52+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -788,14 +788,14 @@ msgstr ""
 msgid "R&eplace All"
 msgstr "Z&amiani ŭsio"
 
-#. i18n: ectx: property (toolTip), widget (Q3ListView, m_suggestions)
 #. i18n: ectx: property (toolTip), widget (QListView, m_suggestions)
+#. i18n: ectx: property (toolTip), widget (Q3ListView, m_suggestions)
 #: kde3support/kdeui/k3spellui.ui:136 kdeui/sonnet/sonnetui.ui:124
 msgid "Suggestion List"
 msgstr "Śpis prapanavanych varyjantaŭ"
 
-#. i18n: ectx: property (whatsThis), widget (Q3ListView, m_suggestions)
 #. i18n: ectx: property (whatsThis), widget (QListView, m_suggestions)
+#. i18n: ectx: property (whatsThis), widget (Q3ListView, m_suggestions)
 #: kde3support/kdeui/k3spellui.ui:142 kdeui/sonnet/sonnetui.ui:130
 msgid ""
 "<qt>\n"
@@ -816,8 +816,8 @@ msgstr ""
 "kali ŭsiudy – <b>Zamiani ŭsio</b>.</p>\n"
 "</qt>"
 
-#. i18n: ectx: property (text), widget (Q3ListView, m_suggestions)
 #. i18n: ectx: property (text), widget (QListView, m_suggestions)
+#. i18n: ectx: property (text), widget (Q3ListView, m_suggestions)
 #: kde3support/kdeui/k3spellui.ui:149 kdeui/sonnet/sonnetui.ui:137
 msgid "Suggested Words"
 msgstr "Prapanavanyja varyjanty"
@@ -6173,8 +6173,8 @@ msgstr ""
 msgid "Search"
 msgstr "&Šukaj"
 
-#. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
+#. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #: kdeui/jobs/kstatusbarjobtracker.cpp:160 kdeui/util/kkeyserver_x11.cpp:103
 #: kdeui/util/kstandardguiitem.cpp:281
 #: kjsembed/examples/kjsconsole/jsconsole.ui:227 kross/ui/view.cpp:308
@@ -9609,8 +9609,8 @@ msgstr "Hałoŭnaje"
 msgid "URL:"
 msgstr "Adras:"
 
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: khtml/htmlpageinfo.ui:112 knewstuff/knewstuff3/uploaddialog.ui:275
 msgid "Title:"
 msgstr "Zahałovak:"
@@ -10983,8 +10983,8 @@ msgstr "7"
 msgid "8"
 msgstr "8"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, jsConsole)
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, KJSConsole)
+#. i18n: ectx: property (windowTitle), widget (QWidget, jsConsole)
 #: kjsembed/examples/console/console.ui:13
 #: kjsembed/examples/kjsconsole/jsconsole.ui:13
 msgid "MainWindow"
@@ -11030,9 +11030,9 @@ msgstr "Začyni skrypt"
 msgid "Close script..."
 msgstr "Začyni skrypt..."
 
-#. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #. i18n: ectx: property (text), widget (QPushButton, pbQuit)
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonQuit)
+#. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #: kjsembed/examples/kjsconsole/jsconsole.ui:183
 #: threadweaver/Examples/Jobs/JobsBase.ui:97
 #: threadweaver/Examples/QProcessJob/MainWindowUi.ui:36
@@ -11571,8 +11571,8 @@ msgstr "<p>Niama ściahvańniaŭ</p>"
 msgid "<p>Downloads: %1</p>\n"
 msgstr "<p>Ściahvańniaŭ: %1</p>\n"
 
-#. i18n: ectx: property (text), widget (KPushButton, updateButton)
 #. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
+#. i18n: ectx: property (text), widget (KPushButton, updateButton)
 #: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:192
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
 #: knewstuff/knewstuff3/downloadwidget.ui:567
@@ -12030,8 +12030,8 @@ msgstr "Pravajder: %1"
 msgid "All Categories"
 msgstr "Staronki"
 
-#. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
 #: knewstuff/knewstuff3/downloadwidget.ui:54
 #: knewstuff/knewstuff3/uploaddialog.ui:127
 #, fuzzy
@@ -12039,8 +12039,8 @@ msgstr "Staronki"
 msgid "Provider:"
 msgstr "Pravajder: %1"
 
-#. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #: knewstuff/knewstuff3/downloadwidget.ui:71
 #: knewstuff/knewstuff3/uploaddialog.ui:297
 #, fuzzy

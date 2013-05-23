@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-21 01:41+0000\n"
+"POT-Creation-Date: 2013-05-23 01:22+0000\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -222,26 +222,26 @@ msgstr "Koler 8 (intensiŭny)"
 msgid "Un-named Color Scheme"
 msgstr "Nienazvanaja schiema koleraŭ"
 
-#: ColorSchemeEditor.cpp:88
+#: ColorSchemeEditor.cpp:94
 #, fuzzy
 #| msgid "Name"
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "Nazva"
 
-#: ColorSchemeEditor.cpp:89
+#: ColorSchemeEditor.cpp:95
 #, fuzzy
 #| msgid "Color"
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "Koler"
 
-#: ColorSchemeEditor.cpp:90
+#: ColorSchemeEditor.cpp:96
 msgctxt "@label:listbox Column header text for the actual intense colors"
 msgid "Intense color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:115
+#: ColorSchemeEditor.cpp:121
 #, fuzzy
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -254,22 +254,25 @@ msgstr ""
 "Nałady prazrystaha fonu nie paŭpłyvajuć na stoł, tamu što jon nia ŭmieje "
 "rabić vokny prazrystymi."
 
-#: ColorSchemeEditor.cpp:155
+#: ColorSchemeEditor.cpp:161
 msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:195 EditProfileDialog.cpp:703
-#: EditProfileDialog.cpp:712
+#: ColorSchemeEditor.cpp:205 ColorSchemeEditor.cpp:206
 msgid "New Color Scheme"
 msgstr "Novaja schiema koleraŭ"
 
-#: ColorSchemeEditor.cpp:231
+#: ColorSchemeEditor.cpp:208
+msgid "Edit Color Scheme"
+msgstr "Adredahuj schiemu koleraŭ"
+
+#: ColorSchemeEditor.cpp:240
 msgctxt "@info:tooltip"
 msgid "Click to choose color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:236
+#: ColorSchemeEditor.cpp:245
 msgctxt "@info:tooltip"
 msgid "Click to choose intense color"
 msgstr ""
@@ -341,15 +344,15 @@ msgstr "Vyłučy ŭsio"
 msgid "Deselect All"
 msgstr "Anuluj vyłučeńnie ŭsiaho"
 
-#: EditProfileDialog.cpp:73
+#: EditProfileDialog.cpp:74
 msgid "Edit Profile"
 msgstr "Adredahuj profil"
 
-#: EditProfileDialog.cpp:139
+#: EditProfileDialog.cpp:140
 msgid "<p>Each profile must have a name before it can be saved into disk.</p>"
 msgstr ""
 
-#: EditProfileDialog.cpp:170
+#: EditProfileDialog.cpp:171
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgid "Editing profile: %2"
@@ -358,27 +361,27 @@ msgstr[0] "Adredahuj profil „%1”"
 msgstr[1] "Adredahuj profil „%1”"
 msgstr[2] "Adredahuj profil „%1”"
 
-#: EditProfileDialog.cpp:175
+#: EditProfileDialog.cpp:176
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "Adredahuj profil „%1”"
 
-#: EditProfileDialog.cpp:255
+#: EditProfileDialog.cpp:256
 #, fuzzy
 #| msgid "Profile name:"
 msgid "Profile name is empty."
 msgstr "Nazva profilu:"
 
-#: EditProfileDialog.cpp:315
+#: EditProfileDialog.cpp:316
 msgctxt "@info:tooltip"
 msgid "One environment variable per line"
 msgstr ""
 
-#: EditProfileDialog.cpp:317
+#: EditProfileDialog.cpp:318
 msgid "Edit Environment"
 msgstr "Adredahuj asiarodździe"
 
-#: EditProfileDialog.cpp:341
+#: EditProfileDialog.cpp:342
 msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
@@ -386,21 +389,17 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: EditProfileDialog.cpp:405
+#: EditProfileDialog.cpp:406
 msgid "Select Initial Directory"
 msgstr "Vybiery pačatkovy kataloh"
 
-#: EditProfileDialog.cpp:593
+#: EditProfileDialog.cpp:594
 #, fuzzy, kde-format
 #| msgid "%1"
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:705
-msgid "Edit Color Scheme"
-msgstr "Adredahuj schiemu koleraŭ"
-
-#: EditProfileDialog.cpp:776
+#: EditProfileDialog.cpp:782
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
@@ -408,25 +407,25 @@ msgstr ""
 "Hetaja schiema koleraŭ karystajecca prazrystym fonam, jaki nia ŭmieje "
 "absłuhoŭvać hetaja systema."
 
-#: EditProfileDialog.cpp:781
+#: EditProfileDialog.cpp:787
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:884 EditProfileDialog.cpp:895
+#: EditProfileDialog.cpp:890 EditProfileDialog.cpp:901
 msgid "New Key Binding List"
 msgstr "Novy śpis klavijaturnych skarotaŭ"
 
-#: EditProfileDialog.cpp:886
+#: EditProfileDialog.cpp:892
 msgid "Edit Key Binding List"
 msgstr "Adredahuj śpis klavijaturnych skarotaŭ"
 
-#: EditProfileDialog.cpp:1221
+#: EditProfileDialog.cpp:1227
 msgid "--- Type anything in this box ---"
 msgstr ""
 
-#: EditProfileDialog.cpp:1225
+#: EditProfileDialog.cpp:1231
 msgid "Select Fixed Width Font"
 msgstr ""
 

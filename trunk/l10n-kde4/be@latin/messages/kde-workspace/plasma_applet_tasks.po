@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-17 04:15+0200\n"
+"POT-Creation-Date: 2013-06-06 01:33+0000\n"
 "PO-Revision-Date: 2008-10-05 10:49+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,65 +19,57 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: taskgroupitem.cpp:304
-#, kde-format
-msgctxt "@title:group Name of a group of windows"
-msgid "%1"
-msgstr ""
-
-#: taskgroupitem.cpp:309 windowtaskitem.cpp:224
-#, kde-format
-msgctxt "Which virtual desktop a window is currently on"
+#: package/contents/ui/main.qml:89
+#, fuzzy
+#| msgctxt "Which virtual desktop a window is currently on"
+#| msgid "On %1"
 msgid "On %1"
 msgstr "Na %1"
 
-#: taskgroupitem.cpp:430
-msgid "Collapse Group"
-msgstr "Zharni hurt"
-
-#: taskgroupitem.cpp:433
-msgid "Expand Group"
-msgstr "Razharni hurt"
-
-#: taskgroupitem.cpp:981
-#, fuzzy
-#| msgid "Expand Group"
-msgid "Edit Group"
-msgstr "Razharni hurt"
-
-#: taskgroupitem.cpp:982
-msgid "New Group Name: "
+#: package/contents/ui/main.qml:94
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
 msgstr ""
 
-#: tasks.cpp:364
+#: package/contents/ui/main.qml:97
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:101
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr ""
+
+#: tasks.cpp:464
 msgid "General"
 msgstr "Ahulnaje"
 
-#: tasks.cpp:374
+#: tasks.cpp:474
 msgid "Do Not Group"
 msgstr "Nie hurtuj"
 
-#: tasks.cpp:375 tasks.cpp:399
+#: tasks.cpp:475 tasks.cpp:497
 msgid "Manually"
 msgstr "Uručnuju"
 
-#: tasks.cpp:376
+#: tasks.cpp:476
 msgid "By Program Name"
 msgstr "Pavodle nazvaŭ prahram"
 
-#: tasks.cpp:398
+#: tasks.cpp:496
 msgid "Do Not Sort"
 msgstr "Nie paradkuj"
 
-#: tasks.cpp:400
+#: tasks.cpp:498
 msgid "Alphabetically"
 msgstr "Pavodle alfabetu"
 
-#: tasks.cpp:401
+#: tasks.cpp:499
 msgid "By Desktop"
 msgstr "Pavodle stałoŭ"
 
-#: tasks.cpp:402
+#: tasks.cpp:500
 msgid "By Activity"
 msgstr ""
 
@@ -159,22 +151,16 @@ msgstr "Pakazvaj zadańni tolki ź dziejnaha ekrana"
 msgid "Only show tasks that are minimized"
 msgstr "Pakazvaj tolki źminimalizavanyja zadańni"
 
-#: windowtaskitem.cpp:229
-msgid "Available on all activities"
-msgstr ""
+#~ msgid "Collapse Group"
+#~ msgstr "Zharni hurt"
 
-#: windowtaskitem.cpp:234
-#, kde-format
-msgctxt "Activities a window is currently on (appart from the current one)"
-msgid "Also available on %1"
-msgstr ""
+#~ msgid "Expand Group"
+#~ msgstr "Razharni hurt"
 
-#: windowtaskitem.cpp:237
-#, kde-format
-msgctxt "Which activities a window is currently on"
-msgid "Available on %1"
-msgstr ""
+#, fuzzy
+#~| msgid "Expand Group"
+#~ msgid "Edit Group"
+#~ msgstr "Razharni hurt"
 
-#: windowtaskitem.cpp:336
-msgid "Collapse Parent Group"
-msgstr "Zharni karaniovy hurt"
+#~ msgid "Collapse Parent Group"
+#~ msgstr "Zharni karaniovy hurt"

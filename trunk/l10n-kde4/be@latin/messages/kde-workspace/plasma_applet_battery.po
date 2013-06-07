@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-06 01:33+0000\n"
+"POT-Creation-Date: 2013-06-07 01:37+0000\n"
 "PO-Revision-Date: 2008-10-05 10:22+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -93,36 +93,6 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: contents/ui/AcAdapterItem.qml:58
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Plugged in"
-msgid "AC Adapter"
-msgstr "<b>Blok siłkavańnia:</b> padłučany"
-
-#: contents/ui/AcAdapterItem.qml:70
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Not plugged in"
-msgid "Plugged In"
-msgstr "<b>Blok siłkavańnia:</b> nie padłučany"
-
-#: contents/ui/AcAdapterItem.qml:70
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Not plugged in"
-msgid "Not Plugged In"
-msgstr "<b>Blok siłkavańnia:</b> nie padłučany"
-
-#: contents/ui/AcAdapterItem.qml:83
-#, fuzzy, kde-format
-#| msgid "Time remaining: <b>%1</b><br />"
-msgid "Time remaining until full: %1"
-msgstr "Zastałosia času: <b>%1</b><br />"
-
-#: contents/ui/AcAdapterItem.qml:83
-#, fuzzy, kde-format
-#| msgid "Time remaining: <b>%1</b><br />"
-msgid "Time remaining until empty: %1"
-msgstr "Zastałosia času: <b>%1</b><br />"
-
 #: contents/ui/BatteryItem.qml:224
 msgid "Time To Full:"
 msgstr ""
@@ -182,6 +152,31 @@ msgstr "Jarkaść ekrana"
 #| msgid "Power Management"
 msgid "Enable Power Management"
 msgstr "Kiravańnie enerhijaj"
+
+#, fuzzy
+#~| msgid "<b>AC Adapter:</b> Plugged in"
+#~ msgid "AC Adapter"
+#~ msgstr "<b>Blok siłkavańnia:</b> padłučany"
+
+#, fuzzy
+#~| msgid "<b>AC Adapter:</b> Not plugged in"
+#~ msgid "Plugged In"
+#~ msgstr "<b>Blok siłkavańnia:</b> nie padłučany"
+
+#, fuzzy
+#~| msgid "<b>AC Adapter:</b> Not plugged in"
+#~ msgid "Not Plugged In"
+#~ msgstr "<b>Blok siłkavańnia:</b> nie padłučany"
+
+#, fuzzy
+#~| msgid "Time remaining: <b>%1</b><br />"
+#~ msgid "Time remaining until full: %1"
+#~ msgstr "Zastałosia času: <b>%1</b><br />"
+
+#, fuzzy
+#~| msgid "Time remaining: <b>%1</b><br />"
+#~ msgid "Time remaining until empty: %1"
+#~ msgstr "Zastałosia času: <b>%1</b><br />"
 
 #, fuzzy
 #~| msgid "<b>Battery:</b> %1% (fully charged)<br />"

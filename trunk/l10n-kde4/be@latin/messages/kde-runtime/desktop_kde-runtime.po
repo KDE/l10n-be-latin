@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-18 01:52+0000\n"
+"POT-Creation-Date: 2013-06-21 01:55+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -964,8 +964,8 @@ msgstr "Uvachod"
 
 #: knotify/kde.notifyrc:1518
 msgctxt "Comment"
-msgid "KDE is starting up"
-msgstr "Uklučeńnie KDE."
+msgid "A new session is starting"
+msgstr ""
 
 #: knotify/kde.notifyrc:1608
 msgctxt "Name"
@@ -973,8 +973,11 @@ msgid "Logout"
 msgstr "Vychad"
 
 #: knotify/kde.notifyrc:1695
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KDE is exiting"
 msgctxt "Comment"
-msgid "KDE is exiting"
+msgid "Session is exiting"
 msgstr "Vychad z KDE."
 
 #: knotify/kde.notifyrc:1785
@@ -5952,6 +5955,10 @@ msgstr "Aparatura"
 msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "KDE is starting up"
+#~ msgstr "Uklučeńnie KDE."
 
 #~ msgctxt "Query"
 #~ msgid ""

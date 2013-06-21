@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-11 01:25+0000\n"
+"POT-Creation-Date: 2013-06-21 01:29+0000\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -622,12 +622,12 @@ msgstr[0] "Vyłučany %1 element"
 msgstr[1] "Vyłučanyja %1 elementy"
 msgstr[2] "Vyłučanyja %1 elementaŭ"
 
-#: kitemviews/kfileitemmodel.cpp:1622
+#: kitemviews/kfileitemmodel.cpp:1629
 msgctxt "@title:group Groups that start with a digit"
 msgid "0 - 9"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1624
+#: kitemviews/kfileitemmodel.cpp:1631
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -635,43 +635,43 @@ msgctxt "@title:group"
 msgid "Others"
 msgstr "Inšaje"
 
-#: kitemviews/kfileitemmodel.cpp:1655
+#: kitemviews/kfileitemmodel.cpp:1662
 msgctxt "@title:group Size"
 msgid "Folders"
 msgstr "Katalohi"
 
-#: kitemviews/kfileitemmodel.cpp:1657
+#: kitemviews/kfileitemmodel.cpp:1664
 msgctxt "@title:group Size"
 msgid "Small"
 msgstr "Mały"
 
-#: kitemviews/kfileitemmodel.cpp:1659
+#: kitemviews/kfileitemmodel.cpp:1666
 msgctxt "@title:group Size"
 msgid "Medium"
 msgstr "Siaredni"
 
-#: kitemviews/kfileitemmodel.cpp:1661
+#: kitemviews/kfileitemmodel.cpp:1668
 msgctxt "@title:group Size"
 msgid "Big"
 msgstr "Vialiki"
 
-#: kitemviews/kfileitemmodel.cpp:1704
+#: kitemviews/kfileitemmodel.cpp:1711
 msgctxt "@title:group Date"
 msgid "Today"
 msgstr "Siońnia"
 
-#: kitemviews/kfileitemmodel.cpp:1705
+#: kitemviews/kfileitemmodel.cpp:1712
 msgctxt "@title:group Date"
 msgid "Yesterday"
 msgstr "Učora"
 
-#: kitemviews/kfileitemmodel.cpp:1706
+#: kitemviews/kfileitemmodel.cpp:1713
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr "%A"
 
-#: kitemviews/kfileitemmodel.cpp:1710
+#: kitemviews/kfileitemmodel.cpp:1717
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Three Weeks Ago"
@@ -679,36 +679,36 @@ msgctxt "@title:group Date"
 msgid "One Week Ago"
 msgstr "Try tydni tamu"
 
-#: kitemviews/kfileitemmodel.cpp:1713
+#: kitemviews/kfileitemmodel.cpp:1720
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
 msgstr "Dva tydni tamu"
 
-#: kitemviews/kfileitemmodel.cpp:1716
+#: kitemviews/kfileitemmodel.cpp:1723
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
 msgstr "Try tydni tamu"
 
-#: kitemviews/kfileitemmodel.cpp:1720
+#: kitemviews/kfileitemmodel.cpp:1727
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
 msgstr "U hetym miesiacy"
 
-#: kitemviews/kfileitemmodel.cpp:1729
+#: kitemviews/kfileitemmodel.cpp:1736
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Yesterday (%B, %Y)"
 msgstr "Učora (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1731
+#: kitemviews/kfileitemmodel.cpp:1738
 msgctxt ""
 "@title:group The week day name: %A, %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%A (%B, %Y)"
 msgstr "%A (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1733
+#: kitemviews/kfileitemmodel.cpp:1740
 #, fuzzy
 #| msgctxt ""
 #| "@title:group Date: %B is full month name in current locale, and %Y is "
@@ -720,59 +720,59 @@ msgctxt ""
 msgid "One Week Ago (%B, %Y)"
 msgstr "Try tydni tamu (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1735
+#: kitemviews/kfileitemmodel.cpp:1742
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Two Weeks Ago (%B, %Y)"
 msgstr "Dva tydni tamu (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1737
+#: kitemviews/kfileitemmodel.cpp:1744
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Three Weeks Ago (%B, %Y)"
 msgstr "Try tydni tamu (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1739
+#: kitemviews/kfileitemmodel.cpp:1746
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1742
+#: kitemviews/kfileitemmodel.cpp:1749
 msgctxt ""
 "@title:group The month and year: %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1781 kitemviews/kfileitemmodel.cpp:1794
-#: kitemviews/kfileitemmodel.cpp:1807
+#: kitemviews/kfileitemmodel.cpp:1788 kitemviews/kfileitemmodel.cpp:1801
+#: kitemviews/kfileitemmodel.cpp:1814
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "Čytańnie, "
 
-#: kitemviews/kfileitemmodel.cpp:1784 kitemviews/kfileitemmodel.cpp:1797
-#: kitemviews/kfileitemmodel.cpp:1810
+#: kitemviews/kfileitemmodel.cpp:1791 kitemviews/kfileitemmodel.cpp:1804
+#: kitemviews/kfileitemmodel.cpp:1817
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "Zapis, "
 
-#: kitemviews/kfileitemmodel.cpp:1787 kitemviews/kfileitemmodel.cpp:1800
-#: kitemviews/kfileitemmodel.cpp:1813
+#: kitemviews/kfileitemmodel.cpp:1794 kitemviews/kfileitemmodel.cpp:1807
+#: kitemviews/kfileitemmodel.cpp:1820
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "Vykanańnie, "
 
-#: kitemviews/kfileitemmodel.cpp:1789 kitemviews/kfileitemmodel.cpp:1802
-#: kitemviews/kfileitemmodel.cpp:1815
+#: kitemviews/kfileitemmodel.cpp:1796 kitemviews/kfileitemmodel.cpp:1809
+#: kitemviews/kfileitemmodel.cpp:1822
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "Zabaroniena"
 
-#: kitemviews/kfileitemmodel.cpp:1817
+#: kitemviews/kfileitemmodel.cpp:1824
 #, fuzzy, kde-format
 #| msgctxt "@title:group Files and folders by permissions"
 #| msgid "(User: %1) (Group: %2) (Others: %3)"
@@ -780,7 +780,7 @@ msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "(Dla karystańnika: %1) (Dla hrupy: %2) (Dla inšych: %3)"
 
-#: kitemviews/kfileitemmodel.cpp:1923
+#: kitemviews/kfileitemmodel.cpp:1930
 #, fuzzy
 #| msgctxt "@action:inmenu Sort By"
 #| msgid "Name"
@@ -788,7 +788,7 @@ msgctxt "@label"
 msgid "Name"
 msgstr "nazvy"
 
-#: kitemviews/kfileitemmodel.cpp:1924
+#: kitemviews/kfileitemmodel.cpp:1931
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Size"
@@ -796,7 +796,7 @@ msgctxt "@label"
 msgid "Size"
 msgstr "Pamier"
 
-#: kitemviews/kfileitemmodel.cpp:1925
+#: kitemviews/kfileitemmodel.cpp:1932
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Date"
@@ -804,7 +804,7 @@ msgctxt "@label"
 msgid "Date"
 msgstr "Data"
 
-#: kitemviews/kfileitemmodel.cpp:1926
+#: kitemviews/kfileitemmodel.cpp:1933
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Type"
@@ -812,7 +812,7 @@ msgctxt "@label"
 msgid "Type"
 msgstr "Typ"
 
-#: kitemviews/kfileitemmodel.cpp:1927
+#: kitemviews/kfileitemmodel.cpp:1934
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -820,7 +820,7 @@ msgctxt "@label"
 msgid "Rating"
 msgstr "Paradkuj pavodle:"
 
-#: kitemviews/kfileitemmodel.cpp:1928
+#: kitemviews/kfileitemmodel.cpp:1935
 #, fuzzy
 #| msgctxt "@label Indicator when no tags defined"
 #| msgid "No Tags"
@@ -828,7 +828,7 @@ msgctxt "@label"
 msgid "Tags"
 msgstr "Niama tagaŭ"
 
-#: kitemviews/kfileitemmodel.cpp:1929
+#: kitemviews/kfileitemmodel.cpp:1936
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -836,12 +836,12 @@ msgctxt "@label"
 msgid "Comment"
 msgstr "Dadaj kamentar..."
 
-#: kitemviews/kfileitemmodel.cpp:1930
+#: kitemviews/kfileitemmodel.cpp:1937
 msgctxt "@label"
 msgid "Word Count"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1930 kitemviews/kfileitemmodel.cpp:1931
+#: kitemviews/kfileitemmodel.cpp:1937 kitemviews/kfileitemmodel.cpp:1938
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -849,12 +849,12 @@ msgctxt "@label"
 msgid "Document"
 msgstr "Dakumentacyja"
 
-#: kitemviews/kfileitemmodel.cpp:1931
+#: kitemviews/kfileitemmodel.cpp:1938
 msgctxt "@label"
 msgid "Line Count"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1932
+#: kitemviews/kfileitemmodel.cpp:1939
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -862,12 +862,12 @@ msgctxt "@label"
 msgid "Image Size"
 msgstr "Padhlady fajłaŭ"
 
-#: kitemviews/kfileitemmodel.cpp:1932 kitemviews/kfileitemmodel.cpp:1933
+#: kitemviews/kfileitemmodel.cpp:1939 kitemviews/kfileitemmodel.cpp:1940
 msgctxt "@label"
 msgid "Image"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1933
+#: kitemviews/kfileitemmodel.cpp:1940
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -875,7 +875,7 @@ msgctxt "@label"
 msgid "Orientation"
 msgstr "Dakumentacyja"
 
-#: kitemviews/kfileitemmodel.cpp:1934
+#: kitemviews/kfileitemmodel.cpp:1941
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Artist:"
@@ -883,13 +883,13 @@ msgctxt "@label"
 msgid "Artist"
 msgstr "Vykanaŭca:"
 
-#: kitemviews/kfileitemmodel.cpp:1934 kitemviews/kfileitemmodel.cpp:1935
-#: kitemviews/kfileitemmodel.cpp:1936 kitemviews/kfileitemmodel.cpp:1937
+#: kitemviews/kfileitemmodel.cpp:1941 kitemviews/kfileitemmodel.cpp:1942
+#: kitemviews/kfileitemmodel.cpp:1943 kitemviews/kfileitemmodel.cpp:1944
 msgctxt "@label"
 msgid "Audio"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1935
+#: kitemviews/kfileitemmodel.cpp:1942
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Album:"
@@ -897,7 +897,7 @@ msgctxt "@label"
 msgid "Album"
 msgstr "Albom:"
 
-#: kitemviews/kfileitemmodel.cpp:1936
+#: kitemviews/kfileitemmodel.cpp:1943
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -905,7 +905,7 @@ msgctxt "@label"
 msgid "Duration"
 msgstr "Dakumentacyja"
 
-#: kitemviews/kfileitemmodel.cpp:1937
+#: kitemviews/kfileitemmodel.cpp:1944
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Track:"
@@ -913,7 +913,7 @@ msgctxt "@label"
 msgid "Track"
 msgstr "Ściežka:"
 
-#: kitemviews/kfileitemmodel.cpp:1938
+#: kitemviews/kfileitemmodel.cpp:1945
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -921,9 +921,9 @@ msgctxt "@label"
 msgid "Path"
 msgstr "Uklej"
 
-#: kitemviews/kfileitemmodel.cpp:1938 kitemviews/kfileitemmodel.cpp:1939
-#: kitemviews/kfileitemmodel.cpp:1940 kitemviews/kfileitemmodel.cpp:1941
-#: kitemviews/kfileitemmodel.cpp:1942 kitemviews/kfileitemmodel.cpp:1943
+#: kitemviews/kfileitemmodel.cpp:1945 kitemviews/kfileitemmodel.cpp:1946
+#: kitemviews/kfileitemmodel.cpp:1947 kitemviews/kfileitemmodel.cpp:1948
+#: kitemviews/kfileitemmodel.cpp:1949 kitemviews/kfileitemmodel.cpp:1950
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -931,7 +931,7 @@ msgctxt "@label"
 msgid "Other"
 msgstr "Inšaje"
 
-#: kitemviews/kfileitemmodel.cpp:1939
+#: kitemviews/kfileitemmodel.cpp:1946
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -939,12 +939,12 @@ msgctxt "@label"
 msgid "Link Destination"
 msgstr "Dakumentacyja"
 
-#: kitemviews/kfileitemmodel.cpp:1940
+#: kitemviews/kfileitemmodel.cpp:1947
 msgctxt "@label"
 msgid "Copied From"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1941
+#: kitemviews/kfileitemmodel.cpp:1948
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Permissions"
@@ -952,7 +952,7 @@ msgctxt "@label"
 msgid "Permissions"
 msgstr "Dazvoły"
 
-#: kitemviews/kfileitemmodel.cpp:1942
+#: kitemviews/kfileitemmodel.cpp:1949
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Owner"
@@ -960,7 +960,7 @@ msgctxt "@label"
 msgid "Owner"
 msgstr "Ułaśnik"
 
-#: kitemviews/kfileitemmodel.cpp:1943
+#: kitemviews/kfileitemmodel.cpp:1950
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Group"
@@ -2677,7 +2677,7 @@ msgid "Expandable folders"
 msgstr "Razhortvańnie katalohaŭ"
 
 #: settings/viewmodes/viewsettingstab.cpp:283
-#: statusbar/dolphinstatusbar.cpp:349
+#: statusbar/dolphinstatusbar.cpp:353
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -2850,7 +2850,7 @@ msgctxt "@tooltip"
 msgid "Stop loading"
 msgstr "Paradkuj pavodle:"
 
-#: statusbar/dolphinstatusbar.cpp:258
+#: statusbar/dolphinstatusbar.cpp:262
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Copy"
@@ -2858,7 +2858,7 @@ msgctxt "@action:inmenu"
 msgid "Copy Text"
 msgstr "Skapijuj"
 
-#: statusbar/dolphinstatusbar.cpp:259
+#: statusbar/dolphinstatusbar.cpp:263
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Show zoom slider"
@@ -2866,7 +2866,7 @@ msgctxt "@action:inmenu"
 msgid "Show Zoom Slider"
 msgstr "Pakazvaj maštaboŭnik"
 
-#: statusbar/dolphinstatusbar.cpp:263
+#: statusbar/dolphinstatusbar.cpp:267
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Show space information"
@@ -3193,17 +3193,17 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Nielha pierakinuć kataloh u samoha siabie."
 
-#: views/renamedialog.cpp:58
+#: views/renamedialog.cpp:59
 msgctxt "@title:window"
 msgid "Rename Item"
 msgstr "Źmiena nazvy"
 
-#: views/renamedialog.cpp:59
+#: views/renamedialog.cpp:60
 msgctxt "@title:window"
 msgid "Rename Items"
 msgstr "Źmiena nazvaŭ"
 
-#: views/renamedialog.cpp:63
+#: views/renamedialog.cpp:64
 #, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Rename"
@@ -3211,18 +3211,18 @@ msgctxt "@action:button"
 msgid "&Rename"
 msgstr "Źmiani nazvu"
 
-#: views/renamedialog.cpp:73
+#: views/renamedialog.cpp:74
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the item <filename>%1</filename> to:"
 msgstr "Źmiani nazvu dla <filename>%1</filename> na:"
 
-#: views/renamedialog.cpp:77
+#: views/renamedialog.cpp:78
 msgctxt "@info:status"
 msgid "New name #"
 msgstr "Novaja nazva #"
 
-#: views/renamedialog.cpp:79
+#: views/renamedialog.cpp:80
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the %1 selected item to:"
@@ -3231,7 +3231,7 @@ msgstr[0] "Źmiani nazvu %1 vyłučanaha elementa na:"
 msgstr[1] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
 msgstr[2] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
 
-#: views/renamedialog.cpp:110
+#: views/renamedialog.cpp:123
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "(# will be replaced by ascending numbers)"

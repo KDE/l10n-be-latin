@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-30 01:28+0000\n"
+"POT-Creation-Date: 2013-07-03 01:28+0000\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -545,12 +545,12 @@ msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: dolphinviewcontainer.cpp:417
+#: dolphinviewcontainer.cpp:419
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Čytańnie kataloha..."
 
-#: dolphinviewcontainer.cpp:425
+#: dolphinviewcontainer.cpp:427
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -558,31 +558,31 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "Paradkuj pavodle:"
 
-#: dolphinviewcontainer.cpp:436
+#: dolphinviewcontainer.cpp:438
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:456
+#: dolphinviewcontainer.cpp:458
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:572
+#: dolphinviewcontainer.cpp:574
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje sieciŭnych staronak, tamu ŭklučyła "
 "hartač."
 
-#: dolphinviewcontainer.cpp:586
+#: dolphinviewcontainer.cpp:588
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje hetaha pratakołu, tamu ŭklučyła "
 "aplikacyju „Konqueror”."
 
-#: dolphinviewcontainer.cpp:594
+#: dolphinviewcontainer.cpp:596
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Niapravilny pratakoł"
@@ -2297,10 +2297,10 @@ msgstr ""
 #| msgctxt "@title:group"
 #| msgid "Ask For Confirmation When"
 msgctxt "@title:group"
-msgid "Ask for confirmation when:"
+msgid "Ask for confirmation in all KDE applications when:"
 msgstr "Pytaj paćvierdžańnia dla"
 
-#: settings/general/confirmationssettingspage.cpp:47
+#: settings/general/confirmationssettingspage.cpp:48
 #, fuzzy
 #| msgctxt "@option:check Ask for Confirmation When"
 #| msgid "Moving files or folders to trash"
@@ -2308,7 +2308,7 @@ msgctxt "@option:check Ask for confirmation when"
 msgid "Moving files or folders to trash"
 msgstr "vykidańnia fajłaŭ ci katalohaŭ u śmietnicu"
 
-#: settings/general/confirmationssettingspage.cpp:49
+#: settings/general/confirmationssettingspage.cpp:50
 #, fuzzy
 #| msgctxt "@option:check Ask for Confirmation When"
 #| msgid "Deleting files or folders"
@@ -2316,9 +2316,17 @@ msgctxt "@option:check Ask for confirmation when"
 msgid "Deleting files or folders"
 msgstr "vydaleńnia fajłaŭ ci katalohaŭ"
 
-#: settings/general/confirmationssettingspage.cpp:51
+#: settings/general/confirmationssettingspage.cpp:52
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Ask For Confirmation When"
+msgctxt "@title:group"
+msgid "Ask for confirmation when:"
+msgstr "Pytaj paćvierdžańnia dla"
+
+#: settings/general/confirmationssettingspage.cpp:56
 msgctxt "@option:check Ask for confirmation when"
-msgid "Closing windows with multiple tabs"
+msgid "Closing Dolphin windows with multiple tabs"
 msgstr ""
 
 #: settings/general/generalsettingspage.cpp:48

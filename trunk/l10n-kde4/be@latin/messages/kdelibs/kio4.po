@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-04 01:38+0000\n"
+"POT-Creation-Date: 2013-07-14 01:42+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Delete File"
 msgstr "Vydali fajł"
 
-#: ../kfile/kdiroperator.cpp:810 kio/jobuidelegate.cpp:149
+#: ../kfile/kdiroperator.cpp:810 kio/jobuidelegate.cpp:152
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -65,7 +65,7 @@ msgstr[0] "Ci ty sapraŭdy chočaš vydalić %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vydalić %1 hetyja elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vydalić %1 hetych elementaŭ?"
 
-#: ../kfile/kdiroperator.cpp:812 kio/jobuidelegate.cpp:151
+#: ../kfile/kdiroperator.cpp:812 kio/jobuidelegate.cpp:154
 msgid "Delete Files"
 msgstr "Vydaleńnie fajłaŭ"
 
@@ -131,7 +131,7 @@ msgstr "Pieračytaj"
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: ../kfile/kdiroperator.cpp:1857 kio/jobuidelegate.cpp:172
+#: ../kfile/kdiroperator.cpp:1857 kio/jobuidelegate.cpp:175
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
 
@@ -479,7 +479,7 @@ msgstr ""
 "Ty sapraŭdy chočaš vyčyścić śmietnicu? Usio jejnaje źmieściva budzie "
 "vydalenaje."
 
-#: ../kfile/kfileplacesview.cpp:644 kio/jobuidelegate.cpp:161
+#: ../kfile/kfileplacesview.cpp:644 kio/jobuidelegate.cpp:164
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Vyčyści śmietnicu"
@@ -3492,7 +3492,7 @@ msgid "Folder Already Exists"
 msgstr "Kataloh užo isnuje"
 
 #: kio/copyjob.cpp:1398 kio/copyjob.cpp:1981 kio/global.cpp:669
-#: kio/job.cpp:2224 kio/paste.cpp:116
+#: kio/job.cpp:2240 kio/paste.cpp:116
 msgid "File Already Exists"
 msgstr "Fajł užo isnuje"
 
@@ -5434,14 +5434,14 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Admantavańnie"
 
-#: kio/jobuidelegate.cpp:159
+#: kio/jobuidelegate.cpp:162
 msgctxt "@info"
 msgid ""
 "Do you want to permanently delete all items from Trash? This action cannot "
 "be undone."
 msgstr ""
 
-#: kio/jobuidelegate.cpp:170
+#: kio/jobuidelegate.cpp:173
 #, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -5449,10 +5449,18 @@ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetyja elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetych elementaŭ?"
 
-#: kio/jobuidelegate.cpp:173
+#: kio/jobuidelegate.cpp:176
 msgctxt "Verb"
 msgid "&Trash"
 msgstr "&Vykiń"
+
+#: kio/jobuidelegate.cpp:268
+msgid "The peer SSL certificate chain appears to be corrupt."
+msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
+
+#: kio/jobuidelegate.cpp:269 kio/tcpslavebase.cpp:766
+msgid "SSL"
+msgstr "SSL"
 
 #: kio/kbuildsycocaprogressdialog.cpp:44
 msgid "Updating System Configuration"
@@ -6005,31 +6013,23 @@ msgstr "&Tak"
 msgid "&No"
 msgstr "&Nie"
 
-#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:81
+#: kio/slaveinterface.cpp:422 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Detali"
 
-#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:838 kssl/sslui.cpp:120
+#: kio/slaveinterface.cpp:424 kio/tcpslavebase.cpp:838 kssl/sslui.cpp:120
 msgid "&Forever"
 msgstr "&Pryjmaj nadalej"
 
-#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:82
+#: kio/slaveinterface.cpp:428 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:82
 msgid "Co&ntinue"
 msgstr "&Praciahvaj"
 
-#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:839 kssl/sslui.cpp:121
+#: kio/slaveinterface.cpp:430 kio/tcpslavebase.cpp:839 kssl/sslui.cpp:121
 #, fuzzy
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
 msgstr "&Tolki dla dziejnych sesijaŭ"
-
-#: kio/slaveinterface.cpp:496
-msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
-
-#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:766
-msgid "SSL"
-msgstr "SSL"
 
 #: kio/tcpslavebase.cpp:334
 msgid ""

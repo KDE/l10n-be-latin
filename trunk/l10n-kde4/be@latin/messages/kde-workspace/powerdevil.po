@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-14 01:42+0000\n"
+"POT-Creation-Date: 2013-08-02 02:06+0000\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -56,12 +56,12 @@ msgstr " chv"
 msgid "After"
 msgstr ""
 
-#: actions/bundled/handlebuttonevents.cpp:56
+#: actions/bundled/handlebuttonevents.cpp:58
 msgctxt "@action:inmenu Global shortcut"
 msgid "Sleep"
 msgstr ""
 
-#: actions/bundled/handlebuttonevents.cpp:61
+#: actions/bundled/handlebuttonevents.cpp:63
 msgctxt "@action:inmenu Global shortcut"
 msgid "Hibernate"
 msgstr ""
@@ -254,13 +254,6 @@ msgid ""
 msgstr ""
 "Byŭ vybrany profil „%1”, ale jon nie isnuje!\n"
 "Spraŭdź słušnaść naładaŭ słužby „PowerDevil”."
-
-#: powerdevilcore.cpp:357
-#, kde-format
-msgid ""
-"The profile \"%1\" tried to activate %2, a non existent action. This is "
-"usually due to an installation problem or to a configuration problem."
-msgstr ""
 
 #: powerdevilcore.cpp:384 powerdevilcore.cpp:396
 msgid "Activity Manager"

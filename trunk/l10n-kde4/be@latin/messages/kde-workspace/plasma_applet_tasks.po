@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-28 01:42+0000\n"
+"POT-Creation-Date: 2013-11-12 01:37+0000\n"
 "PO-Revision-Date: 2008-10-05 10:49+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -57,68 +57,59 @@ msgstr "Hurtavańnie j paradak"
 msgid "Grouping:"
 msgstr "Hurtavańnie:"
 
-#: package/contents/ui/ConfigGeneral.qml:88
-msgid "Do Not Group"
-msgstr "Nie hurtuj"
-
-#: package/contents/ui/ConfigGeneral.qml:88
-#: package/contents/ui/ConfigGeneral.qml:104
-msgid "Manually"
-msgstr "Uručnuju"
-
-#: package/contents/ui/ConfigGeneral.qml:88
-msgid "By Program Name"
-msgstr "Pavodle nazvaŭ prahram"
-
-#: package/contents/ui/ConfigGeneral.qml:94
+#: package/contents/ui/ConfigGeneral.qml:90
 #, fuzzy
 #| msgid "Only when the taskbar is full"
 msgid "Only when the task manager is full"
 msgstr "Tolki kali panel zadańniaŭ zapoŭnienaja"
 
-#: package/contents/ui/ConfigGeneral.qml:99
+#: package/contents/ui/ConfigGeneral.qml:95
 msgid "Sorting:"
 msgstr "Paradak:"
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:100
 msgid "Do Not Sort"
 msgstr "Nie paradkuj"
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:100
+msgid "Manually"
+msgstr "Uručnuju"
+
+#: package/contents/ui/ConfigGeneral.qml:100
 msgid "Alphabetically"
 msgstr "Pavodle alfabetu"
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:100
 msgid "By Desktop"
 msgstr "Pavodle stałoŭ"
 
-#: package/contents/ui/ConfigGeneral.qml:104
+#: package/contents/ui/ConfigGeneral.qml:100
 msgid "By Activity"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:111
+#: package/contents/ui/ConfigGeneral.qml:107
 msgid "Filters"
 msgstr "Filtry"
 
-#: package/contents/ui/ConfigGeneral.qml:117
+#: package/contents/ui/ConfigGeneral.qml:113
 #, fuzzy
 #| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current screen"
 msgstr "Pakazvaj zadańni tolki ź dziejnaha ekrana"
 
-#: package/contents/ui/ConfigGeneral.qml:122
+#: package/contents/ui/ConfigGeneral.qml:118
 #, fuzzy
 #| msgid "Only show tasks from the current desktop"
 msgid "Show only tasks from the current desktop"
 msgstr "Pakazvaj zadańni tolki ź dziejnaha rabočaha stała"
 
-#: package/contents/ui/ConfigGeneral.qml:127
+#: package/contents/ui/ConfigGeneral.qml:123
 #, fuzzy
 #| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current activity"
 msgstr "Pakazvaj zadańni tolki ź dziejnaha ekrana"
 
-#: package/contents/ui/ConfigGeneral.qml:132
+#: package/contents/ui/ConfigGeneral.qml:128
 #, fuzzy
 #| msgid "Only show tasks that are minimized"
 msgid "Show only tasks that are minimized"
@@ -147,6 +138,12 @@ msgstr ""
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"
 msgstr ""
+
+#~ msgid "Do Not Group"
+#~ msgstr "Nie hurtuj"
+
+#~ msgid "By Program Name"
+#~ msgstr "Pavodle nazvaŭ prahram"
 
 #~ msgid "Collapse Group"
 #~ msgstr "Zharni hurt"

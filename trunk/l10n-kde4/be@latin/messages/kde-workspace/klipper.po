@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-07 02:54+0100\n"
+"POT-Creation-Date: 2013-11-27 01:38+0000\n"
 "PO-Revision-Date: 2008-10-18 22:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,14 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
-
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Ihar Hračyška"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ihar.hrachyshka@gmail.com"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReplayActionInHistory)
 #: actionsconfig.ui:17
@@ -61,7 +53,7 @@ msgid "Regular Expression"
 msgstr "Rehularny vyraz"
 
 #. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: actionsconfig.ui:54 editactiondialog.cpp:223
+#: actionsconfig.ui:54 editactiondialog.cpp:224
 msgid "Description"
 msgstr "Apisańnie"
 
@@ -109,7 +101,7 @@ msgstr ""
 "Bolš źviestak pra rehularnyja vyrazy možna znajści ŭ <a href=\"http://en."
 "wikipedia.org/wiki/Regular_expression\">adpaviednym artykule Wikipedyi</a>."
 
-#: configdialog.cpp:36
+#: configdialog.cpp:38
 #, fuzzy
 #| msgid " sec"
 msgid " second"
@@ -118,7 +110,7 @@ msgstr[0] " sek"
 msgstr[1] " sek"
 msgstr[2] " sek"
 
-#: configdialog.cpp:37
+#: configdialog.cpp:39
 #, fuzzy
 #| msgid " entry"
 #| msgid_plural " entries"
@@ -128,48 +120,48 @@ msgstr[0] " element"
 msgstr[1] " element"
 msgstr[2] " element"
 
-#: configdialog.cpp:263
+#: configdialog.cpp:265
 msgid "Advanced Settings"
 msgstr "Asablivyja nałady"
 
-#: configdialog.cpp:286
+#: configdialog.cpp:284
 msgctxt "General Config"
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#: configdialog.cpp:286
+#: configdialog.cpp:284
 #, fuzzy
 #| msgid "General Config"
 msgid "General Configuration"
 msgstr "Hałoŭnyja nałady"
 
-#: configdialog.cpp:287
+#: configdialog.cpp:285
 msgctxt "Actions Config"
 msgid "Actions"
 msgstr "Aperacyi"
 
-#: configdialog.cpp:287
+#: configdialog.cpp:285
 #, fuzzy
 #| msgid "Actions Config"
 msgid "Actions Configuration"
 msgstr "Nałady aperacyjaŭ"
 
-#: configdialog.cpp:291
+#: configdialog.cpp:289
 msgctxt "Shortcuts Config"
 msgid "Shortcuts"
 msgstr "Skaroty"
 
-#: configdialog.cpp:291
+#: configdialog.cpp:289
 #, fuzzy
 #| msgid "Shortcuts Config"
 msgid "Shortcuts Configuration"
 msgstr "Nałady skarotaŭ"
 
-#: configdialog.cpp:381
+#: configdialog.cpp:379
 msgid "D&isable Actions for Windows of Type WM_CLASS"
 msgstr "&Vyklučy aperacyi dla akon typu „WM_CLASS”"
 
-#: configdialog.cpp:389
+#: configdialog.cpp:387
 msgid ""
 "<qt>This lets you specify windows in which Klipper should not invoke "
 "\"actions\". Use<br /><br /><center><b>xprop | grep WM_CLASS</b></"
@@ -183,45 +175,45 @@ msgstr ""
 "uklučanym u terminale. Paśla jaho ŭklučeńnia klikni ŭ patrebnaje akno. Dla "
 "hetaj opcyi treba padać pieršy tekst, vypisany paśla znaka roŭnaści.</qt>"
 
-#: editactiondialog.cpp:35
+#: editactiondialog.cpp:36
 #, fuzzy
 #| msgid "Ignore images"
 msgid "Ignore"
 msgstr "Abminaj vyjavy"
 
-#: editactiondialog.cpp:37
+#: editactiondialog.cpp:38
 #, fuzzy
 #| msgid "<empty clipboard>"
 msgid "Replace Clipboard"
 msgstr "<pusty abmienny bufer>"
 
-#: editactiondialog.cpp:39
+#: editactiondialog.cpp:40
 #, fuzzy
 #| msgid "<empty clipboard>"
 msgid "Add to Clipboard"
 msgstr "<pusty abmienny bufer>"
 
-#: editactiondialog.cpp:219
+#: editactiondialog.cpp:220
 #, fuzzy
 #| msgid "Add Command"
 msgid "Command"
 msgstr "Dadaj zahad"
 
-#: editactiondialog.cpp:221
+#: editactiondialog.cpp:222
 msgid "Output Handling"
 msgstr ""
 
-#: editactiondialog.cpp:263
+#: editactiondialog.cpp:264
 msgid "Action Properties"
 msgstr ""
 
-#: editactiondialog.cpp:366
+#: editactiondialog.cpp:367
 #, fuzzy
 #| msgid "<new command>"
 msgid "new command"
 msgstr "<novy zahad>"
 
-#: editactiondialog.cpp:367
+#: editactiondialog.cpp:368
 #, fuzzy
 #| msgid "Description"
 msgid "Command Description"
@@ -337,58 +329,58 @@ msgstr "&Termin čakańnia dla vypłyŭnych menu:"
 msgid "Clipboard history size:"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:147
+#: klipper.cpp:150
 #, fuzzy
 #| msgid "Enable/Disable Clipboard Actions"
 msgid "Enable Clipboard Actions"
 msgstr "Uklučeńnie/Vyklučeńnie aperacyjaŭ abmiennaha bufera"
 
-#: klipper.cpp:173
+#: klipper.cpp:176
 msgid "C&lear Clipboard History"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:178
+#: klipper.cpp:181
 msgid "&Configure Klipper..."
 msgstr "&Naładź „Klipper”..."
 
-#: klipper.cpp:183
+#: klipper.cpp:186
 #, fuzzy
 #| msgid "&Quit"
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "&Vyjdzi"
 
-#: klipper.cpp:187
+#: klipper.cpp:190
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Uručnuju vykanaj aperacyju dla dziejnaha źmieściva bufera"
 
-#: klipper.cpp:194
+#: klipper.cpp:197
 msgid "&Edit Contents..."
 msgstr "&Redahuj źmieściva..."
 
-#: klipper.cpp:201
+#: klipper.cpp:204
 msgid "&Show Barcode..."
 msgstr ""
 
-#: klipper.cpp:208
+#: klipper.cpp:211
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Next History Item"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:212
+#: klipper.cpp:215
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Previous History Item"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:218
+#: klipper.cpp:221
 #, fuzzy
 #| msgid "&Popup menu at mouse-cursor position"
 msgid "Open Klipper at Mouse Position"
 msgstr "&Vyjaŭlaj menu ŭ miescy kursora myšy"
 
-#: klipper.cpp:471
+#: klipper.cpp:472
 #, fuzzy
 #| msgid ""
 #| "You can enable URL actions later by right-clicking on the Klipper icon "
@@ -400,31 +392,31 @@ msgstr ""
 "Aperacyi dla adrasoŭ možna budzie ŭklučyć paźniej, praz pravy klik u ikonu "
 "aplikacyi „Klipper” j punkt menu „Uklučy aperacyi”."
 
-#: klipper.cpp:499
+#: klipper.cpp:500
 msgid "Should Klipper start automatically when you login?"
 msgstr "Ci ŭklučać aplikacyju „Klipper” pry ŭvachodzie ŭ systemu?"
 
-#: klipper.cpp:500
+#: klipper.cpp:501
 msgid "Automatically Start Klipper?"
 msgstr "Ci ŭklučać aŭtamatyčna aplikacyju „Klipper”?"
 
-#: klipper.cpp:500
+#: klipper.cpp:501
 msgid "Start"
 msgstr "Uklučaj"
 
-#: klipper.cpp:501
+#: klipper.cpp:502
 msgid "Do Not Start"
 msgstr "Nie ŭklučaj"
 
-#: klipper.cpp:911
+#: klipper.cpp:847 klipperpopup.cpp:95
 msgid "KDE cut & paste history utility"
 msgstr "Historyja vycinańniaŭ i ŭklejvańniaŭ dla „KDE”"
 
-#: klipper.cpp:915 tray.cpp:37
+#: klipper.cpp:851 tray.cpp:36
 msgid "Klipper"
 msgstr "Klipper"
 
-#: klipper.cpp:917
+#: klipper.cpp:853
 #, fuzzy
 #| msgid ""
 #| "(c) 1998, Andrew Stanley-Jones\n"
@@ -439,81 +431,81 @@ msgstr ""
 "1998-2002, Carsten Pfeiffer\n"
 "2001, Patrick Dubroy"
 
-#: klipper.cpp:921
+#: klipper.cpp:857
 msgid "Carsten Pfeiffer"
 msgstr "Carsten Pfeiffer"
 
-#: klipper.cpp:922
+#: klipper.cpp:858
 msgid "Author"
 msgstr "Aŭtar"
 
-#: klipper.cpp:925
+#: klipper.cpp:861
 msgid "Andrew Stanley-Jones"
 msgstr "Andrew Stanley-Jones"
 
-#: klipper.cpp:926
+#: klipper.cpp:862
 msgid "Original Author"
 msgstr "Pieršy aŭtar"
 
-#: klipper.cpp:929
+#: klipper.cpp:865
 msgid "Patrick Dubroy"
 msgstr "Patrick Dubroy"
 
-#: klipper.cpp:930
+#: klipper.cpp:866
 msgid "Contributor"
 msgstr "Udzielnik"
 
-#: klipper.cpp:933
+#: klipper.cpp:869
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: klipper.cpp:934
+#: klipper.cpp:870
 msgid "Bugfixes and optimizations"
 msgstr "Vypraŭleńni chibaŭ i aptymizacyja"
 
-#: klipper.cpp:937
+#: klipper.cpp:873
 msgid "Esben Mose Hansen"
 msgstr "Esben Mose Hansen"
 
-#: klipper.cpp:938
+#: klipper.cpp:874
 msgid "Maintainer"
 msgstr "Dahladnik"
 
-#: klipper.cpp:961
+#: klipper.cpp:897
 msgid "Edit Contents"
 msgstr "Redahuj źmieściva"
 
-#: klipper.cpp:994
+#: klipper.cpp:930
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:1022
+#: klipper.cpp:958
 #, fuzzy
 #| msgid "C&lear Clipboard History"
 msgid "Really delete entire clipboard history?"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:1023
+#: klipper.cpp:959
 #, fuzzy
 #| msgid "C&lear Clipboard History"
 msgid "Delete clipboard history?"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:1041 klipper.cpp:1050
+#: klipper.cpp:977 klipper.cpp:986
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Clipboard history"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:1067
+#: klipper.cpp:1003
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:1074
+#: klipper.cpp:1010
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1081
+#: klipper.cpp:1017
 msgid "down"
 msgstr ""
 
@@ -674,30 +666,38 @@ msgstr "Abmienny bufer „Klipper”"
 msgid "&More"
 msgstr "&Bolš"
 
-#: tray.cpp:39
+#: tray.cpp:38
 #, fuzzy
 #| msgid "Save clipboard contents on e&xit"
 msgid "Clipboard Contents"
 msgstr "Zachoŭvaj źmieściva abmiennaha bufera pry &vyjści"
 
-#: tray.cpp:39 tray.cpp:56
+#: tray.cpp:38 tray.cpp:55
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Clipboard is empty"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: urlgrabber.cpp:222
+#: urlgrabber.cpp:229
 #, kde-format
 msgid "%1 - Actions For: %2"
 msgstr "%1 - Aperacyi dla: %2"
 
-#: urlgrabber.cpp:250
+#: urlgrabber.cpp:257
 msgid "Disable This Popup"
 msgstr "Vyklučy hety vypłyŭny element"
 
-#: urlgrabber.cpp:256
+#: urlgrabber.cpp:263
 msgid "&Cancel"
 msgstr "&Anuluj"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Ihar Hračyška"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "ihar.hrachyshka@gmail.com"
 
 #, fuzzy
 #~| msgid "Enable/Disable Clipboard Actions"

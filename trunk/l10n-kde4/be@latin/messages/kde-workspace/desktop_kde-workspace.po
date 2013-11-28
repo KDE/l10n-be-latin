@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-27 01:54+0000\n"
+"POT-Creation-Date: 2013-11-28 01:55+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3952,9 +3952,12 @@ msgid "A clock with hands"
 msgstr ""
 
 #: plasma/generic/applets/batterymonitor/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Display Settings"
 msgctxt "Name"
-msgid "Battery Monitor"
-msgstr "Nazirańnik za batarejaj"
+msgid "Battery & Brightness"
+msgstr "Nałady ekrana"
 
 #: plasma/generic/applets/batterymonitor/metadata.desktop:87
 msgctxt "Comment"
@@ -6306,6 +6309,10 @@ msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
 
+#~ msgctxt "Name"
+#~ msgid "Battery Monitor"
+#~ msgstr "Nazirańnik za batarejaj"
+
 #, fuzzy
 #~| msgctxt "Name"
 #~| msgid "File Management"
@@ -6998,13 +7005,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "A window has been restored from fullscreen"
 #~ msgstr "Akno pačało źmianiać svaje pamiery."
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display Settings"
-#~ msgctxt "Name"
-#~ msgid "Display Brightness"
-#~ msgstr "Nałady ekrana"
 
 #, fuzzy
 #~| msgctxt "Name"

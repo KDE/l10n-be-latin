@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-13 02:02+0000\n"
+"POT-Creation-Date: 2013-12-15 01:52+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -464,6 +464,19 @@ msgctxt "Name"
 msgid "Application Manuals"
 msgstr "Padručniki pa aplikacyjach"
 
+#: khelpcenter/plugins/browsercontrolmodules.desktop:2
+msgctxt "Name"
+msgid "Browser Settings Modules"
+msgstr ""
+
+#: khelpcenter/plugins/filemanagercontrolmodules.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Manager - Super User Mode"
+msgctxt "Name"
+msgid "Filemanager Settings Modules"
+msgstr "Kiraŭnik fajłaŭ: ad asoby karystańnika „root”"
+
 #: khelpcenter/plugins/fundamentals.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -478,9 +491,12 @@ msgid "Browse Info Pages"
 msgstr "Hartańnie infarmacyjnych staronak („info”)"
 
 #: khelpcenter/plugins/kcontrolmodules.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "System Settings"
 msgctxt "Name"
-msgid "Control Center Modules"
-msgstr "Moduli centra kiravańnia"
+msgid "System Settings Modules"
+msgstr "Systemnyja nałady"
 
 #: khelpcenter/plugins/kicmodules.desktop:2
 msgctxt "Name"
@@ -491,6 +507,14 @@ msgstr "Moduli KInfoCenter"
 msgctxt "Name"
 msgid "Kioslaves"
 msgstr "Słužby „kioslave”"
+
+#: khelpcenter/plugins/konquerorcontrolmodules.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Konqueror Gestures"
+msgctxt "Name"
+msgid "Konqueror Settings Modules"
+msgstr "Žesty prahramy „Konqueror”"
 
 #: khelpcenter/plugins/Manpages/.directory:2
 msgctxt "Name"
@@ -554,6 +578,14 @@ msgstr "(n) Novaje"
 msgctxt "Name"
 msgid "Online Help"
 msgstr "Vyhlad „Dolphin”"
+
+#: khelpcenter/plugins/othercontrolmodules.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "System Settings"
+msgctxt "Name"
+msgid "Other Settings Modules"
+msgstr "Systemnyja nałady"
 
 #: khelpcenter/plugins/plasma.desktop:4
 msgctxt "Name"
@@ -5980,6 +6012,10 @@ msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
 
+#~ msgctxt "Name"
+#~ msgid "Control Center Modules"
+#~ msgstr "Moduli centra kiravańnia"
+
 #~ msgctxt "Comment"
 #~ msgid "KDE is starting up"
 #~ msgstr "Uklučeńnie KDE."
@@ -6701,10 +6737,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "KDE File Manager & Web Browser"
 #~ msgstr "Kiraŭnik fajłaŭ i hartač sieciva dla KDE"
-
-#~ msgctxt "Name"
-#~ msgid "File Manager - Super User Mode"
-#~ msgstr "Kiraŭnik fajłaŭ: ad asoby karystańnika „root”"
 
 #~ msgctxt "Name"
 #~ msgid "Text-to-Speech"
@@ -8471,10 +8503,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Basic Konqueror gestures."
 #~ msgstr "Prostyja žesty dla prahramy „Konqueror”."
-
-#~ msgctxt "Name"
-#~ msgid "Konqueror Gestures"
-#~ msgstr "Žesty prahramy „Konqueror”"
 
 #~ msgctxt "Comment"
 #~ msgid "Press, move left, release."
@@ -11530,13 +11558,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "System Settings External Application"
 #~ msgstr "Katehoryja systemnych naładaŭ"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System Settings"
-#~ msgctxt "Name"
-#~ msgid "System Settings View"
-#~ msgstr "Systemnyja nałady"
 
 #, fuzzy
 #~| msgctxt "Name"

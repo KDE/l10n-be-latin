@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-12 01:56+0000\n"
+"POT-Creation-Date: 2014-01-13 01:57+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2870,7 +2870,7 @@ msgctxt "Name"
 msgid "Text Only"
 msgstr "Tekstavy fajł"
 
-#: kwin/tabbox/qml/clients/text/metadata.desktop:23
+#: kwin/tabbox/qml/clients/text/metadata.desktop:24
 msgctxt "Comment"
 msgid "A window switcher layout only showing window captions"
 msgstr ""
@@ -3200,12 +3200,12 @@ msgctxt "Name"
 msgid "Battery & Brightness"
 msgstr "Nałady ekrana"
 
-#: plasma/generic/applets/batterymonitor/metadata.desktop:25
+#: plasma/generic/applets/batterymonitor/metadata.desktop:26
 msgctxt "Comment"
 msgid "See the power status of your battery"
 msgstr "Naziraje za kolkaściu enerhii ŭ tvajoj batarei"
 
-#: plasma/generic/applets/batterymonitor/metadata.desktop:99
+#: plasma/generic/applets/batterymonitor/metadata.desktop:100
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Power Management"
@@ -3214,10 +3214,10 @@ msgid "Power Management;Battery;System;Energy;"
 msgstr "Kiravańnie enerhijaj"
 
 #: plasma/generic/applets/calendar/metadata.desktop:3
-#: plasma/generic/applets/digital-clock/metadata.desktop:3
+#: plasma/generic/dataengines/calendar/plasma-dataengine-calendar.desktop:2
 msgctxt "Name"
-msgid "Digital Clock"
-msgstr "Ličbavy hadzińnik"
+msgid "Calendar"
+msgstr "Kalandar"
 
 #: plasma/generic/applets/devicenotifier/package/metadata.desktop:2
 msgctxt "Name"
@@ -3236,6 +3236,11 @@ msgstr "Infarmavańnie j dostup da novych pryładaŭ"
 msgctxt "Name"
 msgid "Open with File Manager"
 msgstr "Adčyni ŭ &zmoŭčanym hartačy"
+
+#: plasma/generic/applets/digital-clock/metadata.desktop:3
+msgctxt "Name"
+msgid "Digital Clock"
+msgstr "Ličbavy hadzińnik"
 
 #: plasma/generic/applets/icon/package/metadata.desktop:2
 msgctxt "Name"
@@ -3571,11 +3576,6 @@ msgstr "Źviestki pra zadańnie aplikacyi"
 msgctxt "Comment"
 msgid "Information and launching of all applications in the app menu."
 msgstr ""
-
-#: plasma/generic/dataengines/calendar/plasma-dataengine-calendar.desktop:2
-msgctxt "Name"
-msgid "Calendar"
-msgstr "Kalandar"
 
 #: plasma/generic/dataengines/calendar/plasma-dataengine-calendar.desktop:80
 #, fuzzy

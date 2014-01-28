@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-27 01:52+0000\n"
+"POT-Creation-Date: 2014-01-28 01:53+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1936,7 +1936,7 @@ msgctxt "Name"
 msgid "Background contrast"
 msgstr ""
 
-#: kwin/effects/backgroundcontrast/contrast.desktop:17
+#: kwin/effects/backgroundcontrast/contrast.desktop:18
 msgctxt "Comment"
 msgid "Improve contrast and readability behind semi-transparent windows"
 msgstr ""
@@ -1988,7 +1988,6 @@ msgstr ""
 
 #: kwin/effects/dashboard/dashboard_config.desktop:9
 #: kwin/effects/dashboard/dashboard.desktop:2
-#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:2
 msgctxt "Name"
 msgid "Dashboard"
 msgstr "Dashboard"
@@ -4274,102 +4273,6 @@ msgctxt "Comment"
 msgid "List windows and desktops and switch them"
 msgstr ""
 
-#: plasma/generic/scriptengines/python/plasma-scriptengine-applet-python.desktop:2
-msgctxt "Name"
-msgid "Python Widget"
-msgstr "Widžet „Python”"
-
-#: plasma/generic/scriptengines/python/plasma-scriptengine-applet-python.desktop:76
-msgctxt "Comment"
-msgid "Plasma widget support written in Python"
-msgstr "Widžet systemy „Plasma”, napisany ŭ movie „Python”"
-
-#: plasma/generic/scriptengines/python/plasma-scriptengine-dataengine-python.desktop:2
-msgctxt "Name"
-msgid "Python data engine"
-msgstr "Systema źviestak u movie „Python”"
-
-#: plasma/generic/scriptengines/python/plasma-scriptengine-dataengine-python.desktop:74
-msgctxt "Comment"
-msgid "Plasma data engine support for Python"
-msgstr "Absłuhoŭvańnie systemy źviestak „Plasma” u movie „Python”"
-
-#: plasma/generic/scriptengines/python/plasma-scriptengine-runner-python.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Python data engine"
-msgctxt "Name"
-msgid "Python Runner"
-msgstr "Systema źviestak u movie „Python”"
-
-#: plasma/generic/scriptengines/python/plasma-scriptengine-runner-python.desktop:66
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Plasma data engine support for Python"
-msgctxt "Comment"
-msgid "Plasma Runner support for Python"
-msgstr "Absłuhoŭvańnie systemy źviestak „Plasma” u movie „Python”"
-
-#: plasma/generic/scriptengines/python/plasma-scriptengine-wallpaper-python.desktop:2
-msgctxt "Name"
-msgid "Python wallpaper"
-msgstr ""
-
-#: plasma/generic/scriptengines/python/plasma-scriptengine-wallpaper-python.desktop:68
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Plasma data engine support for Python"
-msgctxt "Comment"
-msgid "Plasma wallpaper support for Python"
-msgstr "Absłuhoŭvańnie systemy źviestak „Plasma” u movie „Python”"
-
-#: plasma/generic/scriptengines/ruby/plasma-scriptengine-ruby-applet.desktop:2
-#: plasma/generic/scriptengines/ruby/plasma-scriptengine-ruby-dataengine.desktop:2
-msgctxt "Name"
-msgid "Ruby Widget"
-msgstr "Widžet u movie „Ruby”"
-
-#: plasma/generic/scriptengines/ruby/plasma-scriptengine-ruby-applet.desktop:76
-#: plasma/generic/scriptengines/ruby/plasma-scriptengine-ruby-dataengine.desktop:76
-msgctxt "Comment"
-msgid "Native Plasma widget written in Ruby"
-msgstr "Rodny widžet systemy „Plasma”, napisany ŭ movie „Ruby”"
-
-#: plasma/generic/scriptengines/webkit/plasma-packagestructure-dashboard.desktop:2
-msgctxt "Name"
-msgid "MacOS Dashboard Widgets"
-msgstr "Widžety „Dashboard” dla systemy „MacOS”"
-
-#: plasma/generic/scriptengines/webkit/plasma-packagestructure-dashboard.desktop:74
-msgctxt "Comment"
-msgid "MacOS dashboard widget"
-msgstr "Widžet „Dashboard” dla systemy „MacOS”"
-
-#: plasma/generic/scriptengines/webkit/plasma-packagestructure-web.desktop:2
-msgctxt "Name"
-msgid "Web Widgets"
-msgstr "Sieciŭnyja widžety"
-
-#: plasma/generic/scriptengines/webkit/plasma-packagestructure-web.desktop:76
-msgctxt "Comment"
-msgid "HTML widget"
-msgstr "Widžet HTML"
-
-#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-dashboard.desktop:78
-msgctxt "Comment"
-msgid "MacOS X dashboard widget"
-msgstr "Widžet „Dashboard” systemy „MacOS X”."
-
-#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-web.desktop:2
-msgctxt "Name"
-msgid "Web Widget"
-msgstr "Sieciŭny widžet"
-
-#: plasma/generic/scriptengines/webkit/plasma-scriptengine-applet-web.desktop:77
-msgctxt "Comment"
-msgid "Webpage widget using HTML and JavaScript"
-msgstr "Widžet z staronkaj u farmacie „HTML” i z skryptami „JavaScript”."
-
 #: plasma/generic/wallpapers/color/metadata.desktop:5
 #, fuzzy
 #| msgctxt "Name"
@@ -5493,6 +5396,79 @@ msgstr "Prahladnik šryftoŭ"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Python Widget"
+#~ msgstr "Widžet „Python”"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma widget support written in Python"
+#~ msgstr "Widžet systemy „Plasma”, napisany ŭ movie „Python”"
+
+#~ msgctxt "Name"
+#~ msgid "Python data engine"
+#~ msgstr "Systema źviestak u movie „Python”"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma data engine support for Python"
+#~ msgstr "Absłuhoŭvańnie systemy źviestak „Plasma” u movie „Python”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Python data engine"
+#~ msgctxt "Name"
+#~ msgid "Python Runner"
+#~ msgstr "Systema źviestak u movie „Python”"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Plasma data engine support for Python"
+#~ msgctxt "Comment"
+#~ msgid "Plasma Runner support for Python"
+#~ msgstr "Absłuhoŭvańnie systemy źviestak „Plasma” u movie „Python”"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Plasma data engine support for Python"
+#~ msgctxt "Comment"
+#~ msgid "Plasma wallpaper support for Python"
+#~ msgstr "Absłuhoŭvańnie systemy źviestak „Plasma” u movie „Python”"
+
+#~ msgctxt "Name"
+#~ msgid "Ruby Widget"
+#~ msgstr "Widžet u movie „Ruby”"
+
+#~ msgctxt "Comment"
+#~ msgid "Native Plasma widget written in Ruby"
+#~ msgstr "Rodny widžet systemy „Plasma”, napisany ŭ movie „Ruby”"
+
+#~ msgctxt "Name"
+#~ msgid "MacOS Dashboard Widgets"
+#~ msgstr "Widžety „Dashboard” dla systemy „MacOS”"
+
+#~ msgctxt "Comment"
+#~ msgid "MacOS dashboard widget"
+#~ msgstr "Widžet „Dashboard” dla systemy „MacOS”"
+
+#~ msgctxt "Name"
+#~ msgid "Web Widgets"
+#~ msgstr "Sieciŭnyja widžety"
+
+#~ msgctxt "Comment"
+#~ msgid "HTML widget"
+#~ msgstr "Widžet HTML"
+
+#~ msgctxt "Comment"
+#~ msgid "MacOS X dashboard widget"
+#~ msgstr "Widžet „Dashboard” systemy „MacOS X”."
+
+#~ msgctxt "Name"
+#~ msgid "Web Widget"
+#~ msgstr "Sieciŭny widžet"
+
+#~ msgctxt "Comment"
+#~ msgid "Webpage widget using HTML and JavaScript"
+#~ msgstr "Widžet z staronkaj u farmacie „HTML” i z skryptami „JavaScript”."
 
 #, fuzzy
 #~| msgctxt "Name"

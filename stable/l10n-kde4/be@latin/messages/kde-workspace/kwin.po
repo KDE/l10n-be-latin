@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-15 05:31+0000\n"
+"POT-Creation-Date: 2014-01-29 05:38+0000\n"
 "PO-Revision-Date: 2008-12-27 14:55+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -503,11 +503,11 @@ msgstr "Zamiani inšaha akońnika, jaki absłuhoŭvaje standart „ICCCM2.0”"
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "Adznačaj, kali akońnik „KWin” niadaŭna łamaŭsia „n” razoŭ zapar"
 
-#: scene_opengl.cpp:359
+#: scene_opengl.cpp:358
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
 
-#: scene_opengl.cpp:566
+#: scene_opengl.cpp:565
 #, kde-format
 msgid ""
 "<h1>OpenGL desktop effects not possible</h1>Your system cannot perform "
@@ -517,7 +517,7 @@ msgid ""
 "%2 "
 msgstr ""
 
-#: scene_opengl.cpp:573
+#: scene_opengl.cpp:572
 msgid ""
 "The demanded resolution exceeds the GL_MAX_VIEWPORT_DIMS limitation of your "
 "GPU and is therefore not compatible with the OpenGL compositor.<br>XRender "
@@ -525,7 +525,7 @@ msgid ""
 "by the hardware limitations that restrict the OpenGL viewport size."
 msgstr ""
 
-#: scene_opengl.cpp:598
+#: scene_opengl.cpp:597
 #, kde-format
 msgid ""
 "<h1>OpenGL desktop effects might be unusable</h1>OpenGL Desktop Effects at "
@@ -534,7 +534,7 @@ msgid ""
 "compositing, switch to the XRender backend or lower the resolution to %1x%1."
 msgstr ""
 
-#: scene_opengl.cpp:604
+#: scene_opengl.cpp:603
 msgid ""
 "The demanded resolution exceeds the GL_MAX_TEXTURE_SIZE limitation of your "
 "GPU, thus windows of that size cannot be assigned to textures and will be "

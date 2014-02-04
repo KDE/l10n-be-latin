@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-28 01:53+0000\n"
+"POT-Creation-Date: 2014-02-04 01:56+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -5696,12 +5696,15 @@ msgctxt "Comment"
 msgid "X Window Utilities"
 msgstr "Pryładździe systemy „X Window”"
 
-#: nepomuk/kcm/desktop-search.desktop:8 nepomuk/kcm/kcm_nepomuk.desktop:14
+#: nepomuk/kcm/kcm_nepomuk.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Nepomuk Server"
 msgctxt "Name"
-msgid "Desktop Search"
-msgstr "Pošuk"
+msgid "Nepomuk"
+msgstr "Server „Nepomuk”"
 
-#: nepomuk/kcm/kcm_nepomuk.desktop:94
+#: nepomuk/kcm/kcm_nepomuk.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Nepomuk/Strigi Server Configuration"
@@ -5709,7 +5712,7 @@ msgctxt "Comment"
 msgid "Nepomuk Server Configuration"
 msgstr "Nałady servera „Nepomuk”/„Strigi”"
 
-#: nepomuk/kcm/kcm_nepomuk.desktop:146
+#: nepomuk/kcm/kcm_nepomuk.desktop:67
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Nepomuk Strigi Service"
@@ -6013,6 +6016,10 @@ msgid "Provides a user interface for hardware events"
 msgstr ""
 
 #~ msgctxt "Name"
+#~ msgid "Desktop Search"
+#~ msgstr "Pošuk"
+
+#~ msgctxt "Name"
 #~ msgid "Control Center Modules"
 #~ msgstr "Moduli centra kiravańnia"
 
@@ -6201,10 +6208,6 @@ msgstr ""
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Xine"
 #~ msgstr "Xine"
-
-#~ msgctxt "Name"
-#~ msgid "Nepomuk Server"
-#~ msgstr "Server „Nepomuk”"
 
 #~ msgctxt "Comment"
 #~ msgid "The Nepomuk Server providing Storage services and strigi controlling"

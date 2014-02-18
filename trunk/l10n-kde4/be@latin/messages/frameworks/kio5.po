@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-17 01:59+0000\n"
+"POT-Creation-Date: 2014-02-18 01:35+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1992,7 +1992,7 @@ msgstr "Vybiery inšuju nazvu dla metavaha fajła."
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
-#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:830
+#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:833
 #: src/widgets/paste.cpp:265 src/widgets/renamedialog.cpp:410
 #, kde-format
 msgid ""
@@ -5311,42 +5311,42 @@ msgstr "Adčyni ŭ:"
 msgid "You are not authorized to execute this file."
 msgstr "Tabie nielha vykonvać hety fajł."
 
-#: src/widgets/krun.cpp:315
+#: src/widgets/krun.cpp:317
 #, kde-format
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"
 
-#: src/widgets/krun.cpp:419
+#: src/widgets/krun.cpp:422
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
 
-#: src/widgets/krun.cpp:591
+#: src/widgets/krun.cpp:594
 msgid "You are not authorized to execute this service."
 msgstr "Tabie nielha vykonvać hetuju słužbu."
 
-#: src/widgets/krun.cpp:596
+#: src/widgets/krun.cpp:599
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Aściaroha"
 
-#: src/widgets/krun.cpp:613
+#: src/widgets/krun.cpp:616
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 
-#: src/widgets/krun.cpp:630
+#: src/widgets/krun.cpp:633
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
 
-#: src/widgets/krun.cpp:673
+#: src/widgets/krun.cpp:676
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: src/widgets/krun.cpp:854
+#: src/widgets/krun.cpp:857
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -5355,7 +5355,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: src/widgets/krun.cpp:1454
+#: src/widgets/krun.cpp:1444
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"

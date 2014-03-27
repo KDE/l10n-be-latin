@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-26 01:43+0000\n"
+"POT-Creation-Date: 2014-03-27 01:44+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,6 +18,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
 
 #: autotests/jobtest.cpp:1035
 #, fuzzy
@@ -1992,7 +2000,7 @@ msgstr "Vybiery inšuju nazvu dla metavaha fajła."
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
-#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:834
+#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:836
 #: src/widgets/paste.cpp:260 src/widgets/renamedialog.cpp:410
 #, kde-format
 msgid ""
@@ -2349,22 +2357,22 @@ msgstr "&Tak"
 msgid "&No"
 msgstr "&Nie"
 
-#: src/core/slaveinterface.cpp:413 src/core/tcpslavebase.cpp:822
+#: src/core/slaveinterface.cpp:410 src/core/tcpslavebase.cpp:822
 #: src/widgets/sslui.cpp:78
 msgid "&Details"
 msgstr "&Detali"
 
-#: src/core/slaveinterface.cpp:415 src/core/tcpslavebase.cpp:839
+#: src/core/slaveinterface.cpp:412 src/core/tcpslavebase.cpp:839
 #: src/widgets/sslui.cpp:114
 msgid "&Forever"
 msgstr "&Pryjmaj nadalej"
 
-#: src/core/slaveinterface.cpp:419 src/core/tcpslavebase.cpp:822
+#: src/core/slaveinterface.cpp:416 src/core/tcpslavebase.cpp:822
 #: src/widgets/sslui.cpp:79
 msgid "Co&ntinue"
 msgstr "&Praciahvaj"
 
-#: src/core/slaveinterface.cpp:421 src/core/tcpslavebase.cpp:840
+#: src/core/slaveinterface.cpp:418 src/core/tcpslavebase.cpp:840
 #: src/widgets/sslui.cpp:115
 #, fuzzy
 #| msgid "&Current Sessions Only"
@@ -3900,6 +3908,114 @@ msgstr "Servery j skrypty na staronkach"
 msgid "You do not have permission to access the %1 protocol."
 msgstr "Tabie nie staje dazvołu na dostup da pratakołu „%1”."
 
+#: src/kioexec/main.cpp:46
+msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
+msgstr ""
+
+#: src/kioexec/main.cpp:80
+#, kde-format
+msgid ""
+"The URL %1\n"
+"is malformed"
+msgstr ""
+
+#: src/kioexec/main.cpp:82
+#, kde-format
+msgid ""
+"Remote URL %1\n"
+"not allowed with --tempfiles switch"
+msgstr ""
+
+#: src/kioexec/main.cpp:213
+#, kde-format
+msgid ""
+"The supposedly temporary file\n"
+"%1\n"
+"has been modified.\n"
+"Do you still want to delete it?"
+msgstr ""
+
+#: src/kioexec/main.cpp:214 src/kioexec/main.cpp:221
+#, fuzzy
+#| msgid "Device name"
+msgid "File Changed"
+msgstr "Nazva pryłady"
+
+#: src/kioexec/main.cpp:214
+#, fuzzy
+#| msgid "Do Not Store"
+msgid "Do Not Delete"
+msgstr "Nie zachoŭvaj"
+
+#: src/kioexec/main.cpp:220
+#, kde-format
+msgid ""
+"The file\n"
+"%1\n"
+"has been modified.\n"
+"Do you want to upload the changes?"
+msgstr ""
+
+#: src/kioexec/main.cpp:221
+#, fuzzy
+#| msgid "Reload"
+msgid "Upload"
+msgstr "Pieračytaj"
+
+#: src/kioexec/main.cpp:221
+#, fuzzy
+#| msgid "Do Not Store"
+msgid "Do Not Upload"
+msgstr "Nie zachoŭvaj"
+
+#: src/kioexec/main.cpp:252
+#, fuzzy
+#| msgid "Exec"
+msgid "KIOExec"
+msgstr "Vykanańnie"
+
+#: src/kioexec/main.cpp:254
+msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
+msgstr ""
+
+#: src/kioexec/main.cpp:255
+msgid "David Faure"
+msgstr ""
+
+#: src/kioexec/main.cpp:256
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: src/kioexec/main.cpp:257
+msgid "Bernhard Rosenkraenzer"
+msgstr ""
+
+#: src/kioexec/main.cpp:258
+msgid "Waldo Bastian"
+msgstr ""
+
+#: src/kioexec/main.cpp:259
+msgid "Oswald Buddenhagen"
+msgstr ""
+
+#: src/kioexec/main.cpp:264
+msgid "Treat URLs as local files and delete them afterwards"
+msgstr ""
+
+#: src/kioexec/main.cpp:265
+#, fuzzy
+#| msgid "Choose an alternate filename for the new file."
+msgid "Suggested file name for the downloaded file"
+msgstr "Vybiery inšuju nazvu dla novaha fajła."
+
+#: src/kioexec/main.cpp:266
+msgid "Command to execute"
+msgstr ""
+
+#: src/kioexec/main.cpp:267
+msgid "URL(s) or local file(s) used for 'command'"
+msgstr ""
+
 #: src/kpac/discovery.cpp:112
 msgid "Could not find a usable proxy configuration script"
 msgstr "Nie ŭdałosia znajści prydatny skrypt naładžvańnia proxy"
@@ -3943,6 +4059,30 @@ msgstr ""
 #, kde-format
 msgid "Got an invalid reply when calling %1"
 msgstr ""
+
+#: src/kpasswdserver/kpasswdserver.cpp:556
+#, fuzzy
+#| msgid "Do you really want to delete this item?"
+#| msgid_plural "Do you really want to delete these %1 items?"
+msgid "Do you want to retry?"
+msgstr "Ci ty sapraŭdy chočaš vydalić %1 hety element?"
+
+#: src/kpasswdserver/kpasswdserver.cpp:561
+#, fuzzy
+#| msgid "Server Authentication"
+msgid "Retry Authentication"
+msgstr "Spraŭdžvańnie tojesnaści servera"
+
+#: src/kpasswdserver/kpasswdserver.cpp:565
+msgctxt "@action:button filter-continue"
+msgid "Retry"
+msgstr ""
+
+#: src/kpasswdserver/kpasswdserver.cpp:858
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Authentication Dialog"
+msgstr "Akno aŭtaryzavańnia"
 
 #: src/widgets/accessmanager.cpp:221
 msgid "Blocked request."
@@ -5276,7 +5416,7 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
 
-#: src/widgets/krun.cpp:168
+#: src/widgets/krun.cpp:170
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -5285,7 +5425,7 @@ msgstr ""
 "<qt>Nie ŭdałosia ŭvajści ŭ <b>%1</b>.\n"
 "Tabie nie staje adpaviednaha dazvołu dla hetaha miesca.</qt>"
 
-#: src/widgets/krun.cpp:197
+#: src/widgets/krun.cpp:199
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
@@ -5294,59 +5434,59 @@ msgstr ""
 "<qt>Fajł <b>%1</b> jość vykonvalnaj prahramaj. Kab paźbiehnuć prablemaŭ "
 "biaśpieki, jon nia budzie ŭklučany.</qt>"
 
-#: src/widgets/krun.cpp:203
+#: src/widgets/krun.cpp:205
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Tabie nie staje dazvołu na ŭklučeńnie <b>%1</b>.</qt>"
 
-#: src/widgets/krun.cpp:233
+#: src/widgets/krun.cpp:235
 msgid "You are not authorized to select an application to open this file."
 msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
 
-#: src/widgets/krun.cpp:244
+#: src/widgets/krun.cpp:246
 msgid "Open with:"
 msgstr "Adčyni ŭ:"
 
-#: src/widgets/krun.cpp:294
+#: src/widgets/krun.cpp:296
 msgid "You are not authorized to execute this file."
 msgstr "Tabie nielha vykonvać hety fajł."
 
-#: src/widgets/krun.cpp:317
+#: src/widgets/krun.cpp:319
 #, kde-format
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"
 
-#: src/widgets/krun.cpp:422
+#: src/widgets/krun.cpp:424
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
 
-#: src/widgets/krun.cpp:594
+#: src/widgets/krun.cpp:596
 msgid "You are not authorized to execute this service."
 msgstr "Tabie nielha vykonvać hetuju słužbu."
 
-#: src/widgets/krun.cpp:599
+#: src/widgets/krun.cpp:601
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Aściaroha"
 
-#: src/widgets/krun.cpp:616
+#: src/widgets/krun.cpp:618
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 
-#: src/widgets/krun.cpp:633
+#: src/widgets/krun.cpp:635
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
 
-#: src/widgets/krun.cpp:676
+#: src/widgets/krun.cpp:678
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: src/widgets/krun.cpp:858
+#: src/widgets/krun.cpp:860
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -5355,7 +5495,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: src/widgets/krun.cpp:1445
+#: src/widgets/krun.cpp:1455
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"
@@ -5709,14 +5849,6 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Ihar Hračyška"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "ihar.hrachyshka@gmail.com"
 
 #~ msgctxt "folder name"
 #~ msgid "New Folder"
@@ -6415,9 +6547,6 @@ msgstr ""
 #~ msgid "ERROR: Unknown protocol '%1'"
 #~ msgstr "PAMYŁKA: Nieviadomy pratakoł „%1”."
 
-#~ msgid "Authorization Dialog"
-#~ msgstr "Akno aŭtaryzavańnia"
-
 #~ msgid "The clipboard is empty"
 #~ msgstr "Abmienny bufer pusty."
 
@@ -6778,9 +6907,6 @@ msgstr ""
 #~ msgid "Store"
 #~ msgstr "Zachoŭvaj"
 
-#~ msgid "Do Not Store"
-#~ msgstr "Nie zachoŭvaj"
-
 #~ msgid "2048 (High Grade)"
 #~ msgstr "2048 (vysoki rovień)"
 
@@ -6825,9 +6951,6 @@ msgstr ""
 
 #~ msgid "(c) 2000 Stephan Kulow"
 #~ msgstr "© 2000 Stephan Kulow"
-
-#~ msgid "Stephan Kulow"
-#~ msgstr "Stephan Kulow"
 
 #~ msgid "Author"
 #~ msgstr "Aŭtar"

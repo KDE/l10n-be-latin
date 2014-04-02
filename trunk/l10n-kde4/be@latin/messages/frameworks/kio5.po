@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-30 01:53+0000\n"
+"POT-Creation-Date: 2014-04-02 01:41+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4368,6 +4368,21 @@ msgstr ""
 "Fajł elementa rabočaha stała\n"
 "%1\n"
 "maje typ „FSDevice”, ale nia ŭtrymvaje zapisu typu „Dev=...”"
+
+#: src/widgets/kdesktopfileactions.cpp:130
+#, fuzzy, kde-format
+#| msgid ""
+#| "The desktop entry of type\n"
+#| "%1\n"
+#| "is unknown."
+msgid ""
+"The desktop entry file\n"
+"%1\n"
+"is not valid."
+msgstr ""
+"Elementy rabočaha stała typu\n"
+"%1\n"
+"nieviadomyja systemie."
 
 #: src/widgets/kdesktopfileactions.cpp:143
 #, kde-format

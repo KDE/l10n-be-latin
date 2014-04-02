@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-28 01:57+0000\n"
+"POT-Creation-Date: 2014-04-02 01:41+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,6 +18,56 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: console/main.cpp:100
+#, fuzzy
+#| msgid "Kross"
+msgctxt "application name"
+msgid "Kross"
+msgstr "Kross"
+
+#: console/main.cpp:102
+#, fuzzy
+#| msgid "KDE application to run Kross scripts."
+msgctxt "application description"
+msgid "Command-line utility to run Kross scripts."
+msgstr "Aplikacyja KDE dla vykanańnia skryptoŭ Kross."
+
+#: console/main.cpp:104
+#, fuzzy
+#| msgid "(C) 2006 Sebastian Sauer"
+msgctxt "@info:credit"
+msgid "Copyright 2006 Sebastian Sauer"
+msgstr "© 2006 Sebastian Sauer"
+
+#: console/main.cpp:108
+#, fuzzy
+#| msgid "Sebastian Sauer"
+msgctxt "@info:credit"
+msgid "Sebastian Sauer"
+msgstr "Sebastian Sauer"
+
+#: console/main.cpp:109
+#, fuzzy
+#| msgid "Author"
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Aŭtar"
+
+#: console/main.cpp:119
+#, fuzzy
+#| msgid "Description"
+msgctxt "@info:shell command-line argument"
+msgid "The script to run."
+msgstr "Apisańnie"
 
 #: core/action.cpp:474
 #, kde-format
@@ -132,14 +182,6 @@ msgctxt "@title:group Script properties"
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Ihar Hračyška"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "ihar.hrachyshka@gmail.com"
-
 #~ msgid "Name"
 #~ msgstr "Nazva"
 
@@ -250,9 +292,6 @@ msgstr "Hałoŭnaje"
 
 #~ msgid "&License Agreement"
 #~ msgstr "&Licenzijnaje pahadnieńnie"
-
-#~ msgid "Author"
-#~ msgstr "Aŭtar"
 
 #~ msgid "Email"
 #~ msgstr "Emaił"
@@ -3958,9 +3997,6 @@ msgstr "Hałoŭnaje"
 
 #~ msgid "Shortcuts"
 #~ msgstr "Klavijaturnyja skaroty"
-
-#~ msgid "Description"
-#~ msgstr "Apisańnie"
 
 #~ msgctxt "@item:intable Action name in shortcuts configuration"
 #~ msgid "%1"
@@ -8520,20 +8556,8 @@ msgstr "Hałoŭnaje"
 #~ msgid "Error opening PTY"
 #~ msgstr "Pamyłka ŭ adčynieńni PTY"
 
-#~ msgid "Kross"
-#~ msgstr "Kross"
-
-#~ msgid "KDE application to run Kross scripts."
-#~ msgstr "Aplikacyja KDE dla vykanańnia skryptoŭ Kross."
-
-#~ msgid "(C) 2006 Sebastian Sauer"
-#~ msgstr "© 2006 Sebastian Sauer"
-
 #~ msgid "Run Kross scripts."
 #~ msgstr "Vykonvaje skrypty Kross."
-
-#~ msgid "Sebastian Sauer"
-#~ msgstr "Sebastian Sauer"
 
 #~ msgid "Scriptfile"
 #~ msgstr "Skryptavy fajł"

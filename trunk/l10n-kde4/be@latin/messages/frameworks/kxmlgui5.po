@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-01 01:49+0000\n"
+"POT-Creation-Date: 2014-04-02 01:42+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -540,11 +540,11 @@ msgstr "Tekst łuča:"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
 
-#: kedittoolbar.cpp:617
+#: kedittoolbar.cpp:612
 msgid "Configure Toolbars"
 msgstr "Naładź paneli pryładździa"
 
-#: kedittoolbar.cpp:676
+#: kedittoolbar.cpp:671
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
@@ -552,63 +552,63 @@ msgstr ""
 "Ty sapraŭdy chočaš anulavać ułasnyja źmieny ŭ panelach pryładździa ŭ hetaj "
 "aplikacyi dy viarnuć zmoŭčanyja? Źmieny buduć zaraz ža prymienienyja."
 
-#: kedittoolbar.cpp:676
+#: kedittoolbar.cpp:671
 msgid "Reset Toolbars"
 msgstr "Anuluj źmieny ŭ panelach pryładździa"
 
-#: kedittoolbar.cpp:676
+#: kedittoolbar.cpp:671
 msgid "Reset"
 msgstr "Anuluj źmieny"
 
-#: kedittoolbar.cpp:1003
+#: kedittoolbar.cpp:998
 msgid "&Toolbar:"
 msgstr "&Panel pryładździa:"
 
-#: kedittoolbar.cpp:1018
+#: kedittoolbar.cpp:1013
 msgid "A&vailable actions:"
 msgstr "&Mahčymyja aperacyi:"
 
-#: kedittoolbar.cpp:1033 kedittoolbar.cpp:1052
+#: kedittoolbar.cpp:1028 kedittoolbar.cpp:1047
 #, fuzzy
 #| msgid "File"
 msgid "Filter"
 msgstr "Fajł"
 
-#: kedittoolbar.cpp:1036
+#: kedittoolbar.cpp:1031
 msgid "Curr&ent actions:"
 msgstr "&Dziejnyja aperacyi:"
 
-#: kedittoolbar.cpp:1055
+#: kedittoolbar.cpp:1050
 msgid "Change &Icon..."
 msgstr "Źmiani &ikonu..."
 
-#: kedittoolbar.cpp:1065
+#: kedittoolbar.cpp:1058
 #, fuzzy
 #| msgid "Change &Icon..."
 msgid "Change Te&xt..."
 msgstr "Źmiani &ikonu..."
 
-#: kedittoolbar.cpp:1217
+#: kedittoolbar.cpp:1210
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1237
+#: kedittoolbar.cpp:1230
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr "Hety element budzie zamienieny elementami z unutranaha kampanenta."
 
-#: kedittoolbar.cpp:1239
+#: kedittoolbar.cpp:1232
 msgid "<Merge>"
 msgstr "<Spałučeńnie>"
 
-#: kedittoolbar.cpp:1241
+#: kedittoolbar.cpp:1234
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<Spałučeńnie %1>"
 
-#: kedittoolbar.cpp:1247
+#: kedittoolbar.cpp:1240
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
@@ -616,18 +616,18 @@ msgstr ""
 "Heta źmienlivy śpis aperacyjaŭ. Ty možaš ich pieranosić, ale adnojčy "
 "prybraŭšy aperacyju, užo nia zmožaš jaje viarnuć."
 
-#: kedittoolbar.cpp:1248
+#: kedittoolbar.cpp:1241
 #, kde-format
 msgid "ActionList: %1"
 msgstr "Śpis aperacyjaŭ: %1"
 
-#: kedittoolbar.cpp:1348 kedittoolbar.cpp:1376
+#: kedittoolbar.cpp:1341 kedittoolbar.cpp:1368
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1613
+#: kedittoolbar.cpp:1595
 msgid "Change Icon"
 msgstr "Źmiani ikonu"
 
@@ -840,6 +840,24 @@ msgstr ""
 #| msgid "Server: %1"
 msgid "Server said: \"%1\""
 msgstr "Server: %1"
+
+#: ksendbugmail/main.cpp:89
+#, fuzzy
+#| msgid "Send bug report."
+msgid "Sends a bug report by email."
+msgstr "Vyšli paviedamleńnie pra chibu."
+
+#: ksendbugmail/main.cpp:91
+#, fuzzy
+#| msgid "The size of the dialog"
+msgid "The subject line of the email."
+msgstr "Pamiery dyjalohavaha akna"
+
+#: ksendbugmail/main.cpp:92
+#, fuzzy
+#| msgid "The email address this bug report is sent to."
+msgid "The email address to send the bug report to."
+msgstr "Paštovy adras, kudy vysyłajecca hetaje paviedamleńnie."
 
 #: kshortcuteditwidget.cpp:60
 msgid "Default:"
@@ -9210,9 +9228,6 @@ msgstr "Hałoŭnaja panel pryładździa"
 
 #~ msgid "Password echo type"
 #~ msgstr "Vyjaŭleńnie ŭpisańnia parolu"
-
-#~ msgid "The size of the dialog"
-#~ msgstr "Pamiery dyjalohavaha akna"
 
 #~ msgid ""
 #~ "Automatic changes have been performed due to plugin dependencies. Click "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-29 01:37+0000\n"
+"POT-Creation-Date: 2014-04-02 01:32+0000\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2985,17 +2985,17 @@ msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "Šyrynia słupka"
 
-#: views/dolphinview.cpp:1369
+#: views/dolphinview.cpp:1359
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Vydaleńnie skončyłasia."
 
-#: views/dolphinview.cpp:1500
+#: views/dolphinview.cpp:1490
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Miesca pustoje."
 
-#: views/dolphinview.cpp:1502
+#: views/dolphinview.cpp:1492
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -3187,17 +3187,17 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Nielha pierakinuć kataloh u samoha siabie."
 
-#: views/renamedialog.cpp:59
+#: views/renamedialog.cpp:50
 msgctxt "@title:window"
 msgid "Rename Item"
 msgstr "Źmiena nazvy"
 
-#: views/renamedialog.cpp:60
+#: views/renamedialog.cpp:51
 msgctxt "@title:window"
 msgid "Rename Items"
 msgstr "Źmiena nazvaŭ"
 
-#: views/renamedialog.cpp:64
+#: views/renamedialog.cpp:55
 #, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Rename"
@@ -3205,18 +3205,18 @@ msgctxt "@action:button"
 msgid "&Rename"
 msgstr "Źmiani nazvu"
 
-#: views/renamedialog.cpp:74
+#: views/renamedialog.cpp:65
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the item <filename>%1</filename> to:"
 msgstr "Źmiani nazvu dla <filename>%1</filename> na:"
 
-#: views/renamedialog.cpp:78
+#: views/renamedialog.cpp:69
 msgctxt "@info:status"
 msgid "New name #"
 msgstr "Novaja nazva #"
 
-#: views/renamedialog.cpp:80
+#: views/renamedialog.cpp:71
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the %1 selected item to:"
@@ -3225,7 +3225,7 @@ msgstr[0] "Źmiani nazvu %1 vyłučanaha elementa na:"
 msgstr[1] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
 msgstr[2] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
 
-#: views/renamedialog.cpp:123
+#: views/renamedialog.cpp:114
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "(# will be replaced by ascending numbers)"

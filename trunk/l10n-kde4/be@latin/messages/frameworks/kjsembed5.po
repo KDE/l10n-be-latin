@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-28 01:56+0000\n"
+"POT-Creation-Date: 2014-04-03 01:41+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -70,6 +70,11 @@ msgstr "Nie ŭdałosia stvaryć časovy fajł."
 #, kde-format
 msgid "%1 is not a function and cannot be called."
 msgstr "%1 nia jość funkcyjaj, jakuju možna było b vyklikać."
+
+#: kjsembed/object_binding.h:214 kjsembed/qobject_binding.cpp:789
+#, kde-format
+msgid "%1 is not an Object type"
+msgstr "%1 nia jość typu „Object”."
 
 #: kjsembed/qaction_binding.cpp:57
 msgid "Action takes 2 args."
@@ -164,11 +169,6 @@ msgstr "Niaŭdały vyklik „%1”. Nie ŭdałosia atrymać arhumenty %2: %3"
 #, kde-format
 msgid "Call to '%1' failed."
 msgstr "Niaŭdały vyklik „%1”."
-
-#: kjsembed/qobject_binding.cpp:789
-#, kde-format
-msgid "%1 is not an Object type"
-msgstr "%1 nia jość typu „Object”."
 
 #: kjsembed/qobject_binding.cpp:793
 msgid "Could not construct value"

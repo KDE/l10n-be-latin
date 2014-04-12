@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_bookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2014-04-11 02:18+0000\n"
 "PO-Revision-Date: 2008-10-03 23:24+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,44 +19,36 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Ihar Hračyška"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ihar.hrachyshka@gmail.com"
-
-#: kio_bookmarks.cpp:89
+#: kio_bookmarks.cpp:90
 msgid "Root"
 msgstr "Korań"
 
-#: kio_bookmarks.cpp:122
+#: kio_bookmarks.cpp:123
 msgid "Places"
 msgstr "Miescy"
 
-#: kio_bookmarks.cpp:200
+#: kio_bookmarks.cpp:201
 #, kde-format
 msgid "Wrong request: %1"
 msgstr "Kiepski zapyt: %1"
 
-#: kio_bookmarks.cpp:207
+#: kio_bookmarks.cpp:208
 msgid "My bookmarks"
 msgstr "Maje zakładki"
 
-#: kio_bookmarks.cpp:209
+#: kio_bookmarks.cpp:210
 msgid "Xavier Vello"
 msgstr "Xavier Vello"
 
-#: kio_bookmarks.cpp:209
+#: kio_bookmarks.cpp:210
 msgid "Initial developer"
 msgstr "Pieršy raspracoŭnik"
 
-#: kio_bookmarks_html.cpp:99
+#: kio_bookmarks_html.cpp:100
 msgid "There are no bookmarks to display yet."
 msgstr "Jašče zusim niama zakładak."
 
-#: kio_bookmarks_html.cpp:138
+#: kio_bookmarks_html.cpp:139
 msgid ""
 "kio_bookmarks CSS file not found. Output will look ugly.\n"
 "Check your installation."
@@ -64,9 +56,17 @@ msgstr ""
 "Nie ŭdałosia znajści fajł CSS dla modulu „kio_bookmarks”.Usio budzie kiepska "
 "vyhladać. Spraŭdź svaju instalacyju."
 
-#: kio_bookmarks_html.cpp:147
+#: kio_bookmarks_html.cpp:148
 msgid "My Bookmarks"
 msgstr "Maje zakładki"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Ihar Hračyška"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "ihar.hrachyshka@gmail.com"
 
 #~ msgid "Configuration"
 #~ msgstr "Nałady"

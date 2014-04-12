@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-04 01:40+0000\n"
+"POT-Creation-Date: 2014-04-11 02:18+0000\n"
 "PO-Revision-Date: 2008-12-27 00:01+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -98,13 +98,13 @@ msgid ""
 "instead of automatically deleting files.</para>"
 msgstr ""
 
-#: kio_trash.cpp:92 kio_trash.cpp:155 kio_trash.cpp:310 kio_trash.cpp:342
-#: kio_trash.cpp:510 kio_trash.cpp:522
+#: kio_trash.cpp:93 kio_trash.cpp:159 kio_trash.cpp:315 kio_trash.cpp:347
+#: kio_trash.cpp:515 kio_trash.cpp:527
 #, kde-format
 msgid "Malformed URL %1"
 msgstr "Kiepski adras „%1”."
 
-#: kio_trash.cpp:111
+#: kio_trash.cpp:115
 #, kde-format
 msgid ""
 "The directory %1 does not exist anymore, so it is not possible to restore "
@@ -116,11 +116,11 @@ msgstr ""
 "miescy. Možna stvaryć hety kataloh i paŭtaryć sprobu ŭznaŭleńnia albo "
 "pieraciahnuć patrebny fajł u inšaje miesca."
 
-#: kio_trash.cpp:140 kio_trash_win.cpp:228
+#: kio_trash.cpp:144 kio_trash_win.cpp:228
 msgid "This file is already in the trash bin."
 msgstr "Hety fajł užo lažyć u śmietnicy."
 
-#: kio_trash.cpp:228 kio_trash_win.cpp:252
+#: kio_trash.cpp:233 kio_trash_win.cpp:252
 msgid "Internal error in copyOrMove, should never happen"
 msgstr ""
 
@@ -128,11 +128,11 @@ msgstr ""
 msgid "not supported"
 msgstr ""
 
-#: ktrash.cpp:32
+#: ktrash.cpp:33
 msgid "ktrash"
 msgstr "ktrash"
 
-#: ktrash.cpp:34
+#: ktrash.cpp:35
 msgid ""
 "Helper program to handle the KDE trash can\n"
 "Note: to move files to the trash, do not use ktrash, but \"kioclient move "
@@ -142,19 +142,19 @@ msgstr ""
 "Uvaha: nie karystajsia modulem „ktrash” dla vykidańnia fajłaŭ. Lepš "
 "pasprabuj zahad: „kioclient move 'adras' trash:/”"
 
-#: ktrash.cpp:38
+#: ktrash.cpp:39
 msgid "Empty the contents of the trash"
 msgstr "Vyčyści śmietnicu"
 
-#: ktrash.cpp:40
+#: ktrash.cpp:41
 msgid "Restore a trashed file to its original location"
 msgstr "Uznavi vykinuty fajł u byłym miescy"
 
-#: ktrash.cpp:42
+#: ktrash.cpp:43
 msgid "Ignored"
 msgstr "Abminuta"
 
-#: trashimpl.cpp:1126
+#: trashimpl.cpp:1127
 msgid ""
 "The trash has reached its maximum size!\n"
 "Cleanup the trash manually."
@@ -162,7 +162,7 @@ msgstr ""
 "Śmietnica zapoŭniłasia!\n"
 "Vyčyści jaje samastojna."
 
-#: trashimpl.cpp:1137
+#: trashimpl.cpp:1138
 msgid "The file is too large to be trashed."
 msgstr "Fajł nadta vialiki dla śmietnicy."
 

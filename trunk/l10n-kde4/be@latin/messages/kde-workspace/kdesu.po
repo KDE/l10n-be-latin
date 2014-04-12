@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"POT-Creation-Date: 2014-04-11 02:17+0000\n"
 "PO-Revision-Date: 2008-09-19 14:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -27,89 +27,89 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#: kdesu.cpp:85
+#: kdesu.cpp:84
 msgid "KDE su"
 msgstr "Prahrama „su” dla KDE"
 
-#: kdesu.cpp:86
+#: kdesu.cpp:85
 msgid "Runs a program with elevated privileges."
 msgstr "Uklučaje prahramu z asablivymi dazvołami."
 
-#: kdesu.cpp:88
+#: kdesu.cpp:87
 msgid "Copyright (c) 1998-2000 Geert Jansen, Pietro Iglio"
 msgstr "Copyright © 1998-2000 Geert Jansen, Pietro Iglio"
 
-#: kdesu.cpp:89
+#: kdesu.cpp:88
 msgid "Geert Jansen"
 msgstr "Geert Jansen"
 
-#: kdesu.cpp:89
+#: kdesu.cpp:88
 msgid "Maintainer"
 msgstr "Dahladnik"
 
-#: kdesu.cpp:91
+#: kdesu.cpp:90
 msgid "Pietro Iglio"
 msgstr "Pietro Iglio"
 
-#: kdesu.cpp:91
+#: kdesu.cpp:90
 msgid "Original author"
 msgstr "Stvarańnik"
 
-#: kdesu.cpp:100
+#: kdesu.cpp:99
 #, fuzzy
 #| msgid "Specifies the command to run"
 msgid "Specifies the command to run as separate arguments"
 msgstr "Zahad dla vykanańnia"
 
-#: kdesu.cpp:101
+#: kdesu.cpp:100
 #, fuzzy
 #| msgid "Specifies the command to run"
 msgid "Specifies the command to run as one string"
 msgstr "Zahad dla vykanańnia"
 
-#: kdesu.cpp:102
+#: kdesu.cpp:101
 msgid "Run command under target uid if <file> is not writable"
 msgstr ""
 "Vykanaj zahad z metavym identyfikataram, kali nie ŭdajecca ničoha zapisać u "
 "<fajł>"
 
-#: kdesu.cpp:103
+#: kdesu.cpp:102
 msgid "Specifies the target uid"
 msgstr "Aznačaje metavy identyfikatar karystańnika"
 
-#: kdesu.cpp:104
+#: kdesu.cpp:103
 msgid "Do not keep password"
 msgstr "Nia pomni parol"
 
-#: kdesu.cpp:105
+#: kdesu.cpp:104
 msgid "Stop the daemon (forgets all passwords)"
 msgstr "Spyni słužbu (zabudź pra ŭsie paroli)"
 
-#: kdesu.cpp:106
+#: kdesu.cpp:105
 msgid "Enable terminal output (no password keeping)"
 msgstr "Uklučy vychodnyja źviestki dla terminała (biez parola)"
 
-#: kdesu.cpp:107
+#: kdesu.cpp:106
 msgid "Set priority value: 0 <= prio <= 100, 0 is lowest"
 msgstr "Aznačaje važnaść: ad 0 da 100; 0 najmienš važny"
 
-#: kdesu.cpp:108
+#: kdesu.cpp:107
 msgid "Use realtime scheduling"
 msgstr "Karystajsia raskładam realnaha času"
 
-#: kdesu.cpp:109
+#: kdesu.cpp:108
 msgid "Do not display ignore button"
 msgstr "Nie pakazvaj knopku abminańnia"
 
-#: kdesu.cpp:110
+#: kdesu.cpp:109
 msgid "Specify icon to use in the password dialog"
 msgstr "Vybiery ikonu dla akna ŭpisańnia parola"
 
-#: kdesu.cpp:111
+#: kdesu.cpp:110
 msgid "Do not show the command to be run in the dialog"
 msgstr "Nie pakazvaj zahad u aknie ŭpisańnia parola"
 
-#: kdesu.cpp:115
+#: kdesu.cpp:114
 #, fuzzy
 #| msgctxt ""
 #| "Transient means that the kdesu app will be attached to the app specified "
@@ -123,17 +123,21 @@ msgid "Makes the dialog transient for an X app specified by winid"
 msgstr ""
 "Prystasoŭvaje akno da aplikacyi systemy „X” z aznačanym identyfikataram akna"
 
-#: kdesu.cpp:142
+#: kdesu.cpp:115
+msgid "Embed into a window"
+msgstr ""
+
+#: kdesu.cpp:143
 #, kde-format
 msgid "Cannot execute command '%1'."
 msgstr ""
 
-#: kdesu.cpp:224
+#: kdesu.cpp:223
 #, kde-format
 msgid "Illegal priority: %1"
 msgstr "Niemahčymaja važnaść: %1"
 
-#: kdesu.cpp:249
+#: kdesu.cpp:248
 msgid "No command specified."
 msgstr "Zahad nie padadzieny."
 
@@ -152,10 +156,6 @@ msgstr "realny čas: "
 #: kdesu.cpp:394
 msgid "Priority:"
 msgstr "Važnaść:"
-
-#: sudlg.cpp:23
-msgid "Ignore"
-msgstr "Abmini"
 
 #: sudlg.cpp:30
 #, kde-format
@@ -204,10 +204,6 @@ msgstr ""
 "Zapatrabavanaja aperacyja vymahaje dadatkovych dazvołaŭ. Upišy nižej parol "
 "karystańnika <b>%1</b>."
 
-#: sudlg.cpp:60
-msgid "&Ignore"
-msgstr "&Abmini"
-
 #: sudlg.cpp:77
 msgid "Conversation with su failed."
 msgstr "Nie ŭdałosia spałučycca z prahramaj „su”."
@@ -230,6 +226,12 @@ msgstr ""
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr ""
 "Unutranaja pamyłka: zabaronieny zvarot z funkcyi „SuProcess::checkInstall()”"
+
+#~ msgid "Ignore"
+#~ msgstr "Abmini"
+
+#~ msgid "&Ignore"
+#~ msgstr "&Abmini"
 
 #~ msgid "Command '%1' not found."
 #~ msgstr "Nie ŭdałosia znajści zahad „%1”."

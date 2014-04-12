@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_floppy\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2014-04-11 02:18+0000\n"
 "PO-Revision-Date: 2008-09-08 22:37+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: kio_floppy.cpp:198
+#: kio_floppy.cpp:199
 #, kde-format
 msgid ""
 "Could not access drive %1.\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Pryłada dasiul zaniataja.\n"
 "Pačakaj, pakul jaje vyzvalać, i tady pasprabuj znoŭ."
 
-#: kio_floppy.cpp:202 kio_floppy.cpp:1116
+#: kio_floppy.cpp:203 kio_floppy.cpp:1117
 #, kde-format
 msgid ""
 "Could not write to file %1.\n"
@@ -39,7 +39,7 @@ msgstr ""
 "Nie ŭdałosia zapisać u fajł „%1”.\n"
 "Dysk u pryładzie „%2”, mabyć, zapoŭnieny."
 
-#: kio_floppy.cpp:212
+#: kio_floppy.cpp:213
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -48,7 +48,7 @@ msgstr ""
 "Nie ŭdałosia dastupicca da „%1”.\n"
 "Mabyć, u pryładzie „%2” niama dysku."
 
-#: kio_floppy.cpp:216
+#: kio_floppy.cpp:217
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -59,7 +59,7 @@ msgstr ""
 "Mabyć, u pryładzie „%2” niama dysku albo tabie nie staje dazvołu na dostup "
 "da hetaj pryłady."
 
-#: kio_floppy.cpp:220
+#: kio_floppy.cpp:221
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -68,7 +68,7 @@ msgstr ""
 "Nie ŭdałosia dastupicca da „%1”.\n"
 "Pryłada „%2” nie absłuhoŭvajecca."
 
-#: kio_floppy.cpp:225
+#: kio_floppy.cpp:226
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -81,7 +81,7 @@ msgstr ""
 "pryłady (naprykład, „/dev/fd0”) vyznačanyja pravilna (naprykład, "
 "„rwxrwxrwx”)."
 
-#: kio_floppy.cpp:229
+#: kio_floppy.cpp:230
 #, kde-format
 msgid ""
 "Could not access %1.\n"
@@ -90,7 +90,7 @@ msgstr ""
 "Nie ŭdałosia dastupicca da „%1”.\n"
 "Mabyć, u pryładu „%2” usunuty dysk nie ŭ farmacie „DOS”."
 
-#: kio_floppy.cpp:233
+#: kio_floppy.cpp:234
 #, kde-format
 msgid ""
 "Access denied.\n"
@@ -101,7 +101,7 @@ msgstr ""
 "Nie ŭdałosia zapisać u „%1”.\n"
 "Mabyć, dysk, jaki ŭsunuty ŭ pryładu „%2”, abaronieny ad zapisu."
 
-#: kio_floppy.cpp:242
+#: kio_floppy.cpp:243
 #, kde-format
 msgid ""
 "Could not read boot sector for %1.\n"
@@ -110,7 +110,7 @@ msgstr ""
 "Nie ŭdałosia pračytać pačatny sektar z „%1”.\n"
 "Mabyć, u pryładu „%2” nia ŭsunuty dysk."
 
-#: kio_floppy.cpp:365
+#: kio_floppy.cpp:366
 #, kde-format
 msgid ""
 "Could not start program \"%1\".\n"

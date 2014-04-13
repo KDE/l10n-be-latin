@@ -223,6 +223,24 @@ msgstr ""
 "%1 napisali\n"
 "%2"
 
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:51
+#, fuzzy, qt-format
+#| msgid ""
+#| "Could not find 'kdemain' in '%1'.\n"
+#| "%2"
+msgctxt "KPluginLoader|"
+msgid "Could not find plugin '%1' for application '%2'"
+msgstr ""
+"Nie ŭdałosia znajści „kdemain” ŭ „%1”.\n"
+"%2"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:222
+#, fuzzy, qt-format
+#| msgid "The library %1 does not offer a KDE 4 compatible factory."
+msgctxt "KPluginLoader|"
+msgid "The library %1 does not offer a KPluginFactory."
+msgstr "Biblijateka „%1” nia maje fabryki, jakaja b adpaviadała KDE 4."
+
 #. MetricBinaryDialect size in bytes
 #: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:88
 #, fuzzy, qt-format
@@ -2994,15 +3012,6 @@ msgstr "%1, %2"
 #~ msgstr "KLibLoader: Nieviadomaja pamyłka"
 
 #, fuzzy
-#~| msgid ""
-#~| "Could not find 'kdemain' in '%1'.\n"
-#~| "%2"
-#~ msgid "Could not find plugin '%1' for application '%2'"
-#~ msgstr ""
-#~ "Nie ŭdałosia znajści „kdemain” ŭ „%1”.\n"
-#~ "%2"
-
-#, fuzzy
 #~| msgctxt "SSL error"
 #~| msgid "The certificate is invalid"
 #~ msgid "The provided service is not valid"
@@ -3016,9 +3025,6 @@ msgstr "%1, %2"
 #~ msgstr ""
 #~ "Słužba „%1” nie padaje biblijateki, albo ŭ fajle .desktop niama kluča "
 #~ "„Library”."
-
-#~ msgid "The library %1 does not offer a KDE 4 compatible factory."
-#~ msgstr "Biblijateka „%1” nia maje fabryki, jakaja b adpaviadała KDE 4."
 
 #~ msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 #~ msgstr "Plugin „%1” vykarystoŭvaje niaŭzhodnienuju biblijateku KDE („%2”)."

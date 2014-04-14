@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-13 02:16+0000\n"
+"POT-Creation-Date: 2014-04-14 02:14+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -88,7 +88,7 @@ msgctxt "Name"
 msgid "Social Desktop"
 msgstr "Rabočy stoł"
 
-#: attica-kde/kcm/kcm_attica.desktop:33
+#: attica-kde/kcm/kcm_attica.desktop:32
 msgctxt "Comment"
 msgid "Manage Social Desktop Providers"
 msgstr ""
@@ -119,7 +119,7 @@ msgctxt "Name"
 msgid "Folder"
 msgstr ""
 
-#: containments/folder/package/metadata.desktop:11
+#: containments/folder/package/metadata.desktop:15
 msgctxt "Comment"
 msgid "Display the contents of folders"
 msgstr ""
@@ -367,12 +367,12 @@ msgctxt "Name"
 msgid "Default Applications"
 msgstr "Zmoŭčanyja aplikacyi"
 
-#: kcms/componentchooser/componentchooser.desktop:98
+#: kcms/componentchooser/componentchooser.desktop:95
 msgctxt "Comment"
 msgid "Choose the default components for various services"
 msgstr "Vybiery zmoŭčanyja kampanenty dla roznych słužbaŭ"
 
-#: kcms/componentchooser/componentchooser.desktop:188
+#: kcms/componentchooser/componentchooser.desktop:182
 msgctxt "X-KDE-Keywords"
 msgid ""
 "default applications,components,component chooser,resources,e-mail,email "
@@ -388,7 +388,7 @@ msgctxt "Name|standard desktop component"
 msgid "Web Browser"
 msgstr "Hartač sieciva"
 
-#: kcms/componentchooser/componentservices/kcm_browser.desktop:75
+#: kcms/componentchooser/componentservices/kcm_browser.desktop:73
 msgctxt "Comment"
 msgid ""
 "Here you can configure your default web browser. All KDE applications in "
@@ -405,7 +405,7 @@ msgctxt "Name|standard desktop component"
 msgid "File Manager"
 msgstr "Kiraŭnik zadańniaŭ"
 
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:26
+#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:25
 msgctxt "Comment"
 msgid ""
 "Here you can configure your default file manager. The entries in the K menu "
@@ -423,7 +423,7 @@ msgctxt "Name|standard desktop component"
 msgid "Email Client"
 msgstr "Paštar"
 
-#: kcms/componentchooser/componentservices/kcm_kemail.desktop:75
+#: kcms/componentchooser/componentservices/kcm_kemail.desktop:73
 msgctxt "Comment"
 msgid ""
 "This service allows you to configure your default email client. All KDE "
@@ -441,7 +441,7 @@ msgctxt "Name|standard desktop component"
 msgid "Terminal Emulator"
 msgstr "Emulatar terminała"
 
-#: kcms/componentchooser/componentservices/kcm_terminal.desktop:75
+#: kcms/componentchooser/componentservices/kcm_terminal.desktop:73
 msgctxt "Comment"
 msgid ""
 "This service allows you to configure your default terminal emulator. All KDE "
@@ -460,7 +460,7 @@ msgctxt "Name|standard desktop component"
 msgid "Window Manager"
 msgstr "Kiraŭnik zadańniaŭ"
 
-#: kcms/componentchooser/componentservices/kcm_wm.desktop:26
+#: kcms/componentchooser/componentservices/kcm_wm.desktop:25
 msgctxt "Comment"
 msgid "Here you can select the window manager to be run in your KDE session."
 msgstr "Tut možna vybrać akońnika, jaki ŭklučajecca pry ŭvachodzie ŭ KDE."
@@ -470,7 +470,7 @@ msgctxt "Name"
 msgid "A nice name you have chosen for your interface"
 msgstr "Nazva, vybranaja dla tvajho interfejsu"
 
-#: kcms/componentchooser/EXAMPLE.desktop:90
+#: kcms/componentchooser/EXAMPLE.desktop:87
 msgctxt "Comment"
 msgid "A helpful description of the interface for the top right info box"
 msgstr "Apisańnie dla vierchniaha pravaha pola źviestak"
@@ -582,7 +582,7 @@ msgctxt "Name"
 msgid "Emoticons"
 msgstr "Smajliki"
 
-#: kcms/emoticons/emoticons.desktop:97
+#: kcms/emoticons/emoticons.desktop:94
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Emoticons Themes Manager"
@@ -590,7 +590,7 @@ msgctxt "Comment"
 msgid "Choose Emoticon Theme"
 msgstr "Kiraŭnik matyvaŭ smajlikaŭ"
 
-#: kcms/emoticons/emoticons.desktop:143
+#: kcms/emoticons/emoticons.desktop:138
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Emoticons"
@@ -646,12 +646,12 @@ msgctxt "Name"
 msgid "Icons"
 msgstr "Ikony"
 
-#: kcms/icons/icons.desktop:107
+#: kcms/icons/icons.desktop:104
 msgctxt "Comment"
 msgid "Customize KDE Icons"
 msgstr "Naładź ikony KDE"
 
-#: kcms/icons/icons.desktop:198
+#: kcms/icons/icons.desktop:192
 msgctxt "X-KDE-Keywords"
 msgid "icons,effects,size,hicolor,locolor"
 msgstr ""
@@ -707,7 +707,7 @@ msgctxt "Name"
 msgid "Service Manager"
 msgstr "Kiraŭnik dla kalendara"
 
-#: kcms/kded/kcmkded.desktop:39
+#: kcms/kded/kcmkded.desktop:37
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "System Bell Configuration"
@@ -715,7 +715,7 @@ msgctxt "Comment"
 msgid "KDE Services Configuration"
 msgstr "Nałady systemnaha hukavoha syhnału"
 
-#: kcms/kded/kcmkded.desktop:62
+#: kcms/kded/kcmkded.desktop:58
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Dolphin View"
@@ -843,7 +843,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "Infarmavańnie"
 
-#: kcms/knotify/kcmnotify.desktop:82
+#: kcms/knotify/kcmnotify.desktop:80
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "System Bell Configuration"
@@ -851,7 +851,7 @@ msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "Nałady systemnaha hukavoha syhnału"
 
-#: kcms/knotify/kcmnotify.desktop:106
+#: kcms/knotify/kcmnotify.desktop:102
 msgctxt "X-KDE-Keywords"
 msgid "System sounds,Audio,Sound,Notify,Alerts,Notification,popups"
 msgstr ""
@@ -878,12 +878,12 @@ msgctxt "Name"
 msgid "Country/Region & Language"
 msgstr "Kraina/Miascovaść i mova"
 
-#: kcms/locale/language.desktop:104
+#: kcms/locale/language.desktop:101
 msgctxt "Comment"
 msgid "Language, numeric, and time settings for your particular region"
 msgstr "Nałady movy, likaŭ i času dla peŭnaj miascovaści"
 
-#: kcms/locale/language.desktop:194
+#: kcms/locale/language.desktop:188
 msgctxt "X-KDE-Keywords"
 msgid ""
 "language,translation,number format,locale,Country,charsets,character sets,"
@@ -900,12 +900,12 @@ msgctxt "Name"
 msgid "Audio and Video Settings"
 msgstr "Nałady klavijatury j myšy"
 
-#: kcms/phonon/kcm_phonon.desktop:35
+#: kcms/phonon/kcm_phonon.desktop:34
 msgctxt "Comment"
 msgid "Settings for the Phonon multimedia framework"
 msgstr ""
 
-#: kcms/phonon/kcm_phonon.desktop:79
+#: kcms/phonon/kcm_phonon.desktop:76
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Sound,Phonon,Audio,Video,Output,Device,Notification,Music,Communication,"
@@ -917,12 +917,12 @@ msgctxt "Name"
 msgid "Spell Checker"
 msgstr "Spraŭdžvańnie pravapisu"
 
-#: kcms/spellchecking/spellchecking.desktop:102
+#: kcms/spellchecking/spellchecking.desktop:100
 msgctxt "Comment"
 msgid "Configure the spell checker"
 msgstr "Naładź spraŭdžvańnie pravapisu"
 
-#: kcms/spellchecking/spellchecking.desktop:189
+#: kcms/spellchecking/spellchecking.desktop:184
 msgctxt "X-KDE-Keywords"
 msgid "Spell"
 msgstr ""
@@ -990,12 +990,12 @@ msgctxt "Name"
 msgid "Workspace"
 msgstr ""
 
-#: kcms/workspaceoptions/workspaceoptions.desktop:15
+#: kcms/workspaceoptions/workspaceoptions.desktop:26
 msgctxt "Comment"
 msgid "Global options for the Plasma Workspace"
 msgstr ""
 
-#: kcms/workspaceoptions/workspaceoptions.desktop:17
+#: kcms/workspaceoptions/workspaceoptions.desktop:39
 msgctxt "X-KDE-Keywords"
 msgid "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips"
 msgstr ""
@@ -1005,7 +1005,7 @@ msgctxt "Name"
 msgid "KNetAttach"
 msgstr "KNetAttach"
 
-#: knetattach/knetattach.desktop:91
+#: knetattach/knetattach.desktop:88
 msgctxt "GenericName"
 msgid "Network Folder Wizard"
 msgstr "Akno naładaŭ dla sietkavaha kataloha"

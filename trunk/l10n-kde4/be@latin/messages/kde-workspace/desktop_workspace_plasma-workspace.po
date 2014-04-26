@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-24 02:04+0000\n"
+"POT-Creation-Date: 2014-04-26 02:07+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1117,24 +1117,6 @@ msgctxt "Description"
 msgid "ftp URL"
 msgstr "Adras słužby „FTP”"
 
-#: ksmserver/kcm/kcmsmserver.desktop:13
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Session Manager"
-msgctxt "Name"
-msgid "Session Management"
-msgstr "Kiraŭnik sesijaŭ"
-
-#: ksmserver/kcm/kcmsmserver.desktop:78
-msgctxt "Comment"
-msgid "Configure the session manager and logout settings"
-msgstr "Nałady kiraŭnika sesijaŭ i vychadu z systemy"
-
-#: ksmserver/kcm/kcmsmserver.desktop:168
-msgctxt "X-KDE-Keywords"
-msgid "ksmserver,session,logout,confirmation,save,restore"
-msgstr ""
-
 #: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Comment"
@@ -1248,21 +1230,6 @@ msgstr "Zmoŭčany"
 msgctxt "Comment"
 msgid "Default Plasma Desktop theme"
 msgstr "Rabočy abšar stała „Plasma”"
-
-#: ksplash/kcm/ksplashthememgr.desktop:15
-msgctxt "Name"
-msgid "Splash Screen"
-msgstr "Zastaŭka"
-
-#: ksplash/kcm/ksplashthememgr.desktop:102
-msgctxt "Comment"
-msgid "Manager for Splash Screen Themes"
-msgstr "Kiraŭnik zastavak"
-
-#: ksplash/kcm/ksplashthememgr.desktop:189
-msgctxt "X-KDE-Keywords"
-msgid "splash screen,splash theme,startup"
-msgstr ""
 
 #: ktimezoned/ktimezoned.desktop:10
 #, fuzzy
@@ -1819,7 +1786,7 @@ msgctxt "Name"
 msgid "KSysguard"
 msgstr ""
 
-#: systemmonitor/kded_ksysguard.desktop:12
+#: systemmonitor/kded_ksysguard.desktop:19
 msgctxt "Comment"
 msgid "Launches KSysguard on Ctrl + Escape"
 msgstr ""
@@ -2061,6 +2028,25 @@ msgstr "Vyjava"
 msgctxt "Name"
 msgid "Slideshow"
 msgstr "Słajdy"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Session Manager"
+#~ msgctxt "Name"
+#~ msgid "Session Management"
+#~ msgstr "Kiraŭnik sesijaŭ"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the session manager and logout settings"
+#~ msgstr "Nałady kiraŭnika sesijaŭ i vychadu z systemy"
+
+#~ msgctxt "Name"
+#~ msgid "Splash Screen"
+#~ msgstr "Zastaŭka"
+
+#~ msgctxt "Comment"
+#~ msgid "Manager for Splash Screen Themes"
+#~ msgstr "Kiraŭnik zastavak"
 
 #, fuzzy
 #~| msgctxt "Name"

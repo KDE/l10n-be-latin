@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-03 08:04+0000\n"
+"POT-Creation-Date: 2014-05-04 08:22+0000\n"
 "PO-Revision-Date: 2008-09-04 00:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -21,7 +21,7 @@ msgctxt "Name"
 msgid "HTTP Cache Cleaner"
 msgstr "Vyčyščeńnie padručnaj pamiaci HTTP"
 
-#: src/ioslaves/http/http_cache_cleaner.desktop:8
+#: src/ioslaves/http/http_cache_cleaner.desktop:100
 msgctxt "Comment"
 msgid "Cleans up old entries from the HTTP cache"
 msgstr "Vyčyščaje staryja zapisy z padručnaj pamiaci HTTP"
@@ -31,7 +31,7 @@ msgctxt "Name"
 msgid "Cookie Jar"
 msgstr ""
 
-#: src/ioslaves/http/kcookiejar/kcookiejar.desktop:7
+#: src/ioslaves/http/kcookiejar/kcookiejar.desktop:69
 msgctxt "Comment"
 msgid "Stores network cookies"
 msgstr ""
@@ -64,7 +64,7 @@ msgctxt "Name"
 msgid "Network Proxy Configuration"
 msgstr "Aŭtamatyčnaje naładžvańnie proxy"
 
-#: src/kpac/proxyscout.desktop:7
+#: src/kpac/proxyscout.desktop:70
 msgctxt "Comment"
 msgid "Automatic proxy configuration"
 msgstr "Aŭtamatyčnaje naładžvańnie proxy"
@@ -77,32 +77,32 @@ msgctxt "Comment"
 msgid "Network Proxy Configuration"
 msgstr "Aŭtamatyčnaje naładžvańnie proxy"
 
-#: src/kpac/proxyscout.notifyrc:9
+#: src/kpac/proxyscout.notifyrc:72
 msgctxt "Name"
 msgid "Invalid Proxy Script"
 msgstr "Niapravilny proksi-skrypt"
 
-#: src/kpac/proxyscout.notifyrc:13
+#: src/kpac/proxyscout.notifyrc:159
 msgctxt "Comment"
 msgid "The downloaded proxy configuration script is invalid"
 msgstr "Atrymany niapravilny skrypt naładžvańnia proxy"
 
-#: src/kpac/proxyscout.notifyrc:20
+#: src/kpac/proxyscout.notifyrc:255
 msgctxt "Name"
 msgid "Script Download Error"
 msgstr "Pamyłka atrymańnia skrypta"
 
-#: src/kpac/proxyscout.notifyrc:24
+#: src/kpac/proxyscout.notifyrc:343
 msgctxt "Comment"
 msgid "The proxy configuration script could not be downloaded"
 msgstr "Nie ŭdałosia atrymać skrypt naładžvańnia proxy"
 
-#: src/kpac/proxyscout.notifyrc:31
+#: src/kpac/proxyscout.notifyrc:440
 msgctxt "Name"
 msgid "Script Evaluation Error"
 msgstr "Pamyłka ŭ vykanańni skrypta"
 
-#: src/kpac/proxyscout.notifyrc:35
+#: src/kpac/proxyscout.notifyrc:526
 msgctxt "Comment"
 msgid "There was an error executing the proxy configuration script"
 msgstr "Padčas vykanańnia skrypta naładžvańnia proxy ŭźnikła pamyłka."
@@ -112,7 +112,7 @@ msgctxt "Name"
 msgid "Password Caching"
 msgstr ""
 
-#: src/kpasswdserver/kpasswdserver.desktop:7
+#: src/kpasswdserver/kpasswdserver.desktop:30
 msgctxt "Comment"
 msgid "Temporary password caching"
 msgstr ""
@@ -122,7 +122,7 @@ msgctxt "Name"
 msgid "SSL Certificate Policy"
 msgstr ""
 
-#: src/kssld/kssld.desktop:12
+#: src/kssld/kssld.desktop:75
 msgctxt "Comment"
 msgid "Provides SSL certificate policy to applications"
 msgstr ""

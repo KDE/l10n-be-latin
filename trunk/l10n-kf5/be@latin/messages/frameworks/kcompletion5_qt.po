@@ -136,11 +136,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Vybar redaktara"
 
 #, fuzzy
-#~| msgid ""
-#~| "Please choose the default text editing component that you wish to use in "
-#~| "this application. If you choose <B>System Default</B>, the application "
-#~| "will honor your changes in the Control Center. All other choices will "
-#~| "override that setting."
 #~ msgid ""
 #~ "Please choose the default text editing component that you wish to use in "
 #~ "this application. If you choose <B>System Default</B>, the application "
@@ -418,8 +413,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "<application>Zemberek</application>"
 
 #, fuzzy
-#~| msgctxt "@item:inlistbox Spell checker"
-#~| msgid "<application>Hspell</application>"
 #~ msgctxt "@item:inlistbox Spell checker"
 #~ msgid "<application>Hunspell</application>"
 #~ msgstr "<application>Hspell</application>"
@@ -541,8 +534,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Zmoŭčany: %1"
 
 #, fuzzy
-#~| msgctxt "@item Spelling dictionary"
-#~| msgid "<application>ISpell</application> Default"
 #~ msgctxt "@item Spelling dictionary"
 #~ msgid "<application>Hunspell</application> Default"
 #~ msgstr "Zmoŭčany <application>ISpell</application>"
@@ -633,15 +624,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "... <b>abmylnaje</b> słova ŭ adpaviednym kantekście ..."
 
 #, fuzzy
-#~| msgid ""
-#~| "<qt>\n"
-#~| "<p>The unknown word was detected and considered unknown because it is "
-#~| "not included in the dictionary.<br>\n"
-#~| "Click here if you consider that the unknown word is not misspelled and "
-#~| "you want to avoid wrongly detecting it again in the future. If you want "
-#~| "to let it remain as is, but not add it to the dictionary, then click "
-#~| "<b>Ignore</b> or <b>Ignore All</b> instead.</p>\n"
-#~| "</qt>"
 #~ msgid ""
 #~ "<qt>\n"
 #~ "<p>The unknown word was detected and considered unknown because it is not "
@@ -861,7 +843,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Nie staje dazvołu dla metavaha kataloha."
 
 #, fuzzy
-#~| msgid "Unable to open temporary file."
 #~ msgid "Unable to open temporary file. Error was: %1."
 #~ msgstr "Nie ŭdałosia adčynić časovy fajł."
 
@@ -1231,9 +1212,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "aznačaje styl hrafičnaha interfejsu aplikacyi"
 
 #, fuzzy
-#~| msgid ""
-#~| "sets the client geometry of the main widget - see man X for the argument "
-#~| "format"
 #~ msgid ""
 #~ "sets the client geometry of the main widget - see man X for the argument "
 #~ "format (usually WidthxHeight+XPos+YPos)"
@@ -1391,7 +1369,6 @@ msgstr "Zmoŭčanaje"
 #~ "%1"
 
 #, fuzzy
-#~| msgid "Could not Launch Mail Client"
 #~ msgid "Could not launch Mail Client"
 #~ msgstr "Nie ŭdałosia ŭklučyć paštara"
 
@@ -1405,7 +1382,6 @@ msgstr "Zmoŭčanaje"
 #~ "%1"
 
 #, fuzzy
-#~| msgid "Could not Launch Browser"
 #~ msgid "Could not launch Browser"
 #~ msgstr "Nie ŭdałosia ŭklučyć web-hartač"
 
@@ -1419,7 +1395,6 @@ msgstr "Zmoŭčanaje"
 #~ "%1"
 
 #, fuzzy
-#~| msgid "Could not Launch Terminal Client"
 #~ msgid "Could not launch Terminal Client"
 #~ msgstr "Nie ŭdałosia ŭklučyć terminał"
 
@@ -1516,15 +1491,11 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Arabska-indyjski"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Bengali"
 #~ msgctxt "digit set"
 #~ msgid "Bengali"
 #~ msgstr "Benhalski"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Devanagari"
 #~ msgctxt "digit set"
 #~ msgid "Devanagari"
 #~ msgstr "Devanagari"
@@ -1534,64 +1505,46 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Uschodni arabska-indyjski"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Gujarati"
 #~ msgctxt "digit set"
 #~ msgid "Gujarati"
 #~ msgstr "Gujarati"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Gurmukhi"
 #~ msgctxt "digit set"
 #~ msgid "Gurmukhi"
 #~ msgstr "Gurmukhi"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Kannada"
 #~ msgctxt "digit set"
 #~ msgid "Kannada"
 #~ msgstr "Kannada"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Khmer"
 #~ msgctxt "digit set"
 #~ msgid "Khmer"
 #~ msgstr "Chmerski"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Malayalam"
 #~ msgctxt "digit set"
 #~ msgid "Malayalam"
 #~ msgstr "Malayalam"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Oriya"
 #~ msgctxt "digit set"
 #~ msgid "Oriya"
 #~ msgstr "Oriya"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Tamil"
 #~ msgctxt "digit set"
 #~ msgid "Tamil"
 #~ msgstr "Tamilski"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Telugu"
 #~ msgctxt "digit set"
 #~ msgid "Telugu"
 #~ msgstr "Telugu"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Thai"
 #~ msgctxt "digit set"
 #~ msgid "Thai"
 #~ msgstr "Tajski"
@@ -1605,181 +1558,151 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "%1 (%2)"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "size in bytes"
 #~ msgid "%1 B"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "size in 1000 bytes"
 #~ msgid "%1 kB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 MiB"
 #~ msgctxt "size in 10^6 bytes"
 #~ msgid "%1 MB"
 #~ msgstr "%1 MiB"
 
 #, fuzzy
-#~| msgid "%1 GiB"
 #~ msgctxt "size in 10^9 bytes"
 #~ msgid "%1 GB"
 #~ msgstr "%1 GiB"
 
 #, fuzzy
-#~| msgid "%1 TiB"
 #~ msgctxt "size in 10^12 bytes"
 #~ msgid "%1 TB"
 #~ msgstr "%1 TiB"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "size in 10^15 bytes"
 #~ msgid "%1 PB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "size in 10^18 bytes"
 #~ msgid "%1 EB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "size in 10^21 bytes"
 #~ msgid "%1 ZB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "size in 10^24 bytes"
 #~ msgid "%1 YB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 KiB"
 #~ msgctxt "memory size in 1024 bytes"
 #~ msgid "%1 KB"
 #~ msgstr "%1 KiB"
 
 #, fuzzy
-#~| msgid "%1 MiB"
 #~ msgctxt "memory size in 2^20 bytes"
 #~ msgid "%1 MB"
 #~ msgstr "%1 MiB"
 
 #, fuzzy
-#~| msgid "%1 GiB"
 #~ msgctxt "memory size in 2^30 bytes"
 #~ msgid "%1 GB"
 #~ msgstr "%1 GiB"
 
 #, fuzzy
-#~| msgid "%1 TiB"
 #~ msgctxt "memory size in 2^40 bytes"
 #~ msgid "%1 TB"
 #~ msgstr "%1 TiB"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^50 bytes"
 #~ msgid "%1 PB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^60 bytes"
 #~ msgid "%1 EB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^70 bytes"
 #~ msgid "%1 ZB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^80 bytes"
 #~ msgid "%1 YB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 KiB"
 #~ msgctxt "size in 1024 bytes"
 #~ msgid "%1 KiB"
 #~ msgstr "%1 KiB"
 
 #, fuzzy
-#~| msgid "%1 MiB"
 #~ msgctxt "size in 2^20 bytes"
 #~ msgid "%1 MiB"
 #~ msgstr "%1 MiB"
 
 #, fuzzy
-#~| msgid "%1 GiB"
 #~ msgctxt "size in 2^30 bytes"
 #~ msgid "%1 GiB"
 #~ msgstr "%1 GiB"
 
 #, fuzzy
-#~| msgid "%1 TiB"
 #~ msgctxt "size in 2^40 bytes"
 #~ msgid "%1 TiB"
 #~ msgstr "%1 TiB"
 
 #, fuzzy
-#~| msgid "%1 TiB"
 #~ msgctxt "size in 2^50 bytes"
 #~ msgid "%1 PiB"
 #~ msgstr "%1 TiB"
 
 #, fuzzy
-#~| msgid "%1 TiB"
 #~ msgctxt "size in 2^60 bytes"
 #~ msgid "%1 EiB"
 #~ msgstr "%1 TiB"
 
 #, fuzzy
-#~| msgid "%1 TiB"
 #~ msgctxt "size in 2^70 bytes"
 #~ msgid "%1 ZiB"
 #~ msgstr "%1 TiB"
 
 #, fuzzy
-#~| msgid "%1 TiB"
 #~ msgctxt "size in 2^80 bytes"
 #~ msgid "%1 YiB"
 #~ msgstr "%1 TiB"
 
 #, fuzzy
-#~| msgid "%1 days"
 #~ msgctxt "@item:intext %1 is a real number, e.g. 1.23 days"
 #~ msgid "%1 days"
 #~ msgstr "%1 dzion"
 
 #, fuzzy
-#~| msgid "%1 hours"
 #~ msgctxt "@item:intext %1 is a real number, e.g. 1.23 hours"
 #~ msgid "%1 hours"
 #~ msgstr "%1 hadzinaŭ"
 
 #, fuzzy
-#~| msgid "%1 minutes"
 #~ msgctxt "@item:intext %1 is a real number, e.g. 1.23 minutes"
 #~ msgid "%1 minutes"
 #~ msgstr "%1 chvilinaŭ"
 
 #, fuzzy
-#~| msgid "%1 seconds"
 #~ msgctxt "@item:intext %1 is a real number, e.g. 1.23 seconds"
 #~ msgid "%1 seconds"
 #~ msgstr "%1 sekundaŭ"
 
 #, fuzzy
-#~| msgid "%1 milliseconds"
 #~ msgctxt "@item:intext"
 #~ msgid "%1 millisecond"
 #~ msgid_plural "%1 milliseconds"
@@ -1837,7 +1760,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "%1 i %2"
 
 #, fuzzy
-#~| msgid "AC"
 #~ msgctxt "Before Noon KLocale::NarrowName"
 #~ msgid "A"
 #~ msgstr "AC"
@@ -2634,24 +2556,16 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "KLibLoader: Nieviadomaja pamyłka"
 
 #, fuzzy
-#~| msgid ""
-#~| "Could not find 'kdemain' in '%1'.\n"
-#~| "%2"
 #~ msgid "Could not find plugin '%1' for application '%2'"
 #~ msgstr ""
 #~ "Nie ŭdałosia znajści „kdemain” ŭ „%1”.\n"
 #~ "%2"
 
 #, fuzzy
-#~| msgctxt "SSL error"
-#~| msgid "The certificate is invalid"
 #~ msgid "The provided service is not valid"
 #~ msgstr "Niasłušny sertyfikat."
 
 #, fuzzy
-#~| msgid ""
-#~| "The service '%1' provides no library or the Library key is missing in "
-#~| "the .desktop file."
 #~ msgid "The service '%1' provides no library or the Library key is missing"
 #~ msgstr ""
 #~ "Słužba „%1” nie padaje biblijateki, albo ŭ fajle .desktop niama kluča "
@@ -2746,9 +2660,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Pakažy panel &stanu"
 
 #, fuzzy
-#~| msgid ""
-#~| "Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
-#~| "bottom of the window used for status information."
 #~ msgid ""
 #~ "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of "
 #~ "the window used for status information.</p>"
@@ -2758,7 +2669,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Novy"
 
 #, fuzzy
-#~| msgid "Create New Tag..."
 #~ msgid "Create new document"
 #~ msgstr "Stvary novy tag..."
 
@@ -2772,7 +2682,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Zapišy"
 
 #, fuzzy
-#~| msgid "Close Document"
 #~ msgid "Save document"
 #~ msgstr "Začyni dakument"
 
@@ -2786,7 +2695,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Začyni"
 
 #, fuzzy
-#~| msgid "Close Document"
 #~ msgid "Close document"
 #~ msgstr "Začyni dakument"
 
@@ -2794,8 +2702,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Vydrukuj..."
 
 #, fuzzy
-#~| msgctxt "keyboard-key-name"
-#~| msgid "PrintScreen"
 #~ msgid "Print document"
 #~ msgstr "PrintScreen"
 
@@ -2815,7 +2721,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Uznavi"
 
 #, fuzzy
-#~| msgid "HTML documentation"
 #~ msgid "Redo last undone action"
 #~ msgstr "Dakumentacyja HTML"
 
@@ -2829,7 +2734,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Uklej"
 
 #, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Paste clipboard content"
 #~ msgstr "Atrymańnie padhladu"
 
@@ -2873,7 +2777,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Maštabuj..."
 
 #, fuzzy
-#~| msgid "Select a week"
 #~ msgid "Select zoom level"
 #~ msgstr "Vybiery tydzień"
 
@@ -2881,7 +2784,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Pakažy znoŭ"
 
 #, fuzzy
-#~| msgid "&Redisplay"
 #~ msgid "Redisplay document"
 #~ msgstr "&Pakažy znoŭ"
 
@@ -2892,7 +2794,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Papiaredniaja staronka"
 
 #, fuzzy
-#~| msgid "&Previous Page"
 #~ msgid "Go to previous page"
 #~ msgstr "&Papiaredniaja staronka"
 
@@ -2900,8 +2801,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Nastupnaja staronka"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Go to Line"
 #~ msgid "Go to next page"
 #~ msgstr "U peŭny radok"
 
@@ -2918,8 +2817,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Pieršaja staronka"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Go to Line"
 #~ msgid "Go to first page"
 #~ msgstr "U peŭny radok"
 
@@ -2927,23 +2824,18 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Apošniaja staronka"
 
 #, fuzzy
-#~| msgid "&Go to Page..."
 #~ msgid "Go to last page"
 #~ msgstr "&Pierajdzi da staronki..."
 
 #, fuzzy
-#~| msgid "&Back in the Document"
 #~ msgid "Go back in document"
 #~ msgstr "Na&zad u dakumencie"
 
 #, fuzzy
-#~| msgctxt "go forward"
-#~| msgid "&Forward"
 #~ msgid "&Forward"
 #~ msgstr "Na&pierad"
 
 #, fuzzy
-#~| msgid "&Forward in the Document"
 #~ msgid "Go forward in document"
 #~ msgstr "Na&pierad u dakumencie"
 
@@ -2951,7 +2843,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Dadaj zakładku"
 
 #, fuzzy
-#~| msgid "&Edit Bookmarks"
 #~ msgid "&Edit Bookmarks..."
 #~ msgstr "&Redahuj zakładki"
 
@@ -2959,12 +2850,10 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Pravapis..."
 
 #, fuzzy
-#~| msgid "Check Spelling"
 #~ msgid "Check spelling in document"
 #~ msgstr "Spraŭdź pravapis"
 
 #, fuzzy
-#~| msgid "Show &Menubar"
 #~ msgid "Show or hide menubar"
 #~ msgstr "Pakažy &menu"
 
@@ -2972,14 +2861,10 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Pakažy &panel pryładździa"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Show Toolbar"
 #~ msgid "Show or hide toolbar"
 #~ msgstr "Pakažy panel pryładździa"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Show Statusbar"
 #~ msgid "Show or hide statusbar"
 #~ msgstr "Pakažy panel stanu"
 
@@ -3023,31 +2908,26 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Pra &KDE"
 
 #, fuzzy
-#~| msgid "Exit F&ull Screen Mode"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Exit F&ull Screen Mode"
 #~ msgstr "&Viarni zvyčajny vykład ekranu"
 
 #, fuzzy
-#~| msgid "Exit Full Screen"
 #~ msgctxt "@action:intoolbar"
 #~ msgid "Exit Full Screen"
 #~ msgstr "Viarni zvyčajny vykład ekranu"
 
 #, fuzzy
-#~| msgid "Exit F&ull Screen Mode"
 #~ msgctxt "@info:tooltip"
 #~ msgid "Exit full screen mode"
 #~ msgstr "&Viarni zvyčajny vykład ekranu"
 
 #, fuzzy
-#~| msgid "F&ull Screen Mode"
 #~ msgctxt "@action:inmenu"
 #~ msgid "F&ull Screen Mode"
 #~ msgstr "&Na ŭvieś ekran"
 
 #, fuzzy
-#~| msgid "Full Screen"
 #~ msgctxt "@action:intoolbar"
 #~ msgid "Full Screen"
 #~ msgstr "Na ŭvieś ekran"
@@ -3088,9 +2968,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Nazoŭnyja kolery"
 
 #, fuzzy
-#~| msgid ""
-#~| "Unable to read X11 RGB color strings. The following file location(s) "
-#~| "were examined:\n"
 #~ msgctxt ""
 #~ "%1 is the number of paths, %2 is the list of paths (with newlines between "
 #~ "them)"
@@ -3159,9 +3036,6 @@ msgstr "Zmoŭčanaje"
 #~ "<qt>Niama źviestak.<br />Aznačanaha abjekta „KAboutData” nie isnuje.</qt>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-#~| "%3</html>"
 #~ msgid ""
 #~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
 #~ msgstr ""
@@ -3169,9 +3043,6 @@ msgstr "Zmoŭčanaje"
 #~ "KDE %3</html>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-#~| "%3</html>"
 #~ msgctxt ""
 #~ "Program name, version and KDE platform version; do not translate "
 #~ "'Development Platform'"
@@ -3189,18 +3060,15 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Licenzijnaje pahadnieńnie"
 
 #, fuzzy
-#~| msgid "Other Contributors:"
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid "Email contributor"
 #~ msgstr "Inšyja ŭdzielniki:"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgid "Visit contributor's homepage"
 #~ msgstr "Chatniaja staronka"
 
 #, fuzzy
-#~| msgid "Other Contributors:"
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid ""
 #~ "Email contributor\n"
@@ -3208,49 +3076,39 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Inšyja ŭdzielniki:"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgid ""
 #~ "Visit contributor's homepage\n"
 #~ "%1"
 #~ msgstr "Chatniaja staronka"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgid ""
 #~ "Visit contributor's page\n"
 #~ "%1"
 #~ msgstr "Chatniaja staronka"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgid ""
 #~ "Visit contributor's blog\n"
 #~ "%1"
 #~ msgstr "Chatniaja staronka"
 
 #, fuzzy
-#~| msgctxt "@application/plain"
-#~| msgid "%1"
 #~ msgctxt "@item Contributor name in about dialog."
 #~ msgid "%1"
 #~ msgstr "%1"
 
 #, fuzzy
-#~| msgctxt "concatenation of dates and time"
-#~| msgid "%1 %2"
 #~ msgctxt "City, Country"
 #~ msgid "%1, %2"
 #~ msgstr "%1, %2"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Other"
 #~ msgctxt "A generic social network or homepage link of an unlisted type."
 #~ msgid "Other"
 #~ msgstr "Inšy"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgctxt "A type of link."
 #~ msgid "Homepage"
 #~ msgstr "Chatniaja staronka"
@@ -3259,9 +3117,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Pra KDE"
 
 #, fuzzy
-#~| msgid ""
-#~| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
-#~| "b></html>"
 #~ msgid ""
 #~ "<html><font size=\"5\">KDE - Be Free!</font><br /><b>Platform Version %1</"
 #~ "b></html>"
@@ -3277,7 +3132,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Paviedam pra chiby j vykažy svaje pažadańni"
 
 #, fuzzy
-#~| msgid "&Join the KDE Team"
 #~ msgid "&Join KDE"
 #~ msgstr "&Ułučysia ŭ supolnaść KDE"
 
@@ -3345,7 +3199,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Versija:"
 
 #, fuzzy
-#~| msgid "no version set (programmer error!)"
 #~ msgid "no version set (programmer error)"
 #~ msgstr "versija nie aznačanaja (pamyłka ŭ prahramnym kodzie!)"
 
@@ -3568,22 +3421,18 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Absalutna sakretny"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgid "All Pages"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgid "Odd Pages"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgid "Even Pages"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgid "Pages Per Sheet"
 #~ msgid "Page Set"
 #~ msgstr "Staronak na arkušy"
 
@@ -3611,12 +3460,10 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "--- dzielnik ---"
 
 #, fuzzy
-#~| msgid "Change Icon"
 #~ msgid "Change Text"
 #~ msgstr "Źmiani ikonu"
 
 #, fuzzy
-#~| msgid "Link Text:"
 #~ msgid "Icon te&xt:"
 #~ msgstr "Tekst łuča:"
 
@@ -3644,7 +3491,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Mahčymyja aperacyi:"
 
 #, fuzzy
-#~| msgid "File"
 #~ msgid "Filter"
 #~ msgstr "Fajł"
 
@@ -3655,7 +3501,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Źmiani &ikonu..."
 
 #, fuzzy
-#~| msgid "Change &Icon..."
 #~ msgid "Change Te&xt..."
 #~ msgstr "Źmiani &ikonu..."
 
@@ -3754,7 +3599,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Nižej upišy nazoŭ karystańnika j parol."
 
 #, fuzzy
-#~| msgid "&Keep password"
 #~ msgid "Use this password:"
 #~ msgstr "&Zachavaj parol"
 
@@ -4358,7 +4202,6 @@ msgstr "Zmoŭčanaje"
 #~ "„Abiary...”."
 
 #, fuzzy
-#~| msgid "&Search"
 #~ msgid "Search"
 #~ msgstr "&Šukaj"
 
@@ -4828,7 +4671,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Pra KDE"
 
 #, fuzzy
-#~| msgid "Send Confirmation"
 #~ msgid "Spell Checking Configuration"
 #~ msgstr "Paćvierdžańnie vysyłańnia"
 
@@ -4836,7 +4678,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Uklučy &fonavaje spraŭdžvańnie pravapisu"
 
 #, fuzzy
-#~| msgid "As-you-type spell checking enabled."
 #~ msgid "&Automatic spell checking enabled by default"
 #~ msgstr "Fonavaje spraŭdžvańnie pravapisu dziejničaje."
 
@@ -4850,7 +4691,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Zmoŭčanaja mova:"
 
 #, fuzzy
-#~| msgid "Suggested Words"
 #~ msgid "Ignored Words"
 #~ msgstr "Prapanavanyja varyjanty"
 
@@ -4863,7 +4703,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Skončana"
 
 #, fuzzy
-#~| msgid "Spell check stopped."
 #~ msgctxt "progress label"
 #~ msgid "Spell checking in progress..."
 #~ msgstr "Spraŭdžvańnie pravapisu spynienaje."
@@ -4970,8 +4809,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Anuluj źmieny"
 
 #, fuzzy
-#~| msgid ""
-#~| "Pressing this button will discard all recent changes made in this dialog"
 #~ msgid ""
 #~ "Pressing this button will discard all recent changes made in this dialog."
 #~ msgstr ""
@@ -4997,10 +4834,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Prymiani źmieny"
 
 #, fuzzy
-#~| msgid ""
-#~| "When clicking <b>Apply</b>, the settings will be handed over to the "
-#~| "program, but the dialog will not be closed.\n"
-#~| "Use this to try different settings."
 #~ msgid ""
 #~ "When you click <b>Apply</b>, the settings will be handed over to the "
 #~ "program, but the dialog will not be closed.\n"
@@ -5017,10 +4850,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Pierajdzi da administracyjnaj čynnaści"
 
 #, fuzzy
-#~| msgid ""
-#~| "When clicking <b>Administrator Mode</b> you will be prompted for the "
-#~| "administrator (root) password in order to make changes which require "
-#~| "root privileges."
 #~ msgid ""
 #~ "When you click <b>Administrator Mode</b> you will be prompted for the "
 #~ "administrator (root) password in order to make changes which require root "
@@ -5131,8 +4960,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Piśmo Blizkaha Ŭschodu"
 
 #, fuzzy
-#~| msgctxt "KCharSelect section name"
-#~| msgid "South East Asian Scripts"
 #~ msgctxt "KCharSelect section name"
 #~ msgid "South Asian Scripts"
 #~ msgstr "Piśmo Paŭdniova-Ŭschodniaj Azii"
@@ -5242,7 +5069,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "NKo"
 
 #, fuzzy
-#~| msgid "Ramadan"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Samaritan"
 #~ msgstr "Ramadan"
@@ -5360,8 +5186,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Manholski"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Unified Canadian Aboriginal Syllabics"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Unified Canadian Aboriginal Syllabics Extended"
 #~ msgstr "Universalnyja sylabičnyja znaki kanadzkich tubylcaŭ"
@@ -5383,21 +5207,16 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Chmerskija symbali"
 
 #, fuzzy
-#~| msgid "Sunday"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Sundanese"
 #~ msgstr "Niadziela"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Katakana"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Batak"
 #~ msgstr "Katakana"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Phonetic Extensions"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Vedic Extensions"
 #~ msgstr "Fanetyčnyja pašyreńni"
@@ -5435,8 +5254,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Spałučalnyja dyjakrytyčnyja znački dla symbalaŭ"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Letter-Like Symbols"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Letterlike Symbols"
 #~ msgstr "Symbali, padobnyja da litaraŭ"
@@ -5530,8 +5347,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Etyjopski pašyrany"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-A"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Cyrillic Extended-A"
 #~ msgstr "Łacinka pašyranaja-A"
@@ -5617,28 +5432,21 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Yi, radykały"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Limbu"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Lisu"
 #~ msgstr "Limbu"
 
 #, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Vai"
 #~ msgstr "Far"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-B"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Cyrillic Extended-B"
 #~ msgstr "Łacinka pašyranaja-B"
 
 #, fuzzy
-#~| msgid "Tamuz"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Bamum"
 #~ msgstr "Tamuz"
@@ -5652,8 +5460,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Syloti Nagri"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Number Forms"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Common Indic Number Forms"
 #~ msgstr "Liki"
@@ -5663,49 +5469,36 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Phags-pa"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Devanagari"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Devanagari Extended"
 #~ msgstr "Devanagari"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-A"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Hangul Jamo Extended-A"
 #~ msgstr "Łacinka pašyranaja-A"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Japanese"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Javanese"
 #~ msgstr "Japonski"
 
 #, fuzzy
-#~| msgid "Kha"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Cham"
 #~ msgstr "Kha"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-A"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Myanmar Extended-A"
 #~ msgstr "Łacinka pašyranaja-A"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Tai Le"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Tai Viet"
 #~ msgstr "Tai Le"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Ethiopic Extended"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Ethiopic Extended-A"
 #~ msgstr "Etyjopski pašyrany"
@@ -5715,8 +5508,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Sylaby Hangul"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Latin Extended-B"
 #~ msgctxt "KCharselect unicode block name"
 #~ msgid "Hangul Jamo Extended-B"
 #~ msgstr "Łacinka pašyranaja-B"
@@ -5845,67 +5636,55 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Biezvyjaŭnyja"
 
 #, fuzzy
-#~| msgid "Do you want to reload KDE configuration?"
 #~ msgid "You are not allowed to save the configuration"
 #~ msgstr "Pieračytać nałady KDE?"
 
 #, fuzzy
-#~| msgid "Next year"
 #~ msgctxt "@option next year"
 #~ msgid "Next Year"
 #~ msgstr "Nastupny hod"
 
 #, fuzzy
-#~| msgid "Next month"
 #~ msgctxt "@option next month"
 #~ msgid "Next Month"
 #~ msgstr "Nastupny miesiac"
 
 #, fuzzy
-#~| msgid "Next year"
 #~ msgctxt "@option next week"
 #~ msgid "Next Week"
 #~ msgstr "Nastupny hod"
 
 #, fuzzy
-#~| msgid "Today"
 #~ msgctxt "@option today"
 #~ msgid "Today"
 #~ msgstr "Siońnia"
 
 #, fuzzy
-#~| msgid "Yesterday"
 #~ msgctxt "@option yesterday"
 #~ msgid "Yesterday"
 #~ msgstr "Učora"
 
 #, fuzzy
-#~| msgid "&Last Page"
 #~ msgctxt "@option last week"
 #~ msgid "Last Week"
 #~ msgstr "&Apošniaja staronka"
 
 #, fuzzy
-#~| msgid "Next month"
 #~ msgctxt "@option last month"
 #~ msgid "Last Month"
 #~ msgstr "Nastupny miesiac"
 
 #, fuzzy
-#~| msgid "&Last Page"
 #~ msgctxt "@option last year"
 #~ msgid "Last Year"
 #~ msgstr "&Apošniaja staronka"
 
 #, fuzzy
-#~| msgid "No text"
 #~ msgctxt "@option do not specify a date"
 #~ msgid "No Date"
 #~ msgstr "Niama tekstu"
 
 #, fuzzy
-#~| msgctxt "SSL error"
-#~| msgid "The certificate is invalid"
 #~ msgctxt "@info"
 #~ msgid "The date you entered is invalid"
 #~ msgstr "Niasłušny sertyfikat."
@@ -5938,7 +5717,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Vybiery siońniašni dzień"
 
 #, fuzzy
-#~| msgid "Rating: "
 #~ msgctxt "No specific time zone"
 #~ msgid "Floating"
 #~ msgstr "Acenka: "
@@ -5959,12 +5737,10 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Dapamoha"
 
 #, fuzzy
-#~| msgid "No further item in the history."
 #~ msgid "No further items in the history."
 #~ msgstr "U historyi bolej ničoha niama."
 
 #, fuzzy
-#~| msgid "Conflict With Registered Global Shortcut"
 #~ msgctxt "%1 is the number of shortcuts with which there is a conflict"
 #~ msgid "Conflict with Registered Global Shortcut"
 #~ msgid_plural "Conflict with Registered Global Shortcuts"
@@ -5973,7 +5749,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr[2] "Niazhoda z zarehistravanym paŭsiudnym klavijaturnym skarotam"
 
 #, fuzzy
-#~| msgid "Shortcut conflict"
 #~ msgctxt "%1 is the number of conflicts"
 #~ msgid "Shortcut Conflict"
 #~ msgid_plural "Shortcut Conflicts"
@@ -5982,15 +5757,10 @@ msgstr "Zmoŭčanaje"
 #~ msgstr[2] "Niazhoda klavijaturnych skarotaŭ"
 
 #, fuzzy
-#~| msgid "Shortcut(s) '%1' for action '%2'\n"
 #~ msgid "Shortcut '%1' for action '%2'\n"
 #~ msgstr "Klavijaturnyja skaroty „%1” dla aperacyi „%2”\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "The \"%1\" shortcut is ambiguous with the following shortcuts.\n"
-#~| "Do you want to assign an empty shortcut to these actions?\n"
-#~| "%2"
 #~ msgctxt "%1 is the number of ambigious shortcut clashes (hidden)"
 #~ msgid ""
 #~ "The \"%2\" shortcut is ambiguous with the following shortcut.\n"
@@ -6024,7 +5794,6 @@ msgstr "Zmoŭčanaje"
 #~ "<br>Abiary inšaje spałučeńnie.</qt>"
 
 #, fuzzy
-#~| msgid "New Web Shortcut"
 #~ msgid "Reserved Shortcut"
 #~ msgstr "Novy sieciŭny skarot"
 
@@ -6208,8 +5977,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Dadaj u słoŭnik"
 
 #, fuzzy
-#~| msgctxt "SSL error"
-#~| msgid "The certificate is invalid"
 #~ msgctxt "@info"
 #~ msgid "The time you entered is invalid"
 #~ msgstr "Niasłušny sertyfikat."
@@ -6226,19 +5993,16 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Kamentar"
 
 #, fuzzy
-#~| msgid "Show help"
 #~ msgctxt "@title:menu"
 #~ msgid "Show Text"
 #~ msgstr "Pakažy daviedku"
 
 #, fuzzy
-#~| msgid "Toolbar Menu"
 #~ msgctxt "@title:menu"
 #~ msgid "Toolbar Settings"
 #~ msgstr "Menu ad paneli pryładździa"
 
 #, fuzzy
-#~| msgid "Orientation"
 #~ msgctxt "Toolbar orientation"
 #~ msgid "Orientation"
 #~ msgstr "Aryjentacyja"
@@ -6294,7 +6058,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Vializny (%1x%2)"
 
 #, fuzzy
-#~| msgid "Lock Toolbars"
 #~ msgid "Lock Toolbar Positions"
 #~ msgstr "Pryčapi paneli pryładździa"
 
@@ -6316,7 +6079,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Naładź skarot..."
 
 #, fuzzy
-#~| msgid "Toolbars"
 #~ msgid "Toolbars Shown"
 #~ msgstr "Paneli pryładździa"
 
@@ -6470,10 +6232,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Źmieščanyja ŭ pamiać skrypty"
 
 #, fuzzy
-#~| msgid ""
-#~| "A script on this page is causing KHTML to freeze. If it continues to "
-#~| "run, other applications may become less responsive.\n"
-#~| "Do you want to abort the script?"
 #~ msgid ""
 #~ "A script on this page is causing KHTML to freeze. If it continues to run, "
 #~ "other applications may become less responsive.\n"
@@ -6488,7 +6246,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "JavaScript"
 
 #, fuzzy
-#~| msgid "Open Script"
 #~ msgid "&Stop Script"
 #~ msgstr "Adčyni skrypt"
 
@@ -6585,7 +6342,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Paćvierdžańnie vysyłańnia"
 
 #, fuzzy
-#~| msgid "&Send Files"
 #~ msgid "&Send File"
 #~ msgid_plural "&Send Files"
 #~ msgstr[0] "&Vyšli fajły"
@@ -6845,7 +6601,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Vypišy hierarchiju DOM u STDOUT"
 
 #, fuzzy
-#~| msgid "Print DOM Tree to STDOUT"
 #~ msgid "Print frame tree to STDOUT"
 #~ msgstr "Vypišy hierarchiju DOM u STDOUT"
 
@@ -6940,7 +6695,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "%1 (Łuč)"
 
 #, fuzzy
-#~| msgid "%2 (%1 bytes)"
 #~ msgid "%2 (%1 byte)"
 #~ msgid_plural "%2 (%1 bytes)"
 #~ msgstr[0] "%2 (%1 bajtaŭ)"
@@ -6985,14 +6739,11 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "   <a href=\"%1\">[Ułaścivaści]</a>"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Turkish"
 #~ msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 #~ msgid "Quirks"
 #~ msgstr "Turecki"
 
 #, fuzzy
-#~| msgid "Start"
 #~ msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 #~ msgid "Strict"
 #~ msgstr "Pačni"
@@ -7166,7 +6917,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Unutrany kampanent dla „multipart/mixed”"
 
 #, fuzzy
-#~| msgid "Copyright 2001, David Faure <email>david@mandrakesoft.com</email>"
 #~ msgid "Copyright 2001-2011, David Faure <email>faure@kde.org</email>"
 #~ msgstr ""
 #~ "Aŭtarskija pravy 2001, David Faure <email>david@mandrakesoft.com</email>"
@@ -7229,9 +6979,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Prypyni/Praciahvaj šukać paharšeńni"
 
 #, fuzzy
-#~| msgid ""
-#~| "You may select a file where the log content is stored, before the "
-#~| "regression testing started."
 #~ msgid ""
 #~ "You may select a file where the log content is stored, before the "
 #~ "regression testing is started."
@@ -7395,7 +7142,6 @@ msgstr "Zmoŭčanaje"
 #~ "%2"
 
 #, fuzzy
-#~| msgid "KDEInit could not launch '%1'."
 #~ msgid "KDEInit could not launch '%1'"
 #~ msgstr "KDEInit nia zmoh uklučyć „%1”."
 
@@ -7614,7 +7360,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Niapravilnaja kolkaść arhumentaŭ."
 
 #, fuzzy
-#~| msgid "There is no matching item available.\n"
 #~ msgid "but there is only %1 available"
 #~ msgid_plural "but there are only %1 available"
 #~ msgstr[0] "Niama adpaviednikaŭ.\n"
@@ -7622,8 +7367,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr[2] "Niama adpaviednikaŭ.\n"
 
 #, fuzzy
-#~| msgctxt "concatenation of dates and time"
-#~| msgid "%1 %2"
 #~ msgctxt ""
 #~ "%1 is 'the slot asked for foo arguments', %2 is 'but there are only bar "
 #~ "available'"
@@ -7679,7 +7422,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 
 #, fuzzy
-#~| msgid "Rating: %1"
 #~ msgid "loading %1"
 #~ msgstr "Acenka: %1"
 
@@ -7753,7 +7495,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Re: %1"
 
 #, fuzzy
-#~| msgid "Timeout. Check Internet connection!"
 #~ msgid "Timeout. Check Internet connection."
 #~ msgstr ""
 #~ "Biaz vyniku skončyŭsia termin čakańnia. Pravier dziejnaść spałučeńnia ź "
@@ -7931,7 +7672,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Pierakładzi"
 
 #, fuzzy
-#~| msgid "Download New Stuff"
 #~ msgid "Download New Stuff..."
 #~ msgstr "Ściahni novyja cikavostki"
 
@@ -7948,8 +7688,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Vykładvańnie cikavostak na servery"
 
 #, fuzzy
-#~| msgctxt "Program name followed by 'Add On Installer'"
-#~| msgid "%1 Add-On Installer"
 #~ msgctxt "Program name followed by 'Add On Uploader'"
 #~ msgid "%1 Add-On Uploader"
 #~ msgstr "Instaloŭnik dadatkaŭ dla %1"
@@ -8005,38 +7743,31 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Padaj krychu źviestak pra siabie."
 
 #, fuzzy
-#~| msgid "No text was replaced."
 #~ msgctxt "voting for an item (good/bad)"
 #~ msgid "Your vote was recorded."
 #~ msgstr "Ničoha nie było zamieniena."
 
 #, fuzzy
-#~| msgid "Install"
 #~ msgid "Initializing"
 #~ msgstr "Zainstaluj"
 
 #, fuzzy
-#~| msgid "Configuration files"
 #~ msgid "Configuration file not found: \"%1\""
 #~ msgstr "Fajły naładaŭ"
 
 #, fuzzy
-#~| msgid "Configuration files"
 #~ msgid "Configuration file is invalid: \"%1\""
 #~ msgstr "Fajły naładaŭ"
 
 #, fuzzy
-#~| msgid "View Frame Information"
 #~ msgid "Loading provider information"
 #~ msgstr "Pakažy źviestki pra frejm"
 
 #, fuzzy
-#~| msgid "Loading Applet"
 #~ msgid "Loading data"
 #~ msgstr "Źmiaščeńnie apleta ŭ pamiać"
 
 #, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Loading one preview"
 #~ msgid_plural "Loading %1 previews"
 #~ msgstr[0] "Atrymańnie padhladu"
@@ -8044,99 +7775,79 @@ msgstr "Zmoŭčanaje"
 #~ msgstr[2] "Atrymańnie padhladu"
 
 #, fuzzy
-#~| msgid "Install"
 #~ msgid "Installing"
 #~ msgstr "Zainstaluj"
 
 #, fuzzy
-#~| msgid "Could not set non-blocking mode"
 #~ msgid "Possibly bad download link"
 #~ msgstr "Nie ŭdałosia ŭklučyć biazblokavy režym"
 
 #, fuzzy
-#~| msgid "Could not install %1"
 #~ msgid "Could not install \"%1\": file not found."
 #~ msgstr "Nie ŭdałosia zainstalavać „%1”."
 
 #, fuzzy
-#~| msgid "Overwrite File?"
 #~ msgid "Overwrite existing file?"
 #~ msgstr "Nadpisać fajł?"
 
 #, fuzzy
-#~| msgid "Download"
 #~ msgid "Download File"
 #~ msgstr "Zabiary z servera"
 
 #, fuzzy
-#~| msgid "Provider: %1"
 #~ msgid "All Providers"
 #~ msgstr "Pravajder: %1"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgid "All Categories"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgid "Provider: %1"
 #~ msgid "Provider:"
 #~ msgstr "Pravajder: %1"
 
 #, fuzzy
-#~| msgid "Character:"
 #~ msgid "Category:"
 #~ msgstr "Znak:"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "New"
 #~ msgid "Newest"
 #~ msgstr "Novy"
 
 #, fuzzy
-#~| msgid "Rating: "
 #~ msgid "Rating"
 #~ msgstr "Acenka: "
 
 #, fuzzy
-#~| msgid "Most Downloads"
 #~ msgid "Most downloads"
 #~ msgstr "Najčaściej adbiranyja"
 
 #, fuzzy
-#~| msgid "Install"
 #~ msgid "Installed"
 #~ msgstr "Zainstaluj"
 
 #, fuzzy
-#~| msgid "&Order by:"
 #~ msgid "Order by:"
 #~ msgstr "&Paradkuj pavodle:"
 
 #, fuzzy
-#~| msgid "S&earch:"
 #~ msgid "Search:"
 #~ msgstr "&Šukaj:"
 
 #, fuzzy
-#~| msgid "Suggestions for %1"
 #~ msgid "Details for %1"
 #~ msgstr "Prapanovy dla %1"
 
 #, fuzzy
-#~| msgid "Changelog"
 #~ msgid "Changelog:"
 #~ msgstr "Log źmienaŭ"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgctxt "A link to the description of this Get Hot New Stuff item"
 #~ msgid "Homepage"
 #~ msgstr "Chatniaja staronka"
 
 #, fuzzy
-#~| msgid "HTML documentation"
 #~ msgctxt ""
 #~ "A link to make a donation for a Get Hot New Stuff item (opens a web "
 #~ "browser)"
@@ -8144,25 +7855,20 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Dakumentacyja HTML"
 
 #, fuzzy
-#~| msgid "Open in New &Window"
 #~ msgctxt "Tooltip for a link in a dialog"
 #~ msgid "Opens in a browser window"
 #~ msgstr "Adčyni ŭ novym &aknie"
 
 #, fuzzy
-#~| msgid "Rating: %1"
 #~ msgid "Rating: %1%"
 #~ msgstr "Acenka: %1"
 
 #, fuzzy
-#~| msgctxt "@interface/rich"
-#~| msgid "<i>%1</i>"
 #~ msgctxt "Show the author of this item in a list"
 #~ msgid "By <i>%1</i>"
 #~ msgstr "<i>%1</i>"
 
 #, fuzzy
-#~| msgid "Download"
 #~ msgid "1 download"
 #~ msgid_plural "%1 downloads"
 #~ msgstr[0] "Zabiary z servera"
@@ -8170,131 +7876,102 @@ msgstr "Zmoŭčanaje"
 #~ msgstr[2] "Zabiary z servera"
 
 #, fuzzy
-#~| msgid "Update"
 #~ msgid "Updating"
 #~ msgstr "Aktualizuj"
 
 #, fuzzy
-#~| msgid "Install"
 #~ msgid "Install Again"
 #~ msgstr "Zainstaluj"
 
 #, fuzzy
-#~| msgid "Check Spelling..."
 #~ msgid "Checking login..."
 #~ msgstr "Spraŭdź pravapis..."
 
 #, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Fetching your previously updated content..."
 #~ msgstr "Atrymańnie padhladu"
 
 #, fuzzy
-#~| msgid "Could not create temporary file."
 #~ msgid "Could not verify login, please try again."
 #~ msgstr "Nie ŭdałosia stvaryć časovy fajł."
 
 #, fuzzy
-#~| msgid "File %1 not found."
 #~ msgid "File not found: %1"
 #~ msgstr "Fajł „%1” nia znojdzieny."
 
 #, fuzzy
-#~| msgid "Download"
 #~ msgid "Upload Failed"
 #~ msgstr "Zabiary z servera"
 
 #, fuzzy
-#~| msgctxt "SSL error"
-#~| msgid "The certificate is invalid"
 #~ msgid "The selected category \"%1\" is invalid."
 #~ msgstr "Niasłušny sertyfikat."
 
 #, fuzzy
-#~| msgid "Select Region of Image"
 #~ msgid "Select preview image"
 #~ msgstr "Vyłučy kavałak vyjavy"
 
 #, fuzzy
-#~| msgid "Download"
 #~ msgid "Uploading Failed"
 #~ msgstr "Zabiary z servera"
 
 #, fuzzy
-#~| msgid "Communication error"
 #~ msgid "Authentication error."
 #~ msgstr "Pamyłka ŭ kamunikavańni"
 
 #, fuzzy
-#~| msgid "Download"
 #~ msgid "Upload failed: %1"
 #~ msgstr "Zabiary z servera"
 
 #, fuzzy
-#~| msgid "Page loaded."
 #~ msgid "File to upload:"
 #~ msgstr "Staronka pračytanaja."
 
 #, fuzzy
-#~| msgctxt "Reload KDE configuration messagebox"
-#~| msgid "Reload"
 #~ msgid "New Upload"
 #~ msgstr "Pieračytaj"
 
 #, fuzzy
-#~| msgid "Please give some information about yourself."
 #~ msgid "Please fill out the information about your upload in English."
 #~ msgstr "Padaj krychu źviestak pra siabie."
 
 #, fuzzy
-#~| msgid "Preview URL:"
 #~ msgid "Preview Images"
 #~ msgstr "Adras padhladu:"
 
 #, fuzzy
-#~| msgid "Select Files..."
 #~ msgid "Select Preview..."
 #~ msgstr "Abiary fajły..."
 
 #, fuzzy
-#~| msgid "Ne&ver store for this site"
 #~ msgid "Set a price for this item"
 #~ msgstr "&Nikoli nie zachoŭvaj dla hetaha sajta"
 
 #, fuzzy
-#~| msgctxt "The source url of a job"
-#~| msgid "Source:"
 #~ msgid "Price"
 #~ msgstr "Krynica:"
 
 #, fuzzy
-#~| msgctxt "The source url of a job"
-#~| msgid "Source:"
 #~ msgid "Price:"
 #~ msgstr "Krynica:"
 
 #, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Upload content"
 #~ msgstr "Atrymańnie padhladu"
 
 #, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Upload first preview"
 #~ msgstr "Atrymańnie padhladu"
 
 #, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Upload second preview"
 #~ msgstr "Atrymańnie padhladu"
 
 #, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Upload third preview"
 #~ msgstr "Atrymańnie padhladu"
 
 #, fuzzy
-#~| msgid "Start replace"
 #~ msgid "Start Upload"
 #~ msgstr "Pačni zamieny"
 
@@ -8323,12 +8000,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "H&ołas"
 
 #, fuzzy
-#~| msgid ""
-#~| "<qt>Specifies how KTTS should speak the event when received.  If you "
-#~| "select \"Speak custom text\", enter the text in the box.  You may use "
-#~| "the following substitution strings in the text:<dl><dt>%e</dt><dd>Name "
-#~| "of the event</dd><dt>%a</dt><dd>Application that sent the event</dd><dt>"
-#~| "%m</dt><dd>The message sent by the application</dd></dl></qt>"
 #~ msgid ""
 #~ "<qt>Specifies how Jovie should speak the event when received.  If you "
 #~ "select \"Speak custom text\", enter the text in the box.  You may use the "
@@ -8377,55 +8048,46 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Šukaj"
 
 #, fuzzy
-#~| msgid "Re: %1"
 #~ msgctxt "@label Type of file"
 #~ msgid "Type: %1"
 #~ msgstr "Re: %1"
 
 #, fuzzy
-#~| msgid "Do &not store this time"
 #~ msgctxt "@label:checkbox"
 #~ msgid "Remember action for files of this type"
 #~ msgstr "&Hetym razam nie zachoŭvaj"
 
 #, fuzzy
-#~| msgid "&Open with '%1'"
 #~ msgctxt "@label:button"
 #~ msgid "&Open with %1"
 #~ msgstr "&Adčyni ŭ „%1”"
 
 #, fuzzy
-#~| msgid "&Open with '%1'"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Open &with %1"
 #~ msgstr "&Adčyni ŭ „%1”"
 
 #, fuzzy
-#~| msgid "Open '%1'"
 #~ msgctxt "@info"
 #~ msgid "Open '%1'?"
 #~ msgstr "Adčyni „%1”"
 
 #, fuzzy
-#~| msgid "&Open with..."
 #~ msgctxt "@label:button"
 #~ msgid "&Open with..."
 #~ msgstr "&Adčyni ŭ..."
 
 #, fuzzy
-#~| msgid "&Open with..."
 #~ msgctxt "@label:button"
 #~ msgid "&Open with"
 #~ msgstr "&Adčyni ŭ..."
 
 #, fuzzy
-#~| msgid "&Open"
 #~ msgctxt "@label:button"
 #~ msgid "&Open"
 #~ msgstr "&Adčyni"
 
 #, fuzzy
-#~| msgid "Name: "
 #~ msgctxt "@label File name"
 #~ msgid "Name: %1"
 #~ msgstr "Nazva: "
@@ -8507,7 +8169,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Rovień biaśpiečnaści interpretatara Ruby"
 
 #, fuzzy
-#~| msgid "Cancel"
 #~ msgid "Cancel?"
 #~ msgstr "Anuluj"
 
@@ -8561,9 +8222,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Nie ŭdałosia znajści modul „%1”."
 
 #, fuzzy
-#~| msgid ""
-#~| "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</"
-#~| "p></qt>"
 #~ msgid ""
 #~ "<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</"
 #~ "p></qt>"
@@ -8585,9 +8243,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Modul „%1” nia jość zapraŭdnym modulem naładaŭ."
 
 #, fuzzy
-#~| msgid ""
-#~| "<qt>The diagnostics is:<br />The desktop file %1 does not specify a "
-#~| "library.</qt>"
 #~ msgid ""
 #~ "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library."
 #~ "</qt>"
@@ -8599,13 +8254,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Uźnikła pamyłka źmiaščeńnia modula ŭ pamiać."
 
 #, fuzzy
-#~| msgid ""
-#~| "<qt>The diagnostics is:<br />%1<p>Possible reasons:</p><ul><li>An error "
-#~| "occurred during your last KDE upgrade leaving an orphaned control "
-#~| "module</li><li>You have old third party modules lying around.</li></"
-#~| "ul><p>Check these points carefully and try to remove the module "
-#~| "mentioned in the error message. If this fails, consider contacting your "
-#~| "distributor or packager.</p></qt>"
 #~ msgid ""
 #~ "<qt>The diagnosis is:<br />%1<p>Possible reasons:</p><ul><li>An error "
 #~ "occurred during your last KDE upgrade leaving an orphaned control module</"
@@ -8641,9 +8289,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Hety addzieł naładaŭ užo adčynieny ŭ %1."
 
 #, fuzzy
-#~| msgid ""
-#~| "The document \"%1\" has been modified.\n"
-#~| "Do you want to save your changes or discard them?"
 #~ msgid ""
 #~ "The settings of the current module have changed.\n"
 #~ "Do you want to apply the changes or discard them?"
@@ -8652,7 +8297,6 @@ msgstr "Zmoŭčanaje"
 #~ "Ci ty chočaš zapisać źmieny albo ich anulavać?"
 
 #, fuzzy
-#~| msgid "Settings"
 #~ msgid "Apply Settings"
 #~ msgstr "Nałady"
 
@@ -8884,7 +8528,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Pošuk pluginaŭ"
 
 #, fuzzy
-#~| msgid "About %1"
 #~ msgctxt "Used only for plugins"
 #~ msgid "About %1"
 #~ msgstr "Pra %1"
@@ -8911,7 +8554,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Niapravilny typ u bazie źviestak"
 
 #, fuzzy
-#~| msgid "Esfand"
 #~ msgctxt ""
 #~ "Boolean AND keyword in desktop search strings. You can add several "
 #~ "variants separated by spaces, e.g. retain the English one alongside the "
@@ -8921,8 +8563,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Esfand"
 
 #, fuzzy
-#~| msgctxt "Mordad short"
-#~| msgid "Mor"
 #~ msgctxt ""
 #~ "Boolean OR keyword in desktop search strings. You can add several "
 #~ "variants separated by spaces, e.g. retain the English one alongside the "
@@ -8932,63 +8572,52 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Mor"
 
 #, fuzzy
-#~| msgid "(C) 2005-2007 Sebastian Sauer"
 #~ msgid "(c) 2006-2009, Sebastian Trüg"
 #~ msgstr "© 2005-2007 Sebastian Sauer"
 
 #, fuzzy
-#~| msgid "Sebastian Sauer"
 #~ msgid "Sebastian Trüg"
 #~ msgstr "Sebastian Sauer"
 
 #, fuzzy
-#~| msgid "MainWindow"
 #~ msgid "Maintainer"
 #~ msgstr "Hałoŭnaje akno"
 
 #, fuzzy
-#~| msgid "Tobias Anton"
 #~ msgid "Tobias Koenig"
 #~ msgstr "Tobias Anton"
 
 #, fuzzy
-#~| msgid "Change Icon"
 #~ msgctxt "@title:window"
 #~ msgid "Change Tags"
 #~ msgstr "Źmiani ikonu"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "@title:window"
 #~ msgid "Add Tags"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgid "Create New Tag..."
 #~ msgctxt "@label"
 #~ msgid "Create new tag:"
 #~ msgstr "Stvary novy tag..."
 
 #, fuzzy
-#~| msgid "Delete"
 #~ msgctxt "@info"
 #~ msgid "Delete tag"
 #~ msgstr "Vydali"
 
 #, fuzzy
-#~| msgid "Delete"
 #~ msgctxt "@title"
 #~ msgid "Delete tag"
 #~ msgstr "Vydali"
 
 #, fuzzy
-#~| msgid "Delete"
 #~ msgctxt "@action:button"
 #~ msgid "Delete"
 #~ msgstr "Vydali"
 
 #, fuzzy
-#~| msgid "Cancel"
 #~ msgctxt "@action:button"
 #~ msgid "Cancel"
 #~ msgstr "Anuluj"
@@ -8997,25 +8626,21 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Źmiena anatacyjaŭ"
 
 #, fuzzy
-#~| msgid "Show all options"
 #~ msgctxt "@label"
 #~ msgid "Show all tags..."
 #~ msgstr "Pakažy ŭsie opcyi"
 
 #, fuzzy
-#~| msgid "Add..."
 #~ msgctxt "@label"
 #~ msgid "Add Tags..."
 #~ msgstr "Dadaj..."
 
 #, fuzzy
-#~| msgid "Change &Icon..."
 #~ msgctxt "@label"
 #~ msgid "Change..."
 #~ msgstr "Źmiani &ikonu..."
 
 #, fuzzy
-#~| msgid "Today"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9023,7 +8648,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Siońnia"
 
 #, fuzzy
-#~| msgid "Yesterday"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9031,7 +8655,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Učora"
 
 #, fuzzy
-#~| msgid "&Last Page"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9039,7 +8662,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Apošniaja staronka"
 
 #, fuzzy
-#~| msgid "Next month"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9047,7 +8669,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Nastupny miesiac"
 
 #, fuzzy
-#~| msgid "&Last Page"
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources"
@@ -9055,8 +8676,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "&Apošniaja staronka"
 
 #, fuzzy
-#~| msgctxt "Custom color"
-#~| msgid "Custom..."
 #~ msgctxt ""
 #~ "referring to a filter on the modification and usage date of files/"
 #~ "resources that will open a dialog to choose a date range"
@@ -9064,17 +8683,14 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Ułasny..."
 
 #, fuzzy
-#~| msgid "&Restore"
 #~ msgid "Before"
 #~ msgstr "&Adnavi"
 
 #, fuzzy
-#~| msgid "Alert"
 #~ msgid "After"
 #~ msgstr "Tryvoha"
 
 #, fuzzy
-#~| msgid "Choose..."
 #~ msgctxt ""
 #~ "@option:check An item in a list of resources that allows to query for "
 #~ "more resources to put in the list"
@@ -9082,53 +8698,43 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Abiary..."
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Document Back"
 #~ msgctxt "@option:check A filter on file type"
 #~ msgid "Documents"
 #~ msgstr "Nazad u dakumencie"
 
 #, fuzzy
-#~| msgid "&View"
 #~ msgctxt "@option:check A filter on file type - media video"
 #~ msgid "Video"
 #~ msgstr "&Vyhlad"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "@option:check A filter on file type"
 #~ msgid "Images"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgid "Job priority:"
 #~ msgctxt ""
 #~ "@option:radio A filter on prioritizing/sorting a selection of resources"
 #~ msgid "No priority"
 #~ msgstr "Važnaść zadańnia:"
 
 #, fuzzy
-#~| msgid "Last modified:"
 #~ msgctxt ""
 #~ "@option:radio A filter on prioritizing/sorting a selection of resources"
 #~ msgid "Last modified"
 #~ msgstr "Apošniaja admiena:"
 
 #, fuzzy
-#~| msgid "Add Rating"
 #~ msgctxt "@option:radio A filter on the rating of a resource"
 #~ msgid "Any Rating"
 #~ msgstr "Dadaj acenku"
 
 #, fuzzy
-#~| msgid "Rating: "
 #~ msgctxt "@option:radio A filter on the rating of a resource"
 #~ msgid "Max Rating"
 #~ msgstr "Acenka: "
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Miscellaneous Symbols"
 #~ msgctxt ""
 #~ "@title KCategorizedSortFilterProxyModel grouping for all Nepomukj "
 #~ "resources that are of type rdfs:Resource"
@@ -9136,55 +8742,45 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Roznyja symbali"
 
 #, fuzzy
-#~| msgid "&Restore"
 #~ msgctxt "@title:column The Nepomuk resource label and icon"
 #~ msgid "Resource"
 #~ msgstr "&Adnavi"
 
 #, fuzzy
-#~| msgid "Service types"
 #~ msgctxt "@title:column The Nepomuk resource's RDF type"
 #~ msgid "Resource Type"
 #~ msgstr "Vidy słužbaŭ"
 
 #, fuzzy
-#~| msgid "Enter search phrase here"
 #~ msgid "Enter Search Terms..."
 #~ msgstr "Tut upišy šukany vyraz"
 
 #, fuzzy
-#~| msgid "Contact author"
 #~ msgctxt "@option:check A filter on resource type"
 #~ msgid "Contacts"
 #~ msgstr "Źviarnisia da aŭtara"
 
 #, fuzzy
-#~| msgid "Email"
 #~ msgctxt "@option:check A filter on resource type"
 #~ msgid "Emails"
 #~ msgstr "Emaił"
 
 #, fuzzy
-#~| msgid "Task"
 #~ msgctxt "@option:check A filter on resource type"
 #~ msgid "Tasks"
 #~ msgstr "Zadańnie"
 
 #, fuzzy
-#~| msgid "Task"
 #~ msgctxt "@option:check A filter on resource type"
 #~ msgid "Tags"
 #~ msgstr "Zadańnie"
 
 #, fuzzy
-#~| msgid "File"
 #~ msgctxt "@option:check Do filter on type - show only files"
 #~ msgid "Files"
 #~ msgstr "Fajł"
 
 #, fuzzy
-#~| msgctxt "@item Text character set"
-#~| msgid "Other"
 #~ msgctxt "@option:check Do filter on type - show everything but files"
 #~ msgid "Other"
 #~ msgstr "Inšy"
@@ -9257,56 +8853,44 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Što &heta"
 
 #, fuzzy
-#~| msgid "Next year"
 #~ msgctxt "@option next week"
 #~ msgid "Next week"
 #~ msgstr "Nastupny hod"
 
 #, fuzzy
-#~| msgid "&Last Page"
 #~ msgctxt "@option last week"
 #~ msgid "Last week"
 #~ msgstr "&Apošniaja staronka"
 
 #, fuzzy
-#~| msgid "Today"
 #~ msgctxt "@info/plain"
 #~ msgid "today"
 #~ msgstr "Siońnia"
 
 #, fuzzy
-#~| msgid "Show &Menubar"
 #~ msgid "Hide Menubar"
 #~ msgstr "Pakažy &menu"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Show Statusbar"
 #~ msgid "Hide Statusbar"
 #~ msgstr "Pakažy panel stanu"
 
 #, fuzzy
-#~| msgid "File"
 #~ msgctxt "option:check A filter on resource type"
 #~ msgid "Files"
 #~ msgstr "Fajł"
 
 #, fuzzy
-#~| msgctxt "@application/plain"
-#~| msgid "%1"
 #~ msgctxt "@item Author name in about dialog"
 #~ msgid "%1"
 #~ msgstr "%1"
 
 #, fuzzy
-#~| msgctxt "keyboard-key-name"
-#~| msgid "Meta"
 #~ msgctxt "option:check A filter on file type - media files"
 #~ msgid "Media"
 #~ msgstr "Meta"
 
 #, fuzzy
-#~| msgid "HTML Toolbar"
 #~ msgid "Hide Toolbar"
 #~ msgstr "Panel pryładździa HTML"
 
@@ -9355,12 +8939,10 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Nałady Sonnet"
 
 #, fuzzy
-#~| msgid "Ignore"
 #~ msgid "I agree"
 #~ msgstr "Abmini"
 
 #, fuzzy
-#~| msgid "Download"
 #~ msgid "Upload Your Own Files..."
 #~ msgstr "Zabiary z servera"
 
@@ -9380,7 +8962,6 @@ msgstr "Zmoŭčanaje"
 #~ "daviedki „Što heta?”</a>."
 
 #, fuzzy
-#~| msgid "Details"
 #~ msgid "Details..."
 #~ msgstr "Detali"
 
@@ -9397,7 +8978,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Tag isnuje"
 
 #, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Loading preview..."
 #~ msgstr "Atrymańnie padhladu"
 
@@ -9423,100 +9003,81 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Novaja nazva hosta"
 
 #, fuzzy
-#~| msgid "Description"
 #~ msgid "description"
 #~ msgstr "Apisańnie"
 
 #, fuzzy
-#~| msgid "Action Name"
 #~ msgid "Autor Name"
 #~ msgstr "Nazva aperacyi"
 
 #, fuzzy
-#~| msgid "Could not construct value"
 #~ msgid "Could not get account balance."
 #~ msgstr "Nie ŭdałosia skanstrujavać vartaść."
 
 #, fuzzy
-#~| msgid "Download"
 #~ msgid "Voting failed."
 #~ msgstr "Zabiary z servera"
 
 #, fuzzy
-#~| msgid "Could not create temporary file."
 #~ msgid "Could not make you a fan."
 #~ msgstr "Nie ŭdałosia stvaryć časovy fajł."
 
 #, fuzzy
-#~| msgid "No Preview"
 #~ msgid "Previews"
 #~ msgstr "Niama padhladu"
 
 #, fuzzy
-#~| msgid "Comment"
 #~ msgid "Community"
 #~ msgstr "Kamentar"
 
 #, fuzzy
-#~| msgid "No Preview"
 #~ msgid "Preview"
 #~ msgstr "Niama padhladu"
 
 #, fuzzy
-#~| msgid "BSD"
 #~ msgid "USD"
 #~ msgstr "BSD"
 
 #, fuzzy
-#~| msgid "Loading Preview"
 #~ msgid "Uploading preview image and content..."
 #~ msgstr "Atrymańnie padhladu"
 
 #, fuzzy
-#~| msgid "Server: %1"
 #~ msgid "Server:"
 #~ msgstr "Server: %1"
 
 #, fuzzy
-#~| msgid "&Replace..."
 #~ msgid "Upload..."
 #~ msgstr "&Zamiani..."
 
 #, fuzzy
-#~| msgid "Provider information"
 #~ msgid "Fetching provider information..."
 #~ msgstr "Źviestki ab pravajdery"
 
 #, fuzzy
-#~| msgid "The rating could not be submitted."
 #~ msgid "Provider could not be initialized."
 #~ msgstr "Nie ŭdałosia vysłać svaju acenku."
 
 #, fuzzy
-#~| msgid "Clear the input in the edit field"
 #~ msgid "Please fill out the name field."
 #~ msgstr "Vyčyści ŭpisanaje ŭ tekstavaje pole"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^40 bytes"
 #~ msgid "%1 PB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^50 bytes"
 #~ msgid "%1 EB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^60 bytes"
 #~ msgid "%1 ZB"
 #~ msgstr "%1 B"
 
 #, fuzzy
-#~| msgid "%1 B"
 #~ msgctxt "memory size in 2^70 bytes"
 #~ msgid "%1 YB"
 #~ msgstr "%1 B"
@@ -9565,8 +9126,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Nałady paśpiachova pieračytanyja."
 
 #, fuzzy
-#~| msgctxt "Email sender address"
-#~| msgid "From:"
 #~ msgid "Form"
 #~ msgstr "Ad:"
 
@@ -9792,206 +9351,156 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Niadziela"
 
 #, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
 #~ msgctxt "Indian National month 1 - ShortNamePossessive"
 #~ msgid "of Cha"
 #~ msgstr "Sha"
 
 #, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "Indian National month 2 - ShortNamePossessive"
 #~ msgid "of Vai"
 #~ msgstr "Far"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Indian National month 3 - ShortNamePossessive"
 #~ msgid "of Jya"
 #~ msgstr "Stu"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Indian National month 4 - ShortNamePossessive"
 #~ msgid "of Āsh"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
 #~ msgctxt "Indian National month 5 - ShortNamePossessive"
 #~ msgid "of Shr"
 #~ msgstr "Sha"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Indian National month 6 - ShortNamePossessive"
 #~ msgid "of Bhā"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of Esfand short"
-#~| msgid "of Esf"
 #~ msgctxt "Indian National month 7 - ShortNamePossessive"
 #~ msgid "of Āsw"
 #~ msgstr "Esf"
 
 #, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "Indian National month 8 - ShortNamePossessive"
 #~ msgid "of Kār"
 #~ msgstr "Far"
 
 #, fuzzy
-#~| msgctxt "of April"
-#~| msgid "of Apr"
 #~ msgctxt "Indian National month 9 - ShortNamePossessive"
 #~ msgid "of Agr"
 #~ msgstr "Kra"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Indian National month 10 - ShortNamePossessive"
 #~ msgid "of Pau"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
 #~ msgctxt "Indian National month 11 - ShortNamePossessive"
 #~ msgid "of Māg"
 #~ msgstr "Mor"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Indian National month 12 - ShortNamePossessive"
 #~ msgid "of Phā"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgid "of Muharram"
 #~ msgctxt "Indian National month 1 - LongNamePossessive"
 #~ msgid "of Chaitra"
 #~ msgstr "Muharram"
 
 #, fuzzy
-#~| msgid "of Nisan"
 #~ msgctxt "Indian National month 3 - LongNamePossessive"
 #~ msgid "of Jyaishtha"
 #~ msgstr "Nisan"
 
 #, fuzzy
-#~| msgid "of Shvat"
 #~ msgctxt "Indian National month 5 - LongNamePossessive"
 #~ msgid "of Shrāvana"
 #~ msgstr "Shvat"
 
 #, fuzzy
-#~| msgid "of Khordad"
 #~ msgctxt "Indian National month 6 - LongNamePossessive"
 #~ msgid "of Bhādrapad"
 #~ msgstr "Khordad"
 
 #, fuzzy
-#~| msgid "of Heshvan"
 #~ msgctxt "Indian National month 7 - LongNamePossessive"
 #~ msgid "of Āshwin"
 #~ msgstr "Heshvan"
 
 #, fuzzy
-#~| msgid "of Bahman"
 #~ msgctxt "Indian National month 9 - LongNamePossessive"
 #~ msgid "of Agrahayana"
 #~ msgstr "Bahman"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Indian National month 10 - LongNamePossessive"
 #~ msgid "of Paush"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Indian National month 11 - LongNamePossessive"
 #~ msgid "of Māgh"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgid "Kha"
 #~ msgctxt "Indian National month 1 - ShortName"
 #~ msgid "Cha"
 #~ msgstr "Kha"
 
 #, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
 #~ msgctxt "Indian National month 3 - ShortName"
 #~ msgid "Jya"
 #~ msgstr "Stu"
 
 #, fuzzy
-#~| msgctxt "Shahrivar short"
-#~| msgid "Sha"
 #~ msgctxt "Indian National month 5 - ShortName"
 #~ msgid "Shr"
 #~ msgstr "Sha"
 
 #, fuzzy
-#~| msgid "Arb"
 #~ msgctxt "Indian National month 9 - ShortName"
 #~ msgid "Agr"
 #~ msgstr "Arb"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Indian National month 10 - ShortName"
 #~ msgid "Pau"
 #~ msgstr "Prypyni"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Thaana"
 #~ msgctxt "Indian National month 9 - LongName"
 #~ msgid "Agrahayana"
 #~ msgstr "Thaana"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Indian National month 10 - LongName"
 #~ msgid "Paush"
 #~ msgstr "Prypyni"
 
 #, fuzzy
-#~| msgctxt "Jumee short"
-#~| msgid "Jom"
 #~ msgctxt "Indian National weekday 1 - ShortDayName"
 #~ msgid "Som"
 #~ msgstr "Jom"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Buhid"
 #~ msgctxt "Indian National weekday 3 - ShortDayName"
 #~ msgid "Bud"
 #~ msgstr "Buhid"
 
 #, fuzzy
-#~| msgctxt "Sunday"
-#~| msgid "Sun"
 #~ msgctxt "Indian National weekday 5 - ShortDayName"
 #~ msgid "Suk"
 #~ msgstr "Nia"
 
 #, fuzzy
-#~| msgid "Sivan"
 #~ msgctxt "Indian National weekday 6 - ShortDayName"
 #~ msgid "San"
 #~ msgstr "Sivan"
@@ -10452,15 +9961,11 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Adar II"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Coptic"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Coptic"
 #~ msgstr "Koptaŭski"
 
 #, fuzzy
-#~| msgctxt "KCharselect unicode block name"
-#~| msgid "Ethiopic"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Ethiopian"
 #~ msgstr "Etyjopski"
@@ -10470,8 +9975,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Hryharyjanski"
 
 #, fuzzy
-#~| msgctxt "@item Calendar system"
-#~| msgid "Gregorian"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Gregorian (Proleptic)"
 #~ msgstr "Hryharyjanski"
@@ -10489,8 +9992,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Jalali"
 
 #, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
 #~ msgctxt "@item Calendar system"
 #~ msgid "Julian"
 #~ msgstr "Stu"
@@ -10500,722 +10001,561 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Niapravilny kalandar"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 1 - ShortNamePossessive"
 #~ msgid "of Tho"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 2 - ShortNamePossessive"
 #~ msgid "of Pao"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgid "of Shvat"
 #~ msgctxt "Coptic month 3 - ShortNamePossessive"
 #~ msgid "of Hat"
 #~ msgstr "Shvat"
 
 #, fuzzy
-#~| msgid "of Nisan"
 #~ msgctxt "Coptic month 4 - ShortNamePossessive"
 #~ msgid "of Kia"
 #~ msgstr "Nisan"
 
 #, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Coptic month 5 - ShortNamePossessive"
 #~ msgid "of Tob"
 #~ msgstr "Lut"
 
 #, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Coptic month 6 - ShortNamePossessive"
 #~ msgid "of Mes"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgctxt "of March"
-#~| msgid "of Mar"
 #~ msgctxt "Coptic month 7 - ShortNamePossessive"
 #~ msgid "of Par"
 #~ msgstr "Sak"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 8 - ShortNamePossessive"
 #~ msgid "of Pam"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Coptic month 9 - ShortNamePossessive"
 #~ msgid "of Pas"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Coptic month 10 - ShortNamePossessive"
 #~ msgid "of Pan"
 #~ msgstr "Stu"
 
 #, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Coptic month 11 - ShortNamePossessive"
 #~ msgid "of Epe"
 #~ msgstr "Lut"
 
 #, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
 #~ msgctxt "Coptic month 12 - ShortNamePossessive"
 #~ msgid "of Meo"
 #~ msgstr "Mor"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 13 - ShortNamePossessive"
 #~ msgid "of Kou"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 1 - LongNamePossessive"
 #~ msgid "of Thoout"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 2 - LongNamePossessive"
 #~ msgid "of Paope"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgid "of Hijjah"
 #~ msgctxt "Coptic month 3 - LongNamePossessive"
 #~ msgid "of Hathor"
 #~ msgstr "Hijjah"
 
 #, fuzzy
-#~| msgctxt "of Khordad short"
-#~| msgid "of Kho"
 #~ msgctxt "Coptic month 4 - LongNamePossessive"
 #~ msgid "of Kiahk"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgid "of October"
 #~ msgctxt "Coptic month 5 - LongNamePossessive"
 #~ msgid "of Tobe"
 #~ msgstr "kastryčnika"
 
 #, fuzzy
-#~| msgid "of Mehr"
 #~ msgctxt "Coptic month 6 - LongNamePossessive"
 #~ msgid "of Meshir"
 #~ msgstr "Mehr"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Coptic month 8 - LongNamePossessive"
 #~ msgid "of Parmoute"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Coptic month 9 - LongNamePossessive"
 #~ msgid "of Pashons"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Coptic month 10 - LongNamePossessive"
 #~ msgid "of Paone"
 #~ msgstr "Stu"
 
 #, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
 #~ msgctxt "Coptic month 11 - LongNamePossessive"
 #~ msgid "of Epep"
 #~ msgstr "Vie"
 
 #, fuzzy
-#~| msgctxt "of Mordad short"
-#~| msgid "of Mor"
 #~ msgctxt "Coptic month 12 - LongNamePossessive"
 #~ msgid "of Mesore"
 #~ msgstr "Mor"
 
 #, fuzzy
-#~| msgid "Thl"
 #~ msgctxt "Coptic month 1 - ShortName"
 #~ msgid "Tho"
 #~ msgstr "Thl"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic month 2 - ShortName"
 #~ msgid "Pao"
 #~ msgstr "Prypyni"
 
 #, fuzzy
-#~| msgctxt "Saturday"
-#~| msgid "Sat"
 #~ msgctxt "Coptic month 3 - ShortName"
 #~ msgid "Hat"
 #~ msgstr "Sub"
 
 #, fuzzy
-#~| msgid "Kha"
 #~ msgctxt "Coptic month 4 - ShortName"
 #~ msgid "Kia"
 #~ msgstr "Kha"
 
 #, fuzzy
-#~| msgid "Job"
 #~ msgctxt "Coptic month 5 - ShortName"
 #~ msgid "Tob"
 #~ msgstr "Zadańnie"
 
 #, fuzzy
-#~| msgid "Yes"
 #~ msgctxt "Coptic month 6 - ShortName"
 #~ msgid "Mes"
 #~ msgstr "Tak"
 
 #, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
 #~ msgctxt "Coptic month 7 - ShortName"
 #~ msgid "Par"
 #~ msgstr "Sak"
 
 #, fuzzy
-#~| msgid "am"
 #~ msgctxt "Coptic month 8 - ShortName"
 #~ msgid "Pam"
 #~ msgstr "am"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Coptic month 9 - ShortName"
 #~ msgid "Pas"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgctxt "January"
-#~| msgid "Jan"
 #~ msgctxt "Coptic month 10 - ShortName"
 #~ msgid "Pan"
 #~ msgstr "Stu"
 
 #, fuzzy
-#~| msgid "Escape"
 #~ msgctxt "Coptic month 11 - ShortName"
 #~ msgid "Epe"
 #~ msgstr "Escape"
 
 #, fuzzy
-#~| msgctxt "Monday"
-#~| msgid "Mon"
 #~ msgctxt "Coptic month 12 - ShortName"
 #~ msgid "Meo"
 #~ msgstr "Pan"
 
 #, fuzzy
-#~| msgctxt "Khordad short"
-#~| msgid "Kho"
 #~ msgctxt "Coptic month 13 - ShortName"
 #~ msgid "Kou"
 #~ msgstr "Kho"
 
 #, fuzzy
-#~| msgctxt "Thursday"
-#~| msgid "Thu"
 #~ msgctxt "Coptic month 1 - LongName"
 #~ msgid "Thoout"
 #~ msgstr "Čać"
 
 #, fuzzy
-#~| msgid "Property"
 #~ msgctxt "Coptic month 2 - LongName"
 #~ msgid "Paope"
 #~ msgstr "Ułaścivaść"
 
 #, fuzzy
-#~| msgid "Author"
 #~ msgctxt "Coptic month 3 - LongName"
 #~ msgid "Hathor"
 #~ msgstr "Aŭtar"
 
 #, fuzzy
-#~| msgid "Mehr"
 #~ msgctxt "Coptic month 6 - LongName"
 #~ msgid "Meshir"
 #~ msgstr "Mehr"
 
 #, fuzzy
-#~| msgid "Parameter"
 #~ msgctxt "Coptic month 7 - LongName"
 #~ msgid "Paremhotep"
 #~ msgstr "Parametar"
 
 #, fuzzy
-#~| msgid "Parameter"
 #~ msgctxt "Coptic month 8 - LongName"
 #~ msgid "Parmoute"
 #~ msgstr "Parametar"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic month 9 - LongName"
 #~ msgid "Pashons"
 #~ msgstr "Prypyni"
 
 #, fuzzy
-#~| msgctxt "No border line"
-#~| msgid "None"
 #~ msgctxt "Coptic month 10 - LongName"
 #~ msgid "Paone"
 #~ msgstr "Niama"
 
 #, fuzzy
-#~| msgid "Escape"
 #~ msgctxt "Coptic month 11 - LongName"
 #~ msgid "Epep"
 #~ msgstr "Escape"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Coptic weekday 1 - ShortDayName"
 #~ msgid "Pes"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 2 - ShortDayName"
 #~ msgid "Psh"
 #~ msgstr "Prypyni"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 6 - ShortDayName"
 #~ msgid "Psa"
 #~ msgstr "Prypyni"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Coptic weekday 1 - LongDayName"
 #~ msgid "Pesnau"
 #~ msgstr "Prypyni"
 
 #, fuzzy
-#~| msgid "Comment"
 #~ msgctxt "Coptic weekday 2 - LongDayName"
 #~ msgid "Pshoment"
 #~ msgstr "Kamentar"
 
 #, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Ethiopian month 1 - ShortNamePossessive"
 #~ msgid "of Mes"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgid "of Tevet"
 #~ msgctxt "Ethiopian month 2 - ShortNamePossessive"
 #~ msgid "of Teq"
 #~ msgstr "Tevet"
 
 #, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Ethiopian month 3 - ShortNamePossessive"
 #~ msgid "of Hed"
 #~ msgstr "Lut"
 
 #, fuzzy
-#~| msgctxt "of Bahman short"
-#~| msgid "of Bah"
 #~ msgctxt "Ethiopian month 4 - ShortNamePossessive"
 #~ msgid "of Tah"
 #~ msgstr "Bah"
 
 #, fuzzy
-#~| msgctxt "of Tir short"
-#~| msgid "of Tir"
 #~ msgctxt "Ethiopian month 5 - ShortNamePossessive"
 #~ msgid "of Ter"
 #~ msgstr "Tir"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Ethiopian month 6 - ShortNamePossessive"
 #~ msgid "of Yak"
 #~ msgstr "Stu"
 
 #, fuzzy
-#~| msgctxt "of March"
-#~| msgid "of Mar"
 #~ msgctxt "Ethiopian month 7 - ShortNamePossessive"
 #~ msgid "of Mag"
 #~ msgstr "Sak"
 
 #, fuzzy
-#~| msgctxt "of May short"
-#~| msgid "of May"
 #~ msgctxt "Ethiopian month 8 - ShortNamePossessive"
 #~ msgid "of Miy"
 #~ msgstr "Tra"
 
 #, fuzzy
-#~| msgctxt "of January"
-#~| msgid "of Jan"
 #~ msgctxt "Ethiopian month 9 - ShortNamePossessive"
 #~ msgid "of Gen"
 #~ msgstr "Stu"
 
 #, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
 #~ msgctxt "Ethiopian month 10 - ShortNamePossessive"
 #~ msgid "of Sen"
 #~ msgstr "Vie"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 11 - ShortNamePossessive"
 #~ msgid "of Ham"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Mehr short"
-#~| msgid "of Meh"
 #~ msgctxt "Ethiopian month 12 - ShortNamePossessive"
 #~ msgid "of Neh"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 13 - ShortNamePossessive"
 #~ msgid "of Pag"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgid "of Mehr"
 #~ msgctxt "Ethiopian month 1 - LongNamePossessive"
 #~ msgid "of Meskerem"
 #~ msgstr "Mehr"
 
 #, fuzzy
-#~| msgid "of Tevet"
 #~ msgctxt "Ethiopian month 2 - LongNamePossessive"
 #~ msgid "of Tequemt"
 #~ msgstr "Tevet"
 
 #, fuzzy
-#~| msgid "of Adar"
 #~ msgctxt "Ethiopian month 3 - LongNamePossessive"
 #~ msgid "of Hedar"
 #~ msgstr "Adar"
 
 #, fuzzy
-#~| msgid "of Bahman"
 #~ msgctxt "Ethiopian month 4 - LongNamePossessive"
 #~ msgid "of Tahsas"
 #~ msgstr "Bahman"
 
 #, fuzzy
-#~| msgctxt "of Tir short"
-#~| msgid "of Tir"
 #~ msgctxt "Ethiopian month 5 - LongNamePossessive"
 #~ msgid "of Ter"
 #~ msgstr "Tir"
 
 #, fuzzy
-#~| msgctxt "of Farvardin short"
-#~| msgid "of Far"
 #~ msgctxt "Ethiopian month 6 - LongNamePossessive"
 #~ msgid "of Yakatit"
 #~ msgstr "Far"
 
 #, fuzzy
-#~| msgid "of Rajab"
 #~ msgctxt "Ethiopian month 7 - LongNamePossessive"
 #~ msgid "of Magabit"
 #~ msgstr "Rajab"
 
 #, fuzzy
-#~| msgctxt "of May short"
-#~| msgid "of May"
 #~ msgctxt "Ethiopian month 8 - LongNamePossessive"
 #~ msgid "of Miyazya"
 #~ msgstr "Tra"
 
 #, fuzzy
-#~| msgctxt "of February"
-#~| msgid "of Feb"
 #~ msgctxt "Ethiopian month 9 - LongNamePossessive"
 #~ msgid "of Genbot"
 #~ msgstr "Lut"
 
 #, fuzzy
-#~| msgctxt "of September"
-#~| msgid "of Sep"
 #~ msgctxt "Ethiopian month 10 - LongNamePossessive"
 #~ msgid "of Sene"
 #~ msgstr "Vie"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 11 - LongNamePossessive"
 #~ msgid "of Hamle"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgctxt "of Shahrivar short"
-#~| msgid "of Sha"
 #~ msgctxt "Ethiopian month 12 - LongNamePossessive"
 #~ msgid "of Nehase"
 #~ msgstr "Sha"
 
 #, fuzzy
-#~| msgid "of Tamuz"
 #~ msgctxt "Ethiopian month 13 - LongNamePossessive"
 #~ msgid "of Pagumen"
 #~ msgstr "Tamuz"
 
 #, fuzzy
-#~| msgid "Yes"
 #~ msgctxt "Ethiopian month 1 - ShortName"
 #~ msgid "Mes"
 #~ msgstr "Tak"
 
 #, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 2 - ShortName"
 #~ msgid "Teq"
 #~ msgstr "Aŭt"
 
 #, fuzzy
-#~| msgctxt "Wednesday"
-#~| msgid "Wed"
 #~ msgctxt "Ethiopian month 3 - ShortName"
 #~ msgid "Hed"
 #~ msgstr "Sie"
 
 #, fuzzy
-#~| msgid "Thl"
 #~ msgctxt "Ethiopian month 4 - ShortName"
 #~ msgid "Tah"
 #~ msgstr "Thl"
 
 #, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 5 - ShortName"
 #~ msgid "Ter"
 #~ msgstr "Aŭt"
 
 #, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
 #~ msgctxt "Ethiopian month 7 - ShortName"
 #~ msgid "Mag"
 #~ msgstr "Sak"
 
 #, fuzzy
-#~| msgctxt "May short"
-#~| msgid "May"
 #~ msgctxt "Ethiopian month 8 - ShortName"
 #~ msgid "Miy"
 #~ msgstr "Tra"
 
 #, fuzzy
-#~| msgid "Green:"
 #~ msgctxt "Ethiopian month 9 - ShortName"
 #~ msgid "Gen"
 #~ msgstr "Zialony:"
 
 #, fuzzy
-#~| msgid "&Send"
 #~ msgctxt "Ethiopian month 10 - ShortName"
 #~ msgid "Sen"
 #~ msgstr "&Vyšli"
 
 #, fuzzy
-#~| msgid "am"
 #~ msgctxt "Ethiopian month 11 - ShortName"
 #~ msgid "Ham"
 #~ msgstr "am"
 
 #, fuzzy
-#~| msgctxt "Mehr short"
-#~| msgid "Meh"
 #~ msgctxt "Ethiopian month 12 - ShortName"
 #~ msgid "Neh"
 #~ msgstr "Meh"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Ethiopian month 13 - ShortName"
 #~ msgid "Pag"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgid "Tevet"
 #~ msgctxt "Ethiopian month 2 - LongName"
 #~ msgid "Tequemt"
 #~ msgstr "Tevet"
 
 #, fuzzy
-#~| msgid "Adar"
 #~ msgctxt "Ethiopian month 3 - LongName"
 #~ msgid "Hedar"
 #~ msgstr "Adar"
 
 #, fuzzy
-#~| msgid "Task"
 #~ msgctxt "Ethiopian month 4 - LongName"
 #~ msgid "Tahsas"
 #~ msgstr "Zadańnie"
 
 #, fuzzy
-#~| msgctxt "Tuesday"
-#~| msgid "Tue"
 #~ msgctxt "Ethiopian month 5 - LongName"
 #~ msgid "Ter"
 #~ msgstr "Aŭt"
 
 #, fuzzy
-#~| msgid "&Send"
 #~ msgctxt "Ethiopian month 10 - LongName"
 #~ msgid "Sene"
 #~ msgstr "&Vyšli"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgctxt "Ethiopian month 11 - LongName"
 #~ msgid "Hamle"
 #~ msgstr "Nazva"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgctxt "Ethiopian month 12 - LongName"
 #~ msgid "Nehase"
 #~ msgstr "Nazva"
 
 #, fuzzy
-#~| msgid "Pages"
 #~ msgctxt "Ethiopian month 13 - LongName"
 #~ msgid "Pagumen"
 #~ msgstr "Staronki"
 
 #, fuzzy
-#~| msgctxt "September"
-#~| msgid "Sep"
 #~ msgctxt "Ethiopian weekday 1 - ShortDayName"
 #~ msgid "Seg"
 #~ msgstr "Vie"
 
 #, fuzzy
-#~| msgctxt "March"
-#~| msgid "Mar"
 #~ msgctxt "Ethiopian weekday 2 - ShortDayName"
 #~ msgid "Mak"
 #~ msgstr "Sak"
 
 #, fuzzy
-#~| msgid "Job"
 #~ msgctxt "Ethiopian weekday 3 - ShortDayName"
 #~ msgid "Rob"
 #~ msgstr "Zadańnie"
 
 #, fuzzy
-#~| msgid "am"
 #~ msgctxt "Ethiopian weekday 4 - ShortDayName"
 #~ msgid "Ham"
 #~ msgstr "am"
 
 #, fuzzy
-#~| msgid "Arb"
 #~ msgctxt "Ethiopian weekday 5 - ShortDayName"
 #~ msgid "Arb"
 #~ msgstr "Arb"
 
 #, fuzzy
-#~| msgctxt "Wednesday"
-#~| msgid "Wed"
 #~ msgctxt "Ethiopian weekday 6 - ShortDayName"
 #~ msgid "Qed"
 #~ msgstr "Sie"
 
 #, fuzzy
-#~| msgctxt "Thursday"
-#~| msgid "Thu"
 #~ msgctxt "Ethiopian weekday 7 - ShortDayName"
 #~ msgid "Ehu"
 #~ msgstr "Čać"
 
 #, fuzzy
-#~| msgid "&Send"
 #~ msgctxt "Ethiopian weekday 1 - LongDayName"
 #~ msgid "Segno"
 #~ msgstr "&Vyšli"
 
 #, fuzzy
-#~| msgid "Job"
 #~ msgctxt "Ethiopian weekday 3 - LongDayName"
 #~ msgid "Rob"
 #~ msgstr "Zadańnie"
 
 #, fuzzy
-#~| msgid "Pause"
 #~ msgctxt "Ethiopian weekday 4 - LongDayName"
 #~ msgid "Hamus"
 #~ msgstr "Prypyni"
 
 #, fuzzy
-#~| msgid "Arb"
 #~ msgctxt "Ethiopian weekday 5 - LongDayName"
 #~ msgid "Arb"
 #~ msgstr "Arb"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgctxt "Ethiopian weekday 6 - LongDayName"
 #~ msgid "Qedame"
 #~ msgstr "Nazva"
 
 #, fuzzy
-#~| msgid "Most Downloads"
 #~ msgctxt "Sorting order of the list of items in get hot new stuff"
 #~ msgid "Most Downloads"
 #~ msgstr "Najčaściej adbiranyja"
 
 #, fuzzy
-#~| msgid "Install"
 #~ msgctxt "Sorting order of the list of items in get hot new stuff"
 #~ msgid "Installed only"
 #~ msgstr "Zainstaluj"
 
 #, fuzzy
-#~| msgid "Download New Stuff"
 #~ msgid "Download New Stuff"
 #~ msgstr "Ściahni novyja cikavostki"
 
@@ -11262,7 +10602,6 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "tagcloudtest"
 
 #, fuzzy
-#~| msgid "Unlock Toolbars"
 #~ msgid "Unlock Toolbar Positions"
 #~ msgstr "Adčapi paneli pryładździa"
 
@@ -11271,29 +10610,23 @@ msgstr "Zmoŭčanaje"
 #~ msgstr "Indyjskaje piśmo"
 
 #, fuzzy
-#~| msgctxt "@action"
-#~| msgid "Save"
 #~ msgid "Save"
 #~ msgstr "Zapišy"
 
 #, fuzzy
-#~| msgid "Action"
 #~ msgid "Long Action"
 #~ msgstr "Aperacyja"
 
 #, fuzzy
-#~| msgid "Open"
 #~ msgctxt "The open file menu entry"
 #~ msgid "Open"
 #~ msgstr "Adčyni"
 
 #, fuzzy
-#~| msgid "Test"
 #~ msgid "KIdleTest"
 #~ msgstr "Pravier"
 
 #, fuzzy
-#~| msgid "David Faure"
 #~ msgid "Dario Freddi"
 #~ msgstr "David Faure"
 

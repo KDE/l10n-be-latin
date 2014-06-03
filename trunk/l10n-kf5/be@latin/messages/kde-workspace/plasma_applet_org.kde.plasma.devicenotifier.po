@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-30 08:00+0000\n"
+"POT-Creation-Date: 2014-06-03 10:19+0000\n"
 "PO-Revision-Date: 2008-10-05 10:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -102,13 +102,14 @@ msgstr "%1 aperacyja dla hetaj pryłady"
 msgid "This device is not currently accessible."
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:43
+#: package/contents/ui/devicenotifier.qml:42
+#: package/contents/ui/devicenotifier.qml:153
 #, fuzzy
 #| msgid "No devices plugged in"
 msgid "No devices available"
 msgstr "Niama padłučanych pryładaŭ"
 
-#: package/contents/ui/devicenotifier.qml:43
+#: package/contents/ui/devicenotifier.qml:149
 #, fuzzy
 #| msgid "Last plugged in device: %1"
 msgid "Most recent device"

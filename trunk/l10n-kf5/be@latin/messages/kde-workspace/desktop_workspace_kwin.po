@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-24 08:17+0000\n"
+"POT-Creation-Date: 2014-06-05 08:11+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -259,9 +259,12 @@ msgid "Desktop Effects"
 msgstr "Rabočy kub"
 
 #: kcmkwin/kwincompositing/kcmkwineffects.desktop:45
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Cube"
 msgctxt "Comment"
-msgid "Configure desktop effects"
-msgstr ""
+msgid "Desktop Effects"
+msgstr "Rabočy kub"
 
 #: kcmkwin/kwincompositing/kcmkwineffects.desktop:77
 msgctxt "X-KDE-Keywords"
@@ -292,7 +295,7 @@ msgstr ""
 
 #: kcmkwin/kwincompositing/kwincompositing.desktop:44
 msgctxt "Comment"
-msgid "Configure compositor settings for the Desktop effects"
+msgid "Compositor Settings for Desktop Effects"
 msgstr ""
 
 #: kcmkwin/kwincompositing/kwincompositing.desktop:74
@@ -311,8 +314,11 @@ msgid "Window Decorations"
 msgstr "Źviestki z akna"
 
 #: kcmkwin/kwindecoration/kwindecoration.desktop:76
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the look and feel of window titles"
 msgctxt "Comment"
-msgid "Configure the look and feel of window titles"
+msgid "Look and Feel of Window Titles"
 msgstr "Nałady vyhladu zahałoŭkaŭ akon"
 
 #: kcmkwin/kwindecoration/kwindecoration.desktop:164
@@ -332,8 +338,8 @@ msgstr "Rabočy stoł"
 
 #: kcmkwin/kwindesktop/desktop.desktop:78
 msgctxt "Comment"
-msgid "You can configure how many virtual desktops there are."
-msgstr "Tut možna naładzić, kolki jość virtualnych rabočych stałoŭ."
+msgid "Navigation, Number and Layout of Virtual Desktops"
+msgstr ""
 
 #: kcmkwin/kwindesktop/desktop.desktop:166
 msgctxt "X-KDE-Keywords"
@@ -352,7 +358,7 @@ msgstr "Aperacyi"
 #| msgctxt "Comment"
 #| msgid "Configure trash settings"
 msgctxt "Comment"
-msgid "Configure mouse actions on windows"
+msgid "Mouse Actions on Windows"
 msgstr "Naładź śmietnicu"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:143
@@ -368,8 +374,11 @@ msgid "Advanced"
 msgstr "Asablivaje"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:101
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure advanced window management features"
 msgctxt "Comment"
-msgid "Configure advanced window management features"
+msgid "Advanced Window Management Features"
 msgstr "Nałady asablivych mahčymaściaŭ u kiravańni voknami"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:188
@@ -387,8 +396,8 @@ msgstr "Fokus"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:100
 msgctxt "Comment"
-msgid "Configure the window focus policy"
-msgstr "Nałady praviłaŭ fakusavańnia voknaŭ"
+msgid "Active Window Policy"
+msgstr ""
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:186
 msgctxt "X-KDE-Keywords"
@@ -404,9 +413,12 @@ msgid "Moving"
 msgstr "Pierasoŭvańnie"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:100
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Information"
 msgctxt "Comment"
-msgid "Configure the way that windows are moved"
-msgstr "Nałady sposabu pierasoŭvańnia voknaŭ"
+msgid "Window Moving"
+msgstr "Źviestki z akna"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:187
 msgctxt "X-KDE-Keywords"
@@ -419,15 +431,18 @@ msgid "Window Behavior"
 msgstr "Pavodziny akna"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:104
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Comment"
-msgid "Configure the window behavior"
-msgstr "Nałady pavodzinaŭ akna"
+msgid "Window Actions and Behavior"
+msgstr "Pavodziny akna"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:192
 msgctxt "X-KDE-Keywords"
 msgid ""
-"focus,placement,window behavior,animation,raise,auto raise,windows,frame,"
-"titlebar,doubleclick"
+"focus,placement,window behavior,window actions,animation,raise,auto raise,"
+"windows,frame,titlebar,doubleclick"
 msgstr ""
 
 #: kcmkwin/kwinrules/kwinrules.desktop:14
@@ -439,9 +454,12 @@ msgid "Window Rules"
 msgstr "Začynieńnie akna"
 
 #: kcmkwin/kwinrules/kwinrules.desktop:77
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Comment"
-msgid "Configure settings specifically for a window"
-msgstr "Nałady dla peŭnaha akna"
+msgid "Individual Window Behavior"
+msgstr "Pavodziny akna"
 
 #: kcmkwin/kwinrules/kwinrules.desktop:163
 msgctxt "X-KDE-Keywords"
@@ -459,19 +477,16 @@ msgid "Screen Edges"
 msgstr "Achoŭnik ekrana"
 
 #: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:84
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure web cache settings"
 msgctxt "Comment"
-msgid "Configure active screen edges"
-msgstr "Naładź padručnuju pamiać sieciva"
+msgid "Active Screen Corners and Edges"
+msgstr ""
 
 #: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:153
 msgctxt "X-KDE-Keywords"
 msgid ""
-"kwin,window,manager,effect,edge,border,action,switch,desktop,kwin screen "
-"edges,desktop edges,screen edges,maximize windows,tile windows,side of "
-"screen,screen behavior,switch desktop,virtual desktop,screen corners"
+"kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
+"screen edges,desktop edges,screen edges,maximize windows,tile windows,side "
+"of screen,screen behavior,switch desktop,virtual desktop,screen corners"
 msgstr ""
 
 #: kcmkwin/kwinscripts/kwinscripts.desktop:11
@@ -501,12 +516,9 @@ msgid "Task Switcher"
 msgstr ""
 
 #: kcmkwin/kwintabbox/kwintabbox.desktop:74
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the behavior of Java and JavaScript"
 msgctxt "Comment"
-msgid "Configure the behavior for navigating through windows"
-msgstr "Naładź pavodziny hartača dla prahramaŭ Java i JavaScript"
+msgid "Navigation Through Windows"
+msgstr ""
 
 #: kcmkwin/kwintabbox/kwintabbox.desktop:128
 msgctxt "X-KDE-Keywords"
@@ -735,6 +747,40 @@ msgstr "Padhlad fajłaŭ"
 msgctxt "Comment"
 msgid "A desktop switcher layout with previews of the desktops"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure how many virtual desktops there are."
+#~ msgstr "Tut možna naładzić, kolki jość virtualnych rabočych stałoŭ."
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the window focus policy"
+#~ msgstr "Nałady praviłaŭ fakusavańnia voknaŭ"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the way that windows are moved"
+#~ msgstr "Nałady sposabu pierasoŭvańnia voknaŭ"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the window behavior"
+#~ msgstr "Nałady pavodzinaŭ akna"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure settings specifically for a window"
+#~ msgstr "Nałady dla peŭnaha akna"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure web cache settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure active screen edges"
+#~ msgstr "Naładź padručnuju pamiać sieciva"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the behavior of Java and JavaScript"
+#~ msgctxt "Comment"
+#~ msgid "Configure the behavior for navigating through windows"
+#~ msgstr "Naładź pavodziny hartača dla prahramaŭ Java i JavaScript"
 
 #~ msgctxt "Comment"
 #~ msgid "Display each virtual desktop on a side of a cube"

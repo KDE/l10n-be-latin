@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-13 09:57+0000\n"
+"POT-Creation-Date: 2014-06-23 08:13+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,21 +15,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: cgi/kcmcgi/kcmcgi.desktop:11
-msgctxt "Name"
-msgid "CGI Scripts"
-msgstr "Skrypty CGI"
-
-#: cgi/kcmcgi/kcmcgi.desktop:101
-msgctxt "Comment"
-msgid "Configure the CGI KIO slave"
-msgstr "Naładź słužby „kioslave” CGI"
-
-#: cgi/kcmcgi/kcmcgi.desktop:192
-msgctxt "X-KDE-Keywords"
-msgid "CGI,KIO,Slave,Paths"
-msgstr ""
 
 #: desktop/desktopnotifier.desktop:3
 #, fuzzy
@@ -242,6 +227,14 @@ msgstr "Śmietnica"
 msgctxt "ExtraNames"
 msgid "Original Path,Deletion Date"
 msgstr "Byłaja ściežka,data vydaleńnia"
+
+#~ msgctxt "Name"
+#~ msgid "CGI Scripts"
+#~ msgstr "Skrypty CGI"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the CGI KIO slave"
+#~ msgstr "Naładź słužby „kioslave” CGI"
 
 #~ msgctxt "Name"
 #~ msgid "FixHostFilter"

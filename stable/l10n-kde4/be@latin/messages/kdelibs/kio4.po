@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-19 05:45+0000\n"
+"POT-Creation-Date: 2014-06-30 06:04+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -866,31 +866,31 @@ msgstr ""
 "Stvary novy kataloh u:\n"
 "%1"
 
-#: ../kfile/kurlnavigator.cpp:432
+#: ../kfile/kurlnavigator.cpp:435
 msgid "Copy"
 msgstr "Skapijuj"
 
-#: ../kfile/kurlnavigator.cpp:436
+#: ../kfile/kurlnavigator.cpp:439
 msgid "Paste"
 msgstr "Uklej"
 
-#: ../kfile/kurlnavigator.cpp:443
+#: ../kfile/kurlnavigator.cpp:446
 msgid "Edit"
 msgstr "Redahuj"
 
-#: ../kfile/kurlnavigator.cpp:446
+#: ../kfile/kurlnavigator.cpp:449
 msgid "Navigate"
 msgstr "Pierajdzi"
 
-#: ../kfile/kurlnavigator.cpp:461
+#: ../kfile/kurlnavigator.cpp:464
 msgid "Show Full Path"
 msgstr "Pakažy ŭsiu ściežku"
 
-#: ../kfile/kurlnavigator.cpp:699
+#: ../kfile/kurlnavigator.cpp:707
 msgid "Custom Path"
 msgstr "Ułasnaja ściežka"
 
-#: ../kfile/kurlnavigatorbutton.cpp:675
+#: ../kfile/kurlnavigatorbutton.cpp:684
 #, fuzzy
 #| msgid "Store"
 msgctxt "@action:inmenu"
@@ -5526,7 +5526,7 @@ msgstr "Vysuń"
 msgid "Unmount"
 msgstr "Admantuj"
 
-#: kio/kdirlister.cpp:393 kio/krun.cpp:1139 kio/paste.cpp:320
+#: kio/kdirlister.cpp:393 kio/krun.cpp:1142 kio/paste.cpp:320
 #: kio/renamedialog.cpp:411
 #, kde-format
 msgid ""
@@ -5733,32 +5733,32 @@ msgstr "Uklučeńnie „%1”"
 msgid "Error processing Exec field in %1"
 msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
 
-#: kio/krun.cpp:896
+#: kio/krun.cpp:899
 msgid "You are not authorized to execute this service."
 msgstr "Tabie nielha vykonvać hetuju słužbu."
 
-#: kio/krun.cpp:908
+#: kio/krun.cpp:911
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Aściaroha"
 
-#: kio/krun.cpp:922
+#: kio/krun.cpp:925
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 
-#: kio/krun.cpp:936
+#: kio/krun.cpp:939
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
 
-#: kio/krun.cpp:969
+#: kio/krun.cpp:972
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: kio/krun.cpp:1171
+#: kio/krun.cpp:1174
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -5767,7 +5767,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: kio/krun.cpp:1798
+#: kio/krun.cpp:1801
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-05 07:59+0000\n"
+"POT-Creation-Date: 2014-07-17 08:31+0000\n"
 "PO-Revision-Date: 2008-11-26 01:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -252,12 +252,16 @@ msgid "Stop"
 msgstr "Spyni"
 
 #: kcmhelpcenter.cpp:202
-msgid "Details &lt;&lt;"
+#, fuzzy
+#| msgid "Details &lt;&lt;"
+msgid "Details <<"
 msgstr "Detali &lt;&lt;"
 
 #: kcmhelpcenter.cpp:215
-msgid "Details &gt;&gt;"
-msgstr "Detali &gt;&gt;"
+#, fuzzy
+#| msgid "Details &lt;&lt;"
+msgid "Details >>"
+msgstr "Detali &lt;&lt;"
 
 #: kcmhelpcenter.cpp:232
 msgid "Build Search Index"
@@ -607,6 +611,9 @@ msgstr "nieviadomy"
 #: view.cpp:206
 msgid "Copy Link Address"
 msgstr "Skapijuj adras spasyłki"
+
+#~ msgid "Details &gt;&gt;"
+#~ msgstr "Detali &gt;&gt;"
 
 #~ msgid "Frerich Raabe"
 #~ msgstr "Frerich Raabe"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-24 10:10+0000\n"
+"POT-Creation-Date: 2014-07-25 09:45+0000\n"
 "PO-Revision-Date: 2008-10-05 11:04+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -34,6 +34,92 @@ msgstr "Vybiery fajł z špalerami"
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
 msgstr ""
 
+#: imagepackage/contents/ui/config.qml:69
+#, fuzzy
+#| msgid "P&ositioning:"
+msgctxt "Label for positioning combo"
+msgid "Positioning:"
+msgstr "&Miesca:"
+
+#: imagepackage/contents/ui/config.qml:78
+#, fuzzy
+#| msgid "Scaled & Cropped"
+msgid "Scaled && Cropped"
+msgstr "Zmaštabavany j abatnuty"
+
+#: imagepackage/contents/ui/config.qml:82
+msgid "Scaled"
+msgstr "Zmaštabavany"
+
+#: imagepackage/contents/ui/config.qml:86
+#, fuzzy
+#| msgid "Scaled, keep proportions"
+msgid "Scaled, Keep Proportions"
+msgstr "Zmaštabavany praparcyjna"
+
+#: imagepackage/contents/ui/config.qml:90
+msgid "Centered"
+msgstr "Pasiarod"
+
+#: imagepackage/contents/ui/config.qml:94
+msgid "Tiled"
+msgstr "Kafla"
+
+#: imagepackage/contents/ui/config.qml:143
+#, fuzzy
+#| msgid "&Change images every:"
+msgid "Change every:"
+msgstr "&Źmianiaj vyjavu praz:"
+
+#: imagepackage/contents/ui/config.qml:156
+msgid "Hours"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:173
+msgid "Minutes"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:190
+msgid "Seconds"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:296
+#, fuzzy
+#| msgid "&Add Folder..."
+msgid "Add Folder"
+msgstr "&Dadaj kataloh..."
+
+#: imagepackage/contents/ui/config.qml:302
+#, fuzzy
+#| msgid "..."
+msgid "Open..."
+msgstr "..."
+
+#: imagepackage/contents/ui/config.qml:307
+#, fuzzy
+#| msgid "Download new wallpapers"
+msgid "Download Wallpapers"
+msgstr "Vaźmi ź sieciva novyja špalery"
+
+#: imagepackage/contents/ui/main.qml:91
+#, fuzzy
+#| msgid "Select Wallpaper Image File"
+msgid "Next Wallpaper Image"
+msgstr "Vybiery fajł z špalerami"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:120
+#, fuzzy
+#| msgid "Get New Wallpapers..."
+msgid "Remove wallpaper"
+msgstr "Vaźmi novyja špalery..."
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:142
+#, fuzzy, kde-format
+#| msgctxt "Caption to wallpaper preview, %1 author name"
+#| msgid "by %1"
+msgid "%1 by %2"
+msgstr "ad %1"
+
 #: wallpaperpackage.cpp:40
 #, fuzzy
 #| msgid "Images"
@@ -54,28 +140,8 @@ msgstr ""
 
 #, fuzzy
 #~| msgid "Select Wallpaper Image File"
-#~ msgid "Next Wallpaper Image"
-#~ msgstr "Vybiery fajł z špalerami"
-
-#, fuzzy
-#~| msgid "Select Wallpaper Image File"
 #~ msgid "Open Wallpaper Image"
 #~ msgstr "Vybiery fajł z špalerami"
-
-#~ msgid "Scaled & Cropped"
-#~ msgstr "Zmaštabavany j abatnuty"
-
-#~ msgid "Scaled"
-#~ msgstr "Zmaštabavany"
-
-#~ msgid "Scaled, keep proportions"
-#~ msgstr "Zmaštabavany praparcyjna"
-
-#~ msgid "Centered"
-#~ msgstr "Pasiarod"
-
-#~ msgid "Tiled"
-#~ msgstr "Kafla"
 
 #~ msgid "Center Tiled"
 #~ msgstr "Kafla pasiarod"
@@ -89,11 +155,6 @@ msgstr ""
 #~ msgid "&Color:"
 #~ msgstr "&Koler:"
 
-#, fuzzy
-#~| msgid "..."
-#~ msgid "Open..."
-#~ msgstr "..."
-
 #~ msgid "Get New Wallpapers..."
 #~ msgstr "Vaźmi novyja špalery..."
 
@@ -102,26 +163,11 @@ msgstr ""
 #~ msgid "Remove from list"
 #~ msgstr "&Vydali kataloh"
 
-#, fuzzy
-#~| msgid "P&ositioning:"
-#~ msgid "&Positioning:"
-#~ msgstr "&Miesca:"
-
-#, fuzzy
-#~| msgid "&Change images every:"
-#~ msgid "C&hange images every:"
-#~ msgstr "&Źmianiaj vyjavu praz:"
-
 #~ msgctxt ""
 #~ "(qtdt-format) Please do not change the quotes (') and translate only the "
 #~ "content of the quotes."
 #~ msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
 #~ msgstr "hh 'Hadziny' mm 'Chviliny' ss 'Sekundy'"
-
-#, fuzzy
-#~| msgid "Get New Wallpapers..."
-#~ msgid "&System wallpapers:"
-#~ msgstr "Vaźmi novyja špalery..."
 
 #, fuzzy
 #~| msgid "Download new wallpapers"
@@ -133,18 +179,8 @@ msgstr ""
 #~ msgid "Custom folders:"
 #~ msgstr "Katalohi:"
 
-#~ msgid "&Add Folder..."
-#~ msgstr "&Dadaj kataloh..."
-
 #~ msgid "&Remove Folder"
 #~ msgstr "&Vydali kataloh"
-
-#~ msgid "Download new wallpapers"
-#~ msgstr "Vaźmi ź sieciva novyja špalery"
-
-#~ msgctxt "Caption to wallpaper preview, %1 author name"
-#~ msgid "by %1"
-#~ msgstr "ad %1"
 
 #~ msgctxt "Wallpaper info, author name"
 #~ msgid "%1"

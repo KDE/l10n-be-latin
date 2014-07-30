@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-25 09:44+0000\n"
+"POT-Creation-Date: 2014-07-30 08:02+0000\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,6 +18,29 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: package/contents/config/config.qml:26
+#: package/contents/ui/ConfigLocation.qml:69
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgid "Location"
+msgstr "Miesca"
+
+#: package/contents/config/config.qml:32
+msgid "Icons"
+msgstr "Ikony"
+
+#: package/contents/config/config.qml:38
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose how to filter the folderview "
+#| "contents"
+#| msgid "Filter"
+msgid "Filter"
+msgstr "Filter"
 
 #: package/contents/ui/ConfigFilter.qml:54
 msgid "Show All Files"
@@ -202,15 +225,6 @@ msgstr "Pakazvaj padhlady"
 #: package/contents/ui/ConfigIcons.qml:216
 msgid "More Preview Options..."
 msgstr ""
-
-#: package/contents/ui/ConfigLocation.qml:69
-#, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose which location should the "
-#| "folderview show"
-#| msgid "Location"
-msgid "Location"
-msgstr "Miesca"
 
 #: package/contents/ui/ConfigLocation.qml:87
 msgid "Show the Desktop folder"
@@ -552,12 +566,6 @@ msgstr "Kataloh stała"
 #~ msgid "Icons"
 #~ msgstr "Ikony"
 
-#~ msgctxt ""
-#~ "Title of the page that lets the user choose how to filter the folderview "
-#~ "contents"
-#~ msgid "Filter"
-#~ msgstr "Filter"
-
 #~ msgid "Align to Grid"
 #~ msgstr "Dapasuj da sietki"
 
@@ -573,9 +581,6 @@ msgstr "Kataloh stała"
 #~| msgid "Arrange icons:"
 #~ msgid "Arrange In"
 #~ msgstr "Vykładvaj ikony:"
-
-#~ msgid "Icons"
-#~ msgstr "Ikony"
 
 #~ msgctxt "Inserted as %1 in the message below."
 #~ msgid "1 folder"

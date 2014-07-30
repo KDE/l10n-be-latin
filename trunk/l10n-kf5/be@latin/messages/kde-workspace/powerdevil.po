@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-28 08:03+0000\n"
+"POT-Creation-Date: 2014-07-30 08:03+0000\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -223,7 +223,7 @@ msgstr ""
 msgid "Check Your Battery"
 msgstr ""
 
-#: powerdevilcore.cpp:324
+#: powerdevilcore.cpp:320
 #, fuzzy, kde-format
 #| msgid ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
@@ -235,19 +235,19 @@ msgstr ""
 "Byŭ vybrany profil „%1”, ale jon nie isnuje!\n"
 "Spraŭdź słušnaść naładaŭ słužby „PowerDevil”."
 
-#: powerdevilcore.cpp:388 powerdevilcore.cpp:400
+#: powerdevilcore.cpp:384 powerdevilcore.cpp:396
 msgid "Activity Manager"
 msgstr ""
 
-#: powerdevilcore.cpp:389
+#: powerdevilcore.cpp:385
 msgid "This activity's policies prevent the system from suspending"
 msgstr ""
 
-#: powerdevilcore.cpp:401
+#: powerdevilcore.cpp:397
 msgid "This activity's policies prevent screen power management"
 msgstr ""
 
-#: powerdevilcore.cpp:445
+#: powerdevilcore.cpp:441
 #, fuzzy
 #| msgid ""
 #| "Could not connect to battery interface!\n"
@@ -259,13 +259,25 @@ msgstr ""
 "Nie ŭdałosia spałučycca z interfejsam batarei!\n"
 "Spraudź nałady svajoj systemy."
 
-#: powerdevilcore.cpp:513 powerdevilcore.cpp:518 powerdevilcore.cpp:523
-#: powerdevilcore.cpp:528
+#: powerdevilcore.cpp:462
+#, fuzzy
+#| msgid "Critical battery level"
+msgid "Additional Battery Added"
+msgstr "Vielmi nizki zarad batarei"
+
+#: powerdevilcore.cpp:463 powerdevilcore.cpp:563
+#, fuzzy
+#| msgid "The power adaptor has been plugged in"
+msgid "All pending suspend actions have been canceled."
+msgstr "Blok siłkavańnia padłučany."
+
+#: powerdevilcore.cpp:520 powerdevilcore.cpp:525 powerdevilcore.cpp:530
+#: powerdevilcore.cpp:535
 #, kde-format
 msgid "Battery Critical (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:514
+#: powerdevilcore.cpp:521
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -276,7 +288,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:519
+#: powerdevilcore.cpp:526
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
@@ -288,7 +300,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:524
+#: powerdevilcore.cpp:531
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be suspended to RAM "
@@ -299,7 +311,7 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie ŭ pamiaci praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
-#: powerdevilcore.cpp:529
+#: powerdevilcore.cpp:536
 #, fuzzy
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
@@ -309,52 +321,46 @@ msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Jak maha chutčej zapišy vynik svajoj "
 "pracy!"
 
-#: powerdevilcore.cpp:535
+#: powerdevilcore.cpp:542
 #, kde-format
 msgid "Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:536
+#: powerdevilcore.cpp:543
 msgid ""
 "Your battery is low. If you need to continue using your computer, either "
 "plug in your computer, or shut it down and then change the battery."
 msgstr ""
 
-#: powerdevilcore.cpp:555
+#: powerdevilcore.cpp:562
 #, fuzzy
 #| msgid "When AC Adaptor is plugged in"
 msgid "AC Adapter Plugged In"
 msgstr "Kali padłučany blok siłkavańnia"
 
-#: powerdevilcore.cpp:556
-#, fuzzy
-#| msgid "The power adaptor has been plugged in"
-msgid "All pending suspend actions have been canceled."
-msgstr "Blok siłkavańnia padłučany."
-
-#: powerdevilcore.cpp:558
+#: powerdevilcore.cpp:565
 msgid "Running on AC power"
 msgstr ""
 
-#: powerdevilcore.cpp:558
+#: powerdevilcore.cpp:565
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "Blok siłkavańnia padłučany."
 
-#: powerdevilcore.cpp:561
+#: powerdevilcore.cpp:568
 #, fuzzy
 #| msgid "When on battery Power"
 msgid "Running on Battery Power"
 msgstr "Kali kamputar pracuje z batarei"
 
-#: powerdevilcore.cpp:561
+#: powerdevilcore.cpp:568
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "Blok siłkavańnia adłučany."
 
-#: powerdevilcore.cpp:567
+#: powerdevilcore.cpp:574
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -362,11 +368,11 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:617
+#: powerdevilcore.cpp:621
 msgid "Charge Complete"
 msgstr ""
 
-#: powerdevilcore.cpp:617
+#: powerdevilcore.cpp:621
 msgid "Your battery is now fully charged."
 msgstr ""
 
@@ -856,9 +862,6 @@ msgstr ""
 
 #~ msgid "Battery is at critical level at"
 #~ msgstr "Batareja maje vielmi nizki zarad pry"
-
-#~ msgid "Critical battery level"
-#~ msgstr "Vielmi nizki zarad batarei"
 
 #~ msgid "Battery will be considered critical when it reaches this level"
 #~ msgstr "Zarad batarei budzie vielmi nizkim, kali siahnie hetaha roŭniu."

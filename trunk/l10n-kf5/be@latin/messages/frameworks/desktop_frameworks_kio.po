@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-17 08:36+0000\n"
+"POT-Creation-Date: 2014-07-31 08:30+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -64,6 +64,26 @@ msgstr ""
 msgctxt "Name"
 msgid "KTelnetService"
 msgstr "Słužby"
+
+#: src/kcms/webshortcuts/webshortcuts.desktop:14
+msgctxt "Name"
+msgid "Web Shortcuts"
+msgstr "Skaroty dla sieciva"
+
+#: src/kcms/webshortcuts/webshortcuts.desktop:107
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure web cache settings"
+msgctxt "Comment"
+msgid "Configure web shortcuts"
+msgstr "Naładź padručnuju pamiać sieciva"
+
+#: src/kcms/webshortcuts/webshortcuts.desktop:109
+msgctxt "X-KDE-Keywords"
+msgid ""
+"Web Shortcuts,Browsing,WWW,Internet,Internet Filters,Network,Search Engines,"
+"Shortcuts"
+msgstr ""
 
 #: src/kpac/proxyscout.desktop:3
 #, fuzzy
@@ -5551,10 +5571,6 @@ msgstr "Prahlad u kartkach"
 #~ msgid "Print..."
 #~ msgstr "Vydrukuj..."
 
-#~ msgctxt "Name"
-#~ msgid "Web Shortcuts"
-#~ msgstr "Skaroty dla sieciva"
-
 #~ msgctxt "Comment"
 #~ msgid "Configure enhanced browsing"
 #~ msgstr "Naładź lepšaje hartańnie"
@@ -5570,10 +5586,6 @@ msgstr "Prahlad u kartkach"
 #~ msgctxt "Name"
 #~ msgid "Cache"
 #~ msgstr "Padručnaja pamiać"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure web cache settings"
-#~ msgstr "Naładź padručnuju pamiać sieciva"
 
 #~ msgctxt "Name"
 #~ msgid "Connection Preferences"

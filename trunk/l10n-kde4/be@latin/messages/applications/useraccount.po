@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-15 01:27+0000\n"
+"POT-Creation-Date: 2014-08-04 01:39+0000\n"
 "PO-Revision-Date: 2008-10-06 22:09+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -106,71 +106,71 @@ msgstr "Uvachodnaja vyjava karystańnika"
 msgid "Password echo type"
 msgstr "Sposab vyjaŭleńnia parolaŭ"
 
-#: main.cpp:74
+#: main.cpp:73
 msgid "Change &Password..."
 msgstr "Źmiani &parol..."
 
-#: main.cpp:92
+#: main.cpp:91
 msgid "Password & User Information"
 msgstr "Parol i źviestki pra karystańnika"
 
-#: main.cpp:94
+#: main.cpp:93
 msgid "(C) 2002, Braden MacDonald, (C) 2004 Ravikiran Rajagopal"
 msgstr "© 2002, Braden MacDonald, © 2004 Ravikiran Rajagopal"
 
-#: main.cpp:97
+#: main.cpp:96
 msgid "Frans Englich"
 msgstr "Frans Englich"
 
-#: main.cpp:97
+#: main.cpp:96
 msgid "Maintainer"
 msgstr "Dahladnik"
 
-#: main.cpp:98
+#: main.cpp:97
 msgid "Ravikiran Rajagopal"
 msgstr "Ravikiran Rajagopal"
 
-#: main.cpp:99
+#: main.cpp:98
 msgid "Michael Häckel"
 msgstr "Michael Häckel"
 
-#: main.cpp:101
+#: main.cpp:100
 msgid "Braden MacDonald"
 msgstr "Braden MacDonald"
 
-#: main.cpp:101
+#: main.cpp:100
 msgid "Face editor"
 msgstr "Redaktar vyjavaŭ"
 
-#: main.cpp:102
+#: main.cpp:101
 msgid "Geert Jansen"
 msgstr "Geert Jansen"
 
-#: main.cpp:102
+#: main.cpp:101
 msgid "Password changer"
 msgstr "Źmiena parolu"
 
-#: main.cpp:104
+#: main.cpp:103
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: main.cpp:105
+#: main.cpp:104
 msgid "Alex Zepeda"
 msgstr "Alex Zepeda"
 
-#: main.cpp:106
+#: main.cpp:105
 msgid "Hans Karlsson"
 msgstr "Hans Karlsson"
 
-#: main.cpp:106 main.cpp:107
+#: main.cpp:105 main.cpp:106
 msgid "Icons"
 msgstr "Ikony"
 
-#: main.cpp:107
+#: main.cpp:106
 msgid "Hermann Thomas"
 msgstr "Hermann Thomas"
 
-#: main.cpp:110
+#: main.cpp:109
 #, fuzzy
 #| msgid ""
 #| "<qt>Here you can change your personal information, which will be used in "
@@ -185,7 +185,7 @@ msgstr ""
 "tekstavyja redaktary dy inšyja prahramy. Svoj parol možna źmianić, kliknuŭšy "
 "ŭ knopku <em>Źmiani parol...</em>.</qt>"
 
-#: main.cpp:124
+#: main.cpp:123
 msgid ""
 "A program error occurred: the internal program 'kdepasswd' could not be "
 "found. You will not be able to change your password."
@@ -193,51 +193,30 @@ msgstr ""
 "U prahramie ŭźnikła pamyłka: nie ŭdałosia znajści ŭnutranuju prahramu "
 "„kdepasswd”. Ty nia zmožaš źmianić svoj parol."
 
-#: main.cpp:185
-msgid "Please enter your password in order to save your settings:"
-msgstr "Upišy svoj parol, kab zapisać nałady:"
-
-#: main.cpp:188
-msgid "You must enter your password in order to change your information."
-msgstr "Kab źmianić ułasnyja pryvatnyja źviestki, treba ŭpisać svoj parol."
-
-#: main.cpp:198
-msgid "You must enter a correct password."
-msgstr "Treba ŭpisać pravilny parol."
-
-#: main.cpp:202
+#: main.cpp:200
 #, fuzzy, kde-format
-#| msgid ""
-#| "An error occurred and your password has probably not been changed. The "
-#| "error message was:\n"
-#| "%1"
-msgid ""
-"An error occurred and your name has probably not been changed. The error "
-"message was:\n"
-"%1"
-msgstr ""
-"Uźnikła pamyłka. Mabyć, tvoj parol nie źmianiŭsia. Pamyłka viarnuła "
-"nastupnaje paviedamleńnie:\n"
-"%1"
+#| msgid "There was an error saving the image: %1"
+msgid "There was an error setting the name: %1"
+msgstr "Padčas zapisu vyjavy ŭźnikła pamyłka: %1"
 
-#: main.cpp:222
+#: main.cpp:212
 #, kde-format
 msgid "There was an error saving the image: %1"
 msgstr "Padčas zapisu vyjavy ŭźnikła pamyłka: %1"
 
-#: main.cpp:240
+#: main.cpp:230
 #, fuzzy, kde-format
 #| msgid "There was an error saving the image: %1"
 msgid "There was an error setting the image: %1"
 msgstr "Padčas zapisu vyjavy ŭźnikła pamyłka: %1"
 
-#: main.cpp:247
+#: main.cpp:238
 #, fuzzy, kde-format
 #| msgid "There was an error saving the image: %1"
 msgid "There was an error deleting the image: %1"
 msgstr "Padčas zapisu vyjavy ŭźnikła pamyłka: %1"
 
-#: main.cpp:326
+#: main.cpp:318
 #, kde-format
 msgid ""
 "%1 does not appear to be an image file.\n"
@@ -318,6 +297,29 @@ msgstr "Pakazvaj try zorački dla kožnaj litary"
 #: main_widget.ui:260
 msgid "Show nothing"
 msgstr "Ničoha nie pakazvaj"
+
+#~ msgid "Please enter your password in order to save your settings:"
+#~ msgstr "Upišy svoj parol, kab zapisać nałady:"
+
+#~ msgid "You must enter your password in order to change your information."
+#~ msgstr "Kab źmianić ułasnyja pryvatnyja źviestki, treba ŭpisać svoj parol."
+
+#~ msgid "You must enter a correct password."
+#~ msgstr "Treba ŭpisać pravilny parol."
+
+#, fuzzy
+#~| msgid ""
+#~| "An error occurred and your password has probably not been changed. The "
+#~| "error message was:\n"
+#~| "%1"
+#~ msgid ""
+#~ "An error occurred and your name has probably not been changed. The error "
+#~ "message was:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Uźnikła pamyłka. Mabyć, tvoj parol nie źmianiŭsia. Pamyłka viarnuła "
+#~ "nastupnaje paviedamleńnie:\n"
+#~ "%1"
 
 #~ msgid "Your administrator has disallowed changing your image."
 #~ msgstr "Tvoj administratar zabaraniŭ źmianiać vyjavy."

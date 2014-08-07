@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-03 10:25+0000\n"
+"POT-Creation-Date: 2014-08-07 07:59+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -153,9 +153,7 @@ msgstr "Lakalnyja źmiennyja"
 msgid "Reference"
 msgstr "Spasyłka"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, _headers)
-#: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:150
+#: ecma/debugger/localvariabledock.cpp:52 java/kjavaappletviewer.cpp:150
 msgid "Value"
 msgstr "Značeńnie"
 
@@ -354,35 +352,6 @@ msgstr "Nie zabiraj z servera"
 msgid "This is a searchable index. Enter search keywords: "
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: html/keygenwizard.ui:35
-msgid ""
-"You have indicated that you wish to obtain or purchase a secure certificate. "
-"This wizard is intended to guide you through the procedure. You may cancel "
-"at any time, and this will abort the transaction."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
-#: html/keygenwizard2.ui:35
-msgid ""
-"You must now provide a password for the certificate request. Please choose a "
-"very secure password as this will be used to encrypt your private key."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: html/keygenwizard2.ui:48
-#, fuzzy
-#| msgid "&Keep password"
-msgid "&Repeat password:"
-msgstr "&Zachavaj parol"
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
-#: html/keygenwizard2.ui:58
-#, fuzzy
-#| msgid "&Keep password"
-msgid "&Choose password:"
-msgstr "&Zachavaj parol"
-
 #: html/ksslkeygen.cpp:82
 #, fuzzy
 #| msgid "Details of the Request:"
@@ -452,52 +421,6 @@ msgstr ""
 #| msgid "Enable SOCKS support"
 msgid "No SSL support."
 msgstr "Uklučy padtrymku SOCKS"
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
-#: htmlpageinfo.ui:22
-msgid "Document Information"
-msgstr "Źviestki pra dakument"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: htmlpageinfo.ui:34
-msgctxt "@title:group Document information"
-msgid "General"
-msgstr "Hałoŭnaje"
-
-#. i18n: ectx: property (text), widget (QLabel, urlLabel)
-#: htmlpageinfo.ui:60
-msgid "URL:"
-msgstr "Adras:"
-
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: htmlpageinfo.ui:112
-msgid "Title:"
-msgstr "Zahałovak:"
-
-#. i18n: ectx: property (text), widget (QLabel, _lmLabel)
-#: htmlpageinfo.ui:128
-msgid "Last modified:"
-msgstr "Apošniaja admiena:"
-
-#. i18n: ectx: property (text), widget (QLabel, _eLabel)
-#: htmlpageinfo.ui:144
-msgid "Document encoding:"
-msgstr "Kadavańnie dakumenta:"
-
-#. i18n: ectx: property (text), widget (QLabel, _modeLabel)
-#: htmlpageinfo.ui:167
-msgid "Rendering mode:"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: htmlpageinfo.ui:186
-msgid "HTTP Headers"
-msgstr "Šapki HTTP"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, _headers)
-#: htmlpageinfo.ui:214
-msgid "Property"
-msgstr "Ułaścivaść"
 
 #: java/kjavaapplet.cpp:227
 #, kde-format
@@ -588,26 +511,6 @@ msgstr "Bazavy adras"
 #: java/kjavaappletviewer.cpp:165
 msgid "Archives"
 msgstr "Archivy"
-
-#. i18n: ectx: Menu (edit)
-#: khtml.rc:4 khtml_browser.rc:11
-msgid "&Edit"
-msgstr "&Redahuj"
-
-#. i18n: ectx: Menu (file)
-#: khtml_browser.rc:4
-msgid "&File"
-msgstr "&Fajł"
-
-#. i18n: ectx: Menu (view)
-#: khtml_browser.rc:18
-msgid "&View"
-msgstr "&Vyhlad"
-
-#. i18n: ectx: ToolBar (htmlToolBar)
-#: khtml_browser.rc:34
-msgid "HTML Toolbar"
-msgstr "Panel pryładździa HTML"
 
 #: khtml_ext.cpp:413
 msgid "&Copy Text"
@@ -1319,40 +1222,6 @@ msgstr "Zroblena."
 msgid "Access Keys activated"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, KJSErrorDlgBase)
-#: kjserrordlgbase.ui:14
-msgid "JavaScript Errors"
-msgstr "Pamyłki JavaScript"
-
-#. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
-#: kjserrordlgbase.ui:17
-msgid ""
-"This dialog provides you with notification and details of scripting errors "
-"that occur on web pages.  In many cases it is due to an error in the web "
-"site as designed by its author.  In other cases it is the result of a "
-"programming error in Konqueror.  If you suspect the former, please contact "
-"the webmaster of the site in question.  Conversely if you suspect an error "
-"in Konqueror, please file a bug report at http://bugs.kde.org/.  A test case "
-"which illustrates the problem will be appreciated."
-msgstr ""
-"U hetym aknie možaš padrabiazna pračytać pra pamyłki ŭ skryptach, datyčnych "
-"web-staronak. Najčaściej takija pamyłki śviedčać ab prablemach na web-"
-"placoŭkach. Byvaje, što pryčynaj takich pamyłak jość peŭnaja chiba ŭ "
-"Konquerory. Kali ŭźnikła pamyłka pieršaha kštałtu, źviarnisia da web-majstra "
-"prablemnaha sajta. Kali ž pryčynaj pamyłki stała chiba Konquerora, paviedam "
-"nam pra jaje praz placoŭku: http://bugs.kde.org/.  Najlepiej budzie, kali ty "
-"paznačyš, jakim čynam možna paŭtaryć takuju pamyłku."
-
-#. i18n: ectx: property (text), widget (QPushButton, _close)
-#: kjserrordlgbase.ui:29
-msgid "&Close"
-msgstr "&Začyni"
-
-#. i18n: ectx: property (text), widget (QPushButton, _clear)
-#: kjserrordlgbase.ui:36
-msgid "C&lear"
-msgstr "&Vyčyści"
-
 #: kmultipart/kmultipart.cpp:40
 msgid "KMultiPart"
 msgstr "KMultiPart"
@@ -1516,28 +1385,7 @@ msgstr "Ničoha nia znojdziena"
 msgid "No more matches for this search direction."
 msgstr "U hetym kirunku pošuku bolš niama adpaviednikaŭ."
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/findbar/khtmlfindbar_base.ui:43
-msgid "F&ind:"
-msgstr "&Šukaj:"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_next)
-#: ui/findbar/khtmlfindbar_base.ui:75
-msgid "&Next"
-msgstr "&Nastupnaje"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_previous)
-#: ui/findbar/khtmlfindbar_base.ui:85
-msgid "&Previous"
-msgstr "&Papiaredniaje"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_options)
-#: ui/findbar/khtmlfindbar_base.ui:111
-msgid "Opt&ions"
-msgstr "&Opcyi"
-
-#. i18n: ectx: property (text), widget (QLabel, m_label)
-#: ui/passwordbar/storepassbar.cpp:59 ui/passwordbar/storepassbar_base.ui:39
+#: ui/passwordbar/storepassbar.cpp:59
 msgid "Do you want to store this password?"
 msgstr "Chočaš zachoŭvać hety parol?"
 
@@ -1545,21 +1393,6 @@ msgstr "Chočaš zachoŭvać hety parol?"
 #, kde-format
 msgid "Do you want to store this password for %1?"
 msgstr "Chočaš zachavać hety parol dla „%1”?"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_store)
-#: ui/passwordbar/storepassbar_base.ui:59
-msgid "&Store"
-msgstr "&Zachavaj"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
-#: ui/passwordbar/storepassbar_base.ui:69
-msgid "Ne&ver store for this site"
-msgstr "&Nikoli nie zachoŭvaj dla hetaha sajta"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
-#: ui/passwordbar/storepassbar_base.ui:79
-msgid "Do &not store this time"
-msgstr "&Hetym razam nie zachoŭvaj"
 
 #: xml/dom_docimpl.cpp:2380
 msgid "Basic Page Style"
@@ -1577,6 +1410,101 @@ msgstr "važnaja pamyłka ŭ raźbirańni tekstu: %1 u radku %2, u słupku %3"
 #: xml/xml_tokenizer.cpp:567
 msgid "XML parsing error"
 msgstr "Pamyłka ŭ raźbirańni XML"
+
+#, fuzzy
+#~| msgid "&Keep password"
+#~ msgid "&Repeat password:"
+#~ msgstr "&Zachavaj parol"
+
+#, fuzzy
+#~| msgid "&Keep password"
+#~ msgid "&Choose password:"
+#~ msgstr "&Zachavaj parol"
+
+#~ msgid "Document Information"
+#~ msgstr "Źviestki pra dakument"
+
+#~ msgctxt "@title:group Document information"
+#~ msgid "General"
+#~ msgstr "Hałoŭnaje"
+
+#~ msgid "URL:"
+#~ msgstr "Adras:"
+
+#~ msgid "Title:"
+#~ msgstr "Zahałovak:"
+
+#~ msgid "Last modified:"
+#~ msgstr "Apošniaja admiena:"
+
+#~ msgid "Document encoding:"
+#~ msgstr "Kadavańnie dakumenta:"
+
+#~ msgid "HTTP Headers"
+#~ msgstr "Šapki HTTP"
+
+#~ msgid "Property"
+#~ msgstr "Ułaścivaść"
+
+#~ msgid "&Edit"
+#~ msgstr "&Redahuj"
+
+#~ msgid "&File"
+#~ msgstr "&Fajł"
+
+#~ msgid "&View"
+#~ msgstr "&Vyhlad"
+
+#~ msgid "HTML Toolbar"
+#~ msgstr "Panel pryładździa HTML"
+
+#~ msgid "JavaScript Errors"
+#~ msgstr "Pamyłki JavaScript"
+
+#~ msgid ""
+#~ "This dialog provides you with notification and details of scripting "
+#~ "errors that occur on web pages.  In many cases it is due to an error in "
+#~ "the web site as designed by its author.  In other cases it is the result "
+#~ "of a programming error in Konqueror.  If you suspect the former, please "
+#~ "contact the webmaster of the site in question.  Conversely if you suspect "
+#~ "an error in Konqueror, please file a bug report at http://bugs.kde.org/.  "
+#~ "A test case which illustrates the problem will be appreciated."
+#~ msgstr ""
+#~ "U hetym aknie možaš padrabiazna pračytać pra pamyłki ŭ skryptach, "
+#~ "datyčnych web-staronak. Najčaściej takija pamyłki śviedčać ab prablemach "
+#~ "na web-placoŭkach. Byvaje, što pryčynaj takich pamyłak jość peŭnaja chiba "
+#~ "ŭ Konquerory. Kali ŭźnikła pamyłka pieršaha kštałtu, źviarnisia da web-"
+#~ "majstra prablemnaha sajta. Kali ž pryčynaj pamyłki stała chiba "
+#~ "Konquerora, paviedam nam pra jaje praz placoŭku: http://bugs.kde.org/.  "
+#~ "Najlepiej budzie, kali ty paznačyš, jakim čynam možna paŭtaryć takuju "
+#~ "pamyłku."
+
+#~ msgid "&Close"
+#~ msgstr "&Začyni"
+
+#~ msgid "C&lear"
+#~ msgstr "&Vyčyści"
+
+#~ msgid "F&ind:"
+#~ msgstr "&Šukaj:"
+
+#~ msgid "&Next"
+#~ msgstr "&Nastupnaje"
+
+#~ msgid "&Previous"
+#~ msgstr "&Papiaredniaje"
+
+#~ msgid "Opt&ions"
+#~ msgstr "&Opcyi"
+
+#~ msgid "&Store"
+#~ msgstr "&Zachavaj"
+
+#~ msgid "Ne&ver store for this site"
+#~ msgstr "&Nikoli nie zachoŭvaj dla hetaha sajta"
+
+#~ msgid "Do &not store this time"
+#~ msgstr "&Hetym razam nie zachoŭvaj"
 
 #~ msgid "Name"
 #~ msgstr "Nazva"

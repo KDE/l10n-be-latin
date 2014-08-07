@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:55+0000\n"
+"POT-Creation-Date: 2014-08-07 08:44+0000\n"
 "PO-Revision-Date: 2008-10-03 23:14+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -45,77 +45,10 @@ msgstr ""
 msgid "KDE Audio Hardware Setup"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, hardwareGroupBox)
-#: audiosetup.ui:18
-msgid "Hardware"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, profileLabel)
-#: audiosetup.ui:44
-#, fuzzy
-#| msgid "Prefer"
-msgid "Profile"
-msgstr "Lepš"
-
-#. i18n: ectx: property (text), widget (QLabel, cardLabel)
-#: audiosetup.ui:54
-msgid "Sound Card"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, deviceGroupBox)
-#: audiosetup.ui:67
-msgid "Device Configuration"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, portLabel)
-#: audiosetup.ui:83
-msgid "Connector"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, deviceLabel)
-#: audiosetup.ui:103
-#, fuzzy
-#| msgid "Show advanced devices"
-msgid "Sound Device"
-msgstr "Pakazvaj asablivyja pryłady"
-
-#. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
-#: audiosetup.ui:144
-msgid "Speaker Placement and Testing"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, inputGroupBox)
-#: audiosetup.ui:181
-msgid "Input Levels"
-msgstr ""
-
 #: backendselection.cpp:74
 msgctxt "@info User changed Phonon backend"
 msgid "To apply the backend change you will have to log out and back in again."
 msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
-#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
-#: backendselection.ui:38 backendselection.ui:41
-msgid ""
-"A list of Phonon Backends found on your system.  The order here determines "
-"the order Phonon will use them in."
-msgstr ""
-"Śpis systemaŭ, uzhodnienych z „Phonon”, znojdzienych na hetym kamputary. "
-"„Phonon” budzie karystacca imi ŭ paradku, ź jakim jany ŭpisanyja ŭ hetym "
-"śpisie."
-
-#. i18n: ectx: property (text), widget (QToolButton, m_up)
-#. i18n: ectx: property (text), widget (QToolButton, preferButton)
-#: backendselection.ui:57 devicepreference.ui:190
-msgid "Prefer"
-msgstr "Lepš"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_down)
-#. i18n: ectx: property (text), widget (QToolButton, deferButton)
-#: backendselection.ui:70 devicepreference.ui:206
-msgid "Defer"
-msgstr "Horš"
 
 #: devicepreference.cpp:92
 msgid "Audio Playback"
@@ -217,83 +150,6 @@ msgstr ""
 msgid "Testing %1"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
-#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
-#: devicepreference.ui:29 devicepreference.ui:32
-#, fuzzy
-#| msgid ""
-#| "Various categories of outputs.  For each category you may choose what "
-#| "device you wish to output to."
-msgid ""
-"Various categories of media use cases.  For each category, you may choose "
-"what device you prefer to be used by the Phonon applications."
-msgstr ""
-"Roznyja katehoryi vyjścia. Dla kožnaj katehoryi ty možaš vybrać pryładu dla "
-"vyjścia."
-
-#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
-#: devicepreference.ui:47
-msgid "Show advanced devices"
-msgstr "Pakazvaj asablivyja pryłady"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
-#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
-#: devicepreference.ui:77 devicepreference.ui:80
-#, fuzzy
-#| msgid ""
-#| "Apply the currently shown device preference list to the following other "
-#| "audio output categories:"
-msgid "Use the currently shown device list for more categories."
-msgstr ""
-"Prymiani pakazany śpis pryładaŭ dla nastupnych katehoryjaŭ vyjścia huku:"
-
-#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
-#: devicepreference.ui:83
-msgid "Apply Device List To..."
-msgstr "Prymiani śpis pryładaŭ dla..."
-
-#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
-#: devicepreference.ui:113
-#, fuzzy
-#| msgid ""
-#| "Audio Outputs found on your system.  Choose the device that you wish "
-#| "sound to come out of."
-msgid ""
-"Devices found on your system, suitable for the selected category.  Choose "
-"the device that you wish to be used by the applications."
-msgstr "Pryłady vyjścia huku na hetaj systemie. Vybiery patrebnuju pryładu."
-
-#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
-#: devicepreference.ui:116
-#, fuzzy
-#| msgid ""
-#| "The order determines the preference of the output devices. If for some "
-#| "reason the first device cannot be used Phonon will try to use the second, "
-#| "and\n"
-#| "so on."
-msgid ""
-"The order determines the preference of the devices. If for some reason the "
-"first device cannot be used Phonon will try to use the second, and so on."
-msgstr ""
-"Paradak aznačaje važnaść roznych pryładaŭ vyjścia. Kali ź niejkaj pryčyny "
-"„Phonon” nia zmoža karystacca pieršaj pryładaj, jon pasprabuje druhuju\n"
-"i hetak dalej."
-
-#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
-#: devicepreference.ui:171
-msgid "Test"
-msgstr "Pravier"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
-#: devicepreference.ui:187
-msgid "prefer the selected device"
-msgstr "lepš karystajsia vybranaj pryładaj"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
-#: devicepreference.ui:203
-msgid "no preference for the selected device"
-msgstr "biaz peŭnych instrukcyjaŭ dla vybranaj pryłady"
-
 #: main.cpp:43
 msgid "Phonon Configuration Module"
 msgstr "Modul naładžvańnia „Phonon”"
@@ -373,6 +229,88 @@ msgstr ""
 #: testspeakerwidget.cpp:174
 msgid "Unknown Channel"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Prefer"
+#~ msgid "Profile"
+#~ msgstr "Lepš"
+
+#, fuzzy
+#~| msgid "Show advanced devices"
+#~ msgid "Sound Device"
+#~ msgstr "Pakazvaj asablivyja pryłady"
+
+#~ msgid ""
+#~ "A list of Phonon Backends found on your system.  The order here "
+#~ "determines the order Phonon will use them in."
+#~ msgstr ""
+#~ "Śpis systemaŭ, uzhodnienych z „Phonon”, znojdzienych na hetym kamputary. "
+#~ "„Phonon” budzie karystacca imi ŭ paradku, ź jakim jany ŭpisanyja ŭ hetym "
+#~ "śpisie."
+
+#~ msgid "Prefer"
+#~ msgstr "Lepš"
+
+#~ msgid "Defer"
+#~ msgstr "Horš"
+
+#, fuzzy
+#~| msgid ""
+#~| "Various categories of outputs.  For each category you may choose what "
+#~| "device you wish to output to."
+#~ msgid ""
+#~ "Various categories of media use cases.  For each category, you may choose "
+#~ "what device you prefer to be used by the Phonon applications."
+#~ msgstr ""
+#~ "Roznyja katehoryi vyjścia. Dla kožnaj katehoryi ty možaš vybrać pryładu "
+#~ "dla vyjścia."
+
+#~ msgid "Show advanced devices"
+#~ msgstr "Pakazvaj asablivyja pryłady"
+
+#, fuzzy
+#~| msgid ""
+#~| "Apply the currently shown device preference list to the following other "
+#~| "audio output categories:"
+#~ msgid "Use the currently shown device list for more categories."
+#~ msgstr ""
+#~ "Prymiani pakazany śpis pryładaŭ dla nastupnych katehoryjaŭ vyjścia huku:"
+
+#~ msgid "Apply Device List To..."
+#~ msgstr "Prymiani śpis pryładaŭ dla..."
+
+#, fuzzy
+#~| msgid ""
+#~| "Audio Outputs found on your system.  Choose the device that you wish "
+#~| "sound to come out of."
+#~ msgid ""
+#~ "Devices found on your system, suitable for the selected category.  Choose "
+#~ "the device that you wish to be used by the applications."
+#~ msgstr "Pryłady vyjścia huku na hetaj systemie. Vybiery patrebnuju pryładu."
+
+#, fuzzy
+#~| msgid ""
+#~| "The order determines the preference of the output devices. If for some "
+#~| "reason the first device cannot be used Phonon will try to use the "
+#~| "second, and\n"
+#~| "so on."
+#~ msgid ""
+#~ "The order determines the preference of the devices. If for some reason "
+#~ "the first device cannot be used Phonon will try to use the second, and so "
+#~ "on."
+#~ msgstr ""
+#~ "Paradak aznačaje važnaść roznych pryładaŭ vyjścia. Kali ź niejkaj pryčyny "
+#~ "„Phonon” nia zmoža karystacca pieršaj pryładaj, jon pasprabuje druhuju\n"
+#~ "i hetak dalej."
+
+#~ msgid "Test"
+#~ msgstr "Pravier"
+
+#~ msgid "prefer the selected device"
+#~ msgstr "lepš karystajsia vybranaj pryładaj"
+
+#~ msgid "no preference for the selected device"
+#~ msgstr "biaz peŭnych instrukcyjaŭ dla vybranaj pryłady"
 
 #~ msgid "Audio Output"
 #~ msgstr "Vyjście huku"

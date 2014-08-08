@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguardlsofwidgets\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 08:45+0000\n"
+"POT-Creation-Date: 2014-08-08 09:23+0000\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -24,7 +24,8 @@ msgctxt "Short for File Descriptor"
 msgid "FD"
 msgstr "FD"
 
-#: lsof.cpp:21
+#. i18n: ectx: property (text), widget (KLsofWidget, klsofwidget)
+#: lsof.cpp:21 LsofSearchWidget.ui:28
 msgid "Type"
 msgstr "Typ"
 
@@ -36,8 +37,12 @@ msgstr "Abjekt"
 msgid "Renice Process"
 msgstr "Źmiani vartaść „nice”"
 
-#~ msgid "Stream"
-#~ msgstr "Płyń"
+#. i18n: ectx: property (text), widget (KLsofWidget, klsofwidget)
+#: LsofSearchWidget.ui:23
+msgid "Stream"
+msgstr "Płyń"
 
-#~ msgid "Filename"
-#~ msgstr "Nazva fajła"
+#. i18n: ectx: property (text), widget (KLsofWidget, klsofwidget)
+#: LsofSearchWidget.ui:33
+msgid "Filename"
+msgstr "Nazva fajła"

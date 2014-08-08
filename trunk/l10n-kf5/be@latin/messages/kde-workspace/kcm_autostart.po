@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-06 07:56+0000\n"
+"POT-Creation-Date: 2014-08-08 08:30+0000\n"
 "PO-Revision-Date: 2008-11-04 12:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -146,24 +146,34 @@ msgstr ""
 "Systema „KDE” dla naładžvańnia rabočaha asiarodździa čytaje tolki fajły z "
 "pašyreńniem „.sh”."
 
-#~ msgid "Add Program..."
-#~ msgstr "Dadaj prahramu..."
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:26
+msgid "Add Program..."
+msgstr "Dadaj prahramu..."
 
-#~ msgid "Add Script..."
-#~ msgstr "Dadaj skrypt..."
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:33
+msgid "Add Script..."
+msgstr "Dadaj skrypt..."
 
-#~ msgid "&Remove"
-#~ msgstr "&Vydali"
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:40
+msgid "&Remove"
+msgstr "&Vydali"
 
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
+#: autostartconfig.ui:47
 #, fuzzy
-#~| msgid "&Properties"
-#~ msgid "&Properties..."
-#~ msgstr "&Ułaścivaści"
+#| msgid "&Properties"
+msgid "&Properties..."
+msgstr "&Ułaścivaści"
 
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#: autostartconfig.ui:74
 #, fuzzy
-#~| msgid "Advanced"
-#~ msgid "Advanced..."
-#~ msgstr "Asablivaje"
+#| msgid "Advanced"
+msgid "Advanced..."
+msgstr "Asablivaje"
 
 #, fuzzy
 #~ msgid "1"

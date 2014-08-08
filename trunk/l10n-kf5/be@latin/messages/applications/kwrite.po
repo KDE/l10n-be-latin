@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-06 07:56+0000\n"
+"POT-Creation-Date: 2014-08-08 08:29+0000\n"
 "PO-Revision-Date: 2008-11-07 00:27+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -114,6 +114,41 @@ msgstr ""
 #: kwrite.cpp:504
 msgid "Untitled"
 msgstr "Biaz nazvy"
+
+#. i18n: ectx: Menu (file)
+#: kwriteui.rc:6
+msgid "&File"
+msgstr "&Fajł"
+
+#. i18n: ectx: Menu (edit)
+#: kwriteui.rc:23
+msgid "&Edit"
+msgstr "&Redahuj"
+
+#. i18n: ectx: Menu (view)
+#: kwriteui.rc:35
+msgid "&View"
+msgstr "&Vyhlad"
+
+#. i18n: ectx: Menu (tools)
+#: kwriteui.rc:41
+msgid "&Tools"
+msgstr "&Pryładździe"
+
+#. i18n: ectx: Menu (settings)
+#: kwriteui.rc:46
+msgid "&Settings"
+msgstr "&Nałady"
+
+#. i18n: ectx: Menu (help)
+#: kwriteui.rc:56
+msgid "&Help"
+msgstr "&Dapamoha"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kwriteui.rc:61
+msgid "Main Toolbar"
+msgstr "Hałoŭnaja panel pryładździa"
 
 #: main.cpp:49
 msgid "KWrite"
@@ -398,27 +433,6 @@ msgstr "Patrebny dakument"
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr "Nie ŭdałosia adčynić fajł „%1”: heta nie zvyčajny fajł, ale kataloh."
-
-#~ msgid "&File"
-#~ msgstr "&Fajł"
-
-#~ msgid "&Edit"
-#~ msgstr "&Redahuj"
-
-#~ msgid "&View"
-#~ msgstr "&Vyhlad"
-
-#~ msgid "&Tools"
-#~ msgstr "&Pryładździe"
-
-#~ msgid "&Settings"
-#~ msgstr "&Nałady"
-
-#~ msgid "&Help"
-#~ msgstr "&Dapamoha"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "Hałoŭnaja panel pryładździa"
 
 #, fuzzy
 #~| msgid ""

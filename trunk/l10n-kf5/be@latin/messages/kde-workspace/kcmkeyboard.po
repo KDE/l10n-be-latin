@@ -21,24 +21,27 @@ msgstr ""
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Ihar Hračyška"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "ihar.hrachyshka@gmail.com"
 
 #: bindings.cpp:34
 msgid "Switch to Next Keyboard Layout"
-msgstr ""
+msgstr "Uklučy nastupny vykład"
 
 #: bindings.cpp:35
+#, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Layout Switcher"
-msgstr ""
+msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
 
 #: bindings.cpp:68
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"
-msgstr ""
+msgstr "Pamyłka źmieny klavijaturnaha vykładu na „%1”."
 
 #: flags.cpp:138
 #, kde-format
@@ -57,9 +60,12 @@ msgid "Any language"
 msgstr ""
 
 #: kcm_add_layout_dialog.cpp:134 kcm_view_models.cpp:308
+#, fuzzy
+#| msgctxt "Default variant"
+#| msgid "Default"
 msgctxt "variant"
 msgid "Default"
-msgstr ""
+msgstr "Zmoŭčanaja"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
@@ -86,7 +92,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelLabel)
 #: kcm_add_layout_dialog.ui:64
 msgid "Label:"
-msgstr ""
+msgstr "Nazva:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kcm_add_layout_dialog.ui:71
@@ -100,12 +106,16 @@ msgid "Preview"
 msgstr ""
 
 #: kcm_keyboard.cpp:52
+#, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
-msgstr ""
+msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
 
 #: kcm_keyboard.cpp:54
+#, fuzzy
+#| msgid "Copyright (C) 2006-2007 Andriy Rysin"
 msgid "(c) 2010 Andriy Rysin"
-msgstr ""
+msgstr "Copyright © 2006-2007 Andriy Rysin"
 
 #: kcm_keyboard.cpp:57
 msgid ""
@@ -135,6 +145,11 @@ msgid ""
 "is probably what you want if you do not know what kind of keyboard you "
 "have.\n"
 msgstr ""
+"Tut možna vybrać madel klavijatury. Hetaja nałada nie zaležyć ad vykładaŭ "
+"klavišaŭ i adpaviadaje typu klavijatury, jakaja lažyć pierad taboj. "
+"Sučasnyja klavijatury zvyčajna majuć dźvie dadatkovyja klavišy. Ich jašče "
+"nazyvajuć „104-klavišnymi”. Kali ty nia viedaješ, što abrać, vybiery hetuju "
+"madel.\n"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabLayouts)
 #: kcm_keyboard.ui:94
@@ -181,31 +196,33 @@ msgid ""
 "If you select \"Application\" or \"Window\" switching policy, changing the "
 "keyboard layout will only affect the current application or window."
 msgstr ""
+"Kali ty vybiareš opcyi „Dla aplikacyi” ci „Dla akna”, tady pieraklučeńnie "
+"vykładaŭ budzie dziejničać tolki dla dziejnaj aplikacyi ci akna adpaviedna."
 
 #. i18n: ectx: property (title), widget (QGroupBox, switchingPolicyButtonGroup)
 #: kcm_keyboard.ui:149
 msgid "Switching Policy"
-msgstr ""
+msgstr "Praviły pieraklučeńnia"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByGlobalRadioBtn)
 #: kcm_keyboard.ui:155
 msgid "&Global"
-msgstr ""
+msgstr "&Paŭsiudnaje"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByDesktopRadioBtn)
 #: kcm_keyboard.ui:165
 msgid "&Desktop"
-msgstr ""
+msgstr "Dla &stała"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByApplicationRadioBtn)
 #: kcm_keyboard.ui:172
 msgid "&Application"
-msgstr ""
+msgstr "Dla &aplikacyi"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByWindowRadioBtn)
 #: kcm_keyboard.ui:179
 msgid "&Window"
-msgstr ""
+msgstr "Dla a&kna"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
 #: kcm_keyboard.ui:189
@@ -225,6 +242,8 @@ msgid ""
 "This is a shortcut for switching layouts which is handled by X.org. It "
 "allows modifier-only shortcuts."
 msgstr ""
+"Klavijaturny skarot dla pieraklučeńnia vykładaŭ u systemie „X.org”. Tut "
+"možna padać tolki skaroty z madyfikacyjnymi klavišami."
 
 #. i18n: ectx: property (text), widget (QPushButton, xkbGrpShortcutBtn)
 #. i18n: ectx: property (text), widget (QPushButton, xkb3rdLevelShortcutBtn)
@@ -237,12 +256,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, xkb3rdLevelClearBtn)
 #: kcm_keyboard.ui:218 kcm_keyboard.ui:248
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kcm_keyboard.ui:225
 msgid "3rd level shortcuts:"
-msgstr ""
+msgstr "Skaroty treciaha roŭniu:"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, xkb3rdLevelShortcutBtn)
 #: kcm_keyboard.ui:238
@@ -250,11 +269,14 @@ msgid ""
 "This is a shortcut for switching to a third level of the active layout (if "
 "it has one) which is handled by X.org. It allows modifier-only shortcuts."
 msgstr ""
+"Klavijaturny skarot dla pieraklučeńnia na treci rovień dziejnaha vykładu "
+"(kali jon isnuje) u systemie „X.org”. Tut možna padać tolki skaroty z "
+"madyfikacyjnymi klavišami."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcm_keyboard.ui:255
 msgid "Alternative shortcut:"
-msgstr ""
+msgstr "Dadatkovy skarot:"
 
 #. i18n: ectx: property (whatsThis), widget (KKeySequenceWidget, kdeKeySequence)
 #: kcm_keyboard.ui:268
@@ -263,6 +285,10 @@ msgid ""
 "not support modifier-only shortcuts and also may not work in some situations "
 "(e.g. if popup is active or from screensaver)."
 msgstr ""
+"Klavijaturny skarot dla pieraklučeńnia vykładaŭ u KDE. Tut nielha padać "
+"skaroty, jakija spałučajuć tolki madyfikacyjnyja klavišy. Hety skarot u "
+"niekatorych vypadkach moža nia dziejničać (naprykład, dla vypłyŭnych akon ci "
+"achoŭnika ekrana)."
 
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
 #: kcm_keyboard.ui:286
@@ -306,7 +332,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabAdvanced)
 #: kcm_keyboard.ui:437
 msgid "Advanced"
-msgstr ""
+msgstr "Admysłovaje"
 
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:443
@@ -339,9 +365,11 @@ msgid "No layout selected "
 msgstr ""
 
 #: kcm_keyboard_widget.cpp:603
+#, fuzzy
+#| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
-msgstr ""
+msgstr "Niama"
 
 #: kcm_keyboard_widget.cpp:619
 #, kde-format
@@ -352,25 +380,29 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: kcm_view_models.cpp:224
+#, fuzzy
+#| msgid "Map"
 msgctxt "layout map name"
 msgid "Map"
-msgstr ""
+msgstr "Mapa"
 
 #: kcm_view_models.cpp:224
 msgid "Layout"
-msgstr ""
+msgstr "Vykład"
 
 #: kcm_view_models.cpp:224
 msgid "Variant"
-msgstr ""
+msgstr "Admiena"
 
 #: kcm_view_models.cpp:224
 msgid "Label"
-msgstr ""
+msgstr "Nazva"
 
 #: kcm_view_models.cpp:224
+#, fuzzy
+#| msgid "Main shortcuts:"
 msgid "Shortcut"
-msgstr ""
+msgstr "Hałoŭnyja skaroty:"
 
 #. i18n: ectx: property (whatsThis), widget (KButtonGroup, numlockGroupBox)
 #: kcmmiscwidget.ui:17

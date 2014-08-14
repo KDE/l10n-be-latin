@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 08:30+0000\n"
+"POT-Creation-Date: 2014-08-14 08:14+0000\n"
 "PO-Revision-Date: 2008-10-18 22:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -337,58 +337,58 @@ msgstr "&Termin čakańnia dla vypłyŭnych menu:"
 msgid "Clipboard history size:"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:117
+#: klipper.cpp:124
 #, fuzzy
 #| msgid "Enable/Disable Clipboard Actions"
 msgid "Enable Clipboard Actions"
 msgstr "Uklučeńnie/Vyklučeńnie aperacyjaŭ abmiennaha bufera"
 
-#: klipper.cpp:143
+#: klipper.cpp:151
 msgid "C&lear Clipboard History"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:149
+#: klipper.cpp:158
 msgid "&Configure Klipper..."
 msgstr "&Naładź „Klipper”..."
 
-#: klipper.cpp:154
+#: klipper.cpp:164
 #, fuzzy
 #| msgid "&Quit"
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "&Vyjdzi"
 
-#: klipper.cpp:158
+#: klipper.cpp:169
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Uručnuju vykanaj aperacyju dla dziejnaha źmieściva bufera"
 
-#: klipper.cpp:165
+#: klipper.cpp:177
 msgid "&Edit Contents..."
 msgstr "&Redahuj źmieściva..."
 
-#: klipper.cpp:172
+#: klipper.cpp:189
 msgid "&Show Barcode..."
 msgstr ""
 
-#: klipper.cpp:179
+#: klipper.cpp:201
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Next History Item"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:183
+#: klipper.cpp:205
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Previous History Item"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:189
+#: klipper.cpp:211
 #, fuzzy
 #| msgid "&Popup menu at mouse-cursor position"
 msgid "Open Klipper at Mouse Position"
 msgstr "&Vyjaŭlaj menu ŭ miescy kursora myšy"
 
-#: klipper.cpp:455
+#: klipper.cpp:478
 #, fuzzy
 #| msgid ""
 #| "You can enable URL actions later by right-clicking on the Klipper icon "
@@ -400,57 +400,57 @@ msgstr ""
 "Aperacyi dla adrasoŭ možna budzie ŭklučyć paźniej, praz pravy klik u ikonu "
 "aplikacyi „Klipper” j punkt menu „Uklučy aperacyi”."
 
-#: klipper.cpp:483
+#: klipper.cpp:506
 msgid "Should Klipper start automatically when you login?"
 msgstr "Ci ŭklučać aplikacyju „Klipper” pry ŭvachodzie ŭ systemu?"
 
-#: klipper.cpp:484
+#: klipper.cpp:507
 msgid "Automatically Start Klipper?"
 msgstr "Ci ŭklučać aŭtamatyčna aplikacyju „Klipper”?"
 
-#: klipper.cpp:484
+#: klipper.cpp:507
 msgid "Start"
 msgstr "Uklučaj"
 
-#: klipper.cpp:485
+#: klipper.cpp:508
 msgid "Do Not Start"
 msgstr "Nie ŭklučaj"
 
-#: klipper.cpp:843
+#: klipper.cpp:862
 msgid "Edit Contents"
 msgstr "Redahuj źmieściva"
 
-#: klipper.cpp:881
+#: klipper.cpp:909
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:913
+#: klipper.cpp:947
 #, fuzzy
 #| msgid "C&lear Clipboard History"
 msgid "Really delete entire clipboard history?"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:914
+#: klipper.cpp:948
 #, fuzzy
 #| msgid "C&lear Clipboard History"
 msgid "Delete clipboard history?"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:932 klipper.cpp:941
+#: klipper.cpp:966 klipper.cpp:975
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Clipboard history"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:958
+#: klipper.cpp:992
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:965
+#: klipper.cpp:999
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:972
+#: klipper.cpp:1006
 msgid "down"
 msgstr ""
 
@@ -607,15 +607,15 @@ msgstr "<niama adpaviednikaŭ>"
 msgid "KDE cut & paste history utility"
 msgstr "Historyja vycinańniaŭ i ŭklejvańniaŭ dla „KDE”"
 
-#: klipperpopup.cpp:116
+#: klipperpopup.cpp:117
 msgid "Klipper - Clipboard Tool"
 msgstr "Abmienny bufer „Klipper”"
 
-#: klipperpopup.cpp:120
+#: klipperpopup.cpp:121
 msgid "Search..."
 msgstr ""
 
-#: main.cpp:41 tray.cpp:35
+#: main.cpp:41 tray.cpp:36
 msgid "Klipper"
 msgstr "Klipper"
 
@@ -688,13 +688,13 @@ msgstr "Dahladnik"
 msgid "&More"
 msgstr "&Bolš"
 
-#: tray.cpp:37
+#: tray.cpp:38
 #, fuzzy
 #| msgid "Save clipboard contents on e&xit"
 msgid "Clipboard Contents"
 msgstr "Zachoŭvaj źmieściva abmiennaha bufera pry &vyjści"
 
-#: tray.cpp:37 tray.cpp:54
+#: tray.cpp:38 tray.cpp:55
 #, fuzzy
 #| msgid "C&lipboard history size:"
 msgid "Clipboard is empty"

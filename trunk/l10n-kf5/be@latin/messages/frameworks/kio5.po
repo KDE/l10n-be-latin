@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-23 08:12+0000\n"
+"POT-Creation-Date: 2014-08-25 07:48+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2423,7 +2423,7 @@ msgstr "Nie ŭdałosia adčynić sertyfikat. Pasprabuješ inšy parol?"
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Nie ŭdałosia aznačyć dla sesii sertyfikat klijenta."
 
-#: core/tcpslavebase.cpp:767 widgets/jobuidelegate.cpp:341
+#: core/tcpslavebase.cpp:767 widgets/jobuidelegate.cpp:346
 msgid "SSL"
 msgstr "SSL"
 
@@ -2518,7 +2518,7 @@ msgstr "Pieračytaj"
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: filewidgets/kdiroperator.cpp:1847 widgets/jobuidelegate.cpp:246
+#: filewidgets/kdiroperator.cpp:1847 widgets/jobuidelegate.cpp:251
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
 
@@ -4451,7 +4451,7 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "Paćviardžeńnie dla anulavańnia kapijavańnia"
 
-#: widgets/jobuidelegate.cpp:223
+#: widgets/jobuidelegate.cpp:228
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
@@ -4459,23 +4459,23 @@ msgstr[0] "Ci ty sapraŭdy chočaš vydalić %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vydalić %1 hetyja elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vydalić %1 hetych elementaŭ?"
 
-#: widgets/jobuidelegate.cpp:225
+#: widgets/jobuidelegate.cpp:230
 msgid "Delete Files"
 msgstr "Vydaleńnie fajłaŭ"
 
-#: widgets/jobuidelegate.cpp:233
+#: widgets/jobuidelegate.cpp:238
 msgctxt "@info"
 msgid ""
 "Do you want to permanently delete all items from Trash? This action cannot "
 "be undone."
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:235
+#: widgets/jobuidelegate.cpp:240
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Vyčyści śmietnicu"
 
-#: widgets/jobuidelegate.cpp:244
+#: widgets/jobuidelegate.cpp:249
 #, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -4483,12 +4483,12 @@ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetyja elementy?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hetych elementaŭ?"
 
-#: widgets/jobuidelegate.cpp:247
+#: widgets/jobuidelegate.cpp:252
 msgctxt "Verb"
 msgid "&Trash"
 msgstr "&Vykiń"
 
-#: widgets/jobuidelegate.cpp:340
+#: widgets/jobuidelegate.cpp:345
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
 

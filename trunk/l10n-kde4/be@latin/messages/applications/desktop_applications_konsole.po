@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-26 02:12+0000\n"
+"POT-Creation-Date: 2014-09-06 02:13+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -25,24 +25,6 @@ msgstr "Abałonka"
 msgctxt "Comment"
 msgid "Konsole default profile"
 msgstr "Zmoŭčany profil prahramy „Konsole”"
-
-#: desktop/konsole.desktop:14
-msgctxt "Name"
-msgid "Konsole"
-msgstr "Konsole"
-
-#: desktop/konsole.desktop:107
-msgctxt "GenericName"
-msgid "Terminal"
-msgstr "Terminał"
-
-#: desktop/konsole.desktop:193
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "New Window"
-msgctxt "Name"
-msgid "Open a New Window"
-msgstr "Novaje akno"
 
 #: desktop/konsolehere.desktop:13
 msgctxt "Name"
@@ -116,6 +98,24 @@ msgstr "Emulatar terminała"
 msgctxt "Name"
 msgid "Run In Konsole"
 msgstr "Uklučy prahramu „Konsole”"
+
+#: desktop/org.kde.konsole.desktop:14
+msgctxt "Name"
+msgid "Konsole"
+msgstr "Konsole"
+
+#: desktop/org.kde.konsole.desktop:107
+msgctxt "GenericName"
+msgid "Terminal"
+msgstr "Terminał"
+
+#: desktop/org.kde.konsole.desktop:193
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "New Window"
+msgctxt "Name"
+msgid "Open a New Window"
+msgstr "Novaje akno"
 
 #~ msgctxt "Name"
 #~ msgid "Quick Access Terminal"

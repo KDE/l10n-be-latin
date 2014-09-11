@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-08 07:57+0000\n"
+"POT-Creation-Date: 2014-09-11 07:59+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2624,7 +2624,7 @@ msgstr "Adčyni"
 msgid "Save As"
 msgstr "Zapišy jak"
 
-#: filewidgets/kfilefiltercombo.cpp:36 filewidgets/kfilewidget.cpp:1840
+#: filewidgets/kfilefiltercombo.cpp:36 filewidgets/kfilewidget.cpp:1856
 msgid "*|All Files"
 msgstr "*|Usie fajły"
 
@@ -2829,12 +2829,12 @@ msgstr ""
 "knopkaj myšy ŭ pole j vybraŭšy patrebny sposab u menu <b>Zakančeńnie tekstu</"
 "b></qt>."
 
-#: filewidgets/kfilewidget.cpp:379
+#: filewidgets/kfilewidget.cpp:395
 #, kde-format
 msgid "Drive: %1"
 msgstr "Pryłada: %1"
 
-#: filewidgets/kfilewidget.cpp:435
+#: filewidgets/kfilewidget.cpp:451
 #, kde-format
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
@@ -2845,39 +2845,39 @@ msgstr ""
 ">Naprykład, kali ciapier ty ŭ miescy z adrasam „file:/home/%1”, to kliknuŭšy "
 "ŭ hetuju knopku, ty pierajdzieš u „file:/home”.</qt>"
 
-#: filewidgets/kfilewidget.cpp:439
+#: filewidgets/kfilewidget.cpp:455
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr ""
 "Klikni ŭ hetuju knopku, kab viarnucca nazad na adzin krok u śpisie "
 "prahladanych miescaŭ."
 
-#: filewidgets/kfilewidget.cpp:440
+#: filewidgets/kfilewidget.cpp:456
 msgid "Click this button to move forward one step in the browsing history."
 msgstr ""
 "Klikni ŭ hetuju knopku, kab pajści napierad na adzin krok u śpisie "
 "prahladanych miescaŭ."
 
-#: filewidgets/kfilewidget.cpp:442
+#: filewidgets/kfilewidget.cpp:458
 msgid "Click this button to reload the contents of the current location."
 msgstr "Klikni ŭ hetuju knopku, kab pieračytać źmieściva hetaha miesca."
 
-#: filewidgets/kfilewidget.cpp:444
+#: filewidgets/kfilewidget.cpp:460
 msgid "Click this button to create a new folder."
 msgstr "Klikni ŭ hetuju knopku, kab stvaryć novy kataloh."
 
-#: filewidgets/kfilewidget.cpp:450
+#: filewidgets/kfilewidget.cpp:466
 msgid "Show Places Navigation Panel"
 msgstr "Pakažy panel miescaŭ"
 
-#: filewidgets/kfilewidget.cpp:457
+#: filewidgets/kfilewidget.cpp:473
 msgid "Show Bookmarks"
 msgstr "Pakažy zakładki"
 
-#: filewidgets/kfilewidget.cpp:462
+#: filewidgets/kfilewidget.cpp:478
 msgid "Options"
 msgstr "Opcyi"
 
-#: filewidgets/kfilewidget.cpp:464
+#: filewidgets/kfilewidget.cpp:480
 msgid ""
 "<qt>This is the preferences menu for the file dialog. Various options can be "
 "accessed from this menu including: <ul><li>how files are sorted in the list</"
@@ -2891,20 +2891,20 @@ msgstr ""
 "</li><li>ci pakazvać panel miescaŭ;</li><li>ci pakazvać dla fajłaŭ padhlady;"
 "</li><li>ci adasablać katalohi ad fajłaŭ.</li></ul></qt>"
 
-#: filewidgets/kfilewidget.cpp:507
+#: filewidgets/kfilewidget.cpp:523
 msgid "Zoom out"
 msgstr "Pamienš"
 
-#: filewidgets/kfilewidget.cpp:509
+#: filewidgets/kfilewidget.cpp:525
 msgid "Zoom in"
 msgstr "Pavialič"
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: filewidgets/kfilewidget.cpp:550 widgets/kpropertiesdesktopbase.ui:17
+#: filewidgets/kfilewidget.cpp:566 widgets/kpropertiesdesktopbase.ui:17
 msgid "&Name:"
 msgstr "&Nazva:"
 
-#: filewidgets/kfilewidget.cpp:573
+#: filewidgets/kfilewidget.cpp:589
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
 "match the filter will not be shown.<p>You may select from one of the preset "
@@ -2917,62 +2917,62 @@ msgstr ""
 "pole.</p><p>Možna karystacca specyjalnymi znakami, naprykład, „*” i „?”.</"
 "p></qt>"
 
-#: filewidgets/kfilewidget.cpp:579
+#: filewidgets/kfilewidget.cpp:595
 msgid "&Filter:"
 msgstr "&Filtruj:"
 
-#: filewidgets/kfilewidget.cpp:811
+#: filewidgets/kfilewidget.cpp:827
 msgid "You can only select one file"
 msgstr "Možna vybrać tolki adzin fajł."
 
-#: filewidgets/kfilewidget.cpp:812
+#: filewidgets/kfilewidget.cpp:828
 msgid "More than one file provided"
 msgstr "Padadzienyja niekalki fajłaŭ."
 
-#: filewidgets/kfilewidget.cpp:981
+#: filewidgets/kfilewidget.cpp:997
 msgid "You can only select local files"
 msgstr "Možna vybrać tolki lakalnyja fajły."
 
-#: filewidgets/kfilewidget.cpp:982
+#: filewidgets/kfilewidget.cpp:998
 msgid "Remote files not accepted"
 msgstr "Nielha vybrać fajły ź inšych hostaŭ"
 
-#: filewidgets/kfilewidget.cpp:1001
+#: filewidgets/kfilewidget.cpp:1017
 msgid ""
 "More than one folder has been selected and this dialog does not accept "
 "folders, so it is not possible to decide which one to enter. Please select "
 "only one folder to list it."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1001
+#: filewidgets/kfilewidget.cpp:1017
 msgid "More than one folder provided"
 msgstr "Padadzienyja niekalki katalohaŭ"
 
-#: filewidgets/kfilewidget.cpp:1009
+#: filewidgets/kfilewidget.cpp:1025
 msgid ""
 "At least one folder and one file has been selected. Selected files will be "
 "ignored and the selected folder will be listed"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1009
+#: filewidgets/kfilewidget.cpp:1025
 msgid "Files and folders selected"
 msgstr "Vyłučanyja katalohi j fajły"
 
-#: filewidgets/kfilewidget.cpp:1024
+#: filewidgets/kfilewidget.cpp:1040
 #, fuzzy, kde-format
 #| msgid "The file %1 could not be found"
 msgid "The file \"%1\" could not be found"
 msgstr "Nie ŭdałosia znajści fajł „%1”."
 
-#: filewidgets/kfilewidget.cpp:1024
+#: filewidgets/kfilewidget.cpp:1040
 msgid "Cannot open file"
 msgstr "Nie ŭdałosia adčynić fajł"
 
-#: filewidgets/kfilewidget.cpp:1298
+#: filewidgets/kfilewidget.cpp:1314
 msgid "This is the name to save the file as."
 msgstr "Nazva dla zapisvanaha fajła."
 
-#: filewidgets/kfilewidget.cpp:1301
+#: filewidgets/kfilewidget.cpp:1317
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
@@ -2980,27 +2980,27 @@ msgstr ""
 "Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, "
 "padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
 
-#: filewidgets/kfilewidget.cpp:1306
+#: filewidgets/kfilewidget.cpp:1322
 msgid "This is the name of the file to open."
 msgstr "Nazva fajła, jaki treba adčynić."
 
-#: filewidgets/kfilewidget.cpp:1320
+#: filewidgets/kfilewidget.cpp:1336
 #, fuzzy
 #| msgid "Places"
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Miescy"
 
-#: filewidgets/kfilewidget.cpp:1510
+#: filewidgets/kfilewidget.cpp:1526
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
 
-#: filewidgets/kfilewidget.cpp:1511
+#: filewidgets/kfilewidget.cpp:1527
 msgid "Overwrite File?"
 msgstr "Nadpisać fajł?"
 
-#: filewidgets/kfilewidget.cpp:1645
+#: filewidgets/kfilewidget.cpp:1661
 msgid ""
 "The chosen filenames do not\n"
 "appear to be valid."
@@ -3008,55 +3008,55 @@ msgstr ""
 "Nazvy vybranych fajłaŭ\n"
 "niapravilnyja."
 
-#: filewidgets/kfilewidget.cpp:1647
+#: filewidgets/kfilewidget.cpp:1663
 msgid "Invalid Filenames"
 msgstr "Niapravilnyja nazvy fajłaŭ"
 
-#: filewidgets/kfilewidget.cpp:1732
+#: filewidgets/kfilewidget.cpp:1748
 msgid "You can only select local files."
 msgstr "Možna vybrać tolki lakalnyja fajły."
 
-#: filewidgets/kfilewidget.cpp:1733
+#: filewidgets/kfilewidget.cpp:1749
 msgid "Remote Files Not Accepted"
 msgstr "Nielha vybrać fajły ź inšych hostaŭ"
 
-#: filewidgets/kfilewidget.cpp:1838
+#: filewidgets/kfilewidget.cpp:1854
 msgid "*|All Folders"
 msgstr "*|Usie katalohi"
 
-#: filewidgets/kfilewidget.cpp:2007 widgets/kfileitemactions.cpp:536
+#: filewidgets/kfilewidget.cpp:2023 widgets/kfileitemactions.cpp:536
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: filewidgets/kfilewidget.cpp:2093
+#: filewidgets/kfilewidget.cpp:2109
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels (standard size)"
 msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
 
-#: filewidgets/kfilewidget.cpp:2096
+#: filewidgets/kfilewidget.cpp:2112
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels"
 msgstr "Pamier ikon: %1 punktaŭ"
 
-#: filewidgets/kfilewidget.cpp:2230
+#: filewidgets/kfilewidget.cpp:2246
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
 
-#: filewidgets/kfilewidget.cpp:2231
+#: filewidgets/kfilewidget.cpp:2247
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "pašyreńnie <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2237
+#: filewidgets/kfilewidget.cpp:2253
 msgid "Automatically select filename e&xtension"
 msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
 
-#: filewidgets/kfilewidget.cpp:2238
+#: filewidgets/kfilewidget.cpp:2254
 msgid "a suitable extension"
 msgstr "prydatnaje pašyreńnie"
 
-#: filewidgets/kfilewidget.cpp:2248
+#: filewidgets/kfilewidget.cpp:2264
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -3072,11 +3072,11 @@ msgid ""
 "enabled as it makes your files more manageable."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2558
+#: filewidgets/kfilewidget.cpp:2574
 msgid "Bookmarks"
 msgstr "Zakładki"
 
-#: filewidgets/kfilewidget.cpp:2562
+#: filewidgets/kfilewidget.cpp:2578
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
 "button to open the bookmark menu where you may add, edit or select a "

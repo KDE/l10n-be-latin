@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-20 07:58+0000\n"
+"POT-Creation-Date: 2014-09-20 08:05+0000\n"
 "PO-Revision-Date: 2008-10-05 11:04+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,22 +19,26 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: backgroundlistmodel.cpp:356
+#: backgroundlistmodel.cpp:357
 msgctxt "Unknown Author"
 msgid "Unknown"
 msgstr ""
 
-#: image.cpp:254
+#: image.cpp:184
+msgid "Recommended wallpaper file"
+msgstr ""
+
+#: image.cpp:319
 msgid "Directory with the wallpaper to show slides from"
 msgstr ""
 
-#: image.cpp:519
+#: image.cpp:599
 #, fuzzy
 #| msgid "Select Wallpaper Image File"
 msgid "Open Image"
 msgstr "Vybiery fajł z špalerami"
 
-#: image.cpp:521
+#: image.cpp:601
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
 msgstr ""
 
@@ -127,23 +131,13 @@ msgstr "Vaźmi novyja špalery..."
 msgid "%1 by %2"
 msgstr "ad %1"
 
-#: wallpaperpackage.cpp:40
 #, fuzzy
-#| msgid "Images"
-msgid "Images"
-msgstr "Vyjavy"
+#~| msgid "Images"
+#~ msgid "Images"
+#~ msgstr "Vyjavy"
 
-#: wallpaperpackage.cpp:47
-msgid "Screenshot"
-msgstr "Zdymak ekrana"
-
-#: wallpaperpackage.cpp:95 wallpaperpackage.cpp:152
-msgid "Recommended wallpaper file"
-msgstr ""
-
-#: wallpaperpackage.cpp:96
-msgid "Preview"
-msgstr ""
+#~ msgid "Screenshot"
+#~ msgstr "Zdymak ekrana"
 
 #, fuzzy
 #~| msgid "Select Wallpaper Image File"

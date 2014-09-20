@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-26 10:12+0000\n"
+"POT-Creation-Date: 2014-09-20 08:11+0000\n"
 "PO-Revision-Date: 2008-09-04 00:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2417,14 +2417,6 @@ msgctxt "Name"
 msgid "Zulu"
 msgstr "Zuluskaja"
 
-#: src/kdecore/entry.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "English"
-msgctxt "Name"
-msgid "US English"
-msgstr "Anhielskaja"
-
 #: src/kio/imageformats/qimageio_plugin.desktop:4
 msgctxt "Comment"
 msgid "QImageIOHandler plugin"
@@ -3967,7 +3959,7 @@ msgctxt "Name"
 msgid "Network Status"
 msgstr "Słužba sietkavaha stanovišča"
 
-#: src/solid-networkstatus/kded/networkstatus.desktop:66
+#: src/solid-networkstatus/kded/networkstatus.desktop:65
 msgctxt "Comment"
 msgid ""
 "Tracks status of network interfaces and provides notification to "
@@ -3975,6 +3967,13 @@ msgid ""
 msgstr ""
 "Naziraje za stanoviščam sietkavych interfejsaŭ, infarmuje aplikacyi pra "
 "źmieny."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "English"
+#~ msgctxt "Name"
+#~ msgid "US English"
+#~ msgstr "Anhielskaja"
 
 #~ msgctxt "Comment"
 #~ msgid "Instant Messenger with a D-Bus interface"

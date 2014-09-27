@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 09:24+0000\n"
+"POT-Creation-Date: 2014-09-27 09:13+0000\n"
 "PO-Revision-Date: 2008-11-26 01:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -33,25 +33,25 @@ msgstr "ihar.hrachyshka@gmail.com"
 msgid "Documentation to open"
 msgstr "Dakument dla indeksavańnia"
 
-#: application.cpp:77 navigator.cpp:469
+#: application.cpp:80 navigator.cpp:469
 msgid "KDE Help Center"
 msgstr "Centar dapamohi „KDE”"
 
-#: application.cpp:79 khc_indexbuilder.cpp:159
+#: application.cpp:82 khc_indexbuilder.cpp:159
 msgid "The KDE Help Center"
 msgstr "Centar dapamohi „KDE”"
 
-#: application.cpp:81
+#: application.cpp:84
 #, fuzzy
 #| msgid "(c) 1999-2003, The KHelpCenter developers"
 msgid "(c) 1999-2011, The KHelpCenter developers"
 msgstr "© 1999-2003, raspracoŭniki prahramy „KHelpCenter”"
 
-#: application.cpp:85
+#: application.cpp:88
 msgid "Original Author"
 msgstr "Pieršy aŭtar"
 
-#: application.cpp:86
+#: application.cpp:89
 msgid "Info page support"
 msgstr "Absłuhoŭvańnie staronak „info”"
 
@@ -253,13 +253,15 @@ msgstr "Spyni"
 
 #: kcmhelpcenter.cpp:202
 #, fuzzy
-#| msgid "Details &gt;&gt;"
-msgid "Details &lt;&lt;"
-msgstr "Detali &gt;&gt;"
+#| msgid "Details &lt;&lt;"
+msgid "Details <<"
+msgstr "Detali &lt;&lt;"
 
 #: kcmhelpcenter.cpp:215
-msgid "Details &gt;&gt;"
-msgstr "Detali &gt;&gt;"
+#, fuzzy
+#| msgid "Details &lt;&lt;"
+msgid "Details >>"
+msgstr "Detali &lt;&lt;"
 
 #: kcmhelpcenter.cpp:232
 msgid "Build Search Index"
@@ -611,14 +613,12 @@ msgid "Copy Link Address"
 msgstr "Skapijuj adras spasyłki"
 
 #, fuzzy
-#~| msgid "Details &lt;&lt;"
-#~ msgid "Details <<"
-#~ msgstr "Detali &lt;&lt;"
+#~| msgid "Details &gt;&gt;"
+#~ msgid "Details &lt;&lt;"
+#~ msgstr "Detali &gt;&gt;"
 
-#, fuzzy
-#~| msgid "Details &lt;&lt;"
-#~ msgid "Details >>"
-#~ msgstr "Detali &lt;&lt;"
+#~ msgid "Details &gt;&gt;"
+#~ msgstr "Detali &gt;&gt;"
 
 #~ msgid "Frerich Raabe"
 #~ msgstr "Frerich Raabe"

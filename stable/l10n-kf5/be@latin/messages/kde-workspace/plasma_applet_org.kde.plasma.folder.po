@@ -314,7 +314,7 @@ msgstr "&Vykiń u śmietnicu"
 
 #: plugin/foldermodel.cpp:988 plugin/internallibkonq/konq_popupmenu.cpp:348
 msgid "&Empty Trash Bin"
-msgstr ""
+msgstr "&Vyčyści śmietnicu"
 
 #: plugin/foldermodel.cpp:991
 msgid "&Delete"
@@ -327,12 +327,12 @@ msgstr "&Uklej"
 #: plugin/internallibkonq/konq_copytomenu.cpp:84
 msgctxt "@title:menu"
 msgid "Copy To"
-msgstr ""
+msgstr "Skapijuj"
 
 #: plugin/internallibkonq/konq_copytomenu.cpp:90
 msgctxt "@title:menu"
 msgid "Move To"
-msgstr ""
+msgstr "Pieraniasi"
 
 #: plugin/internallibkonq/konq_copytomenu.cpp:114
 #, fuzzy
@@ -351,21 +351,21 @@ msgstr "Kataloh stała"
 #: plugin/internallibkonq/konq_copytomenu.cpp:157
 msgctxt "@title:menu in Copy To or Move To submenu"
 msgid "Browse..."
-msgstr ""
+msgstr "Ahladaj..."
 
 #: plugin/internallibkonq/konq_copytomenu.cpp:228
 msgctxt "@title:menu"
 msgid "Copy Here"
-msgstr ""
+msgstr "Skapijuj siudy"
 
 #: plugin/internallibkonq/konq_copytomenu.cpp:229
 msgctxt "@title:menu"
 msgid "Move Here"
-msgstr ""
+msgstr "Pieraniasi siudy"
 
 #: plugin/internallibkonq/konq_operations.cpp:313
 msgid "You cannot drop a folder on to itself"
-msgstr ""
+msgstr "Nielha kinuć kataloh samoha ŭ siabie."
 
 #: plugin/internallibkonq/konq_operations.cpp:359
 #, fuzzy
@@ -375,33 +375,37 @@ msgstr "Šablon nazvaŭ fajłaŭ:"
 
 #: plugin/internallibkonq/konq_operations.cpp:571
 msgid "&Move Here"
-msgstr ""
+msgstr "&Pieraniasi siudy"
 
 #: plugin/internallibkonq/konq_operations.cpp:575
 msgid "&Copy Here"
-msgstr ""
+msgstr "&Skapijuj siudy"
 
 #: plugin/internallibkonq/konq_operations.cpp:579
 msgid "&Link Here"
-msgstr ""
+msgstr "Z&łučy tut"
 
 #: plugin/internallibkonq/konq_operations.cpp:581
 msgid "Set as &Wallpaper"
-msgstr ""
+msgstr "Zrabi &špalerami rabočaha stała"
 
 #: plugin/internallibkonq/konq_operations.cpp:583
 msgid "C&ancel"
-msgstr ""
+msgstr "&Anuluj"
 
 #: plugin/internallibkonq/konq_operations.cpp:895
+#, fuzzy
+#| msgid "Create New"
 msgctxt "@action:button"
 msgid "Create directory"
-msgstr ""
+msgstr "Stvary novaje"
 
 #: plugin/internallibkonq/konq_operations.cpp:897
+#, fuzzy
+#| msgid "Enter folder name:"
 msgctxt "@action:button"
 msgid "Enter a different name"
-msgstr ""
+msgstr "Upišy nazvy kataloha:"
 
 #: plugin/internallibkonq/konq_operations.cpp:900
 #, kde-format
@@ -411,9 +415,11 @@ msgid ""
 msgstr ""
 
 #: plugin/internallibkonq/konq_operations.cpp:901
+#, fuzzy
+#| msgid "Create New"
 msgctxt "@title:window"
 msgid "Create hidden directory?"
-msgstr ""
+msgstr "Stvary novaje"
 
 #: plugin/internallibkonq/konq_operations.cpp:916
 #, fuzzy
@@ -430,9 +436,11 @@ msgid "New Folder"
 msgstr "Kataloh stała"
 
 #: plugin/internallibkonq/konq_operations.cpp:924
+#, fuzzy
+#| msgid "Enter folder name:"
 msgctxt "@label:textbox"
 msgid "Enter folder name:"
-msgstr ""
+msgstr "Upišy nazvy kataloha:"
 
 #: plugin/internallibkonq/konq_operations.cpp:1037
 #, fuzzy
@@ -469,15 +477,15 @@ msgstr "&Uklej"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:252
 msgid "&Open"
-msgstr ""
+msgstr "&Adčyni"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:279
 msgid "Create &Folder..."
-msgstr ""
+msgstr "Stvary &kataloh..."
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:290
 msgid "&Restore"
-msgstr ""
+msgstr "&Uznavi"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:291
 msgid ""
@@ -502,28 +510,30 @@ msgid ""
 msgstr ""
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:361
+#, fuzzy
+#| msgid "&Empty Trash Bin"
 msgid "&Configure Trash Bin"
-msgstr ""
+msgstr "&Vyčyści śmietnicu"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:387
 msgid "&Bookmark This Page"
-msgstr ""
+msgstr "Stvary &zakładku dla hetaj staronki"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:389
 msgid "&Bookmark This Location"
-msgstr ""
+msgstr "Stvary &zakładku dla hetaha miesca"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:392
 msgid "&Bookmark This Folder"
-msgstr ""
+msgstr "Stvary &zakładku dla hetaha kataloha"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:394
 msgid "&Bookmark This Link"
-msgstr ""
+msgstr "Stvary &zakładku dla hetaha łuča"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:396
 msgid "&Bookmark This File"
-msgstr ""
+msgstr "Stvary &zakładku dla hetaha fajła"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:426
 #, fuzzy
@@ -533,11 +543,11 @@ msgstr "Pakazvaj padhlady"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:461
 msgid "&Properties"
-msgstr ""
+msgstr "&Ułaścivaści"
 
 #: plugin/internallibkonq/konq_popupmenu.cpp:477
 msgid "Share"
-msgstr ""
+msgstr "Zrabi supolnym"
 
 #: plugin/labelgenerator.cpp:97
 msgid "Desktop Folder"

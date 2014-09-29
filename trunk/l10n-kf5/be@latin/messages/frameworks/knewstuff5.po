@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 08:34+0000\n"
+"POT-Creation-Date: 2014-09-29 07:45+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -136,56 +136,56 @@ msgstr[2] "Atrymańnie padhladu"
 msgid "Installing"
 msgstr "Zainstaluj"
 
-#: core/installation.cpp:176
+#: core/installation.cpp:175
 msgid "Invalid item."
 msgstr ""
 
-#: core/installation.cpp:183
+#: core/installation.cpp:182
 #, kde-format
 msgid "Download of item failed: no download URL for \"%1\"."
 msgstr ""
 
-#: core/installation.cpp:222
+#: core/installation.cpp:221
 #, kde-format
 msgid "Download of \"%1\" failed, error: %2"
 msgstr ""
 
-#: core/installation.cpp:231
+#: core/installation.cpp:230
 msgid ""
 "The downloaded file is a html file. This indicates a link to a website "
 "instead of the actual download. Would you like to open the site with a "
 "browser instead?"
 msgstr ""
 
-#: core/installation.cpp:231
+#: core/installation.cpp:230
 #, fuzzy
 #| msgid "Could not set non-blocking mode"
 msgid "Possibly bad download link"
 msgstr "Nie ŭdałosia ŭklučyć biazblokavy režym"
 
-#: core/installation.cpp:234
+#: core/installation.cpp:233
 msgid "Downloaded file was a HTML file. Opened in browser."
 msgstr ""
 
-#: core/installation.cpp:297
+#: core/installation.cpp:296
 #, fuzzy, kde-format
 #| msgid "Could not install %1"
 msgid "Could not install \"%1\": file not found."
 msgstr "Nie ŭdałosia zainstalavać „%1”."
 
-#: core/installation.cpp:543
+#: core/installation.cpp:542
 #, fuzzy
 #| msgid "Overwrite File?"
 msgid "Overwrite existing file?"
 msgstr "Nadpisać fajł?"
 
-#: core/installation.cpp:543
+#: core/installation.cpp:542
 #, fuzzy
 #| msgid "Download"
 msgid "Download File"
 msgstr "Zabiary z servera"
 
-#: core/security.cpp:87
+#: core/security.cpp:86
 msgid ""
 "<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
 "<i>gpg</i> is installed, otherwise verification of downloaded resources will "
@@ -195,7 +195,7 @@ msgstr ""
 "zainstalavanaja prahrama <i>gpg</i>. Spraŭdžvańnie ściahnutych fajłaŭ "
 "niemahčymaje, pakul u systemie nia budzie hetaj aplikacyi.</qt>"
 
-#: core/security.cpp:211
+#: core/security.cpp:210
 #, kde-format
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
@@ -204,7 +204,7 @@ msgstr ""
 "<qt>Upišy parol dla kluča <b>0x%1</b>, jaki naležyć <br /><i>%2&lt;%3&gt;</"
 "i><br />:</qt>"
 
-#: core/security.cpp:291
+#: core/security.cpp:290
 msgid ""
 "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
 "that <i>gpg</i> is installed, otherwise verification of downloaded resources "
@@ -214,15 +214,15 @@ msgstr ""
 "zainstalavanaja prahrama <i>gpg</i>. Spraŭdžvańnie ściahnutych fajłaŭ "
 "niemahčymaje, pakul u systemie nia budzie hetaj aplikacyi.</qt>"
 
-#: core/security.cpp:346
+#: core/security.cpp:345
 msgid "Select Signing Key"
 msgstr "Vyznač kluč dla padpisańnia"
 
-#: core/security.cpp:346
+#: core/security.cpp:345
 msgid "Key used for signing:"
 msgstr "Kluč dla padpisańnia:"
 
-#: core/security.cpp:379
+#: core/security.cpp:378
 msgid ""
 "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
 "installed, otherwise signing of the resources will not be possible.</qt>"

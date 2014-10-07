@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-29 09:04+0000\n"
+"POT-Creation-Date: 2014-10-07 11:30+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -29,8 +29,7 @@ msgctxt "Comment"
 msgid "Monitors directories for changes"
 msgstr ""
 
-#: desktop/./directory.trash:3 trash/kcmtrash.desktop:1
-#: trash/kcmtrash.desktop:172
+#: desktop/./directory.trash:3
 msgctxt "Name"
 msgid "Trash"
 msgstr "Śmietnica"
@@ -205,28 +204,24 @@ msgctxt "Name"
 msgid "Microsoft Windows Images"
 msgstr ""
 
-#: trash/kcmtrash.desktop:82
-msgctxt "Comment"
-msgid "This service allows configuration of the trash."
-msgstr "Hetaja słužba dazvalaje naładzić śmietnicu."
+#~ msgctxt "Comment"
+#~ msgid "This service allows configuration of the trash."
+#~ msgstr "Hetaja słužba dazvalaje naładzić śmietnicu."
 
-#: trash/kcmtrash.desktop:253
-msgctxt "Comment"
-msgid "Configure trash settings"
-msgstr "Naładź śmietnicu"
+#~ msgctxt "Comment"
+#~ msgid "Configure trash settings"
+#~ msgstr "Naładź śmietnicu"
 
-#: trash/kcmtrash.desktop:333
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Trash"
-msgctxt "X-KDE-Keywords"
-msgid "trash"
-msgstr "Śmietnica"
+#~| msgctxt "Name"
+#~| msgid "Trash"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "trash"
+#~ msgstr "Śmietnica"
 
-#: trash/trash.protocol:25
-msgctxt "ExtraNames"
-msgid "Original Path,Deletion Date"
-msgstr "Byłaja ściežka,data vydaleńnia"
+#~ msgctxt "ExtraNames"
+#~ msgid "Original Path,Deletion Date"
+#~ msgstr "Byłaja ściežka,data vydaleńnia"
 
 #~ msgctxt "Name"
 #~ msgid "CGI Scripts"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-29 07:45+0000\n"
+"POT-Creation-Date: 2014-10-07 10:10+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -503,6 +503,12 @@ msgstr "Dalej"
 msgid "Finish"
 msgstr "Skončy"
 
+#: uploaddialog.cpp:173
+#, fuzzy
+#| msgid "Provider information"
+msgid "Fetching provider information..."
+msgstr "Źviestki ab pravajdery"
+
 #: uploaddialog.cpp:180
 msgid "Fetching license data from server..."
 msgstr ""
@@ -510,6 +516,12 @@ msgstr ""
 #: uploaddialog.cpp:187
 msgid "Fetching content data from server..."
 msgstr ""
+
+#: uploaddialog.cpp:262
+#, fuzzy
+#| msgid "Provider information"
+msgid "Could not fetch provider information."
+msgstr "Źviestki ab pravajdery"
 
 #: uploaddialog.cpp:286
 msgid "Register a new account"
@@ -9775,11 +9787,6 @@ msgstr "Pačni zamieny"
 #~| msgid "&Replace..."
 #~ msgid "Upload..."
 #~ msgstr "&Zamiani..."
-
-#, fuzzy
-#~| msgid "Provider information"
-#~ msgid "Fetching provider information..."
-#~ msgstr "Źviestki ab pravajdery"
 
 #, fuzzy
 #~| msgid "The rating could not be submitted."

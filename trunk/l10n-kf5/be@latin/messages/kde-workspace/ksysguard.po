@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-09 10:28+0000\n"
+"POT-Creation-Date: 2014-10-13 08:02+0000\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -105,53 +105,53 @@ msgstr "Upišy zahad, jaki ŭklučaje słužbu „ksysguardd” na patrebnym ho�
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr "naprykład, „ssh -l root remote.host.org ksysguardd”"
 
-#: ksysguard.cpp:69
+#: ksysguard.cpp:70
 msgid "KDE System Monitor"
 msgstr "Systemny nazirańnik „KDE”"
 
-#: ksysguard.cpp:157 ksysguard.cpp:528
+#: ksysguard.cpp:158 ksysguard.cpp:529
 msgid "System Monitor"
 msgstr "Systemny nazirańnik"
 
-#: ksysguard.cpp:158
+#: ksysguard.cpp:159
 msgid "&Refresh Tab"
 msgstr ""
 
-#: ksysguard.cpp:159
+#: ksysguard.cpp:160
 msgid "&New Tab..."
 msgstr "&Novaja kartka..."
 
-#: ksysguard.cpp:160
+#: ksysguard.cpp:161
 msgid "Import Tab Fr&om File..."
 msgstr "Z&impartuj kartku z fajła..."
 
-#: ksysguard.cpp:161
+#: ksysguard.cpp:162
 msgid "Save Tab &As..."
 msgstr "Zapišy kartku &jak..."
 
-#: ksysguard.cpp:162
+#: ksysguard.cpp:163
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
-#: ksysguard.cpp:163
+#: ksysguard.cpp:164
 msgid "Monitor &Remote Machine..."
 msgstr "Naziraj za &dalokim kamputaram..."
 
-#: ksysguard.cpp:164
+#: ksysguard.cpp:165
 msgid "&Download New Tabs..."
 msgstr "&Vaźmi novych kartak..."
 
-#: ksysguard.cpp:165
+#: ksysguard.cpp:166
 #, fuzzy
 #| msgid "&Download New Tabs..."
 msgid "&Upload Current Tab..."
 msgstr "&Vaźmi novych kartak..."
 
-#: ksysguard.cpp:167
+#: ksysguard.cpp:168
 msgid "Tab &Properties"
 msgstr "&Ułaścivaści kartki"
 
-#: ksysguard.cpp:362
+#: ksysguard.cpp:363
 #, fuzzy, kde-format
 msgid "1 process1"
 msgid_plural "%1 processes%1"
@@ -159,81 +159,81 @@ msgstr[0] " %1 pracesaŭ "
 msgstr[1] " %1 pracesaŭ "
 msgstr[2] " %1 pracesaŭ "
 
-#: ksysguard.cpp:441
+#: ksysguard.cpp:442
 #, fuzzy, kde-format
 msgid "CPU: %1%%1%"
 msgstr " Pracesar: %1% "
 
-#: ksysguard.cpp:456
+#: ksysguard.cpp:457
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
 msgstr ""
 
-#: ksysguard.cpp:483
+#: ksysguard.cpp:484
 #, fuzzy
 msgid " No swap space available "
 msgstr " Niama pamiaci na padmien "
 
-#: ksysguard.cpp:485
+#: ksysguard.cpp:486
 #, fuzzy, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2Swap: %1%1"
 msgstr " Padmien: %1 / %2 "
 
-#: ksysguard.cpp:530
+#: ksysguard.cpp:531
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "© 1996-2008 Raspracoŭniki prahramy „Systemny nazirańnik KDE”"
 
-#: ksysguard.cpp:531
+#: ksysguard.cpp:532
 msgid "John Tapsell"
 msgstr "John Tapsell"
 
-#: ksysguard.cpp:531
+#: ksysguard.cpp:532
 msgid "Current Maintainer"
 msgstr "Ciapierašni dahladnik"
 
-#: ksysguard.cpp:532
+#: ksysguard.cpp:533
 msgid "Chris Schlaeger"
 msgstr "Chris Schlaeger"
 
-#: ksysguard.cpp:532
+#: ksysguard.cpp:533
 msgid "Previous Maintainer"
 msgstr "Były dahladnik"
 
-#: ksysguard.cpp:533
+#: ksysguard.cpp:534
 msgid "Greg Martyn"
 msgstr "Greg Martyn"
 
-#: ksysguard.cpp:534
+#: ksysguard.cpp:535
 msgid "Tobias Koenig"
 msgstr "Tobias Koenig"
 
-#: ksysguard.cpp:535
+#: ksysguard.cpp:536
 msgid "Nicolas Leclercq"
 msgstr "Nicolas Leclercq"
 
-#: ksysguard.cpp:536
+#: ksysguard.cpp:537
 msgid "Alex Sanda"
 msgstr "Alex Sanda"
 
-#: ksysguard.cpp:537
+#: ksysguard.cpp:538
 msgid "Bernd Johannes Wuebben"
 msgstr "Bernd Johannes Wuebben"
 
-#: ksysguard.cpp:538
+#: ksysguard.cpp:539
 msgid "Ralf Mueller"
 msgstr "Ralf Mueller"
 
-#: ksysguard.cpp:539
+#: ksysguard.cpp:540
 msgid "Hamish Rodda"
 msgstr "Hamish Rodda"
 
-#: ksysguard.cpp:540
+#: ksysguard.cpp:541
 msgid "Torsten Kasch"
 msgstr "Torsten Kasch"
 
-#: ksysguard.cpp:540
+#: ksysguard.cpp:541
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
@@ -243,7 +243,7 @@ msgstr ""
 "Častkova kod uziaty (z dazvołam) z modula prahramy „top”\n"
 "ad William'a LeFebvre'a dla systemy „sunos5”."
 
-#: ksysguard.cpp:548
+#: ksysguard.cpp:549
 msgid "Optional worksheet files to load"
 msgstr "Dadatkovyja fajły rabočych arkušoŭ"
 
@@ -275,11 +275,11 @@ msgstr "Hałoŭnaja panel pryładździa"
 msgid "Process Table"
 msgstr "Tablica pracesaŭ"
 
-#: SensorBrowser.cpp:117
+#: SensorBrowser.cpp:112
 msgid "Sensor Browser"
 msgstr "Sensary"
 
-#: SensorBrowser.cpp:474
+#: SensorBrowser.cpp:469
 #, fuzzy
 #| msgid "Drag sensors to empty cells of a worksheet or the panel applet."
 msgid "Drag sensors to empty cells of a worksheet "
@@ -287,7 +287,7 @@ msgstr ""
 "Pieraciahvaj sensary, kab vyzvalić miesca na rabočym arkušy albo ŭ aplecie "
 "dla paneli."
 
-#: SensorBrowser.cpp:475
+#: SensorBrowser.cpp:470
 #, fuzzy
 #| msgid ""
 #| "The sensor browser lists the connected hosts and the sensors that they "
@@ -308,12 +308,12 @@ msgstr ""
 "źviestki ź niekalkich sensaraŭ. Dziela hetaha prosta pieraciahvaj "
 "dadatkovyja sensary."
 
-#: SensorDisplayLib/DancingBars.cpp:96 SensorDisplayLib/FancyPlotter.cpp:283
+#: SensorDisplayLib/DancingBars.cpp:94 SensorDisplayLib/FancyPlotter.cpp:281
 msgid "OK"
 msgstr "Ok"
 
-#: SensorDisplayLib/DancingBars.cpp:96 SensorDisplayLib/FancyPlotter.cpp:283
-#: SensorDisplayLib/FancyPlotter.cpp:524 SensorDisplayLib/FancyPlotter.cpp:602
+#: SensorDisplayLib/DancingBars.cpp:94 SensorDisplayLib/FancyPlotter.cpp:281
+#: SensorDisplayLib/FancyPlotter.cpp:522 SensorDisplayLib/FancyPlotter.cpp:600
 msgid "Error"
 msgstr "Pamyłka"
 
@@ -328,13 +328,13 @@ msgstr "Intervał"
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #: SensorDisplayLib/DancingBarsSettings.cpp:56
 #: SensorDisplayLib/ListViewSettingsWidget.ui:16
-#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16 WorkSheetSettings.cpp:50
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16 WorkSheetSettings.cpp:49
 msgid "Title"
 msgstr "Nazva"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_title)
 #: SensorDisplayLib/DancingBarsSettings.cpp:61
-#: SensorDisplayLib/FancyPlotterSettings.cpp:75
+#: SensorDisplayLib/FancyPlotterSettings.cpp:71
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
 msgid "Enter the title of the display here."
 msgstr "Tut upišy nazvu prahladu."
@@ -344,7 +344,7 @@ msgid "Display Range"
 msgstr "Intervał prahladu"
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:71
-#: SensorDisplayLib/FancyPlotterSettings.cpp:101
+#: SensorDisplayLib/FancyPlotterSettings.cpp:97
 msgid "Minimum value:"
 msgstr "Najmienšaja vartaść:"
 
@@ -357,7 +357,7 @@ msgstr ""
 "nulu, tady ŭklučycca aŭtamatyčnaje vyznačeńnie intervału."
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:83
-#: SensorDisplayLib/FancyPlotterSettings.cpp:112
+#: SensorDisplayLib/FancyPlotterSettings.cpp:108
 msgid "Maximum value:"
 msgstr "Najbolšaja vartaść:"
 
@@ -435,14 +435,14 @@ msgstr "Nadzvyčajny koler:"
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
 #: SensorDisplayLib/DancingBarsSettings.cpp:172
 #: SensorDisplayLib/ListViewSettingsWidget.ui:77
-#: SensorDisplayLib/LogFile.cpp:102 SensorDisplayLib/LogFileSettings.ui:67
+#: SensorDisplayLib/LogFile.cpp:101 SensorDisplayLib/LogFileSettings.ui:67
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:228
 #: SensorDisplayLib/SensorLoggerSettingsWidget.ui:64
 msgid "Background color:"
 msgstr "Koler fonu:"
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:179
-#: SensorDisplayLib/FancyPlotterSettings.cpp:180
+#: SensorDisplayLib/FancyPlotterSettings.cpp:176
 msgid "Font size:"
 msgstr "Pamier šryfta:"
 
@@ -456,7 +456,7 @@ msgstr ""
 "pierakryvajucca, kali podpisy zavialikija, tamu raim vybrać nievialiki šryft."
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:191
-#: SensorDisplayLib/FancyPlotterSettings.cpp:195
+#: SensorDisplayLib/FancyPlotterSettings.cpp:191
 msgid "Sensors"
 msgstr "Sensary"
 
@@ -469,20 +469,20 @@ msgid "Push this button to configure the label."
 msgstr "Klikni ŭ hetuju knopku, kab vyznačyć podpis."
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:207
-#: SensorDisplayLib/FancyPlotterSettings.cpp:227
+#: SensorDisplayLib/FancyPlotterSettings.cpp:223
 msgid "Delete"
 msgstr "Vydali"
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:208
-#: SensorDisplayLib/FancyPlotterSettings.cpp:228
+#: SensorDisplayLib/FancyPlotterSettings.cpp:224
 msgid "Push this button to delete the sensor."
 msgstr "Klikni ŭ hetuju knopku, kab vydalić sensar."
 
-#: SensorDisplayLib/DancingBarsSettings.cpp:362
+#: SensorDisplayLib/DancingBarsSettings.cpp:360
 msgid "Label of Bar Graph"
 msgstr "Podpis dla hrafika"
 
-#: SensorDisplayLib/DancingBarsSettings.cpp:363
+#: SensorDisplayLib/DancingBarsSettings.cpp:361
 msgid "Enter new label:"
 msgstr "Padaj novy podpis:"
 
@@ -499,78 +499,78 @@ msgstr ""
 "Heta pusty abšar u rabočym arkušy. Kali ty pieraciahnieš siudy sensar, tady "
 "ty jaho ŭbačyš tut i zmožaš ź jahonaj dapamohaju adsočvać źmieny ŭ systemie."
 
-#: SensorDisplayLib/FancyPlotter.cpp:179
+#: SensorDisplayLib/FancyPlotter.cpp:177
 msgctxt "Largest axis title"
 msgid "99999 XXXX"
 msgstr "99999 XXXX"
 
-#: SensorDisplayLib/FancyPlotter.cpp:520 SensorDisplayLib/FancyPlotter.cpp:591
-#: SensorDisplayLib/FancyPlotter.cpp:654
+#: SensorDisplayLib/FancyPlotter.cpp:518 SensorDisplayLib/FancyPlotter.cpp:589
+#: SensorDisplayLib/FancyPlotter.cpp:652
 #, kde-format
 msgctxt "units"
 msgid "%1%"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:528
+#: SensorDisplayLib/FancyPlotter.cpp:526
 #, fuzzy, kde-format
 msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr "<p><b>%1:</b><br>"
 
-#: SensorDisplayLib/FancyPlotter.cpp:599
+#: SensorDisplayLib/FancyPlotter.cpp:597
 #, fuzzy, kde-format
 msgid "%1 of %2%1"
 msgstr "%1 z %2"
 
-#: SensorDisplayLib/FancyPlotter.cpp:627
+#: SensorDisplayLib/FancyPlotter.cpp:625
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:630
+#: SensorDisplayLib/FancyPlotter.cpp:628
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:633
+#: SensorDisplayLib/FancyPlotter.cpp:631
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:636
+#: SensorDisplayLib/FancyPlotter.cpp:634
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:641
+#: SensorDisplayLib/FancyPlotter.cpp:639
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:644
+#: SensorDisplayLib/FancyPlotter.cpp:642
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:647
+#: SensorDisplayLib/FancyPlotter.cpp:645
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:650
+#: SensorDisplayLib/FancyPlotter.cpp:648
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:656
+#: SensorDisplayLib/FancyPlotter.cpp:654
 #, fuzzy, kde-format
 #| msgctxt "a percentage"
 #| msgid "%"
@@ -578,46 +578,46 @@ msgctxt "unitless - just a number"
 msgid "%1"
 msgstr "%"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:51
+#: SensorDisplayLib/FancyPlotterSettings.cpp:47
 #, fuzzy
 #| msgid "Signal Plotter Settings"
 msgid "Plotter Settings"
 msgstr "Nałady rysynka syhnałaŭ"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:67
+#: SensorDisplayLib/FancyPlotterSettings.cpp:63
 msgid "General"
 msgstr "Ahulnaje"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:71
+#: SensorDisplayLib/FancyPlotterSettings.cpp:67
 msgid "Title:"
 msgstr "Nazva:"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:79
+#: SensorDisplayLib/FancyPlotterSettings.cpp:75
 msgid "Stack the beams on top of each other"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:80
+#: SensorDisplayLib/FancyPlotterSettings.cpp:76
 msgid ""
 "The beams are stacked on top of each other, and the area is drawn filled in. "
 "So if one beam has a value of 2 and another beam has a value of 3, the first "
 "beam will be drawn at value 2 and the other beam drawn at 2+3=5."
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:87
+#: SensorDisplayLib/FancyPlotterSettings.cpp:83
 msgid "Scales"
 msgstr "Maštabavańnie"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:91
+#: SensorDisplayLib/FancyPlotterSettings.cpp:87
 #, fuzzy
 #| msgid "Vertical Scale"
 msgid "Vertical scale"
 msgstr "Maštab vertykalnaj vosi"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:96
+#: SensorDisplayLib/FancyPlotterSettings.cpp:92
 msgid "Specify graph range:"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:97
+#: SensorDisplayLib/FancyPlotterSettings.cpp:93
 msgid ""
 "Check this box if you want the display range to adapt dynamically to the "
 "currently displayed values; if you do not check this, you have to specify "
@@ -627,80 +627,80 @@ msgstr ""
 "źmianiaŭsia, uličvajučy ciapierašnija značeńni. Kali hetaja opcyja nia "
 "ŭklučanaja, nižej treba padać patrebny intervał."
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:107
+#: SensorDisplayLib/FancyPlotterSettings.cpp:103
 #, fuzzy
 #| msgid "Enter the title of the display here."
 msgid "Enter the minimum value for the display here."
 msgstr "Tut upišy nazvu prahladu."
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:118
+#: SensorDisplayLib/FancyPlotterSettings.cpp:114
 msgid ""
 "Enter the soft maximum value for the display here. The upper range will not "
 "be reduced below this value, but will still go above this number for values "
 "above this value."
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:125
+#: SensorDisplayLib/FancyPlotterSettings.cpp:121
 #, fuzzy
 #| msgid "Horizontal Scale"
 msgid "Horizontal scale"
 msgstr "Maštab haryzantalnaj vosi"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:132
+#: SensorDisplayLib/FancyPlotterSettings.cpp:128
 #, fuzzy
 #| msgid "pixels per time period"
 msgid "Pixels per time period:"
 msgstr "punktaŭ za peŭny čas"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:139
+#: SensorDisplayLib/FancyPlotterSettings.cpp:135
 msgid "Grid"
 msgstr "Sietka"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:143
+#: SensorDisplayLib/FancyPlotterSettings.cpp:139
 msgid "Lines"
 msgstr "Rysy"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:148
+#: SensorDisplayLib/FancyPlotterSettings.cpp:144
 msgid "Vertical lines"
 msgstr "Vertykalnyja rysy"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:149
+#: SensorDisplayLib/FancyPlotterSettings.cpp:145
 msgid "Check this to activate the vertical lines if display is large enough."
 msgstr ""
 "Uklučy hetuju opcyju, kab vertykalnyja rysy pakazvalisia dla dastatkovych "
 "pamieraŭ prahladu."
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:152
+#: SensorDisplayLib/FancyPlotterSettings.cpp:148
 msgid "Distance:"
 msgstr "Adlehłaść:"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:158
+#: SensorDisplayLib/FancyPlotterSettings.cpp:154
 msgid "Enter the distance between two vertical lines here."
 msgstr "Tut aznač adlehłaść pamiž dźviuma vertykalnymi rysami."
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:162
+#: SensorDisplayLib/FancyPlotterSettings.cpp:158
 msgid "Vertical lines scroll"
 msgstr "Prakručvańnie vertykalnych rysaŭ"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:165
+#: SensorDisplayLib/FancyPlotterSettings.cpp:161
 msgid "Horizontal lines"
 msgstr "Haryzantalnyja rysy"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:166
+#: SensorDisplayLib/FancyPlotterSettings.cpp:162
 msgid "Check this to enable horizontal lines if display is large enough."
 msgstr ""
 "Uklučy hetuju opcyju, kab haryzantalnyja rysy pakazvalisia dla dastatkovych "
 "pamieraŭ prahladu."
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:171
+#: SensorDisplayLib/FancyPlotterSettings.cpp:167
 msgid "Text"
 msgstr "Tekst"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:176
+#: SensorDisplayLib/FancyPlotterSettings.cpp:172
 msgid "Show axis labels"
 msgstr "Padpisvaj vosi"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:177
+#: SensorDisplayLib/FancyPlotterSettings.cpp:173
 msgid ""
 "Check this box if horizontal lines should be decorated with the values they "
 "mark."
@@ -708,19 +708,19 @@ msgstr ""
 "Uklučy hetuju opcyju, kab haryzantalnyja rysy pakazvalisia z padpisanymi "
 "značeńniami."
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:219
+#: SensorDisplayLib/FancyPlotterSettings.cpp:215
 msgid "Set Color..."
 msgstr "Aznač koler..."
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:220
+#: SensorDisplayLib/FancyPlotterSettings.cpp:216
 msgid "Push this button to configure the color of the sensor in the diagram."
 msgstr "Klikni ŭ hetuju knopku, kab aznačyć koler sensara ŭ hetym hrafiku."
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:232
+#: SensorDisplayLib/FancyPlotterSettings.cpp:228
 msgid "Move Up"
 msgstr "Pasuń vyšej"
 
-#: SensorDisplayLib/FancyPlotterSettings.cpp:237
+#: SensorDisplayLib/FancyPlotterSettings.cpp:233
 msgid "Move Down"
 msgstr "Pasuń nižej"
 
@@ -808,12 +808,12 @@ msgstr "Koler tekstu:"
 msgid "Grid color:"
 msgstr "Koler sietki:"
 
-#: SensorDisplayLib/LogFile.cpp:94
+#: SensorDisplayLib/LogFile.cpp:93
 msgid "File logging settings"
 msgstr "Nałady fajła dla logaŭ"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cpp:100 SensorDisplayLib/LogFileSettings.ui:54
+#: SensorDisplayLib/LogFile.cpp:99 SensorDisplayLib/LogFileSettings.ui:54
 msgid "Foreground color:"
 msgstr "Hałoŭny koler:"
 
@@ -905,17 +905,17 @@ msgstr "Zvyčajny koler ličbaŭ:"
 msgid "Alarm digit color:"
 msgstr "Tryvožny koler ličbaŭ:"
 
-#: SensorDisplayLib/SensorDisplay.cpp:117
+#: SensorDisplayLib/SensorDisplay.cpp:116
 #: SensorDisplayLib/SensorLogger.cpp:598
 msgid "&Properties"
 msgstr "&Ułaścivaści"
 
-#: SensorDisplayLib/SensorDisplay.cpp:122
+#: SensorDisplayLib/SensorDisplay.cpp:121
 #: SensorDisplayLib/SensorLogger.cpp:603
 msgid "&Remove Display"
 msgstr "&Vydali prahlad"
 
-#: SensorDisplayLib/SensorDisplay.cpp:189
+#: SensorDisplayLib/SensorDisplay.cpp:188
 #, kde-format
 msgid ""
 "<qt><p>This is a sensor display. To customize a sensor display click the "
@@ -963,7 +963,7 @@ msgid "Log File"
 msgstr "Fajł logaŭ"
 
 #: SensorDisplayLib/SensorLogger.cpp:429
-#: SensorDisplayLib/SensorLoggerDlg.cpp:32
+#: SensorDisplayLib/SensorLoggerDlg.cpp:31
 msgid "Sensor Logger"
 msgstr "Zapis źviestak ad sensara"
 
@@ -997,8 +997,8 @@ msgid "Timer Interval"
 msgstr "Intervał hadzińnika"
 
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: SensorDisplayLib/SensorLoggerDlgWidget.ui:49 TimerSettings.cpp:58
-#: WorkSheetSettings.cpp:94
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:49 TimerSettings.cpp:57
+#: WorkSheetSettings.cpp:93
 msgid " sec"
 msgstr " sek"
 
@@ -1073,19 +1073,19 @@ msgstr "Atrymańnik"
 msgid "Sending"
 msgstr ""
 
-#: TimerSettings.cpp:38
+#: TimerSettings.cpp:37
 msgid "Timer Settings"
 msgstr "Nałady hadzińnika"
 
-#: TimerSettings.cpp:48
+#: TimerSettings.cpp:47
 msgid "Use update interval of worksheet"
 msgstr "Zvažaj na termin aktualizacyi rabočaha arkuša"
 
-#: TimerSettings.cpp:51 WorkSheetSettings.cpp:90
+#: TimerSettings.cpp:50 WorkSheetSettings.cpp:89
 msgid "Update interval:"
 msgstr "Termin aktualizacyi:"
 
-#: TimerSettings.cpp:61 WorkSheetSettings.cpp:100
+#: TimerSettings.cpp:60 WorkSheetSettings.cpp:99
 msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
 "Usie prahlady hetaha arkuša aktualizujucca z čaścinioju, aznačanaj tut."
@@ -1159,40 +1159,40 @@ msgstr "&Vydali prahlad"
 msgid "Dummy"
 msgstr "Pusty"
 
-#: WorkSheetSettings.cpp:40
+#: WorkSheetSettings.cpp:39
 msgid "Tab Properties"
 msgstr "Ułaścivaści kartki"
 
-#: WorkSheetSettings.cpp:61
+#: WorkSheetSettings.cpp:60
 msgid "Properties"
 msgstr "Ułaścivaści"
 
-#: WorkSheetSettings.cpp:70
+#: WorkSheetSettings.cpp:69
 msgid "Rows:"
 msgstr "Radkoŭ:"
 
-#: WorkSheetSettings.cpp:79
+#: WorkSheetSettings.cpp:78
 msgid "Columns:"
 msgstr "Słupkoŭ:"
 
-#: WorkSheetSettings.cpp:87
+#: WorkSheetSettings.cpp:86
 msgid "Enter the number of rows the sheet should have."
 msgstr "Upišy kolkaść radkoŭ dla hetaha rabočaha arkuša."
 
-#: WorkSheetSettings.cpp:88
+#: WorkSheetSettings.cpp:87
 msgid "Enter the number of columns the sheet should have."
 msgstr "Upišy kolkaść słupkoŭ dla hetaha rabočaha arkuša."
 
-#: WorkSheetSettings.cpp:101
+#: WorkSheetSettings.cpp:100
 msgid "Enter the title of the worksheet here."
 msgstr "Tut upišy nazvu dla hetaha rabočaha arkuša."
 
-#: Workspace.cpp:115
+#: Workspace.cpp:113
 #, kde-format
 msgid "Sheet %1"
 msgstr "Arkuš „%1”"
 
-#: Workspace.cpp:174
+#: Workspace.cpp:172
 #, kde-format
 msgid ""
 "The tab '%1' contains unsaved data.\n"
@@ -1201,27 +1201,27 @@ msgstr ""
 "Kartka „%1” źmiaščaje niezapisanyja źviestki.\n"
 "Chočaš ich zapisać?"
 
-#: Workspace.cpp:189
+#: Workspace.cpp:187
 msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgstr "*.sgrd|Fajły sensaraŭ (*.sgrd)"
 
-#: Workspace.cpp:189
+#: Workspace.cpp:187
 msgid "Select Tab File to Import"
 msgstr "Vybiery fajł kartak, kab zimpartavać jaho"
 
-#: Workspace.cpp:217 Workspace.cpp:238
+#: Workspace.cpp:215 Workspace.cpp:236
 msgid "You do not have a tab that could be saved."
 msgstr "U ciabie niama kartki, jakuju možna zapisać."
 
-#: Workspace.cpp:245
+#: Workspace.cpp:243
 msgid "Export Tab"
 msgstr "Zekspartuj kartku"
 
-#: Workspace.cpp:263
+#: Workspace.cpp:261
 msgid "There are no tabs that could be deleted."
 msgstr "U ciabie niama kartak, jakija možna vydalić."
 
-#: Workspace.cpp:303
+#: Workspace.cpp:301
 #, kde-format
 msgid ""
 "<qt>To propose the current custom tab as a new System Monitor tab, email "
@@ -1230,7 +1230,7 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: Workspace.cpp:303
+#: Workspace.cpp:301
 #, fuzzy
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"

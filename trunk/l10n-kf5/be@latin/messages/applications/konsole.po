@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-17 08:15+0000\n"
+"POT-Creation-Date: 2014-10-18 08:03+0000\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -222,26 +222,26 @@ msgstr "Koler 8 (intensiŭny)"
 msgid "Un-named Color Scheme"
 msgstr "Nienazvanaja schiema koleraŭ"
 
-#: ColorSchemeEditor.cpp:103
+#: ColorSchemeEditor.cpp:117
 #, fuzzy
 #| msgid "Name"
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "Nazva"
 
-#: ColorSchemeEditor.cpp:104
+#: ColorSchemeEditor.cpp:118
 #, fuzzy
 #| msgid "Color"
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "Koler"
 
-#: ColorSchemeEditor.cpp:105
+#: ColorSchemeEditor.cpp:119
 msgctxt "@label:listbox Column header text for the actual intense colors"
 msgid "Intense color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:130
+#: ColorSchemeEditor.cpp:144
 #, fuzzy
 #| msgid ""
 #| "The background transparency setting will not be used because your desktop "
@@ -254,25 +254,25 @@ msgstr ""
 "Nałady prazrystaha fonu nie paŭpłyvajuć na stoł, tamu što jon nia ŭmieje "
 "rabić vokny prazrystymi."
 
-#: ColorSchemeEditor.cpp:170
+#: ColorSchemeEditor.cpp:184
 msgctxt "@action:button"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:214 ColorSchemeEditor.cpp:215
+#: ColorSchemeEditor.cpp:228 ColorSchemeEditor.cpp:229
 msgid "New Color Scheme"
 msgstr "Novaja schiema koleraŭ"
 
-#: ColorSchemeEditor.cpp:217
+#: ColorSchemeEditor.cpp:231
 msgid "Edit Color Scheme"
 msgstr "Adredahuj schiemu koleraŭ"
 
-#: ColorSchemeEditor.cpp:249
+#: ColorSchemeEditor.cpp:263
 msgctxt "@info:tooltip"
 msgid "Click to choose color"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:254
+#: ColorSchemeEditor.cpp:268
 msgctxt "@info:tooltip"
 msgid "Click to choose intense color"
 msgstr ""
@@ -344,15 +344,15 @@ msgstr "Vyłučy ŭsio"
 msgid "Deselect All"
 msgstr "Anuluj vyłučeńnie ŭsiaho"
 
-#: EditProfileDialog.cpp:76
+#: EditProfileDialog.cpp:72
 msgid "Edit Profile"
 msgstr "Adredahuj profil"
 
-#: EditProfileDialog.cpp:142
+#: EditProfileDialog.cpp:138
 msgid "<p>Each profile must have a name before it can be saved into disk.</p>"
 msgstr ""
 
-#: EditProfileDialog.cpp:173
+#: EditProfileDialog.cpp:169
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgid "Editing profile: %2"
@@ -361,27 +361,27 @@ msgstr[0] "Adredahuj profil „%1”"
 msgstr[1] "Adredahuj profil „%1”"
 msgstr[2] "Adredahuj profil „%1”"
 
-#: EditProfileDialog.cpp:178
+#: EditProfileDialog.cpp:174
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "Adredahuj profil „%1”"
 
-#: EditProfileDialog.cpp:254
+#: EditProfileDialog.cpp:250
 #, fuzzy
 #| msgid "Profile name:"
 msgid "Profile name is empty."
 msgstr "Nazva profilu:"
 
-#: EditProfileDialog.cpp:339
+#: EditProfileDialog.cpp:335
 msgctxt "@info:tooltip"
 msgid "One environment variable per line"
 msgstr ""
 
-#: EditProfileDialog.cpp:341
+#: EditProfileDialog.cpp:337
 msgid "Edit Environment"
 msgstr "Adredahuj asiarodździe"
 
-#: EditProfileDialog.cpp:365
+#: EditProfileDialog.cpp:361
 msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
@@ -389,17 +389,17 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: EditProfileDialog.cpp:433
+#: EditProfileDialog.cpp:429
 msgid "Select Initial Directory"
 msgstr "Vybiery pačatkovy kataloh"
 
-#: EditProfileDialog.cpp:608
+#: EditProfileDialog.cpp:604
 #, fuzzy, kde-format
 #| msgid "%1"
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:797
+#: EditProfileDialog.cpp:793
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
@@ -407,25 +407,25 @@ msgstr ""
 "Hetaja schiema koleraŭ karystajecca prazrystym fonam, jaki nia ŭmieje "
 "absłuhoŭvać hetaja systema."
 
-#: EditProfileDialog.cpp:802
+#: EditProfileDialog.cpp:798
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:907 EditProfileDialog.cpp:918
+#: EditProfileDialog.cpp:903 EditProfileDialog.cpp:914
 msgid "New Key Binding List"
 msgstr "Novy śpis klavijaturnych skarotaŭ"
 
-#: EditProfileDialog.cpp:909
+#: EditProfileDialog.cpp:905
 msgid "Edit Key Binding List"
 msgstr "Adredahuj śpis klavijaturnych skarotaŭ"
 
-#: EditProfileDialog.cpp:1244
+#: EditProfileDialog.cpp:1240
 msgid "--- Type anything in this box ---"
 msgstr ""
 
-#: EditProfileDialog.cpp:1248
+#: EditProfileDialog.cpp:1244
 msgid "Select Fixed Width Font"
 msgstr ""
 
@@ -1112,14 +1112,14 @@ msgstr "Vyšli list da..."
 msgid "Copy Email Address"
 msgstr "Skapijuj paštovy adras"
 
-#: HistorySizeDialog.cpp:34
+#: HistorySizeDialog.cpp:38
 #, fuzzy
 #| msgid "Scrollback"
 msgctxt "@title:window"
 msgid "Adjust Scrollback"
 msgstr "Historyja prakrutki"
 
-#: HistorySizeDialog.cpp:47
+#: HistorySizeDialog.cpp:61
 msgctxt "@info:status"
 msgid "Any adjustments are only temporary to this session."
 msgstr ""
@@ -1988,7 +1988,7 @@ msgstr "Abałonka"
 msgid "Default profile"
 msgstr "Vydali profil"
 
-#: RenameTabDialog.cpp:33
+#: RenameTabDialog.cpp:37
 msgid "Rename Tab"
 msgstr "Źmiani nazvu kartki"
 
@@ -2145,196 +2145,196 @@ msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
 
-#: SessionController.cpp:134
+#: SessionController.cpp:129
 msgid "Konsole"
 msgstr "Konsole"
 
-#: SessionController.cpp:356
+#: SessionController.cpp:351
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:414
+#: SessionController.cpp:409
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: SessionController.cpp:428
+#: SessionController.cpp:423
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Web Shortcuts..."
 msgstr "Kiruj profilami..."
 
-#: SessionController.cpp:567
+#: SessionController.cpp:562
 #, fuzzy
 #| msgid "Konsole"
 msgid "&Close Session"
 msgstr "Konsole"
 
-#: SessionController.cpp:569
+#: SessionController.cpp:564
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
-#: SessionController.cpp:576
+#: SessionController.cpp:571
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:592
+#: SessionController.cpp:587
 msgid "Paste Selection"
 msgstr "Uklej vyłučeńnie"
 
-#: SessionController.cpp:595
+#: SessionController.cpp:590
 msgid "Web Search"
 msgstr ""
 
-#: SessionController.cpp:602
+#: SessionController.cpp:597
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "Vyłučy ŭsio"
 
-#: SessionController.cpp:606
+#: SessionController.cpp:601
 #, fuzzy
 #| msgid "Select"
 msgid "Select &Line"
 msgstr "Vybiery"
 
-#: SessionController.cpp:609
+#: SessionController.cpp:604
 #, fuzzy
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "Zapišy vychodnyja źviestki..."
 
-#: SessionController.cpp:612
+#: SessionController.cpp:607
 msgid "&Print Screen..."
 msgstr ""
 
-#: SessionController.cpp:616
+#: SessionController.cpp:611
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Adjust Scrollback..."
 msgstr "Kiruj profilami..."
 
-#: SessionController.cpp:620
+#: SessionController.cpp:615
 msgid "Clear Scrollback"
 msgstr "Vyčyści historyju prakrutki"
 
-#: SessionController.cpp:624
+#: SessionController.cpp:619
 #, fuzzy
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "Vyčyści historyju prakrutki j viarni nałady"
 
-#: SessionController.cpp:630
+#: SessionController.cpp:625
 msgid "Edit Current Profile..."
 msgstr "Adredahuj dziejny profil..."
 
-#: SessionController.cpp:633
+#: SessionController.cpp:628
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "Adredahuj profil"
 
-#: SessionController.cpp:650
+#: SessionController.cpp:645
 #, fuzzy
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "Kadavańnie"
 
-#: SessionController.cpp:665
+#: SessionController.cpp:660
 msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: SessionController.cpp:671
+#: SessionController.cpp:666
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:678
+#: SessionController.cpp:673
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: SessionController.cpp:684
+#: SessionController.cpp:679
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:692
+#: SessionController.cpp:687
 #, fuzzy
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
 msgstr "Skapijuj uvachodnyja źviestki ŭ..."
 
-#: SessionController.cpp:699
+#: SessionController.cpp:694
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:704
+#: SessionController.cpp:699
 msgid "Monitor for &Activity"
 msgstr "Sačy za &aktyŭnaściu"
 
-#: SessionController.cpp:709
+#: SessionController.cpp:704
 msgid "Monitor for &Silence"
 msgstr "Sačy za &cišynioju"
 
-#: SessionController.cpp:716
+#: SessionController.cpp:711
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:724
+#: SessionController.cpp:719
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Shrink View"
 msgid "Shrink Font"
 msgstr "Zharni prahlad"
 
-#: SessionController.cpp:731
+#: SessionController.cpp:726
 msgid "Send Signal"
 msgstr ""
 
-#: SessionController.cpp:735
+#: SessionController.cpp:730
 msgid "&Suspend Task"
 msgstr ""
 
-#: SessionController.cpp:740
+#: SessionController.cpp:735
 #, fuzzy
 #| msgid "&Close Tab"
 msgid "&Continue Task"
 msgstr "&Začyni kartku"
 
-#: SessionController.cpp:745
+#: SessionController.cpp:740
 msgid "&Hangup"
 msgstr ""
 
-#: SessionController.cpp:750
+#: SessionController.cpp:745
 msgid "&Interrupt Task"
 msgstr ""
 
-#: SessionController.cpp:755
+#: SessionController.cpp:750
 #, fuzzy
 #| msgid "Terminal Features"
 msgid "&Terminate Task"
 msgstr "Zdolnaści terminału"
 
-#: SessionController.cpp:760
+#: SessionController.cpp:755
 msgid "&Kill Task"
 msgstr ""
 
-#: SessionController.cpp:765
+#: SessionController.cpp:760
 msgid "User Signal &1"
 msgstr ""
 
-#: SessionController.cpp:770
+#: SessionController.cpp:765
 msgid "User Signal &2"
 msgstr ""
 
-#: SessionController.cpp:874
+#: SessionController.cpp:869
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "U hetaj sesii ciapier pracuje prahrama. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:877
+#: SessionController.cpp:872
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -2342,11 +2342,11 @@ msgid ""
 msgstr ""
 "U hetaj sesii ciapier pracuje prahrama „%1”. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:880 SessionController.cpp:905
+#: SessionController.cpp:875 SessionController.cpp:900
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: SessionController.cpp:899
+#: SessionController.cpp:894
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -2356,7 +2356,7 @@ msgid ""
 "by force?"
 msgstr "U hetaj sesii ciapier pracuje prahrama. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:902
+#: SessionController.cpp:897
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -2367,50 +2367,50 @@ msgid ""
 msgstr ""
 "U hetaj sesii ciapier pracuje prahrama „%1”. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:1402
+#: SessionController.cpp:1397
 #, fuzzy
 #| msgid "Shell"
 msgid "Print Shell"
 msgstr "Abałonka"
 
-#: SessionController.cpp:1605
+#: SessionController.cpp:1600
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1613
+#: SessionController.cpp:1608
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1625
+#: SessionController.cpp:1620
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1634
+#: SessionController.cpp:1629
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1640
+#: SessionController.cpp:1635
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1707
+#: SessionController.cpp:1702
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapišy vychodnyja źviestki z „%1”"
 
-#: SessionController.cpp:1718
+#: SessionController.cpp:1713
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 "„%1” jość niapravilnym adrasam. Nie ŭdałosia zapisać vychodnyja źviestki."
 
-#: SessionController.cpp:1793
+#: SessionController.cpp:1788
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"

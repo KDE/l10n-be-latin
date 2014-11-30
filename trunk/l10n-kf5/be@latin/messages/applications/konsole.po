@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-28 08:08+0000\n"
+"POT-Creation-Date: 2014-11-30 07:45+0000\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1335,6 +1335,11 @@ msgstr "Uvachod:"
 #: KeyBindingEditor.ui:97
 msgid "Output:"
 msgstr "Vychad:"
+
+#: main.cpp:63
+msgctxt "@title"
+msgid "<application>Konsole</application>"
+msgstr ""
 
 #: main.cpp:65
 #, fuzzy
@@ -2799,6 +2804,13 @@ msgstr "&Začyni kartku"
 msgctxt "@info:whatsthis"
 msgid "Close the active tab"
 msgstr "Začyni panel pošuku"
+
+#: ViewContainerTabBar.cpp:53
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Tab Bar</title><para>The tab bar allows you to switch and move tabs. "
+"You can double-click a tab to change its name.</para>"
+msgstr ""
 
 #: ViewManager.cpp:134
 #, fuzzy

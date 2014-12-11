@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-04 08:19+0000\n"
+"POT-Creation-Date: 2014-12-11 07:57+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -63,6 +63,22 @@ msgstr "Unutrany prahladnik „Troff”"
 msgctxt "Name"
 msgid "KManPart"
 msgstr "KManPart"
+
+#: mtp/mtp-network.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
+msgctxt "Name"
+msgid "MTP Devices"
+msgstr "Pryłady"
+
+#: mtp/solid_mtp.desktop:9
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Open with &default Browser"
+msgctxt "Name"
+msgid "Open with File Manager"
+msgstr "Adčyni ŭ &zmoŭčanym hartačy"
 
 #: network/ioslave/network.desktop:7
 #: network/ioslave/virtualfolder_network.desktop:7
@@ -8397,13 +8413,6 @@ msgstr ""
 #~ msgid "Notifications and access for new devices"
 #~ msgstr "Infarmavańnie j dostup da novych pryładaŭ"
 
-#, fuzzy
-#~| msgctxt "Description"
-#~| msgid "Open with &default Browser"
-#~ msgctxt "Name"
-#~ msgid "Open with File Manager"
-#~ msgstr "Adčyni ŭ &zmoŭčanym hartačy"
-
 #~ msgctxt "Name"
 #~ msgid "Digital Clock"
 #~ msgstr "Ličbavy hadzińnik"
@@ -8873,13 +8882,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Executes shell commands"
 #~ msgstr "Vykanańnie zahadaŭ abałonki."
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
-#~ msgctxt "Name|plasma runner"
-#~ msgid "Devices"
-#~ msgstr "Pryłady"
 
 #, fuzzy
 #~| msgctxt "Name"

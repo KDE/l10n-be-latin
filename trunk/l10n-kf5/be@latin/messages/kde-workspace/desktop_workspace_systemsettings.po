@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-29 07:56+0000\n"
+"POT-Creation-Date: 2014-12-13 08:10+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -122,6 +122,7 @@ msgid "Hardware"
 msgstr "Aparatura"
 
 #: categories/old/settings-input-devices.desktop:8
+#: categories/settings-hardware-input.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
@@ -275,14 +276,6 @@ msgctxt "Name"
 msgid "Workspace Theme"
 msgstr "Uklučeńnie aplikacyi"
 
-#: categories/settings-hardware-input.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Devices"
-msgctxt "Name"
-msgid "Human Input Devices"
-msgstr "Pryłady"
-
 #: categories/settings-hardware-peripherals.desktop:9
 msgctxt "Name"
 msgid "Peripherals"
@@ -426,6 +419,13 @@ msgstr "Prahladnik šryftoŭ"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Devices"
+#~ msgctxt "Name"
+#~ msgid "Human Input Devices"
+#~ msgstr "Pryłady"
 
 #, fuzzy
 #~| msgctxt "Name"

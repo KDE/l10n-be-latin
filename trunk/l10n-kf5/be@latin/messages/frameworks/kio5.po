@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-16 10:08+0000\n"
+"POT-Creation-Date: 2014-12-17 07:41+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4433,8 +4433,10 @@ msgid "Accept"
 msgstr ""
 
 #: kcms/kio/kcookiespolicyselectiondlg.h:38
-msgid "AcceptForSession"
-msgstr ""
+#, fuzzy
+#| msgid "End of Session"
+msgid "Accept For Session"
+msgstr "Kaniec sesii"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.h:40
@@ -4451,8 +4453,10 @@ msgid "Ask"
 msgstr ""
 
 #: kcms/kio/kcookiespolicyselectiondlg.h:44
-msgid "Dunno"
-msgstr ""
+#, fuzzy
+#| msgid "Do Not Store"
+msgid "Do Not Know"
+msgstr "Nie zachoŭvaj"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbDomain)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:22

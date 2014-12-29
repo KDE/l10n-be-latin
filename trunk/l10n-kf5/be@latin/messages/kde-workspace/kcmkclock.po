@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-07 08:17+0000\n"
+"POT-Creation-Date: 2014-12-29 07:54+0000\n"
 "PO-Revision-Date: 2008-12-11 22:05+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -75,57 +75,57 @@ msgstr "Dziejny miascovy časavy pojas: %1 (%2)"
 msgid "Search"
 msgstr ""
 
-#: dtime.cpp:78
+#: dtime.cpp:77
 msgid ""
 "No NTP utility has been found. Install 'ntpdate' or 'rdate' command to "
 "enable automatic updating of date and time."
 msgstr ""
 
-#: dtime.cpp:108
+#: dtime.cpp:107
 msgid ""
 "Here you can change the system time. Click into the hours, minutes or "
 "seconds field to change the relevant value, either using the up and down "
 "buttons to the right or by entering a new value."
 msgstr ""
 
-#: dtime.cpp:130
+#: dtime.cpp:129
 #, fuzzy, kde-format
 #| msgid "Current local time zone: %1 (%2)"
 msgctxt "%1 is name of time zone"
 msgid "Current local time zone: %1"
 msgstr "Dziejny miascovy časavy pojas: %1 (%2)"
 
-#: dtime.cpp:134
+#: dtime.cpp:133
 #, fuzzy, kde-format
 #| msgid "Current local time zone: %1 (%2)"
 msgctxt "%1 is name of time zone, %2 is its abbreviation"
 msgid "Current local time zone: %1 (%2)"
 msgstr "Dziejny miascovy časavy pojas: %1 (%2)"
 
-#: dtime.cpp:202
+#: dtime.cpp:201
 msgid ""
 "Public Time Server (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
 "north-america.pool.ntp.org,oceania.pool.ntp.org"
 msgstr ""
 
-#: dtime.cpp:284
+#: dtime.cpp:283
 #, kde-format
 msgid "Unable to contact time server: %1."
 msgstr "Nie ŭdałosia spałučycca z serveram času: %1"
 
-#: dtime.cpp:288
+#: dtime.cpp:287
 msgid "Can not set date."
 msgstr "Nie ŭdałosia nastavić datu."
 
-#: dtime.cpp:291
+#: dtime.cpp:290
 msgid "Error setting new time zone."
 msgstr "Padčas nastaŭleńnia novaha časavaha pojasu ŭźnikła pamyłka."
 
-#: dtime.cpp:292
+#: dtime.cpp:291
 msgid "Time zone Error"
 msgstr "Pamyłka časavaha pojasu"
 
-#: dtime.cpp:309
+#: dtime.cpp:308
 msgid ""
 "<h1>Date & Time</h1> This system settings module can be used to set the "
 "system date and time. As these settings do not only affect you as a user, "

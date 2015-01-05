@@ -190,21 +190,21 @@ msgstr ""
 "</p><p>Padrabiaźniej pra pierakład KDE možna daviedacca na placoŭcy: <a href="
 "\"http://l10n.kde.org\">http://l10n.kde.org</a></p>"
 
-#: lib/kaboutdata.cpp:942
+#: lib/kaboutdata.cpp:949
 #, fuzzy
 #| msgid "Show author information"
 msgctxt "KAboutData CLI|"
 msgid "Show author information."
 msgstr "Pakažy źviestki pra aŭtara"
 
-#: lib/kaboutdata.cpp:943
+#: lib/kaboutdata.cpp:950
 #, fuzzy
 #| msgid "Show license information"
 msgctxt "KAboutData CLI|"
 msgid "Show license information."
 msgstr "Pakažy źviestki pra licenziju"
 
-#: lib/kaboutdata.cpp:952
+#: lib/kaboutdata.cpp:959
 #, fuzzy
 #| msgid ""
 #| "This application was written by somebody who wants to remain anonymous."
@@ -212,7 +212,7 @@ msgctxt "KAboutData CLI|"
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "Hetaja aplikacyja napisanaja kimści, chto choča zastacca nieviadomym."
 
-#: lib/kaboutdata.cpp:954
+#: lib/kaboutdata.cpp:961
 #, fuzzy
 #| msgctxt "the 2nd argument is a list of name+address, one on each line"
 #| msgid ""
@@ -223,6 +223,21 @@ msgid "%s was written by:\n"
 msgstr ""
 "%1 napisali\n"
 "%2"
+
+#: lib/kaboutdata.cpp:972
+#, fuzzy
+#| msgid "Please use http://bugs.kde.org to report bugs.\n"
+msgctxt "KAboutData CLI|"
+msgid "Please use http://bugs.kde.org to report bugs."
+msgstr ""
+"Kali łaska, paviedamlaj pra chiby praz placoŭku: http://bugs.kde.org.\n"
+
+#: lib/kaboutdata.cpp:974
+#, fuzzy
+#| msgid "Please report bugs to %1.\n"
+msgctxt "KAboutData CLI|"
+msgid "Please report bugs to %s.\n"
+msgstr "Kali łaska, paviedamlaj pra chiby praz placoŭku: %1.\n"
 
 #: lib/plugin/kpluginloader.cpp:121
 #, fuzzy, qt-format
@@ -1759,13 +1774,6 @@ msgstr "%1, %2"
 #~ msgctxt "@info:shell %1 is cmdoption name"
 #~ msgid "'%1' missing."
 #~ msgstr "Nie staje „%1”."
-
-#~ msgid "Please use http://bugs.kde.org to report bugs.\n"
-#~ msgstr ""
-#~ "Kali łaska, paviedamlaj pra chiby praz placoŭku: http://bugs.kde.org.\n"
-
-#~ msgid "Please report bugs to %1.\n"
-#~ msgstr "Kali łaska, paviedamlaj pra chiby praz placoŭku: %1.\n"
 
 #~ msgid "Unexpected argument '%1'."
 #~ msgstr "Niečakany arhument „%1”."

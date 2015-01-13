@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-07 09:42+0000\n"
+"POT-Creation-Date: 2014-12-02 10:05+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -16,15 +16,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: clients/aurorae/src/aurorae.desktop:2
-msgctxt "Name"
-msgid "Aurorae Decoration Theme Engine"
-msgstr ""
-
 #: clients/aurorae/src/kwindecoration.desktop:5
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Information"
 msgctxt "Comment"
 msgid "KWin Window Decoration"
 msgstr "Źviestki z akna"
@@ -56,8 +49,6 @@ msgstr "Rabočy kub"
 
 #: effects/cube/cubeslide_config.desktop:8
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Cube"
 msgctxt "Name"
 msgid "Desktop Cube Animation"
 msgstr "Rabočy kub"
@@ -89,8 +80,6 @@ msgstr ""
 
 #: effects/fadedesktop/package/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "SaverDesktop"
 msgctxt "Name"
 msgid "Fade Desktop"
 msgstr "SaverDesktop"
@@ -117,8 +106,6 @@ msgstr ""
 
 #: effects/glide/glide_config.desktop:8
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Glines"
 msgctxt "Name"
 msgid "Glide"
 msgstr "Glines"
@@ -163,18 +150,14 @@ msgctxt "Comment"
 msgid "Animation for a window going to maximize/restore from maximize"
 msgstr ""
 
-#: effects/maximize/package/metadata.desktop:47
+#: effects/maximize/package/metadata.desktop:48
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Maximize"
 msgctxt "Name"
 msgid "Maximize"
 msgstr "Maksymalizacyja akna"
 
 #: effects/mouseclick/mouseclick_config.desktop:8
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "More Applications"
 msgctxt "Name"
 msgid "Mouse Click Animation"
 msgstr "Jašče"
@@ -191,8 +174,6 @@ msgstr "Najaŭnyja vokny"
 
 #: effects/resize/resize_config.desktop:8
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Present Windows"
 msgctxt "Name"
 msgid "Resize Window"
 msgstr "Najaŭnyja vokny"
@@ -234,8 +215,6 @@ msgstr "Robić vokny prazrystymi dla peŭnych umovaŭ"
 
 #: effects/windowgeometry/windowgeometry_config.desktop:8
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Move Start"
 msgctxt "Name"
 msgid "WindowGeometry"
 msgstr "Pačatak pierasoŭvańnia akna"
@@ -252,21 +231,17 @@ msgstr "Maštab"
 
 #: kcmkwin/kwincompositing/kcmkwineffects.desktop:15
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Cube"
 msgctxt "Name"
 msgid "Desktop Effects"
 msgstr "Rabočy kub"
 
 #: kcmkwin/kwincompositing/kcmkwineffects.desktop:55
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Cube"
 msgctxt "Comment"
 msgid "Desktop Effects"
 msgstr "Rabočy kub"
 
-#: kcmkwin/kwincompositing/kcmkwineffects.desktop:89
+#: kcmkwin/kwincompositing/kcmkwineffects.desktop:91
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,compositing,effect,3D effects,2D effects,OpenGL,XRender,"
@@ -293,12 +268,12 @@ msgctxt "Name"
 msgid "Compositor"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kwincompositing.desktop:51
+#: kcmkwin/kwincompositing/kwincompositing.desktop:52
 msgctxt "Comment"
 msgid "Compositor Settings for Desktop Effects"
 msgstr ""
 
-#: kcmkwin/kwincompositing/kwincompositing.desktop:83
+#: kcmkwin/kwincompositing/kwincompositing.desktop:87
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,compositing,effect,3D effects,2D effects,OpenGL,XRender,"
@@ -307,21 +282,17 @@ msgstr ""
 
 #: kcmkwin/kwindecoration/kwindecoration.desktop:14
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Information"
 msgctxt "Name"
 msgid "Window Decorations"
 msgstr "Źviestki z akna"
 
 #: kcmkwin/kwindecoration/kwindecoration.desktop:76
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the look and feel of window titles"
 msgctxt "Comment"
 msgid "Look and Feel of Window Titles"
 msgstr "Nałady vyhladu zahałoŭkaŭ akon"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:108
+#: kcmkwin/kwindecoration/kwindecoration.desktop:110
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,edge,"
@@ -330,8 +301,6 @@ msgstr ""
 
 #: kcmkwin/kwindesktop/desktop.desktop:14
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop"
 msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "Rabočy stoł"
@@ -341,7 +310,7 @@ msgctxt "Comment"
 msgid "Navigation, Number and Layout of Virtual Desktops"
 msgstr ""
 
-#: kcmkwin/kwindesktop/desktop.desktop:108
+#: kcmkwin/kwindesktop/desktop.desktop:111
 msgctxt "X-KDE-Keywords"
 msgid ""
 "desktop,desktops,number,virtual desktop,multiple desktops,pager,pager widget,"
@@ -355,13 +324,11 @@ msgstr "Aperacyi"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:103
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure trash settings"
 msgctxt "Comment"
 msgid "Mouse Actions on Windows"
 msgstr "Naładź śmietnicu"
 
-#: kcmkwin/kwinoptions/kwinactions.desktop:135
+#: kcmkwin/kwinoptions/kwinactions.desktop:137
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
@@ -375,13 +342,11 @@ msgstr "Asablivaje"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:102
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure advanced window management features"
 msgctxt "Comment"
 msgid "Advanced Window Management Features"
 msgstr "Nałady asablivych mahčymaściaŭ u kiravańni voknami"
 
-#: kcmkwin/kwinoptions/kwinadvanced.desktop:134
+#: kcmkwin/kwinoptions/kwinadvanced.desktop:136
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shading,border,hover,active borders,tiling,tabs,tabbing,window tabbing,"
@@ -399,7 +364,7 @@ msgctxt "Comment"
 msgid "Active Window Policy"
 msgstr ""
 
-#: kcmkwin/kwinoptions/kwinfocus.desktop:131
+#: kcmkwin/kwinoptions/kwinfocus.desktop:133
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,auto raise,raise,click raise,keyboard,CDE,alt-tab,all "
@@ -414,13 +379,11 @@ msgstr "Pierasoŭvańnie"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:101
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Information"
 msgctxt "Comment"
 msgid "Window Moving"
 msgstr "Źviestki z akna"
 
-#: kcmkwin/kwinoptions/kwinmoving.desktop:133
+#: kcmkwin/kwinoptions/kwinmoving.desktop:136
 msgctxt "X-KDE-Keywords"
 msgid "moving,smart,cascade,maximize,maximise,snap zone,snap,border"
 msgstr ""
@@ -432,13 +395,11 @@ msgstr "Pavodziny akna"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:104
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Behavior"
 msgctxt "Comment"
 msgid "Window Actions and Behavior"
 msgstr "Pavodziny akna"
 
-#: kcmkwin/kwinoptions/kwinoptions.desktop:136
+#: kcmkwin/kwinoptions/kwinoptions.desktop:138
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,window behavior,window actions,animation,raise,auto raise,"
@@ -447,21 +408,17 @@ msgstr ""
 
 #: kcmkwin/kwinrules/kwinrules.desktop:14
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Close"
 msgctxt "Name"
 msgid "Window Rules"
 msgstr "Začynieńnie akna"
 
 #: kcmkwin/kwinrules/kwinrules.desktop:77
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Behavior"
 msgctxt "Comment"
 msgid "Individual Window Behavior"
 msgstr "Pavodziny akna"
 
-#: kcmkwin/kwinrules/kwinrules.desktop:109
+#: kcmkwin/kwinrules/kwinrules.desktop:111
 msgctxt "X-KDE-Keywords"
 msgid ""
 "size,position,state,window behavior,windows,specific,workarounds,remember,"
@@ -470,8 +427,6 @@ msgstr ""
 
 #: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:14
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
 msgctxt "Name"
 msgid "Screen Edges"
 msgstr "Achoŭnik ekrana"
@@ -481,7 +436,7 @@ msgctxt "Comment"
 msgid "Active Screen Corners and Edges"
 msgstr ""
 
-#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:115
+#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:117
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
@@ -491,16 +446,12 @@ msgstr ""
 
 #: kcmkwin/kwinscripts/kwinscripts.desktop:11
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "CGI Scripts"
 msgctxt "X-KDE-Keywords"
 msgid "kwin script"
 msgstr "Skrypty CGI"
 
 #: kcmkwin/kwinscripts/kwinscripts.desktop:61
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "CGI Scripts"
 msgctxt "Name"
 msgid "KWin Scripts"
 msgstr "Skrypty CGI"
@@ -520,7 +471,7 @@ msgctxt "Comment"
 msgid "Navigation Through Windows"
 msgstr ""
 
-#: kcmkwin/kwintabbox/kwintabbox.desktop:104
+#: kcmkwin/kwintabbox/kwintabbox.desktop:107
 msgctxt "X-KDE-Keywords"
 msgid ""
 "window,windows,switcher,window switcher,switching,window switching,alttab,"
@@ -529,16 +480,12 @@ msgstr ""
 
 #: kwin.notifyrc:3
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Manager"
 msgctxt "Comment"
 msgid "KWin Window Manager"
 msgstr "Akońnik"
 
 #: kwin.notifyrc:69
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Strigi file indexing has been suspended"
 msgctxt "Name"
 msgid "Compositing has been suspended"
 msgstr "Słužba „Strigi” pierapyniła indeksavańnie fajłaŭ."
@@ -550,8 +497,6 @@ msgstr ""
 
 #: kwin.notifyrc:199
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Graphics"
 msgctxt "Name"
 msgid "Graphics Reset"
 msgstr "Hrafika"
@@ -563,16 +508,12 @@ msgstr ""
 
 #: scripting/kwinscript.desktop:5
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "CGI Scripts"
 msgctxt "Comment"
 msgid "KWin Script"
 msgstr "Skrypty CGI"
 
 #: scripts/desktopchangeosd/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Cube"
 msgctxt "Name"
 msgid "Desktop Change OSD"
 msgstr "Rabočy kub"
@@ -584,13 +525,11 @@ msgstr ""
 
 #: scripts/enforcedeco/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Information"
 msgctxt "Name"
 msgid "Enforces Window Decorations on GTK+ window"
 msgstr "Źviestki z akna"
 
-#: scripts/enforcedeco/metadata.desktop:33
+#: scripts/enforcedeco/metadata.desktop:35
 msgctxt "Comment"
 msgid "Fixes functional deficits for client side decorated windows."
 msgstr ""
@@ -609,8 +548,6 @@ msgstr ""
 
 #: scripts/videowall/metadata.desktop:2
 #, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Video Player"
 msgctxt "Name"
 msgid "Video Wall"
 msgstr "Prajhravańnik videa"
@@ -624,142 +561,60 @@ msgstr ""
 
 #: tabbox/kwindesktopswitcher.desktop:5
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Manager"
 msgctxt "Comment"
 msgid "KWin Desktop Switcher Layout"
 msgstr "Akońnik"
 
 #: tabbox/kwinwindowswitcher.desktop:5
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Manager"
 msgctxt "Comment"
 msgid "KWin Window Switcher Layout"
 msgstr "Akońnik"
 
-#: tabbox/qml/clients/big_icons/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Icons"
-msgctxt "Name"
-msgid "Large Icons"
-msgstr "Ikony"
+#~ msgctxt "Name"
+#~ msgid "Large Icons"
+#~ msgstr "Ikony"
 
-#: tabbox/qml/clients/big_icons/metadata.desktop:51
-msgctxt "Comment"
-msgid "A window switcher layout using large icons to represent the window"
-msgstr ""
-
-#: tabbox/qml/clients/compact/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Compiz"
-msgctxt "Name"
-msgid "Compact"
-msgstr "Compiz"
+#~ msgctxt "Name"
+#~ msgid "Compact"
+#~ msgstr "Compiz"
 
-#: tabbox/qml/clients/compact/metadata.desktop:51
-msgctxt "Comment"
-msgid "A compact window switcher layout"
-msgstr ""
-
-#: tabbox/qml/clients/informative/metadata.desktop:2
-#: tabbox/qml/desktops/informative/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Information"
-msgctxt "Name"
-msgid "Informative"
-msgstr "Źviestki"
+#~ msgctxt "Name"
+#~ msgid "Informative"
+#~ msgstr "Źviestki"
 
-#: tabbox/qml/clients/informative/metadata.desktop:51
-msgctxt "Comment"
-msgid "An informative window switcher layout including desktop name"
-msgstr ""
-
-#: tabbox/qml/clients/present_windows/metadata.desktop:2
-msgctxt "Name"
-msgid "Grid"
-msgstr ""
-
-#: tabbox/qml/clients/present_windows/metadata.desktop:52
-msgctxt "Comment"
-msgid "A Window Switcher layout showing all windows as thumbnails in a grid"
-msgstr ""
-
-#: tabbox/qml/clients/sidebar/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "History Sidebar"
-msgctxt "Name"
-msgid "Sidebar"
-msgstr "Bakavaja panel historyi"
+#~ msgctxt "Name"
+#~ msgid "Small Icons"
+#~ msgstr "Ikony"
 
-#: tabbox/qml/clients/sidebar/metadata.desktop:64
-msgctxt "Comment"
-msgid "A window switcher with live thumbnails on the screen side"
-msgstr ""
-
-#: tabbox/qml/clients/small_icons/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Icons"
-msgctxt "Name"
-msgid "Small Icons"
-msgstr "Ikony"
+#~ msgctxt "Name"
+#~ msgid "Text Only"
+#~ msgstr "Tekstavy fajł"
 
-#: tabbox/qml/clients/small_icons/metadata.desktop:50
-msgctxt "Comment"
-msgid "A window switcher layout using small icons to represent the window"
-msgstr ""
-
-#: tabbox/qml/clients/text/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Description"
-#| msgid "Text File"
-msgctxt "Name"
-msgid "Text Only"
-msgstr "Tekstavy fajł"
+#~ msgctxt "Name"
+#~ msgid "Thumbnails"
+#~ msgstr "Padhlady akon"
 
-#: tabbox/qml/clients/text/metadata.desktop:39
-msgctxt "Comment"
-msgid "A window switcher layout only showing window captions"
-msgstr ""
-
-#: tabbox/qml/clients/thumbnails/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Thumbnail Aside"
-msgctxt "Name"
-msgid "Thumbnails"
-msgstr "Padhlady akon"
+#~ msgctxt "Comment"
+#~ msgid "An informative desktop switcher layout"
+#~ msgstr "Akońnik"
 
-#: tabbox/qml/clients/thumbnails/metadata.desktop:49
-msgctxt "Comment"
-msgid "A window switcher layout using live thumbnails"
-msgstr ""
-
-#: tabbox/qml/desktops/informative/metadata.desktop:51
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Manager"
-msgctxt "Comment"
-msgid "An informative desktop switcher layout"
-msgstr "Akońnik"
+#~ msgctxt "Name"
+#~ msgid "Previews"
+#~ msgstr "Padhlad fajłaŭ"
 
-#: tabbox/qml/desktops/previews/metadata.desktop:2
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "File Preview"
-msgctxt "Name"
-msgid "Previews"
-msgstr "Padhlad fajłaŭ"
-
-#: tabbox/qml/desktops/previews/metadata.desktop:45
-msgctxt "Comment"
-msgid "A desktop switcher layout with previews of the desktops"
-msgstr ""
+#~ msgctxt "Name"
+#~ msgid "Sidebar"
+#~ msgstr "Bakavaja panel historyi"
 
 #~ msgctxt "Comment"
 #~ msgid "You can configure how many virtual desktops there are."
@@ -782,15 +637,11 @@ msgstr ""
 #~ msgstr "Nałady dla peŭnaha akna"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure web cache settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure active screen edges"
 #~ msgstr "Naładź padručnuju pamiać sieciva"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure the behavior of Java and JavaScript"
 #~ msgctxt "Comment"
 #~ msgid "Configure the behavior for navigating through windows"
 #~ msgstr "Naładź pavodziny hartača dla prahramaŭ Java i JavaScript"
@@ -800,22 +651,16 @@ msgstr ""
 #~ msgstr "Pakazvaje virtualnyja rabočyja stały na bakoch kuba"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Make windows explode when they are closed"
 #~ msgctxt "Comment"
 #~ msgid "Windows Glide Effect as they are open and closed"
 #~ msgstr "Vokny začyniajucca z vybucham."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Duplicate Window"
 #~ msgctxt "Name"
 #~ msgid "Highlight Window"
 #~ msgstr "Skapijuj akno"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display window thumbnails when hovering over taskbar entries"
 #~ msgctxt "Comment"
 #~ msgid "Highlight the appropriate window when hovering over taskbar entries"
 #~ msgstr ""
@@ -826,8 +671,6 @@ msgstr ""
 #~ msgstr "Invertuje kolery stała j akon"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Splash Screen"
 #~ msgctxt "Name"
 #~ msgid "Kscreen"
 #~ msgstr "Zastaŭka"
@@ -857,43 +700,31 @@ msgstr ""
 #~ msgstr "Uklučaje malavańnie rysaŭ na rabočym stale."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screen Edge"
 #~ msgstr "Achoŭnik ekrana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screenshot"
 #~ msgstr "Achoŭnik ekrana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Stylesheets"
 #~ msgctxt "Name"
 #~ msgid "Sheet"
 #~ msgstr "Stylnyja arkušy"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "System information for Plasmoids"
 #~ msgctxt "Comment"
 #~ msgid "Sliding animation for Plasma popups"
 #~ msgstr "Systemnyja źviestki dla widžetaŭ „Plasma”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Saint Helena"
 #~ msgctxt "Name"
 #~ msgid "Snap Helper"
 #~ msgstr "Vyspa Śviatoj Aleny"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Launch Feedback"
 #~ msgctxt "Name"
 #~ msgid "Startup Feedback"
 #~ msgstr "Vyjaŭleńnie ŭklučeńnia"

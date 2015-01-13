@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-07 11:30+0000\n"
+"POT-Creation-Date: 2014-12-11 07:57+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -18,8 +18,6 @@ msgstr ""
 
 #: desktop/desktopnotifier.desktop:3
 #, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Analyzer"
 msgctxt "Name"
 msgid "Directory Watcher"
 msgstr "Analizatar sietki"
@@ -64,6 +62,18 @@ msgctxt "Name"
 msgid "KManPart"
 msgstr "KManPart"
 
+#: mtp/mtp-network.desktop:3
+#, fuzzy
+msgctxt "Name"
+msgid "MTP Devices"
+msgstr "Pryłady"
+
+#: mtp/solid_mtp.desktop:9
+#, fuzzy
+msgctxt "Name"
+msgid "Open with File Manager"
+msgstr "Adčyni ŭ &zmoŭčanym hartačy"
+
 #: network/ioslave/network.desktop:7
 #: network/ioslave/virtualfolder_network.desktop:7
 msgctxt "Name"
@@ -72,16 +82,12 @@ msgstr "Sietka"
 
 #: network/ioslave/network.protocol:10
 #, fuzzy
-#| msgctxt "Description"
-#| msgid "A kioslave for the FISH protocol"
 msgctxt "Description"
 msgid "A kioslave to browse the network"
 msgstr "Słužba „kioslave” dla pratakoła FISH"
 
 #: network/kded/networkwatcher.desktop:8
 #, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Analyzer"
 msgctxt "Name"
 msgid "Network Watcher"
 msgstr "Analizatar sietki"
@@ -95,16 +101,12 @@ msgstr ""
 
 #: recentdocuments/recentdocumentsnotifier.desktop:3
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Recent Documents"
 msgctxt "Name"
 msgid "Recent Document Watcher"
 msgstr "Niadaŭnyja dakumenty"
 
 #: recentdocuments/recentdocumentsnotifier.desktop:69
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Recent Documents"
 msgctxt "Comment"
 msgid "Monitors \"Recent Documents\" folder for changes"
 msgstr "Niadaŭnyja dakumenty"
@@ -121,8 +123,6 @@ msgstr "Supolnyja resursy „Samba”"
 
 #: thumbnail/comicbookthumbnail.desktop:4
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Comoros"
 msgctxt "Name"
 msgid "Comic Books"
 msgstr "Kamorskija vyspy"
@@ -134,16 +134,12 @@ msgstr "Fajły kursoraŭ"
 
 #: thumbnail/desktopthumbnail.desktop:3
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Cube"
 msgctxt "Name"
 msgid "Desktop Files"
 msgstr "Rabočy kub"
 
 #: thumbnail/directorythumbnail.desktop:3
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Folder"
 msgctxt "Name"
 msgid "Folders"
 msgstr "Kataloh"
@@ -170,16 +166,12 @@ msgstr ""
 
 #: thumbnail/jpegthumbnail.desktop:3
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "EXR Images"
 msgctxt "Name"
 msgid "JPEG Images"
 msgstr "Vyjavy EXR"
 
 #: thumbnail/svgthumbnail.desktop:3
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "Images"
 msgctxt "Name"
 msgid "SVG Images"
 msgstr "Vyjavy"
@@ -213,8 +205,6 @@ msgstr ""
 #~ msgstr "Naładź śmietnicu"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Trash"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "trash"
 #~ msgstr "Śmietnica"
@@ -248,15 +238,11 @@ msgstr ""
 #~ msgstr "Systema pošuku"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Digital Clock"
 #~ msgctxt "Name"
 #~ msgid "7Digital"
 #~ msgstr "Ličbavy hadzińnik"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.iblist.com/search/search.php?item=\\\\{@}&submit=Search"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://us.7digital.com/Search?search=\\\\{@}"
@@ -268,15 +254,11 @@ msgstr ""
 #~ msgstr "Baza akronimaŭ"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.abbreviations.com/\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Oman"
 #~ msgctxt "Name"
 #~ msgid "Amazon"
 #~ msgstr "Aman"
@@ -286,8 +268,6 @@ msgstr ""
 #~ msgstr "All Music Guide"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.allmusic.com/search/all/\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -297,29 +277,21 @@ msgstr ""
 #~ msgstr "Pošuk „Backports” dla systemy „Debian”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.baidu.com/s?wd=\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Benin"
 #~ msgctxt "Name"
 #~ msgid "Bing"
 #~ msgstr "Benin"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.bing.com/search?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://blip.tv/search?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -329,8 +301,6 @@ msgstr ""
 #~ msgstr "Paŭnatekstavy pošuk u bazie viadomych chibaŭ KDE"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://bugs.kde.org/buglist.cgi?quicksearch=\\\\{@}"
 #~ msgstr "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
@@ -340,8 +310,6 @@ msgstr ""
 #~ msgstr "Pošuk u bazie viadomych chibaŭ KDE pavodle numara"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
 #~ msgstr "http://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
@@ -351,8 +319,6 @@ msgstr ""
 #~ msgstr "Baza źviestak „QRZ.com Callsign”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.qrz.com/db/\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
@@ -366,9 +332,6 @@ msgstr ""
 #~ msgstr "„CiteSeer”: navukovaja elektronnaja biblijateka"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://citeseer.ist.psu.edu/cs?q=\\\\{@}&submit=Search+Documents&cs=1"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://citeseer.ist.psu.edu/search?q=\\\\{@}&submit=Search&sort=rlv&t=doc"
@@ -380,10 +343,6 @@ msgstr ""
 #~ msgstr "CPAN: zbor prahramaŭ u movie „Perl”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://search.cpan.org/search?mode=\\\\{mode,2,\"dist\"}&query=\\"
-#~| "\\{query,q,1}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://search.cpan.org/search?mode=\\\\{mode,2,\"\"}&query=\\\\{query,q,1}"
@@ -408,8 +367,6 @@ msgstr ""
 #~ msgstr "CTAN: zbor prahramaŭ u movie „TeX”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dict.leo.org/?search=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://ctan.org/search?phrase=\\\\{@}"
 #~ msgstr "http://dict.leo.org/?search=\\\\{@}"
@@ -447,8 +404,6 @@ msgstr ""
 #~ msgstr "http://packages.debian.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.cnrtl.fr/definition/\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
@@ -478,36 +433,26 @@ msgstr ""
 #~ msgstr "http://dx.doi.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dx.doi.org/\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://duckduckgo.com/?q=\\\\{@}&t=kde"
 #~ msgstr "http://dx.doi.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dx.doi.org/\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://duckduckgo.com/?q=\\\\{@}&v=r&t=kde"
 #~ msgstr "http://dx.doi.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dx.doi.org/\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://duckduckgo.com/?q=\\\\{@}&v=s&t=kde"
 #~ msgstr "http://dx.doi.org/\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Ecosia search engine"
 #~ msgstr "Systema pošuku"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://ecosia.org/search.php?q=\\\\{@}&meta=normal"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -549,29 +494,21 @@ msgstr ""
 #~ msgstr "http://www.wordreference.com/es/en/translation.asp?spen=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "ickle"
 #~ msgctxt "Name"
 #~ msgid "Ethicle"
 #~ msgstr "ickle"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.ethicle.com/search.php?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Faces"
 #~ msgctxt "Name"
 #~ msgid "Facebook"
 #~ msgstr "Faces"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://www.facebook.com/search/?q=\\\\{@}&init=quick"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -581,9 +518,6 @@ msgstr ""
 #~ msgstr "Feedster"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.feedster.com/index.php?page=search/web&type=Web&search=\\\\{@}"
@@ -591,15 +525,11 @@ msgstr ""
 #~ "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://www.flickr.com/search/?q=\\\\{@}&l=cc&ct=0&mt=all&adv=1"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.flickr.com/search/?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -609,8 +539,6 @@ msgstr ""
 #~ msgstr "Svabodny sieciŭny kamputarny słoŭnik"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dx.doi.org/\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://foldoc.org/\\\\{@}"
 #~ msgstr "http://dx.doi.org/\\\\{@}"
@@ -628,15 +556,11 @@ msgstr ""
 #~ msgstr "http://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Greece"
 #~ msgctxt "Name"
 #~ msgid "Freecode"
 #~ msgstr "Hrecyja"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://freecode.com/search?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -658,22 +582,16 @@ msgstr ""
 #~ msgstr "http://directory.fsf.org/search/?query=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://github.com/search?q=\\\\{@}&x=0&y=0"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Editors"
 #~ msgctxt "Name"
 #~ msgid "Gitorious"
 #~ msgstr "Redaktary"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://gitorious.org/search?q=\\\\{@}&commit=Search"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -683,14 +601,6 @@ msgstr ""
 #~ msgstr "Asablivy pošuk „Google”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.google.com/search?as_q=\\\\{all,@}&num=\\\\{num,\"10\"}"
-#~| "&btnG=Google+Search&as_epq=\\\\{exact,\"\"}&as_oq=\\\\{any,\"\"}&as_eq=\\"
-#~| "\\{without,\"\"}&lr=\\\\{lang,\"\"}&as_ft=\\\\{ft,\"i\"}&as_filetype=\\"
-#~| "\\{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}"
-#~| "&as_dt=\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,"
-#~| "\"active\"}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "https://www.google.com/search?as_q=\\\\{all,@}&num=\\\\{num,\"10\"}"
@@ -708,15 +618,11 @@ msgstr ""
 #~ "\"}&ie=UTF-8&oe=UTF-8"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Google Movies"
 #~ msgctxt "Name"
 #~ msgid "Google Code"
 #~ msgstr "Filmy „Google”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://froogle.google.com/froogle?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://code.google.com/query/#q=\\\\{%2520}"
 #~ msgstr "http://froogle.google.com/froogle?q=\\\\{@}"
@@ -726,8 +632,6 @@ msgstr ""
 #~ msgstr "Google"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://www.google.com/search?q=\\\\{@}&ie=UTF-8"
 #~ msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -737,8 +641,6 @@ msgstr ""
 #~ msgstr "Hrupy „Google”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://groups.google.com/groups?oi=djq&as_q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://groups.google.com/groups?oi=djq&as_q=\\\\{@}"
 #~ msgstr "http://groups.google.com/groups?oi=djq&as_q=\\\\{@}"
@@ -748,8 +650,6 @@ msgstr ""
 #~ msgstr "Pošuk vyjavaŭ „Google”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://www.google.com/search?site=imghp&tbm=isch&q=\\\\{@}"
 #~ msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -759,10 +659,6 @@ msgstr ""
 #~ msgstr "Google („Mnie pašancuje”)"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.google.com/search?q=\\\\{@}&btnI=I%27m+Feeling"
-#~| "+Lucky&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "https://www.google.com/search?q=\\\\{@}&btnI=I%27m+Feeling"
@@ -772,15 +668,11 @@ msgstr ""
 #~ "+Lucky&ie=UTF-8&oe=UTF-8"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Google Groups"
 #~ msgctxt "Name"
 #~ msgid "Google Maps"
 #~ msgstr "Hrupy „Google”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://maps.google.com/maps?q=\\\\{@}&ie=UTF8&iwloc=addr"
 #~ msgstr "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -790,8 +682,6 @@ msgstr ""
 #~ msgstr "Filmy „Google”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.google.com/search?q=movie:\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgstr "http://www.google.com/search?q=movie:\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -801,22 +691,16 @@ msgstr ""
 #~ msgstr "Naviny „Google”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgstr "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Google Groups"
 #~ msgctxt "Name"
 #~ msgid "Google Shopping"
 #~ msgstr "Hrupy „Google”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 #~ msgctxt "Query"
 #~ msgid "https://www.google.com/search?hl=en&tbm=shop&q=\\\\{@}"
 #~ msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -827,8 +711,6 @@ msgstr ""
 #~ msgstr "Vialiki słoŭnik katalanskaje movy (GRan Enciclopèdia Catalana)"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.grec.net/cgibin/lexicx.pgm?GECART=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=\\\\{@}"
 #~ msgstr "http://www.grec.net/cgibin/lexicx.pgm?GECART=\\\\{@}"
@@ -858,22 +740,16 @@ msgstr ""
 #~ msgstr "http://www.iblist.com/search/search.php?item=\\\\{@}&submit=Search"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://identi.ca/search/group?q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://freshmeat.net/search/?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://identi.ca/search/notice?q=\\\\{@}"
 #~ msgstr "http://freshmeat.net/search/?q=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://identi.ca/search/people?q=\\\\{@}&search=Search"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -883,8 +759,6 @@ msgstr ""
 #~ msgstr "Sieciŭnaja baza filmaŭ"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://imdb.com/Find?\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://imdb.com/find?s=all&q=\\\\{@}"
 #~ msgstr "http://imdb.com/Find?\\\\{@}"
@@ -898,15 +772,11 @@ msgstr ""
 #~ msgstr "http://www.wordreference.com/it/en/translation.asp?iten=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Jamin"
 #~ msgctxt "Name"
 #~ msgid "Jamendo"
 #~ msgstr "Jamin"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.jamendo.com/en/search?qs=q=\\\\{@}"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -942,23 +812,16 @@ msgstr ""
 #~ msgstr "http://api.kde.org/classmapper.php?class=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Performance"
 #~ msgctxt "Name"
 #~ msgid "KDE Forums"
 #~ msgstr "Chutkaść KDE"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE 2"
 #~ msgctxt "Name"
 #~ msgid "KDE Look"
 #~ msgstr "KDE 2"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.kde-look.org/content/search.php?search=Search&name=\\\\{@}"
@@ -966,44 +829,32 @@ msgstr ""
 #~ "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "MrProject"
 #~ msgctxt "Name"
 #~ msgid "KDE Projects"
 #~ msgstr "MrProject"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dict.leo.org/?search=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://projects.kde.org/search?projects=1&q=\\\\{@}"
 #~ msgstr "http://dict.leo.org/?search=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE News"
 #~ msgctxt "Name"
 #~ msgid "KDE TechBase"
 #~ msgstr "Naviny KDE"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://techbase.kde.org/Special:Search?search=\\\\{@}&fulltext=Search"
 #~ msgstr "http://be.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Users' Manual"
 #~ msgctxt "Name"
 #~ msgid "KDE UserBase"
 #~ msgstr "Padručnik dla karystańnika KDE"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://userbase.kde.org/Special:Search?search=\\\\{@}&fulltext=Search"
@@ -1018,15 +869,11 @@ msgstr ""
 #~ msgstr "http://dict.leo.org/?search=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Vanuatu"
 #~ msgctxt "Name"
 #~ msgid "Magnatune"
 #~ msgstr "Vanuatu"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://my.magnatune.com/search?w=\\\\{@}&t=m&x=0&y=0"
 #~ msgstr "http://info.alexa.com/search?q=\\\\{@}"
@@ -1036,8 +883,6 @@ msgstr ""
 #~ msgstr "MetaCrawler"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/search?q=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.metacrawler.com/info.metac.cloud.other/search/web?q=\\\\{@}"
@@ -1048,8 +893,6 @@ msgstr ""
 #~ msgstr "Pošuk „Microsoft Developer Network”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://directory.fsf.org/search/?query=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://social.msdn.microsoft.com/Search/en-US?query=\\\\{@}"
 #~ msgstr "http://directory.fsf.org/search/?query=\\\\{@}"
@@ -1123,16 +966,11 @@ msgstr ""
 #~ msgstr "http://teletekst.nos.nl/gif/\\\\{@}-01.html"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name"
 #~ msgid "openDesktop.org"
 #~ msgstr "Rabočy stoł"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.kde-apps.org/content/search.php?search=Search&name=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.opendesktop.org/content/search.php?search=Search&name=\\\\{@}"
@@ -1144,8 +982,6 @@ msgstr ""
 #~ msgstr "Pošuk klučoŭ „OpenPGP”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://pgp.dtype.org:11371/pks/lookup?search=\\\\{@}&op=vindex"
 #~ msgctxt "Query"
 #~ msgid "http://pgp.mit.edu:11371/pks/lookup?search=\\\\{@}&op=vindex"
 #~ msgstr "http://pgp.dtype.org:11371/pks/lookup?search=\\\\{@}&op=vindex"
@@ -1155,9 +991,6 @@ msgstr ""
 #~ msgstr "Pošuk dla PHP"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.php.net/search.php?show=\\\\{mode,\"manual\"}&pattern=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.php.net/manual-lookup.php?pattern=\\\\{@}"
 #~ msgstr ""
@@ -1168,10 +1001,6 @@ msgstr ""
 #~ msgstr "Daviednik dla „Python”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://www.google.com/search?sourceid=python-search&q=\\\\{@}"
-#~| "&submit=Search&q=site%3Apython.org"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "https://www.google.com/search?sourceid=python-search&q=\\\\{@}"
@@ -1181,15 +1010,11 @@ msgstr ""
 #~ "&submit=Search&q=site%3Apython.org"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Qt3 Online Documentation"
 #~ msgctxt "Name"
 #~ msgid "Qt4 Documentation"
 #~ msgstr "Dakumentacyja dla „Qt3”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
 #~ msgctxt "Query"
 #~ msgid "http://qt-project.org/doc/search/qt-4.8?search=\\\\{@}"
 #~ msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
@@ -1199,8 +1024,6 @@ msgstr ""
 #~ msgstr "Dakumentacyja dla „Qt”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
 #~ msgctxt "Query"
 #~ msgid "http://qt-project.org/doc/search/qt-5.0?search=\\\\{@}"
 #~ msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
@@ -1210,15 +1033,11 @@ msgstr ""
 #~ msgstr "Słoŭnik Hišpanskaj Akademii (RAE)"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.dict.cc/?s=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.rae.es/drae/?val=\\\\{@}"
 #~ msgstr "http://www.dict.cc/?s=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dictionary of the Spanish Academy (RAE)"
 #~ msgctxt "Name"
 #~ msgid "Dictionary of the Galician Academy (RAG)"
 #~ msgstr "Słoŭnik Hišpanskaj Akademii (RAE)"
@@ -1228,8 +1047,6 @@ msgstr ""
 #~ msgstr "IETF: dakumenty RFC"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.ietf.org/rfc/rfc\\\\{@}.txt"
 #~ msgctxt "Query"
 #~ msgid "http://tools.ietf.org/id/\\\\{@}"
 #~ msgstr "http://www.ietf.org/rfc/rfc\\\\{@}.txt"
@@ -1267,9 +1084,6 @@ msgstr ""
 #~ msgstr "Technorati"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://technorati.com/cosmos/search.html?sourceid=kde-search&url=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://technorati.com/search?return=sites&authority=high&q=\\\\{@}"
 #~ msgstr ""
@@ -1300,15 +1114,11 @@ msgstr ""
 #~ msgstr "http://www.tv.com/search.php?type=11&stype=all&qs=\\\\{@}&x=0&y=0"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dictionary"
 #~ msgctxt "Name"
 #~ msgid "Urban Dictionary"
 #~ msgstr "Słoŭnik"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.hyperdictionary.com/search.aspx?define=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.urbandictionary.com/define.php?term=\\\\{@}"
 #~ msgstr "http://www.hyperdictionary.com/search.aspx?define=\\\\{@}"
@@ -1326,15 +1136,11 @@ msgstr ""
 #~ "&Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=/netahtml/srchnum.htm&r=0&f=S&l=50"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Vivisimo"
 #~ msgctxt "Name"
 #~ msgid "Vimeo"
 #~ msgstr "Vivisimo"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://dict.leo.org/?search=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://vimeo.com/search?q=\\\\{@}"
 #~ msgstr "http://dict.leo.org/?search=\\\\{@}"
@@ -1356,8 +1162,6 @@ msgstr ""
 #~ msgstr "http://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.iblist.com/search/search.php?item=\\\\{@}&submit=Search"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://www.wikia.com/Special:Search?search=\\\\{@}"
@@ -1369,8 +1173,6 @@ msgstr ""
 #~ msgstr "Wikipedia: svabodnaja encyklapedyja"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgctxt "Query"
 #~ msgid "https://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgstr "http://be.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
@@ -1380,15 +1182,11 @@ msgstr ""
 #~ msgstr "Wikisłoŭnik: svabodny słoŭnik"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://en.wiktionary.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgctxt "Query"
 #~ msgid "https://en.wiktionary.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 #~ msgstr "http://en.wiktionary.org/wiki/Special:Search?search=\\\\{@}&go=Go"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://www.wordreference.com/it/translation.asp?enit=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "https://www.wolframalpha.com/input/?i=\\\\{@}"
 #~ msgstr "http://www.wordreference.com/it/translation.asp?enit=\\\\{@}"
@@ -1402,8 +1200,6 @@ msgstr ""
 #~ msgstr "http://www.wordreference.com/english/definition.asp?en=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Images"
 #~ msgctxt "Name"
 #~ msgid "Yahoo Images"
 #~ msgstr "Vyjavy"
@@ -1417,22 +1213,16 @@ msgstr ""
 #~ msgstr "ShortURIFilter"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name"
 #~ msgid "Social Desktop"
 #~ msgstr "Rabočy stoł"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "AbiWord"
 #~ msgctxt "Name"
 #~ msgid "Air"
 #~ msgstr "AbiWord"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Application dashboard"
 #~ msgstr "Uklučeńnie aplikacyi"
@@ -1454,8 +1244,6 @@ msgstr ""
 #~ msgstr "Vybiery zmoŭčanyja kampanenty dla roznych słužbaŭ"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Web Browser"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "Web Browser"
 #~ msgstr "Hartač sieciva"
@@ -1470,8 +1258,6 @@ msgstr ""
 #~ "hetuju naładu."
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "File Manager"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "File Manager"
 #~ msgstr "Kiraŭnik fajłaŭ"
@@ -1486,8 +1272,6 @@ msgstr ""
 #~ "punkty menu KDE, u jakich ty adčyniaješ katalohi, buduć im karystacca."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Email Client"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "Email Client"
 #~ msgstr "Paštar"
@@ -1502,8 +1286,6 @@ msgstr ""
 #~ "jakija karystajucca paštarom, pavinnyja źviartać uvahu na hetuju naładu."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Terminal Emulator"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "Terminal Emulator"
 #~ msgstr "Emulatar terminała"
@@ -1519,8 +1301,6 @@ msgstr ""
 #~ "uvahu na hetuju naładu."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Manager"
 #~ msgctxt "Name|standard desktop component"
 #~ msgid "Window Manager"
 #~ msgstr "Akońnik"
@@ -1568,15 +1348,11 @@ msgstr ""
 #~ msgstr "Smajliki"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Emoticons Themes Manager"
 #~ msgctxt "Comment"
 #~ msgid "Choose Emoticon Theme"
 #~ msgstr "Kiraŭnik matyvaŭ smajlikaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Emoticons"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Emoticons"
 #~ msgstr "Smajliki"
@@ -1598,15 +1374,11 @@ msgstr ""
 #~ msgstr "Naładžvańnie słužbaŭ KDE"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "KDED,Daemon,Services"
 #~ msgstr "Vyhlad „Dolphin”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Notifications"
 #~ msgctxt "Name"
 #~ msgid "Manage Notifications"
 #~ msgstr "Infarmavańnie"
@@ -1648,8 +1420,6 @@ msgstr ""
 #~ msgstr "Słužba paŭsiudnych klavijaturnych skarotaŭ dla „KDE”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Global Keyboard Shortcuts"
 #~ msgctxt "Comment"
 #~ msgid "Global Keyboard Shortcuts"
 #~ msgstr "Paŭsiudnyja klavijaturnyja skaroty"
@@ -1659,22 +1429,16 @@ msgstr ""
 #~ msgstr "Aplikacyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Manuals"
 #~ msgctxt "Comment"
 #~ msgid "The application name"
 #~ msgstr "Padručniki pa aplikacyjach"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDED Global Shortcuts Server"
 #~ msgctxt "Name"
 #~ msgid "Global Shortcut Registration"
 #~ msgstr "Słužba paŭsiudnych klavijaturnych skarotaŭ dla „KDE”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDED Global Shortcuts Server"
 #~ msgctxt "Name"
 #~ msgid "Global Shortcut Triggered"
 #~ msgstr "Słužba paŭsiudnych klavijaturnych skarotaŭ dla „KDE”"
@@ -1712,15 +1476,11 @@ msgstr ""
 #~ msgstr "Padručniki pa aplikacyjach"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "File Manager - Super User Mode"
 #~ msgctxt "Name"
 #~ msgid "Filemanager Settings Modules"
 #~ msgstr "Kiraŭnik fajłaŭ: ad asoby karystańnika „root”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Performance"
 #~ msgctxt "Name"
 #~ msgid "KDE Fundamentals"
 #~ msgstr "Chutkaść KDE"
@@ -1730,8 +1490,6 @@ msgstr ""
 #~ msgstr "Hartańnie infarmacyjnych staronak („info”)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System Settings"
 #~ msgctxt "Name"
 #~ msgid "System Settings Modules"
 #~ msgstr "Systemnyja nałady"
@@ -1745,8 +1503,6 @@ msgstr ""
 #~ msgstr "Słužby „kioslave”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Konqueror Gestures"
 #~ msgctxt "Name"
 #~ msgid "Konqueror Settings Modules"
 #~ msgstr "Žesty prahramy „Konqueror”"
@@ -1796,15 +1552,11 @@ msgstr ""
 #~ msgstr "(n) Novaje"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
 #~ msgctxt "Name"
 #~ msgid "Online Help"
 #~ msgstr "Vyhlad „Dolphin”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System Settings"
 #~ msgctxt "Name"
 #~ msgid "Other Settings Modules"
 #~ msgstr "Systemnyja nałady"
@@ -1834,15 +1586,11 @@ msgstr ""
 #~ msgstr "Akno naładaŭ dla sietkavaha kataloha"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Notifications"
 #~ msgctxt "Name"
 #~ msgid "Hardware notifications"
 #~ msgstr "Infarmavańnie"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Notifications and access for new devices"
 #~ msgctxt "Comment"
 #~ msgid "Notifications triggered by hardware devices"
 #~ msgstr "Infarmavańnie j dostup da novych pryładaŭ"
@@ -1852,8 +1600,6 @@ msgstr ""
 #~ msgstr "Infarmavańnie pra novyja pryłady"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Performance"
 #~ msgctxt "Comment"
 #~ msgid "KDE Workspace"
 #~ msgstr "Chutkaść KDE"
@@ -1932,8 +1678,6 @@ msgstr ""
 #~ msgstr "Vychad"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE is exiting"
 #~ msgctxt "Comment"
 #~ msgid "Session is exiting"
 #~ msgstr "Vychad z KDE."
@@ -2003,22 +1747,16 @@ msgstr ""
 #~ msgstr "Słužba infarmavańnia KDE"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Password caching support"
 #~ msgctxt "Name"
 #~ msgid "Password Caching"
 #~ msgstr "Absłuhoŭvańnie zapaminańnia parolaŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Password caching support"
 #~ msgctxt "Comment"
 #~ msgid "Temporary password caching"
 #~ msgstr "Absłuhoŭvańnie zapaminańnia parolaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Time Zone Daemon"
 #~ msgctxt "Name"
 #~ msgid "Time Zone"
 #~ msgstr "Słužba časavych pajasoŭ KDE"
@@ -2033,15 +1771,11 @@ msgstr ""
 #~ "Server źviestak pra čynnaść aperacyj dla hrafičnaha interfejsu „KDE”"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Mail Alert"
 #~ msgctxt "Comment"
 #~ msgid "Wallet"
 #~ msgstr "Prahrama, jakaja infarmuje pra źjaŭleńnie novych listoŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Change Password"
 #~ msgctxt "Name"
 #~ msgid "Needs password"
 #~ msgstr "Źmiena parola"
@@ -2379,15 +2113,11 @@ msgstr ""
 #~ msgstr "Hruzija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "French Polynesia"
 #~ msgctxt "Name"
 #~ msgid "French Guiana"
 #~ msgstr "Francuskaja Palinezija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Germany"
 #~ msgctxt "Name"
 #~ msgid "Guernsey"
 #~ msgstr "Niamieččyna"
@@ -2609,8 +2339,6 @@ msgstr ""
 #~ msgstr "Čarnahoryja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "San Marino"
 #~ msgctxt "Name"
 #~ msgid "Saint Martin"
 #~ msgstr "San Maryna"
@@ -2648,8 +2376,6 @@ msgstr ""
 #~ msgstr "Makaŭ SAR (Kitaj)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Marshall Islands"
 #~ msgctxt "Name"
 #~ msgid "Northern Mariana Islands"
 #~ msgstr "Maršalskija vyspy"
@@ -2915,8 +2641,6 @@ msgstr ""
 #~ msgstr "Surynam"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "South Korea"
 #~ msgctxt "Name"
 #~ msgid "South Sudan"
 #~ msgstr "Paŭdniovaja Kareja"
@@ -3078,834 +2802,596 @@ msgstr ""
 #~ msgstr "Zimbabve"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Andorra"
 #~ msgctxt "Name"
 #~ msgid "Andorran Franc"
 #~ msgstr "Andora"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Andorra"
 #~ msgctxt "Name"
 #~ msgid "Andorran Peseta"
 #~ msgstr "Andora"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "United Arab Emirates"
 #~ msgctxt "Name"
 #~ msgid "United Arab Emirates Dirham"
 #~ msgstr "Złučanyja Arabskija Emiraty"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Afghanistan"
 #~ msgctxt "Name"
 #~ msgid "Afghan Afghani"
 #~ msgstr "Aŭhanistan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Albania"
 #~ msgctxt "Name"
 #~ msgid "Albanian Lek"
 #~ msgstr "Albanija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Armenia"
 #~ msgctxt "Name"
 #~ msgid "Armenian Dram"
 #~ msgstr "Armienia"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Angola"
 #~ msgctxt "Name"
 #~ msgid "Angolan Kwanza"
 #~ msgstr "Anhoła"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Argentina"
 #~ msgctxt "Name"
 #~ msgid "Argentine Peso"
 #~ msgstr "Arhientyna"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Australia"
 #~ msgctxt "Name"
 #~ msgid "Australian Dollar"
 #~ msgstr "Aŭstralija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Azerbaijan"
 #~ msgctxt "Name"
 #~ msgid "Azerbaijani Manat"
 #~ msgstr "Azerbajdžan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bosnia and Herzegovina"
 #~ msgctxt "Name"
 #~ msgid "Bosnia and Herzegovina Convertible Mark"
 #~ msgstr "Bośnija i Hiercahavina"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Barbados"
 #~ msgctxt "Name"
 #~ msgid "Barbados Dollar"
 #~ msgstr "Barbados"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bangladesh"
 #~ msgctxt "Name"
 #~ msgid "Bangladeshi Taka"
 #~ msgstr "Banhladeš"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bulgaria"
 #~ msgctxt "Name"
 #~ msgid "Bulgarian Lev A/99"
 #~ msgstr "Baŭharyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bulgaria"
 #~ msgctxt "Name"
 #~ msgid "Bulgarian Lev"
 #~ msgstr "Baŭharyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bahrain"
 #~ msgctxt "Name"
 #~ msgid "Bahraini Dinar"
 #~ msgstr "Bachrejn"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Burundi"
 #~ msgctxt "Name"
 #~ msgid "Burundian Franc"
 #~ msgstr "Burundzi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bermuda"
 #~ msgctxt "Name"
 #~ msgid "Bermuda Dollar"
 #~ msgstr "Bermudy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Brunei Darussalam"
 #~ msgctxt "Name"
 #~ msgid "Brunei Dollar"
 #~ msgstr "Brunej"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bolivia"
 #~ msgctxt "Name"
 #~ msgid "Bolivian Mvdol"
 #~ msgstr "Balivija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Brazil"
 #~ msgctxt "Name"
 #~ msgid "Brazilian Real"
 #~ msgstr "Brazylija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Botswana"
 #~ msgctxt "Name"
 #~ msgid "Botswana Pula"
 #~ msgstr "Botswana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Belarus"
 #~ msgctxt "Name"
 #~ msgid "Belarusian Ruble"
 #~ msgstr "Biełaruś"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Belize"
 #~ msgctxt "Name"
 #~ msgid "Belize Dollar"
 #~ msgstr "Beliz"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Colombia"
 #~ msgctxt "Name"
 #~ msgid "Colombian Peso"
 #~ msgstr "Kalumbija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Costa Rica"
 #~ msgctxt "Name"
 #~ msgid "Costa Rican Colon"
 #~ msgstr "Kosta Ryka"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cape Verde"
 #~ msgctxt "Name"
 #~ msgid "Cape Verde Escudo"
 #~ msgstr "Cape Verde"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Germany"
 #~ msgctxt "Name"
 #~ msgid "German Mark"
 #~ msgstr "Niamieččyna"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Djibouti"
 #~ msgctxt "Name"
 #~ msgid "Djibouti Franc"
 #~ msgstr "Djibouti"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dominica"
 #~ msgctxt "Name"
 #~ msgid "Dominican Peso"
 #~ msgstr "Daminika"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Algeria"
 #~ msgctxt "Name"
 #~ msgid "Algerian Dinar"
 #~ msgstr "Alžyr"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Estonia"
 #~ msgctxt "Name"
 #~ msgid "Estonian Kroon"
 #~ msgstr "Estonija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Eritrea"
 #~ msgctxt "Name"
 #~ msgid "Eritrean Nakfa"
 #~ msgstr "Erytreja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Ethiopia"
 #~ msgctxt "Name"
 #~ msgid "Ethiopian Birr"
 #~ msgstr "Etyjopija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Falkland Islands (Malvinas)"
 #~ msgctxt "Name"
 #~ msgid "Falkland Islands Pound"
 #~ msgstr "Falklandzkija vyspy (Malviny)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Georgia"
 #~ msgctxt "Name"
 #~ msgid "Georgian Lari"
 #~ msgstr "Hruzija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Ghana"
 #~ msgctxt "Name"
 #~ msgid "Ghana Cedi"
 #~ msgstr "Hana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Gibraltar"
 #~ msgctxt "Name"
 #~ msgid "Gibraltar Pound"
 #~ msgstr "Hibraltar"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Gambia"
 #~ msgctxt "Name"
 #~ msgid "Gambian Dalasi"
 #~ msgstr "Hambija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Guinea"
 #~ msgctxt "Name"
 #~ msgid "Guinean Franc"
 #~ msgstr "Gvineja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Guatemala"
 #~ msgctxt "Name"
 #~ msgid "Guatemalan Quetzal"
 #~ msgstr "Guatemała"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Guinea-Bissau"
 #~ msgctxt "Name"
 #~ msgid "Guinea-Bissau Peso"
 #~ msgstr "Guinea-Bissau"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hong Kong SAR(China)"
 #~ msgctxt "Name"
 #~ msgid "Hong Kong Dollar"
 #~ msgstr "Hong Kong SAR (Kitaj)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Croatia"
 #~ msgctxt "Name"
 #~ msgid "Croatian Kuna"
 #~ msgstr "Charvatyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Indonesia"
 #~ msgctxt "Name"
 #~ msgid "Indonesian Rupiah"
 #~ msgstr "Indanezija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Indexing suspended"
 #~ msgctxt "Name"
 #~ msgid "Indian Rupee"
 #~ msgstr "Indeksavańnie spynienaje"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Iceland"
 #~ msgctxt "Name"
 #~ msgid "Icelandic Krona"
 #~ msgstr "Iślandyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Jamaica"
 #~ msgctxt "Name"
 #~ msgid "Jamaican Dollar"
 #~ msgstr "Jamajka"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Kyrgyzstan"
 #~ msgctxt "Name"
 #~ msgid "Kyrgyzstani Som"
 #~ msgstr "Kirhizija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cambodia"
 #~ msgctxt "Name"
 #~ msgid "Cambodian Riel"
 #~ msgstr "Kambodža"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "North Korea"
 #~ msgctxt "Name"
 #~ msgid "North Korean Won"
 #~ msgstr "Paŭnočnaja Kareja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "South Korea"
 #~ msgctxt "Name"
 #~ msgid "South Korean Won"
 #~ msgstr "Paŭdniovaja Kareja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Kuwait"
 #~ msgctxt "Name"
 #~ msgid "Kuwaiti Dinar"
 #~ msgstr "Kuvejt"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cayman Islands"
 #~ msgctxt "Name"
 #~ msgid "Cayman Islands Dollar"
 #~ msgstr "Kajmanskija vyspy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Kazakhstan"
 #~ msgctxt "Name"
 #~ msgid "Kazakhstani Tenge"
 #~ msgstr "Kazachstan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Laptop"
 #~ msgctxt "Name"
 #~ msgid "Lao Kip"
 #~ msgstr "Laptop"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lebanon"
 #~ msgctxt "Name"
 #~ msgid "Lebanese Pound"
 #~ msgstr "Leban"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Sri Lanka"
 #~ msgctxt "Name"
 #~ msgid "Sri Lankan Rupee"
 #~ msgstr "Šry Lanka"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Liberia"
 #~ msgctxt "Name"
 #~ msgid "Liberian Dollar"
 #~ msgstr "Liberyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lesotho"
 #~ msgctxt "Name"
 #~ msgid "Lesotho Loti"
 #~ msgstr "Lesota"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lithuania"
 #~ msgctxt "Name"
 #~ msgid "Lithuanian Litas"
 #~ msgstr "Litva"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Luxembourg"
 #~ msgctxt "Name"
 #~ msgid "Luxembourgish Franc"
 #~ msgstr "Luksemburh"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Latvia"
 #~ msgctxt "Name"
 #~ msgid "Latvian Lats"
 #~ msgstr "Łatvija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Moldova"
 #~ msgctxt "Name"
 #~ msgid "Moldovan Leu"
 #~ msgstr "Małdavija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Madagascar"
 #~ msgctxt "Name"
 #~ msgid "Malagasy Ariary"
 #~ msgstr "Madahaskar"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Macedonia"
 #~ msgctxt "Name"
 #~ msgid "Macedonian Denar"
 #~ msgstr "Makiedonija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "France"
 #~ msgctxt "Name"
 #~ msgid "Mali Franc"
 #~ msgstr "Francyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Myanmar"
 #~ msgctxt "Name"
 #~ msgid "Myanma Kyat"
 #~ msgstr "Birma"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mongolia"
 #~ msgctxt "Name"
 #~ msgid "Mongolian Tugrik"
 #~ msgstr "Manholija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mauritania"
 #~ msgctxt "Name"
 #~ msgid "Mauritanian Ouguiya"
 #~ msgstr "Maŭrytanija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Malaysia"
 #~ msgctxt "Name"
 #~ msgid "Maltese Lira"
 #~ msgstr "Malajzija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mauritius"
 #~ msgctxt "Name"
 #~ msgid "Mauritius Rupee"
 #~ msgstr "Mauritius"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mexico"
 #~ msgctxt "Name"
 #~ msgid "Mexican Peso"
 #~ msgstr "Meksyka"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Malaysia"
 #~ msgctxt "Name"
 #~ msgid "Malaysian Ringgit"
 #~ msgstr "Malajzija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Namibia"
 #~ msgctxt "Name"
 #~ msgid "Namibian Dollar"
 #~ msgstr "Namibija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nigeria"
 #~ msgctxt "Name"
 #~ msgid "Nigerian Naira"
 #~ msgstr "Nihieryja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Netherlands"
 #~ msgctxt "Name"
 #~ msgid "Netherlands Guilder"
 #~ msgstr "Halandyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "New Zealand"
 #~ msgctxt "Name"
 #~ msgid "New Zealand Dollar"
 #~ msgstr "Novaja Zelandyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Papua New Guinea"
 #~ msgctxt "Name"
 #~ msgid "Papua New Guinean Kina"
 #~ msgstr "Papua Novaja Guinea"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Philippines"
 #~ msgctxt "Name"
 #~ msgid "Philippine Peso"
 #~ msgstr "Filipiny"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pakistan"
 #~ msgctxt "Name"
 #~ msgid "Pakistan Rupee"
 #~ msgstr "Pakistan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Paraguay"
 #~ msgctxt "Name"
 #~ msgid "Paraguayan Guarani"
 #~ msgstr "Parahvaj"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Romania"
 #~ msgctxt "Name"
 #~ msgid "Romanian Leu"
 #~ msgstr "Rumynija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Serbia"
 #~ msgctxt "Name"
 #~ msgid "Serbian Dinar"
 #~ msgstr "Serbija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Russia"
 #~ msgctxt "Name"
 #~ msgid "Russian Ruble"
 #~ msgstr "Rasieja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Rwanda"
 #~ msgctxt "Name"
 #~ msgid "Rwandan Franc"
 #~ msgstr "Ruanda"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Saudi Arabia"
 #~ msgctxt "Name"
 #~ msgid "Saudi Riyal"
 #~ msgstr "Saudaŭskaja Arabija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Solomon Islands"
 #~ msgctxt "Name"
 #~ msgid "Solomon Islands Dollar"
 #~ msgstr "Salamonavyja vyspy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Seychelles"
 #~ msgctxt "Name"
 #~ msgid "Seychellois Rupee"
 #~ msgstr "Sejšelskija vyspy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Singapore"
 #~ msgctxt "Name"
 #~ msgid "Singapore Dollar"
 #~ msgstr "Synhapur"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Saint Helena"
 #~ msgctxt "Name"
 #~ msgid "Saint Helena Pound"
 #~ msgstr "Vyspa Śviatoj Aleny"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Slovenia"
 #~ msgctxt "Name"
 #~ msgid "Slovenian Tolar"
 #~ msgstr "Słavienija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Slovakia"
 #~ msgctxt "Name"
 #~ msgid "Slovak Koruna"
 #~ msgstr "Słavakija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Sierra Leone"
 #~ msgctxt "Name"
 #~ msgid "Sierra Leonean Leone"
 #~ msgstr "Sierra Leone"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Suriname"
 #~ msgctxt "Name"
 #~ msgid "Surinamese Dollar"
 #~ msgstr "Surynam"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Suriname"
 #~ msgctxt "Name"
 #~ msgid "Surinamese Guilder"
 #~ msgstr "Surynam"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lebanon"
 #~ msgctxt "Name"
 #~ msgid "South Sudanese Pound"
 #~ msgstr "Leban"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Sao Tome and Principe"
 #~ msgctxt "Name"
 #~ msgid "São Tomé and Príncipe Dobra"
 #~ msgstr "Sao Tome i Principe"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Swaziland"
 #~ msgctxt "Name"
 #~ msgid "Swazi Lilangeni"
 #~ msgstr "Svazyland"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Tajikistan"
 #~ msgctxt "Name"
 #~ msgid "Tajikistani Somoni"
 #~ msgstr "Tadžykistan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Turkmenistan"
 #~ msgctxt "Name"
 #~ msgid "Turkmenistani Old Manat"
 #~ msgstr "Turkmenistan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Turkmenistan"
 #~ msgctxt "Name"
 #~ msgid "Turkmenistani Manat"
 #~ msgstr "Turkmenistan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Tunisia"
 #~ msgctxt "Name"
 #~ msgid "Tunisian Dinar"
 #~ msgstr "Tunis"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Tunisia"
 #~ msgctxt "Name"
 #~ msgid "Turkish Lira"
 #~ msgstr "Tunis"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Trinidad and Tobago"
 #~ msgctxt "Name"
 #~ msgid "Trinidad and Tobago Dollar"
 #~ msgstr "Trynidad i Tabaha"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "United States of America"
 #~ msgctxt "Name"
 #~ msgid "United States Dollar"
 #~ msgstr "Złučanyja Štaty Ameryki"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "United States of America"
 #~ msgctxt "Name"
 #~ msgid "United States Dollar (Next Day)"
 #~ msgstr "Złučanyja Štaty Ameryki"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "United States of America"
 #~ msgctxt "Name"
 #~ msgid "United States Dollar (Same Day)"
 #~ msgstr "Złučanyja Štaty Ameryki"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Uruguay"
 #~ msgctxt "Name"
 #~ msgid "Uruguayan Peso"
 #~ msgstr "Uruhvaj"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Uzbekistan"
 #~ msgctxt "Name"
 #~ msgid "Uzbekistan Som"
 #~ msgstr "Uzbekistan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Vietnam"
 #~ msgctxt "Name"
 #~ msgid "Vietnamese Dong"
 #~ msgstr "Vijetnam"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Vanuatu"
 #~ msgctxt "Name"
 #~ msgid "Vanuatu Vatu"
 #~ msgstr "Vanuatu"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Samoa"
 #~ msgctxt "Name"
 #~ msgid "Samoan Tala"
 #~ msgstr "Samoa"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Central African Republic"
 #~ msgctxt "Name"
 #~ msgid "Central African CFA Franc"
 #~ msgstr "Centralnaja Afrykanskaja Respublika"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "History Sidebar"
 #~ msgctxt "Name"
 #~ msgid "Silver"
 #~ msgstr "Bakavaja panel historyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Golem"
 #~ msgctxt "Name"
 #~ msgid "Gold"
 #~ msgstr "Golem"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Caribbean"
 #~ msgctxt "Name"
 #~ msgid "East Caribbean Dollar"
 #~ msgstr "Karybskija vyspy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Palau"
 #~ msgctxt "Name"
 #~ msgid "Palladium"
 #~ msgstr "Palaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "France"
 #~ msgctxt "Name"
 #~ msgid "CFP Franc"
 #~ msgstr "Francyja"
@@ -3915,29 +3401,21 @@ msgstr ""
 #~ msgstr "Platinum"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Yemen"
 #~ msgctxt "Name"
 #~ msgid "Yemeni Rial"
 #~ msgstr "Jemen"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "South Africa"
 #~ msgctxt "Name"
 #~ msgid "South African Rand"
 #~ msgstr "Paŭdniovaja Afryka"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Zambia"
 #~ msgctxt "Name"
 #~ msgid "Zambian Kwacha"
 #~ msgstr "Zambija"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Zimbabwe"
 #~ msgctxt "Name"
 #~ msgid "Zimbabwean Dollar"
 #~ msgstr "Zimbabve"
@@ -4123,43 +3601,31 @@ msgstr ""
 #~ msgstr "Pryładździe systemy „X Window”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Server"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk"
 #~ msgstr "Server „Nepomuk”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Nepomuk/Strigi Server Configuration"
 #~ msgctxt "Comment"
 #~ msgid "Nepomuk Server Configuration"
 #~ msgstr "Nałady servera „Nepomuk”/„Strigi”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Strigi Service"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Nepomuk,Metadata"
 #~ msgstr "Słužba „Nepomuk”/„Strigi”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Nepomuk Service"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Search Module"
 #~ msgstr "Słužba „Nepomuk”"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Audio and Video IDE"
 #~ msgctxt "Name"
 #~ msgid "Audio and Video Settings"
 #~ msgstr "Asiarodździe dla videa- i hukavoj vytvorčaści"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Sound Policy Server"
 #~ msgctxt "Name"
 #~ msgid "Sound Policy"
 #~ msgstr "Server huku"
@@ -4169,8 +3635,6 @@ msgstr ""
 #~ msgstr "Multymedyjnaja systema dla „KDE”"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Multimedia Player"
 #~ msgctxt "Comment"
 #~ msgid "Multimedia System"
 #~ msgstr "Prajravańnik dla multymedyjaŭ"
@@ -4184,29 +3648,21 @@ msgstr ""
 #~ msgstr "Zapasny matyŭ ikonaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network & Connectivity"
 #~ msgctxt "Name"
 #~ msgid "Newspaper Layout"
 #~ msgstr "Sietka j spałučeńni"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Java & JavaScript"
 #~ msgctxt "Name"
 #~ msgid "Plasma JavaScript Addon"
 #~ msgstr "Java i JavaScript"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Java & JavaScript"
 #~ msgctxt "Name"
 #~ msgid "Javascript Addon"
 #~ msgstr "Java i JavaScript"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Native Plasma widget written in JavaScript"
 #~ msgctxt "Comment"
 #~ msgid "Native Plasma widget written in QML and JavaScript"
 #~ msgstr "Widžet systemy „Plasma”, napisany ŭ movie „JavaScript”"
@@ -4220,8 +3676,6 @@ msgstr ""
 #~ msgstr "Widžet systemy „Plasma”, napisany ŭ movie „JavaScript”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Runner"
 #~ msgctxt "Name"
 #~ msgid "JavaScript DataEngine"
 #~ msgstr "Uklučeńnie „JavaScript”"
@@ -4235,22 +3689,16 @@ msgstr ""
 #~ msgstr "Uklučeńnie „JavaScript”."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Platinum"
 #~ msgctxt "Name"
 #~ msgid "Platform"
 #~ msgstr "Platinum"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Manager"
 #~ msgctxt "Comment"
 #~ msgid "Windows Platform Manager"
 #~ msgstr "Akońnik"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Platinum"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Platform,Windows"
 #~ msgstr "Platinum"
@@ -4272,22 +3720,16 @@ msgstr ""
 #~ msgstr "Padhlad vyjavaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Mount,Removable,Devices,Automatic"
 #~ msgstr "Pryłady USB"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "Name"
 #~ msgid "Removable Devices"
 #~ msgstr "Pryłady USB"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Status Daemon"
 #~ msgctxt "Name"
 #~ msgid "Network Status"
 #~ msgstr "Słužba sietkavaha stanovišča"
@@ -4301,8 +3743,6 @@ msgstr ""
 #~ "źmieny."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hardware"
 #~ msgctxt "Name"
 #~ msgid "Hardware Detection"
 #~ msgstr "Aparatura"
@@ -4328,8 +3768,6 @@ msgstr ""
 #~ "&FORMATO=ampliado"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "GPhoto"
 #~ msgctxt "Name"
 #~ msgid "Phonon"
 #~ msgstr "GPhoto"
@@ -4481,22 +3919,16 @@ msgstr ""
 #~ "%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Files and Directories"
 #~ msgctxt "Name"
 #~ msgid "Directories"
 #~ msgstr "Fajły j katalohi"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "System Bell Configuration"
 #~ msgctxt "Comment"
 #~ msgid "Xine Backend Configuration"
 #~ msgstr "Nałady systemnaha hukavoha syhnału"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Xine"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "Xine"
 #~ msgstr "Xine"
@@ -4512,24 +3944,16 @@ msgstr ""
 #~ msgstr "Słužba „Nepomuk”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Nepomuk Service"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Backup"
 #~ msgstr "Słužba „Nepomuk”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Internal Services"
 #~ msgctxt "Name"
 #~ msgid "File Indexer Service"
 #~ msgstr "Unutranyja słužby"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid ""
-#~| "Nepomuk Service which controls the strigidaemon, i.e. indexes files on "
-#~| "the desktop"
 #~ msgctxt "Comment"
 #~ msgid "Nepomuk Service which indexes files on the desktop"
 #~ msgstr ""
@@ -4537,8 +3961,6 @@ msgstr ""
 #~ "fajły ŭ kamputary"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Search"
 #~ msgctxt "Comment"
 #~ msgid "Desktop Search"
 #~ msgstr "Pošuk"
@@ -4548,10 +3970,6 @@ msgstr ""
 #~ msgstr "Pačałosia pačatkovaje indeksavańnie."
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid ""
-#~| "Strigi started the initial indexing of local files for fast desktop "
-#~| "searches"
 #~ msgctxt "Comment"
 #~ msgid "Indexing of local files for fast searches has started."
 #~ msgstr ""
@@ -4563,10 +3981,6 @@ msgstr ""
 #~ msgstr "Skončyłasia pačatkovaje indeksavańnie."
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid ""
-#~| "Strigi started the initial indexing of local files for fast desktop "
-#~| "searches"
 #~ msgctxt "Comment"
 #~ msgid ""
 #~ "The initial indexing of local files for fast desktop searches has "
@@ -4580,8 +3994,6 @@ msgstr ""
 #~ msgstr "Indeksavańnie spynienaje"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Strigi file indexing has been suspended"
 #~ msgctxt "Comment"
 #~ msgid "File indexing has been suspended by the search service."
 #~ msgstr "Słužba „Strigi” pierapyniła indeksavańnie fajłaŭ."
@@ -4591,8 +4003,6 @@ msgstr ""
 #~ msgstr "Indeksavańnie praciahnutaje"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Strigi file indexing has been resumed"
 #~ msgctxt "Comment"
 #~ msgid "File indexing has been resumed by the search service."
 #~ msgstr "Słužba „Strigi” praciahnuła indeksavańnie fajłaŭ."
@@ -4606,15 +4016,11 @@ msgstr ""
 #~ msgstr "Słužba „Nepomuk”, jakaja naziraje za źmienami ŭ fajłach"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Nepomuk Service"
 #~ msgctxt "Comment"
 #~ msgid "Nepomuk file watch service"
 #~ msgstr "Słužba „Nepomuk”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "Name"
 #~ msgid "New Removable Device"
 #~ msgstr "Pryłady USB"
@@ -4640,15 +4046,11 @@ msgstr ""
 #~ msgstr "Hałoŭnaja słužba „Nepomuk” dla zachoŭvańnia źviestak"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Data Storage"
 #~ msgctxt "Name"
 #~ msgid "Semantic Data Storage"
 #~ msgstr "Schovišča dla źviestak „Nepomuk”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Comment"
 #~ msgid "Semantic Desktop"
 #~ msgstr "Rabočy stoł"
@@ -4680,22 +4082,16 @@ msgstr ""
 #~ "skončanaje."
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://doc.trolltech.com/latest/\\\\{@}.html"
 #~ msgctxt "Query"
 #~ msgid "http://doc.qt.nokia.com/latest/\\\\{@}.html"
 #~ msgstr "http://doc.trolltech.com/latest/\\\\{@}.html"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Services"
 #~ msgctxt "Name"
 #~ msgid "Secret Service Server"
 #~ msgstr "Słužby"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Services"
 #~ msgctxt "Comment"
 #~ msgid "Secret Service Server"
 #~ msgstr "Słužby"
@@ -4705,43 +4101,31 @@ msgstr ""
 #~ msgstr "http://www.qrz.com/database?callsign=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Activity Bar"
 #~ msgctxt "Comment"
 #~ msgid "Activity manager plugin"
 #~ msgstr "Panel zaniatkaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Activity Bar"
 #~ msgctxt "Name"
 #~ msgid "Activity Manager"
 #~ msgstr "Panel zaniatkaŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Bluetooth Management Backend"
 #~ msgctxt "Comment"
 #~ msgid "The activity management backend"
 #~ msgstr "Systema kiravańnia pryładami „Bluetooth”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Joystick settings"
 #~ msgctxt "Comment"
 #~ msgid "Just testing"
 #~ msgstr "Nałady džojstyka"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Server"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Feeder Plugin"
 #~ msgstr "Server „Nepomuk”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The Nepomuk Storage Service"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Removable Storage Service"
 #~ msgstr "Słužba zachoŭvańnia źviestak „Nepomuk”"
@@ -4767,57 +4151,41 @@ msgstr ""
 #~ msgstr "Słupki"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
 #~ msgctxt "Name"
 #~ msgid "Dolphin General"
 #~ msgstr "Vyhlad „Dolphin”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "This service allows configuration of the Dolphin views."
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of general Dolphin settings."
 #~ msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "General"
 #~ msgctxt "Name|Random file browsing settings."
 #~ msgid "General"
 #~ msgstr "Hałoŭnaje"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure general file manager settings"
 #~ msgstr "Naładź kiraŭnika fajłaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
 #~ msgctxt "Name"
 #~ msgid "Dolphin Navigation"
 #~ msgstr "Vyhlad „Dolphin”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "This service allows configuration of the Dolphin views."
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the Dolphin navigation."
 #~ msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Navigation Panel"
 #~ msgctxt "Name"
 #~ msgid "Navigation"
 #~ msgstr "Panel miescaŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure file manager navigation"
 #~ msgstr "Naładź kiraŭnika fajłaŭ"
@@ -4827,36 +4195,26 @@ msgstr ""
 #~ msgstr "Słužby"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure file manager services"
 #~ msgstr "Naładź kiraŭnika fajłaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dolphin View"
 #~ msgctxt "Name"
 #~ msgid "Dolphin View Modes"
 #~ msgstr "Vyhlad „Dolphin”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "This service allows configuration of the Dolphin views."
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the Dolphin view modes."
 #~ msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Views"
 #~ msgctxt "Name"
 #~ msgid "View Modes"
 #~ msgstr "Vyhlady"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure file manager view modes"
 #~ msgstr "Naładź kiraŭnika fajłaŭ"
@@ -4874,8 +4232,6 @@ msgstr ""
 #~ msgstr "Źmiena parola"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bookmark Toolbar"
 #~ msgctxt "Name"
 #~ msgid "Bookmark Editor"
 #~ msgstr "Panel zakładak"
@@ -4885,134 +4241,96 @@ msgstr ""
 #~ msgstr "Pošuk fajłaŭ i katalohaŭ"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Clock"
 #~ msgctxt "Name"
 #~ msgid "Adblock"
 #~ msgstr "Hadzińnik"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Konqueror window"
 #~ msgctxt "Name"
 #~ msgid "Konqueror Feed Icon"
 #~ msgstr "Akno prahramy „Konqueror”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "X Refresh"
 #~ msgctxt "Name"
 #~ msgid "Auto Refresh"
 #~ msgstr "X Refresh"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "LEO-Translate"
 #~ msgctxt "Name"
 #~ msgid "Translate"
 #~ msgstr "Pierakład „LEO”"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Analyzer"
 #~ msgctxt "Name"
 #~ msgid "Directory Filter"
 #~ msgstr "Analizatar sietki"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Picture Viewer"
 #~ msgctxt "Name"
 #~ msgid "DOM Tree Viewer"
 #~ msgstr "Prahladnik dla vyjavaŭ"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Picture Viewer"
 #~ msgctxt "Name"
 #~ msgid "File Size Viewer"
 #~ msgstr "Prahladnik dla vyjavaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System"
 #~ msgctxt "Name"
 #~ msgid "File Size View"
 #~ msgstr "Systema"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Invert"
 #~ msgctxt "X-KDE-Submenu"
 #~ msgid "Convert To"
 #~ msgstr "Invercyja"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "SGI"
 #~ msgctxt "Name"
 #~ msgid "GIF"
 #~ msgstr "SGI"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Settings"
 #~ msgctxt "Name"
 #~ msgid "KHTML Settings"
 #~ msgstr "Nałady"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Image Displayer"
 #~ msgctxt "Name"
 #~ msgid "Image Gallery"
 #~ msgstr "Padhlad vyjavaŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "DMA information"
 #~ msgctxt "Name"
 #~ msgid "Microformat Icon"
 #~ msgstr "Źviestki pra DMA"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bookmarks"
 #~ msgctxt "Name"
 #~ msgid "Bookmarklets"
 #~ msgstr "Zakładki"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE API Documentation"
 #~ msgctxt "Name"
 #~ msgid "Document Relations"
 #~ msgstr "Dakumenty pra API KDE"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PHP Search"
 #~ msgctxt "Name"
 #~ msgid "Search Bar"
 #~ msgstr "Pošuk dla PHP"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "UserAgent Strings"
 #~ msgctxt "Name"
 #~ msgid "UserAgent Changer"
 #~ msgstr "Identyfikacyja „UserAgent”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "FTP Archives"
 #~ msgctxt "Name"
 #~ msgid "Web Archiver"
 #~ msgstr "Archivy FTP"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "FTP Archives"
 #~ msgctxt "Name"
 #~ msgid "Web Archives"
 #~ msgstr "Archivy FTP"
@@ -5048,8 +4366,6 @@ msgstr ""
 #~ "KDE"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDED Konqueror Preloader Module"
 #~ msgctxt "Name"
 #~ msgid "Konqueror Browser Preloader"
 #~ msgstr ""
@@ -5142,22 +4458,16 @@ msgstr ""
 #~ msgstr "Identyfikacyja „UserAgent”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Wget 1.5.3)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Android Phone 1.0)"
 #~ msgstr "UADescription (Wget 1.5.3)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Mozilla 1.7 on Windows XP)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Google Chrome 1.0 on Windows XP)"
 #~ msgstr "UADescription (Mozilla 1.7 na „Windows XP”)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Mozilla 1.7 on Windows XP)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Google Chrome 5.0)"
 #~ msgstr "UADescription (Mozilla 1.7 na „Windows XP”)"
@@ -5167,15 +4477,11 @@ msgstr ""
 #~ msgstr "UADescription (Firefox 2.0 na hetaj systemie)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Firefox 2.0 on current)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Firefox 3.0 on current)"
 #~ msgstr "UADescription (Firefox 2.0 na hetaj systemie)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Firefox 2.0 on current)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Firefox 3.6 on current)"
 #~ msgstr "UADescription (Firefox 2.0 na hetaj systemie)"
@@ -5205,8 +4511,6 @@ msgstr ""
 #~ msgstr "UADescription (IE 6.0 na „Windows XP”)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (IE 6.0 on Win XP)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (IE 7.0 on Win XP)"
 #~ msgstr "UADescription (IE 6.0 na „Windows XP”)"
@@ -5248,8 +4552,6 @@ msgstr ""
 #~ msgstr "UADescription (Opera 9.00 na hetaj systemie)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Opera 9.00 on current)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Opera 9.62 on current)"
 #~ msgstr "UADescription (Opera 9.00 na hetaj systemie)"
@@ -5259,22 +4561,16 @@ msgstr ""
 #~ msgstr "UADescription (Safari 2.0 na „MacOS X”)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Safari 2.0 on MacOS X)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Safari 3.0 on iPhone)"
 #~ msgstr "UADescription (Safari 2.0 na „MacOS X”)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Safari 1.2 on MacOS X)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Safari 3.2 on MacOS X)"
 #~ msgstr "UADescription (Safari 1.2 na „MacOS X”)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Safari 2.0 on MacOS X)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Safari 4.0 on MacOS X)"
 #~ msgstr "UADescription (Safari 2.0 na „MacOS X”)"
@@ -5284,8 +4580,6 @@ msgstr ""
 #~ msgstr "UADescription (w3m 0.1.9)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "UADescription (Wget 1.5.3)"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Wget 1.11.4)"
 #~ msgstr "UADescription (Wget 1.5.3)"
@@ -5323,8 +4617,6 @@ msgstr ""
 #~ msgstr "Naładź stylnyja arkušy dla vyjaŭleńnia sieciŭnych staronak"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure the fonts used on web pages"
 #~ msgctxt "Comment"
 #~ msgid "Configure how to display web pages"
 #~ msgstr "Naładź šryfty na sieciŭnym staronkach"
@@ -5346,8 +4638,6 @@ msgstr ""
 #~ msgstr "Naładź filtry „AdBlocK” dla hartača „Konqueror”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "General"
 #~ msgctxt ""
 #~ "Name|Konqeuror settings relevant to both web browsing and file management."
 #~ msgid "General"
@@ -5419,8 +4709,6 @@ msgstr ""
 #~ msgstr "Miescy"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "This is the root of the filesystem"
 #~ msgctxt "Comment"
 #~ msgid "This is the list of places."
 #~ msgstr "Korań fajłavaj systemy."
@@ -5438,22 +4726,16 @@ msgstr ""
 #~ msgstr "Naładź bakavuju panel historyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "History Sidebar"
 #~ msgctxt "Name"
 #~ msgid "History SideBar Module"
 #~ msgstr "Bakavaja panel historyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "History Sidebar"
 #~ msgctxt "Name"
 #~ msgid "Sidebar"
 #~ msgstr "Bakavaja panel historyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Web SideBar Module"
 #~ msgctxt "Name"
 #~ msgid "Places SideBar Module"
 #~ msgstr "Modul bakavoj paneli dla sieciva"
@@ -5591,8 +4873,6 @@ msgstr ""
 #~ msgstr "Ikony sajtaŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Plugin for the Konqueror Popup Menu"
 #~ msgctxt "Comment"
 #~ msgid "Drag-and-drop plugin for the Konqueror Popup Menu."
 #~ msgstr "Plugin dla vypłyŭnoha menu prahramy „Konqueror”"
@@ -5614,8 +4894,6 @@ msgstr ""
 #~ msgstr "Upišy nazvu kataloha:"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Format"
 #~ msgctxt "Name|Starts a program to format a floppy drive"
 #~ msgid "Format"
 #~ msgstr "Farmatuj"
@@ -5737,22 +5015,16 @@ msgstr ""
 #~ msgstr "Prahlad kataloha"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display the content of folders (Desktop as default)"
 #~ msgctxt "Comment"
 #~ msgid "Display the contents of folders (User's home folder as default)"
 #~ msgstr "Pakazvaj źmieściva kataloha (zmoŭčana: stała)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Notifier"
 #~ msgctxt "Name"
 #~ msgid "Free Space Notifier"
 #~ msgstr "Infarmavańnie pra novyja pryłady"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE Notification Daemon"
 #~ msgctxt "Comment"
 #~ msgid "KDE Free Space Notifier Daemon"
 #~ msgstr "Słužba infarmavańnia KDE"
@@ -5858,8 +5130,6 @@ msgstr ""
 #~ msgstr "Aŭtamatyčnaje ŭklučeńnie"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "A configuration tool for managing which programs start up with KDE."
 #~ msgctxt "Comment"
 #~ msgid "A configuration tool for managing which programs start up."
 #~ msgstr ""
@@ -5891,15 +5161,11 @@ msgstr ""
 #~ msgstr "Nałady daty j času"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Date and Time"
 #~ msgctxt "Name"
 #~ msgid "Date and Time Control Module"
 #~ msgstr "Data j čas"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Date and time settings"
 #~ msgctxt "Name"
 #~ msgid "Save the date/time settings"
 #~ msgstr "Nałady daty j času"
@@ -5913,15 +5179,11 @@ msgstr ""
 #~ msgstr "Źmiani miescy, dzie zachoŭvajucca važnyja fajły"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Sphere"
 #~ msgctxt "Name"
 #~ msgid "Desktop Theme"
 #~ msgstr "Rabočaja kula"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Customize individual desktop theme items"
 #~ msgctxt "Comment"
 #~ msgid "Customize the desktop theme"
 #~ msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
@@ -5947,15 +5209,11 @@ msgstr ""
 #~ msgstr "Džojstyk"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cursor Files"
 #~ msgctxt "Name"
 #~ msgid "Cursor Theme"
 #~ msgstr "Fajły kursoraŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Customize individual desktop theme items"
 #~ msgctxt "Comment"
 #~ msgid "Customize the mouse cursor appearance"
 #~ msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
@@ -5977,8 +5235,6 @@ msgstr ""
 #~ msgstr "Nałady klavijatury"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Keyboard Layout"
 #~ msgctxt "Name"
 #~ msgid "Keyboard Daemon"
 #~ msgstr "Vykład klavijatury"
@@ -6175,22 +5431,16 @@ msgstr ""
 #~ msgstr "XPlanet (aŭtar Hari Nair)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Date and Time"
 #~ msgctxt "Name"
 #~ msgid "Login Manager Control Module"
 #~ msgstr "Data j čas"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Date and time settings"
 #~ msgctxt "Name"
 #~ msgid "Save the Login Manager settings"
 #~ msgstr "Nałady daty j času"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PrintScreen"
 #~ msgctxt "Name"
 #~ msgid "Login Screen"
 #~ msgstr "PrintScreen"
@@ -6200,8 +5450,6 @@ msgstr ""
 #~ msgstr "Nałady kiraŭnika ŭvachodaŭ u systemu („KDM”)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Services"
 #~ msgctxt "Name"
 #~ msgid "Stripes"
 #~ msgstr "Słužby"
@@ -6270,8 +5518,6 @@ msgstr ""
 #~ "Akońnik „AfterStep Classic”, jaki abapirajecca na bazu „AfterStep 1.1”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "A minimal but configurable window manager"
 #~ msgctxt "Comment"
 #~ msgid "Highly configurable framework window manager"
 #~ msgstr "Nievialiki akońnik, jaki možna naładzić"
@@ -6435,8 +5681,6 @@ msgstr ""
 #~ "naładzić"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The UNIX Desktop Environment"
 #~ msgctxt "Comment"
 #~ msgid "Lightweight X11 desktop environment"
 #~ msgstr "Rabočy stoł „UNIX Desktop Environment”"
@@ -6649,22 +5893,16 @@ msgstr ""
 #~ msgstr "Matyŭ ź sinimi kołami"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Details"
 #~ msgctxt "Name"
 #~ msgid "Ethais"
 #~ msgstr "Detali"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Comoros"
 #~ msgctxt "Name"
 #~ msgid "Horos"
 #~ msgstr "Kamorskija vyspy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Oxygen"
 #~ msgctxt "Name"
 #~ msgid "Oxygen-Air"
 #~ msgstr "Oxygen"
@@ -6678,15 +5916,11 @@ msgstr ""
 #~ msgstr "Uvodnyja aperacyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Menu Editor"
 #~ msgctxt "Name"
 #~ msgid "KMenuEdit"
 #~ msgstr "Redaktar menu"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PHP Search"
 #~ msgctxt "Name"
 #~ msgid "Search"
 #~ msgstr "Pošuk dla PHP"
@@ -6876,36 +6110,26 @@ msgstr ""
 #~ msgstr "PrintScreen"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Web Shortcuts"
 #~ msgctxt "Name"
 #~ msgid "Custom Shortcuts"
 #~ msgstr "Skaroty dla sieciva"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure trash settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure Input Actions settings"
 #~ msgstr "Naładź śmietnicu"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lost & Found"
 #~ msgctxt "Name"
 #~ msgid "Lost And Found"
 #~ msgstr "Biez katehoryi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Processor Information"
 #~ msgctxt "Name"
 #~ msgid "Graphical Information"
 #~ msgstr "Źviestki ab pracesary"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KInfoCenter"
 #~ msgctxt "Name"
 #~ msgid "KInfoCenter Category"
 #~ msgstr "KInfoCenter"
@@ -6915,8 +6139,6 @@ msgstr ""
 #~ msgstr "Źviestki z pryłady"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Memory information"
 #~ msgctxt "Name"
 #~ msgid "Network Information"
 #~ msgstr "Źviestki pra pamiać"
@@ -6930,15 +6152,11 @@ msgstr ""
 #~ msgstr "Infarmacyjny centar"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Picture Viewer"
 #~ msgctxt "Name"
 #~ msgid "Device Viewer"
 #~ msgstr "Prahladnik dla vyjavaŭ"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Picture Viewer"
 #~ msgctxt "Comment"
 #~ msgid "Device Viewer"
 #~ msgstr "Prahladnik dla vyjavaŭ"
@@ -6976,8 +6194,6 @@ msgstr ""
 #~ msgstr "Źviestki pra SCSI"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hardware"
 #~ msgctxt "Comment"
 #~ msgid "Hardware Information Summary"
 #~ msgstr "Aparatura"
@@ -7139,50 +6355,36 @@ msgstr ""
 #~ msgstr "Vykanańnie zahadaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Comment"
 #~ msgid "Screen Saver"
 #~ msgstr "Achoŭnik ekrana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screen saver started"
 #~ msgstr "Achoŭnik ekrana"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The trash has been emptied"
 #~ msgctxt "Comment"
 #~ msgid "The screen saver has been started"
 #~ msgstr "Śmietnica vyčyščanaja."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screen locked"
 #~ msgstr "Achoŭnik ekrana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "A modifier key has been locked"
 #~ msgctxt "Comment"
 #~ msgid "The screen has been locked"
 #~ msgstr "Klavišny madyfikatar zamacavany"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screen saver exited"
 #~ msgstr "Achoŭnik ekrana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "A modifier key has been locked"
 #~ msgctxt "Comment"
 #~ msgid "The screen has been unlocked"
 #~ msgstr "Klavišny madyfikatar zamacavany"
@@ -7212,8 +6414,6 @@ msgstr ""
 #~ msgstr "Achoŭnik ekrana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Session Manager"
 #~ msgctxt "Name"
 #~ msgid "Session Management"
 #~ msgstr "Kiraŭnik sesijaŭ"
@@ -7308,8 +6508,6 @@ msgstr ""
 #~ msgstr "Styl asiarodździa „CDE”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Style"
 #~ msgctxt "Name"
 #~ msgid "GTK+ Style"
 #~ msgstr "Styl"
@@ -7331,8 +6529,6 @@ msgstr ""
 #~ msgstr "Styl widžetaŭ „Motif”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plastik"
 #~ msgctxt "Name"
 #~ msgid "Plastique"
 #~ msgstr "Plastik"
@@ -7358,15 +6554,11 @@ msgstr ""
 #~ msgstr "Styl systemy „Windows 9x”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "MS Windows 9x"
 #~ msgctxt "Name"
 #~ msgid "MS Windows Vista"
 #~ msgstr "MS Windows 9x"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "MS Windows 9x"
 #~ msgctxt "Name"
 #~ msgid "MS Windows XP"
 #~ msgstr "MS Windows 9x"
@@ -7380,8 +6572,6 @@ msgstr ""
 #~ msgstr "Styl widžetaŭ „Web”"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "System Monitor"
 #~ msgctxt "Comment"
 #~ msgid "System Monitor"
 #~ msgstr "Systemny nazirańnik"
@@ -7441,8 +6631,6 @@ msgstr ""
 #~ msgstr "Pakazvaje virtualnyja rabočyja stały na bakoch kuba"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Cube"
 #~ msgctxt "Name"
 #~ msgid "Desktop Cube Animation"
 #~ msgstr "Rabočy kub"
@@ -7464,36 +6652,26 @@ msgstr ""
 #~ msgstr "Vokny začyniajucca z vybucham."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "SaverDesktop"
 #~ msgctxt "Name"
 #~ msgid "Fade Desktop"
 #~ msgstr "SaverDesktop"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Glines"
 #~ msgctxt "Name"
 #~ msgid "Glide"
 #~ msgstr "Glines"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Make windows explode when they are closed"
 #~ msgctxt "Comment"
 #~ msgid "Windows Glide Effect as they are open and closed"
 #~ msgstr "Vokny začyniajucca z vybucham."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Duplicate Window"
 #~ msgctxt "Name"
 #~ msgid "Highlight Window"
 #~ msgstr "Skapijuj akno"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display window thumbnails when hovering over taskbar entries"
 #~ msgctxt "Comment"
 #~ msgid "Highlight the appropriate window when hovering over taskbar entries"
 #~ msgstr ""
@@ -7552,8 +6730,6 @@ msgstr ""
 #~ msgstr "Najaŭnyja vokny"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Present Windows"
 #~ msgctxt "Name"
 #~ msgid "Resize Window"
 #~ msgstr "Najaŭnyja vokny"
@@ -7563,8 +6739,6 @@ msgstr ""
 #~ msgstr "Animuje źjaŭleńnie akon."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screenshot"
 #~ msgstr "Achoŭnik ekrana"
@@ -7578,8 +6752,6 @@ msgstr ""
 #~ msgstr "Maluj cień pad voknami."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Stylesheets"
 #~ msgctxt "Name"
 #~ msgid "Sheet"
 #~ msgstr "Stylnyja arkušy"
@@ -7589,15 +6761,11 @@ msgstr ""
 #~ msgstr "Vyjaŭleńnie „FPS”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "System information for Plasmoids"
 #~ msgctxt "Comment"
 #~ msgid "Sliding animation for Plasma popups"
 #~ msgstr "Systemnyja źviestki dla widžetaŭ „Plasma”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Saint Helena"
 #~ msgctxt "Name"
 #~ msgid "Snap Helper"
 #~ msgstr "Vyspa Śviatoj Aleny"
@@ -7611,8 +6779,6 @@ msgstr ""
 #~ msgstr "Uklučaje śniehapad na rabočym stale."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Launch Feedback"
 #~ msgctxt "Name"
 #~ msgid "Startup Feedback"
 #~ msgstr "Vyjaŭleńnie ŭklučeńnia"
@@ -7631,15 +6797,11 @@ msgstr ""
 #~ msgstr "Połymia"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display each virtual desktop on a side of a cube"
 #~ msgctxt "Comment"
 #~ msgid "Display gears inside the cube"
 #~ msgstr "Pakazvaje virtualnyja rabočyja stały na bakoch kuba"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Close Tab"
 #~ msgctxt "Name"
 #~ msgid "Slide Tabs"
 #~ msgstr "Začyni kartku"
@@ -7677,8 +6839,6 @@ msgstr ""
 #~ msgstr "Robić vokny prazrystymi dla peŭnych umovaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Move Start"
 #~ msgctxt "Name"
 #~ msgid "WindowGeometry"
 #~ msgstr "Pačatak pierasoŭvańnia akna"
@@ -7708,8 +6868,6 @@ msgstr ""
 #~ msgstr "Nałady asablivych efektaŭ dla rabočaha stała"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Information"
 #~ msgctxt "Name"
 #~ msgid "Window Decorations"
 #~ msgstr "Źviestki z akna"
@@ -7719,8 +6877,6 @@ msgstr ""
 #~ msgstr "Nałady vyhladu zahałoŭkaŭ akon"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name"
 #~ msgid "Virtual Desktops"
 #~ msgstr "Rabočy stoł"
@@ -7770,8 +6926,6 @@ msgstr ""
 #~ msgstr "Nałady pavodzinaŭ akna"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Close"
 #~ msgctxt "Name"
 #~ msgid "Window Rules"
 #~ msgstr "Začynieńnie akna"
@@ -7781,29 +6935,21 @@ msgstr ""
 #~ msgstr "Nałady dla peŭnaha akna"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Name"
 #~ msgid "Screen Edges"
 #~ msgstr "Achoŭnik ekrana"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure web cache settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure active screen edges"
 #~ msgstr "Naładź padručnuju pamiać sieciva"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure the behavior of Java and JavaScript"
 #~ msgctxt "Comment"
 #~ msgid "Configure the behavior for navigating through windows"
 #~ msgstr "Naładź pavodziny hartača dla prahramaŭ Java i JavaScript"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Window Manager"
 #~ msgctxt "Comment"
 #~ msgid "KWin Window Manager"
 #~ msgstr "Akońnik"
@@ -8135,22 +7281,16 @@ msgstr ""
 #~ msgstr "Chutkaść kampazycyi była zamałoj, i tamu jana była vyklučanaja."
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Strigi file indexing has been suspended"
 #~ msgctxt "Name"
 #~ msgid "Compositing has been suspended"
 #~ msgstr "Słužba „Strigi” pierapyniła indeksavańnie fajłaŭ."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "A modifier key has been locked"
 #~ msgctxt "Comment"
 #~ msgid "Tiling mode has been enabled"
 #~ msgstr "Klavišny madyfikatar zamacavany"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Slow keys has been enabled or disabled"
 #~ msgctxt "Comment"
 #~ msgid "Tiling mode has been disabled"
 #~ msgstr "Pavolnyja klavišy źmianili svajo stanovišča."
@@ -8166,8 +7306,6 @@ msgstr ""
 #~ "„write(1)” ci „wall(1)”."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Write Daemon"
 #~ msgctxt "Name"
 #~ msgid "Write Daemon"
 #~ msgstr "Słužba „Write” dla „KDE”"
@@ -8181,22 +7319,16 @@ msgstr ""
 #~ msgstr "Słužba atrymała novaje paviedamleńnie ad „wall(1)” ci „write(1)”."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "File Management"
 #~ msgctxt "Name"
 #~ msgid "Display Management"
 #~ msgstr "Kiravańnie fajłami"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE System Guard"
 #~ msgctxt "Name"
 #~ msgid "KSysGuard"
 #~ msgstr "Systemny vartaŭnik „KDE”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Memory information"
 #~ msgctxt "Name"
 #~ msgid "Detailed Memory Information"
 #~ msgstr "Źviestki pra pamiać"
@@ -8210,8 +7342,6 @@ msgstr ""
 #~ msgstr "Kiravańnie udavanaj sietkaj"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Power Management Backend"
 #~ msgctxt "Comment"
 #~ msgid "Modem Management Backend"
 #~ msgstr "Systema kiravańnia enerhijaj"
@@ -8221,8 +7351,6 @@ msgstr ""
 #~ msgstr "Systema kiravańnia sietkavymi pryładami"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Network Management Backend"
 #~ msgctxt "Comment"
 #~ msgid "Remote Control Management Backend"
 #~ msgstr "Systema kiravańnia sietkavymi pryładami"
@@ -8264,64 +7392,46 @@ msgstr ""
 #~ msgstr "Dostup da vydalenych fajłaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows"
 #~ msgctxt "Name"
 #~ msgid "Window List"
 #~ msgstr "Vokny"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dashboard"
 #~ msgctxt "Name|plasma containment"
 #~ msgid "Desktop Dashboard"
 #~ msgstr "Dashboard"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Dashboard"
 #~ msgctxt "Comment"
 #~ msgid "Widget Dashboard"
 #~ msgstr "Dashboard"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name|plasma containment"
 #~ msgid "Desktop"
 #~ msgstr "Rabočy stoł"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Default desktop containment"
 #~ msgctxt "Comment"
 #~ msgid "Default desktop"
 #~ msgstr "Zmoŭčanaje jomišča dla rabočaha stała"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Panel"
 #~ msgctxt "Name"
 #~ msgid "Empty Panel"
 #~ msgstr "Panel"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plasma Desktop Workspace"
 #~ msgctxt "Name"
 #~ msgid "Plasma Desktop Shell"
 #~ msgstr "Rabočy abšar stała „Plasma”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Default Blue"
 #~ msgctxt "Name"
 #~ msgid "Default Panel"
 #~ msgstr "Zmoŭčany sini matyŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows"
 #~ msgctxt "Name"
 #~ msgid "Find Widgets"
 #~ msgstr "Vokny"
@@ -8331,29 +7441,21 @@ msgstr ""
 #~ msgstr "Rabočy abšar stała „Plasma”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plasma Desktop Workspace"
 #~ msgctxt "Comment"
 #~ msgid "Plasma Desktop Shell"
 #~ msgstr "Rabočy abšar stała „Plasma”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Web widget style"
 #~ msgctxt "Name"
 #~ msgid "New widget published"
 #~ msgstr "Styl widžetaŭ „Web”"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Tool"
 #~ msgctxt "Name"
 #~ msgid "Desktop toolbox"
 #~ msgstr "Sietkavaja pryłada"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Tool"
 #~ msgctxt "Name"
 #~ msgid "Panel toolbox"
 #~ msgstr "Sietkavaja pryłada"
@@ -8367,8 +7469,6 @@ msgstr ""
 #~ msgstr "Panel zaniatkaŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Tabbar to switch activities"
 #~ msgctxt "Comment"
 #~ msgid "Tab bar to switch activities"
 #~ msgstr "Panel kartak dla roznych zaniatkaŭ"
@@ -8396,13 +7496,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Notifications and access for new devices"
 #~ msgstr "Infarmavańnie j dostup da novych pryładaŭ"
-
-#, fuzzy
-#~| msgctxt "Description"
-#~| msgid "Open with &default Browser"
-#~ msgctxt "Name"
-#~ msgid "Open with File Manager"
-#~ msgstr "Adčyni ŭ &zmoŭčanym hartačy"
 
 #~ msgctxt "Name"
 #~ msgid "Digital Clock"
@@ -8433,8 +7526,6 @@ msgstr ""
 #~ msgstr "Infarmavańnie"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE Notification Daemon"
 #~ msgctxt "Comment"
 #~ msgid "Display notifications and jobs"
 #~ msgstr "Słužba infarmavańnia KDE"
@@ -8448,8 +7539,6 @@ msgstr ""
 #~ msgstr "Uklučaj svaje ŭlubionyja aplikacyi"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "A CPU usage monitor"
 #~ msgctxt "Name"
 #~ msgid "CPU Monitor"
 #~ msgstr "Nazirańnik zaniataści „CPU”"
@@ -8463,8 +7552,6 @@ msgstr ""
 #~ msgstr "Nazirańnik zaniataści ćviordaha dysku"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hardware"
 #~ msgctxt "Name"
 #~ msgid "Hardware Info"
 #~ msgstr "Aparatura"
@@ -8474,8 +7561,6 @@ msgstr ""
 #~ msgstr "Pakazvaje źviestki pra aparaturu"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Tool"
 #~ msgctxt "Name"
 #~ msgid "Network Monitor"
 #~ msgstr "Sietkavaja pryłada"
@@ -8485,15 +7570,11 @@ msgstr ""
 #~ msgstr "Nazirańnik zaniataści sietki"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Samba Status"
 #~ msgctxt "Name"
 #~ msgid "Memory Status"
 #~ msgstr "Stanovišča słužby „Samba”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "A CPU usage monitor"
 #~ msgctxt "Comment"
 #~ msgid "A RAM usage monitor"
 #~ msgstr "Nazirańnik zaniataści „CPU”"
@@ -8523,57 +7604,41 @@ msgstr ""
 #~ msgstr "Prosty hartač sieciva"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Comment"
 #~ msgid "Simple application launcher"
 #~ msgstr "Uklučeńnie aplikacyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pose"
 #~ msgctxt "Name"
 #~ msgid "Paste"
 #~ msgstr "Pose"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop"
 #~ msgctxt "Name"
 #~ msgid "Switch Desktop"
 #~ msgstr "Rabočy stoł"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Switch between virtual desktops"
 #~ msgctxt "Comment"
 #~ msgid "Switch to another virtual desktop"
 #~ msgstr "Pieraklučeńnie virtualnych stałoŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "New Window"
 #~ msgctxt "Name"
 #~ msgid "Switch Window"
 #~ msgstr "Novaje akno"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Activity Bar"
 #~ msgctxt "Name"
 #~ msgid "Activities Engine"
 #~ msgstr "Panel zaniatkaŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Info about files and directories for Plasmoids"
 #~ msgctxt "Comment"
 #~ msgid "Information on Plasma Activities"
 #~ msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python data engine"
 #~ msgctxt "Comment"
 #~ msgid "Akonadi PIM data engine"
 #~ msgstr "Systema źviestak u movie „Python”"
@@ -8583,22 +7648,16 @@ msgstr ""
 #~ msgstr "Źviestki pra zadańnie aplikacyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Job Information"
 #~ msgctxt "Name"
 #~ msgid "Application Information"
 #~ msgstr "Źviestki pra zadańnie aplikacyi"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Calendar Manager"
 #~ msgctxt "Comment"
 #~ msgid "Calendar data engine"
 #~ msgstr "Kiraŭnik dla kalendara"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Notifications"
 #~ msgctxt "Name"
 #~ msgid "Device Notifications"
 #~ msgstr "Infarmavańnie"
@@ -8628,36 +7687,26 @@ msgstr ""
 #~ msgstr "Fajły j katalohi"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Info about files and directories for Plasmoids"
 #~ msgctxt "Comment"
 #~ msgid "Information about files and directories."
 #~ msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Locations"
 #~ msgctxt "Name"
 #~ msgid "Geolocation"
 #~ msgstr "Miescy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python data engine"
 #~ msgctxt "Comment"
 #~ msgid "Geolocation Data Engine"
 #~ msgstr "Systema źviestak u movie „Python”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Locations"
 #~ msgctxt "Name"
 #~ msgid "Geolocation IP"
 #~ msgstr "Miescy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Locations"
 #~ msgctxt "Comment"
 #~ msgid "Plasma Geolocation Provider"
 #~ msgstr "Miescy"
@@ -8667,8 +7716,6 @@ msgstr ""
 #~ msgstr "Źjaŭleńnie novych pryładaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Keyboard & Mouse"
 #~ msgctxt "Name"
 #~ msgid "Keyboard and Mouse State"
 #~ msgstr "Klavijatura j myš"
@@ -8694,8 +7741,6 @@ msgstr ""
 #~ msgstr "Pakazvaje muzyku, jakuju ciapier hraje systema"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Power Management"
 #~ msgctxt "Name|plasma data engine"
 #~ msgid "Power Management"
 #~ msgstr "Kiravańnie enerhijaj"
@@ -8709,43 +7754,31 @@ msgstr ""
 #~ msgstr "Systema navinaŭ z žarołaŭ „RSS”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Image"
 #~ msgctxt "Name"
 #~ msgid "Imgur"
 #~ msgstr "Vyjava"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Services"
 #~ msgctxt "Name"
 #~ msgid "ShareProvider"
 #~ msgstr "Słužby"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python Package Structure"
 #~ msgctxt "Comment"
 #~ msgid "Share Package Structure"
 #~ msgstr "Struktura pakunka ŭ movie „Python”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "SolidDevice data for Plasmoids"
 #~ msgctxt "Comment"
 #~ msgid "Device data via Solid"
 #~ msgstr "Źviestki „SolidDevice” dla widžetaŭ „Plasma”"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "System Process Information"
 #~ msgctxt "Name"
 #~ msgid "Status Notifier Information"
 #~ msgstr "Źviestki pra systemnyja pracesy"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "System Process Information"
 #~ msgctxt "Comment"
 #~ msgid "System status information"
 #~ msgstr "Źviestki pra systemnyja pracesy"
@@ -8759,8 +7792,6 @@ msgstr ""
 #~ msgstr "Data j čas"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Date and time settings"
 #~ msgctxt "Comment"
 #~ msgid "Date and time by timezone"
 #~ msgstr "Nałady daty j času"
@@ -8794,8 +7825,6 @@ msgstr ""
 #~ msgstr "Nadvorje"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bookmarks"
 #~ msgctxt "Name|plasma runner"
 #~ msgid "Bookmarks"
 #~ msgstr "Zakładki"
@@ -8813,15 +7842,11 @@ msgstr ""
 #~ msgstr "Padlik vyrazaŭ."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Applications"
 #~ msgctxt "Name"
 #~ msgid "Kill Applications"
 #~ msgstr "Aplikacyi KDE"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Terminal Applications"
 #~ msgctxt "Name"
 #~ msgid "Terminate Applications"
 #~ msgstr "Terminalnyja aplikacyi"
@@ -8875,15 +7900,6 @@ msgstr ""
 #~ msgstr "Vykanańnie zahadaŭ abałonki."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
-#~ msgctxt "Name|plasma runner"
-#~ msgid "Devices"
-#~ msgstr "Pryłady"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Web Shortcuts"
 #~ msgctxt "Name|plasma runner"
 #~ msgid "Web Shortcuts"
 #~ msgstr "Skaroty dla sieciva"
@@ -8893,15 +7909,11 @@ msgstr ""
 #~ msgstr "Dazvalaje karystacca sieciŭnymi skarotami prahramy „Konqueror”."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows"
 #~ msgctxt "Name"
 #~ msgid "Windowed widgets"
 #~ msgstr "Vokny"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows"
 #~ msgctxt "Name|plasma runner"
 #~ msgid "Windows"
 #~ msgstr "Vokny"
@@ -8939,22 +7951,16 @@ msgstr ""
 #~ msgstr "Absłuhoŭvańnie systemy źviestak „Plasma” u movie „Python”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python data engine"
 #~ msgctxt "Name"
 #~ msgid "Python Runner"
 #~ msgstr "Systema źviestak u movie „Python”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Plasma data engine support for Python"
 #~ msgctxt "Comment"
 #~ msgid "Plasma Runner support for Python"
 #~ msgstr "Absłuhoŭvańnie systemy źviestak „Plasma” u movie „Python”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Plasma data engine support for Python"
 #~ msgctxt "Comment"
 #~ msgid "Plasma wallpaper support for Python"
 #~ msgstr "Absłuhoŭvańnie systemy źviestak „Plasma” u movie „Python”"
@@ -9008,22 +8014,16 @@ msgstr ""
 #~ msgstr "Słajdy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "More Applications"
 #~ msgctxt "Name"
 #~ msgid "Current Application Control"
 #~ msgstr "Jašče"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Control for Jack"
 #~ msgctxt "Comment"
 #~ msgid "Controls for the active window"
 #~ msgstr "Prahrama dla kiravańnia systemaj „Jack”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PHP Search"
 #~ msgctxt "Name"
 #~ msgid "Search Box"
 #~ msgstr "Pošuk dla PHP"
@@ -9033,92 +8033,66 @@ msgstr ""
 #~ msgstr "Jomišča dla paneli"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Search and Launch"
 #~ msgstr "Systema pošuku"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Plasma Search and Launch menu"
 #~ msgstr "Systema pošuku"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Find and open bookmarks"
 #~ msgctxt "Comment"
 #~ msgid "List all your bookmarks"
 #~ msgstr "Pošuk i adčynieńnie zakładak."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Fonts"
 #~ msgctxt "Name"
 #~ msgid "Contacts"
 #~ msgstr "Šryfty"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Terminal Applications"
 #~ msgctxt "Comment"
 #~ msgid "Educational applications"
 #~ msgstr "Terminalnyja aplikacyi"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Find applications, control panels and services"
 #~ msgctxt "Comment"
 #~ msgid "Graphics applications, such as paint programs and image viewers"
 #~ msgstr "Pošuk aplikacyjaŭ, panelaŭ kiravańnia j słužbaŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Notifications and access for new devices"
 #~ msgctxt "Comment"
 #~ msgid "Small utilities and accessories"
 #~ msgstr "Infarmavańnie j dostup da novych pryładaŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Search and Launch Engine"
 #~ msgstr "Systema pošuku"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pager"
 #~ msgctxt "Name"
 #~ msgid "Page one"
 #~ msgstr "Stały"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Default Blue"
 #~ msgctxt "Comment"
 #~ msgid "Default Netbook Page"
 #~ msgstr "Zmoŭčany sini matyŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Default Blue"
 #~ msgctxt "Name"
 #~ msgid "Default Netbook Panel"
 #~ msgstr "Zmoŭčany sini matyŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Search and launch"
 #~ msgstr "Systema pošuku"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Network Tool"
 #~ msgctxt "Name"
 #~ msgid "Net toolbox"
 #~ msgstr "Sietkavaja pryłada"
@@ -9128,71 +8102,51 @@ msgstr ""
 #~ msgstr "SaverDesktop"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display Settings"
 #~ msgctxt "Name"
 #~ msgid "Display Brightness"
 #~ msgstr "Nałady ekrana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Display"
 #~ msgctxt "Name"
 #~ msgid "Dim Display"
 #~ msgstr "Ekran"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Effects"
 #~ msgctxt "Name"
 #~ msgid "Disable Desktop Effects"
 #~ msgstr "Asablivyja efekty rabočaha stała"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "CGI Scripts"
 #~ msgctxt "Name"
 #~ msgid "Run Script"
 #~ msgstr "Skrypty CGI"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Sessions"
 #~ msgctxt "Name"
 #~ msgid "Suspend Session"
 #~ msgstr "Sesii rabočaha stała"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Screen Saver Settings"
 #~ msgctxt "Name"
 #~ msgid "Screen Energy Saving"
 #~ msgstr "Nałady achoŭnika ekrana"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Font settings"
 #~ msgctxt "Comment"
 #~ msgid "Controls DPMS settings"
 #~ msgstr "Nałady šryftoŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Power Management Backend"
 #~ msgctxt "Comment"
 #~ msgid "Power Management Action Extension"
 #~ msgstr "Systema kiravańnia enerhijaj"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PowerDevil"
 #~ msgctxt "Name"
 #~ msgid "HAL PowerDevil Backend"
 #~ msgstr "PowerDevil"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Hardware power management using freedesktop.org HAL daemon"
 #~ msgctxt "Comment"
 #~ msgid "Use KDE Power Management system through freedesktop.org HAL daemon"
 #~ msgstr ""
@@ -9200,36 +8154,26 @@ msgstr ""
 #~ "org”."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE 2"
 #~ msgctxt "Name"
 #~ msgid "KDE"
 #~ msgstr "KDE 2"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display Settings"
 #~ msgctxt "Name"
 #~ msgid "Get brightness"
 #~ msgstr "Nałady ekrana"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display Settings"
 #~ msgctxt "Name"
 #~ msgid "Set brightness"
 #~ msgstr "Nałady ekrana"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "PowerDevil"
 #~ msgctxt "Name"
 #~ msgid "UPower PowerDevil Backend"
 #~ msgstr "PowerDevil"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Hardware power management using freedesktop.org HAL daemon"
 #~ msgctxt "Comment"
 #~ msgid ""
 #~ "Use KDE Power Management system through freedesktop.org upower daemon"
@@ -9242,43 +8186,31 @@ msgstr ""
 #~ msgstr "Kiravańnie enerhijaj"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Color settings"
 #~ msgctxt "Name"
 #~ msgid "Global settings"
 #~ msgstr "Nałady koleraŭ"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure global Power Management settings"
 #~ msgstr "Naładź kiraŭnika fajłaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Power Control"
 #~ msgctxt "Name"
 #~ msgid "Power Profiles"
 #~ msgstr "Kiravańnie enerhijaj"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Configure file manager settings"
 #~ msgctxt "Comment"
 #~ msgid "Configure Power Management Profiles"
 #~ msgstr "Naładź kiraŭnika fajłaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Power Management"
 #~ msgctxt "Name"
 #~ msgid "KDE Power Management System"
 #~ msgstr "Kiravańnie enerhijaj"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Settings for display power management"
 #~ msgctxt "Comment"
 #~ msgid "Notifications for KDE Power Management system"
 #~ msgstr ""
@@ -9371,15 +8303,11 @@ msgstr ""
 #~ "son, i tady ŭklučajecca ličylnik. My raim pakinuć jaho ŭklučanym."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Internal PowerDevil Error"
 #~ msgctxt "Name"
 #~ msgid "Internal KDE Power Management System Error"
 #~ msgstr "Unutranaja pamyłka słužby „PowerDevil”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "PowerDevil has triggered an internal error"
 #~ msgctxt "Comment"
 #~ msgid "The KDE Power Management System has triggered an internal error"
 #~ msgstr "Słužba „PowerDevil” napatkała ŭnutranuju pamyłku."
@@ -9394,15 +8322,11 @@ msgstr ""
 #~ msgstr "Son zabaronieny niejkaj aplikacyjaj."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Browser Identification"
 #~ msgctxt "Name"
 #~ msgid "Broken battery notification"
 #~ msgstr "Identyfikacyja hartača"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Information Message"
 #~ msgctxt "Name"
 #~ msgid "Information Sources"
 #~ msgstr "Infarmacyjnaje paviedamleńnie"
@@ -9412,22 +8336,16 @@ msgstr ""
 #~ msgstr "Nałady systemy absłuhoŭvańnia aparatury praz słužbu „Solid”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Licq"
 #~ msgctxt "Name"
 #~ msgid "Lirc"
 #~ msgstr "Licq"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "NetworkManager 0.7"
 #~ msgctxt "Name"
 #~ msgid "ModemManager 0.4"
 #~ msgstr "NetworkManager 0.7"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Network management using the NetworkManager daemon, version 0.7"
 #~ msgctxt "Comment"
 #~ msgid "Network management using the ModemManager daemon, version 0.4"
 #~ msgstr "Kiravańnie sietkaj praz słužbu „NetworkManager 0.7”."
@@ -9449,253 +8367,181 @@ msgstr ""
 #~ msgstr "Kiravańnie sietkaj praz słužbu „NetworkManager 0.7”."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Phluid"
 #~ msgctxt "Name"
 #~ msgid "Plugged"
 #~ msgstr "Phluid"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "Name"
 #~ msgid "Solid Device"
 #~ msgstr "Pryłady USB"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Device Type"
 #~ msgstr "Pryłady"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "DJ-Mixer and Player"
 #~ msgctxt "Name"
 #~ msgid "Driver Handle"
 #~ msgstr "Mikser i prajhravańnik dla DJ"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Game"
 #~ msgctxt "Name"
 #~ msgid "Name"
 #~ msgstr "Hulnia"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Device"
 #~ msgstr "Pryłady"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Moria"
 #~ msgctxt "Name"
 #~ msgid "Major"
 #~ msgstr "Moria"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Moria"
 #~ msgctxt "Name"
 #~ msgid "Minor"
 #~ msgstr "Moria"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Strategy Game"
 #~ msgctxt "Name"
 #~ msgid "State Value"
 #~ msgstr "Stratehičnaja hulnia"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Protocols"
 #~ msgctxt "Name"
 #~ msgid "Supported Protocols"
 #~ msgstr "Pratakoły"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Notifier"
 #~ msgctxt "Name"
 #~ msgid "Device Adapter"
 #~ msgstr "Infarmavańnie pra novyja pryłady"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Help Index"
 #~ msgctxt "Name"
 #~ msgid "Device Index"
 #~ msgstr "Źmiest dapamohi"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Dice Game"
 #~ msgctxt "Name"
 #~ msgid "Iface Name"
 #~ msgstr "Hulnia ŭ kostki"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Circles"
 #~ msgctxt "Name"
 #~ msgid "Wireless"
 #~ msgstr "Koły"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Appearance"
 #~ msgctxt "Name"
 #~ msgid "Appendable"
 #~ msgstr "Vonkavaść"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plan"
 #~ msgctxt "Name"
 #~ msgid "Blank"
 #~ msgstr "Plan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Audacity"
 #~ msgctxt "Name"
 #~ msgid "Capacity"
 #~ msgstr "Audacity"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Iagno"
 #~ msgctxt "Name"
 #~ msgid "Ignored"
 #~ msgstr "Iagno"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Panel"
 #~ msgctxt "Name"
 #~ msgid "Label"
 #~ msgstr "Panel"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Belize"
 #~ msgctxt "Name"
 #~ msgid "Size"
 #~ msgstr "Beliz"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pager"
 #~ msgctxt "Name"
 #~ msgid "Usage"
 #~ msgstr "Stały"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Phluid"
 #~ msgctxt "Name"
 #~ msgid "Uuid"
 #~ msgstr "Phluid"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Belarus"
 #~ msgctxt "Name"
 #~ msgid "Bus"
 #~ msgstr "Biełaruś"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hotplug Events"
 #~ msgctxt "Name"
 #~ msgid "Hotpluggable"
 #~ msgstr "Źjaŭleńnie novych pryładaŭ"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Spread Sheet"
 #~ msgctxt "Name"
 #~ msgid "Read Speed"
 #~ msgstr "Prahrama dla stvareńnia raźlikovych arkušoŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Input Actions"
 #~ msgctxt "Name"
 #~ msgid "Instruction Sets"
 #~ msgstr "Uvodnyja aperacyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mac Scheme"
 #~ msgctxt "Name"
 #~ msgid "Max Speed"
 #~ msgstr "Schiema „Mac”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Niue"
 #~ msgctxt "Name"
 #~ msgid "Number"
 #~ msgstr "Niue"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Forte"
 #~ msgctxt "Name"
 #~ msgid "Port"
 #~ msgstr "Forte"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Spread Sheet"
 #~ msgctxt "Name"
 #~ msgid "Reader Type"
 #~ msgstr "Prahrama dla stvareńnia raźlikovych arkušoŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Accessibility"
 #~ msgctxt "Name"
 #~ msgid "Accessible"
 #~ msgstr "Dastupnaść"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Find Part"
 #~ msgctxt "Name"
 #~ msgid "File Path"
 #~ msgstr "Pošuk"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Information"
 #~ msgctxt "Name"
 #~ msgid "Device Actions"
 #~ msgstr "Źviestki z pryłady"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Solid Device Type"
 #~ msgstr "Pryłady"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Network management using the NetworkManager daemon"
 #~ msgctxt "Comment"
 #~ msgid "Network management using the Wicd daemon."
 #~ msgstr "Kiravańnie sietkaj praz słužbu „NetworkManager”."
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE Notification Daemon"
 #~ msgctxt "Name"
 #~ msgid "Status Notifier Manager"
 #~ msgstr "Słužba infarmavańnia KDE"
@@ -9709,29 +8555,21 @@ msgstr ""
 #~ msgstr "Systemnyja nałady"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Details"
 #~ msgctxt "Name"
 #~ msgid "Account Details"
 #~ msgstr "Detali"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Notifications"
 #~ msgctxt "Name"
 #~ msgid "Application and System Notifications"
 #~ msgstr "Infarmavańni aplikacyj"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Common Appearance and Behavior"
 #~ msgstr "Uklučeńnie aplikacyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Application Appearance"
 #~ msgstr "Uklučeńnie aplikacyi"
@@ -9741,22 +8579,16 @@ msgstr ""
 #~ msgstr "Bluetooth"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Workspace Appearance"
 #~ msgstr "Uklučeńnie aplikacyi"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Customize individual desktop theme items"
 #~ msgctxt "Comment"
 #~ msgid "Customize the appearance of your desktop"
 #~ msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "File Management"
 #~ msgctxt "Name"
 #~ msgid "Display and Monitor"
 #~ msgstr "Kiravańnie fajłami"
@@ -9766,29 +8598,21 @@ msgstr ""
 #~ msgstr "Aparatura"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Input Devices"
 #~ msgstr "Pryłady"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Logic Game"
 #~ msgctxt "Name"
 #~ msgid "Locale"
 #~ msgstr "Lahičnaja hulnia"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Lost & Found"
 #~ msgctxt "Name"
 #~ msgid "Lost and Found"
 #~ msgstr "Biez katehoryi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network & Connectivity"
 #~ msgctxt "Name"
 #~ msgid "Network and Connectivity"
 #~ msgstr "Sietka j spałučeńni"
@@ -9798,15 +8622,11 @@ msgstr ""
 #~ msgstr "Nałady sietki"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Partitions"
 #~ msgctxt "Name"
 #~ msgid "Permissions"
 #~ msgstr "Partycyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Processor Information"
 #~ msgctxt "Name"
 #~ msgid "Personal Information"
 #~ msgstr "Źviestki ab pracesary"
@@ -9816,29 +8636,21 @@ msgstr ""
 #~ msgstr "Supolny dostup"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Mouse Gestures"
 #~ msgctxt "Name"
 #~ msgid "Shortcuts and Gestures"
 #~ msgstr "Žesty myššu"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "SAM System-Administration"
 #~ msgctxt "Name"
 #~ msgid "System Administration"
 #~ msgstr "SAM System-Administration"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Workspace Appearance and Behavior"
 #~ msgstr "Uklučeńnie aplikacyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Web Behavior"
 #~ msgctxt "Name"
 #~ msgid "Workspace Behavior"
 #~ msgstr "Pavodziny ŭ siecivie"
@@ -9848,29 +8660,21 @@ msgstr ""
 #~ msgstr "Katehoryja systemnych naładaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System Settings Category"
 #~ msgctxt "Name"
 #~ msgid "System Settings External Application"
 #~ msgstr "Katehoryja systemnych naładaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Font Viewer"
 #~ msgctxt "Name"
 #~ msgid "Icon View"
 #~ msgstr "Prahladnik šryftoŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bluetooth"
 #~ msgctxt "Name"
 #~ msgid "Blue Wood"
 #~ msgstr "Bluetooth"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Benin"
 #~ msgctxt "Name"
 #~ msgid "Evening"
 #~ msgstr "Benin"
@@ -9888,22 +8692,16 @@ msgstr ""
 #~ msgstr "Zaranak"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Graphics"
 #~ msgctxt "Name"
 #~ msgid "Grass"
 #~ msgstr "Hrafika"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Panama"
 #~ msgctxt "Name"
 #~ msgid "Hanami"
 #~ msgstr "Panama"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Quartz"
 #~ msgctxt "Name"
 #~ msgid "Quadros"
 #~ msgstr "Quartz"
@@ -9913,8 +8711,6 @@ msgstr ""
 #~ msgstr "Čyrvony list"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pose"
 #~ msgctxt "Name"
 #~ msgid "pastebin.ca"
 #~ msgstr "Pose"
@@ -9952,29 +8748,21 @@ msgstr ""
 #~ msgstr "Anhielskaja (ZŠA)"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Power Management"
 #~ msgctxt "Comment"
 #~ msgid "Power Management"
 #~ msgstr "Kiravańnie enerhijaj"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Nepomuk Strigi Service"
 #~ msgctxt "Name"
 #~ msgid "Nepomuk Activities Service"
 #~ msgstr "Słužba „Nepomuk”/„Strigi”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Sharing"
 #~ msgctxt "Name"
 #~ msgid "Share"
 #~ msgstr "Supolny dostup"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Display brightness, suspend and power profile settings"
 #~ msgctxt "Comment"
 #~ msgid "Display brightness, suspend and power profile settings"
 #~ msgstr "Pakažy nałady jarkaści, snu j profil kiravańnia enerhijaj"
@@ -10000,8 +8788,6 @@ msgstr ""
 #~ msgstr "Web"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Search Engine"
 #~ msgctxt "Name"
 #~ msgid "Search and Launch Containment"
 #~ msgstr "Systema pošuku"
@@ -10022,8 +8808,6 @@ msgstr ""
 #~ "niama hałoŭnaj."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Examples"
 #~ msgctxt "Name"
 #~ msgid "Example"
 #~ msgstr "Uzory"
@@ -10033,50 +8817,36 @@ msgstr ""
 #~ msgstr "Test dla akońnika „KWin”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Pan"
 #~ msgctxt "Name"
 #~ msgid "and"
 #~ msgstr "Pan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Forte"
 #~ msgctxt "Name"
 #~ msgid "or"
 #~ msgstr "Forte"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Gnotski"
 #~ msgctxt "Name"
 #~ msgid "not"
 #~ msgstr "Gnotski"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Ratpoison"
 #~ msgctxt "Name"
 #~ msgid "Rating"
 #~ msgstr "Ratpoison"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "File"
 #~ msgctxt "Name"
 #~ msgid "Title"
 #~ msgstr "Fajł"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KWin test"
 #~ msgctxt "Comment"
 #~ msgid "in bytes"
 #~ msgstr "Test dla akońnika „KWin”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "OpenGL"
 #~ msgctxt "Name"
 #~ msgid "Open"
 #~ msgstr "OpenGL"
@@ -10141,8 +8911,6 @@ msgstr ""
 #~ msgstr "Źviestki ab pracesary"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Metacity"
 #~ msgctxt "Name"
 #~ msgid "Security"
 #~ msgstr "Metacity"
@@ -10152,8 +8920,6 @@ msgstr ""
 #~ msgstr "Detali matyva dla rabočaha stała"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Search"
 #~ msgctxt "Name"
 #~ msgid "Desktop Appearance"
 #~ msgstr "Pošuk"
@@ -10207,15 +8973,11 @@ msgstr ""
 #~ msgstr "Pryłada dla vykładaŭ klavijatury"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plasma Desktop Workspace"
 #~ msgctxt "Name"
 #~ msgid "Plasma Netbook"
 #~ msgstr "Rabočy abšar stała „Plasma”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Workspace shell for mobile internet devices"
 #~ msgctxt "Comment"
 #~ msgid "Workspace shell for netbook devices."
 #~ msgstr "Rabočy abšar dla mabilnych internetnych pryładaŭ."
@@ -10233,8 +8995,6 @@ msgstr ""
 #~ msgstr "Adras „Alexa”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid "http://info.alexa.com/data/details?url=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid "http://www.alexa.com/data/details?url=\\\\{@}"
 #~ msgstr "http://info.alexa.com/data/details?url=\\\\{@}"
@@ -10300,10 +9060,6 @@ msgstr ""
 #~ msgstr "Zapyt „Whatis”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://whatis.techtarget.com/definitionsSearchResults/1,289878,sid9,00."
-#~| "html?query=\\\\{@}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://whatis.techtarget.com/wsearchResultsB/0,,sid9,00.html?query=\\\\{@}"
@@ -10312,8 +9068,6 @@ msgstr ""
 #~ "html?query=\\\\{@}"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Information"
 #~ msgctxt "Comment"
 #~ msgid "Device Information"
 #~ msgstr "Źviestki z pryłady"
@@ -10327,29 +9081,21 @@ msgstr ""
 #~ msgstr "Pratakoły"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "USB Devices"
 #~ msgctxt "Name"
 #~ msgid "Solid Backend"
 #~ msgstr "Pryłady USB"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "General"
 #~ msgctxt "Name|Settings for common user needs (tab in System Settings)."
 #~ msgid "General"
 #~ msgstr "Hałoŭnaje"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Main Input Devices"
 #~ msgstr "Pryłady"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Name"
 #~ msgid "Other Input Devices"
 #~ msgstr "Pryłady"
@@ -10371,8 +9117,6 @@ msgstr ""
 #~ msgstr "Dla peŭnych voknaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Duplicate Window"
 #~ msgctxt "Name"
 #~ msgid "Navigate Through Windows"
 #~ msgstr "Skapijuj akno"
@@ -10410,8 +9154,6 @@ msgstr ""
 #~ msgstr "Systemnaje infarmavańnie"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Question"
 #~ msgctxt "Name"
 #~ msgid "Subversion"
 #~ msgstr "Pytańnie"
@@ -11645,8 +10387,6 @@ msgstr ""
 #~ msgstr "Kiraŭnik dla prajektaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Netscape Addressbook"
 #~ msgctxt "Name"
 #~ msgid "Netscape Address Book"
 #~ msgstr "Adrasnaja kniha „Netscape”"
@@ -11892,22 +10632,16 @@ msgstr ""
 #~ msgstr "Pryłada dla aktualizacyi menu"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
 #~ msgctxt "Comment"
 #~ msgid "Solid Device Viewer"
 #~ msgstr "Pryłady"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Comment"
 #~ msgid "Network Interface Summary"
 #~ msgstr "Sietkavyja interfejsy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDED Global Shortcuts Server"
 #~ msgctxt "Comment"
 #~ msgid "KDE Global Shortcuts Daemon"
 #~ msgstr "Słužba paŭsiudnych klavijaturnych skarotaŭ dla „KDE”"
@@ -11917,8 +10651,6 @@ msgstr ""
 #~ msgstr "Systemnaje infarmavańnie dla KDE"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDE Write Daemon"
 #~ msgctxt "Comment"
 #~ msgid "The KDE Wallet Daemon"
 #~ msgstr "Słužba „Write” dla „KDE”"
@@ -11928,8 +10660,6 @@ msgstr ""
 #~ msgstr "Słužba zachoŭvańnia źviestak „Nepomuk”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "The Nepomuk Strigi file indexer"
 #~ msgctxt "Comment"
 #~ msgid "Search service file indexer"
 #~ msgstr "Słužba „Nepomuk”/„Strigi” dla indeksacyi fajłaŭ"
@@ -11943,8 +10673,6 @@ msgstr ""
 #~ msgstr "Pryłada dastupnaści KDE"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Screen Saver"
 #~ msgctxt "Comment"
 #~ msgid "The KDE Screen Saver"
 #~ msgstr "Achoŭnik ekrana"
@@ -12055,8 +10783,6 @@ msgstr ""
 #~ msgstr "Systemny nazirańnik - sietka"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System Monitor - CPU"
 #~ msgctxt "Name"
 #~ msgid "System Monitor - RAM"
 #~ msgstr "Systemny nazirańnik - CPU"
@@ -12066,15 +10792,11 @@ msgstr ""
 #~ msgstr "Systemny nazirańnik - temperatura"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Notification"
 #~ msgctxt "Name"
 #~ msgid "Communication"
 #~ msgstr "Infarmavańnie"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network & Connectivity"
 #~ msgctxt "Name"
 #~ msgid "Connectivity"
 #~ msgstr "Sietka j spałučeńni"
@@ -12084,8 +10806,6 @@ msgstr ""
 #~ msgstr "Nastolny doždž"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "An SVG themable clock"
 #~ msgctxt "Comment"
 #~ msgid "A themable analog clock"
 #~ msgstr "Hadzińnik z matyvami „SVG”"
@@ -12095,8 +10815,6 @@ msgstr ""
 #~ msgstr "EOS"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Panama"
 #~ msgctxt "Name"
 #~ msgid "Pataca"
 #~ msgstr "Panama"
@@ -12146,57 +10864,41 @@ msgstr ""
 #~ msgstr "Panel miescaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Name"
 #~ msgid "javascript-config-test"
 #~ msgstr "Widžet „JavaScript”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Comment"
 #~ msgid "Javascript config object test widget"
 #~ msgstr "Widžet „JavaScript”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Digital Clock"
 #~ msgctxt "Name"
 #~ msgid "script-digital-clock"
 #~ msgstr "Ličbavy hadzińnik"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Comment"
 #~ msgid "Javascript digital clock"
 #~ msgstr "Widžet „JavaScript”"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Multimedia Player"
 #~ msgctxt "Name"
 #~ msgid "script-mediaplayer"
 #~ msgstr "Prajravańnik dla multymedyjaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Comment"
 #~ msgid "Javascript media player"
 #~ msgstr "Widžet „JavaScript”"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Multimedia Player"
 #~ msgctxt "Name"
 #~ msgid "script-nowplaying"
 #~ msgstr "Prajravańnik dla multymedyjaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "JavaScript Widget"
 #~ msgctxt "Comment"
 #~ msgid "Javascript version current track playing"
 #~ msgstr "Widžet „JavaScript”"
@@ -12246,8 +10948,6 @@ msgstr ""
 #~ msgstr "Źviestki pra čas dla widžetaŭ „Plasma”"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Launch your favourite Applications"
 #~ msgctxt "Comment"
 #~ msgid "Run your favourite apps"
 #~ msgstr "Uklučaj svaje ŭlubionyja aplikacyi"
@@ -12261,15 +10961,11 @@ msgstr ""
 #~ msgstr "Tekstavy adładžvańnik ad GNU dla kansoli"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Hydrogen"
 #~ msgctxt "Name"
 #~ msgid "Nitrogen"
 #~ msgstr "Hydrogen"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Plasma MID"
 #~ msgctxt "Name"
 #~ msgid "Plasma"
 #~ msgstr "Plasma MID"
@@ -12287,71 +10983,51 @@ msgstr ""
 #~ msgstr "Ozone"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "KDED Favicon Module"
 #~ msgctxt "Name"
 #~ msgid "KDED Locking Module"
 #~ msgstr "Modul ikonaŭ sajtaŭ dla „KDE”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Name"
 #~ msgid "Audio Interface"
 #~ msgstr "Sietkavyja interfejsy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Low Battery"
 #~ msgctxt "Name"
 #~ msgid "Battery"
 #~ msgstr "Nizki zarad batarei"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Bhutan"
 #~ msgctxt "Name"
 #~ msgid "Button"
 #~ msgstr "Butan"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Cameroon"
 #~ msgctxt "Name"
 #~ msgid "Camera"
 #~ msgstr "Kamerun"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Name"
 #~ msgid "Dvb Interface"
 #~ msgstr "Sietkavyja interfejsy"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Name"
 #~ msgid "Generic Interface"
 #~ msgstr "Sietkavyja interfejsy"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Multimedia Player"
 #~ msgctxt "Name"
 #~ msgid "Portable Media Player"
 #~ msgstr "Prajravańnik dla multymedyjaŭ"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Network Interfaces"
 #~ msgctxt "Name"
 #~ msgid "Serial Interface"
 #~ msgstr "Sietkavyja interfejsy"
 
 #, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Remote Access"
 #~ msgctxt "Name"
 #~ msgid "Storage Access"
 #~ msgstr "Dostup da inšych hostaŭ"
@@ -12405,9 +11081,6 @@ msgstr ""
 #~ "%signum (%signame)."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid ""
-#~| "You might want to fix your program. Take a look at the backtrace tab."
 #~ msgctxt "Name"
 #~ msgid ""
 #~ "You might want to fix your program. Take a look at the backtrace below."
@@ -12521,57 +11194,41 @@ msgstr ""
 #~ msgstr "Hety syhnał nieviadomy dla prahramy."
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Windows Shares"
 #~ msgctxt "Keywords"
 #~ msgid "Windows and Tasks"
 #~ msgstr "Supolna dastupnyja katalohi „Windows”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Date and Time"
 #~ msgctxt "Keywords"
 #~ msgid "Date and Time"
 #~ msgstr "Data j čas"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
 #~ msgctxt "Keywords"
 #~ msgid "Application Launchers"
 #~ msgstr "Uklučeńnie aplikacyi"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "System"
 #~ msgctxt "Keywords"
 #~ msgid "System"
 #~ msgstr "Systema"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Utilities"
 #~ msgctxt "Keywords"
 #~ msgid "Utilities"
 #~ msgstr "Pryładździe"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Examples"
 #~ msgctxt "Keywords"
 #~ msgid "Examples"
 #~ msgstr "Uzory"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Python Date and Time"
 #~ msgctxt "Keywords"
 #~ msgid "Python Date and Time"
 #~ msgstr "Data j čas dla „Python”"
 
 #, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Applix"
 #~ msgctxt "Keywords"
 #~ msgid "Applet"
 #~ msgstr "Applix"
@@ -12597,10 +11254,6 @@ msgstr ""
 #~ msgstr "Źviestki pra nadvorje dla widžetaŭ „Plasma”"
 
 #, fuzzy
-#~| msgctxt "Query"
-#~| msgid ""
-#~| "http://bugs.kde.org/simple_search.cgi?id=\\\\{1}+\\\\{2}+\\\\{3}+\\\\{4}+"
-#~| "\\\\{5}+\\\\{6}+\\\\{7}+\\\\{8}+\\\\{9}"
 #~ msgctxt "Query"
 #~ msgid ""
 #~ "http://bugs.kde.org/buglist.cgi?quicksearch=\\\\{1}+\\\\{2}+\\\\{3}+\\"
@@ -12614,8 +11267,6 @@ msgstr ""
 #~ msgstr "Nałady zahadnaha radka"
 
 #, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "KDE write daemon"
 #~ msgctxt "Name"
 #~ msgid "KDED Systemtray daemon"
 #~ msgstr "Słužba „write” dla „KDE”"

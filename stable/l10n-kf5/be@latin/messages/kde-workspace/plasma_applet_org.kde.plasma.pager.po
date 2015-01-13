@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-10 09:59+0000\n"
+"POT-Creation-Date: 2014-12-09 09:49+0000\n"
 "PO-Revision-Date: 2008-10-05 10:45+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -25,8 +25,7 @@ msgstr "Ahulnaje"
 
 #: package/contents/ui/configGeneral.qml:81
 #, fuzzy
-#| msgid "Display text:"
-msgid "Display Text:"
+msgid "Display:"
 msgstr "Pakazvaj tekst:"
 
 #: package/contents/ui/configGeneral.qml:87
@@ -41,48 +40,43 @@ msgstr "Nazva stała"
 msgid "No text"
 msgstr "Niama tekstu"
 
-#: package/contents/ui/configGeneral.qml:109
-msgid "Display icons:"
-msgstr "Pakazvaj ikony:"
+#: package/contents/ui/configGeneral.qml:115
+msgid "Icons"
+msgstr ""
 
-#: package/contents/ui/configGeneral.qml:117
+#: package/contents/ui/configGeneral.qml:119
 msgid "Selecting current desktop:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:123
+#: package/contents/ui/configGeneral.qml:125
 msgid "Does nothing"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:134
+#: package/contents/ui/configGeneral.qml:136
 msgid "Shows desktop"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:140
+#: package/contents/ui/configGeneral.qml:142
 msgid "Shows the dashboard"
 msgstr ""
 
 #: package/contents/ui/main.qml:89
 #, fuzzy
-#| msgid "&Configure Desktops..."
 msgid "Add Virtual Desktop"
 msgstr "&Naładź rabočyja stały..."
 
 #: package/contents/ui/main.qml:90
 #, fuzzy
-#| msgid "&Configure Desktops..."
 msgid "Remove Virtual Desktop"
 msgstr "&Naładź rabočyja stały..."
 
 #: package/contents/ui/main.qml:93
 #, fuzzy
-#| msgid "Configure Desktops..."
 msgid "Configure Desktops"
 msgstr "Naładź rabočyja stały..."
 
 #: package/contents/ui/main.qml:214
 #, fuzzy, kde-format
-#| msgid "One window:"
-#| msgid_plural "%1 windows:"
 msgid "%1 window"
 msgid_plural "%1 windows"
 msgstr[0] "%1 akno:"
@@ -91,16 +85,16 @@ msgstr[2] "%1 akno:"
 
 #: package/contents/ui/main.qml:227
 #, fuzzy, kde-format
-#| msgid "and 1 other"
-#| msgid_plural "and %1 others"
 msgid "and %1 other window"
 msgid_plural "and %1 other windows"
 msgstr[0] "dy %1 inšaje"
 msgstr[1] "dy %1 inšaje"
 msgstr[2] "dy %1 inšaje"
 
+#~ msgid "Display icons:"
+#~ msgstr "Pakazvaj ikony:"
+
 #, fuzzy
-#~| msgid "&Configure Desktops..."
 #~ msgid "&Remove Last Virtual Desktop"
 #~ msgstr "&Naładź rabočyja stały..."
 
@@ -108,7 +102,6 @@ msgstr[2] "dy %1 inšaje"
 #~ msgstr "Naładź pieraklučnika stałoŭ"
 
 #, fuzzy
-#~| msgid "Number of rows:"
 #~ msgid "Number of columns:"
 #~ msgstr "Kolkaść radkoŭ:"
 
@@ -119,6 +112,5 @@ msgstr[2] "dy %1 inšaje"
 #~ msgstr "Źmiani kolkaść radkoŭ"
 
 #, fuzzy
-#~| msgid "&Configure Desktops..."
 #~ msgid "&Configure Virtual Desktops..."
 #~ msgstr "&Naładź rabočyja stały..."

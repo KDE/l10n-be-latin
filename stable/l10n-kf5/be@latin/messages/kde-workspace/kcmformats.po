@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-20 09:26+0000\n"
+"POT-Creation-Date: 2014-11-20 08:02+0000\n"
 "PO-Revision-Date: 2008-11-04 11:20+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -44,24 +44,18 @@ msgstr ""
 
 #: kcmformats.cpp:300
 #, fuzzy
-#| msgctxt "The Imperial System"
-#| msgid "Imperial"
 msgctxt "Measurement combobox"
 msgid "Imperial UK"
 msgstr "Imperskaja"
 
 #: kcmformats.cpp:302
 #, fuzzy
-#| msgctxt "The Imperial System"
-#| msgid "Imperial"
 msgctxt "Measurement combobox"
 msgid "Imperial US"
 msgstr "Imperskaja"
 
 #: kcmformats.cpp:304
 #, fuzzy
-#| msgctxt "The Metric System"
-#| msgid "Metric"
 msgctxt "Measurement combobox"
 msgid "Metric"
 msgstr "Metryčnaja"
@@ -74,35 +68,30 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
 #: kcmformatswidget.ui:76
 #, fuzzy
-#| msgid "Regional settings"
 msgid "De&tailed Settings"
 msgstr "Miascovyja nałady"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNumbers)
 #: kcmformatswidget.ui:83
 #, fuzzy
-#| msgid "Numbers:"
 msgid "&Numbers:"
 msgstr "Ličeńnie:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelTime)
 #: kcmformatswidget.ui:112
 #, fuzzy
-#| msgid "Time:"
 msgid "&Time:"
 msgstr "Čas:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelCurrency)
 #: kcmformatswidget.ui:141
 #, fuzzy
-#| msgid "Currency symbol:"
 msgid "Currenc&y:"
 msgstr "Hrašovy znak:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
 #: kcmformatswidget.ui:170
 #, fuzzy
-#| msgid "Measure system:"
 msgid "Measurement &Units:"
 msgstr "Systema mieraŭ:"
 
@@ -114,7 +103,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
 #: kcmformatswidget.ui:238
 #, fuzzy
-#| msgid "Examples"
 msgid "<b>Examples</b>"
 msgstr "Uzory"
 
@@ -131,14 +119,12 @@ msgstr "Čas:"
 #. i18n: ectx: property (text), widget (QLabel, lexCurrency)
 #: kcmformatswidget.ui:288
 #, fuzzy
-#| msgid "Currency symbol:"
 msgid "Currency:"
 msgstr "Hrašovy znak:"
 
 #. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
 #: kcmformatswidget.ui:308
 #, fuzzy
-#| msgid "Measure system:"
 msgid "Measurement Units:"
 msgstr "Systema mieraŭ:"
 
@@ -161,7 +147,6 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Nie aznačanaja (zvyčajnaja anhielskaja)"
 
 #, fuzzy
-#~| msgid "&Locale"
 #~ msgid "kcmlocale"
 #~ msgstr "&Lakalnaść"
 
@@ -177,49 +162,39 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Prymianieńnie moŭnych naładaŭ"
 
 #, fuzzy
-#~| msgctxt "Day name list, option for no day of religious observance"
-#~| msgid "None"
 #~ msgctxt "No separator symbol"
 #~ msgid "None"
 #~ msgstr "Niama"
 
 #, fuzzy
-#~| msgid "Country Selector"
 #~ msgid "Country"
 #~ msgstr "Vybar krainy"
 
 #, fuzzy
-#~| msgid "Languages:"
 #~ msgid "Languages"
 #~ msgstr "Movy:"
 
 #, fuzzy
-#~| msgid "Numbers:"
 #~ msgid "Numbers"
 #~ msgstr "Ličeńnie:"
 
 #, fuzzy
-#~| msgid "Money:"
 #~ msgid "Money"
 #~ msgstr "Hrošy:"
 
 #, fuzzy
-#~| msgid "Calendar system:"
 #~ msgid "Calendar"
 #~ msgstr "Kalandar:"
 
 #, fuzzy
-#~| msgid "&Other"
 #~ msgid "Other"
 #~ msgstr "&Inšaje"
 
 #, fuzzy
-#~| msgid "This is how numbers will be displayed."
 #~ msgid "This is how positive numbers will be displayed."
 #~ msgstr "Tak buduć vyhladać liki."
 
 #, fuzzy
-#~| msgid "This is how numbers will be displayed."
 #~ msgid "This is how negative numbers will be displayed."
 #~ msgstr "Tak buduć vyhladać liki."
 
@@ -227,12 +202,10 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Hrošy:"
 
 #, fuzzy
-#~| msgid "This is how monetary values will be displayed."
 #~ msgid "This is how positive monetary values will be displayed."
 #~ msgstr "Tak buduć vyhladać hrašovyja adzinki."
 
 #, fuzzy
-#~| msgid "This is how monetary values will be displayed."
 #~ msgid "This is how negative monetary values will be displayed."
 #~ msgstr "Tak buduć vyhladać hrašovyja adzinki."
 
@@ -240,7 +213,6 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Daty:"
 
 #, fuzzy
-#~| msgid "This is how date values will be displayed."
 #~ msgid "This is how long dates will be displayed."
 #~ msgstr "Tak buduć vyhladać daty."
 
@@ -248,24 +220,18 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Karotkija daty:"
 
 #, fuzzy
-#~| msgid "This is how the time will be displayed."
 #~ msgid "This is how short dates will be displayed."
 #~ msgstr "Tak budzie pakazvacca čas."
 
 #, fuzzy
-#~| msgid "This is how the time will be displayed."
 #~ msgid "This is how time will be displayed."
 #~ msgstr "Tak budzie pakazvacca čas."
 
 #, fuzzy
-#~| msgid "Country or region:"
 #~ msgid "Country:"
 #~ msgstr "Kraina ci abšar:"
 
 #, fuzzy
-#~| msgid ""
-#~| "This is where you live. KDE will use the defaults for this country or "
-#~| "region."
 #~ msgid ""
 #~ "<p>This is the country where you live.  The KDE Workspace will use the "
 #~ "settings for this country or region.</p>"
@@ -273,9 +239,6 @@ msgstr "Systema mieraŭ:"
 #~ "Ty tutejšy. Systema „KDE” vykarystaje nałady dla tvajoj krainy ci abšaru."
 
 #, fuzzy
-#~| msgid ""
-#~| "This is where you live. KDE will use the defaults for this country or "
-#~| "region."
 #~ msgid ""
 #~ "<p>This is the country subdivision where you live, e.g. your state or "
 #~ "province.  The KDE Workspace will use this setting for local information "
@@ -284,20 +247,14 @@ msgstr "Systema mieraŭ:"
 #~ "Ty tutejšy. Systema „KDE” vykarystaje nałady dla tvajoj krainy ci abšaru."
 
 #, fuzzy
-#~| msgid "Languages:"
 #~ msgid "Available Languages:"
 #~ msgstr "Movy:"
 
 #, fuzzy
-#~| msgid "Languages:"
 #~ msgid "Preferred Languages:"
 #~ msgstr "Movy:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display numbers.</"
-#~| "p><p>Note that the thousands separator used to display monetary values "
-#~| "has to be set separately (see the 'Money' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can define the digit grouping used to display numbers.</"
 #~ "p><p>Note that the digit grouping used to display monetary values has to "
@@ -308,15 +265,10 @@ msgstr "Systema mieraŭ:"
 #~ "miescy (u kartcy „Hrošy”).</p>"
 
 #, fuzzy
-#~| msgid "Thousands separator:"
 #~ msgid "Group separator:"
 #~ msgstr "Dzielnik tysiačnych nabojaŭ:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display numbers.</"
-#~| "p><p>Note that the thousands separator used to display monetary values "
-#~| "has to be set separately (see the 'Money' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can define the digit group separator used to display numbers."
 #~ "</p><p>Note that the digit group separator used to display monetary "
@@ -327,7 +279,6 @@ msgstr "Systema mieraŭ:"
 #~ "miescy (u kartcy „Hrošy”).</p>"
 
 #, fuzzy
-#~| msgid "Decimal symbol:"
 #~ msgid "Decimal separator:"
 #~ msgstr "Dziesiatkovy znak:"
 
@@ -342,15 +293,10 @@ msgstr "Systema mieraŭ:"
 #~ "sumaŭ aznačajecca ŭ inšym miescy (u kartcy „Hrošy”).</p>"
 
 #, fuzzy
-#~| msgid "Decimal symbol:"
 #~ msgid "Decimal places:"
 #~ msgstr "Dziesiatkovy znak:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the decimal separator used to display monetary "
-#~| "values.</p><p>Note that the decimal separator used to display other "
-#~| "numbers has to be defined separately (see the 'Numbers' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can set the number of decimal places displayed for numeric "
 #~ "values, i.e. the number of digits <em>after</em> the decimal separator.</"
@@ -362,15 +308,10 @@ msgstr "Systema mieraŭ:"
 #~ "miescy (u kartcy „Ličeńnie”).</p>"
 
 #, fuzzy
-#~| msgid "Positive si&gn:"
 #~ msgid "Positive sign:"
 #~ msgstr "Dadatny &znak:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display numbers.</"
-#~| "p><p>Note that the thousands separator used to display monetary values "
-#~| "has to be set separately (see the 'Money' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can specify text used to prefix positive numbers. Most "
 #~ "locales leave this blank.</p><p>Note that the positive sign used to "
@@ -382,22 +323,15 @@ msgstr "Systema mieraŭ:"
 #~ "miescy (u kartcy „Hrošy”).</p>"
 
 #, fuzzy
-#~| msgctxt "Day name list, option for no day of religious observance"
-#~| msgid "None"
 #~ msgctxt "No positive symbol"
 #~ msgid "None"
 #~ msgstr "Niama"
 
 #, fuzzy
-#~| msgid "&Negative sign:"
 #~ msgid "Negative sign:"
 #~ msgstr "&Admoŭny znak:"
 
 #, fuzzy
-#~| msgid ""
-#~| "Here you can specify text used to prefix negative numbers. This should "
-#~| "not be empty, so you can distinguish positive and negative numbers. It "
-#~| "is normally set to minus (-)."
 #~ msgid ""
 #~ "<p>Here you can specify text used to prefix negative numbers. This should "
 #~ "not be empty, so you can distinguish positive and negative numbers. It is "
@@ -410,17 +344,11 @@ msgstr "Systema mieraŭ:"
 #~ "dadatnych. Zvyčajna ŭ hetaje pole ŭpisvajuć znak minusa: „-”."
 
 #, fuzzy
-#~| msgctxt "Day name list, option for no day of religious observance"
-#~| msgid "None"
 #~ msgctxt "No negative symbol"
 #~ msgid "None"
 #~ msgstr "Niama"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display numbers.</"
-#~| "p><p>Note that the thousands separator used to display monetary values "
-#~| "has to be set separately (see the 'Money' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can define the set of digits used to display numbers. If "
 #~ "digits other than Arabic are selected, they will appear only if used in "
@@ -436,10 +364,6 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Hrašovy znak:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display monetary "
-#~| "values.</p><p>Note that the thousands separator used to display other "
-#~| "numbers has to be defined separately (see the 'Numbers' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can define the digit grouping used to display monetary values."
 #~ "</p><p>Note that the digit grouping used to display other numbers has to "
@@ -450,10 +374,6 @@ msgstr "Systema mieraŭ:"
 #~ "inšym miescy (u kartcy „Ličeńnie”).</p>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display monetary "
-#~| "values.</p><p>Note that the thousands separator used to display other "
-#~| "numbers has to be defined separately (see the 'Numbers' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can define the group separator used to display monetary "
 #~ "values.</p><p>Note that the thousands separator used to display other "
@@ -464,10 +384,6 @@ msgstr "Systema mieraŭ:"
 #~ "inšym miescy (u kartcy „Ličeńnie”).</p>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display monetary "
-#~| "values.</p><p>Note that the thousands separator used to display other "
-#~| "numbers has to be defined separately (see the 'Numbers' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can define the decimal separator used to display monetary "
 #~ "values.</p><p>Note that the decimal separator used to display other "
@@ -478,10 +394,6 @@ msgstr "Systema mieraŭ:"
 #~ "inšym miescy (u kartcy „Ličeńnie”).</p>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the decimal separator used to display monetary "
-#~| "values.</p><p>Note that the decimal separator used to display other "
-#~| "numbers has to be defined separately (see the 'Numbers' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can set the number of decimal places displayed for monetary "
 #~ "values, i.e. the number of digits <em>after</em> the decimal separator.</"
@@ -493,15 +405,10 @@ msgstr "Systema mieraŭ:"
 #~ "miescy (u kartcy „Ličeńnie”).</p>"
 
 #, fuzzy
-#~| msgid "Time format:"
 #~ msgid "Positive format:"
 #~ msgstr "Farmat času:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display monetary "
-#~| "values.</p><p>Note that the thousands separator used to display other "
-#~| "numbers has to be defined separately (see the 'Numbers' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can set the format of positive monetary values.</p><p>Note "
 #~ "that the positive sign used to display other numbers has to be defined "
@@ -549,15 +456,10 @@ msgstr "Systema mieraŭ:"
 #~ "mieścicca sprava."
 
 #, fuzzy
-#~| msgid "Date format:"
 #~ msgid "Negative format:"
 #~ msgstr "Farmat dataŭ:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the decimal separator used to display monetary "
-#~| "values.</p><p>Note that the decimal separator used to display other "
-#~| "numbers has to be defined separately (see the 'Numbers' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can set the format of negative monetary values.</p><p>Note "
 #~ "that the negative sign used to display other numbers has to be defined "
@@ -584,10 +486,6 @@ msgstr "Systema mieraŭ:"
 #~ "mieścicca sprava."
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the decimal separator used to display monetary "
-#~| "values.</p><p>Note that the decimal separator used to display other "
-#~| "numbers has to be defined separately (see the 'Numbers' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can define the set of digits used to display monetary values. "
 #~ "If digits other than Arabic are selected, they will appear only if used "
@@ -603,9 +501,6 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Kalandar:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>This option determines whether possessive form of month names should "
-#~| "be used in dates.</p>"
 #~ msgid ""
 #~ "<p>This option determines if the Common Era (CE/BCE) should be used "
 #~ "instead of the Christian Era (AD/BC).</p>"
@@ -614,26 +509,20 @@ msgstr "Systema mieraŭ:"
 #~ "rodnym skłonie.</p>"
 
 #, fuzzy
-#~| msgid "Measure system:"
 #~ msgid "Week number system:"
 #~ msgstr "Systema mieraŭ:"
 
 #, fuzzy
-#~| msgid "First day of the week:"
 #~ msgid "First day of week:"
 #~ msgstr "Pieršy dzień tydnia:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>This option determines which day will be considered as the first one "
-#~| "of the week.</p>"
 #~ msgid ""
 #~ "<p>This option determines which day will be considered as the first one "
 #~ "of the week.  This value may affect the Week Number System.</p> "
 #~ msgstr "<p>Hetaja opcyja aznačaje, jaki dzień jość pačatkam tydnia.</p>"
 
 #, fuzzy
-#~| msgid "First working day of the week:"
 #~ msgid "First working day of week:"
 #~ msgstr "Pieršy pracoŭny dzień tydnia:"
 
@@ -644,7 +533,6 @@ msgstr "Systema mieraŭ:"
 #~ "<p>Hetaja opcyja aznačaje, jaki dzień jość pačatkam pracoŭnaha tydnia.</p>"
 
 #, fuzzy
-#~| msgid "Last working day of the week:"
 #~ msgid "Last working day of week:"
 #~ msgstr "Apošni pracoŭny dzień tydnia:"
 
@@ -655,14 +543,10 @@ msgstr "Systema mieraŭ:"
 #~ "<p>Hetaja opcyja aznačaje, jaki dzień jość kancom pracoŭnaha tydnia.</p>"
 
 #, fuzzy
-#~| msgid "Day of the week for religious observance:"
 #~ msgid "Week day for special religious observance:"
 #~ msgstr "Śviaty dzień tydnia:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>This option determines which day will be considered as the day of the "
-#~| "week for religious observance.</p>"
 #~ msgid ""
 #~ "<p>This option determines which day if any will be considered as the day "
 #~ "of the week for special religious observance.</p>"
@@ -672,17 +556,14 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Farmat času:"
 
 #, fuzzy
-#~| msgid "Decimal symbol:"
 #~ msgid "AM symbol:"
 #~ msgstr "Dziesiatkovy znak:"
 
 #, fuzzy
-#~| msgid "Decimal symbol:"
 #~ msgid "PM symbol:"
 #~ msgstr "Dziesiatkovy znak:"
 
 #, fuzzy
-#~| msgid "Short date format:"
 #~ msgid "Long date format:"
 #~ msgstr "Skaročany farmat dataŭ:"
 
@@ -697,10 +578,6 @@ msgstr "Systema mieraŭ:"
 #~ "rodnym skłonie.</p>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display numbers.</"
-#~| "p><p>Note that the thousands separator used to display monetary values "
-#~| "has to be set separately (see the 'Money' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can define the set of digits used to display dates and "
 #~ "times.  If digits other than Arabic are selected, they will appear only "
@@ -714,44 +591,36 @@ msgstr "Systema mieraŭ:"
 #~ "miescy (u kartcy „Hrošy”).</p>"
 
 #, fuzzy
-#~| msgid "A4"
 #~ msgctxt "Page size"
 #~ msgid "A4"
 #~ msgstr "A4"
 
 #, fuzzy
-#~| msgid "US Letter"
 #~ msgctxt "Page size"
 #~ msgid "US Letter"
 #~ msgstr "US Letter"
 
 #, fuzzy
-#~| msgid "Measure system:"
 #~ msgid "Metric System"
 #~ msgstr "Systema mieraŭ:"
 
 #, fuzzy
-#~| msgid "Measure system:"
 #~ msgid "Measurement system"
 #~ msgstr "Systema mieraŭ:"
 
 #, fuzzy
-#~| msgid "Languages:"
 #~ msgid "&Available Languages:"
 #~ msgstr "Movy:"
 
 #, fuzzy
-#~| msgid "Languages:"
 #~ msgid "&Preferred Languages:"
 #~ msgstr "Movy:"
 
 #, fuzzy
-#~| msgid "Languages:"
 #~ msgid "Preferred Langauges:"
 #~ msgstr "Movy:"
 
 #, fuzzy
-#~| msgid "Decimal symbol:"
 #~ msgid "Decimal seperator:"
 #~ msgstr "Dziesiatkovy znak:"
 
@@ -829,7 +698,6 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Dzielnik &tysiačnych nabojaŭ:"
 
 #, fuzzy
-#~| msgid "Decimal symbol:"
 #~ msgid "Decimal &places:"
 #~ msgstr "Dziesiatkovy znak:"
 
@@ -841,10 +709,6 @@ msgstr "Systema mieraŭ:"
 #~ "ludziej pakidajuć hetaje pole pustym."
 
 #, fuzzy
-#~| msgid ""
-#~| "This determines the number of fract digits for monetary values, i.e. the "
-#~| "number of digits you find <em>behind</em> the decimal separator. Correct "
-#~| "value is 2 for almost all people."
 #~ msgid ""
 #~ "Here you can set the number of decimal places displayed for numeric "
 #~ "values, i.e. the number of digits <em>after</em> the decimal separator. "
@@ -857,10 +721,6 @@ msgstr "Systema mieraŭ:"
 #~ msgstr "Farmat papiery:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Here you can define the thousands separator used to display numbers.</"
-#~| "p><p>Note that the thousands separator used to display monetary values "
-#~| "has to be set separately (see the 'Money' tab).</p>"
 #~ msgid ""
 #~ "<p>Here you can define the set of digits used to display time and dates. "
 #~ "If digits other than Arabic are selected, they will appear only if used "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-14 07:51+0000\n"
+"POT-Creation-Date: 2015-01-16 08:19+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2654,6 +2654,54 @@ msgstr "Adčyni"
 #: filewidgets/kencodingfiledialog.cpp:240
 msgid "Save As"
 msgstr "Zapišy jak"
+
+#: filewidgets/kfilecopytomenu.cpp:81
+#, fuzzy
+#| msgid "Copy"
+msgctxt "@title:menu"
+msgid "Copy To"
+msgstr "Skapijuj"
+
+#: filewidgets/kfilecopytomenu.cpp:87
+#, fuzzy
+#| msgid "Move to Trash"
+msgctxt "@title:menu"
+msgid "Move To"
+msgstr "Vykidańnie ŭ śmietnicu"
+
+#: filewidgets/kfilecopytomenu.cpp:111
+#, fuzzy
+#| msgid "Home Folder"
+msgctxt "@title:menu"
+msgid "Home Folder"
+msgstr "Chatni kataloh"
+
+#: filewidgets/kfilecopytomenu.cpp:119
+#, fuzzy
+#| msgid "1 Folder"
+#| msgid_plural "%1 Folders"
+msgctxt "@title:menu"
+msgid "Root Folder"
+msgstr "%1 kataloh"
+
+#: filewidgets/kfilecopytomenu.cpp:154
+#, fuzzy
+#| msgid "&Browse..."
+msgctxt "@title:menu in Copy To or Move To submenu"
+msgid "Browse..."
+msgstr "&Prahladaj..."
+
+#: filewidgets/kfilecopytomenu.cpp:235
+#, fuzzy
+#| msgid "Copy"
+msgctxt "@title:menu"
+msgid "Copy Here"
+msgstr "Skapijuj"
+
+#: filewidgets/kfilecopytomenu.cpp:236
+msgctxt "@title:menu"
+msgid "Move Here"
+msgstr ""
 
 #: filewidgets/kfilefiltercombo.cpp:36 filewidgets/kfilewidget.cpp:1856
 msgid "*|All Files"

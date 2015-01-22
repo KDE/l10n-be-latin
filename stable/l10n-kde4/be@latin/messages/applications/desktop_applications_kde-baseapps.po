@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-19 05:36+0000\n"
+"POT-Creation-Date: 2015-01-22 05:39+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -65,7 +65,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of general Dolphin settings."
 msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:153
+#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:152
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "General"
@@ -73,7 +73,7 @@ msgctxt "Name|Random file browsing settings."
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:226
+#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:225
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -81,10 +81,10 @@ msgctxt "Comment"
 msgid "Configure general file manager settings"
 msgstr "Naładź kiraŭnika fajłaŭ"
 
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:297
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:297
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:247
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:296
+#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:295
+#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:296
+#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:244
+#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:295
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "File Manager"
@@ -108,7 +108,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin navigation."
 msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:153
+#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:152
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Navigation Panel"
@@ -116,7 +116,7 @@ msgctxt "Name"
 msgid "Navigation"
 msgstr "Panel miescaŭ"
 
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:226
+#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:225
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -132,14 +132,14 @@ msgctxt "Name"
 msgid "Dolphin Services"
 msgstr "Vyhlad „Dolphin”"
 
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:83
+#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:82
 #: konqueror/sidebar/default_entries/services.desktop:4
 #: konqueror/sidebar/trees/init/services/.directory:3
 msgctxt "Name"
 msgid "Services"
 msgstr "Słužby"
 
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:176
+#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:174
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -163,7 +163,7 @@ msgctxt "Comment"
 msgid "This service allows configuration of the Dolphin view modes."
 msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
 
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:152
+#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:151
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Views"
@@ -171,7 +171,7 @@ msgctxt "Name"
 msgid "View Modes"
 msgstr "Vyhlady"
 
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:224
+#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:223
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure file manager settings"
@@ -194,7 +194,7 @@ msgctxt "X-KDE-Keywords"
 msgid "password,email,name,organization,realname,login image,face,echo mode"
 msgstr ""
 
-#: kdepasswd/kcm/kcm_useraccount.desktop:130
+#: kdepasswd/kcm/kcm_useraccount.desktop:131
 msgctxt "Comment"
 msgid "User information such as password, name and email"
 msgstr "Źviestki pra karystańnika: parol, nazva, e-maił i h.d."
@@ -279,7 +279,7 @@ msgctxt "Name"
 msgid "Translate"
 msgstr "Pierakład „LEO”"
 
-#: konq-plugins/babelfish/plugin_translator.desktop:77
+#: konq-plugins/babelfish/plugin_translator.desktop:76
 msgctxt "Comment"
 msgid "Language translation for the current page using Google"
 msgstr ""
@@ -292,7 +292,7 @@ msgctxt "Name"
 msgid "Directory Filter"
 msgstr "Analizatar sietki"
 
-#: konq-plugins/dirfilter/dirfilterplugin.desktop:73
+#: konq-plugins/dirfilter/dirfilterplugin.desktop:72
 msgctxt "Comment"
 msgid "Filter directory view using an attribute filter"
 msgstr ""
@@ -485,7 +485,7 @@ msgctxt "Name"
 msgid "Document Relations"
 msgstr "Dakumenty pra API KDE"
 
-#: konq-plugins/rellinks/plugin_rellinks.desktop:75
+#: konq-plugins/rellinks/plugin_rellinks.desktop:74
 msgctxt "Comment"
 msgid "Displays the document relations of a document"
 msgstr ""
@@ -498,7 +498,7 @@ msgctxt "Name"
 msgid "Search Bar"
 msgstr "Pošuk dla PHP"
 
-#: konq-plugins/searchbar/searchbar.desktop:77
+#: konq-plugins/searchbar/searchbar.desktop:76
 msgctxt "Comment"
 msgid "Provides a text box for easier access to search engines like Google."
 msgstr ""
@@ -654,7 +654,7 @@ msgctxt "Comment"
 msgid "Configure enhanced browsing"
 msgstr "Naładź lepšaje hartańnie"
 
-#: konqueror/settings/ebrowsing/ebrowsing.desktop:198
+#: konqueror/settings/ebrowsing/ebrowsing.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Enhanced Browsing,Browsing,WWW,Internet,Internet Filters,Network,Search "
@@ -686,12 +686,12 @@ msgctxt "Name"
 msgid "Cache"
 msgstr "Padručnaja pamiać"
 
-#: konqueror/settings/kio/cache.desktop:106
+#: konqueror/settings/kio/cache.desktop:105
 msgctxt "Comment"
 msgid "Configure web cache settings"
 msgstr "Naładź padručnuju pamiać sieciva"
 
-#: konqueror/settings/kio/cache.desktop:199
+#: konqueror/settings/kio/cache.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid "Cache,History,Browsing History,Ports,Size"
 msgstr ""
@@ -701,12 +701,12 @@ msgctxt "Name"
 msgid "Cookies"
 msgstr ""
 
-#: konqueror/settings/kio/cookies.desktop:104
+#: konqueror/settings/kio/cookies.desktop:103
 msgctxt "Comment"
 msgid "Configure the way cookies work"
 msgstr ""
 
-#: konqueror/settings/kio/cookies.desktop:195
+#: konqueror/settings/kio/cookies.desktop:194
 msgctxt "X-KDE-Keywords"
 msgid "Cookies,Browsing,Internet,WWW,Network,Policy,Domains"
 msgstr ""
@@ -716,14 +716,14 @@ msgctxt "Name"
 msgid "Connection Preferences"
 msgstr "Ułasnyja nałady spałučeńnia"
 
-#: konqueror/settings/kio/netpref.desktop:106
+#: konqueror/settings/kio/netpref.desktop:105
 msgctxt "Comment"
 msgid "Configure generic network preferences, like timeout values"
 msgstr ""
 "Hałoŭnyja sietkavyja nałady, naprykład, terminy čakańnia vynikaŭ ad "
 "aperacyjaŭ."
 
-#: konqueror/settings/kio/netpref.desktop:197
+#: konqueror/settings/kio/netpref.desktop:196
 msgctxt "X-KDE-Keywords"
 msgid "timeout,iopref,netpref,network preferences,ftp"
 msgstr ""
@@ -1053,14 +1053,14 @@ msgctxt "Name"
 msgid "Appearance"
 msgstr "Vonkavaść"
 
-#: konqueror/settings/konq/fileappearance.desktop:105
-#: konqueror/settings/konq/webappearance.desktop:106
+#: konqueror/settings/konq/fileappearance.desktop:104
+#: konqueror/settings/konq/webappearance.desktop:105
 msgctxt "Comment"
 msgid "You can configure how Konqueror looks as a file manager here"
 msgstr "Tut možna naładzić vonkavaść fajłavaha kiraŭnika „Konqueror”"
 
-#: konqueror/settings/konq/fileappearance.desktop:198
-#: konqueror/settings/konq/webappearance.desktop:199
+#: konqueror/settings/konq/fileappearance.desktop:197
+#: konqueror/settings/konq/webappearance.desktop:198
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,filemanager,word wrap,wrap,underline,display,filesize,bytes,font,"
@@ -1102,7 +1102,7 @@ msgctxt "X-KDE-Keywords"
 msgid "CSS,HTML,style,stylesheet,accessibility"
 msgstr ""
 
-#: konqueror/settings/konqhtml/khtml_appearance.desktop:108
+#: konqueror/settings/konqhtml/khtml_appearance.desktop:107
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the fonts used on web pages"
@@ -1110,7 +1110,7 @@ msgctxt "Comment"
 msgid "Configure how to display web pages"
 msgstr "Naładź šryfty na sieciŭnym staronkach"
 
-#: konqueror/settings/konqhtml/khtml_appearance.desktop:179
+#: konqueror/settings/konqhtml/khtml_appearance.desktop:178
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,kfm,browser,html,web,www,fonts,charsets,character sets,encoding"
@@ -1126,7 +1126,7 @@ msgctxt "Comment"
 msgid "Configure the browser behavior"
 msgstr "Naładź pavodziny hartača sieciva"
 
-#: konqueror/settings/konqhtml/khtml_behavior.desktop:195
+#: konqueror/settings/konqhtml/khtml_behavior.desktop:194
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,kfm,browser,html,web,www,fonts,colours,colors,java,javascript,"
@@ -1285,7 +1285,7 @@ msgctxt "Comment"
 msgid "Configure the history sidebar"
 msgstr "Naładź bakavuju panel historyi"
 
-#: konqueror/sidebar/history_module/kcmhistory.desktop:195
+#: konqueror/sidebar/history_module/kcmhistory.desktop:194
 msgctxt "X-KDE-Keywords"
 msgid "history,expire"
 msgstr ""
@@ -1540,7 +1540,7 @@ msgctxt "Name"
 msgid "Link to Application..."
 msgstr "Łuč dla aplikacyi..."
 
-#: lib/konq/Templates/linkProgram.desktop:87
+#: lib/konq/Templates/linkProgram.desktop:86
 msgctxt "Comment"
 msgid "New Link to Application"
 msgstr "Novy łuč dla aplikacyi"
@@ -1580,12 +1580,12 @@ msgctxt "Name"
 msgid "Plugins"
 msgstr "Pluginy"
 
-#: nsplugins/khtml_plugins.desktop:107
+#: nsplugins/khtml_plugins.desktop:106
 msgctxt "Comment"
 msgid "Configure the browser plugins"
 msgstr "Naładź pluginy hartača"
 
-#: nsplugins/khtml_plugins.desktop:199
+#: nsplugins/khtml_plugins.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,kfm,browser,html,web,www,fonts,plugins"
 msgstr ""

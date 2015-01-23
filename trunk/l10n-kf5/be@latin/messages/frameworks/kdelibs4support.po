@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-18 08:05+0000\n"
+"POT-Creation-Date: 2015-01-23 08:22+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -6797,15 +6797,15 @@ msgctxt ""
 msgid "%Ey %EC"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:277
+#: kdecore/kcmdlineargs.cpp:278
 msgid "Use the X-server display 'displayname'"
 msgstr "Karystajsia ekranam „displayname” hrafičnaha servera X"
 
-#: kdecore/kcmdlineargs.cpp:280
+#: kdecore/kcmdlineargs.cpp:281
 msgid "Restore the application for the given 'sessionId'"
 msgstr "Uznavi aplikacyju z padadzienaj sesii „sessionId”"
 
-#: kdecore/kcmdlineargs.cpp:281
+#: kdecore/kcmdlineargs.cpp:282
 msgid ""
 "Causes the application to install a private color\n"
 "map on an 8-bit display"
@@ -6813,7 +6813,7 @@ msgstr ""
 "Zahadvaje aplikacyi zainstalavać pryvatnuju mapu koleraŭ\n"
 "na 8-bitavym ekranie"
 
-#: kdecore/kcmdlineargs.cpp:282
+#: kdecore/kcmdlineargs.cpp:283
 msgid ""
 "Limits the number of colors allocated in the color\n"
 "cube on an 8-bit display, if the application is\n"
@@ -6825,11 +6825,11 @@ msgstr ""
 "aplikacyja karystajecca dla aznačeńnia koleraŭ\n"
 "specyfikacyjaj „QApplication::ManyColor”"
 
-#: kdecore/kcmdlineargs.cpp:283
+#: kdecore/kcmdlineargs.cpp:284
 msgid "tells Qt to never grab the mouse or the keyboard"
 msgstr "zakažy Qt zabirać sabie myš ci klavijaturu"
 
-#: kdecore/kcmdlineargs.cpp:284
+#: kdecore/kcmdlineargs.cpp:285
 msgid ""
 "running under a debugger can cause an implicit\n"
 "-nograb, use -dograb to override"
@@ -6838,15 +6838,15 @@ msgstr ""
 "moža być uklučanaja opcyja „-nograb”. Kab\n"
 "admianić taki efekt, padaj opcyju „-dograb”"
 
-#: kdecore/kcmdlineargs.cpp:285
+#: kdecore/kcmdlineargs.cpp:286
 msgid "switches to synchronous mode for debugging"
 msgstr "uklučaje synchranizavany sposab raboty dla adładžvańnia"
 
-#: kdecore/kcmdlineargs.cpp:287
+#: kdecore/kcmdlineargs.cpp:288
 msgid "defines the application font"
 msgstr "aznačaje šryft aplikacyi"
 
-#: kdecore/kcmdlineargs.cpp:289
+#: kdecore/kcmdlineargs.cpp:290
 msgid ""
 "sets the default background color and an\n"
 "application palette (light and dark shades are\n"
@@ -6856,27 +6856,27 @@ msgstr ""
 "dla aplikacyi (śvietłyja j ciomnyja cieni\n"
 "raźličvajucca)"
 
-#: kdecore/kcmdlineargs.cpp:291
+#: kdecore/kcmdlineargs.cpp:292
 msgid "sets the default foreground color"
 msgstr "aznačaje zmoŭčany koler tekstu"
 
-#: kdecore/kcmdlineargs.cpp:293
+#: kdecore/kcmdlineargs.cpp:294
 msgid "sets the default button color"
 msgstr "aznačaje zmoŭčany koler knopak"
 
-#: kdecore/kcmdlineargs.cpp:294
+#: kdecore/kcmdlineargs.cpp:295
 msgid "sets the application name"
 msgstr "aznačaje nazvu aplikacyi"
 
-#: kdecore/kcmdlineargs.cpp:295
+#: kdecore/kcmdlineargs.cpp:296
 msgid "sets the application title (caption)"
 msgstr "aznačaje zahałovak aplikacyi"
 
-#: kdecore/kcmdlineargs.cpp:296
+#: kdecore/kcmdlineargs.cpp:297
 msgid "load the testability framework"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:298
+#: kdecore/kcmdlineargs.cpp:299
 msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
@@ -6884,7 +6884,7 @@ msgstr ""
 "zahadvaje aplikacyi karystacca kolerami „TrueColor” na\n"
 "8-bitavym ekranie"
 
-#: kdecore/kcmdlineargs.cpp:299
+#: kdecore/kcmdlineargs.cpp:300
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
 "values are onthespot, overthespot, offthespot and\n"
@@ -6894,64 +6894,64 @@ msgstr ""
 "značeńni: „onthespot”, „overthespot”, „offthespot” i\n"
 "„root”"
 
-#: kdecore/kcmdlineargs.cpp:300
+#: kdecore/kcmdlineargs.cpp:301
 msgid "set XIM server"
 msgstr "aznač server XIM"
 
-#: kdecore/kcmdlineargs.cpp:301
+#: kdecore/kcmdlineargs.cpp:302
 msgid "disable XIM"
 msgstr "vyklučy XIM"
 
-#: kdecore/kcmdlineargs.cpp:303
+#: kdecore/kcmdlineargs.cpp:304
 msgid "mirrors the whole layout of widgets"
 msgstr "adlustroŭvaje ŭvieś vykład widžetaŭ"
 
-#: kdecore/kcmdlineargs.cpp:304
+#: kdecore/kcmdlineargs.cpp:305
 msgid "applies the Qt stylesheet to the application widgets"
 msgstr "prymianiaje aznačeńnie stylaŭ Qt dla widžetaŭ aplikacyi"
 
-#: kdecore/kcmdlineargs.cpp:305
+#: kdecore/kcmdlineargs.cpp:306
 msgid ""
 "use a different graphics system instead of the default one, options are "
 "raster and opengl (experimental)"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:306
+#: kdecore/kcmdlineargs.cpp:307
 msgid ""
 "QML JS debugger information. Application must be\n"
 "built with -DQT_DECLARATIVE_DEBUG for the debugger to be\n"
 "enabled"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:307
+#: kdecore/kcmdlineargs.cpp:308
 msgid "The windowing system platform (e.g. xcb or wayland)"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:309
+#: kdecore/kcmdlineargs.cpp:310
 msgid "Use 'caption' as name in the titlebar"
 msgstr "Zrabi „caption” nazvaj dla pałasy zahałoŭka"
 
-#: kdecore/kcmdlineargs.cpp:310
+#: kdecore/kcmdlineargs.cpp:311
 msgid "Use 'icon' as the application icon"
 msgstr "Zrabi „icon” ikonaj aplikacyi"
 
-#: kdecore/kcmdlineargs.cpp:311
+#: kdecore/kcmdlineargs.cpp:312
 msgid "Use alternative configuration file"
 msgstr "Karystajsia inšym fajłam naładaŭ"
 
-#: kdecore/kcmdlineargs.cpp:312
+#: kdecore/kcmdlineargs.cpp:313
 msgid "Disable crash handler, to get core dumps"
 msgstr "Vyklučy nadzvyčajnaha straža, kab atrymać tak zvanyja „core dump”-y"
 
-#: kdecore/kcmdlineargs.cpp:314
+#: kdecore/kcmdlineargs.cpp:315
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "Čakaje akońnika, jaki dziejničaje zhodna z „WM_NET”"
 
-#: kdecore/kcmdlineargs.cpp:316
+#: kdecore/kcmdlineargs.cpp:317
 msgid "sets the application GUI style"
 msgstr "aznačaje styl hrafičnaha interfejsu aplikacyi"
 
-#: kdecore/kcmdlineargs.cpp:317
+#: kdecore/kcmdlineargs.cpp:318
 #, fuzzy
 #| msgid ""
 #| "sets the client geometry of the main widget - see man X for the argument "
@@ -6963,19 +6963,19 @@ msgstr ""
 "aznačaje hieametryju dla hałoŭnaha widžeta – padrabiaznyja źviestki pra "
 "farmat arhumenta šukaj u „man X”"
 
-#: kdecore/kcmdlineargs.cpp:435
+#: kdecore/kcmdlineargs.cpp:436
 msgid "KDE Application"
 msgstr "Aplikacyja KDE"
 
-#: kdecore/kcmdlineargs.cpp:496
+#: kdecore/kcmdlineargs.cpp:497
 msgid "Qt"
 msgstr "Qt"
 
-#: kdecore/kcmdlineargs.cpp:499
+#: kdecore/kcmdlineargs.cpp:500
 msgid "KDE"
 msgstr "KDE"
 
-#: kdecore/kcmdlineargs.cpp:840
+#: kdecore/kcmdlineargs.cpp:841
 #, kde-format
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
@@ -6992,7 +6992,7 @@ msgid ""
 "%3: %4\n"
 msgstr ""
 
-#: kdecore/kcmdlineargs.cpp:919
+#: kdecore/kcmdlineargs.cpp:921
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -7002,13 +7002,13 @@ msgstr ""
 "%1 napisali\n"
 "%2"
 
-#: kdecore/kcmdlineargs.cpp:1578
+#: kdecore/kcmdlineargs.cpp:1580
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 "Adrasy j fajły, adčynienyja ŭ aplikacyi, buduć paśla karystańnia prahramaj "
 "vydalenyja."
 
-#: kdecore/kcmdlineargs.cpp:1579
+#: kdecore/kcmdlineargs.cpp:1581
 msgid "KDE-tempfile"
 msgstr "Časovy fajł KDE"
 

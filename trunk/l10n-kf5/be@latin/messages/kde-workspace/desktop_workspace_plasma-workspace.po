@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-20 10:25+0000\n"
+"POT-Creation-Date: 2015-01-27 10:21+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -182,6 +182,21 @@ msgctxt "Comment"
 msgid "Launch your favourite Applications"
 msgstr "Uklučaj svaje ŭlubionyja aplikacyi"
 
+#: applets/systemmonitor/metadata.desktop:3
+#: applets/system-monitor/plasma-applet-sm_net.desktop:3
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Tool"
+msgctxt "Name"
+msgid "Network Monitor"
+msgstr "Sietkavaja pryłada"
+
+#: applets/systemmonitor/metadata.desktop:67
+#: applets/system-monitor/plasma-applet-sm_net.desktop:67
+msgctxt "Comment"
+msgid "A network usage monitor"
+msgstr "Nazirańnik zaniataści sietki"
+
 #: applets/system-monitor/plasma-applet-sm_cpu.desktop:3
 #, fuzzy
 #| msgctxt "Comment"
@@ -230,19 +245,6 @@ msgstr "Aparatura"
 msgctxt "Comment"
 msgid "Show hardware info"
 msgstr "Pakazvaje źviestki pra aparaturu"
-
-#: applets/system-monitor/plasma-applet-sm_net.desktop:3
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Tool"
-msgctxt "Name"
-msgid "Network Monitor"
-msgstr "Sietkavaja pryłada"
-
-#: applets/system-monitor/plasma-applet-sm_net.desktop:67
-msgctxt "Comment"
-msgid "A network usage monitor"
-msgstr "Nazirańnik zaniataści sietki"
 
 #: applets/system-monitor/plasma-applet-sm_ram.desktop:3
 #, fuzzy

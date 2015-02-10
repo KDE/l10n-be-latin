@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-31 08:03+0000\n"
+"POT-Creation-Date: 2015-02-10 09:59+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -46,6 +46,13 @@ msgstr "Zmoŭčanaje"
 msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Aŭtamatyčna vyznačanaje"
+
+#: kconfigdialog.cpp:45
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Naładź"
 
 #: klanguagebutton.cpp:194
 msgid "without name"
@@ -524,6 +531,41 @@ msgstr "&Pra %1"
 #: kstandardaction_p.h:115
 msgid "About &KDE"
 msgstr "Pra &KDE"
+
+#: ktipdialog.cpp:239
+#, fuzzy
+#| msgid "Tip of the Day"
+msgctxt "@title:window"
+msgid "Tip of the Day"
+msgstr "Štodzionnyja parady"
+
+#: ktipdialog.cpp:255
+#, fuzzy
+#| msgid "Did you know...?\n"
+msgctxt "@title"
+msgid "Did you know...?\n"
+msgstr "Ci ty viedaŭ?..\n"
+
+#: ktipdialog.cpp:307
+#, fuzzy
+#| msgid "&Show tips on startup"
+msgctxt "@option:check"
+msgid "&Show tips on startup"
+msgstr "&Pakazvaj parady pa ŭvachodzie"
+
+#: ktipdialog.cpp:312
+#, fuzzy
+#| msgid "&Previous"
+msgctxt "@action:button Goes to previous tip"
+msgid "&Previous"
+msgstr "&Papiaredniaje"
+
+#: ktipdialog.cpp:317
+#, fuzzy
+#| msgid "&Next"
+msgctxt "@action:button Goes to next tip, opposite to previous"
+msgid "&Next"
+msgstr "&Nastupnaje"
 
 #~ msgid "Name"
 #~ msgstr "Nazva"
@@ -3495,9 +3537,6 @@ msgstr "Pra &KDE"
 #~ msgid "Close Message"
 #~ msgstr "Začyni paviedamleńnie"
 
-#~ msgid "Configure"
-#~ msgstr "Naładź"
-
 #~ msgid "Job"
 #~ msgstr "Zadańnie"
 
@@ -4077,18 +4116,6 @@ msgstr "Pra &KDE"
 #~ msgstr ""
 #~ "Mova, jakaja vykarystoŭvajecca, kali papiarednija movy nia majuć "
 #~ "adpaviednaha pierakładu."
-
-#~ msgid "Tip of the Day"
-#~ msgstr "Štodzionnyja parady"
-
-#~ msgid "Did you know...?\n"
-#~ msgstr "Ci ty viedaŭ?..\n"
-
-#~ msgid "&Show tips on startup"
-#~ msgstr "&Pakazvaj parady pa ŭvachodzie"
-
-#~ msgid "&Previous"
-#~ msgstr "&Papiaredniaje"
 
 #~ msgctxt "Opposite to Previous"
 #~ msgid "&Next"
@@ -7441,9 +7468,6 @@ msgstr "Pra &KDE"
 
 #~ msgid "F&ind:"
 #~ msgstr "&Šukaj:"
-
-#~ msgid "&Next"
-#~ msgstr "&Nastupnaje"
 
 #~ msgid "Opt&ions"
 #~ msgstr "&Opcyi"

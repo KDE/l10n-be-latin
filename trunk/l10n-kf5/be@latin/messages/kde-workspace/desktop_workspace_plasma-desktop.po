@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-23 09:42+0000\n"
+"POT-Creation-Date: 2015-02-26 09:37+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -121,7 +121,7 @@ msgctxt "Name"
 msgid "Folder View"
 msgstr "Prahladnik šryftoŭ"
 
-#: containments/folder/package/metadata.desktop:26
+#: containments/folder/package/metadata.desktop:27
 msgctxt "Comment"
 msgid "Display the contents of folders"
 msgstr ""
@@ -559,12 +559,12 @@ msgctxt "Name"
 msgid "Locations"
 msgstr "Infarmavańnie"
 
-#: kcms/desktoppaths/desktoppath.desktop:35
+#: kcms/desktoppaths/desktoppath.desktop:36
 msgctxt "Comment"
 msgid "Location for Personal Files"
 msgstr ""
 
-#: kcms/desktoppaths/desktoppath.desktop:56
+#: kcms/desktoppaths/desktoppath.desktop:58
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,dolphin,files,filemanager,path, paths,desktop,directories,"
@@ -1088,6 +1088,72 @@ msgctxt "X-KDE-Keywords"
 msgid ""
 "style,styles,look,widget,icons,toolbars,text,highlight,apps,KDE applications,"
 "theme,plasma"
+msgstr ""
+
+#: kcms/touchpad/src/applet/dataengine.desktop:2
+msgctxt "Name"
+msgid "Touchpad DataEngine"
+msgstr ""
+
+#: kcms/touchpad/src/applet/qml/metadata.desktop:2
+msgctxt "Comment"
+msgid "Shows current touchpad state"
+msgstr ""
+
+#: kcms/touchpad/src/applet/qml/metadata.desktop:37
+msgctxt "Keywords"
+msgid "Touchpad"
+msgstr ""
+
+#: kcms/touchpad/src/applet/qml/metadata.desktop:70
+#: kcms/touchpad/src/kcm/kcm_touchpad.desktop:16
+#: kcms/touchpad/src/kded/kcm_touchpad.notifyrc:2
+#: kcms/touchpad/src/kded/kded_touchpad.desktop:8
+msgctxt "Name"
+msgid "Touchpad"
+msgstr ""
+
+#: kcms/touchpad/src/kcm/kcm_touchpad.desktop:49
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Mouse settings"
+msgctxt "Comment"
+msgid "Touchpad settings"
+msgstr "Nałady myšy"
+
+#: kcms/touchpad/src/kcm/kcm_touchpad.desktop:82
+msgctxt "X-KDE-Keywords"
+msgid "Touchpad,Synaptics"
+msgstr ""
+
+#: kcms/touchpad/src/kded/kcm_touchpad.notifyrc:36
+msgctxt "Comment"
+msgid "Touchpad"
+msgstr ""
+
+#: kcms/touchpad/src/kded/kcm_touchpad.notifyrc:71
+msgctxt "Name"
+msgid "Touchpad was disabled"
+msgstr ""
+
+#: kcms/touchpad/src/kded/kcm_touchpad.notifyrc:103
+msgctxt "Comment"
+msgid "Touchpad was disabled because mouse is detected"
+msgstr ""
+
+#: kcms/touchpad/src/kded/kcm_touchpad.notifyrc:139
+msgctxt "Name"
+msgid "Touchpad was enabled"
+msgstr ""
+
+#: kcms/touchpad/src/kded/kcm_touchpad.notifyrc:171
+msgctxt "Comment"
+msgid "Touchpad was enabled because the mouse was unplugged"
+msgstr ""
+
+#: kcms/touchpad/src/kded/kded_touchpad.desktop:41
+msgctxt "Comment"
+msgid "Enables or disables touchpad"
 msgstr ""
 
 #: kcms/translations/translations.desktop:14
@@ -1628,10 +1694,6 @@ msgstr "Sietkavaja pryłada"
 #~ msgctxt "Comment"
 #~ msgid "Customize the mouse cursor appearance"
 #~ msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
-
-#~ msgctxt "Comment"
-#~ msgid "Mouse settings"
-#~ msgstr "Nałady myšy"
 
 #, fuzzy
 #~| msgctxt "GenericName"

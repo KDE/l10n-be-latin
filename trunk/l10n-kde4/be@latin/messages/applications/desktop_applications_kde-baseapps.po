@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-24 03:10+0000\n"
+"POT-Creation-Date: 2015-03-06 02:20+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,174 +15,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: dolphin/src/dolphin.desktop:2
-msgctxt "Name"
-msgid "Dolphin"
-msgstr "Dolphin"
-
-#: dolphin/src/dolphin.desktop:96
-msgctxt "GenericName"
-msgid "File Manager"
-msgstr "Kiraŭnik fajłaŭ"
-
-#: dolphin/src/dolphinpart.desktop:3
-msgctxt "Name"
-msgid "Dolphin View"
-msgstr "Vyhlad „Dolphin”"
-
-#: dolphin/src/dolphinpart.desktop:99
-msgctxt "Name"
-msgid "Icons"
-msgstr "Ikony"
-
-#: dolphin/src/dolphinpart.desktop:197
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Compiz"
-msgctxt "Name"
-msgid "Compact"
-msgstr "Compiz"
-
-#: dolphin/src/dolphinpart.desktop:254
-msgctxt "Name"
-msgid "Details"
-msgstr "Detali"
-
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:1
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Dolphin View"
-msgctxt "Name"
-msgid "Dolphin General"
-msgstr "Vyhlad „Dolphin”"
-
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:72
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "This service allows configuration of the Dolphin views."
-msgctxt "Comment"
-msgid "This service allows configuration of general Dolphin settings."
-msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
-
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:151
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "General"
-msgctxt "Name|Random file browsing settings."
-msgid "General"
-msgstr "Hałoŭnaje"
-
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:224
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure file manager settings"
-msgctxt "Comment"
-msgid "Configure general file manager settings"
-msgstr "Naładź kiraŭnika fajłaŭ"
-
-#: dolphin/src/settings/kcm/kcmdolphingeneral.desktop:292
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:295
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:242
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:294
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "File Manager"
-msgctxt "X-KDE-Keywords"
-msgid "file manager"
-msgstr "Kiraŭnik fajłaŭ"
-
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:1
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Dolphin View"
-msgctxt "Name"
-msgid "Dolphin Navigation"
-msgstr "Vyhlad „Dolphin”"
-
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:73
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "This service allows configuration of the Dolphin views."
-msgctxt "Comment"
-msgid "This service allows configuration of the Dolphin navigation."
-msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
-
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:151
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Navigation Panel"
-msgctxt "Name"
-msgid "Navigation"
-msgstr "Panel miescaŭ"
-
-#: dolphin/src/settings/kcm/kcmdolphinnavigation.desktop:224
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure file manager settings"
-msgctxt "Comment"
-msgid "Configure file manager navigation"
-msgstr "Naładź kiraŭnika fajłaŭ"
-
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:1
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Dolphin View"
-msgctxt "Name"
-msgid "Dolphin Services"
-msgstr "Vyhlad „Dolphin”"
-
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:81
-#: konqueror/sidebar/default_entries/services.desktop:4
-#: konqueror/sidebar/trees/init/services/.directory:3
-msgctxt "Name"
-msgid "Services"
-msgstr "Słužby"
-
-#: dolphin/src/settings/kcm/kcmdolphinservices.desktop:171
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure file manager settings"
-msgctxt "Comment"
-msgid "Configure file manager services"
-msgstr "Naładź kiraŭnika fajłaŭ"
-
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:1
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Dolphin View"
-msgctxt "Name"
-msgid "Dolphin View Modes"
-msgstr "Vyhlad „Dolphin”"
-
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:73
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "This service allows configuration of the Dolphin views."
-msgctxt "Comment"
-msgid "This service allows configuration of the Dolphin view modes."
-msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
-
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:150
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Views"
-msgctxt "Name"
-msgid "View Modes"
-msgstr "Vyhlady"
-
-#: dolphin/src/settings/kcm/kcmdolphinviewmodes.desktop:222
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure file manager settings"
-msgctxt "Comment"
-msgid "Configure file manager view modes"
-msgstr "Naładź kiraŭnika fajłaŭ"
-
-#: dolphin/src/views/versioncontrol/fileviewversioncontrolplugin.desktop:4
-msgctxt "Comment"
-msgid "Version Control Plugin for File Views"
-msgstr ""
 
 #: kdepasswd/kcm/kcm_useraccount.desktop:14
 msgctxt "Name"
@@ -1280,6 +1112,12 @@ msgctxt "Comment"
 msgid "This is the root of the filesystem"
 msgstr "Korań fajłavaj systemy."
 
+#: konqueror/sidebar/default_entries/services.desktop:4
+#: konqueror/sidebar/trees/init/services/.directory:3
+msgctxt "Name"
+msgid "Services"
+msgstr "Słužby"
+
 #: konqueror/sidebar/history_module/kcmhistory.desktop:104
 msgctxt "Comment"
 msgid "Configure the history sidebar"
@@ -1597,6 +1435,138 @@ msgstr ""
 msgctxt "Comment"
 msgid "Display the contents of folders"
 msgstr "Pakazvaj źmieściva kataloha (zmoŭčana: stała)"
+
+#~ msgctxt "Name"
+#~ msgid "Dolphin"
+#~ msgstr "Dolphin"
+
+#~ msgctxt "GenericName"
+#~ msgid "File Manager"
+#~ msgstr "Kiraŭnik fajłaŭ"
+
+#~ msgctxt "Name"
+#~ msgid "Dolphin View"
+#~ msgstr "Vyhlad „Dolphin”"
+
+#~ msgctxt "Name"
+#~ msgid "Icons"
+#~ msgstr "Ikony"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Compiz"
+#~ msgctxt "Name"
+#~ msgid "Compact"
+#~ msgstr "Compiz"
+
+#~ msgctxt "Name"
+#~ msgid "Details"
+#~ msgstr "Detali"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Dolphin View"
+#~ msgctxt "Name"
+#~ msgid "Dolphin General"
+#~ msgstr "Vyhlad „Dolphin”"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "This service allows configuration of the Dolphin views."
+#~ msgctxt "Comment"
+#~ msgid "This service allows configuration of general Dolphin settings."
+#~ msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "General"
+#~ msgctxt "Name|Random file browsing settings."
+#~ msgid "General"
+#~ msgstr "Hałoŭnaje"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure file manager settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure general file manager settings"
+#~ msgstr "Naładź kiraŭnika fajłaŭ"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "File Manager"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "file manager"
+#~ msgstr "Kiraŭnik fajłaŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Dolphin View"
+#~ msgctxt "Name"
+#~ msgid "Dolphin Navigation"
+#~ msgstr "Vyhlad „Dolphin”"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "This service allows configuration of the Dolphin views."
+#~ msgctxt "Comment"
+#~ msgid "This service allows configuration of the Dolphin navigation."
+#~ msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Navigation Panel"
+#~ msgctxt "Name"
+#~ msgid "Navigation"
+#~ msgstr "Panel miescaŭ"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure file manager settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure file manager navigation"
+#~ msgstr "Naładź kiraŭnika fajłaŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Dolphin View"
+#~ msgctxt "Name"
+#~ msgid "Dolphin Services"
+#~ msgstr "Vyhlad „Dolphin”"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure file manager settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure file manager services"
+#~ msgstr "Naładź kiraŭnika fajłaŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Dolphin View"
+#~ msgctxt "Name"
+#~ msgid "Dolphin View Modes"
+#~ msgstr "Vyhlad „Dolphin”"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "This service allows configuration of the Dolphin views."
+#~ msgctxt "Comment"
+#~ msgid "This service allows configuration of the Dolphin view modes."
+#~ msgstr "Hetaja słužba dazvalaje naładžvać vyhlad prahramy „Dolphin”."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Views"
+#~ msgctxt "Name"
+#~ msgid "View Modes"
+#~ msgstr "Vyhlady"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure file manager settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure file manager view modes"
+#~ msgstr "Naładź kiraŭnika fajłaŭ"
 
 #~ msgctxt "Name"
 #~ msgid "Folder View"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-06 01:50+0000\n"
+"POT-Creation-Date: 2015-03-07 08:32+0000\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3254,6 +3254,12 @@ msgctxt "@action:button"
 msgid "&Rename"
 msgstr "Źmiani nazvu"
 
+#: views/renamedialog.cpp:78
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "Źmiani nazvu dla <filename>%1</filename> na:"
+
 #: views/renamedialog.cpp:82
 msgctxt "@info:status"
 msgid "New name #"
@@ -3338,10 +3344,6 @@ msgstr "Dadatkovyja źviestki"
 #~ msgctxt "@info:status"
 #~ msgid "A folder cannot be dropped into itself"
 #~ msgstr "Nielha pierakinuć kataloh u samoha siabie."
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Rename the item <filename>%1</filename> to:"
-#~ msgstr "Źmiani nazvu dla <filename>%1</filename> na:"
 
 #~ msgctxt "@action:inmenu"
 #~ msgid "Paste"

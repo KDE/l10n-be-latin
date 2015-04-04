@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-23 09:42+0000\n"
+"POT-Creation-Date: 2015-04-04 09:35+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -61,6 +61,24 @@ msgctxt "Name"
 msgid "Information"
 msgstr "Źviestki pra PCI"
 
+#: Modules/about-distro/src/about-distro.desktop:11
+msgctxt "X-KDE-Keywords"
+msgid "information,distribution,distro,system,kernel,qt,kde"
+msgstr ""
+
+#: Modules/about-distro/src/about-distro.desktop:41
+msgctxt "Name"
+msgid "About System"
+msgstr ""
+
+#: Modules/about-distro/src/about-distro.desktop:69
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Info about files and directories for Plasmoids"
+msgctxt "Comment"
+msgid "Information About This System"
+msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
+
 #: Modules/devinfo/devinfo.desktop:13
 #, fuzzy
 #| msgctxt "GenericName"
@@ -78,7 +96,6 @@ msgid "Device Viewer"
 msgstr "Prahladnik dla vyjavaŭ"
 
 #: Modules/devinfo/devinfo.desktop:141
-#: Modules/infosummary/kcm_infosummary.desktop:144
 msgctxt "X-KDE-Keywords"
 msgid "device,devices"
 msgstr ""
@@ -148,19 +165,6 @@ msgstr "Źviestki pra SCSI"
 msgctxt "X-KDE-Keywords"
 msgid "SCSI,SCSI-Bus,System Information"
 msgstr "Źviestki pra SCSI"
-
-#: Modules/infosummary/kcm_infosummary.desktop:11
-msgctxt "Name"
-msgid "Summary"
-msgstr ""
-
-#: Modules/infosummary/kcm_infosummary.desktop:79
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Hardware"
-msgctxt "Comment"
-msgid "Hardware Information Summary"
-msgstr "Aparatura"
 
 #: Modules/info/wayland.desktop:12
 #, fuzzy
@@ -311,3 +315,10 @@ msgstr "KInfoCenter"
 msgctxt "GenericName"
 msgid "Info Center"
 msgstr "Infarmacyjny centar"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Hardware"
+#~ msgctxt "Comment"
+#~ msgid "Hardware Information Summary"
+#~ msgstr "Aparatura"

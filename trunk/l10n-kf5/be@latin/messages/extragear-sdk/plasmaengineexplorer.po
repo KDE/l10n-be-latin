@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-23 03:32+0100\n"
+"POT-Creation-Date: 2015-04-09 08:30+0000\n"
 "PO-Revision-Date: 2008-12-27 00:35+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -27,82 +27,88 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#: engineexplorer.cpp:55 main.cpp:68
-msgid "Plasma Engine Explorer"
-msgstr "Prahlad žarołaŭ „Plasma”"
-
-#: engineexplorer.cpp:72
-msgid "Search"
-msgstr "Šukaj"
-
-#: engineexplorer.cpp:78
-msgid "Collapse All"
-msgstr "Zharni ŭsio"
-
-#: engineexplorer.cpp:79
+#: engineexplorer.cpp:55
 msgid "Expand All"
 msgstr "Razharni ŭsio"
 
-#: engineexplorer.cpp:170
+#: engineexplorer.cpp:56
+msgid "Collapse All"
+msgstr "Zharni ŭsio"
+
+#: engineexplorer.cpp:61 main.cpp:69
+msgid "Plasma Engine Explorer"
+msgstr "Prahlad žarołaŭ „Plasma”"
+
+#: engineexplorer.cpp:90
+msgid "Search"
+msgstr "Šukaj"
+
+#: engineexplorer.cpp:183
 msgid "DataSource"
 msgstr "Krynica źviestak"
 
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 serviceviewer.cpp:147 serviceviewer.ui:67
+#: engineexplorer.cpp:183 serviceviewer.cpp:159 serviceviewer.ui:61
 msgid "Key"
 msgstr "Kluč"
 
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:170 serviceviewer.cpp:147 serviceviewer.ui:72
+#: engineexplorer.cpp:183 serviceviewer.cpp:159 serviceviewer.ui:66
 msgid "Value"
 msgstr "Vartaść"
 
-#: engineexplorer.cpp:170
+#: engineexplorer.cpp:183
 msgid "Type"
 msgstr "Typ"
 
-#: engineexplorer.cpp:290
+#: engineexplorer.cpp:302
 msgid "Get associated service"
 msgstr "Vykarystaj źviazanuju pasłuhu"
 
-#: engineexplorer.cpp:291
+#: engineexplorer.cpp:303
+#, fuzzy
+#| msgid "Get associated service"
+msgid "Get associated model"
+msgstr "Vykarystaj źviazanuju pasłuhu"
+
+#: engineexplorer.cpp:304
 msgid "Update source now"
 msgstr "Aktualizuj krynicu"
 
-#: engineexplorer.cpp:292
+#: engineexplorer.cpp:305
 msgid "Remove source"
 msgstr "Vydali krynicu"
 
-#: engineexplorer.cpp:312
+#: engineexplorer.cpp:328
 #, kde-format
-msgid "&lt;1 bit&gt;"
-msgid_plural "&lt;%1 bits&gt;"
-msgstr[0] "&lt;%1 bit&gt;"
-msgstr[1] "&lt;%1 bity&gt;"
-msgstr[2] "&lt;%1 bitaŭ&gt;"
+msgid "<1 bit>"
+msgid_plural "<%1 bits>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
-#: engineexplorer.cpp:321
+#: engineexplorer.cpp:337
 #, kde-format
-msgid "&lt;1 byte&gt;"
-msgid_plural "&lt;%1 bytes&gt;"
-msgstr[0] "&lt;%1 bajt&gt;"
-msgstr[1] "&lt;%1 bajty&gt;"
-msgstr[2] "&lt;%1 bajtaŭ&gt;"
+msgid "<1 byte>"
+msgid_plural "<%1 bytes>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
-#: engineexplorer.cpp:344
+#: engineexplorer.cpp:360
 #, kde-format
-msgid "&lt;1 item&gt;"
-msgid_plural "&lt;%1 items&gt;"
-msgstr[0] "&lt;%1 element&gt;"
-msgstr[1] "&lt;%1 elementy&gt;"
-msgstr[2] "&lt;%1 elementaŭ&gt;"
+msgid "<1 item>"
+msgid_plural "<%1 items>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
-#: engineexplorer.cpp:434
+#: engineexplorer.cpp:450
 msgctxt "The user did a query to a dataengine and it returned empty data"
 msgid "<empty>"
 msgstr "<pusta>"
 
-#: engineexplorer.cpp:441
+#: engineexplorer.cpp:457
 msgctxt ""
 "A the dataengine returned something that the humble view on the "
 "engineexplorer can't display, like a picture"
@@ -110,11 +116,11 @@ msgid "<not displayable>"
 msgstr "<niemahčyma pakazać>"
 
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:491 engineexplorer.ui:17
+#: engineexplorer.cpp:507 engineexplorer.ui:17
 msgid "Plasma DataEngine Explorer"
 msgstr "Prahlad žarołaŭ źviestak „Plasma”"
 
-#: engineexplorer.cpp:496
+#: engineexplorer.cpp:512
 #, kde-format
 msgctxt "The name of the engine followed by the number of data sources"
 msgid "%1 Engine - 1 data source"
@@ -123,153 +129,169 @@ msgstr[0] "Žarało „%1”: %2 krynica źviestak"
 msgstr[1] "Žarało „%1”: %2 krynicy źviestak"
 msgstr[2] "Žarało „%1”: %2 krynic źviestak"
 
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_sourceRequester)
 #: engineexplorer.ui:38
 msgid "Source name"
 msgstr "Nazva krynicy"
 
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, m_updateInterval)
-#: engineexplorer.ui:57
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, m_updateInterval)
+#: engineexplorer.ui:63
 msgid "Update on demand"
 msgstr "Aktualizuj pry patrebie"
 
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_updateInterval)
-#: engineexplorer.ui:60
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateInterval)
+#: engineexplorer.ui:69
 msgid "ms"
 msgstr "ms"
 
-#. i18n: ectx: property (prefix), widget (KIntSpinBox, m_updateInterval)
-#: engineexplorer.ui:63
-msgid "Update every "
+#. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
+#: engineexplorer.ui:72
+#, fuzzy
+#| msgid "Update every "
+msgid "Update Every "
 msgstr "Aktualizuj kožnyja "
 
 #. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
-#: engineexplorer.ui:85
+#: engineexplorer.ui:88
 #, fuzzy
 #| msgid "Request"
 msgid "Request Source"
 msgstr "Zapyt"
 
-#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_serviceRequester)
-#: engineexplorer.ui:105
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_serviceRequester)
+#: engineexplorer.ui:108
 #, fuzzy
 #| msgid "Remove source"
 msgid "Service for source"
 msgstr "Vydali krynicu"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
-#: engineexplorer.ui:118
+#: engineexplorer.ui:121
 #, fuzzy
 #| msgid "Remove source"
 msgid "Request Service for Source"
 msgstr "Vydali krynicu"
 
-#: ktreeviewsearchline.cpp:420
+#: ktreeviewsearchline.cpp:423
 msgid "Search Columns"
 msgstr "Słupki pošuku"
 
-#: ktreeviewsearchline.cpp:422
+#: ktreeviewsearchline.cpp:425
 msgid "All Visible Columns"
 msgstr "Usie vidočnyja słupki"
 
-#: ktreeviewsearchline.cpp:579
+#: ktreeviewsearchline.cpp:582
 msgid "S&earch:"
 msgstr "&Šukaj:"
 
-#: main.cpp:31
+#: main.cpp:32
 msgid "Explore the data published by Plasma DataEngines"
 msgstr "Prahladaj źviestki, vydadzienyja žarołami źviestak „Plasma”"
 
-#: main.cpp:52
+#: main.cpp:53
 msgid "No description available"
 msgstr ""
 
-#: main.cpp:70
+#: main.cpp:71
 msgid "(c) 2006, The KDE Team"
 msgstr "© 2006, supolnaść KDE"
 
-#: main.cpp:71
+#: main.cpp:72
 msgid "Aaron J. Seigo"
 msgstr "Aaron J. Seigo"
 
-#: main.cpp:72
+#: main.cpp:73
 msgid "Author and maintainer"
 msgstr "Aŭtar i dahladnik"
 
-#: main.cpp:79
+#: main.cpp:83
 msgid "Displays a list of known engines and their descriptions"
 msgstr ""
 
-#: main.cpp:80
+#: main.cpp:84
 msgid "The desired height in pixels"
 msgstr "Patrebnaja vyšynia ŭ punktach"
 
-#: main.cpp:81
+#: main.cpp:85
 msgid "The desired width in pixels"
 msgstr "Patrebnaja šyrynia ŭ punktach"
 
-#: main.cpp:82
+#: main.cpp:86
 msgid "The desired x position in pixels"
 msgstr "Patrebnaja pazycyja „X” u punktach"
 
-#: main.cpp:83
+#: main.cpp:87
 msgid "The desired y position in pixels"
 msgstr "Patrebnaja pazycyja „Y” u punktach"
 
-#: main.cpp:84
+#: main.cpp:88
 msgid "The data engine to use"
 msgstr "Patrebnaje žarało źviestak"
 
-#: main.cpp:85
+#: main.cpp:89
 msgid "The source to request"
 msgstr "Patrebnaja krynica"
 
-#: main.cpp:86
+#: main.cpp:90
 #, fuzzy
 #| msgid "Update Interval in milliseconds."
 msgid "Update interval in milliseconds"
 msgstr "Intervał aktualizacyi ŭ milisekundach."
 
-#: main.cpp:87
+#: main.cpp:91
 msgid ""
 "Only show engines associated with the parent application; maps to the X-KDE-"
 "ParentApp entry in the DataEngine's .desktop file."
 msgstr ""
 
-#: serviceviewer.cpp:46
-msgid "Start Operation"
-msgstr "Pačni aperacyju"
-
-#: serviceviewer.cpp:53
+#: modelviewer.cpp:98 serviceviewer.cpp:65
 msgctxt "Plasma engine with unknown name"
 msgid "Unknown"
 msgstr "Nieviadomaja"
 
-#: serviceviewer.cpp:54
+#: modelviewer.cpp:109
+msgid ""
+"No valid model was returned. Verify that a model is available for this "
+"source."
+msgstr ""
+
+#: modelviewer.cpp:114
+#, fuzzy, kde-format
+#| msgctxt "%1 is a Plasma service name"
+#| msgid "%1 Service Explorer"
+msgctxt "%1 is a Plasma dataengine name"
+msgid "%1 Model Explorer"
+msgstr "Prahlad pasłuhi „%1”"
+
+#: serviceviewer.cpp:40
+msgid "Start Operation"
+msgstr "Pačni aperacyju"
+
+#: serviceviewer.cpp:66
 msgctxt "Plasma service with unknown name"
 msgid "Unknown"
 msgstr "Nieviadomaja"
 
-#: serviceviewer.cpp:67
+#: serviceviewer.cpp:79
 msgid ""
 "No valid service was returned. Verify that a service is available for this "
 "source."
 msgstr ""
 
-#: serviceviewer.cpp:72
+#: serviceviewer.cpp:84
 #, kde-format
 msgctxt "%1 is a Plasma service name"
 msgid "%1 Service Explorer"
 msgstr "Prahlad pasłuhi „%1”"
 
-#: serviceviewer.cpp:74
+#: serviceviewer.cpp:86
 #, fuzzy, kde-format
 #| msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
 msgctxt "Source: name of the data, Service: writes data instead of fetching"
 msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service: <b>%3</b>"
 msgstr "Žarało źviestak: <b>%1</b>. Krynica: <b>%2</b>. Pasłuha: <b>%3</b>"
 
-#: serviceviewer.cpp:181
+#: serviceviewer.cpp:193
 #, fuzzy, kde-format
 #| msgid "%1 operation with destination %2 failed. The error was:<p><b>%3</b>"
 msgid ""
@@ -279,17 +301,17 @@ msgstr ""
 "Nie ŭdałosia vykanać aperacyju „%1” z metaju „%2”. Uźnikła pamyłka:<p><b>%3</"
 "b>"
 
-#: serviceviewer.cpp:184 serviceviewer.cpp:195
+#: serviceviewer.cpp:196 serviceviewer.cpp:207
 msgid "Operation Result"
 msgstr "Vynik aperacyi"
 
-#: serviceviewer.cpp:188
+#: serviceviewer.cpp:200
 #, fuzzy
 #| msgid "No response from job!"
 msgid "No response from job."
 msgstr "Ad zadańnia nie było adkazu."
 
-#: serviceviewer.cpp:192
+#: serviceviewer.cpp:204
 #, fuzzy, kde-format
 #| msgid ""
 #| "%1 operation with destination %2 returned successfully. The result was:"
@@ -301,7 +323,7 @@ msgstr ""
 "Aperacyja „%1” z metaju „%2” paśpiachova vykananaja. Viernuty vynik:<p><b>"
 "%3</b>"
 
-#: serviceviewer.cpp:217
+#: serviceviewer.cpp:229
 #, fuzzy, kde-format
 #| msgid "One active operation ..."
 #| msgid_plural "%1 operations active ..."
@@ -312,18 +334,38 @@ msgstr[1] "%1 dziejnyja aperacyi..."
 msgstr[2] "%1 dziejnych aperacyjaŭ..."
 
 #. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
-#: serviceviewer.ui:33
-msgid "&Operation:"
+#: serviceviewer.ui:27
+#, fuzzy
+#| msgid "&Operation:"
+msgid "Opera&tion:"
 msgstr "&Aperacyja:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
-#: serviceviewer.ui:80
+#: serviceviewer.ui:74
 msgid "Operation count"
 msgstr "Kolkaść aperacyjaŭ"
 
-#: titlecombobox.h:53
+#: titlecombobox.h:54
 msgid "Data Engines"
 msgstr ""
+
+#~ msgid "&lt;1 bit&gt;"
+#~ msgid_plural "&lt;%1 bits&gt;"
+#~ msgstr[0] "&lt;%1 bit&gt;"
+#~ msgstr[1] "&lt;%1 bity&gt;"
+#~ msgstr[2] "&lt;%1 bitaŭ&gt;"
+
+#~ msgid "&lt;1 byte&gt;"
+#~ msgid_plural "&lt;%1 bytes&gt;"
+#~ msgstr[0] "&lt;%1 bajt&gt;"
+#~ msgstr[1] "&lt;%1 bajty&gt;"
+#~ msgstr[2] "&lt;%1 bajtaŭ&gt;"
+
+#~ msgid "&lt;1 item&gt;"
+#~ msgid_plural "&lt;%1 items&gt;"
+#~ msgstr[0] "&lt;%1 element&gt;"
+#~ msgstr[1] "&lt;%1 elementy&gt;"
+#~ msgstr[2] "&lt;%1 elementaŭ&gt;"
 
 #~ msgid "%1 service for %2 DataEngine source %3"
 #~ msgstr "Pasłuha „%1” dla žarała źviestak „%2” z krynicy „%3”"

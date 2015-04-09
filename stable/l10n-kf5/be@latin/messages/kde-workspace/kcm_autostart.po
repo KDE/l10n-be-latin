@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-08 10:28+0000\n"
+"POT-Creation-Date: 2015-03-08 08:24+0000\n"
 "PO-Revision-Date: 2008-11-04 12:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -29,6 +29,7 @@ msgstr "ihar.hrachyshka@gmail.com"
 
 #: addscriptdialog.cpp:40
 #, fuzzy
+#| msgid "Shell script:"
 msgid "Shell script path:"
 msgstr "Skrypt abałonki:"
 
@@ -89,6 +90,7 @@ msgstr "Modul kiravańnia kiraŭnikom aŭtamatyčnaha ŭklučeńnia dla „KDE�
 
 #: autostart.cpp:79
 #, fuzzy
+#| msgid "(c) 2006-2007-2008 Autostart Manager team"
 msgid "Copyright © 2006–2010 Autostart Manager team"
 msgstr "© 2006, 2007, 2008 raspracoŭniki kiraŭnika aŭtamatyčnaha ŭklučeńnia"
 
@@ -136,6 +138,8 @@ msgstr "Fajł skrypta"
 
 #: autostart.cpp:428
 #, fuzzy
+#| msgid ""
+#| "KDE only reads files with sh extensions for setting up the environment."
 msgid ""
 "Only files with “.sh” extensions are allowed for setting up the environment."
 msgstr ""
@@ -160,12 +164,14 @@ msgstr "&Vydali"
 #. i18n: ectx: property (text), widget (QPushButton, btnProperties)
 #: autostartconfig.ui:47
 #, fuzzy
+#| msgid "&Properties"
 msgid "&Properties..."
 msgstr "&Ułaścivaści"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
 #: autostartconfig.ui:74
 #, fuzzy
+#| msgid "Advanced"
 msgid "Advanced..."
 msgstr "Asablivaje"
 

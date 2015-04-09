@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2015-03-19 08:45+0000\n"
 "PO-Revision-Date: 2008-11-04 12:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -33,21 +33,23 @@ msgstr "Uklučy nastupny vykład"
 
 #: bindings.cpp:34
 #, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
 
 #: bindings.cpp:67
 #, fuzzy, kde-format
+#| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"
 msgstr "Pamyłka źmieny klavijaturnaha vykładu na „%1”."
 
-#: flags.cpp:141
+#: flags.cpp:172
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:149
+#: flags.cpp:180
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
@@ -59,6 +61,8 @@ msgstr ""
 
 #: kcm_add_layout_dialog.cpp:139 kcm_view_models.cpp:308
 #, fuzzy
+#| msgctxt "Default variant"
+#| msgid "Default"
 msgctxt "variant"
 msgid "Default"
 msgstr "Zmoŭčanaja"
@@ -66,6 +70,7 @@ msgstr "Zmoŭčanaja"
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
 #, fuzzy
+#| msgid "Keyboard Repeat"
 msgid "Add Layout"
 msgstr "Paŭtor klavišaŭ"
 
@@ -102,11 +107,13 @@ msgstr ""
 
 #: kcm_keyboard.cpp:49
 #, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
 msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
 
 #: kcm_keyboard.cpp:51
 #, fuzzy
+#| msgid "Copyright (C) 2006-2007 Andriy Rysin"
 msgid "(c) 2010 Andriy Rysin"
 msgstr "Copyright © 2006-2007 Andriy Rysin"
 
@@ -124,6 +131,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: kcm_keyboard.ui:33
 #, fuzzy
+#| msgid "Keyboard Repeat"
 msgid "Keyboard &model:"
 msgstr "Paŭtor klavišaŭ"
 
@@ -146,6 +154,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabLayouts)
 #: kcm_keyboard.ui:94
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Layouts"
 msgstr "&Uklučy paŭtor klavišaŭ"
 
@@ -162,6 +171,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showSingleChk)
 #: kcm_keyboard.ui:115
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Show for single layout"
 msgstr "&Uklučy paŭtor klavišaŭ"
 
@@ -217,6 +227,7 @@ msgstr "Dla a&kna"
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
 #: kcm_keyboard.ui:201
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Shortcuts for Switching Layout"
 msgstr "&Uklučy paŭtor klavišaŭ"
 
@@ -282,6 +293,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
 #: kcm_keyboard.ui:298
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Configure layouts"
 msgstr "&Uklučy paŭtor klavišaŭ"
 
@@ -308,6 +320,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
 #: kcm_keyboard.ui:387
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Spare layouts"
 msgstr "&Uklučy paŭtor klavišaŭ"
 
@@ -324,6 +337,7 @@ msgstr "Admysłovaje"
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:455
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "&Configure keyboard options"
 msgstr "&Uklučy paŭtor klavišaŭ"
 
@@ -348,6 +362,7 @@ msgstr[2] ""
 
 #: kcm_keyboard_widget.cpp:612
 #, fuzzy
+#| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Niama"
@@ -362,6 +377,7 @@ msgstr[2] ""
 
 #: kcm_view_models.cpp:224
 #, fuzzy
+#| msgid "Map"
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Mapa"
@@ -380,6 +396,7 @@ msgstr "Nazva"
 
 #: kcm_view_models.cpp:224
 #, fuzzy
+#| msgid "Main shortcuts:"
 msgid "Shortcut"
 msgstr "Hałoŭnyja skaroty:"
 
@@ -409,6 +426,7 @@ msgstr "&Uklučaj"
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
 #: kcmmiscwidget.ui:39
 #, fuzzy
+#| msgid "Turn o&ff"
 msgid "&Turn off"
 msgstr "&Vyklučaj"
 
@@ -430,6 +448,7 @@ msgstr "&Vyklučaj"
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
 #: kcmmiscwidget.ui:85
 #, fuzzy
+#| msgid "Leave unchan&ged"
 msgid "&Leave unchanged"
 msgstr "&Nie źmianiaj"
 
@@ -489,12 +508,14 @@ msgstr ""
 
 #: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
 #, fuzzy
+#| msgid "Keyboard Repeat"
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "Paŭtor klavišaŭ"
 
 #: layouts_menu.cpp:134
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Configure..."
 msgstr "&Uklučy paŭtor klavišaŭ"
 
@@ -514,6 +535,7 @@ msgstr "&Uklučy paŭtor klavišaŭ"
 #~ "knopki. Kali ty vybieraš hučnaść „0%”, tady hetyja huki buduć vyklučanyja."
 
 #, fuzzy
+#~| msgid "Key click &volume:"
 #~ msgid "&Key click volume:"
 #~ msgstr "&Hučnaść nacisku klavišaŭ:"
 

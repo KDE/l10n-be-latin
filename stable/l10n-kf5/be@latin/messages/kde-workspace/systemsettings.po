@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:19+0000\n"
+"POT-Creation-Date: 2014-11-13 07:53+0000\n"
 "PO-Revision-Date: 2008-10-06 22:27+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -75,6 +75,7 @@ msgstr ""
 
 #: app/SettingsBase.cpp:62
 #, fuzzy
+#| msgid "S&earch:"
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "&Šukaj:"
@@ -134,6 +135,7 @@ msgstr ""
 #. i18n: ectx: ToolBar (mainToolBar)
 #: app/systemsettingsui.rc:16
 #, fuzzy
+#| msgid "System Settings"
 msgid "About System Settings"
 msgstr "Systemnyja nałady"
 
@@ -147,6 +149,7 @@ msgstr[2] ""
 
 #: classic/CategoryList.cpp:41
 #, fuzzy
+#| msgid "Configure"
 msgid "Configure your system"
 msgstr "Naładź"
 
@@ -194,6 +197,9 @@ msgstr ""
 
 #: core/ModuleView.cpp:244
 #, fuzzy
+#| msgid ""
+#| "There are unsaved changes in the active module.\n"
+#| "Do you want to apply the changes or discard them?"
 msgid ""
 "The settings of the current module have changed.\n"
 "Do you want to apply the changes or discard them?"
@@ -203,6 +209,7 @@ msgstr ""
 
 #: core/ModuleView.cpp:246
 #, fuzzy
+#| msgid "System Settings"
 msgid "Apply Settings"
 msgstr "Systemnyja nałady"
 
@@ -216,6 +223,7 @@ msgstr ""
 
 #: icons/IconMode.cpp:67
 #, fuzzy
+#| msgid "Overview (%1)"
 msgid "Overview"
 msgstr "Ahlad (%1)"
 

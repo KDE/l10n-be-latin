@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:16+0000\n"
+"POT-Creation-Date: 2014-10-11 08:14+0000\n"
 "PO-Revision-Date: 2008-11-26 01:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -29,6 +29,7 @@ msgstr "ihar.hrachyshka@gmail.com"
 
 #: application.cpp:46
 #, fuzzy
+#| msgid "Document to be indexed"
 msgid "Documentation to open"
 msgstr "Dakument dla indeksavańnia"
 
@@ -42,6 +43,7 @@ msgstr "Centar dapamohi „KDE”"
 
 #: application.cpp:84
 #, fuzzy
+#| msgid "(c) 1999-2003, The KHelpCenter developers"
 msgid "(c) 1999-2011, The KHelpCenter developers"
 msgstr "© 1999-2003, raspracoŭniki prahramy „KHelpCenter”"
 
@@ -251,11 +253,13 @@ msgstr "Spyni"
 
 #: kcmhelpcenter.cpp:202
 #, fuzzy
+#| msgid "Details &lt;&lt;"
 msgid "Details <<"
 msgstr "Detali &lt;&lt;"
 
 #: kcmhelpcenter.cpp:215
 #, fuzzy
+#| msgid "Details &lt;&lt;"
 msgid "Details >>"
 msgstr "Detali &lt;&lt;"
 
@@ -634,8 +638,3 @@ msgstr "Skapijuj adras spasyłki"
 
 #~ msgid "ht://dig home page"
 #~ msgstr "Chatniaja staronka „ht://dig”"
-
-#, fuzzy
-#~| msgid "Details &gt;&gt;"
-#~ msgid "Details &lt;&lt;"
-#~ msgstr "Detali &gt;&gt;"

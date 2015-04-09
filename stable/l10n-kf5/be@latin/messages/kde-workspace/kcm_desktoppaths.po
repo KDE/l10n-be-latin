@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-30 10:07+0000\n"
+"POT-Creation-Date: 2015-01-30 08:23+0000\n"
 "PO-Revision-Date: 2008-11-04 17:48+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -34,6 +34,7 @@ msgstr ""
 
 #: globalpaths.cpp:118
 #, fuzzy
+#| msgid "Des&ktop path:"
 msgid "Desktop path:"
 msgstr "Ściežka &stała:"
 
@@ -49,6 +50,7 @@ msgstr ""
 
 #: globalpaths.cpp:124
 #, fuzzy
+#| msgid "A&utostart path:"
 msgid "Autostart path:"
 msgstr "Ściežka &aŭtamatyčnaha ŭklučeńnia:"
 
@@ -65,6 +67,7 @@ msgstr ""
 
 #: globalpaths.cpp:131
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Documents path:"
 msgstr "Ściežka &dakumentaŭ:"
 
@@ -75,42 +78,54 @@ msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
 #: globalpaths.cpp:135
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Downloads path:"
 msgstr "Ściežka &dakumentaŭ:"
 
 #: globalpaths.cpp:136
 #, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to save your downloaded items."
 msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
 #: globalpaths.cpp:139
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Movies path:"
 msgstr "Ściežka &dakumentaŭ:"
 
 #: globalpaths.cpp:140
 #, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to load or save movies from or to."
 msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
 #: globalpaths.cpp:143
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Pictures path:"
 msgstr "Ściežka &dakumentaŭ:"
 
 #: globalpaths.cpp:144
 #, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
 msgid ""
 "This folder will be used by default to load or save pictures from or to."
 msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
 #: globalpaths.cpp:147
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Music path:"
 msgstr "Ściežka &dakumentaŭ:"
 
 #: globalpaths.cpp:148
 #, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to load or save music from or to."
 msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
@@ -124,21 +139,26 @@ msgstr "Rabočy stoł"
 
 #: globalpaths.cpp:305
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Documents"
 msgstr "Ściežka &dakumentaŭ:"
 
 #: globalpaths.cpp:308
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Downloads"
 msgstr "Ściežka &dakumentaŭ:"
 
 #: globalpaths.cpp:311
 #, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
 msgid "Movies"
 msgstr "Pieraniasi"
 
 #: globalpaths.cpp:314
 #, fuzzy
+#| msgid "D&ocuments path:"
 msgid "Pictures"
 msgstr "Ściežka &dakumentaŭ:"
 
@@ -157,6 +177,8 @@ msgstr ""
 
 #: globalpaths.cpp:379
 #, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
 msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr "Pieraniasi"
@@ -168,6 +190,9 @@ msgstr ""
 
 #: globalpaths.cpp:382
 #, fuzzy, kde-format
+#| msgid ""
+#| "The path for '%1' has been changed.\n"
+#| "Do you want the files to be moved from '%2' to '%3'?"
 msgid ""
 "The path for '%1' has been changed.\n"
 "Do you want to move the directory '%2' to '%3'?"
@@ -177,6 +202,8 @@ msgstr ""
 
 #: globalpaths.cpp:385
 #, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
 msgctxt "Move the directory"
 msgid "Move"
 msgstr "Pieraniasi"

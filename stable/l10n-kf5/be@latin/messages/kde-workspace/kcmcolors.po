@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-30 10:07+0000\n"
+"POT-Creation-Date: 2015-03-06 08:50+0000\n"
 "PO-Revision-Date: 2008-11-04 17:27+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -198,12 +198,14 @@ msgstr "Atrymaj &novych schiemaŭ..."
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsUploadButton)
 #: colorsettings.ui:61
 #, fuzzy
+#| msgid "Get new color schemes from the Internet"
 msgid "Share the selected scheme on the Internet"
 msgstr "Vaźmi novyja schiemy koleraŭ ź sieciva"
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeKnsUploadButton)
 #: colorsettings.ui:64
 #, fuzzy
+#| msgid "Import Color Scheme"
 msgid "&Upload Scheme..."
 msgstr "Zimpartuj schiemu koleraŭ"
 
@@ -215,6 +217,7 @@ msgstr "Zimpartuj schiemu koleraŭ z fajła"
 #. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
 #: colorsettings.ui:74
 #, fuzzy
+#| msgid "Import Color Scheme"
 msgid "Import Scheme..."
 msgstr "Zimpartuj schiemu koleraŭ"
 
@@ -226,6 +229,7 @@ msgstr "Zapišy dziejnuju schiemu koleraŭ"
 #. i18n: ectx: property (text), widget (QPushButton, schemeSaveButton)
 #: colorsettings.ui:84
 #, fuzzy
+#| msgid "Save Color Scheme"
 msgid "Save Scheme..."
 msgstr "Zapišy schiemu koleraŭ"
 
@@ -270,7 +274,9 @@ msgstr "Zacianiaj uparadkavany słupok &u śpisach"
 
 #. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
 #: colorsettings.ui:181
-msgid "Apply colors to &non-KDE4 applications"
+#, fuzzy
+#| msgid "Apply colors to &non-KDE4 applications"
+msgid "Apply colors to &non-Qt applications"
 msgstr "&Prymianiaj kolery dla aplikacyjaŭ, jakija nie naležać „KDE4”"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
@@ -301,6 +307,7 @@ msgstr "Kantrast"
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: colorsettings.ui:279
 #, fuzzy
+#| msgid "Color Set:"
 msgid "Color set:"
 msgstr "Zbor koleraŭ:"
 
@@ -313,6 +320,7 @@ msgstr "Patrebny zbor koleraŭ"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:296
 #, fuzzy
+#| msgid "Common Colors"
 msgctxt "color-sets"
 msgid "Common Colors"
 msgstr "Supolnyja kolery"
@@ -321,6 +329,7 @@ msgstr "Supolnyja kolery"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:301
 #, fuzzy
+#| msgid "View"
 msgctxt "color-sets"
 msgid "View"
 msgstr "Prahlad"
@@ -329,6 +338,7 @@ msgstr "Prahlad"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:306
 #, fuzzy
+#| msgid "Window"
 msgctxt "color-sets"
 msgid "Window"
 msgstr "Akno"
@@ -337,6 +347,7 @@ msgstr "Akno"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:311
 #, fuzzy
+#| msgid "Button"
 msgctxt "color-sets"
 msgid "Button"
 msgstr "Knopka"
@@ -345,6 +356,7 @@ msgstr "Knopka"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:316
 #, fuzzy
+#| msgid "Selection"
 msgctxt "color-sets"
 msgid "Selection"
 msgstr "Vyłučeńnie"
@@ -353,6 +365,7 @@ msgstr "Vyłučeńnie"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: colorsettings.ui:321
 #, fuzzy
+#| msgid "Tooltip"
 msgctxt "color-sets"
 msgid "Tooltip"
 msgstr "Padkazka"
@@ -450,6 +463,7 @@ msgstr "Tekst dziejnaha zahałoŭka akna"
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorsettings.ui:605
 #, fuzzy
+#| msgid "Active Titlebar Text"
 msgid "Active Titlebar Secondary"
 msgstr "Tekst dziejnaha zahałoŭka akna"
 
@@ -466,6 +480,7 @@ msgstr "Tekst niadziejnaha zahałoŭka akna"
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: colorsettings.ui:620
 #, fuzzy
+#| msgid "Inactive Titlebar Text"
 msgid "Inactive Titlebar Secondary"
 msgstr "Tekst niadziejnaha zahałoŭka akna"
 
@@ -485,6 +500,7 @@ msgstr "Nasyčanaść:"
 #. i18n: ectx: property (toolTip), widget (QComboBox, inactiveIntensityBox)
 #: colorsettings.ui:751
 #, fuzzy
+#| msgid "Inactive color effect type"
 msgid "Inactive intensity effect type"
 msgstr "Typ efektu niadziejnych koleraŭ"
 
@@ -516,6 +532,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QSlider, inactiveIntensitySlider)
 #: colorsettings.ui:781
 #, fuzzy
+#| msgid "Inactive color effect type"
 msgid "Inactive intensity effect amount"
 msgstr "Typ efektu niadziejnych koleraŭ"
 
@@ -558,6 +575,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QSlider, inactiveColorSlider)
 #: colorsettings.ui:853
 #, fuzzy
+#| msgid "Inactive color"
 msgid "Inactive color amount"
 msgstr "Niadziejny koler"
 
@@ -575,6 +593,7 @@ msgstr "Kantrast:"
 #. i18n: ectx: property (toolTip), widget (QComboBox, inactiveContrastBox)
 #: colorsettings.ui:889
 #, fuzzy
+#| msgid "Inactive color effect type"
 msgid "Inactive contrast effect type"
 msgstr "Typ efektu niadziejnych koleraŭ"
 
@@ -600,6 +619,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QSlider, inactiveContrastSlider)
 #: colorsettings.ui:914
 #, fuzzy
+#| msgid "Inactive color effect type"
 msgid "Inactive contrast effect amount"
 msgstr "Typ efektu niadziejnych koleraŭ"
 
@@ -613,6 +633,7 @@ msgstr "Vyklučana"
 #. i18n: ectx: property (toolTip), widget (QComboBox, disabledIntensityBox)
 #: colorsettings.ui:1001
 #, fuzzy
+#| msgid "Disabled contrast type"
 msgid "Disabled intensity effect type"
 msgstr "Vyklučany typ kantrastu"
 
@@ -644,12 +665,14 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledIntensitySlider)
 #: colorsettings.ui:1031
 #, fuzzy
+#| msgid "Disabled contrast type"
 msgid "Disabled intensity effect amount"
 msgstr "Vyklučany typ kantrastu"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, disabledColorBox)
 #: colorsettings.ui:1073
 #, fuzzy
+#| msgid "Inactive color effect type"
 msgid "Disabled color effect type"
 msgstr "Typ efektu niadziejnych koleraŭ"
 
@@ -681,6 +704,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledColorSlider)
 #: colorsettings.ui:1103
 #, fuzzy
+#| msgid "Disabled color"
 msgid "Disabled color effect amount"
 msgstr "Vyklučany koler"
 
@@ -716,12 +740,14 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QSlider, disabledContrastSlider)
 #: colorsettings.ui:1164
 #, fuzzy
+#| msgid "Disabled contrast type"
 msgid "Disabled contrast amount"
 msgstr "Vyklučany typ kantrastu"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: preview.ui:29
 #, fuzzy
+#| msgid "Window Background"
 msgid "Window text on Window Background"
 msgstr "Fon akna"
 
@@ -729,6 +755,7 @@ msgstr "Fon akna"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: preview.ui:32
 #, fuzzy
+#| msgid "Window text"
 msgctxt "color-kcm-preview"
 msgid "Window text"
 msgstr "Tekst akna"
@@ -736,6 +763,7 @@ msgstr "Tekst akna"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView0)
 #: preview.ui:63
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Normal Text against View Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -743,6 +771,7 @@ msgstr "Zvyčajny fon"
 #. i18n: ectx: property (text), widget (QLabel, labelView0)
 #: preview.ui:66
 #, fuzzy
+#| msgid "Normal text"
 msgctxt "color-kcm-preview"
 msgid "Normal text"
 msgstr "Zvyčajny tekst"
@@ -750,6 +779,7 @@ msgstr "Zvyčajny tekst"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView3)
 #: preview.ui:78
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Link Text against View Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -759,6 +789,7 @@ msgstr "Zvyčajny fon"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection3)
 #: preview.ui:81 preview.ui:199
 #, fuzzy
+#| msgid "link"
 msgctxt "color-kcm-preview"
 msgid "link"
 msgstr "łuč"
@@ -766,6 +797,7 @@ msgstr "łuč"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView4)
 #: preview.ui:93
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Visited Text against View Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -782,6 +814,7 @@ msgstr "vykarystany"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView2)
 #: preview.ui:103
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Active Text against View Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -791,6 +824,8 @@ msgstr "Zvyčajny fon"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection2)
 #: preview.ui:106 preview.ui:224
 #, fuzzy
+#| msgctxt "active (abbreviate)"
+#| msgid "a"
 msgctxt "color-kcm-preview"
 msgid "a"
 msgstr "d"
@@ -798,6 +833,7 @@ msgstr "d"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView1)
 #: preview.ui:113
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Inactive Text against View Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -807,6 +843,8 @@ msgstr "Zvyčajny fon"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection1)
 #: preview.ui:116 preview.ui:234
 #, fuzzy
+#| msgctxt "inactive (abbreviate)"
+#| msgid "i"
 msgctxt "color-kcm-preview"
 msgid "i"
 msgstr "n"
@@ -814,6 +852,7 @@ msgstr "n"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView5)
 #: preview.ui:123
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Negative Text against View Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -830,6 +869,7 @@ msgstr "!"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView6)
 #: preview.ui:133
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Neutral Text against View Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -846,6 +886,7 @@ msgstr "="
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView7)
 #: preview.ui:143
 #, fuzzy
+#| msgid "Normal Background"
 msgid "View Positive Text against View Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -862,6 +903,7 @@ msgstr "+"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection0)
 #: preview.ui:181
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Normal Text against Selection Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -869,6 +911,7 @@ msgstr "Zvyčajny fon"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection0)
 #: preview.ui:184
 #, fuzzy
+#| msgid "Selected text"
 msgctxt "color-kcm-preview"
 msgid "Selected text"
 msgstr "Vyłučany tekst"
@@ -876,48 +919,56 @@ msgstr "Vyłučany tekst"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection3)
 #: preview.ui:196
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Link Text against Selection Normal Background"
 msgstr "Zvyčajny fon"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection4)
 #: preview.ui:211
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Visited Text against Selection Normal Background"
 msgstr "Zvyčajny fon"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection2)
 #: preview.ui:221
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Active Text against Selection Normal Background"
 msgstr "Zvyčajny fon"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection1)
 #: preview.ui:231
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Inactive Text against Selection Normal Background"
 msgstr "Zvyčajny fon"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection5)
 #: preview.ui:241
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Negative Text against Selection Normal Background"
 msgstr "Zvyčajny fon"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection6)
 #: preview.ui:251
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Neutral Text against Selection Normal Background"
 msgstr "Zvyčajny fon"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection7)
 #: preview.ui:261
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Selection Positive Text against Selection Normal Background"
 msgstr "Zvyčajny fon"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButton)
 #: preview.ui:293
 #, fuzzy
+#| msgid "Button Background"
 msgid "Button text on Button Background"
 msgstr "Fon knopki"
 
@@ -925,6 +976,7 @@ msgstr "Fon knopki"
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: preview.ui:296
 #, fuzzy
+#| msgid "Push Button"
 msgctxt "color-kcm-preview"
 msgid "Push Button"
 msgstr "Knopka"
@@ -933,6 +985,7 @@ msgstr "Knopka"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack0)
 #: setpreview.ui:35 setpreview.ui:189
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Normal Text on Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -948,6 +1001,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore3)
 #: setpreview.ui:56
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Link Text on Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -957,6 +1011,7 @@ msgstr "Zvyčajny fon"
 #. i18n: ectx: property (text), widget (QLabel, labelBack3)
 #: setpreview.ui:59 setpreview.ui:214
 #, fuzzy
+#| msgid "link"
 msgctxt "color-kcm-set-preview"
 msgid "link"
 msgstr "łuč"
@@ -964,6 +1019,7 @@ msgstr "łuč"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore4)
 #: setpreview.ui:77
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Visited Text on Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -980,6 +1036,7 @@ msgstr "vykarystany"
 #. i18n: ectx: property (toolTip), widget (QWidget, widgetFore2)
 #: setpreview.ui:90
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Active Text on Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -996,6 +1053,7 @@ msgstr "Niadziejny"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore1)
 #: setpreview.ui:109
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Inactive Text on Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -1010,6 +1068,7 @@ msgstr "Niadziejny"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore5)
 #: setpreview.ui:125
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Negative Text on Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -1026,6 +1085,7 @@ msgstr "Niadziejny"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore6)
 #: setpreview.ui:141
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Neutral Text on Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -1041,6 +1101,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore7)
 #: setpreview.ui:157
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Positive Text on Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -1057,6 +1118,7 @@ msgstr "Niadziejny"
 #. i18n: ectx: property (toolTip), widget (QWidget, widgetFore8)
 #: setpreview.ui:170
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Hover on Normal Background"
 msgstr "Zvyčajny fon"
 
@@ -1094,6 +1156,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack1)
 #: setpreview.ui:266
 #, fuzzy
+#| msgid "Alternate Background"
 msgid "Inactive Text on Alternate Background"
 msgstr "Dadatkovy fon"
 
@@ -1131,6 +1194,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore9)
 #: setpreview.ui:333
 #, fuzzy
+#| msgid "Normal Background"
 msgid "Focus on Normal Background"
 msgstr "Zvyčajny fon"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2015-02-05 07:56+0000\n"
 "PO-Revision-Date: 2008-11-04 12:36+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,31 +19,31 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: main.cpp:154
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: main.cpp:185
 #, kde-format
 msgid "Module %1 not found"
 msgstr "Nie ŭdałosia znajści modul „%1”."
 
-#: main.cpp:231
+#: main.cpp:256
 msgid "KCMInit"
 msgstr "KCMInit"
 
-#: main.cpp:233
+#: main.cpp:257
 msgid "KCMInit - runs startup initialization for Control Modules."
 msgstr "„KCMInit” vykonvaje pačatkovuju inicyjalizacyju modulaŭ kiravańnia."
 
-#: main.cpp:238
+#: main.cpp:262
 msgid "List modules that are run at startup"
 msgstr "Vypišy śpis modulaŭ, jakija ŭklučajucca z systemaju."
 
-#: main.cpp:239
+#: main.cpp:263
 msgid "Configuration module to run"
 msgstr "Modul naładžvańnia, jaki treba ŭklučyć."
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Ihar Hračyška"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "ihar.hrachyshka@gmail.com"

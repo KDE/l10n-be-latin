@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-27 12:26+0000\n"
+"POT-Creation-Date: 2015-02-27 09:48+0000\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -151,6 +151,7 @@ msgstr "&Vaźmi novych kartak..."
 
 #: ksysguard.cpp:170
 #, fuzzy
+#| msgid "&Download New Tabs..."
 msgid "&Upload Current Tab..."
 msgstr "&Vaźmi novych kartak..."
 
@@ -262,6 +263,7 @@ msgstr "&Fajł"
 #. i18n: ectx: Menu (view)
 #: ksysguardui.rc:14
 #, fuzzy
+#| msgid "&File"
 msgid "&View"
 msgstr "&Fajł"
 
@@ -287,6 +289,7 @@ msgstr "Sensary"
 
 #: SensorBrowser.cpp:470
 #, fuzzy
+#| msgid "Drag sensors to empty cells of a worksheet or the panel applet."
 msgid "Drag sensors to empty cells of a worksheet "
 msgstr ""
 "Pieraciahvaj sensary, kab vyzvalić miesca na rabočym arkušy albo ŭ aplecie "
@@ -294,6 +297,12 @@ msgstr ""
 
 #: SensorBrowser.cpp:471
 #, fuzzy
+#| msgid ""
+#| "The sensor browser lists the connected hosts and the sensors that they "
+#| "provide. Click and drag sensors into drop zones of a worksheet or the "
+#| "panel applet. A display will appear that visualizes the values provided "
+#| "by the sensor. Some sensor displays can display values of multiple "
+#| "sensors. Simply drag other sensors on to the display to add more sensors."
 msgid ""
 "The sensor browser lists the connected hosts and the sensors that they "
 "provide. Click and drag sensors into drop zones of a worksheet. A display "
@@ -571,12 +580,15 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotter.cpp:655
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgctxt "unitless - just a number"
 msgid "%1"
 msgstr "%"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:47
 #, fuzzy
+#| msgid "Signal Plotter Settings"
 msgid "Plotter Settings"
 msgstr "Nałady rysynka syhnałaŭ"
 
@@ -605,6 +617,7 @@ msgstr "Maštabavańnie"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:87
 #, fuzzy
+#| msgid "Vertical Scale"
 msgid "Vertical scale"
 msgstr "Maštab vertykalnaj vosi"
 
@@ -624,6 +637,7 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:103
 #, fuzzy
+#| msgid "Enter the title of the display here."
 msgid "Enter the minimum value for the display here."
 msgstr "Tut upišy nazvu prahladu."
 
@@ -636,11 +650,13 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:121
 #, fuzzy
+#| msgid "Horizontal Scale"
 msgid "Horizontal scale"
 msgstr "Maštab haryzantalnaj vosi"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:128
 #, fuzzy
+#| msgid "pixels per time period"
 msgid "Pixels per time period:"
 msgstr "punktaŭ za peŭny čas"
 
@@ -718,31 +734,42 @@ msgstr "Pasuń nižej"
 
 #: SensorDisplayLib/ListView.cpp:46
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 K"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:47
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 M"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:48
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 G"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:49
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 T"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:50
 #, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
 msgid "%1 P"
 msgstr "%"
 
 #: SensorDisplayLib/ListView.cpp:153
 #, fuzzy
+#| msgid "Display Range"
 msgid "Display Units"
 msgstr "Intervał prahladu"
 
@@ -764,6 +791,7 @@ msgstr ""
 
 #: SensorDisplayLib/ListView.cpp:181
 #, fuzzy
+#| msgid "Temperature"
 msgid "Terabytes"
 msgstr "Temperatura"
 
@@ -805,6 +833,7 @@ msgstr "&Tekst"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SensorDisplayLib/LogFileSettings.ui:29
 #, fuzzy
+#| msgid "Title:"
 msgid "T&itle:"
 msgstr "Nazva:"
 
@@ -838,6 +867,7 @@ msgstr "Nałady mnahamiernika"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #, fuzzy
+#| msgid "Title:"
 msgid "&Title:"
 msgstr "Nazva:"
 
@@ -907,30 +937,35 @@ msgstr ""
 
 #: SensorDisplayLib/SensorLogger.cpp:138
 #, fuzzy
+#| msgid "Logging"
 msgctxt "@title:column"
 msgid "Logging"
 msgstr "Zapis logaŭ"
 
 #: SensorDisplayLib/SensorLogger.cpp:141
 #, fuzzy
+#| msgid "Timer Interval"
 msgctxt "@title:column"
 msgid "Timer Interval"
 msgstr "Intervał hadzińnika"
 
 #: SensorDisplayLib/SensorLogger.cpp:144
 #, fuzzy
+#| msgid "Sensor Name"
 msgctxt "@title:column"
 msgid "Sensor Name"
 msgstr "Nazva sensara"
 
 #: SensorDisplayLib/SensorLogger.cpp:147
 #, fuzzy
+#| msgid "Host Name"
 msgctxt "@title:column"
 msgid "Host Name"
 msgstr "Nazva hosta"
 
 #: SensorDisplayLib/SensorLogger.cpp:150
 #, fuzzy
+#| msgid "Log File"
 msgctxt "@title:column"
 msgid "Log File"
 msgstr "Fajł logaŭ"
@@ -964,6 +999,7 @@ msgstr "Fajł"
 #. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
 #: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
 #, fuzzy
+#| msgid "Timer Interval"
 msgctxt "@title:group"
 msgid "Timer Interval"
 msgstr "Intervał hadzińnika"
@@ -1036,6 +1072,7 @@ msgstr "Historyja sietki"
 #. i18n: tag beam attribute summationName
 #: SystemLoad2.sgrd:13
 #, fuzzy
+#| msgid "Receiver"
 msgid "Receiving"
 msgstr "Atrymańnik"
 
@@ -1116,11 +1153,13 @@ msgstr "Zapisvaj logi ŭ &fajł"
 
 #: WorkSheet.cpp:538
 #, fuzzy
+#| msgid "&Remove Display"
 msgid "Remove this display?"
 msgstr "&Vydali prahlad"
 
 #: WorkSheet.cpp:539
 #, fuzzy
+#| msgid "&Remove Display"
 msgid "Remove Display"
 msgstr "&Vydali prahlad"
 
@@ -1201,6 +1240,7 @@ msgstr ""
 
 #: Workspace.cpp:304
 #, fuzzy
+#| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
 msgstr "Systemny nazirańnik"
 
@@ -1254,6 +1294,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Zaniataść karystańnika"
 
 #, fuzzy
+#~| msgid "System Load"
 #~ msgctxt "@item sensor description"
 #~ msgid "System Load"
 #~ msgstr "Zaniataść systemy"
@@ -1262,6 +1303,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Čakańnie"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Interrupt Load"
 #~ msgstr "Pierarvańni"
 
@@ -1305,6 +1347,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Staronki fajłaŭ"
 
 #, fuzzy
+#~| msgid "Processors"
 #~ msgid "Processes"
 #~ msgstr "Pracesary"
 
@@ -1312,6 +1355,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Kiraŭnik pracesaŭ"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Process Spawn Count"
 #~ msgstr "Kolkaść pracesaŭ"
 
@@ -1319,30 +1363,37 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Kolkaść pracesaŭ"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Idle Processes Count"
 #~ msgstr "Kolkaść pracesaŭ"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Running Processes Count"
 #~ msgstr "Kolkaść pracesaŭ"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Sleeping Processes Count"
 #~ msgstr "Kolkaść pracesaŭ"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Stopped Processes Count"
 #~ msgstr "Kolkaść pracesaŭ"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Zombie Processes Count"
 #~ msgstr "Kolkaść pracesaŭ"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Waiting Processes Count"
 #~ msgstr "Kolkaść pracesaŭ"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Locked Processes Count"
 #~ msgstr "Kolkaść pracesaŭ"
 
@@ -1387,6 +1438,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Źmieny kantekstu"
 
 #, fuzzy
+#~| msgid "System Load"
 #~ msgid "System Calls"
 #~ msgstr "Zaniataść systemy"
 
@@ -1400,38 +1452,47 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Pierasyłańnik"
 
 #, fuzzy
+#~| msgid "Rate"
 #~ msgid "Data Rate"
 #~ msgstr "Čaścinia"
 
 #, fuzzy
+#~| msgid "Compressed Packets"
 #~ msgid "Compressed Packets Rate"
 #~ msgstr "Skampresavanyja pakunki"
 
 #, fuzzy
+#~| msgid "Dropped Packets"
 #~ msgid "Dropped Packets Rate"
 #~ msgstr "Adkinutyja pakunki"
 
 #, fuzzy
+#~| msgid "Errors"
 #~ msgid "Error Rate"
 #~ msgstr "Pamyłki"
 
 #, fuzzy
+#~| msgid "FIFO Overruns"
 #~ msgid "FIFO Overruns Rate"
 #~ msgstr "Pierapaŭnieńni „FIFO”"
 
 #, fuzzy
+#~| msgid "Frame Errors"
 #~ msgid "Frame Error Rate"
 #~ msgstr "Pamyłki frejmaŭ"
 
 #, fuzzy
+#~| msgid "Multicast"
 #~ msgid "Multicast Packet Rate"
 #~ msgstr "Multicast"
 
 #, fuzzy
+#~| msgid "Packets"
 #~ msgid "Packet Rate"
 #~ msgstr "Pakunki"
 
 #, fuzzy
+#~| msgid "Errors"
 #~ msgctxt "@item sensor description ('carrier' is a type of network signal)"
 #~ msgid "Carrier Loss Rate"
 #~ msgstr "Pamyłki"
@@ -1458,6 +1519,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Pamyłki frejmaŭ"
 
 #, fuzzy
+#~| msgid "Multicast"
 #~ msgid "Multicast Packets"
 #~ msgstr "Multicast"
 
@@ -1486,6 +1548,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Temperatura"
 
 #, fuzzy
+#~| msgid "Temperature"
 #~ msgid "Average CPU Temperature"
 #~ msgstr "Temperatura"
 
@@ -1499,6 +1562,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Batareja"
 
 #, fuzzy
+#~| msgid "Battery Charge"
 #~ msgid "Battery Capacity"
 #~ msgstr "Zarad batarei"
 
@@ -1509,10 +1573,12 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Vykarystańnie batarei"
 
 #, fuzzy
+#~| msgid "Battery Usage"
 #~ msgid "Battery Voltage"
 #~ msgstr "Vykarystańnie batarei"
 
 #, fuzzy
+#~| msgid "Battery Charge"
 #~ msgid "Battery Discharge Rate"
 #~ msgstr "Zarad batarei"
 
@@ -1535,6 +1601,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Čaścinia hadzińnika"
 
 #, fuzzy
+#~| msgid "Clock Frequency"
 #~ msgid "Average Clock Frequency"
 #~ msgstr "Čaścinia hadzińnika"
 
@@ -1554,6 +1621,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Poŭnaść"
 
 #, fuzzy
+#~| msgid "User Load"
 #~ msgid "Used Inodes"
 #~ msgstr "Zaniataść karystańnika"
 
@@ -1573,18 +1641,22 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Jadry"
 
 #, fuzzy
+#~| msgid "Number of displays:"
 #~ msgid "Number of Blocks"
 #~ msgstr "Kolkaść prahladaŭ:"
 
 #, fuzzy
+#~| msgid "Total Number"
 #~ msgid "Total Number of Devices"
 #~ msgstr "Ahulnaja kolkaść"
 
 #, fuzzy
+#~| msgid "Number of displays:"
 #~ msgid "Number of Raid Devices"
 #~ msgstr "Kolkaść prahladaŭ:"
 
 #, fuzzy
+#~| msgid "Number of displays:"
 #~ msgid "Number of Devices"
 #~ msgstr "Kolkaść prahladaŭ:"
 
@@ -1595,6 +1667,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Dysk „%1”"
 
 #, fuzzy
+#~| msgid "Battery"
 #~ msgid "Battery %1"
 #~ msgstr "Batareja"
 
@@ -1608,10 +1681,12 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Ahułam"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Software Interrupts"
 #~ msgstr "Pierarvańni"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Hardware Interrupts"
 #~ msgstr "Pierarvańni"
 
@@ -1644,6 +1719,7 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "Vartaść ź niefiksavanaj koskaj"
 
 #, fuzzy
+#~| msgid " sec"
 #~ msgctxt "Units"
 #~ msgid "%1 second"
 #~ msgid_plural "%1 seconds"
@@ -1675,10 +1751,13 @@ msgstr "Systemny nazirańnik"
 #~ msgstr "&Redahuj"
 
 #, fuzzy
+#~| msgid "Automatic range detection"
 #~ msgid "Automatic range"
 #~ msgstr "Aŭtamatyčnaje vyznačeńnie kancoŭ"
 
 #, fuzzy
+#~| msgctxt "a percentage"
+#~| msgid "%"
 #~ msgctxt "units in percentage"
 #~ msgid "%1%"
 #~ msgstr "%"

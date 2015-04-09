@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-13 09:15+0000\n"
+"POT-Creation-Date: 2014-11-13 07:51+0000\n"
 "PO-Revision-Date: 2008-09-19 14:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -57,11 +57,13 @@ msgstr "Stvarańnik"
 
 #: kdesu.cpp:99
 #, fuzzy
+#| msgid "Specifies the command to run"
 msgid "Specifies the command to run as separate arguments"
 msgstr "Zahad dla vykanańnia"
 
 #: kdesu.cpp:100
 #, fuzzy
+#| msgid "Specifies the command to run"
 msgid "Specifies the command to run as one string"
 msgstr "Zahad dla vykanańnia"
 
@@ -109,6 +111,11 @@ msgstr "Nie pakazvaj zahad u aknie ŭpisańnia parola"
 
 #: kdesu.cpp:114
 #, fuzzy
+#| msgctxt ""
+#| "Transient means that the kdesu app will be attached to the app specified "
+#| "by the winid so that its like a dialog box rather than some separate "
+#| "program"
+#| msgid "Makes the dialog transient for an X app specified by winid"
 msgctxt ""
 "Transient means that the kdesu app will be attached to the app specified by "
 "the winid so that it is like a dialog box rather than some separate program"

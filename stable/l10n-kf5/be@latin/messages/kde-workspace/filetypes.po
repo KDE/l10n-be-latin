@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:15+0000\n"
+"POT-Creation-Date: 2015-01-19 07:54+0000\n"
 "PO-Revision-Date: 2008-09-08 21:43+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -41,6 +41,12 @@ msgstr "Pakažy fajł u asobnym prahladniku"
 
 #: filegroupdetails.cpp:48
 #, fuzzy
+#| msgid ""
+#| "Here you can configure what the Konqueror file manager will do when you "
+#| "click on a file belonging to this group. Konqueror can display the file "
+#| "in an embedded viewer or start up a separate application. You can change "
+#| "this setting for a specific file type in the 'Embedding' tab of the file "
+#| "type configuration."
 msgid ""
 "Here you can configure what the Konqueror file manager will do when you "
 "click on a file belonging to this group. Konqueror can display the file in "
@@ -94,6 +100,7 @@ msgstr "Vydali vybrany šablon nazvaŭ fajłaŭ."
 
 #: filetypedetails.cpp:124
 #, fuzzy
+#| msgid "Description"
 msgid "Description:"
 msgstr "Apisańnie"
 
@@ -109,16 +116,25 @@ msgstr ""
 
 #: filetypedetails.cpp:141
 #, fuzzy
+#| msgid "Left Click Action"
 msgid "Left Click Action in Konqueror"
 msgstr "Levy klik"
 
 #: filetypedetails.cpp:150
 #, fuzzy
+#| msgid "Ask whether to save to disk instead"
 msgid "Ask whether to save to disk instead (only for Konqueror browser)"
 msgstr "Pytaj, ci treba zamiest zapisvać na dysk"
 
 #: filetypedetails.cpp:165
 #, fuzzy
+#| msgid ""
+#| "Here you can configure what the Konqueror file manager will do when you "
+#| "click on a file of this type. Konqueror can display the file in an "
+#| "embedded viewer or start up a separate application. If set to 'Use "
+#| "settings for G group', Konqueror will behave according to the settings of "
+#| "the group G this type belongs to, for instance 'image' if the current "
+#| "file type is image/png."
 msgid ""
 "Here you can configure what the Konqueror file manager will do when you "
 "click on a file of this type. Konqueror can either display the file in an "
@@ -155,7 +171,7 @@ msgstr "Pašyreńnie:"
 msgid "File type %1"
 msgstr "Typ fajłaŭ „%1”"
 
-#: filetypedetails.cpp:334
+#: filetypedetails.cpp:336
 #, kde-format
 msgid "Use settings for '%1' group"
 msgstr "Karystajsia naładami dla hrupy „%1”"
@@ -200,6 +216,7 @@ msgstr ""
 
 #: filetypesview.cpp:90
 #, fuzzy
+#| msgid "F&ind file type or filename pattern:"
 msgid "Find file type or filename pattern"
 msgstr "&Šukaj typ fajłaŭ ci šablon nazvaŭ:"
 
@@ -243,6 +260,7 @@ msgstr "Vybiery typ fajłaŭ pavodle nazvy albo pašyreńnia"
 
 #: filetypesview.cpp:385
 #, fuzzy
+#| msgid "&Remove"
 msgid "&Revert"
 msgstr "&Vydali"
 
@@ -272,48 +290,49 @@ msgid ""
 "still end up using them)."
 msgstr ""
 
-#: keditfiletype.cpp:134
+#: keditfiletype.cpp:133
 #, fuzzy
+#| msgid "File type %1"
 msgid "File Type Editor"
 msgstr "Typ fajłaŭ „%1”"
 
-#: keditfiletype.cpp:135
+#: keditfiletype.cpp:134
 msgid ""
 "KDE file type editor - simplified version for editing a single file type"
 msgstr ""
 "Redaktar typaŭ fajłaŭ KDE: prostaja admiena dla redahavańnia adnaho typu"
 
-#: keditfiletype.cpp:137
+#: keditfiletype.cpp:136
 msgid "(c) 2000, KDE developers"
 msgstr "© 2000 Raspracoŭniki KDE"
 
-#: keditfiletype.cpp:138
+#: keditfiletype.cpp:137
 msgid "Preston Brown"
 msgstr "Preston Brown"
 
-#: keditfiletype.cpp:139
+#: keditfiletype.cpp:138
 msgid "David Faure"
 msgstr "David Faure"
 
-#: keditfiletype.cpp:146
+#: keditfiletype.cpp:145
 msgid "Makes the dialog transient for the window specified by winid"
 msgstr "Zrabi dyjaloh časovym, datyčnym akna z aznačanym identyfikataram"
 
-#: keditfiletype.cpp:147
+#: keditfiletype.cpp:146
 msgid "File type to edit (e.g. text/html)"
 msgstr "Typ fajła (naprykład, „text/html”)"
 
-#: keditfiletype.cpp:176
+#: keditfiletype.cpp:175
 #, kde-format
 msgid "%1 File"
 msgstr "Fajł „%1”"
 
-#: keditfiletype.cpp:202
+#: keditfiletype.cpp:201
 #, kde-format
 msgid "Edit File Type %1"
 msgstr "Redahuj typ fajłaŭ „%1”"
 
-#: keditfiletype.cpp:204
+#: keditfiletype.cpp:203
 #, kde-format
 msgid "Create New File Type %1"
 msgstr "Stvary novy typ fajłaŭ „%1”"
@@ -431,11 +450,11 @@ msgctxt "No components associated with this file type"
 msgid "None"
 msgstr "Niama"
 
-#: kserviceselectdlg.cpp:33
+#: kserviceselectdlg.cpp:32
 msgid "Add Service"
 msgstr "Dadańnie słužby"
 
-#: kserviceselectdlg.cpp:37
+#: kserviceselectdlg.cpp:36
 msgid "Select service:"
 msgstr "Vybiery słužbu:"
 
@@ -469,6 +488,9 @@ msgstr ""
 #~ msgstr "KEditFileType"
 
 #, fuzzy
+#~| msgid ""
+#~| "This button displays the icon associated with the selected file type. "
+#~| "Click on it to choose a different icon."
 #~ msgid ""
 #~ "This is the icon associated with the selected file type. Choosing a "
 #~ "different icon requires shared-mime-info to be at least version 0.40."

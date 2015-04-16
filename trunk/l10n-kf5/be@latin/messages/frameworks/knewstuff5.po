@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-12 07:56+0000\n"
+"POT-Creation-Date: 2015-04-16 08:32+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -395,6 +395,112 @@ msgstr ""
 #: ui/itemsviewdelegate.cpp:148
 msgid "Install"
 msgstr "Zainstaluj"
+
+#: kmoretools/kmoretools.cpp:590
+#, fuzzy
+#| msgid "Choose..."
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Abiary..."
+
+#: kmoretools/kmoretools.cpp:605
+#, fuzzy
+#| msgid "Install"
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "Zainstaluj"
+
+#: kmoretools/kmoretools.cpp:641
+#, fuzzy
+#| msgid "Confi&gure..."
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "&Naładź..."
+
+#: kmoretools/kmoretools_p.h:370
+#, fuzzy
+#| msgid "Homepage"
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "Chatniaja staronka"
+
+#: kmoretools/kmoretools_p.h:377
+#, fuzzy
+#| msgid "There is no matching item available.\n"
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "Niama adpaviednikaŭ.\n"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:191
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure menu"
+msgstr "Naładź"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:193
+#, fuzzy, kde-format
+#| msgid "&Configure %1..."
+msgid "Configure menu - %1"
+msgstr "&Naładź %1..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:25
+#, fuzzy
+#| msgid "MainWindow"
+msgid "Main section"
+msgstr "Hałoŭnaje akno"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:58
+#, fuzzy
+#| msgid "Move &Down"
+msgid "Move down"
+msgstr "Pasuń &nižej"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:79
+#, fuzzy
+#| msgid "Move &Up"
+msgid "Move up"
+msgstr "Pasuń &vyšej"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:100
+msgid "Move to Main section"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:121
+#, fuzzy
+#| msgid "More Actions"
+msgid "Move to More section"
+msgstr "Jašče aperacyi"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonReset)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:142
+msgid "Reset"
+msgstr "Anuluj źmieny"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:161
+#, fuzzy
+#| msgid "More Actions"
+msgid "More section"
+msgstr "Jašče aperacyi"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:213
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:223
+#, fuzzy
+#| msgid "Choose..."
+msgid "More tools..."
+msgstr "Abiary..."
 
 #: ui/entrydetailsdialog.cpp:91
 #, fuzzy, kde-format
@@ -3702,9 +3808,6 @@ msgstr "Pačni zamieny"
 #~ msgid "Configure S&hortcuts..."
 #~ msgstr "Naładź &klavijaturnyja skaroty..."
 
-#~ msgid "&Configure %1..."
-#~ msgstr "&Naładź %1..."
-
 #~ msgid "Configure Tool&bars..."
 #~ msgstr "Naładź &paneli pryładździa..."
 
@@ -3905,11 +4008,6 @@ msgstr "Pačni zamieny"
 #~ msgstr "Inšyja ŭdzielniki:"
 
 #, fuzzy
-#~| msgid "Homepage"
-#~ msgid "Visit contributor's homepage"
-#~ msgstr "Chatniaja staronka"
-
-#, fuzzy
 #~| msgid "Other Contributors:"
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid ""
@@ -4107,9 +4205,6 @@ msgstr "Pačni zamieny"
 
 #~ msgid "Close Message"
 #~ msgstr "Začyni paviedamleńnie"
-
-#~ msgid "Configure"
-#~ msgstr "Naładź"
 
 #~ msgid "Job"
 #~ msgstr "Zadańnie"
@@ -4341,9 +4436,6 @@ msgstr "Pačni zamieny"
 #~ msgid "Reset Toolbars"
 #~ msgstr "Anuluj źmieny ŭ panelach pryładździa"
 
-#~ msgid "Reset"
-#~ msgstr "Anuluj źmieny"
-
 #~ msgid "&Toolbar:"
 #~ msgstr "&Panel pryładździa:"
 
@@ -4489,9 +4581,6 @@ msgstr "Pačni zamieny"
 
 #~ msgid "Delete"
 #~ msgstr "Vydali"
-
-#~ msgid "More Actions"
-#~ msgstr "Jašče aperacyi"
 
 #~ msgid "Save as Scheme Defaults"
 #~ msgstr "Zapišy jak zmoŭčańni schiemy"
@@ -5593,9 +5682,6 @@ msgstr "Pačni zamieny"
 #~ "Jośc niekalki varyjantaŭ\n"
 #~ "zakančeńnia.\n"
 
-#~ msgid "There is no matching item available.\n"
-#~ msgstr "Niama adpaviednikaŭ.\n"
-
 #~ msgid "Backspace"
 #~ msgstr "Backspace"
 
@@ -5792,9 +5878,6 @@ msgstr "Pačni zamieny"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "&Ustaŭ"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "&Naładź..."
 
 #~ msgid "Add"
 #~ msgstr "Dadaj"
@@ -6647,12 +6730,6 @@ msgstr "Pačni zamieny"
 
 #~ msgid "&Remove"
 #~ msgstr "&Vydali"
-
-#~ msgid "Move &Up"
-#~ msgstr "Pasuń &vyšej"
-
-#~ msgid "Move &Down"
-#~ msgstr "Pasuń &nižej"
 
 #~ msgid "&Help"
 #~ msgstr "&Dapamoha"
@@ -9248,11 +9325,6 @@ msgstr "Pačni zamieny"
 #~ msgstr "Sebastian Sauer"
 
 #, fuzzy
-#~| msgid "MainWindow"
-#~ msgid "Maintainer"
-#~ msgstr "Hałoŭnaje akno"
-
-#, fuzzy
 #~| msgid "Tobias Anton"
 #~ msgid "Tobias Koenig"
 #~ msgstr "Tobias Anton"
@@ -9378,14 +9450,6 @@ msgstr "Pačni zamieny"
 #~| msgid "Alert"
 #~ msgid "After"
 #~ msgstr "Tryvoha"
-
-#, fuzzy
-#~| msgid "Choose..."
-#~ msgctxt ""
-#~ "@option:check An item in a list of resources that allows to query for "
-#~ "more resources to put in the list"
-#~ msgid "More..."
-#~ msgstr "Abiary..."
 
 #, fuzzy
 #~| msgctxt "@action"

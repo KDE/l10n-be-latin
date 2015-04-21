@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-19 08:36+0000\n"
+"POT-Creation-Date: 2015-04-21 11:46+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -692,8 +692,8 @@ msgstr[1] "Niazhoda z zarehistravanym paŭsiudnym klavijaturnym skarotam"
 msgstr[2] "Niazhoda z zarehistravanym paŭsiudnym klavijaturnym skarotam"
 
 #: kkeysequencewidget.cpp:146 kkeysequencewidget.cpp:233
-#: kkeysequencewidget.cpp:619 kshortcutseditor.cpp:619
-#: kshortcutseditor.cpp:637
+#: kkeysequencewidget.cpp:619 kshortcutseditor.cpp:622
+#: kshortcutseditor.cpp:640
 msgid "Reassign"
 msgstr "Pieraviažy"
 
@@ -1002,11 +1002,11 @@ msgstr "Žest z prycisnutaj knopkaj myšy"
 msgid "Mouse Shape Gesture"
 msgstr "Žest z pasoŭvańniem myšy"
 
-#: kshortcutseditor.cpp:614 kshortcutseditor.cpp:632
+#: kshortcutseditor.cpp:617 kshortcutseditor.cpp:635
 msgid "Key Conflict"
 msgstr "Niazhoda klavišaŭ"
 
-#: kshortcutseditor.cpp:615
+#: kshortcutseditor.cpp:618
 #, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
@@ -1015,7 +1015,7 @@ msgstr ""
 "Žest z pasoŭvańniem myšy „%1” užo prymierkavany dla aperacyi „%2”.\n"
 "Pieraviazać jaho z toj aperacyi na hetuju?"
 
-#: kshortcutseditor.cpp:633
+#: kshortcutseditor.cpp:636
 #, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
@@ -1024,35 +1024,41 @@ msgstr ""
 "Žest z prycisnutaj knopkaj myšy „%1” užo prymierkavany dla aperacyi „%2”.\n"
 "Pieraviazać jaho z toj aperacyi na hetuju?"
 
-#: kshortcutseditor.cpp:680
+#: kshortcutseditor.cpp:683
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "Klavijaturnyja skaroty dla %1"
 
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: kshortcutseditor.cpp:698 kshortcutwidget.ui:22
+#: kshortcutseditor.cpp:701 kshortcutwidget.ui:22
 msgid "Main:"
 msgstr "Hałoŭny:"
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: kshortcutseditor.cpp:699 kshortcutwidget.ui:52
+#: kshortcutseditor.cpp:702 kshortcutwidget.ui:52
 msgid "Alternate:"
 msgstr "Zastupny:"
 
-#: kshortcutseditor.cpp:700
+#: kshortcutseditor.cpp:703
 msgid "Global:"
 msgstr "Paŭsiudny:"
 
-#: kshortcutseditor.cpp:715
+#: kshortcutseditor.cpp:704
+#, fuzzy
+#| msgid "Global Alternate"
+msgid "Global alternate:"
+msgstr "Paŭsiudny zastupny"
+
+#: kshortcutseditor.cpp:719
 msgid "Action Name"
 msgstr "Nazva aperacyi"
 
-#: kshortcutseditor.cpp:719
+#: kshortcutseditor.cpp:723
 msgid "Shortcuts"
 msgstr "Klavijaturnyja skaroty"
 
-#: kshortcutseditor.cpp:723
+#: kshortcutseditor.cpp:727
 msgid "Description"
 msgstr "Apisańnie"
 

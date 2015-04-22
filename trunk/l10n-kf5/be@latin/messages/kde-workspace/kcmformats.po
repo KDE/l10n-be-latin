@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-25 08:16+0000\n"
+"POT-Creation-Date: 2015-04-22 08:32+0000\n"
 "PO-Revision-Date: 2008-11-04 11:20+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -42,7 +42,19 @@ msgstr ""
 msgid "Format Settings Changed"
 msgstr ""
 
-#: kcmformats.cpp:305
+#: kcmformats.cpp:300
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (long format)"
+msgstr "Skaročany farmat dataŭ:"
+
+#: kcmformats.cpp:301
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (short format)"
+msgstr "Skaročany farmat dataŭ:"
+
+#: kcmformats.cpp:306
 #, fuzzy
 #| msgctxt "The Imperial System"
 #| msgid "Imperial"
@@ -50,7 +62,7 @@ msgctxt "Measurement combobox"
 msgid "Imperial UK"
 msgstr "Imperskaja"
 
-#: kcmformats.cpp:307
+#: kcmformats.cpp:308
 #, fuzzy
 #| msgctxt "The Imperial System"
 #| msgid "Imperial"
@@ -58,7 +70,7 @@ msgctxt "Measurement combobox"
 msgid "Imperial US"
 msgstr "Imperskaja"
 
-#: kcmformats.cpp:309
+#: kcmformats.cpp:310
 #, fuzzy
 #| msgctxt "The Metric System"
 #| msgid "Metric"
@@ -680,14 +692,6 @@ msgstr "Systema mieraŭ:"
 #~| msgid "Decimal symbol:"
 #~ msgid "PM symbol:"
 #~ msgstr "Dziesiatkovy znak:"
-
-#, fuzzy
-#~| msgid "Short date format:"
-#~ msgid "Long date format:"
-#~ msgstr "Skaročany farmat dataŭ:"
-
-#~ msgid "Short date format:"
-#~ msgstr "Skaročany farmat dataŭ:"
 
 #~ msgid ""
 #~ "<p>This option determines whether possessive form of month names should "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-29 08:08+0000\n"
+"POT-Creation-Date: 2015-06-20 09:58+0000\n"
 "PO-Revision-Date: 2008-10-05 10:51+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,14 +19,14 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: contents/ui/main.qml:54
+#: contents/ui/main.qml:86
 #, fuzzy
 #| msgid "&Open"
 msgctxt "a verb"
 msgid "Open"
 msgstr "&Adčyni"
 
-#: contents/ui/main.qml:55
+#: contents/ui/main.qml:87
 #, fuzzy
 #| msgctxt "The trash is empty. This is not an action, but a state"
 #| msgid "Empty"
@@ -34,7 +34,7 @@ msgctxt "a verb"
 msgid "Empty"
 msgstr "Pusta"
 
-#: contents/ui/main.qml:73
+#: contents/ui/main.qml:116
 #, fuzzy
 #| msgid "Trash"
 msgid ""
@@ -42,7 +42,7 @@ msgid ""
 "Empty"
 msgstr "Śmietnica"
 
-#: contents/ui/main.qml:73 contents/ui/main.qml:85
+#: contents/ui/main.qml:116
 #, fuzzy, kde-format
 #| msgid "One item"
 #| msgid_plural "%1 items"
@@ -56,33 +56,40 @@ msgstr[0] "%1 element"
 msgstr[1] "%1 elementy"
 msgstr[2] "%1 elementaŭ"
 
-#: contents/ui/main.qml:84
+#: contents/ui/main.qml:124
 msgid "Trash"
 msgstr "Śmietnica"
 
-#: contents/ui/main.qml:85
-msgid ""
-"Trash \n"
-" Empty"
-msgstr ""
-
-#: contents/ui/main.qml:93 contents/ui/main.qml:95
+#: contents/ui/main.qml:125
 #, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Empty Trash"
-msgid "Empty Trash"
-msgstr "Vyčyści śmietnicu"
+#| msgctxt "The trash is empty. This is not an action, but a state"
+#| msgid "Empty"
+msgid "Empty"
+msgstr "Pusta"
 
-#: contents/ui/main.qml:94
+#: contents/ui/main.qml:125
+#, fuzzy, kde-format
+#| msgid "One item"
+#| msgid_plural "%1 items"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "%1 element"
+msgstr[1] "%1 elementy"
+msgstr[2] "%1 elementaŭ"
+
 #, fuzzy
-#| msgctxt "@info"
-#| msgid "Do you really want to empty the trash? All items will be deleted."
-msgid "Do you really want to empty the trash ? All the items will be deleted."
-msgstr "Sapraŭdy chočaš vyčyścić śmietnicu? Usio źmieściva budzie vydalenaje."
+#~| msgctxt "@action:button"
+#~| msgid "Empty Trash"
+#~ msgid "Empty Trash"
+#~ msgstr "Vyčyści śmietnicu"
 
-#: contents/ui/main.qml:96
-msgid "Cancel"
-msgstr ""
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Do you really want to empty the trash? All items will be deleted."
+#~ msgid ""
+#~ "Do you really want to empty the trash ? All the items will be deleted."
+#~ msgstr ""
+#~ "Sapraŭdy chočaš vyčyścić śmietnicu? Usio źmieściva budzie vydalenaje."
 
 #~ msgid "&Empty Trashcan"
 #~ msgstr "&Vyčyści śmietnicu"

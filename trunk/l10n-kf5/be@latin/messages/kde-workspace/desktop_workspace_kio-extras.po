@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-13 08:36+0000\n"
+"POT-Creation-Date: 2015-07-08 08:49+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,39 +15,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: desktop/desktopnotifier.desktop:3
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Analyzer"
-msgctxt "Name"
-msgid "Directory Watcher"
-msgstr "Analizatar sietki"
-
-#: desktop/desktopnotifier.desktop:78
-msgctxt "Comment"
-msgid "Monitors directories for changes"
-msgstr ""
-
-#: desktop/./directory.trash:3
-msgctxt "Name"
-msgid "Trash"
-msgstr "Śmietnica"
-
-#: desktop/./directory.trash:83
-msgctxt "Comment"
-msgid "Contains removed files"
-msgstr "Zachoŭvaje vydalenyja fajły"
-
-#: desktop/Home.desktop:3
-msgctxt "Name"
-msgid "Home"
-msgstr "Dom"
-
-#: desktop/Home.desktop:95
-msgctxt "GenericName"
-msgid "Personal Files"
-msgstr "Ułasnyja fajły"
 
 #: fish/fish.protocol:16
 msgctxt "Description"
@@ -219,6 +186,29 @@ msgstr ""
 msgctxt "Name"
 msgid "Microsoft Windows Images"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Network Analyzer"
+#~ msgctxt "Name"
+#~ msgid "Directory Watcher"
+#~ msgstr "Analizatar sietki"
+
+#~ msgctxt "Name"
+#~ msgid "Trash"
+#~ msgstr "Śmietnica"
+
+#~ msgctxt "Comment"
+#~ msgid "Contains removed files"
+#~ msgstr "Zachoŭvaje vydalenyja fajły"
+
+#~ msgctxt "Name"
+#~ msgid "Home"
+#~ msgstr "Dom"
+
+#~ msgctxt "GenericName"
+#~ msgid "Personal Files"
+#~ msgstr "Ułasnyja fajły"
 
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the trash."

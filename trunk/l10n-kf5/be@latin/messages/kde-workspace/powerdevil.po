@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-28 12:31+0000\n"
+"POT-Creation-Date: 2015-08-19 08:29+0000\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -57,9 +57,11 @@ msgid "After"
 msgstr ""
 
 #: actions/bundled/handlebuttonevents.cpp:60
+#, fuzzy
+#| msgid "Suspend to RAM"
 msgctxt "@action:inmenu Global shortcut"
-msgid "Sleep"
-msgstr ""
+msgid "Suspend"
+msgstr "Zaśni ŭ pamiaci"
 
 #: actions/bundled/handlebuttonevents.cpp:65
 msgctxt "@action:inmenu Global shortcut"
@@ -82,8 +84,10 @@ msgstr "Ničoha nie rabi"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:102
 #: actions/bundled/suspendsessionconfig.cpp:84
-msgid "Sleep"
-msgstr ""
+#, fuzzy
+#| msgid "Suspend to RAM"
+msgid "Suspend"
+msgstr "Zaśni ŭ pamiaci"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:105
 #: actions/bundled/suspendsessionconfig.cpp:87
@@ -576,9 +580,6 @@ msgstr ""
 
 #~ msgid "Suspend to Disk"
 #~ msgstr "Zaśni na dysku"
-
-#~ msgid "Suspend to RAM"
-#~ msgstr "Zaśni ŭ pamiaci"
 
 #~ msgid "Standby"
 #~ msgstr "Čakaj"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-25 10:49+0000\n"
+"POT-Creation-Date: 2015-09-22 09:57+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -895,23 +895,29 @@ msgstr "Zapišy jak zmoŭčańni schiemy"
 msgid "Export Scheme..."
 msgstr "Ekspartuj schiemu..."
 
-#: kshortcutschemeseditor.cpp:101
+#: kshortcutschemeseditor.cpp:86
+#, fuzzy
+#| msgid "Export Scheme..."
+msgid "Import Scheme..."
+msgstr "Ekspartuj schiemu..."
+
+#: kshortcutschemeseditor.cpp:102
 msgid "Name for New Scheme"
 msgstr "Nazva novaj schiemy"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "Name for new scheme:"
 msgstr "Nazva novaj schiemy:"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "New Scheme"
 msgstr "Novaja schiema"
 
-#: kshortcutschemeseditor.cpp:108
+#: kshortcutschemeseditor.cpp:109
 msgid "A scheme with this name already exists."
 msgstr "Schiema z takoj nazvaj užo isnuje."
 
-#: kshortcutschemeseditor.cpp:137
+#: kshortcutschemeseditor.cpp:138
 #, kde-format
 msgid ""
 "Do you really want to delete the scheme %1?\n"
@@ -921,15 +927,23 @@ msgstr ""
 "Hetaja aperacyja nia zmoža vydalić systemnuju schiemu klavijaturnych "
 "skarotaŭ."
 
-#: kshortcutschemeseditor.cpp:167
-msgid "Export to Location"
-msgstr "Ekspartuj u peŭnaje miesca"
+#: kshortcutschemeseditor.cpp:168
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Export Shortcuts"
+msgstr "Klavijaturnyja skaroty"
 
-#: kshortcutschemeseditor.cpp:175
-msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr ""
-"Nie ŭdałosia zekspartavać schiemu klavijaturnych skarotaŭ, bo padadzienaje "
-"niapravilnaja miesca."
+#: kshortcutschemeseditor.cpp:168 kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgid "Shortcut Conflict(s)"
+msgid "Shortcuts (*.shortcuts)"
+msgstr "Niazhoda klavijaturnych skarotaŭ"
+
+#: kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Import Shortcuts"
+msgstr "Klavijaturnyja skaroty"
 
 #: kshortcutsdialog.cpp:85
 msgid ""
@@ -1302,6 +1316,14 @@ msgstr "&Nałady"
 #: ui_standards.rc:194
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
+
+#~ msgid "Export to Location"
+#~ msgstr "Ekspartuj u peŭnaje miesca"
+
+#~ msgid "Could not export shortcuts scheme because the location is invalid."
+#~ msgstr ""
+#~ "Nie ŭdałosia zekspartavać schiemu klavijaturnych skarotaŭ, bo "
+#~ "padadzienaje niapravilnaja miesca."
 
 #, fuzzy
 #~| msgid ""
@@ -11685,9 +11707,6 @@ msgstr "Hałoŭnaja panel pryładździa"
 
 #~ msgid "Conflict With Registered Global Shortcut(s)"
 #~ msgstr "Niazhoda z zaheristravanymi paŭsiudnymi klavijaturnymi skarotami"
-
-#~ msgid "Shortcut Conflict(s)"
-#~ msgstr "Niazhoda klavijaturnych skarotaŭ"
 
 #~ msgid "tagcloudtest"
 #~ msgstr "tagcloudtest"

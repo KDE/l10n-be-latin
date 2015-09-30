@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-19 09:23+0000\n"
+"POT-Creation-Date: 2015-09-30 08:05+0000\n"
 "PO-Revision-Date: 2008-12-27 14:55+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -772,7 +772,9 @@ msgid "&Move"
 msgstr "&Pierasuń"
 
 #: useractions.cpp:256
-msgid "Re&size"
+#, fuzzy
+#| msgid "Re&size"
+msgid "&Resize"
 msgstr "&Źmiani pamiery"
 
 #: useractions.cpp:260
@@ -788,19 +790,25 @@ msgid "&Fullscreen"
 msgstr "&Na ŭvieś ekran"
 
 #: useractions.cpp:278
-msgid "Sh&ade"
-msgstr "Z&harni ŭ zahałovak"
+#, fuzzy
+#| msgid "Shade"
+msgid "&Shade"
+msgstr "Zharni ŭ zahałovak"
 
 #: useractions.cpp:283
 msgid "&No Border"
 msgstr "&Biez abrysu"
 
 #: useractions.cpp:290
-msgid "Window &Shortcut..."
+#, fuzzy
+#| msgid "Window &Shortcut..."
+msgid "Window Short&cut..."
 msgstr "&Skarot dla akna..."
 
 #: useractions.cpp:295
-msgid "&Special Window Settings..."
+#, fuzzy
+#| msgid "&Special Window Settings..."
+msgid "Special &Window Settings..."
 msgstr "&Asablivyja nałady akna..."
 
 #: useractions.cpp:299
@@ -815,7 +823,7 @@ msgstr "&Asablivyja nałady aplikacyi..."
 msgctxt ""
 "Entry in context menu of window decoration to open the configuration module "
 "of KWin"
-msgid "Window &Manager Settings..."
+msgid "Window Manager S&ettings..."
 msgstr "&Asablivyja nałady akna..."
 
 #: useractions.cpp:330
@@ -983,6 +991,9 @@ msgid ""
 "paste bin service\n"
 "like http://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
+
+#~ msgid "Sh&ade"
+#~ msgstr "Z&harni ŭ zahałovak"
 
 #~ msgid "KWin: "
 #~ msgstr "KWin: "
@@ -1370,9 +1381,6 @@ msgstr ""
 
 #~ msgid "Unshade"
 #~ msgstr "Razharni z zahałoŭka"
-
-#~ msgid "Shade"
-#~ msgstr "Zharni ŭ zahałovak"
 
 #~ msgid "No window decoration plugin library was found."
 #~ msgstr "Plugin abrysaŭ akon nia znojdzieny."

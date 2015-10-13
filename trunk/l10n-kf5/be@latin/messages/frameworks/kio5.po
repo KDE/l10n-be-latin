@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-12 08:12+0000\n"
+"POT-Creation-Date: 2015-10-13 10:08+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -7425,6 +7425,23 @@ msgctxt "%1 is the effective date of the certificate, %2 is the expiry date"
 msgid "%1 to %2"
 msgstr "%1, %2"
 
+#: widgets/kurifiltersearchprovideractions.cpp:94
+#, kde-format
+msgid "Search for '%1' with"
+msgstr ""
+
+#: widgets/kurifiltersearchprovideractions.cpp:99
+#, kde-format
+msgctxt "@action:inmenu Search for <text> with"
+msgid "%1"
+msgstr ""
+
+#: widgets/kurifiltersearchprovideractions.cpp:108
+#, fuzzy
+#| msgid "Configure File Sharing..."
+msgid "Configure Web Shortcuts..."
+msgstr "Naładź supolny dostup da fajłaŭ..."
+
 #: widgets/kurlrequester.cpp:322
 msgid "Open file dialog"
 msgstr "Adčyni akno fajła"
@@ -8097,9 +8114,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Taksama možaš źmianić nałady aŭtaryzavańnia dla supolnaha dostupu da "
 #~ "fajłaŭ."
-
-#~ msgid "Configure File Sharing..."
-#~ msgstr "Naładź supolny dostup da fajłaŭ..."
 
 #~ msgid ""
 #~ "Error running 'filesharelist'. Check if installed and in $PATH or /usr/"

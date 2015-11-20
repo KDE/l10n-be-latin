@@ -2488,37 +2488,7 @@ msgctxt "KMimeTypeChooser|"
 msgid "Click this button to display the familiar KDE mime type editor."
 msgstr ""
 
-#: knewpassworddialog.cpp:73
-#, fuzzy
-#| msgid ""
-#| "The password strength meter gives an indication of the security of the "
-#| "password you have entered.  To improve the strength of the password, "
-#| "try:\n"
-#| " - using a longer password;\n"
-#| " - using a mixture of upper- and lower-case letters;\n"
-#| " - using numbers or symbols, such as #, as well as letters."
-msgctxt "KNewPasswordDialog|"
-msgid ""
-"The password strength meter gives an indication of the security of the "
-"password you have entered.  To improve the strength of the password, try:\n"
-" - using a longer password;\n"
-" - using a mixture of upper- and lower-case letters;\n"
-" - using numbers or symbols, such as #, as well as letters."
-msgstr ""
-"Miernik vartaści parolu padkazvaje, nakolki biaśpiečny ŭpišany parol. Kab "
-"pavialičyć vartaść parolu, pasprabuj:\n"
-" – padoŭžyć jaho;\n"
-" – užyć u im i vialikija, i małyja litary;\n"
-" – užyć razam ź litarami ličby, asablivyja znaki, naprykład, „#”."
-
-#: knewpassworddialog.cpp:161
-#, fuzzy
-#| msgid "Password is empty"
-msgctxt "KNewPasswordDialog|"
-msgid "Password is empty"
-msgstr "Pusty parol"
-
-#: knewpassworddialog.cpp:167
+#: knewpassworddialog.cpp:76
 #, fuzzy, qt-format
 #| msgid "Password must be at least 1 character long"
 #| msgid_plural "Password must be at least %1 characters long"
@@ -2529,35 +2499,35 @@ msgstr[0] "Parol nia moža być karaciejšym ad %1 znaka."
 msgstr[1] "Parol nia moža być karaciejšym ad %1 znaka."
 msgstr[2] "Parol nia moža być karaciejšym ad %1 znaka."
 
-#: knewpassworddialog.cpp:170
+#: knewpassworddialog.cpp:81
 #, fuzzy
-#| msgid "Passwords match"
+#| msgid "Password is empty"
 msgctxt "KNewPasswordDialog|"
-msgid "Passwords match"
-msgstr "Paroli nia roźniacca"
+msgid "Password is empty"
+msgstr "Pusty parol"
 
-#: knewpassworddialog.cpp:171 knewpassworddialog.ui:112
+#: knewpassworddialog.cpp:86 knewpassworddialog.ui:53
 #, fuzzy
 #| msgid "Passwords do not match"
 msgctxt "KNewPasswordDialog|"
 msgid "Passwords do not match"
 msgstr "Paroli roźniacca"
 
-#: knewpassworddialog.cpp:226
+#: knewpassworddialog.cpp:92
 #, fuzzy
-#| msgid "You entered two different passwords. Please try again."
+#| msgid "Passwords match"
 msgctxt "KNewPasswordDialog|"
-msgid "You entered two different passwords. Please try again."
-msgstr "Ty ŭpisaŭ roznyja paroli. Paŭtary sprobu."
+msgid "Passwords match"
+msgstr "Paroli nia roźniacca"
 
-#: knewpassworddialog.cpp:236
+#: knewpassworddialog.cpp:139
 #, fuzzy
 #| msgid "Low Password Strength"
 msgctxt "KNewPasswordDialog|"
 msgid "Low Password Strength"
 msgstr "Małaja vartaść parolu"
 
-#: knewpassworddialog.cpp:237
+#: knewpassworddialog.cpp:140
 #, fuzzy
 #| msgid ""
 #| "The password you have entered has a low strength. To improve the strength "
@@ -2583,27 +2553,6 @@ msgstr ""
 " – užyć razam ź litarami ličby, asablivyja znaki, naprykład, „#”.\n"
 "\n"
 "Ci chočaš, nie zvažajučy na hetyja pieraściarohi, karystacca hetym parolem?"
-
-#: knewpassworddialog.ui:52
-#, fuzzy
-#| msgid "Password:"
-msgctxt "KNewPasswordDialog|"
-msgid "Password:"
-msgstr "Parol:"
-
-#: knewpassworddialog.ui:62
-#, fuzzy
-#| msgid "&Verify:"
-msgctxt "KNewPasswordDialog|"
-msgid "&Verify:"
-msgstr "&Spraŭdź:"
-
-#: knewpassworddialog.ui:90
-#, fuzzy
-#| msgid "Password strength meter:"
-msgctxt "KNewPasswordDialog|"
-msgid "Password strength meter:"
-msgstr "Miernik vartaści parolu:"
 
 #: knewpasswordwidget.cpp:65
 #, fuzzy
@@ -3237,6 +3186,53 @@ msgstr "Na ŭvieś ekran"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "The password strength meter gives an indication of the security of the "
+#~| "password you have entered.  To improve the strength of the password, "
+#~| "try:\n"
+#~| " - using a longer password;\n"
+#~| " - using a mixture of upper- and lower-case letters;\n"
+#~| " - using numbers or symbols, such as #, as well as letters."
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid ""
+#~ "The password strength meter gives an indication of the security of the "
+#~ "password you have entered.  To improve the strength of the password, "
+#~ "try:\n"
+#~ " - using a longer password;\n"
+#~ " - using a mixture of upper- and lower-case letters;\n"
+#~ " - using numbers or symbols, such as #, as well as letters."
+#~ msgstr ""
+#~ "Miernik vartaści parolu padkazvaje, nakolki biaśpiečny ŭpišany parol. Kab "
+#~ "pavialičyć vartaść parolu, pasprabuj:\n"
+#~ " – padoŭžyć jaho;\n"
+#~ " – užyć u im i vialikija, i małyja litary;\n"
+#~ " – užyć razam ź litarami ličby, asablivyja znaki, naprykład, „#”."
+
+#, fuzzy
+#~| msgid "You entered two different passwords. Please try again."
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid "You entered two different passwords. Please try again."
+#~ msgstr "Ty ŭpisaŭ roznyja paroli. Paŭtary sprobu."
+
+#, fuzzy
+#~| msgid "Password:"
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid "Password:"
+#~ msgstr "Parol:"
+
+#, fuzzy
+#~| msgid "&Verify:"
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid "&Verify:"
+#~ msgstr "&Spraŭdź:"
+
+#, fuzzy
+#~| msgid "Password strength meter:"
+#~ msgctxt "KNewPasswordDialog|"
+#~ msgid "Password strength meter:"
+#~ msgstr "Miernik vartaści parolu:"
 
 #, fuzzy
 #~ msgctxt "KSharSelect|KCharselect unicode block name"

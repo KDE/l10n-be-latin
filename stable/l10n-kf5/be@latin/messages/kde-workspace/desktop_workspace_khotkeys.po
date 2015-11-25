@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-18 08:15+0000\n"
+"POT-Creation-Date: 2015-11-25 17:16+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -50,7 +50,7 @@ msgstr "Pošuk dla PHP"
 #: data/defaults.khotkeys:309 data/kde32b1.khotkeys:521
 #: data/kde32b1.khotkeys:761 data/kde32b1.khotkeys:1018
 #: data/kde32b1.khotkeys:1482 data/kde32b1.khotkeys:1898
-#: data/kde32b1.khotkeys:3308 data/printscreen.khotkeys:346
+#: data/kde32b1.khotkeys:3308
 msgctxt "Comment"
 msgid "Simple_action"
 msgstr "Prostaja_aperacyja"
@@ -430,26 +430,6 @@ msgctxt "Comment"
 msgid "Press, move up, move down, release."
 msgstr "Pryciśni, pasuń uvierch, pasuń uniz i adciśni."
 
-#: data/printscreen.khotkeys:5
-msgctxt "Comment"
-msgid "This group contains actions that are set up by default."
-msgstr "Hety hurt źmiaščaje zmoŭčana ŭklučanyja aperacyi."
-
-#: data/printscreen.khotkeys:83
-msgctxt "Name"
-msgid "Preset Actions"
-msgstr ""
-
-#: data/printscreen.khotkeys:172
-msgctxt "Comment"
-msgid "Launches KSnapShot when PrintScrn is pressed."
-msgstr "Uklučaje prahramu „KSnapShot” pa nacisku klavišy „PrintScrn”."
-
-#: data/printscreen.khotkeys:249
-msgctxt "Name"
-msgid "PrintScreen"
-msgstr "PrintScreen"
-
 #: kcm_hotkeys/khotkeys.desktop:13
 #, fuzzy
 #| msgctxt "Name"
@@ -472,3 +452,15 @@ msgid ""
 "global,keyboard shortcuts,hot keys,hotkeys,KHotKeys,input actions,mouse "
 "gestures,actions,triggers,launch"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "This group contains actions that are set up by default."
+#~ msgstr "Hety hurt źmiaščaje zmoŭčana ŭklučanyja aperacyi."
+
+#~ msgctxt "Comment"
+#~ msgid "Launches KSnapShot when PrintScrn is pressed."
+#~ msgstr "Uklučaje prahramu „KSnapShot” pa nacisku klavišy „PrintScrn”."
+
+#~ msgctxt "Name"
+#~ msgid "PrintScreen"
+#~ msgstr "PrintScreen"

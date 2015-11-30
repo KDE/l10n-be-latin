@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-25 13:37+0000\n"
+"POT-Creation-Date: 2015-11-30 08:05+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3741,6 +3741,10 @@ msgstr "Akno aŭtaryzavańnia"
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
 msgstr "Akno aŭtaryzavańnia"
+
+#: ioslaves/http/httpfilter.cpp:194
+msgid "Receiving corrupt data."
+msgstr "Atrymańnie paškodžanych źviestak."
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:66
 msgid "Cookie Alert"
@@ -8006,9 +8010,6 @@ msgstr ""
 
 #~ msgid "Open in New Tab"
 #~ msgstr "Adčyni ŭ novaj kartcy"
-
-#~ msgid "Receiving corrupt data."
-#~ msgstr "Atrymańnie paškodžanych źviestak."
 
 #, fuzzy
 #~| msgid "Add Entry..."

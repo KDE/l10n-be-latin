@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-05 10:00+0000\n"
+"POT-Creation-Date: 2016-01-13 08:00+0000\n"
 "PO-Revision-Date: 2008-09-04 00:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -16,44 +16,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: autotests/fakekdedmodule.desktop:5
-msgctxt "Comment"
-msgid "KDED Module"
-msgstr "Modul KDED"
-
-#: autotests/fakeplugin.desktop:2
-msgctxt "Name"
-msgid "NSA Plugin"
-msgstr ""
-
-#: autotests/fakeplugin.desktop:47
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "KTextEditor Plugin"
-msgctxt "Comment"
-msgid "Test Plugin Spy"
-msgstr "Plugin dla KTextEditor"
-
-#: autotests/fakeplugin.desktop:109
-msgctxt "Keywords"
-msgid "word1;word2"
-msgstr ""
-
-#: autotests/fakeplugin.desktop:144
-msgctxt "X-KDE-Keywords"
-msgid "word3,word4"
-msgstr ""
-
-#: autotests/noplugin.desktop:2
-msgctxt "Name"
-msgid "No Plugin"
-msgstr ""
-
-#: autotests/noplugin.desktop:46
-msgctxt "Comment"
-msgid "This does not have a library"
-msgstr ""
-
 #: src/services/application.desktop:4
 msgctxt "Name"
 msgid "Application"
@@ -63,6 +25,17 @@ msgstr "Aplikacyja"
 msgctxt "Name"
 msgid "KDE Plugin Information"
 msgstr "Źviestki pra plugin dla KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "KDED Module"
+#~ msgstr "Modul KDED"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KTextEditor Plugin"
+#~ msgctxt "Comment"
+#~ msgid "Test Plugin Spy"
+#~ msgstr "Plugin dla KTextEditor"
 
 #, fuzzy
 #~| msgctxt "Name"

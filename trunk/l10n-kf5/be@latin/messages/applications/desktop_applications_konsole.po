@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-14 08:37+0000\n"
+"POT-Creation-Date: 2016-01-31 08:02+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,6 +20,11 @@ msgstr ""
 msgctxt "Name"
 msgid "Open Terminal Here"
 msgstr "Adčyni terminał"
+
+#: desktop/konsolehere.desktop:105
+msgctxt "Comment"
+msgid "Opens a terminal at the current folder"
+msgstr ""
 
 #: desktop/konsole.notifyrc:3
 msgctxt "Comment"
@@ -81,12 +86,29 @@ msgctxt "Name"
 msgid "Terminal Emulator"
 msgstr "Emulatar terminała"
 
+#: desktop/konsolepart.desktop:107 desktop/org.kde.konsole.desktop:191
+#: desktop/terminalemulator.desktop:98
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Command Line"
+msgctxt "Comment"
+msgid "Command line access"
+msgstr "Zahadny radok"
+
 #: desktop/konsolerun.desktop:13
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Run Konsole"
 msgctxt "Name"
 msgid "Run In Konsole"
+msgstr "Uklučy prahramu „Konsole”"
+
+#: desktop/konsolerun.desktop:60
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Run Konsole"
+msgctxt "Comment"
+msgid "Run within Konsole"
 msgstr "Uklučy prahramu „Konsole”"
 
 #: desktop/org.kde.konsole.desktop:14
@@ -99,12 +121,20 @@ msgctxt "GenericName"
 msgid "Terminal"
 msgstr "Terminał"
 
-#: desktop/org.kde.konsole.desktop:192
+#: desktop/org.kde.konsole.desktop:194
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "New Window"
 msgctxt "Name"
 msgid "Open a New Window"
+msgstr "Novaje akno"
+
+#: desktop/org.kde.konsole.desktop:243
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "New Window"
+msgctxt "Name"
+msgid "Open a New Tab"
 msgstr "Novaje akno"
 
 #~ msgctxt "Name"
@@ -8478,10 +8508,6 @@ msgstr "Novaje akno"
 #~ msgctxt "Comment"
 #~ msgid "Fast user switching"
 #~ msgstr "Chutkaje pieraklučeńnie karystańnikaŭ"
-
-#~ msgctxt "Name"
-#~ msgid "Command Line"
-#~ msgstr "Zahadny radok"
 
 #~ msgctxt "Comment"
 #~ msgid "Executes shell commands"

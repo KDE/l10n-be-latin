@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-17 07:48+0000\n"
+"POT-Creation-Date: 2016-02-22 08:52+0000\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -388,36 +388,36 @@ msgstr ""
 msgid "Select Folder"
 msgstr "Vyłučy ŭsio"
 
-#: plugins/folder/foldermodel.cpp:249
+#: plugins/folder/foldermodel.cpp:250
 msgid "&Refresh Desktop"
 msgstr "&Aktualizuj stoł"
 
-#: plugins/folder/foldermodel.cpp:249 plugins/folder/foldermodel.cpp:1160
+#: plugins/folder/foldermodel.cpp:250 plugins/folder/foldermodel.cpp:1188
 msgid "&Refresh View"
 msgstr "&Aktualizuj prahlad"
 
-#: plugins/folder/foldermodel.cpp:1157
+#: plugins/folder/foldermodel.cpp:1185
 msgid "&Reload"
 msgstr "&Pieračytaj"
 
-#: plugins/folder/foldermodel.cpp:1163
+#: plugins/folder/foldermodel.cpp:1191
 msgid "&Rename"
 msgstr "&Źmiani nazvu"
 
-#: plugins/folder/foldermodel.cpp:1166
+#: plugins/folder/foldermodel.cpp:1194
 msgid "&Move to Trash"
 msgstr "&Vykiń u śmietnicu"
 
-#: plugins/folder/foldermodel.cpp:1169
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:350
+#: plugins/folder/foldermodel.cpp:1197
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:345
 msgid "&Empty Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
-#: plugins/folder/foldermodel.cpp:1172
+#: plugins/folder/foldermodel.cpp:1200
 msgid "&Delete"
 msgstr "&Vydali"
 
-#: plugins/folder/foldermodel.cpp:1232
+#: plugins/folder/foldermodel.cpp:1260
 msgid "&Paste"
 msgstr "&Uklej"
 
@@ -460,69 +460,65 @@ msgctxt "@title:menu"
 msgid "Move Here"
 msgstr "Pieraniasi siudy"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:254
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:249
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:281
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:276
 msgid "Create &Folder..."
 msgstr "Stvary &kataloh..."
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:292
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:287
 msgid "&Restore"
 msgstr "&Uznavi"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:315
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:310
 #, fuzzy
 #| msgid "Show All Files"
 msgid "Show Original Directory"
 msgstr "Pakazvaj usie fajły"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:315
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:310
 #, fuzzy
 #| msgid "Show All Files"
 msgid "Show Original File"
 msgstr "Pakazvaj usie fajły"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:363
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:358
 #, fuzzy
 #| msgid "&Empty Trash Bin"
 msgid "&Configure Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:389
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:384
 msgid "&Bookmark This Page"
 msgstr "Stvary &zakładku dla hetaj staronki"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:391
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:386
 msgid "&Bookmark This Location"
 msgstr "Stvary &zakładku dla hetaha miesca"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:394
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:389
 msgid "&Bookmark This Folder"
 msgstr "Stvary &zakładku dla hetaha kataloha"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:396
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:391
 msgid "&Bookmark This Link"
 msgstr "Stvary &zakładku dla hetaha łuča"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:398
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:393
 msgid "&Bookmark This File"
 msgstr "Stvary &zakładku dla hetaha fajła"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:428
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:423
 #, fuzzy
 #| msgid "Show previews"
 msgid "Preview In"
 msgstr "Pakazvaj padhlady"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:463
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:458
 msgid "&Properties"
 msgstr "&Ułaścivaści"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:479
-msgid "Share"
-msgstr "Zrabi supolnym"
 
 #: plugins/folder/labelgenerator.cpp:97
 #, fuzzy
@@ -558,6 +554,9 @@ msgstr "Spačatku katalohi"
 #: plugins/folder/viewpropertiesmenu.cpp:84
 msgid "Locked"
 msgstr ""
+
+#~ msgid "Share"
+#~ msgstr "Zrabi supolnym"
 
 #, fuzzy
 #~| msgid "Icons"

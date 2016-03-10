@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-09 07:42+0000\n"
+"POT-Creation-Date: 2016-03-10 08:11+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -193,24 +193,6 @@ msgctxt "X-KDE-Keywords"
 msgid "IO,I/O,IO-Ports,I/O-Ports,Ports,IO-Range,I/O-Range,System Information"
 msgstr ""
 
-#: Modules/info/scsi.desktop:13
-msgctxt "Name"
-msgid "SCSI"
-msgstr "SCSI"
-
-#: Modules/info/scsi.desktop:107
-msgctxt "Comment"
-msgid "SCSI information"
-msgstr "Źviestki pra SCSI"
-
-#: Modules/info/scsi.desktop:200
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "SCSI information"
-msgctxt "X-KDE-Keywords"
-msgid "SCSI,SCSI-Bus,System Information"
-msgstr "Źviestki pra SCSI"
-
 #: Modules/info/wayland.desktop:12
 #, fuzzy
 #| msgctxt "Name"
@@ -359,10 +341,25 @@ msgctxt "Name"
 msgid "Info Center"
 msgstr "Infarmacyjny centar"
 
-#: org.kde.kinfocenter.desktop:99
+#: org.kde.kinfocenter.desktop:10
 msgctxt "GenericName"
 msgid "Info Center"
 msgstr "Infarmacyjny centar"
+
+#~ msgctxt "Name"
+#~ msgid "SCSI"
+#~ msgstr "SCSI"
+
+#~ msgctxt "Comment"
+#~ msgid "SCSI information"
+#~ msgstr "Źviestki pra SCSI"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "SCSI information"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "SCSI,SCSI-Bus,System Information"
+#~ msgstr "Źviestki pra SCSI"
 
 #~ msgctxt "Name"
 #~ msgid "KInfoCenter"

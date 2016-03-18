@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-10 08:11+0000\n"
+"POT-Creation-Date: 2016-03-18 07:41+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -238,6 +238,7 @@ msgid "A network usage monitor"
 msgstr "Nazirańnik zaniataści sietki"
 
 #: applets/systemtray/container/package/metadata.desktop:2
+#: applets/systemtray/package/metadata.desktop:3
 msgctxt "Name"
 msgid "System Tray"
 msgstr "Systemny trej"
@@ -246,14 +247,6 @@ msgstr "Systemny trej"
 msgctxt "Comment"
 msgid "Access hidden applications minimized in the system tray"
 msgstr "Dostup da schavanych u systemnym trei aplikacyjaŭ"
-
-#: applets/systemtray/package/metadata.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System Tray"
-msgctxt "Name"
-msgid "System tray"
-msgstr "Systemny trej"
 
 #: appmenu/appmenu.desktop:3
 #, fuzzy
@@ -2010,6 +2003,13 @@ msgstr "Słajdy"
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Tray"
+#~ msgctxt "Name"
+#~ msgid "System tray"
+#~ msgstr "Systemny trej"
 
 #, fuzzy
 #~| msgctxt "Name"

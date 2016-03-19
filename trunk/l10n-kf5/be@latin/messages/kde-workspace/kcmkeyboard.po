@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-23 08:41+0000\n"
+"POT-Creation-Date: 2016-03-19 07:57+0000\n"
 "PO-Revision-Date: 2008-11-04 12:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -402,10 +402,15 @@ msgstr "Hałoŭnyja skaroty:"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:17
+#, fuzzy
+#| msgid ""
+#| "If supported, this option allows you to setup the state of NumLock after "
+#| "KDE startup.<p>You can configure NumLock to be turned on or off, or "
+#| "configure KDE not to set NumLock state."
 msgid ""
-"If supported, this option allows you to setup the state of NumLock after KDE "
-"startup.<p>You can configure NumLock to be turned on or off, or configure "
-"KDE not to set NumLock state."
+"If supported, this option allows you to setup the state of NumLock after "
+"Plasma startup.<p>You can configure NumLock to be turned on or off, or "
+"configure Plasma not to set NumLock state."
 msgstr ""
 "Kali hetaja mahčymaść absłuhoŭvajecca, tady tut možna naładzić pačatkovy "
 "stan klavišy „NumLock” pa ŭklučeńni systemy „KDE”.<p>Ty možaš vybrać, ci "
@@ -414,7 +419,9 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:20
-msgid "NumLock on KDE Startup"
+#, fuzzy
+#| msgid "NumLock on KDE Startup"
+msgid "NumLock on Plasma Startup"
 msgstr "Klaviša „NumLock” pry ŭklučeńni „KDE”"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton1)

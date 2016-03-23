@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-15 09:31+0000\n"
+"POT-Creation-Date: 2016-03-23 07:52+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -33,6 +33,22 @@ msgstr "Jašče"
 msgctxt "Name"
 msgid "Help"
 msgstr "Dapamoha"
+
+#: org.kde.Help.desktop:102
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KHelpCenter"
+msgctxt "GenericName"
+msgid "Help Center"
+msgstr "KHelpCenter"
+
+#: org.kde.Help.desktop:103
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Browser Identification"
+msgctxt "Comment"
+msgid "Browse and search documentation"
+msgstr "Identyfikacyja hartača"
 
 #: plugins/Applications/.directory:3
 msgctxt "Name"
@@ -5269,10 +5285,6 @@ msgstr "Scrollkeeper"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Wget 1.11.4)"
 #~ msgstr "UADescription (Wget 1.5.3)"
-
-#~ msgctxt "Name"
-#~ msgid "Browser Identification"
-#~ msgstr "Identyfikacyja hartača"
 
 #~ msgctxt "Comment"
 #~ msgid "Configure the way Konqueror reports itself"

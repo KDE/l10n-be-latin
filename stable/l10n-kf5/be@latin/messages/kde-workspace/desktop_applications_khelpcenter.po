@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-09 10:39+0000\n"
+"POT-Creation-Date: 2016-03-25 11:49+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -16,50 +16,39 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: htmlsearch/htmlsearch.desktop:12
-msgctxt "Name"
-msgid "Index"
-msgstr "Źmiest"
-
-#: htmlsearch/htmlsearch.desktop:104
-msgctxt "Comment"
-msgid "Index generation"
-msgstr "Stvareńnie źmiestu"
-
-#: htmlsearch/htmlsearch.desktop:195
-msgctxt "X-KDE-Keywords"
-msgid "Help,HTML,Search,Index,htdig,htsearch,htmerge,Scope,Language"
-msgstr ""
-
-#: kcmhelpcenter.desktop:12
-msgctxt "Name"
-msgid "Help Index"
-msgstr "Źmiest dapamohi"
-
-#: kcmhelpcenter.desktop:103
-msgctxt "Comment"
-msgid "Help center search index configuration and generation"
-msgstr "Naładžvańnie j stvareńnie źmiestu dla pošuku ŭ centry dapamohi"
-
-#: kcmhelpcenter.desktop:191
-msgctxt "X-KDE-Keywords"
-msgid "khelpcenter,help,index,search"
-msgstr ""
-
 #: khelpcenter.desktop:2
 msgctxt "Name"
 msgid "KHelpCenter"
 msgstr "KHelpCenter"
 
 #: khelpcenter.desktop:93
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "More Applications"
 msgctxt "Comment"
-msgid "The KDE Help Center"
-msgstr "Centar dapamohi KDE"
+msgid "Help for applications"
+msgstr "Jašče"
 
 #: org.kde.Help.desktop:9
 msgctxt "Name"
 msgid "Help"
 msgstr "Dapamoha"
+
+#: org.kde.Help.desktop:102
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KHelpCenter"
+msgctxt "GenericName"
+msgid "Help Center"
+msgstr "KHelpCenter"
+
+#: org.kde.Help.desktop:103
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Browser Identification"
+msgctxt "Comment"
+msgid "Browse and search documentation"
+msgstr "Identyfikacyja hartača"
 
 #: plugins/Applications/.directory:3
 msgctxt "Name"
@@ -84,7 +73,7 @@ msgstr "Kiraŭnik fajłaŭ: ad asoby karystańnika „root”"
 #| msgctxt "Name"
 #| msgid "KDE Performance"
 msgctxt "Name"
-msgid "KDE Fundamentals"
+msgid "Fundamentals"
 msgstr "Chutkaść KDE"
 
 #: plugins/info.desktop:2
@@ -198,6 +187,26 @@ msgstr "Padručnik pa systemie „Plasma”"
 msgctxt "Name"
 msgid "Scrollkeeper"
 msgstr "Scrollkeeper"
+
+#~ msgctxt "Name"
+#~ msgid "Index"
+#~ msgstr "Źmiest"
+
+#~ msgctxt "Comment"
+#~ msgid "Index generation"
+#~ msgstr "Stvareńnie źmiestu"
+
+#~ msgctxt "Name"
+#~ msgid "Help Index"
+#~ msgstr "Źmiest dapamohi"
+
+#~ msgctxt "Comment"
+#~ msgid "Help center search index configuration and generation"
+#~ msgstr "Naładžvańnie j stvareńnie źmiestu dla pošuku ŭ centry dapamohi"
+
+#~ msgctxt "Comment"
+#~ msgid "The KDE Help Center"
+#~ msgstr "Centar dapamohi KDE"
 
 #~ msgctxt "Name"
 #~ msgid "Quickstart Guide"
@@ -4026,10 +4035,6 @@ msgstr "Scrollkeeper"
 #~ msgstr "Menu KDE"
 
 #~ msgctxt "Name"
-#~ msgid "More Applications"
-#~ msgstr "Jašče"
-
-#~ msgctxt "Name"
 #~ msgid "Multimedia"
 #~ msgstr "Multymedyja"
 
@@ -5280,10 +5285,6 @@ msgstr "Scrollkeeper"
 #~ msgctxt "Name"
 #~ msgid "UADescription (Wget 1.11.4)"
 #~ msgstr "UADescription (Wget 1.5.3)"
-
-#~ msgctxt "Name"
-#~ msgid "Browser Identification"
-#~ msgstr "Identyfikacyja hartača"
 
 #~ msgctxt "Comment"
 #~ msgid "Configure the way Konqueror reports itself"

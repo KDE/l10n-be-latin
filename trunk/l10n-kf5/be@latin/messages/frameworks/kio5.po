@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-20 07:27+0000\n"
+"POT-Creation-Date: 2016-04-23 07:57+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4205,22 +4205,16 @@ msgid "C&lear Cache"
 msgstr ""
 
 #: kcms/kio/kcookiesmain.cpp:40
-msgid ""
-"Unable to start the cookie handler service.\n"
-"You will not be able to manage the cookies that are stored on your computer."
-msgstr ""
-
-#: kcms/kio/kcookiesmain.cpp:50
 msgid "&Policy"
 msgstr ""
 
-#: kcms/kio/kcookiesmain.cpp:55
+#: kcms/kio/kcookiesmain.cpp:45
 #, fuzzy
 #| msgid "Comment"
 msgid "&Management"
 msgstr "Kamentar"
 
-#: kcms/kio/kcookiesmain.cpp:91
+#: kcms/kio/kcookiesmain.cpp:81
 msgid ""
 "<p><h1>Cookies</h1> Cookies contain information that Konqueror (or other KDE "
 "applications using the HTTP protocol) stores on your computer, initiated by "
@@ -7401,7 +7395,13 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: widgets/krun.cpp:1537
+#: widgets/krun.cpp:952
+#, fuzzy, kde-format
+#| msgid "Could not change ownership for %1."
+msgid "Could not find any application or handler for %1"
+msgstr "Nie ŭdałosia źmianić ułaśnika „%1”."
+
+#: widgets/krun.cpp:1545
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"

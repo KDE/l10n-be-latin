@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-25 07:21+0000\n"
+"POT-Creation-Date: 2016-06-15 07:22+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2837,6 +2837,35 @@ msgstr ""
 "aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie "
 "vidać z usich aplikacyjaŭ.</qt>"
 
+#: filewidgets/kfileplacesmodel.cpp:108
+#, fuzzy
+#| msgctxt "Home Directory"
+#| msgid "Home"
+msgctxt "KFile System Bookmarks"
+msgid "Home"
+msgstr "Dom"
+
+#: filewidgets/kfileplacesmodel.cpp:111
+#, fuzzy
+#| msgid "Network"
+msgctxt "KFile System Bookmarks"
+msgid "Network"
+msgstr "Sietka"
+
+#: filewidgets/kfileplacesmodel.cpp:123
+#, fuzzy
+#| msgid "Root"
+msgctxt "KFile System Bookmarks"
+msgid "Root"
+msgstr "Korań"
+
+#: filewidgets/kfileplacesmodel.cpp:127
+#, fuzzy
+#| msgid "Trash"
+msgctxt "KFile System Bookmarks"
+msgid "Trash"
+msgstr "Śmietnica"
+
 #: filewidgets/kfileplacesmodel.cpp:788
 #, kde-format
 msgid "&Release '%1'"
@@ -3429,27 +3458,27 @@ msgstr ""
 msgid "Could not get group id for given group name %1"
 msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."
 
-#: ioslaves/ftp/ftp.cpp:356
+#: ioslaves/ftp/ftp.cpp:359
 #, kde-format
 msgid "Opening connection to host %1"
 msgstr "Adčynieńnie spałučeńnia z hostam „%1”"
 
-#: ioslaves/ftp/ftp.cpp:371
+#: ioslaves/ftp/ftp.cpp:374
 #, kde-format
 msgid "Connected to host %1"
 msgstr "Spałučany z hostam „%1”"
 
-#: ioslaves/ftp/ftp.cpp:481
+#: ioslaves/ftp/ftp.cpp:484
 #, fuzzy, kde-format
 #| msgid "%1 (%2)"
 msgid "%1 (Error %2)"
 msgstr "%1 (%2)"
 
-#: ioslaves/ftp/ftp.cpp:511
+#: ioslaves/ftp/ftp.cpp:514
 msgid "Sending login information"
 msgstr "Vysyłańnie źviestak dla ŭvachodu"
 
-#: ioslaves/ftp/ftp.cpp:569
+#: ioslaves/ftp/ftp.cpp:572
 #, kde-format
 msgid ""
 "Message sent:\n"
@@ -3466,30 +3495,30 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ioslaves/ftp/ftp.cpp:578 ioslaves/http/http.cpp:5380
+#: ioslaves/ftp/ftp.cpp:581 ioslaves/http/http.cpp:5380
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ioslaves/ftp/ftp.cpp:580 ioslaves/http/http.cpp:5382
+#: ioslaves/ftp/ftp.cpp:583 ioslaves/http/http.cpp:5382
 msgid "Site:"
 msgstr "Sajt:"
 
-#: ioslaves/ftp/ftp.cpp:581
+#: ioslaves/ftp/ftp.cpp:584
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: ioslaves/ftp/ftp.cpp:664
+#: ioslaves/ftp/ftp.cpp:667
 msgid "Login OK"
 msgstr "Uvachod: OK"
 
-#: ioslaves/ftp/ftp.cpp:693
+#: ioslaves/ftp/ftp.cpp:696
 #, kde-format
 msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
 
-#: ioslaves/ftp/ftp.cpp:2590 ioslaves/http/http.cpp:5262
+#: ioslaves/ftp/ftp.cpp:2592 ioslaves/http/http.cpp:5262
 #: ioslaves/http/http.cpp:5394
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -3498,18 +3527,18 @@ msgstr ""
 "Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
 "parol dla proxy-servera."
 
-#: ioslaves/ftp/ftp.cpp:2594 ioslaves/http/http.cpp:5266
+#: ioslaves/ftp/ftp.cpp:2596 ioslaves/http/http.cpp:5266
 #: ioslaves/http/http.cpp:5397
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ioslaves/ftp/ftp.cpp:2595 ioslaves/http/http.cpp:5267
+#: ioslaves/ftp/ftp.cpp:2597 ioslaves/http/http.cpp:5267
 #: ioslaves/http/http.cpp:5503
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
-#: ioslaves/ftp/ftp.cpp:2596 ioslaves/http/http.cpp:5269
+#: ioslaves/ftp/ftp.cpp:2598 ioslaves/http/http.cpp:5269
 #: ioslaves/http/http.cpp:5414
 msgid "Proxy Authentication Failed."
 msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
@@ -7831,31 +7860,6 @@ msgstr ""
 
 #~ msgid "Open with:"
 #~ msgstr "Adčyni ŭ:"
-
-#, fuzzy
-#~| msgctxt "Home Directory"
-#~| msgid "Home"
-#~ msgctxt "KFile System Bookmarks"
-#~ msgid "Home"
-#~ msgstr "Dom"
-
-#, fuzzy
-#~| msgid "Network"
-#~ msgctxt "KFile System Bookmarks"
-#~ msgid "Network"
-#~ msgstr "Sietka"
-
-#, fuzzy
-#~| msgid "Root"
-#~ msgctxt "KFile System Bookmarks"
-#~ msgid "Root"
-#~ msgstr "Korań"
-
-#, fuzzy
-#~| msgid "Trash"
-#~ msgctxt "KFile System Bookmarks"
-#~ msgid "Trash"
-#~ msgstr "Śmietnica"
 
 #~ msgid ""
 #~ "%1.\n"

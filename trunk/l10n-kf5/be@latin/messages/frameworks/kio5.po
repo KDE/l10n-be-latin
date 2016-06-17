@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-15 07:22+0000\n"
+"POT-Creation-Date: 2016-06-17 07:37+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2051,7 +2051,7 @@ msgstr "skapijavać aznačany fajł ci kataloh"
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
-#: core/kcoredirlister.cpp:404 widgets/krun.cpp:869 widgets/paste.cpp:258
+#: core/kcoredirlister.cpp:404 widgets/krun.cpp:886 widgets/paste.cpp:258
 #: widgets/renamedialog.cpp:453
 #, kde-format
 msgid ""
@@ -7385,37 +7385,37 @@ msgstr "Tabie nielha vykonvać hety fajł."
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"
 
-#: widgets/krun.cpp:427
+#: widgets/krun.cpp:425
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
 
-#: widgets/krun.cpp:610
+#: widgets/krun.cpp:608
 msgid "You are not authorized to execute this service."
 msgstr "Tabie nielha vykonvać hetuju słužbu."
 
-#: widgets/krun.cpp:615
+#: widgets/krun.cpp:613
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Aściaroha"
 
-#: widgets/krun.cpp:632
+#: widgets/krun.cpp:630
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 
-#: widgets/krun.cpp:649
+#: widgets/krun.cpp:647
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
 
-#: widgets/krun.cpp:692
+#: widgets/krun.cpp:690
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: widgets/krun.cpp:893
+#: widgets/krun.cpp:910
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -7424,13 +7424,13 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: widgets/krun.cpp:953
+#: widgets/krun.cpp:970
 #, fuzzy, kde-format
 #| msgid "Could not change ownership for %1."
 msgid "Could not find any application or handler for %1"
 msgstr "Nie ŭdałosia źmianić ułaśnika „%1”."
 
-#: widgets/krun.cpp:1546
+#: widgets/krun.cpp:1563
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"

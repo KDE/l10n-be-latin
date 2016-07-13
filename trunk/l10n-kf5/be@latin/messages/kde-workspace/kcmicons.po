@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-12 09:52+0000\n"
+"POT-Creation-Date: 2016-07-13 08:20+0000\n"
 "PO-Revision-Date: 2008-11-19 17:37+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -210,24 +210,20 @@ msgstr "Vydali z svajho dyska vybrany matyŭ"
 msgid "This will remove the selected theme from your disk."
 msgstr "Hetaja aperacyja vydalaje vybrany matyŭ z svajho dyska."
 
-#: iconthemes.cpp:124
-msgid "Select the icon theme you want to use:"
-msgstr "Vybiery patrebny matyŭ ikon:"
-
-#: iconthemes.cpp:192
+#: iconthemes.cpp:190
 msgid "Drag or Type Theme URL"
 msgstr "Kiń siudy albo ŭpišy adras matyva"
 
-#: iconthemes.cpp:202
+#: iconthemes.cpp:200
 msgid "Unable to create a temporary file."
 msgstr ""
 
-#: iconthemes.cpp:207
+#: iconthemes.cpp:205
 #, kde-format
 msgid "Unable to find the icon theme archive %1."
 msgstr "Nie ŭdałosia znajści archiŭ z matyvam ikon „%1”."
 
-#: iconthemes.cpp:210
+#: iconthemes.cpp:208
 #, kde-format
 msgid ""
 "Unable to download the icon theme archive;\n"
@@ -236,11 +232,11 @@ msgstr ""
 "Nie ŭdałosia ŭziać archiŭ z matyvam ikon.\n"
 "Spraŭdź słušnaść adrasu „%1”."
 
-#: iconthemes.cpp:219
+#: iconthemes.cpp:217
 msgid "The file is not a valid icon theme archive."
 msgstr "Hety fajł nia jość sapraŭdnym archivam z matyvam ikon."
 
-#: iconthemes.cpp:228
+#: iconthemes.cpp:226
 msgid ""
 "A problem occurred during the installation process; however, most of the "
 "themes in the archive have been installed"
@@ -248,18 +244,18 @@ msgstr ""
 "Padčas instalacyi ŭźnikła prablema. Ale balšynia matyvaŭ z hetaha archiva "
 "była zainstalavanaja."
 
-#: iconthemes.cpp:248
+#: iconthemes.cpp:246
 #, fuzzy
 #| msgid "Installing icon themes"
 msgid "Installing icon themes..."
 msgstr "Instalavańnie matyvaŭ ikon"
 
-#: iconthemes.cpp:265
+#: iconthemes.cpp:263
 #, kde-format
 msgid "<qt>Installing <strong>%1</strong> theme</qt>"
 msgstr "<qt>Instalavańnie matyva <strong>%1</strong></qt>"
 
-#: iconthemes.cpp:357
+#: iconthemes.cpp:355
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <strong>%1</strong> icon theme?<br /"
@@ -268,7 +264,7 @@ msgstr ""
 "<qt>Ty sapraŭdy chočaš vydalić matyŭ ikon <strong>%1</strong>?<br /><br /"
 ">Hetaja aperacyja vydalić fajły, jakija naležać hetamu matyvu.</qt>"
 
-#: iconthemes.cpp:365
+#: iconthemes.cpp:363
 msgid "Confirmation"
 msgstr "Paćviardžeńnie"
 
@@ -343,6 +339,9 @@ msgstr ""
 "matyŭ” budzie dziejnaj tolki dla matyvaŭ, jakija ty sam zainstalavaŭ praz "
 "hety modul. Adsiul nielha vydalać matyvy, zainstalavanyja ŭ usiu systemu.</"
 "p><p>Taksama tut možna vybrać efekty dla vyjaŭleńnia ikon.</p>"
+
+#~ msgid "Select the icon theme you want to use:"
+#~ msgstr "Vybiery patrebny matyŭ ikon:"
 
 #~ msgid "Double-sized pixels"
 #~ msgstr "Padvojenyja punkty"

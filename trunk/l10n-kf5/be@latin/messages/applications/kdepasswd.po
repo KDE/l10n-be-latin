@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepasswd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 03:23+0200\n"
+"POT-Creation-Date: 2016-08-03 07:04+0000\n"
 "PO-Revision-Date: 2008-10-04 22:39+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -27,31 +27,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#: kdepasswd.cpp:41
+#: kdepasswd.cpp:44
 msgid "KDE passwd"
 msgstr "KDE passwd"
 
-#: kdepasswd.cpp:42
+#: kdepasswd.cpp:45
 msgid "Changes a UNIX password."
 msgstr "Źmianiaje parol systemy „UNIX”."
 
-#: kdepasswd.cpp:43
+#: kdepasswd.cpp:46
 msgid "Copyright (c) 2000 Geert Jansen"
 msgstr "Copyright © 2000 Geert Jansen"
 
-#: kdepasswd.cpp:44
+#: kdepasswd.cpp:47
 msgid "Geert Jansen"
 msgstr "Geert Jansen"
 
-#: kdepasswd.cpp:44
+#: kdepasswd.cpp:47
 msgid "Maintainer"
 msgstr "Dahladnik"
 
-#: kdepasswd.cpp:51
+#: kdepasswd.cpp:59
 msgid "Change password of this user"
 msgstr "Źmiani parol dla hetaha karystańnika"
 
-#: kdepasswd.cpp:74
+#: kdepasswd.cpp:76
 msgid "You need to be root to change the password of other users."
 msgstr ""
 "Kab źmianiać paroli dla inšych karystańnikaŭ, treba mieć dazvoły roŭniu "
@@ -68,7 +68,7 @@ msgstr "Źmiani parol"
 msgid "Please enter your current password:"
 msgstr "Upišy svoj dziejny parol:"
 
-#: passwddlg.cpp:55 passwddlg.cpp:179
+#: passwddlg.cpp:55 passwddlg.cpp:182
 msgid "Conversation with 'passwd' failed."
 msgstr "Nie ŭdałosia źviazacca z prahramaju „passwd”."
 
@@ -95,7 +95,7 @@ msgstr "Upišy svoj novy parol:"
 msgid "Please enter the new password for user <b>%1</b>:"
 msgstr "Upišy novy parol dla karystańnika <b>%1</b>:"
 
-#: passwddlg.cpp:127
+#: passwddlg.cpp:129
 msgid ""
 "Your password is longer than 8 characters. On some systems, this can cause "
 "problems. You can truncate the password to 8 characters, or leave it as it "
@@ -105,7 +105,7 @@ msgstr ""
 "vynikać peŭnyja prablemy. Možaš skaracić svoj parol da 8 znakaŭ albo pakinuć "
 "jaho, jakim jość."
 
-#: passwddlg.cpp:130
+#: passwddlg.cpp:132
 msgid ""
 "The password is longer than 8 characters. On some systems, this can cause "
 "problems. You can truncate the password to 8 characters, or leave it as it "
@@ -115,22 +115,22 @@ msgstr ""
 "vynikać peŭnyja prablemy. Možaš skaracić hety parol da 8 znakaŭ albo pakinuć "
 "jaho, jakim jość."
 
-#: passwddlg.cpp:134
+#: passwddlg.cpp:136
 msgid "Password Too Long"
 msgstr "Zadoŭhi parol"
 
-#: passwddlg.cpp:135
+#: passwddlg.cpp:137
 msgid "Truncate"
 msgstr "Skaraci"
 
-#: passwddlg.cpp:136
+#: passwddlg.cpp:138
 msgid "Use as Is"
 msgstr "Jak jość"
 
-#: passwddlg.cpp:158
+#: passwddlg.cpp:161
 msgid "Your password has been changed."
 msgstr "Tvoj parol źmienieny."
 
-#: passwddlg.cpp:168
+#: passwddlg.cpp:171
 msgid "Your password has not been changed."
 msgstr "Tvoj parol nia źmienieny."

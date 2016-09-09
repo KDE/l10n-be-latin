@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-10 08:49+0000\n"
+"POT-Creation-Date: 2016-09-09 10:43+0000\n"
 "PO-Revision-Date: 2008-09-19 14:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -132,28 +132,33 @@ msgstr ""
 msgid "Cannot execute command '%1'."
 msgstr ""
 
-#: kdesu.cpp:243
+#: kdesu.cpp:167
+#, kde-format
+msgid "Cannot execute command '%1'. It contains invalid characters."
+msgstr ""
+
+#: kdesu.cpp:247
 #, kde-format
 msgid "Illegal priority: %1"
 msgstr "Niemahčymaja važnaść: %1"
 
-#: kdesu.cpp:268
+#: kdesu.cpp:272
 msgid "No command specified."
 msgstr "Zahad nie padadzieny."
 
-#: kdesu.cpp:380
+#: kdesu.cpp:384
 msgid "Su returned with an error.\n"
 msgstr "Prahrama „su” viarnuła pamyłku.\n"
 
-#: kdesu.cpp:403
+#: kdesu.cpp:413
 msgid "Command:"
 msgstr "Zahad:"
 
-#: kdesu.cpp:411
+#: kdesu.cpp:421
 msgid "realtime: "
 msgstr "realny čas: "
 
-#: kdesu.cpp:414
+#: kdesu.cpp:424
 msgid "Priority:"
 msgstr "Važnaść:"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-11 07:05+0000\n"
+"POT-Creation-Date: 2016-09-22 07:13+0000\n"
 "PO-Revision-Date: 2008-10-03 23:27+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,98 +19,91 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: src/konq_copytomenu.cpp:84
-msgctxt "@title:menu"
-msgid "Copy To"
-msgstr "Skapijuj"
-
-#: src/konq_copytomenu.cpp:90
-msgctxt "@title:menu"
-msgid "Move To"
-msgstr "Pieraniasi"
-
-#: src/konq_copytomenu.cpp:114
-msgctxt "@title:menu"
-msgid "Home Folder"
-msgstr "Chatni kataloh"
-
-#: src/konq_copytomenu.cpp:121
-msgctxt "@title:menu"
-msgid "Root Folder"
-msgstr "Karaniovy kataloh"
-
-#: src/konq_copytomenu.cpp:156
-msgctxt "@title:menu in Copy To or Move To submenu"
-msgid "Browse..."
-msgstr "Ahladaj..."
-
-#: src/konq_copytomenu.cpp:229
-msgctxt "@title:menu"
-msgid "Copy Here"
-msgstr "Skapijuj siudy"
-
-#: src/konq_copytomenu.cpp:230
-msgctxt "@title:menu"
-msgid "Move Here"
-msgstr "Pieraniasi siudy"
-
-#: src/konq_popupmenu.cpp:242
+#: src/konq_popupmenu.cpp:243
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: src/konq_popupmenu.cpp:265
+#: src/konq_popupmenu.cpp:266
 msgid "Create &Folder..."
 msgstr "Stvary &kataloh..."
 
-#: src/konq_popupmenu.cpp:276
+#: src/konq_popupmenu.cpp:277
 msgid "&Restore"
 msgstr "&Uznavi"
 
-#: src/konq_popupmenu.cpp:300
+#: src/konq_popupmenu.cpp:289
 msgid "Show Original Directory"
 msgstr ""
 
-#: src/konq_popupmenu.cpp:300
+#: src/konq_popupmenu.cpp:289
 msgid "Show Original File"
 msgstr ""
 
-#: src/konq_popupmenu.cpp:335
+#: src/konq_popupmenu.cpp:324
 msgid "&Empty Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
-#: src/konq_popupmenu.cpp:347
+#: src/konq_popupmenu.cpp:336
 #, fuzzy
 #| msgid "&Empty Trash Bin"
 msgid "&Configure Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
-#: src/konq_popupmenu.cpp:371
+#: src/konq_popupmenu.cpp:360
 msgid "&Bookmark This Page"
 msgstr "Stvary &zakładku dla hetaj staronki"
 
-#: src/konq_popupmenu.cpp:373
+#: src/konq_popupmenu.cpp:362
 msgid "&Bookmark This Location"
 msgstr "Stvary &zakładku dla hetaha miesca"
 
-#: src/konq_popupmenu.cpp:376
+#: src/konq_popupmenu.cpp:365
 msgid "&Bookmark This Folder"
 msgstr "Stvary &zakładku dla hetaha kataloha"
 
-#: src/konq_popupmenu.cpp:378
+#: src/konq_popupmenu.cpp:367
 msgid "&Bookmark This Link"
 msgstr "Stvary &zakładku dla hetaha łuča"
 
-#: src/konq_popupmenu.cpp:380
+#: src/konq_popupmenu.cpp:369
 msgid "&Bookmark This File"
 msgstr "Stvary &zakładku dla hetaha fajła"
 
-#: src/konq_popupmenu.cpp:414
+#: src/konq_popupmenu.cpp:403
 msgid "Preview In"
 msgstr "Padhladaj"
 
-#: src/konq_popupmenu.cpp:449
+#: src/konq_popupmenu.cpp:438
 msgid "&Properties"
 msgstr "&Ułaścivaści"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "Skapijuj"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "Pieraniasi"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "Chatni kataloh"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "Karaniovy kataloh"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "Ahladaj..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "Skapijuj siudy"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "Pieraniasi siudy"
 
 #~ msgid "You cannot drop a folder on to itself"
 #~ msgstr "Nielha kinuć kataloh samoha ŭ siabie."

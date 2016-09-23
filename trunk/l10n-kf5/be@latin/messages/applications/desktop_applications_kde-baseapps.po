@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-22 07:57+0000\n"
+"POT-Creation-Date: 2016-09-23 07:42+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -75,6 +75,11 @@ msgstr "Kiraŭnik fajłaŭ i hartač sieciva dla KDE"
 msgctxt "Name"
 msgid "File Manager - Super User Mode"
 msgstr "Kiraŭnik fajłaŭ: ad asoby karystańnika „root”"
+
+#: konqueror/libkonq/src/directory_bookmarkbar.desktop:3
+msgctxt "Name"
+msgid "Bookmark Toolbar"
+msgstr "Panel zakładak"
 
 #: konqueror/plugins/adblock/plugin_adblock.desktop:2
 #, fuzzy
@@ -791,11 +796,6 @@ msgstr "Nałady"
 msgctxt "Name"
 msgid "Web SideBar Module"
 msgstr "Modul bakavoj paneli dla sieciva"
-
-#: lib/konq/src/directory_bookmarkbar.desktop:3
-msgctxt "Name"
-msgid "Bookmark Toolbar"
-msgstr "Panel zakładak"
 
 #~ msgctxt "Name"
 #~ msgid "Print..."

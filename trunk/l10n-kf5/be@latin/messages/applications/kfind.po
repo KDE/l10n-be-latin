@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-04 07:31+0000\n"
+"POT-Creation-Date: 2016-09-23 07:02+0000\n"
 "PO-Revision-Date: 2008-10-06 20:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -59,75 +59,75 @@ msgstr "Aznač absalutnuju ściežku ŭ poli „Dzie šukać”."
 msgid "Could not find the specified folder."
 msgstr "Nie ŭdałosia znajści aznačanaha katalohu."
 
-#: kfindtreeview.cpp:54
+#: kfindtreeview.cpp:55
 msgid "Read-write"
 msgstr "Čytańnie j zapis"
 
-#: kfindtreeview.cpp:55
+#: kfindtreeview.cpp:56
 msgid "Read-only"
 msgstr "Tolki čytańnie"
 
-#: kfindtreeview.cpp:56
+#: kfindtreeview.cpp:57
 msgid "Write-only"
 msgstr "Tolki zapis"
 
-#: kfindtreeview.cpp:57
+#: kfindtreeview.cpp:58
 msgid "Inaccessible"
 msgstr "Biaz dostupu"
 
-#: kfindtreeview.cpp:76
+#: kfindtreeview.cpp:77
 #, fuzzy
 #| msgid "Name"
 msgctxt "file name column"
 msgid "Name"
 msgstr "Nazva"
 
-#: kfindtreeview.cpp:78
+#: kfindtreeview.cpp:79
 #, fuzzy
 #| msgid "In Subfolder"
 msgctxt "name of the containing folder"
 msgid "In Subfolder"
 msgstr "U padkatalohu"
 
-#: kfindtreeview.cpp:80
+#: kfindtreeview.cpp:81
 #, fuzzy
 #| msgid "Size"
 msgctxt "file size column"
 msgid "Size"
 msgstr "Pamier"
 
-#: kfindtreeview.cpp:82
+#: kfindtreeview.cpp:83
 #, fuzzy
 #| msgid "Modified"
 msgctxt "modified date column"
 msgid "Modified"
 msgstr "Źmienieny"
 
-#: kfindtreeview.cpp:84
+#: kfindtreeview.cpp:85
 #, fuzzy
 #| msgid "Permissions"
 msgctxt "file permissions column"
 msgid "Permissions"
 msgstr "Dazvoły"
 
-#: kfindtreeview.cpp:86
+#: kfindtreeview.cpp:87
 #, fuzzy
 #| msgid "First Matching Line"
 msgctxt "first matching line of the query string in this file"
 msgid "First Matching Line"
 msgstr "Pieršy adpaviedny radok"
 
-#: kfindtreeview.cpp:354
+#: kfindtreeview.cpp:355
 msgid "&Open containing folder(s)"
 msgstr ""
 
-#: kfindtreeview.cpp:358
+#: kfindtreeview.cpp:359
 #, fuzzy
 #| msgid "Delete"
 msgid "&Delete"
 msgstr "Vydali"
 
-#: kfindtreeview.cpp:362
+#: kfindtreeview.cpp:363
 msgid "&Move to Trash"
 msgstr ""
 
@@ -160,6 +160,10 @@ msgstr "Fajły vyniku „KFind”"
 msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr "Vynik zapisany ŭ fajł\n"
+
+#: kfindtreeview.cpp:585 kftabdlg.cpp:406
+msgid "&Properties"
+msgstr "&Ułaścivaści"
 
 #: kftabdlg.cpp:78
 #, fuzzy
@@ -385,10 +389,6 @@ msgstr "Nazva/&miesca"
 msgctxt "tab name: search by contents"
 msgid "C&ontents"
 msgstr "&Źmieściva"
-
-#: kftabdlg.cpp:406
-msgid "&Properties"
-msgstr "&Ułaścivaści"
 
 #: kftabdlg.cpp:411
 msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-23 07:02+0000\n"
+"POT-Creation-Date: 2016-09-27 07:48+0000\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -455,13 +455,17 @@ msgstr ""
 "> „Na ŭvieś ekran”. Hetaja mahčymaść vielmi zručnaja dla sesijaŭ-razmovaŭ."
 
 #: about/konq_aboutpage.cpp:320
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Divide et impera (lat. \"Divide and conquer\") - by splitting a window "
+#| "into two parts (e.g. Window -> <img width='16' height='16' src=\"%1\" /> "
+#| "Split View Left/Right) you can make Konqueror appear the way you like. "
+#| "You can even load some example view-profiles (e.g. Midnight Commander), "
+#| "or create your own ones."
 msgid ""
 "Divide et impera (lat. \"Divide and conquer\") - by splitting a window into "
 "two parts (e.g. Window -> <img width='16' height='16' src=\"%1\" /> Split "
-"View Left/Right) you can make Konqueror appear the way you like. You can "
-"even load some example view-profiles (e.g. Midnight Commander), or create "
-"your own ones."
+"View Left/Right) you can make Konqueror appear the way you like."
 msgstr ""
 "Divide et impera (pa-łacinsku „Dziali j zvajoŭvaj”). Hetaja aperacyja "
 "dzielić akno na dźvie častki (naprykład, „Akno → <img width='16' height='16' "
@@ -469,7 +473,7 @@ msgstr ""
 "„Konqueror”, jak upadabajecie. Navat možna adčytać krychu ŭzornych profilaŭ "
 "prahladu (naprykład, „Midnight Commander”) albo stvaryć ułasny."
 
-#: about/konq_aboutpage.cpp:325
+#: about/konq_aboutpage.cpp:323
 #, kde-format
 msgid ""
 "Use the <a href=\"%1\">user-agent</a> feature if the website you are "
@@ -480,7 +484,7 @@ msgstr ""
 "sajt prosić karystacca inšaj prahramaju (nie zabudźsia vysłać skarhu aŭtaru "
 "sajta!)"
 
-#: about/konq_aboutpage.cpp:328
+#: about/konq_aboutpage.cpp:326
 #, fuzzy, kde-format
 #| msgid ""
 #| "The <img width='16' height='16' src=\"%1\"></img> History in your SideBar "
@@ -492,7 +496,7 @@ msgstr ""
 "<img width='16' height='16' src=\"%1\"></img> Historyja ŭ bakavoj paneli "
 "zachoŭvaje śpis naviedanych niadaŭna sajtaŭ."
 
-#: about/konq_aboutpage.cpp:330
+#: about/konq_aboutpage.cpp:328
 #, kde-format
 msgid ""
 "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
@@ -500,7 +504,7 @@ msgstr ""
 "Karystajsia <a href=\"%1\">proxy</a>-serveram z padmiennaj pamiaćciu, kab "
 "paskoryć sieciŭnaje spałučeńnie."
 
-#: about/konq_aboutpage.cpp:332
+#: about/konq_aboutpage.cpp:330
 #, fuzzy, kde-format
 #| msgid ""
 #| "Advanced users will appreciate the Konsole which you can embed into "
@@ -515,23 +519,23 @@ msgstr ""
 "prahramu „Konqueror” („Akno → <img width='16' height='16' SRC=\"%1\"></img> "
 "Pakažy emulatar terminału”.)"
 
-#: about/konq_aboutpage.cpp:336
+#: about/konq_aboutpage.cpp:334
 msgid "Next: Specifications"
 msgstr "Dalej: Specyfikacyi"
 
-#: about/konq_aboutpage.cpp:350
+#: about/konq_aboutpage.cpp:348
 msgid "Installed Plugins"
 msgstr "Zainstalavanyja pluginy"
 
-#: about/konq_aboutpage.cpp:351
+#: about/konq_aboutpage.cpp:349
 msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
 msgstr "<td>Plugin</td><td>Apisańnie</td><td>Fajł</td><td>Typy</td>"
 
-#: about/konq_aboutpage.cpp:352
+#: about/konq_aboutpage.cpp:350
 msgid "Installed"
 msgstr "Zainstalavany"
 
-#: about/konq_aboutpage.cpp:353
+#: about/konq_aboutpage.cpp:351
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr "<td>Typ „MIME”</td><td>Apisańnie</td><td>Sufiksy</td><td>Plugin</td>"
 

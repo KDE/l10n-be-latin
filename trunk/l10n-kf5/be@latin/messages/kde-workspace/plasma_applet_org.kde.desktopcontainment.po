@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-26 07:21+0000\n"
+"POT-Creation-Date: 2016-10-14 07:28+0000\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -406,96 +406,43 @@ msgstr ""
 msgid "Select Folder"
 msgstr "Vyłučy ŭsio"
 
-#: plugins/folder/foldermodel.cpp:250
+#: plugins/folder/foldermodel.cpp:252
 msgid "&Refresh Desktop"
 msgstr "&Aktualizuj stoł"
 
-#: plugins/folder/foldermodel.cpp:250 plugins/folder/foldermodel.cpp:1184
+#: plugins/folder/foldermodel.cpp:252 plugins/folder/foldermodel.cpp:1186
 msgid "&Refresh View"
 msgstr "&Aktualizuj prahlad"
 
-#: plugins/folder/foldermodel.cpp:1181
+#: plugins/folder/foldermodel.cpp:1183
 msgid "&Reload"
 msgstr "&Pieračytaj"
 
-#: plugins/folder/foldermodel.cpp:1187
+#: plugins/folder/foldermodel.cpp:1189
 msgid "&Rename"
 msgstr "&Źmiani nazvu"
 
-#: plugins/folder/foldermodel.cpp:1190
+#: plugins/folder/foldermodel.cpp:1192
 msgid "&Move to Trash"
 msgstr "&Vykiń u śmietnicu"
 
-#: plugins/folder/foldermodel.cpp:1193
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:335
+#: plugins/folder/foldermodel.cpp:1195
 msgid "&Empty Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
-#: plugins/folder/foldermodel.cpp:1196
+#: plugins/folder/foldermodel.cpp:1198
 msgid "&Delete"
 msgstr "&Vydali"
 
-#: plugins/folder/foldermodel.cpp:1256
-msgid "&Paste"
-msgstr "&Uklej"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:242
+#: plugins/folder/foldermodel.cpp:1201
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:265
-msgid "Create &Folder..."
-msgstr "Stvary &kataloh..."
+#: plugins/folder/foldermodel.cpp:1264
+msgid "&Paste"
+msgstr "&Uklej"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:276
-msgid "&Restore"
-msgstr "&Uznavi"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:300
-#, fuzzy
-#| msgid "Show All Files"
-msgid "Show Original Directory"
-msgstr "Pakazvaj usie fajły"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:300
-#, fuzzy
-#| msgid "Show All Files"
-msgid "Show Original File"
-msgstr "Pakazvaj usie fajły"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:347
-#, fuzzy
-#| msgid "&Empty Trash Bin"
-msgid "&Configure Trash Bin"
-msgstr "&Vyčyści śmietnicu"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:371
-msgid "&Bookmark This Page"
-msgstr "Stvary &zakładku dla hetaj staronki"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:373
-msgid "&Bookmark This Location"
-msgstr "Stvary &zakładku dla hetaha miesca"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:376
-msgid "&Bookmark This Folder"
-msgstr "Stvary &zakładku dla hetaha kataloha"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:378
-msgid "&Bookmark This Link"
-msgstr "Stvary &zakładku dla hetaha łuča"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:380
-msgid "&Bookmark This File"
-msgstr "Stvary &zakładku dla hetaha fajła"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:414
-#, fuzzy
-#| msgid "Show previews"
-msgid "Preview In"
-msgstr "Pakazvaj padhlady"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:449
+#: plugins/folder/foldermodel.cpp:1385
 msgid "&Properties"
 msgstr "&Ułaścivaści"
 
@@ -555,6 +502,47 @@ msgstr ""
 #: plugins/folder/viewpropertiesmenu.cpp:97
 msgid "Locked"
 msgstr ""
+
+#~ msgid "Create &Folder..."
+#~ msgstr "Stvary &kataloh..."
+
+#~ msgid "&Restore"
+#~ msgstr "&Uznavi"
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original Directory"
+#~ msgstr "Pakazvaj usie fajły"
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original File"
+#~ msgstr "Pakazvaj usie fajły"
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "&Vyčyści śmietnicu"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "Stvary &zakładku dla hetaj staronki"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "Stvary &zakładku dla hetaha miesca"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "Stvary &zakładku dla hetaha kataloha"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "Stvary &zakładku dla hetaha łuča"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "Stvary &zakładku dla hetaha fajła"
+
+#, fuzzy
+#~| msgid "Show previews"
+#~ msgid "Preview In"
+#~ msgstr "Pakazvaj padhlady"
 
 #~ msgctxt "@title:menu"
 #~ msgid "Copy To"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-27 08:28+0000\n"
+"POT-Creation-Date: 2016-10-15 08:01+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -60,6 +60,12 @@ msgstr "Hartač sieciva"
 msgctxt "Comment"
 msgid "KDE File Manager & Web Browser"
 msgstr "Kiraŭnik fajłaŭ i hartač sieciva dla KDE"
+
+#: konqueror/konqy_preload.desktop:4
+msgctxt "Name"
+msgid "Konqueror Preloading During KDE startup"
+msgstr ""
+"Papiaredniaje źmiaščeńnie prahramy „Konqueror” u pamiać padčas uvachodu ŭ KDE"
 
 #: konqueror/libkonq/src/directory_bookmarkbar.desktop:3
 msgctxt "Name"
@@ -377,25 +383,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Web Archives"
 msgstr "Archivy FTP"
-
-#: konqueror/preloader/konqy_preload.desktop:4
-msgctxt "Name"
-msgid "Konqueror Preloading During KDE startup"
-msgstr ""
-"Papiaredniaje źmiaščeńnie prahramy „Konqueror” u pamiać padčas uvachodu ŭ KDE"
-
-#: konqueror/preloader/konqy_preloader.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KDED Konqueror Preloader Module"
-msgctxt "Name"
-msgid "Konqueror Browser Preloader"
-msgstr "Modul KDED dla papiaredniaha źmiaščeńnia prahramy „Konqueror” u pamiać"
-
-#: konqueror/preloader/konqy_preloader.desktop:69
-msgctxt "Comment"
-msgid "Reduces Konqueror startup time"
-msgstr "Źmianšaje čas, patrebny dla ŭklučeńnia prahramy „Konqueror”"
 
 #: konqueror/settings/bookmarks/bookmarks.desktop:12
 #: konqueror/sidebar/default_entries/bookmarks.desktop:5
@@ -751,6 +738,18 @@ msgstr "Nałady"
 msgctxt "Name"
 msgid "Web SideBar Module"
 msgstr "Modul bakavoj paneli dla sieciva"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "KDED Konqueror Preloader Module"
+#~ msgctxt "Name"
+#~ msgid "Konqueror Browser Preloader"
+#~ msgstr ""
+#~ "Modul KDED dla papiaredniaha źmiaščeńnia prahramy „Konqueror” u pamiać"
+
+#~ msgctxt "Comment"
+#~ msgid "Reduces Konqueror startup time"
+#~ msgstr "Źmianšaje čas, patrebny dla ŭklučeńnia prahramy „Konqueror”"
 
 #~ msgctxt "Name"
 #~ msgid "Home"

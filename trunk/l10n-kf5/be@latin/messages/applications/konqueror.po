@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-21 06:54+0000\n"
+"POT-Creation-Date: 2016-10-23 06:55+0000\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -321,8 +321,7 @@ msgstr "Hałoŭnaje"
 msgid "Feature"
 msgstr "Mahčymaść"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
-#: about/konq_aboutpage.cpp:239 sidebar/history_module/history_dlg.ui:128
+#: about/konq_aboutpage.cpp:239
 msgid "Details"
 msgstr "Detali"
 
@@ -539,464 +538,6 @@ msgstr "Zainstalavany"
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr "<td>Typ „MIME”</td><td>Apisańnie</td><td>Sufiksy</td><td>Plugin</td>"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
-#: sidebar/history_module/history_dlg.ui:16
-msgid "Limits"
-msgstr "Limity"
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
-#: sidebar/history_module/history_dlg.ui:38
-msgid "URLs e&xpire after"
-msgstr "Adrasy &zastarejuć praz"
-
-#. i18n: ectx: property (text), widget (QLabel, lEntries)
-#: sidebar/history_module/history_dlg.ui:48
-msgid "Maximum &number of URLs:"
-msgstr "Najbolšaja &kolkaść adrasoŭ:"
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
-#: sidebar/history_module/history_dlg.ui:67
-msgid "Custom Fonts For"
-msgstr "Ułasnyja šryfty dla"
-
-#. i18n: ectx: property (text), widget (QLabel, lbNewer)
-#: sidebar/history_module/history_dlg.ui:82
-msgid "URLs newer than"
-msgstr "Adrasy, naviejšyja za"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
-#. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
-#: sidebar/history_module/history_dlg.ui:98
-#: sidebar/history_module/history_dlg.ui:118
-msgid "Choose Font..."
-msgstr "Vybiery šryft..."
-
-#. i18n: ectx: property (text), widget (QLabel, lbOlder)
-#: sidebar/history_module/history_dlg.ui:105
-msgid "URLs older than"
-msgstr "Adrasy, starejšyja za"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
-#: sidebar/history_module/history_dlg.ui:134
-msgid ""
-"Shows the number of times visited and the dates of the first and last "
-"visits, in addition to the URL"
-msgstr ""
-"Pakazvaje razam z adrasam kolkaść naviedvańniaŭ i daty pieršaha j apošniaha "
-"vizytaŭ"
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
-#: sidebar/history_module/history_dlg.ui:137
-msgid "Detailed tooltips"
-msgstr "Detalnyja padkazki"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
-#: sidebar/history_module/history_dlg.ui:149
-msgid "Clear History"
-msgstr "Vyčyści historyju"
-
-#: sidebar/history_module/history_module.cpp:126
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "History Sidebar Module"
-msgstr "Sieciŭnaja bakavaja panel"
-
-#: sidebar/history_module/history_module.cpp:149
-#, fuzzy
-#| msgid "Clear History"
-msgctxt "@title:tab"
-msgid "History"
-msgstr "Vyčyści historyju"
-
-#: sidebar/history_module/kcmhistory.cpp:68
-msgid "days"
-msgstr ""
-
-#: sidebar/history_module/kcmhistory.cpp:74
-#: sidebar/history_module/kcmhistory.cpp:79
-#: sidebar/history_module/kcmhistory.cpp:212
-#: sidebar/history_module/kcmhistory.cpp:225
-msgid "Minute"
-msgid_plural "Minutes"
-msgstr[0] "Chvilina"
-msgstr[1] "Chviliny"
-msgstr[2] "Chvilin"
-
-#: sidebar/history_module/kcmhistory.cpp:76
-#: sidebar/history_module/kcmhistory.cpp:81
-#: sidebar/history_module/kcmhistory.cpp:210
-#: sidebar/history_module/kcmhistory.cpp:223
-msgid "Day"
-msgid_plural "Days"
-msgstr[0] "Dzień"
-msgstr[1] "Dni"
-msgstr[2] "Dzion"
-
-#: sidebar/history_module/kcmhistory.cpp:195
-msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
-msgstr "<h1>Panel historyi</h1> Tut možna naładzić bakavuju panel historyi."
-
-#: sidebar/history_module/kcmhistory.cpp:257 src/konqhistoryview.cpp:171
-msgid "Do you really want to clear the entire history?"
-msgstr "Sapraŭdy chočaš vyčyścić usiu historyju?"
-
-#: sidebar/history_module/kcmhistory.cpp:259 src/konqhistoryview.cpp:172
-#, fuzzy
-#| msgid "Clear History?"
-msgctxt "@title:window"
-msgid "Clear History?"
-msgstr "Vyčyścić historyju?"
-
-#: sidebar/places_module/places_module.cpp:116
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Places Sidebar Module"
-msgstr "Sieciŭnaja bakavaja panel"
-
-#: sidebar/places_module/places_module.cpp:139
-msgctxt "@title:tab"
-msgid "Places"
-msgstr ""
-
-#: sidebar/sidebar_part.cpp:34
-msgid "Extended Sidebar"
-msgstr "Pašyranaja bakavaja panel"
-
-#: sidebar/sidebar_part.cpp:35 src/konqfactory.cpp:269
-msgid "Joseph Wenninger"
-msgstr "Joseph Wenninger"
-
-#: sidebar/sidebar_part.cpp:36 src/konqfactory.cpp:236
-msgid "David Faure"
-msgstr "David Faure"
-
-#: sidebar/sidebar_widget.cpp:98
-msgid "Rollback to System Default"
-msgstr "Viarni systemnyja nałady"
-
-#: sidebar/sidebar_widget.cpp:159 sidebar/sidebar_widget.cpp:428
-msgid "Configure Sidebar"
-msgstr "Naładź bakavuju panel"
-
-#: sidebar/sidebar_widget.cpp:161
-msgid "Add New"
-msgstr "Dadaj novy"
-
-#: sidebar/sidebar_widget.cpp:165
-msgid "Multiple Views"
-msgstr "Niekalki prahladaŭ"
-
-#: sidebar/sidebar_widget.cpp:167 sidebar/sidebar_widget.cpp:280
-msgid "Show Tabs Left"
-msgstr "Pakazvaj kartki źleva"
-
-#: sidebar/sidebar_widget.cpp:168
-msgid "Show Configuration Button"
-msgstr "Pakazvaj knopku naładaŭ"
-
-#: sidebar/sidebar_widget.cpp:171
-#, fuzzy
-#| msgid "Web Sidebar"
-msgid "Close Sidebar"
-msgstr "Sieciŭnaja bakavaja panel"
-
-#: sidebar/sidebar_widget.cpp:228
-msgid "This entry already exists."
-msgstr "Hety element užo isnuje."
-
-#: sidebar/sidebar_widget.cpp:238
-msgid ""
-"<qt>This removes all your entries from the sidebar and adds the system "
-"default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
-"proceed?</qt>"
-msgstr ""
-"<qt>Hetaja aperacyja vydalaje ŭsio z bakavoj paneli j dadaje tolki "
-"systemnyja elementy.<br /><b>Jaje niemahčyma paśla anulavać.</b><br /"
-">Praciahvać?</qt>"
-
-#: sidebar/sidebar_widget.cpp:280
-msgid "Show Tabs Right"
-msgstr "Pakazvaj kartki sprava"
-
-#: sidebar/sidebar_widget.cpp:290
-#, fuzzy
-#| msgid "Set Name"
-msgctxt "@title:window"
-msgid "Set Name"
-msgstr "Aznač nazvu"
-
-#: sidebar/sidebar_widget.cpp:290
-msgid "Enter the name:"
-msgstr "Upišy nazvu:"
-
-#: sidebar/sidebar_widget.cpp:307
-msgid "Enter a URL:"
-msgstr "Upišy adras:"
-
-#: sidebar/sidebar_widget.cpp:329
-#, kde-format
-msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
-msgstr "<qt>Sapraŭdy chočaš vydalić kartku <b>%1</b>?</qt>"
-
-#: sidebar/sidebar_widget.cpp:370
-#, fuzzy
-#| msgid ""
-#| "You have hidden the navigation panel configuration button. To make it "
-#| "visible again, click the right mouse button on any of the navigation "
-#| "panel buttons and select \"Show Configuration Button\"."
-msgid ""
-"You have hidden the sidebar configuration button. To make it visible again, "
-"click the right mouse button on any of the sidebar buttons and select \"Show "
-"Configuration Button\"."
-msgstr ""
-"Ty schavaŭ knopku naładaŭ dla paneli miescaŭ. Kab znoŭ jaje ŭklučyć, klikni "
-"pravaj knopkaj myšy ŭ lubuju knopku paneli miescaŭ i vybiery „Pakazvaj panel "
-"miescaŭ”."
-
-#: sidebar/sidebar_widget.cpp:537
-msgid "Set Name..."
-msgstr "Aznač nazvu..."
-
-#: sidebar/sidebar_widget.cpp:538
-msgid "Set URL..."
-msgstr "Aznač adras..."
-
-#: sidebar/sidebar_widget.cpp:539
-msgid "Set Icon..."
-msgstr "Aznač ikonu..."
-
-#: sidebar/sidebar_widget.cpp:541
-msgid "Remove"
-msgstr "Vydali"
-
-#: sidebar/sidebar_widget.cpp:840
-#, fuzzy
-#| msgid "Web Sidebar"
-msgid "Web module"
-msgstr "Sieciŭnaja bakavaja panel"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:75
-msgid "&Create New Folder"
-msgstr "&Stvary novy kataloh"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:79
-#: sidebar/trees/konq_sidebartree.cpp:197
-msgid "Delete Folder"
-msgstr "Vydali kataloh"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:83
-msgid "Delete Bookmark"
-msgstr "Vydali zakładku"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:87
-#: sidebar/trees/konq_sidebartree.cpp:214
-msgid "Properties"
-msgstr "Ułaścivaści"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:91
-#: sidebar/trees/konq_sidebartree.cpp:218
-msgid "Open in New Window"
-msgstr "Adčyni ŭ novym aknie"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
-#: sidebar/trees/konq_sidebartree.cpp:222 src/konqhistoryview.cpp:67
-msgid "Open in New Tab"
-msgstr "Adčyni ŭ novaj kartcy"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:99
-msgid "Open Folder in Tabs"
-msgstr "Adčyni kataloh u kartkach"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:103
-#: sidebar/trees/konq_sidebartree.cpp:226
-msgid "Copy Link Address"
-msgstr "Skapijuj adras łuča"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:323
-#, fuzzy
-#| msgid "Create New Folder"
-msgctxt "@title:window"
-msgid "Create New Bookmark Folder"
-msgstr "Stvary novy kataloh"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:324
-#, fuzzy
-#| msgid "New Folder"
-msgid "New folder:"
-msgstr "Novy kataloh"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:348
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
-msgstr ""
-"Sapraŭdy chočaš vydalić kataloh z zakładkami\n"
-"„%1”?"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:349
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
-msgstr ""
-"Sapraŭdy chočaš vydalić zakładku\n"
-"„%1”?"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:350
-#, fuzzy
-#| msgid "Bookmark Folder Deletion"
-msgctxt "@title:window"
-msgid "Bookmark Folder Deletion"
-msgstr "Vydaleńnie kataloha z zakładkami"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:351
-#, fuzzy
-#| msgid "Bookmark Deletion"
-msgctxt "@title:window"
-msgid "Bookmark Deletion"
-msgstr "Vydaleńnie zakładki"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:396
-#, fuzzy
-#| msgid "Bookmark Properties"
-msgctxt "@title:window"
-msgid "Bookmark Properties"
-msgstr "Ułaścivaści zakładki"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:582
-msgid "&Update"
-msgstr "&Aktualizuj"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:590
-msgid "Name:"
-msgstr "Nazva:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:598
-msgid "Location:"
-msgstr "Miesca:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:86
-#, fuzzy
-#| msgid "Add Bookmark"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "Dadaj zakładku"
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:407
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr ""
-"Nie ŭdałosia znajści ŭ hierarchii vyšejšy element „%1”. Heta ŭnutranaja "
-"pamyłka."
-
-#: sidebar/trees/konq_sidebartree.cpp:193
-msgid "&Create New Folder..."
-msgstr "&Stvary novy kataloh..."
-
-#: sidebar/trees/konq_sidebartree.cpp:201
-msgid "Move to Trash"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:205
-msgid "Rename"
-msgstr "Źmiani nazvu"
-
-#: sidebar/trees/konq_sidebartree.cpp:210
-msgid "Delete Link"
-msgstr "Vydali łuč"
-
-#: sidebar/trees/konq_sidebartree.cpp:933
-msgid "New Folder"
-msgstr "Novy kataloh"
-
-#: sidebar/trees/konq_sidebartree.cpp:936
-#, fuzzy
-#| msgid "Create New Folder"
-msgctxt "@title:window"
-msgid "Create New Folder"
-msgstr "Stvary novy kataloh"
-
-#: sidebar/trees/konq_sidebartree.cpp:937
-msgid "Enter folder name:"
-msgstr "Upišy nazvu kataloha:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:184
-#: sidebar/web_module/web_module.cpp:298
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "Nazva:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:184
-#: sidebar/web_module/web_module.cpp:298
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:185
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:55
-msgid "&Open Link"
-msgstr "&Adčyni łuč"
-
-#: sidebar/web_module/web_module.cpp:59 src/konqhistoryview.cpp:62
-#: src/konqmainwindow.cpp:4524
-msgid "Open in New &Window"
-msgstr "Adčyni ŭ &novym aknie"
-
-#: sidebar/web_module/web_module.cpp:65 src/konqmainwindow.cpp:3673
-msgid "&Reload"
-msgstr "&Pieračytaj"
-
-#: sidebar/web_module/web_module.cpp:70
-msgid "Set &Automatic Reload"
-msgstr "Uklučy &aŭtamatyčnaje pieračytvańnie"
-
-#: sidebar/web_module/web_module.cpp:134
-#, fuzzy
-#| msgid "Set Refresh Timeout (0 disables)"
-msgctxt "@title:window"
-msgid "Set Refresh Timeout (0 disables)"
-msgstr "Aznač termin čakańnia aktualizacyi („0” vyklučaje)"
-
-#: sidebar/web_module/web_module.cpp:142
-#, fuzzy
-#| msgid "Minute"
-#| msgid_plural "Minutes"
-msgid " minute"
-msgid_plural " minutes"
-msgstr[0] "Chvilina"
-msgstr[1] "Chviliny"
-msgstr[2] "Chvilin"
-
-#: sidebar/web_module/web_module.cpp:145
-#, fuzzy
-#| msgid " sec"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] " sekund"
-msgstr[1] " sekund"
-msgstr[2] " sekund"
-
-#: sidebar/web_module/web_module.cpp:278
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr "Sieciŭnaja bakavaja panel"
-
-#: sidebar/web_module/web_module.cpp:299
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr ""
-
 #: src/konq_statusbarmessagelabel.cpp:82
 #, fuzzy
 #| msgid "Close View"
@@ -1054,6 +595,10 @@ msgstr "© 1999-2008, raspracoŭniki prahramy „Konqueror”"
 #: src/konqfactory.cpp:235
 msgid "http://konqueror.kde.org"
 msgstr "http://konqueror.kde.org"
+
+#: src/konqfactory.cpp:236
+msgid "David Faure"
+msgstr "David Faure"
 
 #: src/konqfactory.cpp:236
 msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
@@ -1280,6 +825,10 @@ msgid "KFM author"
 msgstr "Aŭtar prahramy „KFM”"
 
 #: src/konqfactory.cpp:269
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#: src/konqfactory.cpp:269
 msgid "Developer (navigation panel framework)"
 msgstr "Raspracoŭnik (systema absłuhoŭvańnia paneli miescaŭ)"
 
@@ -1370,6 +919,14 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr "Roznaje"
 
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4524
+msgid "Open in New &Window"
+msgstr "Adčyni ŭ &novym aknie"
+
+#: src/konqhistoryview.cpp:67
+msgid "Open in New Tab"
+msgstr "Adčyni ŭ novaj kartcy"
+
 #: src/konqhistoryview.cpp:71
 #, fuzzy
 #| msgid "Copy Link Address"
@@ -1401,6 +958,17 @@ msgstr "Pavodle &dataŭ"
 #| msgid "Clear History"
 msgid "Search in history"
 msgstr "Vyčyści historyju"
+
+#: src/konqhistoryview.cpp:171
+msgid "Do you really want to clear the entire history?"
+msgstr "Sapraŭdy chočaš vyčyścić usiu historyju?"
+
+#: src/konqhistoryview.cpp:172
+#, fuzzy
+#| msgid "Clear History?"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Vyčyścić historyju?"
 
 #: src/konqmain.cpp:62
 #, fuzzy
@@ -1737,6 +1305,10 @@ msgstr "Pasuń kartku ŭprava"
 #: src/konqmainwindow.cpp:3655
 msgid "Dump Debug Info"
 msgstr "Pakažy źviestki dla adładžvańnia"
+
+#: src/konqmainwindow.cpp:3673
+msgid "&Reload"
+msgstr "&Pieračytaj"
 
 #: src/konqmainwindow.cpp:3678 src/konqtabs.cpp:334
 msgid "&Reload All Tabs"
@@ -2488,6 +2060,306 @@ msgstr "Uvaha"
 #: src/konqview.cpp:1251
 msgid "Resend"
 msgstr "Pierašli"
+
+#~ msgid "Limits"
+#~ msgstr "Limity"
+
+#~ msgid "URLs e&xpire after"
+#~ msgstr "Adrasy &zastarejuć praz"
+
+#~ msgid "Maximum &number of URLs:"
+#~ msgstr "Najbolšaja &kolkaść adrasoŭ:"
+
+#~ msgid "Custom Fonts For"
+#~ msgstr "Ułasnyja šryfty dla"
+
+#~ msgid "URLs newer than"
+#~ msgstr "Adrasy, naviejšyja za"
+
+#~ msgid "Choose Font..."
+#~ msgstr "Vybiery šryft..."
+
+#~ msgid "URLs older than"
+#~ msgstr "Adrasy, starejšyja za"
+
+#~ msgid ""
+#~ "Shows the number of times visited and the dates of the first and last "
+#~ "visits, in addition to the URL"
+#~ msgstr ""
+#~ "Pakazvaje razam z adrasam kolkaść naviedvańniaŭ i daty pieršaha j "
+#~ "apošniaha vizytaŭ"
+
+#~ msgid "Detailed tooltips"
+#~ msgstr "Detalnyja padkazki"
+
+#~ msgid "Clear History"
+#~ msgstr "Vyčyści historyju"
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgctxt "@action:inmenu Add"
+#~ msgid "History Sidebar Module"
+#~ msgstr "Sieciŭnaja bakavaja panel"
+
+#, fuzzy
+#~| msgid "Clear History"
+#~ msgctxt "@title:tab"
+#~ msgid "History"
+#~ msgstr "Vyčyści historyju"
+
+#~ msgid "Minute"
+#~ msgid_plural "Minutes"
+#~ msgstr[0] "Chvilina"
+#~ msgstr[1] "Chviliny"
+#~ msgstr[2] "Chvilin"
+
+#~ msgid "Day"
+#~ msgid_plural "Days"
+#~ msgstr[0] "Dzień"
+#~ msgstr[1] "Dni"
+#~ msgstr[2] "Dzion"
+
+#~ msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
+#~ msgstr "<h1>Panel historyi</h1> Tut možna naładzić bakavuju panel historyi."
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgctxt "@action:inmenu Add"
+#~ msgid "Places Sidebar Module"
+#~ msgstr "Sieciŭnaja bakavaja panel"
+
+#~ msgid "Extended Sidebar"
+#~ msgstr "Pašyranaja bakavaja panel"
+
+#~ msgid "Rollback to System Default"
+#~ msgstr "Viarni systemnyja nałady"
+
+#~ msgid "Configure Sidebar"
+#~ msgstr "Naładź bakavuju panel"
+
+#~ msgid "Add New"
+#~ msgstr "Dadaj novy"
+
+#~ msgid "Multiple Views"
+#~ msgstr "Niekalki prahladaŭ"
+
+#~ msgid "Show Tabs Left"
+#~ msgstr "Pakazvaj kartki źleva"
+
+#~ msgid "Show Configuration Button"
+#~ msgstr "Pakazvaj knopku naładaŭ"
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgid "Close Sidebar"
+#~ msgstr "Sieciŭnaja bakavaja panel"
+
+#~ msgid "This entry already exists."
+#~ msgstr "Hety element užo isnuje."
+
+#~ msgid ""
+#~ "<qt>This removes all your entries from the sidebar and adds the system "
+#~ "default ones.<br /><b>This procedure is irreversible</b><br />Do you want "
+#~ "to proceed?</qt>"
+#~ msgstr ""
+#~ "<qt>Hetaja aperacyja vydalaje ŭsio z bakavoj paneli j dadaje tolki "
+#~ "systemnyja elementy.<br /><b>Jaje niemahčyma paśla anulavać.</b><br /"
+#~ ">Praciahvać?</qt>"
+
+#~ msgid "Show Tabs Right"
+#~ msgstr "Pakazvaj kartki sprava"
+
+#, fuzzy
+#~| msgid "Set Name"
+#~ msgctxt "@title:window"
+#~ msgid "Set Name"
+#~ msgstr "Aznač nazvu"
+
+#~ msgid "Enter the name:"
+#~ msgstr "Upišy nazvu:"
+
+#~ msgid "Enter a URL:"
+#~ msgstr "Upišy adras:"
+
+#~ msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
+#~ msgstr "<qt>Sapraŭdy chočaš vydalić kartku <b>%1</b>?</qt>"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have hidden the navigation panel configuration button. To make it "
+#~| "visible again, click the right mouse button on any of the navigation "
+#~| "panel buttons and select \"Show Configuration Button\"."
+#~ msgid ""
+#~ "You have hidden the sidebar configuration button. To make it visible "
+#~ "again, click the right mouse button on any of the sidebar buttons and "
+#~ "select \"Show Configuration Button\"."
+#~ msgstr ""
+#~ "Ty schavaŭ knopku naładaŭ dla paneli miescaŭ. Kab znoŭ jaje ŭklučyć, "
+#~ "klikni pravaj knopkaj myšy ŭ lubuju knopku paneli miescaŭ i vybiery "
+#~ "„Pakazvaj panel miescaŭ”."
+
+#~ msgid "Set Name..."
+#~ msgstr "Aznač nazvu..."
+
+#~ msgid "Set URL..."
+#~ msgstr "Aznač adras..."
+
+#~ msgid "Set Icon..."
+#~ msgstr "Aznač ikonu..."
+
+#~ msgid "Remove"
+#~ msgstr "Vydali"
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgid "Web module"
+#~ msgstr "Sieciŭnaja bakavaja panel"
+
+#~ msgid "&Create New Folder"
+#~ msgstr "&Stvary novy kataloh"
+
+#~ msgid "Delete Folder"
+#~ msgstr "Vydali kataloh"
+
+#~ msgid "Delete Bookmark"
+#~ msgstr "Vydali zakładku"
+
+#~ msgid "Properties"
+#~ msgstr "Ułaścivaści"
+
+#~ msgid "Open in New Window"
+#~ msgstr "Adčyni ŭ novym aknie"
+
+#~ msgid "Open Folder in Tabs"
+#~ msgstr "Adčyni kataloh u kartkach"
+
+#~ msgid "Copy Link Address"
+#~ msgstr "Skapijuj adras łuča"
+
+#, fuzzy
+#~| msgid "Create New Folder"
+#~ msgctxt "@title:window"
+#~ msgid "Create New Bookmark Folder"
+#~ msgstr "Stvary novy kataloh"
+
+#, fuzzy
+#~| msgid "New Folder"
+#~ msgid "New folder:"
+#~ msgstr "Novy kataloh"
+
+#~ msgid ""
+#~ "Are you sure you wish to remove the bookmark folder\n"
+#~ "\"%1\"?"
+#~ msgstr ""
+#~ "Sapraŭdy chočaš vydalić kataloh z zakładkami\n"
+#~ "„%1”?"
+
+#~ msgid ""
+#~ "Are you sure you wish to remove the bookmark\n"
+#~ "\"%1\"?"
+#~ msgstr ""
+#~ "Sapraŭdy chočaš vydalić zakładku\n"
+#~ "„%1”?"
+
+#, fuzzy
+#~| msgid "Bookmark Folder Deletion"
+#~ msgctxt "@title:window"
+#~ msgid "Bookmark Folder Deletion"
+#~ msgstr "Vydaleńnie kataloha z zakładkami"
+
+#, fuzzy
+#~| msgid "Bookmark Deletion"
+#~ msgctxt "@title:window"
+#~ msgid "Bookmark Deletion"
+#~ msgstr "Vydaleńnie zakładki"
+
+#, fuzzy
+#~| msgid "Bookmark Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Bookmark Properties"
+#~ msgstr "Ułaścivaści zakładki"
+
+#~ msgid "&Update"
+#~ msgstr "&Aktualizuj"
+
+#~ msgid "Name:"
+#~ msgstr "Nazva:"
+
+#~ msgid "Location:"
+#~ msgstr "Miesca:"
+
+#, fuzzy
+#~| msgid "Add Bookmark"
+#~ msgctxt "@title:window"
+#~ msgid "Add Bookmark"
+#~ msgstr "Dadaj zakładku"
+
+#~ msgid "Cannot find parent item %1 in the tree. Internal error."
+#~ msgstr ""
+#~ "Nie ŭdałosia znajści ŭ hierarchii vyšejšy element „%1”. Heta ŭnutranaja "
+#~ "pamyłka."
+
+#~ msgid "&Create New Folder..."
+#~ msgstr "&Stvary novy kataloh..."
+
+#~ msgid "Rename"
+#~ msgstr "Źmiani nazvu"
+
+#~ msgid "Delete Link"
+#~ msgstr "Vydali łuč"
+
+#~ msgid "New Folder"
+#~ msgstr "Novy kataloh"
+
+#, fuzzy
+#~| msgid "Create New Folder"
+#~ msgctxt "@title:window"
+#~ msgid "Create New Folder"
+#~ msgstr "Stvary novy kataloh"
+
+#~ msgid "Enter folder name:"
+#~ msgstr "Upišy nazvu kataloha:"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "@label"
+#~ msgid "Name:"
+#~ msgstr "Nazva:"
+
+#~ msgid "&Open Link"
+#~ msgstr "&Adčyni łuč"
+
+#~ msgid "Set &Automatic Reload"
+#~ msgstr "Uklučy &aŭtamatyčnaje pieračytvańnie"
+
+#, fuzzy
+#~| msgid "Set Refresh Timeout (0 disables)"
+#~ msgctxt "@title:window"
+#~ msgid "Set Refresh Timeout (0 disables)"
+#~ msgstr "Aznač termin čakańnia aktualizacyi („0” vyklučaje)"
+
+#, fuzzy
+#~| msgid "Minute"
+#~| msgid_plural "Minutes"
+#~ msgid " minute"
+#~ msgid_plural " minutes"
+#~ msgstr[0] "Chvilina"
+#~ msgstr[1] "Chviliny"
+#~ msgstr[2] "Chvilin"
+
+#, fuzzy
+#~| msgid " sec"
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] " sekund"
+#~ msgstr[1] " sekund"
+#~ msgstr[2] " sekund"
+
+#, fuzzy
+#~| msgid "Web Sidebar"
+#~ msgctxt "@action:inmenu Add"
+#~ msgid "Web Sidebar Module"
+#~ msgstr "Sieciŭnaja bakavaja panel"
 
 #~ msgid "&Use index.html"
 #~ msgstr "&Karystajsia fajłam „index.html”"

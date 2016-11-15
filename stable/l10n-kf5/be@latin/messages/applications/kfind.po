@@ -1,0 +1,650 @@
+# translation of kfindpart.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfindpart\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-10-24 06:54+0000\n"
+"PO-Revision-Date: 2008-10-06 20:57+0300\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: kfinddlg.cpp:49
+#, fuzzy
+#| msgid "Find Files/Folders"
+msgctxt "@title:window"
+msgid "Find Files/Folders"
+msgstr "Šukaj fajły j katalohi"
+
+#: kfinddlg.cpp:71 kfinddlg.cpp:200
+msgctxt "the application is currently idle, there is no active search"
+msgid "Idle."
+msgstr ""
+
+#: kfinddlg.cpp:136 kfinddlg.cpp:239 kfinddlg.cpp:265
+#, kde-format
+msgid "one file found"
+msgid_plural "%1 files found"
+msgstr[0] "znojdzieny %1 fajł"
+msgstr[1] "znojdzienyja %1 fajły"
+msgstr[2] "znojdzienyja %1 fajłaŭ"
+
+#: kfinddlg.cpp:175
+msgid "Searching..."
+msgstr "Pošuk..."
+
+#: kfinddlg.cpp:202
+msgid "Canceled."
+msgstr ""
+
+#: kfinddlg.cpp:205 kfinddlg.cpp:210 kfinddlg.cpp:216
+msgid "Error."
+msgstr "Pamyłka."
+
+#: kfinddlg.cpp:206
+msgid "Please specify an absolute path in the \"Look in\" box."
+msgstr "Aznač absalutnuju ściežku ŭ poli „Dzie šukać”."
+
+#: kfinddlg.cpp:211
+msgid "Could not find the specified folder."
+msgstr "Nie ŭdałosia znajści aznačanaha katalohu."
+
+#: kfindtreeview.cpp:56
+msgid "Read-write"
+msgstr "Čytańnie j zapis"
+
+#: kfindtreeview.cpp:57
+msgid "Read-only"
+msgstr "Tolki čytańnie"
+
+#: kfindtreeview.cpp:58
+msgid "Write-only"
+msgstr "Tolki zapis"
+
+#: kfindtreeview.cpp:59
+msgid "Inaccessible"
+msgstr "Biaz dostupu"
+
+#: kfindtreeview.cpp:78
+#, fuzzy
+#| msgid "Name"
+msgctxt "file name column"
+msgid "Name"
+msgstr "Nazva"
+
+#: kfindtreeview.cpp:80
+#, fuzzy
+#| msgid "In Subfolder"
+msgctxt "name of the containing folder"
+msgid "In Subfolder"
+msgstr "U padkatalohu"
+
+#: kfindtreeview.cpp:82
+#, fuzzy
+#| msgid "Size"
+msgctxt "file size column"
+msgid "Size"
+msgstr "Pamier"
+
+#: kfindtreeview.cpp:84
+#, fuzzy
+#| msgid "Modified"
+msgctxt "modified date column"
+msgid "Modified"
+msgstr "Źmienieny"
+
+#: kfindtreeview.cpp:86
+#, fuzzy
+#| msgid "Permissions"
+msgctxt "file permissions column"
+msgid "Permissions"
+msgstr "Dazvoły"
+
+#: kfindtreeview.cpp:88
+#, fuzzy
+#| msgid "First Matching Line"
+msgctxt "first matching line of the query string in this file"
+msgid "First Matching Line"
+msgstr "Pieršy adpaviedny radok"
+
+#: kfindtreeview.cpp:356
+msgid "&Open containing folder(s)"
+msgstr ""
+
+#: kfindtreeview.cpp:360
+#, fuzzy
+#| msgid "Delete"
+msgid "&Delete"
+msgstr "Vydali"
+
+#: kfindtreeview.cpp:364
+msgid "&Move to Trash"
+msgstr ""
+
+#: kfindtreeview.cpp:444
+#, fuzzy
+#| msgid "Save Results As"
+msgctxt "@title:window"
+msgid "Save Results As"
+msgstr "Zapišy vynik jak"
+
+#: kfindtreeview.cpp:445
+msgid "HTML page"
+msgstr ""
+
+#: kfindtreeview.cpp:445
+msgid "Text file"
+msgstr ""
+
+#: kfindtreeview.cpp:465
+msgid "Unable to save results."
+msgstr "Nie ŭdałosia zapisać vynik."
+
+#: kfindtreeview.cpp:483
+msgid "KFind Results File"
+msgstr "Fajły vyniku „KFind”"
+
+#: kfindtreeview.cpp:503
+#, fuzzy, kde-format
+#| msgid "Results were saved to file\n"
+msgctxt "%1=filename"
+msgid "Results were saved to: %1"
+msgstr "Vynik zapisany ŭ fajł\n"
+
+#: kfindtreeview.cpp:591 kftabdlg.cpp:406
+msgid "&Properties"
+msgstr "&Ułaścivaści"
+
+#: kftabdlg.cpp:78
+#, fuzzy
+#| msgid "&Named:"
+msgctxt "this is the label for the name textfield"
+msgid "&Named:"
+msgstr "&Nazva:"
+
+#: kftabdlg.cpp:81
+msgid "You can use wildcard matching and \";\" for separating multiple names"
+msgstr ""
+"Tut možna karystacca padstanovami j znakam „;” dla padziełu niekalkich "
+"nazvaŭ."
+
+#: kftabdlg.cpp:87
+msgid "Look &in:"
+msgstr "&Dzie šukać:"
+
+#: kftabdlg.cpp:90
+msgid "Include &subfolders"
+msgstr "Ułučaj &padkatalohi"
+
+#: kftabdlg.cpp:91
+msgid "Case s&ensitive search"
+msgstr "Uličvaj pamier &litaraŭ"
+
+#: kftabdlg.cpp:92
+msgid "&Browse..."
+msgstr "&Prahladaj..."
+
+#: kftabdlg.cpp:93
+msgid "&Use files index"
+msgstr "&Karystajsia śpisam fajłaŭ"
+
+#: kftabdlg.cpp:94
+msgid "Show &hidden files"
+msgstr ""
+
+#: kftabdlg.cpp:112
+msgid ""
+"<qt>Enter the filename you are looking for. <br />Alternatives may be "
+"separated by a semicolon \";\".<br /><br />The filename may contain the "
+"following special characters:<ul><li><b>?</b> matches any single character</"
+"li><li><b>*</b> matches zero or more of any characters</li><li><b>[...]</b> "
+"matches any of the characters between the braces</li></ul><br />Example "
+"searches:<ul><li><b>*.kwd;*.txt</b> finds all files ending with .kwd or ."
+"txt</li><li><b>go[dt]</b> finds god and got</li><li><b>Hel?o</b> finds all "
+"files that start with \"Hel\" and end with \"o\", having one character in "
+"between</li><li><b>My Document.kwd</b> finds a file of exactly that name</"
+"li></ul></qt>"
+msgstr ""
+
+#: kftabdlg.cpp:133
+msgid ""
+"<qt>This lets you use the files' index created by the <i>slocate</i> package "
+"to speed-up the search; remember to update the index from time to time "
+"(using <i>updatedb</i>).</qt>"
+msgstr ""
+
+#: kftabdlg.cpp:179
+msgid "Find all files created or &modified:"
+msgstr "Znajdzi ŭsie fajły, stvoranyja albo &źmienienyja:"
+
+#: kftabdlg.cpp:181
+#, fuzzy
+msgid "&between"
+msgstr "&pamiž"
+
+#: kftabdlg.cpp:183
+#, fuzzy
+msgid "and"
+msgstr "i"
+
+#: kftabdlg.cpp:204
+msgid "File &size is:"
+msgstr "Pamier &fajła:"
+
+#: kftabdlg.cpp:217
+msgid "Files owned by &user:"
+msgstr "Fajły &karystańnika:"
+
+#: kftabdlg.cpp:222
+msgid "Owned by &group:"
+msgstr "Fajły &hrupy:"
+
+#: kftabdlg.cpp:225
+#, fuzzy
+#| msgid "(none)"
+msgctxt "file size isn't considered in the search"
+msgid "(none)"
+msgstr "(niama)"
+
+#: kftabdlg.cpp:226
+msgid "At Least"
+msgstr "Prynamsi"
+
+#: kftabdlg.cpp:227
+msgid "At Most"
+msgstr "Nia bolš"
+
+#: kftabdlg.cpp:228
+msgid "Equal To"
+msgstr "Roŭna"
+
+#: kftabdlg.cpp:230 kftabdlg.cpp:903
+#, fuzzy
+#| msgid "Bytes"
+msgid "Byte"
+msgid_plural "Bytes"
+msgstr[0] "Bajtaŭ"
+msgstr[1] "Bajtaŭ"
+msgstr[2] "Bajtaŭ"
+
+#: kftabdlg.cpp:231
+msgid "KiB"
+msgstr "KiB"
+
+#: kftabdlg.cpp:232
+msgid "MiB"
+msgstr "MiB"
+
+#: kftabdlg.cpp:233
+msgid "GiB"
+msgstr "GiB"
+
+#: kftabdlg.cpp:300
+#, fuzzy
+#| msgid "File &type:"
+msgctxt "label for the file type combobox"
+msgid "File &type:"
+msgstr "&Typ fajła:"
+
+#: kftabdlg.cpp:305
+msgid "C&ontaining text:"
+msgstr "&Z tekstam:"
+
+#: kftabdlg.cpp:311
+msgid ""
+"<qt>If specified, only files that contain this text are found. Note that not "
+"all file types from the list above are supported. Please refer to the "
+"documentation for a list of supported file types.</qt>"
+msgstr ""
+
+#: kftabdlg.cpp:319
+msgid "Case s&ensitive"
+msgstr "Uličvajučy pamier &litaraŭ"
+
+#: kftabdlg.cpp:320
+msgid "Include &binary files"
+msgstr "Ułučna z &dvajkovymi fajłami"
+
+#: kftabdlg.cpp:321
+msgid "Regular e&xpression"
+msgstr "&Rehularny vyraz"
+
+#: kftabdlg.cpp:324
+msgid ""
+"<qt>This lets you search in any type of file, even those that usually do not "
+"contain text (for example program files and images).</qt>"
+msgstr ""
+
+#: kftabdlg.cpp:332
+msgid "&Edit..."
+msgstr "&Redahuj..."
+
+#: kftabdlg.cpp:338
+#, fuzzy
+msgctxt "as in search for"
+msgid "fo&r:"
+msgstr "&dla:"
+
+#: kftabdlg.cpp:340
+msgid "Search &metainfo sections:"
+msgstr "Šukaj u raździele &metaźviestak:"
+
+#: kftabdlg.cpp:344
+msgid "All Files & Folders"
+msgstr "Usie fajły j katalohi"
+
+#: kftabdlg.cpp:345
+msgid "Files"
+msgstr "Fajły"
+
+#: kftabdlg.cpp:346
+msgid "Folders"
+msgstr "Katalohi"
+
+#: kftabdlg.cpp:347
+msgid "Symbolic Links"
+msgstr "Symbalnyja łučy"
+
+#: kftabdlg.cpp:348
+msgid "Special Files (Sockets, Device Files, ...)"
+msgstr "Specyjalnyja fajły (sokiety, pryłady dy inšaje)"
+
+#: kftabdlg.cpp:349
+msgid "Executable Files"
+msgstr "Vykonvalnyja fajły"
+
+#: kftabdlg.cpp:350
+msgid "SUID Executable Files"
+msgstr "Vykonvalnyja fajły z dazvołam „SUID”"
+
+#: kftabdlg.cpp:351
+msgid "All Images"
+msgstr "Usie vyjavy"
+
+#: kftabdlg.cpp:352
+msgid "All Video"
+msgstr "Usio videa"
+
+#: kftabdlg.cpp:353
+msgid "All Sounds"
+msgstr "Usie huki"
+
+#: kftabdlg.cpp:404
+msgid "Name/&Location"
+msgstr "Nazva/&miesca"
+
+#: kftabdlg.cpp:405
+#, fuzzy
+#| msgid "C&ontents"
+msgctxt "tab name: search by contents"
+msgid "C&ontents"
+msgstr "&Źmieściva"
+
+#: kftabdlg.cpp:411
+msgid ""
+"<qt>Search within files' specific comments/metainfo<br />These are some "
+"examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
+"title, an album</li><li><b>Images (png...)</b> Search images with a special "
+"resolution, comment...</li></ul></qt>"
+msgstr ""
+
+#: kftabdlg.cpp:419
+msgid ""
+"<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
+"(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
+"Search only in Resolution, Bitdepth...</li></ul></qt>"
+msgstr ""
+
+#: kftabdlg.cpp:612
+msgid "Unable to search within a period which is less than a minute."
+msgstr "Nie ŭdałosia šukać fajły ŭ adcinku času, mienšym za adnu chvilinu."
+
+#: kftabdlg.cpp:623
+msgid "The date is not valid."
+msgstr "Data niapravilnaja."
+
+#: kftabdlg.cpp:625
+msgid "Invalid date range."
+msgstr "Dyjapazon dataŭ niapravilny."
+
+#: kftabdlg.cpp:627
+msgid "Unable to search dates in the future."
+msgstr "Nie ŭdałosia adšukać daty z pryšłaści."
+
+#: kftabdlg.cpp:692
+msgid "Size is too big. Set maximum size value?"
+msgstr "Pamier zavialiki. Aznačyć najbolšy mahčymy pamier?"
+
+#: kftabdlg.cpp:692
+msgid "Error"
+msgstr "Pamyłka"
+
+#: kftabdlg.cpp:692
+msgid "Set"
+msgstr "Aznač"
+
+#: kftabdlg.cpp:692
+msgid "Do Not Set"
+msgstr "Nie aznačaj"
+
+#: kftabdlg.cpp:893
+#, fuzzy
+msgctxt ""
+"during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
+"minutes, 'h' hours, 'd' days, 'm' months, 'y' years"
+msgid "&during the previous"
+msgid_plural "&during the previous"
+msgstr[0] "&ciaham"
+msgstr[1] "&ciaham"
+msgstr[2] "&ciaham"
+
+#: kftabdlg.cpp:894
+#, fuzzy
+msgctxt "use date ranges to search files by modified time"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "chvilin"
+msgstr[1] "chvilin"
+msgstr[2] "chvilin"
+
+#: kftabdlg.cpp:895
+#, fuzzy
+msgctxt "use date ranges to search files by modified time"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "hadzin"
+msgstr[1] "hadzin"
+msgstr[2] "hadzin"
+
+#: kftabdlg.cpp:896
+#, fuzzy
+msgctxt "use date ranges to search files by modified time"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dzion"
+msgstr[1] "dzion"
+msgstr[2] "dzion"
+
+#: kftabdlg.cpp:897
+#, fuzzy
+msgctxt "use date ranges to search files by modified time"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "miesiacaŭ"
+msgstr[1] "miesiacaŭ"
+msgstr[2] "miesiacaŭ"
+
+#: kftabdlg.cpp:898
+#, fuzzy
+msgctxt "use date ranges to search files by modified time"
+msgid "year"
+msgid_plural "years"
+msgstr[0] "hadoŭ"
+msgstr[1] "hadoŭ"
+msgstr[2] "hadoŭ"
+
+#: kquery.cpp:555
+#, fuzzy
+#| msgid "Error while using locate"
+msgctxt "@title:window"
+msgid "Error while using locate"
+msgstr "Padčas vykarystańnia prahramy „locate” uźnikła pamyłka."
+
+#: main.cpp:42
+msgid "KFind"
+msgstr "KFind"
+
+#: main.cpp:43
+msgid "KDE file find utility"
+msgstr "Prahrama pošuku fajłaŭ dla KDE"
+
+#: main.cpp:44
+#, fuzzy
+#| msgid "(c) 1998-2003, The KDE Developers"
+msgid "(c) 1998-2016, The KDE Developers"
+msgstr "© 1998-2003, raspracoŭniki KDE"
+
+#: main.cpp:46
+msgid "Kai-Uwe Broulik"
+msgstr ""
+
+#: main.cpp:46
+msgid "Current Maintainer"
+msgstr "Dziejny dahladnik"
+
+#: main.cpp:47
+msgid "Eric Coquelle"
+msgstr "Eric Coquelle"
+
+#: main.cpp:47
+#, fuzzy
+#| msgid "Current Maintainer"
+msgid "Former Maintainer"
+msgstr "Dziejny dahladnik"
+
+#: main.cpp:48
+msgid "Mark W. Webb"
+msgstr "Mark W. Webb"
+
+#: main.cpp:48
+msgid "Developer"
+msgstr "Raspracoŭnik"
+
+#: main.cpp:49
+msgid "Beppe Grimaldi"
+msgstr "Beppe Grimaldi"
+
+#: main.cpp:49
+msgid "UI Design & more search options"
+msgstr "Interfejs karystańnika j dadatkovyja opcyi pošuku"
+
+#: main.cpp:50
+msgid "Martin Hartig"
+msgstr "Martin Hartig"
+
+#: main.cpp:51
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: main.cpp:52
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#: main.cpp:53
+msgid "Alex Zepeda"
+msgstr "Alex Zepeda"
+
+#: main.cpp:54
+msgid "Miroslav Flídr"
+msgstr "Miroslav Flídr"
+
+#: main.cpp:55
+msgid "Harri Porten"
+msgstr "Harri Porten"
+
+#: main.cpp:56
+msgid "Dima Rogozin"
+msgstr "Dima Rogozin"
+
+#: main.cpp:57
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:58
+msgid "Hans Petter Bieker"
+msgstr "Hans Petter Bieker"
+
+#: main.cpp:59
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:59
+msgid "UI Design"
+msgstr "Interfejs karystańnika"
+
+#: main.cpp:60
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: main.cpp:61
+msgid "Clarence Dang"
+msgstr "Clarence Dang"
+
+#: main.cpp:62
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#: main.cpp:62
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: main.cpp:70
+msgid "Path(s) to search"
+msgstr "Ściežki pošuku"
+
+#~ msgctxt "Name of the component that finds things"
+#~ msgid "Find Component"
+#~ msgstr "Modul pošuku"
+
+#~ msgid "Aborted."
+#~ msgstr "Spyniena."
+
+#~ msgid "Ready."
+#~ msgstr "Hatova."
+
+#~ msgid "Do you really want to delete the selected file?"
+#~ msgid_plural "Do you really want to delete the %1 selected files?"
+#~ msgstr[0] "Sapraŭdy vydalić %1 vybrany fajł?"
+#~ msgstr[1] "Sapraŭdy vydalić %1 vybranyja fajły?"
+#~ msgstr[2] "Sapraŭdy vydalić %1 vybranych fajłaŭ?"
+
+#~ msgctxt "Menu item"
+#~ msgid "Open"
+#~ msgstr "Adčyni"
+
+#~ msgid "Open Folder"
+#~ msgstr "Adčyni kataloh"
+
+#~ msgid "Copy"
+#~ msgstr "Skapijuj"
+
+#~ msgid "Open With..."
+#~ msgstr "Adčyni..."
+
+#~ msgid "Properties"
+#~ msgstr "Ułaścivaści"
+
+#~ msgid "Selected Files"
+#~ msgstr "Vybranyja fajły"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_bookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-20 09:14+0000\n"
+"POT-Creation-Date: 2016-11-19 20:16+0100\n"
 "PO-Revision-Date: 2008-10-03 23:24+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,10 +20,12 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: kio_bookmarks.cpp:87
+#, kde-format
 msgid "Root"
 msgstr "Korań"
 
 #: kio_bookmarks.cpp:120
+#, kde-format
 msgid "Places"
 msgstr "Miescy"
 
@@ -33,10 +35,12 @@ msgid "Wrong request: %1"
 msgstr "Kiepski zapyt: %1"
 
 #: kio_bookmarks_html.cpp:97
+#, kde-format
 msgid "There are no bookmarks to display yet."
 msgstr "Jašče zusim niama zakładak."
 
 #: kio_bookmarks_html.cpp:136
+#, kde-format
 msgid ""
 "kio_bookmarks CSS file not found. Output will look ugly.\n"
 "Check your installation."
@@ -45,6 +49,7 @@ msgstr ""
 "vyhladać. Spraŭdź svaju instalacyju."
 
 #: kio_bookmarks_html.cpp:145
+#, kde-format
 msgid "My Bookmarks"
 msgstr "Maje zakładki"
 

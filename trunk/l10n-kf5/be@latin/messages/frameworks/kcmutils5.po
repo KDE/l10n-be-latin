@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-28 07:40+0000\n"
+"POT-Creation-Date: 2016-11-19 20:11+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,10 +19,12 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
@@ -50,6 +52,7 @@ msgid "The module %1 is disabled."
 msgstr "Modul „%1” vyklučany."
 
 #: kcmoduleloader.cpp:83
+#, kde-format
 msgid ""
 "<qt><p>Either the hardware/software the module configures is not available "
 "or the module has been disabled by the administrator.</p></qt>"
@@ -74,6 +77,7 @@ msgstr ""
 "<qt>Dadatkovyja źviestki:<br />Fajł stała „%1” nie aznačyŭ biblijateki.</qt>"
 
 #: kcmoduleloader.cpp:156
+#, kde-format
 msgid ""
 "<qt><p>Possible reasons:<ul><li>An error occurred during your last KDE "
 "upgrade leaving an orphaned control module</li><li>You have old third party "
@@ -95,7 +99,7 @@ msgid "This configuration section is already opened in %1"
 msgstr "Hety addzieł naładaŭ užo adčynieny ŭ %1."
 
 #: kcmultidialog.cpp:57
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
 #| "Do you want to save your changes or discard them?"
@@ -107,32 +111,37 @@ msgstr ""
 "Ci ty chočaš zapisać źmieny albo ich anulavać?"
 
 #: kcmultidialog.cpp:59
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Settings"
 msgid "Apply Settings"
 msgstr "Nałady"
 
 #: kcmultidialog.cpp:206
+#, kde-format
 msgid "Configure"
 msgstr "Naładź"
 
 #. i18n: ectx: label, entry, group (DesktopIcons)
 #: kdeglobals.kcfg:9
+#, kde-format
 msgid "Distance between desktop icons"
 msgstr "Raźbiežnaść pamiž ikonami rabočaha stała"
 
 #. i18n: ectx: whatsthis, entry, group (DesktopIcons)
 #: kdeglobals.kcfg:10
+#, kde-format
 msgid "The distance between icons specified in pixels."
 msgstr "Raźbiežnaść pamiž ikonami, vymieranaja ŭ punktach."
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:23
+#, kde-format
 msgid "Widget style to use"
 msgstr "Dziejny styl widžetaŭ"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:24
+#, kde-format
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
@@ -141,11 +150,13 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:30
+#, kde-format
 msgid "Use the PC speaker"
 msgstr "Karystajsia hałaśnikom kamputara"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:31
+#, kde-format
 msgid ""
 "Whether the ordinary PC speaker should be used instead of KDE's own "
 "notifications system."
@@ -155,11 +166,13 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:35
+#, kde-format
 msgid "What terminal application to use"
 msgstr "Jakoj terminalnaj aplikacyjaj karystacca"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:37
+#, kde-format
 msgid ""
 "Whenever a terminal application is launched this terminal emulator program "
 "will be used.\n"
@@ -169,11 +182,13 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:41
+#, kde-format
 msgid "Fixed width font"
 msgstr "Stały šryft"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:43
+#, kde-format
 msgid ""
 "This font is used when a fixed font is needed. A fixed font has a constant "
 "width.\n"
@@ -181,41 +196,49 @@ msgstr "Heta zmoŭčany stały šryft. Jahonyja znaki majuć adnolkavuju šyryni
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:46
+#, kde-format
 msgid "System wide font"
 msgstr "Systemny šryft"
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:49
+#, kde-format
 msgid "Font for menus"
 msgstr "Šryft u menu"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:50
+#, kde-format
 msgid "What font to use for menus in applications."
 msgstr "Jakim šryftom karystacca ŭ menu aplikacyjaŭ."
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:53
+#, kde-format
 msgid "Color for links"
 msgstr "Koler łučoŭ"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:54
+#, kde-format
 msgid "What color links should be that have not yet been clicked on"
 msgstr "Jakim koleram vyjaŭlać łuč, u jaki jašče nia klikali"
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:57
+#, kde-format
 msgid "Color for visited links"
 msgstr "Koler užytych łučoŭ"
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:60
+#, kde-format
 msgid "Font for the taskbar"
 msgstr "Šryft dla paneli zadańniaŭ"
 
 #. i18n: ectx: whatsthis, entry, group (General)
 #: kdeglobals.kcfg:61
+#, kde-format
 msgid ""
 "What font to use for the panel at the bottom of the screen, where the "
 "currently running applications are."
@@ -225,41 +248,49 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
 #: kdeglobals.kcfg:64
+#, kde-format
 msgid "Fonts for toolbars"
 msgstr "Šryfty dla panelaŭ pryładździa"
 
 #. i18n: ectx: label, entry (Desktop Screenshot), group (Global Shortcuts)
 #: kdeglobals.kcfg:73
+#, kde-format
 msgid "Shortcut for taking screenshot"
 msgstr "Skarot dla vyrabu zdymka stała"
 
 #. i18n: ectx: label, entry (Enable/Disable Clipboard Actions), group (Global Shortcuts)
 #: kdeglobals.kcfg:78
+#, kde-format
 msgid "Shortcut for toggling Clipboard Actions on and off"
 msgstr "Skarot dla ŭklučeńnia j vyklučeńnia aperacyjaŭ z abmiennym buferam"
 
 #. i18n: ectx: label, entry (Halt without Confirmation), group (Global Shortcuts)
 #: kdeglobals.kcfg:83
+#, kde-format
 msgid "Shortcut for shutting down the computer without confirmation"
 msgstr "Skarot dla vyklučeńnia kamputara biez paćviardžeńnia ad karystańnika"
 
 #. i18n: ectx: label, entry (Sort directories first), group (KFileDialog Settings)
 #: kdeglobals.kcfg:380
+#, kde-format
 msgid "Show directories first"
 msgstr "Spačatku pakazvaj katalohi"
 
 #. i18n: ectx: whatsthis, entry (Sort directories first), group (KFileDialog Settings)
 #: kdeglobals.kcfg:381
+#, kde-format
 msgid "Whether directories should be placed at the top when displaying files"
 msgstr "Aznačaje, ci pakazvać katalohi ŭ śpisie fajłaŭ upieradzie."
 
 #. i18n: ectx: label, entry (Recent URLs), group (KFileDialog Settings)
 #: kdeglobals.kcfg:389
+#, kde-format
 msgid "The URLs recently visited"
 msgstr "Nadoječy naviedanyja adrasy"
 
 #. i18n: ectx: whatsthis, entry (Recent URLs), group (KFileDialog Settings)
 #: kdeglobals.kcfg:390
+#, kde-format
 msgid "Used for auto-completion in file dialogs, for example"
 msgstr ""
 "Prykładam, vykarystoŭvajecca dla aŭtamatyčnaha zakančeńnia ŭ fajłavych "
@@ -267,16 +298,19 @@ msgstr ""
 
 #. i18n: ectx: label, entry (Show Preview), group (KFileDialog Settings)
 #: kdeglobals.kcfg:394
+#, kde-format
 msgid "Show file preview in file dialog"
 msgstr "Pakazvaj padhlady fajłaŭ u adpaviednych dyjalohach"
 
 #. i18n: ectx: label, entry (Show hidden files), group (KFileDialog Settings)
 #: kdeglobals.kcfg:399
+#, kde-format
 msgid "Show hidden files"
 msgstr "Pakazvaj schavanyja fajły"
 
 #. i18n: ectx: whatsthis, entry (Show hidden files), group (KFileDialog Settings)
 #: kdeglobals.kcfg:400
+#, kde-format
 msgid ""
 "Whether files starting with a dot (convention for hidden files) should be "
 "shown"
@@ -286,14 +320,14 @@ msgstr ""
 
 #. i18n: ectx: label, entry (Show Speedbar), group (KFileDialog Settings)
 #: kdeglobals.kcfg:405
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show &Menubar"
 msgid "Show speedbar"
 msgstr "Pakažy &menu"
 
 #. i18n: ectx: whatsthis, entry (Show Speedbar), group (KFileDialog Settings)
 #: kdeglobals.kcfg:406
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "Whether files starting with a dot (convention for hidden files) should be "
 #| "shown"
@@ -305,11 +339,13 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (Locale)
 #: kdeglobals.kcfg:425
+#, kde-format
 msgid "What country"
 msgstr "Jaki kraj"
 
 #. i18n: ectx: whatsthis, entry, group (Locale)
 #: kdeglobals.kcfg:426
+#, kde-format
 msgid ""
 "Used to determine how to display numbers, currency and time/date, for example"
 msgstr ""
@@ -317,37 +353,44 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (Locale)
 #: kdeglobals.kcfg:430
+#, kde-format
 msgid "What language to use to display text"
 msgstr "U jakoj movie pakazvać tekst"
 
 #. i18n: ectx: label, entry, group (Locale)
 #: kdeglobals.kcfg:433
+#, kde-format
 msgid "Character used for indicating positive numbers"
 msgstr "Znak dla aznačeńnia dadatnych likaŭ"
 
 #. i18n: ectx: whatsthis, entry, group (Locale)
 #: kdeglobals.kcfg:434
+#, kde-format
 msgid "Most countries have no character for this"
 msgstr "Amal usiudy takoha znaka niama."
 
 #. i18n: ectx: label, entry, group (Paths)
 #: kdeglobals.kcfg:439
+#, kde-format
 msgid "Path to the autostart directory"
 msgstr "Ściežka ŭ kataloh z aŭtamatyčna ŭklučanymi aplikacyjami"
 
 #. i18n: ectx: whatsthis, entry, group (Paths)
 #: kdeglobals.kcfg:440
+#, kde-format
 msgid "Path to the directory containing executables to be run on session login"
 msgstr ""
 "Ściežka ŭ kataloh z prahramami, jakija ŭklučajucca paśla ŭvachodu ŭ sesiju"
 
 #. i18n: ectx: label, entry, group (Socks)
 #: kdeglobals.kcfg:487
+#, kde-format
 msgid "Enable SOCKS support"
 msgstr "Uklučy padtrymku SOCKS"
 
 #. i18n: ectx: whatsthis, entry, group (Socks)
 #: kdeglobals.kcfg:488
+#, kde-format
 msgid "Whether SOCKS version 4 and 5 should be enabled in KDE's sub systems"
 msgstr ""
 "Aznačaje, ci treba ŭklučać dla roznych słužbaŭ KDE pratakoł SOCKS čaćviertaj "
@@ -355,35 +398,42 @@ msgstr ""
 
 #. i18n: ectx: label, entry, group (Socks)
 #: kdeglobals.kcfg:492
+#, kde-format
 msgid "Path to custom SOCKS library"
 msgstr "Ściežka ŭłasnaj biblijateki SOCKS"
 
 #. i18n: ectx: label, entry, group (Toolbar style)
 #: kdeglobals.kcfg:498
+#, kde-format
 msgid "Highlight toolbar buttons on mouse over"
 msgstr "Padśviatlaj knopki ŭ panelach pryładździa pad kursoram myšy"
 
 #. i18n: ectx: label, entry, group (Toolbar style)
 #: kdeglobals.kcfg:502
+#, kde-format
 msgid "Show text on toolbar icons "
 msgstr "Pakazvaj tekst dla ikonaŭ u panelach pryładździa"
 
 #. i18n: ectx: whatsthis, entry, group (Toolbar style)
 #: kdeglobals.kcfg:503
+#, kde-format
 msgid "Whether text should be shown in addition to icons on toolbar icons"
 msgstr "Aznačaje, ci treba pakazvać tekst dla ikonaŭ u panelach pryładździa."
 
 #. i18n: ectx: label, entry (EchoMode), group (Passwords)
 #: kdeglobals.kcfg:524
+#, kde-format
 msgid "Password echo type"
 msgstr "Vyjaŭleńnie ŭpisańnia parolu"
 
 #. i18n: ectx: label, entry (Dialog Size), group (KKeyDialog Settings)
 #: kdeglobals.kcfg:534
+#, kde-format
 msgid "The size of the dialog"
 msgstr "Pamiery dyjalohavaha akna"
 
 #: kpluginselector.cpp:140
+#, kde-format
 msgid ""
 "Automatic changes have been performed due to plugin dependencies. Click here "
 "for further information"
@@ -392,6 +442,7 @@ msgstr ""
 "Klikni siudy, kab atrymać padrabiaznyja źviestki."
 
 #: kpluginselector.cpp:209
+#, kde-format
 msgid ""
 "Automatic changes have been performed in order to satisfy plugin "
 "dependencies:\n"
@@ -421,6 +472,7 @@ msgstr ""
 "plugina „%2”."
 
 #: kpluginselector.cpp:217
+#, kde-format
 msgid "Dependency Check"
 msgstr "Spraŭdžvańnie zaležnaściaŭ"
 
@@ -436,6 +488,7 @@ msgstr[2] ""
 "%1 pluginaŭ aŭtamatyčna dadadzienyja z pryčyny zaležnaściaŭ inšych pluginaŭ."
 
 #: kpluginselector.cpp:238
+#, kde-format
 msgid ", "
 msgstr ", "
 
@@ -448,6 +501,7 @@ msgstr[1] "%1 pluginy aŭtamatyčna vydalenyja z pryčyny ichnych zaležnaścia�
 msgstr[2] "%1 pluginaŭ aŭtamatyčna vydalenyja z pryčyny ichnych zaležnaściaŭ."
 
 #: kpluginselector.cpp:263
+#, kde-format
 msgid "Search Plugins"
 msgstr "Pošuk pluginaŭ"
 
@@ -459,10 +513,12 @@ msgid "About %1"
 msgstr "Pra %1"
 
 #: ksettings/componentsdialog.cpp:55
+#, kde-format
 msgid "Select Components"
 msgstr "Vybiery kampanenty"
 
 #: ksettings/dialog.cpp:231
+#, kde-format
 msgid "Enable component"
 msgstr "Uklučy kampanent"
 

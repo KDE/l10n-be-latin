@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-27 10:17+0000\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
 "PO-Revision-Date: 2008-11-01 19:17+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,32 +19,35 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
 #: main.cpp:55
+#, kde-format
 msgid "Run Plasma widgets in their own window"
 msgstr "Uklučaj widžety „Plasma” ŭ asobnych voknach"
 
 #: main.cpp:60
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Name of the containment plugin"
 msgid "The name of the containment plugin"
 msgstr "Nazva plugina schovišča"
 
 #: main.cpp:62
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Name of the wallpaper plugin"
 msgid "The name of the applet plugin"
 msgstr "Nazva plugina špaleraŭ"
 
 #: main.cpp:64
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Do not translate horizontal, vertical, mediacenter nor planar"
 #| msgid "The formfactor to use (horizontal, vertical, mediacenter or planar)"
 msgid ""
@@ -54,7 +57,7 @@ msgstr ""
 "Patrebnaja forma („horizontal”, „vertical”, „mediacenter” albo „planar”)"
 
 #: main.cpp:66
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt ""
 #| "Do not translate floating, desktop, fullscreen, top, bottom, left nor "
 #| "right"
@@ -70,24 +73,28 @@ msgstr ""
 "źleva; albo „right”: sprava)"
 
 #: main.cpp:70
+#, kde-format
 msgid "Set the x position of the plasmoidviewer on the plasma desktop"
 msgstr ""
 
 #: main.cpp:73
+#, kde-format
 msgid "Set the y position of the plasmoidviewer on the plasma desktop"
 msgstr ""
 
 #: main.cpp:76
+#, kde-format
 msgid "Set the window size of the plasmoidview"
 msgstr ""
 
 #: main.cpp:79
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "The size in KB to set the pixmap cache to"
 msgid "The size in kB to set the pixmap cache to"
 msgstr "Pamier padručnaj pamiaci dla pikselnaj mapy ŭ kilabajtach"
 
 #: main.cpp:82
+#, kde-format
 msgid "The name of the theme which the shell will use"
 msgstr ""
 
@@ -102,6 +109,7 @@ msgid "Containment %1 does not exist."
 msgstr ""
 
 #: view.cpp:291
+#, kde-format
 msgctxt "@title:window"
 msgid "Save Screenshot"
 msgstr ""

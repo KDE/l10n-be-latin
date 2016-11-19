@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkdnssd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-14 03:02+0100\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2008-11-04 13:21+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,10 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
@@ -30,11 +32,13 @@ msgstr "ihar.hrachyshka@gmail.com"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (KEditListWidget, kcfg_DomainList)
 #: configdialog.ui:29 configdialog.ui:44
+#, kde-format
 msgid "Additional Domains"
 msgstr "Dadatkovyja dameny"
 
 #. i18n: ectx: property (whatsThis), widget (KEditListWidget, kcfg_DomainList)
 #: configdialog.ui:41
+#, kde-format
 msgid ""
 "List of Internet domains that will be browsed for services in addition to "
 "default domain (typically local network). "
@@ -43,13 +47,16 @@ msgstr ""
 "pasłuh (zvyčajna ŭ lakalnaj sietcy)."
 
 #: kcmdnssd.cpp:51
+#, kde-format
 msgid "ZeroConf configuration"
 msgstr "Nałady systemy „ZeroConf”"
 
 #: kcmdnssd.cpp:52
+#, kde-format
 msgid "(C) 2004-2007 Jakub Stachowski"
 msgstr "© 2004-2007 Jakub Stachowski"
 
 #: kcmdnssd.cpp:53
+#, kde-format
 msgid "Setup services browsing with ZeroConf"
 msgstr "Nałady prahladu pasłuh praz systemu „ZeroConf”"

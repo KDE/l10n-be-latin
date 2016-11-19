@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solid-hardware\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-28 03:46+0200\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2008-12-27 01:06+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,39 +20,48 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: solid-hardware.cpp:45
+#, kde-format
 msgid "solid-hardware"
 msgstr "solid-hardware"
 
 #: solid-hardware.cpp:47
+#, kde-format
 msgid "KDE tool for querying your hardware from the command line"
 msgstr ""
 "Prahrama „KDE” dla zapytańniaŭ i kiravańnia aparaturaju z zahadnaha radka"
 
 #: solid-hardware.cpp:179
+#, kde-format
 msgid "Syntax Error: Not enough arguments"
 msgstr "Syntaksnaja pamyłka: nie staje arhumentaŭ"
 
 #: solid-hardware.cpp:184
+#, kde-format
 msgid "Syntax Error: Too many arguments"
 msgstr "Syntaksnaja pamyłka: zašmat arhumentaŭ"
 
 #: solid-hardware.cpp:195
+#, kde-format
 msgid "Show available commands"
 msgstr "Pakažy mahčymyja zahady"
 
 #: solid-hardware.cpp:197
+#, kde-format
 msgid "Command (see --commands)"
 msgstr "Zahad (hlań „--commands”)"
 
 #: solid-hardware.cpp:199
+#, kde-format
 msgid "Arguments for command"
 msgstr "Arhumenty dla zahadu"
 
 #: solid-hardware.cpp:211
+#, kde-format
 msgid "Syntax:"
 msgstr "Syntaks:"
 
 #: solid-hardware.cpp:214
+#, kde-format
 msgid ""
 "             # List the hardware available in the system.\n"
 "             # - If the 'nonportableinfo' option is specified, the device\n"
@@ -77,6 +86,7 @@ msgstr ""
 "             # - Inačaj buduć pakazanyja tolki UDI pryładaŭ.\n"
 
 #: solid-hardware.cpp:224
+#, kde-format
 msgid ""
 "             # Display all the interfaces and properties of the device\n"
 "             # corresponding to 'udi' in a platform neutral fashion.\n"
@@ -85,6 +95,7 @@ msgstr ""
 "             # dla peŭnaha „udi” u sposab, nie zaležny ad platformy.\n"
 
 #: solid-hardware.cpp:228
+#, kde-format
 msgid ""
 "             # Display all the properties of the device corresponding to "
 "'udi'\n"
@@ -96,6 +107,7 @@ msgstr ""
 "             # u sposab, zaležny ad platformy.\n"
 
 #: solid-hardware.cpp:232
+#, kde-format
 msgid ""
 "             # List the UDI of devices corresponding to 'predicate'.\n"
 "             # - If 'parentUdi' is specified, the search is restricted to "
@@ -110,21 +122,25 @@ msgstr ""
 "             # - Inačaj pošuk vykonvajecca dla ŭsioj aparatury.\n"
 
 #: solid-hardware.cpp:238
+#, kde-format
 msgid ""
 "             # If applicable, mount the device corresponding to 'udi'.\n"
 msgstr "             # Kali mahčyma, zmantuj pryładu z adpaviednym „udi”.\n"
 
 #: solid-hardware.cpp:241
+#, kde-format
 msgid ""
 "             # If applicable, unmount the device corresponding to 'udi'.\n"
 msgstr "             # Kali mahčyma, admantuj pryładu z adpaviednym „udi”.\n"
 
 #: solid-hardware.cpp:244
+#, kde-format
 msgid ""
 "             # If applicable, eject the device corresponding to 'udi'.\n"
 msgstr "             # Kali mahčyma, vysuń pryładu z adpaviednym „udi”.\n"
 
 #: solid-hardware.cpp:247
+#, kde-format
 msgid "             # Listen to all add/remove events on supported hardware."
 msgstr ""
 

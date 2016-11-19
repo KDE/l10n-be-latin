@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kappfinder\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 02:35+0200\n"
+"POT-Creation-Date: 2016-11-19 11:42+0100\n"
 "PO-Revision-Date: 2008-09-08 22:00+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,39 +19,48 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
 #: main.cpp:27
+#, kde-format
 msgid "KDE's application finder"
 msgstr "Pošuk aplikacyjaŭ dla KDE"
 
 #: main.cpp:31 toplevel.cpp:50
+#, kde-format
 msgid "KAppfinder"
 msgstr "KAppfinder"
 
 #: main.cpp:33
+#, kde-format
 msgid "(c) 1998-2000, Matthias Hoelzer-Kluepfel"
 msgstr "© 1998-2000 Matthias Hoelzer-Kluepfel"
 
 #: main.cpp:34
+#, kde-format
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "Matthias Hoelzer-Kluepfel"
 
 #: main.cpp:35
+#, kde-format
 msgid "Tobias Koenig"
 msgstr "Tobias Koenig"
 
 #: main.cpp:40
+#, kde-format
 msgid "Install .desktop files into directory <dir>"
 msgstr "Zainstaluj fajły „.desktop” u kataloh <dir>"
 
 #: toplevel.cpp:58
+#, kde-format
 msgid ""
 "The application finder looks for non-KDE applications on your system and "
 "adds them to the KDE menu system. Click 'Scan' to begin, select the desired "
@@ -62,30 +71,37 @@ msgstr ""
 "vybiery patrebnyja aplikacyi j klikni ŭ knopku „Prymiani”."
 
 #: toplevel.cpp:67
+#, kde-format
 msgid "Application"
 msgstr "Aplikacyja"
 
 #: toplevel.cpp:67
+#, kde-format
 msgid "Description"
 msgstr "Apisańnie"
 
 #: toplevel.cpp:67
+#, kde-format
 msgid "Command"
 msgstr "Zahad"
 
 #: toplevel.cpp:77
+#, kde-format
 msgid "Summary:"
 msgstr "Zaciem:"
 
 #: toplevel.cpp:79
+#, kde-format
 msgid "Scan"
 msgstr "Šukaj"
 
 #: toplevel.cpp:80
+#, kde-format
 msgid "Select All"
 msgstr "Vyłučy ŭsio"
 
 #: toplevel.cpp:81
+#, kde-format
 msgid "Unselect All"
 msgstr "Anuluj vyłučeńnie ŭsiaho"
 

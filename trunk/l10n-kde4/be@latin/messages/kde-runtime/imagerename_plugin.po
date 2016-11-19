@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: imagerename_plugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2016-11-19 11:45+0100\n"
 "PO-Revision-Date: 2008-11-07 01:02+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,10 +20,12 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: image_plugin.cpp:72
+#, kde-format
 msgid "You want to overwrite the left picture with the one on the right."
 msgstr "Ty chočaš zamianić levuju vyjavu na pravuju."
 
 #: imagevisualizer.cpp:45
+#, kde-format
 msgid ""
 "This picture is not stored\n"
 "on the local host.\n"
@@ -34,6 +36,7 @@ msgstr ""
 "Klikni ŭ hety nadpis, kab uziać jaje ź sieciva.\n"
 
 #: imagevisualizer.cpp:53
+#, kde-format
 msgid "Unable to load image"
 msgstr "Nie ŭdałosia pračytać vyjavu ŭ pamiać"
 

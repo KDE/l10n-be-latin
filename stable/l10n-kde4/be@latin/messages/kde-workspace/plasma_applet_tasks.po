@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-28 14:10+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-10-05 10:49+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -42,112 +42,131 @@ msgid "Available on %1"
 msgstr ""
 
 #: tasks.cpp:498
+#, kde-format
 msgid "General"
 msgstr "Ahulnaje"
 
 #: tasks.cpp:508
+#, kde-format
 msgid "Do Not Group"
 msgstr "Nie hurtuj"
 
+#. i18n("Manually"),QVariant(TaskManager::GroupManager::ManualGrouping));
 #: tasks.cpp:511
+#, kde-format
 msgid "By Program Name"
 msgstr "Pavodle nazvaŭ prahram"
 
 #: tasks.cpp:533
+#, kde-format
 msgid "Do Not Sort"
 msgstr "Nie paradkuj"
 
 #: tasks.cpp:534
+#, kde-format
 msgid "Manually"
 msgstr "Uručnuju"
 
 #: tasks.cpp:535
+#, kde-format
 msgid "Alphabetically"
 msgstr "Pavodle alfabetu"
 
 #: tasks.cpp:536
+#, kde-format
 msgid "By Desktop"
 msgstr "Pavodle stałoŭ"
 
 #: tasks.cpp:537
+#, kde-format
 msgid "By Activity"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: tasksConfig.ui:29
+#, kde-format
 msgid "Appearance"
 msgstr "Vonkavaść"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: tasksConfig.ui:36
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Force row settings:"
 msgid "Force row settings"
 msgstr "Vymahaj peŭnych radkoŭ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: tasksConfig.ui:56
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show tooltips:"
 msgid "Show tooltips"
 msgstr "Pakazvaj padkazki:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: tasksConfig.ui:76
+#, kde-format
 msgid "Highlight windows"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: tasksConfig.ui:96
+#, kde-format
 msgid "Maximum rows:"
 msgstr "Najbolšaja kolkaść radkoŭ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: tasksConfig.ui:148
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Grouping & Sorting"
 msgid "Grouping and Sorting"
 msgstr "Hurtavańnie j paradak"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: tasksConfig.ui:155
+#, kde-format
 msgid "Grouping:"
 msgstr "Hurtavańnie:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: tasksConfig.ui:195
+#, kde-format
 msgid "Only when the taskbar is full"
 msgstr "Tolki kali panel zadańniaŭ zapoŭnienaja"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: tasksConfig.ui:221
+#, kde-format
 msgid "Sorting:"
 msgstr "Paradak:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: tasksConfig.ui:273
+#, kde-format
 msgid "Filters"
 msgstr "Filtry"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: tasksConfig.ui:280
+#, kde-format
 msgid "Only show tasks from the current screen"
 msgstr "Pakazvaj zadańni tolki ź dziejnaha ekrana"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: tasksConfig.ui:300
+#, kde-format
 msgid "Only show tasks from the current desktop"
 msgstr "Pakazvaj zadańni tolki ź dziejnaha rabočaha stała"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: tasksConfig.ui:320
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Only show tasks from the current screen"
 msgid "Only show tasks from the current activity"
 msgstr "Pakazvaj zadańni tolki ź dziejnaha ekrana"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: tasksConfig.ui:340
+#, kde-format
 msgid "Only show tasks that are minimized"
 msgstr "Pakazvaj tolki źminimalizavanyja zadańni"
 

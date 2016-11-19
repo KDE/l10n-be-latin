@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-14 01:32+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-10-26 17:30+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,6 +20,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: animations/animationscriptengine.cpp:144
+#, kde-format
 msgid "animation() takes one argument"
 msgstr ""
 
@@ -29,61 +30,68 @@ msgid "%1 is not a known animation type"
 msgstr ""
 
 #: applet.cpp:250
+#, kde-format
 msgid "Script initialization failed"
 msgstr "Nie ŭdałosia inicyjalizavać skrypt"
 
 #: applet.cpp:414
+#, kde-format
 msgid "Unable to load the widget"
 msgstr "Nie ŭdałosia źmiaścić widžet u pamiać"
 
 #: applet.cpp:816
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Cancel"
 msgid "Panel"
 msgstr "Anuluj"
 
 #: applet.cpp:818
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Unknown Widget"
 msgid "Unknown"
 msgstr "Nieviadomy widžet"
 
 #: applet.cpp:823
+#, kde-format
 msgid "Unknown Widget"
 msgstr "Nieviadomy widžet"
 
 #: applet.cpp:864 applet.cpp:2382 applet.cpp:2383
+#, kde-format
 msgctxt "misc category"
 msgid "Miscellaneous"
 msgstr "Roznaje"
 
 #: applet.cpp:1051
+#, kde-format
 msgid "Configure..."
 msgstr "Naładź..."
 
 #: applet.cpp:1102
+#, kde-format
 msgid "&OK"
 msgstr ""
 
 #: applet.cpp:1110
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Yes"
 msgid "&Yes"
 msgstr "Tak"
 
 #: applet.cpp:1117
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "No"
 msgid "&No"
 msgstr "Nie"
 
 #: applet.cpp:1124
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Cancel"
 msgid "&Cancel"
 msgstr "Anuluj"
 
 #: applet.cpp:1161
+#, kde-format
 msgid "OK"
 msgstr ""
 
@@ -93,23 +101,25 @@ msgid "Activate %1 Widget"
 msgstr "Uklučy widžet „%1”"
 
 #: applet.cpp:1750
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Settings"
 msgid "Widget Settings"
 msgstr "Nałady"
 
 #: applet.cpp:1757
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "%1 is the name of the applet"
 #| msgid "Remove this %1"
 msgid "Remove this Widget"
 msgstr "Vydali hety aplet „%1”"
 
 #: applet.cpp:1764
+#, kde-format
 msgid "Run the Associated Application"
 msgstr ""
 
 #: applet.cpp:1941
+#, kde-format
 msgid "Settings"
 msgstr "Nałady"
 
@@ -125,91 +135,110 @@ msgid "%1 Settings"
 msgstr "Nałady „%1”"
 
 #: applet.cpp:2033
+#, kde-format
 msgid "Accessibility"
 msgstr ""
 
 #: applet.cpp:2034
+#, kde-format
 msgid "Application Launchers"
 msgstr ""
 
 #: applet.cpp:2035
+#, kde-format
 msgid "Astronomy"
 msgstr ""
 
 #: applet.cpp:2036
+#, kde-format
 msgid "Date and Time"
 msgstr ""
 
 #: applet.cpp:2037
+#, kde-format
 msgid "Development Tools"
 msgstr ""
 
 #: applet.cpp:2038
+#, kde-format
 msgid "Education"
 msgstr ""
 
 #: applet.cpp:2039
+#, kde-format
 msgid "Environment and Weather"
 msgstr ""
 
 #: applet.cpp:2040
+#, kde-format
 msgid "Examples"
 msgstr ""
 
 #: applet.cpp:2041
+#, kde-format
 msgid "File System"
 msgstr ""
 
 #: applet.cpp:2042
+#, kde-format
 msgid "Fun and Games"
 msgstr ""
 
 #: applet.cpp:2043
+#, kde-format
 msgid "Graphics"
 msgstr ""
 
 #: applet.cpp:2044
+#, kde-format
 msgid "Language"
 msgstr ""
 
 #: applet.cpp:2045
+#, kde-format
 msgid "Mapping"
 msgstr ""
 
 #: applet.cpp:2046
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "misc category"
 #| msgid "Miscellaneous"
 msgid "Miscellaneous"
 msgstr "Roznaje"
 
 #: applet.cpp:2047
+#, kde-format
 msgid "Multimedia"
 msgstr ""
 
 #: applet.cpp:2048
+#, kde-format
 msgid "Online Services"
 msgstr ""
 
 #: applet.cpp:2049
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "%1 Activity"
 msgid "Productivity"
 msgstr "Čynnaść „%1”"
 
 #: applet.cpp:2050
+#, kde-format
 msgid "System Information"
 msgstr ""
 
 #: applet.cpp:2051
+#, kde-format
 msgid "Utilities"
 msgstr ""
 
 #: applet.cpp:2052
+#, kde-format
 msgid "Windows and Tasks"
 msgstr ""
 
 #: applet.cpp:2095
+#, kde-format
 msgid "Keyboard Shortcut"
 msgstr "Klavijaturny skarot"
 
@@ -248,6 +277,7 @@ msgid "Could not open the %1 package required for the %2 widget."
 msgstr "Nie ŭdałosia adčynić pakunak „%1”, jaki patrebny widžetu „%2”."
 
 #: applet.cpp:2937
+#, kde-format
 msgid "This object could not be created."
 msgstr "Nie ŭdałosia stvaryć hety abjekt."
 
@@ -258,34 +288,37 @@ msgid ""
 msgstr "Nie ŭdałosia stvaryć hety abjekt z nastupnaj pryčyny:<p><b>%1</b></p>"
 
 #: containment.cpp:244
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "%1 is the name of the applet"
 #| msgid "Remove this %1"
 msgid "Remove this Panel"
 msgstr "Vydali hety aplet „%1”"
 
 #: containment.cpp:246
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "%1 is the name of the applet"
 #| msgid "Remove this %1"
 msgid "Remove this Activity"
 msgstr "Vydali hety aplet „%1”"
 
 #: containment.cpp:252
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "%1 Settings"
 msgid "Activity Settings"
 msgstr "Nałady „%1”"
 
 #: containment.cpp:258
+#, kde-format
 msgid "Add Widgets..."
 msgstr "Dadaj widžetaŭ..."
 
 #: containment.cpp:264
+#, kde-format
 msgid "Next Widget"
 msgstr "Nastupny widžet"
 
 #: containment.cpp:270
+#, kde-format
 msgid "Previous Widget"
 msgstr "Papiaredni widžet"
 
@@ -296,21 +329,23 @@ msgid "%1 Options"
 msgstr "Opcyi schovišča „%1”"
 
 #: containment.cpp:1341
+#, kde-format
 msgid "Fetching file type..."
 msgstr ""
 
 #: containment.cpp:1532
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Lock Widgets"
 msgid "Widgets"
 msgstr "Zamacuj widžety"
 
 #: containment.cpp:1545
+#, kde-format
 msgid "Icon"
 msgstr "Ikona"
 
 #: containment.cpp:1549
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Unknown Wallpaper"
 msgid "Wallpaper"
 msgstr "Nieviadomyja špalery"
@@ -333,76 +368,91 @@ msgid "Could not find requested component: %1"
 msgstr "Nie ŭdałosia znajści patrebny składnik: %1"
 
 #: containment.cpp:2408
+#, kde-format
 msgid "This plugin needs to be configured"
 msgstr ""
 
 #: containmentactions.cpp:142
+#, kde-format
 msgid "Unknown ContainmentActions"
 msgstr ""
 
 #: corona.cpp:683 corona.cpp:823
+#, kde-format
 msgid "Lock Widgets"
 msgstr "Zamacuj widžety"
 
 #: corona.cpp:683
+#, kde-format
 msgid "Unlock Widgets"
 msgstr "Admacuj widžety"
 
 #: corona.cpp:835
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "%1 Settings"
 msgid "Shortcut Settings"
 msgstr "Nałady „%1”"
 
 #: dataengine.cpp:526 dataengine.cpp:532
+#, kde-format
 msgid "Unnamed"
 msgstr "Biaz nazvy"
 
 #: extenders/extendergroup.cpp:70
+#, kde-format
 msgid "Show this group."
 msgstr "Pakažy hety hurt."
 
 #: extenders/extendergroup.cpp:76
+#, kde-format
 msgid "Hide this group."
 msgstr "Schavaj hety hurt."
 
 #: extenders/extenderitem.cpp:610
+#, kde-format
 msgid "Expand this widget"
 msgstr "Razharni hety widžet"
 
 #: extenders/extenderitem.cpp:610
+#, kde-format
 msgid "Collapse this widget"
 msgstr "Zharni hety widžet"
 
 #: extenders/extenderitem.cpp:947
+#, kde-format
 msgid "Reattach"
 msgstr ""
 
 #: extenders/extenderitem.cpp:973
+#, kde-format
 msgid "Close"
 msgstr ""
 
 #: glapplet.cpp:76 glapplet.cpp:87
+#, kde-format
 msgid "This system does not support OpenGL widgets."
 msgstr "Hetaja systema nie absłuhoŭvaje widžetaŭ dla „OpenGL”."
 
 #: glapplet.cpp:184
+#, kde-format
 msgid "Your machine does not support OpenGL widgets."
 msgstr "Hety kamputar nie absłuhoŭvaje widžetaŭ dla „OpenGL”."
 
 #: packagestructure.h:85
+#, kde-format
 msgctxt "A non-functional package"
 msgid "Invalid"
 msgstr "Niapravilny"
 
 #: private/associatedapplicationmanager.cpp:132
+#, kde-format
 msgid ""
 "There was an error attempting to exec the associated application with this "
 "widget."
 msgstr ""
 
 #: private/joliemessagehelper_p.h:56
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "A non-functional package"
 #| msgid "Invalid"
 msgctxt "Error message, access to a remote service failed."
@@ -410,186 +460,228 @@ msgid "Invalid token."
 msgstr "Niapravilny"
 
 #: private/joliemessagehelper_p.h:59
+#, kde-format
 msgctxt "Error message, access to a remote service failed."
 msgid "Matching password required."
 msgstr ""
 
 #: private/joliemessagehelper_p.h:62
+#, kde-format
 msgctxt "Error message, access to a remote service failed."
 msgid "Access denied."
 msgstr ""
 
 #: private/joliemessagehelper_p.h:64
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Unknown Wallpaper"
 msgid "Unknown error."
 msgstr "Nieviadomyja špalery"
 
 #: private/packages.cpp:58 private/packages.cpp:291
+#, kde-format
 msgid "Images"
 msgstr "Vyjavy"
 
 #: private/packages.cpp:59
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Images"
 msgid "Themed Images"
 msgstr "Vyjavy"
 
 #: private/packages.cpp:65
+#, kde-format
 msgid "Configuration Definitions"
 msgstr "Aznačeńni naładaŭ"
 
 #: private/packages.cpp:70
+#, kde-format
 msgid "User Interface"
 msgstr "Interfejs karystańnika"
 
 #: private/packages.cpp:73 private/packages.cpp:133
+#, kde-format
 msgid "Data Files"
 msgstr ""
 
 #: private/packages.cpp:75 private/packages.cpp:135
+#, kde-format
 msgid "Executable Scripts"
 msgstr "Vykonvalnyja skrypty"
 
 #: private/packages.cpp:80 private/packages.cpp:143
+#, kde-format
 msgid "Translations"
 msgstr ""
 
 #: private/packages.cpp:82
+#, kde-format
 msgid "Main Config UI File"
 msgstr "Hałoŭny fajł interfejsu dla naładaŭ"
 
 #: private/packages.cpp:83
+#, kde-format
 msgid "Configuration XML file"
 msgstr "Fajł „XML” dla naładaŭ"
 
 #: private/packages.cpp:84 private/packages.cpp:106 private/packages.cpp:145
 #: private/packages.cpp:159
+#, kde-format
 msgid "Main Script File"
 msgstr "Hałoŭny fajł sa skryptom"
 
 #: private/packages.cpp:85
+#, kde-format
 msgid "Default configuration"
 msgstr ""
 
 #: private/packages.cpp:86 private/packages.cpp:180
+#, kde-format
 msgid "Animation scripts"
 msgstr ""
 
 #: private/packages.cpp:140
+#, kde-format
 msgid "Service Descriptions"
 msgstr ""
 
 #: private/packages.cpp:167
+#, kde-format
 msgid "Images for dialogs"
 msgstr "Vyjavy dla dyjalohaŭ"
 
 #: private/packages.cpp:170 private/packages.cpp:172
+#, kde-format
 msgid "Generic dialog background"
 msgstr "Zvyčajny fon dla dyjalohaŭ"
 
 #: private/packages.cpp:175 private/packages.cpp:177
+#, kde-format
 msgid "Theme for the logout dialog"
 msgstr "Matyŭ dla dyjalohu vychadu"
 
 #: private/packages.cpp:179
+#, kde-format
 msgid "Wallpaper packages"
 msgstr "Pakunki sa špalerami"
 
 #: private/packages.cpp:182 private/packages.cpp:246
+#, kde-format
 msgid "Images for widgets"
 msgstr "Vyjavy dla widžetaŭ"
 
 #: private/packages.cpp:185 private/packages.cpp:187
+#, kde-format
 msgid "Background image for widgets"
 msgstr "Fonavaja vyjava dla widžetaŭ"
 
 #: private/packages.cpp:190 private/packages.cpp:192
+#, kde-format
 msgid "Analog clock face"
 msgstr "Vyhlad strełkavaha hadzińnika"
 
 #: private/packages.cpp:195 private/packages.cpp:197
+#, kde-format
 msgid "Background image for panels"
 msgstr "Fonavaja vyjava dla panelaŭ"
 
 #: private/packages.cpp:200 private/packages.cpp:202
+#, kde-format
 msgid "Background for graphing widgets"
 msgstr "Fon dla widžetaŭ z hrafikami"
 
 #: private/packages.cpp:205 private/packages.cpp:207
+#, kde-format
 msgid "Background image for tooltips"
 msgstr "Fonavaja vyjava dla padkazak"
 
 #: private/packages.cpp:209
+#, kde-format
 msgid "Opaque images for dialogs"
 msgstr "Nieprazrystyja vyjavy dla dyjalohaŭ"
 
 #: private/packages.cpp:212 private/packages.cpp:214
+#, kde-format
 msgid "Opaque generic dialog background"
 msgstr "Zvyčajny nieprazrysty fon dla dyjalohaŭ"
 
 #: private/packages.cpp:217 private/packages.cpp:219
+#, kde-format
 msgid "Opaque theme for the logout dialog"
 msgstr "Nieprazrysty matyŭ dla dyjalohu vychadu"
 
 #: private/packages.cpp:221
+#, kde-format
 msgid "Opaque images for widgets"
 msgstr "Nieprazrystyja vyjavy dla widžetaŭ"
 
 #: private/packages.cpp:224 private/packages.cpp:226
+#, kde-format
 msgid "Opaque background image for panels"
 msgstr "Nieprazrystaja fonavaja vyjava dla panelaŭ"
 
 #: private/packages.cpp:229 private/packages.cpp:231
+#, kde-format
 msgid "Opaque background image for tooltips"
 msgstr "Nieprazrystaja fonavaja vyjava dla padkazak"
 
 #: private/packages.cpp:234
+#, kde-format
 msgid "Low color images for dialogs"
 msgstr "Vyjavy z małoj kolkaściu koleraŭ dla dyjalohaŭ"
 
 #: private/packages.cpp:237 private/packages.cpp:239
+#, kde-format
 msgid "Low color generic dialog background"
 msgstr "Zvyčajny fon z małoj kolkaściu koleraŭ dla dyjalohaŭ"
 
 #: private/packages.cpp:242 private/packages.cpp:244
+#, kde-format
 msgid "Low color theme for the logout dialog"
 msgstr "Matyŭ z małoj kolkaściu koleraŭ dla dyjalohu vychadu"
 
 #: private/packages.cpp:249 private/packages.cpp:251
+#, kde-format
 msgid "Low color background image for widgets"
 msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla widžetaŭ"
 
 #: private/packages.cpp:254 private/packages.cpp:256
+#, kde-format
 msgid "Low color analog clock face"
 msgstr "Vyhlad strełkavaha hadzińnika z małoj kolkaściu koleraŭ"
 
 #: private/packages.cpp:259 private/packages.cpp:261
+#, kde-format
 msgid "Low color background image for panels"
 msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla panelaŭ"
 
 #: private/packages.cpp:264 private/packages.cpp:266
+#, kde-format
 msgid "Low color background for graphing widgets"
 msgstr "Fon z małoj kolkaściu koleraŭ dla widžetaŭ z hrafikami"
 
 #: private/packages.cpp:269 private/packages.cpp:271
+#, kde-format
 msgid "Low color background image for tooltips"
 msgstr "Fonavaja vyjava z małoj kolkaściu koleraŭ dla padkazak"
 
 #: private/packages.cpp:273
+#, kde-format
 msgid "KColorScheme configuration file"
 msgstr "Fajł naładaŭ dla „KColorScheme”"
 
 #: private/packages.cpp:293
+#, kde-format
 msgid "Screenshot"
 msgstr "Zdymak ekranu"
 
 #: private/packages.cpp:337 private/packages.cpp:389
+#, kde-format
 msgid "Recommended wallpaper file"
 msgstr "Paradžany fajł špaleraŭ"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: private/pinpairing.ui:41
+#, kde-format
 msgid ""
 "Enter a password below. Enter the same password on the device to which you "
 "are trying to connect."
@@ -597,27 +689,31 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, allServicesCheckbox)
 #: private/pinpairing.ui:64
+#, kde-format
 msgid "Allow this user access to any service"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, persistentCheckbox)
 #: private/pinpairing.ui:71
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "%1 is the name of the applet"
 #| msgid "Remove this %1"
 msgid "Remember this user"
 msgstr "Vydali hety aplet „%1”"
 
 #: private/pinpairingdialog.cpp:44
+#, kde-format
 msgid "Incoming connection request"
 msgstr ""
 
 #: private/pinpairingdialog.cpp:49
+#, kde-format
 msgid "Connect with remote widget"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: private/publish.ui:17
+#, kde-format
 msgid ""
 "Sharing a widget on the network allows you to access this widget from "
 "another computer as a remote control."
@@ -625,27 +721,33 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, publishCheckbox)
 #: private/publish.ui:27
+#, kde-format
 msgid "Share this widget on the network"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, allUsersCheckbox)
 #: private/publish.ui:37
+#, kde-format
 msgid "Allow everybody to freely access this widget"
 msgstr ""
 
 #: private/remoteservicejob.cpp:119
+#, kde-format
 msgid "Job no longer valid, operation is not enabled."
 msgstr ""
 
 #: private/remoteservicejob.cpp:129
+#, kde-format
 msgid "Job no longer valid, invalid parameters."
 msgstr ""
 
 #: private/remoteservicejob.cpp:172
+#, kde-format
 msgid "Timeout."
 msgstr ""
 
 #: private/service_p.h:54
+#, kde-format
 msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Niapravilnaja („null”) pasłuha nia ŭmieje ničoha rabić."
@@ -656,14 +758,17 @@ msgid "The \"%1\" widget is not installed."
 msgstr ""
 
 #: remote/accessappletjob.cpp:96
+#, kde-format
 msgid "Server sent an invalid plasmoid package."
 msgstr ""
 
 #: remote/accessappletjob.cpp:112
+#, kde-format
 msgid "You are about to open a remote widget on your system.<br>"
 msgstr ""
 
 #: remote/accessappletjob.cpp:113
+#, kde-format
 msgid "<table width=\"100%\">"
 msgstr ""
 
@@ -689,41 +794,46 @@ msgid "<tr><td align=\"right\"><b>Server:</b></td><td>&nbsp; %1</td></tr>"
 msgstr ""
 
 #: remote/accessappletjob.cpp:120
+#, kde-format
 msgid "</table>"
 msgstr ""
 
 #: remote/accessappletjob.cpp:121
+#, kde-format
 msgid "<br><br>Are you sure you want to open this widget on your system?"
 msgstr ""
 
 #: remote/accessappletjob.cpp:124
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "%1 is the name of the applet"
 #| msgid "Remove this %1"
 msgid "Remote Widget"
 msgstr "Vydali hety aplet „%1”"
 
 #: remote/accessappletjob.cpp:126
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Next Widget"
 msgid "Open Widget"
 msgstr "Nastupny widžet"
 
 #: remote/accessappletjob.cpp:127
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Next Widget"
 msgid "Reject Widget"
 msgstr "Nastupny widžet"
 
 #: remote/accessappletjob.cpp:136
+#, kde-format
 msgid "User rejected"
 msgstr ""
 
 #: remote/accessappletjob.cpp:164
+#, kde-format
 msgid "Timeout"
 msgstr ""
 
 #: remote/accessappletjob.cpp:200
+#, kde-format
 msgid ""
 "Your system does not provide support for the 'remote widgets' feature. "
 "Access Failed."
@@ -770,10 +880,12 @@ msgid "You have requested access to the %1 hosted at %2."
 msgstr ""
 
 #: runnersyntax.cpp:103
+#, kde-format
 msgid "search term"
 msgstr "šukany vyraz"
 
 #: wallpaper.cpp:245
+#, kde-format
 msgid "Unknown Wallpaper"
 msgstr "Nieviadomyja špalery"
 

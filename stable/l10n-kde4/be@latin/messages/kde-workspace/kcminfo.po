@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-11-04 17:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,21 +19,24 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
 #: info.cpp:40
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "KDE Panel System Information Control Module"
 msgid "System Information Control Module"
 msgstr "Modul źviestak pra systemu dla paneli „KDE”"
 
 #: info.cpp:42
+#, kde-format
 msgid ""
 "(c) 2008 Nicolas Ternisien\n"
 "(c) 1998 - 2002 Helge Deller"
@@ -42,14 +45,17 @@ msgstr ""
 "© 1998 - 2002 Helge Deller"
 
 #: info.cpp:45
+#, kde-format
 msgid "Nicolas Ternisien"
 msgstr "Nicolas Ternisien"
 
 #: info.cpp:46
+#, kde-format
 msgid "Helge Deller"
 msgstr "Helge Deller"
 
 #: info.cpp:68
+#, kde-format
 msgid "This list displays system information on the selected category."
 msgstr "Hety śpis pakazvaje systemnyja źviestki dla vybranaj katehoryi."
 
@@ -60,6 +66,7 @@ msgid "No information available about %1."
 msgstr "Pra modul „%1” niama źviestak."
 
 #: info.cpp:115
+#, kde-format
 msgid ""
 "All the information modules return information about a certain aspect of "
 "your computer hardware or your operating system."
@@ -68,22 +75,27 @@ msgstr ""
 "aparatury ci aperacyjnaj systemy."
 
 #: main.cpp:57
+#, kde-format
 msgid "Interrupt"
 msgstr "Pierarvańnie"
 
 #: main.cpp:60
+#, kde-format
 msgid "I/O-Port"
 msgstr "Port pierasyłańnia źviestak"
 
 #: main.cpp:63
+#, kde-format
 msgid "SCSI"
 msgstr "SCSI"
 
 #: main.cpp:66
+#, kde-format
 msgid "DMA-Channel"
 msgstr "Kanał „DMA”"
 
 #: main.cpp:69
+#, kde-format
 msgid "X-Server"
 msgstr "Server „X”"
 

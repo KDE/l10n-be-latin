@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_quicklaunch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-11-17 13:47+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,83 +20,93 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: launchergrid.cpp:401 popuplauncherlist.cpp:345
+#, kde-format
 msgid "Multiple items"
 msgstr ""
 
 #: launchergrid.cpp:497 popuplauncherlist.cpp:441
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Configure QuickLaunch"
 msgid "Quicklaunch"
 msgstr "Naładź aplet chutkaha ŭklučeńnia"
 
 #: launchergrid.cpp:498 popuplauncherlist.cpp:442
+#, kde-format
 msgid "Add launchers by Drag and Drop or by using the context menu."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, autoSectionCountEnabledLabel)
 #: quicklaunch.cpp:148 quicklaunchConfig.ui:20
+#, kde-format
 msgid "Determine number of rows automatically:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, sectionCountLabel)
 #: quicklaunch.cpp:150 quicklaunchConfig.ui:53
+#, kde-format
 msgid "Number of rows:"
 msgstr ""
 
 #: quicklaunch.cpp:160
+#, kde-format
 msgid "Determine number of columns automatically:"
 msgstr ""
 
 #: quicklaunch.cpp:162
+#, kde-format
 msgid "Number of columns:"
 msgstr ""
 
 #: quicklaunch.cpp:178
+#, kde-format
 msgid "General"
 msgstr "Ahulnaje"
 
 #: quicklaunch.cpp:732
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Add Icon..."
 msgid "Add Launcher..."
 msgstr "Dadaj ikonu..."
 
 #: quicklaunch.cpp:735
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Add Icon..."
 msgid "Edit Launcher..."
 msgstr "Dadaj ikonu..."
 
 #: quicklaunch.cpp:738
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Remove Icon"
 msgid "Remove Launcher"
 msgstr "Vydali ikonu"
 
 #: quicklaunch.cpp:799
+#, kde-format
 msgid "Show hidden icons"
 msgstr ""
 
 #: quicklaunch.cpp:799
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Visible icons:"
 msgid "Hide icons"
 msgstr "Vidočnyja ikony:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, quicklaunchConfig)
 #: quicklaunchConfig.ui:14
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Configure QuickLaunch"
 msgid "Configure Quicklaunch"
 msgstr "Naładź aplet chutkaha ŭklučeńnia"
 
 #. i18n: ectx: property (text), widget (QLabel, launcherNamesVisibleLabel)
 #: quicklaunchConfig.ui:79
+#, kde-format
 msgid "Show launcher names:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, popupEnabledLabel)
 #: quicklaunchConfig.ui:99
+#, kde-format
 msgid "Enable popup:"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:50+0200\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2008-11-19 17:37+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,155 +19,192 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
 #: icons.cpp:49
+#, kde-format
 msgid "Use of Icon"
 msgstr "Vykarystańnie ikony"
 
 #: icons.cpp:66
+#, kde-format
 msgctxt "@label The icon rendered by default"
 msgid "Default"
 msgstr "Zmoŭčanaja"
 
 #: icons.cpp:68
+#, kde-format
 msgctxt "@label The icon rendered as active"
 msgid "Active"
 msgstr "Dziejnaja"
 
 #: icons.cpp:70
+#, kde-format
 msgctxt "@label The icon rendered as disabled"
 msgid "Disabled"
 msgstr "Vyklučanaja"
 
 #: icons.cpp:83
+#, kde-format
 msgid "Size:"
 msgstr "Pamier:"
 
 #: icons.cpp:91
+#, kde-format
 msgid "Animate icons"
 msgstr "Animuj ikony"
 
 #: icons.cpp:117
+#, kde-format
 msgid "Set Effect..."
 msgstr "Vybiery efekt..."
 
 #: icons.cpp:132
+#, kde-format
 msgid "Desktop"
 msgstr "Rabočy stoł"
 
 #: icons.cpp:133
+#, kde-format
 msgid "Toolbar"
 msgstr "Panel pryładździa"
 
 #: icons.cpp:134
+#, kde-format
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
 
 #: icons.cpp:135
+#, kde-format
 msgid "Small Icons"
 msgstr "Drobnyja ikony"
 
 #: icons.cpp:136
+#, kde-format
 msgid "Panel"
 msgstr "Panel"
 
 #: icons.cpp:137
+#, kde-format
 msgid "Dialogs"
 msgstr ""
 
 #: icons.cpp:138
+#, kde-format
 msgid "All Icons"
 msgstr "Usie ikony"
 
 #: icons.cpp:437
+#, kde-format
 msgid "Setup Default Icon Effect"
 msgstr "Nałady zmoŭčanaha efektu dla ikon"
 
 #: icons.cpp:438
+#, kde-format
 msgid "Setup Active Icon Effect"
 msgstr "Nałady efektu dla dziejnych ikon"
 
 #: icons.cpp:439
+#, kde-format
 msgid "Setup Disabled Icon Effect"
 msgstr "Nałady efektu dla vyklučanych ikon"
 
 #: icons.cpp:517
+#, kde-format
 msgid "&Effect:"
 msgstr "&Efekt:"
 
 #: icons.cpp:520
+#, kde-format
 msgid "No Effect"
 msgstr "Biez efektu"
 
 #: icons.cpp:521
+#, kde-format
 msgid "To Gray"
 msgstr "Šerań"
 
 #: icons.cpp:522
+#, kde-format
 msgid "Colorize"
 msgstr "Farba"
 
 #: icons.cpp:523
+#, kde-format
 msgid "Gamma"
 msgstr "Hama"
 
 #: icons.cpp:524
+#, kde-format
 msgid "Desaturate"
 msgstr "Pryciamniaj"
 
 #: icons.cpp:525
+#, kde-format
 msgid "To Monochrome"
 msgstr "Čorna-biełaje"
 
 #: icons.cpp:530
+#, kde-format
 msgid "&Semi-transparent"
 msgstr "&Napałovu prazrystaje"
 
 #: icons.cpp:534
+#, kde-format
 msgid "Preview"
 msgstr "Padhlad"
 
 #: icons.cpp:545
+#, kde-format
 msgid "Effect Parameters"
 msgstr "Parametry efektu"
 
 #: icons.cpp:554
+#, kde-format
 msgid "&Amount:"
 msgstr "&Kolkaść:"
 
 #: icons.cpp:560
+#, kde-format
 msgid "Co&lor:"
 msgstr "Ko&ler:"
 
 #: icons.cpp:566
+#, kde-format
 msgid "&Second color:"
 msgstr "&Druhi koler:"
 
 #: iconthemes.cpp:92
+#, kde-format
 msgid "Name"
 msgstr "Nazva"
 
 #: iconthemes.cpp:93
+#, kde-format
 msgid "Description"
 msgstr "Apisańnie"
 
 #: iconthemes.cpp:102
+#, kde-format
 msgid "Install Theme File..."
 msgstr "Zainstaluj matyŭ z fajła..."
 
 #: iconthemes.cpp:104
+#, kde-format
 msgid "Install a theme archive file you already have locally"
 msgstr ""
 "Zainstaluj matyŭ z archiŭnaha fajła, jaki ty ŭžo maješ u siabie na kamputary"
 
 #: iconthemes.cpp:105
+#, kde-format
 msgid ""
 "If you already have a theme archive locally, this button will unpack it and "
 "make it available for KDE applications"
@@ -177,14 +214,17 @@ msgstr ""
 "systemy „KDE”."
 
 #: iconthemes.cpp:108
+#, kde-format
 msgid "Get New Themes..."
 msgstr "Vaźmi novych matyvaŭ..."
 
 #: iconthemes.cpp:110
+#, kde-format
 msgid "Get new themes from the Internet"
 msgstr "Vaźmi novych matyvaŭ ź sieciva"
 
 #: iconthemes.cpp:111
+#, kde-format
 msgid ""
 "You need to be connected to the Internet to use this action. A dialog will "
 "display a list of themes from the http://www.kde.org website. Clicking the "
@@ -195,22 +235,27 @@ msgstr ""
 "peŭnaha matyva, ty zainstaluješ jaho ŭ svajoj systemie."
 
 #: iconthemes.cpp:114
+#, kde-format
 msgid "Remove Theme"
 msgstr "Vydali matyŭ"
 
 #: iconthemes.cpp:116
+#, kde-format
 msgid "Remove the selected theme from your disk"
 msgstr "Vydali z svajho dyska vybrany matyŭ"
 
 #: iconthemes.cpp:117
+#, kde-format
 msgid "This will remove the selected theme from your disk."
 msgstr "Hetaja aperacyja vydalaje vybrany matyŭ z svajho dyska."
 
 #: iconthemes.cpp:121
+#, kde-format
 msgid "Select the icon theme you want to use:"
 msgstr "Vybiery patrebny matyŭ ikon:"
 
 #: iconthemes.cpp:189
+#, kde-format
 msgid "Drag or Type Theme URL"
 msgstr "Kiń siudy albo ŭpišy adras matyva"
 
@@ -229,10 +274,12 @@ msgstr ""
 "Spraŭdź słušnaść adrasu „%1”."
 
 #: iconthemes.cpp:212
+#, kde-format
 msgid "The file is not a valid icon theme archive."
 msgstr "Hety fajł nia jość sapraŭdnym archivam z matyvam ikon."
 
 #: iconthemes.cpp:223
+#, kde-format
 msgid ""
 "A problem occurred during the installation process; however, most of the "
 "themes in the archive have been installed"
@@ -241,6 +288,7 @@ msgstr ""
 "była zainstalavanaja."
 
 #: iconthemes.cpp:245
+#, kde-format
 msgid "Installing icon themes"
 msgstr "Instalavańnie matyvaŭ ikon"
 
@@ -259,43 +307,52 @@ msgstr ""
 ">Hetaja aperacyja vydalić fajły, jakija naležać hetamu matyvu.</qt>"
 
 #: iconthemes.cpp:364
+#, kde-format
 msgid "Confirmation"
 msgstr "Paćviardžeńnie"
 
 #: main.cpp:56
+#, kde-format
 msgid "&Theme"
 msgstr "&Matyŭ"
 
 #: main.cpp:61
+#, kde-format
 msgid "Ad&vanced"
 msgstr "&Asablivaje"
 
 #: main.cpp:64
+#, kde-format
 msgid "Icons"
 msgstr "Ikony"
 
 #: main.cpp:65
+#, kde-format
 msgid "Icons Control Panel Module"
 msgstr "Modul kiravańnia ikonami"
 
 #: main.cpp:67
+#, kde-format
 msgid "(c) 2000-2003 Geert Jansen"
 msgstr "© 2000-2003 Geert Jansen"
 
 #: main.cpp:68
+#, kde-format
 msgid "Geert Jansen"
 msgstr "Geert Jansen"
 
 #: main.cpp:69
+#, kde-format
 msgid "Antonio Larrosa Jimenez"
 msgstr "Antonio Larrosa Jimenez"
 
 #: main.cpp:70
+#, kde-format
 msgid "Torsten Rahn"
 msgstr "Torsten Rahn"
 
 #: main.cpp:103
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "<h1>Icons</h1>This module allows you to choose the icons for your desktop."
 #| "<p>To choose an icon theme, click on its name and apply your choice by "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-14 08:05+0000\n"
+"POT-Creation-Date: 2016-11-19 03:25+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kicondialog.cpp:260 kicondialog.cpp:272 kicondialog.cpp:606
+#: kicondialog.cpp:260 kicondialog.cpp:272 kicondialog.cpp:602
 msgid "Select Icon"
 msgstr "Abiary ikonu"
 
@@ -31,73 +31,74 @@ msgstr "Krynica ikony"
 msgid "S&ystem icons:"
 msgstr "&Systemnyja ikony:"
 
-#: kicondialog.cpp:305
+#: kicondialog.cpp:304
 msgid "O&ther icons:"
 msgstr "&Inšyja ikony:"
 
-#: kicondialog.cpp:308
+#: kicondialog.cpp:307
 msgid "&Browse..."
 msgstr "&Prahladaj..."
 
-#: kicondialog.cpp:319
+#: kicondialog.cpp:318
 msgid "&Search:"
 msgstr "&Šukaj:"
 
-#: kicondialog.cpp:326
+#: kicondialog.cpp:325
 msgid "Search interactively for icon names (e.g. folder)."
 msgstr "Dziejny pošuk nazvaŭ ikonaŭ (naprykład, „kataloh”)."
 
-#: kicondialog.cpp:356
+#: kicondialog.cpp:355
 msgid "Actions"
 msgstr "Aperacyi"
 
-#: kicondialog.cpp:357
-msgid "Animations"
-msgstr "Animacyja"
-
-#: kicondialog.cpp:358
+#: kicondialog.cpp:356
 msgid "Applications"
 msgstr "Aplikacyi"
 
-#: kicondialog.cpp:359
+#: kicondialog.cpp:357
 msgid "Categories"
 msgstr "Katehoryi"
 
-#: kicondialog.cpp:360
+#: kicondialog.cpp:358
 msgid "Devices"
 msgstr "Pryłady"
 
-#: kicondialog.cpp:361
+#: kicondialog.cpp:359
 msgid "Emblems"
 msgstr "Znaki"
 
-#: kicondialog.cpp:362
+#: kicondialog.cpp:360
 msgid "Emotes"
 msgstr "Smajliki"
 
-#: kicondialog.cpp:363
-msgid "Filesystems"
-msgstr "Fajłavaja systema"
-
-#: kicondialog.cpp:364
-msgid "International"
-msgstr "Mižnarodnaje"
-
-#: kicondialog.cpp:365
+#: kicondialog.cpp:361
 msgid "Mimetypes"
 msgstr "Typy MIME"
 
-#: kicondialog.cpp:366
+#: kicondialog.cpp:362
 msgid "Places"
 msgstr "Miescy"
 
-#: kicondialog.cpp:367
+#: kicondialog.cpp:363
 msgid "Status"
 msgstr "Stanovišča"
 
-#: kicondialog.cpp:606
+#: kicondialog.cpp:364
+msgid "All"
+msgstr ""
+
+#: kicondialog.cpp:602
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr "*.png *.xpm *.svg *.svgz|Fajły ikonaŭ (*.png *.xpm *.svg *.svgz)"
+
+#~ msgid "Animations"
+#~ msgstr "Animacyja"
+
+#~ msgid "Filesystems"
+#~ msgstr "Fajłavaja systema"
+
+#~ msgid "International"
+#~ msgstr "Mižnarodnaje"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"

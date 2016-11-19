@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-28 07:55+0000\n"
+"POT-Creation-Date: 2016-11-19 22:53+0100\n"
 "PO-Revision-Date: 2008-10-05 10:31+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,17 +20,18 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: contents/config/config.qml:25
+#, kde-format
 msgid "Appearance"
 msgstr ""
 
 #: contents/ui/configGeneral.qml:38
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show &seconds hand"
 msgid "Show seconds hand"
 msgstr "Pakazvaj &srełki hadzińnika"
 
 #: contents/ui/configGeneral.qml:42
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show &time zone"
 msgid "Show time zone"
 msgstr "Pakazvaj &časavy pojas"

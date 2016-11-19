@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-10 07:54+0000\n"
+"POT-Creation-Date: 2016-11-19 22:53+0100\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -131,11 +131,13 @@ msgstr "Vykładvaj ikony:"
 
 #: package/contents/ui/ConfigIcons.qml:153
 #: plugins/folder/viewpropertiesmenu.cpp:34
+#, kde-format
 msgid "Rows"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:153
 #: plugins/folder/viewpropertiesmenu.cpp:38
+#, kde-format
 msgid "Columns"
 msgstr ""
 
@@ -147,11 +149,13 @@ msgstr "Dapasuj da sietki"
 
 #: package/contents/ui/ConfigIcons.qml:165
 #: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
 msgid "Left"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:165
 #: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
 msgid "Right"
 msgstr ""
 
@@ -176,7 +180,7 @@ msgstr "Paradkuj ikony:"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:58
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort Icons"
 #| msgid "Unsorted"
 msgid "Unsorted"
@@ -184,7 +188,7 @@ msgstr "Biez paradku"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:62
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Name"
 msgid "Name"
@@ -192,7 +196,7 @@ msgstr "Pavodle nazvy"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:66
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Size"
 msgid "Size"
@@ -200,7 +204,7 @@ msgstr "Pavodle pamieraŭ"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:70
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Type"
 msgid "Type"
@@ -208,7 +212,7 @@ msgstr "Pavodle typaŭ"
 
 #: package/contents/ui/ConfigIcons.qml:203
 #: plugins/folder/viewpropertiesmenu.cpp:74
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Date"
 msgid "Date"
@@ -216,6 +220,7 @@ msgstr "Pavodle dataŭ"
 
 #: package/contents/ui/ConfigIcons.qml:220
 #: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
 msgid "Descending"
 msgstr ""
 
@@ -248,11 +253,13 @@ msgstr "Pavodle pamieraŭ"
 
 #: package/contents/ui/ConfigIcons.qml:264
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Small"
 msgstr "Mały"
 
 #: package/contents/ui/ConfigIcons.qml:278
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Large"
 msgstr "Vialiki"
 
@@ -401,197 +408,224 @@ msgid "Up"
 msgstr ""
 
 #: plugins/folder/directorypicker.cpp:45
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Folder"
 msgstr "Vyłučy ŭsio"
 
 #: plugins/folder/foldermodel.cpp:250
+#, kde-format
 msgid "&Refresh Desktop"
 msgstr "&Aktualizuj stoł"
 
 #: plugins/folder/foldermodel.cpp:250 plugins/folder/foldermodel.cpp:1184
+#, kde-format
 msgid "&Refresh View"
 msgstr "&Aktualizuj prahlad"
 
 #: plugins/folder/foldermodel.cpp:1181
+#, kde-format
 msgid "&Reload"
 msgstr "&Pieračytaj"
 
 #: plugins/folder/foldermodel.cpp:1187
+#, kde-format
 msgid "&Rename"
 msgstr "&Źmiani nazvu"
 
 #: plugins/folder/foldermodel.cpp:1190
+#, kde-format
 msgid "&Move to Trash"
 msgstr "&Vykiń u śmietnicu"
 
 #: plugins/folder/foldermodel.cpp:1193
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:334
+#, kde-format
 msgid "&Empty Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
 #: plugins/folder/foldermodel.cpp:1196
+#, kde-format
 msgid "&Delete"
 msgstr "&Vydali"
 
 #: plugins/folder/foldermodel.cpp:1256
+#, kde-format
 msgid "&Paste"
 msgstr "&Uklej"
 
 #: plugins/folder/internallibkonq/konq_copytomenu.cpp:84
+#, kde-format
 msgctxt "@title:menu"
 msgid "Copy To"
 msgstr "Skapijuj"
 
 #: plugins/folder/internallibkonq/konq_copytomenu.cpp:90
+#, kde-format
 msgctxt "@title:menu"
 msgid "Move To"
 msgstr "Pieraniasi"
 
 #: plugins/folder/internallibkonq/konq_copytomenu.cpp:114
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Desktop Folder"
 msgctxt "@title:menu"
 msgid "Home Folder"
 msgstr "Kataloh stała"
 
 #: plugins/folder/internallibkonq/konq_copytomenu.cpp:121
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Desktop Folder"
 msgctxt "@title:menu"
 msgid "Root Folder"
 msgstr "Kataloh stała"
 
 #: plugins/folder/internallibkonq/konq_copytomenu.cpp:156
+#, kde-format
 msgctxt "@title:menu in Copy To or Move To submenu"
 msgid "Browse..."
 msgstr "Ahladaj..."
 
 #: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
+#, kde-format
 msgctxt "@title:menu"
 msgid "Copy Here"
 msgstr "Skapijuj siudy"
 
 #: plugins/folder/internallibkonq/konq_copytomenu.cpp:230
+#, kde-format
 msgctxt "@title:menu"
 msgid "Move Here"
 msgstr "Pieraniasi siudy"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:241
+#, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:264
+#, kde-format
 msgid "Create &Folder..."
 msgstr "Stvary &kataloh..."
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:275
+#, kde-format
 msgid "&Restore"
 msgstr "&Uznavi"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show All Files"
 msgid "Show Original Directory"
 msgstr "Pakazvaj usie fajły"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show All Files"
 msgid "Show Original File"
 msgstr "Pakazvaj usie fajły"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:346
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "&Empty Trash Bin"
 msgid "&Configure Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:370
+#, kde-format
 msgid "&Bookmark This Page"
 msgstr "Stvary &zakładku dla hetaj staronki"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:372
+#, kde-format
 msgid "&Bookmark This Location"
 msgstr "Stvary &zakładku dla hetaha miesca"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:375
+#, kde-format
 msgid "&Bookmark This Folder"
 msgstr "Stvary &zakładku dla hetaha kataloha"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:377
+#, kde-format
 msgid "&Bookmark This Link"
 msgstr "Stvary &zakładku dla hetaha łuča"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:379
+#, kde-format
 msgid "&Bookmark This File"
 msgstr "Stvary &zakładku dla hetaha fajła"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:413
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show previews"
 msgid "Preview In"
 msgstr "Pakazvaj padhlady"
 
 #: plugins/folder/internallibkonq/konq_popupmenu.cpp:448
+#, kde-format
 msgid "&Properties"
 msgstr "&Ułaścivaści"
 
 #: plugins/folder/labelgenerator.cpp:97
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Show the Desktop folder"
 msgid "Desktop Folder"
 msgstr "Pakazvaj kataloh stała"
 
 #: plugins/folder/viewpropertiesmenu.cpp:31
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Arrange icons:"
 msgid "Arrange In"
 msgstr "Vykładvaj ikony:"
 
 #: plugins/folder/viewpropertiesmenu.cpp:43
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Align to Grid"
 msgid "Align"
 msgstr "Dapasuj da sietki"
 
 #: plugins/folder/viewpropertiesmenu.cpp:55
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Sort icons:"
 msgid "Sort By"
 msgstr "Paradkuj ikony:"
 
 #: plugins/folder/viewpropertiesmenu.cpp:81
-#, fuzzy
+#, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "Folders First"
 msgid "Folders First"
 msgstr "Spačatku katalohi"
 
 #: plugins/folder/viewpropertiesmenu.cpp:84
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Icon size:"
 msgid "Icon Size"
 msgstr "Pamier ikon:"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Tiny"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Small Medium"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Medium"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
 msgid "Huge"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:97
+#, kde-format
 msgid "Locked"
 msgstr ""
 

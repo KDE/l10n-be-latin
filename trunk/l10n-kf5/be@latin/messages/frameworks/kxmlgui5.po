@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:12+0100\n"
+"POT-Creation-Date: 2016-12-10 02:34+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -27,11 +27,12 @@ msgstr "Pra %1"
 #: kaboutapplicationdialog.cpp:98
 #, fuzzy, kde-format
 #| msgid ""
-#| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
-#| "b></html>"
-msgid "<html><font size=\"5\">%1</font></html>"
+#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+#| "%3</html>"
+msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
 msgstr ""
-"<html><font size=\"5\">Rabočy stoł KDE</font><br /><b>Versija %1</b></html>"
+"<html><font size=\"5\">%1</font><br /><b>Versija %2</b><br />Karystajecca "
+"KDE %3</html>"
 
 #: kaboutapplicationdialog.cpp:136
 #, kde-format
@@ -43,26 +44,20 @@ msgstr "Licenzija: %1"
 msgid "&About"
 msgstr "&Pra aplikacyju"
 
-#: kaboutapplicationdialog.cpp:153
-#, fuzzy, kde-format
-#| msgid "<br />Version: %1"
-msgid "<b>Version %1</b>"
-msgstr "<br />Versija: %1"
-
-#: kaboutapplicationdialog.cpp:158
+#: kaboutapplicationdialog.cpp:155
 #, kde-format
 msgid ""
-"Using:<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The "
-"<em>%4</em> windowing system</li></ul>"
+"<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
+"%4</em> windowing system</li></ul>"
 msgstr ""
 
-#: kaboutapplicationdialog.cpp:168
+#: kaboutapplicationdialog.cpp:165
 #, fuzzy, kde-format
-#| msgid "Version:"
-msgid "&Version"
-msgstr "Versija:"
+#| msgid "Libraries"
+msgid "&Libraries"
+msgstr "Biblijateki"
 
-#: kaboutapplicationdialog.cpp:188
+#: kaboutapplicationdialog.cpp:185
 #, kde-format
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
@@ -71,32 +66,32 @@ msgstr ""
 "Kali łaska, paviedamlaj pra chiby praz placoŭku: <a href=\"http://bugs.kde."
 "org\">http://bugs.kde.org</a>.\n"
 
-#: kaboutapplicationdialog.cpp:192 kaboutapplicationdialog.cpp:196
+#: kaboutapplicationdialog.cpp:189 kaboutapplicationdialog.cpp:193
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr "Kali łaska, paviedamlaj pra chiby praz <a href=\"mailto:%1\">%2</a>.\n"
 
-#: kaboutapplicationdialog.cpp:223
+#: kaboutapplicationdialog.cpp:220
 #, kde-format
 msgid "A&uthor"
 msgstr "A&ŭtar"
 
-#: kaboutapplicationdialog.cpp:223
+#: kaboutapplicationdialog.cpp:220
 #, kde-format
 msgid "A&uthors"
 msgstr "A&ŭtary"
 
-#: kaboutapplicationdialog.cpp:250
+#: kaboutapplicationdialog.cpp:247
 #, kde-format
 msgid "&Thanks To"
 msgstr "&Padziaki"
 
-#: kaboutapplicationdialog.cpp:289
+#: kaboutapplicationdialog.cpp:286
 #, kde-format
 msgid "T&ranslation"
 msgstr "P&ierakład"
 
-#: kaboutapplicationdialog.cpp:321
+#: kaboutapplicationdialog.cpp:318
 #, kde-format
 msgid "License Agreement"
 msgstr "Licenzijnaje pahadnieńnie"
@@ -1490,6 +1485,25 @@ msgstr "&Nałady"
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
 
+#, fuzzy
+#~| msgid ""
+#~| "<html><font size=\"5\">K Desktop Environment</font><br /><b>Version %1</"
+#~| "b></html>"
+#~ msgid "<html><font size=\"5\">%1</font></html>"
+#~ msgstr ""
+#~ "<html><font size=\"5\">Rabočy stoł KDE</font><br /><b>Versija %1</b></"
+#~ "html>"
+
+#, fuzzy
+#~| msgid "<br />Version: %1"
+#~ msgid "<b>Version %1</b>"
+#~ msgstr "<br />Versija: %1"
+
+#, fuzzy
+#~| msgid "Version:"
+#~ msgid "&Version"
+#~ msgstr "Versija:"
+
 #~ msgid "Save as Scheme Defaults"
 #~ msgstr "Zapišy jak zmoŭčańni schiemy"
 
@@ -1503,16 +1517,6 @@ msgstr "Hałoŭnaja panel pryładździa"
 #~ msgstr ""
 #~ "Nie ŭdałosia zekspartavać schiemu klavijaturnych skarotaŭ, bo "
 #~ "padadzienaje niapravilnaja miesca."
-
-#, fuzzy
-#~| msgid ""
-#~| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-#~| "%3</html>"
-#~ msgid ""
-#~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
-#~ msgstr ""
-#~ "<html><font size=\"5\">%1</font><br /><b>Versija %2</b><br />Karystajecca "
-#~ "KDE %3</html>"
 
 #, fuzzy
 #~| msgid ""
@@ -2338,9 +2342,6 @@ msgstr "Hałoŭnaja panel pryładździa"
 
 #~ msgid "Configuration description files"
 #~ msgstr "Fajły apisańnia naładaŭ"
-
-#~ msgid "Libraries"
-#~ msgstr "Biblijateki"
 
 #~ msgid "Includes/Headers"
 #~ msgstr "Includy/Zahałoŭki"

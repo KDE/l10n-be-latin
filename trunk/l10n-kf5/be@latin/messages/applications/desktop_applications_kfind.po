@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-06 07:40+0000\n"
+"POT-Creation-Date: 2016-12-23 02:59+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -17,7 +17,18 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: src/org.kde.kfind.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "RPM-Find"
 msgctxt "Name"
+msgid "KFind"
+msgstr "Pošuk pakunka „RPM”"
+
+#: src/org.kde.kfind.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Find Files/Folders"
+msgctxt "GenericName"
 msgid "Find Files/Folders"
 msgstr "Pošuk fajłaŭ i katalohaŭ"
 
@@ -2827,10 +2838,6 @@ msgstr "Pošuk fajłaŭ i katalohaŭ"
 #~ msgctxt "Query"
 #~ msgid "http://www.ietf.org/rfc/rfc\\\\{@}.txt"
 #~ msgstr "http://www.ietf.org/rfc/rfc\\\\{@}.txt"
-
-#~ msgctxt "Name"
-#~ msgid "RPM-Find"
-#~ msgstr "Pošuk pakunka „RPM”"
 
 #~ msgctxt "Query"
 #~ msgid "http://www.rpmfind.net/linux/rpm2html/search.php?query=\\\\{@}"

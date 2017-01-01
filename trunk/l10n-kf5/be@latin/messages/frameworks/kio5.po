@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-24 03:53+0100\n"
+"POT-Creation-Date: 2017-01-01 03:43+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2035,7 +2035,7 @@ msgid "The server was too busy responding to other requests to respond."
 msgstr ""
 "Server byŭ nadta zaniaty adkazam na inšyja zapyty i nia zmoh adkazać tabie."
 
-#: core/job_error.cpp:948 core/slavebase.cpp:1452
+#: core/job_error.cpp:948 core/slavebase.cpp:1441
 #, kde-format
 msgid "Unknown Error"
 msgstr "Nieviadomaja pamyłka"
@@ -2557,107 +2557,107 @@ msgstr "Nie ŭdałosia parazumiecca z słužbaj „klauncher”: %1"
 msgid "klauncher said: %1"
 msgstr "Server adkazaŭ: „%1”"
 
-#: core/slavebase.cpp:790
+#: core/slavebase.cpp:788
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje adčynieńnie spałučeńniaŭ."
 
-#: core/slavebase.cpp:792
+#: core/slavebase.cpp:790
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje začynieńnie spałučeńniaŭ."
 
-#: core/slavebase.cpp:794
+#: core/slavebase.cpp:792
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje dostup da fajłaŭ."
 
-#: core/slavebase.cpp:796
+#: core/slavebase.cpp:794
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:798
+#: core/slavebase.cpp:796
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje anijakich asablivych aperacyjaŭ."
 
-#: core/slavebase.cpp:800
+#: core/slavebase.cpp:798
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje prahlad źmieściva katalohaŭ."
 
-#: core/slavebase.cpp:802
+#: core/slavebase.cpp:800
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "Atrymańnie źviestak z „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:804
+#: core/slavebase.cpp:802
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "Atrymańnie źviestak pra typy MIME z „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:806
+#: core/slavebase.cpp:804
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "Źmianieńnie nazvaŭ i pieraniasieńnie fajłaŭ u „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:808
+#: core/slavebase.cpp:806
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje stvareńnie symbalnych łučoŭ."
 
-#: core/slavebase.cpp:810
+#: core/slavebase.cpp:808
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "Kapijavańnie fajłaŭ u „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:812
+#: core/slavebase.cpp:810
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "Vydaleńnie fajłaŭ z „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:814
+#: core/slavebase.cpp:812
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje stvareńnie katalohaŭ."
 
-#: core/slavebase.cpp:816
+#: core/slavebase.cpp:814
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje źmianieńnie atrybutaŭ fajła."
 
-#: core/slavebase.cpp:818
+#: core/slavebase.cpp:816
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje źmianieńnie ŭłaśnika fajłaŭ."
 
-#: core/slavebase.cpp:820
+#: core/slavebase.cpp:818
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "Karystańnie ŭnutranymi adrasami z „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:822
+#: core/slavebase.cpp:820
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje atrymańnie niekalkich fajłaŭ."
 
-#: core/slavebase.cpp:824
+#: core/slavebase.cpp:822
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje adčynieńnie fajłaŭ."
 
-#: core/slavebase.cpp:826
+#: core/slavebase.cpp:824
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "Pratakoł „%1” nie padtrymvaje aperacyju „%2”."
 
-#: core/slavebase.cpp:986
+#: core/slavebase.cpp:977
 #, kde-format
 msgid "&Yes"
 msgstr "&Tak"
 
-#: core/slavebase.cpp:987
+#: core/slavebase.cpp:978
 #, kde-format
 msgid "&No"
 msgstr "&Nie"
@@ -7439,53 +7439,36 @@ msgstr ""
 msgid "Enable launch feedback"
 msgstr "Uklučy &vyjaŭleńnie ŭklučeńnia"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, systrayCheck)
-#: widgets/kpropertiesdesktopadvbase.ui:174
-#, kde-format
-msgid ""
-"Check this option if you want to have a system tray handle for your "
-"application."
-msgstr ""
-"Uklučy hetuju opcyju, kali chočaš, kab u hetaj aplikacyi byŭ asobny element "
-"u systemnym trei."
-
-#. i18n: ectx: property (text), widget (QCheckBox, systrayCheck)
-#: widgets/kpropertiesdesktopadvbase.ui:177
-#, fuzzy, kde-format
-#| msgid "&Place in system tray"
-msgid "Place in system tray"
-msgstr "&Źmiaści ŭ systemnym trei"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel12)
-#: widgets/kpropertiesdesktopadvbase.ui:184
-#, fuzzy, kde-format
-#| msgid "&D-Bus registration:"
-msgid "D-Bus registration:"
-msgstr "&Rehistracyja praz „D-Bus”:"
-
 #. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
-#: widgets/kpropertiesdesktopadvbase.ui:195
+#: widgets/kpropertiesdesktopadvbase.ui:191
 #, kde-format
 msgid "None"
 msgstr "Niama"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
-#: widgets/kpropertiesdesktopadvbase.ui:200
+#: widgets/kpropertiesdesktopadvbase.ui:196
 #, kde-format
 msgid "Multiple Instances"
 msgstr "Niekalki kopijaŭ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
-#: widgets/kpropertiesdesktopadvbase.ui:205
+#: widgets/kpropertiesdesktopadvbase.ui:201
 #, kde-format
 msgid "Single Instance"
 msgstr "Adna kopija"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dbusCombo)
-#: widgets/kpropertiesdesktopadvbase.ui:210
+#: widgets/kpropertiesdesktopadvbase.ui:206
 #, kde-format
 msgid "Run Until Finished"
 msgstr "Vykonvaj da kanca"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel12)
+#: widgets/kpropertiesdesktopadvbase.ui:214
+#, fuzzy, kde-format
+#| msgid "&D-Bus registration:"
+msgid "D-Bus registration:"
+msgstr "&Rehistracyja praz „D-Bus”:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, nameEdit)
@@ -7842,7 +7825,7 @@ msgid "The new file name is empty."
 msgstr "Novaja nazva fajła pustaja."
 
 #: widgets/kpropertiesdialog.cpp:1563 widgets/kpropertiesdialog.cpp:3104
-#: widgets/kpropertiesdialog.cpp:3405 widgets/kpropertiesdialog.cpp:3686
+#: widgets/kpropertiesdialog.cpp:3405 widgets/kpropertiesdialog.cpp:3679
 #, kde-format
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
@@ -8317,22 +8300,22 @@ msgstr "Punkt zmantavańnia (/mnt/floppy):"
 msgid "Mount point:"
 msgstr "Punkt zmantavańnia:"
 
-#: widgets/kpropertiesdialog.cpp:3465
+#: widgets/kpropertiesdialog.cpp:3464
 #, kde-format
 msgid "&Application"
 msgstr "&Aplikacyja"
 
-#: widgets/kpropertiesdialog.cpp:3616
+#: widgets/kpropertiesdialog.cpp:3609
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Dadaj typ fajłaŭ dla „%1”"
 
-#: widgets/kpropertiesdialog.cpp:3617
+#: widgets/kpropertiesdialog.cpp:3610
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "Vybiery adzin ci niekalki typaŭ fajłaŭ, kab dadać:"
 
-#: widgets/kpropertiesdialog.cpp:3678
+#: widgets/kpropertiesdialog.cpp:3671
 #, fuzzy, kde-format
 #| msgid "Only executables on local file systems are supported."
 msgid ""
@@ -8340,13 +8323,13 @@ msgid ""
 msgstr ""
 "Absłuhoŭvajucca tolki vykonvalnyja fajły z lakalnych fajłavych systemaŭ."
 
-#: widgets/kpropertiesdialog.cpp:3760
+#: widgets/kpropertiesdialog.cpp:3748
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr ""
 "Absłuhoŭvajucca tolki vykonvalnyja fajły z lakalnych fajłavych systemaŭ."
 
-#: widgets/kpropertiesdialog.cpp:3774
+#: widgets/kpropertiesdialog.cpp:3762
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
@@ -8905,6 +8888,18 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#~ msgid ""
+#~ "Check this option if you want to have a system tray handle for your "
+#~ "application."
+#~ msgstr ""
+#~ "Uklučy hetuju opcyju, kali chočaš, kab u hetaj aplikacyi byŭ asobny "
+#~ "element u systemnym trei."
+
+#, fuzzy
+#~| msgid "&Place in system tray"
+#~ msgid "Place in system tray"
+#~ msgstr "&Źmiaści ŭ systemnym trei"
 
 #~ msgid "Do not &close when command exits"
 #~ msgstr "&Nie začyniaj paśla vychadu z zahada"

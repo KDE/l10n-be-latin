@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-07 02:39+0100\n"
+"POT-Creation-Date: 2017-01-03 08:27+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1959,7 +1959,7 @@ msgctxt "action:button"
 msgid "From Here (%1)"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:329
+#: search/dolphinsearchbox.cpp:336
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Grid spacing"
@@ -1967,7 +1967,7 @@ msgctxt "@info:tooltip"
 msgid "Quit searching"
 msgstr "Adlehłaść pamiž elementami sietki"
 
-#: search/dolphinsearchbox.cpp:355
+#: search/dolphinsearchbox.cpp:362
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "File Manager"
@@ -1975,7 +1975,7 @@ msgctxt "action:button"
 msgid "Filename"
 msgstr "Fajłavy kiraŭnik"
 
-#: search/dolphinsearchbox.cpp:359
+#: search/dolphinsearchbox.cpp:366
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -1983,19 +1983,19 @@ msgctxt "action:button"
 msgid "Content"
 msgstr "Dadaj kamentar..."
 
-#: search/dolphinsearchbox.cpp:370
+#: search/dolphinsearchbox.cpp:377
 #, kde-format
 msgctxt "action:button"
 msgid "From Here"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:374
+#: search/dolphinsearchbox.cpp:381
 #, kde-format
 msgctxt "action:button"
 msgid "Everywhere"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:462
+#: search/dolphinsearchbox.cpp:469
 #, kde-format
 msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
@@ -2003,7 +2003,7 @@ msgctxt ""
 msgid "Query Results from '%1'"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:513
+#: search/dolphinsearchbox.cpp:520
 #, fuzzy, kde-format
 #| msgctxt "@option:check Additional Information"
 #| msgid "Permissions"
@@ -2011,7 +2011,7 @@ msgctxt "action:button"
 msgid "Fewer Options"
 msgstr "Dazvoły"
 
-#: search/dolphinsearchbox.cpp:513
+#: search/dolphinsearchbox.cpp:520
 #, kde-format
 msgctxt "action:button"
 msgid "More Options"
@@ -3392,7 +3392,7 @@ msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "Miesca „%1” niapravilnaje."
 
-#: views/dolphinviewactionhandler.cpp:101
+#: views/dolphinviewactionhandler.cpp:102
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Create Folder..."
@@ -3400,7 +3400,7 @@ msgctxt "@action"
 msgid "Create Folder..."
 msgstr "Stvary kataloh..."
 
-#: views/dolphinviewactionhandler.cpp:110
+#: views/dolphinviewactionhandler.cpp:111
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Rename..."
@@ -3408,7 +3408,7 @@ msgctxt "@action:inmenu File"
 msgid "Rename..."
 msgstr "Źmiani nazvu..."
 
-#: views/dolphinviewactionhandler.cpp:116
+#: views/dolphinviewactionhandler.cpp:117
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Move to Trash"
@@ -3416,7 +3416,7 @@ msgctxt "@action:inmenu File"
 msgid "Move to Trash"
 msgstr "Vykiń u śmietnicu"
 
-#: views/dolphinviewactionhandler.cpp:124
+#: views/dolphinviewactionhandler.cpp:125
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Delete"
@@ -3424,7 +3424,7 @@ msgctxt "@action:inmenu File"
 msgid "Delete"
 msgstr "Vydali"
 
-#: views/dolphinviewactionhandler.cpp:134
+#: views/dolphinviewactionhandler.cpp:135
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Delete (using shortcut for Trash)"
@@ -3432,7 +3432,7 @@ msgctxt "@action \"Move to Trash\" for non-local files, etc."
 msgid "Delete (using shortcut for Trash)"
 msgstr "Vydali (skarotam dla śmietnicy)"
 
-#: views/dolphinviewactionhandler.cpp:141
+#: views/dolphinviewactionhandler.cpp:142
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Properties"
@@ -3440,7 +3440,7 @@ msgctxt "@action:inmenu File"
 msgid "Properties"
 msgstr "Ułaścivaści"
 
-#: views/dolphinviewactionhandler.cpp:152
+#: views/dolphinviewactionhandler.cpp:153
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "View Mode"
@@ -3448,7 +3448,7 @@ msgctxt "@action:intoolbar"
 msgid "View Mode"
 msgstr "Sposab prahladu"
 
-#: views/dolphinviewactionhandler.cpp:168
+#: views/dolphinviewactionhandler.cpp:169
 #, fuzzy, kde-format
 #| msgctxt "@action:intoolbar"
 #| msgid "Preview"
@@ -3456,7 +3456,7 @@ msgctxt "@action:intoolbar"
 msgid "Preview"
 msgstr "Padhlad"
 
-#: views/dolphinviewactionhandler.cpp:169
+#: views/dolphinviewactionhandler.cpp:170
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show preview"
@@ -3464,7 +3464,7 @@ msgctxt "@info"
 msgid "Show preview of files and folders"
 msgstr "Pakazvaj padhlady"
 
-#: views/dolphinviewactionhandler.cpp:174
+#: views/dolphinviewactionhandler.cpp:175
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Sort"
 #| msgid "Descending"
@@ -3472,7 +3472,7 @@ msgctxt "@action:inmenu Sort"
 msgid "Descending"
 msgstr "Ad bolšaha k mienšamu"
 
-#: views/dolphinviewactionhandler.cpp:178
+#: views/dolphinviewactionhandler.cpp:179
 #, fuzzy, kde-format
 #| msgctxt "@title:group Size"
 #| msgid "Folders"
@@ -3480,7 +3480,7 @@ msgctxt "@action:inmenu Sort"
 msgid "Folders First"
 msgstr "Katalohi"
 
-#: views/dolphinviewactionhandler.cpp:185
+#: views/dolphinviewactionhandler.cpp:186
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Sort By"
@@ -3488,7 +3488,7 @@ msgctxt "@action:inmenu View"
 msgid "Sort By"
 msgstr "Paradkuj pavodle"
 
-#: views/dolphinviewactionhandler.cpp:199
+#: views/dolphinviewactionhandler.cpp:200
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Additional Information"
@@ -3496,7 +3496,7 @@ msgctxt "@action:inmenu View"
 msgid "Additional Information"
 msgstr "Dadatkovyja źviestki"
 
-#: views/dolphinviewactionhandler.cpp:208
+#: views/dolphinviewactionhandler.cpp:209
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Show in Groups"
@@ -3504,7 +3504,7 @@ msgctxt "@action:inmenu View"
 msgid "Show in Groups"
 msgstr "Pakazvaj zhurtavana"
 
-#: views/dolphinviewactionhandler.cpp:212
+#: views/dolphinviewactionhandler.cpp:213
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Show Hidden Files"
@@ -3512,7 +3512,7 @@ msgctxt "@action:inmenu View"
 msgid "Hidden Files"
 msgstr "Pakazvaj schavanyja fajły"
 
-#: views/dolphinviewactionhandler.cpp:213
+#: views/dolphinviewactionhandler.cpp:214
 #, fuzzy, kde-format
 #| msgctxt "@option:check Ask for Confirmation When"
 #| msgid "Deleting files or folders"
@@ -3520,7 +3520,7 @@ msgctxt "@info"
 msgid "Visibility of hidden files and folders"
 msgstr "vydaleńnia fajłaŭ ci katalohaŭ"
 
-#: views/dolphinviewactionhandler.cpp:218
+#: views/dolphinviewactionhandler.cpp:219
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Adjust View Properties..."
@@ -3528,7 +3528,7 @@ msgctxt "@action:inmenu View"
 msgid "Adjust View Properties..."
 msgstr "Źmiani praviły prahladu..."
 
-#: views/dolphinviewactionhandler.cpp:495
+#: views/dolphinviewactionhandler.cpp:497
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Icons"
@@ -3536,7 +3536,7 @@ msgctxt "@action:inmenu View Mode"
 msgid "Icons"
 msgstr "Ikony"
 
-#: views/dolphinviewactionhandler.cpp:496
+#: views/dolphinviewactionhandler.cpp:498
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3544,13 +3544,13 @@ msgctxt "@info"
 msgid "Icons view mode"
 msgstr "Sposab padzielenaha prahladu"
 
-#: views/dolphinviewactionhandler.cpp:506
+#: views/dolphinviewactionhandler.cpp:508
 #, kde-format
 msgctxt "@action:inmenu View Mode"
 msgid "Compact"
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:507
+#: views/dolphinviewactionhandler.cpp:509
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3558,7 +3558,7 @@ msgctxt "@info"
 msgid "Compact view mode"
 msgstr "Sposab padzielenaha prahladu"
 
-#: views/dolphinviewactionhandler.cpp:517
+#: views/dolphinviewactionhandler.cpp:519
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Details"
@@ -3566,7 +3566,7 @@ msgctxt "@action:inmenu View Mode"
 msgid "Details"
 msgstr "Detali"
 
-#: views/dolphinviewactionhandler.cpp:518
+#: views/dolphinviewactionhandler.cpp:520
 #, fuzzy, kde-format
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"

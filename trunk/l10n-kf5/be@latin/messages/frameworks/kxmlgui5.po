@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-10 07:48+0100\n"
+"POT-Creation-Date: 2017-01-17 09:30+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "&Libraries"
 msgstr "Biblijateki"
 
-#: kaboutapplicationdialog.cpp:185
+#: kaboutapplicationdialog.cpp:186
 #, kde-format
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
@@ -66,32 +66,33 @@ msgstr ""
 "Kali łaska, paviedamlaj pra chiby praz placoŭku: <a href=\"http://bugs.kde."
 "org\">http://bugs.kde.org</a>.\n"
 
-#: kaboutapplicationdialog.cpp:189 kaboutapplicationdialog.cpp:193
-#, kde-format
-msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+#: kaboutapplicationdialog.cpp:192
+#, fuzzy, kde-format
+#| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
 msgstr "Kali łaska, paviedamlaj pra chiby praz <a href=\"mailto:%1\">%2</a>.\n"
 
-#: kaboutapplicationdialog.cpp:220
+#: kaboutapplicationdialog.cpp:218
 #, kde-format
 msgid "A&uthor"
 msgstr "A&ŭtar"
 
-#: kaboutapplicationdialog.cpp:220
+#: kaboutapplicationdialog.cpp:218
 #, kde-format
 msgid "A&uthors"
 msgstr "A&ŭtary"
 
-#: kaboutapplicationdialog.cpp:247
+#: kaboutapplicationdialog.cpp:245
 #, kde-format
 msgid "&Thanks To"
 msgstr "&Padziaki"
 
-#: kaboutapplicationdialog.cpp:286
+#: kaboutapplicationdialog.cpp:284
 #, kde-format
 msgid "T&ranslation"
 msgstr "P&ierakład"
 
-#: kaboutapplicationdialog.cpp:318
+#: kaboutapplicationdialog.cpp:316
 #, kde-format
 msgid "License Agreement"
 msgstr "Licenzijnaje pahadnieńnie"
@@ -292,12 +293,12 @@ msgstr ""
 msgid "Ambiguous shortcut detected"
 msgstr ""
 
-#: kbugreport.cpp:97 kbugreport.cpp:119
+#: kbugreport.cpp:104 kbugreport.cpp:133
 #, kde-format
 msgid "Submit Bug Report"
 msgstr "Vyšli paviedamleńnie pra chibu"
 
-#: kbugreport.cpp:130
+#: kbugreport.cpp:144
 #, kde-format
 msgid ""
 "Your email address. If incorrect, use the Configure Email button to change it"
@@ -305,44 +306,44 @@ msgstr ""
 "Tvoj paštovy adras. Kali jon niapravilny, klikni ŭ knopku „Naładź poštu”, "
 "kab jaho źmianić."
 
-#: kbugreport.cpp:131
+#: kbugreport.cpp:145
 #, kde-format
 msgctxt "Email sender address"
 msgid "From:"
 msgstr "Ad:"
 
-#: kbugreport.cpp:139
+#: kbugreport.cpp:153
 #, kde-format
 msgid "Configure Email..."
 msgstr "Naładź poštu..."
 
-#: kbugreport.cpp:146
+#: kbugreport.cpp:160
 #, kde-format
 msgid "The email address this bug report is sent to."
 msgstr "Paštovy adras, kudy vysyłajecca hetaje paviedamleńnie."
 
-#: kbugreport.cpp:147
+#: kbugreport.cpp:161
 #, kde-format
 msgctxt "Email receiver address"
 msgid "To:"
 msgstr "Da:"
 
-#: kbugreport.cpp:156
+#: kbugreport.cpp:170
 #, kde-format
 msgid "&Send"
 msgstr "&Vyšli"
 
-#: kbugreport.cpp:156
+#: kbugreport.cpp:170
 #, kde-format
 msgid "Send bug report."
 msgstr "Vyšli paviedamleńnie pra chibu."
 
-#: kbugreport.cpp:157
+#: kbugreport.cpp:171
 #, kde-format
 msgid "Send this bug report to %1."
 msgstr "Vyšli hetaje paviedamleńnie pra chibu da %1."
 
-#: kbugreport.cpp:165
+#: kbugreport.cpp:179
 #, kde-format
 msgid ""
 "The application for which you wish to submit a bug report - if incorrect, "
@@ -351,12 +352,12 @@ msgstr ""
 "Aplikacyja, u jakoj ty znajšoŭ chibu. Kali jana aznačanaja niapravilna, tady "
 "zrabi toje samaje praz menu „Paviedam pra chibu” patrebnaj aplikacyi"
 
-#: kbugreport.cpp:166
+#: kbugreport.cpp:180
 #, kde-format
 msgid "Application: "
 msgstr "Aplikacyja: "
 
-#: kbugreport.cpp:193
+#: kbugreport.cpp:207
 #, kde-format
 msgid ""
 "The version of this application - please make sure that no newer version is "
@@ -365,64 +366,64 @@ msgstr ""
 "Aplikacyja, u jakoj ty znajšoŭ chibu. Pierš čym vysyłać paviedamleńnie pra "
 "chibu, varta ŭpeŭnicca, što naviejšaj versii prahramy nie isnuje."
 
-#: kbugreport.cpp:194
+#: kbugreport.cpp:208
 #, kde-format
 msgid "Version:"
 msgstr "Versija:"
 
-#: kbugreport.cpp:199
+#: kbugreport.cpp:213
 #, fuzzy, kde-format
 #| msgid "no version set (programmer error!)"
 msgid "no version set (programmer error)"
 msgstr "versija nie aznačanaja (pamyłka ŭ prahramnym kodzie!)"
 
-#: kbugreport.cpp:212
+#: kbugreport.cpp:226
 #, kde-format
 msgid "OS:"
 msgstr "Systema:"
 
-#: kbugreport.cpp:220
+#: kbugreport.cpp:234
 #, kde-format
 msgid "Compiler:"
 msgstr "Kampiloŭnik:"
 
-#: kbugreport.cpp:228
+#: kbugreport.cpp:242
 #, kde-format
 msgid "Se&verity"
 msgstr "&Pavažnaść"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgid "Critical"
 msgstr "Krytyčna"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgid "Grave"
 msgstr "Važna"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgctxt "normal severity"
 msgid "Normal"
 msgstr "Zvyčajna"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgid "Wishlist"
 msgstr "Pažadańnie"
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:244
 #, kde-format
 msgid "Translation"
 msgstr "Pierakład"
 
-#: kbugreport.cpp:248
+#: kbugreport.cpp:262
 #, kde-format
 msgid "S&ubject: "
 msgstr "&Tema: "
 
-#: kbugreport.cpp:256
+#: kbugreport.cpp:270
 #, kde-format
 msgid ""
 "Enter the text (in English if possible) that you wish to submit for the bug "
@@ -435,7 +436,7 @@ msgstr ""
 "Kali ty naciśnieš knopku „Vyšli”, dahladčyku hetaj prahramy budzie vysłanaje "
 "paviedamleńnie.\n"
 
-#: kbugreport.cpp:279
+#: kbugreport.cpp:294
 #, kde-format
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
@@ -444,18 +445,31 @@ msgid ""
 "be transferred to that server.</qt>"
 msgstr ""
 
-#: kbugreport.cpp:294
+#: kbugreport.cpp:299
+#, kde-format
+msgid ""
+"<qt>To submit a bug report, click on the button below. This will open a web "
+"browser window on <a href=\"%1\">%2</a>.</qt>"
+msgstr ""
+
+#: kbugreport.cpp:316
 #, kde-format
 msgid "&Launch Bug Report Wizard"
 msgstr "&Adčyni akno stvareńnia paviedamleńnia pra chibu"
 
-#: kbugreport.cpp:357
+#: kbugreport.cpp:318
+#, fuzzy, kde-format
+#| msgid "Submit Bug Report"
+msgid "&Submit Bug Report"
+msgstr "Vyšli paviedamleńnie pra chibu"
+
+#: kbugreport.cpp:382
 #, kde-format
 msgctxt "unknown program name"
 msgid "unknown"
 msgstr "nieviadomaja"
 
-#: kbugreport.cpp:416
+#: kbugreport.cpp:441
 #, kde-format
 msgid ""
 "You must specify both a subject and a description before the report can be "
@@ -463,7 +477,7 @@ msgid ""
 msgstr ""
 "Treba ŭpisać i temu, i vytłumačeńnie, kab zmahčy vysłać paviedamleńnie."
 
-#: kbugreport.cpp:425
+#: kbugreport.cpp:450
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
@@ -475,7 +489,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:437
+#: kbugreport.cpp:462
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
@@ -487,7 +501,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:451
+#: kbugreport.cpp:476
 #, kde-format
 msgid ""
 "Unable to send the bug report.\n"
@@ -495,20 +509,20 @@ msgid ""
 "See http://bugs.kde.org/ for instructions."
 msgstr ""
 
-#: kbugreport.cpp:459
+#: kbugreport.cpp:484
 #, kde-format
 msgid "Bug report sent, thank you for your input."
 msgstr ""
 "Paviedamleńnie pra chibu vysłanaje, dziakuj za ŭkład u razvoj prajektu."
 
-#: kbugreport.cpp:467
+#: kbugreport.cpp:493
 #, kde-format
 msgid ""
 "Close and discard\n"
 "edited message?"
 msgstr ""
 
-#: kbugreport.cpp:468
+#: kbugreport.cpp:494
 #, kde-format
 msgid "Close Message"
 msgstr "Začyni paviedamleńnie"

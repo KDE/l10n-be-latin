@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-16 06:07+0000\n"
+"POT-Creation-Date: 2017-01-24 12:44+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -104,6 +104,11 @@ msgstr "Kiraŭnik zadańniaŭ"
 msgctxt "Name"
 msgid "Trashcan"
 msgstr "Śmietnica"
+
+#: applets/trash/package/metadata.desktop:81
+msgctxt "Comment"
+msgid "Provides access to the files sent to trash"
+msgstr ""
 
 #: applets/window-list/metadata.desktop:3
 #, fuzzy
@@ -1495,6 +1500,11 @@ msgstr "Akno naładaŭ dla sietkavaha kataloha"
 msgctxt "Name"
 msgid "Application Menu Bar"
 msgstr "Uklučeńnie aplikacyi"
+
+#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:26
+msgctxt "Comment"
+msgid "Combines the current application menu into your shell"
+msgstr ""
 
 #: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:3
 #, fuzzy

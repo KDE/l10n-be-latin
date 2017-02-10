@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-01 07:37+0100\n"
+"POT-Creation-Date: 2017-02-10 07:49+0100\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -31,7 +31,7 @@ msgstr "Miesca"
 
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:252
-#: package/contents/ui/FolderViewLayer.qml:340
+#: package/contents/ui/FolderViewLayer.qml:342
 msgid "Icons"
 msgstr "Ikony"
 
@@ -58,6 +58,10 @@ msgstr ""
 
 #: package/contents/ui/AppletHandle.qml:312
 msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/BackButtonItem.qml:105
+msgid "Back"
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:53
@@ -345,29 +349,23 @@ msgstr ""
 msgid "Enter custom title here"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:44
-msgid ""
-"Tweaks are experimental options that may become defaults depending on your "
-"feedback."
-msgstr ""
-
-#: package/contents/ui/ConfigTweaks.qml:50
+#: package/contents/ui/ConfigTweaks.qml:42
 #, fuzzy
 #| msgid "Desktop Folder"
 msgid "Desktop Layout"
 msgstr "Kataloh stała"
 
-#: package/contents/ui/ConfigTweaks.qml:59
+#: package/contents/ui/ConfigTweaks.qml:51
 #, fuzzy
 #| msgid "Show the Desktop folder"
 msgid "Show the desktop toolbox"
 msgstr "Pakazvaj kataloh stała"
 
-#: package/contents/ui/ConfigTweaks.qml:67
+#: package/contents/ui/ConfigTweaks.qml:59
 msgid "Widget Handling"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:77
+#: package/contents/ui/ConfigTweaks.qml:69
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
 
@@ -403,166 +401,65 @@ msgstr ""
 msgid "Configure Desktop"
 msgstr "&Aktualizuj stoł"
 
-#: package/contents/ui/UpButtonItem.qml:105
-msgid "Up"
-msgstr ""
-
 #: plugins/folder/directorypicker.cpp:45
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Folder"
 msgstr "Vyłučy ŭsio"
 
-#: plugins/folder/foldermodel.cpp:250
+#: plugins/folder/foldermodel.cpp:254
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr "&Aktualizuj stoł"
 
-#: plugins/folder/foldermodel.cpp:250 plugins/folder/foldermodel.cpp:1191
+#: plugins/folder/foldermodel.cpp:254 plugins/folder/foldermodel.cpp:1235
 #, kde-format
 msgid "&Refresh View"
 msgstr "&Aktualizuj prahlad"
 
-#: plugins/folder/foldermodel.cpp:1188
+#: plugins/folder/foldermodel.cpp:1232
 #, kde-format
 msgid "&Reload"
 msgstr "&Pieračytaj"
 
-#: plugins/folder/foldermodel.cpp:1194
+#: plugins/folder/foldermodel.cpp:1238
 #, kde-format
 msgid "&Rename"
 msgstr "&Źmiani nazvu"
 
-#: plugins/folder/foldermodel.cpp:1197
+#: plugins/folder/foldermodel.cpp:1241
 #, kde-format
 msgid "&Move to Trash"
 msgstr "&Vykiń u śmietnicu"
 
-#: plugins/folder/foldermodel.cpp:1200
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:334
+#: plugins/folder/foldermodel.cpp:1244
 #, kde-format
 msgid "&Empty Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
-#: plugins/folder/foldermodel.cpp:1203
+#: plugins/folder/foldermodel.cpp:1247
+#, fuzzy, kde-format
+#| msgid "&Restore"
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "&Uznavi"
+
+#: plugins/folder/foldermodel.cpp:1250
 #, kde-format
 msgid "&Delete"
 msgstr "&Vydali"
 
-#: plugins/folder/foldermodel.cpp:1263
-#, kde-format
-msgid "&Paste"
-msgstr "&Uklej"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:84
-#, kde-format
-msgctxt "@title:menu"
-msgid "Copy To"
-msgstr "Skapijuj"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:90
-#, kde-format
-msgctxt "@title:menu"
-msgid "Move To"
-msgstr "Pieraniasi"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:114
-#, fuzzy, kde-format
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Home Folder"
-msgstr "Kataloh stała"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:121
-#, fuzzy, kde-format
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Root Folder"
-msgstr "Kataloh stała"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:156
-#, kde-format
-msgctxt "@title:menu in Copy To or Move To submenu"
-msgid "Browse..."
-msgstr "Ahladaj..."
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
-#, kde-format
-msgctxt "@title:menu"
-msgid "Copy Here"
-msgstr "Skapijuj siudy"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:230
-#, kde-format
-msgctxt "@title:menu"
-msgid "Move Here"
-msgstr "Pieraniasi siudy"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:241
+#: plugins/folder/foldermodel.cpp:1253
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:264
+#: plugins/folder/foldermodel.cpp:1323
 #, kde-format
-msgid "Create &Folder..."
-msgstr "Stvary &kataloh..."
+msgid "&Paste"
+msgstr "&Uklej"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:275
-#, kde-format
-msgid "&Restore"
-msgstr "&Uznavi"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
-#, fuzzy, kde-format
-#| msgid "Show All Files"
-msgid "Show Original Directory"
-msgstr "Pakazvaj usie fajły"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
-#, fuzzy, kde-format
-#| msgid "Show All Files"
-msgid "Show Original File"
-msgstr "Pakazvaj usie fajły"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:346
-#, fuzzy, kde-format
-#| msgid "&Empty Trash Bin"
-msgid "&Configure Trash Bin"
-msgstr "&Vyčyści śmietnicu"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:370
-#, kde-format
-msgid "&Bookmark This Page"
-msgstr "Stvary &zakładku dla hetaj staronki"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:372
-#, kde-format
-msgid "&Bookmark This Location"
-msgstr "Stvary &zakładku dla hetaha miesca"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:375
-#, kde-format
-msgid "&Bookmark This Folder"
-msgstr "Stvary &zakładku dla hetaha kataloha"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:377
-#, kde-format
-msgid "&Bookmark This Link"
-msgstr "Stvary &zakładku dla hetaha łuča"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:379
-#, kde-format
-msgid "&Bookmark This File"
-msgstr "Stvary &zakładku dla hetaha fajła"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:413
-#, fuzzy, kde-format
-#| msgid "Show previews"
-msgid "Preview In"
-msgstr "Pakazvaj padhlady"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:448
+#: plugins/folder/foldermodel.cpp:1445
 #, kde-format
 msgid "&Properties"
 msgstr "&Ułaścivaści"
@@ -628,6 +525,76 @@ msgstr ""
 #, kde-format
 msgid "Locked"
 msgstr ""
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "Skapijuj"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "Pieraniasi"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "Kataloh stała"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "Kataloh stała"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "Ahladaj..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "Skapijuj siudy"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "Pieraniasi siudy"
+
+#~ msgid "Create &Folder..."
+#~ msgstr "Stvary &kataloh..."
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original Directory"
+#~ msgstr "Pakazvaj usie fajły"
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original File"
+#~ msgstr "Pakazvaj usie fajły"
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "&Vyčyści śmietnicu"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "Stvary &zakładku dla hetaj staronki"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "Stvary &zakładku dla hetaha miesca"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "Stvary &zakładku dla hetaha kataloha"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "Stvary &zakładku dla hetaha łuča"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "Stvary &zakładku dla hetaha fajła"
+
+#, fuzzy
+#~| msgid "Show previews"
+#~ msgid "Preview In"
+#~ msgstr "Pakazvaj padhlady"
 
 #~ msgid "Share"
 #~ msgstr "Zrabi supolnym"

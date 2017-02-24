@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-06 03:13+0000\n"
+"POT-Creation-Date: 2017-02-24 03:18+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -37,6 +37,19 @@ msgstr "Słužba „kioslave” dla SFTP"
 #: src/ioslaves/protocols/mms.protocol:10
 msgctxt "Description"
 msgid "Microsoft Media Server Protocol"
+msgstr ""
+
+#: src/ioslaves/remote/kdedmodule/remotedirnotify.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Device Notifier"
+msgctxt "Name"
+msgid "Remote URL Change Notifier"
+msgstr "Infarmavańnie pra novyja pryłady"
+
+#: src/ioslaves/remote/kdedmodule/remotedirnotify.desktop:48
+msgctxt "Comment"
+msgid "Provides change notification for network folders"
 msgstr ""
 
 #: src/ioslaves/telnet/ktelnetservice5.desktop:10
@@ -6514,13 +6527,6 @@ msgstr "Prahlad u kartkach"
 #~ msgctxt "Comment"
 #~ msgid "Display the contents of folders (User's home folder as default)"
 #~ msgstr "Pakazvaj źmieściva kataloha (zmoŭčana: stała)"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Notifier"
-#~ msgctxt "Name"
-#~ msgid "Free Space Notifier"
-#~ msgstr "Infarmavańnie pra novyja pryłady"
 
 #, fuzzy
 #~| msgctxt "Comment"

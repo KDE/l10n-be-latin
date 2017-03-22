@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-13 06:48+0100\n"
+"POT-Creation-Date: 2017-03-18 02:58+0100\n"
 "PO-Revision-Date: 2008-10-04 16:18+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -32,21 +32,21 @@ msgstr "ihar.hrachyshka@gmail.com"
 #: about/konq_aboutpage.cpp:82 about/konq_aboutpage.cpp:84
 #: about/konq_aboutpage.cpp:142 about/konq_aboutpage.cpp:144
 #: about/konq_aboutpage.cpp:194 about/konq_aboutpage.cpp:196
-#: about/konq_aboutpage.cpp:295 about/konq_aboutpage.cpp:297
+#: about/konq_aboutpage.cpp:294 about/konq_aboutpage.cpp:296
 #, kde-format
 msgctxt "KDE 4 tag line, see http://kde.org/img/kde40.png"
 msgid "Be free."
 msgstr "Budź svabodnym."
 
 #: about/konq_aboutpage.cpp:83 about/konq_aboutpage.cpp:143
-#: about/konq_aboutpage.cpp:195 about/konq_aboutpage.cpp:296
+#: about/konq_aboutpage.cpp:195 about/konq_aboutpage.cpp:295
 #: src/konqmain.cpp:65
 #, kde-format
 msgid "Konqueror"
 msgstr "Konqueror"
 
 #: about/konq_aboutpage.cpp:85 about/konq_aboutpage.cpp:145
-#: about/konq_aboutpage.cpp:197 about/konq_aboutpage.cpp:298
+#: about/konq_aboutpage.cpp:197 about/konq_aboutpage.cpp:297
 #, kde-format
 msgid "Konqueror is a web browser, file manager and universal document viewer."
 msgstr ""
@@ -54,7 +54,7 @@ msgstr ""
 "dakumentaŭ."
 
 #: about/konq_aboutpage.cpp:86 about/konq_aboutpage.cpp:146
-#: about/konq_aboutpage.cpp:198 about/konq_aboutpage.cpp:299
+#: about/konq_aboutpage.cpp:198 about/konq_aboutpage.cpp:298
 #, kde-format
 msgctxt ""
 "Link that points to the first page of the Konqueror 'about page', Starting "
@@ -63,20 +63,20 @@ msgid "Starting Points"
 msgstr "Pačatki"
 
 #: about/konq_aboutpage.cpp:87 about/konq_aboutpage.cpp:147
-#: about/konq_aboutpage.cpp:199 about/konq_aboutpage.cpp:300
+#: about/konq_aboutpage.cpp:199 about/konq_aboutpage.cpp:299
 #, kde-format
 msgid "Introduction"
 msgstr "Uvodziny"
 
 #: about/konq_aboutpage.cpp:88 about/konq_aboutpage.cpp:148
-#: about/konq_aboutpage.cpp:200 about/konq_aboutpage.cpp:301
+#: about/konq_aboutpage.cpp:200 about/konq_aboutpage.cpp:300
 #, kde-format
 msgid "Tips"
 msgstr "Parady"
 
 #: about/konq_aboutpage.cpp:89 about/konq_aboutpage.cpp:149
 #: about/konq_aboutpage.cpp:201 about/konq_aboutpage.cpp:202
-#: about/konq_aboutpage.cpp:302
+#: about/konq_aboutpage.cpp:301
 #, kde-format
 msgid "Specifications"
 msgstr "Specyfikacyi"
@@ -243,8 +243,8 @@ msgstr ""
 "4.01</A>"
 
 #: about/konq_aboutpage.cpp:215 about/konq_aboutpage.cpp:217
-#: about/konq_aboutpage.cpp:230 about/konq_aboutpage.cpp:235
-#: about/konq_aboutpage.cpp:237
+#: about/konq_aboutpage.cpp:229 about/konq_aboutpage.cpp:234
+#: about/konq_aboutpage.cpp:236
 #, kde-format
 msgid "built-in"
 msgstr "unutrana"
@@ -290,7 +290,7 @@ msgstr ""
 #| "JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A HREF="
 #| "\"%2\">IBM</A> or <A HREF=\"%3\">Sun</A>)"
 msgid ""
-"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF="
+"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">OpenJDK</A> or <A HREF="
 "\"%2\">Sun/Oracle</A>)"
 msgstr ""
 "Virtualnaja mašyna „JDK 1.2.0” („Java 2”) (<A HREF=\"%1\">„Blackdown”</A>, "
@@ -304,113 +304,107 @@ msgstr "Paŭsiul uklučyć „Java” možna <A HREF=\"%1\">tut</A>."
 #: about/konq_aboutpage.cpp:226
 #, kde-format
 msgid ""
-"Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
-"viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
-"\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></"
-"A>Video, etc.)"
+"NPAPI <A HREF=\"%2\">plugins</A> (for viewing <A HREF=\"%1\">Flash<SUP>&reg;"
+"</SUP></A>, etc.)"
 msgstr ""
-"<A HREF=\"%4\">Pluginy</A> „Netscape Communicator<SUP>&reg;</SUP>” (dla "
-"prahladu <A HREF=\"%1\">„Flash<SUP>&reg;</SUP>”</A>, „<A HREF="
-"\"%2\">Real<SUP>&reg;</SUP></A>Audio”, „<A HREF=\"%3\">Real<SUP>&reg;</SUP></"
-"A>Video” dy inšych medyjaŭ)"
 
-#: about/konq_aboutpage.cpp:231
+#: about/konq_aboutpage.cpp:230
 #, kde-format
 msgid "Secure Sockets Layer"
 msgstr "Absłuhoŭvańnie biaśpiečnych sokietaŭ (SSL)"
 
-#: about/konq_aboutpage.cpp:232
+#: about/konq_aboutpage.cpp:231
 #, kde-format
 msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
 msgstr "(TLS/SSL v2/3) dla biaśpiečnaha kamunikavańnia, da 168 bitaŭ"
 
-#: about/konq_aboutpage.cpp:233
+#: about/konq_aboutpage.cpp:232
 #, kde-format
 msgid "OpenSSL"
 msgstr "OpenSSL"
 
-#: about/konq_aboutpage.cpp:234
+#: about/konq_aboutpage.cpp:233
 #, kde-format
 msgid "Bidirectional 16bit unicode support"
 msgstr ""
 "Absłuhoŭvańnie tekstu z 16-bitavym kadavańniem „Unicode”, skiravanaha ŭ "
 "roznyja kirunki"
 
-#: about/konq_aboutpage.cpp:236
+#: about/konq_aboutpage.cpp:235
 #, kde-format
 msgid "AutoCompletion for forms"
 msgstr "Aŭtamatyčnaje zapaŭnieńnie formaŭ"
 
-#: about/konq_aboutpage.cpp:238
+#: about/konq_aboutpage.cpp:237
 #, kde-format
 msgctxt "Title of an html 'group box' explaining konqueror features"
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#: about/konq_aboutpage.cpp:239
+#: about/konq_aboutpage.cpp:238
 #, kde-format
 msgid "Feature"
 msgstr "Mahčymaść"
 
-#: about/konq_aboutpage.cpp:240
+#: about/konq_aboutpage.cpp:239
 #, kde-format
 msgid "Details"
 msgstr "Detali"
 
-#: about/konq_aboutpage.cpp:241
+#: about/konq_aboutpage.cpp:240
 #, kde-format
 msgid "Image formats"
 msgstr "Farmaty vyjavaŭ"
 
-#: about/konq_aboutpage.cpp:242
+#: about/konq_aboutpage.cpp:241
 #, fuzzy, kde-format
 #| msgid "PNG<br />MNG<br />JPG<br />GIF"
 msgid "PNG<br />JPG<br />GIF"
 msgstr "PNG<br />MNG<br />JPG<br />GIF"
 
-#: about/konq_aboutpage.cpp:243
+#: about/konq_aboutpage.cpp:242
 #, kde-format
 msgid "Transfer protocols"
 msgstr "Pratakoły pierasyłańnia"
 
-#: about/konq_aboutpage.cpp:244
+#: about/konq_aboutpage.cpp:243
 #, kde-format
 msgid "HTTP 1.1 (including gzip/bzip2 compression)"
 msgstr "HTTP 1.1 (z kampresavańniem „gzip/bzip2”)"
 
-#: about/konq_aboutpage.cpp:245
+#: about/konq_aboutpage.cpp:244
 #, kde-format
 msgid "FTP"
 msgstr "FTP"
 
-#: about/konq_aboutpage.cpp:246
+#: about/konq_aboutpage.cpp:245
 #, fuzzy, kde-format
 #| msgid "and <A HREF=\"%1\">many more...</A>"
-msgid "and <A HREF=\"%1\">many more (see Kioslaves in KHelpcenter)...</A>"
+msgid "and <A HREF=\"%1\">many more (see Kioslaves in KHelpCenter)...</A>"
 msgstr "dy <A HREF=\"%1\">inšaje...</A>"
 
-#: about/konq_aboutpage.cpp:247
+#: about/konq_aboutpage.cpp:246
 #, kde-format
 msgctxt "A feature of Konqueror"
 msgid "URL-Completion"
 msgstr "Zakančeńnie adrasoŭ"
 
-#: about/konq_aboutpage.cpp:248
+#: about/konq_aboutpage.cpp:247
 #, kde-format
 msgid "Manual"
 msgstr "Ručnoje"
 
-#: about/konq_aboutpage.cpp:249
+#: about/konq_aboutpage.cpp:248
 #, kde-format
 msgid "Popup"
 msgstr "Vypłyŭnoje"
 
-#: about/konq_aboutpage.cpp:250
+#: about/konq_aboutpage.cpp:249
 #, kde-format
 msgid "(Short-) Automatic"
 msgstr "(Karotkaje) aŭtamatyčnaje"
 
-#: about/konq_aboutpage.cpp:252
+#: about/konq_aboutpage.cpp:251
 #, kde-format
 msgctxt ""
 "Link that points to the first page of the Konqueror 'about page', Starting "
@@ -418,13 +412,13 @@ msgctxt ""
 msgid "<a href=\"%1\">Return to Starting Points</a>"
 msgstr "<a href=\"%1\">Viarnisia da pačatkaŭ</a>"
 
-#: about/konq_aboutpage.cpp:303
+#: about/konq_aboutpage.cpp:302
 #, fuzzy, kde-format
 #| msgid "Tips &amp; Tricks"
 msgid "Tips & Tricks"
 msgstr "Parady j padkazki"
 
-#: about/konq_aboutpage.cpp:304
+#: about/konq_aboutpage.cpp:303
 #, fuzzy, kde-format
 #| msgid ""
 #| "Use Internet-Keywords and Web-Shortcuts: by typing \"gg: KDE\" one can "
@@ -444,7 +438,7 @@ msgstr ""
 "mnostva web-skarotaŭ, jakija paskarajuć pošuk prahramaŭ ci encyklapedyčnych "
 "artykułaŭ. Navat možna <a href=\"%1\">stvarać ułasnyja</a> web-skaroty."
 
-#: about/konq_aboutpage.cpp:309
+#: about/konq_aboutpage.cpp:308
 #, fuzzy, kde-format
 #| msgid ""
 #| "Use the magnifier button <img width='16' height='16' src=\"%1\"></img> in "
@@ -457,7 +451,7 @@ msgstr ""
 "paneli pryładździa ty možaš pavialičyć pamier šryfta ŭ svajoj sieciŭnaj "
 "staroncy."
 
-#: about/konq_aboutpage.cpp:311
+#: about/konq_aboutpage.cpp:310
 #, kde-format
 msgid ""
 "When you want to paste a new address into the Location toolbar you might "
@@ -468,7 +462,7 @@ msgstr ""
 "usio. Tady naciśni čornuju strełku ź biełym kryžam <img width='16' "
 "height='16' src=\"%1\"></img>, što ŭ paneli pryładździa."
 
-#: about/konq_aboutpage.cpp:315
+#: about/konq_aboutpage.cpp:314
 #, fuzzy, kde-format
 #| msgid ""
 #| "To create a link on your desktop pointing to the current page, simply "
@@ -483,7 +477,7 @@ msgstr ""
 "prosta pieraciahni nadpis „Miesca” źleva ad paneli adrasu na stoł i vybiery "
 "punkt „Złučy”."
 
-#: about/konq_aboutpage.cpp:318
+#: about/konq_aboutpage.cpp:317
 #, kde-format
 msgid ""
 "You can also find <img width='16' height='16' src=\"%1\" /> \"Full-Screen "
@@ -493,7 +487,7 @@ msgstr ""
 "U menu naładaŭ jość sposab prahladu <img width='16' height='16' src=\"%1\" /"
 "> „Na ŭvieś ekran”. Hetaja mahčymaść vielmi zručnaja dla sesijaŭ-razmovaŭ."
 
-#: about/konq_aboutpage.cpp:321
+#: about/konq_aboutpage.cpp:320
 #, fuzzy, kde-format
 #| msgid ""
 #| "Divide et impera (lat. \"Divide and conquer\") - by splitting a window "
@@ -512,7 +506,7 @@ msgstr ""
 "„Konqueror”, jak upadabajecie. Navat možna adčytać krychu ŭzornych profilaŭ "
 "prahladu (naprykład, „Midnight Commander”) albo stvaryć ułasny."
 
-#: about/konq_aboutpage.cpp:324
+#: about/konq_aboutpage.cpp:323
 #, kde-format
 msgid ""
 "Use the <a href=\"%1\">user-agent</a> feature if the website you are "
@@ -523,7 +517,7 @@ msgstr ""
 "sajt prosić karystacca inšaj prahramaju (nie zabudźsia vysłać skarhu aŭtaru "
 "sajta!)"
 
-#: about/konq_aboutpage.cpp:327
+#: about/konq_aboutpage.cpp:326
 #, fuzzy, kde-format
 #| msgid ""
 #| "The <img width='16' height='16' src=\"%1\"></img> History in your SideBar "
@@ -535,7 +529,7 @@ msgstr ""
 "<img width='16' height='16' src=\"%1\"></img> Historyja ŭ bakavoj paneli "
 "zachoŭvaje śpis naviedanych niadaŭna sajtaŭ."
 
-#: about/konq_aboutpage.cpp:329
+#: about/konq_aboutpage.cpp:328
 #, kde-format
 msgid ""
 "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
@@ -543,7 +537,7 @@ msgstr ""
 "Karystajsia <a href=\"%1\">proxy</a>-serveram z padmiennaj pamiaćciu, kab "
 "paskoryć sieciŭnaje spałučeńnie."
 
-#: about/konq_aboutpage.cpp:331
+#: about/konq_aboutpage.cpp:330
 #, fuzzy, kde-format
 #| msgid ""
 #| "Advanced users will appreciate the Konsole which you can embed into "
@@ -558,27 +552,27 @@ msgstr ""
 "prahramu „Konqueror” („Akno → <img width='16' height='16' SRC=\"%1\"></img> "
 "Pakažy emulatar terminału”.)"
 
-#: about/konq_aboutpage.cpp:335
+#: about/konq_aboutpage.cpp:334
 #, kde-format
 msgid "Next: Specifications"
 msgstr "Dalej: Specyfikacyi"
 
-#: about/konq_aboutpage.cpp:349
+#: about/konq_aboutpage.cpp:348
 #, kde-format
 msgid "Installed Plugins"
 msgstr "Zainstalavanyja pluginy"
 
-#: about/konq_aboutpage.cpp:350
+#: about/konq_aboutpage.cpp:349
 #, kde-format
 msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
 msgstr "<td>Plugin</td><td>Apisańnie</td><td>Fajł</td><td>Typy</td>"
 
-#: about/konq_aboutpage.cpp:351
+#: about/konq_aboutpage.cpp:350
 #, kde-format
 msgid "Installed"
 msgstr "Zainstalavany"
 
-#: about/konq_aboutpage.cpp:352
+#: about/konq_aboutpage.cpp:351
 #, kde-format
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr "<td>Typ „MIME”</td><td>Apisańnie</td><td>Sufiksy</td><td>Plugin</td>"
@@ -1918,52 +1912,67 @@ msgstr ""
 "Uźnikła pamyłka ŭ naładžvańni. Ty pryviazaŭ prahramu „Konqueror” da „%1”, "
 "ale jana nia ŭmieje absłuhoŭvać fajłaŭ takoha typu."
 
-#. i18n: ectx: property (text), widget (QLabel, lblDescription)
-#: src/konqnewsessiondlg_base.ui:33
-#, kde-format
-msgid "Save open tabs and windows for easy retrieval"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/konqnewsessiondlg_base.ui:28
+#, fuzzy, kde-format
+#| msgid "Save open tabs and windows for easy retrieval"
+msgid "Save open &tabs and windows for easy retrieval"
 msgstr ""
 "Zapišy śpis adčynienych kartak i voknaŭ, kab paźniej zmahčy ich uznavić"
 
-#. i18n: ectx: property (text), widget (QLabel, lblSessionName)
-#: src/konqnewsessiondlg_base.ui:48
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAllWindows)
+#: src/konqnewsessiondlg_base.ui:34
 #, kde-format
-msgid "&Session name:"
+msgid "A&ll open windows"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pCurrentWindow)
+#: src/konqnewsessiondlg_base.ui:44
+#, fuzzy, kde-format
+#| msgid "Open tabs inside current window"
+msgid "Onl&y current window"
+msgstr "Adčyni kartki ŭ dziejnym aknie"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSessionName)
+#: src/konqnewsessiondlg_base.ui:56
+#, fuzzy, kde-format
+#| msgid "&Session name:"
+msgid "Session n&ame:"
 msgstr "Nazva &sesii:"
 
-#: src/konqsessiondlg.cpp:76
+#: src/konqsessiondlg.cpp:77
 #, fuzzy, kde-format
 #| msgid "Manage Sessions"
 msgctxt "@title:window"
 msgid "Manage Sessions"
 msgstr "Kiruj sesijami"
 
-#: src/konqsessiondlg.cpp:80
+#: src/konqsessiondlg.cpp:81
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: src/konqsessiondlg.cpp:178
+#: src/konqsessiondlg.cpp:180
 #, fuzzy, kde-format
 #| msgid "Rename session"
 msgctxt "@title:window"
 msgid "Rename Session"
 msgstr "Źmiani nazvu sesii"
 
-#: src/konqsessiondlg.cpp:225
+#: src/konqsessiondlg.cpp:230
 #, fuzzy, kde-format
 #| msgid "Save Session"
 msgctxt "@title:window"
 msgid "Save Session"
 msgstr "Zapišy sesiju"
 
-#: src/konqsessiondlg.cpp:251
+#: src/konqsessiondlg.cpp:258
 #, kde-format
 msgid ""
 "A session with the name '%1' already exists, do you want to overwrite it?"
 msgstr "Sesija z nazvaj „%1” užo isnuje. Chočaš jaje zamianić?"
 
-#: src/konqsessiondlg.cpp:252
+#: src/konqsessiondlg.cpp:259
 #, fuzzy, kde-format
 #| msgid "Session exists. Overwrite?"
 msgctxt "@title:window"
@@ -1971,28 +1980,30 @@ msgid "Session exists. Overwrite?"
 msgstr "Sesija isnuje. Zamianić?"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pNewButton)
-#: src/konqsessiondlg_base.ui:25
+#: src/konqsessiondlg_base.ui:26
 #, kde-format
 msgctxt "@action:button New session"
 msgid "New..."
 msgstr "Novaja..."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pSaveCurrentButton)
-#: src/konqsessiondlg_base.ui:32
-#, kde-format
+#: src/konqsessiondlg_base.ui:33
+#, fuzzy, kde-format
+#| msgctxt "@action:button Save current session"
+#| msgid "Save Current"
 msgctxt "@action:button Save current session"
-msgid "Save Current"
+msgid "Save Current..."
 msgstr "Zapišy dziejnuju sesiju"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pRenameButton)
-#: src/konqsessiondlg_base.ui:39
+#: src/konqsessiondlg_base.ui:40
 #, kde-format
 msgctxt "@action:button Rename session"
 msgid "Rename..."
 msgstr "Źmiani nazvu..."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_pDeleteButton)
-#: src/konqsessiondlg_base.ui:46
+#: src/konqsessiondlg_base.ui:47
 #, kde-format
 msgctxt "@action:button Delete session"
 msgid "Delete"
@@ -2000,7 +2011,7 @@ msgstr "Vydali"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pOpenTabsInsideCurrentWindow)
 #. i18n: ectx: label, entry, group (Trash)
-#: src/konqsessiondlg_base.ui:72 src/konqueror.kcfg:517
+#: src/konqsessiondlg_base.ui:73 src/konqueror.kcfg:517
 #, kde-format
 msgid "Open tabs inside current window"
 msgstr "Adčyni kartki ŭ dziejnym aknie"
@@ -2368,6 +2379,17 @@ msgstr "Uvaha"
 #, kde-format
 msgid "Resend"
 msgstr "Pierašli"
+
+#~ msgid ""
+#~ "Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
+#~ "viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
+#~ "\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</"
+#~ "SUP></A>Video, etc.)"
+#~ msgstr ""
+#~ "<A HREF=\"%4\">Pluginy</A> „Netscape Communicator<SUP>&reg;</SUP>” (dla "
+#~ "prahladu <A HREF=\"%1\">„Flash<SUP>&reg;</SUP>”</A>, „<A HREF="
+#~ "\"%2\">Real<SUP>&reg;</SUP></A>Audio”, „<A HREF=\"%3\">Real<SUP>&reg;</"
+#~ "SUP></A>Video” dy inšych medyjaŭ)"
 
 #~ msgid "http://konqueror.kde.org"
 #~ msgstr "http://konqueror.kde.org"

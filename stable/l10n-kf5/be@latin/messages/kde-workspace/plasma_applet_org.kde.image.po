@@ -1,0 +1,241 @@
+# translation of plasma_wallpaper_image.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_wallpaper_image\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-04-19 02:53+0200\n"
+"PO-Revision-Date: 2008-10-05 11:04+0300\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"Language: be@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: image.cpp:218
+#, kde-format
+msgid "Recommended wallpaper file"
+msgstr ""
+
+#: image.cpp:341
+#, kde-format
+msgid "Directory with the wallpaper to show slides from"
+msgstr ""
+
+#: image.cpp:597
+#, fuzzy, kde-format
+#| msgid "Download new wallpapers"
+msgid "Download Wallpapers"
+msgstr "Vaźmi ź sieciva novyja špalery"
+
+#: image.cpp:644
+#, fuzzy, kde-format
+#| msgid "Select Wallpaper Image File"
+msgid "Open Image"
+msgstr "Vybiery fajł z špalerami"
+
+#: image.cpp:646
+#, fuzzy, kde-format
+#| msgid "Images"
+msgid "Image Files"
+msgstr "Vyjavy"
+
+#: imagepackage/contents/ui/config.qml:82
+#, fuzzy, kde-format
+#| msgid "P&ositioning:"
+msgid "Positioning:"
+msgstr "&Miesca:"
+
+#: imagepackage/contents/ui/config.qml:91
+#, fuzzy, kde-format
+#| msgid "Scaled & Cropped"
+msgid "Scaled and Cropped"
+msgstr "Zmaštabavany j abatnuty"
+
+#: imagepackage/contents/ui/config.qml:95
+#, kde-format
+msgid "Scaled"
+msgstr "Zmaštabavany"
+
+#: imagepackage/contents/ui/config.qml:99
+#, fuzzy, kde-format
+#| msgid "Scaled, keep proportions"
+msgid "Scaled, Keep Proportions"
+msgstr "Zmaštabavany praparcyjna"
+
+#: imagepackage/contents/ui/config.qml:103
+#, kde-format
+msgid "Centered"
+msgstr "Pasiarod"
+
+#: imagepackage/contents/ui/config.qml:107
+#, kde-format
+msgid "Tiled"
+msgstr "Kafla"
+
+#: imagepackage/contents/ui/config.qml:132
+#, kde-format
+msgid "Select Background Color"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:142
+#, kde-format
+msgid "Background Color:"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:178
+#, fuzzy, kde-format
+#| msgid "&Change images every:"
+msgid "Change every:"
+msgstr "&Źmianiaj vyjavu praz:"
+
+#: imagepackage/contents/ui/config.qml:193
+#, kde-format
+msgid "Hours"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:211
+#, kde-format
+msgid "Minutes"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:229
+#, kde-format
+msgid "Seconds"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:342
+#, fuzzy, kde-format
+#| msgid "&Add Folder..."
+msgid "Add Folder"
+msgstr "&Dadaj kataloh..."
+
+#: imagepackage/contents/ui/config.qml:348
+#, fuzzy, kde-format
+#| msgid "..."
+msgid "Open..."
+msgstr "..."
+
+#: imagepackage/contents/ui/config.qml:353
+#, kde-format
+msgid "Get New Wallpapers..."
+msgstr "Vaźmi novyja špalery..."
+
+#: imagepackage/contents/ui/main.qml:147
+#, fuzzy, kde-format
+#| msgid "Select Wallpaper Image File"
+msgid "Open Wallpaper Image"
+msgstr "Vybiery fajł z špalerami"
+
+#: imagepackage/contents/ui/main.qml:148
+#, fuzzy, kde-format
+#| msgid "Select Wallpaper Image File"
+msgid "Next Wallpaper Image"
+msgstr "Vybiery fajł z špalerami"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:92
+#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:89
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Remove wallpaper"
+msgstr "Vaźmi novyja špalery..."
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:117
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Restore wallpaper"
+msgstr "Vaźmi novyja špalery..."
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:155
+#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:119
+#, fuzzy, kde-format
+#| msgctxt "Caption to wallpaper preview, %1 author name"
+#| msgid "by %1"
+msgid "%1 by %2"
+msgstr "ad %1"
+
+#: imagepackage/platformcontents/phone/ui/config.qml:80
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Add Custom Wallpaper"
+msgstr "Vaźmi novyja špalery..."
+
+#~ msgid "Screenshot"
+#~ msgstr "Zdymak ekrana"
+
+#~ msgid "Center Tiled"
+#~ msgstr "Kafla pasiarod"
+
+#~ msgid "Select Wallpaper Image File"
+#~ msgstr "Vybiery fajł z špalerami"
+
+#~ msgid "P&ositioning:"
+#~ msgstr "&Miesca:"
+
+#~ msgid "&Color:"
+#~ msgstr "&Koler:"
+
+#, fuzzy
+#~| msgid "&Remove Folder"
+#~ msgid "Remove from list"
+#~ msgstr "&Vydali kataloh"
+
+#~ msgctxt ""
+#~ "(qtdt-format) Please do not change the quotes (') and translate only the "
+#~ "content of the quotes."
+#~ msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+#~ msgstr "hh 'Hadziny' mm 'Chviliny' ss 'Sekundy'"
+
+#, fuzzy
+#~| msgid "Download new wallpapers"
+#~ msgid "&My downloaded wallpapers:"
+#~ msgstr "Vaźmi ź sieciva novyja špalery"
+
+#, fuzzy
+#~| msgid "Folders:"
+#~ msgid "Custom folders:"
+#~ msgstr "Katalohi:"
+
+#~ msgid "&Remove Folder"
+#~ msgstr "&Vydali kataloh"
+
+#~ msgctxt "Wallpaper info, author name"
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "Email:"
+#~ msgstr "Emaił:"
+
+#~ msgid "License:"
+#~ msgstr "Licenzija:"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Ihar Hračyška"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "ihar.hrachyshka@gmail.com"
+
+#~ msgid "Color:"
+#~ msgstr "Koler:"
+
+#~ msgid "Author:"
+#~ msgstr "Aŭtar:"
+
+#~ msgid "Browse"
+#~ msgstr "Prahladaj"
+
+#~ msgid "&Picture:"
+#~ msgstr "&Vyjava:"
+
+#, fuzzy
+#~ msgid "Maxpect"
+#~ msgstr "Maxpect"

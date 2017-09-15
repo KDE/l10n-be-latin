@@ -591,7 +591,10 @@ msgstr "%1 sekundaŭ"
 #| msgid "%1 milliseconds"
 msgctxt "KFormat|"
 msgid "%n millisecond(s)"
-msgstr "%1 milisekundaŭ"
+msgid_plural "%n millisecond(s)"
+msgstr[0] "%1 milisekundaŭ"
+msgstr[1] "%1 milisekundaŭ"
+msgstr[2] "%1 milisekundaŭ"
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:306
@@ -599,7 +602,10 @@ msgstr "%1 milisekundaŭ"
 #| msgid "%1 days"
 msgctxt "KFormat|"
 msgid "%n day(s)"
-msgstr "%1 dzion"
+msgid_plural "%n day(s)"
+msgstr[0] "%1 dzion"
+msgstr[1] "%1 dzion"
+msgstr[2] "%1 dzion"
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:311
@@ -607,7 +613,10 @@ msgstr "%1 dzion"
 #| msgid "%1 hours"
 msgctxt "KFormat|"
 msgid "%n hour(s)"
-msgstr "%1 hadzinaŭ"
+msgid_plural "%n hour(s)"
+msgstr[0] "%1 hadzinaŭ"
+msgstr[1] "%1 hadzinaŭ"
+msgstr[2] "%1 hadzinaŭ"
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:316
@@ -615,7 +624,10 @@ msgstr "%1 hadzinaŭ"
 #| msgid "%1 minutes"
 msgctxt "KFormat|"
 msgid "%n minute(s)"
-msgstr "%1 chvilinaŭ"
+msgid_plural "%n minute(s)"
+msgstr[0] "%1 chvilinaŭ"
+msgstr[1] "%1 chvilinaŭ"
+msgstr[2] "%1 chvilinaŭ"
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:321
@@ -623,7 +635,10 @@ msgstr "%1 chvilinaŭ"
 #| msgid "%1 seconds"
 msgctxt "KFormat|"
 msgid "%n second(s)"
-msgstr "%1 sekundaŭ"
+msgid_plural "%n second(s)"
+msgstr[0] "%1 sekundaŭ"
+msgstr[1] "%1 sekundaŭ"
+msgstr[2] "%1 sekundaŭ"
 
 #. @item:intext days and hours. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
 #. ----------

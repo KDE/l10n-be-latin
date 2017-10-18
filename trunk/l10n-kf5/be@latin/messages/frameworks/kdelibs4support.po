@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-27 03:55+0100\n"
+"POT-Creation-Date: 2017-10-18 06:29+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -13601,68 +13601,68 @@ msgstr ""
 msgid "SSL Signers"
 msgstr "Łuč"
 
-#: kssl/ksslcertificate.cpp:199
+#: kssl/ksslcertificate.cpp:202
 #, kde-format
 msgid "Signature Algorithm: "
 msgstr "Alharytm padpisańnia: "
 
-#: kssl/ksslcertificate.cpp:200
+#: kssl/ksslcertificate.cpp:203
 #, kde-format
 msgid "Unknown"
 msgstr "Nieviadomy"
 
-#: kssl/ksslcertificate.cpp:203
+#: kssl/ksslcertificate.cpp:206
 #, kde-format
 msgid "Signature Contents:"
 msgstr "Źmieściva podpisu:"
 
-#: kssl/ksslcertificate.cpp:337
+#: kssl/ksslcertificate.cpp:341
 #, kde-format
 msgctxt "Unknown"
 msgid "Unknown key algorithm"
 msgstr "Nieviadomy"
 
-#: kssl/ksslcertificate.cpp:341
+#: kssl/ksslcertificate.cpp:347
 #, kde-format
 msgid "Key type: RSA (%1 bit)"
 msgstr "Typ kluča: RSA (%1 bitaŭ)"
 
-#: kssl/ksslcertificate.cpp:343
+#: kssl/ksslcertificate.cpp:349
 #, kde-format
 msgid "Modulus: "
 msgstr "Modulus: "
 
-#: kssl/ksslcertificate.cpp:356
+#: kssl/ksslcertificate.cpp:362
 #, kde-format
 msgid "Exponent: 0x"
 msgstr "Ekspanent: 0x"
 
-#: kssl/ksslcertificate.cpp:365
+#: kssl/ksslcertificate.cpp:374
 #, kde-format
 msgid "Key type: DSA (%1 bit)"
 msgstr "Typ kluča: DSA (%1 bitaŭ)"
 
-#: kssl/ksslcertificate.cpp:367
+#: kssl/ksslcertificate.cpp:376
 #, kde-format
 msgid "Prime: "
 msgstr "Prosty lik: "
 
-#: kssl/ksslcertificate.cpp:380
+#: kssl/ksslcertificate.cpp:389
 #, kde-format
 msgid "160 bit prime factor: "
 msgstr "160-bitnaja stupień ad prostaha liku: "
 
-#: kssl/ksslcertificate.cpp:406
+#: kssl/ksslcertificate.cpp:417
 #, kde-format
 msgid "Public key: "
 msgstr "Publičny kluč: "
 
-#: kssl/ksslcertificate.cpp:1054
+#: kssl/ksslcertificate.cpp:1065
 #, kde-format
 msgid "The certificate is valid."
 msgstr "Pravilny sertyfikat."
 
-#: kssl/ksslcertificate.cpp:1056
+#: kssl/ksslcertificate.cpp:1067
 #, kde-format
 msgid ""
 "Retrieval of the issuer certificate failed. This means the CA's (Certificate "
@@ -13671,7 +13671,7 @@ msgstr ""
 "Nie ŭdałosia atrymać sertyfikat vydaŭnika. Heta značyć, što nie ŭdałosia "
 "znajści sertyfikat paŭnamocnaha vydaŭnika."
 
-#: kssl/ksslcertificate.cpp:1058
+#: kssl/ksslcertificate.cpp:1069
 #, kde-format
 msgid ""
 "Retrieval of the CRL (Certificate Revocation List) failed. This means the "
@@ -13680,7 +13680,7 @@ msgstr ""
 "Nie ŭdałosia atrymać „CRL” (śpis kasavańnia sertyfikavataŭ). Heta značyć, "
 "što nie ŭdałosia znajści „CRL” paŭnamocnaha vydaŭnika."
 
-#: kssl/ksslcertificate.cpp:1060
+#: kssl/ksslcertificate.cpp:1071
 #, kde-format
 msgid ""
 "The decryption of the certificate's signature failed. This means it could "
@@ -13689,7 +13689,7 @@ msgstr ""
 "Nie ŭdałosia rasšyfravać podpis sertyfikata. Jaho nie ŭdałosia abličyć, nia "
 "kažučy navat pra nieadpaviednaść čakanaha j atrymanaha vynikaŭ."
 
-#: kssl/ksslcertificate.cpp:1062
+#: kssl/ksslcertificate.cpp:1073
 #, kde-format
 msgid ""
 "The decryption of the CRL's (Certificate Revocation List) signature failed. "
@@ -13700,7 +13700,7 @@ msgstr ""
 "sertyfikataŭ). Heta značyć, što jaho navat nie ŭdałosia vyličyć, kab "
 "spraŭdzić, ci jon adpaviadaje čakanamu vyniku."
 
-#: kssl/ksslcertificate.cpp:1064
+#: kssl/ksslcertificate.cpp:1075
 #, kde-format
 msgid ""
 "The decoding of the public key of the issuer failed. This means that the "
@@ -13711,7 +13711,7 @@ msgstr ""
 "spraŭdžvać z dapamohaj sertyfikata paŭnamocnaha vydaŭnika toj sertyfikat, "
 "jaki ty chočaš."
 
-#: kssl/ksslcertificate.cpp:1066
+#: kssl/ksslcertificate.cpp:1077
 #, kde-format
 msgid ""
 "The certificate's signature is invalid. This means that the certificate can "
@@ -13720,7 +13720,7 @@ msgstr ""
 "Podpis sertyfikata niapravilny, tamu jaho (sertyfikat) nie ŭdałosia "
 "spraŭdzić."
 
-#: kssl/ksslcertificate.cpp:1068
+#: kssl/ksslcertificate.cpp:1079
 #, kde-format
 msgid ""
 "The CRL's (Certificate Revocation List) signature is invalid. This means "
@@ -13729,32 +13729,32 @@ msgstr ""
 "Podpis, pastaŭleny na „CRL” (śpisie kasavańnia sertyfikataŭ) chibny. Heta "
 "značyć, što nie ŭdałosia spraŭdzić hety „CRL”."
 
-#: kssl/ksslcertificate.cpp:1070
+#: kssl/ksslcertificate.cpp:1081
 #, kde-format
 msgid "The certificate is not valid, yet."
 msgstr "Hety sertyfikat jašče nia dziejny."
 
-#: kssl/ksslcertificate.cpp:1072
+#: kssl/ksslcertificate.cpp:1083
 #, kde-format
 msgid "The certificate is not valid, any more."
 msgstr "Hety sertyfikat užo nia dziejny."
 
-#: kssl/ksslcertificate.cpp:1074 kssl/ksslcertificate.cpp:1076
+#: kssl/ksslcertificate.cpp:1085 kssl/ksslcertificate.cpp:1087
 #, kde-format
 msgid "The CRL (Certificate Revocation List) is not valid, yet."
 msgstr "Hety „CRL” (śpis kasavańnia sertyfikataŭ) jašče niapravilny."
 
-#: kssl/ksslcertificate.cpp:1078
+#: kssl/ksslcertificate.cpp:1089
 #, kde-format
 msgid "The time format of the certificate's 'notBefore' field is invalid."
 msgstr "Niapravilny farmat času ŭ poli „notBefore” hetaha sertyfikata."
 
-#: kssl/ksslcertificate.cpp:1080
+#: kssl/ksslcertificate.cpp:1091
 #, kde-format
 msgid "The time format of the certificate's 'notAfter' field is invalid."
 msgstr "Niapravilny farmat času ŭ poli „notAfter” hetaha sertyfikata."
 
-#: kssl/ksslcertificate.cpp:1082
+#: kssl/ksslcertificate.cpp:1093
 #, kde-format
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'lastUpdate' "
@@ -13763,7 +13763,7 @@ msgstr ""
 "Farmat času dla pola „lastUpdate” u hetym „CRL” (śpisie kasavańnia "
 "sertyfikataŭ) niapravilny."
 
-#: kssl/ksslcertificate.cpp:1084
+#: kssl/ksslcertificate.cpp:1095
 #, kde-format
 msgid ""
 "The time format of the CRL's (Certificate Revocation List) 'nextUpdate' "
@@ -13772,12 +13772,12 @@ msgstr ""
 "Farmat času dla pola „nextUpdate” u hetym „CRL” (śpisie kasavańnia "
 "sertyfikataŭ) niapravilny."
 
-#: kssl/ksslcertificate.cpp:1086
+#: kssl/ksslcertificate.cpp:1097
 #, kde-format
 msgid "The OpenSSL process ran out of memory."
 msgstr "Pracesu OpenSSL nie staje pamiaci."
 
-#: kssl/ksslcertificate.cpp:1088
+#: kssl/ksslcertificate.cpp:1099
 #, kde-format
 msgid ""
 "The certificate is self-signed and not in the list of trusted certificates. "
@@ -13787,7 +13787,7 @@ msgstr ""
 "Sertyfikat samastojna padpisany i nia ŭ śpisie davieranych sertyfikataŭ. "
 "Kali chočaš jaho pryniać, zimpartuj jaho ŭ śpis davieranych sertyfikataŭ."
 
-#: kssl/ksslcertificate.cpp:1091
+#: kssl/ksslcertificate.cpp:1102
 #, kde-format
 msgid ""
 "The certificate is self-signed. While the trust chain could be built up, the "
@@ -13797,7 +13797,7 @@ msgstr ""
 "zbudavać, ale nie ŭdałosia znajści sertyfikat hałoŭnaha paŭnamocnaha "
 "vydaŭnika."
 
-#: kssl/ksslcertificate.cpp:1093
+#: kssl/ksslcertificate.cpp:1104
 #, kde-format
 msgid ""
 "The CA's (Certificate Authority) certificate can not be found. Most likely, "
@@ -13806,7 +13806,7 @@ msgstr ""
 "Nie ŭdałosia znajści sertyfikat paŭnamocnaha vydaŭnika. Peŭna, tvoj łancuh "
 "davieru paškodžany."
 
-#: kssl/ksslcertificate.cpp:1095
+#: kssl/ksslcertificate.cpp:1106
 #, kde-format
 msgid ""
 "The certificate can not be verified as it is the only certificate in the "
@@ -13817,22 +13817,22 @@ msgstr ""
 "samastojna padpisany. Kali ty sam padpisaŭ hety sertyfikat, spraŭdź, što ty "
 "jaho zimpartavaŭ u śpis davieranych sertyfikataŭ."
 
-#: kssl/ksslcertificate.cpp:1097
+#: kssl/ksslcertificate.cpp:1108
 #, kde-format
 msgid "The certificate chain is longer than the maximum depth specified."
 msgstr "Łancuh sertyfikataŭ daŭžejšy ad maksymalnaj aznačanaj daŭžyni."
 
-#: kssl/ksslcertificate.cpp:1100
+#: kssl/ksslcertificate.cpp:1111
 #, kde-format
 msgid "The certificate has been revoked."
 msgstr "Sertyfikat skasavany."
 
-#: kssl/ksslcertificate.cpp:1102
+#: kssl/ksslcertificate.cpp:1113
 #, kde-format
 msgid "The certificate's CA (Certificate Authority) is invalid."
 msgstr "Sertyfikat paŭnamocnaha vydaŭnika niapravilny."
 
-#: kssl/ksslcertificate.cpp:1104
+#: kssl/ksslcertificate.cpp:1115
 #, kde-format
 msgid ""
 "The length of the trust chain exceeded one of the CA's (Certificate "
@@ -13842,7 +13842,7 @@ msgstr ""
 "paŭnamocnych vydaŭnikoŭ. Tamu ŭsie podpisy ŭ paśladoŭnaści stali "
 "nierečaisnymi."
 
-#: kssl/ksslcertificate.cpp:1106
+#: kssl/ksslcertificate.cpp:1117
 #, kde-format
 msgid ""
 "The certificate has not been signed for the purpose you tried to use it for. "
@@ -13852,7 +13852,7 @@ msgstr ""
 "vykarystać. Heta značyć, što paŭnamocny vydaŭnik nie dazvoliŭ hetak im "
 "karystacca."
 
-#: kssl/ksslcertificate.cpp:1109
+#: kssl/ksslcertificate.cpp:1120
 #, kde-format
 msgid ""
 "The root CA (Certificate Authority) is not trusted for the purpose you tried "
@@ -13861,7 +13861,7 @@ msgstr ""
 "Hałoŭny paŭnamocny vydaŭnik nia maje davieru dla toj mety, ź jakoj ty chočaš "
 "vykarystać hety sertyfikat."
 
-#: kssl/ksslcertificate.cpp:1112
+#: kssl/ksslcertificate.cpp:1123
 #, kde-format
 msgid ""
 "The root CA (Certificate Authority) has been marked to be rejected for the "
@@ -13870,14 +13870,14 @@ msgstr ""
 "Hałoŭny paŭnamocny vydaŭnik byŭ akreśleny, jak niedavierany, dla toj mety, ź "
 "jakoj ty chočaš vykarystać hety sertyfikat."
 
-#: kssl/ksslcertificate.cpp:1114
+#: kssl/ksslcertificate.cpp:1125
 #, kde-format
 msgid ""
 "The certificate's CA (Certificate Authority) does not match the CA name of "
 "the certificate."
 msgstr "Paŭnamocny vydaŭnik sertyfikata nie adpaviadaje naźvie vydaŭnika."
 
-#: kssl/ksslcertificate.cpp:1116
+#: kssl/ksslcertificate.cpp:1127
 #, kde-format
 msgid ""
 "The CA (Certificate Authority) certificate's key ID does not match the key "
@@ -13887,7 +13887,7 @@ msgstr ""
 "identyfikataru kluča ŭ raździele „Vydaŭnik” z sertyfikata, jaki ty chočaš "
 "vykarystać."
 
-#: kssl/ksslcertificate.cpp:1118
+#: kssl/ksslcertificate.cpp:1129
 #, kde-format
 msgid ""
 "The CA (Certificate Authority) certificate's key ID and name do not match "
@@ -13898,7 +13898,7 @@ msgstr ""
 "adpaviadajuć identyfikataru kluča j naźvie ŭ raździele „Vydaŭnik” z "
 "sertyfikata, jaki ty chočaš vykarystać."
 
-#: kssl/ksslcertificate.cpp:1120
+#: kssl/ksslcertificate.cpp:1131
 #, kde-format
 msgid ""
 "The certificate's CA (Certificate Authority) is not allowed to sign "
@@ -13906,12 +13906,12 @@ msgid ""
 msgstr ""
 "Paŭnamocnamu vydaŭniku sertyfikata nie dazvolena padpisvać sertyfikaty."
 
-#: kssl/ksslcertificate.cpp:1122
+#: kssl/ksslcertificate.cpp:1133
 #, kde-format
 msgid "OpenSSL could not be verified."
 msgstr "Nie ŭdałosia pravieryć „OpenSSL”."
 
-#: kssl/ksslcertificate.cpp:1126
+#: kssl/ksslcertificate.cpp:1137
 #, kde-format
 msgid ""
 "The signature test for this certificate failed. This could mean that the "
@@ -13922,7 +13922,7 @@ msgid ""
 "messages."
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:1128
+#: kssl/ksslcertificate.cpp:1139
 #, kde-format
 msgid ""
 "This certificate, any in its trust path or its CA's (Certificate Authority) "
@@ -13932,7 +13932,7 @@ msgid ""
 "more specific error messages."
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:1134
+#: kssl/ksslcertificate.cpp:1145
 #, kde-format
 msgid ""
 "Certificate signing authority root files could not be found so the "
@@ -13941,27 +13941,27 @@ msgstr ""
 "Nie ŭdałosia znajści sertyfikacyjnyja fajły hałoŭnaha paŭnamocnaha "
 "vydaŭnika, tamu nie ŭdałosia spraŭdzić hety sertyfikat."
 
-#: kssl/ksslcertificate.cpp:1136
+#: kssl/ksslcertificate.cpp:1147
 #, kde-format
 msgid "SSL support was not found."
 msgstr "Nie ŭdałosia znajści padtrymku SSL."
 
-#: kssl/ksslcertificate.cpp:1138
+#: kssl/ksslcertificate.cpp:1149
 #, kde-format
 msgid "Private key test failed."
 msgstr "Nie ŭdałosia spraŭdzić pryvatny kluč."
 
-#: kssl/ksslcertificate.cpp:1140
+#: kssl/ksslcertificate.cpp:1151
 #, kde-format
 msgid "The certificate has not been issued for this host."
 msgstr "Sertyfikat nie padpisany dla hetaha hosta."
 
-#: kssl/ksslcertificate.cpp:1142
+#: kssl/ksslcertificate.cpp:1153
 #, kde-format
 msgid "This certificate is not relevant."
 msgstr "Hety sertyfikat niedarečny."
 
-#: kssl/ksslcertificate.cpp:1147
+#: kssl/ksslcertificate.cpp:1158
 #, kde-format
 msgid "The certificate is invalid."
 msgstr "Hety sertyfikat niapravilny."

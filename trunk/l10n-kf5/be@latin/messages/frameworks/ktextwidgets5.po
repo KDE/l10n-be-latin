@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-17 03:36+0200\n"
+"POT-Creation-Date: 2017-10-28 03:04+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -34,17 +34,17 @@ msgstr "Tekst łuča:"
 msgid "Link URL:"
 msgstr "Adras łuča:"
 
-#: findreplace/kfind.cpp:60
+#: findreplace/kfind.cpp:59
 #, kde-format
 msgid "Find Next"
 msgstr "Znajdzi nastupnaje"
 
-#: findreplace/kfind.cpp:65
+#: findreplace/kfind.cpp:64
 #, kde-format
 msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 msgstr "<qt>Znajści nastupny adpaviednik dla „<b>%1</b>”?</qt>"
 
-#: findreplace/kfind.cpp:624 findreplace/kfind.cpp:643
+#: findreplace/kfind.cpp:623 findreplace/kfind.cpp:642
 #, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
@@ -52,32 +52,32 @@ msgstr[0] "Znojdzieny %1 adpaviednik."
 msgstr[1] "Znojdzienyja %1 adpaviedniki."
 msgstr[2] "Znojdzienyja %1 adpaviednikaŭ."
 
-#: findreplace/kfind.cpp:626
+#: findreplace/kfind.cpp:625
 #, kde-format
 msgid "<qt>No matches found for '<b>%1</b>'.</qt>"
 msgstr "<qt>Niama adpaviednikaŭ dla „<b>%1</b>”.</qt>"
 
-#: findreplace/kfind.cpp:645
+#: findreplace/kfind.cpp:644
 #, kde-format
 msgid "No matches found for '<b>%1</b>'."
 msgstr "Niama adpaviednikaŭ dla „<b>%1</b>”."
 
-#: findreplace/kfind.cpp:649 findreplace/kreplace.cpp:387
+#: findreplace/kfind.cpp:648 findreplace/kreplace.cpp:387
 #, kde-format
 msgid "Beginning of document reached."
 msgstr "Dasiahnuty pačatak dakumenta."
 
-#: findreplace/kfind.cpp:651 findreplace/kreplace.cpp:389
+#: findreplace/kfind.cpp:650 findreplace/kreplace.cpp:389
 #, kde-format
 msgid "End of document reached."
 msgstr "Dasiahnuty kaniec dakumenta."
 
-#: findreplace/kfind.cpp:659
+#: findreplace/kfind.cpp:658
 #, kde-format
 msgid "Continue from the end?"
 msgstr "Praciahvać ad kanca?"
 
-#: findreplace/kfind.cpp:660
+#: findreplace/kfind.cpp:659
 #, kde-format
 msgid "Continue from the beginning?"
 msgstr "Praciahvać ad pačatku?"
@@ -408,24 +408,24 @@ msgctxt "@action:button Stop find & replace"
 msgid "Stop"
 msgstr "Spyni"
 
-#: findreplace/kreplacedialog.cpp:151
+#: findreplace/kreplacedialog.cpp:149
 #, kde-format
 msgid "Your replacement string is referencing a capture greater than '\\%1', "
 msgstr ""
 
-#: findreplace/kreplacedialog.cpp:153
+#: findreplace/kreplacedialog.cpp:151
 #, kde-format
 msgid "but your pattern only defines 1 capture."
 msgid_plural "but your pattern only defines %1 captures."
 msgstr[0] ""
 msgstr[1] ""
 
-#: findreplace/kreplacedialog.cpp:155
+#: findreplace/kreplacedialog.cpp:153
 #, kde-format
 msgid "but your pattern defines no captures."
 msgstr ""
 
-#: findreplace/kreplacedialog.cpp:156
+#: findreplace/kreplacedialog.cpp:154
 #, kde-format
 msgid ""
 "\n"

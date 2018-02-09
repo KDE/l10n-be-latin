@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-08 03:23+0100\n"
+"POT-Creation-Date: 2018-02-09 03:24+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2426,17 +2426,17 @@ msgstr ""
 "Nie ŭdałosia prahladzieć adras\n"
 "%1"
 
-#: core/kfileitem.cpp:1189
+#: core/kfileitem.cpp:1193
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr "(Symbalny łuč da „%1”)"
 
-#: core/kfileitem.cpp:1191
+#: core/kfileitem.cpp:1195
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr "(%1, łuč da „%2”)"
 
-#: core/kfileitem.cpp:1194
+#: core/kfileitem.cpp:1198
 #, kde-format
 msgid " (Points to %1)"
 msgstr " (łučyć z „%1”)"
@@ -3985,7 +3985,7 @@ msgstr ""
 msgid "Setting ACL for %1"
 msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
 
-#: ioslaves/file/file.cpp:756
+#: ioslaves/file/file.cpp:758
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -3994,61 +3994,61 @@ msgstr ""
 "Nie ŭdałosia źmianić dazvoły na\n"
 "%1"
 
-#: ioslaves/file/file.cpp:1009
+#: ioslaves/file/file.cpp:1012
 #, kde-format
 msgid "No Media inserted or Media not recognized."
 msgstr "Nośbit nia ŭsunuty albo nie raspaznany."
 
-#: ioslaves/file/file.cpp:1018 ioslaves/file/file.cpp:1214
+#: ioslaves/file/file.cpp:1021 ioslaves/file/file.cpp:1217
 #, kde-format
 msgid "\"vold\" is not running."
 msgstr "Słužba „vold” nie pracuje."
 
-#: ioslaves/file/file.cpp:1051
+#: ioslaves/file/file.cpp:1054
 #, kde-format
 msgid "Could not find program \"mount\""
 msgstr "Nie ŭdałosia znajści prahramu „mount”."
 
-#: ioslaves/file/file.cpp:1120
+#: ioslaves/file/file.cpp:1123
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "mounting is not supported by wince."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: ioslaves/file/file.cpp:1225
+#: ioslaves/file/file.cpp:1228
 #, kde-format
 msgid "Could not find program \"umount\""
 msgstr "Nie ŭdałosia znajści prahramu „umount”."
 
-#: ioslaves/file/file.cpp:1240
+#: ioslaves/file/file.cpp:1243
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "unmounting is not supported by wince."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: ioslaves/file/file_unix.cpp:288
+#: ioslaves/file/file_unix.cpp:278
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "Nie ŭdałosia skapijavać fajł z „%1” u „%2” (numar pamyłki: %3)."
 
-#: ioslaves/file/file_unix.cpp:365
+#: ioslaves/file/file_unix.cpp:359
 #, fuzzy, kde-format
 #| msgid "Could not change permissions for %1."
 msgid "Could not change permissions for '%1'"
 msgstr "Nie ŭdałosia źmianić dazvoły na „%1”."
 
-#: ioslaves/file/file_unix.cpp:442
+#: ioslaves/file/file_unix.cpp:437
 #, kde-format
 msgid "No media in device for %1"
 msgstr "U pryładzie „%1” niama nośbitu."
 
-#: ioslaves/file/file_unix.cpp:696
+#: ioslaves/file/file_unix.cpp:691
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 "Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
 
-#: ioslaves/file/file_unix.cpp:709
+#: ioslaves/file/file_unix.cpp:704
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."

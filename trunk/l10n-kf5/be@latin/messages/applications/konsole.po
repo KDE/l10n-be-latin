@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-02 03:17+0100\n"
+"POT-Creation-Date: 2018-03-07 03:16+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2500,19 +2500,19 @@ msgstr "Kansol systemy „Linux”"
 msgid "Solaris console"
 msgstr "Kansol systemy „Solaris”"
 
-#: Session.cpp:353
+#: Session.cpp:355
 #, kde-format
 msgid "Could not find binary: "
 msgstr "Nie ŭdałosia znajści prahramu: "
 
-#: Session.cpp:362
+#: Session.cpp:364
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "Uvaha: "
 
-#: Session.cpp:420
+#: Session.cpp:422
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2521,32 +2521,32 @@ msgstr ""
 "Nie ŭdałosia znajści „%1”, zamiest jaho pačynajem z „%2”. Spraŭdź nałady "
 "svajho profilu."
 
-#: Session.cpp:423
+#: Session.cpp:425
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "Nie ŭdałosia znajści interakcyjnaj abałonki, kab jaje ŭklučyć."
 
-#: Session.cpp:461
+#: Session.cpp:463
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
 
-#: Session.cpp:593
+#: Session.cpp:595
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Cišynia ŭ sesii „%1”"
 
-#: Session.cpp:642
+#: Session.cpp:644
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Syhnał u sesii „%1”"
 
-#: Session.cpp:655
+#: Session.cpp:657
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Aktyŭnaść u sesii „%1”"
 
-#: Session.cpp:854
+#: Session.cpp:856
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2555,24 +2555,24 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:881
+#: Session.cpp:883
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Skončana"
 
-#: Session.cpp:895 Session.cpp:908
+#: Session.cpp:897 Session.cpp:910
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Prahrama „%1” złamałasia."
 
-#: Session.cpp:897
+#: Session.cpp:899
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 
-#: Session.cpp:1316
+#: Session.cpp:1318
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
@@ -2598,199 +2598,204 @@ msgstr ""
 msgid "Configure Web Shortcuts..."
 msgstr "Kiruj profilami..."
 
-#: SessionController.cpp:534
+#: SessionController.cpp:544
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgid "&Close Session"
 msgstr "Konsole"
 
-#: SessionController.cpp:536
+#: SessionController.cpp:546
 #, kde-format
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
-#: SessionController.cpp:544
+#: SessionController.cpp:554
 #, kde-format
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:571
+#: SessionController.cpp:581
 #, kde-format
 msgid "Paste Selection"
 msgstr "Uklej vyłučeńnie"
 
-#: SessionController.cpp:578
+#: SessionController.cpp:588
 #, kde-format
 msgid "Web Search"
 msgstr ""
 
-#: SessionController.cpp:585
+#: SessionController.cpp:595
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "Vyłučy ŭsio"
 
-#: SessionController.cpp:589
+#: SessionController.cpp:599
 #, fuzzy, kde-format
 #| msgid "Select"
 msgid "Select &Line"
 msgstr "Vybiery"
 
-#: SessionController.cpp:592
+#: SessionController.cpp:602
 #, fuzzy, kde-format
 #| msgid "Save Output..."
 msgid "Save Output &As..."
 msgstr "Zapišy vychodnyja źviestki..."
 
-#: SessionController.cpp:598
+#: SessionController.cpp:608
 #, kde-format
 msgid "&Print Screen..."
 msgstr ""
 
-#: SessionController.cpp:602
+#: SessionController.cpp:612
 #, fuzzy, kde-format
 #| msgid "Manage Profiles..."
 msgid "Adjust Scrollback..."
 msgstr "Kiruj profilami..."
 
-#: SessionController.cpp:606
+#: SessionController.cpp:616
 #, kde-format
 msgid "Clear Scrollback"
 msgstr "Vyčyści historyju prakrutki"
 
-#: SessionController.cpp:610
+#: SessionController.cpp:620
 #, fuzzy, kde-format
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "Vyčyści historyju prakrutki j viarni nałady"
 
-#: SessionController.cpp:616
+#: SessionController.cpp:626
 #, kde-format
 msgid "Edit Current Profile..."
 msgstr "Adredahuj dziejny profil..."
 
-#: SessionController.cpp:619
+#: SessionController.cpp:629
 #, fuzzy, kde-format
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "Adredahuj profil"
 
-#: SessionController.cpp:636
+#: SessionController.cpp:635
+#, kde-format
+msgid "Read-only"
+msgstr ""
+
+#: SessionController.cpp:652
 #, fuzzy, kde-format
 #| msgid "Encoding"
 msgid "Set &Encoding"
 msgstr "Kadavańnie"
 
-#: SessionController.cpp:649
+#: SessionController.cpp:665
 #, kde-format
 msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: SessionController.cpp:655
+#: SessionController.cpp:671
 #, kde-format
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:662
+#: SessionController.cpp:678
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: SessionController.cpp:668
+#: SessionController.cpp:684
 #, kde-format
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr ""
 
-#: SessionController.cpp:676
+#: SessionController.cpp:692
 #, fuzzy, kde-format
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
 msgstr "Skapijuj uvachodnyja źviestki ŭ..."
 
-#: SessionController.cpp:683
+#: SessionController.cpp:699
 #, kde-format
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:688
+#: SessionController.cpp:704
 #, kde-format
 msgid "Monitor for &Activity"
 msgstr "Sačy za &aktyŭnaściu"
 
-#: SessionController.cpp:693
+#: SessionController.cpp:709
 #, kde-format
 msgid "Monitor for &Silence"
 msgstr "Sačy za &cišynioju"
 
-#: SessionController.cpp:700
+#: SessionController.cpp:716
 #, kde-format
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:708
+#: SessionController.cpp:724
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Shrink View"
 msgid "Shrink Font"
 msgstr "Zharni prahlad"
 
-#: SessionController.cpp:715
+#: SessionController.cpp:731
 #, kde-format
 msgid "Send Signal"
 msgstr ""
 
-#: SessionController.cpp:719
+#: SessionController.cpp:735
 #, kde-format
 msgid "&Suspend Task"
 msgstr ""
 
-#: SessionController.cpp:724
+#: SessionController.cpp:740
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgid "&Continue Task"
 msgstr "&Začyni kartku"
 
-#: SessionController.cpp:729
+#: SessionController.cpp:745
 #, kde-format
 msgid "&Hangup"
 msgstr ""
 
-#: SessionController.cpp:734
+#: SessionController.cpp:750
 #, kde-format
 msgid "&Interrupt Task"
 msgstr ""
 
-#: SessionController.cpp:739
+#: SessionController.cpp:755
 #, fuzzy, kde-format
 #| msgid "Terminal Features"
 msgid "&Terminate Task"
 msgstr "Zdolnaści terminału"
 
-#: SessionController.cpp:744
+#: SessionController.cpp:760
 #, kde-format
 msgid "&Kill Task"
 msgstr ""
 
-#: SessionController.cpp:749
+#: SessionController.cpp:765
 #, kde-format
 msgid "User Signal &1"
 msgstr ""
 
-#: SessionController.cpp:754
+#: SessionController.cpp:770
 #, kde-format
 msgid "User Signal &2"
 msgstr ""
 
-#: SessionController.cpp:868
+#: SessionController.cpp:884
 #, kde-format
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "U hetaj sesii ciapier pracuje prahrama. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:871
+#: SessionController.cpp:887
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -2798,12 +2803,12 @@ msgid ""
 msgstr ""
 "U hetaj sesii ciapier pracuje prahrama „%1”. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:875 SessionController.cpp:902
+#: SessionController.cpp:891 SessionController.cpp:918
 #, kde-format
 msgid "Confirm Close"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: SessionController.cpp:895
+#: SessionController.cpp:911
 #, fuzzy, kde-format
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -2813,7 +2818,7 @@ msgid ""
 "by force?"
 msgstr "U hetaj sesii ciapier pracuje prahrama. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:898
+#: SessionController.cpp:914
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -2824,18 +2829,18 @@ msgid ""
 msgstr ""
 "U hetaj sesii ciapier pracuje prahrama „%1”. Sapraŭdy chočaš jaje začynić?"
 
-#: SessionController.cpp:1437
+#: SessionController.cpp:1453
 #, fuzzy, kde-format
 #| msgid "Shell"
 msgid "Print Shell"
 msgstr "Abałonka"
 
-#: SessionController.cpp:1643
+#: SessionController.cpp:1676
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1653
+#: SessionController.cpp:1686
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -2843,36 +2848,36 @@ msgid ""
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1665
+#: SessionController.cpp:1698
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1676
+#: SessionController.cpp:1709
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1682
+#: SessionController.cpp:1715
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1743
+#: SessionController.cpp:1776
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapišy vychodnyja źviestki z „%1”"
 
-#: SessionController.cpp:1755
+#: SessionController.cpp:1788
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 "„%1” jość niapravilnym adrasam. Nie ŭdałosia zapisać vychodnyja źviestki."
 
-#: SessionController.cpp:1831
+#: SessionController.cpp:1864
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -3502,7 +3507,7 @@ msgstr "Pamier: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "Pamier: %1 x %2"
 
-#: TerminalDisplay.cpp:3084
+#: TerminalDisplay.cpp:3088
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -3510,13 +3515,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: TerminalDisplay.cpp:3087
+#: TerminalDisplay.cpp:3091
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: TerminalDisplay.cpp:3294
+#: TerminalDisplay.cpp:3299
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -3531,60 +3536,60 @@ msgstr ""
 "\">ŭstrymanaje</a> skarotam „Ctrl+S”.  Naciśni <b>Ctrl+Q</b>, kab pracavać "
 "dalej.</qt>"
 
-#: TerminalDisplay.cpp:3600
+#: TerminalDisplay.cpp:3621
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "Uklej vyłučeńnie"
 
-#: TerminalDisplay.cpp:3617
+#: TerminalDisplay.cpp:3638
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: ViewContainer.cpp:306
+#: ViewContainer.cpp:317
 #, fuzzy, kde-format
 #| msgid "&Detach View"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "&Adčapi prahlad"
 
-#: ViewContainer.cpp:311
+#: ViewContainer.cpp:322
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: ViewContainer.cpp:317
+#: ViewContainer.cpp:328
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
-#: ViewContainer.cpp:324
+#: ViewContainer.cpp:335
 #, fuzzy, kde-format
 #| msgid "Enter new tab text:"
 msgctxt "@info:tooltip"
 msgid "Create new tab"
 msgstr "Upišy nazvu dla novaj kartki:"
 
-#: ViewContainer.cpp:326
+#: ViewContainer.cpp:337
 #, fuzzy, kde-format
 #| msgid "Create a new profile based upon the selected profile"
 msgctxt "@info:whatsthis"
 msgid "Create a new tab. Press and hold to select profile from menu"
 msgstr "Stvary novy profil, pačaŭšy z naładaŭ dla vybranaha profilu"
 
-#: ViewContainer.cpp:340
+#: ViewContainer.cpp:351
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "&Začyni kartku"
 
-#: ViewContainer.cpp:341
+#: ViewContainer.cpp:352
 #, fuzzy, kde-format
 #| msgid "Close the search bar"
 msgctxt "@info:whatsthis"

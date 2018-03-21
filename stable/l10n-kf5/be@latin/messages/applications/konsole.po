@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-20 03:18+0100\n"
+"POT-Creation-Date: 2018-03-21 06:14+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2500,19 +2500,19 @@ msgstr "Kansol systemy „Linux”"
 msgid "Solaris console"
 msgstr "Kansol systemy „Solaris”"
 
-#: Session.cpp:362
+#: Session.cpp:358
 #, kde-format
 msgid "Could not find binary: "
 msgstr "Nie ŭdałosia znajści prahramu: "
 
-#: Session.cpp:371
+#: Session.cpp:367
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "Uvaha: "
 
-#: Session.cpp:429
+#: Session.cpp:425
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2521,32 +2521,32 @@ msgstr ""
 "Nie ŭdałosia znajści „%1”, zamiest jaho pačynajem z „%2”. Spraŭdź nałady "
 "svajho profilu."
 
-#: Session.cpp:432
+#: Session.cpp:428
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "Nie ŭdałosia znajści interakcyjnaj abałonki, kab jaje ŭklučyć."
 
-#: Session.cpp:470
+#: Session.cpp:466
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
 
-#: Session.cpp:612
+#: Session.cpp:608
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Cišynia ŭ sesii „%1”"
 
-#: Session.cpp:661
+#: Session.cpp:657
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "Syhnał u sesii „%1”"
 
-#: Session.cpp:674
+#: Session.cpp:670
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Aktyŭnaść u sesii „%1”"
 
-#: Session.cpp:881
+#: Session.cpp:869
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2555,24 +2555,24 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:908
+#: Session.cpp:896
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Skončana"
 
-#: Session.cpp:922 Session.cpp:935
+#: Session.cpp:910 Session.cpp:923
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Prahrama „%1” złamałasia."
 
-#: Session.cpp:924
+#: Session.cpp:912
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 
-#: Session.cpp:1351
+#: Session.cpp:1331
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
@@ -2582,17 +2582,17 @@ msgstr "Prahres „ZModem”"
 msgid "Konsole"
 msgstr "Konsole"
 
-#: SessionController.cpp:347
+#: SessionController.cpp:346
 #, kde-format
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:407
+#: SessionController.cpp:406
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
-#: SessionController.cpp:421
+#: SessionController.cpp:420
 #, fuzzy, kde-format
 #| msgid "Manage Profiles..."
 msgid "Configure Web Shortcuts..."
@@ -2675,17 +2675,17 @@ msgstr "Adredahuj dziejny profil..."
 msgid "Switch Profile"
 msgstr "Adredahuj profil"
 
-#: SessionController.cpp:651
-#, fuzzy, kde-format
-#| msgid "Encoding"
-msgid "Set &Encoding"
-msgstr "Kadavańnie"
-
-#: SessionController.cpp:659
+#: SessionController.cpp:640
 #, kde-format
 msgctxt "@item:inmenu A read only (locked) session"
 msgid "Read-only"
 msgstr ""
+
+#: SessionController.cpp:657
+#, fuzzy, kde-format
+#| msgid "Encoding"
+msgid "Set &Encoding"
+msgstr "Kadavańnie"
 
 #: SessionController.cpp:670
 #, kde-format
@@ -2836,12 +2836,12 @@ msgstr ""
 msgid "Print Shell"
 msgstr "Abałonka"
 
-#: SessionController.cpp:1729
+#: SessionController.cpp:1697
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1739
+#: SessionController.cpp:1707
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -2849,36 +2849,36 @@ msgid ""
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1751
+#: SessionController.cpp:1719
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1762
+#: SessionController.cpp:1730
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1768
+#: SessionController.cpp:1736
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1829
+#: SessionController.cpp:1797
 #, kde-format
 msgid "Save Output From %1"
 msgstr "Zapišy vychodnyja źviestki z „%1”"
 
-#: SessionController.cpp:1841
+#: SessionController.cpp:1809
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 "„%1” jość niapravilnym adrasam. Nie ŭdałosia zapisać vychodnyja źviestki."
 
-#: SessionController.cpp:1917
+#: SessionController.cpp:1885
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -3498,17 +3498,17 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "Farmat nazvy dla kartki inšaha hosta:"
 
-#: TerminalDisplay.cpp:1364 TerminalDisplay.cpp:1365
+#: TerminalDisplay.cpp:1363 TerminalDisplay.cpp:1364
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "Pamier: XXX x XXX"
 
-#: TerminalDisplay.cpp:1376
+#: TerminalDisplay.cpp:1375
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "Pamier: %1 x %2"
 
-#: TerminalDisplay.cpp:3152
+#: TerminalDisplay.cpp:3151
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -3516,13 +3516,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: TerminalDisplay.cpp:3155
+#: TerminalDisplay.cpp:3154
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: TerminalDisplay.cpp:3363
+#: TerminalDisplay.cpp:3362
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -3536,18 +3536,18 @@ msgstr ""
 "\">ŭstrymanaje</a> skarotam „Ctrl+S”.  Naciśni <b>Ctrl+Q</b>, kab pracavać "
 "dalej.</qt>"
 
-#: TerminalDisplay.cpp:3401
+#: TerminalDisplay.cpp:3397
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: TerminalDisplay.cpp:3691
+#: TerminalDisplay.cpp:3685
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "Uklej vyłučeńnie"
 
-#: TerminalDisplay.cpp:3708
+#: TerminalDisplay.cpp:3702
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
@@ -3566,7 +3566,7 @@ msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: ViewContainer.cpp:329
+#: ViewContainer.cpp:328
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"

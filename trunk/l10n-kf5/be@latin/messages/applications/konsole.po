@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-02 03:18+0200\n"
+"POT-Creation-Date: 2018-04-03 03:23+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3498,17 +3498,17 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "Farmat nazvy dla kartki inšaha hosta:"
 
-#: TerminalDisplay.cpp:1373 TerminalDisplay.cpp:1374
+#: TerminalDisplay.cpp:1375 TerminalDisplay.cpp:1376
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "Pamier: XXX x XXX"
 
-#: TerminalDisplay.cpp:1385
+#: TerminalDisplay.cpp:1387
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "Pamier: %1 x %2"
 
-#: TerminalDisplay.cpp:3171
+#: TerminalDisplay.cpp:3176
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
@@ -3516,13 +3516,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: TerminalDisplay.cpp:3174
+#: TerminalDisplay.cpp:3179
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "Paćviardžeńnie začynieńnia"
 
-#: TerminalDisplay.cpp:3382
+#: TerminalDisplay.cpp:3387
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -3536,18 +3536,18 @@ msgstr ""
 "\">ŭstrymanaje</a> skarotam „Ctrl+S”.  Naciśni <b>Ctrl+Q</b>, kab pracavać "
 "dalej.</qt>"
 
-#: TerminalDisplay.cpp:3420
+#: TerminalDisplay.cpp:3425
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: TerminalDisplay.cpp:3708
+#: TerminalDisplay.cpp:3713
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "Uklej vyłučeńnie"
 
-#: TerminalDisplay.cpp:3725
+#: TerminalDisplay.cpp:3730
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
@@ -3566,35 +3566,35 @@ msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: ViewContainer.cpp:340
+#: ViewContainer.cpp:341
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Close Tab"
 msgstr "&Začyni kartku"
 
-#: ViewContainer.cpp:346
+#: ViewContainer.cpp:347
 #, fuzzy, kde-format
 #| msgid "Enter new tab text:"
 msgctxt "@info:tooltip"
 msgid "Create new tab"
 msgstr "Upišy nazvu dla novaj kartki:"
 
-#: ViewContainer.cpp:348
+#: ViewContainer.cpp:349
 #, fuzzy, kde-format
 #| msgid "Create a new profile based upon the selected profile"
 msgctxt "@info:whatsthis"
 msgid "Create a new tab. Press and hold to select profile from menu"
 msgstr "Stvary novy profil, pačaŭšy z naładaŭ dla vybranaha profilu"
 
-#: ViewContainer.cpp:362
+#: ViewContainer.cpp:363
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "&Začyni kartku"
 
-#: ViewContainer.cpp:363
+#: ViewContainer.cpp:364
 #, fuzzy, kde-format
 #| msgid "Close the search bar"
 msgctxt "@info:whatsthis"

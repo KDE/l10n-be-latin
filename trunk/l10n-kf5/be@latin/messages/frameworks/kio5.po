@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-05 03:31+0200\n"
+"POT-Creation-Date: 2018-04-16 03:26+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -7349,10 +7349,11 @@ msgid "&Open With"
 msgstr "&Adčyni ŭ"
 
 #: widgets/kfileitemactions.cpp:677
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Application"
 msgctxt "@action:inmenu Open With"
-msgid "&Other..."
-msgstr "&Inšaje..."
+msgid "&Other Application..."
+msgstr "&Aplikacyja"
 
 #: widgets/kfileitemactions.cpp:679 widgets/kfileitemactions.cpp:689
 #, kde-format
@@ -9121,6 +9122,10 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#~ msgctxt "@action:inmenu Open With"
+#~ msgid "&Other..."
+#~ msgstr "&Inšaje..."
 
 #, fuzzy
 #~| msgid "C&ontinue"

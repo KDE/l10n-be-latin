@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-24 01:47+0000\n"
+"POT-Creation-Date: 2018-04-28 01:54+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -722,12 +722,13 @@ msgctxt "X-KDE-Keywords"
 msgid "joystick,gamepad,controller"
 msgstr ""
 
-#: kcms/icons/icons.desktop:14 kcms/icons/icons.knsrc:2
+#: kcms/icons/icons.knsrc:2 kcms/icons/kcm_icons.desktop:14
+#: kcms/icons/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Icons"
 msgstr "Ikony"
 
-#: kcms/icons/icons.desktop:106
+#: kcms/icons/kcm_icons.desktop:106 kcms/icons/package/metadata.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Cursor Files"
@@ -735,7 +736,7 @@ msgctxt "Comment"
 msgid "Icon Theme"
 msgstr "Fajły kursoraŭ"
 
-#: kcms/icons/icons.desktop:153
+#: kcms/icons/kcm_icons.desktop:153
 msgctxt "X-KDE-Keywords"
 msgid "icons,effects,size,hicolor,locolor"
 msgstr ""

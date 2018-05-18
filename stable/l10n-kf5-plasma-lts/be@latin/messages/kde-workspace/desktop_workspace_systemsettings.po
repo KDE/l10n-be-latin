@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-17 08:28+0000\n"
+"POT-Creation-Date: 2018-01-27 04:50+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -24,7 +24,7 @@ msgctxt "GenericName"
 msgid "KDE System Settings"
 msgstr "Systemnyja nałady"
 
-#: app/kdesystemsettings.desktop:64
+#: app/kdesystemsettings.desktop:63
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "System Settings"
@@ -32,20 +32,20 @@ msgctxt "Name"
 msgid "KDE System Settings"
 msgstr "Systemnyja nałady"
 
+#: app/kdesystemsettings.desktop:118 app/systemsettings.desktop:175
+msgctxt "Comment"
+msgid "Configuration tools for your computer"
+msgstr ""
+
 #: app/systemsettings.desktop:9
 msgctxt "GenericName"
 msgid "System Settings"
 msgstr "Systemnyja nałady"
 
-#: app/systemsettings.desktop:91
+#: app/systemsettings.desktop:90
 msgctxt "Name"
 msgid "System Settings"
 msgstr "Systemnyja nałady"
-
-#: categories/old/settings-accessibility.desktop:8
-msgctxt "Name"
-msgid "Accessibility"
-msgstr "Dastupnaść"
 
 #: categories/old/settings-account-details.desktop:8
 #: categories/settings-personalization-accountdetails.desktop:9
@@ -92,7 +92,7 @@ msgctxt "Name"
 msgid "Workspace Appearance"
 msgstr "Uklučeńnie aplikacyi"
 
-#: categories/old/settings-desktop-appearance.desktop:73
+#: categories/old/settings-desktop-appearance.desktop:72
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Customize individual desktop theme items"
@@ -109,8 +109,8 @@ msgctxt "Name"
 msgid "Display and Monitor"
 msgstr "Kiravańnie fajłami"
 
-#: categories/old/settings-display.desktop:70
-#: categories/settings-hardware-display.desktop:71
+#: categories/old/settings-display.desktop:69
+#: categories/settings-hardware-display.desktop:70
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "Nałady ekrana"
@@ -239,7 +239,7 @@ msgstr "Uklučeńnie aplikacyi"
 
 #: categories/settings-appearance-color.desktop:9
 msgctxt "Name"
-msgid "Color"
+msgid "Colors"
 msgstr ""
 
 #: categories/settings-appearance.desktop:9
@@ -252,7 +252,7 @@ msgstr "Uklučeńnie aplikacyi"
 
 #: categories/settings-appearance-font.desktop:9
 msgctxt "Name"
-msgid "Font"
+msgid "Fonts"
 msgstr ""
 
 #: categories/settings-appearance-icons.desktop:9
@@ -304,6 +304,11 @@ msgstr "Nałady sietki"
 msgctxt "Name"
 msgid "Settings"
 msgstr "Systemnyja nałady"
+
+#: categories/settings-personalization-accessibility.desktop:8
+msgctxt "Name"
+msgid "Accessibility"
+msgstr "Dastupnaść"
 
 #: categories/settings-personalization-applications.desktop:9
 #, fuzzy
@@ -377,6 +382,7 @@ msgid "System Settings Category"
 msgstr "Katehoryja systemnych naładaŭ"
 
 #: classic/settings-classic-view.desktop:7 icons/settings-icon-view.desktop:7
+#: sidebar/settings-sidebar-view.desktop:7
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "System Settings"
@@ -384,12 +390,12 @@ msgctxt "X-KDE-Keywords"
 msgid "System Settings"
 msgstr "Systemnyja nałady"
 
-#: classic/settings-classic-view.desktop:65
+#: classic/settings-classic-view.desktop:64
 msgctxt "Name"
-msgid "Classic Tree View"
+msgid "Tree View"
 msgstr ""
 
-#: classic/settings-classic-view.desktop:135
+#: classic/settings-classic-view.desktop:98
 msgctxt "Comment"
 msgid "A Classic KDE 3 KControl style system settings view."
 msgstr ""
@@ -410,7 +416,7 @@ msgctxt "Name"
 msgid "System Settings View"
 msgstr "Systemnyja nałady"
 
-#: icons/settings-icon-view.desktop:65
+#: icons/settings-icon-view.desktop:64
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Font Viewer"
@@ -418,9 +424,20 @@ msgctxt "Name"
 msgid "Icon View"
 msgstr "Prahladnik šryftoŭ"
 
-#: icons/settings-icon-view.desktop:143
+#: icons/settings-icon-view.desktop:141
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
+msgstr ""
+
+#: sidebar/package/metadata.desktop:2 sidebar/settings-sidebar-view.desktop:64
+msgctxt "Name"
+msgid "Sidebar View"
+msgstr ""
+
+#: sidebar/package/metadata.desktop:39
+#: sidebar/settings-sidebar-view.desktop:101
+msgctxt "Comment"
+msgid "Categorized sidebar style"
 msgstr ""
 
 #, fuzzy

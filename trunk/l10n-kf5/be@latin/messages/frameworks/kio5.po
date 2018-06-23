@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-22 03:24+0200\n"
+"POT-Creation-Date: 2018-06-23 03:22+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -8117,23 +8117,26 @@ msgstr ""
 
 #: widgets/kpropertiesdialog.cpp:1644 widgets/kpropertiesdialog.cpp:1650
 #: widgets/kpropertiesdialog.cpp:1657
-#, kde-format
-msgid "Forbidden"
-msgstr "Zabaroniena"
+#, fuzzy, kde-format
+#| msgid "Accessed:"
+msgid "No Access"
+msgstr "Dostup:"
 
 #: widgets/kpropertiesdialog.cpp:1645
 #, kde-format
-msgid "Can Read"
-msgstr "Možna pračytać"
+msgid "Can Only View"
+msgstr ""
 
 #: widgets/kpropertiesdialog.cpp:1646
-#, kde-format
-msgid "Can Read & Write"
-msgstr "Možna pračytać i zapisać"
+#, fuzzy, kde-format
+#| msgid "Can View & Modify Content"
+msgid "Can View & Modify"
+msgstr "Možna ŭbačyć i źmianić źmieściva"
 
 #: widgets/kpropertiesdialog.cpp:1651
-#, kde-format
-msgid "Can View Content"
+#, fuzzy, kde-format
+#| msgid "Can View Content"
+msgid "Can Only View Content"
 msgstr "Možna ŭbačyć źmieściva"
 
 #: widgets/kpropertiesdialog.cpp:1652
@@ -8142,9 +8145,10 @@ msgid "Can View & Modify Content"
 msgstr "Možna ŭbačyć i źmianić źmieściva"
 
 #: widgets/kpropertiesdialog.cpp:1658
-#, kde-format
-msgid "Can View Content & Read"
-msgstr "Možna ŭbačyć źmieściva j pračytać"
+#, fuzzy, kde-format
+#| msgid "Can View Content"
+msgid "Can Only View/Read Content"
+msgstr "Možna ŭbačyć źmieściva"
 
 #: widgets/kpropertiesdialog.cpp:1659
 #, kde-format
@@ -9169,6 +9173,18 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#~ msgid "Forbidden"
+#~ msgstr "Zabaroniena"
+
+#~ msgid "Can Read"
+#~ msgstr "Možna pračytać"
+
+#~ msgid "Can Read & Write"
+#~ msgstr "Možna pračytać i zapisać"
+
+#~ msgid "Can View Content & Read"
+#~ msgstr "Možna ŭbačyć źmieściva j pračytać"
 
 #~ msgid "Do you really want to delete this item?"
 #~ msgid_plural "Do you really want to delete these %1 items?"

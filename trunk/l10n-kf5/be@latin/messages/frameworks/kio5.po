@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-23 03:22+0200\n"
+"POT-Creation-Date: 2018-07-10 03:33+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -383,7 +383,7 @@ msgid ""
 "continue?"
 msgstr ""
 
-#: core/job.cpp:289 widgets/jobuidelegate.cpp:240
+#: core/job.cpp:289 widgets/jobuidelegate.cpp:243
 #, kde-format
 msgid "Delete Files"
 msgstr "Vydaleńnie fajłaŭ"
@@ -2858,7 +2858,7 @@ msgstr "Nie ŭdałosia adčynić sertyfikat. Pasprabuješ inšy parol?"
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Nie ŭdałosia aznačyć dla sesii sertyfikat klijenta."
 
-#: core/tcpslavebase.cpp:762 widgets/jobuidelegate.cpp:367
+#: core/tcpslavebase.cpp:762 widgets/jobuidelegate.cpp:370
 #, kde-format
 msgid "SSL"
 msgstr "SSL"
@@ -2968,8 +2968,8 @@ msgstr "Pieračytaj"
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: filewidgets/kdiroperator.cpp:1883 widgets/jobuidelegate.cpp:263
-#: widgets/jobuidelegate.cpp:271 widgets/jobuidelegate.cpp:272
+#: filewidgets/kdiroperator.cpp:1883 widgets/jobuidelegate.cpp:266
+#: widgets/jobuidelegate.cpp:274 widgets/jobuidelegate.cpp:275
 #, kde-format
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
@@ -4000,33 +4000,33 @@ msgstr ""
 "Nie ŭdałosia źmianić dazvoły na\n"
 "%1"
 
-#: ioslaves/file/file.cpp:1012
+#: ioslaves/file/file.cpp:1021
 #, kde-format
 msgid "No Media inserted or Media not recognized."
 msgstr "Nośbit nia ŭsunuty albo nie raspaznany."
 
-#: ioslaves/file/file.cpp:1021 ioslaves/file/file.cpp:1217
+#: ioslaves/file/file.cpp:1030 ioslaves/file/file.cpp:1226
 #, kde-format
 msgid "\"vold\" is not running."
 msgstr "Słužba „vold” nie pracuje."
 
-#: ioslaves/file/file.cpp:1054
+#: ioslaves/file/file.cpp:1063
 #, kde-format
 msgid "Could not find program \"mount\""
 msgstr "Nie ŭdałosia znajści prahramu „mount”."
 
-#: ioslaves/file/file.cpp:1123
+#: ioslaves/file/file.cpp:1132
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "mounting is not supported by wince."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: ioslaves/file/file.cpp:1228
+#: ioslaves/file/file.cpp:1237
 #, kde-format
 msgid "Could not find program \"umount\""
 msgstr "Nie ŭdałosia znajści prahramu „umount”."
 
-#: ioslaves/file/file.cpp:1243
+#: ioslaves/file/file.cpp:1252
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "unmounting is not supported by wince."
@@ -7086,7 +7086,7 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "Paćviardžeńnie dla anulavańnia kapijavańnia"
 
-#: widgets/jobuidelegate.cpp:230
+#: widgets/jobuidelegate.cpp:233
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7095,7 +7095,7 @@ msgid ""
 "emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:238
+#: widgets/jobuidelegate.cpp:241
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7108,7 +7108,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/jobuidelegate.cpp:249
+#: widgets/jobuidelegate.cpp:252
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7116,13 +7116,13 @@ msgid ""
 "><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:251
+#: widgets/jobuidelegate.cpp:254
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Vyčyści śmietnicu"
 
-#: widgets/jobuidelegate.cpp:261
+#: widgets/jobuidelegate.cpp:264
 #, fuzzy, kde-kuit-format
 #| msgid "Do you really want to move this item to the trash?"
 #| msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -7132,7 +7132,7 @@ msgid ""
 "filename>"
 msgstr "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 
-#: widgets/jobuidelegate.cpp:269
+#: widgets/jobuidelegate.cpp:272
 #, fuzzy, kde-format
 #| msgid "Do you really want to move this item to the trash?"
 #| msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -7142,7 +7142,7 @@ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 
-#: widgets/jobuidelegate.cpp:366
+#: widgets/jobuidelegate.cpp:369
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."

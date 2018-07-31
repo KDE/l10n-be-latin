@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-27 01:43+0000\n"
+"POT-Creation-Date: 2018-07-31 01:52+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -133,7 +133,6 @@ msgid "Login"
 msgstr "Uvachod"
 
 #: effects/login/package/metadata.desktop:88
-#: effects/logout/package/metadata.desktop:40
 msgctxt "Comment"
 msgid "Smoothly fade to the desktop when logging in"
 msgstr ""
@@ -143,8 +142,13 @@ msgstr ""
 #| msgctxt "Name"
 #| msgid "Logout"
 msgctxt "Name"
-msgid "logout"
+msgid "Logout"
 msgstr "Vychad"
+
+#: effects/logout/package/metadata.desktop:40
+msgctxt "Comment"
+msgid "Smoothly fade to the logout screen"
+msgstr ""
 
 #: effects/lookingglass/lookingglass_config.desktop:8
 msgctxt "Name"

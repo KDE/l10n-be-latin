@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-24 03:46+0200\n"
+"POT-Creation-Date: 2018-09-06 03:58+0200\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -30,7 +30,7 @@ msgstr "Miesca"
 
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:299
-#: package/contents/ui/FolderViewLayer.qml:406
+#: package/contents/ui/FolderViewLayer.qml:411
 msgid "Icons"
 msgstr "Ikony"
 
@@ -420,39 +420,39 @@ msgstr "&Aktualizuj stoł"
 msgid "Select Folder"
 msgstr "Vyłučy ŭsio"
 
-#: plugins/folder/foldermodel.cpp:396
+#: plugins/folder/foldermodel.cpp:397
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr "&Aktualizuj stoł"
 
-#: plugins/folder/foldermodel.cpp:396 plugins/folder/foldermodel.cpp:1556
+#: plugins/folder/foldermodel.cpp:397 plugins/folder/foldermodel.cpp:1565
 #, kde-format
 msgid "&Refresh View"
 msgstr "&Aktualizuj prahlad"
 
-#: plugins/folder/foldermodel.cpp:1563
+#: plugins/folder/foldermodel.cpp:1572
 #, kde-format
 msgid "&Empty Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
-#: plugins/folder/foldermodel.cpp:1566
+#: plugins/folder/foldermodel.cpp:1575
 #, fuzzy, kde-format
 #| msgid "&Restore"
 msgctxt "Restore from trash"
 msgid "Restore"
 msgstr "&Uznavi"
 
-#: plugins/folder/foldermodel.cpp:1571
+#: plugins/folder/foldermodel.cpp:1580
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: plugins/folder/foldermodel.cpp:1643
+#: plugins/folder/foldermodel.cpp:1652
 #, kde-format
 msgid "&Paste"
 msgstr "&Uklej"
 
-#: plugins/folder/foldermodel.cpp:1775
+#: plugins/folder/foldermodel.cpp:1784
 #, kde-format
 msgid "&Properties"
 msgstr "&Ułaścivaści"
@@ -503,6 +503,12 @@ msgid "Huge"
 msgstr ""
 
 #: plugins/folder/viewpropertiesmenu.cpp:97
+#, fuzzy, kde-format
+#| msgid "Show previews"
+msgid "Show Previews"
+msgstr "Pakazvaj padhlady"
+
+#: plugins/folder/viewpropertiesmenu.cpp:100
 #, kde-format
 msgid "Locked"
 msgstr ""
@@ -688,11 +694,6 @@ msgstr ""
 #~ msgctxt "@action:inmenu"
 #~ msgid "Paste"
 #~ msgstr "&Uklej"
-
-#, fuzzy
-#~| msgid "Show previews"
-#~ msgid "Previews"
-#~ msgstr "Pakazvaj padhlady"
 
 #, fuzzy
 #~| msgid "Icons"

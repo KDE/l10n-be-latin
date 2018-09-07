@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-06 03:58+0200\n"
+"POT-Creation-Date: 2018-09-07 04:01+0200\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -29,8 +29,8 @@ msgid "Location"
 msgstr "Miesca"
 
 #: package/contents/config/config.qml:36
-#: package/contents/ui/ConfigIcons.qml:299
-#: package/contents/ui/FolderViewLayer.qml:411
+#: package/contents/ui/ConfigIcons.qml:310
+#: package/contents/ui/FolderViewLayer.qml:418
 msgid "Icons"
 msgstr "Ikony"
 
@@ -107,15 +107,15 @@ msgstr "Vyłučy ŭsio"
 msgid "Deselect All"
 msgstr "Anuluj vyłučeńnie ŭsiaho"
 
-#: package/contents/ui/ConfigIcons.qml:72
+#: package/contents/ui/ConfigIcons.qml:75
 msgid "Panel button:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:83
+#: package/contents/ui/ConfigIcons.qml:86
 msgid "Use a custom icon"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:125
+#: package/contents/ui/ConfigIcons.qml:128
 #, fuzzy
 #| msgctxt "@title:menu in Copy To or Move To submenu"
 #| msgid "Browse..."
@@ -123,76 +123,76 @@ msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "Ahladaj..."
 
-#: package/contents/ui/ConfigIcons.qml:131
+#: package/contents/ui/ConfigIcons.qml:134
 #, fuzzy
 #| msgid "Sort Icons"
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Paradkuj ikony"
 
-#: package/contents/ui/ConfigIcons.qml:151
+#: package/contents/ui/ConfigIcons.qml:154
 #, fuzzy
 #| msgid "Icon Arrangement"
 msgid "Arrangement:"
 msgstr "Vykład ikon"
 
-#: package/contents/ui/ConfigIcons.qml:158
+#: package/contents/ui/ConfigIcons.qml:161
 #, fuzzy
 #| msgid "Arrange icons:"
 msgid "Arrange in"
 msgstr "Vykładvaj ikony:"
 
-#: package/contents/ui/ConfigIcons.qml:168
+#: package/contents/ui/ConfigIcons.qml:171
 #: plugins/folder/viewpropertiesmenu.cpp:34
 #, kde-format
 msgid "Rows"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:168
+#: package/contents/ui/ConfigIcons.qml:171
 #: plugins/folder/viewpropertiesmenu.cpp:38
 #, kde-format
 msgid "Columns"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:176
+#: package/contents/ui/ConfigIcons.qml:179
 #: plugins/folder/viewpropertiesmenu.cpp:43
 #, fuzzy, kde-format
 #| msgid "Align to Grid"
 msgid "Align"
 msgstr "Dapasuj da sietki"
 
-#: package/contents/ui/ConfigIcons.qml:186
+#: package/contents/ui/ConfigIcons.qml:189
 #: plugins/folder/viewpropertiesmenu.cpp:46
 #, kde-format
 msgid "Left"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:186
+#: package/contents/ui/ConfigIcons.qml:189
 #: plugins/folder/viewpropertiesmenu.cpp:50
 #, kde-format
 msgid "Right"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:198
+#: package/contents/ui/ConfigIcons.qml:209
 #, fuzzy
 #| msgctxt "Icons on the desktop"
 #| msgid "Lock in Place"
 msgid "Lock in place"
 msgstr "Zamacuj na miascoch"
 
-#: package/contents/ui/ConfigIcons.qml:213
+#: package/contents/ui/ConfigIcons.qml:224
 #, fuzzy
 #| msgid "Sort icons:"
 msgid "Sorting:"
 msgstr "Paradkuj ikony:"
 
-#: package/contents/ui/ConfigIcons.qml:220
+#: package/contents/ui/ConfigIcons.qml:231
 #, fuzzy
 #| msgid "Sort icons:"
 msgid "Sort by"
 msgstr "Paradkuj ikony:"
 
-#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:247
 #: plugins/folder/viewpropertiesmenu.cpp:58
 #, fuzzy, kde-format
 #| msgctxt "Sort Icons"
@@ -200,7 +200,7 @@ msgstr "Paradkuj ikony:"
 msgid "Unsorted"
 msgstr "Biez paradku"
 
-#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:247
 #: plugins/folder/viewpropertiesmenu.cpp:62
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -208,8 +208,8 @@ msgstr "Biez paradku"
 msgid "Name"
 msgstr "Pavodle nazvy"
 
-#: package/contents/ui/ConfigIcons.qml:236
-#: package/contents/ui/ConfigIcons.qml:309
+#: package/contents/ui/ConfigIcons.qml:247
+#: package/contents/ui/ConfigIcons.qml:320
 #: plugins/folder/viewpropertiesmenu.cpp:66
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -217,7 +217,7 @@ msgstr "Pavodle nazvy"
 msgid "Size"
 msgstr "Pavodle pamieraŭ"
 
-#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:247
 #: plugins/folder/viewpropertiesmenu.cpp:70
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -225,7 +225,7 @@ msgstr "Pavodle pamieraŭ"
 msgid "Type"
 msgstr "Pavodle typaŭ"
 
-#: package/contents/ui/ConfigIcons.qml:236
+#: package/contents/ui/ConfigIcons.qml:247
 #: plugins/folder/viewpropertiesmenu.cpp:74
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
@@ -233,45 +233,45 @@ msgstr "Pavodle typaŭ"
 msgid "Date"
 msgstr "Pavodle dataŭ"
 
-#: package/contents/ui/ConfigIcons.qml:251
+#: package/contents/ui/ConfigIcons.qml:262
 #: plugins/folder/viewpropertiesmenu.cpp:79
 #, kde-format
 msgid "Descending"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:274
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "Folders First"
 msgid "Folders first"
 msgstr "Spačatku katalohi"
 
-#: package/contents/ui/ConfigIcons.qml:278
+#: package/contents/ui/ConfigIcons.qml:289
 msgid "Appearance:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:287
+#: package/contents/ui/ConfigIcons.qml:298
 msgctxt "whether to use icon or list view"
 msgid "View mode"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:299
+#: package/contents/ui/ConfigIcons.qml:310
 msgid "List"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:334
+#: package/contents/ui/ConfigIcons.qml:345
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Small"
 msgstr "Mały"
 
-#: package/contents/ui/ConfigIcons.qml:344
+#: package/contents/ui/ConfigIcons.qml:355
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Large"
 msgstr "Vialiki"
 
-#: package/contents/ui/ConfigIcons.qml:354
+#: package/contents/ui/ConfigIcons.qml:365
 #, fuzzy
 #| msgctxt "Inserted as %2 in the message below."
 #| msgid "1 file"
@@ -279,31 +279,31 @@ msgstr "Vialiki"
 msgid "Text lines"
 msgstr "%1 fajł"
 
-#: package/contents/ui/ConfigIcons.qml:382
+#: package/contents/ui/ConfigIcons.qml:393
 msgid "Features:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:391
+#: package/contents/ui/ConfigIcons.qml:402
 msgid "Tool tips"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:403
+#: package/contents/ui/ConfigIcons.qml:414
 #, fuzzy
 #| msgid "Select All"
 msgid "Selection markers"
 msgstr "Vyłučy ŭsio"
 
-#: package/contents/ui/ConfigIcons.qml:415
+#: package/contents/ui/ConfigIcons.qml:426
 msgid "Folder preview popups"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:425
+#: package/contents/ui/ConfigIcons.qml:436
 #, fuzzy
 #| msgid "Show previews"
 msgid "Preview thumbnails"
 msgstr "Pakazvaj padhlady"
 
-#: package/contents/ui/ConfigIcons.qml:434
+#: package/contents/ui/ConfigIcons.qml:445
 msgid "More Preview Options..."
 msgstr ""
 
@@ -425,34 +425,34 @@ msgstr "Vyłučy ŭsio"
 msgid "&Refresh Desktop"
 msgstr "&Aktualizuj stoł"
 
-#: plugins/folder/foldermodel.cpp:397 plugins/folder/foldermodel.cpp:1565
+#: plugins/folder/foldermodel.cpp:397 plugins/folder/foldermodel.cpp:1567
 #, kde-format
 msgid "&Refresh View"
 msgstr "&Aktualizuj prahlad"
 
-#: plugins/folder/foldermodel.cpp:1572
+#: plugins/folder/foldermodel.cpp:1574
 #, kde-format
 msgid "&Empty Trash Bin"
 msgstr "&Vyčyści śmietnicu"
 
-#: plugins/folder/foldermodel.cpp:1575
+#: plugins/folder/foldermodel.cpp:1577
 #, fuzzy, kde-format
 #| msgid "&Restore"
 msgctxt "Restore from trash"
 msgid "Restore"
 msgstr "&Uznavi"
 
-#: plugins/folder/foldermodel.cpp:1580
+#: plugins/folder/foldermodel.cpp:1582
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: plugins/folder/foldermodel.cpp:1652
+#: plugins/folder/foldermodel.cpp:1698
 #, kde-format
 msgid "&Paste"
 msgstr "&Uklej"
 
-#: plugins/folder/foldermodel.cpp:1784
+#: plugins/folder/foldermodel.cpp:1810
 #, kde-format
 msgid "&Properties"
 msgstr "&Ułaścivaści"

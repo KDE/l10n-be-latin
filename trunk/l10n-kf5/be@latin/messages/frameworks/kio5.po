@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-19 03:48+0200\n"
+"POT-Creation-Date: 2018-09-24 03:43+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3956,13 +3956,13 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ioslaves/ftp/ftp.cpp:581 ioslaves/http/http.cpp:5368
+#: ioslaves/ftp/ftp.cpp:581 ioslaves/http/http.cpp:5364
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ioslaves/ftp/ftp.cpp:583 ioslaves/http/http.cpp:5370
+#: ioslaves/ftp/ftp.cpp:583 ioslaves/http/http.cpp:5366
 #, kde-format
 msgid "Site:"
 msgstr "Sajt:"
@@ -3982,8 +3982,8 @@ msgstr "Uvachod: OK"
 msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
 
-#: ioslaves/ftp/ftp.cpp:2612 ioslaves/http/http.cpp:5249
-#: ioslaves/http/http.cpp:5382
+#: ioslaves/ftp/ftp.cpp:2612 ioslaves/http/http.cpp:5245
+#: ioslaves/http/http.cpp:5378
 #, kde-format
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -3992,20 +3992,20 @@ msgstr ""
 "Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
 "parol dla proxy-servera."
 
-#: ioslaves/ftp/ftp.cpp:2616 ioslaves/http/http.cpp:5253
-#: ioslaves/http/http.cpp:5385
+#: ioslaves/ftp/ftp.cpp:2616 ioslaves/http/http.cpp:5249
+#: ioslaves/http/http.cpp:5381
 #, kde-format
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ioslaves/ftp/ftp.cpp:2617 ioslaves/http/http.cpp:5254
-#: ioslaves/http/http.cpp:5491
+#: ioslaves/ftp/ftp.cpp:2617 ioslaves/http/http.cpp:5250
+#: ioslaves/http/http.cpp:5487
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
-#: ioslaves/ftp/ftp.cpp:2618 ioslaves/http/http.cpp:5256
-#: ioslaves/http/http.cpp:5402
+#: ioslaves/ftp/ftp.cpp:2618 ioslaves/http/http.cpp:5252
+#: ioslaves/http/http.cpp:5398
 #, kde-format
 msgid "Proxy Authentication Failed."
 msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
@@ -4058,78 +4058,78 @@ msgstr "Nie ŭdałosia pračytać z fajła „%1”."
 msgid "No host specified."
 msgstr "Host nie aznačany."
 
-#: ioslaves/http/http.cpp:1563
+#: ioslaves/http/http.cpp:1559
 #, kde-format
 msgid "Otherwise, the request would have succeeded."
 msgstr "Inačaj zapyt by vykanaŭsia."
 
-#: ioslaves/http/http.cpp:1567
+#: ioslaves/http/http.cpp:1563
 #, kde-format
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "atrymać vartaści dla ŭłaścivaściaŭ"
 
-#: ioslaves/http/http.cpp:1570
+#: ioslaves/http/http.cpp:1566
 #, kde-format
 msgctxt "request type"
 msgid "set property values"
 msgstr "aznačyć vartaści dla ŭłaścivaściaŭ"
 
-#: ioslaves/http/http.cpp:1573
+#: ioslaves/http/http.cpp:1569
 #, kde-format
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "stvaryć zapatrabavany kataloh"
 
-#: ioslaves/http/http.cpp:1576
+#: ioslaves/http/http.cpp:1572
 #, kde-format
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "skapijavać aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1579
+#: ioslaves/http/http.cpp:1575
 #, kde-format
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "pieranieści aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1582
+#: ioslaves/http/http.cpp:1578
 #, kde-format
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "pašukać u aznačanym katalohu"
 
-#: ioslaves/http/http.cpp:1585
+#: ioslaves/http/http.cpp:1581
 #, kde-format
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "zablakavać aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1588
+#: ioslaves/http/http.cpp:1584
 #, kde-format
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "adblakavać aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1591
+#: ioslaves/http/http.cpp:1587
 #, kde-format
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "vydalić aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1594
+#: ioslaves/http/http.cpp:1590
 #, kde-format
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "zapytać u servera pra jahonyja zdolnaści"
 
-#: ioslaves/http/http.cpp:1597
+#: ioslaves/http/http.cpp:1593
 #, kde-format
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "atrymać źmieściva aznačanaha fajła ci kataloha"
 
-#: ioslaves/http/http.cpp:1600
+#: ioslaves/http/http.cpp:1596
 #, fuzzy, kde-format
 #| msgctxt "request type"
 #| msgid "search in the specified folder"
@@ -4137,18 +4137,18 @@ msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "pašukać u aznačanym katalohu"
 
-#: ioslaves/http/http.cpp:1611
+#: ioslaves/http/http.cpp:1607
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
-#: ioslaves/http/http.cpp:1618
+#: ioslaves/http/http.cpp:1614
 #, kde-format
 msgid "The server does not support the WebDAV protocol."
 msgstr "Server nie absłuhoŭvaje pratakoł „WebDAV”."
 
-#: ioslaves/http/http.cpp:1659
+#: ioslaves/http/http.cpp:1655
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -4157,13 +4157,13 @@ msgid ""
 msgstr ""
 "Padčas sproby %1 dla „%2” uźnikła pamyłka. Nižej padadzieny śpis pryčynaŭ."
 
-#: ioslaves/http/http.cpp:1675 ioslaves/http/http.cpp:1808
+#: ioslaves/http/http.cpp:1671 ioslaves/http/http.cpp:1804
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Sprobie %1 zabaronieny dostup."
 
-#: ioslaves/http/http.cpp:1688 ioslaves/http/http.cpp:1814
+#: ioslaves/http/http.cpp:1684 ioslaves/http/http.cpp:1810
 #, kde-format
 msgid ""
 "A resource cannot be created at the destination until one or more "
@@ -4172,7 +4172,7 @@ msgstr ""
 "Niemahčyma stvaryć resurs u metavym miescy, pakul nia buduć stvorany "
 "pasiarednija katalohi, jakija viaduć da hetaha resursu."
 
-#: ioslaves/http/http.cpp:1696
+#: ioslaves/http/http.cpp:1692
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -4182,28 +4182,28 @@ msgid ""
 " %1"
 msgstr ""
 
-#: ioslaves/http/http.cpp:1704
+#: ioslaves/http/http.cpp:1700
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr ""
 
-#: ioslaves/http/http.cpp:1710
+#: ioslaves/http/http.cpp:1706
 #, kde-format
 msgid "The server does not support the request type of the body."
 msgstr "Server nie absłuhoŭvaje typu zapytaŭ, padadzienaha ŭ ciele."
 
-#: ioslaves/http/http.cpp:1715 ioslaves/http/http.cpp:1822
+#: ioslaves/http/http.cpp:1711 ioslaves/http/http.cpp:1818
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Nie ŭdałosia %1, bo resurs zablakavany."
 
-#: ioslaves/http/http.cpp:1719
+#: ioslaves/http/http.cpp:1715
 #, kde-format
 msgid "This action was prevented by another error."
 msgstr "Hetaj aperacyi pieraškodziła inšaja pamyłka."
 
-#: ioslaves/http/http.cpp:1725 ioslaves/http/http.cpp:1828
+#: ioslaves/http/http.cpp:1721 ioslaves/http/http.cpp:1824
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -4212,7 +4212,7 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia %1, bo metavy server nie pryniaŭ hetaha fajła ci kataloha."
 
-#: ioslaves/http/http.cpp:1732 ioslaves/http/http.cpp:1835
+#: ioslaves/http/http.cpp:1728 ioslaves/http/http.cpp:1831
 #, kde-format
 msgid ""
 "The destination resource does not have sufficient space to record the state "
@@ -4221,29 +4221,29 @@ msgstr ""
 "Metavamu resursu nie chapiła volnaha miesca, kab zapisać novuju admienu, "
 "jakaja ŭźnikła paśla vykanańnia hetaj funkcyi."
 
-#: ioslaves/http/http.cpp:1786
+#: ioslaves/http/http.cpp:1782
 #, kde-format
 msgid "The resource cannot be deleted."
 msgstr "Aznačany resurs nie ŭdałosia vydalić."
 
-#: ioslaves/http/http.cpp:1799
+#: ioslaves/http/http.cpp:1795
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "pakłaści „%1” na server"
 
-#: ioslaves/http/http.cpp:1849
+#: ioslaves/http/http.cpp:1845
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
-#: ioslaves/http/http.cpp:2675
+#: ioslaves/http/http.cpp:2671
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "Spałučany z „%1”. Čakańnie adkazu..."
 
-#: ioslaves/http/http.cpp:3019
+#: ioslaves/http/http.cpp:3015
 #, kde-format
 msgctxt "@info Security check on url being accessed"
 msgid ""
@@ -4252,39 +4252,39 @@ msgid ""
 "you.</p><p>Is \"%1\" the site you want to visit?</p>"
 msgstr ""
 
-#: ioslaves/http/http.cpp:3025
+#: ioslaves/http/http.cpp:3021
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: ioslaves/http/http.cpp:3114
+#: ioslaves/http/http.cpp:3110
 #, kde-format
 msgid "Server processing request, please wait..."
 msgstr "Server pierapracoŭvaje zapyt. Pačakaj..."
 
-#: ioslaves/http/http.cpp:3826 ioslaves/http/http.cpp:3886
+#: ioslaves/http/http.cpp:3822 ioslaves/http/http.cpp:3882
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Vysyłańnie źviestak u „%1”"
 
-#: ioslaves/http/http.cpp:4343
+#: ioslaves/http/http.cpp:4339
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Atrymańnie „%1” ad „%2”..."
 
-#: ioslaves/http/http.cpp:5401
+#: ioslaves/http/http.cpp:5397
 #, kde-format
 msgid "Authentication Failed."
 msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
 
-#: ioslaves/http/http.cpp:5532
+#: ioslaves/http/http.cpp:5528
 #, fuzzy, kde-format
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Akno aŭtaryzavańnia"
 
-#: ioslaves/http/http.cpp:5549
+#: ioslaves/http/http.cpp:5545
 #, fuzzy, kde-format
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."

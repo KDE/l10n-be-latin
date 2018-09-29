@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-16 01:58+0000\n"
+"POT-Creation-Date: 2018-09-29 02:10+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -31,7 +31,7 @@ msgctxt "Name"
 msgid "Desktop Cube"
 msgstr "Rabočy kub"
 
-#: effects/cube/cubeslide_config.desktop:8
+#: effects/cubeslide/cubeslide_config.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop Cube"
@@ -223,6 +223,14 @@ msgstr ""
 #: effects/showfps/showfps_config.desktop:8
 msgctxt "Name"
 msgid "Show FPS"
+msgstr "Vyjaŭleńnie „FPS”"
+
+#: effects/showpaint/showpaint_config.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Show FPS"
+msgctxt "Name"
+msgid "Show Paint"
 msgstr "Vyjaŭleńnie „FPS”"
 
 #: effects/slide/slide_config.desktop:8
@@ -646,6 +654,14 @@ msgstr ""
 msgctxt "Name"
 msgid "KWin Decoration"
 msgstr "Źviestki z akna"
+
+#: packageplugins/effect/kwin-packagestructure-effect.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KWin Effect"
+msgctxt "Name"
+msgid "KWin Effect"
+msgstr "Efekty akońnika „KWin”"
 
 #: packageplugins/scripts/kwin-packagestructure-scripts.desktop:2
 #, fuzzy

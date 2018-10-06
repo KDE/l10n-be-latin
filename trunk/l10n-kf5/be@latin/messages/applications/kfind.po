@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-05 03:41+0200\n"
+"POT-Creation-Date: 2018-10-06 03:39+0200\n"
 "PO-Revision-Date: 2008-10-06 20:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -33,15 +33,12 @@ msgid "Idle."
 msgstr ""
 
 #. i18n as below
-#: kfinddlg.cpp:133 kfinddlg.cpp:228 kfinddlg.cpp:252
+#: kfinddlg.cpp:133
 #, fuzzy, kde-format
 #| msgid "one file found"
 #| msgid_plural "%1 files found"
-msgid "one item found"
-msgid_plural "%1 items found"
-msgstr[0] "znojdzieny %1 fajł"
-msgstr[1] "znojdzienyja %1 fajły"
-msgstr[2] "znojdzienyja %1 fajłaŭ"
+msgid "0 items found"
+msgstr "znojdzieny %1 fajł"
 
 #: kfinddlg.cpp:172
 #, kde-format
@@ -67,6 +64,16 @@ msgstr "Aznač absalutnuju ściežku ŭ poli „Dzie šukać”."
 #, kde-format
 msgid "Could not find the specified folder."
 msgstr "Nie ŭdałosia znajści aznačanaha katalohu."
+
+#: kfinddlg.cpp:228 kfinddlg.cpp:252
+#, fuzzy, kde-format
+#| msgid "one file found"
+#| msgid_plural "%1 files found"
+msgid "one item found"
+msgid_plural "%1 items found"
+msgstr[0] "znojdzieny %1 fajł"
+msgstr[1] "znojdzienyja %1 fajły"
+msgstr[2] "znojdzienyja %1 fajłaŭ"
 
 #: kfindtreeview.cpp:54
 #, kde-format
@@ -551,7 +558,7 @@ msgstr[0] "hadoŭ"
 msgstr[1] "hadoŭ"
 msgstr[2] "hadoŭ"
 
-#: kquery.cpp:588
+#: kquery.cpp:604
 #, fuzzy, kde-format
 #| msgid "Error while using locate"
 msgctxt "@title:window"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-09 03:54+0200\n"
+"POT-Creation-Date: 2018-10-10 03:59+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2267,17 +2267,17 @@ msgstr ""
 "Nie ŭdałosia prahladzieć adras\n"
 "%1"
 
-#: core/kfileitem.cpp:1198
+#: core/kfileitem.cpp:1197
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr "(Symbalny łuč da „%1”)"
 
-#: core/kfileitem.cpp:1200
+#: core/kfileitem.cpp:1199
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr "(%1, łuč da „%2”)"
 
-#: core/kfileitem.cpp:1203
+#: core/kfileitem.cpp:1202
 #, kde-format
 msgid " (Points to %1)"
 msgstr " (łučyć z „%1”)"
@@ -3000,7 +3000,7 @@ msgctxt "@title:menu"
 msgid "Move Here"
 msgstr ""
 
-#: filewidgets/kfilefiltercombo.cpp:36 filewidgets/kfilewidget.cpp:1911
+#: filewidgets/kfilefiltercombo.cpp:36 filewidgets/kfilewidget.cpp:1910
 #, kde-format
 msgid "*|All Files"
 msgstr "*|Usie fajły"
@@ -3442,17 +3442,17 @@ msgstr "Možna vybrać tolki adzin fajł."
 msgid "More than one file provided"
 msgstr "Padadzienyja niekalki fajłaŭ."
 
-#: filewidgets/kfilewidget.cpp:1012
+#: filewidgets/kfilewidget.cpp:1011
 #, kde-format
 msgid "You can only select local files"
 msgstr "Možna vybrać tolki lakalnyja fajły."
 
-#: filewidgets/kfilewidget.cpp:1013
+#: filewidgets/kfilewidget.cpp:1012
 #, kde-format
 msgid "Remote files not accepted"
 msgstr "Nielha vybrać fajły ź inšych hostaŭ"
 
-#: filewidgets/kfilewidget.cpp:1020
+#: filewidgets/kfilewidget.cpp:1019
 #, kde-format
 msgid ""
 "The selected URL uses an unsupported scheme. Please use the following "
@@ -3464,13 +3464,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: filewidgets/kfilewidget.cpp:1026
+#: filewidgets/kfilewidget.cpp:1025
 #, fuzzy, kde-format
 #| msgid "Unsupported key size."
 msgid "Unsupported URL scheme"
 msgstr "Pamier kluča nie absłuhoŭvajecca."
 
-#: filewidgets/kfilewidget.cpp:1041
+#: filewidgets/kfilewidget.cpp:1040
 #, kde-format
 msgid ""
 "More than one folder has been selected and this dialog does not accept "
@@ -3478,40 +3478,40 @@ msgid ""
 "only one folder to list it."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1041
+#: filewidgets/kfilewidget.cpp:1040
 #, kde-format
 msgid "More than one folder provided"
 msgstr "Padadzienyja niekalki katalohaŭ"
 
-#: filewidgets/kfilewidget.cpp:1049
+#: filewidgets/kfilewidget.cpp:1048
 #, kde-format
 msgid ""
 "At least one folder and one file has been selected. Selected files will be "
 "ignored and the selected folder will be listed"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1049
+#: filewidgets/kfilewidget.cpp:1048
 #, kde-format
 msgid "Files and folders selected"
 msgstr "Vyłučanyja katalohi j fajły"
 
-#: filewidgets/kfilewidget.cpp:1067
+#: filewidgets/kfilewidget.cpp:1066
 #, fuzzy, kde-format
 #| msgid "The file %1 could not be found"
 msgid "The file \"%1\" could not be found"
 msgstr "Nie ŭdałosia znajści fajł „%1”."
 
-#: filewidgets/kfilewidget.cpp:1067
+#: filewidgets/kfilewidget.cpp:1066
 #, kde-format
 msgid "Cannot open file"
 msgstr "Nie ŭdałosia adčynić fajł"
 
-#: filewidgets/kfilewidget.cpp:1345
+#: filewidgets/kfilewidget.cpp:1344
 #, kde-format
 msgid "This is the name to save the file as."
 msgstr "Nazva dla zapisvanaha fajła."
 
-#: filewidgets/kfilewidget.cpp:1348
+#: filewidgets/kfilewidget.cpp:1347
 #, kde-format
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
@@ -3520,29 +3520,29 @@ msgstr ""
 "Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, "
 "padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
 
-#: filewidgets/kfilewidget.cpp:1353
+#: filewidgets/kfilewidget.cpp:1352
 #, kde-format
 msgid "This is the name of the file to open."
 msgstr "Nazva fajła, jaki treba adčynić."
 
-#: filewidgets/kfilewidget.cpp:1367
+#: filewidgets/kfilewidget.cpp:1366
 #, fuzzy, kde-format
 #| msgid "Places"
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Miescy"
 
-#: filewidgets/kfilewidget.cpp:1575
+#: filewidgets/kfilewidget.cpp:1574
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
 
-#: filewidgets/kfilewidget.cpp:1576
+#: filewidgets/kfilewidget.cpp:1575
 #, kde-format
 msgid "Overwrite File?"
 msgstr "Nadpisać fajł?"
 
-#: filewidgets/kfilewidget.cpp:1717
+#: filewidgets/kfilewidget.cpp:1716
 #, kde-format
 msgid ""
 "The chosen filenames do not\n"
@@ -3551,63 +3551,63 @@ msgstr ""
 "Nazvy vybranych fajłaŭ\n"
 "niapravilnyja."
 
-#: filewidgets/kfilewidget.cpp:1719
+#: filewidgets/kfilewidget.cpp:1718
 #, kde-format
 msgid "Invalid Filenames"
 msgstr "Niapravilnyja nazvy fajłaŭ"
 
-#: filewidgets/kfilewidget.cpp:1804
+#: filewidgets/kfilewidget.cpp:1803
 #, kde-format
 msgid "You can only select local files."
 msgstr "Možna vybrać tolki lakalnyja fajły."
 
-#: filewidgets/kfilewidget.cpp:1805
+#: filewidgets/kfilewidget.cpp:1804
 #, kde-format
 msgid "Remote Files Not Accepted"
 msgstr "Nielha vybrać fajły ź inšych hostaŭ"
 
-#: filewidgets/kfilewidget.cpp:1909
+#: filewidgets/kfilewidget.cpp:1908
 #, kde-format
 msgid "*|All Folders"
 msgstr "*|Usie katalohi"
 
-#: filewidgets/kfilewidget.cpp:2073 widgets/executablefileopendialog.cpp:38
+#: filewidgets/kfilewidget.cpp:2072 widgets/executablefileopendialog.cpp:38
 #: widgets/kfileitemactions.cpp:639
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: filewidgets/kfilewidget.cpp:2159
+#: filewidgets/kfilewidget.cpp:2158
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels (standard size)"
 msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
 
-#: filewidgets/kfilewidget.cpp:2162
+#: filewidgets/kfilewidget.cpp:2161
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels"
 msgstr "Pamier ikon: %1 punktaŭ"
 
-#: filewidgets/kfilewidget.cpp:2305
+#: filewidgets/kfilewidget.cpp:2304
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
 
-#: filewidgets/kfilewidget.cpp:2306
+#: filewidgets/kfilewidget.cpp:2305
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "pašyreńnie <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2312
+#: filewidgets/kfilewidget.cpp:2311
 #, kde-format
 msgid "Automatically select filename e&xtension"
 msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
 
-#: filewidgets/kfilewidget.cpp:2313
+#: filewidgets/kfilewidget.cpp:2312
 #, kde-format
 msgid "a suitable extension"
 msgstr "prydatnaje pašyreńnie"
 
-#: filewidgets/kfilewidget.cpp:2323
+#: filewidgets/kfilewidget.cpp:2322
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -3623,12 +3623,12 @@ msgid ""
 "enabled as it makes your files more manageable."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2633
+#: filewidgets/kfilewidget.cpp:2632
 #, kde-format
 msgid "Bookmarks"
 msgstr "Zakładki"
 
-#: filewidgets/kfilewidget.cpp:2637
+#: filewidgets/kfilewidget.cpp:2636
 #, kde-format
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
@@ -3857,7 +3857,7 @@ msgstr ""
 msgid "Setting ACL for %1"
 msgstr "Aznačeńnie asablivych praviłaŭ dostupu dla „%1”"
 
-#: ioslaves/file/file.cpp:774
+#: ioslaves/file/file.cpp:772
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -3866,33 +3866,33 @@ msgstr ""
 "Nie ŭdałosia źmianić dazvoły na\n"
 "%1"
 
-#: ioslaves/file/file.cpp:1037
+#: ioslaves/file/file.cpp:1035
 #, kde-format
 msgid "No Media inserted or Media not recognized."
 msgstr "Nośbit nia ŭsunuty albo nie raspaznany."
 
-#: ioslaves/file/file.cpp:1046 ioslaves/file/file.cpp:1242
+#: ioslaves/file/file.cpp:1044 ioslaves/file/file.cpp:1240
 #, kde-format
 msgid "\"vold\" is not running."
 msgstr "Słužba „vold” nie pracuje."
 
-#: ioslaves/file/file.cpp:1079
+#: ioslaves/file/file.cpp:1077
 #, kde-format
 msgid "Could not find program \"mount\""
 msgstr "Nie ŭdałosia znajści prahramu „mount”."
 
-#: ioslaves/file/file.cpp:1148
+#: ioslaves/file/file.cpp:1146
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "mounting is not supported by wince."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: ioslaves/file/file.cpp:1253
+#: ioslaves/file/file.cpp:1251
 #, kde-format
 msgid "Could not find program \"umount\""
 msgstr "Nie ŭdałosia znajści prahramu „umount”."
 
-#: ioslaves/file/file.cpp:1268
+#: ioslaves/file/file.cpp:1266
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "unmounting is not supported by wince."
@@ -4666,8 +4666,8 @@ msgstr "Śmietnica"
 
 #: ioslaves/trash/kio_trash.cpp:110 ioslaves/trash/kio_trash.cpp:153
 #: ioslaves/trash/kio_trash.cpp:203 ioslaves/trash/kio_trash.cpp:359
-#: ioslaves/trash/kio_trash.cpp:392 ioslaves/trash/kio_trash.cpp:561
-#: ioslaves/trash/kio_trash.cpp:573
+#: ioslaves/trash/kio_trash.cpp:392 ioslaves/trash/kio_trash.cpp:560
+#: ioslaves/trash/kio_trash.cpp:572
 #, fuzzy, kde-format
 #| msgid "Malformed URL %1."
 msgid "Malformed URL %1"
@@ -4995,7 +4995,7 @@ msgctxt "@title:window"
 msgid "Duplicate Policy"
 msgstr ""
 
-#: kcms/kio/kcookiespolicies.cpp:226 kcms/kio/useragentdlg.cpp:202
+#: kcms/kio/kcookiespolicies.cpp:226 kcms/kio/useragentdlg.cpp:201
 #, fuzzy, kde-format
 #| msgid "Places"
 msgid "Replace"
@@ -5826,7 +5826,7 @@ msgstr ""
 msgid "Default password:"
 msgstr "&Paŭtary parol:"
 
-#: kcms/kio/smbrodlg.cpp:176
+#: kcms/kio/smbrodlg.cpp:175
 #, kde-format
 msgid ""
 "<h1>Windows Shares</h1><p>Applications using the SMB kioslave (like "
@@ -5844,26 +5844,26 @@ msgctxt "@title:window"
 msgid "Add Identification"
 msgstr ""
 
-#: kcms/kio/useragentdlg.cpp:148
+#: kcms/kio/useragentdlg.cpp:147
 #, kde-format
 msgctxt "@title:window"
 msgid "Modify Identification"
 msgstr ""
 
-#: kcms/kio/useragentdlg.cpp:196
+#: kcms/kio/useragentdlg.cpp:195
 #, kde-format
 msgid ""
 "<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
 "want to replace it?</center></qt>"
 msgstr ""
 
-#: kcms/kio/useragentdlg.cpp:201
+#: kcms/kio/useragentdlg.cpp:200
 #, kde-format
 msgctxt "@title:window"
 msgid "Duplicate Identification"
 msgstr ""
 
-#: kcms/kio/useragentdlg.cpp:373
+#: kcms/kio/useragentdlg.cpp:372
 #, kde-format
 msgid ""
 "<h1>Browser Identification</h1><p>The browser-identification module allows "
@@ -6301,12 +6301,12 @@ msgstr ""
 "Skrypt naładžvańnia proxy viarnuŭ pamyłku:\n"
 "%1"
 
-#: kpac/script.cpp:752
+#: kpac/script.cpp:751
 #, kde-format
 msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
 msgstr ""
 
-#: kpac/script.cpp:770
+#: kpac/script.cpp:769
 #, kde-format
 msgid "Got an invalid reply when calling %1"
 msgstr ""
@@ -6502,12 +6502,12 @@ msgctxt "Space as keyword delimiter"
 msgid "Space"
 msgstr ""
 
-#: urifilters/ikws/kuriikwsfilter.cpp:123
+#: urifilters/ikws/kuriikwsfilter.cpp:122
 #, kde-format
 msgid "No preferred search providers were found."
 msgstr ""
 
-#: urifilters/ikws/kuriikwsfilter.cpp:142
+#: urifilters/ikws/kuriikwsfilter.cpp:141
 #, kde-format
 msgid "No search providers were found."
 msgstr ""
@@ -7024,7 +7024,7 @@ msgid "Owning Group"
 msgstr "Hrupa ŭłaśnikaŭ"
 
 #: widgets/kacleditwidget.cpp:62 widgets/kacleditwidget.cpp:459
-#: widgets/kpropertiesdialog.cpp:2057
+#: widgets/kpropertiesdialog.cpp:2053
 #, kde-format
 msgid "Others"
 msgstr "Inšyja"
@@ -7925,7 +7925,7 @@ msgstr "Zmantavany ŭ:"
 msgid "Mounted from:"
 msgstr "Zmantavany ŭ:"
 
-#: widgets/kpropertiesdialog.cpp:1189 widgets/kpropertiesdialog.cpp:3252
+#: widgets/kpropertiesdialog.cpp:1189 widgets/kpropertiesdialog.cpp:3248
 #, kde-format
 msgid "Device usage:"
 msgstr "Zaniataść pryłady:"
@@ -7937,7 +7937,7 @@ msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "Nieviadomy host"
 
-#: widgets/kpropertiesdialog.cpp:1288 widgets/kpropertiesdialog.cpp:3384
+#: widgets/kpropertiesdialog.cpp:1288 widgets/kpropertiesdialog.cpp:3380
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
@@ -7983,8 +7983,8 @@ msgstr "Prynamsi, %1"
 msgid "The new file name is empty."
 msgstr "Novaja nazva fajła pustaja."
 
-#: widgets/kpropertiesdialog.cpp:1584 widgets/kpropertiesdialog.cpp:3128
-#: widgets/kpropertiesdialog.cpp:3429 widgets/kpropertiesdialog.cpp:3705
+#: widgets/kpropertiesdialog.cpp:1584 widgets/kpropertiesdialog.cpp:3124
+#: widgets/kpropertiesdialog.cpp:3425 widgets/kpropertiesdialog.cpp:3701
 #, kde-format
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
@@ -8033,17 +8033,17 @@ msgstr "Možna ŭbačyć źmieściva"
 msgid "Can View/Read & Modify/Write"
 msgstr "Možna ŭbačyć i źmianić źmieściva, pračytać i zapisać"
 
-#: widgets/kpropertiesdialog.cpp:1772
+#: widgets/kpropertiesdialog.cpp:1769
 #, kde-format
 msgid "&Permissions"
 msgstr "&Dazvoły"
 
-#: widgets/kpropertiesdialog.cpp:1784 widgets/kpropertiesdialog.cpp:1990
+#: widgets/kpropertiesdialog.cpp:1781 widgets/kpropertiesdialog.cpp:1986
 #, kde-format
 msgid "Access Permissions"
 msgstr "&Dazvoły na dostup"
 
-#: widgets/kpropertiesdialog.cpp:1792
+#: widgets/kpropertiesdialog.cpp:1789
 #, kde-format
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
@@ -8051,37 +8051,37 @@ msgstr[0] "Hety fajł jość łučom i nia maje dazvołaŭ."
 msgstr[1] "Hetyja fajły jość łučami j nia majuć dazvołaŭ."
 msgstr[2] "Hetyja fajły jość łučami j nia majuć dazvołaŭ."
 
-#: widgets/kpropertiesdialog.cpp:1796
+#: widgets/kpropertiesdialog.cpp:1793
 #, kde-format
 msgid "Only the owner can change permissions."
 msgstr "Tolki ŭłaśnik moža źmianiać dazvoły."
 
-#: widgets/kpropertiesdialog.cpp:1800
+#: widgets/kpropertiesdialog.cpp:1797
 #, kde-format
 msgid "O&wner:"
 msgstr "&Ułaśnik:"
 
-#: widgets/kpropertiesdialog.cpp:1806
+#: widgets/kpropertiesdialog.cpp:1803
 #, kde-format
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr "Aznačaje aperacyi, jakija moža vykonvać ułaśnik."
 
-#: widgets/kpropertiesdialog.cpp:1808
+#: widgets/kpropertiesdialog.cpp:1805
 #, kde-format
 msgid "Gro&up:"
 msgstr "&Hrupa:"
 
-#: widgets/kpropertiesdialog.cpp:1814
+#: widgets/kpropertiesdialog.cpp:1811
 #, kde-format
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr "Aznačaje aperacyi, jakija mohuć vykonvać udzielniki hetaj hrupy."
 
-#: widgets/kpropertiesdialog.cpp:1816
+#: widgets/kpropertiesdialog.cpp:1813
 #, kde-format
 msgid "O&thers:"
 msgstr "&Inšyja:"
 
-#: widgets/kpropertiesdialog.cpp:1822
+#: widgets/kpropertiesdialog.cpp:1819
 #, kde-format
 msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
@@ -8090,17 +8090,17 @@ msgstr ""
 "Aznačaje aperacyi, jakija mohuć vykonvać usie karystańniki, jakija nia jość "
 "udzielnikami hetaj hrupy ci ŭłaśnikami."
 
-#: widgets/kpropertiesdialog.cpp:1827
+#: widgets/kpropertiesdialog.cpp:1824
 #, kde-format
 msgid "Only own&er can rename and delete folder content"
 msgstr "Tolki &ŭłaśnik moža źmianiać nazvy j vydalać źmieściva ŭ katalohu"
 
-#: widgets/kpropertiesdialog.cpp:1828
+#: widgets/kpropertiesdialog.cpp:1825
 #, kde-format
 msgid "Is &executable"
 msgstr "&Vykonvalny"
 
-#: widgets/kpropertiesdialog.cpp:1832
+#: widgets/kpropertiesdialog.cpp:1829
 #, kde-format
 msgid ""
 "Enable this option to allow only the folder's owner to delete or rename the "
@@ -8111,7 +8111,7 @@ msgstr ""
 "nazvy dla fajłaŭ i katalohaŭ, źmieščanych u im. Inšyja karystańniki zmohuć "
 "tolki dadavać novyja fajły, kali buduć mieć dazvoł na źmianieńnie źmieściva."
 
-#: widgets/kpropertiesdialog.cpp:1836
+#: widgets/kpropertiesdialog.cpp:1833
 #, kde-format
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
@@ -8121,42 +8121,42 @@ msgstr ""
 "dla prahramaŭ i skryptoŭ. Ty pavinien jaje ŭklučyć, kali chočaš vykonvać "
 "hety fajł."
 
-#: widgets/kpropertiesdialog.cpp:1843
+#: widgets/kpropertiesdialog.cpp:1840
 #, kde-format
 msgid "A&dvanced Permissions"
 msgstr "&Asablivyja dazvoły"
 
-#: widgets/kpropertiesdialog.cpp:1851
+#: widgets/kpropertiesdialog.cpp:1848
 #, kde-format
 msgid "Ownership"
 msgstr "Naležnaść"
 
-#: widgets/kpropertiesdialog.cpp:1858
+#: widgets/kpropertiesdialog.cpp:1855
 #, kde-format
 msgid "User:"
 msgstr "Karystańnik:"
 
-#: widgets/kpropertiesdialog.cpp:1902
+#: widgets/kpropertiesdialog.cpp:1898
 #, kde-format
 msgid "Group:"
 msgstr "Hrupa:"
 
-#: widgets/kpropertiesdialog.cpp:1939
+#: widgets/kpropertiesdialog.cpp:1935
 #, kde-format
 msgid "Apply changes to all subfolders and their contents"
 msgstr "Prymiani źmieny dla ŭsich padkatalohaŭ dy ichnaha źmieściva"
 
-#: widgets/kpropertiesdialog.cpp:1981
+#: widgets/kpropertiesdialog.cpp:1977
 #, kde-format
 msgid "Advanced Permissions"
 msgstr "Asablivyja dazvoły"
 
-#: widgets/kpropertiesdialog.cpp:1998
+#: widgets/kpropertiesdialog.cpp:1994
 #, kde-format
 msgid "Class"
 msgstr "Klasa"
 
-#: widgets/kpropertiesdialog.cpp:2005
+#: widgets/kpropertiesdialog.cpp:2001
 #, kde-format
 msgid ""
 "Show\n"
@@ -8165,22 +8165,22 @@ msgstr ""
 "Pakaz\n"
 "elementaŭ"
 
-#: widgets/kpropertiesdialog.cpp:2006
+#: widgets/kpropertiesdialog.cpp:2002
 #, kde-format
 msgid "This flag allows viewing the content of the folder."
 msgstr "Hetaja opcyja dazvalaje prahladać źmieściva hataloha."
 
-#: widgets/kpropertiesdialog.cpp:2008
+#: widgets/kpropertiesdialog.cpp:2004
 #, kde-format
 msgid "Read"
 msgstr "Čytańnie"
 
-#: widgets/kpropertiesdialog.cpp:2009
+#: widgets/kpropertiesdialog.cpp:2005
 #, kde-format
 msgid "The Read flag allows viewing the content of the file."
 msgstr "Hetaja opcyja dazvalaje prahladać źmieściva fajła."
 
-#: widgets/kpropertiesdialog.cpp:2015
+#: widgets/kpropertiesdialog.cpp:2011
 #, kde-format
 msgid ""
 "Write\n"
@@ -8189,7 +8189,7 @@ msgstr ""
 "Zapis\n"
 "elementaŭ"
 
-#: widgets/kpropertiesdialog.cpp:2016
+#: widgets/kpropertiesdialog.cpp:2012
 #, kde-format
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
@@ -8199,43 +8199,43 @@ msgstr ""
 "aperacyi vydaleńnia j źmieny nazvy možna abmiežavać z dapamohaj opcyi "
 "„Sticky”."
 
-#: widgets/kpropertiesdialog.cpp:2019
+#: widgets/kpropertiesdialog.cpp:2015
 #, kde-format
 msgid "Write"
 msgstr "Zapis"
 
-#: widgets/kpropertiesdialog.cpp:2020
+#: widgets/kpropertiesdialog.cpp:2016
 #, kde-format
 msgid "The Write flag allows modifying the content of the file."
 msgstr "Hetaja opcyja dazvalaje źmianiać źmieściva fajła."
 
-#: widgets/kpropertiesdialog.cpp:2026
+#: widgets/kpropertiesdialog.cpp:2022
 #, kde-format
 msgctxt "Enter folder"
 msgid "Enter"
 msgstr "Uvachod"
 
-#: widgets/kpropertiesdialog.cpp:2027
+#: widgets/kpropertiesdialog.cpp:2023
 #, kde-format
 msgid "Enable this flag to allow entering the folder."
 msgstr "Uklučy hetuju opcyju, kab dazvolić uvachodzić u kataloh."
 
-#: widgets/kpropertiesdialog.cpp:2029
+#: widgets/kpropertiesdialog.cpp:2025
 #, kde-format
 msgid "Exec"
 msgstr "Vykanańnie"
 
-#: widgets/kpropertiesdialog.cpp:2030
+#: widgets/kpropertiesdialog.cpp:2026
 #, kde-format
 msgid "Enable this flag to allow executing the file as a program."
 msgstr "Uklučy hetuju opcyju, kab dazvolić vykonvać hety fajł jak prahramu."
 
-#: widgets/kpropertiesdialog.cpp:2038
+#: widgets/kpropertiesdialog.cpp:2034
 #, kde-format
 msgid "Special"
 msgstr "Asablivaje"
 
-#: widgets/kpropertiesdialog.cpp:2042
+#: widgets/kpropertiesdialog.cpp:2038
 #, kde-format
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
@@ -8244,24 +8244,24 @@ msgstr ""
 "Asablivaja opcyja. Dziejničaje dla ŭsiaho kataloha. Peŭny sens opcyi možna "
 "ŭbačyć u pravym słupku."
 
-#: widgets/kpropertiesdialog.cpp:2045
+#: widgets/kpropertiesdialog.cpp:2041
 #, kde-format
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
 msgstr "Asablivaja opcyja. Peŭny sens opcyi možna ŭbačyć u pravym słupku."
 
-#: widgets/kpropertiesdialog.cpp:2049
+#: widgets/kpropertiesdialog.cpp:2045
 #, kde-format
 msgid "User"
 msgstr "Karystańnik"
 
-#: widgets/kpropertiesdialog.cpp:2053
+#: widgets/kpropertiesdialog.cpp:2049
 #, kde-format
 msgid "Group"
 msgstr "Hrupa"
 
-#: widgets/kpropertiesdialog.cpp:2063
+#: widgets/kpropertiesdialog.cpp:2059
 #, kde-format
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
@@ -8270,7 +8270,7 @@ msgstr ""
 "Kali ŭklučanaja hetaja opcyja, ułaśnikam usich novych fajłaŭ budzie ŭłaśnik "
 "hetaha kataloha."
 
-#: widgets/kpropertiesdialog.cpp:2066
+#: widgets/kpropertiesdialog.cpp:2062
 #, kde-format
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
@@ -8279,7 +8279,7 @@ msgstr ""
 "Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie "
 "vykonvacca z dazvołami, ułaścivymi ŭłaśniku hetaha fajła."
 
-#: widgets/kpropertiesdialog.cpp:2071
+#: widgets/kpropertiesdialog.cpp:2067
 #, kde-format
 msgid ""
 "If this flag is set, the group of this folder will be set for all new files."
@@ -8287,7 +8287,7 @@ msgstr ""
 "Kali ŭklučanaja hetaja opcyja, hrupaj usich novych fajłaŭ budzie hrupa "
 "hetaha kataloha."
 
-#: widgets/kpropertiesdialog.cpp:2074
+#: widgets/kpropertiesdialog.cpp:2070
 #, kde-format
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
@@ -8296,7 +8296,7 @@ msgstr ""
 "Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie "
 "vykonvacca z dazvołami, ułaścivymi hrupie hetaha fajła."
 
-#: widgets/kpropertiesdialog.cpp:2079
+#: widgets/kpropertiesdialog.cpp:2075
 #, kde-format
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
@@ -8306,7 +8306,7 @@ msgstr ""
 "zmohuć vydalać i źmianiać u im nazvy fajłaŭ. Inačaj heta zmohuć rabić usie z "
 "dazvołam na zapis."
 
-#: widgets/kpropertiesdialog.cpp:2083
+#: widgets/kpropertiesdialog.cpp:2079
 #, kde-format
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
@@ -8315,33 +8315,33 @@ msgstr ""
 "Systema „Linux” nie karystajecca opcyjaj „Sticky”, ale inšyja systemy mohuć "
 "joju dziela čaho-niebudź karystacca."
 
-#: widgets/kpropertiesdialog.cpp:2148
+#: widgets/kpropertiesdialog.cpp:2144
 #, kde-format
 msgid "Set UID"
 msgstr "SUID"
 
-#: widgets/kpropertiesdialog.cpp:2152
+#: widgets/kpropertiesdialog.cpp:2148
 #, kde-format
 msgid "Set GID"
 msgstr "SGID"
 
-#: widgets/kpropertiesdialog.cpp:2156
+#: widgets/kpropertiesdialog.cpp:2152
 #, kde-format
 msgctxt "File permission"
 msgid "Sticky"
 msgstr "Sticky"
 
-#: widgets/kpropertiesdialog.cpp:2276
+#: widgets/kpropertiesdialog.cpp:2272
 #, kde-format
 msgid "Link"
 msgstr "Łuč"
 
-#: widgets/kpropertiesdialog.cpp:2295
+#: widgets/kpropertiesdialog.cpp:2291
 #, kde-format
 msgid "Varying (No Change)"
 msgstr "Roznaje (biaź źmienaŭ)"
 
-#: widgets/kpropertiesdialog.cpp:2408
+#: widgets/kpropertiesdialog.cpp:2404
 #, kde-format
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
@@ -8349,7 +8349,7 @@ msgstr[0] "Hety fajł maje asablivyja dazvoły."
 msgstr[1] "Hetyja fajły majuć asablivyja dazvoły."
 msgstr[2] "Hetyja fajły majuć asablivyja dazvoły."
 
-#: widgets/kpropertiesdialog.cpp:2429
+#: widgets/kpropertiesdialog.cpp:2425
 #, kde-format
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
@@ -8357,48 +8357,48 @@ msgstr[0] "Hety kataloh maje asablivyja dazvoły."
 msgstr[1] "Hetyja katalohi majuć asablivyja dazvoły."
 msgstr[2] "Hetyja katalohi majuć asablivyja dazvoły."
 
-#: widgets/kpropertiesdialog.cpp:2444
+#: widgets/kpropertiesdialog.cpp:2440
 #, kde-format
 msgid "These files use advanced permissions."
 msgstr "Hetyja fajły majuć asablivyja dazvoły."
 
-#: widgets/kpropertiesdialog.cpp:2683
+#: widgets/kpropertiesdialog.cpp:2679
 #, kde-format
 msgctxt "@title:tab"
 msgid "C&hecksums"
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2744 widgets/kpropertiesdialog.cpp:2755
-#: widgets/kpropertiesdialog.cpp:2766
+#: widgets/kpropertiesdialog.cpp:2740 widgets/kpropertiesdialog.cpp:2751
+#: widgets/kpropertiesdialog.cpp:2762
 #, fuzzy, kde-format
 #| msgid "Calculating..."
 msgctxt "@action:button"
 msgid "Calculating..."
 msgstr "Padličvańnie..."
 
-#: widgets/kpropertiesdialog.cpp:2910
+#: widgets/kpropertiesdialog.cpp:2906
 #, kde-format
 msgid "Invalid checksum."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2913
+#: widgets/kpropertiesdialog.cpp:2909
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The given input is not a valid MD5, SHA1 or SHA256 checksum."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2924
+#: widgets/kpropertiesdialog.cpp:2920
 #, kde-format
 msgid "Checksums match."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2927
+#: widgets/kpropertiesdialog.cpp:2923
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum match."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2938
+#: widgets/kpropertiesdialog.cpp:2934
 #, kde-format
 msgid ""
 "<p>Checksums do not match.</p>This may be due to a faulty download. Try re-"
@@ -8406,79 +8406,79 @@ msgid ""
 "source of the file."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2943
+#: widgets/kpropertiesdialog.cpp:2939
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum differ."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2951
+#: widgets/kpropertiesdialog.cpp:2947
 #, kde-format
 msgctxt "notify the user about a computation in the background"
 msgid "Verifying checksum..."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:3034
+#: widgets/kpropertiesdialog.cpp:3030
 #, kde-format
 msgid "U&RL"
 msgstr "&Adras"
 
-#: widgets/kpropertiesdialog.cpp:3041
+#: widgets/kpropertiesdialog.cpp:3037
 #, kde-format
 msgid "URL:"
 msgstr "Adras:"
 
-#: widgets/kpropertiesdialog.cpp:3187
+#: widgets/kpropertiesdialog.cpp:3183
 #, kde-format
 msgid "De&vice"
 msgstr "&Pryłada"
 
-#: widgets/kpropertiesdialog.cpp:3216
+#: widgets/kpropertiesdialog.cpp:3212
 #, kde-format
 msgid "Device (/dev/fd0):"
 msgstr "Pryłada (/dev/fd0):"
 
-#: widgets/kpropertiesdialog.cpp:3217
+#: widgets/kpropertiesdialog.cpp:3213
 #, kde-format
 msgid "Device:"
 msgstr "Pryłada:"
 
-#: widgets/kpropertiesdialog.cpp:3230
+#: widgets/kpropertiesdialog.cpp:3226
 #, kde-format
 msgid "Read only"
 msgstr "Tolki čytańnie"
 
-#: widgets/kpropertiesdialog.cpp:3234
+#: widgets/kpropertiesdialog.cpp:3230
 #, kde-format
 msgid "File system:"
 msgstr "Fajłavaja systema:"
 
-#: widgets/kpropertiesdialog.cpp:3242
+#: widgets/kpropertiesdialog.cpp:3238
 #, kde-format
 msgid "Mount point (/mnt/floppy):"
 msgstr "Punkt zmantavańnia (/mnt/floppy):"
 
-#: widgets/kpropertiesdialog.cpp:3243
+#: widgets/kpropertiesdialog.cpp:3239
 #, kde-format
 msgid "Mount point:"
 msgstr "Punkt zmantavańnia:"
 
-#: widgets/kpropertiesdialog.cpp:3488
+#: widgets/kpropertiesdialog.cpp:3484
 #, kde-format
 msgid "&Application"
 msgstr "&Aplikacyja"
 
-#: widgets/kpropertiesdialog.cpp:3633
+#: widgets/kpropertiesdialog.cpp:3629
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Dadaj typ fajłaŭ dla „%1”"
 
-#: widgets/kpropertiesdialog.cpp:3634
+#: widgets/kpropertiesdialog.cpp:3630
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "Vybiery adzin ci niekalki typaŭ fajłaŭ, kab dadać:"
 
-#: widgets/kpropertiesdialog.cpp:3695
+#: widgets/kpropertiesdialog.cpp:3691
 #, fuzzy, kde-format
 #| msgid "Only executables on local file systems are supported."
 msgid ""
@@ -8486,13 +8486,13 @@ msgid ""
 msgstr ""
 "Absłuhoŭvajucca tolki vykonvalnyja fajły z lakalnych fajłavych systemaŭ."
 
-#: widgets/kpropertiesdialog.cpp:3774
+#: widgets/kpropertiesdialog.cpp:3770
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr ""
 "Absłuhoŭvajucca tolki vykonvalnyja fajły z lakalnych fajłavych systemaŭ."
 
-#: widgets/kpropertiesdialog.cpp:3788
+#: widgets/kpropertiesdialog.cpp:3784
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"

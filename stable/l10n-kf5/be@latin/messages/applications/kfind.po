@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-20 03:38+0200\n"
+"POT-Creation-Date: 2018-10-23 03:45+0200\n"
 "PO-Revision-Date: 2008-10-06 20:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -26,14 +26,46 @@ msgctxt "@title:window"
 msgid "Find Files/Folders"
 msgstr "Šukaj fajły j katalohi"
 
-#: kfinddlg.cpp:69 kfinddlg.cpp:197
+#: kfinddlg.cpp:66 kfinddlg.cpp:215
 #, kde-format
 msgctxt "the application is currently idle, there is no active search"
 msgid "Idle."
 msgstr ""
 
 #. i18n as below
-#: kfinddlg.cpp:133 kfinddlg.cpp:228 kfinddlg.cpp:252
+#: kfinddlg.cpp:151
+#, fuzzy, kde-format
+#| msgid "one file found"
+#| msgid_plural "%1 files found"
+msgid "0 items found"
+msgstr "znojdzieny %1 fajł"
+
+#: kfinddlg.cpp:190
+#, kde-format
+msgid "Searching..."
+msgstr "Pošuk..."
+
+#: kfinddlg.cpp:217
+#, kde-format
+msgid "Canceled."
+msgstr ""
+
+#: kfinddlg.cpp:219 kfinddlg.cpp:222 kfinddlg.cpp:225
+#, kde-format
+msgid "Error."
+msgstr "Pamyłka."
+
+#: kfinddlg.cpp:220
+#, kde-format
+msgid "Please specify an absolute path in the \"Look in\" box."
+msgstr "Aznač absalutnuju ściežku ŭ poli „Dzie šukać”."
+
+#: kfinddlg.cpp:223
+#, kde-format
+msgid "Could not find the specified folder."
+msgstr "Nie ŭdałosia znajści aznačanaha katalohu."
+
+#: kfinddlg.cpp:246 kfinddlg.cpp:270
 #, fuzzy, kde-format
 #| msgid "one file found"
 #| msgid_plural "%1 files found"
@@ -43,183 +75,158 @@ msgstr[0] "znojdzieny %1 fajł"
 msgstr[1] "znojdzienyja %1 fajły"
 msgstr[2] "znojdzienyja %1 fajłaŭ"
 
-#: kfinddlg.cpp:172
-#, kde-format
-msgid "Searching..."
-msgstr "Pošuk..."
-
-#: kfinddlg.cpp:199
-#, kde-format
-msgid "Canceled."
-msgstr ""
-
-#: kfinddlg.cpp:201 kfinddlg.cpp:204 kfinddlg.cpp:207
-#, kde-format
-msgid "Error."
-msgstr "Pamyłka."
-
-#: kfinddlg.cpp:202
-#, kde-format
-msgid "Please specify an absolute path in the \"Look in\" box."
-msgstr "Aznač absalutnuju ściežku ŭ poli „Dzie šukać”."
-
-#: kfinddlg.cpp:205
-#, kde-format
-msgid "Could not find the specified folder."
-msgstr "Nie ŭdałosia znajści aznačanaha katalohu."
-
-#: kfindtreeview.cpp:54
+#: kfindtreeview.cpp:51
 #, kde-format
 msgid "Read-write"
 msgstr "Čytańnie j zapis"
 
-#: kfindtreeview.cpp:55
+#: kfindtreeview.cpp:52
 #, kde-format
 msgid "Read-only"
 msgstr "Tolki čytańnie"
 
-#: kfindtreeview.cpp:56
+#: kfindtreeview.cpp:53
 #, kde-format
 msgid "Write-only"
 msgstr "Tolki zapis"
 
-#: kfindtreeview.cpp:57
+#: kfindtreeview.cpp:54
 #, kde-format
 msgid "Inaccessible"
 msgstr "Biaz dostupu"
 
-#: kfindtreeview.cpp:77
+#: kfindtreeview.cpp:74
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "file name column"
 msgid "Name"
 msgstr "Nazva"
 
-#: kfindtreeview.cpp:79
+#: kfindtreeview.cpp:76
 #, fuzzy, kde-format
 #| msgid "In Subfolder"
 msgctxt "name of the containing folder"
 msgid "In Subfolder"
 msgstr "U padkatalohu"
 
-#: kfindtreeview.cpp:81
+#: kfindtreeview.cpp:78
 #, fuzzy, kde-format
 #| msgid "Size"
 msgctxt "file size column"
 msgid "Size"
 msgstr "Pamier"
 
-#: kfindtreeview.cpp:83
+#: kfindtreeview.cpp:80
 #, fuzzy, kde-format
 #| msgid "Modified"
 msgctxt "modified date column"
 msgid "Modified"
 msgstr "Źmienieny"
 
-#: kfindtreeview.cpp:85
+#: kfindtreeview.cpp:82
 #, fuzzy, kde-format
 #| msgid "Permissions"
 msgctxt "file permissions column"
 msgid "Permissions"
 msgstr "Dazvoły"
 
-#: kfindtreeview.cpp:87
+#: kfindtreeview.cpp:84
 #, fuzzy, kde-format
 #| msgid "First Matching Line"
 msgctxt "first matching line of the query string in this file"
 msgid "First Matching Line"
 msgstr "Pieršy adpaviedny radok"
 
-#: kfindtreeview.cpp:350
+#: kfindtreeview.cpp:346
 #, kde-format
 msgid "&Open containing folder(s)"
 msgstr ""
 
-#: kfindtreeview.cpp:354
+#: kfindtreeview.cpp:350
 #, fuzzy, kde-format
 #| msgid "Delete"
 msgid "&Delete"
 msgstr "Vydali"
 
-#: kfindtreeview.cpp:358
+#: kfindtreeview.cpp:354
 #, kde-format
 msgid "&Move to Trash"
 msgstr ""
 
-#: kfindtreeview.cpp:435
+#: kfindtreeview.cpp:431
 #, fuzzy, kde-format
 #| msgid "Save Results As"
 msgctxt "@title:window"
 msgid "Save Results As"
 msgstr "Zapišy vynik jak"
 
-#: kfindtreeview.cpp:460
+#: kfindtreeview.cpp:456
 #, kde-format
 msgid "Unable to save results."
 msgstr "Nie ŭdałosia zapisać vynik."
 
-#: kfindtreeview.cpp:475
+#: kfindtreeview.cpp:471
 #, kde-format
 msgid "KFind Results File"
 msgstr "Fajły vyniku „KFind”"
 
-#: kfindtreeview.cpp:490
+#: kfindtreeview.cpp:486
 #, fuzzy, kde-format
 #| msgid "Results were saved to file\n"
 msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr "Vynik zapisany ŭ fajł\n"
 
-#: kfindtreeview.cpp:578 kftabdlg.cpp:447
+#: kfindtreeview.cpp:574 kftabdlg.cpp:437
 #, kde-format
 msgid "&Properties"
 msgstr "&Ułaścivaści"
 
-#: kftabdlg.cpp:85
+#: kftabdlg.cpp:82
 #, fuzzy, kde-format
 #| msgid "&Named:"
 msgctxt "this is the label for the name textfield"
 msgid "&Named:"
 msgstr "&Nazva:"
 
-#: kftabdlg.cpp:88
+#: kftabdlg.cpp:85
 #, kde-format
 msgid "You can use wildcard matching and \";\" for separating multiple names"
 msgstr ""
 "Tut možna karystacca padstanovami j znakam „;” dla padziełu niekalkich "
 "nazvaŭ."
 
-#: kftabdlg.cpp:94
+#: kftabdlg.cpp:91
 #, kde-format
 msgid "Look &in:"
 msgstr "&Dzie šukać:"
 
-#: kftabdlg.cpp:97
+#: kftabdlg.cpp:94
 #, kde-format
 msgid "Include &subfolders"
 msgstr "Ułučaj &padkatalohi"
 
-#: kftabdlg.cpp:98
+#: kftabdlg.cpp:95
 #, kde-format
 msgid "Case s&ensitive search"
 msgstr "Uličvaj pamier &litaraŭ"
 
-#: kftabdlg.cpp:99
+#: kftabdlg.cpp:96
 #, kde-format
 msgid "&Browse..."
 msgstr "&Prahladaj..."
 
-#: kftabdlg.cpp:100
+#: kftabdlg.cpp:97
 #, kde-format
 msgid "&Use files index"
 msgstr "&Karystajsia śpisam fajłaŭ"
 
-#: kftabdlg.cpp:101
+#: kftabdlg.cpp:98
 #, kde-format
 msgid "Show &hidden files"
 msgstr ""
 
-#: kftabdlg.cpp:120
+#: kftabdlg.cpp:117
 #, kde-format
 msgid ""
 "<qt>Enter the filename you are looking for. <br />Alternatives may be "
@@ -234,7 +241,7 @@ msgid ""
 "li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:141
+#: kftabdlg.cpp:138
 #, kde-format
 msgid ""
 "<qt>This lets you use the files' index created by the <i>slocate</i> package "
@@ -242,59 +249,59 @@ msgid ""
 "(using <i>updatedb</i>).</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:187
+#: kftabdlg.cpp:182
 #, kde-format
 msgid "Find all files created or &modified:"
 msgstr "Znajdzi ŭsie fajły, stvoranyja albo &źmienienyja:"
 
-#: kftabdlg.cpp:189
+#: kftabdlg.cpp:184
 #, fuzzy, kde-format
 msgid "&between"
 msgstr "&pamiž"
 
-#: kftabdlg.cpp:191
+#: kftabdlg.cpp:186
 #, fuzzy, kde-format
 msgid "and"
 msgstr "i"
 
-#: kftabdlg.cpp:213
+#: kftabdlg.cpp:208
 #, kde-format
 msgid "File &size is:"
 msgstr "Pamier &fajła:"
 
-#: kftabdlg.cpp:226
+#: kftabdlg.cpp:221
 #, kde-format
 msgid "Files owned by &user:"
 msgstr "Fajły &karystańnika:"
 
-#: kftabdlg.cpp:231
+#: kftabdlg.cpp:226
 #, kde-format
 msgid "Owned by &group:"
 msgstr "Fajły &hrupy:"
 
-#: kftabdlg.cpp:234
+#: kftabdlg.cpp:229
 #, fuzzy, kde-format
 #| msgid "(none)"
 msgctxt "file size isn't considered in the search"
 msgid "(none)"
 msgstr "(niama)"
 
-#: kftabdlg.cpp:235
+#: kftabdlg.cpp:230
 #, kde-format
 msgid "At Least"
 msgstr "Prynamsi"
 
-#: kftabdlg.cpp:236
+#: kftabdlg.cpp:231
 #, kde-format
 msgid "At Most"
 msgstr "Nia bolš"
 
-#: kftabdlg.cpp:237
+#: kftabdlg.cpp:232
 #, kde-format
 msgid "Equal To"
 msgstr "Roŭna"
 
-#: kftabdlg.cpp:239 kftabdlg.cpp:899
+#: kftabdlg.cpp:234 kftabdlg.cpp:889
 #, fuzzy, kde-format
 #| msgid "Bytes"
 msgid "Byte"
@@ -303,34 +310,34 @@ msgstr[0] "Bajtaŭ"
 msgstr[1] "Bajtaŭ"
 msgstr[2] "Bajtaŭ"
 
-#: kftabdlg.cpp:240
+#: kftabdlg.cpp:235
 #, kde-format
 msgid "KiB"
 msgstr "KiB"
 
-#: kftabdlg.cpp:241
+#: kftabdlg.cpp:236
 #, kde-format
 msgid "MiB"
 msgstr "MiB"
 
-#: kftabdlg.cpp:242
+#: kftabdlg.cpp:237
 #, kde-format
 msgid "GiB"
 msgstr "GiB"
 
-#: kftabdlg.cpp:308
+#: kftabdlg.cpp:300
 #, fuzzy, kde-format
 #| msgid "File &type:"
 msgctxt "label for the file type combobox"
 msgid "File &type:"
 msgstr "&Typ fajła:"
 
-#: kftabdlg.cpp:313
+#: kftabdlg.cpp:305
 #, kde-format
 msgid "C&ontaining text:"
 msgstr "&Z tekstam:"
 
-#: kftabdlg.cpp:319
+#: kftabdlg.cpp:311
 #, kde-format
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
@@ -338,107 +345,107 @@ msgid ""
 "documentation for a list of supported file types.</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:327
+#: kftabdlg.cpp:319
 #, kde-format
 msgid "Case s&ensitive"
 msgstr "Uličvajučy pamier &litaraŭ"
 
-#: kftabdlg.cpp:328
+#: kftabdlg.cpp:320
 #, kde-format
 msgid "Include &binary files"
 msgstr "Ułučna z &dvajkovymi fajłami"
 
-#: kftabdlg.cpp:329
+#: kftabdlg.cpp:321
 #, kde-format
 msgid "Regular e&xpression"
 msgstr "&Rehularny vyraz"
 
-#: kftabdlg.cpp:332
+#: kftabdlg.cpp:324
 #, kde-format
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:340
+#: kftabdlg.cpp:332
 #, kde-format
 msgid "&Edit..."
 msgstr "&Redahuj..."
 
-#: kftabdlg.cpp:346
+#: kftabdlg.cpp:338
 #, fuzzy, kde-format
 msgctxt "as in search for"
 msgid "fo&r:"
 msgstr "&dla:"
 
-#: kftabdlg.cpp:348
+#: kftabdlg.cpp:340
 #, kde-format
 msgid "Search &metainfo sections:"
 msgstr "Šukaj u raździele &metaźviestak:"
 
-#: kftabdlg.cpp:352
+#: kftabdlg.cpp:344
 #, kde-format
 msgid "All Files & Folders"
 msgstr "Usie fajły j katalohi"
 
-#: kftabdlg.cpp:353
+#: kftabdlg.cpp:345
 #, kde-format
 msgid "Files"
 msgstr "Fajły"
 
-#: kftabdlg.cpp:354
+#: kftabdlg.cpp:346
 #, kde-format
 msgid "Folders"
 msgstr "Katalohi"
 
-#: kftabdlg.cpp:355
+#: kftabdlg.cpp:347
 #, kde-format
 msgid "Symbolic Links"
 msgstr "Symbalnyja łučy"
 
-#: kftabdlg.cpp:356
+#: kftabdlg.cpp:348
 #, kde-format
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr "Specyjalnyja fajły (sokiety, pryłady dy inšaje)"
 
-#: kftabdlg.cpp:357
+#: kftabdlg.cpp:349
 #, kde-format
 msgid "Executable Files"
 msgstr "Vykonvalnyja fajły"
 
-#: kftabdlg.cpp:358
+#: kftabdlg.cpp:350
 #, kde-format
 msgid "SUID Executable Files"
 msgstr "Vykonvalnyja fajły z dazvołam „SUID”"
 
-#: kftabdlg.cpp:359
+#: kftabdlg.cpp:351
 #, kde-format
 msgid "All Images"
 msgstr "Usie vyjavy"
 
-#: kftabdlg.cpp:360
+#: kftabdlg.cpp:352
 #, kde-format
 msgid "All Video"
 msgstr "Usio videa"
 
-#: kftabdlg.cpp:361
+#: kftabdlg.cpp:353
 #, kde-format
 msgid "All Sounds"
 msgstr "Usie huki"
 
-#: kftabdlg.cpp:445
+#: kftabdlg.cpp:435
 #, kde-format
 msgid "Name/&Location"
 msgstr "Nazva/&miesca"
 
-#: kftabdlg.cpp:446
+#: kftabdlg.cpp:436
 #, fuzzy, kde-format
 #| msgid "C&ontents"
 msgctxt "tab name: search by contents"
 msgid "C&ontents"
 msgstr "&Źmieściva"
 
-#: kftabdlg.cpp:451
+#: kftabdlg.cpp:441
 #, kde-format
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
@@ -447,7 +454,7 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:459
+#: kftabdlg.cpp:449
 #, kde-format
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
@@ -455,47 +462,47 @@ msgid ""
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:617
+#: kftabdlg.cpp:607
 #, kde-format
 msgid "Unable to search within a period which is less than a minute."
 msgstr "Nie ŭdałosia šukać fajły ŭ adcinku času, mienšym za adnu chvilinu."
 
-#: kftabdlg.cpp:628
+#: kftabdlg.cpp:618
 #, kde-format
 msgid "The date is not valid."
 msgstr "Data niapravilnaja."
 
-#: kftabdlg.cpp:630
+#: kftabdlg.cpp:620
 #, kde-format
 msgid "Invalid date range."
 msgstr "Dyjapazon dataŭ niapravilny."
 
-#: kftabdlg.cpp:632
+#: kftabdlg.cpp:622
 #, kde-format
 msgid "Unable to search dates in the future."
 msgstr "Nie ŭdałosia adšukać daty z pryšłaści."
 
-#: kftabdlg.cpp:704
+#: kftabdlg.cpp:694
 #, kde-format
 msgid "Size is too big. Set maximum size value?"
 msgstr "Pamier zavialiki. Aznačyć najbolšy mahčymy pamier?"
 
-#: kftabdlg.cpp:704
+#: kftabdlg.cpp:694
 #, kde-format
 msgid "Error"
 msgstr "Pamyłka"
 
-#: kftabdlg.cpp:704
+#: kftabdlg.cpp:694
 #, kde-format
 msgid "Set"
 msgstr "Aznač"
 
-#: kftabdlg.cpp:704
+#: kftabdlg.cpp:694
 #, kde-format
 msgid "Do Not Set"
 msgstr "Nie aznačaj"
 
-#: kftabdlg.cpp:889
+#: kftabdlg.cpp:879
 #, fuzzy, kde-format
 msgctxt ""
 "during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
@@ -506,7 +513,7 @@ msgstr[0] "&ciaham"
 msgstr[1] "&ciaham"
 msgstr[2] "&ciaham"
 
-#: kftabdlg.cpp:890
+#: kftabdlg.cpp:880
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "minute"
@@ -515,7 +522,7 @@ msgstr[0] "chvilin"
 msgstr[1] "chvilin"
 msgstr[2] "chvilin"
 
-#: kftabdlg.cpp:891
+#: kftabdlg.cpp:881
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "hour"
@@ -524,7 +531,7 @@ msgstr[0] "hadzin"
 msgstr[1] "hadzin"
 msgstr[2] "hadzin"
 
-#: kftabdlg.cpp:892
+#: kftabdlg.cpp:882
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "day"
@@ -533,7 +540,7 @@ msgstr[0] "dzion"
 msgstr[1] "dzion"
 msgstr[2] "dzion"
 
-#: kftabdlg.cpp:893
+#: kftabdlg.cpp:883
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "month"
@@ -542,7 +549,7 @@ msgstr[0] "miesiacaŭ"
 msgstr[1] "miesiacaŭ"
 msgstr[2] "miesiacaŭ"
 
-#: kftabdlg.cpp:894
+#: kftabdlg.cpp:884
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "year"
@@ -551,7 +558,7 @@ msgstr[0] "hadoŭ"
 msgstr[1] "hadoŭ"
 msgstr[2] "hadoŭ"
 
-#: kquery.cpp:589
+#: kquery.cpp:601
 #, fuzzy, kde-format
 #| msgid "Error while using locate"
 msgctxt "@title:window"

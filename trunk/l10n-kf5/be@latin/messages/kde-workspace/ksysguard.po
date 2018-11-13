@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-28 03:54+0200\n"
+"POT-Creation-Date: 2018-11-13 04:11+0100\n"
 "PO-Revision-Date: 2008-12-27 00:31+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1192,8 +1192,7 @@ msgid "Timer Interval"
 msgstr "Intervał hadzińnika"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_timerInterval)
-#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 TimerSettings.cpp:57
-#: WorkSheetSettings.cpp:111
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 WorkSheetSettings.cpp:111
 #, kde-format
 msgid " sec"
 msgstr " sek"
@@ -1282,27 +1281,6 @@ msgstr "Atrymańnik"
 #, kde-format
 msgid "Sending"
 msgstr ""
-
-#: TimerSettings.cpp:37
-#, kde-format
-msgid "Timer Settings"
-msgstr "Nałady hadzińnika"
-
-#: TimerSettings.cpp:47
-#, kde-format
-msgid "Use update interval of worksheet"
-msgstr "Zvažaj na termin aktualizacyi rabočaha arkuša"
-
-#: TimerSettings.cpp:50 WorkSheetSettings.cpp:104
-#, kde-format
-msgid "Update interval:"
-msgstr "Termin aktualizacyi:"
-
-#: TimerSettings.cpp:60 WorkSheetSettings.cpp:117
-#, kde-format
-msgid "All displays of the sheet are updated at the rate specified here."
-msgstr ""
-"Usie prahlady hetaha arkuša aktualizujucca z čaścinioju, aznačanaj tut."
 
 #: WorkSheet.cpp:87
 #, kde-format
@@ -1410,6 +1388,17 @@ msgstr "Upišy kolkaść radkoŭ dla hetaha rabočaha arkuša."
 msgid "Enter the number of columns the sheet should have."
 msgstr "Upišy kolkaść słupkoŭ dla hetaha rabočaha arkuša."
 
+#: WorkSheetSettings.cpp:104
+#, kde-format
+msgid "Update interval:"
+msgstr "Termin aktualizacyi:"
+
+#: WorkSheetSettings.cpp:117
+#, kde-format
+msgid "All displays of the sheet are updated at the rate specified here."
+msgstr ""
+"Usie prahlady hetaha arkuša aktualizujucca z čaścinioju, aznačanaj tut."
+
 #: WorkSheetSettings.cpp:118
 #, kde-format
 msgid "Enter the title of the worksheet here."
@@ -1462,6 +1451,12 @@ msgstr ""
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
 msgstr "Systemny nazirańnik"
+
+#~ msgid "Timer Settings"
+#~ msgstr "Nałady hadzińnika"
+
+#~ msgid "Use update interval of worksheet"
+#~ msgstr "Zvažaj na termin aktualizacyi rabočaha arkuša"
 
 #~ msgid "*.sgrd|Sensor Files (*.sgrd)"
 #~ msgstr "*.sgrd|Fajły sensaraŭ (*.sgrd)"

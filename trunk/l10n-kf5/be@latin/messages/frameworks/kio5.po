@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-11-14 03:52+0100\n"
+"POT-Creation-Date: 2018-11-18 13:55+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2829,102 +2829,106 @@ msgstr "Vydali"
 msgid "Sorting"
 msgstr "Paradak"
 
-#: filewidgets/kdiroperator.cpp:1900
-#, kde-format
-msgid "By Name"
+#: filewidgets/kdiroperator.cpp:1902
+#, fuzzy, kde-format
+#| msgid "By Name"
+msgid "Sort by Name"
 msgstr "Pavodle nazvaŭ"
 
-#: filewidgets/kdiroperator.cpp:1904
-#, kde-format
-msgid "By Size"
-msgstr "Pavodle pamieraŭ"
+#: filewidgets/kdiroperator.cpp:1906
+#, fuzzy, kde-format
+#| msgid "Short View"
+msgid "Sort by Size"
+msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:1908
-#, kde-format
-msgid "By Date"
+#: filewidgets/kdiroperator.cpp:1910
+#, fuzzy, kde-format
+#| msgid "By Date"
+msgid "Sort by Date"
 msgstr "Pavodle času"
 
-#: filewidgets/kdiroperator.cpp:1912
-#, kde-format
-msgid "By Type"
-msgstr "Pavodle typaŭ"
+#: filewidgets/kdiroperator.cpp:1914
+#, fuzzy, kde-format
+#| msgid "Entry Type"
+msgid "Sort by Type"
+msgstr "Typ praviła"
 
-#: filewidgets/kdiroperator.cpp:1916
+#: filewidgets/kdiroperator.cpp:1918
 #, kde-format
 msgid "Descending"
 msgstr "Ad bolšaha k mienšamu"
 
-#: filewidgets/kdiroperator.cpp:1920
+#: filewidgets/kdiroperator.cpp:1922
 #, kde-format
 msgid "Folders First"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:1930
+#: filewidgets/kdiroperator.cpp:1932
 #, kde-format
 msgid "Icon Position"
 msgstr "Miesca ikon"
 
-#: filewidgets/kdiroperator.cpp:1933
+#: filewidgets/kdiroperator.cpp:1935
 #, kde-format
 msgid "Next to File Name"
 msgstr "Kala nazvy fajła"
 
-#: filewidgets/kdiroperator.cpp:1937
+#: filewidgets/kdiroperator.cpp:1939
 #, kde-format
 msgid "Above File Name"
 msgstr "Nad nazvaju fajła"
 
-#: filewidgets/kdiroperator.cpp:1948
+#: filewidgets/kdiroperator.cpp:1950
 #, kde-format
 msgid "Short View"
 msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:1953
+#: filewidgets/kdiroperator.cpp:1955
 #, kde-format
 msgid "Detailed View"
 msgstr "Detalny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:1958
+#: filewidgets/kdiroperator.cpp:1960
 #, kde-format
 msgid "Tree View"
 msgstr "Hierarchičny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:1963
+#: filewidgets/kdiroperator.cpp:1965
 #, kde-format
 msgid "Detailed Tree View"
 msgstr "Detalny hierarchičny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:1974
+#: filewidgets/kdiroperator.cpp:1976
 #, kde-format
 msgid "Show Hidden Files"
 msgstr "Pakažy schavanyja fajły"
 
-#: filewidgets/kdiroperator.cpp:1979
+#: filewidgets/kdiroperator.cpp:1981
 #, kde-format
 msgid "Show Aside Preview"
 msgstr "Pakažy zbočnyja padhlady"
 
-#: filewidgets/kdiroperator.cpp:1986 filewidgets/kdiroperator.cpp:2594
+#: filewidgets/kdiroperator.cpp:1988 filewidgets/kdiroperator.cpp:2596
 #, kde-format
 msgid "Show Preview"
 msgstr "Pakažy padhlady"
 
-#: filewidgets/kdiroperator.cpp:1991
+#: filewidgets/kdiroperator.cpp:1993
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:1996 filewidgets/kfileplacesview.cpp:803
+#: filewidgets/kdiroperator.cpp:1998 filewidgets/kfileplacesview.cpp:803
 #, kde-format
 msgid "Properties"
 msgstr "Ułaścivaści"
 
-#: filewidgets/kdiroperator.cpp:2003
+#: filewidgets/kdiroperator.cpp:2005
 #, kde-format
 msgid "&View"
 msgstr "&Vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2596
+#: filewidgets/kdiroperator.cpp:2598
 #, kde-format
 msgid ""
 "Automatically disabled for small icon sizes; increase icon size to see "
@@ -3410,12 +3414,12 @@ msgstr ""
 "</li><li>ci pakazvać panel miescaŭ;</li><li>ci pakazvać dla fajłaŭ padhlady;"
 "</li><li>ci adasablać katalohi ad fajłaŭ.</li></ul></qt>"
 
-#: filewidgets/kfilewidget.cpp:530
+#: filewidgets/kfilewidget.cpp:529
 #, kde-format
 msgid "Zoom out"
 msgstr "Pamienš"
 
-#: filewidgets/kfilewidget.cpp:532
+#: filewidgets/kfilewidget.cpp:531
 #, kde-format
 msgid "Zoom in"
 msgstr "Pavialič"
@@ -9064,6 +9068,15 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#~ msgid "By Name"
+#~ msgstr "Pavodle nazvaŭ"
+
+#~ msgid "By Size"
+#~ msgstr "Pavodle pamieraŭ"
+
+#~ msgid "By Type"
+#~ msgstr "Pavodle typaŭ"
 
 #~ msgid "You may have incorrectly typed the location."
 #~ msgstr "Mahčyma, ty niapravilna ŭpisaŭ adras."

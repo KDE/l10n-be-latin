@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-07 03:13+0100\n"
+"POT-Creation-Date: 2019-01-09 03:08+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4334,14 +4334,14 @@ msgstr "Akno aŭtaryzavańnia"
 msgid "Receiving corrupt data."
 msgstr "Atrymańnie paškodžanych źviestak."
 
-#: ioslaves/http/kcookiejar/kcookieserver.cpp:68
-#: ioslaves/http/kcookiejar/kcookieserver.cpp:77
+#: ioslaves/http/kcookiejar/kcookieserver.cpp:66
+#: ioslaves/http/kcookiejar/kcookieserver.cpp:75
 #, fuzzy, kde-format
 #| msgid "Cannot open file"
 msgid "Cannot Save Cookies"
 msgstr "Nie ŭdałosia adčynić fajł"
 
-#: ioslaves/http/kcookiejar/kcookieserver.cpp:68
+#: ioslaves/http/kcookiejar/kcookieserver.cpp:66
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not create symlink %1.\n"
@@ -4351,7 +4351,7 @@ msgstr ""
 "Nie ŭdałosia stvaryć symbalny łuč „%1”.\n"
 "Pravier dazvoły."
 
-#: ioslaves/http/kcookiejar/kcookieserver.cpp:77
+#: ioslaves/http/kcookiejar/kcookieserver.cpp:75
 #, fuzzy, kde-format
 #| msgid "Could not write to %1."
 msgid "Could not create directory %1"
@@ -6159,26 +6159,26 @@ msgid ""
 "keyboard shortcut) and enter the shortcut in the Run Command dialog."
 msgstr ""
 
-#: kioexec/kioexecd.cpp:101
+#: kioexec/kioexecd.cpp:99
 #, kde-format
 msgid ""
 "The file %1\n"
 "has been modified. Do you want to upload the changes?"
 msgstr ""
 
-#: kioexec/kioexecd.cpp:102 kioexec/main.cpp:241 kioexec/main.cpp:246
+#: kioexec/kioexecd.cpp:100 kioexec/main.cpp:241 kioexec/main.cpp:246
 #, fuzzy, kde-format
 #| msgid "Device name"
 msgid "File Changed"
 msgstr "Nazva pryłady"
 
-#: kioexec/kioexecd.cpp:102 kioexec/main.cpp:246
+#: kioexec/kioexecd.cpp:100 kioexec/main.cpp:246
 #, fuzzy, kde-format
 #| msgid "Reload"
 msgid "Upload"
 msgstr "Pieračytaj"
 
-#: kioexec/kioexecd.cpp:102 kioexec/main.cpp:246
+#: kioexec/kioexecd.cpp:100 kioexec/main.cpp:246
 #, fuzzy, kde-format
 #| msgid "Do Not Store"
 msgid "Do Not Upload"
@@ -6315,7 +6315,7 @@ msgstr ""
 msgid "Could not download the proxy configuration script"
 msgstr "Nie ŭdałosia atrymać skrypt naładžvańnia proxy"
 
-#: kpac/proxyscout.cpp:241
+#: kpac/proxyscout.cpp:240
 #, kde-format
 msgid ""
 "The proxy configuration script is invalid:\n"
@@ -6324,7 +6324,7 @@ msgstr ""
 "Niapravilny skrypt naładžvańnia proxy:\n"
 "%1"
 
-#: kpac/proxyscout.cpp:354
+#: kpac/proxyscout.cpp:353
 #, kde-format
 msgid ""
 "The proxy configuration script returned an error:\n"

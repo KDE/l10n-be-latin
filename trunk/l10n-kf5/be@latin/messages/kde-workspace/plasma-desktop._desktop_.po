@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-15 02:22+0000\n"
+"POT-Creation-Date: 2019-01-16 02:37+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -564,29 +564,6 @@ msgstr "Apisańnie dla vierchniaha pravaha pola źviestak"
 
 #: kcms/cursortheme/kcm_cursortheme.desktop:13
 #: kcms/cursortheme/package/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Cursor Files"
-msgctxt "Name"
-msgid "Cursor Theme"
-msgstr "Fajły kursoraŭ"
-
-#: kcms/cursortheme/kcm_cursortheme.desktop:75
-#: kcms/cursortheme/package/metadata.desktop:63
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Cursor Files"
-msgctxt "Comment"
-msgid "Mouse Cursor Theme"
-msgstr "Fajły kursoraŭ"
-
-#: kcms/cursortheme/kcm_cursortheme.desktop:122
-msgctxt "X-KDE-Keywords"
-msgid ""
-"Mouse,Cursor,Theme,Cursor Appearance,Cursor Color,Cursor Theme,Mouse Theme,"
-"Mouse Appearance,Mouse Skins,Pointer Colors,Pointer Appearance"
-msgstr ""
-
 #: kcms/cursortheme/xcursor/xcursor.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
@@ -594,6 +571,22 @@ msgstr ""
 msgctxt "Name"
 msgid "Cursors"
 msgstr "Fajły kursoraŭ"
+
+#: kcms/cursortheme/kcm_cursortheme.desktop:75
+#: kcms/cursortheme/package/metadata.desktop:63
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Customize individual desktop theme items"
+msgctxt "Comment"
+msgid "Choose the mouse cursor theme"
+msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
+
+#: kcms/cursortheme/kcm_cursortheme.desktop:122
+msgctxt "X-KDE-Keywords"
+msgid ""
+"Mouse,Cursor,Theme,Cursor Appearance,Cursor Color,Cursor Theme,Mouse Theme,"
+"Mouse Appearance,Mouse Skins,Pointer Colors,Pointer Appearance"
+msgstr ""
 
 #: kcms/dateandtime/clock.desktop:16
 msgctxt "Name"
@@ -661,8 +654,8 @@ msgctxt "Name"
 msgid "Plasma Theme"
 msgstr ""
 
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:77
-#: kcms/desktoptheme/package/metadata.desktop:66
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:14
+#: kcms/desktoptheme/package/metadata.desktop:3
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Customize individual desktop theme items"
@@ -670,7 +663,7 @@ msgctxt "Comment"
 msgid "Choose the Plasma theme"
 msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
 
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:123
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:15
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop Sphere"
@@ -964,9 +957,12 @@ msgstr ""
 
 #: kcms/ksplash/kcm_splashscreen.desktop:60
 #: kcms/ksplash/package/metadata.desktop:47
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Customize individual desktop theme items"
 msgctxt "Comment"
-msgid "Splash Screen Theme"
-msgstr ""
+msgid "Choose the splash screen theme"
+msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
 
 #: kcms/ksplash/kcm_splashscreen.desktop:103
 msgctxt "X-KDE-Keywords"
@@ -1013,7 +1009,7 @@ msgctxt "Comment"
 msgid "Choose the Look and Feel theme"
 msgstr ""
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:54
+#: kcms/lookandfeel/kcm_lookandfeel.desktop:60
 msgctxt "X-KDE-Keywords"
 msgid "theme, look, feel"
 msgstr ""
@@ -1693,6 +1689,20 @@ msgstr "Sietkavaja pryłada"
 
 #, fuzzy
 #~| msgctxt "Name"
+#~| msgid "Cursor Files"
+#~ msgctxt "Name"
+#~ msgid "Cursor Theme"
+#~ msgstr "Fajły kursoraŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Cursor Files"
+#~ msgctxt "Comment"
+#~ msgid "Mouse Cursor Theme"
+#~ msgstr "Fajły kursoraŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
 #~| msgid "Desktop Sphere"
 #~ msgctxt "Name"
 #~ msgid "Desktop Theme"
@@ -1875,13 +1885,6 @@ msgstr "Sietkavaja pryłada"
 #~ msgctxt "Comment"
 #~ msgid "Customize KDE Icons"
 #~ msgstr "Naładź ikony KDE"
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Customize individual desktop theme items"
-#~ msgctxt "Comment"
-#~ msgid "Customize the mouse cursor appearance"
-#~ msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
 
 #, fuzzy
 #~| msgctxt "GenericName"

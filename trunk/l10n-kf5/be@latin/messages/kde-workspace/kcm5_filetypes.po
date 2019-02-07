@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-12 03:13+0100\n"
+"POT-Creation-Date: 2019-02-07 03:21+0100\n"
 "PO-Revision-Date: 2008-09-08 21:43+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -34,12 +34,12 @@ msgstr "ihar.hrachyshka@gmail.com"
 msgid "Left Click Action (only for Konqueror file manager)"
 msgstr ""
 
-#: filegroupdetails.cpp:39 filetypedetails.cpp:146
+#: filegroupdetails.cpp:39 filetypedetails.cpp:147
 #, kde-format
 msgid "Show file in embedded viewer"
 msgstr "Pakažy fajł u ŭnutranym prahladniku"
 
-#: filegroupdetails.cpp:40 filetypedetails.cpp:147
+#: filegroupdetails.cpp:40 filetypedetails.cpp:148
 #, kde-format
 msgid "Show file in separate viewer"
 msgstr "Pakažy fajł u asobnym prahladniku"
@@ -64,7 +64,7 @@ msgstr ""
 "prahladniku ci ŭklučyć asobnuju aplikacyju. Heta možna naładzić dla peŭnaha "
 "typu fajłaŭ u kartcy „Unutranaść” akna naładaŭ dla hetaha typu."
 
-#: filetypedetails.cpp:72
+#: filetypedetails.cpp:73
 #, kde-format
 msgid ""
 "This button displays the icon associated with the selected file type. Click "
@@ -73,12 +73,12 @@ msgstr ""
 "Hetaja knopka vyjaŭlaje ikonu, paviazanuju z vybranym typam fajłaŭ. Klikni ŭ "
 "jaje, kab vybrać inšuju ikonu."
 
-#: filetypedetails.cpp:78
+#: filetypedetails.cpp:79
 #, kde-format
 msgid "Filename Patterns"
 msgstr "Šablony nazvaŭ fajłaŭ"
 
-#: filetypedetails.cpp:90
+#: filetypedetails.cpp:91
 #, kde-format
 msgid ""
 "This box contains a list of patterns that can be used to identify files of "
@@ -90,33 +90,33 @@ msgstr ""
 "šablon „*.txt” paviazany z typam „text/plain”, tamu ŭsie fajły, u jakich "
 "nazvy skančajucca na „.txt”, raspaznajucca jak fajły čystaha tekstu."
 
-#: filetypedetails.cpp:98 filetypesview.cpp:119 kservicelistwidget.cpp:120
+#: filetypedetails.cpp:99 filetypesview.cpp:119 kservicelistwidget.cpp:120
 #, kde-format
 msgid "Add..."
 msgstr "Dadaj..."
 
-#: filetypedetails.cpp:104
+#: filetypedetails.cpp:105
 #, kde-format
 msgid "Add a new pattern for the selected file type."
 msgstr "Dadaj novy šablon dla vybranaha typu fajłaŭ."
 
-#: filetypedetails.cpp:106 kservicelistwidget.cpp:136
+#: filetypedetails.cpp:107 kservicelistwidget.cpp:136
 #, kde-format
 msgid "Remove"
 msgstr "Vydali"
 
-#: filetypedetails.cpp:112
+#: filetypedetails.cpp:113
 #, kde-format
 msgid "Remove the selected filename pattern."
 msgstr "Vydali vybrany šablon nazvaŭ fajłaŭ."
 
-#: filetypedetails.cpp:124
+#: filetypedetails.cpp:125
 #, fuzzy, kde-format
 #| msgid "Description"
 msgid "Description:"
 msgstr "Apisańnie"
 
-#: filetypedetails.cpp:128
+#: filetypedetails.cpp:129
 #, kde-format
 msgid ""
 "You can enter a short description for files of the selected file type (e.g. "
@@ -127,19 +127,19 @@ msgstr ""
 "(naprykład, „Staronka HTML”). Im buduć karystacca inšyja aplikacyi, siarod "
 "jakich „Konqueror”, kab vyjaŭlać źmieściva katalohaŭ."
 
-#: filetypedetails.cpp:141
+#: filetypedetails.cpp:142
 #, fuzzy, kde-format
 #| msgid "Left Click Action"
 msgid "Left Click Action in Konqueror"
 msgstr "Levy klik"
 
-#: filetypedetails.cpp:150
+#: filetypedetails.cpp:151
 #, fuzzy, kde-format
 #| msgid "Ask whether to save to disk instead"
 msgid "Ask whether to save to disk instead (only for Konqueror browser)"
 msgstr "Pytaj, ci treba zamiest zapisvać na dysk"
 
-#: filetypedetails.cpp:165
+#: filetypedetails.cpp:166
 #, fuzzy, kde-format
 #| msgid ""
 #| "Here you can configure what the Konqueror file manager will do when you "
@@ -163,32 +163,32 @@ msgstr ""
 "praviłaŭ, vyznačanych dla hrupy „G”, jakoj naležyć hety fajł. Naprykład, dla "
 "typu „image/png” biarucca nałady dla „image” (vyjavaŭ)."
 
-#: filetypedetails.cpp:177
+#: filetypedetails.cpp:178
 #, kde-format
 msgid "&General"
 msgstr "&Hałoŭnaje"
 
-#: filetypedetails.cpp:178
+#: filetypedetails.cpp:179
 #, kde-format
 msgid "&Embedding"
 msgstr "&Unutreńnie"
 
-#: filetypedetails.cpp:216
+#: filetypedetails.cpp:217
 #, kde-format
 msgid "Add New Extension"
 msgstr "Dadańnie novaha pašyreńnia"
 
-#: filetypedetails.cpp:216
+#: filetypedetails.cpp:217
 #, kde-format
 msgid "Extension:"
 msgstr "Pašyreńnie:"
 
-#: filetypedetails.cpp:328
+#: filetypedetails.cpp:329
 #, kde-format
 msgid "File type %1"
 msgstr "Typ fajłaŭ „%1”"
 
-#: filetypedetails.cpp:336
+#: filetypedetails.cpp:337
 #, kde-format
 msgid "Use settings for '%1' group"
 msgstr "Karystajsia naładami dla hrupy „%1”"

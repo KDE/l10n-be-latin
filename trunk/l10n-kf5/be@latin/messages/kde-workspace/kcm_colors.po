@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-26 03:18+0100\n"
+"POT-Creation-Date: 2019-02-14 03:17+0100\n"
 "PO-Revision-Date: 2008-11-04 17:27+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -29,11 +29,10 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#: colors.cpp:62
-#, fuzzy, kde-format
-#| msgid "Save the current color scheme"
-msgid "Choose the color scheme"
-msgstr "Zapišy dziejnuju schiemu koleraŭ"
+#: colors.cpp:62 editor/scmeditordialog.cpp:80
+#, kde-format
+msgid "Colors"
+msgstr "Kolery"
 
 #: colors.cpp:64
 #, kde-format
@@ -206,11 +205,6 @@ msgstr ""
 msgid "Options"
 msgstr "Opcyi"
 
-#: editor/scmeditordialog.cpp:80
-#, kde-format
-msgid "Colors"
-msgstr "Kolery"
-
 #: editor/scmeditordialog.cpp:81
 #, fuzzy, kde-format
 msgid "Disabled"
@@ -362,6 +356,11 @@ msgstr "Zapišy schiemu koleraŭ"
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Save the current color scheme"
+#~ msgid "Choose the color scheme"
+#~ msgstr "Zapišy dziejnuju schiemu koleraŭ"
 
 #~ msgid "(c) 2007 Matthew Woehlke"
 #~ msgstr "© 2007 Matthew Woehlke"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-23 04:03+0200\n"
+"POT-Creation-Date: 2019-02-27 03:33+0100\n"
 "PO-Revision-Date: 2008-10-05 10:45+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -153,9 +153,14 @@ msgstr "&Naładź rabočyja stały..."
 
 #: package/contents/ui/main.qml:542
 #, fuzzy, kde-format
-#| msgid "Configure Desktops..."
-msgid "Configure Desktops..."
-msgstr "Naładź rabočyja stały..."
+#| msgid "&Configure Desktops..."
+msgid "Configure Virtual Desktops..."
+msgstr "&Naładź rabočyja stały..."
+
+#, fuzzy
+#~| msgid "Configure Desktops..."
+#~ msgid "Configure Desktops..."
+#~ msgstr "Naładź rabočyja stały..."
 
 #~ msgid "Display icons:"
 #~ msgstr "Pakazvaj ikony:"
@@ -178,8 +183,3 @@ msgstr "Naładź rabočyja stały..."
 
 #~ msgid "Change the number of rows"
 #~ msgstr "Źmiani kolkaść radkoŭ"
-
-#, fuzzy
-#~| msgid "&Configure Desktops..."
-#~ msgid "&Configure Virtual Desktops..."
-#~ msgstr "&Naładź rabočyja stały..."

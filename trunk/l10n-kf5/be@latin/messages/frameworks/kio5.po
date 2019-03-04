@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-03 03:10+0100\n"
+"POT-Creation-Date: 2019-03-04 03:13+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3025,7 +3025,7 @@ msgctxt "@title:menu"
 msgid "Move Here"
 msgstr ""
 
-#: filewidgets/kfilefiltercombo.cpp:36 filewidgets/kfilewidget.cpp:1904
+#: filewidgets/kfilefiltercombo.cpp:36 filewidgets/kfilewidget.cpp:1911
 #, kde-format
 msgid "*|All Files"
 msgstr "*|Usie fajły"
@@ -3457,27 +3457,27 @@ msgstr ""
 msgid "&Filter:"
 msgstr "&Filtruj:"
 
-#: filewidgets/kfilewidget.cpp:837
+#: filewidgets/kfilewidget.cpp:843
 #, kde-format
 msgid "You can only select one file"
 msgstr "Možna vybrać tolki adzin fajł."
 
-#: filewidgets/kfilewidget.cpp:838
+#: filewidgets/kfilewidget.cpp:844
 #, kde-format
 msgid "More than one file provided"
 msgstr "Padadzienyja niekalki fajłaŭ."
 
-#: filewidgets/kfilewidget.cpp:1005
+#: filewidgets/kfilewidget.cpp:1011
 #, kde-format
 msgid "You can only select local files"
 msgstr "Možna vybrać tolki lakalnyja fajły."
 
-#: filewidgets/kfilewidget.cpp:1006
+#: filewidgets/kfilewidget.cpp:1012
 #, kde-format
 msgid "Remote files not accepted"
 msgstr "Nielha vybrać fajły ź inšych hostaŭ"
 
-#: filewidgets/kfilewidget.cpp:1013
+#: filewidgets/kfilewidget.cpp:1019
 #, kde-format
 msgid ""
 "The selected URL uses an unsupported scheme. Please use the following "
@@ -3489,13 +3489,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: filewidgets/kfilewidget.cpp:1019
+#: filewidgets/kfilewidget.cpp:1025
 #, fuzzy, kde-format
 #| msgid "Unsupported key size."
 msgid "Unsupported URL scheme"
 msgstr "Pamier kluča nie absłuhoŭvajecca."
 
-#: filewidgets/kfilewidget.cpp:1034
+#: filewidgets/kfilewidget.cpp:1040
 #, kde-format
 msgid ""
 "More than one folder has been selected and this dialog does not accept "
@@ -3503,40 +3503,40 @@ msgid ""
 "only one folder to list it."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1034
+#: filewidgets/kfilewidget.cpp:1040
 #, kde-format
 msgid "More than one folder provided"
 msgstr "Padadzienyja niekalki katalohaŭ"
 
-#: filewidgets/kfilewidget.cpp:1042
+#: filewidgets/kfilewidget.cpp:1048
 #, kde-format
 msgid ""
 "At least one folder and one file has been selected. Selected files will be "
 "ignored and the selected folder will be listed"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1042
+#: filewidgets/kfilewidget.cpp:1048
 #, kde-format
 msgid "Files and folders selected"
 msgstr "Vyłučanyja katalohi j fajły"
 
-#: filewidgets/kfilewidget.cpp:1060
+#: filewidgets/kfilewidget.cpp:1066
 #, fuzzy, kde-format
 #| msgid "The file %1 could not be found"
 msgid "The file \"%1\" could not be found"
 msgstr "Nie ŭdałosia znajści fajł „%1”."
 
-#: filewidgets/kfilewidget.cpp:1060
+#: filewidgets/kfilewidget.cpp:1066
 #, kde-format
 msgid "Cannot open file"
 msgstr "Nie ŭdałosia adčynić fajł"
 
-#: filewidgets/kfilewidget.cpp:1338
+#: filewidgets/kfilewidget.cpp:1344
 #, kde-format
 msgid "This is the name to save the file as."
 msgstr "Nazva dla zapisvanaha fajła."
 
-#: filewidgets/kfilewidget.cpp:1341
+#: filewidgets/kfilewidget.cpp:1347
 #, kde-format
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
@@ -3545,29 +3545,29 @@ msgstr ""
 "Śpis fajłaŭ, jakija treba adčynić. Možna padać śpis ź niekalkich fajłaŭ, "
 "padzialiŭšy ichnyja nazvy znakami prabiełaŭ."
 
-#: filewidgets/kfilewidget.cpp:1346
+#: filewidgets/kfilewidget.cpp:1352
 #, kde-format
 msgid "This is the name of the file to open."
 msgstr "Nazva fajła, jaki treba adčynić."
 
-#: filewidgets/kfilewidget.cpp:1360
+#: filewidgets/kfilewidget.cpp:1366
 #, fuzzy, kde-format
 #| msgid "Places"
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Miescy"
 
-#: filewidgets/kfilewidget.cpp:1568
+#: filewidgets/kfilewidget.cpp:1574
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
 
-#: filewidgets/kfilewidget.cpp:1569
+#: filewidgets/kfilewidget.cpp:1575
 #, kde-format
 msgid "Overwrite File?"
 msgstr "Nadpisać fajł?"
 
-#: filewidgets/kfilewidget.cpp:1710
+#: filewidgets/kfilewidget.cpp:1717
 #, kde-format
 msgid ""
 "The chosen filenames do not\n"
@@ -3576,63 +3576,63 @@ msgstr ""
 "Nazvy vybranych fajłaŭ\n"
 "niapravilnyja."
 
-#: filewidgets/kfilewidget.cpp:1712
+#: filewidgets/kfilewidget.cpp:1719
 #, kde-format
 msgid "Invalid Filenames"
 msgstr "Niapravilnyja nazvy fajłaŭ"
 
-#: filewidgets/kfilewidget.cpp:1797
+#: filewidgets/kfilewidget.cpp:1804
 #, kde-format
 msgid "You can only select local files."
 msgstr "Možna vybrać tolki lakalnyja fajły."
 
-#: filewidgets/kfilewidget.cpp:1798
+#: filewidgets/kfilewidget.cpp:1805
 #, kde-format
 msgid "Remote Files Not Accepted"
 msgstr "Nielha vybrać fajły ź inšych hostaŭ"
 
-#: filewidgets/kfilewidget.cpp:1902
+#: filewidgets/kfilewidget.cpp:1909
 #, kde-format
 msgid "*|All Folders"
 msgstr "*|Usie katalohi"
 
-#: filewidgets/kfilewidget.cpp:2066 widgets/executablefileopendialog.cpp:38
+#: filewidgets/kfilewidget.cpp:2073 widgets/executablefileopendialog.cpp:38
 #: widgets/kfileitemactions.cpp:640
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: filewidgets/kfilewidget.cpp:2160
+#: filewidgets/kfilewidget.cpp:2167
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels (standard size)"
 msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
 
-#: filewidgets/kfilewidget.cpp:2163
+#: filewidgets/kfilewidget.cpp:2170
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels"
 msgstr "Pamier ikon: %1 punktaŭ"
 
-#: filewidgets/kfilewidget.cpp:2310
+#: filewidgets/kfilewidget.cpp:2317
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
 
-#: filewidgets/kfilewidget.cpp:2311
+#: filewidgets/kfilewidget.cpp:2318
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "pašyreńnie <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2317
+#: filewidgets/kfilewidget.cpp:2324
 #, kde-format
 msgid "Automatically select filename e&xtension"
 msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
 
-#: filewidgets/kfilewidget.cpp:2318
+#: filewidgets/kfilewidget.cpp:2325
 #, kde-format
 msgid "a suitable extension"
 msgstr "prydatnaje pašyreńnie"
 
-#: filewidgets/kfilewidget.cpp:2327
+#: filewidgets/kfilewidget.cpp:2334
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -3648,12 +3648,12 @@ msgid ""
 "enabled as it makes your files more manageable."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2637
+#: filewidgets/kfilewidget.cpp:2644
 #, kde-format
 msgid "Bookmarks"
 msgstr "Zakładki"
 
-#: filewidgets/kfilewidget.cpp:2641
+#: filewidgets/kfilewidget.cpp:2648
 #, kde-format
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
@@ -3930,29 +3930,29 @@ msgstr "Nie ŭdałosia znajści prahramu „umount”."
 msgid "unmounting is not supported by wince."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: ioslaves/file/file_unix.cpp:284
+#: ioslaves/file/file_unix.cpp:295
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "Nie ŭdałosia skapijavać fajł z „%1” u „%2” (numar pamyłki: %3)."
 
-#: ioslaves/file/file_unix.cpp:365
+#: ioslaves/file/file_unix.cpp:381
 #, fuzzy, kde-format
 #| msgid "Could not change permissions for %1."
 msgid "Could not change permissions for '%1'"
 msgstr "Nie ŭdałosia źmianić dazvoły na „%1”."
 
-#: ioslaves/file/file_unix.cpp:489
+#: ioslaves/file/file_unix.cpp:515
 #, kde-format
 msgid "No media in device for %1"
 msgstr "U pryładzie „%1” niama nośbitu."
 
-#: ioslaves/file/file_unix.cpp:761
+#: ioslaves/file/file_unix.cpp:787
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 "Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
 
-#: ioslaves/file/file_unix.cpp:774
+#: ioslaves/file/file_unix.cpp:800
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."

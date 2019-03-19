@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-04 03:42+0100\n"
+"POT-Creation-Date: 2019-03-19 03:42+0100\n"
 "PO-Revision-Date: 2008-11-20 22:42+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -306,7 +306,7 @@ msgstr "Dahladnik"
 #: powerdevilcore.cpp:91
 #, kde-format
 msgid ""
-"No valid Power Management backend plugins are available. A new installation "
+"No valid Power Management backend plugins available. A new installation "
 "might solve this problem."
 msgstr ""
 
@@ -316,7 +316,7 @@ msgstr ""
 #| "The profile \"%1\" has been selected, but it does not exist!\n"
 #| "Please check your PowerDevil configuration."
 msgid ""
-"The profile \"%1\" has been selected, but it does not exist.\n"
+"Profile \"%1\" has been selected but does not exist.\n"
 "Please check your PowerDevil configuration."
 msgstr ""
 "Byŭ vybrany profil „%1”, ale jon nie isnuje!\n"
@@ -329,7 +329,7 @@ msgstr ""
 
 #: powerdevilcore.cpp:392
 #, kde-format
-msgid "This activity's policies prevent the system from suspending"
+msgid "This activity's policies prevent the system from going to sleep"
 msgstr ""
 
 #: powerdevilcore.cpp:404
@@ -357,9 +357,13 @@ msgstr "Vielmi nizki zarad batarei"
 
 #: powerdevilcore.cpp:465 powerdevilcore.cpp:641
 #, fuzzy, kde-format
-#| msgid "The power adaptor has been plugged in"
-msgid "All pending suspend actions have been canceled."
-msgstr "Blok siłkavańnia padłučany."
+#| msgid ""
+#| "The computer will be halted in %1 seconds. Click here to block the "
+#| "process."
+msgid "The computer will no longer go to sleep."
+msgstr ""
+"Kamputar budzie vyklučany praz %1 sekund. Klikni siudy, kab anulavać hetuju "
+"dzieju."
 
 #: powerdevilcore.cpp:530
 #, kde-format
@@ -372,12 +376,12 @@ msgstr ""
 msgid "Mouse Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:541
+#: powerdevilcore.cpp:541 powerdevilcore.cpp:548 powerdevilcore.cpp:555
 #, kde-format
 msgctxt "Placeholder is device name"
 msgid ""
-"The battery in your mouse (\"%1\") is low, and the device may turn itself "
-"off at any time. Please replace or charge the battery as soon as possible."
+"The battery in (\"%1\") is running low, and the device may turn off at any "
+"time. Please recharge or replace the battery."
 msgstr ""
 
 #: powerdevilcore.cpp:546
@@ -385,27 +389,10 @@ msgstr ""
 msgid "Keyboard Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:548
-#, kde-format
-msgctxt "Placeholder is device name"
-msgid ""
-"The battery in your keyboard (\"%1\") is low, and the device may turn itself "
-"off at any time. Please replace or charge the battery as soon as possible."
-msgstr ""
-
 #: powerdevilcore.cpp:553
 #, kde-format
 msgctxt "The battery in an external device"
 msgid "Device Battery Low (%1% Remaining)"
-msgstr ""
-
-#: powerdevilcore.cpp:555
-#, kde-format
-msgctxt "Placeholder is device name"
-msgid ""
-"The battery in a connected device (\"%1\") is low, and the device may turn "
-"itself off at any time. Please replace or charge the battery as soon as "
-"possible."
 msgstr ""
 
 #: powerdevilcore.cpp:579
@@ -416,8 +403,8 @@ msgstr ""
 #: powerdevilcore.cpp:580
 #, kde-format
 msgid ""
-"Your battery is low. If you need to continue using your computer, either "
-"plug in your computer, or shut it down and then change the battery."
+"Battery running low - to continue using your computer, plug it in or shut it "
+"down and change the battery."
 msgstr ""
 
 #: powerdevilcore.cpp:591
@@ -428,7 +415,8 @@ msgstr ""
 #: powerdevilcore.cpp:593
 #, kde-format
 msgctxt ""
-"Cancel timeout that will automatically suspend system because of low battery"
+"Cancel timeout that will automatically put system to sleep because of low "
+"battery"
 msgid "Cancel"
 msgstr ""
 
@@ -437,8 +425,7 @@ msgstr ""
 #| msgid ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
 #| "seconds. Click here to block the process."
-msgid ""
-"Your battery level is critical, the computer will be halted in 60 seconds."
+msgid "Battery level critical. Your computer will shut down in 60 seconds."
 msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
@@ -449,7 +436,7 @@ msgstr ""
 #| "Your battery has reached critical level, the PC will be halted in %1 "
 #| "seconds. Click here to block the process."
 msgid ""
-"Your battery level is critical, the computer will be hibernated in 60 "
+"Battery level critical. Your computer will enter hibernation mode in 60 "
 "seconds."
 msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
@@ -458,12 +445,11 @@ msgstr ""
 #: powerdevilcore.cpp:612
 #, fuzzy, kde-format
 #| msgid ""
-#| "Your battery has reached critical level, the PC will be suspended to RAM "
-#| "in %1 seconds. Click here to block the process"
-msgid ""
-"Your battery level is critical, the computer will be suspended in 60 seconds."
+#| "Your battery has reached critical level, the PC will be halted in %1 "
+#| "seconds. Click here to block the process."
+msgid "Battery level critical. Your computer will go to sleep in 60 seconds."
 msgstr ""
-"Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie ŭ pamiaci praz %1 "
+"Tvaja batareja maje vielmi nizki zarad. Kamputar budzie vyłučany praz %1 "
 "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #: powerdevilcore.cpp:617
@@ -471,7 +457,7 @@ msgstr ""
 #| msgid ""
 #| "Your battery has reached critical level, save your work as soon as "
 #| "possible!"
-msgid "Your battery level is critical, save your work as soon as possible."
+msgid "Battery level critical. Please save your work."
 msgstr ""
 "Tvaja batareja maje vielmi nizki zarad. Jak maha chutčej zapišy vynik svajoj "
 "pracy!"
@@ -490,7 +476,7 @@ msgstr ""
 #: powerdevilcore.cpp:643
 #, fuzzy, kde-format
 #| msgid "The power adaptor has been plugged in"
-msgid "The power adaptor has been plugged in."
+msgid "The power adapter has been plugged in."
 msgstr "Blok siłkavańnia padłučany."
 
 #: powerdevilcore.cpp:646
@@ -502,26 +488,42 @@ msgstr "Kali kamputar pracuje z batarei"
 #: powerdevilcore.cpp:646
 #, fuzzy, kde-format
 #| msgid "The power adaptor has been unplugged"
-msgid "The power adaptor has been unplugged."
+msgid "The power adapter has been unplugged."
 msgstr "Blok siłkavańnia adłučany."
 
 #: powerdevilcore.cpp:652
 #, kde-format
 msgid ""
-"KDE Power Management System could not be initialized. The backend reported "
-"the following error: %1\n"
+"The KDE Power Management System could not be initialized. The backend "
+"reported the following error: %1\n"
 "Please check your system configuration"
 msgstr ""
 
 #: powerdevilcore.cpp:713
 #, kde-format
-msgid "Charge Complete"
+msgid "Charging Complete"
 msgstr ""
 
 #: powerdevilcore.cpp:713
 #, kde-format
-msgid "Your battery is now fully charged."
+msgid "Battery now fully charged."
 msgstr ""
+
+#, fuzzy
+#~| msgid "The power adaptor has been plugged in"
+#~ msgid "All pending suspend actions have been canceled."
+#~ msgstr "Blok siłkavańnia padłučany."
+
+#, fuzzy
+#~| msgid ""
+#~| "Your battery has reached critical level, the PC will be suspended to RAM "
+#~| "in %1 seconds. Click here to block the process"
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be suspended in 60 "
+#~ "seconds."
+#~ msgstr ""
+#~ "Tvaja batareja maje vielmi nizki zarad. Kamputar zaśnie ŭ pamiaci praz %1 "
+#~ "sekund. Klikni siudy, kab anulavać hetuju dzieju."
 
 #, fuzzy
 #~| msgid "Suspend to RAM"
@@ -677,22 +679,6 @@ msgstr ""
 #~ msgstr[2] ""
 #~ "Tvaja batareja maje vielmi nizki zarad. Kamputar pačnie čakać praz %1 "
 #~ "sekund. Klikni siudy, kab anulavać hetuju dzieju."
-
-#, fuzzy
-#~| msgid ""
-#~| "The computer will be halted in %1 seconds. Click here to block the "
-#~| "process."
-#~ msgid "The computer will be halted in 1 second."
-#~ msgid_plural "The computer will be halted in %1 seconds."
-#~ msgstr[0] ""
-#~ "Kamputar budzie vyklučany praz %1 sekund. Klikni siudy, kab anulavać "
-#~ "hetuju dzieju."
-#~ msgstr[1] ""
-#~ "Kamputar budzie vyklučany praz %1 sekund. Klikni siudy, kab anulavać "
-#~ "hetuju dzieju."
-#~ msgstr[2] ""
-#~ "Kamputar budzie vyklučany praz %1 sekund. Klikni siudy, kab anulavać "
-#~ "hetuju dzieju."
 
 #, fuzzy
 #~| msgid ""

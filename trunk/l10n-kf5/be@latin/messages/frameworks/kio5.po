@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-04-17 03:15+0200\n"
+"POT-Creation-Date: 2019-04-19 03:24+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -8007,8 +8007,9 @@ msgstr "Zmantavany ŭ:"
 
 #: widgets/kpropertiesdialog.cpp:1186 widgets/kpropertiesdialog.cpp:3249
 #, kde-format
-msgid "Device usage:"
-msgstr "Zaniataść pryłady:"
+msgctxt "Amount of used and available space on this device or partition"
+msgid "Free space:"
+msgstr ""
 
 #: widgets/kpropertiesdialog.cpp:1190 widgets/kpropertiesdialog.cpp:1292
 #, fuzzy, kde-format
@@ -9131,6 +9132,9 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#~ msgid "Device usage:"
+#~ msgstr "Zaniataść pryłady:"
 
 #~ msgid "By Name"
 #~ msgstr "Pavodle nazvaŭ"

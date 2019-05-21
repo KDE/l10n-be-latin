@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:57+0200\n"
+"POT-Creation-Date: 2019-05-21 02:57+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3218,103 +3218,103 @@ msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:292
-#, kde-format
-msgctxt "KFile System Bookmarks"
-msgid "Downloads"
-msgstr ""
-
-#: filewidgets/kfileplacesmodel.cpp:297
-#, fuzzy, kde-format
-#| msgid "Network"
-msgctxt "KFile System Bookmarks"
-msgid "Network"
-msgstr "Sietka"
-
-#: filewidgets/kfileplacesmodel.cpp:309
-#, fuzzy, kde-format
-#| msgid "Root"
-msgctxt "KFile System Bookmarks"
-msgid "Root"
-msgstr "Korań"
-
-#: filewidgets/kfileplacesmodel.cpp:313
-#, fuzzy, kde-format
-#| msgid "Trash"
-msgctxt "KFile System Bookmarks"
-msgid "Trash"
-msgstr "Śmietnica"
-
-#: filewidgets/kfileplacesmodel.cpp:334
-#, kde-format
-msgctxt "KFile System Bookmarks"
-msgid "Today"
-msgstr ""
-
-#: filewidgets/kfileplacesmodel.cpp:337
-#, kde-format
-msgctxt "KFile System Bookmarks"
-msgid "Yesterday"
-msgstr ""
-
-#: filewidgets/kfileplacesmodel.cpp:340
+#: filewidgets/kfileplacesmodel.cpp:292 filewidgets/kfileplacesmodel.cpp:346
 #, fuzzy, kde-format
 #| msgid "Comment"
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Kamentar"
 
+#: filewidgets/kfileplacesmodel.cpp:298
+#, kde-format
+msgctxt "KFile System Bookmarks"
+msgid "Downloads"
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:303
+#, fuzzy, kde-format
+#| msgid "Network"
+msgctxt "KFile System Bookmarks"
+msgid "Network"
+msgstr "Sietka"
+
+#: filewidgets/kfileplacesmodel.cpp:315
+#, fuzzy, kde-format
+#| msgid "Root"
+msgctxt "KFile System Bookmarks"
+msgid "Root"
+msgstr "Korań"
+
+#: filewidgets/kfileplacesmodel.cpp:319
+#, fuzzy, kde-format
+#| msgid "Trash"
+msgctxt "KFile System Bookmarks"
+msgid "Trash"
+msgstr "Śmietnica"
+
+#: filewidgets/kfileplacesmodel.cpp:340
+#, kde-format
+msgctxt "KFile System Bookmarks"
+msgid "Today"
+msgstr ""
+
 #: filewidgets/kfileplacesmodel.cpp:343
+#, kde-format
+msgctxt "KFile System Bookmarks"
+msgid "Yesterday"
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:349
 #, fuzzy, kde-format
 #| msgid "OCR Image"
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Raspaznańnie vyjavy"
 
-#: filewidgets/kfileplacesmodel.cpp:346
+#: filewidgets/kfileplacesmodel.cpp:352
 #, fuzzy, kde-format
 #| msgid "*|All Files"
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr "*|Usie fajły"
 
-#: filewidgets/kfileplacesmodel.cpp:349
+#: filewidgets/kfileplacesmodel.cpp:355
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1232
+#: filewidgets/kfileplacesmodel.cpp:1238
 #, kde-format
 msgid "&Release '%1'"
 msgstr "&Vyzvali „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1234
+#: filewidgets/kfileplacesmodel.cpp:1240
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "&Biaśpiečna vysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1237
+#: filewidgets/kfileplacesmodel.cpp:1243
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "&Admantuj „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1258
+#: filewidgets/kfileplacesmodel.cpp:1264
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "V&ysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1292
+#: filewidgets/kfileplacesmodel.cpp:1298
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
 
-#: filewidgets/kfileplacesmodel.cpp:1328
+#: filewidgets/kfileplacesmodel.cpp:1334
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1332
+#: filewidgets/kfileplacesmodel.cpp:1338
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka."

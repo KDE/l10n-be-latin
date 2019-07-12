@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:39+0200\n"
+"POT-Creation-Date: 2019-07-12 02:38+0200\n"
 "PO-Revision-Date: 2008-10-06 20:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,53 +19,53 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kfinddlg.cpp:47
+#: kfinddlg.cpp:43
 #, fuzzy, kde-format
 #| msgid "Find Files/Folders"
 msgctxt "@title:window"
 msgid "Find Files/Folders"
 msgstr "Šukaj fajły j katalohi"
 
-#: kfinddlg.cpp:66 kfinddlg.cpp:215
+#: kfinddlg.cpp:62 kfinddlg.cpp:211
 #, kde-format
 msgctxt "the application is currently idle, there is no active search"
 msgid "Idle."
 msgstr ""
 
 #. i18n as below
-#: kfinddlg.cpp:151
+#: kfinddlg.cpp:147
 #, fuzzy, kde-format
 #| msgid "one file found"
 #| msgid_plural "%1 files found"
 msgid "0 items found"
 msgstr "znojdzieny %1 fajł"
 
-#: kfinddlg.cpp:190
+#: kfinddlg.cpp:186
 #, kde-format
 msgid "Searching..."
 msgstr "Pošuk..."
 
-#: kfinddlg.cpp:217
+#: kfinddlg.cpp:213
 #, kde-format
 msgid "Canceled."
 msgstr ""
 
-#: kfinddlg.cpp:219 kfinddlg.cpp:222 kfinddlg.cpp:225
+#: kfinddlg.cpp:215 kfinddlg.cpp:218 kfinddlg.cpp:221
 #, kde-format
 msgid "Error."
 msgstr "Pamyłka."
 
-#: kfinddlg.cpp:220
+#: kfinddlg.cpp:216
 #, kde-format
 msgid "Please specify an absolute path in the \"Look in\" box."
 msgstr "Aznač absalutnuju ściežku ŭ poli „Dzie šukać”."
 
-#: kfinddlg.cpp:223
+#: kfinddlg.cpp:219
 #, kde-format
 msgid "Could not find the specified folder."
 msgstr "Nie ŭdałosia znajści aznačanaha katalohu."
 
-#: kfinddlg.cpp:246 kfinddlg.cpp:270
+#: kfinddlg.cpp:242 kfinddlg.cpp:266
 #, fuzzy, kde-format
 #| msgid "one file found"
 #| msgid_plural "%1 files found"
@@ -75,109 +75,109 @@ msgstr[0] "znojdzieny %1 fajł"
 msgstr[1] "znojdzienyja %1 fajły"
 msgstr[2] "znojdzienyja %1 fajłaŭ"
 
-#: kfindtreeview.cpp:51
+#: kfindtreeview.cpp:50
 #, kde-format
 msgid "Read-write"
 msgstr "Čytańnie j zapis"
 
-#: kfindtreeview.cpp:52
+#: kfindtreeview.cpp:51
 #, kde-format
 msgid "Read-only"
 msgstr "Tolki čytańnie"
 
-#: kfindtreeview.cpp:53
+#: kfindtreeview.cpp:52
 #, kde-format
 msgid "Write-only"
 msgstr "Tolki zapis"
 
-#: kfindtreeview.cpp:54
+#: kfindtreeview.cpp:53
 #, kde-format
 msgid "Inaccessible"
 msgstr "Biaz dostupu"
 
-#: kfindtreeview.cpp:74
+#: kfindtreeview.cpp:73
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "file name column"
 msgid "Name"
 msgstr "Nazva"
 
-#: kfindtreeview.cpp:76
+#: kfindtreeview.cpp:75
 #, fuzzy, kde-format
 #| msgid "In Subfolder"
 msgctxt "name of the containing folder"
 msgid "In Subfolder"
 msgstr "U padkatalohu"
 
-#: kfindtreeview.cpp:78
+#: kfindtreeview.cpp:77
 #, fuzzy, kde-format
 #| msgid "Size"
 msgctxt "file size column"
 msgid "Size"
 msgstr "Pamier"
 
-#: kfindtreeview.cpp:80
+#: kfindtreeview.cpp:79
 #, fuzzy, kde-format
 #| msgid "Modified"
 msgctxt "modified date column"
 msgid "Modified"
 msgstr "Źmienieny"
 
-#: kfindtreeview.cpp:82
+#: kfindtreeview.cpp:81
 #, fuzzy, kde-format
 #| msgid "Permissions"
 msgctxt "file permissions column"
 msgid "Permissions"
 msgstr "Dazvoły"
 
-#: kfindtreeview.cpp:84
+#: kfindtreeview.cpp:83
 #, fuzzy, kde-format
 #| msgid "First Matching Line"
 msgctxt "first matching line of the query string in this file"
 msgid "First Matching Line"
 msgstr "Pieršy adpaviedny radok"
 
-#: kfindtreeview.cpp:346
+#: kfindtreeview.cpp:345
 #, kde-format
 msgid "&Open containing folder(s)"
 msgstr ""
 
-#: kfindtreeview.cpp:350
+#: kfindtreeview.cpp:349
 #, fuzzy, kde-format
 #| msgid "Delete"
 msgid "&Delete"
 msgstr "Vydali"
 
-#: kfindtreeview.cpp:354
+#: kfindtreeview.cpp:353
 #, kde-format
 msgid "&Move to Trash"
 msgstr ""
 
-#: kfindtreeview.cpp:431
+#: kfindtreeview.cpp:430
 #, fuzzy, kde-format
 #| msgid "Save Results As"
 msgctxt "@title:window"
 msgid "Save Results As"
 msgstr "Zapišy vynik jak"
 
-#: kfindtreeview.cpp:456
+#: kfindtreeview.cpp:455
 #, kde-format
 msgid "Unable to save results."
 msgstr "Nie ŭdałosia zapisać vynik."
 
-#: kfindtreeview.cpp:471
+#: kfindtreeview.cpp:470
 #, kde-format
 msgid "KFind Results File"
 msgstr "Fajły vyniku „KFind”"
 
-#: kfindtreeview.cpp:486
+#: kfindtreeview.cpp:485
 #, fuzzy, kde-format
 #| msgid "Results were saved to file\n"
 msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr "Vynik zapisany ŭ fajł\n"
 
-#: kfindtreeview.cpp:574 kftabdlg.cpp:437
+#: kfindtreeview.cpp:573 kftabdlg.cpp:437
 #, kde-format
 msgid "&Properties"
 msgstr "&Ułaścivaści"
@@ -565,141 +565,141 @@ msgctxt "@title:window"
 msgid "Error while using locate"
 msgstr "Padčas vykarystańnia prahramy „locate” uźnikła pamyłka."
 
-#: main.cpp:41
+#: main.cpp:40
 #, kde-format
 msgid "KFind"
 msgstr "KFind"
 
-#: main.cpp:42
+#: main.cpp:41
 #, kde-format
 msgid "KDE file find utility"
 msgstr "Prahrama pošuku fajłaŭ dla KDE"
 
-#: main.cpp:43
+#: main.cpp:42
 #, fuzzy, kde-format
 #| msgid "(c) 1998-2003, The KDE Developers"
 msgid "(c) 1998-2017, The KDE Developers"
 msgstr "© 1998-2003, raspracoŭniki KDE"
 
-#: main.cpp:45
+#: main.cpp:44
 #, kde-format
 msgid "Kai-Uwe Broulik"
 msgstr ""
 
-#: main.cpp:45
+#: main.cpp:44
 #, kde-format
 msgid "Current Maintainer"
 msgstr "Dziejny dahladnik"
 
-#: main.cpp:46
+#: main.cpp:45
 #, kde-format
 msgid "Eric Coquelle"
 msgstr "Eric Coquelle"
 
-#: main.cpp:46
+#: main.cpp:45
 #, fuzzy, kde-format
 #| msgid "Current Maintainer"
 msgid "Former Maintainer"
 msgstr "Dziejny dahladnik"
 
-#: main.cpp:47
+#: main.cpp:46
 #, kde-format
 msgid "Mark W. Webb"
 msgstr "Mark W. Webb"
 
-#: main.cpp:47
+#: main.cpp:46
 #, kde-format
 msgid "Developer"
 msgstr "Raspracoŭnik"
 
-#: main.cpp:48
+#: main.cpp:47
 #, kde-format
 msgid "Beppe Grimaldi"
 msgstr "Beppe Grimaldi"
 
-#: main.cpp:48
+#: main.cpp:47
 #, kde-format
 msgid "UI Design & more search options"
 msgstr "Interfejs karystańnika j dadatkovyja opcyi pošuku"
 
-#: main.cpp:49
+#: main.cpp:48
 #, kde-format
 msgid "Martin Hartig"
 msgstr "Martin Hartig"
 
-#: main.cpp:50
+#: main.cpp:49
 #, kde-format
 msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
-#: main.cpp:51
+#: main.cpp:50
 #, kde-format
 msgid "Mario Weilguni"
 msgstr "Mario Weilguni"
 
-#: main.cpp:52
+#: main.cpp:51
 #, kde-format
 msgid "Alex Zepeda"
 msgstr "Alex Zepeda"
 
-#: main.cpp:53
+#: main.cpp:52
 #, kde-format
 msgid "Miroslav Flídr"
 msgstr "Miroslav Flídr"
 
-#: main.cpp:54
+#: main.cpp:53
 #, kde-format
 msgid "Harri Porten"
 msgstr "Harri Porten"
 
-#: main.cpp:55
+#: main.cpp:54
 #, kde-format
 msgid "Dima Rogozin"
 msgstr "Dima Rogozin"
 
-#: main.cpp:56
+#: main.cpp:55
 #, kde-format
 msgid "Carsten Pfeiffer"
 msgstr "Carsten Pfeiffer"
 
-#: main.cpp:57
+#: main.cpp:56
 #, kde-format
 msgid "Hans Petter Bieker"
 msgstr "Hans Petter Bieker"
 
-#: main.cpp:58
+#: main.cpp:57
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:58
+#: main.cpp:57
 #, kde-format
 msgid "UI Design"
 msgstr "Interfejs karystańnika"
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Alexander Neundorf"
 msgstr "Alexander Neundorf"
 
-#: main.cpp:60
+#: main.cpp:59
 #, kde-format
 msgid "Clarence Dang"
 msgstr "Clarence Dang"
 
-#: main.cpp:61
+#: main.cpp:60
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Ihar Hračyška"
 
-#: main.cpp:61
+#: main.cpp:60
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#: main.cpp:67
+#: main.cpp:66
 #, kde-format
 msgid "Path(s) to search"
 msgstr "Ściežki pošuku"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-16 02:30+0200\n"
+"POT-Creation-Date: 2019-07-17 02:35+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3058,6 +3058,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: settings/GeneralSettings.ui:198
 #, kde-format
+msgctxt "@item:intext Search options"
 msgid "Search:"
 msgstr ""
 
@@ -3282,7 +3283,7 @@ msgstr "Skarot"
 #: settings/ProfileSettings.cpp:268
 #, fuzzy, kde-format
 #| msgid "Set as Default"
-msgctxt "Default list item's name suffix (with separator)"
+msgctxt "@item:intable Default list item's name suffix (with separator)"
 msgid " (default)"
 msgstr "Zrabi zmoŭčanym"
 
@@ -3404,7 +3405,7 @@ msgstr ""
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, kcfg_TabBarUserStyleSheetFile)
 #: settings/TabBarSettings.ui:113
 #, kde-format
-msgctxt "@info:placeholder Optional file path is empty"
+msgctxt "@item:intext Optional file path is empty"
 msgid "(none)"
 msgstr ""
 
@@ -3425,6 +3426,7 @@ msgstr "&Adčapi prahlad"
 #. i18n: ectx: property (text), widget (QLabel, miscellaneousLabel)
 #: settings/TabBarSettings.ui:156
 #, kde-format
+msgctxt "@item:intext Miscellaneous Options"
 msgid "Miscellaneous:"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-19 02:59+0200\n"
+"POT-Creation-Date: 2019-08-02 02:42+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -575,29 +575,35 @@ msgstr ""
 msgid "--- separator ---"
 msgstr "--- dzielnik ---"
 
-#: kedittoolbar.cpp:331
+#: kedittoolbar.cpp:56
+#, fuzzy, kde-format
+#| msgid "--- separator ---"
+msgid "--- expanding spacer ---"
+msgstr "--- dzielnik ---"
+
+#: kedittoolbar.cpp:347
 #, fuzzy, kde-format
 #| msgid "Change Icon"
 msgid "Change Text"
 msgstr "Źmiani ikonu"
 
-#: kedittoolbar.cpp:342
+#: kedittoolbar.cpp:358
 #, fuzzy, kde-format
 #| msgid "Link Text:"
 msgid "Icon te&xt:"
 msgstr "Tekst łuča:"
 
-#: kedittoolbar.cpp:347
+#: kedittoolbar.cpp:363
 #, kde-format
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
 
-#: kedittoolbar.cpp:601
+#: kedittoolbar.cpp:617
 #, kde-format
 msgid "Configure Toolbars"
 msgstr "Naładź paneli pryładździa"
 
-#: kedittoolbar.cpp:664
+#: kedittoolbar.cpp:680
 #, kde-format
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
@@ -606,17 +612,17 @@ msgstr ""
 "Ty sapraŭdy chočaš anulavać ułasnyja źmieny ŭ panelach pryładździa ŭ hetaj "
 "aplikacyi dy viarnuć zmoŭčanyja? Źmieny buduć zaraz ža prymienienyja."
 
-#: kedittoolbar.cpp:664
+#: kedittoolbar.cpp:680
 #, kde-format
 msgid "Reset Toolbars"
 msgstr "Anuluj źmieny ŭ panelach pryładździa"
 
-#: kedittoolbar.cpp:664
+#: kedittoolbar.cpp:680
 #, kde-format
 msgid "Reset"
 msgstr "Anuluj źmieny"
 
-#: kedittoolbar.cpp:987
+#: kedittoolbar.cpp:1003
 #, kde-format
 msgid "&Toolbar:"
 msgstr "&Panel pryładździa:"
@@ -628,56 +634,56 @@ msgstr "&Panel pryładździa:"
 #. del_toolbar->setPixmap(BarIcon("edit-delete", KIconLoader::SizeSmall));
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
-#: kedittoolbar.cpp:1002
+#: kedittoolbar.cpp:1018
 #, kde-format
 msgid "A&vailable actions:"
 msgstr "&Mahčymyja aperacyi:"
 
-#: kedittoolbar.cpp:1017 kedittoolbar.cpp:1036
+#: kedittoolbar.cpp:1033 kedittoolbar.cpp:1052
 #, fuzzy, kde-format
 #| msgid "File"
 msgid "Filter"
 msgstr "Fajł"
 
-#: kedittoolbar.cpp:1020
+#: kedittoolbar.cpp:1036
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "&Dziejnyja aperacyi:"
 
-#: kedittoolbar.cpp:1039
+#: kedittoolbar.cpp:1055
 #, kde-format
 msgid "Change &Icon..."
 msgstr "Źmiani &ikonu..."
 
-#: kedittoolbar.cpp:1047
+#: kedittoolbar.cpp:1063
 #, fuzzy, kde-format
 #| msgid "Change &Icon..."
 msgid "Change Te&xt..."
 msgstr "Źmiani &ikonu..."
 
-#: kedittoolbar.cpp:1199
+#: kedittoolbar.cpp:1218
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1219
+#: kedittoolbar.cpp:1245
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr "Hety element budzie zamienieny elementami z unutranaha kampanenta."
 
-#: kedittoolbar.cpp:1221
+#: kedittoolbar.cpp:1247
 #, kde-format
 msgid "<Merge>"
 msgstr "<Spałučeńnie>"
 
-#: kedittoolbar.cpp:1223
+#: kedittoolbar.cpp:1249
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<Spałučeńnie %1>"
 
-#: kedittoolbar.cpp:1229
+#: kedittoolbar.cpp:1255
 #, kde-format
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
@@ -686,18 +692,18 @@ msgstr ""
 "Heta źmienlivy śpis aperacyjaŭ. Ty možaš ich pieranosić, ale adnojčy "
 "prybraŭšy aperacyju, užo nia zmožaš jaje viarnuć."
 
-#: kedittoolbar.cpp:1230
+#: kedittoolbar.cpp:1256
 #, kde-format
 msgid "ActionList: %1"
 msgstr "Śpis aperacyjaŭ: %1"
 
-#: kedittoolbar.cpp:1329 kedittoolbar.cpp:1356
+#: kedittoolbar.cpp:1360 kedittoolbar.cpp:1387
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1583
+#: kedittoolbar.cpp:1616
 #, kde-format
 msgid "Change Icon"
 msgstr "Źmiani ikonu"
@@ -1419,7 +1425,7 @@ msgstr "Uznavi"
 msgid "Undo"
 msgstr "Anuluj"
 
-#: kxmlguibuilder.cpp:190 kxmlguibuilder.cpp:354
+#: kxmlguibuilder.cpp:192 kxmlguibuilder.cpp:363
 #, kde-format
 msgid "No text"
 msgstr "Niama tekstu"

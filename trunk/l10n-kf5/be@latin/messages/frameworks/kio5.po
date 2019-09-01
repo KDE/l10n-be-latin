@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-31 02:49+0200\n"
+"POT-Creation-Date: 2019-09-01 02:47+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2428,55 +2428,55 @@ msgstr "Nieviadomaja pamyłka"
 msgid "Operation not supported"
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: core/ktcpsocket.cpp:203
+#: core/ktcpsocket.cpp:204
 #, kde-format
 msgctxt "SSL error"
 msgid "No error"
 msgstr ""
 
-#: core/ktcpsocket.cpp:205
+#: core/ktcpsocket.cpp:206
 #, fuzzy, kde-format
 #| msgid "The certificate's CA (Certificate Authority) is invalid."
 msgctxt "SSL error"
 msgid "The certificate authority's certificate is invalid"
 msgstr "Sertyfikat paŭnamocnaha vydaŭnika niapravilny."
 
-#: core/ktcpsocket.cpp:207
+#: core/ktcpsocket.cpp:208
 #, fuzzy, kde-format
 #| msgid "The certificate has been revoked."
 msgctxt "SSL error"
 msgid "The certificate has expired"
 msgstr "Sertyfikat skasavany."
 
-#: core/ktcpsocket.cpp:209
+#: core/ktcpsocket.cpp:210
 #, fuzzy, kde-format
 #| msgid "The certificate is invalid."
 msgctxt "SSL error"
 msgid "The certificate is invalid"
 msgstr "Hety sertyfikat niapravilny."
 
-#: core/ktcpsocket.cpp:211
+#: core/ktcpsocket.cpp:212
 #, fuzzy, kde-format
 #| msgid "The certificate has not been issued for this host."
 msgctxt "SSL error"
 msgid "The certificate is not signed by any trusted certificate authority"
 msgstr "Sertyfikat nie padpisany dla hetaha hosta."
 
-#: core/ktcpsocket.cpp:213
+#: core/ktcpsocket.cpp:214
 #, fuzzy, kde-format
 #| msgid "The certificate has been revoked."
 msgctxt "SSL error"
 msgid "The certificate has been revoked"
 msgstr "Sertyfikat skasavany."
 
-#: core/ktcpsocket.cpp:215
+#: core/ktcpsocket.cpp:216
 #, fuzzy, kde-format
 #| msgid "The certificate has not been issued for this host."
 msgctxt "SSL error"
 msgid "The certificate is unsuitable for this purpose"
 msgstr "Sertyfikat nie padpisany dla hetaha hosta."
 
-#: core/ktcpsocket.cpp:217
+#: core/ktcpsocket.cpp:218
 #, fuzzy, kde-format
 #| msgid ""
 #| "The CA's (Certificate Authority) certificate can not be found. Most "
@@ -2488,7 +2488,7 @@ msgstr ""
 "Nie ŭdałosia znajści sertyfikat paŭnamocnaha vydaŭnika. Peŭna, tvoj łancuh "
 "davieru paškodžany."
 
-#: core/ktcpsocket.cpp:219
+#: core/ktcpsocket.cpp:220
 #, fuzzy, kde-format
 #| msgid ""
 #| "The certificate's CA (Certificate Authority) is not allowed to sign "
@@ -2500,35 +2500,35 @@ msgid ""
 msgstr ""
 "Paŭnamocnamu vydaŭniku sertyfikata nie dazvolena padpisvać sertyfikaty."
 
-#: core/ktcpsocket.cpp:221
+#: core/ktcpsocket.cpp:222
 #, fuzzy, kde-format
 #| msgid "Do not send a certificate"
 msgctxt "SSL error"
 msgid "The peer did not present any certificate"
 msgstr "Nie vysyłaj sertyfikat"
 
-#: core/ktcpsocket.cpp:223
+#: core/ktcpsocket.cpp:224
 #, fuzzy, kde-format
 #| msgid "The certificate has not been issued for this host."
 msgctxt "SSL error"
 msgid "The certificate does not apply to the given host"
 msgstr "Sertyfikat nie padpisany dla hetaha hosta."
 
-#: core/ktcpsocket.cpp:225
+#: core/ktcpsocket.cpp:226
 #, fuzzy, kde-format
 #| msgid "The certificate has not been issued for this host."
 msgctxt "SSL error"
 msgid "The certificate cannot be verified for internal reasons"
 msgstr "Sertyfikat nie padpisany dla hetaha hosta."
 
-#: core/ktcpsocket.cpp:227
+#: core/ktcpsocket.cpp:228
 #, fuzzy, kde-format
 #| msgid "The certificate is valid."
 msgctxt "SSL error"
 msgid "The certificate chain is too long"
 msgstr "Pravilny sertyfikat."
 
-#: core/ktcpsocket.cpp:230
+#: core/ktcpsocket.cpp:231
 #, fuzzy, kde-format
 #| msgid "Unknown Error"
 msgctxt "SSL error"

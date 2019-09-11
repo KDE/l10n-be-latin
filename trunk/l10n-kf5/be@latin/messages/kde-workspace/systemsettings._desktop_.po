@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-14 01:33+0000\n"
+"POT-Creation-Date: 2019-09-11 01:48+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -371,25 +371,6 @@ msgctxt "Name"
 msgid "System Settings Category"
 msgstr "Katehoryja systemnych naładaŭ"
 
-#: classic/settings-classic-view.desktop:7 icons/settings-icon-view.desktop:7
-#: sidebar/settings-sidebar-view.desktop:7
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "System Settings"
-msgctxt "X-KDE-Keywords"
-msgid "System Settings"
-msgstr "Systemnyja nałady"
-
-#: classic/settings-classic-view.desktop:65
-msgctxt "Name"
-msgid "Tree View"
-msgstr ""
-
-#: classic/settings-classic-view.desktop:105
-msgctxt "Comment"
-msgid "A Classic KDE 3 KControl style system settings view."
-msgstr ""
-
 #: core/systemsettingsexternalapp.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -404,6 +385,14 @@ msgstr "Katehoryja systemnych naładaŭ"
 #| msgid "System Settings"
 msgctxt "Name"
 msgid "System Settings View"
+msgstr "Systemnyja nałady"
+
+#: icons/settings-icon-view.desktop:7 sidebar/settings-sidebar-view.desktop:7
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "System Settings"
+msgctxt "X-KDE-Keywords"
+msgid "System Settings"
 msgstr "Systemnyja nałady"
 
 #: icons/settings-icon-view.desktop:65

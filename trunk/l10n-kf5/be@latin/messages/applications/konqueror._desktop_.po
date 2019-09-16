@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-15 01:27+0000\n"
+"POT-Creation-Date: 2019-09-16 01:35+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -297,27 +297,6 @@ msgstr "Identyfikacyja „UserAgent”"
 msgctxt "Comment"
 msgid "Allows the detected UserAgent to be modified"
 msgstr ""
-
-#: plugins/webarchiver/plugin_webarchiver.desktop:12
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "FTP Archives"
-msgctxt "Name"
-msgid "Web Archiver"
-msgstr "Archivy FTP"
-
-#: plugins/webarchiver/plugin_webarchiver.desktop:75
-msgctxt "Comment"
-msgid "Creates archives of websites"
-msgstr ""
-
-#: plugins/webarchiver/webarchivethumbnail.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "FTP Archives"
-msgctxt "Name"
-msgid "Web Archives"
-msgstr "Archivy FTP"
 
 #: settings/bookmarks/bookmarks.desktop:12
 #: sidebar/default_entries/bookmarks.desktop:5
@@ -684,6 +663,20 @@ msgstr ""
 msgctxt "Name"
 msgid "WebEngine"
 msgstr "Systema pošuku"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "FTP Archives"
+#~ msgctxt "Name"
+#~ msgid "Web Archiver"
+#~ msgstr "Archivy FTP"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "FTP Archives"
+#~ msgctxt "Name"
+#~ msgid "Web Archives"
+#~ msgstr "Archivy FTP"
 
 #, fuzzy
 #~| msgctxt "GenericName"

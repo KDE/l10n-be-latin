@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-04 02:44+0200\n"
+"POT-Creation-Date: 2019-10-06 02:48+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3135,8 +3135,8 @@ msgstr "Vydali"
 
 #: filewidgets/kfileplacesitem.cpp:113
 #, kde-format
-msgctxt "@item"
-msgid "Recently Saved"
+msgctxt "@item The place group section name for recent dynamic lists"
+msgid "Recent"
 msgstr ""
 
 #: filewidgets/kfileplacesitem.cpp:116
@@ -3172,7 +3172,7 @@ msgstr "Śmietnica"
 msgid "All tags"
 msgstr "Usie vyjavy"
 
-#: filewidgets/kfileplacesmodel.cpp:276
+#: filewidgets/kfileplacesmodel.cpp:289
 #, fuzzy, kde-format
 #| msgctxt "Home Directory"
 #| msgid "Home"
@@ -3180,102 +3180,116 @@ msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "Dom"
 
-#: filewidgets/kfileplacesmodel.cpp:284
+#: filewidgets/kfileplacesmodel.cpp:297
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:290 filewidgets/kfileplacesmodel.cpp:332
+#: filewidgets/kfileplacesmodel.cpp:303 filewidgets/kfileplacesmodel.cpp:371
 #, fuzzy, kde-format
 #| msgid "Comment"
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Kamentar"
 
-#: filewidgets/kfileplacesmodel.cpp:296
+#: filewidgets/kfileplacesmodel.cpp:309
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:301
+#: filewidgets/kfileplacesmodel.cpp:314
 #, fuzzy, kde-format
 #| msgid "Network"
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "Sietka"
 
-#: filewidgets/kfileplacesmodel.cpp:305
+#: filewidgets/kfileplacesmodel.cpp:318
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Śmietnica"
 
-#: filewidgets/kfileplacesmodel.cpp:326
+#: filewidgets/kfileplacesmodel.cpp:340
+#, fuzzy, kde-format
+#| msgid "Delete Files"
+msgctxt "KFile System Bookmarks"
+msgid "Recent Files"
+msgstr "Vydaleńnie fajłaŭ"
+
+#: filewidgets/kfileplacesmodel.cpp:344
+#, fuzzy, kde-format
+#| msgid "Location:"
+msgctxt "KFile System Bookmarks"
+msgid "Recent Locations"
+msgstr "Miesca:"
+
+#: filewidgets/kfileplacesmodel.cpp:365
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:329
+#: filewidgets/kfileplacesmodel.cpp:368
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:335
+#: filewidgets/kfileplacesmodel.cpp:374
 #, fuzzy, kde-format
 #| msgid "OCR Image"
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Raspaznańnie vyjavy"
 
-#: filewidgets/kfileplacesmodel.cpp:338
+#: filewidgets/kfileplacesmodel.cpp:377
 #, fuzzy, kde-format
 #| msgid "*|All Files"
 msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "*|Usie fajły"
 
-#: filewidgets/kfileplacesmodel.cpp:341
+#: filewidgets/kfileplacesmodel.cpp:380
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1224
+#: filewidgets/kfileplacesmodel.cpp:1263
 #, kde-format
 msgid "&Release '%1'"
 msgstr "&Vyzvali „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1226
+#: filewidgets/kfileplacesmodel.cpp:1265
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "&Biaśpiečna vysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1229
+#: filewidgets/kfileplacesmodel.cpp:1268
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "&Admantuj „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1250
+#: filewidgets/kfileplacesmodel.cpp:1289
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "V&ysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1284
+#: filewidgets/kfileplacesmodel.cpp:1323
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
 
-#: filewidgets/kfileplacesmodel.cpp:1320
+#: filewidgets/kfileplacesmodel.cpp:1359
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1324
+#: filewidgets/kfileplacesmodel.cpp:1363
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
@@ -9908,12 +9922,6 @@ msgstr ""
 #~ msgctxt "@label music title"
 #~ msgid "Title"
 #~ msgstr "Fajł"
-
-#, fuzzy
-#~| msgid "Location:"
-#~ msgctxt "@label file URL"
-#~ msgid "Location"
-#~ msgstr "Miesca:"
 
 #, fuzzy
 #~| msgid "Created:"

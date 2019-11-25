@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-08 02:53+0100\n"
+"POT-Creation-Date: 2019-11-25 02:49+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -524,13 +524,6 @@ msgstr "&Šukaj"
 msgid "About"
 msgstr "&Pra aplikacyju"
 
-#: kpluginselector.cpp:821
-#, fuzzy, kde-format
-#| msgid "About %1"
-msgctxt "Used only for plugins"
-msgid "About %1"
-msgstr "Pra %1"
-
 #: ksettings/componentsdialog.cpp:56
 #, kde-format
 msgid "Select Components"
@@ -540,6 +533,12 @@ msgstr "Vybiery kampanenty"
 #, kde-format
 msgid "Enable component"
 msgstr "Uklučy kampanent"
+
+#, fuzzy
+#~| msgid "About %1"
+#~ msgctxt "Used only for plugins"
+#~ msgid "About %1"
+#~ msgstr "Pra %1"
 
 #~ msgid "Search Plugins"
 #~ msgstr "Pošuk pluginaŭ"

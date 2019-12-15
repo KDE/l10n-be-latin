@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-11 02:53+0100\n"
+"POT-Creation-Date: 2019-12-15 02:57+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -606,10 +606,26 @@ msgctxt ""
 msgid "Stuff"
 msgstr ""
 
-#: qtquick/qml/Button.qml:59 qtquick/qml/Dialog.qml:55
+#: qtquick/qml/Button.qml:59
 #, kde-format
 msgid "Download New %1"
 msgstr "Ściahni novy %1"
+
+#: qtquick/qml/Dialog.qml:55
+#, fuzzy, kde-format
+#| msgid "Download New %1"
+msgctxt "The dialog title when we know which type of stuff is being requested"
+msgid "Download New %1"
+msgstr "Ściahni novy %1"
+
+#: qtquick/qml/Dialog.qml:55
+#, fuzzy, kde-format
+#| msgid "Download New Stuff"
+msgctxt ""
+"A placeholder title used in the dialog when there is no better title "
+"available"
+msgid "Download New Stuff"
+msgstr "Ściahni novyja cikavostki"
 
 #: qtquick/qml/Dialog.qml:100
 #, kde-format
@@ -12054,11 +12070,6 @@ msgstr "Pačni zamieny"
 #~ msgctxt "Sorting order of the list of items in get hot new stuff"
 #~ msgid "Most Downloads"
 #~ msgstr "Najčaściej adbiranyja"
-
-#, fuzzy
-#~| msgid "Download New Stuff"
-#~ msgid "Download New Stuff"
-#~ msgstr "Ściahni novyja cikavostki"
 
 #~ msgid ""
 #~ "The slot asked for %1 arguments but there are only %2 arguments available."

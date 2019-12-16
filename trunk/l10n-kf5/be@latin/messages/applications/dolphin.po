@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-10 02:33+0100\n"
+"POT-Creation-Date: 2019-12-16 02:30+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2481,7 +2481,7 @@ msgstr "Miesca:"
 msgid "What"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:38
+#: search/dolphinfacetswidget.cpp:41
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Sort"
 #| msgid "By Type"
@@ -2489,7 +2489,7 @@ msgctxt "@item:inlistbox"
 msgid "Any Type"
 msgstr "typaŭ"
 
-#: search/dolphinfacetswidget.cpp:39
+#: search/dolphinfacetswidget.cpp:42
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Folders"
@@ -2497,7 +2497,7 @@ msgctxt "@item:inlistbox"
 msgid "Folders"
 msgstr "Katalohi"
 
-#: search/dolphinfacetswidget.cpp:40
+#: search/dolphinfacetswidget.cpp:43
 #, fuzzy, kde-format
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -2505,7 +2505,7 @@ msgctxt "@item:inlistbox"
 msgid "Documents"
 msgstr "Dakumentacyja"
 
-#: search/dolphinfacetswidget.cpp:41
+#: search/dolphinfacetswidget.cpp:44
 #, fuzzy, kde-format
 #| msgctxt "@title:group"
 #| msgid "File Previews"
@@ -2513,7 +2513,7 @@ msgctxt "@item:inlistbox"
 msgid "Images"
 msgstr "Padhlady fajłaŭ"
 
-#: search/dolphinfacetswidget.cpp:42
+#: search/dolphinfacetswidget.cpp:45
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Show Hidden Files"
@@ -2521,13 +2521,13 @@ msgctxt "@item:inlistbox"
 msgid "Audio Files"
 msgstr "Pakazvaj schavanyja fajły"
 
-#: search/dolphinfacetswidget.cpp:43
+#: search/dolphinfacetswidget.cpp:46
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Videos"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:49
+#: search/dolphinfacetswidget.cpp:52
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Sort"
 #| msgid "By Date"
@@ -2535,7 +2535,7 @@ msgctxt "@item:inlistbox"
 msgid "Any Date"
 msgstr "daty"
 
-#: search/dolphinfacetswidget.cpp:50
+#: search/dolphinfacetswidget.cpp:53
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -2543,7 +2543,7 @@ msgctxt "@item:inlistbox"
 msgid "Today"
 msgstr "Siońnia"
 
-#: search/dolphinfacetswidget.cpp:51
+#: search/dolphinfacetswidget.cpp:54
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -2551,7 +2551,7 @@ msgctxt "@item:inlistbox"
 msgid "Yesterday"
 msgstr "Učora"
 
-#: search/dolphinfacetswidget.cpp:52
+#: search/dolphinfacetswidget.cpp:55
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date"
 #| msgid "Last Week"
@@ -2559,7 +2559,7 @@ msgctxt "@item:inlistbox"
 msgid "This Week"
 msgstr "Na minułym tydni"
 
-#: search/dolphinfacetswidget.cpp:53
+#: search/dolphinfacetswidget.cpp:56
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -2567,7 +2567,7 @@ msgctxt "@item:inlistbox"
 msgid "This Month"
 msgstr "U hetym miesiacy"
 
-#: search/dolphinfacetswidget.cpp:54
+#: search/dolphinfacetswidget.cpp:57
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date"
 #| msgid "Last Week"
@@ -2575,7 +2575,7 @@ msgctxt "@item:inlistbox"
 msgid "This Year"
 msgstr "Na minułym tydni"
 
-#: search/dolphinfacetswidget.cpp:58
+#: search/dolphinfacetswidget.cpp:61
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -2583,35 +2583,60 @@ msgctxt "@item:inlistbox"
 msgid "Any Rating"
 msgstr "Paradkuj pavodle:"
 
-#: search/dolphinfacetswidget.cpp:59
+#: search/dolphinfacetswidget.cpp:62
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "1 or more"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:60
+#: search/dolphinfacetswidget.cpp:63
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "2 or more"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:61
+#: search/dolphinfacetswidget.cpp:64
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "3 or more"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:62
+#: search/dolphinfacetswidget.cpp:65
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "4 or more"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:63
+#: search/dolphinfacetswidget.cpp:66
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Highest Rating"
 msgstr ""
+
+#: search/dolphinfacetswidget.cpp:258
+#, kde-format
+msgctxt "String list separator"
+msgid ", "
+msgstr ""
+
+#: search/dolphinfacetswidget.cpp:260
+#, fuzzy, kde-format
+#| msgctxt "@label Indicator when no tags defined"
+#| msgid "No Tags"
+msgctxt "@action:button %2 is a list of tags"
+msgid "Tag: %2"
+msgid_plural "Tags: %2"
+msgstr[0] "Niama tagaŭ"
+msgstr[1] "Niama tagaŭ"
+msgstr[2] "Niama tagaŭ"
+
+#: search/dolphinfacetswidget.cpp:262
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "New Tag..."
+msgctxt "@action:button"
+msgid "Add Tags"
+msgstr "Novy tag..."
 
 #: search/dolphinsearchbox.cpp:114
 #, kde-format
@@ -3251,7 +3276,7 @@ msgstr ""
 #| msgctxt "@option:radio"
 #| msgid "Use common view properties for all folders"
 msgctxt "@option:radio"
-msgid "Use common properties for all folders"
+msgid "Use common display style for all folders"
 msgstr "Karystajsia ahulnymi ŭłaścivaściami prahladu dla ŭsich katalohaŭ"
 
 #: settings/general/behaviorsettingspage.cpp:52
@@ -3259,7 +3284,7 @@ msgstr "Karystajsia ahulnymi ŭłaścivaściami prahladu dla ŭsich katalohaŭ"
 #| msgctxt "@option:radio"
 #| msgid "Remember view properties for each folder"
 msgctxt "@option:radio"
-msgid "Remember properties for each folder"
+msgid "Remember display style for each folder"
 msgstr "Zapaminaj praviły prahladu dla kožnaha kataloha"
 
 #: settings/general/behaviorsettingspage.cpp:53
@@ -3842,8 +3867,8 @@ msgstr[2] "Pamier: %1 punktaŭ"
 #: settings/viewpropertiesdialog.cpp:71
 #, kde-format
 msgctxt "@title:window"
-msgid "View Properties"
-msgstr "Praviły prahladu"
+msgid "View Display Style"
+msgstr ""
 
 #: settings/viewpropertiesdialog.cpp:84
 #, kde-format
@@ -4470,7 +4495,7 @@ msgstr ""
 #| msgctxt "@action:inmenu View"
 #| msgid "Adjust View Properties..."
 msgctxt "@action:inmenu View"
-msgid "Adjust View Properties..."
+msgid "Adjust View Display Style..."
 msgstr "Źmiani praviły prahladu..."
 
 #: views/dolphinviewactionhandler.cpp:285
@@ -4652,6 +4677,10 @@ msgstr "(znak „#” budzie zamienieny na liki, ad mienšaha k bolšamu)"
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Dadatkovyja źviestki"
+
+#~ msgctxt "@title:window"
+#~ msgid "View Properties"
+#~ msgstr "Praviły prahladu"
 
 #, fuzzy
 #~| msgctxt "@option:check Startup Settings"
@@ -5520,13 +5549,6 @@ msgstr "Dadatkovyja źviestki"
 #~ msgstr "Pamier:"
 
 #, fuzzy
-#~| msgctxt "@label Indicator when no tags defined"
-#~| msgid "No Tags"
-#~ msgctxt "@label"
-#~ msgid "Tag:"
-#~ msgstr "Niama tagaŭ"
-
-#, fuzzy
 #~| msgctxt "@label:listbox"
 #~| msgid "Sorting:"
 #~ msgctxt "@label"
@@ -5711,13 +5733,6 @@ msgstr "Dadatkovyja źviestki"
 #~ msgctxt "@title:window"
 #~ msgid "Change Tags"
 #~ msgstr "Stvary novy tag"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "New Tag..."
-#~ msgctxt "@title:window"
-#~ msgid "Add Tags"
-#~ msgstr "Novy tag..."
 
 #, fuzzy
 #~| msgctxt "@title:window"

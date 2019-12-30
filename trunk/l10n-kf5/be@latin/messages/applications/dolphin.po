@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-16 02:30+0100\n"
+"POT-Creation-Date: 2019-12-30 02:32+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2613,13 +2613,13 @@ msgctxt "@item:inlistbox"
 msgid "Highest Rating"
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:258
+#: search/dolphinfacetswidget.cpp:244
 #, kde-format
 msgctxt "String list separator"
 msgid ", "
 msgstr ""
 
-#: search/dolphinfacetswidget.cpp:260
+#: search/dolphinfacetswidget.cpp:246
 #, fuzzy, kde-format
 #| msgctxt "@label Indicator when no tags defined"
 #| msgid "No Tags"
@@ -2630,7 +2630,7 @@ msgstr[0] "Niama tagaŭ"
 msgstr[1] "Niama tagaŭ"
 msgstr[2] "Niama tagaŭ"
 
-#: search/dolphinfacetswidget.cpp:262
+#: search/dolphinfacetswidget.cpp:248
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "New Tag..."
@@ -2705,7 +2705,7 @@ msgstr ""
 msgid "More Search Tools"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:499
+#: search/dolphinsearchbox.cpp:495
 #, kde-format
 msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "

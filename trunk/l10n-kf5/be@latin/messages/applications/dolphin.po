@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-30 02:32+0100\n"
+"POT-Creation-Date: 2020-01-12 02:36+0100\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1323,13 +1323,13 @@ msgstr "Hałoŭnaja panel pryładździa"
 msgid "Search for %1"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: dolphinviewcontainer.cpp:548
+#: dolphinviewcontainer.cpp:549
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Čytańnie kataloha..."
 
-#: dolphinviewcontainer.cpp:556
+#: dolphinviewcontainer.cpp:557
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1337,19 +1337,19 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "Paradkuj pavodle:"
 
-#: dolphinviewcontainer.cpp:567
+#: dolphinviewcontainer.cpp:568
 #, kde-format
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:588
+#: dolphinviewcontainer.cpp:589
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:695
+#: dolphinviewcontainer.cpp:697
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
@@ -1357,7 +1357,7 @@ msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje sieciŭnych staronak, tamu ŭklučyła "
 "hartač."
 
-#: dolphinviewcontainer.cpp:709
+#: dolphinviewcontainer.cpp:711
 #, kde-format
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
@@ -1365,7 +1365,7 @@ msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje hetaha pratakołu, tamu ŭklučyła "
 "aplikacyju „Konqueror”."
 
-#: dolphinviewcontainer.cpp:717
+#: dolphinviewcontainer.cpp:719
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
@@ -4183,7 +4183,7 @@ msgctxt "@info:status"
 msgid "0 Folders, 0 Files"
 msgstr "Katalohi"
 
-#: views/dolphinview.cpp:843
+#: views/dolphinview.cpp:844
 #, kde-format
 msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
@@ -4191,7 +4191,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: views/dolphinview.cpp:953
+#: views/dolphinview.cpp:954
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Column width"
@@ -4199,7 +4199,7 @@ msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "Šyrynia słupka"
 
-#: views/dolphinview.cpp:958
+#: views/dolphinview.cpp:959
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Column width"
@@ -4207,7 +4207,7 @@ msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "Šyrynia słupka"
 
-#: views/dolphinview.cpp:1477
+#: views/dolphinview.cpp:1478
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Move to trash operation completed."
@@ -4215,13 +4215,13 @@ msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr "Vykidańnie ŭ śmietnicu skončyłasia."
 
-#: views/dolphinview.cpp:1486
+#: views/dolphinview.cpp:1487
 #, kde-format
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "Vydaleńnie skončyłasia."
 
-#: views/dolphinview.cpp:1602
+#: views/dolphinview.cpp:1603
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -4229,41 +4229,41 @@ msgctxt "@action:button"
 msgid "Rename and Hide"
 msgstr "Źmianiaj nazvu ŭnutry"
 
-#: views/dolphinview.cpp:1605
+#: views/dolphinview.cpp:1606
 #, kde-format
 msgid ""
 "Adding a dot to the beginning of this file's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr ""
 
-#: views/dolphinview.cpp:1607
+#: views/dolphinview.cpp:1608
 #, kde-format
 msgid ""
 "Adding a dot to the beginning of this folder's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr ""
 
-#: views/dolphinview.cpp:1609
+#: views/dolphinview.cpp:1610
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Show Hidden Files"
 msgid "Hide this File?"
 msgstr "Pakazvaj schavanyja fajły"
 
-#: views/dolphinview.cpp:1609
+#: views/dolphinview.cpp:1610
 #, fuzzy, kde-format
 #| msgctxt "@title:group"
 #| msgid "Home Folder"
 msgid "Hide this Folder?"
 msgstr "Chatni kataloh"
 
-#: views/dolphinview.cpp:1654
+#: views/dolphinview.cpp:1655
 #, kde-format
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "Miesca pustoje."
 
-#: views/dolphinview.cpp:1656
+#: views/dolphinview.cpp:1657
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -4621,55 +4621,6 @@ msgctxt "Sort ascending"
 msgid "Ascending"
 msgstr "Ad mienšaha k bolšamu"
 
-#: views/renamedialog.cpp:55
-#, kde-format
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "Źmiena nazvy"
-
-#: views/renamedialog.cpp:56
-#, kde-format
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "Źmiena nazvaŭ"
-
-#: views/renamedialog.cpp:68
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Rename"
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "Źmiani nazvu"
-
-#: views/renamedialog.cpp:79
-#, kde-kuit-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "Źmiani nazvu dla <filename>%1</filename> na:"
-
-#: views/renamedialog.cpp:83
-#, kde-format
-msgctxt "@info:status"
-msgid "New name #"
-msgstr "Novaja nazva #"
-
-#: views/renamedialog.cpp:85
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
-msgstr[0] "Źmiani nazvu %1 vyłučanaha elementa na:"
-msgstr[1] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
-msgstr[2] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
-
-#: views/renamedialog.cpp:130
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "(# will be replaced by ascending numbers)"
-msgctxt "@info"
-msgid "# will be replaced by ascending numbers starting with:"
-msgstr "(znak „#” budzie zamienieny na liki, ad mienšaha k bolšamu)"
-
 #: views/versioncontrol/versioncontrolobserver.cpp:235
 #, fuzzy, kde-format
 #| msgctxt "@label"
@@ -4677,6 +4628,43 @@ msgstr "(znak „#” budzie zamienieny na liki, ad mienšaha k bolšamu)"
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Dadatkovyja źviestki"
+
+#~ msgctxt "@title:window"
+#~ msgid "Rename Item"
+#~ msgstr "Źmiena nazvy"
+
+#~ msgctxt "@title:window"
+#~ msgid "Rename Items"
+#~ msgstr "Źmiena nazvaŭ"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Rename"
+#~ msgctxt "@action:button"
+#~ msgid "&Rename"
+#~ msgstr "Źmiani nazvu"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Rename the item <filename>%1</filename> to:"
+#~ msgstr "Źmiani nazvu dla <filename>%1</filename> na:"
+
+#~ msgctxt "@info:status"
+#~ msgid "New name #"
+#~ msgstr "Novaja nazva #"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Rename the %1 selected item to:"
+#~ msgid_plural "Rename the %1 selected items to:"
+#~ msgstr[0] "Źmiani nazvu %1 vyłučanaha elementa na:"
+#~ msgstr[1] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
+#~ msgstr[2] "Źmiani nazvu %1 vyłučanych elementaŭ na:"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "(# will be replaced by ascending numbers)"
+#~ msgctxt "@info"
+#~ msgid "# will be replaced by ascending numbers starting with:"
+#~ msgstr "(znak „#” budzie zamienieny na liki, ad mienšaha k bolšamu)"
 
 #~ msgctxt "@title:window"
 #~ msgid "View Properties"

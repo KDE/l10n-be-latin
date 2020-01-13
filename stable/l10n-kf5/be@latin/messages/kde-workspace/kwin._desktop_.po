@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-23 07:16+0000\n"
+"POT-Creation-Date: 2020-01-13 07:36+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -109,7 +109,7 @@ msgctxt "Name"
 msgid "Fading Popups"
 msgstr ""
 
-#: effects/fadingpopups/package/metadata.desktop:31
+#: effects/fadingpopups/package/metadata.desktop:32
 msgctxt "Comment"
 msgid "Make popups smoothly fade in and out when they are shown or hidden"
 msgstr ""
@@ -240,7 +240,7 @@ msgctxt "Name"
 msgid "Scale"
 msgstr ""
 
-#: effects/scale/package/metadata.desktop:32
+#: effects/scale/package/metadata.desktop:33
 msgctxt "Comment"
 msgid "Make windows smoothly scale in and out when they are shown or hidden"
 msgstr ""
@@ -366,7 +366,7 @@ msgctxt "Comment"
 msgid "Configure window titlebars and borders"
 msgstr "Nałady pavodzinaŭ akna"
 
-#: kcmkwin/kwindecoration/kwindecoration.desktop:104
+#: kcmkwin/kwindecoration/kwindecoration.desktop:105
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,edge,"
@@ -388,7 +388,7 @@ msgctxt "Comment"
 msgid "Configure navigation, number and layout of virtual desktops"
 msgstr ""
 
-#: kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:101
+#: kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:102
 msgctxt "X-KDE-Keywords"
 msgid ""
 "desktop,desktops,number,virtual desktop,multiple desktops,pager,pager widget,"
@@ -409,7 +409,7 @@ msgctxt "Comment"
 msgid "Configure compositor settings for desktop effects"
 msgstr ""
 
-#: kcmkwin/kwineffects/kcm_kwin_effects.desktop:90
+#: kcmkwin/kwineffects/kcm_kwin_effects.desktop:91
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop "
@@ -453,7 +453,7 @@ msgctxt "Name"
 msgid "Window Actions"
 msgstr "Źviestki z akna"
 
-#: kcmkwin/kwinoptions/kwinactions.desktop:38
+#: kcmkwin/kwinoptions/kwinactions.desktop:39
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
@@ -461,7 +461,7 @@ msgctxt "Comment"
 msgid "Configure mouse actions for windows and titlebars"
 msgstr "Naładź padručnuju pamiać sieciva"
 
-#: kcmkwin/kwinoptions/kwinactions.desktop:64
+#: kcmkwin/kwinoptions/kwinactions.desktop:66
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
@@ -476,7 +476,7 @@ msgctxt "Name"
 msgid "Advanced Window Behavior"
 msgstr "Pavodziny akna"
 
-#: kcmkwin/kwinoptions/kwinadvanced.desktop:37
+#: kcmkwin/kwinoptions/kwinadvanced.desktop:38
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure advanced window management features"
@@ -484,7 +484,7 @@ msgctxt "Comment"
 msgid "Configure advanced window management options"
 msgstr "Nałady asablivych mahčymaściaŭ u kiravańni voknami"
 
-#: kcmkwin/kwinoptions/kwinadvanced.desktop:63
+#: kcmkwin/kwinoptions/kwinadvanced.desktop:65
 msgctxt "X-KDE-Keywords"
 msgid ""
 "unshade,unshading,shade,shading,border,hover,active borders,tiling,tabs,"
@@ -500,7 +500,7 @@ msgctxt "Name"
 msgid "Window Focus Behavior"
 msgstr "Pavodziny akna"
 
-#: kcmkwin/kwinoptions/kwinfocus.desktop:36
+#: kcmkwin/kwinoptions/kwinfocus.desktop:37
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the window focus policy"
@@ -508,7 +508,7 @@ msgctxt "Comment"
 msgid "Configure window activation policy"
 msgstr "Nałady praviłaŭ fakusavańnia voknaŭ"
 
-#: kcmkwin/kwinoptions/kwinfocus.desktop:61
+#: kcmkwin/kwinoptions/kwinfocus.desktop:63
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,auto raise,raise,click raise,keyboard,CDE,alt-tab,all desktop,focus "
@@ -524,7 +524,7 @@ msgctxt "Name"
 msgid "Window Movement"
 msgstr "Źviestki z akna"
 
-#: kcmkwin/kwinoptions/kwinmoving.desktop:37
+#: kcmkwin/kwinoptions/kwinmoving.desktop:38
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the window focus policy"
@@ -532,7 +532,7 @@ msgctxt "Comment"
 msgid "Configure window movement options"
 msgstr "Nałady praviłaŭ fakusavańnia voknaŭ"
 
-#: kcmkwin/kwinoptions/kwinmoving.desktop:62
+#: kcmkwin/kwinoptions/kwinmoving.desktop:64
 msgctxt "X-KDE-Keywords"
 msgid "moving,smart,cascade,maximize,maximise,snap zone,snap,border"
 msgstr ""
@@ -550,7 +550,7 @@ msgctxt "Comment"
 msgid "Configure window actions and behavior"
 msgstr "Pavodziny akna"
 
-#: kcmkwin/kwinoptions/kwinoptions.desktop:128
+#: kcmkwin/kwinoptions/kwinoptions.desktop:129
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,window behavior,window actions,animation,raise,auto raise,"
@@ -596,7 +596,7 @@ msgctxt "Comment"
 msgid "Configure active screen corners and edges"
 msgstr "Naładź padručnuju pamiać sieciva"
 
-#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:108
+#: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:109
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
@@ -609,7 +609,7 @@ msgctxt "Name"
 msgid "Touch Screen"
 msgstr ""
 
-#: kcmkwin/kwinscreenedges/kwintouchscreen.desktop:51
+#: kcmkwin/kwinscreenedges/kwintouchscreen.desktop:52
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
@@ -617,7 +617,7 @@ msgctxt "Comment"
 msgid "Configure touch screen swipe gestures"
 msgstr "Naładź padručnuju pamiać sieciva"
 
-#: kcmkwin/kwinscreenedges/kwintouchscreen.desktop:77
+#: kcmkwin/kwinscreenedges/kwintouchscreen.desktop:78
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,edge,border,action,switch,desktop,desktop edges,"
@@ -671,7 +671,7 @@ msgctxt "Comment"
 msgid "Navigation Through Windows"
 msgstr ""
 
-#: kcmkwin/kwintabbox/kwintabbox.desktop:116
+#: kcmkwin/kwintabbox/kwintabbox.desktop:117
 msgctxt "X-KDE-Keywords"
 msgid ""
 "window,windows,switcher,window switcher,switching,window switching,alttab,"

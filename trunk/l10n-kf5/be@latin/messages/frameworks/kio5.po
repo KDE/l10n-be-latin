@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-04 02:57+0100\n"
+"POT-Creation-Date: 2020-02-08 02:57+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -9277,9 +9277,10 @@ msgid "Skip"
 msgstr "Abmini"
 
 #: widgets/skipdialog.cpp:57
-#, kde-format
-msgid "AutoSkip"
-msgstr "Aŭtamatyčna abminaj"
+#, fuzzy, kde-format
+#| msgid "&Skip File"
+msgid "Skip All"
+msgstr "&Abmini fajł"
 
 #. i18n: ectx: property (text), widget (QLabel, encryptionIndicator)
 #: widgets/sslinfo.ui:17
@@ -9366,6 +9367,9 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#~ msgid "AutoSkip"
+#~ msgstr "Aŭtamatyčna abminaj"
 
 #~ msgid "SSL support is not available in this build of KDE."
 #~ msgstr "Hetaja versija KDE nie absłuhoŭvaje SSL."
@@ -10198,9 +10202,6 @@ msgstr ""
 
 #~ msgid "P&review"
 #~ msgstr "&Padhlad"
-
-#~ msgid "&Skip File"
-#~ msgstr "&Abmini fajł"
 
 #~ msgid "No service implementing %1"
 #~ msgstr "Niama słužba, jakaja absłuhoŭvała b „%1”."

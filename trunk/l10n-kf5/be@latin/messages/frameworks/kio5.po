@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-16 03:01+0100\n"
+"POT-Creation-Date: 2020-03-19 02:51+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2308,7 +2308,7 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
-#: core/kcoredirlister.cpp:396 widgets/krun.cpp:827 widgets/paste.cpp:275
+#: core/kcoredirlister.cpp:396 widgets/krun.cpp:779 widgets/paste.cpp:275
 #: widgets/renamedialog.cpp:458
 #, kde-format
 msgid ""
@@ -3937,6 +3937,26 @@ msgstr ""
 #, kde-format
 msgid "Icon file too big, download aborted"
 msgstr ""
+
+#: gui/kprocessrunner.cpp:51
+#, kde-format
+msgid "Could not find the program '%1'"
+msgstr "Nie ŭdałosia znajści prahramu „%1”"
+
+#: gui/kprocessrunner.cpp:59
+#, kde-format
+msgid "Error processing Exec field in %1"
+msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
+
+#: gui/kprocessrunner.cpp:129
+#, kde-format
+msgid "You are not authorized to execute this file."
+msgstr "Tabie nielha vykonvać hety fajł."
+
+#: gui/kprocessrunner.cpp:150
+#, kde-format
+msgid "Launching %1"
+msgstr "Uklučeńnie „%1”"
 
 #: ioslaves/file/file.cpp:254
 #, kde-format
@@ -8747,7 +8767,7 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
 
-#: widgets/krun.cpp:235
+#: widgets/krun.cpp:248
 #, fuzzy, kde-format
 #| msgctxt "Warning about executing unknown .desktop file"
 #| msgid "Warning"
@@ -8755,19 +8775,19 @@ msgctxt "Warning about executing unknown program"
 msgid "Warning"
 msgstr "Aściaroha"
 
-#: widgets/krun.cpp:252
+#: widgets/krun.cpp:265
 #, kde-format
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 
-#: widgets/krun.cpp:262
+#: widgets/krun.cpp:275
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
 
-#: widgets/krun.cpp:330
+#: widgets/krun.cpp:343
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -8776,7 +8796,7 @@ msgstr ""
 "<qt>Nie ŭdałosia ŭvajści ŭ <b>%1</b>.\n"
 "Tabie nie staje adpaviednaha dazvołu dla hetaha miesca.</qt>"
 
-#: widgets/krun.cpp:361
+#: widgets/krun.cpp:374
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
@@ -8788,7 +8808,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: widgets/krun.cpp:392
+#: widgets/krun.cpp:405
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
@@ -8797,22 +8817,22 @@ msgstr ""
 "<qt>Fajł <b>%1</b> jość vykonvalnaj prahramaj. Kab paźbiehnuć prablemaŭ "
 "biaśpieki, jon nia budzie ŭklučany.</qt>"
 
-#: widgets/krun.cpp:398
+#: widgets/krun.cpp:411
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Tabie nie staje dazvołu na ŭklučeńnie <b>%1</b>.</qt>"
 
-#: widgets/krun.cpp:428
+#: widgets/krun.cpp:441
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
 
-#: widgets/krun.cpp:658
+#: widgets/krun.cpp:605
 #, kde-format
 msgid "You are not authorized to execute this service."
 msgstr "Tabie nielha vykonvać hetuju słužbu."
 
-#: widgets/krun.cpp:688
+#: widgets/krun.cpp:635
 #, fuzzy, kde-format
 #| msgid "Unable to make the service %1 executable, aborting execution"
 msgid ""
@@ -8821,7 +8841,7 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: widgets/krun.cpp:862
+#: widgets/krun.cpp:814
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -8830,31 +8850,11 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: widgets/krun.cpp:930
+#: widgets/krun.cpp:882
 #, fuzzy, kde-format
 #| msgid "Could not change ownership for %1."
 msgid "Could not find any application or handler for %1"
 msgstr "Nie ŭdałosia źmianić ułaśnika „%1”."
-
-#: widgets/krun.cpp:1504
-#, kde-format
-msgid "Error processing Exec field in %1"
-msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
-
-#: widgets/krun.cpp:1571
-#, kde-format
-msgid "You are not authorized to execute this file."
-msgstr "Tabie nielha vykonvać hety fajł."
-
-#: widgets/krun.cpp:1592
-#, kde-format
-msgid "Launching %1"
-msgstr "Uklučeńnie „%1”"
-
-#: widgets/krun.cpp:1699
-#, kde-format
-msgid "Could not find the program '%1'"
-msgstr "Nie ŭdałosia znajści prahramu „%1”"
 
 #: widgets/ksslinfodialog.cpp:55
 #, kde-format

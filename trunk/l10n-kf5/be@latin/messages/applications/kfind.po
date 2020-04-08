@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-04 02:37+0100\n"
+"POT-Creation-Date: 2020-04-08 02:41+0200\n"
 "PO-Revision-Date: 2008-10-06 20:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -177,7 +177,7 @@ msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr "Vynik zapisany ŭ fajł\n"
 
-#: kfindtreeview.cpp:614 kftabdlg.cpp:441
+#: kfindtreeview.cpp:614 kftabdlg.cpp:437
 #, kde-format
 msgid "&Properties"
 msgstr "&Ułaścivaści"
@@ -301,7 +301,7 @@ msgstr "Nia bolš"
 msgid "Equal To"
 msgstr "Roŭna"
 
-#: kftabdlg.cpp:234 kftabdlg.cpp:899
+#: kftabdlg.cpp:234 kftabdlg.cpp:895
 #, fuzzy, kde-format
 #| msgid "Bytes"
 msgid "Byte"
@@ -325,19 +325,19 @@ msgstr "MiB"
 msgid "GiB"
 msgstr "GiB"
 
-#: kftabdlg.cpp:304
+#: kftabdlg.cpp:300
 #, fuzzy, kde-format
 #| msgid "File &type:"
 msgctxt "label for the file type combobox"
 msgid "File &type:"
 msgstr "&Typ fajła:"
 
-#: kftabdlg.cpp:309
+#: kftabdlg.cpp:305
 #, kde-format
 msgid "C&ontaining text:"
 msgstr "&Z tekstam:"
 
-#: kftabdlg.cpp:315
+#: kftabdlg.cpp:311
 #, kde-format
 msgid ""
 "<qt>If specified, only files that contain this text are found. Note that not "
@@ -345,107 +345,107 @@ msgid ""
 "documentation for a list of supported file types.</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:323
+#: kftabdlg.cpp:319
 #, kde-format
 msgid "Case s&ensitive"
 msgstr "Uličvajučy pamier &litaraŭ"
 
-#: kftabdlg.cpp:324
+#: kftabdlg.cpp:320
 #, kde-format
 msgid "Include &binary files"
 msgstr "Ułučna z &dvajkovymi fajłami"
 
-#: kftabdlg.cpp:325
+#: kftabdlg.cpp:321
 #, kde-format
 msgid "Regular e&xpression"
 msgstr "&Rehularny vyraz"
 
-#: kftabdlg.cpp:328
+#: kftabdlg.cpp:324
 #, kde-format
 msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
 msgstr ""
 
-#: kftabdlg.cpp:336
+#: kftabdlg.cpp:332
 #, kde-format
 msgid "&Edit..."
 msgstr "&Redahuj..."
 
-#: kftabdlg.cpp:342
+#: kftabdlg.cpp:338
 #, fuzzy, kde-format
 msgctxt "as in search for"
 msgid "fo&r:"
 msgstr "&dla:"
 
-#: kftabdlg.cpp:344
+#: kftabdlg.cpp:340
 #, kde-format
 msgid "Search &metainfo sections:"
 msgstr "Šukaj u raździele &metaźviestak:"
 
-#: kftabdlg.cpp:348
+#: kftabdlg.cpp:344
 #, kde-format
 msgid "All Files & Folders"
 msgstr "Usie fajły j katalohi"
 
-#: kftabdlg.cpp:349
+#: kftabdlg.cpp:345
 #, kde-format
 msgid "Files"
 msgstr "Fajły"
 
-#: kftabdlg.cpp:350
+#: kftabdlg.cpp:346
 #, kde-format
 msgid "Folders"
 msgstr "Katalohi"
 
-#: kftabdlg.cpp:351
+#: kftabdlg.cpp:347
 #, kde-format
 msgid "Symbolic Links"
 msgstr "Symbalnyja łučy"
 
-#: kftabdlg.cpp:352
+#: kftabdlg.cpp:348
 #, kde-format
 msgid "Special Files (Sockets, Device Files, ...)"
 msgstr "Specyjalnyja fajły (sokiety, pryłady dy inšaje)"
 
-#: kftabdlg.cpp:353
+#: kftabdlg.cpp:349
 #, kde-format
 msgid "Executable Files"
 msgstr "Vykonvalnyja fajły"
 
-#: kftabdlg.cpp:354
+#: kftabdlg.cpp:350
 #, kde-format
 msgid "SUID Executable Files"
 msgstr "Vykonvalnyja fajły z dazvołam „SUID”"
 
-#: kftabdlg.cpp:355
+#: kftabdlg.cpp:351
 #, kde-format
 msgid "All Images"
 msgstr "Usie vyjavy"
 
-#: kftabdlg.cpp:356
+#: kftabdlg.cpp:352
 #, kde-format
 msgid "All Video"
 msgstr "Usio videa"
 
-#: kftabdlg.cpp:357
+#: kftabdlg.cpp:353
 #, kde-format
 msgid "All Sounds"
 msgstr "Usie huki"
 
-#: kftabdlg.cpp:439
+#: kftabdlg.cpp:435
 #, kde-format
 msgid "Name/&Location"
 msgstr "Nazva/&miesca"
 
-#: kftabdlg.cpp:440
+#: kftabdlg.cpp:436
 #, fuzzy, kde-format
 #| msgid "C&ontents"
 msgctxt "tab name: search by contents"
 msgid "C&ontents"
 msgstr "&Źmieściva"
 
-#: kftabdlg.cpp:445
+#: kftabdlg.cpp:441
 #, kde-format
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
@@ -454,7 +454,7 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:453
+#: kftabdlg.cpp:449
 #, kde-format
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
@@ -462,47 +462,47 @@ msgid ""
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:613
+#: kftabdlg.cpp:609
 #, kde-format
 msgid "Unable to search within a period which is less than a minute."
 msgstr "Nie ŭdałosia šukać fajły ŭ adcinku času, mienšym za adnu chvilinu."
 
-#: kftabdlg.cpp:624
+#: kftabdlg.cpp:620
 #, kde-format
 msgid "The date is not valid."
 msgstr "Data niapravilnaja."
 
-#: kftabdlg.cpp:626
+#: kftabdlg.cpp:622
 #, kde-format
 msgid "Invalid date range."
 msgstr "Dyjapazon dataŭ niapravilny."
 
-#: kftabdlg.cpp:628
+#: kftabdlg.cpp:624
 #, kde-format
 msgid "Unable to search dates in the future."
 msgstr "Nie ŭdałosia adšukać daty z pryšłaści."
 
-#: kftabdlg.cpp:700
+#: kftabdlg.cpp:696
 #, kde-format
 msgid "Size is too big. Set maximum size value?"
 msgstr "Pamier zavialiki. Aznačyć najbolšy mahčymy pamier?"
 
-#: kftabdlg.cpp:700
+#: kftabdlg.cpp:696
 #, kde-format
 msgid "Error"
 msgstr "Pamyłka"
 
-#: kftabdlg.cpp:700
+#: kftabdlg.cpp:696
 #, kde-format
 msgid "Set"
 msgstr "Aznač"
 
-#: kftabdlg.cpp:700
+#: kftabdlg.cpp:696
 #, kde-format
 msgid "Do Not Set"
 msgstr "Nie aznačaj"
 
-#: kftabdlg.cpp:889
+#: kftabdlg.cpp:885
 #, fuzzy, kde-format
 msgctxt ""
 "during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
@@ -513,7 +513,7 @@ msgstr[0] "&ciaham"
 msgstr[1] "&ciaham"
 msgstr[2] "&ciaham"
 
-#: kftabdlg.cpp:890
+#: kftabdlg.cpp:886
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "minute"
@@ -522,7 +522,7 @@ msgstr[0] "chvilin"
 msgstr[1] "chvilin"
 msgstr[2] "chvilin"
 
-#: kftabdlg.cpp:891
+#: kftabdlg.cpp:887
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "hour"
@@ -531,7 +531,7 @@ msgstr[0] "hadzin"
 msgstr[1] "hadzin"
 msgstr[2] "hadzin"
 
-#: kftabdlg.cpp:892
+#: kftabdlg.cpp:888
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "day"
@@ -540,7 +540,7 @@ msgstr[0] "dzion"
 msgstr[1] "dzion"
 msgstr[2] "dzion"
 
-#: kftabdlg.cpp:893
+#: kftabdlg.cpp:889
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "month"
@@ -549,7 +549,7 @@ msgstr[0] "miesiacaŭ"
 msgstr[1] "miesiacaŭ"
 msgstr[2] "miesiacaŭ"
 
-#: kftabdlg.cpp:894
+#: kftabdlg.cpp:890
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "year"

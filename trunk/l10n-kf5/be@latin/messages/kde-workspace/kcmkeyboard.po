@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-30 03:38+0100\n"
+"POT-Creation-Date: 2020-04-24 04:00+0200\n"
 "PO-Revision-Date: 2008-11-04 12:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -40,7 +40,13 @@ msgstr "Uklučy nastupny vykład"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
 
-#: bindings.cpp:67
+#: bindings.cpp:41
+#, fuzzy, kde-format
+#| msgid "KDE Keyboard Layout Switcher"
+msgid "Keyboard Layout Switcher"
+msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
+
+#: bindings.cpp:68
 #, fuzzy, kde-format
 #| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"

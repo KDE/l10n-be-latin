@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-28 03:04+0200\n"
+"POT-Creation-Date: 2020-04-29 03:07+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2308,7 +2308,7 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
-#: core/kcoredirlister.cpp:396 widgets/krun.cpp:754 widgets/paste.cpp:275
+#: core/kcoredirlister.cpp:396 widgets/krun.cpp:475 widgets/paste.cpp:275
 #: widgets/renamedialog.cpp:460
 #, kde-format
 msgid ""
@@ -2570,7 +2570,7 @@ msgstr "Nie ŭdałosia adčynić sertyfikat. Pasprabuješ inšy parol?"
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Nie ŭdałosia aznačyć dla sesii sertyfikat klijenta."
 
-#: core/tcpslavebase.cpp:698 widgets/jobuidelegate.cpp:382
+#: core/tcpslavebase.cpp:698 widgets/jobuidelegate.cpp:391
 #, kde-format
 msgid "SSL"
 msgstr "SSL"
@@ -2680,9 +2680,9 @@ msgstr "Pieračytaj"
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: filewidgets/kdiroperator.cpp:1982 widgets/jobuidelegate.cpp:273
-#: widgets/jobuidelegate.cpp:274 widgets/jobuidelegate.cpp:282
-#: widgets/jobuidelegate.cpp:283
+#: filewidgets/kdiroperator.cpp:1982 widgets/jobuidelegate.cpp:282
+#: widgets/jobuidelegate.cpp:283 widgets/jobuidelegate.cpp:291
+#: widgets/jobuidelegate.cpp:292
 #, kde-format
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
@@ -3835,6 +3835,20 @@ msgstr "Klikni, kab bačyć panel miesca"
 msgid "Click to Edit Location"
 msgstr "Klikni, kab adredahavać adras miesca"
 
+#: gui/applicationlauncherjob.cpp:103 gui/kprocessrunner.cpp:183
+#, kde-format
+msgid "You are not authorized to execute this file."
+msgstr "Tabie nielha vykonvać hety fajł."
+
+#: gui/applicationlauncherjob.cpp:143
+#, fuzzy, kde-format
+#| msgid "Unable to make the service %1 executable, aborting execution"
+msgid ""
+"Unable to make the service %1 executable, aborting execution.\n"
+"%2."
+msgstr ""
+"Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
+
 #: gui/faviconrequestjob.cpp:119
 #, fuzzy, kde-format
 #| msgid "No metainfo for %1"
@@ -3881,11 +3895,6 @@ msgstr ""
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
-
-#: gui/kprocessrunner.cpp:183
-#, kde-format
-msgid "You are not authorized to execute this file."
-msgstr "Tabie nielha vykonvać hety fajł."
 
 #: gui/kprocessrunner.cpp:207
 #, kde-format
@@ -7105,7 +7114,7 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "Paćviardžeńnie dla anulavańnia kapijavańnia"
 
-#: widgets/jobuidelegate.cpp:241
+#: widgets/jobuidelegate.cpp:250
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7114,14 +7123,14 @@ msgid ""
 "emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:242 widgets/jobuidelegate.cpp:251
-#: widgets/jobuidelegate.cpp:261
+#: widgets/jobuidelegate.cpp:251 widgets/jobuidelegate.cpp:260
+#: widgets/jobuidelegate.cpp:270
 #, fuzzy, kde-format
 #| msgid "Delete Entry"
 msgid "Delete Permanently"
 msgstr "Vydali praviła"
 
-#: widgets/jobuidelegate.cpp:249
+#: widgets/jobuidelegate.cpp:258
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7134,7 +7143,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/jobuidelegate.cpp:260
+#: widgets/jobuidelegate.cpp:269
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7142,13 +7151,13 @@ msgid ""
 "><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:262
+#: widgets/jobuidelegate.cpp:271
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Vyčyści śmietnicu"
 
-#: widgets/jobuidelegate.cpp:272
+#: widgets/jobuidelegate.cpp:281
 #, fuzzy, kde-kuit-format
 #| msgid "Do you really want to move this item to the trash?"
 #| msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -7158,7 +7167,7 @@ msgid ""
 "filename>"
 msgstr "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 
-#: widgets/jobuidelegate.cpp:280
+#: widgets/jobuidelegate.cpp:289
 #, fuzzy, kde-format
 #| msgid "Do you really want to move this item to the trash?"
 #| msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -7168,7 +7177,7 @@ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 
-#: widgets/jobuidelegate.cpp:381
+#: widgets/jobuidelegate.cpp:390
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
@@ -8686,27 +8695,7 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
 
-#: widgets/krun.cpp:252
-#, fuzzy, kde-format
-#| msgctxt "Warning about executing unknown .desktop file"
-#| msgid "Warning"
-msgctxt "Warning about executing unknown program"
-msgid "Warning"
-msgstr "Aściaroha"
-
-#: widgets/krun.cpp:269
-#, kde-format
-msgctxt "program name follows in a line edit below"
-msgid "This will start the program:"
-msgstr "Hetaja aperacyja ŭklučyć prahramu:"
-
-#: widgets/krun.cpp:279
-#, kde-format
-msgid "If you do not trust this program, click Cancel"
-msgstr ""
-"Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
-
-#: widgets/krun.cpp:347
+#: widgets/krun.cpp:190
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -8715,7 +8704,7 @@ msgstr ""
 "<qt>Nie ŭdałosia ŭvajści ŭ <b>%1</b>.\n"
 "Tabie nie staje adpaviednaha dazvołu dla hetaha miesca.</qt>"
 
-#: widgets/krun.cpp:378
+#: widgets/krun.cpp:221
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
@@ -8727,7 +8716,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: widgets/krun.cpp:409
+#: widgets/krun.cpp:253
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
@@ -8736,31 +8725,17 @@ msgstr ""
 "<qt>Fajł <b>%1</b> jość vykonvalnaj prahramaj. Kab paźbiehnuć prablemaŭ "
 "biaśpieki, jon nia budzie ŭklučany.</qt>"
 
-#: widgets/krun.cpp:415
+#: widgets/krun.cpp:259
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Tabie nie staje dazvołu na ŭklučeńnie <b>%1</b>.</qt>"
 
-#: widgets/krun.cpp:445
+#: widgets/krun.cpp:289
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
 
-#: widgets/krun.cpp:581
-#, kde-format
-msgid "You are not authorized to execute this service."
-msgstr "Tabie nielha vykonvać hetuju słužbu."
-
-#: widgets/krun.cpp:611
-#, fuzzy, kde-format
-#| msgid "Unable to make the service %1 executable, aborting execution"
-msgid ""
-"Unable to make the service %1 executable, aborting execution.\n"
-"%2."
-msgstr ""
-"Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
-
-#: widgets/krun.cpp:789
+#: widgets/krun.cpp:510
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -8769,7 +8744,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: widgets/krun.cpp:857
+#: widgets/krun.cpp:578
 #, fuzzy, kde-format
 #| msgid "Could not change ownership for %1."
 msgid "Could not find any application or handler for %1"
@@ -9286,6 +9261,29 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#: widgets/widgetsuntrustedprogramhandler.cpp:110
+#, fuzzy, kde-format
+#| msgctxt "Warning about executing unknown .desktop file"
+#| msgid "Warning"
+msgctxt "Warning about executing unknown program"
+msgid "Warning"
+msgstr "Aściaroha"
+
+#: widgets/widgetsuntrustedprogramhandler.cpp:128
+#, kde-format
+msgctxt "program name follows in a line edit below"
+msgid "This will start the program:"
+msgstr "Hetaja aperacyja ŭklučyć prahramu:"
+
+#: widgets/widgetsuntrustedprogramhandler.cpp:138
+#, kde-format
+msgid "If you do not trust this program, click Cancel"
+msgstr ""
+"Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
+
+#~ msgid "You are not authorized to execute this service."
+#~ msgstr "Tabie nielha vykonvać hetuju słužbu."
 
 #, fuzzy
 #~| msgid "The certificate is invalid."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-02 02:54+0200\n"
+"POT-Creation-Date: 2020-05-03 03:03+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2308,8 +2308,8 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
-#: core/kcoredirlister.cpp:396 widgets/krun.cpp:471 widgets/paste.cpp:275
-#: widgets/renamedialog.cpp:460
+#: core/kcoredirlister.cpp:396 widgets/krun.cpp:467 widgets/paste.cpp:275
+#: widgets/renamedialog.cpp:470
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -8695,7 +8695,7 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
 
-#: widgets/krun.cpp:217
+#: widgets/krun.cpp:213
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
@@ -8707,7 +8707,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: widgets/krun.cpp:249
+#: widgets/krun.cpp:245
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
@@ -8716,17 +8716,17 @@ msgstr ""
 "<qt>Fajł <b>%1</b> jość vykonvalnaj prahramaj. Kab paźbiehnuć prablemaŭ "
 "biaśpieki, jon nia budzie ŭklučany.</qt>"
 
-#: widgets/krun.cpp:255
+#: widgets/krun.cpp:251
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Tabie nie staje dazvołu na ŭklučeńnie <b>%1</b>.</qt>"
 
-#: widgets/krun.cpp:285
+#: widgets/krun.cpp:281
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
 
-#: widgets/krun.cpp:506
+#: widgets/krun.cpp:502
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -8735,7 +8735,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: widgets/krun.cpp:574
+#: widgets/krun.cpp:570
 #, fuzzy, kde-format
 #| msgid "Could not change ownership for %1."
 msgid "Could not find any application or handler for %1"
@@ -9042,7 +9042,7 @@ msgstr ""
 msgid "C&ontinue"
 msgstr "&Praciahni"
 
-#: widgets/renamedialog.cpp:271
+#: widgets/renamedialog.cpp:274
 #, fuzzy, kde-format
 #| msgid ""
 #| "This action would overwrite '%1' with itself.\n"
@@ -9052,42 +9052,42 @@ msgstr ""
 "Hetaja aperacyja nadpisała b fajł „%1” samym saboj.\n"
 "Upišy novuju nazvu fajła:"
 
-#: widgets/renamedialog.cpp:275
+#: widgets/renamedialog.cpp:278
 #, kde-format
 msgid "Warning, the destination is more recent."
 msgstr ""
 
-#: widgets/renamedialog.cpp:281
+#: widgets/renamedialog.cpp:284
 #, fuzzy, kde-format
 #| msgctxt "The source of a file operation"
 #| msgid "Source"
 msgid "Source"
 msgstr "Krynica"
 
-#: widgets/renamedialog.cpp:283
+#: widgets/renamedialog.cpp:286
 #, fuzzy, kde-format
 #| msgctxt "The destination of a file operation"
 #| msgid "Destination"
 msgid "Destination"
 msgstr "Meta"
 
-#: widgets/renamedialog.cpp:313
+#: widgets/renamedialog.cpp:323
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr "Užo jość starejšy element z nazvaj „%1”."
 
-#: widgets/renamedialog.cpp:315
+#: widgets/renamedialog.cpp:325
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr "Užo jość padobny fajł z nazvaj „%1”."
 
-#: widgets/renamedialog.cpp:317
+#: widgets/renamedialog.cpp:327
 #, fuzzy, kde-format
 #| msgid "An older item named '%1' already exists."
 msgid "A more recent item named '%1' already exists."
 msgstr "Užo jość starejšy element z nazvaj „%1”."
 
-#: widgets/renamedialog.cpp:330
+#: widgets/renamedialog.cpp:340
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgid "Rename:"

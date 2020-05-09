@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-05 02:56+0200\n"
+"POT-Creation-Date: 2020-05-09 03:01+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -54,13 +54,13 @@ msgstr "Nie ŭdałosia stvaryć słužbu „ioslave”: %1"
 msgid "Folder Already Exists"
 msgstr "Kataloh užo isnuje"
 
-#: core/copyjob.cpp:1484 core/copyjob.cpp:2070 core/filecopyjob.cpp:350
+#: core/copyjob.cpp:1484 core/copyjob.cpp:2043 core/filecopyjob.cpp:350
 #: core/job_error.cpp:516 widgets/paste.cpp:90
 #, kde-format
 msgid "File Already Exists"
 msgstr "Fajł užo isnuje"
 
-#: core/copyjob.cpp:1484 core/copyjob.cpp:2070
+#: core/copyjob.cpp:1484 core/copyjob.cpp:2043
 #, kde-format
 msgid "Already Exists as Folder"
 msgstr "Užo isnuje taki kataloh"
@@ -2308,8 +2308,8 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
-#: core/kcoredirlister.cpp:396 widgets/krun.cpp:467 widgets/paste.cpp:275
-#: widgets/renamedialog.cpp:470
+#: core/kcoredirlister.cpp:396 gui/openurljob.cpp:148 widgets/krun.cpp:388
+#: widgets/paste.cpp:275 widgets/renamedialog.cpp:470
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -2570,7 +2570,7 @@ msgstr "Nie ŭdałosia adčynić sertyfikat. Pasprabuješ inšy parol?"
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Nie ŭdałosia aznačyć dla sesii sertyfikat klijenta."
 
-#: core/tcpslavebase.cpp:698 widgets/jobuidelegate.cpp:391
+#: core/tcpslavebase.cpp:698 widgets/jobuidelegate.cpp:395
 #, kde-format
 msgid "SSL"
 msgstr "SSL"
@@ -2680,9 +2680,9 @@ msgstr "Pieračytaj"
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: filewidgets/kdiroperator.cpp:1982 widgets/jobuidelegate.cpp:282
-#: widgets/jobuidelegate.cpp:283 widgets/jobuidelegate.cpp:291
-#: widgets/jobuidelegate.cpp:292
+#: filewidgets/kdiroperator.cpp:1982 widgets/jobuidelegate.cpp:286
+#: widgets/jobuidelegate.cpp:287 widgets/jobuidelegate.cpp:295
+#: widgets/jobuidelegate.cpp:296
 #, kde-format
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
@@ -3835,19 +3835,19 @@ msgstr "Klikni, kab bačyć panel miesca"
 msgid "Click to Edit Location"
 msgstr "Klikni, kab adredahavać adras miesca"
 
-#: gui/applicationlauncherjob.cpp:105 gui/kprocessrunner.cpp:183
+#: gui/applicationlauncherjob.cpp:108 gui/kprocessrunner.cpp:183
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "Tabie nielha vykonvać hety fajł."
 
-#: gui/applicationlauncherjob.cpp:111 gui/commandlauncherjob.cpp:100
+#: gui/applicationlauncherjob.cpp:114 gui/commandlauncherjob.cpp:100
 #, fuzzy, kde-format
 #| msgid "Launching %1"
 msgctxt "Launching application"
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"
 
-#: gui/applicationlauncherjob.cpp:147
+#: gui/applicationlauncherjob.cpp:150
 #, fuzzy, kde-format
 #| msgid "Unable to make the service %1 executable, aborting execution"
 msgid ""
@@ -3907,6 +3907,68 @@ msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
 #, kde-format
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"
+
+#: gui/openurljob.cpp:162
+#, kde-format
+msgid "Failed to open %1"
+msgstr ""
+
+#: gui/openurljob.cpp:410 widgets/kdesktopfileactions.cpp:131
+#, kde-format
+msgid ""
+"The desktop entry file\n"
+"%1\n"
+"is of type Link but has no URL=... entry."
+msgstr ""
+"Fajł elementa rabočaha stała\n"
+"%1\n"
+"maje typ „Link”, ale nia ŭtrymvaje zapisu typu „URL=...”"
+
+#: gui/openurljob.cpp:477
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>The file <b>%1</b> is an executable program. For safety it will not "
+#| "be started.</qt>"
+msgid ""
+"The file \"%1\" is an executable program. For safety it will not be started."
+msgstr ""
+"<qt>Fajł <b>%1</b> jość vykonvalnaj prahramaj. Kab paźbiehnuć prablemaŭ "
+"biaśpieki, jon nia budzie ŭklučany.</qt>"
+
+#: gui/openurljob.cpp:500
+#, kde-format
+msgid ""
+"The program \"%1\" needs to have executable permission before it can be "
+"launched."
+msgstr ""
+
+#: gui/openurljob.cpp:511
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
+#| "does not exist.</qt>"
+msgid ""
+"Unable to make file \"%1\" executable.\n"
+"%2."
+msgstr ""
+"<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
+"isnuje.</qt>"
+
+#: gui/openurljob.cpp:569 widgets/kdesktopfileactions.cpp:68
+#, kde-format
+msgid "The desktop entry file %1 has no Type=... entry."
+msgstr "Fajł elementa rabočaha stała „%1” nia maje zapisu „Type=...”"
+
+#: gui/openurljob.cpp:609 widgets/krun.cpp:199
+#, kde-format
+msgid "You are not authorized to select an application to open this file."
+msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
+
+#: gui/openurljob.cpp:620
+#, fuzzy, kde-format
+#| msgid "Cannot open file"
+msgid "Failed to open the file."
+msgstr "Nie ŭdałosia adčynić fajł"
 
 #: ioslaves/file/file.cpp:188
 #, kde-format
@@ -7121,7 +7183,7 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "Paćviardžeńnie dla anulavańnia kapijavańnia"
 
-#: widgets/jobuidelegate.cpp:250
+#: widgets/jobuidelegate.cpp:254
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7130,14 +7192,14 @@ msgid ""
 "emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:251 widgets/jobuidelegate.cpp:260
-#: widgets/jobuidelegate.cpp:270
+#: widgets/jobuidelegate.cpp:255 widgets/jobuidelegate.cpp:264
+#: widgets/jobuidelegate.cpp:274
 #, fuzzy, kde-format
 #| msgid "Delete Entry"
 msgid "Delete Permanently"
 msgstr "Vydali praviła"
 
-#: widgets/jobuidelegate.cpp:258
+#: widgets/jobuidelegate.cpp:262
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7150,7 +7212,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/jobuidelegate.cpp:269
+#: widgets/jobuidelegate.cpp:273
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7158,13 +7220,13 @@ msgid ""
 "><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:271
+#: widgets/jobuidelegate.cpp:275
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Vyčyści śmietnicu"
 
-#: widgets/jobuidelegate.cpp:281
+#: widgets/jobuidelegate.cpp:285
 #, fuzzy, kde-kuit-format
 #| msgid "Do you really want to move this item to the trash?"
 #| msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -7174,7 +7236,7 @@ msgid ""
 "filename>"
 msgstr "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 
-#: widgets/jobuidelegate.cpp:289
+#: widgets/jobuidelegate.cpp:293
 #, fuzzy, kde-format
 #| msgid "Do you really want to move this item to the trash?"
 #| msgid_plural "Do you really want to move these %1 items to the trash?"
@@ -7184,7 +7246,7 @@ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 
-#: widgets/jobuidelegate.cpp:390
+#: widgets/jobuidelegate.cpp:394
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
@@ -7338,11 +7400,6 @@ msgstr "Aktualizacyja systemnych naładaŭ"
 msgid "Updating system configuration."
 msgstr "Aktualizacyja systemnych naładaŭ."
 
-#: widgets/kdesktopfileactions.cpp:68
-#, kde-format
-msgid "The desktop entry file %1 has no Type=... entry."
-msgstr "Fajł elementa rabočaha stała „%1” nia maje zapisu „Type=...”"
-
 #: widgets/kdesktopfileactions.cpp:86
 #, kde-format
 msgid ""
@@ -7365,17 +7422,6 @@ msgstr ""
 "Fajł elementa rabočaha stała\n"
 "%1\n"
 "maje typ „FSDevice”, ale nia ŭtrymvaje zapisu typu „Dev=...”"
-
-#: widgets/kdesktopfileactions.cpp:131
-#, kde-format
-msgid ""
-"The desktop entry file\n"
-"%1\n"
-"is of type Link but has no URL=... entry."
-msgstr ""
-"Fajł elementa rabočaha stała\n"
-"%1\n"
-"maje typ „Link”, ale nia ŭtrymvaje zapisu typu „URL=...”"
 
 #: widgets/kdesktopfileactions.cpp:179
 #, kde-format
@@ -7496,12 +7542,12 @@ msgstr "Nieviadomy"
 msgid "Known Applications"
 msgstr "Viadomyja aplikacyi"
 
-#: widgets/kopenwithdialog.cpp:567
+#: widgets/kopenwithdialog.cpp:568
 #, kde-format
 msgid "Open With"
 msgstr "Adčyni ŭ"
 
-#: widgets/kopenwithdialog.cpp:571
+#: widgets/kopenwithdialog.cpp:572
 #, kde-format
 msgid ""
 "<qt>Select the program that should be used to open <b>%1</b>. If the program "
@@ -7511,17 +7557,17 @@ msgstr ""
 "prahramy niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</"
 "qt>"
 
-#: widgets/kopenwithdialog.cpp:577
+#: widgets/kopenwithdialog.cpp:578
 #, kde-format
 msgid "Choose the name of the program with which to open the selected files."
 msgstr "Vybiery nazvu prahramy, u jakoj treba adčynić zaznačanyja fajły."
 
-#: widgets/kopenwithdialog.cpp:593
+#: widgets/kopenwithdialog.cpp:601
 #, kde-format
 msgid "<qt>Select the program you want to use to open the file<br/>%1</qt>"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:595
+#: widgets/kopenwithdialog.cpp:603
 #, kde-format
 msgid "<qt>Select the program you want to use to open the file.</qt>"
 msgid_plural ""
@@ -7530,17 +7576,17 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/kopenwithdialog.cpp:599 widgets/kopenwithdialog.cpp:628
+#: widgets/kopenwithdialog.cpp:607 widgets/kopenwithdialog.cpp:635
 #, kde-format
 msgid "Choose Application"
 msgstr "Vybiery aplikacyju"
 
-#: widgets/kopenwithdialog.cpp:610
+#: widgets/kopenwithdialog.cpp:622
 #, kde-format
 msgid "Choose Application for %1"
 msgstr "Vybiery aplikacyju dla „%1”"
 
-#: widgets/kopenwithdialog.cpp:611
+#: widgets/kopenwithdialog.cpp:623
 #, kde-format
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
@@ -7549,7 +7595,7 @@ msgstr ""
 "<qt>Vybiery prahramu dla fajłaŭ typu <b>%1</b>. Kali patrebnaj prahramy "
 "niama ŭ śpisie, upišy jejnuju nazvu albo klikni ŭ knopku prahladu.</qt>"
 
-#: widgets/kopenwithdialog.cpp:629
+#: widgets/kopenwithdialog.cpp:636
 #, kde-format
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
@@ -7558,14 +7604,14 @@ msgstr ""
 "<qt>Vybiery prahramu. Kali patrebnaj prahramy niama ŭ śpisie, upišy jejnuju "
 "nazvu albo klikni ŭ knopku prahladu.</qt>"
 
-#: widgets/kopenwithdialog.cpp:669
+#: widgets/kopenwithdialog.cpp:683
 #, kde-format
 msgid ""
 "Type to filter the applications below, or specify the name of a command.\n"
 "Press down arrow to navigate the results."
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:692
+#: widgets/kopenwithdialog.cpp:706
 #, kde-format
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -7594,7 +7640,7 @@ msgstr ""
 "%m - małaja ikona\n"
 "%c - kamentar"
 
-#: widgets/kopenwithdialog.cpp:734
+#: widgets/kopenwithdialog.cpp:748
 #, fuzzy, kde-format
 #| msgid "&Remember application association for this type of file"
 msgid ""
@@ -7602,23 +7648,23 @@ msgid ""
 "\"%1\" (%2)"
 msgstr "&Zapomni poviaź aplikacyi z hetym typam fajłaŭ"
 
-#: widgets/kopenwithdialog.cpp:743
+#: widgets/kopenwithdialog.cpp:757
 #, fuzzy, kde-format
 #| msgid "&Terminal options:"
 msgid "Terminal options"
 msgstr "&Opcyi terminała:"
 
-#: widgets/kopenwithdialog.cpp:748
+#: widgets/kopenwithdialog.cpp:762
 #, kde-format
 msgid "Run in &terminal"
 msgstr "Uklučy ŭ &terminale"
 
-#: widgets/kopenwithdialog.cpp:766
+#: widgets/kopenwithdialog.cpp:780
 #, kde-format
 msgid "&Do not close when command exits"
 msgstr "&Nie začyniaj paśla vychadu z zahadu"
 
-#: widgets/kopenwithdialog.cpp:957
+#: widgets/kopenwithdialog.cpp:971
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
@@ -7627,7 +7673,7 @@ msgstr ""
 "Nie ŭdałosia atrymać nazvy vykonvalnaha fajła z „%1”. Pravilna ŭpišy nazvu "
 "prahramy."
 
-#: widgets/kopenwithdialog.cpp:1007
+#: widgets/kopenwithdialog.cpp:1021
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr "Nie ŭdałosia znajści „%1”. Pravilna ŭpišy nazvu prahramy."
@@ -8702,38 +8748,7 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
 
-#: widgets/krun.cpp:213
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
-#| "does not exist.</qt>"
-msgid ""
-"<qt>Unable to make file <b>%1</b> executable.\n"
-"%2.</qt>"
-msgstr ""
-"<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
-"isnuje.</qt>"
-
-#: widgets/krun.cpp:245
-#, kde-format
-msgid ""
-"<qt>The file <b>%1</b> is an executable program. For safety it will not be "
-"started.</qt>"
-msgstr ""
-"<qt>Fajł <b>%1</b> jość vykonvalnaj prahramaj. Kab paźbiehnuć prablemaŭ "
-"biaśpieki, jon nia budzie ŭklučany.</qt>"
-
-#: widgets/krun.cpp:251
-#, kde-format
-msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
-msgstr "<qt>Tabie nie staje dazvołu na ŭklučeńnie <b>%1</b>.</qt>"
-
-#: widgets/krun.cpp:281
-#, kde-format
-msgid "You are not authorized to select an application to open this file."
-msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
-
-#: widgets/krun.cpp:502
+#: widgets/krun.cpp:423
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -8742,7 +8757,7 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: widgets/krun.cpp:570
+#: widgets/krun.cpp:491
 #, fuzzy, kde-format
 #| msgid "Could not change ownership for %1."
 msgid "Could not find any application or handler for %1"
@@ -9279,6 +9294,9 @@ msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
+
+#~ msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
+#~ msgstr "<qt>Tabie nie staje dazvołu na ŭklučeńnie <b>%1</b>.</qt>"
 
 #~ msgid ""
 #~ "<qt>Unable to enter <b>%1</b>.\n"

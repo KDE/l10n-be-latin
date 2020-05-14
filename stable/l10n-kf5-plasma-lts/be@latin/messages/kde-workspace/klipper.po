@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:39+0200\n"
+"POT-Creation-Date: 2019-12-17 03:36+0100\n"
 "PO-Revision-Date: 2008-10-18 22:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -55,7 +55,7 @@ msgid "Regular Expression"
 msgstr "Rehularny vyraz"
 
 #. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: actionsconfig.ui:54 editactiondialog.cpp:227
+#: actionsconfig.ui:54 editactiondialog.cpp:222
 #, kde-format
 msgid "Description"
 msgstr "Apisańnie"
@@ -98,7 +98,7 @@ msgstr "Asablivaje"
 msgid ""
 "Click on a highlighted item's column to change it. \"%s\" in a command will "
 "be replaced with the clipboard contents.<br>For more information about "
-"regular expressions, you could have a look at the <a href=\"http://en."
+"regular expressions, you could have a look at the <a href=\"https://en."
 "wikipedia.org/wiki/Regular_expression\">Wikipedia entry about this topic</a>."
 msgstr ""
 "Bolš źviestak pra rehularnyja vyrazy možna znajści ŭ <a href=\"http://en."
@@ -164,12 +164,12 @@ msgstr "Skaroty"
 msgid "Shortcuts Configuration"
 msgstr "Nałady skarotaŭ"
 
-#: configdialog.cpp:382
+#: configdialog.cpp:352
 #, kde-format
 msgid "D&isable Actions for Windows of Type WM_CLASS"
 msgstr "&Vyklučy aperacyi dla akon typu „WM_CLASS”"
 
-#: configdialog.cpp:390
+#: configdialog.cpp:360
 #, kde-format
 msgid ""
 "<qt>This lets you specify windows in which Klipper should not invoke "
@@ -202,29 +202,29 @@ msgstr "<pusty abmienny bufer>"
 msgid "Add to Clipboard"
 msgstr "<pusty abmienny bufer>"
 
-#: editactiondialog.cpp:223
+#: editactiondialog.cpp:218
 #, fuzzy, kde-format
 #| msgid "Add Command"
 msgid "Command"
 msgstr "Dadaj zahad"
 
-#: editactiondialog.cpp:225
+#: editactiondialog.cpp:220
 #, kde-format
 msgid "Output Handling"
 msgstr ""
 
-#: editactiondialog.cpp:267
+#: editactiondialog.cpp:262
 #, kde-format
 msgid "Action Properties"
 msgstr ""
 
-#: editactiondialog.cpp:373
+#: editactiondialog.cpp:368
 #, fuzzy, kde-format
 #| msgid "<new command>"
 msgid "new command"
 msgstr "<novy zahad>"
 
-#: editactiondialog.cpp:374
+#: editactiondialog.cpp:369
 #, fuzzy, kde-format
 #| msgid "Description"
 msgid "Command Description"
@@ -346,57 +346,62 @@ msgstr "&Termin čakańnia dla vypłyŭnych menu:"
 msgid "Clipboard history size:"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:126
+#: historyimageitem.cpp:50
+#, kde-format
+msgid "%1x%2 %3bpp"
+msgstr ""
+
+#: klipper.cpp:128
 #, fuzzy, kde-format
 #| msgid "Enable/Disable Clipboard Actions"
 msgid "Enable Clipboard Actions"
 msgstr "Uklučeńnie/Vyklučeńnie aperacyjaŭ abmiennaha bufera"
 
-#: klipper.cpp:152
+#: klipper.cpp:154
 #, kde-format
 msgid "C&lear Clipboard History"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:159
+#: klipper.cpp:161
 #, kde-format
 msgid "&Configure Klipper..."
 msgstr "&Naładź „Klipper”..."
 
-#: klipper.cpp:164
+#: klipper.cpp:166
 #, fuzzy, kde-format
 #| msgid "&Quit"
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "&Vyjdzi"
 
-#: klipper.cpp:168
+#: klipper.cpp:170
 #, kde-format
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Uručnuju vykanaj aperacyju dla dziejnaha źmieściva bufera"
 
-#: klipper.cpp:175
+#: klipper.cpp:177
 #, kde-format
 msgid "&Edit Contents..."
 msgstr "&Redahuj źmieściva..."
 
-#: klipper.cpp:186
+#: klipper.cpp:188
 #, kde-format
 msgid "&Show Barcode..."
 msgstr ""
 
-#: klipper.cpp:197
+#: klipper.cpp:199
 #, fuzzy, kde-format
 #| msgid "C&lipboard history size:"
 msgid "Next History Item"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:201
+#: klipper.cpp:203
 #, fuzzy, kde-format
 #| msgid "C&lipboard history size:"
 msgid "Previous History Item"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:207
+#: klipper.cpp:209
 #, fuzzy, kde-format
 #| msgid "&Popup menu at mouse-cursor position"
 msgid "Open Klipper at Mouse Position"
@@ -414,65 +419,65 @@ msgstr ""
 "Aperacyi dla adrasoŭ možna budzie ŭklučyć paźniej, praz pravy klik u ikonu "
 "aplikacyi „Klipper” j punkt menu „Uklučy aperacyi”."
 
-#: klipper.cpp:531
+#: klipper.cpp:534
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr "Ci ŭklučać aplikacyju „Klipper” pry ŭvachodzie ŭ systemu?"
 
-#: klipper.cpp:532
+#: klipper.cpp:535
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr "Ci ŭklučać aŭtamatyčna aplikacyju „Klipper”?"
 
-#: klipper.cpp:532
+#: klipper.cpp:535
 #, kde-format
 msgid "Start"
 msgstr "Uklučaj"
 
-#: klipper.cpp:533
+#: klipper.cpp:536
 #, kde-format
 msgid "Do Not Start"
 msgstr "Nie ŭklučaj"
 
-#: klipper.cpp:860
+#: klipper.cpp:882
 #, kde-format
 msgid "Edit Contents"
 msgstr "Redahuj źmieściva"
 
-#: klipper.cpp:926
+#: klipper.cpp:949
 #, kde-format
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:974
+#: klipper.cpp:997
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgid "Really delete entire clipboard history?"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:975
+#: klipper.cpp:998
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgid "Delete clipboard history?"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:993 klipper.cpp:1002
+#: klipper.cpp:1015 klipper.cpp:1024
 #, fuzzy, kde-format
 #| msgid "C&lipboard history size:"
 msgid "Clipboard history"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:1019
+#: klipper.cpp:1041
 #, kde-format
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:1026
+#: klipper.cpp:1048
 #, kde-format
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1033
+#: klipper.cpp:1055
 #, kde-format
 msgid "down"
 msgstr ""
@@ -638,11 +643,6 @@ msgstr "<pusty abmienny bufer>"
 msgid "<no matches>"
 msgstr "<niama adpaviednikaŭ>"
 
-#: klipperpopup.cpp:73 main.cpp:43
-#, kde-format
-msgid "KDE cut & paste history utility"
-msgstr "Historyja vycinańniaŭ i ŭklejvańniaŭ dla „KDE”"
-
 #: klipperpopup.cpp:118
 #, kde-format
 msgid "Klipper - Clipboard Tool"
@@ -652,6 +652,11 @@ msgstr "Abmienny bufer „Klipper”"
 #, kde-format
 msgid "Search..."
 msgstr ""
+
+#: klipperpopup.cpp:132 main.cpp:43
+#, kde-format
+msgid "KDE cut & paste history utility"
+msgstr "Historyja vycinańniaŭ i ŭklejvańniaŭ dla „KDE”"
 
 #: main.cpp:41 tray.cpp:35
 #, kde-format
@@ -763,17 +768,17 @@ msgstr "Zachoŭvaj źmieściva abmiennaha bufera pry &vyjści"
 msgid "Clipboard is empty"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: urlgrabber.cpp:213
+#: urlgrabber.cpp:212
 #, kde-format
 msgid "%1 - Actions For: %2"
 msgstr "%1 - Aperacyi dla: %2"
 
-#: urlgrabber.cpp:241
+#: urlgrabber.cpp:240
 #, kde-format
 msgid "Disable This Popup"
 msgstr "Vyklučy hety vypłyŭny element"
 
-#: urlgrabber.cpp:247
+#: urlgrabber.cpp:246
 #, kde-format
 msgid "&Cancel"
 msgstr "&Anuluj"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-09 02:17+0200\n"
+"POT-Creation-Date: 2020-06-10 02:25+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3541,7 +3541,7 @@ msgctxt "@title:tab Status Bar settings"
 msgid "Status Bar"
 msgstr "Panel statusu"
 
-#: settings/general/previewssettingspage.cpp:53
+#: settings/general/previewssettingspage.cpp:55
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show preview"
@@ -3549,7 +3549,14 @@ msgctxt "@title:group"
 msgid "Show previews in the view for:"
 msgstr "Pakazvaj padhlady"
 
-#: settings/general/previewssettingspage.cpp:71
+#: settings/general/previewssettingspage.cpp:73
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Sort files by"
+msgid "Skip previews for local files above:"
+msgstr "Paradkuj fajły pavodle"
+
+#: settings/general/previewssettingspage.cpp:86
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Sort files by"

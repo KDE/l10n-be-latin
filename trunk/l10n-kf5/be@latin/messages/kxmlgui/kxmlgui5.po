@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-05 02:01+0200\n"
+"POT-Creation-Date: 2020-06-20 02:01+0200\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -757,7 +757,7 @@ msgid "Change Icon"
 msgstr "Źmiani ikonu"
 
 #. i18n: ectx: Menu (help)
-#: khelpmenu.cpp:172 ui_standards.rc:177
+#: khelpmenu.cpp:172 ui_standards.rc:178
 #, kde-format
 msgid "&Help"
 msgstr "&Dapamoha"
@@ -1272,10 +1272,10 @@ msgstr "%1"
 
 #: kswitchlanguagedialog_p.cpp:159
 #, fuzzy, kde-format
-#| msgid "Switch Application Language"
+#| msgid "Configure"
 msgctxt "@title:window"
-msgid "Switch Application Language"
-msgstr "Źmiani movu aplikacyi"
+msgid "Configure Language"
+msgstr "Naładź"
 
 #: kswitchlanguagedialog_p.cpp:164
 #, kde-format
@@ -1570,10 +1570,16 @@ msgid "&Settings"
 msgstr "&Nałady"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: ui_standards.rc:196
+#: ui_standards.rc:195
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
+
+#, fuzzy
+#~| msgid "Switch Application Language"
+#~ msgctxt "@title:window"
+#~ msgid "Switch Application Language"
+#~ msgstr "Źmiani movu aplikacyi"
 
 #~ msgid "Compiler:"
 #~ msgstr "Kampiloŭnik:"
@@ -4719,9 +4725,6 @@ msgstr "Hałoŭnaja panel pryładździa"
 
 #~ msgid "Finish"
 #~ msgstr "Skončy"
-
-#~ msgid "Configure"
-#~ msgstr "Naładź"
 
 #~ msgid "Job"
 #~ msgstr "Zadańnie"

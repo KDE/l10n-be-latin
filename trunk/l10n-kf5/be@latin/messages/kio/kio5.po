@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-25 02:00+0200\n"
+"POT-Creation-Date: 2020-06-27 02:00+0200\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3082,47 +3082,47 @@ msgstr ""
 "aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie "
 "vidać z usich aplikacyjaŭ.</qt>"
 
-#: filewidgets/kfileplacesitem.cpp:129
+#: filewidgets/kfileplacesitem.cpp:134
 #, fuzzy, kde-format
 #| msgid "Places"
 msgctxt "@item"
 msgid "Places"
 msgstr "Miescy"
 
-#: filewidgets/kfileplacesitem.cpp:132
+#: filewidgets/kfileplacesitem.cpp:137
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "@item"
 msgid "Remote"
 msgstr "Vydali"
 
-#: filewidgets/kfileplacesitem.cpp:135
+#: filewidgets/kfileplacesitem.cpp:140
 #, kde-format
 msgctxt "@item The place group section name for recent dynamic lists"
 msgid "Recent"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:138
+#: filewidgets/kfileplacesitem.cpp:143
 #, fuzzy, kde-format
 #| msgid "&Search:"
 msgctxt "@item"
 msgid "Search For"
 msgstr "&Šukaj:"
 
-#: filewidgets/kfileplacesitem.cpp:141
+#: filewidgets/kfileplacesitem.cpp:146
 #, fuzzy, kde-format
 #| msgid "Devices"
 msgctxt "@item"
 msgid "Devices"
 msgstr "Pryłady"
 
-#: filewidgets/kfileplacesitem.cpp:144
+#: filewidgets/kfileplacesitem.cpp:149
 #, kde-format
 msgctxt "@item"
 msgid "Removable Devices"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:147
+#: filewidgets/kfileplacesitem.cpp:152
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgctxt "@item"
@@ -3224,37 +3224,37 @@ msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1267
+#: filewidgets/kfileplacesmodel.cpp:1270
 #, kde-format
 msgid "&Release '%1'"
 msgstr "&Vyzvali „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1269
+#: filewidgets/kfileplacesmodel.cpp:1272
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "&Biaśpiečna vysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1272
+#: filewidgets/kfileplacesmodel.cpp:1275
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "&Admantuj „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1293
+#: filewidgets/kfileplacesmodel.cpp:1296
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "V&ysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1327
+#: filewidgets/kfileplacesmodel.cpp:1330
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
 
-#: filewidgets/kfileplacesmodel.cpp:1363
+#: filewidgets/kfileplacesmodel.cpp:1366
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1367
+#: filewidgets/kfileplacesmodel.cpp:1370
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-09 03:20+0100\n"
+"POT-Creation-Date: 2020-07-05 07:44+0200\n"
 "PO-Revision-Date: 2008-11-04 17:48+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -33,97 +33,124 @@ msgstr ""
 "Kab atrymać daviedku pra peŭnyja opcyi, vykarystaj mahčymaść „Što heta?”, "
 "jakuju možna vyklikać klavijaturnym skarotam „Shift+F1”."
 
-#, fuzzy
-#~| msgid "Des&ktop path:"
-#~ msgid "Desktop path:"
-#~ msgstr "Ściežka &stała:"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: globalpaths.ui:17
+#, fuzzy, kde-format
+#| msgid "Des&ktop path:"
+msgid "Desktop path:"
+msgstr "Ściežka &stała:"
 
-#~ msgid ""
-#~ "This folder contains all the files which you see on your desktop. You can "
-#~ "change the location of this folder if you want to, and the contents will "
-#~ "move automatically to the new location as well."
-#~ msgstr ""
-#~ "Hety kataloh źmiaščaje ŭsie fajły, jakija vidać na tvaim rabočym stale. "
-#~ "Ty možaš źmianić miesca hetaha kataloha, i tady jahonaje źmieściva budzie "
-#~ "aŭtamatyčna tudy pieraniesienaje."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_desktopLocation)
+#: globalpaths.ui:24
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Hety kataloh źmiaščaje ŭsie fajły, jakija vidać na tvaim rabočym stale. Ty "
+"možaš źmianić miesca hetaha kataloha, i tady jahonaje źmieściva budzie "
+"aŭtamatyčna tudy pieraniesienaje."
 
-#, fuzzy
-#~| msgid "A&utostart path:"
-#~ msgid "Autostart path:"
-#~ msgstr "Ściežka &aŭtamatyčnaha ŭklučeńnia:"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: globalpaths.ui:31
+#, fuzzy, kde-format
+#| msgid "A&utostart path:"
+msgid "Autostart path:"
+msgstr "Ściežka &aŭtamatyčnaha ŭklučeńnia:"
 
-#, fuzzy
-#~| msgid ""
-#~| "This folder contains applications or links to applications (shortcuts) "
-#~| "that you want to have started automatically whenever KDE starts. You can "
-#~| "change the location of this folder if you want to, and the contents will "
-#~| "move automatically to the new location as well."
-#~ msgid ""
-#~ "This folder contains applications or links to applications (shortcuts) "
-#~ "that you want to have started automatically whenever the session starts. "
-#~ "You can change the location of this folder if you want to, and the "
-#~ "contents will move automatically to the new location as well."
-#~ msgstr ""
-#~ "Hety kataloh źmiaščaje aplikacyi albo łučy dla ich, jakija treba "
-#~ "aŭtamatyčna ŭklučać pry ŭvachodzie ŭ systemu „KDE”. Ty možaš źmianić "
-#~ "miesca hetaha kataloha, i tady jahonaje źmieściva budzie aŭtamatyčna tudy "
-#~ "pieraniesienaje."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_autostartLocation)
+#: globalpaths.ui:38
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder contains applications or links to applications (shortcuts) "
+#| "that you want to have started automatically whenever KDE starts. You can "
+#| "change the location of this folder if you want to, and the contents will "
+#| "move automatically to the new location as well."
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Hety kataloh źmiaščaje aplikacyi albo łučy dla ich, jakija treba aŭtamatyčna "
+"ŭklučać pry ŭvachodzie ŭ systemu „KDE”. Ty možaš źmianić miesca hetaha "
+"kataloha, i tady jahonaje źmieściva budzie aŭtamatyčna tudy pieraniesienaje."
 
-#, fuzzy
-#~| msgid "D&ocuments path:"
-#~ msgid "Documents path:"
-#~ msgstr "Ściežka &dakumentaŭ:"
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: globalpaths.ui:45
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Documents path:"
+msgstr "Ściežka &dakumentaŭ:"
 
-#~ msgid ""
-#~ "This folder will be used by default to load or save documents from or to."
-#~ msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_documentsLocation)
+#: globalpaths.ui:52
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
-#, fuzzy
-#~| msgid "D&ocuments path:"
-#~ msgid "Downloads path:"
-#~ msgstr "Ściežka &dakumentaŭ:"
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: globalpaths.ui:59
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Downloads path:"
+msgstr "Ściežka &dakumentaŭ:"
 
-#, fuzzy
-#~| msgid ""
-#~| "This folder will be used by default to load or save documents from or to."
-#~ msgid "This folder will be used by default to save your downloaded items."
-#~ msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_downloadsLocation)
+#: globalpaths.ui:66
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
-#, fuzzy
-#~| msgid "D&ocuments path:"
-#~ msgid "Movies path:"
-#~ msgstr "Ściežka &dakumentaŭ:"
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: globalpaths.ui:73
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Videos path:"
+msgstr "Ściežka &dakumentaŭ:"
 
-#, fuzzy
-#~| msgid ""
-#~| "This folder will be used by default to load or save documents from or to."
-#~ msgid ""
-#~ "This folder will be used by default to load or save movies from or to."
-#~ msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_videosLocation)
+#: globalpaths.ui:80
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
-#, fuzzy
-#~| msgid "D&ocuments path:"
-#~ msgid "Pictures path:"
-#~ msgstr "Ściežka &dakumentaŭ:"
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: globalpaths.ui:87
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Pictures path:"
+msgstr "Ściežka &dakumentaŭ:"
 
-#, fuzzy
-#~| msgid ""
-#~| "This folder will be used by default to load or save documents from or to."
-#~ msgid ""
-#~ "This folder will be used by default to load or save pictures from or to."
-#~ msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_picturesLocation)
+#: globalpaths.ui:94
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
-#, fuzzy
-#~| msgid "D&ocuments path:"
-#~ msgid "Music path:"
-#~ msgstr "Ściežka &dakumentaŭ:"
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: globalpaths.ui:101
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Music path:"
+msgstr "Ściežka &dakumentaŭ:"
 
-#, fuzzy
-#~| msgid ""
-#~| "This folder will be used by default to load or save documents from or to."
-#~ msgid ""
-#~ "This folder will be used by default to load or save music from or to."
-#~ msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_musicLocation)
+#: globalpaths.ui:108
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "Heta zmoŭčany kataloh dla adčytvańnia j zapisu dakumentaŭ."
 
 #~ msgid "Autostart"
 #~ msgstr "Aŭtamatyčnaje ŭklučeńnie"

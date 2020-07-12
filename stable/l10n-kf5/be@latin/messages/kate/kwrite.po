@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-27 02:22+0200\n"
+"POT-Creation-Date: 2020-07-12 08:06+0200\n"
 "PO-Revision-Date: 2008-11-07 00:27+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -60,13 +60,13 @@ msgid "&Settings"
 msgstr "&Nałady"
 
 #. i18n: ectx: Menu (help)
-#: data/kwriteui.rc:55
+#: data/kwriteui.rc:56
 #, kde-format
 msgid "&Help"
 msgstr "&Dapamoha"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: data/kwriteui.rc:60
+#: data/kwriteui.rc:61
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
@@ -142,28 +142,28 @@ msgstr "Naładź źmieściva panelaŭ pryładździa"
 msgid "&About Editor Component"
 msgstr "&Pra ŭnutrany redaktar"
 
-#: kwrite.cpp:242 kwrite.cpp:244
+#: kwrite.cpp:239
 #, kde-format
 msgid "Open File"
 msgstr "Adčyni fajł"
 
-#: kwrite.cpp:289
+#: kwrite.cpp:283
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: kwrite.cpp:292
+#: kwrite.cpp:286
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
-#: kwrite.cpp:456
+#: kwrite.cpp:450
 #, kde-format
 msgid " [read only]"
 msgstr ""
 
-#: kwrite.cpp:460
+#: kwrite.cpp:454
 #, kde-format
 msgid "Untitled"
 msgstr "Biaz nazvy"

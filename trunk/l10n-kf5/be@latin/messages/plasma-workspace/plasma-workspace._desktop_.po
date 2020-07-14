@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-11 00:32+0000\n"
+"POT-Creation-Date: 2020-07-14 00:35+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1448,9 +1448,12 @@ msgid "Power"
 msgstr "PowerDevil"
 
 #: runners/recentdocuments/plasma-runner-recentdocuments.desktop:2
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Text File"
 msgctxt "Name"
-msgid "Recent Documents"
-msgstr "Niadaŭnyja dakumenty"
+msgid "Recent Files"
+msgstr "Tekstavy fajł"
 
 #: runners/services/plasma-runner-services.desktop:2
 msgctxt "Name"
@@ -1781,6 +1784,10 @@ msgstr "Słajdy"
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Recent Documents"
+#~ msgstr "Niadaŭnyja dakumenty"
 
 #, fuzzy
 #~| msgctxt "Comment"

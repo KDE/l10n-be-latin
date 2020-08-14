@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-13 00:39+0000\n"
+"POT-Creation-Date: 2020-08-14 00:38+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -777,18 +777,18 @@ msgstr ""
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
 msgctxt "Name"
-msgid "Global Shortcuts"
+msgid "Shortcuts"
 msgstr "Paŭsiudnyja klavijaturnyja skaroty"
 
-#: kcms/keys/kcm_keys.desktop:59 kcms/keys/package/metadata.desktop:47
+#: kcms/keys/kcm_keys.desktop:16 kcms/keys/package/metadata.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
 msgctxt "Comment"
-msgid "Global Keyboard Shortcuts"
+msgid "Configure Keyboard Shortcuts"
 msgstr "Paŭsiudnyja klavijaturnyja skaroty"
 
-#: kcms/keys/kcm_keys.desktop:109
+#: kcms/keys/kcm_keys.desktop:18
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Keys,Global key bindings,Key scheme,Key bindings,shortcuts,application "
@@ -1341,29 +1341,6 @@ msgctxt "X-KDE-Keywords"
 msgid "Spell"
 msgstr ""
 
-#: kcms/standard_actions/standard_actions.desktop:14
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Global Keyboard Shortcuts"
-msgctxt "Name"
-msgid "Standard Shortcuts"
-msgstr "Paŭsiudnyja klavijaturnyja skaroty"
-
-#: kcms/standard_actions/standard_actions.desktop:59
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Standard Keyboard Shortcuts"
-msgctxt "Comment"
-msgid "Standard Keyboard Shortcuts for Applications"
-msgstr "Zvyčajnyja klavijaturnyja skaroty"
-
-#: kcms/standard_actions/standard_actions.desktop:107
-msgctxt "X-KDE-Keywords"
-msgid ""
-"Keys,Global key bindings,Key scheme,Key bindings,shortcuts,application "
-"shortcuts"
-msgstr ""
-
 #: kcms/style/gtk_themes.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
@@ -1657,6 +1634,20 @@ msgstr "Rabočy abšar stała „Plasma”"
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "Sietkavaja pryłada"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Global Keyboard Shortcuts"
+#~ msgctxt "Name"
+#~ msgid "Standard Shortcuts"
+#~ msgstr "Paŭsiudnyja klavijaturnyja skaroty"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Standard Keyboard Shortcuts"
+#~ msgctxt "Comment"
+#~ msgid "Standard Keyboard Shortcuts for Applications"
+#~ msgstr "Zvyčajnyja klavijaturnyja skaroty"
 
 #, fuzzy
 #~| msgctxt "Comment"

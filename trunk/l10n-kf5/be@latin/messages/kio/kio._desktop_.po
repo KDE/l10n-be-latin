@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-14 00:37+0000\n"
+"POT-Creation-Date: 2020-08-15 00:35+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -485,23 +485,26 @@ msgid "User Agent,Browser,Internet,WWW,Network,agent,bindings,server,login"
 msgstr ""
 
 #: src/kcms/webshortcuts/webshortcuts.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "SearchKeywordsFilter"
 msgctxt "Name"
-msgid "Web Shortcuts"
-msgstr "Skaroty dla sieciva"
+msgid "Web Search Keywords"
+msgstr "SearchKeywordsFilter"
 
 #: src/kcms/webshortcuts/webshortcuts.desktop:102
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure web cache settings"
 msgctxt "Comment"
-msgid "Configure web shortcuts"
+msgid "Configure web search keywords"
 msgstr "Naładź padručnuju pamiać sieciva"
 
 #: src/kcms/webshortcuts/webshortcuts.desktop:149
 msgctxt "X-KDE-Keywords"
 msgid ""
-"Web Shortcuts,Browsing,WWW,Internet,Internet Filters,Network,Search Engines,"
-"Shortcuts"
+"Web Search Keywords,Web Search,Search,Keyword,Web Shortcuts,Browsing,WWW,"
+"Internet,Internet Filters,Network,Search Engines,Shortcuts"
 msgstr ""
 
 #: src/kpac/proxyscout.notifyrc:3
@@ -2377,6 +2380,10 @@ msgid "Enhanced Browsing Plugin"
 msgstr "Prahlad u kartkach"
 
 #~ msgctxt "Name"
+#~ msgid "Web Shortcuts"
+#~ msgstr "Skaroty dla sieciva"
+
+#~ msgctxt "Name"
 #~ msgid "KDE Bug Database Fulltext Search"
 #~ msgstr "Paŭnatekstavy pošuk u bazie viadomych chibaŭ KDE"
 
@@ -2489,10 +2496,6 @@ msgstr "Prahlad u kartkach"
 #~ msgctxt "Name"
 #~ msgid "InternetKeywordsFilter"
 #~ msgstr "InternetKeywordsFilter"
-
-#~ msgctxt "Name"
-#~ msgid "SearchKeywordsFilter"
-#~ msgstr "SearchKeywordsFilter"
 
 #~ msgctxt "Name"
 #~ msgid "LocalDomainFilter"

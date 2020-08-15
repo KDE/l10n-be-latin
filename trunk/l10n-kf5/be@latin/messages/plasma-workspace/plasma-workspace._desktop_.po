@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-02 00:37+0000\n"
+"POT-Creation-Date: 2020-08-15 00:36+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1538,20 +1538,14 @@ msgid "Executes shell commands"
 msgstr "Vykanańnie zahadaŭ abałonki."
 
 #: runners/webshortcuts/plasma-runner-webshortcuts.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web Shortcuts"
 msgctxt "Name|plasma runner"
-msgid "Web Shortcuts"
-msgstr "Skaroty dla sieciva"
+msgid "Web Search Keywords"
+msgstr ""
 
 #: runners/webshortcuts/plasma-runner-webshortcuts.desktop:73
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Allows user to use Konqueror's Web shortcuts"
 msgctxt "Comment"
-msgid "Allows user to use Konqueror's web shortcuts"
-msgstr "Dazvalaje karystacca sieciŭnymi skarotami prahramy „Konqueror”."
+msgid "Search the web using keywords"
+msgstr ""
 
 #: runners/windowedwidgets/plasma-runner-windowedwidgets.desktop:2
 #, fuzzy
@@ -1836,6 +1830,20 @@ msgstr "Słajdy"
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web Shortcuts"
+#~ msgctxt "Name|plasma runner"
+#~ msgid "Web Shortcuts"
+#~ msgstr "Skaroty dla sieciva"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Allows user to use Konqueror's Web shortcuts"
+#~ msgctxt "Comment"
+#~ msgid "Allows user to use Konqueror's web shortcuts"
+#~ msgstr "Dazvalaje karystacca sieciŭnymi skarotami prahramy „Konqueror”."
 
 #~ msgctxt "Name"
 #~ msgid "Recent Documents"

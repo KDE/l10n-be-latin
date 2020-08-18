@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-17 00:32+0000\n"
+"POT-Creation-Date: 2020-08-18 00:39+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -95,13 +95,19 @@ msgid "Provides access to the clipboard history"
 msgstr ""
 
 #: applets/devicenotifier/package/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Device Notifier"
-msgstr "Infarmavańnie pra novyja pryłady"
+msgid "Disks & Devices"
+msgstr "Pryłady"
 
 #: applets/devicenotifier/package/metadata.desktop:79
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Notifications and access for new devices"
 msgctxt "Comment"
-msgid "Notifications and access for new devices"
+msgid "Notifications and access for devices"
 msgstr "Infarmavańnie j dostup da novych pryładaŭ"
 
 #: applets/devicenotifier/test-predicate-openinwindow.desktop:7
@@ -1831,6 +1837,10 @@ msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr ""
 
+#~ msgctxt "Name"
+#~ msgid "Device Notifier"
+#~ msgstr "Infarmavańnie pra novyja pryłady"
+
 #, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Web Shortcuts"
@@ -1915,13 +1925,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Share Services"
 #~ msgstr "Słužby"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
-#~ msgctxt "Name|plasma runner"
-#~ msgid "Devices"
-#~ msgstr "Pryłady"
 
 #~ msgctxt "Name"
 #~ msgid "kuiserver"

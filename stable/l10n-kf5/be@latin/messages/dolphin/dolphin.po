@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-26 08:28+0200\n"
+"POT-Creation-Date: 2020-09-09 08:59+0200\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3555,6 +3555,13 @@ msgstr "Pakazvaj padhlady"
 #| msgid "Sort files by"
 msgid "Skip previews for local files above:"
 msgstr "Paradkuj fajły pavodle"
+
+#: settings/general/previewssettingspage.cpp:77
+#: settings/general/previewssettingspage.cpp:90
+#, kde-format
+msgctxt "Mebibytes; used as a suffix in a spinbox showing e.g. '3 MiB'"
+msgid " MiB"
+msgstr ""
 
 #: settings/general/previewssettingspage.cpp:79
 #, kde-format

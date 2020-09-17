@@ -1,0 +1,181 @@
+# translation of kcm_autostart.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-08-12 02:25+0200\n"
+"PO-Revision-Date: 2008-11-04 12:19+0200\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"Language: be@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: autostart.cpp:37
+#, kde-format
+msgid "Autostart"
+msgstr ""
+
+#: autostart.cpp:37
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager Control Panel Module"
+msgid "Session Autostart Manager Control Panel Module"
+msgstr "Modul kiravańnia kiraŭnikom aŭtamatyčnaha ŭklučeńnia dla „KDE”"
+
+#: autostart.cpp:37
+#, fuzzy, kde-format
+#| msgid "(c) 2006-2007-2008 Autostart Manager team"
+msgid "Copyright © 2006–2020 Autostart Manager team"
+msgstr "© 2006, 2007, 2008 raspracoŭniki kiraŭnika aŭtamatyčnaha ŭklučeńnia"
+
+#: autostart.cpp:38
+#, kde-format
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: autostart.cpp:39
+#, kde-format
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: autostart.cpp:39
+#, kde-format
+msgid "Maintainer"
+msgstr "Dahladnik"
+
+#: autostart.cpp:40
+#, kde-format
+msgid "Nicolas Fella"
+msgstr ""
+
+#: autostartmodel.cpp:312
+#, kde-format
+msgid "\"%1\" is not an absolute url."
+msgstr ""
+
+#: autostartmodel.cpp:315
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr ""
+
+#: autostartmodel.cpp:318
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr ""
+
+#: autostartmodel.cpp:321
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr ""
+
+#, fuzzy
+#~| msgid "Shell script:"
+#~ msgid "Shell script path:"
+#~ msgstr "Skrypt abałonki:"
+
+#~ msgid "Create as symlink"
+#~ msgstr "Stvary symbalny łuč"
+
+#, fuzzy
+#~| msgid "Autostart only in KDE"
+#~ msgid "Autostart only in Plasma"
+#~ msgstr "Aŭtamatyčna ŭklučaj tolki ŭ „KDE”"
+
+#~ msgid "Name"
+#~ msgstr "Nazva"
+
+#~ msgid "Command"
+#~ msgstr "Zahad"
+
+#~ msgid "Status"
+#~ msgstr "Stan"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "@title:column The name of the column that decides if the program is run "
+#~| "on kde startup, on kde shutdown, etc"
+#~| msgid "Run On"
+#~ msgctxt ""
+#~ "@title:column The name of the column that decides if the program is run "
+#~ "on session startup, on session shutdown, etc"
+#~ msgid "Run On"
+#~ msgstr "Čas uklučeńnia"
+
+#, fuzzy
+#~| msgid "KDE Autostart Manager"
+#~ msgid "Session Autostart Manager"
+#~ msgstr "Kiraŭnik aŭtamatyčnaha ŭklučeńnia dla „KDE”"
+
+#~ msgctxt "The program will be run"
+#~ msgid "Enabled"
+#~ msgstr "Uklučanaja"
+
+#~ msgctxt "The program won't be run"
+#~ msgid "Disabled"
+#~ msgstr "Vyklučanaja"
+
+#~ msgid "Desktop File"
+#~ msgstr "Fajł stała"
+
+#~ msgid "Script File"
+#~ msgstr "Fajł skrypta"
+
+#, fuzzy
+#~| msgid "&Properties"
+#~ msgid "&Properties..."
+#~ msgstr "&Ułaścivaści"
+
+#~ msgid "Add Script..."
+#~ msgstr "Dadaj skrypt..."
+
+#~ msgid "&Remove"
+#~ msgstr "&Vydali"
+
+#, fuzzy
+#~| msgid "Advanced"
+#~ msgid "Advanced..."
+#~ msgstr "Asablivaje"
+
+#~ msgid "Add Program..."
+#~ msgstr "Dadaj prahramu..."
+
+#~ msgid "Startup"
+#~ msgstr "Uklučeńnie kamputara"
+
+#, fuzzy
+#~| msgid ""
+#~| "KDE only reads files with sh extensions for setting up the environment."
+#~ msgid ""
+#~ "Only files with “.sh” extensions are allowed for setting up the "
+#~ "environment."
+#~ msgstr ""
+#~ "Systema „KDE” dla naładžvańnia rabočaha asiarodździa čytaje tolki fajły z "
+#~ "pašyreńniem „.sh”."
+
+#~ msgid "Pre-KDE startup"
+#~ msgstr "Uklučeńnie pierad „KDE”"
+
+#~ msgid "Shutdown"
+#~ msgstr "Vyklučeńnie kamputara"
+
+#, fuzzy
+#~ msgid "1"
+#~ msgstr "1"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-27 02:32+0200\n"
+"POT-Creation-Date: 2020-09-28 02:35+0200\n"
 "PO-Revision-Date: 2008-11-07 00:27+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -59,35 +59,29 @@ msgstr "&Pryładździe"
 msgid "&Settings"
 msgstr "&Nałady"
 
-#. i18n: ectx: Menu (help)
-#: data/kwriteui.rc:55
-#, kde-format
-msgid "&Help"
-msgstr "&Dapamoha"
-
 #. i18n: ectx: ToolBar (mainToolBar)
-#: data/kwriteui.rc:60
+#: data/kwriteui.rc:56
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: kwrite.cpp:132
+#: kwrite.cpp:131
 #, fuzzy, kde-format
 #| msgid "Use this to close the current document"
 msgid "Use this command to close the current document"
 msgstr "Hetak možna začynić dziejny dakument."
 
-#: kwrite.cpp:136
+#: kwrite.cpp:135
 #, kde-format
 msgid "Use this command to create a new document"
 msgstr "Hetak možna stvaryć novy dakument."
 
-#: kwrite.cpp:137
+#: kwrite.cpp:136
 #, kde-format
 msgid "Use this command to open an existing document for editing"
 msgstr "Hetak možna adčynić najaŭny dakument, kab adredahavać jaho."
 
-#: kwrite.cpp:141
+#: kwrite.cpp:140
 #, kde-format
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
@@ -96,74 +90,69 @@ msgstr ""
 "Hetak možna pahladzieć śpis niadaŭna adčynienych fajłaŭ i vybrać ź jaho "
 "patrebny fajł."
 
-#: kwrite.cpp:145
+#: kwrite.cpp:144
 #, kde-format
 msgid "&New Window"
 msgstr "&Novaje akno"
 
-#: kwrite.cpp:147
+#: kwrite.cpp:146
 #, kde-format
 msgid "Create another view containing the current document"
 msgstr "Stvary inšy prahlad dla dziejnaha dakumenta"
 
-#: kwrite.cpp:149
+#: kwrite.cpp:148
 #, kde-format
 msgid "Close the current document view"
 msgstr "Začyni dziejny prahlad dakumenta"
 
-#: kwrite.cpp:158
+#: kwrite.cpp:157
 #, kde-format
 msgid "Use this command to show or hide the view's statusbar"
 msgstr "Hetak možna pakazać ci schavać panel stanu dla prahladu."
 
-#: kwrite.cpp:160
+#: kwrite.cpp:159
 #, fuzzy, kde-format
 #| msgid "Sho&w Path"
 msgid "Sho&w Path in Titlebar"
 msgstr "Pakazvaj &ściežku"
 
-#: kwrite.cpp:163
+#: kwrite.cpp:162
 #, kde-format
 msgid "Show the complete document path in the window caption"
 msgstr "Pakazvaj poŭnuju ściežku dakumenta ŭ zahałoŭku akna"
 
-#: kwrite.cpp:166
+#: kwrite.cpp:165
 #, kde-format
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr "Naładź poviazi klavijaturnych skarotaŭ hetaj aplikacyi"
 
-#: kwrite.cpp:169
+#: kwrite.cpp:168
 #, kde-format
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr "Naładź źmieściva panelaŭ pryładździa"
 
-#: kwrite.cpp:172
-#, kde-format
-msgid "&About Editor Component"
-msgstr "&Pra ŭnutrany redaktar"
-
-#: kwrite.cpp:230 kwrite.cpp:232
+#: kwrite.cpp:225 kwrite.cpp:227
 #, kde-format
 msgid "Open File"
 msgstr "Adčyni fajł"
 
-#: kwrite.cpp:277
+#: kwrite.cpp:272
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: kwrite.cpp:280
+#: kwrite.cpp:275
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
-#: kwrite.cpp:444
+#: kwrite.cpp:433
 #, kde-format
 msgid " [read only]"
 msgstr ""
 
-#: kwrite.cpp:448
+#: kwrite.cpp:437
 #, kde-format
 msgid "Untitled"
 msgstr "Biaz nazvy"
@@ -523,6 +512,12 @@ msgstr ""
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr "Nie ŭdałosia adčynić fajł „%1”: heta nie zvyčajny fajł, ale kataloh."
+
+#~ msgid "&Help"
+#~ msgstr "&Dapamoha"
+
+#~ msgid "&About Editor Component"
+#~ msgstr "&Pra ŭnutrany redaktar"
 
 #~ msgid "Developer & Highlight wizard"
 #~ msgstr "Raspracoŭnik dy aŭtar mahčymaściaŭ padśviatleńnia"

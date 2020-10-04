@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-29 02:31+0200\n"
+"POT-Creation-Date: 2020-10-04 02:35+0200\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1226,7 +1226,7 @@ msgstr ""
 msgid "&Scale output"
 msgstr ""
 
-#: profile/Profile.cpp:165
+#: profile/Profile.cpp:166
 #, fuzzy, kde-format
 #| msgid "Set as Default"
 msgctxt "Name of the default/builtin profile"
@@ -1384,19 +1384,19 @@ msgstr "Kansol systemy „Solaris”"
 msgid "Bell in session '%1'"
 msgstr "Syhnał u sesii „%1”"
 
-#: session/Session.cpp:411
+#: session/Session.cpp:412
 #, kde-format
 msgid "Could not find binary: "
 msgstr "Nie ŭdałosia znajści prahramu: "
 
-#: session/Session.cpp:420
+#: session/Session.cpp:421
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "Uvaha: "
 
-#: session/Session.cpp:478
+#: session/Session.cpp:479
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -1405,22 +1405,22 @@ msgstr ""
 "Nie ŭdałosia znajści „%1”, zamiest jaho pačynajem z „%2”. Spraŭdź nałady "
 "svajho profilu."
 
-#: session/Session.cpp:481
+#: session/Session.cpp:482
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "Nie ŭdałosia znajści interakcyjnaj abałonki, kab jaje ŭklučyć."
 
-#: session/Session.cpp:519
+#: session/Session.cpp:520
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
 
-#: session/Session.cpp:659
+#: session/Session.cpp:660
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Cišynia ŭ sesii „%1”"
 
-#: session/Session.cpp:928
+#: session/Session.cpp:929
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -1429,29 +1429,29 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: session/Session.cpp:964
+#: session/Session.cpp:965
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Skončana"
 
-#: session/Session.cpp:978 session/Session.cpp:991
+#: session/Session.cpp:979 session/Session.cpp:992
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Prahrama „%1” złamałasia."
 
-#: session/Session.cpp:980
+#: session/Session.cpp:981
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 
-#: session/Session.cpp:1423
+#: session/Session.cpp:1424
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
 
-#: session/Session.cpp:1739
+#: session/Session.cpp:1740
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Aktyŭnaść u sesii „%1”"
@@ -2740,6 +2740,12 @@ msgstr "Uklučy vyjaŭleńnie tekstu ŭ roznych kirunkach"
 #, kde-format
 msgid "Default character encoding:"
 msgstr "Zmoŭčanaje kadavańnie znakaŭ:"
+
+#. i18n: ectx: property (text), widget (QLabel, peekPrimaryLabel)
+#: widgets/EditProfileAdvancedPage.ui:276
+#, kde-format
+msgid "Shortcut for peeking the primary screen:"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, colorSchemeTab)
 #: widgets/EditProfileAppearancePage.ui:33
@@ -4166,12 +4172,12 @@ msgstr ""
 msgid "This terminal is read-only."
 msgstr ""
 
-#: widgets/TerminalDisplay.cpp:3754
+#: widgets/TerminalDisplay.cpp:3760
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: widgets/TerminalDisplay.cpp:3786
+#: widgets/TerminalDisplay.cpp:3792
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"

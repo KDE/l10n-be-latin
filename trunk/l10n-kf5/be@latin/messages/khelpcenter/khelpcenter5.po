@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-12 02:33+0200\n"
+"POT-Creation-Date: 2020-10-13 02:34+0200\n"
 "PO-Revision-Date: 2008-11-26 01:23+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -209,7 +209,7 @@ msgstr "Taksama: "
 msgid "Search Results"
 msgstr "Vyniki pošuku"
 
-#: grantleeformatter.cpp:144 searchengine.cpp:273
+#: grantleeformatter.cpp:144 searchengine.cpp:274
 #, fuzzy, kde-format
 msgid "Search Results for '%1':"
 msgstr "Vyniki pošuku dla „%1”:"
@@ -261,77 +261,77 @@ msgstr "&Idzi"
 msgid "Main Toolbar"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: mainwindow.cpp:73
+#: mainwindow.cpp:80
 #, kde-format
 msgid "Search Error Log"
 msgstr "Log pamyłak pošuku"
 
-#: mainwindow.cpp:126
+#: mainwindow.cpp:132
 #, kde-format
 msgid "Preparing Index"
 msgstr "Padrychtoŭvańnie indeksu"
 
-#: mainwindow.cpp:167
+#: mainwindow.cpp:175
 #, kde-format
 msgid "Ready"
 msgstr "Hatova"
 
-#: mainwindow.cpp:218
+#: mainwindow.cpp:226
 #, kde-format
 msgid "Previous Page"
 msgstr "Papiaredniaja staronka"
 
-#: mainwindow.cpp:220
+#: mainwindow.cpp:228
 #, kde-format
 msgid "Moves to the previous page of the document"
 msgstr "Pierachodzić da papiaredniaj staronki dakumenta"
 
-#: mainwindow.cpp:224
+#: mainwindow.cpp:232
 #, kde-format
 msgid "Next Page"
 msgstr "Nastupnaja staronka"
 
-#: mainwindow.cpp:226
+#: mainwindow.cpp:234
 #, kde-format
 msgid "Moves to the next page of the document"
 msgstr "Pierachodzić da nastupnaj staronki dakumenta"
 
-#: mainwindow.cpp:231
+#: mainwindow.cpp:239
 #, kde-format
 msgid "Table of &Contents"
 msgstr "Ź&miest"
 
-#: mainwindow.cpp:232
+#: mainwindow.cpp:240
 #, kde-format
 msgid "Table of contents"
 msgstr "Źmiest"
 
-#: mainwindow.cpp:233
+#: mainwindow.cpp:241
 #, kde-format
 msgid "Go back to the table of contents"
 msgstr "Viarnisia da źmiestu"
 
-#: mainwindow.cpp:239
+#: mainwindow.cpp:247
 #, kde-format
 msgid "&Last Search Result"
 msgstr "&Apošni vynik pošuku"
 
-#: mainwindow.cpp:257
+#: mainwindow.cpp:265
 #, kde-format
 msgid "Configure Fonts..."
 msgstr "Naładź šryfty..."
 
-#: mainwindow.cpp:261
+#: mainwindow.cpp:269
 #, kde-format
 msgid "Increase Font Sizes"
 msgstr "Pavialič pamiery šryftoŭ"
 
-#: mainwindow.cpp:266
+#: mainwindow.cpp:274
 #, kde-format
 msgid "Decrease Font Sizes"
 msgstr "Pamienš pamiery šryftoŭ"
 
-#: mainwindow.cpp:282
+#: mainwindow.cpp:290
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Bookmarks"
@@ -358,28 +358,28 @@ msgstr "Opcyi pošuku"
 msgid "G&lossary"
 msgstr "&Słoŭnik"
 
-#: navigator.cpp:437
+#: navigator.cpp:435
 #, kde-format
 msgid "Start Page"
 msgstr "Pačatkovaja staronka"
 
-#: navigator.cpp:438
+#: navigator.cpp:436
 #, kde-format
 msgid "KDE Help Center"
 msgstr "Centar dapamohi „KDE”"
 
-#: navigator.cpp:521
+#: navigator.cpp:519
 #, kde-format
 msgid "Unable to run search program."
 msgstr "Nie ŭdałosia ŭklučyć prahramu pošuku."
 
-#: navigator.cpp:614
+#: navigator.cpp:612
 #, fuzzy, kde-format
 #| msgid "Build Search Index..."
 msgid "Updating search index..."
 msgstr "Stvary indeks pošuku..."
 
-#: navigator.cpp:625
+#: navigator.cpp:623
 #, fuzzy, kde-format
 #| msgid "Rebuilding cache... done."
 msgid "Updating search index... done."
@@ -395,7 +395,7 @@ msgstr "Pamyłka: typ dakumentaŭ nie aznačany."
 msgid "Error: No search handler for document type '%1'."
 msgstr "Pamyłka: dla typu dakumentaŭ „%1” niama modula pošuku."
 
-#: searchengine.cpp:243
+#: searchengine.cpp:244
 #, kde-format
 msgid "No valid search handler found."
 msgstr "Nie ŭdałosia znajści słušny modul pošuku."
@@ -405,92 +405,92 @@ msgstr "Nie ŭdałosia znajści słušny modul pošuku."
 msgid "Error executing search command '%1'."
 msgstr "Padčas vykanańnia zahadu pošuku „%1” uźnikła pamyłka."
 
-#: searchhandler.cpp:93
+#: searchhandler.cpp:90
 #, kde-format
 msgid "Error: %1"
 msgstr "Pamyłka: %1"
 
-#: searchhandler.cpp:158 searchhandler.cpp:163
+#: searchhandler.cpp:155 searchhandler.cpp:160
 #, kde-format
 msgid "'%1' not found, check your installation"
 msgstr ""
 
-#: searchhandler.cpp:168
+#: searchhandler.cpp:165
 #, kde-format
 msgid "'%1' not found, install the package containing it"
 msgstr ""
 
-#: searchhandler.cpp:215
+#: searchhandler.cpp:212
 #, kde-format
 msgid "No search command or URL specified."
 msgstr "Zahad pošuku ci adras nie aznačanyja."
 
-#: searchwidget.cpp:55
+#: searchwidget.cpp:54
 #, kde-format
 msgid "and"
 msgstr "i"
 
-#: searchwidget.cpp:56
+#: searchwidget.cpp:55
 #, kde-format
 msgid "or"
 msgstr "ci"
 
-#: searchwidget.cpp:58
+#: searchwidget.cpp:57
 #, kde-format
 msgid "&Method:"
 msgstr "&Sposab:"
 
-#: searchwidget.cpp:74
+#: searchwidget.cpp:73
 #, fuzzy, kde-format
 msgid "Max. &results:"
 msgstr "Naj&bolš vynikaŭ:"
 
-#: searchwidget.cpp:89
+#: searchwidget.cpp:88
 #, kde-format
 msgid "&Scope selection:"
 msgstr "&Vybar absiahu:"
 
-#: searchwidget.cpp:97
+#: searchwidget.cpp:96
 #, kde-format
 msgid "Scope"
 msgstr "Absiah"
 
-#: searchwidget.cpp:338
+#: searchwidget.cpp:337
 #, kde-format
 msgctxt "Label for searching documentation using custom (user defined) scope"
 msgid "Custom"
 msgstr "Ułasny"
 
-#: searchwidget.cpp:340
+#: searchwidget.cpp:339
 #, kde-format
 msgctxt "Label for searching documentation using default search scope"
 msgid "Default"
 msgstr "Zmoŭčany"
 
-#: searchwidget.cpp:342
+#: searchwidget.cpp:341
 #, kde-format
 msgctxt "Label for searching documentation in all subsections"
 msgid "All"
 msgstr "Usiudy"
 
-#: searchwidget.cpp:344
+#: searchwidget.cpp:343
 #, kde-format
 msgctxt "Label for scope that deselects all search subsections"
 msgid "None"
 msgstr "Nidzie"
 
-#: searchwidget.cpp:346
+#: searchwidget.cpp:345
 #, kde-format
 msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "nieviadomy"
 
-#: view.cpp:241
+#: view.cpp:243
 #, kde-format
 msgid "Copy Link Address"
 msgstr "Skapijuj adras spasyłki"
 
-#: view.cpp:325
+#: view.cpp:327
 #, kde-format
 msgid ""
 "<p>Read the topic documentation in this window.<br /><br />Press <b>Space</"

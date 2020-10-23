@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-08 03:31+0100\n"
+"POT-Creation-Date: 2020-10-23 02:31+0200\n"
 "PO-Revision-Date: 2008-09-19 14:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -187,17 +187,17 @@ msgstr "realny čas: "
 msgid "Priority:"
 msgstr "Važnaść:"
 
-#: sudlg.cpp:34
+#: sudlg.cpp:29
 #, kde-format
 msgid "Run as %1"
 msgstr "Uklučy ad asoby „%1”"
 
-#: sudlg.cpp:38
+#: sudlg.cpp:33
 #, kde-format
 msgid "Please enter your password below."
 msgstr "Upišy nižej svoj parol."
 
-#: sudlg.cpp:42
+#: sudlg.cpp:37
 #, kde-format
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
@@ -208,7 +208,7 @@ msgstr ""
 "b>. Upišy nižej jahony parol albo klikni ŭ knopku „Abmini”, kab pakinuć "
 "dziejnyja dazvoły."
 
-#: sudlg.cpp:46
+#: sudlg.cpp:41
 #, kde-format
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
@@ -217,7 +217,7 @@ msgstr ""
 "Zapatrabavanaja aperacyja vymahaje <b>dazvołaŭ, jak u karystańnika „root”</"
 "b>. Upišy nižej jahony parol."
 
-#: sudlg.cpp:50
+#: sudlg.cpp:45
 #, kde-format
 msgid ""
 "The action you requested needs additional privileges. Please enter the "
@@ -228,7 +228,7 @@ msgstr ""
 "karystańnika <b>%1</b> albo klikni ŭ knopku „Abmini”, kab pakinuć dziejnyja "
 "dazvoły."
 
-#: sudlg.cpp:55
+#: sudlg.cpp:50
 #, kde-format
 msgid ""
 "The action you requested needs additional privileges. Please enter the "
@@ -237,12 +237,12 @@ msgstr ""
 "Zapatrabavanaja aperacyja vymahaje dadatkovych dazvołaŭ. Upišy nižej parol "
 "karystańnika <b>%1</b>."
 
-#: sudlg.cpp:79
+#: sudlg.cpp:74
 #, kde-format
 msgid "Conversation with su failed."
 msgstr "Nie ŭdałosia spałučycca z prahramaj „su”."
 
-#: sudlg.cpp:86
+#: sudlg.cpp:81
 #, kde-format
 msgid ""
 "The program 'su' could not be found.<br />Ensure your PATH is set correctly."
@@ -250,7 +250,7 @@ msgstr ""
 "Nie ŭdałosia znajści prahramu „su”.<br />Spraŭdź, ci adpaviadaje źmiennaja "
 "vartaść „$PATH” systemie."
 
-#: sudlg.cpp:96
+#: sudlg.cpp:91
 #, kde-format
 msgid ""
 "Permission denied.<br />Possibly incorrect password, please try again.<br /"
@@ -258,7 +258,7 @@ msgid ""
 "this program."
 msgstr ""
 
-#: sudlg.cpp:103
+#: sudlg.cpp:98
 #, kde-format
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr ""

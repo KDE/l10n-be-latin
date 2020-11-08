@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_thumbnail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-30 02:30+0100\n"
+"POT-Creation-Date: 2020-11-08 02:24+0100\n"
 "PO-Revision-Date: 2008-09-19 15:12+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -25,53 +25,53 @@ msgctxt "@option:check"
 msgid "Rotate the image automatically"
 msgstr ""
 
-#: thumbnail.cpp:199
+#: thumbnail.cpp:200
 #, kde-format
 msgid "No MIME Type specified."
 msgstr "Typ „MIME” nie aznačany."
 
-#: thumbnail.cpp:207
+#: thumbnail.cpp:208
 #, kde-format
 msgid "No or invalid size specified."
 msgstr "Pamier albo nie aznačany, albo aznačany niapravilna."
 
-#: thumbnail.cpp:228
+#: thumbnail.cpp:229
 #, fuzzy, kde-format
 #| msgid "Cannot create thumbnail for %1"
 msgid "Cannot create thumbnail for directory"
 msgstr "Nie ŭdałosia stvaryć padhlad dla „%1”."
 
-#: thumbnail.cpp:240
+#: thumbnail.cpp:241
 #, kde-format
 msgid "No plugin specified."
 msgstr "Plugin nie aznačany."
 
-#: thumbnail.cpp:246
+#: thumbnail.cpp:247
 #, kde-format
 msgid "Cannot load ThumbCreator %1"
 msgstr "Nie ŭdałosia źmiaścić u pamiać modul padhladu „%1”."
 
-#: thumbnail.cpp:255
+#: thumbnail.cpp:256
 #, kde-format
 msgid "Cannot create thumbnail for %1"
 msgstr "Nie ŭdałosia stvaryć padhlad dla „%1”."
 
-#: thumbnail.cpp:264
+#: thumbnail.cpp:265
 #, kde-format
 msgid "Failed to create a thumbnail."
 msgstr "Nie ŭdałosia stvaryć padhlad."
 
-#: thumbnail.cpp:276
+#: thumbnail.cpp:277
 #, kde-format
 msgid "Could not write image."
 msgstr "Nie ŭdałosia zapisać vyjavu."
 
-#: thumbnail.cpp:301
+#: thumbnail.cpp:302
 #, kde-format
 msgid "Failed to attach to shared memory segment %1"
 msgstr "Nie ŭdałosia pryčapicca da kavałka supolnaj pamiaci „%1”."
 
-#: thumbnail.cpp:305
+#: thumbnail.cpp:306
 #, kde-format
 msgid "Image is too big for the shared memory segment"
 msgstr "Vyjava nadta vialikaja dla kavałka supolnaj pamiaci."

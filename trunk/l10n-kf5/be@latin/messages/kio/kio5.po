@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-15 02:11+0100\n"
+"POT-Creation-Date: 2020-11-16 02:10+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3564,7 +3564,7 @@ msgid "*|All Folders"
 msgstr "*|Usie katalohi"
 
 #: filewidgets/kfilewidget.cpp:2083 widgets/executablefileopendialog.cpp:30
-#: widgets/kfileitemactions.cpp:517
+#: widgets/kfileitemactions.cpp:506
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
@@ -7589,43 +7589,43 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr "Typ"
 
-#: widgets/kfileitemactions.cpp:314
+#: widgets/kfileitemactions.cpp:305
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "&Aperacyi"
 
-#: widgets/kfileitemactions.cpp:506
+#: widgets/kfileitemactions.cpp:495
 #, fuzzy, kde-format
 #| msgid "Open &with %1"
 msgid "&Open with %1"
 msgstr "Adčyni &ŭ: %1"
 
-#: widgets/kfileitemactions.cpp:538
+#: widgets/kfileitemactions.cpp:527
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "&Adčyni ŭ"
 
-#: widgets/kfileitemactions.cpp:557
+#: widgets/kfileitemactions.cpp:545
 #, fuzzy, kde-format
 #| msgid "&Application"
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
 msgstr "&Aplikacyja"
 
-#: widgets/kfileitemactions.cpp:559 widgets/kfileitemactions.cpp:570
+#: widgets/kfileitemactions.cpp:547 widgets/kfileitemactions.cpp:558
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "&Adčyni ŭ..."
 
-#: widgets/kfileitemactions.cpp:687
+#: widgets/kfileitemactions.cpp:674
 #, kde-format
 msgid "Open &with %1"
 msgstr "Adčyni &ŭ: %1"
 
-#: widgets/kfileitemactions.cpp:689
+#: widgets/kfileitemactions.cpp:676
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"

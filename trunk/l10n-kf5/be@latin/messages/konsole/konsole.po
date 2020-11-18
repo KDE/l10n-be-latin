@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-15 02:37+0100\n"
+"POT-Creation-Date: 2020-11-18 02:48+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4081,11 +4081,10 @@ msgstr "Šukaje nastupny adpaviednik dla šukanaha vyrazu."
 msgid "Print Shell"
 msgstr "Abałonka"
 
-#: widgets/RenameTabWidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "New Color Scheme"
-msgid "Color from theme"
-msgstr "Novaja schiema koleraŭ"
+#: widgets/RenameTabWidget.cpp:37
+#, kde-format
+msgid "None"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remoteTabTitleEdit)
 #: widgets/RenameTabWidget.ui:41
@@ -4265,6 +4264,11 @@ msgstr "&Źmiani nazvu kartki..."
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "&Začyni kartku"
+
+#, fuzzy
+#~| msgid "New Color Scheme"
+#~ msgid "Color from theme"
+#~ msgstr "Novaja schiema koleraŭ"
 
 #, fuzzy
 #~| msgid "Edit Profile \"%1\""

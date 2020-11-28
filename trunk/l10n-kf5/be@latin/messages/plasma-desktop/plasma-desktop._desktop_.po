@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-26 01:53+0000\n"
+"POT-Creation-Date: 2020-11-28 01:48+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -29,6 +29,19 @@ msgstr "Kiraŭnik zadańniaŭ"
 msgctxt "Comment"
 msgid "Switch between running applications"
 msgstr "Pieraklučeńnie dziejnych aplikacyjaŭ"
+
+#: applets/keyboardlayout/metadata.desktop:2
+msgctxt "Name"
+msgid "Keyboard Layout"
+msgstr "Vykład klavijatury"
+
+#: applets/keyboardlayout/metadata.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Layout"
+msgctxt "Comment"
+msgid "Show/switch keyboard layout"
+msgstr "Vykład klavijatury"
 
 #: applets/kicker/package/metadata.desktop:2
 #, fuzzy
@@ -1787,10 +1800,6 @@ msgstr "Sietkavaja pryłada"
 #~ msgctxt "Comment"
 #~ msgid "Accessibility Improvements for Disabled Persons"
 #~ msgstr "Palapšeńnie dastupnaści prahramaŭ dla invalidaŭ"
-
-#~ msgctxt "Name"
-#~ msgid "Keyboard Layout"
-#~ msgstr "Vykład klavijatury"
 
 #, fuzzy
 #~| msgctxt "GenericName"

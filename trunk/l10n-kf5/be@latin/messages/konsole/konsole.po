@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-11 02:47+0100\n"
+"POT-Creation-Date: 2020-12-13 02:45+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1408,19 +1408,19 @@ msgstr "Kansol systemy „Solaris”"
 msgid "Bell in session '%1'"
 msgstr "Syhnał u sesii „%1”"
 
-#: session/Session.cpp:403
+#: session/Session.cpp:405
 #, kde-format
 msgid "Could not find binary: "
 msgstr "Nie ŭdałosia znajści prahramu: "
 
-#: session/Session.cpp:412
+#: session/Session.cpp:414
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "Uvaha: "
 
-#: session/Session.cpp:474
+#: session/Session.cpp:476
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -1429,22 +1429,22 @@ msgstr ""
 "Nie ŭdałosia znajści „%1”, zamiest jaho pačynajem z „%2”. Spraŭdź nałady "
 "svajho profilu."
 
-#: session/Session.cpp:477
+#: session/Session.cpp:479
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "Nie ŭdałosia znajści interakcyjnaj abałonki, kab jaje ŭklučyć."
 
-#: session/Session.cpp:515
+#: session/Session.cpp:517
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
 
-#: session/Session.cpp:655
+#: session/Session.cpp:657
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "Cišynia ŭ sesii „%1”"
 
-#: session/Session.cpp:924
+#: session/Session.cpp:926
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -1453,29 +1453,29 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: session/Session.cpp:960
+#: session/Session.cpp:962
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Skončana"
 
-#: session/Session.cpp:974 session/Session.cpp:987
+#: session/Session.cpp:976 session/Session.cpp:989
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Prahrama „%1” złamałasia."
 
-#: session/Session.cpp:976
+#: session/Session.cpp:978
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 
-#: session/Session.cpp:1419
+#: session/Session.cpp:1421
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
 
-#: session/Session.cpp:1735
+#: session/Session.cpp:1737
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "Aktyŭnaść u sesii „%1”"

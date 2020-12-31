@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-25 02:41+0100\n"
+"POT-Creation-Date: 2020-12-31 02:40+0100\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2782,7 +2782,7 @@ msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "Pieraklučy ŭ kartku %1"
 
-#: Vt102Emulation.cpp:1239
+#: Vt102Emulation.cpp:1237
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
@@ -3210,57 +3210,57 @@ msgstr ""
 msgid "Display Vertical line at column:"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:72
+#: widgets/EditProfileDialog.cpp:73
 #, kde-format
 msgid "Edit Profile"
 msgstr "Adredahuj profil"
 
-#: widgets/EditProfileDialog.cpp:103
+#: widgets/EditProfileDialog.cpp:104
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "@title:tab Generic, common options"
 msgid "General"
 msgstr "Hałoŭnaje"
 
-#: widgets/EditProfileDialog.cpp:114
+#: widgets/EditProfileDialog.cpp:115
 #, kde-format
 msgid "Tabs"
 msgstr "Kartki"
 
-#: widgets/EditProfileDialog.cpp:132
+#: widgets/EditProfileDialog.cpp:133
 #, kde-format
 msgid "Appearance"
 msgstr "Vonkavaść"
 
-#: widgets/EditProfileDialog.cpp:149
+#: widgets/EditProfileDialog.cpp:150
 #, kde-format
 msgid "Scrolling"
 msgstr "Prakručvańnie"
 
-#: widgets/EditProfileDialog.cpp:164
+#: widgets/EditProfileDialog.cpp:165
 #, kde-format
 msgid "Keyboard"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:165
+#: widgets/EditProfileDialog.cpp:166
 #, fuzzy, kde-format
 #| msgid "Key Bindings"
 msgid "Key bindings"
 msgstr "Poviazi klavišaŭ"
 
-#: widgets/EditProfileDialog.cpp:177
+#: widgets/EditProfileDialog.cpp:178
 #, kde-format
 msgid "Mouse"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:194
+#: widgets/EditProfileDialog.cpp:195
 #, fuzzy, kde-format
 #| msgid "Advanced"
 msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr "Asablivaje"
 
-#: widgets/EditProfileDialog.cpp:302
+#: widgets/EditProfileDialog.cpp:303
 #, kde-format
 msgid ""
 "<p>Konsole does not have permission to save this profile to:<br /> \"%1\"</"
@@ -3269,17 +3269,17 @@ msgid ""
 "settings to a new profile.</p>"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:323
+#: widgets/EditProfileDialog.cpp:324
 #, kde-format
 msgid "<p>Each profile must have a name before it can be saved into disk.</p>"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:331
+#: widgets/EditProfileDialog.cpp:332
 #, kde-format
 msgid "<p>A profile with this name already exists.</p>"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:365
+#: widgets/EditProfileDialog.cpp:366
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgid "Editing profile: %2"
@@ -3288,12 +3288,12 @@ msgstr[0] "Adredahuj profil „%1”"
 msgstr[1] "Adredahuj profil „%1”"
 msgstr[2] "Adredahuj profil „%1”"
 
-#: widgets/EditProfileDialog.cpp:370
+#: widgets/EditProfileDialog.cpp:371
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "Adredahuj profil „%1”"
 
-#: widgets/EditProfileDialog.cpp:458
+#: widgets/EditProfileDialog.cpp:459
 #, kde-format
 msgctxt ""
 "Suffix of the number of columns (N columns). The leading space is needed to "
@@ -3304,7 +3304,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/EditProfileDialog.cpp:459
+#: widgets/EditProfileDialog.cpp:460
 #, kde-format
 msgctxt ""
 "Suffix of the number of rows (N rows). The leading space is needed to "
@@ -3315,17 +3315,39 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/EditProfileDialog.cpp:511
+#: widgets/EditProfileDialog.cpp:471
+#, kde-format
+msgid "System Bell"
+msgstr ""
+
+#: widgets/EditProfileDialog.cpp:471
+#, fuzzy, kde-format
+#| msgid "Paste Selection"
+msgid "System Notifications"
+msgstr "Uklej vyłučeńnie"
+
+#: widgets/EditProfileDialog.cpp:472
+#, fuzzy, kde-format
+#| msgid "Visual effects"
+msgid "Visual Bell"
+msgstr "Vidočnyja efekty"
+
+#: widgets/EditProfileDialog.cpp:472
+#, kde-format
+msgid "Ignore Bell Events"
+msgstr ""
+
+#: widgets/EditProfileDialog.cpp:523
 #, kde-format
 msgid "Edit Environment"
 msgstr "Adredahuj asiarodździe"
 
-#: widgets/EditProfileDialog.cpp:512
+#: widgets/EditProfileDialog.cpp:524
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:546
+#: widgets/EditProfileDialog.cpp:558
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
@@ -3334,18 +3356,18 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: widgets/EditProfileDialog.cpp:639
+#: widgets/EditProfileDialog.cpp:651
 #, kde-format
 msgid "Select Initial Directory"
 msgstr "Vybiery pačatkovy kataloh"
 
-#: widgets/EditProfileDialog.cpp:1205
+#: widgets/EditProfileDialog.cpp:1217
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1390
+#: widgets/EditProfileDialog.cpp:1402
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
@@ -3354,7 +3376,7 @@ msgstr ""
 "Hetaja schiema koleraŭ karystajecca prazrystym fonam, jaki nia ŭmieje "
 "absłuhoŭvać hetaja systema."
 
-#: widgets/EditProfileDialog.cpp:1396
+#: widgets/EditProfileDialog.cpp:1408
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
@@ -3467,6 +3489,13 @@ msgid ""
 "Configure Konsole → General → Remember window size</span> must be disabled "
 "for these entries to work.</p></body></html>"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, terminalBellLabel)
+#: widgets/EditProfileGeneralPage.ui:321
+#, fuzzy, kde-format
+#| msgid "Terminal emulator"
+msgid "Terminal bell mode:"
+msgstr "Emulatar terminału"
 
 #. i18n: ectx: property (text), widget (QLabel, note)
 #: widgets/EditProfileKeyboardPage.ui:29
@@ -4283,35 +4312,35 @@ msgctxt "@info:tooltip"
 msgid "Restore terminal"
 msgstr "&Začyni kartku"
 
-#: widgets/ViewContainer.cpp:58
+#: widgets/ViewContainer.cpp:59
 #, fuzzy, kde-format
 #| msgid "&Detach View"
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "&Adčapi prahlad"
 
-#: widgets/ViewContainer.cpp:63
+#: widgets/ViewContainer.cpp:64
 #, fuzzy, kde-format
 #| msgid "Close the search bar"
 msgctxt "@info:tooltip"
 msgid "Close this tab"
 msgstr "Začyni panel pošuku"
 
-#: widgets/ViewContainer.cpp:100
+#: widgets/ViewContainer.cpp:101
 #, fuzzy, kde-format
 #| msgid "&Detach View"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "&Adčapi prahlad"
 
-#: widgets/ViewContainer.cpp:107
+#: widgets/ViewContainer.cpp:108
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Configure or Rename Tab..."
 msgstr "&Źmiani nazvu kartki..."
 
-#: widgets/ViewContainer.cpp:114
+#: widgets/ViewContainer.cpp:115
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
@@ -4387,11 +4416,6 @@ msgstr "&Začyni kartku"
 #~| msgid "Paste Selection"
 #~ msgctxt "@title Preferences page name"
 #~ msgid "File Location"
-#~ msgstr "Uklej vyłučeńnie"
-
-#, fuzzy
-#~| msgid "Paste Selection"
-#~ msgid "Use system &location"
 #~ msgstr "Uklej vyłučeńnie"
 
 #, fuzzy

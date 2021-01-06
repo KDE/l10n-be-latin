@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-05 01:52+0000\n"
+"POT-Creation-Date: 2021-01-06 02:25+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -440,98 +440,26 @@ msgctxt "Comment"
 msgid "Configure the File Indexer"
 msgstr "Naładź spraŭdžvańnie pravapisu"
 
-#: kcms/componentchooser/componentchooser.desktop:13
+#: kcms/componentchooser/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Default Applications"
 msgstr "Zmoŭčanyja aplikacyi"
 
-#: kcms/componentchooser/componentchooser.desktop:99
+#: kcms/componentchooser/package/metadata.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Default Applications"
 msgctxt "Comment"
-msgid "Default Applications"
+msgid "Choose default Applications"
 msgstr "Zmoŭčanyja aplikacyi"
 
-#: kcms/componentchooser/componentchooser.desktop:152
+#: kcms/componentchooser/package/metadata.desktop:13
 msgctxt "X-KDE-Keywords"
 msgid ""
-"default applications,components,component chooser,resources,e-mail,email "
-"client,text editor,instant messenger,terminal emulator,web browser,URL,"
-"hyperlinks"
+"default applications,components,component chooser,resources,web browser,"
+"browser,internet,file manager,dolphin,email,e-mail,email client,terminal,"
+"terminal emulator,konsole"
 msgstr ""
-
-#: kcms/componentchooser/componentservices/kcm_browser.desktop:4
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Web Browser"
-msgctxt "Name|standard desktop component"
-msgid "Web Browser"
-msgstr "Hartač sieciva"
-
-#: kcms/componentchooser/componentservices/kcm_browser.desktop:77
-msgctxt "Comment"
-msgid ""
-"Here you can configure your default web browser. All KDE applications in "
-"which you can select hyperlinks should honor this setting."
-msgstr ""
-"Tut možna vybrać sabie zmoŭčany hartač sieciva. Usie aplikacyi KDE, u jakich "
-"ty karystajeśsia internet-łučami, pavinnyja źviartać uvahu na hetuju naładu."
-
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Task Manager"
-msgctxt "Name|standard desktop component"
-msgid "File Manager"
-msgstr "Kiraŭnik zadańniaŭ"
-
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:56
-msgctxt "Comment"
-msgid ""
-"Here you can configure your default file manager. The entries in the K menu "
-"and all KDE applications in which you can open folders will use this file "
-"manager."
-msgstr ""
-"Tut možna vybrać sabie zmoŭčanaha fajłavaha kiraŭnika. Usie aplikacyi i "
-"punkty menu KDE, u jakich ty adčyniaješ katalohi, buduć im karystacca."
-
-#: kcms/componentchooser/componentservices/kcm_kemail.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Email Client"
-msgctxt "Name|standard desktop component"
-msgid "Email Client"
-msgstr "Paštar"
-
-#: kcms/componentchooser/componentservices/kcm_kemail.desktop:77
-msgctxt "Comment"
-msgid ""
-"This service allows you to configure your default email client. All KDE "
-"applications which need access to an email client application should honor "
-"this setting."
-msgstr ""
-"Hetaja słužba dazvalaje vybrać sabie zmoŭčany paštar. Usie aplikacyi KDE, "
-"jakija karystajucca paštarom, pavinnyja źviartać uvahu na hetuju naładu."
-
-#: kcms/componentchooser/componentservices/kcm_terminal.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Terminal Emulator"
-msgctxt "Name|standard desktop component"
-msgid "Terminal Emulator"
-msgstr "Emulatar terminała"
-
-#: kcms/componentchooser/componentservices/kcm_terminal.desktop:77
-msgctxt "Comment"
-msgid ""
-"This service allows you to configure your default terminal emulator. All KDE "
-"applications which invoke a terminal emulator application should honor this "
-"setting."
-msgstr ""
-"Hetaja słužba dazvalaje vybrać sabie zmoŭčany emulatar terminała. Usie "
-"aplikacyi KDE, jakija ŭklučajuć emulatar terminała, pavinnyja źviartać uvahu "
-"na hetuju naładu."
 
 #: kcms/dateandtime/clock.desktop:15
 msgctxt "Name"
@@ -1448,6 +1376,71 @@ msgstr "Rabočy abšar stała „Plasma”"
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "Sietkavaja pryłada"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Web Browser"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Web Browser"
+#~ msgstr "Hartač sieciva"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Here you can configure your default web browser. All KDE applications in "
+#~ "which you can select hyperlinks should honor this setting."
+#~ msgstr ""
+#~ "Tut možna vybrać sabie zmoŭčany hartač sieciva. Usie aplikacyi KDE, u "
+#~ "jakich ty karystajeśsia internet-łučami, pavinnyja źviartać uvahu na "
+#~ "hetuju naładu."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Task Manager"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "File Manager"
+#~ msgstr "Kiraŭnik zadańniaŭ"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Here you can configure your default file manager. The entries in the K "
+#~ "menu and all KDE applications in which you can open folders will use this "
+#~ "file manager."
+#~ msgstr ""
+#~ "Tut možna vybrać sabie zmoŭčanaha fajłavaha kiraŭnika. Usie aplikacyi i "
+#~ "punkty menu KDE, u jakich ty adčyniaješ katalohi, buduć im karystacca."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Email Client"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Email Client"
+#~ msgstr "Paštar"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This service allows you to configure your default email client. All KDE "
+#~ "applications which need access to an email client application should "
+#~ "honor this setting."
+#~ msgstr ""
+#~ "Hetaja słužba dazvalaje vybrać sabie zmoŭčany paštar. Usie aplikacyi KDE, "
+#~ "jakija karystajucca paštarom, pavinnyja źviartać uvahu na hetuju naładu."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Terminal Emulator"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Terminal Emulator"
+#~ msgstr "Emulatar terminała"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This service allows you to configure your default terminal emulator. All "
+#~ "KDE applications which invoke a terminal emulator application should "
+#~ "honor this setting."
+#~ msgstr ""
+#~ "Hetaja słužba dazvalaje vybrać sabie zmoŭčany emulatar terminała. Usie "
+#~ "aplikacyi KDE, jakija ŭklučajuć emulatar terminała, pavinnyja źviartać "
+#~ "uvahu na hetuju naładu."
 
 #~ msgctxt "Name"
 #~ msgid "KDE Accessibility Tool"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-13 02:55+0100\n"
+"POT-Creation-Date: 2021-01-15 02:32+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -421,7 +421,7 @@ msgstr ""
 "zainstalavanaja prahrama <i>gpg</i>. Spraŭdžvańnie ściahnutych fajłaŭ "
 "niemahčymaje, pakul u systemie nia budzie hetaj aplikacyi.</qt>"
 
-#: core/security.cpp:203
+#: core/security.cpp:199
 #, kde-format
 msgid ""
 "<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
@@ -430,7 +430,7 @@ msgstr ""
 "<qt>Upišy parol dla kluča <b>0x%1</b>, jaki naležyć <br /><i>%2&lt;%3&gt;</"
 "i><br />:</qt>"
 
-#: core/security.cpp:281
+#: core/security.cpp:277
 #, kde-format
 msgid ""
 "<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
@@ -441,17 +441,17 @@ msgstr ""
 "zainstalavanaja prahrama <i>gpg</i>. Spraŭdžvańnie ściahnutych fajłaŭ "
 "niemahčymaje, pakul u systemie nia budzie hetaj aplikacyi.</qt>"
 
-#: core/security.cpp:336
+#: core/security.cpp:332
 #, kde-format
 msgid "Key used for signing:"
 msgstr "Kluč dla padpisańnia:"
 
-#: core/security.cpp:337
+#: core/security.cpp:333
 #, kde-format
 msgid "Select Signing Key"
 msgstr "Vyznač kluč dla padpisańnia"
 
-#: core/security.cpp:372
+#: core/security.cpp:368
 #, kde-format
 msgid ""
 "<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "

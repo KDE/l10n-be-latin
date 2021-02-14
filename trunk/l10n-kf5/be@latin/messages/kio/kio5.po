@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-09 02:35+0100\n"
+"POT-Creation-Date: 2021-02-14 02:26+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2610,79 +2610,79 @@ msgstr ""
 "Ci chočaš nadalej pryjmać hety sertyfikat, nie paćviardžajučy štoraz svaju "
 "zhodu?"
 
-#: filewidgets/kdiroperator.cpp:713
+#: filewidgets/kdiroperator.cpp:720
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "Fajł ci kataloh z nazvaj „%1” užo isnuje."
 
-#: filewidgets/kdiroperator.cpp:716
+#: filewidgets/kdiroperator.cpp:723
 #, kde-format
 msgid "You do not have permission to create that folder."
 msgstr "Tabie nie staje dazvołu na stvareńnie hetaha kataloha."
 
-#: filewidgets/kdiroperator.cpp:732 filewidgets/kdiroperator.cpp:782
+#: filewidgets/kdiroperator.cpp:739 filewidgets/kdiroperator.cpp:789
 #, kde-format
 msgid "You did not select a file to delete."
 msgstr "Ty nia vybraŭ fajł, jaki chočaš vydalić."
 
-#: filewidgets/kdiroperator.cpp:733 filewidgets/kdiroperator.cpp:783
+#: filewidgets/kdiroperator.cpp:740 filewidgets/kdiroperator.cpp:790
 #, kde-format
 msgid "Nothing to Delete"
 msgstr "Niama čaho vydalać"
 
-#: filewidgets/kdiroperator.cpp:797 filewidgets/kdiroperator.cpp:892
+#: filewidgets/kdiroperator.cpp:804 filewidgets/kdiroperator.cpp:899
 #, kde-format
 msgid "You did not select a file to trash."
 msgstr "Ty nia vybraŭ fajł, jaki chočaš vykinuć u śmietnicu."
 
-#: filewidgets/kdiroperator.cpp:798 filewidgets/kdiroperator.cpp:893
+#: filewidgets/kdiroperator.cpp:805 filewidgets/kdiroperator.cpp:900
 #, kde-format
 msgid "Nothing to Trash"
 msgstr "Niama čaho vykidać u śmietnicu"
 
-#: filewidgets/kdiroperator.cpp:1004 filewidgets/kdiroperator.cpp:1148
+#: filewidgets/kdiroperator.cpp:1011 filewidgets/kdiroperator.cpp:1155
 #, kde-format
 msgid "The specified folder does not exist or was not readable."
 msgstr "Aznačany kataloh nie isnuje, albo ŭ jaho nielha pisać."
 
-#: filewidgets/kdiroperator.cpp:1953
+#: filewidgets/kdiroperator.cpp:1960
 #, kde-format
 msgid "Menu"
 msgstr "Menu"
 
-#: filewidgets/kdiroperator.cpp:1957
+#: filewidgets/kdiroperator.cpp:1964
 #, kde-format
 msgid "Parent Folder"
 msgstr "Vyšejšy kataloh"
 
-#: filewidgets/kdiroperator.cpp:1961
+#: filewidgets/kdiroperator.cpp:1968
 #, kde-format
 msgctxt "@info"
 msgid "Go back"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:1964
+#: filewidgets/kdiroperator.cpp:1971
 #, kde-format
 msgctxt "@info"
 msgid "Go forward"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:1967
+#: filewidgets/kdiroperator.cpp:1974
 #, kde-format
 msgid "Home Folder"
 msgstr "Chatni kataloh"
 
-#: filewidgets/kdiroperator.cpp:1970
+#: filewidgets/kdiroperator.cpp:1977
 #, kde-format
 msgid "Reload"
 msgstr "Pieračytaj"
 
-#: filewidgets/kdiroperator.cpp:1973
+#: filewidgets/kdiroperator.cpp:1980
 #, kde-format
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: filewidgets/kdiroperator.cpp:1981 widgets/jobuidelegate.cpp:270
+#: filewidgets/kdiroperator.cpp:1988 widgets/jobuidelegate.cpp:270
 #: widgets/jobuidelegate.cpp:271 widgets/jobuidelegate.cpp:279
 #: widgets/jobuidelegate.cpp:280 widgets/widgetsaskuseractionhandler.cpp:175
 #: widgets/widgetsaskuseractionhandler.cpp:176
@@ -2690,176 +2690,176 @@ msgstr "Novy kataloh..."
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
 
-#: filewidgets/kdiroperator.cpp:1987
+#: filewidgets/kdiroperator.cpp:1994
 #, kde-format
 msgid "Delete"
 msgstr "Vydali"
 
-#: filewidgets/kdiroperator.cpp:1994
+#: filewidgets/kdiroperator.cpp:2001
 #, kde-format
 msgid "Sorting"
 msgstr "Paradak"
 
-#: filewidgets/kdiroperator.cpp:1999
+#: filewidgets/kdiroperator.cpp:2006
 #, fuzzy, kde-format
 #| msgid "By Name"
 msgid "Sort by Name"
 msgstr "Pavodle nazvaŭ"
 
-#: filewidgets/kdiroperator.cpp:2003
+#: filewidgets/kdiroperator.cpp:2010
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgid "Sort by Size"
 msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2007
+#: filewidgets/kdiroperator.cpp:2014
 #, fuzzy, kde-format
 #| msgid "By Date"
 msgid "Sort by Date"
 msgstr "Pavodle času"
 
-#: filewidgets/kdiroperator.cpp:2011
+#: filewidgets/kdiroperator.cpp:2018
 #, fuzzy, kde-format
 #| msgid "Entry Type"
 msgid "Sort by Type"
 msgstr "Typ praviła"
 
-#: filewidgets/kdiroperator.cpp:2018
+#: filewidgets/kdiroperator.cpp:2025
 #, fuzzy, kde-format
 #| msgid "Descending"
 msgid "Ascending"
 msgstr "Ad bolšaha k mienšamu"
 
-#: filewidgets/kdiroperator.cpp:2025
+#: filewidgets/kdiroperator.cpp:2032
 #, kde-format
 msgid "Descending"
 msgstr "Ad bolšaha k mienšamu"
 
-#: filewidgets/kdiroperator.cpp:2032
+#: filewidgets/kdiroperator.cpp:2039
 #, kde-format
 msgid "Folders First"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2037
+#: filewidgets/kdiroperator.cpp:2044
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgid "Icons View"
 msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2042
+#: filewidgets/kdiroperator.cpp:2049
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgid "Compact View"
 msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2047
+#: filewidgets/kdiroperator.cpp:2054
 #, fuzzy, kde-format
 #| msgid "Detailed View"
 msgid "Details View"
 msgstr "Detalny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2064
+#: filewidgets/kdiroperator.cpp:2071
 #, kde-format
 msgid "Icon Position"
 msgstr "Miesca ikon"
 
-#: filewidgets/kdiroperator.cpp:2067
+#: filewidgets/kdiroperator.cpp:2074
 #, kde-format
 msgid "Next to File Name"
 msgstr "Kala nazvy fajła"
 
-#: filewidgets/kdiroperator.cpp:2071
+#: filewidgets/kdiroperator.cpp:2078
 #, kde-format
 msgid "Above File Name"
 msgstr "Nad nazvaju fajła"
 
-#: filewidgets/kdiroperator.cpp:2083
+#: filewidgets/kdiroperator.cpp:2090
 #, kde-format
 msgid "Short View"
 msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2090
+#: filewidgets/kdiroperator.cpp:2097
 #, kde-format
 msgid "Detailed View"
 msgstr "Detalny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2095
+#: filewidgets/kdiroperator.cpp:2102
 #, kde-format
 msgid "Tree View"
 msgstr "Hierarchičny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2100
+#: filewidgets/kdiroperator.cpp:2107
 #, kde-format
 msgid "Detailed Tree View"
 msgstr "Detalny hierarchičny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2111
+#: filewidgets/kdiroperator.cpp:2118
 #, kde-format
 msgid "Allow Expansion in Details View"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2115
+#: filewidgets/kdiroperator.cpp:2122
 #, kde-format
 msgid "Show Hidden Files"
 msgstr "Pakažy schavanyja fajły"
 
-#: filewidgets/kdiroperator.cpp:2120
+#: filewidgets/kdiroperator.cpp:2127
 #, fuzzy, kde-format
 #| msgid "Show Preview"
 msgid "Show Preview Panel"
 msgstr "Pakažy padhlady"
 
-#: filewidgets/kdiroperator.cpp:2126
+#: filewidgets/kdiroperator.cpp:2133
 #, kde-format
 msgid "Show Preview"
 msgstr "Pakažy padhlady"
 
-#: filewidgets/kdiroperator.cpp:2131
+#: filewidgets/kdiroperator.cpp:2138
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2136 filewidgets/kfileplacesview.cpp:863
+#: filewidgets/kdiroperator.cpp:2143 filewidgets/kfileplacesview.cpp:863
 #, kde-format
 msgid "Properties"
 msgstr "Ułaścivaści"
 
-#: filewidgets/kdiroperator.cpp:2143
+#: filewidgets/kdiroperator.cpp:2150
 #, kde-format
 msgid "&View"
 msgstr "&Vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2243 filewidgets/kdiroperator.cpp:2255
+#: filewidgets/kdiroperator.cpp:2250 filewidgets/kdiroperator.cpp:2262
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2244 filewidgets/kdiroperator.cpp:2256
+#: filewidgets/kdiroperator.cpp:2251 filewidgets/kdiroperator.cpp:2263
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2247
+#: filewidgets/kdiroperator.cpp:2254
 #, kde-format
 msgctxt "Sort descending"
 msgid "Newest First"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2248
+#: filewidgets/kdiroperator.cpp:2255
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Oldest First"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2251
+#: filewidgets/kdiroperator.cpp:2258
 #, kde-format
 msgctxt "Sort descending"
 msgid "Largest First"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2252
+#: filewidgets/kdiroperator.cpp:2259
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Smallest First"
@@ -3573,53 +3573,53 @@ msgstr "Možna vybrać tolki lakalnyja fajły."
 msgid "Remote Files Not Accepted"
 msgstr "Nielha vybrać fajły ź inšych hostaŭ"
 
-#: filewidgets/kfilewidget.cpp:1890
+#: filewidgets/kfilewidget.cpp:1892
 #, kde-format
 msgid "*|All Folders"
 msgstr "*|Usie katalohi"
 
-#: filewidgets/kfilewidget.cpp:1892
+#: filewidgets/kfilewidget.cpp:1894
 #, kde-format
 msgid "*|All Files"
 msgstr "*|Usie fajły"
 
-#: filewidgets/kfilewidget.cpp:2045 widgets/executablefileopendialog.cpp:30
+#: filewidgets/kfilewidget.cpp:2047 widgets/executablefileopendialog.cpp:30
 #: widgets/kfileitemactions.cpp:372
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: filewidgets/kfilewidget.cpp:2158
+#: filewidgets/kfilewidget.cpp:2160
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels (standard size)"
 msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
 
-#: filewidgets/kfilewidget.cpp:2161
+#: filewidgets/kfilewidget.cpp:2163
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels"
 msgstr "Pamier ikon: %1 punktaŭ"
 
-#: filewidgets/kfilewidget.cpp:2317
+#: filewidgets/kfilewidget.cpp:2319
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
 
-#: filewidgets/kfilewidget.cpp:2318
+#: filewidgets/kfilewidget.cpp:2320
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "pašyreńnie <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2324
+#: filewidgets/kfilewidget.cpp:2326
 #, kde-format
 msgid "Automatically select filename e&xtension"
 msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
 
-#: filewidgets/kfilewidget.cpp:2325
+#: filewidgets/kfilewidget.cpp:2327
 #, kde-format
 msgid "a suitable extension"
 msgstr "prydatnaje pašyreńnie"
 
-#: filewidgets/kfilewidget.cpp:2334
+#: filewidgets/kfilewidget.cpp:2336
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -3635,25 +3635,25 @@ msgid ""
 "enabled as it makes your files more manageable."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2799
+#: filewidgets/kfilewidget.cpp:2801
 #, fuzzy, kde-format
 #| msgid "&Filter:"
 msgid "&File type:"
 msgstr "&Filtruj:"
 
-#: filewidgets/kfilewidget.cpp:2800
+#: filewidgets/kfilewidget.cpp:2802
 #, kde-format
 msgid ""
 "<qt>This is the file type selector. It is used to select the format that the "
 "file will be saved as.</qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2802
+#: filewidgets/kfilewidget.cpp:2804
 #, kde-format
 msgid "&Filter:"
 msgstr "&Filtruj:"
 
-#: filewidgets/kfilewidget.cpp:2803
+#: filewidgets/kfilewidget.cpp:2805
 #, kde-format
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "

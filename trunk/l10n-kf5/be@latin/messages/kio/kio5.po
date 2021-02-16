@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-14 02:26+0100\n"
+"POT-Creation-Date: 2021-02-16 02:21+0100\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3912,19 +3912,19 @@ msgstr "Klikni, kab bačyć panel miesca"
 msgid "Click to Edit Location"
 msgstr "Klikni, kab adredahavać adras miesca"
 
-#: gui/applicationlauncherjob.cpp:94 gui/kprocessrunner.cpp:159
+#: gui/applicationlauncherjob.cpp:97 gui/kprocessrunner.cpp:162
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "Tabie nielha vykonvać hety fajł."
 
-#: gui/applicationlauncherjob.cpp:104 gui/commandlauncherjob.cpp:86
+#: gui/applicationlauncherjob.cpp:108 gui/commandlauncherjob.cpp:86
 #, fuzzy, kde-format
 #| msgid "Launching %1"
 msgctxt "Launching application"
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"
 
-#: gui/applicationlauncherjob.cpp:141
+#: gui/applicationlauncherjob.cpp:145
 #, fuzzy, kde-format
 #| msgid "Unable to make the service %1 executable, aborting execution"
 msgid ""
@@ -3933,13 +3933,13 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: gui/applicationlauncherjob.cpp:238 gui/openurljob.cpp:733
+#: gui/applicationlauncherjob.cpp:242 gui/openurljob.cpp:733
 #: widgets/krun.cpp:198
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "Tabie nielha vybirać aplikacyju, u jakoj adčynić hety fajł."
 
-#: gui/applicationlauncherjob.cpp:246
+#: gui/applicationlauncherjob.cpp:250
 #, kde-format
 msgid ""
 "Internal error: could not prompt the user for which application to start"
@@ -3961,7 +3961,7 @@ msgstr ""
 msgid "Icon file too big, download aborted"
 msgstr ""
 
-#: gui/kprocessrunner.cpp:66
+#: gui/kprocessrunner.cpp:67
 #, fuzzy, kde-format
 #| msgid ""
 #| "The desktop entry of type\n"
@@ -3976,7 +3976,7 @@ msgstr ""
 "%1\n"
 "nieviadomyja systemie."
 
-#: gui/kprocessrunner.cpp:183
+#: gui/kprocessrunner.cpp:186
 #, kde-format
 msgid "Launching %1"
 msgstr "Uklučeńnie „%1”"

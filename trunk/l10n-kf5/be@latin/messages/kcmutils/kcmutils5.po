@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-12 02:26+0100\n"
+"POT-Creation-Date: 2021-02-25 02:22+0100\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -46,12 +46,12 @@ msgstr ""
 "<qt><p>Dadatkovyja źviestki:<br />Nie ŭdałosia znajści fajł stała „%1”.</p></"
 "qt>"
 
-#: kcmoduleloader.cpp:71
+#: kcmoduleloader.cpp:74
 #, kde-format
 msgid "The module %1 is disabled."
 msgstr "Modul „%1” vyklučany."
 
-#: kcmoduleloader.cpp:72
+#: kcmoduleloader.cpp:75
 #, kde-format
 msgid ""
 "<qt><p>Either the hardware/software the module configures is not available "
@@ -60,18 +60,18 @@ msgstr ""
 "<qt><p>Albo niama aparatury j prahramaŭ, jakija naładžvaje hety modul, albo "
 "jaho vyklučyŭ administratar.</p></qt>"
 
-#: kcmoduleloader.cpp:99
+#: kcmoduleloader.cpp:103
 #, fuzzy, kde-format
 #| msgid "Error loading '%1'.\n"
 msgid "Error loading QML file."
 msgstr "Pamyłka ŭ źmiaščeńni ŭ pamiać „%1”.\n"
 
-#: kcmoduleloader.cpp:144
+#: kcmoduleloader.cpp:149
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
 msgstr "Modul „%1” nia jość zapraŭdnym modulem naładaŭ."
 
-#: kcmoduleloader.cpp:145
+#: kcmoduleloader.cpp:150
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The diagnostics is:<br />The desktop file %1 does not specify a "
@@ -82,7 +82,7 @@ msgid ""
 msgstr ""
 "<qt>Dadatkovyja źviestki:<br />Fajł stała „%1” nie aznačyŭ biblijateki.</qt>"
 
-#: kcmoduleloader.cpp:186
+#: kcmoduleloader.cpp:191
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>Possible reasons:<ul><li>An error occurred during your last KDE "
@@ -104,13 +104,13 @@ msgstr ""
 "tekście pamyłki. Kali heta zrabić nie ŭdałosia, źviarnisia da svajho "
 "raspaŭsiudnika ci ŭpakoŭnika.</p></qt>"
 
-#: kcmoduleproxy.cpp:111
+#: kcmoduleproxy.cpp:114
 #, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
 msgstr "Hety addzieł naładaŭ užo adčynieny ŭ %1."
 
-#: kcmultidialog.cpp:50
+#: kcmultidialog.cpp:49
 #, fuzzy, kde-format
 #| msgid ""
 #| "The document \"%1\" has been modified.\n"
@@ -122,13 +122,13 @@ msgstr ""
 "Dakument „%1” byŭ źmienieny.\n"
 "Ci ty chočaš zapisać źmieny albo ich anulavać?"
 
-#: kcmultidialog.cpp:52
+#: kcmultidialog.cpp:51
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgid "Apply Settings"
 msgstr "Nałady"
 
-#: kcmultidialog.cpp:245 kpluginselector.cpp:783
+#: kcmultidialog.cpp:242 kpluginselector.cpp:806
 #, kde-format
 msgid "Configure"
 msgstr "Naładź"
@@ -444,7 +444,7 @@ msgstr "Vyjaŭleńnie ŭpisańnia parolu"
 msgid "The size of the dialog"
 msgstr "Pamiery dyjalohavaha akna"
 
-#: kpluginselector.cpp:130
+#: kpluginselector.cpp:129
 #, kde-format
 msgid ""
 "Automatic changes have been performed due to plugin dependencies. Click here "
@@ -453,7 +453,7 @@ msgstr ""
 "Kab raźviazać zaležnaści pluginaŭ, byli zroblenyja aŭtamatyčnyja źmieny. "
 "Klikni siudy, kab atrymać padrabiaznyja źviestki."
 
-#: kpluginselector.cpp:198
+#: kpluginselector.cpp:197
 #, kde-format
 msgid ""
 "Automatic changes have been performed in order to satisfy plugin "
@@ -462,7 +462,7 @@ msgstr ""
 "Kab raźviazać zaležnaści pluginaŭ, byli zroblenyja nastupnyja aŭtamatyčnyja "
 "źmieny:\n"
 
-#: kpluginselector.cpp:202
+#: kpluginselector.cpp:201
 #, kde-format
 msgid ""
 "\n"
@@ -472,7 +472,7 @@ msgstr ""
 "\n"
 "    Plugin „%1” byŭ aŭtamatyčna ŭklučany z pryčyny zaležnaściaŭ plugina „%2”."
 
-#: kpluginselector.cpp:204
+#: kpluginselector.cpp:205
 #, kde-format
 msgid ""
 "\n"
@@ -483,12 +483,12 @@ msgstr ""
 "    Plugin „%1” byŭ aŭtamatyčna vyklučany z pryčyny jahonaj zaležnaści ad "
 "plugina „%2”."
 
-#: kpluginselector.cpp:207
+#: kpluginselector.cpp:210
 #, kde-format
 msgid "Dependency Check"
 msgstr "Spraŭdžvańnie zaležnaściaŭ"
 
-#: kpluginselector.cpp:224
+#: kpluginselector.cpp:228
 #, kde-format
 msgid "%1 plugin automatically added due to plugin dependencies"
 msgid_plural "%1 plugins automatically added due to plugin dependencies"
@@ -499,12 +499,12 @@ msgstr[1] ""
 msgstr[2] ""
 "%1 pluginaŭ aŭtamatyčna dadadzienyja z pryčyny zaležnaściaŭ inšych pluginaŭ."
 
-#: kpluginselector.cpp:228
+#: kpluginselector.cpp:232
 #, kde-format
 msgid ", "
 msgstr ", "
 
-#: kpluginselector.cpp:232
+#: kpluginselector.cpp:236
 #, kde-format
 msgid "%1 plugin automatically removed due to plugin dependencies"
 msgid_plural "%1 plugins automatically removed due to plugin dependencies"
@@ -512,13 +512,13 @@ msgstr[0] "%1 plugin aŭtamatyčna vydaleny z pryčyny jahonych zaležnaściaŭ.
 msgstr[1] "%1 pluginy aŭtamatyčna vydalenyja z pryčyny ichnych zaležnaściaŭ."
 msgstr[2] "%1 pluginaŭ aŭtamatyčna vydalenyja z pryčyny ichnych zaležnaściaŭ."
 
-#: kpluginselector.cpp:252
+#: kpluginselector.cpp:258
 #, fuzzy, kde-format
 #| msgid "&Search"
 msgid "Search..."
 msgstr "&Šukaj"
 
-#: kpluginselector.cpp:778
+#: kpluginselector.cpp:801
 #, fuzzy, kde-format
 #| msgid "&About"
 msgid "About"
@@ -529,7 +529,7 @@ msgstr "&Pra aplikacyju"
 msgid "Select Components"
 msgstr "Vybiery kampanenty"
 
-#: ksettings/dialog.cpp:220
+#: ksettings/dialog.cpp:216
 #, kde-format
 msgid "Enable component"
 msgstr "Uklučy kampanent"

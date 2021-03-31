@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-28 16:07+0000\n"
+"POT-Creation-Date: 2021-03-31 00:15+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2345,26 +2345,6 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
-#: core/kcoredirlister.cpp:387 core/mimetypefinderjob.cpp:57
-#: gui/openurljob.cpp:145 widgets/krun.cpp:402 widgets/paste.cpp:262
-#: widgets/renamedialog.cpp:599
-#, kde-format
-msgid ""
-"Malformed URL\n"
-"%1"
-msgstr ""
-"Kiepski adras\n"
-"%1"
-
-#: core/kcoredirlister.cpp:392
-#, kde-format
-msgid ""
-"URL cannot be listed\n"
-"%1"
-msgstr ""
-"Nie ŭdałosia prahladzieć adras\n"
-"%1"
-
 #: core/kfileitem.cpp:1291
 #, kde-format
 msgid "(Symbolic Link to %1)"
@@ -2379,6 +2359,16 @@ msgstr "(%1, łuč da „%2”)"
 #, kde-format
 msgid " (Points to %1)"
 msgstr " (łučyć z „%1”)"
+
+#: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:145 widgets/krun.cpp:402
+#: widgets/paste.cpp:262 widgets/renamedialog.cpp:599
+#, kde-format
+msgid ""
+"Malformed URL\n"
+"%1"
+msgstr ""
+"Kiepski adras\n"
+"%1"
 
 #: core/mimetypefinderjob.cpp:220
 #, kde-format
@@ -9495,6 +9485,13 @@ msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
+
+#~ msgid ""
+#~ "URL cannot be listed\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Nie ŭdałosia prahladzieć adras\n"
+#~ "%1"
 
 #, fuzzy
 #~| msgid "Invalid Filenames"

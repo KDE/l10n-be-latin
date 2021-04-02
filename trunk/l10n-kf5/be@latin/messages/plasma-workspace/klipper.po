@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-27 02:30+0100\n"
+"POT-Creation-Date: 2021-04-02 00:19+0000\n"
 "PO-Revision-Date: 2008-10-18 22:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -407,77 +407,73 @@ msgstr "&Pamier historyi abmiennaha bufera:"
 msgid "Open Klipper at Mouse Position"
 msgstr "&Vyjaŭlaj menu ŭ miescy kursora myšy"
 
-#: klipper.cpp:483
-#, fuzzy, kde-format
-#| msgid ""
-#| "You can enable URL actions later by right-clicking on the Klipper icon "
-#| "and selecting 'Enable Actions'"
+#: klipper.cpp:484
+#, kde-kuit-format
+msgctxt "@info"
 msgid ""
-"You can enable URL actions later by left-clicking on the Klipper icon and "
-"selecting 'Enable Clipboard Actions'"
+"You can enable URL actions later in the <interface>Actions</interface> page "
+"of the Clipboard applet's configuration window"
 msgstr ""
-"Aperacyi dla adrasoŭ možna budzie ŭklučyć paźniej, praz pravy klik u ikonu "
-"aplikacyi „Klipper” j punkt menu „Uklučy aperacyi”."
 
-#: klipper.cpp:517
+#: klipper.cpp:519
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr "Ci ŭklučać aplikacyju „Klipper” pry ŭvachodzie ŭ systemu?"
 
-#: klipper.cpp:518
+#: klipper.cpp:520
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr "Ci ŭklučać aŭtamatyčna aplikacyju „Klipper”?"
 
-#: klipper.cpp:519
+#: klipper.cpp:521
 #, kde-format
 msgid "Start"
 msgstr "Uklučaj"
 
-#: klipper.cpp:520
+#: klipper.cpp:522
 #, kde-format
 msgid "Do Not Start"
 msgstr "Nie ŭklučaj"
 
-#: klipper.cpp:867
+#: klipper.cpp:869
 #, kde-format
 msgid "Edit Contents"
 msgstr "Redahuj źmieściva"
 
-#: klipper.cpp:934
+#: klipper.cpp:936
 #, kde-format
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:981
+#: klipper.cpp:983
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgid "Really delete entire clipboard history?"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:982
+#: klipper.cpp:984
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgid "Delete clipboard history?"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
-#: klipper.cpp:998 klipper.cpp:1007
+#: klipper.cpp:1000 klipper.cpp:1009
 #, fuzzy, kde-format
 #| msgid "C&lipboard history size:"
 msgid "Clipboard history"
 msgstr "&Pamier historyi abmiennaha bufera:"
 
-#: klipper.cpp:1024
+#: klipper.cpp:1026
 #, kde-format
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:1031
+#: klipper.cpp:1033
 #, kde-format
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1038
+#: klipper.cpp:1040
 #, kde-format
 msgid "down"
 msgstr ""
@@ -782,6 +778,17 @@ msgstr "Vyklučy hety vypłyŭny element"
 #, kde-format
 msgid "&Cancel"
 msgstr "&Anuluj"
+
+#, fuzzy
+#~| msgid ""
+#~| "You can enable URL actions later by right-clicking on the Klipper icon "
+#~| "and selecting 'Enable Actions'"
+#~ msgid ""
+#~ "You can enable URL actions later by left-clicking on the Klipper icon and "
+#~ "selecting 'Enable Clipboard Actions'"
+#~ msgstr ""
+#~ "Aperacyi dla adrasoŭ možna budzie ŭklučyć paźniej, praz pravy klik u "
+#~ "ikonu aplikacyi „Klipper” j punkt menu „Uklučy aperacyi”."
 
 #, fuzzy
 #~| msgid "Enable/Disable Clipboard Actions"

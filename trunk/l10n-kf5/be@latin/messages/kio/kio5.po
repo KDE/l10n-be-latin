@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-10 00:16+0000\n"
+"POT-Creation-Date: 2021-04-11 00:16+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3929,7 +3929,7 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia nadać słužbie %1 mahčymaść vykonvańnia. Vykanańnie spyniajecca."
 
-#: gui/applicationlauncherjob.cpp:249 gui/openurljob.cpp:605
+#: gui/applicationlauncherjob.cpp:249 gui/openurljob.cpp:604
 #: widgets/krun.cpp:200
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
@@ -4005,20 +4005,20 @@ msgstr ""
 "<qt>Fajł <b>%1</b> jość vykonvalnaj prahramaj. Kab paźbiehnuć prablemaŭ "
 "biaśpieki, jon nia budzie ŭklučany.</qt>"
 
-#: gui/openurljob.cpp:395
+#: gui/openurljob.cpp:387
 #, kde-format
 msgid ""
 "For security reasons, launching executables is not allowed in this context."
 msgstr ""
 
-#: gui/openurljob.cpp:418
+#: gui/openurljob.cpp:417
 #, kde-format
 msgid ""
 "The program \"%1\" needs to have executable permission before it can be "
 "launched."
 msgstr ""
 
-#: gui/openurljob.cpp:429
+#: gui/openurljob.cpp:428
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
@@ -4030,18 +4030,18 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: gui/openurljob.cpp:516 widgets/kdesktopfileactions.cpp:60
+#: gui/openurljob.cpp:515 widgets/kdesktopfileactions.cpp:60
 #, kde-format
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr "Fajł elementa rabočaha stała „%1” nia maje zapisu „Type=...”"
 
-#: gui/openurljob.cpp:617
+#: gui/openurljob.cpp:616
 #, fuzzy, kde-format
 #| msgid "Cannot open file"
 msgid "Failed to open the file."
 msgstr "Nie ŭdałosia adčynić fajł"
 
-#: gui/openurljob.cpp:651
+#: gui/openurljob.cpp:650
 #, fuzzy, kde-format
 #| msgid "The file %1 could not be found"
 msgid "The program \"%1\" could not be launched."

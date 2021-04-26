@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-02 02:36+0100\n"
+"POT-Creation-Date: 2021-04-26 00:15+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kicondialog.cpp:266 kicondialog.cpp:279 kicondialog.cpp:604
+#: kicondialog.cpp:266 kicondialog.cpp:279 kicondialog.cpp:620
 #, kde-format
 msgid "Select Icon"
 msgstr "Abiary ikonu"
@@ -34,77 +34,77 @@ msgstr "Krynica ikony"
 msgid "S&ystem icons:"
 msgstr "&Systemnyja ikony:"
 
-#: kicondialog.cpp:310
+#: kicondialog.cpp:314
 #, kde-format
 msgid "O&ther icons:"
 msgstr "&Inšyja ikony:"
 
-#: kicondialog.cpp:313
+#: kicondialog.cpp:319
 #, kde-format
 msgid "&Browse..."
 msgstr "&Prahladaj..."
 
-#: kicondialog.cpp:324
+#: kicondialog.cpp:332
 #, kde-format
 msgid "&Search:"
 msgstr "&Šukaj:"
 
-#: kicondialog.cpp:331
+#: kicondialog.cpp:339
 #, kde-format
 msgid "Search interactively for icon names (e.g. folder)."
 msgstr "Dziejny pošuk nazvaŭ ikonaŭ (naprykład, „kataloh”)."
 
-#: kicondialog.cpp:360
+#: kicondialog.cpp:376
 #, kde-format
 msgid "Actions"
 msgstr "Aperacyi"
 
-#: kicondialog.cpp:361
+#: kicondialog.cpp:377
 #, kde-format
 msgid "Applications"
 msgstr "Aplikacyi"
 
-#: kicondialog.cpp:362
+#: kicondialog.cpp:378
 #, kde-format
 msgid "Categories"
 msgstr "Katehoryi"
 
-#: kicondialog.cpp:363
+#: kicondialog.cpp:379
 #, kde-format
 msgid "Devices"
 msgstr "Pryłady"
 
-#: kicondialog.cpp:364
+#: kicondialog.cpp:380
 #, kde-format
 msgid "Emblems"
 msgstr "Znaki"
 
-#: kicondialog.cpp:365
+#: kicondialog.cpp:381
 #, kde-format
 msgid "Emotes"
 msgstr "Smajliki"
 
-#: kicondialog.cpp:366
+#: kicondialog.cpp:382
 #, kde-format
 msgid "Mimetypes"
 msgstr "Typy MIME"
 
-#: kicondialog.cpp:367
+#: kicondialog.cpp:383
 #, kde-format
 msgid "Places"
 msgstr "Miescy"
 
-#: kicondialog.cpp:368
+#: kicondialog.cpp:384
 #, kde-format
 msgid "Status"
 msgstr "Stanovišča"
 
-#: kicondialog.cpp:369
+#: kicondialog.cpp:385
 #, kde-format
 msgid "All"
 msgstr ""
 
-#: kicondialog.cpp:604
+#: kicondialog.cpp:620
 #, fuzzy, kde-format
 #| msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgid ""

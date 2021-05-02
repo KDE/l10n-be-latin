@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-22 02:10+0100\n"
+"POT-Creation-Date: 2021-05-02 00:15+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -62,12 +62,12 @@ msgstr "<qt>Niama adpaviednikaŭ dla „<b>%1</b>”.</qt>"
 msgid "No matches found for '<b>%1</b>'."
 msgstr "Niama adpaviednikaŭ dla „<b>%1</b>”."
 
-#: findreplace/kfind.cpp:730 findreplace/kreplace.cpp:423
+#: findreplace/kfind.cpp:730 findreplace/kreplace.cpp:427
 #, kde-format
 msgid "Beginning of document reached."
 msgstr "Dasiahnuty pačatak dakumenta."
 
-#: findreplace/kfind.cpp:732 findreplace/kreplace.cpp:425
+#: findreplace/kfind.cpp:732 findreplace/kreplace.cpp:429
 #, kde-format
 msgid "End of document reached."
 msgstr "Dasiahnuty kaniec dakumenta."
@@ -375,12 +375,12 @@ msgstr "&Abmini"
 msgid "Replace '%1' with '%2'?"
 msgstr "Zamianić „%1” na „%2”?"
 
-#: findreplace/kreplace.cpp:174 findreplace/kreplace.cpp:417
+#: findreplace/kreplace.cpp:174 findreplace/kreplace.cpp:421
 #, kde-format
 msgid "No text was replaced."
 msgstr "Ničoha nie było zamieniena."
 
-#: findreplace/kreplace.cpp:176 findreplace/kreplace.cpp:419
+#: findreplace/kreplace.cpp:176 findreplace/kreplace.cpp:423
 #, kde-format
 msgid "1 replacement done."
 msgid_plural "%1 replacements done."
@@ -388,23 +388,23 @@ msgstr[0] "Zroblenaja %1 zamiena."
 msgstr[1] "Zroblenyja %1 zamieny."
 msgstr[2] "Zroblenyja %1 zamienaŭ."
 
-#: findreplace/kreplace.cpp:432
+#: findreplace/kreplace.cpp:436
 #, kde-format
 msgid "Do you want to restart search from the end?"
 msgstr "Chočaš paŭtaryć pošuk ad kanca?"
 
-#: findreplace/kreplace.cpp:432
+#: findreplace/kreplace.cpp:436
 #, kde-format
 msgid "Do you want to restart search at the beginning?"
 msgstr "Chočaš paŭtaryć pošuk ad pačatku?"
 
-#: findreplace/kreplace.cpp:437
+#: findreplace/kreplace.cpp:441
 #, kde-format
 msgctxt "@action:button Restart find & replace"
 msgid "Restart"
 msgstr "Paŭtary"
 
-#: findreplace/kreplace.cpp:438
+#: findreplace/kreplace.cpp:442
 #, kde-format
 msgctxt "@action:button Stop find & replace"
 msgid "Stop"

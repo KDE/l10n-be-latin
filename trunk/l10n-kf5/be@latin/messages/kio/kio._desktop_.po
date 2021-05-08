@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-07 00:27+0000\n"
+"POT-Creation-Date: 2021-05-08 00:26+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -93,24 +93,6 @@ msgstr "Naładź śmietnicu"
 msgctxt "X-KDE-Keywords"
 msgid "trash"
 msgstr "Śmietnica"
-
-#: src/kcms/kio/cache.desktop:14
-msgctxt "Name"
-msgid "Cache"
-msgstr "Padručnaja pamiać"
-
-#: src/kcms/kio/cache.desktop:103
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure trash settings"
-msgctxt "Comment"
-msgid "Configure web cache settings"
-msgstr "Naładź śmietnicu"
-
-#: src/kcms/kio/cache.desktop:151
-msgctxt "X-KDE-Keywords"
-msgid "Cache,History,Browsing History,Ports,Size"
-msgstr ""
 
 #: src/kcms/kio/cookies.desktop:14
 #, fuzzy
@@ -2076,6 +2058,17 @@ msgstr ""
 msgctxt "Name"
 msgid "Enhanced Browsing Plugin"
 msgstr "Prahlad u kartkach"
+
+#~ msgctxt "Name"
+#~ msgid "Cache"
+#~ msgstr "Padručnaja pamiać"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure trash settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure web cache settings"
+#~ msgstr "Naładź śmietnicu"
 
 #~ msgctxt "Comment"
 #~ msgid "UserAgent Strings"

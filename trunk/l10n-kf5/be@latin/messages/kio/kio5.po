@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-16 00:16+0000\n"
+"POT-Creation-Date: 2021-05-17 00:16+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3583,7 +3583,7 @@ msgid "*|All Files"
 msgstr "*|Usie fajły"
 
 #: filewidgets/kfilewidget.cpp:2077 widgets/executablefileopendialog.cpp:30
-#: widgets/kfileitemactions.cpp:876
+#: widgets/kfileitemactions.cpp:875
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
@@ -3683,10 +3683,9 @@ msgstr ""
 "isnuje.</qt>"
 
 #: filewidgets/knewfilemenu.cpp:602 filewidgets/knewfilemenu.cpp:685
-#, fuzzy, kde-format
-#| msgid "Device name"
-msgid "File name:"
-msgstr "Nazva pryłady"
+#, kde-format
+msgid "Name for new link:"
+msgstr ""
 
 #: filewidgets/knewfilemenu.cpp:689
 #, fuzzy, kde-format
@@ -7283,25 +7282,25 @@ msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "&Aperacyi"
 
-#: widgets/kfileitemactions.cpp:865
+#: widgets/kfileitemactions.cpp:864
 #, fuzzy, kde-format
 #| msgid "Open &with %1"
 msgid "&Open with %1"
 msgstr "Adčyni &ŭ: %1"
 
-#: widgets/kfileitemactions.cpp:887
+#: widgets/kfileitemactions.cpp:886
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "&Adčyni ŭ..."
 
-#: widgets/kfileitemactions.cpp:900
+#: widgets/kfileitemactions.cpp:899
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "&Adčyni ŭ"
 
-#: widgets/kfileitemactions.cpp:911
+#: widgets/kfileitemactions.cpp:910
 #, fuzzy, kde-format
 #| msgid "&Application"
 msgctxt "@action:inmenu Open With"
@@ -9134,6 +9133,11 @@ msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
+
+#, fuzzy
+#~| msgid "Device name"
+#~ msgid "File name:"
+#~ msgstr "Nazva pryłady"
 
 #, fuzzy
 #~| msgid "&Username:"

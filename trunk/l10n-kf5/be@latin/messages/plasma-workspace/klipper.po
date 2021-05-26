@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-07 00:20+0000\n"
+"POT-Creation-Date: 2021-05-26 00:21+0000\n"
 "PO-Revision-Date: 2008-10-18 22:34+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -363,8 +363,9 @@ msgid "C&lear Clipboard History"
 msgstr "&Vyčyści historyju abmiennaha bufera"
 
 #: klipper.cpp:160
-#, kde-format
-msgid "&Configure Klipper..."
+#, fuzzy, kde-format
+#| msgid "&Configure Klipper..."
+msgid "&Configure Klipper…"
 msgstr "&Naładź „Klipper”..."
 
 #: klipper.cpp:166
@@ -380,13 +381,14 @@ msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Uručnuju vykanaj aperacyju dla dziejnaha źmieściva bufera"
 
 #: klipper.cpp:178
-#, kde-format
-msgid "&Edit Contents..."
-msgstr "&Redahuj źmieściva..."
+#, fuzzy, kde-format
+#| msgid "Edit Contents"
+msgid "&Edit Contents…"
+msgstr "Redahuj źmieściva"
 
 #: klipper.cpp:186
 #, kde-format
-msgid "&Show Barcode..."
+msgid "&Show Barcode…"
 msgstr ""
 
 #: klipper.cpp:194
@@ -648,7 +650,7 @@ msgstr "Abmienny bufer „Klipper”"
 
 #: klipperpopup.cpp:129
 #, kde-format
-msgid "Search..."
+msgid "Search…"
 msgstr ""
 
 #: klipperpopup.cpp:138 main.cpp:43
@@ -774,6 +776,9 @@ msgstr "Vyklučy hety vypłyŭny element"
 #, kde-format
 msgid "&Cancel"
 msgstr "&Anuluj"
+
+#~ msgid "&Edit Contents..."
+#~ msgstr "&Redahuj źmieściva..."
 
 #~ msgid "<empty clipboard>"
 #~ msgstr "<pusty abmienny bufer>"

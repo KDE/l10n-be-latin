@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-29 00:14+0000\n"
+"POT-Creation-Date: 2021-06-01 00:14+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -7448,7 +7448,13 @@ msgstr ""
 "Nie ŭdałosia atrymać nazvy vykonvalnaha fajła z „%1”. Pravilna ŭpišy nazvu "
 "prahramy."
 
-#: widgets/kopenwithdialog.cpp:1009
+#: widgets/kopenwithdialog.cpp:1013
+#, fuzzy, kde-format
+#| msgid "File '%1' is not readable"
+msgid "'%1' is not an executable file."
+msgstr "Nie ŭdałosia pračytać z fajła „%1”."
+
+#: widgets/kopenwithdialog.cpp:1015
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr "Nie ŭdałosia znajści „%1”. Pravilna ŭpišy nazvu prahramy."
@@ -10234,9 +10240,6 @@ msgstr ""
 
 #~ msgid "Acquire Image"
 #~ msgstr "Zdabyvańnie vyjavy"
-
-#~ msgid "File '%1' is not readable"
-#~ msgstr "Nie ŭdałosia pračytać z fajła „%1”."
 
 #~ msgid "ERROR: Unknown protocol '%1'"
 #~ msgstr "PAMYŁKA: Nieviadomy pratakoł „%1”."

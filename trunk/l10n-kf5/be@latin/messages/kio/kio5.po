@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-04 00:14+0000\n"
+"POT-Creation-Date: 2021-06-06 00:14+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -7449,15 +7449,18 @@ msgstr ""
 "prahramy."
 
 #: widgets/kopenwithdialog.cpp:1017
-#, fuzzy, kde-format
-#| msgid "File '%1' is not readable"
-msgid "'%1' is not an executable file."
-msgstr "Nie ŭdałosia pračytać z fajła „%1”."
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename> does not appear to be an executable program."
+msgstr ""
 
 #: widgets/kopenwithdialog.cpp:1019
-#, kde-format
-msgid "'%1' not found, please type a valid program name."
-msgstr "Nie ŭdałosia znajści „%1”. Pravilna ŭpišy nazvu prahramy."
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<filename>%1</filename> was not found; please enter a valid path to an "
+"executable program."
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2)
 #: widgets/kpropertiesdesktopadvbase.ui:29
@@ -9129,6 +9132,14 @@ msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
+
+#, fuzzy
+#~| msgid "File '%1' is not readable"
+#~ msgid "'%1' is not an executable file."
+#~ msgstr "Nie ŭdałosia pračytać z fajła „%1”."
+
+#~ msgid "'%1' not found, please type a valid program name."
+#~ msgstr "Nie ŭdałosia znajści „%1”. Pravilna ŭpišy nazvu prahramy."
 
 #~ msgid "No Media inserted or Media not recognized."
 #~ msgstr "Nośbit nia ŭsunuty albo nie raspaznany."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_thumbnail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-09 00:18+0000\n"
+"POT-Creation-Date: 2021-06-16 00:18+0000\n"
 "PO-Revision-Date: 2008-09-19 15:12+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -25,56 +25,54 @@ msgctxt "@option:check"
 msgid "Rotate the image automatically"
 msgstr ""
 
-#: thumbnail.cpp:194
+#: thumbnail.cpp:195
 #, kde-format
 msgid "No MIME Type specified."
 msgstr "Typ „MIME” nie aznačany."
 
-#: thumbnail.cpp:202
+#: thumbnail.cpp:203
 #, kde-format
 msgid "No or invalid size specified."
 msgstr "Pamier albo nie aznačany, albo aznačany niapravilna."
 
-#: thumbnail.cpp:218
+#: thumbnail.cpp:219
 #, fuzzy, kde-format
 #| msgid "Cannot create thumbnail for %1"
 msgid "Cannot create thumbnail for directory"
 msgstr "Nie ŭdałosia stvaryć padhlad dla „%1”."
 
-#: thumbnail.cpp:230
+#: thumbnail.cpp:231
 #, kde-format
 msgid "No plugin specified."
 msgstr "Plugin nie aznačany."
 
-#: thumbnail.cpp:236
-#, kde-format
-msgid "Cannot load ThumbCreator %1"
-msgstr "Nie ŭdałosia źmiaścić u pamiać modul padhladu „%1”."
-
-#: thumbnail.cpp:248
+#: thumbnail.cpp:250
 #, kde-format
 msgid "Cannot create thumbnail for %1"
 msgstr "Nie ŭdałosia stvaryć padhlad dla „%1”."
 
-#: thumbnail.cpp:262
+#: thumbnail.cpp:265
 #, kde-format
 msgid "Failed to create a thumbnail."
 msgstr "Nie ŭdałosia stvaryć padhlad."
 
-#: thumbnail.cpp:274
+#: thumbnail.cpp:277
 #, kde-format
 msgid "Could not write image."
 msgstr "Nie ŭdałosia zapisać vyjavu."
 
-#: thumbnail.cpp:299
+#: thumbnail.cpp:302
 #, kde-format
 msgid "Failed to attach to shared memory segment %1"
 msgstr "Nie ŭdałosia pryčapicca da kavałka supolnaj pamiaci „%1”."
 
-#: thumbnail.cpp:307
+#: thumbnail.cpp:310
 #, kde-format
 msgid "Image is too big for the shared memory segment"
 msgstr "Vyjava nadta vialikaja dla kavałka supolnaj pamiaci."
+
+#~ msgid "Cannot load ThumbCreator %1"
+#~ msgstr "Nie ŭdałosia źmiaścić u pamiać modul padhladu „%1”."
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"

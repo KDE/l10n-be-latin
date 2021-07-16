@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-15 00:14+0000\n"
+"POT-Creation-Date: 2021-07-16 00:14+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -7370,14 +7370,6 @@ msgstr "Dostup:"
 msgid "Created:"
 msgstr "Stvorany:"
 
-#. i18n: ectx: property (text), widget (KSqueezedTextLabel, mountPointLabel)
-#. i18n: ectx: property (text), widget (KSqueezedTextLabel, locationLabel)
-#: widgets/kfilepropspluginwidget.ui:180 widgets/kfilepropspluginwidget.ui:284
-#, fuzzy, kde-format
-#| msgid "&Name:"
-msgid "KSqueezedTextLabel"
-msgstr "&Nazva:"
-
 #. i18n: ectx: property (text), widget (QLabel, mountSrcLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:200
 #, fuzzy, kde-format
@@ -9169,6 +9161,11 @@ msgstr "Hetaja aperacyja ŭklučyć prahramu:"
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 "Kali ŭ ciabie niama davieru da hetaj prahramy, klikni ŭ knopku „Anuluj”."
+
+#, fuzzy
+#~| msgid "&Name:"
+#~ msgid "KSqueezedTextLabel"
+#~ msgstr "&Nazva:"
 
 #, fuzzy
 #~| msgid "File '%1' is not readable"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-11 00:15+0000\n"
+"POT-Creation-Date: 2021-08-12 00:14+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2086,7 +2086,7 @@ msgid "The server was too busy responding to other requests to respond."
 msgstr ""
 "Server byŭ nadta zaniaty adkazam na inšyja zapyty i nia zmoh adkazać tabie."
 
-#: core/job_error.cpp:1089 core/slavebase.cpp:1562
+#: core/job_error.cpp:1089 core/slavebase.cpp:1558
 #, kde-format
 msgid "Unknown Error"
 msgstr "Nieviadomaja pamyłka"
@@ -2431,107 +2431,107 @@ msgstr "Nie ŭdałosia parazumiecca z słužbaj „klauncher”: %1"
 msgid "klauncher said: %1"
 msgstr "Server adkazaŭ: „%1”"
 
-#: core/slavebase.cpp:858
+#: core/slavebase.cpp:854
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje adčynieńnie spałučeńniaŭ."
 
-#: core/slavebase.cpp:860
+#: core/slavebase.cpp:856
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje začynieńnie spałučeńniaŭ."
 
-#: core/slavebase.cpp:862
+#: core/slavebase.cpp:858
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje dostup da fajłaŭ."
 
-#: core/slavebase.cpp:864
+#: core/slavebase.cpp:860
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:866
+#: core/slavebase.cpp:862
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje anijakich asablivych aperacyjaŭ."
 
-#: core/slavebase.cpp:868
+#: core/slavebase.cpp:864
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje prahlad źmieściva katalohaŭ."
 
-#: core/slavebase.cpp:870
+#: core/slavebase.cpp:866
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "Atrymańnie źviestak z „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:872
+#: core/slavebase.cpp:868
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "Atrymańnie źviestak pra typy MIME z „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:874
+#: core/slavebase.cpp:870
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "Źmianieńnie nazvaŭ i pieraniasieńnie fajłaŭ u „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:876
+#: core/slavebase.cpp:872
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje stvareńnie symbalnych łučoŭ."
 
-#: core/slavebase.cpp:878
+#: core/slavebase.cpp:874
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "Kapijavańnie fajłaŭ u „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:880
+#: core/slavebase.cpp:876
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "Vydaleńnie fajłaŭ z „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:882
+#: core/slavebase.cpp:878
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje stvareńnie katalohaŭ."
 
-#: core/slavebase.cpp:884
+#: core/slavebase.cpp:880
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje źmianieńnie atrybutaŭ fajła."
 
-#: core/slavebase.cpp:886
+#: core/slavebase.cpp:882
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje źmianieńnie ŭłaśnika fajłaŭ."
 
-#: core/slavebase.cpp:888
+#: core/slavebase.cpp:884
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "Karystańnie ŭnutranymi adrasami z „%1” nie padtrymvajecca."
 
-#: core/slavebase.cpp:890
+#: core/slavebase.cpp:886
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje atrymańnie niekalkich fajłaŭ."
 
-#: core/slavebase.cpp:892
+#: core/slavebase.cpp:888
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "Pratakoł „%1” nie padtrymvaje adčynieńnie fajłaŭ."
 
-#: core/slavebase.cpp:894
+#: core/slavebase.cpp:890
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "Pratakoł „%1” nie padtrymvaje aperacyju „%2”."
 
-#: core/slavebase.cpp:1052
+#: core/slavebase.cpp:1048
 #, kde-format
 msgid "&Yes"
 msgstr "&Tak"
 
-#: core/slavebase.cpp:1053
+#: core/slavebase.cpp:1049
 #, kde-format
 msgid "&No"
 msgstr "&Nie"
@@ -3064,47 +3064,47 @@ msgstr ""
 "aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie "
 "vidać z usich aplikacyjaŭ.</qt>"
 
-#: filewidgets/kfileplacesitem.cpp:142
+#: filewidgets/kfileplacesitem.cpp:143
 #, fuzzy, kde-format
 #| msgid "Places"
 msgctxt "@item"
 msgid "Places"
 msgstr "Miescy"
 
-#: filewidgets/kfileplacesitem.cpp:145
+#: filewidgets/kfileplacesitem.cpp:146
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "@item"
 msgid "Remote"
 msgstr "Vydali"
 
-#: filewidgets/kfileplacesitem.cpp:148
+#: filewidgets/kfileplacesitem.cpp:149
 #, kde-format
 msgctxt "@item The place group section name for recent dynamic lists"
 msgid "Recent"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:151
+#: filewidgets/kfileplacesitem.cpp:152
 #, fuzzy, kde-format
 #| msgid "&Search:"
 msgctxt "@item"
 msgid "Search For"
 msgstr "&Šukaj:"
 
-#: filewidgets/kfileplacesitem.cpp:154
+#: filewidgets/kfileplacesitem.cpp:155
 #, fuzzy, kde-format
 #| msgid "Devices"
 msgctxt "@item"
 msgid "Devices"
 msgstr "Pryłady"
 
-#: filewidgets/kfileplacesitem.cpp:157
+#: filewidgets/kfileplacesitem.cpp:158
 #, kde-format
 msgctxt "@item"
 msgid "Removable Devices"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:160
+#: filewidgets/kfileplacesitem.cpp:161
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgctxt "@item"
@@ -3119,7 +3119,7 @@ msgstr "Usie vyjavy"
 
 #. i18nc call is made later, with this context, so the two must match.
 #. createSystemBookmark actually does nothing with its second argument, the context.
-#: filewidgets/kfileplacesmodel.cpp:295
+#: filewidgets/kfileplacesmodel.cpp:290
 #, fuzzy, kde-format
 #| msgctxt "Home Directory"
 #| msgid "Home"
@@ -3127,130 +3127,130 @@ msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "Dom"
 
-#: filewidgets/kfileplacesmodel.cpp:301
+#: filewidgets/kfileplacesmodel.cpp:296
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:308 filewidgets/kfileplacesmodel.cpp:464
+#: filewidgets/kfileplacesmodel.cpp:303 filewidgets/kfileplacesmodel.cpp:459
 #, fuzzy, kde-format
 #| msgid "Comment"
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Kamentar"
 
-#: filewidgets/kfileplacesmodel.cpp:315
+#: filewidgets/kfileplacesmodel.cpp:310
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:320
+#: filewidgets/kfileplacesmodel.cpp:315
 #, fuzzy, kde-format
 #| msgid "Network"
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "Sietka"
 
-#: filewidgets/kfileplacesmodel.cpp:325
+#: filewidgets/kfileplacesmodel.cpp:320
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Śmietnica"
 
-#: filewidgets/kfileplacesmodel.cpp:383
+#: filewidgets/kfileplacesmodel.cpp:378
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Music"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:390
+#: filewidgets/kfileplacesmodel.cpp:385
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Pictures"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:399 filewidgets/kfileplacesmodel.cpp:476
+#: filewidgets/kfileplacesmodel.cpp:394 filewidgets/kfileplacesmodel.cpp:471
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:426
+#: filewidgets/kfileplacesmodel.cpp:421
 #, fuzzy, kde-format
 #| msgid "Delete Files"
 msgctxt "KFile System Bookmarks"
 msgid "Recent Files"
 msgstr "Vydaleńnie fajłaŭ"
 
-#: filewidgets/kfileplacesmodel.cpp:431
+#: filewidgets/kfileplacesmodel.cpp:426
 #, fuzzy, kde-format
 #| msgid "Location:"
 msgctxt "KFile System Bookmarks"
 msgid "Recent Locations"
 msgstr "Miesca:"
 
-#: filewidgets/kfileplacesmodel.cpp:454
+#: filewidgets/kfileplacesmodel.cpp:449
 #, fuzzy, kde-format
 #| msgid "Modified:"
 msgctxt "KFile System Bookmarks"
 msgid "Modified Today"
 msgstr "Admienieny:"
 
-#: filewidgets/kfileplacesmodel.cpp:458
+#: filewidgets/kfileplacesmodel.cpp:453
 #, fuzzy, kde-format
 #| msgid "Modified:"
 msgctxt "KFile System Bookmarks"
 msgid "Modified Yesterday"
 msgstr "Admienieny:"
 
-#: filewidgets/kfileplacesmodel.cpp:468
+#: filewidgets/kfileplacesmodel.cpp:463
 #, fuzzy, kde-format
 #| msgid "OCR Image"
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Raspaznańnie vyjavy"
 
-#: filewidgets/kfileplacesmodel.cpp:472
+#: filewidgets/kfileplacesmodel.cpp:467
 #, fuzzy, kde-format
 #| msgid "*|All Files"
 msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "*|Usie fajły"
 
-#: filewidgets/kfileplacesmodel.cpp:1371
+#: filewidgets/kfileplacesmodel.cpp:1363
 #, kde-format
 msgid "&Release '%1'"
 msgstr "&Vyzvali „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1373
+#: filewidgets/kfileplacesmodel.cpp:1365
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "&Biaśpiečna vysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1376
+#: filewidgets/kfileplacesmodel.cpp:1368
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "&Admantuj „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1396
+#: filewidgets/kfileplacesmodel.cpp:1388
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "V&ysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1432
+#: filewidgets/kfileplacesmodel.cpp:1424
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
 
-#: filewidgets/kfileplacesmodel.cpp:1467
+#: filewidgets/kfileplacesmodel.cpp:1459
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1469
+#: filewidgets/kfileplacesmodel.cpp:1461
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
@@ -7045,12 +7045,12 @@ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[1] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 msgstr[2] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
 
-#: widgets/jobuidelegate.cpp:373 widgets/widgetsaskuseractionhandler.cpp:360
+#: widgets/jobuidelegate.cpp:387 widgets/widgetsaskuseractionhandler.cpp:360
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Łancuh sertyfikataŭ SSL z susiedzkaha hosta paškodžany."
 
-#: widgets/jobuidelegate.cpp:373 widgets/widgetsaskuseractionhandler.cpp:363
+#: widgets/jobuidelegate.cpp:387 widgets/widgetsaskuseractionhandler.cpp:363
 #, kde-format
 msgid "SSL"
 msgstr "SSL"

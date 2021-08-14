@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-13 00:14+0000\n"
+"POT-Creation-Date: 2021-08-14 00:14+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -52,12 +52,12 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "Nie ŭdałosia stvaryć słužbu „ioslave”: %1"
 
-#: core/copyjob.cpp:1323 core/job_error.cpp:556
+#: core/copyjob.cpp:1325 core/job_error.cpp:573
 #, kde-format
 msgid "Folder Already Exists"
 msgstr "Kataloh užo isnuje"
 
-#: core/copyjob.cpp:1365
+#: core/copyjob.cpp:1367
 #, kde-format
 msgid ""
 "Could not create \"%1\".\n"
@@ -67,24 +67,24 @@ msgid ""
 "folder name) with an underscore \"_\"."
 msgstr ""
 
-#: core/copyjob.cpp:1656 core/copyjob.cpp:2322 core/filecopyjob.cpp:373
-#: core/job_error.cpp:545 widgets/paste.cpp:80
+#: core/copyjob.cpp:1659 core/copyjob.cpp:2325 core/filecopyjob.cpp:373
+#: core/job_error.cpp:562 widgets/paste.cpp:80
 #, kde-format
 msgid "File Already Exists"
 msgstr "Fajł užo isnuje"
 
-#: core/copyjob.cpp:1656 core/copyjob.cpp:2322
+#: core/copyjob.cpp:1659 core/copyjob.cpp:2325
 #, kde-format
 msgid "Already Exists as Folder"
 msgstr "Užo isnuje taki kataloh"
 
-#: core/copyjob.cpp:1817 ioslaves/trash/kio_trash.cpp:285
+#: core/copyjob.cpp:1820 ioslaves/trash/kio_trash.cpp:288
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgid "Trash"
 msgstr "Śmietnica"
 
-#: core/copyjob.cpp:1888
+#: core/copyjob.cpp:1891
 #, kde-format
 msgid ""
 "Could not create \"%1\".\n"
@@ -94,39 +94,39 @@ msgid ""
 "file name) with an underscore \"_\"."
 msgstr ""
 
-#: core/desktopexecparser.cpp:310
+#: core/desktopexecparser.cpp:315
 #, fuzzy, kde-format
 #| msgid "Error processing Exec field in %1"
 msgid "No Exec field in %1"
 msgstr "Uźnikła pamyłka ŭ razrableńni pola „Exec” u „%1”."
 
-#: core/desktopexecparser.cpp:335
+#: core/desktopexecparser.cpp:340
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"
 
-#: core/desktopexecparser.cpp:338
+#: core/desktopexecparser.cpp:343
 #, kde-format
 msgid ""
 "The program '%1' was found at '%2' but it is missing executable permissions."
 msgstr ""
 
-#: core/desktopexecparser.cpp:340
+#: core/desktopexecparser.cpp:345
 #, kde-format
 msgid "The program '%1' is missing executable permissions."
 msgstr ""
 
-#: core/desktopexecparser.cpp:354
+#: core/desktopexecparser.cpp:359
 #, kde-format
 msgid "Syntax error in command %1 coming from %2"
 msgstr ""
 
-#: core/desktopexecparser.cpp:474
+#: core/desktopexecparser.cpp:481
 #, kde-format
 msgid "Terminal %1 not found while trying to run %2"
 msgstr ""
 
-#: core/desktopexecparser.cpp:490
+#: core/desktopexecparser.cpp:497
 #, kde-format
 msgid "Syntax error in command %1 while trying to run %2"
 msgstr ""
@@ -219,7 +219,7 @@ msgid "Creating directory"
 msgstr "Stvareńnie kataloha"
 
 #: core/job.cpp:122 widgets/fileundomanager.cpp:132
-#: widgets/kurlrequester.cpp:463
+#: widgets/kurlrequester.cpp:465
 #, kde-format
 msgid "Directory"
 msgstr "Kataloh"
@@ -231,7 +231,7 @@ msgid "Deleting"
 msgstr "Vydaleńnie"
 
 #: core/job.cpp:129 core/job.cpp:136 widgets/fileundomanager.cpp:143
-#: widgets/kurlrequester.cpp:462
+#: widgets/kurlrequester.cpp:464
 #, kde-format
 msgid "File"
 msgstr "Fajł"
@@ -270,101 +270,101 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Admantavańnie"
 
-#: core/job.cpp:265
+#: core/job.cpp:266
 #, kde-format
 msgid "Change Attribute"
 msgstr ""
 
-#: core/job.cpp:267
+#: core/job.cpp:268
 #, kde-format
 msgid ""
 "Root privileges are required to change file attributes. Do you want to "
 "continue?"
 msgstr ""
 
-#: core/job.cpp:271
+#: core/job.cpp:272
 #, fuzzy, kde-format
 #| msgid "*|All Files"
 msgid "Copy Files"
 msgstr "*|Usie fajły"
 
-#: core/job.cpp:273
+#: core/job.cpp:274
 #, kde-format
 msgid ""
 "Root privileges are required to complete the copy operation. Do you want to "
 "continue?"
 msgstr ""
 
-#: core/job.cpp:277
+#: core/job.cpp:278
 #, kde-format
 msgid "Delete Files"
 msgstr "Vydaleńnie fajłaŭ"
 
-#: core/job.cpp:279
+#: core/job.cpp:280
 #, kde-format
 msgid ""
 "Root privileges are required to complete the delete operation. However, "
 "doing so may damage your system. Do you want to continue?"
 msgstr ""
 
-#: core/job.cpp:283
+#: core/job.cpp:284
 #, fuzzy, kde-format
 #| msgid "Und&o: Create Folder"
 msgid "Create Folder"
 msgstr "&Anuluj: stvareńnie kataloha"
 
-#: core/job.cpp:285
+#: core/job.cpp:286
 #, kde-format
 msgid ""
 "Root privileges are required to create this folder. Do you want to continue?"
 msgstr ""
 
-#: core/job.cpp:289
+#: core/job.cpp:290
 #, fuzzy, kde-format
 #| msgid "Move to Trash"
 msgid "Move Items"
 msgstr "Vykidańnie ŭ śmietnicu"
 
-#: core/job.cpp:291
+#: core/job.cpp:292
 #, kde-format
 msgid ""
 "Root privileges are required to complete the move operation. Do you want to "
 "continue?"
 msgstr ""
 
-#: core/job.cpp:295 ioslaves/file/file_unix.cpp:111
+#: core/job.cpp:296 ioslaves/file/file_unix.cpp:112
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgid "Rename"
 msgstr "&Źmiani nazvu"
 
-#: core/job.cpp:297
+#: core/job.cpp:298
 #, kde-format
 msgid ""
 "Root privileges are required to complete renaming. Do you want to continue?"
 msgstr ""
 
-#: core/job.cpp:301 filewidgets/knewfilemenu.cpp:607
-#: ioslaves/file/file_unix.cpp:115
+#: core/job.cpp:302 filewidgets/knewfilemenu.cpp:607
+#: ioslaves/file/file_unix.cpp:116
 #, fuzzy, kde-format
 #| msgid "Could Not Create Symbolic Link"
 msgid "Create Symlink"
 msgstr "Nie ŭdałosia stvaryć symbalny łuč"
 
-#: core/job.cpp:303
+#: core/job.cpp:304
 #, kde-format
 msgid ""
 "Root privileges are required to create a symlink. Do you want to continue?"
 msgstr ""
 
-#: core/job.cpp:307
+#: core/job.cpp:308
 #, fuzzy, kde-format
 #| msgctxt "@title job"
 #| msgid "Transferring"
 msgid "Transfer data"
 msgstr "Vysyłańnie"
 
-#: core/job.cpp:309
+#: core/job.cpp:310
 #, kde-format
 msgid ""
 "Root privileges are required to complete transferring data. Do you want to "
@@ -799,65 +799,65 @@ msgstr ""
 "%2\n"
 "Kali łaska, paviedam pra chibu praz placoŭku: „http://bugs.kde.org”."
 
-#: core/job_error.cpp:276
+#: core/job_error.cpp:283
 #, kde-format
 msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(nieviadomy)"
 
-#: core/job_error.cpp:282
+#: core/job_error.cpp:289
 #, kde-format
 msgctxt "@info %1 error name, %2 description"
 msgid "<qt><p><b>%1</b></p><p>%2</p></qt>"
 msgstr "<qt><p><b>%1</b></p><p>%2</p></qt>"
 
-#: core/job_error.cpp:286
+#: core/job_error.cpp:293
 #, kde-format
 msgid "<b>Technical reason</b>: "
 msgstr "<b>Techničnaja pryčyna</b>: "
 
-#: core/job_error.cpp:287
+#: core/job_error.cpp:295
 #, kde-format
 msgid "<b>Details of the request</b>:"
 msgstr "<b>Detali zapytu</b>:"
 
-#: core/job_error.cpp:287
+#: core/job_error.cpp:295
 #, kde-format
 msgid "<li>URL: %1</li>"
 msgstr "<li>Adras: %1</li>"
 
-#: core/job_error.cpp:289
+#: core/job_error.cpp:297
 #, kde-format
 msgid "<li>Protocol: %1</li>"
 msgstr "<li>Pratakoł: %1</li>"
 
-#: core/job_error.cpp:291
+#: core/job_error.cpp:299
 #, kde-format
 msgid "<li>Date and time: %1</li>"
 msgstr "<li>Data j čas: %1</li>"
 
-#: core/job_error.cpp:291
+#: core/job_error.cpp:299
 #, kde-format
 msgid "<li>Additional information: %1</li>"
 msgstr "<li>Dadatkovyja źviestki: %1</li>"
 
-#: core/job_error.cpp:293
+#: core/job_error.cpp:301
 #, kde-format
 msgid "<b>Possible causes</b>:"
 msgstr "<b>Mahčymyja pryčyny</b>:"
 
-#: core/job_error.cpp:297
+#: core/job_error.cpp:305
 #, kde-format
 msgid "<b>Possible solutions</b>:"
 msgstr "<b>Mahčymyja raźviazki</b>:"
 
-#: core/job_error.cpp:334
+#: core/job_error.cpp:348
 #, kde-format
 msgctxt "@info protocol"
 msgid "(unknown)"
 msgstr "(nieviadomy)"
 
-#: core/job_error.cpp:344
+#: core/job_error.cpp:361
 #, kde-format
 msgid ""
 "Contact your appropriate computer support system, whether the system "
@@ -866,17 +866,17 @@ msgstr ""
 "Ty možaš źviarnucca ŭ svaju systemu kamputarnaj padtrymki albo da svajho "
 "administratara pa dapamohu."
 
-#: core/job_error.cpp:348
+#: core/job_error.cpp:365
 #, kde-format
 msgid "Contact the administrator of the server for further assistance."
 msgstr "Ty možaš źviarnucca da svajho administratara pa dapamohu."
 
-#: core/job_error.cpp:351
+#: core/job_error.cpp:368
 #, kde-format
 msgid "Check your access permissions on this resource."
 msgstr "Spraŭdź svaje dazvoły dostupu da hetaha resursu."
 
-#: core/job_error.cpp:353
+#: core/job_error.cpp:370
 #, kde-format
 msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
@@ -885,7 +885,7 @@ msgstr ""
 "Tvaich dazvołaŭ dostupu da hetaha resursu moža nie stavać dla zapatrabavanaj "
 "aperacyi."
 
-#: core/job_error.cpp:356
+#: core/job_error.cpp:373
 #, kde-format
 msgid ""
 "The file may be in use (and thus locked) by another user or application."
@@ -893,7 +893,7 @@ msgstr ""
 "Inšy karystańnik ci aplikacyja mohuć užo karystacca hetym fajłam, "
 "zablakavaŭšy jaho."
 
-#: core/job_error.cpp:359
+#: core/job_error.cpp:376
 #, kde-format
 msgid ""
 "Check to make sure that no other application or user is using the file or "
@@ -902,17 +902,17 @@ msgstr ""
 "Spraŭdź, što anijaki inšy karystańnik ci aplikacyja nie karystajecca fajłam "
 "i nie zablakavała jaho."
 
-#: core/job_error.cpp:362
+#: core/job_error.cpp:379
 #, kde-format
 msgid "Although unlikely, a hardware error may have occurred."
 msgstr "Choć amal nievierahodna, mahła ŭźniknuć prablema ŭ aparatury."
 
-#: core/job_error.cpp:364
+#: core/job_error.cpp:381
 #, kde-format
 msgid "You may have encountered a bug in the program."
 msgstr "Mahčyma, ty napatkaŭ u prahramie chibu."
 
-#: core/job_error.cpp:366
+#: core/job_error.cpp:383
 #, kde-format
 msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
@@ -921,7 +921,7 @@ msgstr ""
 "Napeŭna, pryčynaj jość chiba ŭ prahramie. Kali łaska, paviedam pra jaje jak "
 "maha padrabiaźniej. Jak heta zrabić, čytaj dalej."
 
-#: core/job_error.cpp:369
+#: core/job_error.cpp:386
 #, kde-format
 msgid ""
 "Update your software to the latest version. Your distribution should provide "
@@ -930,7 +930,7 @@ msgstr ""
 "Aktualizuj svaje prahramy da jak maha naviejšych versijaŭ. U tvajoj "
 "dystrybucyi pavinny być sposaby zrabić hety."
 
-#: core/job_error.cpp:372
+#: core/job_error.cpp:389
 #, fuzzy, kde-format
 #| msgid ""
 #| "When all else fails, please consider helping the KDE team or the third "
@@ -960,12 +960,12 @@ msgstr ""
 "da tvajoj prablemy, tady, składajučy tekst paviedamleńnia, uličy "
 "padadzienyja nižej parady j zanatuj usio jak maha padrabiaźniej."
 
-#: core/job_error.cpp:381
+#: core/job_error.cpp:398
 #, kde-format
 msgid "There may have been a problem with your network connection."
 msgstr "Mabyć, u ciabie ŭźnikli prablemy ź sietkavym spałučeńniem."
 
-#: core/job_error.cpp:385
+#: core/job_error.cpp:402
 #, kde-format
 msgid ""
 "There may have been a problem with your network configuration. If you have "
@@ -974,7 +974,7 @@ msgstr ""
 "Mabyć, u ciabie ŭźnikli prablemy ź sietkavymi naładami. Ale kali ty tolki "
 "što biez prablemaŭ karystaŭsia siecivam, to reč nia ŭ hetym."
 
-#: core/job_error.cpp:389
+#: core/job_error.cpp:406
 #, kde-format
 msgid ""
 "There may have been a problem at some point along the network path between "
@@ -982,42 +982,42 @@ msgid ""
 msgstr ""
 "Mabyć, na sietkavym šlachu ad servera da tvajho kamputara ŭźnikli prablemy."
 
-#: core/job_error.cpp:391
+#: core/job_error.cpp:408
 #, kde-format
 msgid "Try again, either now or at a later time."
 msgstr "Pasprabuj znoŭ, zaraz albo paźniej."
 
-#: core/job_error.cpp:392
+#: core/job_error.cpp:409
 #, kde-format
 msgid "A protocol error or incompatibility may have occurred."
 msgstr "Mahčyma, uźnikła prablema ŭ pratakole albo niaŭzhodnienaści."
 
-#: core/job_error.cpp:393
+#: core/job_error.cpp:410
 #, kde-format
 msgid "Ensure that the resource exists, and try again."
 msgstr "Spraŭdź, što resurs isnuje, i pasprabuj jašče."
 
-#: core/job_error.cpp:394
+#: core/job_error.cpp:411
 #, kde-format
 msgid "The specified resource may not exist."
 msgstr "Aznačany resurs, mahčyma, nie isnuje."
 
-#: core/job_error.cpp:396
+#: core/job_error.cpp:413
 #, kde-format
 msgid "Double-check that you have entered the correct location and try again."
 msgstr "Spraŭdź, što ty pravilna ŭpisaŭ adras, i pasprabuj znoŭ."
 
-#: core/job_error.cpp:398
+#: core/job_error.cpp:415
 #, kde-format
 msgid "Check your network connection status."
 msgstr "Spraŭdź, ci dziejničaje tvajo sietkavaje spałučeńnie."
 
-#: core/job_error.cpp:402
+#: core/job_error.cpp:419
 #, kde-format
 msgid "Cannot Open Resource For Reading"
 msgstr "Nie ŭdałosia adčynić resurs dla čytańnia"
 
-#: core/job_error.cpp:404
+#: core/job_error.cpp:421
 #, kde-format
 msgid ""
 "This means that the contents of the requested file or folder <strong>%1</"
@@ -1026,17 +1026,17 @@ msgstr ""
 "Niemahčyma atrymać źmieściva zapatrabavanaha fajła ci kataloha <strong>%1</"
 "strong>, bo nie ŭdałosia da jaho dastupicca dla čytańnia."
 
-#: core/job_error.cpp:409
+#: core/job_error.cpp:426
 #, kde-format
 msgid "You may not have permissions to read the file or open the folder."
 msgstr "Tabie nie staje dazvołu, kab pračytać fajł ci adčynić kataloh."
 
-#: core/job_error.cpp:416
+#: core/job_error.cpp:433
 #, kde-format
 msgid "Cannot Open Resource For Writing"
 msgstr "Nie ŭdałosia adčynić resurs dla zapisu"
 
-#: core/job_error.cpp:418
+#: core/job_error.cpp:435
 #, kde-format
 msgid ""
 "This means that the file, <strong>%1</strong>, could not be written to as "
@@ -1045,18 +1045,18 @@ msgstr ""
 "Niemahčyma zapisać u fajł <strong>%1</strong>, bo nie ŭdałosia da jaho "
 "dastupicca dla zapisu."
 
-#: core/job_error.cpp:427
+#: core/job_error.cpp:444
 #, fuzzy, kde-format
 #| msgid "Cannot Initiate the %1 Protocol"
 msgid "Cannot Launch Process required by the %1 Protocol"
 msgstr "Nie ŭdałosia inicyjalizavać pratakoł „%1”"
 
-#: core/job_error.cpp:428
+#: core/job_error.cpp:445
 #, kde-format
 msgid "Unable to Launch Process"
 msgstr "Nie ŭdałosia ŭklučyć praces"
 
-#: core/job_error.cpp:430
+#: core/job_error.cpp:447
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program on your computer which provides access to the <strong>%1</"
@@ -1071,7 +1071,7 @@ msgstr ""
 "pratakoł <strong>%1</strong>. Chutčej za ŭsio, pryčyny ŭ hetaj prablemy "
 "techničnyja."
 
-#: core/job_error.cpp:435
+#: core/job_error.cpp:452
 #, kde-format
 msgid ""
 "The program which provides compatibility with this protocol may not have "
@@ -1083,12 +1083,12 @@ msgstr ""
 "prahramu niaŭzhodnienaj ź ciapierašniaj versijaj, i jana pierastała "
 "ŭklučacca."
 
-#: core/job_error.cpp:444
+#: core/job_error.cpp:461
 #, kde-format
 msgid "Internal Error"
 msgstr "Unutranaja pamyłka"
 
-#: core/job_error.cpp:446
+#: core/job_error.cpp:463
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1097,12 +1097,12 @@ msgstr ""
 "Prahrama z tvajho kamputara, jakaja absłuhoŭvaje pratakoł <strong>%1</"
 "strong>, paviedamiła pra ŭnutranuju pamyłku."
 
-#: core/job_error.cpp:454
+#: core/job_error.cpp:471
 #, kde-format
 msgid "Improperly Formatted URL"
 msgstr "Adras u niapravilnym farmacie"
 
-#: core/job_error.cpp:456
+#: core/job_error.cpp:473
 #, kde-format
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
@@ -1116,12 +1116,12 @@ msgstr ""
 "karystańnik:parol@www.uzor.by:port/kataloh/fajł.pašyreńnie?query=vartaść</"
 "strong></blockquote>"
 
-#: core/job_error.cpp:465
+#: core/job_error.cpp:482
 #, kde-format
 msgid "Unsupported Protocol %1"
 msgstr "Niepadtrymany pratakoł „%1”"
 
-#: core/job_error.cpp:467
+#: core/job_error.cpp:484
 #, kde-format
 msgid ""
 "The protocol <strong>%1</strong> is not supported by the KDE programs "
@@ -1130,12 +1130,12 @@ msgstr ""
 "Pratakoł <strong>%1</strong> nie padtrymvajecca prahramami KDE, "
 "zainstalavanymi ŭ hetym kamputary."
 
-#: core/job_error.cpp:470
+#: core/job_error.cpp:487
 #, kde-format
 msgid "The requested protocol may not be supported."
 msgstr "Zapatrabavany pratakoł nie padtrymvajecca."
 
-#: core/job_error.cpp:472
+#: core/job_error.cpp:489
 #, kde-format
 msgid ""
 "The versions of the %1 protocol supported by this computer and the server "
@@ -1143,7 +1143,7 @@ msgid ""
 msgstr ""
 "Versii pratakoła „%1” u tvaim kamputary i ŭ servery mohuć nie zhadžacca."
 
-#: core/job_error.cpp:476
+#: core/job_error.cpp:493
 #, fuzzy, kde-format
 #| msgid ""
 #| "You may perform a search on the Internet for a KDE program (called a "
@@ -1161,24 +1161,24 @@ msgstr ""
 "vyłučyć <a href=\"http://kde-apps.org/\">http://kde-apps.org/</a> i <a href="
 "\"http://freshmeat.net/\">http://freshmeat.net/</a>."
 
-#: core/job_error.cpp:485
+#: core/job_error.cpp:502
 #, kde-format
 msgid "URL Does Not Refer to a Resource."
 msgstr "Adras nie spasyłajecca na resurs."
 
-#: core/job_error.cpp:486
+#: core/job_error.cpp:503
 #, kde-format
 msgid "Protocol is a Filter Protocol"
 msgstr "Pratakoł jość filtracyjnym"
 
-#: core/job_error.cpp:488
+#: core/job_error.cpp:505
 #, kde-format
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered did not refer to a specific resource."
 msgstr "Upisany adras (<strong>URL</strong>) nie spasyłajecca na peŭny resurs."
 
-#: core/job_error.cpp:492
+#: core/job_error.cpp:509
 #, kde-format
 msgid ""
 "KDE is able to communicate through a protocol within a protocol; the "
@@ -1190,12 +1190,12 @@ msgstr ""
 "tolki dla hetkich vypadkaŭ, ale nia hetaha. Chutčej za ŭsio, uźnikła "
 "prablema ŭ prahramnym kodzie."
 
-#: core/job_error.cpp:500
+#: core/job_error.cpp:517
 #, kde-format
 msgid "Unsupported Action: %1"
 msgstr "Nieviadomaja aperacyja: %1"
 
-#: core/job_error.cpp:502
+#: core/job_error.cpp:519
 #, kde-format
 msgid ""
 "The requested action is not supported by the KDE program which is "
@@ -1204,7 +1204,7 @@ msgstr ""
 "Zapatrabavanaja aperacyja nieviadomaja dla prahramy KDE, jakaja absłuhoŭvaje "
 "pratakoł <strong>%1</strong>."
 
-#: core/job_error.cpp:506
+#: core/job_error.cpp:523
 #, kde-format
 msgid ""
 "This error is very much dependent on the KDE program. The additional "
@@ -1215,51 +1215,51 @@ msgstr ""
 "zmohuć tabie bolš vytłumačyć, čym infarmacyja, dastupnaja praz systemu "
 "pierasyłki źviestak KDE."
 
-#: core/job_error.cpp:510
+#: core/job_error.cpp:527
 #, kde-format
 msgid "Attempt to find another way to accomplish the same outcome."
 msgstr "Sproba dasiahnuć pastaŭlenaj mety inšym sposabam."
 
-#: core/job_error.cpp:515
+#: core/job_error.cpp:532
 #, kde-format
 msgid "File Expected"
 msgstr "Čakaŭsia fajł"
 
-#: core/job_error.cpp:517
+#: core/job_error.cpp:534
 #, kde-format
 msgid ""
 "The request expected a file, however the folder <strong>%1</strong> was "
 "found instead."
 msgstr "Zapyt čakaŭ fajł, ale znajšoŭ kataloh <strong>%1</strong>."
 
-#: core/job_error.cpp:520
+#: core/job_error.cpp:537
 #, kde-format
 msgid "This may be an error on the server side."
 msgstr "Mahčyma, heta prablema servera."
 
-#: core/job_error.cpp:525
+#: core/job_error.cpp:542
 #, kde-format
 msgid "Folder Expected"
 msgstr "Čakaŭsia kataloh"
 
-#: core/job_error.cpp:527
+#: core/job_error.cpp:544
 #, kde-format
 msgid ""
 "The request expected a folder, however the file <strong>%1</strong> was "
 "found instead."
 msgstr "Zapyt čakaŭ kataloh, ale znajšoŭ fajł <strong>%1</strong>."
 
-#: core/job_error.cpp:535
+#: core/job_error.cpp:552
 #, kde-format
 msgid "File or Folder Does Not Exist"
 msgstr "Fajł ci kataloh nie isnuje"
 
-#: core/job_error.cpp:537
+#: core/job_error.cpp:554
 #, kde-format
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr "Aznačany fajł ci kataloh <strong>%1</strong> nie isnuje."
 
-#: core/job_error.cpp:547
+#: core/job_error.cpp:564
 #, kde-format
 msgid ""
 "The requested file could not be created because a file with the same name "
@@ -1267,24 +1267,24 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia stvaryć zapatrabavany fajł, bo fajł z takoj nazvaj užo isnuje."
 
-#: core/job_error.cpp:550
+#: core/job_error.cpp:567
 #, kde-format
 msgid "Try moving the current file out of the way first, and then try again."
 msgstr ""
 "Pasprabuj pieranieści ciapierašni fajł u inšaje miesca i paŭtaryć sprobu "
 "znoŭ."
 
-#: core/job_error.cpp:552
+#: core/job_error.cpp:569
 #, kde-format
 msgid "Delete the current file and try again."
 msgstr "Vydali ciapierašni fajł i pasprabuj znoŭ."
 
-#: core/job_error.cpp:552
+#: core/job_error.cpp:569
 #, kde-format
 msgid "Choose an alternate filename for the new file."
 msgstr "Vybiery inšuju nazvu dla novaha fajła."
 
-#: core/job_error.cpp:558
+#: core/job_error.cpp:575
 #, kde-format
 msgid ""
 "The requested folder could not be created because a folder with the same "
@@ -1293,29 +1293,29 @@ msgstr ""
 "Nie ŭdałosia stvaryć zapatrabavany kataloh, bo kataloh z takoj nazvaj užo "
 "isnuje."
 
-#: core/job_error.cpp:561
+#: core/job_error.cpp:578
 #, kde-format
 msgid "Try moving the current folder out of the way first, and then try again."
 msgstr ""
 "Pasprabuj pieranieści ciapierašni kataloh u inšaje miesca i paŭtaryć sprobu "
 "znoŭ."
 
-#: core/job_error.cpp:563
+#: core/job_error.cpp:580
 #, kde-format
 msgid "Delete the current folder and try again."
 msgstr "Vydali ciapierašni kataloh i pasprabuj znoŭ."
 
-#: core/job_error.cpp:563
+#: core/job_error.cpp:580
 #, kde-format
 msgid "Choose an alternate name for the new folder."
 msgstr "Vybiery inšuju nazvu dla novaha kataloha."
 
-#: core/job_error.cpp:567
+#: core/job_error.cpp:584
 #, kde-format
 msgid "Unknown Host"
 msgstr "Nieviadomy host"
 
-#: core/job_error.cpp:569
+#: core/job_error.cpp:586
 #, kde-format
 msgid ""
 "An unknown host error indicates that the server with the requested name, "
@@ -1324,59 +1324,59 @@ msgstr ""
 "Hetaja prablema śviedčyć pra toje, što nie ŭdałosia znajści ŭ siecivie "
 "server z zapatrabavanaj nazvaj: <strong>%1</strong>."
 
-#: core/job_error.cpp:574
+#: core/job_error.cpp:591
 #, kde-format
 msgid ""
 "The name that you typed, %1, may not exist: it may be incorrectly typed."
 msgstr "Takoj nazvy, „%1”, nie isnuje. Mahčyma, jana niapravilna ŭpisanaj."
 
-#: core/job_error.cpp:582
+#: core/job_error.cpp:599
 #, kde-format
 msgid "Access Denied"
 msgstr "Dostup zabaronieny"
 
-#: core/job_error.cpp:584
+#: core/job_error.cpp:601
 #, kde-format
 msgid "Access was denied to the specified resource, <strong>%1</strong>."
 msgstr "Dostup da aznačanaha resursu, <strong>%1</strong>, zabaronieny."
 
-#: core/job_error.cpp:588 core/job_error.cpp:864
+#: core/job_error.cpp:605 core/job_error.cpp:881
 #, kde-format
 msgid "You may have supplied incorrect authentication details or none at all."
 msgstr ""
 "Mabyć, ty nie padaŭ albo padaŭ niapravilnyja źviestki pra svaju tojesnaść."
 
-#: core/job_error.cpp:591 core/job_error.cpp:867
+#: core/job_error.cpp:608 core/job_error.cpp:884
 #, kde-format
 msgid "Your account may not have permission to access the specified resource."
 msgstr ""
 "Mahčyma, tvajmu kontu nie staje dazvołu dla dostupu da aznačanaha resursu."
 
-#: core/job_error.cpp:594 core/job_error.cpp:871 core/job_error.cpp:889
+#: core/job_error.cpp:611 core/job_error.cpp:888 core/job_error.cpp:906
 #, kde-format
 msgid ""
 "Retry the request and ensure your authentication details are entered "
 "correctly."
 msgstr "Paŭtary zapyt, spraŭdziŭšy pravilnaść svaich źviestak pra tojesnaść."
 
-#: core/job_error.cpp:603
+#: core/job_error.cpp:620
 #, kde-format
 msgid "Write Access Denied"
 msgstr "Zapis zabaronieny"
 
-#: core/job_error.cpp:605
+#: core/job_error.cpp:622
 #, kde-format
 msgid ""
 "This means that an attempt to write to the file <strong>%1</strong> was "
 "rejected."
 msgstr "Sproba zapisać u fajł <strong>%1</strong> była adchilenaja."
 
-#: core/job_error.cpp:613
+#: core/job_error.cpp:630
 #, kde-format
 msgid "Unable to Enter Folder"
 msgstr "Nie ŭdałosia ŭvajści ŭ kataloh"
 
-#: core/job_error.cpp:615
+#: core/job_error.cpp:632
 #, kde-format
 msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
@@ -1385,17 +1385,17 @@ msgstr ""
 "Sproba ŭvajści u zapatrabavany kataloh <strong>%1</strong> (inačaj kažučy, "
 "pračytać jaho) była adchilenaja."
 
-#: core/job_error.cpp:623
+#: core/job_error.cpp:640
 #, kde-format
 msgid "Folder Listing Unavailable"
 msgstr "Nie ŭdałosia prahladzieć kataloh"
 
-#: core/job_error.cpp:624
+#: core/job_error.cpp:641
 #, kde-format
 msgid "Protocol %1 is not a Filesystem"
 msgstr "Pratakoł „%1” nia jość słužbaj fajłavaj systemy"
 
-#: core/job_error.cpp:626
+#: core/job_error.cpp:643
 #, kde-format
 msgid ""
 "This means that a request was made which requires determining the contents "
@@ -1405,12 +1405,12 @@ msgstr ""
 "Była zroblenaja sproba pračytać źmieściva kataloha, ale prahrama KDE, jakaja "
 "absłuhoŭvaje hety pratakoł, nia ŭmieje hetaha rabić."
 
-#: core/job_error.cpp:634
+#: core/job_error.cpp:651
 #, kde-format
 msgid "Cyclic Link Detected"
 msgstr "Znojdzieny cykličny łuč"
 
-#: core/job_error.cpp:636
+#: core/job_error.cpp:653
 #, kde-format
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
@@ -1422,7 +1422,7 @@ msgstr ""
 "fajłavaj systemie. KDE znajšoŭ šerah łučoŭ, jakija ŭtvarajuć biaskoncuju "
 "piatlu: fajł byŭ złučany z samym saboju."
 
-#: core/job_error.cpp:641 core/job_error.cpp:667
+#: core/job_error.cpp:658 core/job_error.cpp:684
 #, kde-format
 msgid ""
 "Delete one part of the loop in order that it does not cause an infinite "
@@ -1430,27 +1430,27 @@ msgid ""
 msgstr ""
 "Vydali adnu z častak hetaj piatli, kab razarvać jaje, i pasprabuj znoŭ."
 
-#: core/job_error.cpp:651
+#: core/job_error.cpp:668
 #, kde-format
 msgid "Request Aborted By User"
 msgstr "Karystańnik anulavaŭ zapyt"
 
-#: core/job_error.cpp:653 core/job_error.cpp:1042
+#: core/job_error.cpp:670 core/job_error.cpp:1059
 #, kde-format
 msgid "The request was not completed because it was aborted."
 msgstr "Zapyt nia skončany, bo byŭ anulavany."
 
-#: core/job_error.cpp:655 core/job_error.cpp:910 core/job_error.cpp:1044
+#: core/job_error.cpp:672 core/job_error.cpp:927 core/job_error.cpp:1061
 #, kde-format
 msgid "Retry the request."
 msgstr "Paŭtary zapyt."
 
-#: core/job_error.cpp:659
+#: core/job_error.cpp:676
 #, kde-format
 msgid "Cyclic Link Detected During Copy"
 msgstr "Padčas kapijavańnia znojdzieny cykličny łuč"
 
-#: core/job_error.cpp:661
+#: core/job_error.cpp:678
 #, kde-format
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
@@ -1463,17 +1463,17 @@ msgstr ""
 "šerah łučoŭ, jakija ŭtvarajuć biaskoncuju piatlu: fajł byŭ złučany z samym "
 "saboju."
 
-#: core/job_error.cpp:673
+#: core/job_error.cpp:690
 #, kde-format
 msgid "Could Not Create Network Connection"
 msgstr "Nie ŭdałosia stvaryć sietkavaje spałučeńnie"
 
-#: core/job_error.cpp:674
+#: core/job_error.cpp:691
 #, kde-format
 msgid "Could Not Create Socket"
 msgstr "Nie ŭdałosia stvaryć sokiet"
 
-#: core/job_error.cpp:676
+#: core/job_error.cpp:693
 #, kde-format
 msgid ""
 "This is a fairly technical error in which a required device for network "
@@ -1482,8 +1482,8 @@ msgstr ""
 "Techničnaja prablema, jakaja vyjaŭlajecca ŭ niemahčymaści stvareńnia "
 "patrebnaj dla sietkavaj kamunikacyi pryłady (sokieta)."
 
-#: core/job_error.cpp:679 core/job_error.cpp:828 core/job_error.cpp:841
-#: core/job_error.cpp:852
+#: core/job_error.cpp:696 core/job_error.cpp:845 core/job_error.cpp:858
+#: core/job_error.cpp:869
 #, kde-format
 msgid ""
 "The network connection may be incorrectly configured, or the network "
@@ -1492,12 +1492,12 @@ msgstr ""
 "Mabyć, sietkavaje spałučeńnie niapravilna naładžanaje ci sietkavy interfejs "
 "nia ŭklučany."
 
-#: core/job_error.cpp:685
+#: core/job_error.cpp:702
 #, kde-format
 msgid "Connection to Server Refused"
 msgstr "Spałučeńnie z serveram adchilenaje"
 
-#: core/job_error.cpp:687
+#: core/job_error.cpp:704
 #, kde-format
 msgid ""
 "The server <strong>%1</strong> refused to allow this computer to make a "
@@ -1506,7 +1506,7 @@ msgstr ""
 "Server <strong>%1</strong> adchiliŭ sprobu tvajho kamputara naviazać "
 "spałučeńnie."
 
-#: core/job_error.cpp:691
+#: core/job_error.cpp:708
 #, kde-format
 msgid ""
 "The server, while currently connected to the Internet, may not be configured "
@@ -1515,14 +1515,14 @@ msgstr ""
 "Mahčyma, server, spałučany ź siecivam, nie naładžany dla absłuhoŭvańnia "
 "zapytaŭ."
 
-#: core/job_error.cpp:694
+#: core/job_error.cpp:711
 #, kde-format
 msgid ""
 "The server, while currently connected to the Internet, may not be running "
 "the requested service (%1)."
 msgstr "Mahčyma, server, spałučany ź siecivam, nia maje patrebnaj słužby (%1)."
 
-#: core/job_error.cpp:698
+#: core/job_error.cpp:715
 #, kde-format
 msgid ""
 "A network firewall (a device which restricts Internet requests), either "
@@ -1533,12 +1533,12 @@ msgstr ""
 "abmiažoŭvaje čynnaść u siecivie), jakaja abaraniaje tvaju sietku albo sietku "
 "servera."
 
-#: core/job_error.cpp:705
+#: core/job_error.cpp:722
 #, kde-format
 msgid "Connection to Server Closed Unexpectedly"
 msgstr "Spałučeńnie z serveram niečakana začyniłasia"
 
-#: core/job_error.cpp:707
+#: core/job_error.cpp:724
 #, kde-format
 msgid ""
 "Although a connection was established to <strong>%1</strong>, the connection "
@@ -1547,7 +1547,7 @@ msgstr ""
 "Choć spałučeńnie z serveram <strong>%1</strong> było ŭstalavanaje, ale paśla "
 "jano było začynienaje ŭ niečakany sposab."
 
-#: core/job_error.cpp:713
+#: core/job_error.cpp:730
 #, kde-format
 msgid ""
 "A protocol error may have occurred, causing the server to close the "
@@ -1556,17 +1556,17 @@ msgstr ""
 "Mahčyma, uźnikła prablema ŭ pratakole, u vyniku jakoj server začyniŭ "
 "spałučeńnie."
 
-#: core/job_error.cpp:719
+#: core/job_error.cpp:736
 #, kde-format
 msgid "URL Resource Invalid"
 msgstr "Niapravilny resurs adrasa"
 
-#: core/job_error.cpp:720
+#: core/job_error.cpp:737
 #, kde-format
 msgid "Protocol %1 is not a Filter Protocol"
 msgstr "Pratakoł „%1” nia jość filtracyjnym"
 
-#: core/job_error.cpp:722
+#: core/job_error.cpp:739
 #, kde-format
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
@@ -1576,7 +1576,7 @@ msgstr ""
 "Upisany adras (<strong>URL</strong>) nie spasyłajecca na dziejny sposab "
 "dostupu da peŭnaha resursu, <strong>%1%2</strong>."
 
-#: core/job_error.cpp:729
+#: core/job_error.cpp:746
 #, kde-format
 msgid ""
 "KDE is able to communicate through a protocol within a protocol. This "
@@ -1588,17 +1588,17 @@ msgstr ""
 "sposabu karystańnia pratakołam, ale toj jaho nie padtrymvaje. Chutčej za "
 "ŭsio, uźnikła prablema ŭ prahramnym kodzie."
 
-#: core/job_error.cpp:737
+#: core/job_error.cpp:754
 #, kde-format
 msgid "Unable to Initialize Input/Output Device"
 msgstr "Nie ŭdałosia inicyjalizavać pryładu pierasyłańnia źviestak"
 
-#: core/job_error.cpp:738
+#: core/job_error.cpp:755
 #, kde-format
 msgid "Could Not Mount Device"
 msgstr "Nie ŭdałosia zmantavać pryładu"
 
-#: core/job_error.cpp:740
+#: core/job_error.cpp:757
 #, kde-format
 msgid ""
 "The requested device could not be initialized (\"mounted\"). The reported "
@@ -1607,7 +1607,7 @@ msgstr ""
 "Nie ŭdałosia inicyjalizavać („zmantavać”) zapatrabavanuju pryładu. Uźnikła "
 "pamyłka: <strong>%1</strong>"
 
-#: core/job_error.cpp:744
+#: core/job_error.cpp:761
 #, kde-format
 msgid ""
 "The device may not be ready, for example there may be no media in a "
@@ -1618,7 +1618,7 @@ msgstr ""
 "źmiennaha nośbita (u vypadku pryłady CD i pad.) Kali ž heta pieranosnaja "
 "pryłada, jana moža być kiepska padłučanaja da kamputara."
 
-#: core/job_error.cpp:749
+#: core/job_error.cpp:766
 #, kde-format
 msgid ""
 "You may not have permissions to initialize (\"mount\") the device. On UNIX "
@@ -1629,7 +1629,7 @@ msgstr ""
 "pryłady. U systemach UNIX časta patrebnaje stanovišča administratara, kab "
 "zmahčy zinicyjalizavać pryładu."
 
-#: core/job_error.cpp:754
+#: core/job_error.cpp:771
 #, kde-format
 msgid ""
 "Check that the device is ready; removable drives must contain media, and "
@@ -1639,17 +1639,17 @@ msgstr ""
 "pieranosnyja pryłady padłučanyja da kamputara i ŭklučanyja. Paśla pasprabuj "
 "znoŭ."
 
-#: core/job_error.cpp:761
+#: core/job_error.cpp:778
 #, kde-format
 msgid "Unable to Uninitialize Input/Output Device"
 msgstr "Nie ŭdałosia adinicyjalizavać pryładu pierasyłańnia źviestak"
 
-#: core/job_error.cpp:762
+#: core/job_error.cpp:779
 #, kde-format
 msgid "Could Not Unmount Device"
 msgstr "Nie ŭdałosia admantavać pryładu"
 
-#: core/job_error.cpp:764
+#: core/job_error.cpp:781
 #, kde-format
 msgid ""
 "The requested device could not be uninitialized (\"unmounted\"). The "
@@ -1658,7 +1658,7 @@ msgstr ""
 "Nie ŭdałosia adinicyjalizavać („admantavać”) zapatrabavanuju pryładu. "
 "Uźnikła pamyłka: <strong>%1</strong>"
 
-#: core/job_error.cpp:768
+#: core/job_error.cpp:785
 #, kde-format
 msgid ""
 "The device may be busy, that is, still in use by another application or "
@@ -1669,7 +1669,7 @@ msgstr ""
 "aplikacyja ci karystańnik. Navat adčynienaje akno prahladu miesca na hetaj "
 "pryładzie moža stać pryčynaj jaje zaniataści."
 
-#: core/job_error.cpp:773
+#: core/job_error.cpp:790
 #, kde-format
 msgid ""
 "You may not have permissions to uninitialize (\"unmount\") the device. On "
@@ -1680,19 +1680,19 @@ msgstr ""
 "pryłady. U systemach UNIX časta patrebnaje stanovišča administratara, kab "
 "zmahčy adinicyjalizavać pryładu."
 
-#: core/job_error.cpp:778
+#: core/job_error.cpp:795
 #, kde-format
 msgid "Check that no applications are accessing the device, and try again."
 msgstr ""
 "Spraŭdź, što nijakija inšyja aplikacyi nie karystajucca hetaj pryładaj, i "
 "pasprabuj znoŭ."
 
-#: core/job_error.cpp:784
+#: core/job_error.cpp:801
 #, kde-format
 msgid "Cannot Read From Resource"
 msgstr "Nie ŭdałosia pračytać z resursu"
 
-#: core/job_error.cpp:786
+#: core/job_error.cpp:803
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
@@ -1701,17 +1701,17 @@ msgstr ""
 "Choć resurs <strong>%1</strong> udałosia adčynić, ale padčas čytańnia "
 "źmieściva resursu ŭźnikła prablema."
 
-#: core/job_error.cpp:790
+#: core/job_error.cpp:807
 #, kde-format
 msgid "You may not have permissions to read from the resource."
 msgstr "Mabyć, tabie nie staje dazvołu na čytańnie z hetaha resursu."
 
-#: core/job_error.cpp:803
+#: core/job_error.cpp:820
 #, kde-format
 msgid "Cannot Write to Resource"
 msgstr "Nie ŭdałosia zapisać u resursie"
 
-#: core/job_error.cpp:805
+#: core/job_error.cpp:822
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
@@ -1720,22 +1720,22 @@ msgstr ""
 "Choć resurs <strong>%1</strong> udałosia adčynić, ale padčas zapisu ŭ hetym "
 "resursie ŭźnikła prablema."
 
-#: core/job_error.cpp:808
+#: core/job_error.cpp:825
 #, kde-format
 msgid "You may not have permissions to write to the resource."
 msgstr "Mabyć, tabie nie staje dazvołu na zapis u hetym resursie."
 
-#: core/job_error.cpp:821 core/job_error.cpp:834
+#: core/job_error.cpp:838 core/job_error.cpp:851
 #, kde-format
 msgid "Could Not Listen for Network Connections"
 msgstr "Nie ŭdałosia pasłuchać sietkavyja spałučeńni"
 
-#: core/job_error.cpp:822
+#: core/job_error.cpp:839
 #, kde-format
 msgid "Could Not Bind"
 msgstr "Nie ŭdałosia paviazać sokiet"
 
-#: core/job_error.cpp:824 core/job_error.cpp:837
+#: core/job_error.cpp:841 core/job_error.cpp:854
 #, kde-format
 msgid ""
 "This is a fairly technical error in which a required device for network "
@@ -1746,17 +1746,17 @@ msgstr ""
 "słuchańnie ŭvachodnych sietkavych spałučeńniaŭ praz pryładu, patrebnuju dla "
 "sietkavaj kamunikacyi (sokiet)."
 
-#: core/job_error.cpp:835
+#: core/job_error.cpp:852
 #, kde-format
 msgid "Could Not Listen"
 msgstr "Nie ŭdałosia pasłuchać"
 
-#: core/job_error.cpp:847
+#: core/job_error.cpp:864
 #, kde-format
 msgid "Could Not Accept Network Connection"
 msgstr "Nie ŭdałosia pryniać sietkavaje spałučeńnie"
 
-#: core/job_error.cpp:849
+#: core/job_error.cpp:866
 #, kde-format
 msgid ""
 "This is a fairly technical error in which an error occurred while attempting "
@@ -1765,33 +1765,33 @@ msgstr ""
 "Heta techničnaja prablema, jakaja vyjaŭlajecca ŭ tym, što ŭźnikła pamyłka "
 "padčas sproby pryniać uvachodnaje sietkavaje spałučeńnie."
 
-#: core/job_error.cpp:854
+#: core/job_error.cpp:871
 #, kde-format
 msgid "You may not have permissions to accept the connection."
 msgstr "Mabyć, tabie nie staje dazvołu na prymańnie spałučeńniaŭ."
 
-#: core/job_error.cpp:859
+#: core/job_error.cpp:876
 #, kde-format
 msgid "Could Not Login: %1"
 msgstr "Nie ŭdałosia ŭvajści: %1"
 
-#: core/job_error.cpp:861
+#: core/job_error.cpp:878
 #, kde-format
 msgid ""
 "An attempt to login to perform the requested operation was unsuccessful."
 msgstr "Nie ŭdałosia ŭvajści, kab vykanać zapatrabavanuju aperacyju."
 
-#: core/job_error.cpp:877
+#: core/job_error.cpp:894
 #, kde-format
 msgid "Could Not Determine Resource Status"
 msgstr "Nie ŭdałosia vyznačyć stanovišča resursu"
 
-#: core/job_error.cpp:878
+#: core/job_error.cpp:895
 #, kde-format
 msgid "Could Not Stat Resource"
 msgstr "Nie ŭdałosia atrymać źviestki pra resurs"
 
-#: core/job_error.cpp:880
+#: core/job_error.cpp:897
 #, kde-format
 msgid ""
 "An attempt to determine information about the status of the resource <strong>"
@@ -1800,68 +1800,68 @@ msgstr ""
 "Nie ŭdałosia atrymać źviestki pra stanovišča resursu <strong>%1</strong>: "
 "jahonuju nazvu, typ, pamier i h.d."
 
-#: core/job_error.cpp:885
+#: core/job_error.cpp:902
 #, kde-format
 msgid "The specified resource may not have existed or may not be accessible."
 msgstr "Mabyć, aznačany resurs nie isnuje albo niedastupny."
 
 #. i18n( "Could not terminate listing %1" ).arg( errorText );
-#: core/job_error.cpp:896
+#: core/job_error.cpp:913
 #, kde-format
 msgid "Could Not Cancel Listing"
 msgstr "Nie ŭdałosia anulavać prahlad kataloha"
 
-#: core/job_error.cpp:897
+#: core/job_error.cpp:914
 #, kde-format
 msgid "FIXME: Document this"
 msgstr "FIXME: Treba zadakumentavać"
 
-#: core/job_error.cpp:901
+#: core/job_error.cpp:918
 #, kde-format
 msgid "Could Not Create Folder"
 msgstr "Nie ŭdałosia stvaryć kataloh"
 
-#: core/job_error.cpp:902
+#: core/job_error.cpp:919
 #, kde-format
 msgid "An attempt to create the requested folder failed."
 msgstr "Nie ŭdałosia stvaryć zapatrabavany kataloh."
 
-#: core/job_error.cpp:905
+#: core/job_error.cpp:922
 #, kde-format
 msgid "The location where the folder was to be created may not exist."
 msgstr "Nabyć, miesca, dzie treba stvaryć kataloh, nie isnuje."
 
-#: core/job_error.cpp:914
+#: core/job_error.cpp:931
 #, kde-format
 msgid "Could Not Remove Folder"
 msgstr "Nie ŭdałosia vydalić kataloh"
 
-#: core/job_error.cpp:916
+#: core/job_error.cpp:933
 #, kde-format
 msgid "An attempt to remove the specified folder, <strong>%1</strong>, failed."
 msgstr "Nie ŭdałosia vydalić aznačany kataloh, <strong>%1</strong>."
 
-#: core/job_error.cpp:919
+#: core/job_error.cpp:936
 #, kde-format
 msgid "The specified folder may not exist."
 msgstr "Mahčyma, aznačany kataloh nie isnuje."
 
-#: core/job_error.cpp:919
+#: core/job_error.cpp:936
 #, kde-format
 msgid "The specified folder may not be empty."
 msgstr "Mahčyma, aznačany kataloh źmiaščaje fajły."
 
-#: core/job_error.cpp:924
+#: core/job_error.cpp:941
 #, kde-format
 msgid "Ensure that the folder exists and is empty, and try again."
 msgstr "Spraŭdź, što kataloh isnuje j nie źmiaščaje fajłaŭ, i pasprabuj znoŭ."
 
-#: core/job_error.cpp:930
+#: core/job_error.cpp:947
 #, kde-format
 msgid "Could Not Resume File Transfer"
 msgstr "Nie ŭdałosia praciahnuć pierasyłańnie fajła"
 
-#: core/job_error.cpp:932
+#: core/job_error.cpp:949
 #, kde-format
 msgid ""
 "The specified request asked that the transfer of file <strong>%1</strong> be "
@@ -1870,66 +1870,66 @@ msgstr ""
 "Aznačany zapyt vymahaje pierasyłańnia fajła <strong>%1</strong>, pačynajučy "
 "ad peŭnaha miesca. Ale heta niemahčyma."
 
-#: core/job_error.cpp:937
+#: core/job_error.cpp:954
 #, kde-format
 msgid "The protocol, or the server, may not support file resuming."
 msgstr "Pratakoł albo server nia ŭmiejuć praciahvać pierasyłańni fajłaŭ."
 
-#: core/job_error.cpp:940
+#: core/job_error.cpp:957
 #, kde-format
 msgid "Retry the request without attempting to resume transfer."
 msgstr "Paŭtary sprobu pierasyłańnia fajła biaz praciahu."
 
-#: core/job_error.cpp:945
+#: core/job_error.cpp:962
 #, kde-format
 msgid "Could Not Rename Resource"
 msgstr "Nie ŭdałosia źmianić nazvu resursu"
 
-#: core/job_error.cpp:947
+#: core/job_error.cpp:964
 #, kde-format
 msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 msgstr "Nie ŭdałosia źmianić nazvu aznačanaha resursu, <strong>%1</strong>."
 
-#: core/job_error.cpp:958
+#: core/job_error.cpp:975
 #, kde-format
 msgid "Could Not Alter Permissions of Resource"
 msgstr "Nie ŭdałosia źmianić dazvoły na resurs"
 
-#: core/job_error.cpp:960
+#: core/job_error.cpp:977
 #, kde-format
 msgid ""
 "An attempt to alter the permissions on the specified resource <strong>%1</"
 "strong> failed."
 msgstr "Nie ŭdałosia źmianić dazvoły na aznačany resurs, <strong>%1</strong>."
 
-#: core/job_error.cpp:968
+#: core/job_error.cpp:985
 #, kde-format
 msgid "Could Not Change Ownership of Resource"
 msgstr "Nie ŭdałosia źmianić ułaścika resursu"
 
-#: core/job_error.cpp:970
+#: core/job_error.cpp:987
 #, kde-format
 msgid ""
 "An attempt to change the ownership of the specified resource <strong>%1</"
 "strong> failed."
 msgstr "Nie ŭdałosia źmianić ułaścika aznačanaha resursu, <strong>%1</strong>."
 
-#: core/job_error.cpp:978
+#: core/job_error.cpp:995
 #, kde-format
 msgid "Could Not Delete Resource"
 msgstr "Nie ŭdałosia vydalić resurs"
 
-#: core/job_error.cpp:980
+#: core/job_error.cpp:997
 #, kde-format
 msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
 msgstr "Nie ŭdałosia vydalić aznačany resurs, <strong>%1</strong>."
 
-#: core/job_error.cpp:988
+#: core/job_error.cpp:1005
 #, kde-format
 msgid "Unexpected Program Termination"
 msgstr "Niečakanaja źniščeńnie prahramy"
 
-#: core/job_error.cpp:990
+#: core/job_error.cpp:1007
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1938,12 +1938,12 @@ msgstr ""
 "Prahrama z tvajho kamputara, jakaja absłuhoŭvaje dostup da pratakołu <strong>"
 "%1</strong>, niečakana źniščyłasia."
 
-#: core/job_error.cpp:998
+#: core/job_error.cpp:1015
 #, kde-format
 msgid "Out of Memory"
 msgstr "Skončyłasia pamiać"
 
-#: core/job_error.cpp:1000
+#: core/job_error.cpp:1017
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1953,12 +1953,12 @@ msgstr ""
 "%1</strong>, nia moža atrymać jašče pamiaci, patrebnaj, kab praciahvać "
 "čynnaść."
 
-#: core/job_error.cpp:1009
+#: core/job_error.cpp:1026
 #, kde-format
 msgid "Unknown Proxy Host"
 msgstr "Nieviadomy proxy-host"
 
-#: core/job_error.cpp:1011
+#: core/job_error.cpp:1028
 #, kde-format
 msgid ""
 "While retrieving information about the specified proxy host, <strong>%1</"
@@ -1969,7 +1969,7 @@ msgstr ""
 "uźnikła prablema, jakaja vyjaŭlajecca ŭ tym, što nie ŭdałosia znajści ŭ "
 "siecivie zapatrabavanuju nazvu proxy-hosta."
 
-#: core/job_error.cpp:1017
+#: core/job_error.cpp:1034
 #, kde-format
 msgid ""
 "There may have been a problem with your network configuration, specifically "
@@ -1979,17 +1979,17 @@ msgstr ""
 "Mahčyma, prablema ŭ sietkavych naładach, najpierš u naźvie proxy-hosta. Ale "
 "kali ty tolki što biez prablemaŭ karystaŭsia siecivam, to reč u čymści inšym."
 
-#: core/job_error.cpp:1021
+#: core/job_error.cpp:1038
 #, kde-format
 msgid "Double-check your proxy settings and try again."
 msgstr "Spraŭdź svaje nałady proxy i pasprabuj znoŭ."
 
-#: core/job_error.cpp:1025
+#: core/job_error.cpp:1042
 #, kde-format
 msgid "Authentication Failed: Method %1 Not Supported"
 msgstr "Nie ŭdałosia dakazać svaju tojesnaść: sposab „%1” nie absłuhoŭvajecca"
 
-#: core/job_error.cpp:1027
+#: core/job_error.cpp:1044
 #, kde-format
 msgid ""
 "Although you may have supplied the correct authentication details, the "
@@ -2000,7 +2000,7 @@ msgstr ""
 "ich spraŭdzić, bo sposab, jakim server heta robić, nie absłuhoŭvajecca "
 "prahramaj KDE, jakaja dazvalaje dziejničać praz pratakoł „%1”."
 
-#: core/job_error.cpp:1033
+#: core/job_error.cpp:1050
 #, fuzzy, kde-format
 #| msgid ""
 #| "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/"
@@ -2013,17 +2013,17 @@ msgstr ""
 "\">http://bugs.kde.org/</a>, kab supolnaść KDE viedała pra nieabsłužany "
 "sposab spraŭdžvańnia tojesnaści."
 
-#: core/job_error.cpp:1040
+#: core/job_error.cpp:1057
 #, kde-format
 msgid "Request Aborted"
 msgstr "Zapyt anulavany"
 
-#: core/job_error.cpp:1048
+#: core/job_error.cpp:1065
 #, kde-format
 msgid "Internal Error in Server"
 msgstr "Unutranaja pamyłka ŭ servery"
 
-#: core/job_error.cpp:1050
+#: core/job_error.cpp:1067
 #, kde-format
 msgid ""
 "The program on the server which provides access to the <strong>%1</strong> "
@@ -2032,7 +2032,7 @@ msgstr ""
 "Prahrama ŭ servery, jakaja absłuhoŭvaje dostup da pratakołu <strong>%1</"
 "strong>, paviedamiła pra nastupnuju ŭnutranuju pamyłku: %2."
 
-#: core/job_error.cpp:1056
+#: core/job_error.cpp:1073
 #, kde-format
 msgid ""
 "This is most likely to be caused by a bug in the server program. Please "
@@ -2041,14 +2041,14 @@ msgstr ""
 "Chutčej za ŭsio, prablema ŭ chibie, jakaja vynikła ŭ servernaj prahramie. "
 "Kali łaska, paviedam pra jaje aznačanym nižej čynam."
 
-#: core/job_error.cpp:1060
+#: core/job_error.cpp:1077
 #, kde-format
 msgid "Contact the administrator of the server to advise them of the problem."
 msgstr ""
 "Źviarnisia da administratara hetaha servera j paviedam jamu pra ŭźnikłuju "
 "prablemu."
 
-#: core/job_error.cpp:1063
+#: core/job_error.cpp:1080
 #, kde-format
 msgid ""
 "If you know who the authors of the server software are, submit the bug "
@@ -2057,12 +2057,12 @@ msgstr ""
 "Kali ty viedaješ, chto jość aŭtarami servernaj prahramy, paviedam im pra "
 "znojdzienuju chibu."
 
-#: core/job_error.cpp:1068
+#: core/job_error.cpp:1085
 #, kde-format
 msgid "Timeout Error"
 msgstr "Skončyŭsia termin čakańnia"
 
-#: core/job_error.cpp:1070
+#: core/job_error.cpp:1087
 #, kde-format
 msgid ""
 "Although contact was made with the server, a response was not received "
@@ -2080,18 +2080,18 @@ msgstr ""
 "nałady času čakańnia ŭ Systemnych naładach KDE, u raździele: „Sietkavyja "
 "nałady” ► „Nałady spałučeńnia”."
 
-#: core/job_error.cpp:1083
+#: core/job_error.cpp:1100
 #, kde-format
 msgid "The server was too busy responding to other requests to respond."
 msgstr ""
 "Server byŭ nadta zaniaty adkazam na inšyja zapyty i nia zmoh adkazać tabie."
 
-#: core/job_error.cpp:1089 core/slavebase.cpp:1558
+#: core/job_error.cpp:1106 core/slavebase.cpp:1561
 #, kde-format
 msgid "Unknown Error"
 msgstr "Nieviadomaja pamyłka"
 
-#: core/job_error.cpp:1091
+#: core/job_error.cpp:1108
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -2100,12 +2100,12 @@ msgstr ""
 "Prahrama z tvajho kamputara, jakaja absłuhoŭvaje dostup da pratakołu <strong>"
 "%1</strong>, paviedamiła pra nieviadomuju pamyłku: %2."
 
-#: core/job_error.cpp:1101
+#: core/job_error.cpp:1118
 #, kde-format
 msgid "Unknown Interruption"
 msgstr "Nieviadomaje pierarvańnie"
 
-#: core/job_error.cpp:1103
+#: core/job_error.cpp:1120
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -2114,12 +2114,12 @@ msgstr ""
 "Prahrama ŭ tvaim kamputary, jakaja absłuhoŭvaje dostup da pratakoła <strong>"
 "%1</strong>, paviedamiła pra pierarvańnie nieviadomaha typu: %2."
 
-#: core/job_error.cpp:1113
+#: core/job_error.cpp:1130
 #, kde-format
 msgid "Could Not Delete Original File"
 msgstr "Nie ŭdałosia vydalić pieršasny fajł"
 
-#: core/job_error.cpp:1115
+#: core/job_error.cpp:1132
 #, kde-format
 msgid ""
 "The requested operation required the deleting of the original file, most "
@@ -2130,12 +2130,12 @@ msgstr ""
 "ŭsio, paśla pieraniasieńnia fajła ŭ inšaje miesca. Ale hety fajł (<strong>"
 "%1</strong>) nie ŭdałosia vydalić."
 
-#: core/job_error.cpp:1124
+#: core/job_error.cpp:1141
 #, kde-format
 msgid "Could Not Delete Temporary File"
 msgstr "Nie ŭdałosia vydalić časovy fajł"
 
-#: core/job_error.cpp:1126
+#: core/job_error.cpp:1143
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file in which "
@@ -2146,12 +2146,12 @@ msgstr ""
 "jaho źviestki, jakija biarucca ź sieciva. Ale hety fajł (<strong>%1</"
 "strong>) nie ŭdałosia vydalić."
 
-#: core/job_error.cpp:1136
+#: core/job_error.cpp:1153
 #, kde-format
 msgid "Could Not Rename Original File"
 msgstr "Nie ŭdałosia źmianić nazvu pieršasnaha fajła"
 
-#: core/job_error.cpp:1138
+#: core/job_error.cpp:1155
 #, kde-format
 msgid ""
 "The requested operation required the renaming of the original file <strong>"
@@ -2160,12 +2160,12 @@ msgstr ""
 "Zapatrabavanaja aperacyja vymahaje źmianieńnia nazvy pieršasnaha fajła, "
 "<strong>%1</strong>. Ale jaho nazvu nie ŭdałosia źmianić."
 
-#: core/job_error.cpp:1147
+#: core/job_error.cpp:1164
 #, kde-format
 msgid "Could Not Rename Temporary File"
 msgstr "Nie ŭdałosia źmianić nazvu časovaha fajła"
 
-#: core/job_error.cpp:1149
+#: core/job_error.cpp:1166
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file <strong>"
@@ -2174,32 +2174,32 @@ msgstr ""
 "Zapatrabavanaja aperacyja vymahaje stvareńnia časovaha fajła, <strong>%1</"
 "strong>. Ale jaho nie ŭdałosia stvaryć."
 
-#: core/job_error.cpp:1158
+#: core/job_error.cpp:1175
 #, kde-format
 msgid "Could Not Create Link"
 msgstr "Nie ŭdałosia stvaryć łuč"
 
-#: core/job_error.cpp:1159
+#: core/job_error.cpp:1176
 #, kde-format
 msgid "Could Not Create Symbolic Link"
 msgstr "Nie ŭdałosia stvaryć symbalny łuč"
 
-#: core/job_error.cpp:1160
+#: core/job_error.cpp:1177
 #, kde-format
 msgid "The requested symbolic link %1 could not be created."
 msgstr "Nie ŭdałosia stvaryć zapatrabavany łuč „%1”."
 
-#: core/job_error.cpp:1166
+#: core/job_error.cpp:1183
 #, kde-format
 msgid "No Content"
 msgstr "Niama źmieściva"
 
-#: core/job_error.cpp:1171
+#: core/job_error.cpp:1188
 #, kde-format
 msgid "Disk Full"
 msgstr "Dysk zapoŭnieny"
 
-#: core/job_error.cpp:1173
+#: core/job_error.cpp:1190
 #, kde-format
 msgid ""
 "The requested file <strong>%1</strong> could not be written to as there is "
@@ -2208,7 +2208,7 @@ msgstr ""
 "Nie ŭdałosia zapisać zapatrabavany fajł <strong>%1</strong>, bo dla hetaha "
 "nie staje volnaha miesca na dysku."
 
-#: core/job_error.cpp:1177
+#: core/job_error.cpp:1194
 #, kde-format
 msgid ""
 "Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
@@ -2219,12 +2219,12 @@ msgstr ""
 "časovyja fajły; b) zaarchivavaŭšy fajły na źmiennych nośbitach typu dyskaŭ "
 "CD-R; c) kupiŭšy bolšy dysk."
 
-#: core/job_error.cpp:1184
+#: core/job_error.cpp:1201
 #, kde-format
 msgid "Source and Destination Files Identical"
 msgstr "Krynica j metavy fajł adnolkavyja"
 
-#: core/job_error.cpp:1186
+#: core/job_error.cpp:1203
 #, kde-format
 msgid ""
 "The operation could not be completed because the source and destination "
@@ -2233,18 +2233,18 @@ msgstr ""
 "Nie ŭdałosia vykanać aperacyju, bo krynica j metavy fajł jość tym samym "
 "fajłam."
 
-#: core/job_error.cpp:1188
+#: core/job_error.cpp:1205
 #, kde-format
 msgid "Choose a different filename for the destination file."
 msgstr "Vybiery inšuju nazvu dla metavaha fajła."
 
-#: core/job_error.cpp:1192
+#: core/job_error.cpp:1209
 #, fuzzy, kde-format
 #| msgid "File or Folder Does Not Exist"
 msgid "File or Folder dropped onto itself"
 msgstr "Fajł ci kataloh nie isnuje"
 
-#: core/job_error.cpp:1194
+#: core/job_error.cpp:1211
 #, fuzzy, kde-format
 #| msgid ""
 #| "The operation could not be completed because the source and destination "
@@ -2256,20 +2256,20 @@ msgstr ""
 "Nie ŭdałosia vykanać aperacyju, bo krynica j metavy fajł jość tym samym "
 "fajłam."
 
-#: core/job_error.cpp:1196
+#: core/job_error.cpp:1213
 #, fuzzy, kde-format
 #| msgctxt "request type"
 #| msgid "copy the specified file or folder"
 msgid "Drop the item into a different file or folder."
 msgstr "skapijavać aznačany fajł ci kataloh"
 
-#: core/job_error.cpp:1206
+#: core/job_error.cpp:1223
 #, fuzzy, kde-format
 #| msgid "File or Folder Does Not Exist"
 msgid "Folder moved into itself"
 msgstr "Fajł ci kataloh nie isnuje"
 
-#: core/job_error.cpp:1208
+#: core/job_error.cpp:1225
 #, fuzzy, kde-format
 #| msgid ""
 #| "The operation could not be completed because the source and destination "
@@ -2281,19 +2281,19 @@ msgstr ""
 "Nie ŭdałosia vykanać aperacyju, bo krynica j metavy fajł jość tym samym "
 "fajłam."
 
-#: core/job_error.cpp:1210
+#: core/job_error.cpp:1227
 #, fuzzy, kde-format
 #| msgctxt "request type"
 #| msgid "copy the specified file or folder"
 msgid "Move the item into a different folder."
 msgstr "skapijavać aznačany fajł ci kataloh"
 
-#: core/job_error.cpp:1214
+#: core/job_error.cpp:1231
 #, kde-format
 msgid "Could not communicate with password server"
 msgstr ""
 
-#: core/job_error.cpp:1216
+#: core/job_error.cpp:1233
 #, fuzzy, kde-format
 #| msgid ""
 #| "The operation could not be completed because the source and destination "
@@ -2305,23 +2305,23 @@ msgstr ""
 "Nie ŭdałosia vykanać aperacyju, bo krynica j metavy fajł jość tym samym "
 "fajłam."
 
-#: core/job_error.cpp:1218
+#: core/job_error.cpp:1235
 #, kde-format
 msgid "Try restarting your session, or look in the logs for errors from kiod."
 msgstr ""
 
-#: core/job_error.cpp:1222
+#: core/job_error.cpp:1239
 #, kde-format
 msgid "Cannot Initiate the %1 Protocol"
 msgstr "Nie ŭdałosia inicyjalizavać pratakoł „%1”"
 
-#: core/job_error.cpp:1223
+#: core/job_error.cpp:1240
 #, fuzzy, kde-format
 #| msgid "Unable to create io-slave: %1"
 msgid "Unable to Create io-slave"
 msgstr "Nie ŭdałosia stvaryć słužbu „ioslave”: %1"
 
-#: core/job_error.cpp:1225
+#: core/job_error.cpp:1242
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program on your computer which provides access to the <strong>%1</"
@@ -2335,20 +2335,20 @@ msgstr ""
 "pratakoł <strong>%1</strong>. Chutčej za ŭsio, pryčyny ŭ hetaj prablemy "
 "techničnyja."
 
-#: core/job_error.cpp:1230
+#: core/job_error.cpp:1247
 #, kde-format
 msgid ""
 "klauncher could not find or start the plugin which provides the protocol."
 "This means you may have an outdated version of the plugin."
 msgstr ""
 
-#: core/job_error.cpp:1236
+#: core/job_error.cpp:1253
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot transfer <filename>%1</filename>"
 msgstr ""
 
-#: core/job_error.cpp:1238
+#: core/job_error.cpp:1255
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2356,29 +2356,29 @@ msgid ""
 "destination filesystem does not support files that large"
 msgstr ""
 
-#: core/job_error.cpp:1241
+#: core/job_error.cpp:1258
 #, kde-format
 msgid ""
 "Reformat the destination drive to use a filesystem that supports files that "
 "large."
 msgstr ""
 
-#: core/job_error.cpp:1246
+#: core/job_error.cpp:1263
 #, kde-format
 msgid "Undocumented Error"
 msgstr "Niezadakumentavanaja pamyłka"
 
-#: core/kfileitem.cpp:1300
+#: core/kfileitem.cpp:1303
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr "(Symbalny łuč da „%1”)"
 
-#: core/kfileitem.cpp:1302
+#: core/kfileitem.cpp:1305
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr "(%1, łuč da „%2”)"
 
-#: core/kfileitem.cpp:1305
+#: core/kfileitem.cpp:1308
 #, kde-format
 msgid " (Points to %1)"
 msgstr " (łučyć z „%1”)"
@@ -2536,22 +2536,22 @@ msgstr "&Tak"
 msgid "&No"
 msgstr "&Nie"
 
-#: core/slaveinterface.cpp:417 core/tcpslavebase.cpp:538 widgets/sslui.cpp:69
+#: core/slaveinterface.cpp:421 core/tcpslavebase.cpp:538 widgets/sslui.cpp:69
 #, kde-format
 msgid "&Details"
 msgstr "&Detali"
 
-#: core/slaveinterface.cpp:419 core/tcpslavebase.cpp:551 widgets/sslui.cpp:105
+#: core/slaveinterface.cpp:423 core/tcpslavebase.cpp:551 widgets/sslui.cpp:105
 #, kde-format
 msgid "&Forever"
 msgstr "&Pryjmaj nadalej"
 
-#: core/slaveinterface.cpp:423 core/tcpslavebase.cpp:538 widgets/sslui.cpp:70
+#: core/slaveinterface.cpp:427 core/tcpslavebase.cpp:538 widgets/sslui.cpp:70
 #, kde-format
 msgid "Co&ntinue"
 msgstr "&Praciahvaj"
 
-#: core/slaveinterface.cpp:425 core/tcpslavebase.cpp:552 widgets/sslui.cpp:106
+#: core/slaveinterface.cpp:429 core/tcpslavebase.cpp:552 widgets/sslui.cpp:106
 #, fuzzy, kde-format
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
@@ -2659,49 +2659,49 @@ msgstr "Ty nia vybraŭ fajł, jaki chočaš vykinuć u śmietnicu."
 msgid "Nothing to Trash"
 msgstr "Niama čaho vykidać u śmietnicu"
 
-#: filewidgets/kdiroperator.cpp:1015 filewidgets/kdiroperator.cpp:1156
+#: filewidgets/kdiroperator.cpp:1016 filewidgets/kdiroperator.cpp:1157
 #, kde-format
 msgid "The specified folder does not exist or was not readable."
 msgstr "Aznačany kataloh nie isnuje, albo ŭ jaho nielha pisać."
 
-#: filewidgets/kdiroperator.cpp:2010
+#: filewidgets/kdiroperator.cpp:2011
 #, kde-format
 msgid "Menu"
 msgstr "Menu"
 
-#: filewidgets/kdiroperator.cpp:2014
+#: filewidgets/kdiroperator.cpp:2015
 #, kde-format
 msgid "Parent Folder"
 msgstr "Vyšejšy kataloh"
 
-#: filewidgets/kdiroperator.cpp:2018
+#: filewidgets/kdiroperator.cpp:2019
 #, kde-format
 msgctxt "@info"
 msgid "Go back"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2021
+#: filewidgets/kdiroperator.cpp:2022
 #, kde-format
 msgctxt "@info"
 msgid "Go forward"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2024
+#: filewidgets/kdiroperator.cpp:2025
 #, kde-format
 msgid "Home Folder"
 msgstr "Chatni kataloh"
 
-#: filewidgets/kdiroperator.cpp:2027
+#: filewidgets/kdiroperator.cpp:2028
 #, kde-format
 msgid "Reload"
 msgstr "Pieračytaj"
 
-#: filewidgets/kdiroperator.cpp:2030
+#: filewidgets/kdiroperator.cpp:2031
 #, kde-format
 msgid "New Folder..."
 msgstr "Novy kataloh..."
 
-#: filewidgets/kdiroperator.cpp:2040 widgets/jobuidelegate.cpp:274
+#: filewidgets/kdiroperator.cpp:2041 widgets/jobuidelegate.cpp:274
 #: widgets/jobuidelegate.cpp:275 widgets/jobuidelegate.cpp:284
 #: widgets/jobuidelegate.cpp:285 widgets/widgetsaskuseractionhandler.cpp:173
 #: widgets/widgetsaskuseractionhandler.cpp:174
@@ -2709,176 +2709,176 @@ msgstr "Novy kataloh..."
 msgid "Move to Trash"
 msgstr "Vykidańnie ŭ śmietnicu"
 
-#: filewidgets/kdiroperator.cpp:2046
+#: filewidgets/kdiroperator.cpp:2047
 #, kde-format
 msgid "Delete"
 msgstr "Vydali"
 
-#: filewidgets/kdiroperator.cpp:2053
+#: filewidgets/kdiroperator.cpp:2054
 #, kde-format
 msgid "Sorting"
 msgstr "Paradak"
 
-#: filewidgets/kdiroperator.cpp:2058
+#: filewidgets/kdiroperator.cpp:2059
 #, fuzzy, kde-format
 #| msgid "By Name"
 msgid "Sort by Name"
 msgstr "Pavodle nazvaŭ"
 
-#: filewidgets/kdiroperator.cpp:2064
+#: filewidgets/kdiroperator.cpp:2065
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgid "Sort by Size"
 msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2070
+#: filewidgets/kdiroperator.cpp:2071
 #, fuzzy, kde-format
 #| msgid "By Date"
 msgid "Sort by Date"
 msgstr "Pavodle času"
 
-#: filewidgets/kdiroperator.cpp:2076
+#: filewidgets/kdiroperator.cpp:2077
 #, fuzzy, kde-format
 #| msgid "Entry Type"
 msgid "Sort by Type"
 msgstr "Typ praviła"
 
-#: filewidgets/kdiroperator.cpp:2085
+#: filewidgets/kdiroperator.cpp:2086
 #, fuzzy, kde-format
 #| msgid "Descending"
 msgid "Ascending"
 msgstr "Ad bolšaha k mienšamu"
 
-#: filewidgets/kdiroperator.cpp:2092
+#: filewidgets/kdiroperator.cpp:2093
 #, kde-format
 msgid "Descending"
 msgstr "Ad bolšaha k mienšamu"
 
-#: filewidgets/kdiroperator.cpp:2099
+#: filewidgets/kdiroperator.cpp:2100
 #, kde-format
 msgid "Folders First"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2106
+#: filewidgets/kdiroperator.cpp:2107
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgid "Icons View"
 msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2113
+#: filewidgets/kdiroperator.cpp:2114
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgid "Compact View"
 msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2120
+#: filewidgets/kdiroperator.cpp:2121
 #, fuzzy, kde-format
 #| msgid "Detailed View"
 msgid "Details View"
 msgstr "Detalny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2139
+#: filewidgets/kdiroperator.cpp:2140
 #, kde-format
 msgid "Icon Position"
 msgstr "Miesca ikon"
 
-#: filewidgets/kdiroperator.cpp:2142
+#: filewidgets/kdiroperator.cpp:2143
 #, kde-format
 msgid "Next to File Name"
 msgstr "Kala nazvy fajła"
 
-#: filewidgets/kdiroperator.cpp:2148
+#: filewidgets/kdiroperator.cpp:2149
 #, kde-format
 msgid "Above File Name"
 msgstr "Nad nazvaju fajła"
 
-#: filewidgets/kdiroperator.cpp:2162
+#: filewidgets/kdiroperator.cpp:2163
 #, kde-format
 msgid "Short View"
 msgstr "Karotki vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2169
+#: filewidgets/kdiroperator.cpp:2170
 #, kde-format
 msgid "Detailed View"
 msgstr "Detalny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2176
+#: filewidgets/kdiroperator.cpp:2177
 #, kde-format
 msgid "Tree View"
 msgstr "Hierarchičny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2183
+#: filewidgets/kdiroperator.cpp:2184
 #, kde-format
 msgid "Detailed Tree View"
 msgstr "Detalny hierarchičny vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2196
+#: filewidgets/kdiroperator.cpp:2197
 #, kde-format
 msgid "Allow Expansion in Details View"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2202
+#: filewidgets/kdiroperator.cpp:2203
 #, kde-format
 msgid "Show Hidden Files"
 msgstr "Pakažy schavanyja fajły"
 
-#: filewidgets/kdiroperator.cpp:2209
+#: filewidgets/kdiroperator.cpp:2210
 #, fuzzy, kde-format
 #| msgid "Show Preview"
 msgid "Show Preview Panel"
 msgstr "Pakažy padhlady"
 
-#: filewidgets/kdiroperator.cpp:2216
+#: filewidgets/kdiroperator.cpp:2217
 #, kde-format
 msgid "Show Preview"
 msgstr "Pakažy padhlady"
 
-#: filewidgets/kdiroperator.cpp:2223
+#: filewidgets/kdiroperator.cpp:2224
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2230 filewidgets/kfileplacesview.cpp:891
+#: filewidgets/kdiroperator.cpp:2231 filewidgets/kfileplacesview.cpp:891
 #, kde-format
 msgid "Properties"
 msgstr "Ułaścivaści"
 
-#: filewidgets/kdiroperator.cpp:2239
+#: filewidgets/kdiroperator.cpp:2240
 #, kde-format
 msgid "&View"
 msgstr "&Vyhlad"
 
-#: filewidgets/kdiroperator.cpp:2337 filewidgets/kdiroperator.cpp:2349
+#: filewidgets/kdiroperator.cpp:2338 filewidgets/kdiroperator.cpp:2350
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2338 filewidgets/kdiroperator.cpp:2350
+#: filewidgets/kdiroperator.cpp:2339 filewidgets/kdiroperator.cpp:2351
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2341
+#: filewidgets/kdiroperator.cpp:2342
 #, kde-format
 msgctxt "Sort descending"
 msgid "Newest First"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2342
+#: filewidgets/kdiroperator.cpp:2343
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Oldest First"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2345
+#: filewidgets/kdiroperator.cpp:2346
 #, kde-format
 msgctxt "Sort descending"
 msgid "Largest First"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2346
+#: filewidgets/kdiroperator.cpp:2347
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Smallest First"
@@ -2889,16 +2889,16 @@ msgstr ""
 msgid "Encoding:"
 msgstr "Kadavańnie:"
 
-#: filewidgets/kencodingfiledialog.cpp:125
-#: filewidgets/kencodingfiledialog.cpp:139
-#: filewidgets/kencodingfiledialog.cpp:152
-#: filewidgets/kencodingfiledialog.cpp:166 widgets/kurlrequesterdialog.cpp:108
+#: filewidgets/kencodingfiledialog.cpp:126
+#: filewidgets/kencodingfiledialog.cpp:140
+#: filewidgets/kencodingfiledialog.cpp:153
+#: filewidgets/kencodingfiledialog.cpp:167 widgets/kurlrequesterdialog.cpp:108
 #, kde-format
 msgid "Open"
 msgstr "Adčyni"
 
-#: filewidgets/kencodingfiledialog.cpp:180
-#: filewidgets/kencodingfiledialog.cpp:198
+#: filewidgets/kencodingfiledialog.cpp:181
+#: filewidgets/kencodingfiledialog.cpp:199
 #, kde-format
 msgid "Save As"
 msgstr "Zapišy jak"
@@ -2959,19 +2959,19 @@ msgctxt "Default mime type filter that shows all file types"
 msgid "*|All Files"
 msgstr "*|Usie fajły"
 
-#: filewidgets/kfilefiltercombo.cpp:174
+#: filewidgets/kfilefiltercombo.cpp:175
 #, fuzzy, kde-format
 #| msgid "%1 (%2)"
 msgctxt "%1 is the mimetype name, %2 is the extensions"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: filewidgets/kfilefiltercombo.cpp:191
+#: filewidgets/kfilefiltercombo.cpp:192
 #, kde-format
 msgid "All Supported Files"
 msgstr "Fajły, jakija padtrymvajucca"
 
-#: filewidgets/kfilefiltercombo.cpp:200
+#: filewidgets/kfilefiltercombo.cpp:201
 #, fuzzy, kde-format
 #| msgid "*|All Files"
 msgid "All Files"
@@ -3220,37 +3220,37 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "*|Usie fajły"
 
-#: filewidgets/kfileplacesmodel.cpp:1363
+#: filewidgets/kfileplacesmodel.cpp:1364
 #, kde-format
 msgid "&Release '%1'"
 msgstr "&Vyzvali „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1365
+#: filewidgets/kfileplacesmodel.cpp:1366
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "&Biaśpiečna vysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1368
+#: filewidgets/kfileplacesmodel.cpp:1369
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "&Admantuj „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1388
+#: filewidgets/kfileplacesmodel.cpp:1389
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "V&ysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1424
+#: filewidgets/kfileplacesmodel.cpp:1425
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
 
-#: filewidgets/kfileplacesmodel.cpp:1459
+#: filewidgets/kfileplacesmodel.cpp:1460
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1461
+#: filewidgets/kfileplacesmodel.cpp:1462
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
@@ -3582,63 +3582,63 @@ msgstr "Fajł „%1” užo isnuje. Ci chočaš jaho nadpisać?"
 msgid "Overwrite File?"
 msgstr "Nadpisać fajł?"
 
-#: filewidgets/kfilewidget.cpp:1812
+#: filewidgets/kfilewidget.cpp:1813
 #, kde-format
 msgid "You can only select local files."
 msgstr "Možna vybrać tolki lakalnyja fajły."
 
-#: filewidgets/kfilewidget.cpp:1812
+#: filewidgets/kfilewidget.cpp:1813
 #, kde-format
 msgid "Remote Files Not Accepted"
 msgstr "Nielha vybrać fajły ź inšych hostaŭ"
 
-#: filewidgets/kfilewidget.cpp:1924
+#: filewidgets/kfilewidget.cpp:1925
 #, kde-format
 msgid "*|All Folders"
 msgstr "*|Usie katalohi"
 
-#: filewidgets/kfilewidget.cpp:1926
+#: filewidgets/kfilewidget.cpp:1927
 #, kde-format
 msgid "*|All Files"
 msgstr "*|Usie fajły"
 
-#: filewidgets/kfilewidget.cpp:2076 widgets/executablefileopendialog.cpp:30
+#: filewidgets/kfilewidget.cpp:2077 widgets/executablefileopendialog.cpp:30
 #: widgets/kfileitemactions.cpp:875
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: filewidgets/kfilewidget.cpp:2189
+#: filewidgets/kfilewidget.cpp:2190
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels (standard size)"
 msgstr "Pamier ikon: %1 punktaŭ (zvyčajny pamier)"
 
-#: filewidgets/kfilewidget.cpp:2192
+#: filewidgets/kfilewidget.cpp:2193
 #, fuzzy, kde-format
 msgid "Icon size: %1 pixels"
 msgstr "Pamier ikon: %1 punktaŭ"
 
-#: filewidgets/kfilewidget.cpp:2342
+#: filewidgets/kfilewidget.cpp:2343
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Aŭtamatyčna vybiraj &pašyreńnie dla nazvaŭ fajłaŭ (%1)"
 
-#: filewidgets/kfilewidget.cpp:2343
+#: filewidgets/kfilewidget.cpp:2344
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "pašyreńnie <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2349
+#: filewidgets/kfilewidget.cpp:2350
 #, kde-format
 msgid "Automatically select filename e&xtension"
 msgstr "&Aŭtamatyčna vybiraj pašyreńnie dla nazvaŭ fajłaŭ"
 
-#: filewidgets/kfilewidget.cpp:2350
+#: filewidgets/kfilewidget.cpp:2351
 #, kde-format
 msgid "a suitable extension"
 msgstr "prydatnaje pašyreńnie"
 
-#: filewidgets/kfilewidget.cpp:2358
+#: filewidgets/kfilewidget.cpp:2359
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -3654,25 +3654,25 @@ msgid ""
 "enabled as it makes your files more manageable."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2816
+#: filewidgets/kfilewidget.cpp:2817
 #, fuzzy, kde-format
 #| msgid "&Filter:"
 msgid "&File type:"
 msgstr "&Filtruj:"
 
-#: filewidgets/kfilewidget.cpp:2817
+#: filewidgets/kfilewidget.cpp:2818
 #, kde-format
 msgid ""
 "<qt>This is the file type selector. It is used to select the format that the "
 "file will be saved as.</qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2819
+#: filewidgets/kfilewidget.cpp:2820
 #, kde-format
 msgid "&Filter:"
 msgstr "&Filtruj:"
 
-#: filewidgets/kfilewidget.cpp:2821
+#: filewidgets/kfilewidget.cpp:2822
 #, kde-format
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
@@ -3702,37 +3702,37 @@ msgstr ""
 "<qt>Nie ŭdałosia vykanać aznačany zahad. Fajł ci kataloh <b>%1</b> nie "
 "isnuje.</qt>"
 
-#: filewidgets/knewfilemenu.cpp:604 filewidgets/knewfilemenu.cpp:687
+#: filewidgets/knewfilemenu.cpp:604 filewidgets/knewfilemenu.cpp:688
 #, kde-format
 msgid "Name for new link:"
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:691
+#: filewidgets/knewfilemenu.cpp:692
 #, fuzzy, kde-format
 #| msgid "Created:"
 msgid "Create link to URL"
 msgstr "Stvorany:"
 
-#: filewidgets/knewfilemenu.cpp:735 filewidgets/knewfilemenu.cpp:791
+#: filewidgets/knewfilemenu.cpp:736 filewidgets/knewfilemenu.cpp:792
 #, kde-format
 msgctxt "@item:inmenu Create New"
 msgid "%1"
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:922
+#: filewidgets/knewfilemenu.cpp:923
 #, fuzzy, kde-format
 #| msgid "Ru&n as a different user"
 msgctxt "@action:button"
 msgid "Enter a Different Name"
 msgstr "&Uklučy ad asoby inšaha karystańnika"
 
-#: filewidgets/knewfilemenu.cpp:926
+#: filewidgets/knewfilemenu.cpp:927
 #, fuzzy, kde-format
 #| msgid "Invalid Filenames"
 msgid "Invalid Directory Name"
 msgstr "Niapravilnyja nazvy fajłaŭ"
 
-#: filewidgets/knewfilemenu.cpp:939
+#: filewidgets/knewfilemenu.cpp:940
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3740,7 +3740,7 @@ msgid ""
 "it is reserved for use by the operating system."
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1154
+#: filewidgets/knewfilemenu.cpp:1155
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3748,7 +3748,7 @@ msgid ""
 "use by the operating system."
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1162
+#: filewidgets/knewfilemenu.cpp:1163
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3756,7 +3756,7 @@ msgid ""
 "default."
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1170
+#: filewidgets/knewfilemenu.cpp:1171
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3765,73 +3765,73 @@ msgid ""
 "potential oddities."
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1188
+#: filewidgets/knewfilemenu.cpp:1189
 #, kde-format
 msgid "Using slashes in folder names will create sub-folders, like so:"
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1198
+#: filewidgets/knewfilemenu.cpp:1199
 #, kde-format
 msgid "Using slashes in folder names will create sub-folders."
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1210
+#: filewidgets/knewfilemenu.cpp:1211
 #, kde-format
 msgid "Slashes cannot be used in file and folder names."
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1215
+#: filewidgets/knewfilemenu.cpp:1216
 #, kde-format
 msgid "Backslashes cannot be used in file and folder names."
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1225
+#: filewidgets/knewfilemenu.cpp:1226
 #, kde-format
 msgid ""
 "Starting a file or folder name with a tilde is not recommended because it "
 "may be confusing or dangerous when using the terminal to delete things."
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:1293
+#: filewidgets/knewfilemenu.cpp:1294
 #, fuzzy, kde-kuit-format
 #| msgid "An older item named '%1' already exists."
 msgctxt "@info"
 msgid "A directory with name <filename>%1</filename> already exists."
 msgstr "Užo jość starejšy element z nazvaj „%1”."
 
-#: filewidgets/knewfilemenu.cpp:1295
+#: filewidgets/knewfilemenu.cpp:1296
 #, fuzzy, kde-kuit-format
 #| msgid "A file named %1 already exists."
 msgctxt "@info"
 msgid "A file with name <filename>%1</filename> already exists."
 msgstr "Fajł z nazvaj „%1” užo isnuje."
 
-#: filewidgets/knewfilemenu.cpp:1376
+#: filewidgets/knewfilemenu.cpp:1377
 #, fuzzy, kde-format
 #| msgid "Created:"
 msgid "Create New"
 msgstr "Stvorany:"
 
-#: filewidgets/knewfilemenu.cpp:1392
+#: filewidgets/knewfilemenu.cpp:1393
 #, fuzzy, kde-format
 #| msgid "Device"
 msgid "Link to Device"
 msgstr "Pryłada"
 
-#: filewidgets/knewfilemenu.cpp:1436
+#: filewidgets/knewfilemenu.cpp:1437
 #, fuzzy, kde-format
 #| msgid "New Folder"
 msgctxt "Default name for a new folder"
 msgid "New Folder"
 msgstr "Novy kataloh"
 
-#: filewidgets/knewfilemenu.cpp:1455
+#: filewidgets/knewfilemenu.cpp:1456
 #, kde-format
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Novy kataloh"
 
-#: filewidgets/knewfilemenu.cpp:1457
+#: filewidgets/knewfilemenu.cpp:1458
 #, fuzzy, kde-format
 #| msgid ""
 #| "Create new folder in:\n"
@@ -4088,111 +4088,111 @@ msgstr ""
 "Nie ŭdałosia źmianić dazvoły na\n"
 "%1"
 
-#: ioslaves/file/file.cpp:786
+#: ioslaves/file/file.cpp:788
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "mounting is not supported by Windows CE."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: ioslaves/file/file.cpp:814
+#: ioslaves/file/file.cpp:816
 #, kde-format
 msgid "Could not find program \"mount\""
 msgstr "Nie ŭdałosia znajści prahramu „mount”."
 
-#: ioslaves/file/file.cpp:878
+#: ioslaves/file/file.cpp:880
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "unmounting is not supported by Windows CE."
 msgstr "Zapis u „%1” nie padtrymvajecca."
 
-#: ioslaves/file/file.cpp:893
+#: ioslaves/file/file.cpp:895
 #, kde-format
 msgid "Could not find program \"umount\""
 msgstr "Nie ŭdałosia znajści prahramu „umount”."
 
-#: ioslaves/file/file_unix.cpp:87
+#: ioslaves/file/file_unix.cpp:88
 #, fuzzy, kde-format
 #| msgid "Advanced Permissions"
 msgid "Change File Permissions"
 msgstr "Asablivyja dazvoły"
 
-#: ioslaves/file/file_unix.cpp:88
+#: ioslaves/file/file_unix.cpp:89
 #, fuzzy, kde-format
 #| msgid "Permissions:"
 msgid "New Permissions: %1"
 msgstr "Dazvoły:"
 
-#: ioslaves/file/file_unix.cpp:91
+#: ioslaves/file/file_unix.cpp:92
 #, fuzzy, kde-format
 #| msgid "Open file dialog"
 msgid "Change File Owner"
 msgstr "Adčyni akno fajła"
 
-#: ioslaves/file/file_unix.cpp:92
+#: ioslaves/file/file_unix.cpp:93
 #, kde-format
 msgid "New Owner: UID=%1, GID=%2"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:95
+#: ioslaves/file/file_unix.cpp:96
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgid "Remove File"
 msgstr "Vydali"
 
-#: ioslaves/file/file_unix.cpp:98
+#: ioslaves/file/file_unix.cpp:99
 #, fuzzy, kde-format
 #| msgid "Directory"
 msgid "Remove Directory"
 msgstr "Kataloh"
 
-#: ioslaves/file/file_unix.cpp:101
+#: ioslaves/file/file_unix.cpp:102
 #, fuzzy, kde-format
 #| msgid "Creating directory"
 msgid "Create Directory"
 msgstr "Stvareńnie kataloha"
 
-#: ioslaves/file/file_unix.cpp:102
+#: ioslaves/file/file_unix.cpp:103
 #, fuzzy, kde-format
 #| msgid "Permissions:"
 msgid "Directory Permissions: %1"
 msgstr "Dazvoły:"
 
-#: ioslaves/file/file_unix.cpp:105
+#: ioslaves/file/file_unix.cpp:106
 #, fuzzy, kde-format
 #| msgid "Open file dialog"
 msgid "Open File"
 msgstr "Adčyni akno fajła"
 
-#: ioslaves/file/file_unix.cpp:108
+#: ioslaves/file/file_unix.cpp:109
 #, fuzzy, kde-format
 #| msgid "Directory"
 msgid "Open Directory"
 msgstr "Kataloh"
 
-#: ioslaves/file/file_unix.cpp:112
+#: ioslaves/file/file_unix.cpp:113
 #, fuzzy, kde-format
 #| msgid "Device name"
 msgid "New Filename: %1"
 msgstr "Nazva pryłady"
 
-#: ioslaves/file/file_unix.cpp:116
+#: ioslaves/file/file_unix.cpp:117
 #, fuzzy, kde-format
 #| msgid "Drive: %1"
 msgid "Target: %1"
 msgstr "Pryłada: %1"
 
-#: ioslaves/file/file_unix.cpp:119
+#: ioslaves/file/file_unix.cpp:120
 #, kde-format
 msgid "Change Timestamp"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:122
+#: ioslaves/file/file_unix.cpp:123
 #, fuzzy, kde-format
 #| msgid "Unknown Interruption"
 msgid "Unknown Action"
 msgstr "Nieviadomaje pierarvańnie"
 
-#: ioslaves/file/file_unix.cpp:127
+#: ioslaves/file/file_unix.cpp:128
 #, kde-format
 msgid ""
 "Action: %1\n"
@@ -4200,17 +4200,17 @@ msgid ""
 "%3"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:884
+#: ioslaves/file/file_unix.cpp:885
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "Nie ŭdałosia skapijavać fajł z „%1” u „%2” (numar pamyłki: %3)."
 
-#: ioslaves/file/file_unix.cpp:1122
+#: ioslaves/file/file_unix.cpp:1123
 #, kde-format
 msgid "No media in device for %1"
 msgstr "U pryładzie „%1” niama nośbitu."
 
-#: ioslaves/file/file_unix.cpp:1348
+#: ioslaves/file/file_unix.cpp:1349
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not create symlink %1.\n"
@@ -4225,39 +4225,39 @@ msgstr ""
 "Nie ŭdałosia stvaryć symbalny łuč „%1”.\n"
 "Pravier dazvoły."
 
-#: ioslaves/file/file_unix.cpp:1433
+#: ioslaves/file/file_unix.cpp:1434
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 "Nie ŭdałosia znajści identyfikatar karystańnika dla padadzienaj nazvy „%1”."
 
-#: ioslaves/file/file_unix.cpp:1445
+#: ioslaves/file/file_unix.cpp:1446
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Nie ŭdałosia znajści identyfikatar hrupy dla padadzienaj nazvy „%1”."
 
-#: ioslaves/ftp/ftp.cpp:338
+#: ioslaves/ftp/ftp.cpp:339
 #, kde-format
 msgid "Opening connection to host %1"
 msgstr "Adčynieńnie spałučeńnia z hostam „%1”"
 
-#: ioslaves/ftp/ftp.cpp:353
+#: ioslaves/ftp/ftp.cpp:354
 #, kde-format
 msgid "Connected to host %1"
 msgstr "Spałučany z hostam „%1”"
 
-#: ioslaves/ftp/ftp.cpp:462
+#: ioslaves/ftp/ftp.cpp:463
 #, fuzzy, kde-format
 #| msgid "%1 (%2)"
 msgid "%1 (Error %2)"
 msgstr "%1 (%2)"
 
-#: ioslaves/ftp/ftp.cpp:492
+#: ioslaves/ftp/ftp.cpp:493
 #, kde-format
 msgid "Sending login information"
 msgstr "Vysyłańnie źviestak dla ŭvachodu"
 
-#: ioslaves/ftp/ftp.cpp:550
+#: ioslaves/ftp/ftp.cpp:551
 #, kde-format
 msgid ""
 "Message sent:\n"
@@ -4274,33 +4274,33 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ioslaves/ftp/ftp.cpp:561 ioslaves/http/http.cpp:5287
+#: ioslaves/ftp/ftp.cpp:562 ioslaves/http/http.cpp:5293
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ioslaves/ftp/ftp.cpp:563 ioslaves/http/http.cpp:5289
+#: ioslaves/ftp/ftp.cpp:564 ioslaves/http/http.cpp:5295
 #, kde-format
 msgid "Site:"
 msgstr "Sajt:"
 
-#: ioslaves/ftp/ftp.cpp:564 ioslaves/ftp/ftp.cpp:2512
+#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2522
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: ioslaves/ftp/ftp.cpp:648
+#: ioslaves/ftp/ftp.cpp:649
 #, kde-format
 msgid "Login OK"
 msgstr "Uvachod: OK"
 
-#: ioslaves/ftp/ftp.cpp:677
+#: ioslaves/ftp/ftp.cpp:678
 #, kde-format
 msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
 
-#: ioslaves/ftp/ftp.cpp:1061
+#: ioslaves/ftp/ftp.cpp:1062
 #, fuzzy, kde-format
 #| msgid "Server said: \"%1\""
 msgid ""
@@ -4308,8 +4308,8 @@ msgid ""
 "The server said: \"%1\""
 msgstr "Server adkazaŭ: „%1”"
 
-#: ioslaves/ftp/ftp.cpp:2507 ioslaves/http/http.cpp:5168
-#: ioslaves/http/http.cpp:5302
+#: ioslaves/ftp/ftp.cpp:2517 ioslaves/http/http.cpp:5174
+#: ioslaves/http/http.cpp:5308
 #, kde-format
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -4318,14 +4318,14 @@ msgstr ""
 "Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
 "parol dla proxy-servera."
 
-#: ioslaves/ftp/ftp.cpp:2511 ioslaves/http/http.cpp:5172
-#: ioslaves/http/http.cpp:5305
+#: ioslaves/ftp/ftp.cpp:2521 ioslaves/http/http.cpp:5178
+#: ioslaves/http/http.cpp:5311
 #, kde-format
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ioslaves/ftp/ftp.cpp:2514 ioslaves/http/http.cpp:5175
-#: ioslaves/http/http.cpp:5320
+#: ioslaves/ftp/ftp.cpp:2524 ioslaves/http/http.cpp:5181
+#: ioslaves/http/http.cpp:5326
 #, kde-format
 msgid "Proxy Authentication Failed."
 msgstr "Nie ŭdałosia dakazać serveru proxy svaju tojesnaść."
@@ -4362,12 +4362,12 @@ msgstr ""
 msgid "Using cached version"
 msgstr ""
 
-#: ioslaves/help/kio_help.cpp:319
+#: ioslaves/help/kio_help.cpp:320
 #, kde-format
 msgid "Looking up section"
 msgstr ""
 
-#: ioslaves/help/kio_help.cpp:326
+#: ioslaves/help/kio_help.cpp:327
 #, fuzzy, kde-format
 #| msgid "Could not read file %1."
 msgid "Could not find filename %1 in %2."
@@ -4378,78 +4378,78 @@ msgstr "Nie ŭdałosia pračytać z fajła „%1”."
 msgid "No host specified."
 msgstr "Host nie aznačany."
 
-#: ioslaves/http/http.cpp:1548
+#: ioslaves/http/http.cpp:1549
 #, kde-format
 msgid "Otherwise, the request would have succeeded."
 msgstr "Inačaj zapyt by vykanaŭsia."
 
-#: ioslaves/http/http.cpp:1552
+#: ioslaves/http/http.cpp:1553
 #, kde-format
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "atrymać vartaści dla ŭłaścivaściaŭ"
 
-#: ioslaves/http/http.cpp:1555
+#: ioslaves/http/http.cpp:1556
 #, kde-format
 msgctxt "request type"
 msgid "set property values"
 msgstr "aznačyć vartaści dla ŭłaścivaściaŭ"
 
-#: ioslaves/http/http.cpp:1558
+#: ioslaves/http/http.cpp:1559
 #, kde-format
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "stvaryć zapatrabavany kataloh"
 
-#: ioslaves/http/http.cpp:1561
+#: ioslaves/http/http.cpp:1562
 #, kde-format
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "skapijavać aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1564
+#: ioslaves/http/http.cpp:1565
 #, kde-format
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "pieranieści aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1567
+#: ioslaves/http/http.cpp:1568
 #, kde-format
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "pašukać u aznačanym katalohu"
 
-#: ioslaves/http/http.cpp:1570
+#: ioslaves/http/http.cpp:1571
 #, kde-format
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "zablakavać aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1573
+#: ioslaves/http/http.cpp:1574
 #, kde-format
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "adblakavać aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1576
+#: ioslaves/http/http.cpp:1577
 #, kde-format
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "vydalić aznačany fajł ci kataloh"
 
-#: ioslaves/http/http.cpp:1579
+#: ioslaves/http/http.cpp:1580
 #, kde-format
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "zapytać u servera pra jahonyja zdolnaści"
 
-#: ioslaves/http/http.cpp:1582
+#: ioslaves/http/http.cpp:1583
 #, kde-format
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "atrymać źmieściva aznačanaha fajła ci kataloha"
 
-#: ioslaves/http/http.cpp:1585
+#: ioslaves/http/http.cpp:1586
 #, fuzzy, kde-format
 #| msgctxt "request type"
 #| msgid "search in the specified folder"
@@ -4457,18 +4457,18 @@ msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "pašukać u aznačanym katalohu"
 
-#: ioslaves/http/http.cpp:1597
+#: ioslaves/http/http.cpp:1598
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
-#: ioslaves/http/http.cpp:1606
+#: ioslaves/http/http.cpp:1607
 #, kde-format
 msgid "The server does not support the WebDAV protocol."
 msgstr "Server nie absłuhoŭvaje pratakoł „WebDAV”."
 
-#: ioslaves/http/http.cpp:1647
+#: ioslaves/http/http.cpp:1648
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -4477,13 +4477,13 @@ msgid ""
 msgstr ""
 "Padčas sproby %1 dla „%2” uźnikła pamyłka. Nižej padadzieny śpis pryčynaŭ."
 
-#: ioslaves/http/http.cpp:1665 ioslaves/http/http.cpp:1801
+#: ioslaves/http/http.cpp:1666 ioslaves/http/http.cpp:1802
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Sprobie %1 zabaronieny dostup."
 
-#: ioslaves/http/http.cpp:1679 ioslaves/http/http.cpp:1808
+#: ioslaves/http/http.cpp:1680 ioslaves/http/http.cpp:1809
 #, kde-format
 msgid ""
 "A resource cannot be created at the destination until one or more "
@@ -4492,7 +4492,7 @@ msgstr ""
 "Niemahčyma stvaryć resurs u metavym miescy, pakul nia buduć stvorany "
 "pasiarednija katalohi, jakija viaduć da hetaha resursu."
 
-#: ioslaves/http/http.cpp:1688
+#: ioslaves/http/http.cpp:1689
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -4502,28 +4502,28 @@ msgid ""
 " %1"
 msgstr ""
 
-#: ioslaves/http/http.cpp:1696
+#: ioslaves/http/http.cpp:1697
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr ""
 
-#: ioslaves/http/http.cpp:1702
+#: ioslaves/http/http.cpp:1703
 #, kde-format
 msgid "The server does not support the request type of the body."
 msgstr "Server nie absłuhoŭvaje typu zapytaŭ, padadzienaha ŭ ciele."
 
-#: ioslaves/http/http.cpp:1707 ioslaves/http/http.cpp:1816
+#: ioslaves/http/http.cpp:1708 ioslaves/http/http.cpp:1817
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Nie ŭdałosia %1, bo resurs zablakavany."
 
-#: ioslaves/http/http.cpp:1711
+#: ioslaves/http/http.cpp:1712
 #, kde-format
 msgid "This action was prevented by another error."
 msgstr "Hetaj aperacyi pieraškodziła inšaja pamyłka."
 
-#: ioslaves/http/http.cpp:1718 ioslaves/http/http.cpp:1823
+#: ioslaves/http/http.cpp:1719 ioslaves/http/http.cpp:1824
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -4532,7 +4532,7 @@ msgid ""
 msgstr ""
 "Nie ŭdałosia %1, bo metavy server nie pryniaŭ hetaha fajła ci kataloha."
 
-#: ioslaves/http/http.cpp:1727 ioslaves/http/http.cpp:1832
+#: ioslaves/http/http.cpp:1728 ioslaves/http/http.cpp:1833
 #, kde-format
 msgid ""
 "The destination resource does not have sufficient space to record the state "
@@ -4541,29 +4541,29 @@ msgstr ""
 "Metavamu resursu nie chapiła volnaha miesca, kab zapisać novuju admienu, "
 "jakaja ŭźnikła paśla vykanańnia hetaj funkcyi."
 
-#: ioslaves/http/http.cpp:1779
+#: ioslaves/http/http.cpp:1780
 #, kde-format
 msgid "The resource cannot be deleted."
 msgstr "Aznačany resurs nie ŭdałosia vydalić."
 
-#: ioslaves/http/http.cpp:1792
+#: ioslaves/http/http.cpp:1793
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "pakłaści „%1” na server"
 
-#: ioslaves/http/http.cpp:1843
+#: ioslaves/http/http.cpp:1844
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Padčas sproby %2 uźnikła niečakanaja pamyłka (%1)."
 
-#: ioslaves/http/http.cpp:2644
+#: ioslaves/http/http.cpp:2645
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "Spałučany z „%1”. Čakańnie adkazu..."
 
-#: ioslaves/http/http.cpp:2970
+#: ioslaves/http/http.cpp:2971
 #, kde-format
 msgctxt "@info Security check on url being accessed"
 msgid ""
@@ -4572,44 +4572,44 @@ msgid ""
 "you.</p><p>Is \"%1\" the site you want to visit?</p>"
 msgstr ""
 
-#: ioslaves/http/http.cpp:2977
+#: ioslaves/http/http.cpp:2978
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: ioslaves/http/http.cpp:3066
+#: ioslaves/http/http.cpp:3067
 #, kde-format
 msgid "Server processing request, please wait..."
 msgstr "Server pierapracoŭvaje zapyt. Pačakaj..."
 
-#: ioslaves/http/http.cpp:3762 ioslaves/http/http.cpp:3821
+#: ioslaves/http/http.cpp:3764 ioslaves/http/http.cpp:3823
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Vysyłańnie źviestak u „%1”"
 
-#: ioslaves/http/http.cpp:4273
+#: ioslaves/http/http.cpp:4277
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Atrymańnie „%1” ad „%2”..."
 
-#: ioslaves/http/http.cpp:5173 ioslaves/http/http.cpp:5408
+#: ioslaves/http/http.cpp:5179 ioslaves/http/http.cpp:5415
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
-#: ioslaves/http/http.cpp:5320
+#: ioslaves/http/http.cpp:5326
 #, kde-format
 msgid "Authentication Failed."
 msgstr "Nie ŭdałosia dakazać svaju tojesnaść."
 
-#: ioslaves/http/http.cpp:5446
+#: ioslaves/http/http.cpp:5453
 #, fuzzy, kde-format
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Akno aŭtaryzavańnia"
 
-#: ioslaves/http/http.cpp:5463
+#: ioslaves/http/http.cpp:5470
 #, fuzzy, kde-format
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
@@ -4887,14 +4887,14 @@ msgstr "Tabie nie staje dazvołu na dostup da pratakołu „%1”."
 msgid " days"
 msgstr "%1 dzień %2"
 
-#: ioslaves/trash/kcmtrash.cpp:195
+#: ioslaves/trash/kcmtrash.cpp:196
 #, kde-format
 msgid ""
 "<para>KDE's wastebin is configured to use the <b>Finder</b>'s Trash.<br></"
 "para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:197
+#: ioslaves/trash/kcmtrash.cpp:198
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4904,13 +4904,13 @@ msgid ""
 "the Trash can.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:232
+#: ioslaves/trash/kcmtrash.cpp:233
 #, fuzzy, kde-format
 #| msgid "Delete Folder"
 msgid "Delete files older than"
 msgstr "Vydali kataloh"
 
-#: ioslaves/trash/kcmtrash.cpp:235
+#: ioslaves/trash/kcmtrash.cpp:236
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4920,7 +4920,7 @@ msgid ""
 "items after a certain timespan</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:242
+#: ioslaves/trash/kcmtrash.cpp:243
 #, fuzzy, kde-format
 #| msgid "1 day %2"
 #| msgid_plural "%1 days %2"
@@ -4930,7 +4930,7 @@ msgstr[0] "%1 dzień %2"
 msgstr[1] "%1 dni %2"
 msgstr[2] "%1 dzion %2"
 
-#: ioslaves/trash/kcmtrash.cpp:244
+#: ioslaves/trash/kcmtrash.cpp:245
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4938,17 +4938,17 @@ msgid ""
 "older than this will be automatically deleted.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:248
+#: ioslaves/trash/kcmtrash.cpp:249
 #, kde-format
 msgid "Cleanup:"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:251
+#: ioslaves/trash/kcmtrash.cpp:252
 #, kde-format
 msgid "Limit to"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:253
+#: ioslaves/trash/kcmtrash.cpp:254
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4957,12 +4957,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, sizeLabelLeft)
-#: ioslaves/trash/kcmtrash.cpp:256 widgets/kfilepropspluginwidget.ui:350
+#: ioslaves/trash/kcmtrash.cpp:257 widgets/kfilepropspluginwidget.ui:350
 #, kde-format
 msgid "Size:"
 msgstr "Pamier:"
 
-#: ioslaves/trash/kcmtrash.cpp:263
+#: ioslaves/trash/kcmtrash.cpp:264
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4970,7 +4970,7 @@ msgid ""
 "trash.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:268
+#: ioslaves/trash/kcmtrash.cpp:269
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4978,24 +4978,24 @@ msgid ""
 "the trash, the maximum.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:272
+#: ioslaves/trash/kcmtrash.cpp:273
 #, fuzzy, kde-format
 #| msgctxt "Warning about executing unknown .desktop file"
 #| msgid "Warning"
 msgid "Show a Warning"
 msgstr "Aściaroha"
 
-#: ioslaves/trash/kcmtrash.cpp:273
+#: ioslaves/trash/kcmtrash.cpp:274
 #, kde-format
 msgid "Delete Oldest Files From Trash"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:274
+#: ioslaves/trash/kcmtrash.cpp:275
 #, kde-format
 msgid "Delete Biggest Files From Trash"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:276
+#: ioslaves/trash/kcmtrash.cpp:277
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5004,22 +5004,22 @@ msgid ""
 "instead of automatically deleting files.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:278
+#: ioslaves/trash/kcmtrash.cpp:279
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgid "Full Trash:"
 msgstr "Śmietnica"
 
-#: ioslaves/trash/kio_trash.cpp:98 ioslaves/trash/kio_trash.cpp:144
-#: ioslaves/trash/kio_trash.cpp:207 ioslaves/trash/kio_trash.cpp:385
-#: ioslaves/trash/kio_trash.cpp:420 ioslaves/trash/kio_trash.cpp:598
-#: ioslaves/trash/kio_trash.cpp:610
+#: ioslaves/trash/kio_trash.cpp:99 ioslaves/trash/kio_trash.cpp:146
+#: ioslaves/trash/kio_trash.cpp:210 ioslaves/trash/kio_trash.cpp:390
+#: ioslaves/trash/kio_trash.cpp:425 ioslaves/trash/kio_trash.cpp:603
+#: ioslaves/trash/kio_trash.cpp:615
 #, fuzzy, kde-format
 #| msgid "Malformed URL %1."
 msgid "Malformed URL %1"
 msgstr "Kiepski adras „%1”."
 
-#: ioslaves/trash/kio_trash.cpp:118
+#: ioslaves/trash/kio_trash.cpp:119
 #, kde-format
 msgid ""
 "The directory %1 does not exist anymore, so it is not possible to restore "
@@ -5028,12 +5028,12 @@ msgid ""
 "restore it."
 msgstr ""
 
-#: ioslaves/trash/kio_trash.cpp:174 ioslaves/trash/kio_trash.cpp:196
+#: ioslaves/trash/kio_trash.cpp:176 ioslaves/trash/kio_trash.cpp:198
 #, kde-format
 msgid "Invalid combination of protocols."
 msgstr ""
 
-#: ioslaves/trash/kio_trash.cpp:187 ioslaves/trash/kio_trash_win.cpp:235
+#: ioslaves/trash/kio_trash.cpp:189 ioslaves/trash/kio_trash_win.cpp:235
 #, fuzzy, kde-format
 #| msgid "This file is a link and does not have permissions."
 #| msgid_plural "All files are links and do not have permissions."
@@ -5097,7 +5097,7 @@ msgstr ""
 msgid "&Management"
 msgstr "Kamentar"
 
-#: kcms/cookies/kcookiesmain.cpp:79
+#: kcms/cookies/kcookiesmain.cpp:82
 #, kde-format
 msgid ""
 "<h1>Cookies</h1><p>Cookies contain information that KDE applications using "
@@ -5116,45 +5116,45 @@ msgid ""
 "the web sites without being prompted every time a cookie is received.</p>"
 msgstr ""
 
-#: kcms/cookies/kcookiesmanagement.cpp:124
-#: kcms/cookies/kcookiesmanagement.cpp:141
+#: kcms/cookies/kcookiesmanagement.cpp:126
+#: kcms/cookies/kcookiesmanagement.cpp:143
 #, kde-format
 msgid "D-Bus Communication Error"
 msgstr ""
 
-#: kcms/cookies/kcookiesmanagement.cpp:125
+#: kcms/cookies/kcookiesmanagement.cpp:127
 #, kde-format
 msgid "Unable to delete all the cookies as requested."
 msgstr ""
 
-#: kcms/cookies/kcookiesmanagement.cpp:142
+#: kcms/cookies/kcookiesmanagement.cpp:144
 #, kde-format
 msgid "Unable to delete cookies as requested."
 msgstr ""
 
-#: kcms/cookies/kcookiesmanagement.cpp:212
+#: kcms/cookies/kcookiesmanagement.cpp:216
 #, kde-format
 msgid "<h1>Cookie Management Quick Help</h1>"
 msgstr ""
 
-#: kcms/cookies/kcookiesmanagement.cpp:224
+#: kcms/cookies/kcookiesmanagement.cpp:228
 #, kde-format
 msgid "Information Lookup Failure"
 msgstr ""
 
-#: kcms/cookies/kcookiesmanagement.cpp:226
+#: kcms/cookies/kcookiesmanagement.cpp:230
 #, kde-format
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
 msgstr ""
 
-#: kcms/cookies/kcookiesmanagement.cpp:312
+#: kcms/cookies/kcookiesmanagement.cpp:321
 #, fuzzy, kde-format
 #| msgid "End of Session"
 msgid "End of session"
 msgstr "Kaniec sesii"
 
-#: kcms/cookies/kcookiesmanagement.cpp:319
+#: kcms/cookies/kcookiesmanagement.cpp:328
 #, fuzzy, kde-format
 #| msgctxt "The certificate is trusted"
 #| msgid "Yes"
@@ -5225,45 +5225,45 @@ msgstr "Pieračytaj"
 msgid "Secure:"
 msgstr ""
 
-#: kcms/cookies/kcookiespolicies.cpp:152
+#: kcms/cookies/kcookiespolicies.cpp:154
 #, kde-format
 msgctxt "@title:window"
 msgid "Change Cookie Policy"
 msgstr ""
 
-#: kcms/cookies/kcookiespolicies.cpp:171
+#: kcms/cookies/kcookiespolicies.cpp:173
 #, kde-format
 msgctxt "@title:window"
 msgid "New Cookie Policy"
 msgstr ""
 
-#: kcms/cookies/kcookiespolicies.cpp:203
+#: kcms/cookies/kcookiespolicies.cpp:206
 #, kde-format
 msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
 "replace it?</qt>"
 msgstr ""
 
-#: kcms/cookies/kcookiespolicies.cpp:207
+#: kcms/cookies/kcookiespolicies.cpp:210
 #, kde-format
 msgctxt "@title:window"
 msgid "Duplicate Policy"
 msgstr ""
 
-#: kcms/cookies/kcookiespolicies.cpp:208 widgets/skipdialog.cpp:41
+#: kcms/cookies/kcookiespolicies.cpp:211 widgets/skipdialog.cpp:41
 #, fuzzy, kde-format
 #| msgid "Places"
 msgid "Replace"
 msgstr "Miescy"
 
-#: kcms/cookies/kcookiespolicies.cpp:381
+#: kcms/cookies/kcookiespolicies.cpp:387
 #, kde-format
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
 msgstr ""
 
-#: kcms/cookies/kcookiespolicies.cpp:422
+#: kcms/cookies/kcookiespolicies.cpp:430
 #, kde-format
 msgid ""
 "<h1>Cookies</h1><p>Cookies contain information that KDE application using "
@@ -5555,14 +5555,14 @@ msgstr ""
 msgid "Accept until end of session"
 msgstr ""
 
-#: kcms/ksaveioconfig.cpp:209
+#: kcms/ksaveioconfig.cpp:211
 #, kde-format
 msgid ""
 "You have to restart the running applications for these changes to take "
 "effect."
 msgstr ""
 
-#: kcms/ksaveioconfig.cpp:211 kcms/ksaveioconfig.cpp:222
+#: kcms/ksaveioconfig.cpp:213 kcms/ksaveioconfig.cpp:224
 #, fuzzy, kde-format
 #| msgid "&Paste File"
 #| msgid_plural "&Paste %1 Files"
@@ -5570,7 +5570,7 @@ msgctxt "@title:window"
 msgid "Update Failed"
 msgstr "&Uklej %1 fajł"
 
-#: kcms/ksaveioconfig.cpp:222
+#: kcms/ksaveioconfig.cpp:224
 #, kde-format
 msgid "You have to restart KDE for these changes to take effect."
 msgstr ""
@@ -5723,7 +5723,7 @@ msgid ""
 "settings."
 msgstr ""
 
-#: kcms/proxy/kproxydlg.cpp:190
+#: kcms/proxy/kproxydlg.cpp:194
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5737,7 +5737,7 @@ msgid ""
 "own settings."
 msgstr ""
 
-#: kcms/proxy/kproxydlg.cpp:541
+#: kcms/proxy/kproxydlg.cpp:546
 #, kde-format
 msgid ""
 "<h1>Proxy</h1><p>A proxy server is an intermediate program that sits between "
@@ -6161,19 +6161,19 @@ msgid ""
 "has been modified. Do you want to upload the changes?"
 msgstr ""
 
-#: kioexec/kioexecd.cpp:86 kioexec/main.cpp:232 kioexec/main.cpp:242
+#: kioexec/kioexecd.cpp:86 kioexec/main.cpp:234 kioexec/main.cpp:244
 #, fuzzy, kde-format
 #| msgid "Device name"
 msgid "File Changed"
 msgstr "Nazva pryłady"
 
-#: kioexec/kioexecd.cpp:87 kioexec/main.cpp:243
+#: kioexec/kioexecd.cpp:87 kioexec/main.cpp:245
 #, fuzzy, kde-format
 #| msgid "Reload"
 msgid "Upload"
 msgstr "Pieračytaj"
 
-#: kioexec/kioexecd.cpp:88 kioexec/main.cpp:244
+#: kioexec/kioexecd.cpp:88 kioexec/main.cpp:246
 #, fuzzy, kde-format
 #| msgid "Do Not Store"
 msgid "Do Not Upload"
@@ -6210,7 +6210,7 @@ msgid ""
 "not allowed with --tempfiles switch"
 msgstr ""
 
-#: kioexec/main.cpp:231
+#: kioexec/main.cpp:233
 #, kde-format
 msgid ""
 "The supposedly temporary file\n"
@@ -6219,13 +6219,13 @@ msgid ""
 "Do you still want to delete it?"
 msgstr ""
 
-#: kioexec/main.cpp:234
+#: kioexec/main.cpp:236
 #, fuzzy, kde-format
 #| msgid "Do Not Store"
 msgid "Do Not Delete"
 msgstr "Nie zachoŭvaj"
 
-#: kioexec/main.cpp:241
+#: kioexec/main.cpp:243
 #, kde-format
 msgid ""
 "The file\n"
@@ -6234,59 +6234,59 @@ msgid ""
 "Do you want to upload the changes?"
 msgstr ""
 
-#: kioexec/main.cpp:281
+#: kioexec/main.cpp:283
 #, fuzzy, kde-format
 #| msgid "Exec"
 msgid "KIOExec"
 msgstr "Vykanańnie"
 
-#: kioexec/main.cpp:285
+#: kioexec/main.cpp:287
 #, kde-format
 msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
 msgstr ""
 
-#: kioexec/main.cpp:286
+#: kioexec/main.cpp:288
 #, kde-format
 msgid "David Faure"
 msgstr ""
 
-#: kioexec/main.cpp:287
+#: kioexec/main.cpp:289
 #, kde-format
 msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
-#: kioexec/main.cpp:288
+#: kioexec/main.cpp:290
 #, kde-format
 msgid "Bernhard Rosenkraenzer"
 msgstr ""
 
-#: kioexec/main.cpp:289
+#: kioexec/main.cpp:291
 #, kde-format
 msgid "Waldo Bastian"
 msgstr ""
 
-#: kioexec/main.cpp:290
+#: kioexec/main.cpp:292
 #, kde-format
 msgid "Oswald Buddenhagen"
 msgstr ""
 
-#: kioexec/main.cpp:295
+#: kioexec/main.cpp:297
 #, kde-format
 msgid "Treat URLs as local files and delete them afterwards"
 msgstr ""
 
-#: kioexec/main.cpp:297
+#: kioexec/main.cpp:299
 #, fuzzy, kde-format
 #| msgid "Choose an alternate filename for the new file."
 msgid "Suggested file name for the downloaded file"
 msgstr "Vybiery inšuju nazvu dla novaha fajła."
 
-#: kioexec/main.cpp:298
+#: kioexec/main.cpp:300
 #, kde-format
 msgid "Command to execute"
 msgstr ""
 
-#: kioexec/main.cpp:299
+#: kioexec/main.cpp:301
 #, kde-format
 msgid "URL(s) or local file(s) used for 'command'"
 msgstr ""
@@ -6319,7 +6319,7 @@ msgstr ""
 "Niapravilny skrypt naładžvańnia proxy:\n"
 "%1"
 
-#: kpac/proxyscout.cpp:348
+#: kpac/proxyscout.cpp:349
 #, kde-format
 msgid ""
 "The proxy configuration script returned an error:\n"
@@ -6328,12 +6328,12 @@ msgstr ""
 "Skrypt naładžvańnia proxy viarnuŭ pamyłku:\n"
 "%1"
 
-#: kpac/script.cpp:670
+#: kpac/script.cpp:675
 #, kde-format
 msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
 msgstr ""
 
-#: kpac/script.cpp:688
+#: kpac/script.cpp:693
 #, kde-format
 msgid "Got an invalid reply when calling %1 -> %2"
 msgstr ""
@@ -6357,7 +6357,7 @@ msgctxt "@action:button filter-continue"
 msgid "Retry"
 msgstr ""
 
-#: kpasswdserver/kpasswdserver.cpp:779
+#: kpasswdserver/kpasswdserver.cpp:781
 #, fuzzy, kde-format
 #| msgid "Authorization Dialog"
 msgid "Authentication Dialog"
@@ -7146,7 +7146,7 @@ msgstr "Ułaśnik"
 msgid "Owning Group"
 msgstr "Hrupa ŭłaśnikaŭ"
 
-#: widgets/kacleditwidget.cpp:412 widgets/kpropertiesdialog.cpp:2048
+#: widgets/kacleditwidget.cpp:412 widgets/kpropertiesdialog.cpp:2050
 #, kde-format
 msgid "Others"
 msgstr "Inšyja"
@@ -7252,43 +7252,43 @@ msgstr "Zmantuj"
 msgid "Unmount"
 msgstr "Admantuj"
 
-#: widgets/kdirmodel.cpp:1179
+#: widgets/kdirmodel.cpp:1181
 #, kde-format
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Nazva"
 
-#: widgets/kdirmodel.cpp:1181
+#: widgets/kdirmodel.cpp:1183
 #, kde-format
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Pamier"
 
-#: widgets/kdirmodel.cpp:1183
+#: widgets/kdirmodel.cpp:1185
 #, kde-format
 msgctxt "@title:column"
 msgid "Date"
 msgstr "Data"
 
-#: widgets/kdirmodel.cpp:1185
+#: widgets/kdirmodel.cpp:1187
 #, kde-format
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Dazvoły"
 
-#: widgets/kdirmodel.cpp:1187
+#: widgets/kdirmodel.cpp:1189
 #, kde-format
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Ułaśnik"
 
-#: widgets/kdirmodel.cpp:1189
+#: widgets/kdirmodel.cpp:1191
 #, kde-format
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Hrupa"
 
-#: widgets/kdirmodel.cpp:1191
+#: widgets/kdirmodel.cpp:1193
 #, kde-format
 msgctxt "@title:column"
 msgid "Type"
@@ -8142,7 +8142,7 @@ msgstr "Možna ŭbačyć i źmianić źmieściva, pračytać i zapisać"
 msgid "&Permissions"
 msgstr "&Dazvoły"
 
-#: widgets/kpropertiesdialog.cpp:1784 widgets/kpropertiesdialog.cpp:1978
+#: widgets/kpropertiesdialog.cpp:1784 widgets/kpropertiesdialog.cpp:1979
 #, kde-format
 msgid "Access Permissions"
 msgstr "&Dazvoły na dostup"
@@ -8255,12 +8255,12 @@ msgstr "Prymiani źmieny dla ŭsich padkatalohaŭ dy ichnaha źmieściva"
 msgid "Advanced Permissions"
 msgstr "Asablivyja dazvoły"
 
-#: widgets/kpropertiesdialog.cpp:1986
+#: widgets/kpropertiesdialog.cpp:1987
 #, kde-format
 msgid "Class"
 msgstr "Klasa"
 
-#: widgets/kpropertiesdialog.cpp:1993
+#: widgets/kpropertiesdialog.cpp:1994
 #, kde-format
 msgid ""
 "Show\n"
@@ -8269,22 +8269,22 @@ msgstr ""
 "Pakaz\n"
 "elementaŭ"
 
-#: widgets/kpropertiesdialog.cpp:1994
+#: widgets/kpropertiesdialog.cpp:1995
 #, kde-format
 msgid "This flag allows viewing the content of the folder."
 msgstr "Hetaja opcyja dazvalaje prahladać źmieściva hataloha."
 
-#: widgets/kpropertiesdialog.cpp:1996
+#: widgets/kpropertiesdialog.cpp:1997
 #, kde-format
 msgid "Read"
 msgstr "Čytańnie"
 
-#: widgets/kpropertiesdialog.cpp:1997
+#: widgets/kpropertiesdialog.cpp:1998
 #, kde-format
 msgid "The Read flag allows viewing the content of the file."
 msgstr "Hetaja opcyja dazvalaje prahladać źmieściva fajła."
 
-#: widgets/kpropertiesdialog.cpp:2003
+#: widgets/kpropertiesdialog.cpp:2004
 #, kde-format
 msgid ""
 "Write\n"
@@ -8293,7 +8293,7 @@ msgstr ""
 "Zapis\n"
 "elementaŭ"
 
-#: widgets/kpropertiesdialog.cpp:2005
+#: widgets/kpropertiesdialog.cpp:2006
 #, kde-format
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
@@ -8303,43 +8303,43 @@ msgstr ""
 "aperacyi vydaleńnia j źmieny nazvy možna abmiežavać z dapamohaj opcyi "
 "„Sticky”."
 
-#: widgets/kpropertiesdialog.cpp:2008
+#: widgets/kpropertiesdialog.cpp:2009
 #, kde-format
 msgid "Write"
 msgstr "Zapis"
 
-#: widgets/kpropertiesdialog.cpp:2009
+#: widgets/kpropertiesdialog.cpp:2010
 #, kde-format
 msgid "The Write flag allows modifying the content of the file."
 msgstr "Hetaja opcyja dazvalaje źmianiać źmieściva fajła."
 
-#: widgets/kpropertiesdialog.cpp:2015
+#: widgets/kpropertiesdialog.cpp:2016
 #, kde-format
 msgctxt "Enter folder"
 msgid "Enter"
 msgstr "Uvachod"
 
-#: widgets/kpropertiesdialog.cpp:2016
+#: widgets/kpropertiesdialog.cpp:2017
 #, kde-format
 msgid "Enable this flag to allow entering the folder."
 msgstr "Uklučy hetuju opcyju, kab dazvolić uvachodzić u kataloh."
 
-#: widgets/kpropertiesdialog.cpp:2018
+#: widgets/kpropertiesdialog.cpp:2019
 #, kde-format
 msgid "Exec"
 msgstr "Vykanańnie"
 
-#: widgets/kpropertiesdialog.cpp:2019
+#: widgets/kpropertiesdialog.cpp:2020
 #, kde-format
 msgid "Enable this flag to allow executing the file as a program."
 msgstr "Uklučy hetuju opcyju, kab dazvolić vykonvać hety fajł jak prahramu."
 
-#: widgets/kpropertiesdialog.cpp:2027
+#: widgets/kpropertiesdialog.cpp:2028
 #, kde-format
 msgid "Special"
 msgstr "Asablivaje"
 
-#: widgets/kpropertiesdialog.cpp:2032
+#: widgets/kpropertiesdialog.cpp:2033
 #, kde-format
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
@@ -8348,24 +8348,24 @@ msgstr ""
 "Asablivaja opcyja. Dziejničaje dla ŭsiaho kataloha. Peŭny sens opcyi možna "
 "ŭbačyć u pravym słupku."
 
-#: widgets/kpropertiesdialog.cpp:2036
+#: widgets/kpropertiesdialog.cpp:2037
 #, kde-format
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
 msgstr "Asablivaja opcyja. Peŭny sens opcyi možna ŭbačyć u pravym słupku."
 
-#: widgets/kpropertiesdialog.cpp:2040
+#: widgets/kpropertiesdialog.cpp:2042
 #, kde-format
 msgid "User"
 msgstr "Karystańnik"
 
-#: widgets/kpropertiesdialog.cpp:2044
+#: widgets/kpropertiesdialog.cpp:2046
 #, kde-format
 msgid "Group"
 msgstr "Hrupa"
 
-#: widgets/kpropertiesdialog.cpp:2055
+#: widgets/kpropertiesdialog.cpp:2057
 #, kde-format
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
@@ -8374,7 +8374,7 @@ msgstr ""
 "Kali ŭklučanaja hetaja opcyja, ułaśnikam usich novych fajłaŭ budzie ŭłaśnik "
 "hetaha kataloha."
 
-#: widgets/kpropertiesdialog.cpp:2059
+#: widgets/kpropertiesdialog.cpp:2061
 #, kde-format
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
@@ -8383,7 +8383,7 @@ msgstr ""
 "Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie "
 "vykonvacca z dazvołami, ułaścivymi ŭłaśniku hetaha fajła."
 
-#: widgets/kpropertiesdialog.cpp:2065
+#: widgets/kpropertiesdialog.cpp:2068
 #, kde-format
 msgid ""
 "If this flag is set, the group of this folder will be set for all new files."
@@ -8391,7 +8391,7 @@ msgstr ""
 "Kali ŭklučanaja hetaja opcyja, hrupaj usich novych fajłaŭ budzie hrupa "
 "hetaha kataloha."
 
-#: widgets/kpropertiesdialog.cpp:2069
+#: widgets/kpropertiesdialog.cpp:2072
 #, kde-format
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
@@ -8400,7 +8400,7 @@ msgstr ""
 "Kali hety fajł vykonvalny i ŭklučanaja hetaja opcyja, to jon budzie "
 "vykonvacca z dazvołami, ułaścivymi hrupie hetaha fajła."
 
-#: widgets/kpropertiesdialog.cpp:2075
+#: widgets/kpropertiesdialog.cpp:2079
 #, kde-format
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
@@ -8410,7 +8410,7 @@ msgstr ""
 "zmohuć vydalać i źmianiać u im nazvy fajłaŭ. Inačaj heta zmohuć rabić usie z "
 "dazvołam na zapis."
 
-#: widgets/kpropertiesdialog.cpp:2080
+#: widgets/kpropertiesdialog.cpp:2084
 #, kde-format
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
@@ -8419,33 +8419,33 @@ msgstr ""
 "Systema „Linux” nie karystajecca opcyjaj „Sticky”, ale inšyja systemy mohuć "
 "joju dziela čaho-niebudź karystacca."
 
-#: widgets/kpropertiesdialog.cpp:2140
+#: widgets/kpropertiesdialog.cpp:2145
 #, kde-format
 msgid "Set UID"
 msgstr "SUID"
 
-#: widgets/kpropertiesdialog.cpp:2144
+#: widgets/kpropertiesdialog.cpp:2149
 #, kde-format
 msgid "Set GID"
 msgstr "SGID"
 
-#: widgets/kpropertiesdialog.cpp:2148
+#: widgets/kpropertiesdialog.cpp:2153
 #, kde-format
 msgctxt "File permission"
 msgid "Sticky"
 msgstr "Sticky"
 
-#: widgets/kpropertiesdialog.cpp:2258
+#: widgets/kpropertiesdialog.cpp:2264
 #, kde-format
 msgid "Link"
 msgstr "Łuč"
 
-#: widgets/kpropertiesdialog.cpp:2278
+#: widgets/kpropertiesdialog.cpp:2284
 #, kde-format
 msgid "Varying (No Change)"
 msgstr "Roznaje (biaź źmienaŭ)"
 
-#: widgets/kpropertiesdialog.cpp:2389
+#: widgets/kpropertiesdialog.cpp:2395
 #, kde-format
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
@@ -8453,7 +8453,7 @@ msgstr[0] "Hety fajł maje asablivyja dazvoły."
 msgstr[1] "Hetyja fajły majuć asablivyja dazvoły."
 msgstr[2] "Hetyja fajły majuć asablivyja dazvoły."
 
-#: widgets/kpropertiesdialog.cpp:2410
+#: widgets/kpropertiesdialog.cpp:2417
 #, kde-format
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
@@ -8461,48 +8461,48 @@ msgstr[0] "Hety kataloh maje asablivyja dazvoły."
 msgstr[1] "Hetyja katalohi majuć asablivyja dazvoły."
 msgstr[2] "Hetyja katalohi majuć asablivyja dazvoły."
 
-#: widgets/kpropertiesdialog.cpp:2423
+#: widgets/kpropertiesdialog.cpp:2431
 #, kde-format
 msgid "These files use advanced permissions."
 msgstr "Hetyja fajły majuć asablivyja dazvoły."
 
-#: widgets/kpropertiesdialog.cpp:2667
+#: widgets/kpropertiesdialog.cpp:2677
 #, kde-format
 msgctxt "@title:tab"
 msgid "C&hecksums"
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2732 widgets/kpropertiesdialog.cpp:2743
-#: widgets/kpropertiesdialog.cpp:2754 widgets/kpropertiesdialog.cpp:2765
+#: widgets/kpropertiesdialog.cpp:2742 widgets/kpropertiesdialog.cpp:2753
+#: widgets/kpropertiesdialog.cpp:2764 widgets/kpropertiesdialog.cpp:2775
 #, fuzzy, kde-format
 #| msgid "Calculating..."
 msgctxt "@action:button"
 msgid "Calculating..."
 msgstr "Padličvańnie..."
 
-#: widgets/kpropertiesdialog.cpp:2921
+#: widgets/kpropertiesdialog.cpp:2931
 #, kde-format
 msgid "Invalid checksum."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2924
+#: widgets/kpropertiesdialog.cpp:2934
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The given input is not a valid MD5, SHA1 or SHA256 checksum."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2935
+#: widgets/kpropertiesdialog.cpp:2945
 #, kde-format
 msgid "Checksums match."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2938
+#: widgets/kpropertiesdialog.cpp:2948
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum match."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2950
+#: widgets/kpropertiesdialog.cpp:2960
 #, kde-format
 msgid ""
 "<p>Checksums do not match.</p>This may be due to a faulty download. Try re-"
@@ -8510,29 +8510,29 @@ msgid ""
 "source of the file."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2955
+#: widgets/kpropertiesdialog.cpp:2965
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum differ."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2963
+#: widgets/kpropertiesdialog.cpp:2973
 #, kde-format
 msgctxt "notify the user about a computation in the background"
 msgid "Verifying checksum..."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:3052
+#: widgets/kpropertiesdialog.cpp:3062
 #, kde-format
 msgid "U&RL"
 msgstr "&Adras"
 
-#: widgets/kpropertiesdialog.cpp:3059
+#: widgets/kpropertiesdialog.cpp:3069
 #, kde-format
 msgid "URL:"
 msgstr "Adras:"
 
-#: widgets/kpropertiesdialog.cpp:3129 widgets/kpropertiesdialog.cpp:3400
+#: widgets/kpropertiesdialog.cpp:3139 widgets/kpropertiesdialog.cpp:3410
 #, fuzzy, kde-format
 #| msgid "Only executables on local file systems are supported."
 msgid ""
@@ -8540,28 +8540,28 @@ msgid ""
 msgstr ""
 "Absłuhoŭvajucca tolki vykonvalnyja fajły z lakalnych fajłavych systemaŭ."
 
-#: widgets/kpropertiesdialog.cpp:3200
+#: widgets/kpropertiesdialog.cpp:3210
 #, kde-format
 msgid "&Application"
 msgstr "&Aplikacyja"
 
-#: widgets/kpropertiesdialog.cpp:3338
+#: widgets/kpropertiesdialog.cpp:3348
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Dadaj typ fajłaŭ dla „%1”"
 
-#: widgets/kpropertiesdialog.cpp:3339
+#: widgets/kpropertiesdialog.cpp:3349
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "Vybiery adzin ci niekalki typaŭ fajłaŭ, kab dadać:"
 
-#: widgets/kpropertiesdialog.cpp:3481
+#: widgets/kpropertiesdialog.cpp:3491
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr ""
 "Absłuhoŭvajucca tolki vykonvalnyja fajły z lakalnych fajłavych systemaŭ."
 
-#: widgets/kpropertiesdialog.cpp:3495
+#: widgets/kpropertiesdialog.cpp:3505
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Asablivyja opcyi dla „%1”"
@@ -8687,7 +8687,7 @@ msgstr ""
 msgid "Configure Web Shortcuts..."
 msgstr "Naładź supolny dostup da fajłaŭ..."
 
-#: widgets/kurlrequester.cpp:348
+#: widgets/kurlrequester.cpp:349
 #, kde-format
 msgid "Open file dialog"
 msgstr "Adčyni akno fajła"

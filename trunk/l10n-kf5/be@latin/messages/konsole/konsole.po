@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-13 00:21+0000\n"
+"POT-Creation-Date: 2021-08-14 00:19+0000\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -1740,7 +1740,7 @@ msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
 msgid "Silence in '%1' (Session '%2')"
 msgstr "Cišynia ŭ sesii „%1”"
 
-#: session/Session.cpp:935
+#: session/Session.cpp:924
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -1749,29 +1749,29 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: session/Session.cpp:971
+#: session/Session.cpp:960
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Skončana"
 
-#: session/Session.cpp:985 session/Session.cpp:998
+#: session/Session.cpp:974 session/Session.cpp:987
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "Prahrama „%1” złamałasia."
 
-#: session/Session.cpp:987
+#: session/Session.cpp:976
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 
-#: session/Session.cpp:1430
+#: session/Session.cpp:1419
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
 
-#: session/Session.cpp:1750
+#: session/Session.cpp:1739
 #, fuzzy, kde-format
 #| msgid "Activity in session '%1'"
 msgid "Activity in '%1' (Session '%2')"

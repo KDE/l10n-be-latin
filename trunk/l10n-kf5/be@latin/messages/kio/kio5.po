@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-16 00:14+0000\n"
+"POT-Creation-Date: 2021-09-19 00:15+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3978,6 +3978,12 @@ msgstr ""
 #, kde-format
 msgid "Icon file too big, download aborted"
 msgstr ""
+
+#: gui/kemailclientlauncherjob.cpp:80
+#, fuzzy, kde-format
+#| msgid "No metainfo for %1"
+msgid "No mail client found"
+msgstr "Niama metaźviestak pra „%1”."
 
 #: gui/kprocessrunner.cpp:76
 #, fuzzy, kde-format

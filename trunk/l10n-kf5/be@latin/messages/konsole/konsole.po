@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-21 00:19+0000\n"
+"POT-Creation-Date: 2021-09-22 00:21+0000\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -230,7 +230,7 @@ msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "Arhumenty zahadu"
 
-#: Application.cpp:525
+#: Application.cpp:514
 #, fuzzy, kde-format
 #| msgid "Background (Intense)"
 msgctxt "@item"
@@ -1508,6 +1508,12 @@ msgstr "Rabota ŭ systemie „SGI”"
 msgid "Cancel"
 msgstr ""
 
+#: pluginsystem/PluginManager.cpp:66
+#, fuzzy, kde-format
+#| msgid "No profiles available"
+msgid "No plugins available"
+msgstr "Niama profilaŭ"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptions)
 #. i18n: ectx: property (title), widget (QGroupBox, OutputOptions)
 #: PrintOptions.ui:14 PrintOptions.ui:20
@@ -1543,12 +1549,12 @@ msgstr "Zrabi zmoŭčanym"
 msgid "Default profile"
 msgstr "Vydali profil"
 
-#: profile/ProfileManager.cpp:274
+#: profile/ProfileManager.cpp:296
 #, kde-format
 msgid "Konsole does not have permission to save this profile to %1"
 msgstr ""
 
-#: profile/ProfileManager.cpp:306
+#: profile/ProfileManager.cpp:331
 #, kde-format
 msgid ""
 "The name \"Default\" is reserved for the built-in fallback profile;\n"
@@ -5151,9 +5157,6 @@ msgstr "&Začyni kartku"
 #~| msgid "Set the selected profile as the default for new terminal sessions"
 #~ msgid "Move the selected profile down in the menu list"
 #~ msgstr "Zrabi vybrany profil zmoŭčanym dla novych terminalnych sesijaŭ"
-
-#~ msgid "No profiles available"
-#~ msgstr "Niama profilaŭ"
 
 #~ msgid "Word characters for double-click selection: "
 #~ msgstr "Znaki, jakija dla vyłučeńnia dvuklikam uvažajucca za słoŭnyja: "

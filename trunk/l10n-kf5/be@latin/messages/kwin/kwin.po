@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-13 00:19+0000\n"
+"POT-Creation-Date: 2021-10-14 00:18+0000\n"
 "PO-Revision-Date: 2008-12-27 14:55+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -29,7 +29,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ihar.hrachyshka@gmail.com"
 
-#: abstract_client.cpp:2818
+#: abstract_client.cpp:2820
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
@@ -1145,7 +1145,7 @@ msgstr ""
 msgid "Wait Longer"
 msgstr ""
 
-#: input.cpp:2528
+#: input.cpp:2527
 #, kde-format
 msgid "Touchpad"
 msgstr ""
@@ -2514,43 +2514,51 @@ msgid "Move Window to the Center"
 msgstr "Pierasuń akno"
 
 #: useractions.cpp:1012
-#, kde-format
-msgid "Pack Window to the Right"
-msgstr "Vykładzi akno sprava"
+#, fuzzy, kde-format
+#| msgid "Move Window"
+msgid "Move Window Right"
+msgstr "Pierasuń akno"
 
 #: useractions.cpp:1014
-#, kde-format
-msgid "Pack Window to the Left"
-msgstr "Vykładzi akno źleva"
+#, fuzzy, kde-format
+#| msgid "Move Window"
+msgid "Move Window Left"
+msgstr "Pierasuń akno"
 
 #: useractions.cpp:1016
-#, kde-format
-msgid "Pack Window Up"
-msgstr "Vykładzi akno źvierchu"
+#, fuzzy, kde-format
+#| msgid "Move Window"
+msgid "Move Window Up"
+msgstr "Pierasuń akno"
 
 #: useractions.cpp:1018
-#, kde-format
-msgid "Pack Window Down"
-msgstr "Vykładzi akno źnizu"
+#, fuzzy, kde-format
+#| msgid "Move Window"
+msgid "Move Window Down"
+msgstr "Pierasuń akno"
 
 #: useractions.cpp:1020
-#, kde-format
-msgid "Pack Grow Window Horizontally"
-msgstr "Vykładzi akno, razharnuŭšy haryzantalna"
+#, fuzzy, kde-format
+#| msgid "Maximize Window Horizontally"
+msgid "Expand Window Horizontally"
+msgstr "Zmaksymalizuj akno haryzantalna"
 
 #: useractions.cpp:1022
-#, kde-format
-msgid "Pack Grow Window Vertically"
-msgstr "Vykładzi akno, razharnuŭšy vertykalna"
+#, fuzzy, kde-format
+#| msgid "Maximize Window Vertically"
+msgid "Expand Window Vertically"
+msgstr "Zmaksymalizuj akno vertykalna"
 
 #: useractions.cpp:1024
-#, kde-format
-msgid "Pack Shrink Window Horizontally"
+#, fuzzy, kde-format
+#| msgid "Pack Shrink Window Horizontally"
+msgid "Shrink Window Horizontally"
 msgstr "Vykładzi akno, pryharnuŭšy haryzantalna"
 
 #: useractions.cpp:1026
-#, kde-format
-msgid "Pack Shrink Window Vertically"
+#, fuzzy, kde-format
+#| msgid "Pack Shrink Window Vertically"
+msgid "Shrink Window Vertically"
 msgstr "Vykładzi akno, pryharnuŭšy vertykalna"
 
 #: useractions.cpp:1028
@@ -2800,6 +2808,24 @@ msgid ""
 "like https://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
 
+#~ msgid "Pack Window to the Right"
+#~ msgstr "Vykładzi akno sprava"
+
+#~ msgid "Pack Window to the Left"
+#~ msgstr "Vykładzi akno źleva"
+
+#~ msgid "Pack Window Up"
+#~ msgstr "Vykładzi akno źvierchu"
+
+#~ msgid "Pack Window Down"
+#~ msgstr "Vykładzi akno źnizu"
+
+#~ msgid "Pack Grow Window Horizontally"
+#~ msgstr "Vykładzi akno, razharnuŭšy haryzantalna"
+
+#~ msgid "Pack Grow Window Vertically"
+#~ msgstr "Vykładzi akno, razharnuŭšy vertykalna"
+
 #, fuzzy
 #~| msgid "Desktop Cube"
 #~ msgid "Desktop number"
@@ -2963,26 +2989,6 @@ msgstr ""
 #~| msgid "Switch One Desktop Down"
 #~ msgid "Switch Focus Down"
 #~ msgstr "Uklučy nižejšy stoł"
-
-#, fuzzy
-#~| msgid "Move Window"
-#~ msgid "Move Window Left"
-#~ msgstr "Pierasuń akno"
-
-#, fuzzy
-#~| msgid "Move Window"
-#~ msgid "Move Window Right"
-#~ msgstr "Pierasuń akno"
-
-#, fuzzy
-#~| msgid "Move Window"
-#~ msgid "Move Window Up"
-#~ msgstr "Pierasuń akno"
-
-#, fuzzy
-#~| msgid "Move Window"
-#~ msgid "Move Window Down"
-#~ msgstr "Pierasuń akno"
 
 #, fuzzy
 #~| msgid "Disabled"

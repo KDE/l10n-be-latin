@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-05 01:45+0000\n"
+"POT-Creation-Date: 2021-10-20 01:43+0000\n"
 "PO-Revision-Date: 2008-12-27 00:41+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -78,34 +78,34 @@ msgstr "Chavaj adpaviednyja fajły"
 msgid "File name pattern:"
 msgstr "Šablon nazvaŭ fajłaŭ:"
 
-#: package/contents/ui/ConfigFilter.qml:75
+#: package/contents/ui/ConfigFilter.qml:76
 #, kde-format
 msgid "File types:"
 msgstr "Typy fajłaŭ:"
 
-#: package/contents/ui/ConfigFilter.qml:77
+#: package/contents/ui/ConfigFilter.qml:78
 #, fuzzy, kde-format
 #| msgid "Search file type"
 msgid "Search…"
 msgstr "Šukaj typ fajła"
 
-#: package/contents/ui/ConfigFilter.qml:175
+#: package/contents/ui/ConfigFilter.qml:177
 #, fuzzy, kde-format
 #| msgid "File types:"
 msgid "File type"
 msgstr "Typy fajłaŭ:"
 
-#: package/contents/ui/ConfigFilter.qml:184
+#: package/contents/ui/ConfigFilter.qml:186
 #, kde-format
 msgid "Description"
 msgstr ""
 
-#: package/contents/ui/ConfigFilter.qml:198
+#: package/contents/ui/ConfigFilter.qml:200
 #, kde-format
 msgid "Select All"
 msgstr "Vyłučy ŭsio"
 
-#: package/contents/ui/ConfigFilter.qml:209
+#: package/contents/ui/ConfigFilter.qml:211
 #, kde-format
 msgid "Deselect All"
 msgstr "Anuluj vyłučeńnie ŭsiaho"
@@ -361,32 +361,32 @@ msgstr "Miesca"
 msgid "Type path or URL…"
 msgstr "Tut upišy ściežku ci adras."
 
-#: package/contents/ui/ConfigLocation.qml:179
+#: package/contents/ui/ConfigLocation.qml:181
 #, kde-format
 msgid "Title:"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:181
+#: package/contents/ui/ConfigLocation.qml:183
 #, kde-format
 msgid "None"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:181
+#: package/contents/ui/ConfigLocation.qml:183
 #, kde-format
 msgid "Default"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:181
+#: package/contents/ui/ConfigLocation.qml:183
 #, kde-format
 msgid "Full path"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:181
+#: package/contents/ui/ConfigLocation.qml:183
 #, kde-format
 msgid "Custom title"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:196
+#: package/contents/ui/ConfigLocation.qml:198
 #, kde-format
 msgid "Enter custom title…"
 msgstr ""
@@ -454,36 +454,30 @@ msgstr "&Aktualizuj stoł"
 msgid "&Refresh View"
 msgstr "&Aktualizuj prahlad"
 
-#: plugins/folder/foldermodel.cpp:1600
-#, fuzzy, kde-format
-#| msgid "Create &Folder..."
-msgid "&Create Folder"
-msgstr "Stvary &kataloh..."
-
-#: plugins/folder/foldermodel.cpp:1609
+#: plugins/folder/foldermodel.cpp:1605
 #, fuzzy, kde-format
 #| msgid "&Empty Trash Bin"
 msgid "&Empty Trash"
 msgstr "&Vyčyści śmietnicu"
 
-#: plugins/folder/foldermodel.cpp:1612
+#: plugins/folder/foldermodel.cpp:1608
 #, fuzzy, kde-format
 #| msgid "&Restore"
 msgctxt "Restore from trash"
 msgid "Restore"
 msgstr "&Uznavi"
 
-#: plugins/folder/foldermodel.cpp:1617
+#: plugins/folder/foldermodel.cpp:1611
 #, kde-format
 msgid "&Open"
 msgstr "&Adčyni"
 
-#: plugins/folder/foldermodel.cpp:1733
+#: plugins/folder/foldermodel.cpp:1726
 #, kde-format
 msgid "&Paste"
 msgstr "&Uklej"
 
-#: plugins/folder/foldermodel.cpp:1847
+#: plugins/folder/foldermodel.cpp:1840
 #, kde-format
 msgid "&Properties"
 msgstr "&Ułaścivaści"
@@ -561,6 +555,11 @@ msgstr "Pakazvaj padhlady"
 #, kde-format
 msgid "Locked"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Create &Folder..."
+#~ msgid "&Create Folder"
+#~ msgstr "Stvary &kataloh..."
 
 #, fuzzy
 #~| msgid "Show the Desktop folder"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-02 00:46+0000\n"
+"POT-Creation-Date: 2021-12-03 00:46+0000\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -376,7 +376,7 @@ msgstr "Filtruj:"
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Filter Bar"
 msgctxt "@info:tooltip"
-msgid "Toggle Filter Bar"
+msgid "Show Filter Bar"
 msgstr "Pakazvaj panel filtru"
 
 #: dolphinmainwindow.cpp:1484
@@ -1370,34 +1370,34 @@ msgstr ""
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:446 search/dolphinsearchbox.cpp:292
+#: dolphinviewcontainer.cpp:452 search/dolphinsearchbox.cpp:292
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search for %1 in %2"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: dolphinviewcontainer.cpp:482
+#: dolphinviewcontainer.cpp:488
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: dolphinviewcontainer.cpp:484
+#: dolphinviewcontainer.cpp:490
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
 msgid "Search for %1"
 msgstr "Hałoŭnaja panel pryładździa"
 
-#: dolphinviewcontainer.cpp:568
+#: dolphinviewcontainer.cpp:574
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Čytańnie kataloha..."
 
-#: dolphinviewcontainer.cpp:576
+#: dolphinviewcontainer.cpp:582
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1405,19 +1405,19 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "Paradkuj pavodle:"
 
-#: dolphinviewcontainer.cpp:587
+#: dolphinviewcontainer.cpp:593
 #, kde-format
 msgctxt "@info"
 msgid "Searching..."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:608
+#: dolphinviewcontainer.cpp:614
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:719
+#: dolphinviewcontainer.cpp:725
 #, kde-format
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
@@ -1425,7 +1425,7 @@ msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje sieciŭnych staronak, tamu ŭklučyła "
 "hartač."
 
-#: dolphinviewcontainer.cpp:723
+#: dolphinviewcontainer.cpp:729
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Protocol not supported by Dolphin, Konqueror has been launched"
@@ -1436,7 +1436,7 @@ msgstr ""
 "Prahrama „Dolphin” nie absłuhoŭvaje hetaha pratakołu, tamu ŭklučyła "
 "aplikacyju „Konqueror”."
 
-#: dolphinviewcontainer.cpp:730
+#: dolphinviewcontainer.cpp:736
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"
@@ -5184,6 +5184,13 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Dadatkovyja źviestki"
 
+#, fuzzy
+#~| msgctxt "@action:inmenu Tools"
+#~| msgid "Show Filter Bar"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Toggle Filter Bar"
+#~ msgstr "Pakazvaj panel filtru"
+
 #~ msgctxt "@title:window"
 #~ msgid "Dolphin Preferences"
 #~ msgstr "Nałady prahramy „Dolphin”"
@@ -5202,10 +5209,6 @@ msgstr "Dadatkovyja źviestki"
 #~ msgctxt "@title"
 #~ msgid "Dolphin Part"
 #~ msgstr "Układ „Dolphin”"
-
-#~ msgctxt "@action:inmenu Tools"
-#~ msgid "Show Filter Bar"
-#~ msgstr "Pakazvaj panel filtru"
 
 #, fuzzy
 #~| msgctxt "@title:menu"

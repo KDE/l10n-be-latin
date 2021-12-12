@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-11 00:51+0000\n"
+"POT-Creation-Date: 2021-12-12 00:53+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -16,100 +16,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: applets/activitybar/metadata.desktop:2
-msgctxt "Name"
-msgid "Activity Bar"
-msgstr "Panel zaniatkaŭ"
-
-#: applets/activitybar/metadata.desktop:77
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Tabbar to switch activities"
-msgctxt "Comment"
-msgid "Tab bar to switch activities"
-msgstr "Panel kartak dla roznych zaniatkaŭ"
-
-#: applets/analog-clock/metadata.desktop:2
-msgctxt "Name"
-msgid "Analog Clock"
-msgstr "Analahavy hadzińnik"
-
-#: applets/analog-clock/metadata.desktop:88
-msgctxt "Comment"
-msgid "A clock with hands"
-msgstr ""
-
-#: applets/appmenu/package/metadata.desktop:2
-msgctxt "Name"
-msgid "Global Menu"
-msgstr ""
-
-#: applets/appmenu/package/metadata.desktop:53
-msgctxt "Comment"
-msgid "Global menubar in your Plasma Desktop"
-msgstr ""
-
-#: applets/batterymonitor/package/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Display Settings"
-msgctxt "Name"
-msgid "Battery and Brightness"
-msgstr "Nałady ekrana"
-
-#: applets/batterymonitor/package/metadata.desktop:55
-msgctxt "Comment"
-msgid "See the power status of your battery"
-msgstr "Naziraje za kolkaściu enerhii ŭ tvajoj batarei"
-
-#: applets/batterymonitor/package/metadata.desktop:130
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Power Management"
-msgctxt "Keywords"
-msgid "Power Management;Battery;System;Energy;"
-msgstr "Kiravańnie enerhijaj"
-
-#: applets/calendar/package/metadata.desktop:2
-msgctxt "Name"
-msgid "Calendar"
-msgstr "Kalandar"
-
-#: applets/calendar/package/metadata.desktop:81
-msgctxt "Comment"
-msgid "Month display with your appointments and events"
-msgstr ""
-
-#: applets/clipboard/metadata.desktop:2
-#: klipper/plasma-dataengine-clipboard.desktop:2
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Clipboard Tool"
-msgctxt "Name"
-msgid "Clipboard"
-msgstr "Pryłada, jakaja absłuhoŭvaje abmienny bufer"
-
-#: applets/clipboard/metadata.desktop:58
-msgctxt "Comment"
-msgid "Provides access to the clipboard history"
-msgstr ""
-
-#: applets/devicenotifier/package/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Devices"
-msgctxt "Name"
-msgid "Disks & Devices"
-msgstr "Pryłady"
-
-#: applets/devicenotifier/package/metadata.desktop:43
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Notifications and access for new devices"
-msgctxt "Comment"
-msgid "Notifications and access for devices"
-msgstr "Infarmavańnie j dostup da novych pryładaŭ"
-
 #: applets/devicenotifier/test-predicate-openinwindow.desktop:7
 #, fuzzy
 #| msgctxt "Description"
@@ -117,184 +23,6 @@ msgstr "Infarmavańnie j dostup da novych pryładaŭ"
 msgctxt "Name"
 msgid "Open with File Manager"
 msgstr "Adčyni ŭ &zmoŭčanym hartačy"
-
-#: applets/digital-clock/package/metadata.desktop:2
-msgctxt "Name"
-msgid "Digital Clock"
-msgstr "Ličbavy hadzińnik"
-
-#: applets/digital-clock/package/metadata.desktop:90
-msgctxt "Comment"
-msgid "Time displayed in a digital format"
-msgstr ""
-
-#: applets/icon/package/metadata.desktop:2
-msgctxt "Name"
-msgid "Icon"
-msgstr "Ikona"
-
-#: applets/icon/package/metadata.desktop:89
-msgctxt "Comment"
-msgid "A generic icon"
-msgstr "Prostaja ikona"
-
-#: applets/lock_logout/metadata.desktop:2
-msgctxt "Name"
-msgid "Lock/Logout"
-msgstr "Blok na ekran i vychad z systemy"
-
-#: applets/lock_logout/metadata.desktop:85
-msgctxt "Comment"
-msgid "Lock the screen or log out"
-msgstr "Blok na ekran ci vychad z systemy"
-
-#: applets/lock_logout/metadata.desktop:159
-msgctxt "Keywords"
-msgid "Lock;Logout;Sleep;Hibernate;Switch User;"
-msgstr ""
-
-#: applets/manage-inputmethod/metadata.desktop:2
-msgctxt "Name"
-msgid "Input Method"
-msgstr ""
-
-#: applets/manage-inputmethod/metadata.desktop:36
-msgctxt "Comment"
-msgid "Manage your Input Methods"
-msgstr ""
-
-#: applets/mediacontroller/metadata.desktop:2
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Multimedia Player"
-msgctxt "Name"
-msgid "Media Player"
-msgstr "Prajravańnik dla multymedyjaŭ"
-
-#: applets/mediacontroller/metadata.desktop:56
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Multimedia Player"
-msgctxt "Comment"
-msgid "Media Player Controls"
-msgstr "Prajravańnik dla multymedyjaŭ"
-
-#: applets/notifications/package/metadata.desktop:2
-#: kcms/notifications/kcm_notifications.desktop:13
-msgctxt "Name"
-msgid "Notifications"
-msgstr "Infarmavańnie"
-
-#: applets/notifications/package/metadata.desktop:91
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "KDE Notification Daemon"
-msgctxt "Comment"
-msgid "Display notifications and jobs"
-msgstr "Słužba infarmavańnia KDE"
-
-#: applets/panelspacer/package/metadata.desktop:2
-msgctxt "Name"
-msgid "Panel Spacer"
-msgstr ""
-
-#: applets/panelspacer/package/metadata.desktop:71
-msgctxt "Comment"
-msgid "Reserve empty spaces within the panel."
-msgstr ""
-
-#: applets/systemmonitor/coreusage/metadata.desktop:2
-msgctxt "Name"
-msgid "Individual Core Usage"
-msgstr ""
-
-#: applets/systemmonitor/coreusage/metadata.desktop:40
-msgctxt "Comment"
-msgid "System monitor Widget that shows usage of individual CPU cores"
-msgstr ""
-
-#: applets/systemmonitor/cpu/metadata.desktop:2
-msgctxt "Name"
-msgid "Total CPU Use"
-msgstr ""
-
-#: applets/systemmonitor/cpu/metadata.desktop:40
-msgctxt "Comment"
-msgid "System monitor Widget that shows the total CPU usage"
-msgstr ""
-
-#: applets/systemmonitor/diskactivity/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "A hard disk usage monitor"
-msgctxt "Name"
-msgid "Hard Disk Activity"
-msgstr "Nazirańnik zaniataści ćviordaha dysku"
-
-#: applets/systemmonitor/diskactivity/metadata.desktop:43
-msgctxt "Comment"
-msgid "An applet that monitors hard disk throughput and input/output"
-msgstr ""
-
-#: applets/systemmonitor/diskusage/metadata.desktop:2
-msgctxt "Name"
-msgid "Disk Usage"
-msgstr ""
-
-#: applets/systemmonitor/diskusage/metadata.desktop:43
-msgctxt "Comment"
-msgid "System monitor Widget that shows the usage of the root partition"
-msgstr ""
-
-#: applets/systemmonitor/memory/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Samba Status"
-msgctxt "Name"
-msgid "Memory Usage"
-msgstr "Stanovišča słužby „Samba”"
-
-#: applets/systemmonitor/memory/metadata.desktop:44
-msgctxt "Comment"
-msgid "System monitor Widget that shows physical memory usage"
-msgstr ""
-
-#: applets/systemmonitor/net/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Networking"
-msgctxt "Name"
-msgid "Network speed"
-msgstr "Sietka"
-
-#: applets/systemmonitor/net/metadata.desktop:43
-msgctxt "Comment"
-msgid "System monitor Widget that shows the download and upload data rate"
-msgstr ""
-
-#: applets/systemmonitor/systemmonitor/package/metadata.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System Monitor"
-msgctxt "Name"
-msgid "System monitor Sensor"
-msgstr "Systemny nazirańnik"
-
-#: applets/systemmonitor/systemmonitor/package/metadata.desktop:43
-msgctxt "Comment"
-msgid "Displays a configurable chart of a system monitor sensor"
-msgstr ""
-
-#: applets/systemtray/container/package/metadata.desktop:2
-#: applets/systemtray/package/metadata.desktop:2
-msgctxt "Name"
-msgid "System Tray"
-msgstr "Systemny trej"
-
-#: applets/systemtray/container/package/metadata.desktop:91
-msgctxt "Comment"
-msgid "Access hidden applications minimized in the system tray"
-msgstr "Dostup da schavanych u systemnym trei aplikacyjaŭ"
 
 #: appmenu/appmenu.desktop:3
 #, fuzzy
@@ -322,120 +50,6 @@ msgctxt "Name"
 msgid "Plasma Widgets"
 msgstr "Rabočy abšar stała „Plasma”"
 
-#: containmentactions/applauncher/plasma-containmentactions-applauncher.desktop:2
-msgctxt "Name"
-msgid "Application Launcher"
-msgstr "Uklučeńnie aplikacyi"
-
-#: containmentactions/applauncher/plasma-containmentactions-applauncher.desktop:90
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Launcher"
-msgctxt "Comment"
-msgid "Simple application launcher"
-msgstr "Uklučeńnie aplikacyi"
-
-#: containmentactions/contextmenu/plasma-containmentactions-contextmenu.desktop:2
-msgctxt "Name"
-msgid "Standard Menu"
-msgstr ""
-
-#: containmentactions/contextmenu/plasma-containmentactions-contextmenu.desktop:74
-msgctxt "Comment"
-msgid "The menu that normally shows on right-click"
-msgstr ""
-
-#: containmentactions/paste/plasma-containmentactions-paste.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Pose"
-msgctxt "Name"
-msgid "Paste"
-msgstr "Pose"
-
-#: containmentactions/paste/plasma-containmentactions-paste.desktop:76
-msgctxt "Comment"
-msgid "Creates a widget from the contents of the clipboard"
-msgstr ""
-
-#: containmentactions/switchactivity/plasma-containmentactions-switchactivity.desktop:2
-msgctxt "Name"
-msgid "Switch Activity"
-msgstr ""
-
-#: containmentactions/switchactivity/plasma-containmentactions-switchactivity.desktop:73
-msgctxt "Comment"
-msgid "Switch to another activity"
-msgstr ""
-
-#: containmentactions/switchdesktop/plasma-containmentactions-switchdesktop.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop"
-msgctxt "Name"
-msgid "Switch Desktop"
-msgstr "Rabočy stoł"
-
-#: containmentactions/switchdesktop/plasma-containmentactions-switchdesktop.desktop:75
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Switch between virtual desktops"
-msgctxt "Comment"
-msgid "Switch to another virtual desktop"
-msgstr "Pieraklučeńnie virtualnych stałoŭ"
-
-#: containmentactions/switchwindow/plasma-containmentactions-switchwindow.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "New Window"
-msgctxt "Name"
-msgid "Switch Window"
-msgstr "Novaje akno"
-
-#: containmentactions/switchwindow/plasma-containmentactions-switchwindow.desktop:73
-msgctxt "Comment"
-msgid "Show a list of windows to switch to"
-msgstr ""
-
-#: dataengines/activities/plasma-dataengine-activities.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Activity Bar"
-msgctxt "Name"
-msgid "Activities Engine"
-msgstr "Panel zaniatkaŭ"
-
-#: dataengines/activities/plasma-dataengine-activities.desktop:67
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Info about files and directories for Plasmoids"
-msgctxt "Comment"
-msgid "Information on Plasma Activities"
-msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
-
-#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:2
-msgctxt "Name"
-msgid "Application Job Information"
-msgstr "Źviestki pra zadańnie aplikacyi"
-
-#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.desktop:73
-msgctxt "Comment"
-msgid "Application job updates (via kuiserver)"
-msgstr ""
-
-#: dataengines/apps/plasma-dataengine-apps.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Job Information"
-msgctxt "Name"
-msgid "Application Information"
-msgstr "Źviestki pra zadańnie aplikacyi"
-
-#: dataengines/apps/plasma-dataengine-apps.desktop:73
-msgctxt "Comment"
-msgid "Information and launching of all applications in the app menu."
-msgstr ""
-
 #: dataengines/devicenotifications/devicenotifications.notifyrc:2
 msgctxt "Name"
 msgid "Device Notifier"
@@ -449,267 +63,6 @@ msgctxt "Name"
 msgid "Device Status"
 msgstr "Infarmavańnie"
 
-#: dataengines/devicenotifications/plasma-dataengine-devicenotifications.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Notifications"
-msgctxt "Name"
-msgid "Device Notifications"
-msgstr "Infarmavańnie"
-
-#: dataengines/devicenotifications/plasma-dataengine-devicenotifications.desktop:69
-msgctxt "Comment"
-msgid "Passive device notifications for the user."
-msgstr ""
-
-#: dataengines/dict/plasma-dataengine-dict.desktop:2
-msgctxt "Name"
-msgid "Dictionary"
-msgstr "Słoŭnik"
-
-#: dataengines/dict/plasma-dataengine-dict.desktop:83
-msgctxt "Comment"
-msgid "Look up word meanings"
-msgstr "Pošuk značeńniaŭ słovaŭ"
-
-#: dataengines/executable/plasma-dataengine-executable.desktop:2
-msgctxt "Name"
-msgid "Run Commands"
-msgstr "Vykonvaj zahady"
-
-#: dataengines/executable/plasma-dataengine-executable.desktop:79
-msgctxt "Comment"
-msgid "Run Executable Data Engine"
-msgstr "Uklučaj systemu dostupu da źviestak"
-
-#: dataengines/favicons/plasma-dataengine-favicons.desktop:2
-msgctxt "Name"
-msgid "Favicons"
-msgstr "Ikony sajtaŭ"
-
-#: dataengines/favicons/plasma-dataengine-favicons.desktop:78
-msgctxt "Comment"
-msgid "Data Engine for getting favicons of web sites"
-msgstr "Systema źviestak dla atrymańnia ikon sajtaŭ"
-
-#: dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:2
-msgctxt "Name"
-msgid "Files and Directories"
-msgstr "Fajły j katalohi"
-
-#: dataengines/filebrowser/plasma-dataengine-filebrowser.desktop:80
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Info about files and directories for Plasmoids"
-msgctxt "Comment"
-msgid "Information about files and directories."
-msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
-
-#: dataengines/geolocation/plasma-dataengine-geolocation.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Name"
-msgid "Geolocation"
-msgstr "Miescy"
-
-#: dataengines/geolocation/plasma-dataengine-geolocation.desktop:72
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Python data engine"
-msgctxt "Comment"
-msgid "Geolocation Data Engine"
-msgstr "Systema źviestak u movie „Python”"
-
-#: dataengines/geolocation/plasma-geolocation-gps.desktop:2
-msgctxt "Name"
-msgid "Geolocation GPS"
-msgstr ""
-
-#: dataengines/geolocation/plasma-geolocation-gps.desktop:73
-msgctxt "Comment"
-msgid "Geolocation from GPS address."
-msgstr ""
-
-#: dataengines/geolocation/plasma-geolocation-ip.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Name"
-msgid "Geolocation IP"
-msgstr "Miescy"
-
-#: dataengines/geolocation/plasma-geolocation-ip.desktop:73
-msgctxt "Comment"
-msgid "Geolocation from IP address."
-msgstr ""
-
-#: dataengines/geolocation/plasma-geolocationprovider.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Comment"
-msgid "Plasma Geolocation Provider"
-msgstr "Miescy"
-
-#: dataengines/hotplug/plasma-dataengine-hotplug.desktop:2
-msgctxt "Name"
-msgid "Hotplug Events"
-msgstr "Źjaŭleńnie novych pryładaŭ"
-
-#: dataengines/hotplug/plasma-dataengine-hotplug.desktop:73
-msgctxt "Comment"
-msgid "Tracks hot-pluggable devices as they appear and disappear."
-msgstr ""
-
-#: dataengines/keystate/plasma-dataengine-keystate.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Keyboard & Mouse"
-msgctxt "Name"
-msgid "Keyboard and Mouse State"
-msgstr "Klavijatura j myš"
-
-#: dataengines/keystate/plasma-dataengine-keystate.desktop:75
-msgctxt "Comment"
-msgid "Keyboard modifier and mouse buttons states"
-msgstr ""
-
-#: dataengines/mouse/plasma-dataengine-mouse.desktop:2
-msgctxt "Name"
-msgid "Pointer Position"
-msgstr "Miesca kursora"
-
-#: dataengines/mouse/plasma-dataengine-mouse.desktop:76
-msgctxt "Comment"
-msgid "Mouse position and cursor"
-msgstr ""
-
-#: dataengines/mpris2/plasma-dataengine-mpris2.desktop:2
-msgctxt "Name"
-msgid "MPRIS2"
-msgstr ""
-
-#: dataengines/mpris2/plasma-dataengine-mpris2.desktop:59
-msgctxt "Comment"
-msgid "Provides information from and control over media players via MPRIS2"
-msgstr ""
-
-#: dataengines/notifications/plasma-dataengine-notifications.desktop:2
-msgctxt "Name"
-msgid "Application Notifications"
-msgstr "Infarmavańni aplikacyj"
-
-#: dataengines/notifications/plasma-dataengine-notifications.desktop:79
-msgctxt "Comment"
-msgid "Passive visual notifications for the user."
-msgstr ""
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.desktop:2
-msgctxt "Name"
-msgid "PackageKit"
-msgstr ""
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.desktop:56
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "JavaScript Runner"
-msgctxt "Comment"
-msgid "PackageKit Data Engine"
-msgstr "Uklučeńnie „JavaScript”"
-
-#: dataengines/places/plasma-dataengine-places.desktop:2
-#: runners/places/plasma-runner-places.desktop:2
-msgctxt "Name"
-msgid "Places"
-msgstr "Miescy"
-
-#: dataengines/places/plasma-dataengine-places.desktop:81
-msgctxt "Comment"
-msgid "Places, as seen in the file manager and in file dialogs."
-msgstr ""
-
-#: dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Power Management"
-msgctxt "Name|plasma data engine"
-msgid "Power Management"
-msgstr "Kiravańnie enerhijaj"
-
-#: dataengines/powermanagement/plasma-dataengine-powermanagement.desktop:76
-msgctxt "Comment"
-msgid "Battery, AC, sleep and PowerDevil information."
-msgstr ""
-
-#: dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:2
-msgctxt "Name"
-msgid "Device Information"
-msgstr "Źviestki z pryłady"
-
-#: dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:80
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "SolidDevice data for Plasmoids"
-msgctxt "Comment"
-msgid "Device data via Solid"
-msgstr "Źviestki „SolidDevice” dla widžetaŭ „Plasma”"
-
-#: dataengines/statusnotifieritem/plasma-dataengine-statusnotifieritem.desktop:2
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "System Process Information"
-msgctxt "Name"
-msgid "Status Notifier Information"
-msgstr "Źviestki pra systemnyja pracesy"
-
-#: dataengines/statusnotifieritem/plasma-dataengine-statusnotifieritem.desktop:65
-msgctxt "Comment"
-msgid ""
-"Engine for applications' status information, based on the Status Notifier "
-"protocol."
-msgstr ""
-
-#: dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:2
-#: systemmonitor/org.kde.systemmonitor.desktop:5
-msgctxt "Name"
-msgid "System Monitor"
-msgstr "Systemny nazirańnik"
-
-#: dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:87
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "System Process Information"
-msgctxt "Comment"
-msgid "System status information"
-msgstr "Źviestki pra systemnyja pracesy"
-
-#: dataengines/time/plasma-dataengine-time.desktop:2
-msgctxt "Name"
-msgid "Date and Time"
-msgstr "Data j čas"
-
-#: dataengines/time/plasma-dataengine-time.desktop:83
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Date and time settings"
-msgctxt "Comment"
-msgid "Date and time by timezone"
-msgstr "Nałady daty j času"
-
-#: dataengines/weather/ions/bbcukmet/ion-bbcukmet.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Weather"
-msgctxt "Name"
-msgid "BBC Weather"
-msgstr "Nadvorje"
-
-#: dataengines/weather/ions/bbcukmet/ion-bbcukmet.desktop:45
-msgctxt "Comment"
-msgid "XML Data from the British Broadcasting Corporation"
-msgstr ""
-
 #: dataengines/weather/ions/dwd/ion-dwd.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -718,66 +71,13 @@ msgctxt "Name"
 msgid "German Weather Service"
 msgstr "Nacyjanalnaja słužba nadvorja „NOAA”"
 
-#: dataengines/weather/ions/dwd/ion-dwd.desktop:16
+#: dataengines/weather/ions/dwd/ion-dwd.desktop:17
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "NOAA's National Weather Service"
 msgctxt "Comment"
 msgid "Weather forecast by German Weather Service"
 msgstr "Nacyjanalnaja słužba nadvorja „NOAA”"
-
-#: dataengines/weather/ions/envcan/ion-envcan.desktop:2
-msgctxt "Name"
-msgid "Environment Canada"
-msgstr "Environment Canada"
-
-#: dataengines/weather/ions/envcan/ion-envcan.desktop:75
-msgctxt "Comment"
-msgid "XML Data from Environment Canada"
-msgstr "Źviestki ŭ farmacie „XML” ad „Environment Canada”"
-
-#: dataengines/weather/ions/noaa/ion-noaa.desktop:2
-msgctxt "Name"
-msgid "NOAA's National Weather Service"
-msgstr "Nacyjanalnaja słužba nadvorja „NOAA”"
-
-#: dataengines/weather/ions/noaa/ion-noaa.desktop:75
-msgctxt "Comment"
-msgid "XML Data from NOAA's National Weather Service"
-msgstr "Źviestki ŭ farmacie „XML” ad Nacyjanalnaj słužby nadvorja „NOAA”"
-
-#: dataengines/weather/ions/wetter.com/ion-wettercom.desktop:2
-msgctxt "Name"
-msgid "wetter.com"
-msgstr ""
-
-#: dataengines/weather/ions/wetter.com/ion-wettercom.desktop:73
-msgctxt "Comment"
-msgid "Weather forecast by wetter.com"
-msgstr ""
-
-#: dataengines/weather/plasma-dataengine-weather.desktop:2
-msgctxt "Name"
-msgid "Weather"
-msgstr "Nadvorje"
-
-#: dataengines/weather/plasma-dataengine-weather.desktop:80
-msgctxt "Comment"
-msgid "Weather data from multiple online sources"
-msgstr ""
-
-#: freespacenotifier/freespacenotifier.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Device Notifier"
-msgctxt "Name"
-msgid "Free Space Notifier"
-msgstr "Infarmavańnie pra novyja pryłady"
-
-#: freespacenotifier/freespacenotifier.desktop:73
-msgctxt "Comment"
-msgid "Warns when running out of space on your home folder"
-msgstr ""
 
 #: freespacenotifier/freespacenotifier.notifyrc:3
 #, fuzzy
@@ -830,13 +130,6 @@ msgctxt "Comment"
 msgid "Automatically Started Applications"
 msgstr "Terminalnyja aplikacyi"
 
-#: kcms/autostart/kcm_autostart.desktop:84
-msgctxt "X-KDE-Keywords"
-msgid ""
-"Autostart Manager,system startup,plasma start,cron,auto,start,start up,boot,"
-"load,session,startup,launch,login"
-msgstr ""
-
 #: kcms/colors/colorschemes.knsrc:2
 msgctxt "Name"
 msgid "Color Schemes"
@@ -870,34 +163,18 @@ msgctxt "Comment"
 msgid "Choose color scheme"
 msgstr ""
 
-#: kcms/colors/kcm_colors.desktop:101
-msgctxt "X-KDE-Keywords"
-msgid ""
-"color,colour,scheme,contrast,Widget colors,Color Scheme,color style,color "
-"theme,tint,accent color,color scheme,dark mode,light mode,accent colour,"
-"accent,highlight,colour"
-msgstr ""
-
-#: kcms/cursortheme/kcm_cursortheme.desktop:12
+#: kcms/cursortheme/kcm_cursortheme.desktop:7
 #: kcms/cursortheme/xcursor/xcursor.knsrc:2
 msgctxt "Name"
 msgid "Cursors"
 msgstr ""
 
-#: kcms/cursortheme/kcm_cursortheme.desktop:55
+#: kcms/cursortheme/kcm_cursortheme.desktop:50
 msgctxt "Comment"
 msgid "Choose mouse cursor theme"
 msgstr ""
 
-#: kcms/cursortheme/kcm_cursortheme.desktop:95
-msgctxt "X-KDE-Keywords"
-msgid ""
-"Mouse,Cursor,Theme,Cursor Appearance,Cursor Color,Cursor Theme,Mouse Theme,"
-"Mouse Appearance,Mouse Skin,Pointer Colors,Pointer Appearance,cursor skin,"
-"cursor style,cursor size,mouse style,pointer,"
-msgstr ""
-
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:12
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:7
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Plasma Desktop Workspace"
@@ -905,16 +182,9 @@ msgctxt "Name"
 msgid "Plasma Style"
 msgstr "Rabočy abšar stała „Plasma”"
 
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:53
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:48
 msgctxt "Comment"
 msgid "Choose Plasma style"
-msgstr ""
-
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:92
-msgctxt "X-KDE-Keywords"
-msgid ""
-"Desktop Theme,Plasma Theme,plasma style,desktop style,plasma skin,desktop "
-"skin,theme"
 msgstr ""
 
 #: kcms/desktoptheme/plasma-themes.knsrc:2
@@ -925,41 +195,25 @@ msgctxt "Name"
 msgid "Plasma Styles"
 msgstr "Rabočy abšar stała „Plasma”"
 
-#: kcms/feedback/kcm_feedback.desktop:12
+#: kcms/feedback/kcm_feedback.desktop:7
 msgctxt "Name"
 msgid "User Feedback"
 msgstr ""
 
-#: kcms/feedback/kcm_feedback.desktop:55
+#: kcms/feedback/kcm_feedback.desktop:50
 msgctxt "Comment"
 msgid "Configure user feedback settings"
 msgstr ""
 
-#: kcms/feedback/kcm_feedback.desktop:96
-msgctxt "X-KDE-Keywords"
-msgid ""
-"feedback,report,contact,data collection,statistics,usage,log,logging,"
-"telemetry"
-msgstr ""
-
-#: kcms/fonts/kcm_fonts.desktop:16 kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
+#: kcms/fonts/kcm_fonts.desktop:7 kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
 #: kcms/kfontinst/kio/fonts.desktop:5
 msgctxt "Name"
 msgid "Fonts"
 msgstr ""
 
-#: kcms/fonts/kcm_fonts.desktop:58
+#: kcms/fonts/kcm_fonts.desktop:49
 msgctxt "Comment"
 msgid "Configure user interface fonts"
-msgstr ""
-
-#: kcms/fonts/kcm_fonts.desktop:98
-msgctxt "X-KDE-Keywords"
-msgid ""
-"fonts,font size,styles,charsets,character sets,panel,control panel,desktops,"
-"FileManager,Toolbars,Menu,Window Title,Title,DPI,anti-aliasing,desktop fonts,"
-"toolbar fonts,character,general fonts,typography,type,letters,character,"
-"hinting,sub-pixel,text,big text,change font,size"
 msgstr ""
 
 #: kcms/formats/kcm_formats.desktop:2
@@ -972,17 +226,7 @@ msgctxt "Comment"
 msgid "Numeric, Currency and Time Formats"
 msgstr ""
 
-#: kcms/formats/kcm_formats.desktop:78
-msgctxt "X-KDE-Keywords"
-msgid ""
-"language,translation,number format,locale,Country,charsets,character sets,"
-"Decimal symbol,Thousands separator,symbol,separator,sign,positive,negative,"
-"currency,money,fractional digits,calendar,time,date,formats,week,week start,"
-"first,paper,size,letter,A4,measure,metric,English,Imperial,region,"
-"measurement units,collation,sorting,date format"
-msgstr ""
-
-#: kcms/icons/icons.knsrc:2 kcms/icons/kcm_icons.desktop:13
+#: kcms/icons/icons.knsrc:2 kcms/icons/kcm_icons.desktop:7
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Icon"
@@ -990,16 +234,9 @@ msgctxt "Name"
 msgid "Icons"
 msgstr "Ikona"
 
-#: kcms/icons/kcm_icons.desktop:56
+#: kcms/icons/kcm_icons.desktop:50
 msgctxt "Comment"
 msgid "Choose icon theme"
-msgstr ""
-
-#: kcms/icons/kcm_icons.desktop:96
-msgctxt "X-KDE-Keywords"
-msgid ""
-"icons,effects,size,hicolor,locolor,change icons,buttons,button theme,icon "
-"theme,theme,iconography"
 msgstr ""
 
 #: kcms/kfontinst/apps/installfont.desktop:7
@@ -1032,7 +269,7 @@ msgctxt "Description"
 msgid "Modifying the system-wide font configuration requires privileges."
 msgstr ""
 
-#: kcms/kfontinst/kcmfontinst/fontinst.desktop:13
+#: kcms/kfontinst/kcmfontinst/kcm_fontinst.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Session Manager"
@@ -1040,14 +277,9 @@ msgctxt "Name"
 msgid "Font Management"
 msgstr "Kiraŭnik sesijaŭ"
 
-#: kcms/kfontinst/kcmfontinst/fontinst.desktop:55
+#: kcms/kfontinst/kcmfontinst/kcm_fontinst.desktop:51
 msgctxt "Comment"
 msgid "Install, manage and preview fonts"
-msgstr ""
-
-#: kcms/kfontinst/kcmfontinst/fontinst.desktop:95
-msgctxt "X-KDE-Keywords"
-msgid "font,fonts,installer,truetype,type1,bitmap"
 msgstr ""
 
 #: kcms/kfontinst/thumbnail/fontthumbnail.desktop:3
@@ -1063,21 +295,14 @@ msgctxt "Name"
 msgid "Font Viewer"
 msgstr ""
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:13
+#: kcms/lookandfeel/kcm_lookandfeel.desktop:8
 msgctxt "Name"
 msgid "Global Theme"
 msgstr ""
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:55
+#: kcms/lookandfeel/kcm_lookandfeel.desktop:50
 msgctxt "Comment"
 msgid "Choose global look and feel"
-msgstr ""
-
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:94
-msgctxt "X-KDE-Keywords"
-msgid ""
-"theme,look,feel,global theme,desktop,appearance,skin, global,presentation,"
-"themes,design,UI"
 msgstr ""
 
 #: kcms/lookandfeel/lookandfeel.knsrc:2
@@ -1085,7 +310,7 @@ msgctxt "Name"
 msgid "Global Themes"
 msgstr ""
 
-#: kcms/nightcolor/kcm_nightcolor.desktop:15
+#: kcms/nightcolor/kcm_nightcolor.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Color"
@@ -1093,20 +318,17 @@ msgctxt "Name"
 msgid "Night Color"
 msgstr "Koler"
 
-#: kcms/nightcolor/kcm_nightcolor.desktop:52
+#: kcms/nightcolor/kcm_nightcolor.desktop:45
 msgctxt "Comment"
 msgid "Adjust color temperature at night to reduce eye strain"
 msgstr ""
 
-#: kcms/nightcolor/kcm_nightcolor.desktop:90
-msgctxt "X-KDE-Keywords"
-msgid ""
-"kwin,window,manager,night,colors,redshift,eyes,night mode,colour,dark mode,"
-"dark,dim,sleep,eye strain,red,shift,orange,yellow,warm,screen tint,"
-"temperature"
-msgstr ""
+#: kcms/notifications/kcm_notifications.desktop:7
+msgctxt "Name"
+msgid "Notifications"
+msgstr "Infarmavańnie"
 
-#: kcms/notifications/kcm_notifications.desktop:102
+#: kcms/notifications/kcm_notifications.desktop:96
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "KDE Notification Daemon"
@@ -1122,7 +344,7 @@ msgctxt "Name"
 msgid "GNOME/GTK Application Styles"
 msgstr "Aplikacyi"
 
-#: kcms/style/kcm_style.desktop:15
+#: kcms/style/kcm_style.desktop:7
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Applications"
@@ -1130,20 +352,12 @@ msgctxt "Name"
 msgid "Application Style"
 msgstr "Aplikacyi"
 
-#: kcms/style/kcm_style.desktop:54
+#: kcms/style/kcm_style.desktop:46
 msgctxt "Comment"
 msgid "Configure application style and behavior"
 msgstr ""
 
-#: kcms/style/kcm_style.desktop:93
-msgctxt "X-KDE-Keywords"
-msgid ""
-"style,styles,look,widget,icons,toolbars,text,highlight,apps,KDE applications,"
-"theme,plasma,menu,global menu,GTK,GNOME,application style,app,programs,"
-"appearance,skin,themes,light mode,dark mode"
-msgstr ""
-
-#: kcms/translations/kcm_translations.desktop:14
+#: kcms/translations/kcm_translations.desktop:7
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Languages"
@@ -1151,34 +365,19 @@ msgctxt "Name"
 msgid "Language"
 msgstr "Movy"
 
-#: kcms/translations/kcm_translations.desktop:60
+#: kcms/translations/kcm_translations.desktop:53
 msgctxt "Comment"
 msgid "Change workspace and application languages"
 msgstr ""
 
-#: kcms/translations/kcm_translations.desktop:103
-msgctxt "X-KDE-Keywords"
-msgid ""
-"language,writing,text,idioms,dialect,words,region,regional,country,"
-"internationalization,locale"
-msgstr ""
-
-#: kcms/users/kcm_users.desktop:9
+#: kcms/users/kcm_users.desktop:6
 msgctxt "Name"
 msgid "Users"
 msgstr ""
 
-#: kcms/users/kcm_users.desktop:34
+#: kcms/users/kcm_users.desktop:31
 msgctxt "Comment"
 msgid "Manage user accounts"
-msgstr ""
-
-#: kcms/users/kcm_users.desktop:59
-msgctxt "X-KDE-Keywords"
-msgid ""
-"users,accounts,profile picture,profile photo,avatar,name,password,passwords,"
-"email,e-mail,administrator,root user,standard user,profile,delete user,"
-"delete account,pfp,fingerprint,biometric"
 msgstr ""
 
 #: kioslave/desktop/desktopnotifier.desktop:3
@@ -1308,14 +507,6 @@ msgctxt "Description"
 msgid "ftp URL"
 msgstr "Adras słužby „FTP”"
 
-#: klipper/plasma-dataengine-clipboard.desktop:58
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Clipboard Tool"
-msgctxt "Comment"
-msgid "Clipboard Tool."
-msgstr "Pryłada, jakaja absłuhoŭvaje abmienny bufer"
-
 #: krunner/org.kde.krunner.desktop.cmake:3
 msgctxt "Name"
 msgid "KRunner"
@@ -1324,19 +515,6 @@ msgstr ""
 #: krunner/org.kde.krunner.desktop.cmake:68
 msgctxt "Name"
 msgid "Run command on clipboard contents"
-msgstr ""
-
-#: ktimezoned/ktimezoned.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KDE Time Zone Daemon"
-msgctxt "Name"
-msgid "Time Zone"
-msgstr "Słužba časavych pajasoŭ KDE"
-
-#: ktimezoned/ktimezoned.desktop:81
-msgctxt "Comment"
-msgid "Provides the system's time zone to applications"
 msgstr ""
 
 #: libcolorcorrect/kded/colorcorrectlocationupdater.desktop:3
@@ -1381,52 +559,6 @@ msgstr "Rabočy abšar stała „Plasma”"
 #: login-sessions/plasmax11-dev.desktop.cmake:5
 msgctxt "Name"
 msgid "Plasma (Development, X11 ${CMAKE_INSTALL_FULL_BINDIR})"
-msgstr ""
-
-#: lookandfeel.dark/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Sessions"
-msgctxt "Comment"
-msgid "Breeze Dark by the KDE VDG"
-msgstr "Sesii rabočaha stała"
-
-#: lookandfeel.dark/metadata.desktop:32
-msgctxt "Name"
-msgid "Breeze Dark"
-msgstr ""
-
-#: lookandfeel/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Sessions"
-msgctxt "Comment"
-msgid "Breeze by the KDE VDG"
-msgstr "Sesii rabočaha stała"
-
-#: lookandfeel/metadata.desktop:44
-msgctxt "Keywords"
-msgid ""
-"Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;"
-"Hibernate;"
-msgstr ""
-
-#: lookandfeel/metadata.desktop:92 sddm-theme/metadata.desktop:2
-msgctxt "Name"
-msgid "Breeze"
-msgstr ""
-
-#: lookandfeel.twilight/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Sessions"
-msgctxt "Comment"
-msgid "Breeze Twilight by the KDE VDG"
-msgstr "Sesii rabočaha stała"
-
-#: lookandfeel.twilight/metadata.desktop:33
-msgctxt "Name"
-msgid "Breeze Twilight"
 msgstr ""
 
 #: menu/desktop/hidden.directory:3
@@ -1743,16 +875,6 @@ msgctxt "Comment"
 msgid "Run Plasmoids as simple applications"
 msgstr ""
 
-#: runners/appstream/plasma-runner-appstream.desktop:2
-msgctxt "Name"
-msgid "Software Center"
-msgstr ""
-
-#: runners/appstream/plasma-runner-appstream.desktop:51
-msgctxt "Comment"
-msgid "Lets you find software"
-msgstr ""
-
 #: runners/baloo/plasma-runner-baloosearch.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -1766,132 +888,9 @@ msgctxt "Comment"
 msgid "Searches through files, emails and contacts"
 msgstr ""
 
-#: runners/bookmarks/plasma-runner-bookmarks.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Bookmarks"
-msgctxt "Name|plasma runner"
-msgid "Bookmarks"
-msgstr "Zakładki"
-
-#: runners/bookmarks/plasma-runner-bookmarks.desktop:76
-msgctxt "Comment"
-msgid "Find and open bookmarks"
-msgstr "Pošuk i adčynieńnie zakładak."
-
-#: runners/calculator/plasma-runner-calculator.desktop:2
+#: sddm-theme/metadata.desktop:2
 msgctxt "Name"
-msgid "Calculator"
-msgstr "Kalkulatar"
-
-#: runners/calculator/plasma-runner-calculator.desktop:85
-msgctxt "Comment"
-msgid "Calculate expressions"
-msgstr "Padlik vyrazaŭ."
-
-#: runners/kill/plasma-runner-kill.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Terminal Applications"
-msgctxt "Name"
-msgid "Terminate Applications"
-msgstr "Terminalnyja aplikacyi"
-
-#: runners/kill/plasma-runner-kill.desktop:74
-msgctxt "Comment"
-msgid "Stop applications that are currently running"
-msgstr ""
-
-#: runners/locations/plasma-runner-locations.desktop:2
-msgctxt "Name"
-msgid "Locations"
-msgstr "Miescy"
-
-#: runners/locations/plasma-runner-locations.desktop:81
-msgctxt "Comment"
-msgid "File and URL opener"
-msgstr "Adčynieńnie fajłaŭ i adrasoŭ"
-
-#: runners/places/plasma-runner-places.desktop:84
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Open Devices and Folder Bookmarks"
-msgctxt "Comment"
-msgid "Open devices and folder bookmarks"
-msgstr "Adčyni pryłady j zakładki dla katalohaŭ"
-
-#: runners/powerdevil/plasma-runner-powerdevil.desktop:2
-msgctxt "Comment"
-msgid "Basic Power Management Operations"
-msgstr "Prostyja aperacyi dla kiravańnia enerhijaj"
-
-#: runners/powerdevil/plasma-runner-powerdevil.desktop:76
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "PowerDevil"
-msgctxt "Name"
-msgid "Power"
-msgstr "PowerDevil"
-
-#: runners/recentdocuments/plasma-runner-recentdocuments.desktop:2
-#, fuzzy
-#| msgctxt "Description"
-#| msgid "Text File"
-msgctxt "Name"
-msgid "Recent Files"
-msgstr "Tekstavy fajł"
-
-#: runners/services/plasma-runner-services.desktop:2
-msgctxt "Name"
-msgid "Applications"
-msgstr "Aplikacyi"
-
-#: runners/services/plasma-runner-services.desktop:95
-msgctxt "Comment"
-msgid "Find applications, control panels and services"
-msgstr "Pošuk aplikacyjaŭ, panelaŭ kiravańnia j słužbaŭ"
-
-#: runners/sessions/plasma-runner-sessions.desktop:2
-msgctxt "Name"
-msgid "Desktop Sessions"
-msgstr "Sesii rabočaha stała"
-
-#: runners/sessions/plasma-runner-sessions.desktop:80
-msgctxt "Comment"
-msgid "Fast user switching"
-msgstr "Chutkaje pieraklučeńnie karystańnikaŭ"
-
-#: runners/shell/plasma-runner-shell.desktop:2
-msgctxt "Name"
-msgid "Command Line"
-msgstr "Zahadny radok"
-
-#: runners/shell/plasma-runner-shell.desktop:82
-msgctxt "Comment"
-msgid "Executes shell commands"
-msgstr "Vykanańnie zahadaŭ abałonki."
-
-#: runners/webshortcuts/plasma-runner-webshortcuts.desktop:3
-msgctxt "Name|plasma runner"
-msgid "Web Search Keywords"
-msgstr ""
-
-#: runners/webshortcuts/plasma-runner-webshortcuts.desktop:41
-msgctxt "Comment"
-msgid "Search the web using keywords"
-msgstr ""
-
-#: runners/windowedwidgets/plasma-runner-windowedwidgets.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Windows"
-msgctxt "Name"
-msgid "Windowed widgets"
-msgstr "Vokny"
-
-#: runners/windowedwidgets/plasma-runner-windowedwidgets.desktop:70
-msgctxt "Comment"
-msgid "Find Plasma widgets that can be run as standalone windows"
+msgid "Breeze"
 msgstr ""
 
 #: sddm-theme/metadata.desktop:54
@@ -1906,44 +905,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Plasma Desktop Workspace"
 msgstr "Rabočy abšar stała „Plasma”"
-
-#: shell/packageplugins/layouttemplate/plasma-packagestructure-layouttemplate.desktop:2
-msgctxt "Name"
-msgid "Layout Template"
-msgstr ""
-
-#: shell/packageplugins/lookandfeel/plasma-packagestructure-lookandfeel.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Look & Feel"
-msgctxt "Name"
-msgid "Look and Feel"
-msgstr "Vonkavaść"
-
-#: shell/packageplugins/qmlWallpaper/plasma-packagestructure-wallpaper.desktop:2
-msgctxt "Name"
-msgid "Wallpaper"
-msgstr ""
-
-#: shell/packageplugins/shell/plasma-packagestructure-plasma-shell.desktop:2
-msgctxt "Name"
-msgid "Plasma Shell"
-msgstr ""
-
-#: shell/packageplugins/wallpaperimages/plasma-packagestructure-wallpaperimages.desktop:2
-msgctxt "Name"
-msgid "Wallpaper Images"
-msgstr ""
-
-#: solidautoeject/solidautoeject.desktop:6
-msgctxt "Name"
-msgid "Drive Ejector"
-msgstr ""
-
-#: solidautoeject/solidautoeject.desktop:73
-msgctxt "Comment"
-msgid "Automatically releases drives when their eject button is pushed"
-msgstr ""
 
 #: soliduiserver/soliduiserver.desktop:7
 #, fuzzy
@@ -1980,6 +941,11 @@ msgstr ""
 msgctxt "Comment"
 msgid "Launches KSysguard on Ctrl + Escape"
 msgstr ""
+
+#: systemmonitor/org.kde.systemmonitor.desktop:5
+msgctxt "Name"
+msgid "System Monitor"
+msgstr "Systemny nazirańnik"
 
 #: themes/qtcde.themerc:2
 msgctxt "Name"
@@ -2063,19 +1029,6 @@ msgctxt "Comment"
 msgid "Plain color wallpaper"
 msgstr "Koler"
 
-#: wallpapers/color/plasma-wallpaper-color.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Colors"
-msgctxt "Name"
-msgid "Color"
-msgstr "Kolery"
-
-#: wallpapers/color/plasma-wallpaper-color.desktop:60
-msgctxt "Comment"
-msgid "A plain color or gradient"
-msgstr ""
-
 #: wallpapers/image/imagepackage/metadata.desktop:4
 msgctxt "Name"
 msgid "Image"
@@ -2108,6 +1061,521 @@ msgstr ""
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Activity Bar"
+#~ msgstr "Panel zaniatkaŭ"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Tabbar to switch activities"
+#~ msgctxt "Comment"
+#~ msgid "Tab bar to switch activities"
+#~ msgstr "Panel kartak dla roznych zaniatkaŭ"
+
+#~ msgctxt "Name"
+#~ msgid "Analog Clock"
+#~ msgstr "Analahavy hadzińnik"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Display Settings"
+#~ msgctxt "Name"
+#~ msgid "Battery and Brightness"
+#~ msgstr "Nałady ekrana"
+
+#~ msgctxt "Comment"
+#~ msgid "See the power status of your battery"
+#~ msgstr "Naziraje za kolkaściu enerhii ŭ tvajoj batarei"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Power Management"
+#~ msgctxt "Keywords"
+#~ msgid "Power Management;Battery;System;Energy;"
+#~ msgstr "Kiravańnie enerhijaj"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar"
+#~ msgstr "Kalandar"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Clipboard Tool"
+#~ msgctxt "Name"
+#~ msgid "Clipboard"
+#~ msgstr "Pryłada, jakaja absłuhoŭvaje abmienny bufer"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Devices"
+#~ msgctxt "Name"
+#~ msgid "Disks & Devices"
+#~ msgstr "Pryłady"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Notifications and access for new devices"
+#~ msgctxt "Comment"
+#~ msgid "Notifications and access for devices"
+#~ msgstr "Infarmavańnie j dostup da novych pryładaŭ"
+
+#~ msgctxt "Name"
+#~ msgid "Digital Clock"
+#~ msgstr "Ličbavy hadzińnik"
+
+#~ msgctxt "Name"
+#~ msgid "Icon"
+#~ msgstr "Ikona"
+
+#~ msgctxt "Comment"
+#~ msgid "A generic icon"
+#~ msgstr "Prostaja ikona"
+
+#~ msgctxt "Name"
+#~ msgid "Lock/Logout"
+#~ msgstr "Blok na ekran i vychad z systemy"
+
+#~ msgctxt "Comment"
+#~ msgid "Lock the screen or log out"
+#~ msgstr "Blok na ekran ci vychad z systemy"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Multimedia Player"
+#~ msgctxt "Name"
+#~ msgid "Media Player"
+#~ msgstr "Prajravańnik dla multymedyjaŭ"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Multimedia Player"
+#~ msgctxt "Comment"
+#~ msgid "Media Player Controls"
+#~ msgstr "Prajravańnik dla multymedyjaŭ"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KDE Notification Daemon"
+#~ msgctxt "Comment"
+#~ msgid "Display notifications and jobs"
+#~ msgstr "Słužba infarmavańnia KDE"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "A hard disk usage monitor"
+#~ msgctxt "Name"
+#~ msgid "Hard Disk Activity"
+#~ msgstr "Nazirańnik zaniataści ćviordaha dysku"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Samba Status"
+#~ msgctxt "Name"
+#~ msgid "Memory Usage"
+#~ msgstr "Stanovišča słužby „Samba”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Networking"
+#~ msgctxt "Name"
+#~ msgid "Network speed"
+#~ msgstr "Sietka"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Monitor"
+#~ msgctxt "Name"
+#~ msgid "System monitor Sensor"
+#~ msgstr "Systemny nazirańnik"
+
+#~ msgctxt "Name"
+#~ msgid "System Tray"
+#~ msgstr "Systemny trej"
+
+#~ msgctxt "Comment"
+#~ msgid "Access hidden applications minimized in the system tray"
+#~ msgstr "Dostup da schavanych u systemnym trei aplikacyjaŭ"
+
+#~ msgctxt "Name"
+#~ msgid "Application Launcher"
+#~ msgstr "Uklučeńnie aplikacyi"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Application Launcher"
+#~ msgctxt "Comment"
+#~ msgid "Simple application launcher"
+#~ msgstr "Uklučeńnie aplikacyi"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Pose"
+#~ msgctxt "Name"
+#~ msgid "Paste"
+#~ msgstr "Pose"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop"
+#~ msgctxt "Name"
+#~ msgid "Switch Desktop"
+#~ msgstr "Rabočy stoł"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Switch between virtual desktops"
+#~ msgctxt "Comment"
+#~ msgid "Switch to another virtual desktop"
+#~ msgstr "Pieraklučeńnie virtualnych stałoŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "New Window"
+#~ msgctxt "Name"
+#~ msgid "Switch Window"
+#~ msgstr "Novaje akno"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Activity Bar"
+#~ msgctxt "Name"
+#~ msgid "Activities Engine"
+#~ msgstr "Panel zaniatkaŭ"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Info about files and directories for Plasmoids"
+#~ msgctxt "Comment"
+#~ msgid "Information on Plasma Activities"
+#~ msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
+
+#~ msgctxt "Name"
+#~ msgid "Application Job Information"
+#~ msgstr "Źviestki pra zadańnie aplikacyi"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Application Job Information"
+#~ msgctxt "Name"
+#~ msgid "Application Information"
+#~ msgstr "Źviestki pra zadańnie aplikacyi"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Notifications"
+#~ msgctxt "Name"
+#~ msgid "Device Notifications"
+#~ msgstr "Infarmavańnie"
+
+#~ msgctxt "Name"
+#~ msgid "Dictionary"
+#~ msgstr "Słoŭnik"
+
+#~ msgctxt "Comment"
+#~ msgid "Look up word meanings"
+#~ msgstr "Pošuk značeńniaŭ słovaŭ"
+
+#~ msgctxt "Name"
+#~ msgid "Run Commands"
+#~ msgstr "Vykonvaj zahady"
+
+#~ msgctxt "Comment"
+#~ msgid "Run Executable Data Engine"
+#~ msgstr "Uklučaj systemu dostupu da źviestak"
+
+#~ msgctxt "Name"
+#~ msgid "Favicons"
+#~ msgstr "Ikony sajtaŭ"
+
+#~ msgctxt "Comment"
+#~ msgid "Data Engine for getting favicons of web sites"
+#~ msgstr "Systema źviestak dla atrymańnia ikon sajtaŭ"
+
+#~ msgctxt "Name"
+#~ msgid "Files and Directories"
+#~ msgstr "Fajły j katalohi"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Info about files and directories for Plasmoids"
+#~ msgctxt "Comment"
+#~ msgid "Information about files and directories."
+#~ msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Name"
+#~ msgid "Geolocation"
+#~ msgstr "Miescy"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Python data engine"
+#~ msgctxt "Comment"
+#~ msgid "Geolocation Data Engine"
+#~ msgstr "Systema źviestak u movie „Python”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Name"
+#~ msgid "Geolocation IP"
+#~ msgstr "Miescy"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Comment"
+#~ msgid "Plasma Geolocation Provider"
+#~ msgstr "Miescy"
+
+#~ msgctxt "Name"
+#~ msgid "Hotplug Events"
+#~ msgstr "Źjaŭleńnie novych pryładaŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Keyboard & Mouse"
+#~ msgctxt "Name"
+#~ msgid "Keyboard and Mouse State"
+#~ msgstr "Klavijatura j myš"
+
+#~ msgctxt "Name"
+#~ msgid "Pointer Position"
+#~ msgstr "Miesca kursora"
+
+#~ msgctxt "Name"
+#~ msgid "Application Notifications"
+#~ msgstr "Infarmavańni aplikacyj"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "JavaScript Runner"
+#~ msgctxt "Comment"
+#~ msgid "PackageKit Data Engine"
+#~ msgstr "Uklučeńnie „JavaScript”"
+
+#~ msgctxt "Name"
+#~ msgid "Places"
+#~ msgstr "Miescy"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Power Management"
+#~ msgctxt "Name|plasma data engine"
+#~ msgid "Power Management"
+#~ msgstr "Kiravańnie enerhijaj"
+
+#~ msgctxt "Name"
+#~ msgid "Device Information"
+#~ msgstr "Źviestki z pryłady"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "SolidDevice data for Plasmoids"
+#~ msgctxt "Comment"
+#~ msgid "Device data via Solid"
+#~ msgstr "Źviestki „SolidDevice” dla widžetaŭ „Plasma”"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "System Process Information"
+#~ msgctxt "Name"
+#~ msgid "Status Notifier Information"
+#~ msgstr "Źviestki pra systemnyja pracesy"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "System Process Information"
+#~ msgctxt "Comment"
+#~ msgid "System status information"
+#~ msgstr "Źviestki pra systemnyja pracesy"
+
+#~ msgctxt "Name"
+#~ msgid "Date and Time"
+#~ msgstr "Data j čas"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Date and time settings"
+#~ msgctxt "Comment"
+#~ msgid "Date and time by timezone"
+#~ msgstr "Nałady daty j času"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Weather"
+#~ msgctxt "Name"
+#~ msgid "BBC Weather"
+#~ msgstr "Nadvorje"
+
+#~ msgctxt "Name"
+#~ msgid "Environment Canada"
+#~ msgstr "Environment Canada"
+
+#~ msgctxt "Comment"
+#~ msgid "XML Data from Environment Canada"
+#~ msgstr "Źviestki ŭ farmacie „XML” ad „Environment Canada”"
+
+#~ msgctxt "Name"
+#~ msgid "NOAA's National Weather Service"
+#~ msgstr "Nacyjanalnaja słužba nadvorja „NOAA”"
+
+#~ msgctxt "Comment"
+#~ msgid "XML Data from NOAA's National Weather Service"
+#~ msgstr "Źviestki ŭ farmacie „XML” ad Nacyjanalnaj słužby nadvorja „NOAA”"
+
+#~ msgctxt "Name"
+#~ msgid "Weather"
+#~ msgstr "Nadvorje"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Device Notifier"
+#~ msgctxt "Name"
+#~ msgid "Free Space Notifier"
+#~ msgstr "Infarmavańnie pra novyja pryłady"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Clipboard Tool"
+#~ msgctxt "Comment"
+#~ msgid "Clipboard Tool."
+#~ msgstr "Pryłada, jakaja absłuhoŭvaje abmienny bufer"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "KDE Time Zone Daemon"
+#~ msgctxt "Name"
+#~ msgid "Time Zone"
+#~ msgstr "Słužba časavych pajasoŭ KDE"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop Sessions"
+#~ msgctxt "Comment"
+#~ msgid "Breeze Dark by the KDE VDG"
+#~ msgstr "Sesii rabočaha stała"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop Sessions"
+#~ msgctxt "Comment"
+#~ msgid "Breeze by the KDE VDG"
+#~ msgstr "Sesii rabočaha stała"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop Sessions"
+#~ msgctxt "Comment"
+#~ msgid "Breeze Twilight by the KDE VDG"
+#~ msgstr "Sesii rabočaha stała"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Bookmarks"
+#~ msgctxt "Name|plasma runner"
+#~ msgid "Bookmarks"
+#~ msgstr "Zakładki"
+
+#~ msgctxt "Comment"
+#~ msgid "Find and open bookmarks"
+#~ msgstr "Pošuk i adčynieńnie zakładak."
+
+#~ msgctxt "Name"
+#~ msgid "Calculator"
+#~ msgstr "Kalkulatar"
+
+#~ msgctxt "Comment"
+#~ msgid "Calculate expressions"
+#~ msgstr "Padlik vyrazaŭ."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Terminal Applications"
+#~ msgctxt "Name"
+#~ msgid "Terminate Applications"
+#~ msgstr "Terminalnyja aplikacyi"
+
+#~ msgctxt "Name"
+#~ msgid "Locations"
+#~ msgstr "Miescy"
+
+#~ msgctxt "Comment"
+#~ msgid "File and URL opener"
+#~ msgstr "Adčynieńnie fajłaŭ i adrasoŭ"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Open Devices and Folder Bookmarks"
+#~ msgctxt "Comment"
+#~ msgid "Open devices and folder bookmarks"
+#~ msgstr "Adčyni pryłady j zakładki dla katalohaŭ"
+
+#~ msgctxt "Comment"
+#~ msgid "Basic Power Management Operations"
+#~ msgstr "Prostyja aperacyi dla kiravańnia enerhijaj"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "PowerDevil"
+#~ msgctxt "Name"
+#~ msgid "Power"
+#~ msgstr "PowerDevil"
+
+#, fuzzy
+#~| msgctxt "Description"
+#~| msgid "Text File"
+#~ msgctxt "Name"
+#~ msgid "Recent Files"
+#~ msgstr "Tekstavy fajł"
+
+#~ msgctxt "Name"
+#~ msgid "Applications"
+#~ msgstr "Aplikacyi"
+
+#~ msgctxt "Comment"
+#~ msgid "Find applications, control panels and services"
+#~ msgstr "Pošuk aplikacyjaŭ, panelaŭ kiravańnia j słužbaŭ"
+
+#~ msgctxt "Name"
+#~ msgid "Desktop Sessions"
+#~ msgstr "Sesii rabočaha stała"
+
+#~ msgctxt "Comment"
+#~ msgid "Fast user switching"
+#~ msgstr "Chutkaje pieraklučeńnie karystańnikaŭ"
+
+#~ msgctxt "Name"
+#~ msgid "Command Line"
+#~ msgstr "Zahadny radok"
+
+#~ msgctxt "Comment"
+#~ msgid "Executes shell commands"
+#~ msgstr "Vykanańnie zahadaŭ abałonki."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Windows"
+#~ msgctxt "Name"
+#~ msgid "Windowed widgets"
+#~ msgstr "Vokny"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Look & Feel"
+#~ msgctxt "Name"
+#~ msgid "Look and Feel"
+#~ msgstr "Vonkavaść"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Colors"
+#~ msgctxt "Name"
+#~ msgid "Color"
+#~ msgstr "Kolery"
 
 #, fuzzy
 #~| msgctxt "Name"

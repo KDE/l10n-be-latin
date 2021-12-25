@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-16 00:48+0000\n"
+"POT-Creation-Date: 2021-12-25 00:46+0000\n"
 "PO-Revision-Date: 2008-10-04 23:44+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -624,118 +624,118 @@ msgstr "Uklučy inšuju kopiju"
 msgid "Continue in Same"
 msgstr "Praciahvaj u toj samaj kopii"
 
-#: main.cpp:105
+#: main.cpp:110
 #, kde-format
 msgid "Bookmark Editor"
 msgstr "Redaktar zakładak"
 
-#: main.cpp:107
+#: main.cpp:112
 #, kde-format
 msgid "Bookmark Organizer and Editor"
 msgstr "Kiraŭnik i redaktar zakładak"
 
-#: main.cpp:109
+#: main.cpp:114
 #, fuzzy, kde-format
 #| msgid "Copyright 2000-2007, KDE developers"
 msgid "Copyright 2000-2017, KDE developers"
 msgstr "Copyright © 2000-2007, Raspracoŭniki KDE"
 
-#: main.cpp:110
+#: main.cpp:115
 #, kde-format
 msgid "David Faure"
 msgstr "David Faure"
 
-#: main.cpp:110
+#: main.cpp:115
 #, kde-format
 msgid "Initial author"
 msgstr "Pieršy aŭtar"
 
-#: main.cpp:111
+#: main.cpp:116
 #, kde-format
 msgid "Alexander Kellett"
 msgstr "Alexander Kellett"
 
-#: main.cpp:111
+#: main.cpp:116
 #, kde-format
 msgid "Author"
 msgstr "Aŭtar"
 
-#: main.cpp:122
+#: main.cpp:127
 #, kde-format
 msgid "Import bookmarks from a file in Mozilla format"
 msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Mozilla”"
 
-#: main.cpp:123
+#: main.cpp:128
 #, kde-format
 msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
 msgstr ""
 "Zimpartuj zakładki z fajła ŭ farmacie „Netscape” (4.x ci raniejšaj versii)"
 
-#: main.cpp:124
+#: main.cpp:129
 #, kde-format
 msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
 msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Internet Explorer”"
 
-#: main.cpp:125
+#: main.cpp:130
 #, kde-format
 msgid "Import bookmarks from a file in Opera format"
 msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Opera”"
 
-#: main.cpp:126
+#: main.cpp:131
 #, fuzzy, kde-format
 #| msgid "Import bookmarks from a file in Opera format"
 msgid "Import bookmarks from a file in KDE2 format"
 msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Opera”"
 
-#: main.cpp:127
+#: main.cpp:132
 #, fuzzy, kde-format
 #| msgid "Import bookmarks from a file in Opera format"
 msgid "Import bookmarks from a file in Galeon format"
 msgstr "Zimpartuj zakładki z fajła ŭ farmacie „Opera”"
 
-#: main.cpp:128
+#: main.cpp:133
 #, kde-format
 msgid "Export bookmarks to a file in Mozilla format"
 msgstr "Zekspartuj zakładki ŭ fajł u farmacie „Mozilla”"
 
-#: main.cpp:129
+#: main.cpp:134
 #, kde-format
 msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
 msgstr ""
 "Zekspartuj zakładki ŭ fajł u farmacie „Netscape” (4.x ci raniejšaj versii)"
 
-#: main.cpp:130
+#: main.cpp:135
 #, kde-format
 msgid "Export bookmarks to a file in a printable HTML format"
 msgstr ""
 "Zekspartuj zakładki ŭ fajł u farmacie „HTML”, padrychtavanym dla vydruku"
 
-#: main.cpp:131
+#: main.cpp:136
 #, kde-format
 msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
 msgstr "Zekspartuj zakładki ŭ fajł u farmacie „Internet Explorer”"
 
-#: main.cpp:132
+#: main.cpp:137
 #, kde-format
 msgid "Export bookmarks to a file in Opera format"
 msgstr "Zekspartuj zakładki ŭ fajł u farmacie „Opera”"
 
-#: main.cpp:133
+#: main.cpp:138
 #, kde-format
 msgid "Open at the given position in the bookmarks file"
 msgstr "Adčyni ŭ peŭnym miescy fajła z zakładkami"
 
-#: main.cpp:134
+#: main.cpp:139
 #, kde-format
 msgid "Set the user-readable caption, for example \"Konsole\""
 msgstr "Aznač podpis, naprykład, „Konsole”"
 
-#: main.cpp:135
+#: main.cpp:140
 #, kde-format
 msgid "Hide all browser related functions"
 msgstr "Schavaj usie aperacyi, źviazanyja z hartańniem sieciva"
 
-#: main.cpp:136
+#: main.cpp:141
 #, fuzzy, kde-format
 #| msgid ""
 #| "A unique name that represents this bookmark collection, usually the "
@@ -756,17 +756,17 @@ msgstr ""
 "dyjalohavych voknaŭ „KFileDialog” itp.\n"
 "Kančatkovaja ściežka abjekta „D-Bus”: /KBookmarkManager/dbusObjectName"
 
-#: main.cpp:140
+#: main.cpp:145
 #, kde-format
 msgid "File to edit"
 msgstr "Fajł dla redahavańnia"
 
-#: main.cpp:227
+#: main.cpp:228
 #, kde-format
 msgid "You may only specify a single --export option."
 msgstr "Možna padać tolki adnu opcyju „--export”."
 
-#: main.cpp:234
+#: main.cpp:235
 #, kde-format
 msgid "You may only specify a single --import option."
 msgstr "Možna padać tolki adnu opcyju „--import”."

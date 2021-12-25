@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:53+0000\n"
+"POT-Creation-Date: 2021-12-25 00:52+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -20,19 +20,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Emoji Selector"
 msgstr ""
-
-#: desktoppackage/metadata.desktop:2
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Desktop Magnifier"
-msgctxt "Comment"
-msgid "Desktop view furniture"
-msgstr "Lupa dla rabočaha stała"
-
-#: desktoppackage/metadata.desktop:50
-msgctxt "Name"
-msgid "Desktop"
-msgstr "Rabočy stoł"
 
 #: kaccess/kaccess.desktop:3 kcms/access/kcm_access.desktop:7
 msgctxt "Name"
@@ -152,14 +139,6 @@ msgctxt "Comment"
 msgid "Mouse keys has been enabled or disabled"
 msgstr "Klavišy kiravańnia kursoram źmianili svajo stanovišča"
 
-#: kcms/access/kcm_access.desktop:102
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Accessibility"
-msgctxt "Comment"
-msgid "Configure Accessibility Options"
-msgstr "Dastupnaść"
-
 #: kcms/activities/kcm_activities.desktop:7
 #, fuzzy
 #| msgctxt "Name"
@@ -167,11 +146,6 @@ msgstr "Dastupnaść"
 msgctxt "Name"
 msgid "Activities"
 msgstr "Panel zaniatkaŭ"
-
-#: kcms/activities/kcm_activities.desktop:70
-msgctxt "Comment"
-msgid "Activities help you to focus on a specific task"
-msgstr ""
 
 #: kcms/baloo/kcm_baloofile.desktop:7
 #, fuzzy
@@ -181,25 +155,9 @@ msgctxt "Name"
 msgid "File Search"
 msgstr "Pošuk"
 
-#: kcms/baloo/kcm_baloofile.desktop:58
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the spell checker"
-msgctxt "Comment"
-msgid "Configure File Search"
-msgstr "Naładź spraŭdžvańnie pravapisu"
-
 #: kcms/componentchooser/kcm_componentchooser.desktop:6
 msgctxt "Name"
 msgid "Default Applications"
-msgstr "Zmoŭčanyja aplikacyi"
-
-#: kcms/componentchooser/kcm_componentchooser.desktop:92
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Default Applications"
-msgctxt "Comment"
-msgid "Choose default Applications"
 msgstr "Zmoŭčanyja aplikacyi"
 
 #: kcms/dateandtime/kcmclock_actions.actions:2
@@ -228,14 +186,6 @@ msgctxt "Name"
 msgid "Date & Time"
 msgstr "Data j čas"
 
-#: kcms/dateandtime/kcm_clock.desktop:101
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Date & Time"
-msgctxt "Comment"
-msgid "Date and Time"
-msgstr "Data j čas"
-
 #: kcms/desktoppaths/kcm_desktoppaths.desktop:6
 #, fuzzy
 #| msgctxt "Name"
@@ -244,20 +194,7 @@ msgctxt "Name"
 msgid "Locations"
 msgstr "Infarmavańnie"
 
-#: kcms/desktoppaths/kcm_desktoppaths.desktop:56
-msgctxt "Comment"
-msgid "Location for Personal Files"
-msgstr ""
-
 #: kcms/joystick/kcm_joystick.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Date and Time"
-msgctxt "Comment"
-msgid "Calibrate Game Controller"
-msgstr "Data j čas"
-
-#: kcms/joystick/kcm_joystick.desktop:45
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Date and Time"
@@ -270,26 +207,10 @@ msgctxt "Name"
 msgid "Background Services"
 msgstr ""
 
-#: kcms/kded/kcm_kded.desktop:57
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure keyboard and mouse settings"
-msgctxt "Comment"
-msgid "Configure background services"
-msgstr "Nałady klavijatury j myšy"
-
 #: kcms/keyboard/kcm_keyboard.desktop:7
 msgctxt "Name"
 msgid "Keyboard"
 msgstr "Klavijatura"
-
-#: kcms/keyboard/kcm_keyboard.desktop:100
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Keyboard Layout"
-msgctxt "Comment"
-msgid "Keyboard Hardware and Layout"
-msgstr "Vykład klavijatury"
 
 #: kcms/keys/kcm_keys.desktop:7
 #, fuzzy
@@ -297,14 +218,6 @@ msgstr "Vykład klavijatury"
 #| msgid "Global Keyboard Shortcuts"
 msgctxt "Name"
 msgid "Shortcuts"
-msgstr "Paŭsiudnyja klavijaturnyja skaroty"
-
-#: kcms/keys/kcm_keys.desktop:47
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Global Keyboard Shortcuts"
-msgctxt "Comment"
-msgid "Configure Keyboard Shortcuts"
 msgstr "Paŭsiudnyja klavijaturnyja skaroty"
 
 #: kcms/ksmserver/kcm_smserver.desktop:7
@@ -315,23 +228,10 @@ msgctxt "Name"
 msgid "Desktop Session"
 msgstr "Rabočaja kula"
 
-#: kcms/ksmserver/kcm_smserver.desktop:60
-msgctxt "Comment"
-msgid "Desktop Session Login and Logout"
-msgstr ""
-
 #: kcms/ksplash/kcm_splashscreen.desktop:7
 msgctxt "Name"
 msgid "Splash Screen"
 msgstr ""
-
-#: kcms/ksplash/kcm_splashscreen.desktop:60
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Customize individual desktop theme items"
-msgctxt "Comment"
-msgid "Choose splash screen theme"
-msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
 
 #: kcms/ksplash/ksplash.knsrc:2
 msgctxt "Name"
@@ -346,33 +246,15 @@ msgctxt "Name"
 msgid "Quick Settings"
 msgstr "Nałady džojstyka"
 
-#: kcms/landingpage/kcm_landingpage.desktop:44
-msgctxt "Comment"
-msgid "Landing page with some basic settings"
-msgstr ""
-
 #: kcms/launch/kcm_launchfeedback.desktop:7
 msgctxt "Name"
 msgid "Launch Feedback"
 msgstr "Vyjaŭleńnie ŭklučeńnia"
 
-#: kcms/launch/kcm_launchfeedback.desktop:95
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Launcher"
-msgctxt "Comment"
-msgid "Application Launch Feedback"
-msgstr "Uklučeńnie aplikacyi"
-
 #: kcms/mouse/kcm_mouse.desktop:7
 msgctxt "Name"
 msgid "Mouse"
 msgstr "Myš"
-
-#: kcms/mouse/kcm_mouse.desktop:101
-msgctxt "Comment"
-msgid "Mouse Controls"
-msgstr ""
 
 #: kcms/qtquicksettings/kcm_qtquicksettings.desktop:7
 msgctxt "Name"
@@ -386,14 +268,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Plasma Search"
 msgstr "Pošuk"
-
-#: kcms/runners/kcm_plasmasearch.desktop:30
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the spell checker"
-msgctxt "Comment"
-msgid "Configure search settings"
-msgstr "Naładź spraŭdžvańnie pravapisu"
 
 #: kcms/solid_actions/device-actions/solid-device-Battery.desktop:2
 msgctxt "Name"
@@ -677,17 +551,6 @@ msgctxt "Name"
 msgid "Device Actions"
 msgstr "Źviestki z pryłady"
 
-#: kcms/solid_actions/kcm_solid_actions.desktop:80
-msgctxt "Comment"
-msgid "Manage actions available to the user when connecting new devices"
-msgstr ""
-
-#: kcms/solid_actions/kcm_solid_actions.desktop:135
-msgctxt "X-KDE-Keywords"
-msgid ""
-"Solid Devices Actions,device actions,open with,play,download,browse,transfer"
-msgstr ""
-
 #: kcms/solid_actions/solid-device-type.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -704,29 +567,16 @@ msgctxt "Name"
 msgid "Spell Check"
 msgstr "Spraŭdžvańnie pravapisu"
 
-#: kcms/spellchecking/kcmspellchecking.desktop:62
-msgctxt "Comment"
-msgid "Spell Checker Dictionaries and Options"
-msgstr ""
-
 #: kcms/tablet/kcm_tablet.desktop:2
 msgctxt "Name"
 msgid "Drawing Tablet"
 msgstr ""
 
-#: kcms/touchpad/kcm/kcm_touchpad.desktop:8
+#: kcms/touchpad/kcm/kcm_touchpad.desktop:7
 #: kcms/touchpad/kded/kcm_touchpad.notifyrc:2
 msgctxt "Name"
 msgid "Touchpad"
 msgstr ""
-
-#: kcms/touchpad/kcm/kcm_touchpad.desktop:57
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Mouse settings"
-msgctxt "Comment"
-msgid "Touchpad settings"
-msgstr "Nałady myšy"
 
 #: kcms/touchpad/kded/kcm_touchpad.notifyrc:52
 msgctxt "Comment"
@@ -757,14 +607,6 @@ msgstr ""
 msgctxt "Name"
 msgid "General Behavior"
 msgstr ""
-
-#: kcms/workspaceoptions/kcm_workspace.desktop:49
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the spell checker"
-msgctxt "Comment"
-msgid "Configure general workspace behavior"
-msgstr "Naładź spraŭdžvańnie pravapisu"
 
 #: knetattach/org.kde.knetattach.desktop:2
 msgctxt "Name"
@@ -804,6 +646,108 @@ msgstr "Rabočy abšar stała „Plasma”"
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "Sietkavaja pryłada"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Desktop Magnifier"
+#~ msgctxt "Comment"
+#~ msgid "Desktop view furniture"
+#~ msgstr "Lupa dla rabočaha stała"
+
+#~ msgctxt "Name"
+#~ msgid "Desktop"
+#~ msgstr "Rabočy stoł"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Accessibility"
+#~ msgctxt "Comment"
+#~ msgid "Configure Accessibility Options"
+#~ msgstr "Dastupnaść"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the spell checker"
+#~ msgctxt "Comment"
+#~ msgid "Configure File Search"
+#~ msgstr "Naładź spraŭdžvańnie pravapisu"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Default Applications"
+#~ msgctxt "Comment"
+#~ msgid "Choose default Applications"
+#~ msgstr "Zmoŭčanyja aplikacyi"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Date & Time"
+#~ msgctxt "Comment"
+#~ msgid "Date and Time"
+#~ msgstr "Data j čas"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Date and Time"
+#~ msgctxt "Comment"
+#~ msgid "Calibrate Game Controller"
+#~ msgstr "Data j čas"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure keyboard and mouse settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure background services"
+#~ msgstr "Nałady klavijatury j myšy"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Keyboard Layout"
+#~ msgctxt "Comment"
+#~ msgid "Keyboard Hardware and Layout"
+#~ msgstr "Vykład klavijatury"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Global Keyboard Shortcuts"
+#~ msgctxt "Comment"
+#~ msgid "Configure Keyboard Shortcuts"
+#~ msgstr "Paŭsiudnyja klavijaturnyja skaroty"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Customize individual desktop theme items"
+#~ msgctxt "Comment"
+#~ msgid "Choose splash screen theme"
+#~ msgstr "Dapasuj asobnyja elementy matyva dla rabočaha stała"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Application Launcher"
+#~ msgctxt "Comment"
+#~ msgid "Application Launch Feedback"
+#~ msgstr "Uklučeńnie aplikacyi"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the spell checker"
+#~ msgctxt "Comment"
+#~ msgid "Configure search settings"
+#~ msgstr "Naładź spraŭdžvańnie pravapisu"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Mouse settings"
+#~ msgctxt "Comment"
+#~ msgid "Touchpad settings"
+#~ msgstr "Nałady myšy"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the spell checker"
+#~ msgctxt "Comment"
+#~ msgid "Configure general workspace behavior"
+#~ msgstr "Naładź spraŭdžvańnie pravapisu"
 
 #, fuzzy
 #~| msgctxt "Name"

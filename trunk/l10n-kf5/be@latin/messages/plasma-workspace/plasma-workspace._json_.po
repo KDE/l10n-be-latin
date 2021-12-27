@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-12 00:57+0000\n"
+"POT-Creation-Date: 2021-12-27 00:54+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -539,6 +539,11 @@ msgstr "Zakładki"
 msgctxt "Name"
 msgid "Calculator"
 msgstr "Kalkulatar"
+
+#: runners/helprunner/helprunner.json
+msgctxt "Name"
+msgid "Help Runner"
+msgstr ""
 
 #: runners/kill/plasma-runner-kill.json
 #, fuzzy
@@ -1207,6 +1212,11 @@ msgctxt "Description"
 msgid "Calculate expressions"
 msgstr "Padlik vyrazaŭ."
 
+#: runners/helprunner/helprunner.json
+msgctxt "Description"
+msgid "Shows help information about runners when typing \"?\" or \"help\""
+msgstr ""
+
 #: runners/kill/plasma-runner-kill.json
 msgctxt "Description"
 msgid "Stop applications that are currently running"
@@ -1466,6 +1476,11 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Plasma Team"
 msgstr "Rabočy abšar stała „Plasma”"
+
+#: runners/helprunner/helprunner.json
+msgctxt "Authors Name"
+msgid "Alexander Lohnau"
+msgstr ""
 
 #: runners/kill/plasma-runner-kill.json
 msgctxt "Authors Name"

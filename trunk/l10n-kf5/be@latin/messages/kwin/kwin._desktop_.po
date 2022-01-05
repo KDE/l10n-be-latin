@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-02 00:56+0000\n"
+"POT-Creation-Date: 2022-01-05 00:56+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -314,14 +314,6 @@ msgstr "Začynieńnie akna"
 msgctxt "Comment"
 msgid "Move windows into screen corners"
 msgstr ""
-
-#: src/effects/windowgeometry/windowgeometry_config.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Move Start"
-msgctxt "Name"
-msgid "WindowGeometry"
-msgstr "Pačatak pierasoŭvańnia akna"
 
 #: src/effects/wobblywindows/wobblywindows_config.desktop:8
 msgctxt "Name"
@@ -764,6 +756,13 @@ msgstr "Akońnik"
 msgctxt "Comment"
 msgid "KWin Window Switcher Layout"
 msgstr "Akońnik"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Move Start"
+#~ msgctxt "Name"
+#~ msgid "WindowGeometry"
+#~ msgstr "Pačatak pierasoŭvańnia akna"
 
 #, fuzzy
 #~| msgctxt "Name"

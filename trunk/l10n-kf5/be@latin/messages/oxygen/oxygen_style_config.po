@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstyle_config\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-28 00:21+0000\n"
+"POT-Creation-Date: 2022-02-07 00:45+0000\n"
 "PO-Revision-Date: 2008-11-26 01:17+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -210,24 +210,21 @@ msgstr "Pakazvaj dzielniki ŭ panelach pryładaŭ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, _mnemonicsMode)
 #: ui/oxygenstyleconfig.ui:84
-#, fuzzy, kde-format
-#| msgid "Draw toolbar item separators"
-msgid "Always Hide Keyboard Accelerators"
-msgstr "Pakazvaj dzielniki ŭ panelach pryładaŭ"
+#, kde-format
+msgid "Always hide"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, _mnemonicsMode)
 #: ui/oxygenstyleconfig.ui:89
-#, fuzzy, kde-format
-#| msgid "Draw toolbar item separators"
-msgid "Show Keyboard Accelerators When Needed"
-msgstr "Pakazvaj dzielniki ŭ panelach pryładaŭ"
+#, kde-format
+msgid "Show when Alt key is pressed"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, _mnemonicsMode)
 #: ui/oxygenstyleconfig.ui:94
-#, fuzzy, kde-format
-#| msgid "Draw toolbar item separators"
-msgid "Always Show Keyboard Accelerators"
-msgstr "Pakazvaj dzielniki ŭ panelach pryładaŭ"
+#, kde-format
+msgid "Always show"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/oxygenstyleconfig.ui:108
@@ -383,6 +380,21 @@ msgstr ""
 #, kde-format
 msgid "Use selec&tion color (subtle)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Draw toolbar item separators"
+#~ msgid "Always Hide Keyboard Accelerators"
+#~ msgstr "Pakazvaj dzielniki ŭ panelach pryładaŭ"
+
+#, fuzzy
+#~| msgid "Draw toolbar item separators"
+#~ msgid "Show Keyboard Accelerators When Needed"
+#~ msgstr "Pakazvaj dzielniki ŭ panelach pryładaŭ"
+
+#, fuzzy
+#~| msgid "Draw toolbar item separators"
+#~ msgid "Always Show Keyboard Accelerators"
+#~ msgstr "Pakazvaj dzielniki ŭ panelach pryładaŭ"
 
 #, fuzzy
 #~| msgid "Triangular tree expander"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-06 00:50+0000\n"
+"POT-Creation-Date: 2022-02-12 00:46+0000\n"
 "PO-Revision-Date: 2008-09-18 23:41+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2370,12 +2370,12 @@ msgctxt "@action:inmenu"
 msgid "Configure Trash…"
 msgstr "Źmiani tagi..."
 
-#: panels/places/placespanel.cpp:264
+#: panels/places/placespanel.cpp:206
 #, kde-format
 msgid "One or more files on this device are open within an application."
 msgstr ""
 
-#: panels/places/placespanel.cpp:271
+#: panels/places/placespanel.cpp:213
 #, kde-kuit-format
 msgid ""
 "One or more files on this device are opened in application <application>"
@@ -2387,7 +2387,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: panels/places/placespanel.cpp:273
+#: panels/places/placespanel.cpp:215
 #, kde-format
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "

@@ -2685,6 +2685,13 @@ msgid "Launch the MIME type editor"
 msgstr ""
 
 #: kmimetypeeditor.cpp:27
+#, fuzzy
+#| msgid "Could not find '%1' executable."
+msgctxt "QObject|"
+msgid "Could not find the \"keditfiletype5\" executable in PATH."
+msgstr "Nie ŭdałosia znajści vykonvalny fajł „%1”."
+
+#: kmimetypeeditor.cpp:37
 msgctxt "QObject|"
 msgid ""
 "Could not start the \"keditfiletype5\" executable, please check your "
@@ -9289,9 +9296,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Nie ŭdałosia stvaryć novy praces.\n"
 #~ "Albo ty, albo systema siahnuła maksymalna mahčymaj kolkaści pracesaŭ."
-
-#~ msgid "Could not find '%1' executable."
-#~ msgstr "Nie ŭdałosia znajści vykonvalny fajł „%1”."
 
 #~ msgid ""
 #~ "Could not open library '%1'.\n"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-30 00:41+0000\n"
+"POT-Creation-Date: 2022-04-24 00:40+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -140,7 +140,7 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "Nałady"
 
-#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:365
+#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:327
 #, kde-format
 msgid "Configure"
 msgstr "Naładź"
@@ -213,13 +213,13 @@ msgstr[0] "%1 plugin aŭtamatyčna vydaleny z pryčyny jahonych zaležnaściaŭ.
 msgstr[1] "%1 pluginy aŭtamatyčna vydalenyja z pryčyny ichnych zaležnaściaŭ."
 msgstr[2] "%1 pluginaŭ aŭtamatyčna vydalenyja z pryčyny ichnych zaležnaściaŭ."
 
-#: kpluginselector.cpp:264 kpluginwidget.cpp:57
+#: kpluginselector.cpp:264 kpluginwidget.cpp:59
 #, fuzzy, kde-format
 #| msgid "&Search"
 msgid "Search..."
 msgstr "&Šukaj"
 
-#: kpluginselector.cpp:804 kpluginwidget.cpp:360
+#: kpluginselector.cpp:804 kpluginwidget.cpp:322
 #, fuzzy, kde-format
 #| msgid "&About"
 msgid "About"
@@ -229,6 +229,73 @@ msgstr "&Pra aplikacyju"
 #, kde-format
 msgid "Enable component"
 msgstr "Uklučy kampanent"
+
+#: qml/components/KPluginDelegate.qml:45
+#, fuzzy, kde-format
+#| msgid "&About"
+msgctxt "@info:tooltip"
+msgid "About"
+msgstr "&Pra aplikacyju"
+
+#: qml/components/KPluginDelegate.qml:56
+#, fuzzy, kde-format
+#| msgid "Confi&gure..."
+msgctxt "@info:tooltip"
+msgid "Configure..."
+msgstr "&Naładź..."
+
+#: qml/components/KPluginSelector.qml:78
+#, kde-format
+msgid "No matches"
+msgstr ""
+
+#: qml/components/KPluginSelector.qml:78
+#, fuzzy, kde-format
+#| msgid "Not found"
+msgid "No plugins found"
+msgstr "Ničoha nia znojdziena"
+
+#: qml/components/private/AboutPlugin.qml:42
+#, fuzzy, kde-format
+#| msgctxt "concatenation of dates and time"
+#| msgid "%1 %2"
+msgctxt "Plugin name and plugin version"
+msgid "%1 %2"
+msgstr "%1, %2"
+
+#: qml/components/private/AboutPlugin.qml:64
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgid "Copyright"
+msgstr "Skapijuj"
+
+#: qml/components/private/AboutPlugin.qml:81
+#, kde-format
+msgid "License:"
+msgstr "Licenzija:"
+
+#: qml/components/private/AboutPlugin.qml:100
+#, fuzzy, kde-format
+#| msgid "A&uthors"
+msgid "Authors"
+msgstr "A&ŭtary"
+
+#: qml/components/private/AboutPlugin.qml:117
+#, kde-format
+msgid "Credits"
+msgstr ""
+
+#: qml/components/private/AboutPlugin.qml:134
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgid "Translators"
+msgstr "Pierakład"
+
+#: qml/components/private/AboutPlugin.qml:161
+#, fuzzy, kde-format
+#| msgid "&Send Email"
+msgid "Send an email to %1"
+msgstr "&Vyšli e-maiłam"
 
 #~ msgid "Distance between desktop icons"
 #~ msgstr "Raźbiežnaść pamiž ikonami rabočaha stała"
@@ -508,9 +575,6 @@ msgstr "Uklučy kampanent"
 
 #~ msgid "A&uthor"
 #~ msgstr "A&ŭtar"
-
-#~ msgid "A&uthors"
-#~ msgstr "A&ŭtary"
 
 #~ msgid ""
 #~ "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
@@ -2146,10 +2210,6 @@ msgstr "Uklučy kampanent"
 #~ msgid "Yesterday"
 #~ msgstr "Učora"
 
-#~ msgctxt "concatenation of dates and time"
-#~ msgid "%1 %2"
-#~ msgstr "%1, %2"
-
 #~ msgctxt "concatenation of date/time and time zone"
 #~ msgid "%1 %2"
 #~ msgstr "%1 %2"
@@ -3672,9 +3732,6 @@ msgstr "Uklučy kampanent"
 
 #~ msgid "Wishlist"
 #~ msgstr "Pažadańnie"
-
-#~ msgid "Translation"
-#~ msgstr "Pierakład"
 
 #~ msgid "S&ubject: "
 #~ msgstr "&Tema: "
@@ -5235,9 +5292,6 @@ msgstr "Uklučy kampanent"
 #~ msgid "Front"
 #~ msgstr "Front"
 
-#~ msgid "Copy"
-#~ msgstr "Skapijuj"
-
 #~ msgid "Open"
 #~ msgstr "Adčyni"
 
@@ -5398,9 +5452,6 @@ msgstr "Uklučy kampanent"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "&Ustaŭ"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "&Naładź..."
 
 #~ msgid "Add"
 #~ msgstr "Dadaj"
@@ -7370,9 +7421,6 @@ msgstr "Uklučy kampanent"
 #~ "Hety sajt sprabuje vysłać źviestki, upisanyja ŭ formu, e-maiłam.\n"
 #~ "Ty sapraŭdy chočaš praciahnuć?"
 
-#~ msgid "&Send Email"
-#~ msgstr "&Vyšli e-maiłam"
-
 #~ msgid ""
 #~ "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 #~ "filesystem.<br />Do you want to submit the form?</qt>"
@@ -7647,9 +7695,6 @@ msgstr "Uklučy kampanent"
 
 #~ msgid "a basic web browser using the KHTML library"
 #~ msgstr "Prosty web-hartač, jaki karystajecca biblijatekaj KHTML"
-
-#~ msgid "Not found"
-#~ msgstr "Ničoha nia znojdziena"
 
 #~ msgid "No more matches for this search direction."
 #~ msgstr "U hetym kirunku pošuku bolš niama adpaviednikaŭ."
@@ -8302,9 +8347,6 @@ msgstr "Uklučy kampanent"
 
 #~ msgid "Email address:"
 #~ msgstr "Paštovy adras:"
-
-#~ msgid "License:"
-#~ msgstr "Licenzija:"
 
 #~ msgid "GPL"
 #~ msgstr "GPL"

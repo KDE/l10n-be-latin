@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-25 00:57+0000\n"
+"POT-Creation-Date: 2022-05-15 01:02+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -93,6 +93,14 @@ msgid ""
 "Read system information from system's Desktop Management Interface (DMI)"
 msgstr ""
 
+#: Modules/about-distro/src/kcm_about-distro.desktop:7
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Info about files and directories for Plasmoids"
+msgctxt "Name"
+msgid "About this System"
+msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
+
 #: org.kde.kinfocenter.desktop:9
 #, fuzzy
 #| msgctxt "GenericName"
@@ -110,13 +118,6 @@ msgstr "Infarmacyjny centar"
 msgctxt "Comment"
 msgid "Centralized and convenient overview of system information"
 msgstr ""
-
-#, fuzzy
-#~| msgctxt "Comment"
-#~| msgid "Info about files and directories for Plasmoids"
-#~ msgctxt "Name"
-#~ msgid "About this System"
-#~ msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
 
 #, fuzzy
 #~| msgctxt "Comment"

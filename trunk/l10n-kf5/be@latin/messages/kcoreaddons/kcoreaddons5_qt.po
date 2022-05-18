@@ -968,14 +968,21 @@ msgctxt "KFormat|"
 msgid "%1 at %2"
 msgstr "%1 i %2"
 
-#: lib/util/klistopenfilesjob_unix.cpp:37
+#: lib/util/klistopenfilesjob_unix.cpp:38
 #, fuzzy, qt-format
 #| msgid "File %1 does not exist"
 msgctxt "QObject|"
 msgid "Path %1 doesn't exist"
 msgstr "Fajła „%1” nie isnuje."
 
-#: lib/util/klistopenfilesjob_unix.cpp:50
+#: lib/util/klistopenfilesjob_unix.cpp:45
+#, fuzzy
+#| msgid "Could not find '%1' executable."
+msgctxt "QObject|"
+msgid "Could not find lsof executable in PATH:"
+msgstr "Nie ŭdałosia znajści vykonvalny fajł „%1”."
+
+#: lib/util/klistopenfilesjob_unix.cpp:60
 #, qt-format
 msgctxt "QObject|"
 msgid "Failed to execute `lsof' error code %1"
@@ -7906,9 +7913,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Nie ŭdałosia stvaryć novy praces.\n"
 #~ "Albo ty, albo systema siahnuła maksymalna mahčymaj kolkaści pracesaŭ."
-
-#~ msgid "Could not find '%1' executable."
-#~ msgstr "Nie ŭdałosia znajści vykonvalny fajł „%1”."
 
 #~ msgid ""
 #~ "Could not open library '%1'.\n"

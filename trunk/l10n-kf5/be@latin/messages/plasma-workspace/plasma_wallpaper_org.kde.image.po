@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-09 00:46+0000\n"
+"POT-Creation-Date: 2022-05-22 00:46+0000\n"
 "PO-Revision-Date: 2008-10-05 11:04+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -19,78 +19,88 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: imagepackage/contents/ui/config.qml:86
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: imagepackage/contents/ui/config.qml:90
 #, fuzzy, kde-format
 #| msgid "P&ositioning:"
 msgid "Positioning:"
 msgstr "&Miesca:"
 
-#: imagepackage/contents/ui/config.qml:89
+#: imagepackage/contents/ui/config.qml:93
 #, fuzzy, kde-format
 #| msgid "Scaled & Cropped"
 msgid "Scaled and Cropped"
 msgstr "Zmaštabavany j abatnuty"
 
-#: imagepackage/contents/ui/config.qml:93
+#: imagepackage/contents/ui/config.qml:97
 #, kde-format
 msgid "Scaled"
 msgstr "Zmaštabavany"
 
-#: imagepackage/contents/ui/config.qml:97
+#: imagepackage/contents/ui/config.qml:101
 #, fuzzy, kde-format
 #| msgid "Scaled, keep proportions"
 msgid "Scaled, Keep Proportions"
 msgstr "Zmaštabavany praparcyjna"
 
-#: imagepackage/contents/ui/config.qml:101
+#: imagepackage/contents/ui/config.qml:105
 #, kde-format
 msgid "Centered"
 msgstr "Pasiarod"
 
-#: imagepackage/contents/ui/config.qml:105
+#: imagepackage/contents/ui/config.qml:109
 #, kde-format
 msgid "Tiled"
 msgstr "Kafla"
 
-#: imagepackage/contents/ui/config.qml:133
+#: imagepackage/contents/ui/config.qml:137
 #, kde-format
 msgid "Background:"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:134
+#: imagepackage/contents/ui/config.qml:138
 #, kde-format
 msgid "Blur"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:143
+#: imagepackage/contents/ui/config.qml:147
 #, kde-format
 msgid "Solid color"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:153
+#: imagepackage/contents/ui/config.qml:157
 #, kde-format
 msgid "Select Background Color"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:197
+#: imagepackage/contents/ui/config.qml:201
 #, kde-format
 msgid "Add Image…"
 msgstr ""
 
-#: imagepackage/contents/ui/config.qml:203
+#: imagepackage/contents/ui/config.qml:207
 #: slideshowpackage/contents/ui/SlideshowComponent.qml:254
 #, fuzzy, kde-format
 #| msgid "Get New Wallpapers..."
 msgid "Get New Wallpapers…"
 msgstr "Vaźmi novyja špalery..."
 
-#: imagepackage/contents/ui/main.qml:55
+#: imagepackage/contents/ui/main.qml:57
 #, fuzzy, kde-format
 #| msgid "Select Wallpaper Image File"
 msgid "Open Wallpaper Image"
 msgstr "Vybiery fajł z špalerami"
 
-#: imagepackage/contents/ui/main.qml:56
+#: imagepackage/contents/ui/main.qml:58
 #, fuzzy, kde-format
 #| msgid "Select Wallpaper Image File"
 msgid "Next Wallpaper Image"
@@ -162,23 +172,23 @@ msgid ""
 "it as a wallpaper: %1"
 msgstr ""
 
-#: plugin/imagebackend.cpp:247
+#: plugin/finder/packagefinder.cpp:147
 #, kde-format
 msgid "Recommended wallpaper file"
 msgstr ""
 
-#: plugin/imagebackend.cpp:425
+#: plugin/imagebackend.cpp:313
 #, kde-format
 msgid "Directory with the wallpaper to show slides from"
 msgstr ""
 
-#: plugin/imagebackend.cpp:716
+#: plugin/imagebackend.cpp:491
 #, fuzzy, kde-format
 #| msgid "Select Wallpaper Image File"
 msgid "Open Image"
 msgstr "Vybiery fajł z špalerami"
 
-#: plugin/imagebackend.cpp:716
+#: plugin/imagebackend.cpp:491
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Image Files"
@@ -354,14 +364,6 @@ msgstr "&Dadaj kataloh..."
 
 #~ msgid "License:"
 #~ msgstr "Licenzija:"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Ihar Hračyška"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "ihar.hrachyshka@gmail.com"
 
 #~ msgid "Color:"
 #~ msgstr "Koler:"

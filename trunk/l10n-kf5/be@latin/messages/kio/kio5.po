@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-22 00:41+0000\n"
+"POT-Creation-Date: 2022-05-25 00:41+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -3079,47 +3079,47 @@ msgstr ""
 "aplikacyi (%1).<br /><br />Kali hetaja opcyja vyklučanaja, to jaho budzie "
 "vidać z usich aplikacyjaŭ.</qt>"
 
-#: filewidgets/kfileplacesitem.cpp:156
+#: filewidgets/kfileplacesitem.cpp:162
 #, fuzzy, kde-format
 #| msgid "Places"
 msgctxt "@item"
 msgid "Places"
 msgstr "Miescy"
 
-#: filewidgets/kfileplacesitem.cpp:159
+#: filewidgets/kfileplacesitem.cpp:165
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "@item"
 msgid "Remote"
 msgstr "Vydali"
 
-#: filewidgets/kfileplacesitem.cpp:162
+#: filewidgets/kfileplacesitem.cpp:168
 #, kde-format
 msgctxt "@item The place group section name for recent dynamic lists"
 msgid "Recent"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:165
+#: filewidgets/kfileplacesitem.cpp:171
 #, fuzzy, kde-format
 #| msgid "&Search:"
 msgctxt "@item"
 msgid "Search For"
 msgstr "&Šukaj:"
 
-#: filewidgets/kfileplacesitem.cpp:168
+#: filewidgets/kfileplacesitem.cpp:174
 #, fuzzy, kde-format
 #| msgid "Devices"
 msgctxt "@item"
 msgid "Devices"
 msgstr "Pryłady"
 
-#: filewidgets/kfileplacesitem.cpp:171
+#: filewidgets/kfileplacesitem.cpp:177
 #, kde-format
 msgctxt "@item"
 msgid "Removable Devices"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:174
+#: filewidgets/kfileplacesitem.cpp:180
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgctxt "@item"
@@ -3231,58 +3231,58 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "*|Usie fajły"
 
-#: filewidgets/kfileplacesmodel.cpp:1140
+#: filewidgets/kfileplacesmodel.cpp:1151
 #, fuzzy, kde-format
 #| msgid "Could not find the program '%1'"
 msgctxt "Placeholder is error message"
 msgid "Could not add to the Places panel: %1"
 msgstr "Nie ŭdałosia znajści prahramu „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1147
+#: filewidgets/kfileplacesmodel.cpp:1158
 #, fuzzy, kde-format
 #| msgid "The file or folder %1 does not exist."
 msgid "Only folders can be added to the Places panel."
 msgstr "Fajł ci kataloh „%1” nie isnuje."
 
-#: filewidgets/kfileplacesmodel.cpp:1406
+#: filewidgets/kfileplacesmodel.cpp:1417
 #, fuzzy, kde-format
 #| msgid "&Release '%1'"
 msgctxt "@action:inmenu"
 msgid "&Release"
 msgstr "&Vyzvali „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1408
+#: filewidgets/kfileplacesmodel.cpp:1419
 #, fuzzy, kde-format
 #| msgid "&Safely Remove '%1'"
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
 msgstr "&Biaśpiečna vysuń „%1”"
 
-#: filewidgets/kfileplacesmodel.cpp:1411
+#: filewidgets/kfileplacesmodel.cpp:1422
 #, fuzzy, kde-format
 #| msgid "Unmount"
 msgctxt "@action:inmenu"
 msgid "&Unmount"
 msgstr "Admantuj"
 
-#: filewidgets/kfileplacesmodel.cpp:1430
+#: filewidgets/kfileplacesmodel.cpp:1441
 #, fuzzy, kde-format
 #| msgid "Eject"
 msgctxt "@action:inmenu"
 msgid "&Eject"
 msgstr "Vysuń"
 
-#: filewidgets/kfileplacesmodel.cpp:1466
+#: filewidgets/kfileplacesmodel.cpp:1477
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Pryłada „%1” nia jość dyskam, i jaje nielha vysunuć."
 
-#: filewidgets/kfileplacesmodel.cpp:1501
+#: filewidgets/kfileplacesmodel.cpp:1512
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka. Systema paviedamiła: %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1503
+#: filewidgets/kfileplacesmodel.cpp:1514
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Padčas dostupu da „%1” uźnikła pamyłka."
@@ -7290,43 +7290,43 @@ msgstr "Zmantuj"
 msgid "Unmount"
 msgstr "Admantuj"
 
-#: widgets/kdirmodel.cpp:1189
+#: widgets/kdirmodel.cpp:1193
 #, kde-format
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Nazva"
 
-#: widgets/kdirmodel.cpp:1191
+#: widgets/kdirmodel.cpp:1195
 #, kde-format
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Pamier"
 
-#: widgets/kdirmodel.cpp:1193
+#: widgets/kdirmodel.cpp:1197
 #, kde-format
 msgctxt "@title:column"
 msgid "Date"
 msgstr "Data"
 
-#: widgets/kdirmodel.cpp:1195
+#: widgets/kdirmodel.cpp:1199
 #, kde-format
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Dazvoły"
 
-#: widgets/kdirmodel.cpp:1197
+#: widgets/kdirmodel.cpp:1201
 #, kde-format
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Ułaśnik"
 
-#: widgets/kdirmodel.cpp:1199
+#: widgets/kdirmodel.cpp:1203
 #, kde-format
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Hrupa"
 
-#: widgets/kdirmodel.cpp:1201
+#: widgets/kdirmodel.cpp:1205
 #, kde-format
 msgctxt "@title:column"
 msgid "Type"

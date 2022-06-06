@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-30 00:53+0000\n"
+"POT-Creation-Date: 2022-06-06 00:53+0000\n"
 "PO-Revision-Date: 2008-09-04 00:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,11 +15,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: src/java/kjavaappletviewer.desktop:2
-msgctxt "Name"
-msgid "Embedded Java Applet Viewer"
-msgstr "Unutrany prahladnik apletaŭ Java"
 
 #: src/khtmladaptorpart.desktop:2
 msgctxt "Name"
@@ -50,6 +45,10 @@ msgstr "Unutrany prahladnik vyjavaŭ"
 msgctxt "Name"
 msgid "Embeddable Component for multipart/mixed"
 msgstr "Unutrany kampanent dla „multipart/mixed”"
+
+#~ msgctxt "Name"
+#~ msgid "Embedded Java Applet Viewer"
+#~ msgstr "Unutrany prahladnik apletaŭ Java"
 
 #~ msgctxt "Comment"
 #~ msgid "Instant Messenger with a D-Bus interface"

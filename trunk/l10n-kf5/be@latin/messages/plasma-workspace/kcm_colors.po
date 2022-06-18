@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-10 00:47+0000\n"
+"POT-Creation-Date: 2022-06-18 00:46+0000\n"
 "PO-Revision-Date: 2008-11-04 17:27+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -884,65 +884,57 @@ msgstr "Prymianiaj &efekty koleraŭ dla niadziejnych akon"
 msgid "Use different colors for in&active selections"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, accentActiveTitlebar)
-#: editor/scmeditoroptions.ui:31
-#, fuzzy, kde-format
-#| msgid "Apply inactive window color &effects"
-msgid "Apply a&ccent color to active window titlebars"
-msgstr "Prymianiaj &efekty koleraŭ dla niadziejnych akon"
-
-#. i18n: ectx: property (text), widget (QCheckBox, accentInactiveTitlebar)
-#: editor/scmeditoroptions.ui:38
-#, fuzzy, kde-format
-#| msgid "Apply inactive window color &effects"
-msgid "Apply acce&nt color to inactive window titlebars"
-msgstr "Prymianiaj &efekty koleraŭ dla niadziejnych akon"
-
 #. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
-#: editor/scmeditoroptions.ui:45
+#: editor/scmeditoroptions.ui:31
 #, kde-format
 msgid "Shade sorted column &in lists"
 msgstr "Zacianiaj uparadkavany słupok &u śpisach"
 
 #. i18n: ectx: property (text), widget (QCheckBox, tintColors)
-#: editor/scmeditoroptions.ui:52
+#: editor/scmeditoroptions.ui:38
 #, fuzzy, kde-format
 #| msgid "Inactive color"
 msgid "Tint all colors with accent color"
 msgstr "Niadziejny koler"
 
+#. i18n: ectx: property (text), widget (QCheckBox, accentTitlebar)
+#: editor/scmeditoroptions.ui:45
+#, kde-format
+msgid "Make window titlebars a&ccent-colored"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: editor/scmeditoroptions.ui:59
+#: editor/scmeditoroptions.ui:52
 #, kde-format
 msgid "Tint strength:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
-#: editor/scmeditoroptions.ui:76
+#: editor/scmeditoroptions.ui:69
 #, kde-format
 msgid "Shading of frames and lighting (\"3D\") effects"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: editor/scmeditoroptions.ui:79
+#: editor/scmeditoroptions.ui:72
 #, kde-format
 msgid "Shading"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: editor/scmeditoroptions.ui:104
+#: editor/scmeditoroptions.ui:97
 #, kde-format
 msgid "Maximum"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: editor/scmeditoroptions.ui:124
+#: editor/scmeditoroptions.ui:117
 #, kde-format
 msgid "Minimum"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: editor/scmeditoroptions.ui:131
+#: editor/scmeditoroptions.ui:124
 #, kde-format
 msgid "Contrast"
 msgstr "Kantrast"
@@ -1411,6 +1403,16 @@ msgstr ""
 #| msgid "Save the current color scheme"
 msgid " * %1 (current color scheme)"
 msgstr "Zapišy dziejnuju schiemu koleraŭ"
+
+#, fuzzy
+#~| msgid "Apply inactive window color &effects"
+#~ msgid "Apply a&ccent color to active window titlebars"
+#~ msgstr "Prymianiaj &efekty koleraŭ dla niadziejnych akon"
+
+#, fuzzy
+#~| msgid "Apply inactive window color &effects"
+#~ msgid "Apply acce&nt color to inactive window titlebars"
+#~ msgstr "Prymianiaj &efekty koleraŭ dla niadziejnych akon"
 
 #, fuzzy
 #~| msgid "Get new color schemes from the Internet"

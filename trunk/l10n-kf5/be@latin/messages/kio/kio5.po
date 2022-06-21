@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-15 00:43+0000\n"
+"POT-Creation-Date: 2022-06-21 00:41+0000\n"
 "PO-Revision-Date: 2008-09-05 20:23+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -4281,18 +4281,18 @@ msgstr "Adčynieńnie spałučeńnia z hostam „%1”"
 msgid "Connected to host %1"
 msgstr "Spałučany z hostam „%1”"
 
-#: ioslaves/ftp/ftp.cpp:463
+#: ioslaves/ftp/ftp.cpp:462
 #, fuzzy, kde-format
 #| msgid "%1 (%2)"
 msgid "%1 (Error %2)"
 msgstr "%1 (%2)"
 
-#: ioslaves/ftp/ftp.cpp:493
+#: ioslaves/ftp/ftp.cpp:492
 #, kde-format
 msgid "Sending login information"
 msgstr "Vysyłańnie źviestak dla ŭvachodu"
 
-#: ioslaves/ftp/ftp.cpp:551
+#: ioslaves/ftp/ftp.cpp:550
 #, kde-format
 msgid ""
 "Message sent:\n"
@@ -4309,33 +4309,33 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ioslaves/ftp/ftp.cpp:562 ioslaves/http/http.cpp:5314
+#: ioslaves/ftp/ftp.cpp:561 ioslaves/http/http.cpp:5314
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Kab dastupicca da hetaha sajta, treba padać nazvu karystańnika j parol."
 
-#: ioslaves/ftp/ftp.cpp:564 ioslaves/http/http.cpp:5316
+#: ioslaves/ftp/ftp.cpp:563 ioslaves/http/http.cpp:5316
 #, kde-format
 msgid "Site:"
 msgstr "Sajt:"
 
-#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2515
+#: ioslaves/ftp/ftp.cpp:564 ioslaves/ftp/ftp.cpp:2514
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: ioslaves/ftp/ftp.cpp:649
+#: ioslaves/ftp/ftp.cpp:648
 #, kde-format
 msgid "Login OK"
 msgstr "Uvachod: OK"
 
-#: ioslaves/ftp/ftp.cpp:678
+#: ioslaves/ftp/ftp.cpp:677
 #, kde-format
 msgid "Could not login to %1."
 msgstr "Nie ŭdałosia ŭvajści ŭ „%1”."
 
-#: ioslaves/ftp/ftp.cpp:1055
+#: ioslaves/ftp/ftp.cpp:1054
 #, fuzzy, kde-format
 #| msgid "Server said: \"%1\""
 msgid ""
@@ -4343,7 +4343,7 @@ msgid ""
 "The server said: \"%1\""
 msgstr "Server adkazaŭ: „%1”"
 
-#: ioslaves/ftp/ftp.cpp:2510 ioslaves/http/http.cpp:5195
+#: ioslaves/ftp/ftp.cpp:2509 ioslaves/http/http.cpp:5195
 #: ioslaves/http/http.cpp:5329
 #, kde-format
 msgid ""
@@ -4353,13 +4353,13 @@ msgstr ""
 "Kab zmahčy dastupicca da sajtaŭ, najpierš treba padać nazvu karystańnika j "
 "parol dla proxy-servera."
 
-#: ioslaves/ftp/ftp.cpp:2514 ioslaves/http/http.cpp:5199
+#: ioslaves/ftp/ftp.cpp:2513 ioslaves/http/http.cpp:5199
 #: ioslaves/http/http.cpp:5332
 #, kde-format
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ioslaves/ftp/ftp.cpp:2517 ioslaves/http/http.cpp:5202
+#: ioslaves/ftp/ftp.cpp:2516 ioslaves/http/http.cpp:5202
 #: ioslaves/http/http.cpp:5347
 #, kde-format
 msgid "Proxy Authentication Failed."

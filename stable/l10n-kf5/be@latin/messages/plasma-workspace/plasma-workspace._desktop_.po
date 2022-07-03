@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-06 02:17+0000\n"
+"POT-Creation-Date: 2022-07-03 02:38+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -32,7 +32,7 @@ msgctxt "Name"
 msgid "Application menus daemon"
 msgstr "Padručniki pa aplikacyjach"
 
-#: appmenu/appmenu.desktop:60
+#: appmenu/appmenu.desktop:61
 msgctxt "Comment"
 msgid "Transfers application's menu to the desktop"
 msgstr ""
@@ -116,12 +116,12 @@ msgctxt "GenericName"
 msgid "Color scheme editor"
 msgstr ""
 
-#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:43
+#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:44
 msgctxt "Name"
 msgid "KColorSchemeEditor"
 msgstr ""
 
-#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:84
+#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:86
 msgctxt "Comment"
 msgid "Plasma color scheme editor"
 msgstr ""
@@ -190,7 +190,7 @@ msgctxt "Name"
 msgid "KFontView"
 msgstr ""
 
-#: kcms/kfontinst/apps/org.kde.kfontview.desktop:47
+#: kcms/kfontinst/apps/org.kde.kfontview.desktop:48
 msgctxt "GenericName"
 msgid "Font Viewer"
 msgstr ""
@@ -200,12 +200,12 @@ msgctxt "Name"
 msgid "Font Installer"
 msgstr ""
 
-#: kcms/kfontinst/dbus/fontinst.actions:45
+#: kcms/kfontinst/dbus/fontinst.actions:46
 msgctxt "Name"
 msgid "Manage system-wide fonts."
 msgstr ""
 
-#: kcms/kfontinst/dbus/fontinst.actions:86
+#: kcms/kfontinst/dbus/fontinst.actions:88
 msgctxt "Description"
 msgid "Modifying the system-wide font configuration requires privileges."
 msgstr ""
@@ -283,7 +283,7 @@ msgctxt "Name"
 msgid "Trash"
 msgstr ""
 
-#: kioslave/desktop/./directory.trash:56
+#: kioslave/desktop/./directory.trash:57
 msgctxt "Comment"
 msgid "Contains removed files"
 msgstr ""
@@ -400,7 +400,7 @@ msgctxt "Name"
 msgid "KRunner"
 msgstr ""
 
-#: krunner/org.kde.krunner.desktop.cmake:69
+#: krunner/org.kde.krunner.desktop.cmake:70
 msgctxt "Name"
 msgid "Run command on clipboard contents"
 msgstr ""
@@ -413,10 +413,10 @@ msgctxt "Name"
 msgid "Plasma (Wayland)"
 msgstr "Rabočy abšar stała „Plasma”"
 
-#: login-sessions/plasmawayland.desktop.cmake:51
-#: login-sessions/plasmawayland-dev.desktop.cmake:46
-#: login-sessions/plasmax11.desktop.cmake:47
-#: login-sessions/plasmax11-dev.desktop.cmake:47
+#: login-sessions/plasmawayland.desktop.cmake:52
+#: login-sessions/plasmawayland-dev.desktop.cmake:47
+#: login-sessions/plasmax11.desktop.cmake:48
+#: login-sessions/plasmax11-dev.desktop.cmake:48
 msgctxt "Comment"
 msgid "Plasma by KDE"
 msgstr ""
@@ -636,7 +636,7 @@ msgctxt "Name"
 msgid "Desktop"
 msgstr "Rabočy stoł"
 
-#: menu/desktop/kf5-utilities-desktop.directory:63
+#: menu/desktop/kf5-utilities-desktop.directory:64
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop"
@@ -652,7 +652,7 @@ msgctxt "Name"
 msgid "Utilities"
 msgstr "Panel zaniatkaŭ"
 
-#: menu/desktop/kf5-utilities.directory:64
+#: menu/desktop/kf5-utilities.directory:65
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Activity Bar"
@@ -668,7 +668,7 @@ msgctxt "Name"
 msgid "File"
 msgstr "Tekstavy fajł"
 
-#: menu/desktop/kf5-utilities-file.directory:65
+#: menu/desktop/kf5-utilities-file.directory:66
 #, fuzzy
 #| msgctxt "Description"
 #| msgid "Text File"
@@ -704,7 +704,7 @@ msgctxt "Name"
 msgid "X-Utilities"
 msgstr "Panel zaniatkaŭ"
 
-#: menu/desktop/kf5-utilities-xutils.directory:61
+#: menu/desktop/kf5-utilities-xutils.directory:62
 msgctxt "Comment"
 msgid "X Window Utilities"
 msgstr "Pryładździe systemy „X Window”"
@@ -730,12 +730,12 @@ msgctxt "Name"
 msgid "Application"
 msgstr "Aplikacyi"
 
-#: phonon/platform_kde/phonon.notifyrc:139
+#: phonon/platform_kde/phonon.notifyrc:140
 msgctxt "Name"
 msgid "Audio Output Device Changed"
 msgstr ""
 
-#: phonon/platform_kde/phonon.notifyrc:207
+#: phonon/platform_kde/phonon.notifyrc:208
 msgctxt "Comment"
 msgid "Notification when audio output device has automatically changed"
 msgstr ""
@@ -748,7 +748,7 @@ msgctxt "Name"
 msgid "Plasma Windowed"
 msgstr "Rabočy abšar stała „Plasma”"
 
-#: plasma-windowed/org.kde.plasmawindowed.desktop.cmake:54
+#: plasma-windowed/org.kde.plasmawindowed.desktop.cmake:55
 msgctxt "Comment"
 msgid "Run Plasmoids as simple applications"
 msgstr ""
@@ -761,7 +761,7 @@ msgctxt "Name"
 msgid "Desktop Search"
 msgstr "Sesii rabočaha stała"
 
-#: runners/baloo/plasma-runner-baloosearch.desktop:58
+#: runners/baloo/plasma-runner-baloosearch.desktop:59
 msgctxt "Comment"
 msgid "Searches through files, emails and contacts"
 msgstr ""
@@ -771,7 +771,7 @@ msgctxt "Name"
 msgid "Breeze"
 msgstr ""
 
-#: sddm-theme/metadata.desktop:55
+#: sddm-theme/metadata.desktop:56
 msgctxt "Description"
 msgid "Breeze"
 msgstr ""

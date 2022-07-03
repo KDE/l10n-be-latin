@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-02 01:00+0000\n"
+"POT-Creation-Date: 2022-07-03 00:58+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -248,6 +248,19 @@ msgstr "Koler"
 msgctxt "Name"
 msgid "Notifications"
 msgstr "Infarmavańnie"
+
+#: kcms/region_language/kcm_regionandlang.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Languages"
+msgctxt "Name"
+msgid "Region & Language"
+msgstr "Movy"
+
+#: kcms/region_language/kcm_regionandlang.desktop:41
+msgctxt "Comment"
+msgid "Set Language, Numeric, Currency and Time Formats"
+msgstr ""
 
 #: kcms/style/gtk_themes.knsrc:2
 #, fuzzy

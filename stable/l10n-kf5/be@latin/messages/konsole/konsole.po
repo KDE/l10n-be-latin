@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-13 02:24+0000\n"
+"POT-Creation-Date: 2022-07-16 02:19+0000\n"
 "PO-Revision-Date: 2008-10-04 13:30+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -2116,7 +2116,7 @@ msgstr "Nie ŭdałosia ŭklučyć prahramu „%1” z arhumentami „%2”."
 msgid "Silence in '%1' (Session '%2')"
 msgstr "Cišynia ŭ sesii „%1”"
 
-#: session/Session.cpp:665 session/Session.cpp:1823
+#: session/Session.cpp:665 session/Session.cpp:1771
 #: session/SessionController.cpp:360 terminalDisplay/TerminalBell.cpp:43
 #, fuzzy, kde-format
 #| msgid "Konsole"
@@ -2149,12 +2149,12 @@ msgstr "Prahrama „%1” złamałasia."
 msgid "Program '%1' exited with status %2."
 msgstr "Prahrama „%1” skončyła pracu z kodam %2."
 
-#: session/Session.cpp:1487
+#: session/Session.cpp:1435
 #, kde-format
 msgid "ZModem Progress"
 msgstr "Prahres „ZModem”"
 
-#: session/Session.cpp:1819
+#: session/Session.cpp:1767
 #, fuzzy, kde-format
 #| msgid "Activity in session '%1'"
 msgid "Activity in '%1' (Session '%2')"

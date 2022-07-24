@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-23 00:57+0000\n"
+"POT-Creation-Date: 2022-07-24 00:57+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -218,6 +218,14 @@ msgstr "Myš"
 msgctxt "Name"
 msgid "Plasma Renderer"
 msgstr ""
+
+#: kcms/recentFiles/kcm_recentFiles.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Font Files"
+msgctxt "Name"
+msgid "Recent Files"
+msgstr "Fajły šryftoŭ"
 
 #: kcms/runners/krunner/kcm_krunnersettings.json
 #, fuzzy
@@ -550,6 +558,11 @@ msgstr "Uklučeńnie aplikacyi"
 msgctxt "Description"
 msgid "Mouse Controls"
 msgstr "Data j čas"
+
+#: kcms/recentFiles/kcm_recentFiles.json
+msgctxt "Description"
+msgid "Manage your file activity history preferences"
+msgstr ""
 
 #: kcms/runners/krunner/kcm_krunnersettings.json
 #, fuzzy
@@ -1280,10 +1293,6 @@ msgstr "Pošuk"
 #~ msgctxt "Comment"
 #~ msgid "Install, manage and preview fonts"
 #~ msgstr "Absłuhoŭvaje instalavańni, kiravańnie j padhlad šryftoŭ"
-
-#~ msgctxt "Name"
-#~ msgid "Font Files"
-#~ msgstr "Fajły šryftoŭ"
 
 #~ msgctxt "Name"
 #~ msgid "Font Viewer"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-12 00:57+0000\n"
+"POT-Creation-Date: 2022-08-15 00:53+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -60,19 +60,6 @@ msgctxt "Name"
 msgid "Application Manuals"
 msgstr "Padručniki pa aplikacyjach"
 
-#: plugins/browsercontrolmodules.desktop:2
-msgctxt "Name"
-msgid "Browser Settings Modules"
-msgstr ""
-
-#: plugins/filemanagercontrolmodules.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "File Manager - Super User Mode"
-msgctxt "Name"
-msgid "Filemanager Settings Modules"
-msgstr "Kiraŭnik fajłaŭ: ad asoby karystańnika „root”"
-
 #: plugins/fundamentals.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -103,14 +90,6 @@ msgstr "Moduli KInfoCenter"
 msgctxt "Name"
 msgid "KIO Workers"
 msgstr ""
-
-#: plugins/konquerorcontrolmodules.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Konqueror Gestures"
-msgctxt "Name"
-msgid "Konqueror Settings Modules"
-msgstr "Žesty prahramy „Konqueror”"
 
 #: plugins/Manpages/.directory:2
 msgctxt "Name"
@@ -175,14 +154,6 @@ msgctxt "Name"
 msgid "Online Help"
 msgstr "Vyhlad „Dolphin”"
 
-#: plugins/othercontrolmodules.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System Settings"
-msgctxt "Name"
-msgid "Other Settings Modules"
-msgstr "Systemnyja nałady"
-
 #: plugins/plasma.desktop:4
 msgctxt "Name"
 msgid "Plasma Manual"
@@ -192,6 +163,27 @@ msgstr "Padručnik pa systemie „Plasma”"
 msgctxt "Name"
 msgid "Scrollkeeper"
 msgstr "Scrollkeeper"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "File Manager - Super User Mode"
+#~ msgctxt "Name"
+#~ msgid "Filemanager Settings Modules"
+#~ msgstr "Kiraŭnik fajłaŭ: ad asoby karystańnika „root”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Konqueror Gestures"
+#~ msgctxt "Name"
+#~ msgid "Konqueror Settings Modules"
+#~ msgstr "Žesty prahramy „Konqueror”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Settings"
+#~ msgctxt "Name"
+#~ msgid "Other Settings Modules"
+#~ msgstr "Systemnyja nałady"
 
 #~ msgctxt "Name"
 #~ msgid "Kioslaves"

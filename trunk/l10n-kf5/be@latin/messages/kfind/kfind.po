@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-22 00:49+0000\n"
+"POT-Creation-Date: 2022-08-24 00:50+0000\n"
 "PO-Revision-Date: 2008-10-06 20:57+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -173,7 +173,7 @@ msgctxt "%1=filename"
 msgid "Results were saved to: %1"
 msgstr "Vynik zapisany ŭ fajł\n"
 
-#: kfindtreeview.cpp:644 kftabdlg.cpp:397
+#: kfindtreeview.cpp:644 kftabdlg.cpp:395
 #, kde-format
 msgid "&Properties"
 msgstr "&Ułaścivaści"
@@ -297,7 +297,7 @@ msgstr "Nia bolš"
 msgid "Equal To"
 msgstr "Roŭna"
 
-#: kftabdlg.cpp:217 kftabdlg.cpp:830
+#: kftabdlg.cpp:217 kftabdlg.cpp:828
 #, fuzzy, kde-format
 #| msgid "Bytes"
 msgid "Byte"
@@ -419,19 +419,19 @@ msgstr "Usio videa"
 msgid "All Sounds"
 msgstr "Usie huki"
 
-#: kftabdlg.cpp:395
+#: kftabdlg.cpp:393
 #, kde-format
 msgid "Name/&Location"
 msgstr "Nazva/&miesca"
 
-#: kftabdlg.cpp:396
+#: kftabdlg.cpp:394
 #, fuzzy, kde-format
 #| msgid "C&ontents"
 msgctxt "tab name: search by contents"
 msgid "C&ontents"
 msgstr "&Źmieściva"
 
-#: kftabdlg.cpp:401
+#: kftabdlg.cpp:399
 #, kde-format
 msgid ""
 "<qt>Search within files' specific comments/metainfo<br />These are some "
@@ -440,7 +440,7 @@ msgid ""
 "resolution, comment...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:409
+#: kftabdlg.cpp:407
 #, kde-format
 msgid ""
 "<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
@@ -448,47 +448,47 @@ msgid ""
 "Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
 
-#: kftabdlg.cpp:550
+#: kftabdlg.cpp:548
 #, kde-format
 msgid "Unable to search within a period which is less than a minute."
 msgstr "Nie ŭdałosia šukać fajły ŭ adcinku času, mienšym za adnu chvilinu."
 
-#: kftabdlg.cpp:561
+#: kftabdlg.cpp:559
 #, kde-format
 msgid "The date is not valid."
 msgstr "Data niapravilnaja."
 
-#: kftabdlg.cpp:563
+#: kftabdlg.cpp:561
 #, kde-format
 msgid "Invalid date range."
 msgstr "Dyjapazon dataŭ niapravilny."
 
-#: kftabdlg.cpp:565
+#: kftabdlg.cpp:563
 #, kde-format
 msgid "Unable to search dates in the future."
 msgstr "Nie ŭdałosia adšukać daty z pryšłaści."
 
-#: kftabdlg.cpp:637
+#: kftabdlg.cpp:635
 #, kde-format
 msgid "Size is too big. Set maximum size value?"
 msgstr "Pamier zavialiki. Aznačyć najbolšy mahčymy pamier?"
 
-#: kftabdlg.cpp:637
+#: kftabdlg.cpp:635
 #, kde-format
 msgid "Error"
 msgstr "Pamyłka"
 
-#: kftabdlg.cpp:637
+#: kftabdlg.cpp:635
 #, kde-format
 msgid "Set"
 msgstr "Aznač"
 
-#: kftabdlg.cpp:637
+#: kftabdlg.cpp:635
 #, kde-format
 msgid "Do Not Set"
 msgstr "Nie aznačaj"
 
-#: kftabdlg.cpp:820
+#: kftabdlg.cpp:818
 #, fuzzy, kde-format
 msgctxt ""
 "during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
@@ -499,7 +499,7 @@ msgstr[0] "&ciaham"
 msgstr[1] "&ciaham"
 msgstr[2] "&ciaham"
 
-#: kftabdlg.cpp:821
+#: kftabdlg.cpp:819
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "minute"
@@ -508,7 +508,7 @@ msgstr[0] "chvilin"
 msgstr[1] "chvilin"
 msgstr[2] "chvilin"
 
-#: kftabdlg.cpp:822
+#: kftabdlg.cpp:820
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "hour"
@@ -517,7 +517,7 @@ msgstr[0] "hadzin"
 msgstr[1] "hadzin"
 msgstr[2] "hadzin"
 
-#: kftabdlg.cpp:823
+#: kftabdlg.cpp:821
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "day"
@@ -526,7 +526,7 @@ msgstr[0] "dzion"
 msgstr[1] "dzion"
 msgstr[2] "dzion"
 
-#: kftabdlg.cpp:824
+#: kftabdlg.cpp:822
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "month"
@@ -535,7 +535,7 @@ msgstr[0] "miesiacaŭ"
 msgstr[1] "miesiacaŭ"
 msgstr[2] "miesiacaŭ"
 
-#: kftabdlg.cpp:825
+#: kftabdlg.cpp:823
 #, fuzzy, kde-format
 msgctxt "use date ranges to search files by modified time"
 msgid "year"

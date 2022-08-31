@@ -15,8 +15,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Generator: KBabel 1.11.4\n"
 "X-Qt-Contexts: true\n"
 
@@ -430,6 +431,7 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ msgid "Delete File"
 #~ msgstr "Vydali fajł"
 
+#, fuzzy
 #~ msgid "Do you really want to delete this item?"
 #~ msgid_plural "Do you really want to delete these %1 items?"
 #~ msgstr[0] "Ci ty sapraŭdy chočaš vydalić %1 hety element?"
@@ -459,6 +461,7 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ msgid "&Trash"
 #~ msgstr "&Vykiń"
 
+#, fuzzy
 #~ msgid "translators: not called for n == 1"
 #~ msgid_plural "Do you really want to trash these %1 items?"
 #~ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu hety %1 element?"
@@ -2053,6 +2056,7 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ msgid "Properties for %1"
 #~ msgstr "Ułaścivaści dla %1"
 
+#, fuzzy
 #~ msgid "Properties for 1 item"
 #~ msgid_plural "Properties for %1 Selected Items"
 #~ msgstr[0] "Ułaścivaści dla %1 elementa"
@@ -2114,12 +2118,14 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ "Padličvańnie... %1 (%2)\n"
 #~ "%3, %4"
 
+#, fuzzy
 #~ msgid "1 file"
 #~ msgid_plural "%1 files"
 #~ msgstr[0] "%1 fajł"
 #~ msgstr[1] "%1 fajły"
 #~ msgstr[2] "%1 fajłaŭ"
 
+#, fuzzy
 #~ msgid "1 sub-folder"
 #~ msgid_plural "%1 sub-folders"
 #~ msgstr[0] "%1 padkataloh"
@@ -2169,6 +2175,7 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ msgid "Access Permissions"
 #~ msgstr "&Dazvoły na dostup"
 
+#, fuzzy
 #~ msgid "This file is a link and does not have permissions."
 #~ msgid_plural "All files are links and do not have permissions."
 #~ msgstr[0] "Hety fajł jość łučom i nia maje dazvołaŭ."
@@ -2376,12 +2383,14 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ msgid "Varying (No Change)"
 #~ msgstr "Roznaje (biaź źmienaŭ)"
 
+#, fuzzy
 #~ msgid "This file uses advanced permissions"
 #~ msgid_plural "These files use advanced permissions."
 #~ msgstr[0] "Hety fajł maje asablivyja dazvoły."
 #~ msgstr[1] "Hetyja fajły majuć asablivyja dazvoły."
 #~ msgstr[2] "Hetyja fajły majuć asablivyja dazvoły."
 
+#, fuzzy
 #~ msgid "This folder uses advanced permissions."
 #~ msgid_plural "These folders use advanced permissions."
 #~ msgstr[0] "Hety kataloh maje asablivyja dazvoły."
@@ -2528,24 +2537,28 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ msgid "Undo File Copy Confirmation"
 #~ msgstr "Paćviardžeńnie dla anulavańnia kapijavańnia"
 
+#, fuzzy
 #~ msgid "1 day %2"
 #~ msgid_plural "%1 days %2"
 #~ msgstr[0] "%1 dzień %2"
 #~ msgstr[1] "%1 dni %2"
 #~ msgstr[2] "%1 dzion %2"
 
+#, fuzzy
 #~ msgid "%1 Item"
 #~ msgid_plural "%1 Items"
 #~ msgstr[0] "%1 element"
 #~ msgstr[1] "%1 elementy"
 #~ msgstr[2] "%1 elementaŭ"
 
+#, fuzzy
 #~ msgid "1 Folder"
 #~ msgid_plural "%1 Folders"
 #~ msgstr[0] "%1 kataloh"
 #~ msgstr[1] "%1 katalohi"
 #~ msgstr[2] "%1 katalohaŭ"
 
+#, fuzzy
 #~ msgid "1 File"
 #~ msgid_plural "%1 Files"
 #~ msgstr[0] "%1 fajł"
@@ -3960,6 +3973,7 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ msgid "Unmounting"
 #~ msgstr "Admantavańnie"
 
+#, fuzzy
 #~ msgid "Do you really want to move this item to the trash?"
 #~ msgid_plural "Do you really want to move these %1 items to the trash?"
 #~ msgstr[0] "Ci ty sapraŭdy chočaš vykinuć u śmietnicu %1 hety element?"
@@ -4110,6 +4124,7 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ msgid "Open &with %1"
 #~ msgstr "Adčyni &ŭ: %1"
 
+#, fuzzy
 #~ msgctxt "Items in a folder"
 #~ msgid "1 item"
 #~ msgid_plural "%1 items"
@@ -4236,12 +4251,14 @@ msgstr "Adčyni ŭ novaj kartcy"
 #~ msgid "The clipboard is empty"
 #~ msgstr "Abmienny bufer pusty."
 
+#, fuzzy
 #~ msgid "&Paste File"
 #~ msgid_plural "&Paste %1 Files"
 #~ msgstr[0] "&Uklej %1 fajł"
 #~ msgstr[1] "&Uklej %1 fajły"
 #~ msgstr[2] "&Uklej %1 fajłaŭ"
 
+#, fuzzy
 #~ msgid "&Paste URL"
 #~ msgid_plural "&Paste %1 URLs"
 #~ msgstr[0] "&Uklej %1 adras"

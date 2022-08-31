@@ -15,8 +15,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #, kde-format
@@ -8242,7 +8243,7 @@ msgid "%1 seconds"
 msgstr "%1 sekundaŭ"
 
 #: kdecore/klocale_kde.cpp:1484
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@item:intext"
 msgid "%1 millisecond"
 msgid_plural "%1 milliseconds"
@@ -8251,7 +8252,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: kdecore/klocale_kde.cpp:1491
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@item:intext"
 msgid "1 day"
 msgid_plural "%1 days"
@@ -8260,7 +8261,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: kdecore/klocale_kde.cpp:1493
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@item:intext"
 msgid "1 hour"
 msgid_plural "%1 hours"
@@ -8269,7 +8270,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: kdecore/klocale_kde.cpp:1495
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@item:intext"
 msgid "1 minute"
 msgid_plural "%1 minutes"
@@ -8278,7 +8279,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: kdecore/klocale_kde.cpp:1497
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@item:intext"
 msgid "1 second"
 msgid_plural "%1 seconds"
@@ -13621,7 +13622,7 @@ msgid "Named Colors"
 msgstr "Nazoŭnyja kolery"
 
 #: kdeui/kcolordialog.cpp:746
-#, kde-format
+#, fuzzy, kde-format
 msgctxt ""
 "%1 is the number of paths, %2 is the list of paths (with newlines between "
 "them)"
@@ -13980,7 +13981,7 @@ msgid "Save As"
 msgstr "Zapišy jak"
 
 #: kio/kfilemetadataprovider.cpp:245
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@item:intable"
 msgid "%1 item"
 msgid_plural "%1 items"

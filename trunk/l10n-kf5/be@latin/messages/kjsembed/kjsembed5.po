@@ -15,8 +15,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: kjsembed/builtins.cpp:83 kjsembed/builtins.cpp:117
@@ -135,7 +136,7 @@ msgid "Incorrect number of arguments."
 msgstr "Niapravilnaja kolkaść arhumentaŭ."
 
 #: kjsembed/qobject_binding.cpp:409
-#, kde-format
+#, fuzzy, kde-format
 msgid "The slot asked for %1 argument"
 msgid_plural "The slot asked for %1 arguments"
 msgstr[0] ""
@@ -511,6 +512,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "Password is empty"
 #~ msgstr "Pusty parol"
 
+#, fuzzy
 #~ msgid "Password must be at least 1 character long"
 #~ msgid_plural "Password must be at least %1 characters long"
 #~ msgstr[0] "Parol nia moža być karaciejšym ad %1 znaka."
@@ -1926,6 +1928,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgstr[1] "%1 milisekundaŭ"
 #~ msgstr[2] "%1 milisekundaŭ"
 
+#, fuzzy
 #~ msgctxt "@item:intext"
 #~ msgid "1 day"
 #~ msgid_plural "%1 days"
@@ -1933,6 +1936,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgstr[1] "%1 dni"
 #~ msgstr[2] "%1 dzion"
 
+#, fuzzy
 #~ msgctxt "@item:intext"
 #~ msgid "1 hour"
 #~ msgid_plural "%1 hours"
@@ -1940,6 +1944,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgstr[1] "%1 hadziny"
 #~ msgstr[2] "%1 hadzinaŭ"
 
+#, fuzzy
 #~ msgctxt "@item:intext"
 #~ msgid "1 minute"
 #~ msgid_plural "%1 minutes"
@@ -1947,6 +1952,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgstr[1] "%1 chviliny"
 #~ msgstr[2] "%1 chvilinaŭ"
 
+#, fuzzy
 #~ msgctxt "@item:intext"
 #~ msgid "1 second"
 #~ msgid_plural "%1 seconds"
@@ -2609,6 +2615,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "system error"
 #~ msgstr "systemnaja pamyłka"
 
+#, fuzzy
 #~ msgid "Could not find mime type <resource>%2</resource>"
 #~ msgid_plural ""
 #~ "Could not find mime types:\n"
@@ -4159,6 +4166,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "<qt>Find next occurrence of '<b>%1</b>'?</qt>"
 #~ msgstr "<qt>Znajści nastupny adpaviednik dla „<b>%1</b>”?</qt>"
 
+#, fuzzy
 #~ msgid "1 match found."
 #~ msgid_plural "%1 matches found."
 #~ msgstr[0] "Znojdzieny %1 adpaviednik."
@@ -4324,6 +4332,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "No text was replaced."
 #~ msgstr "Ničoha nie było zamieniena."
 
+#, fuzzy
 #~ msgid "1 replacement done."
 #~ msgid_plural "%1 replacements done."
 #~ msgstr[0] "Zroblenaja %1 zamiena."
@@ -4528,12 +4537,14 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "%1:"
 #~ msgstr "%1:"
 
+#, fuzzy
 #~ msgid "%2 / %1 folder"
 #~ msgid_plural "%2 / %1 folders"
 #~ msgstr[0] "%2 / %1 kataloh"
 #~ msgstr[1] "%2 / %1 katalohi"
 #~ msgstr[2] "%2 / %1 katalohaŭ"
 
+#, fuzzy
 #~ msgid "%2 / %1 file"
 #~ msgid_plural "%2 / %1 files"
 #~ msgstr[0] "%2 / %1 fajł"
@@ -4543,6 +4554,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "%1% of %2"
 #~ msgstr "%1% z %2"
 
+#, fuzzy
 #~ msgid "%2% of 1 file"
 #~ msgid_plural "%2% of %1 files"
 #~ msgstr[0] "%2% z %1 fajła"
@@ -4555,6 +4567,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "Stalled"
 #~ msgstr "Zahrazła"
 
+#, fuzzy
 #~ msgid "%2/s (%3 remaining)"
 #~ msgid_plural "%2/s (%3 remaining)"
 #~ msgstr[0] "%2/s (zastaŭsia %3)"
@@ -4597,12 +4610,14 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "Progress Dialog"
 #~ msgstr "Akno vyjaŭleńnia aperacyi"
 
+#, fuzzy
 #~ msgid "%1 folder"
 #~ msgid_plural "%1 folders"
 #~ msgstr[0] "%1 kataloh"
 #~ msgstr[1] "%1 katalohi"
 #~ msgstr[2] "%1 katalohaŭ"
 
+#, fuzzy
 #~ msgid "%1 file"
 #~ msgid_plural "%1 files"
 #~ msgstr[0] "%1 fajł"
@@ -7105,6 +7120,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "Page loaded."
 #~ msgstr "Staronka pračytanaja."
 
+#, fuzzy
 #~ msgid "%1 Image of %2 loaded."
 #~ msgid_plural "%1 Images of %2 loaded."
 #~ msgstr[0] "%1 vyjava z %2 pračytanaja."
@@ -7277,6 +7293,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ "pavodziny\n"
 #~ "systemy albo adčynić ustrymanaje akno."
 
+#, fuzzy
 #~ msgid "&Show Blocked Popup Window"
 #~ msgid_plural "&Show %1 Blocked Popup Windows"
 #~ msgstr[0] "&Pakažy %1 ŭstrymanaje vypłyŭnoje akno"
@@ -8911,6 +8928,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid "Dependency Check"
 #~ msgstr "Spraŭdžvańnie zaležnaściaŭ"
 
+#, fuzzy
 #~ msgid "%1 plugin automatically added due to plugin dependencies"
 #~ msgid_plural "%1 plugins automatically added due to plugin dependencies"
 #~ msgstr[0] ""
@@ -8925,6 +8943,7 @@ msgstr "Praz vyklik slota „%1” z %2:%3:%4 uźnikła vyklučeńnie."
 #~ msgid ", "
 #~ msgstr ", "
 
+#, fuzzy
 #~ msgid "%1 plugin automatically removed due to plugin dependencies"
 #~ msgid_plural "%1 plugins automatically removed due to plugin dependencies"
 #~ msgstr[0] "%1 plugin aŭtamatyčna vydaleny z pryčyny jahonych zaležnaściaŭ."

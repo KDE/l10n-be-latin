@@ -11,8 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 40.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Crowdin-Project: f442fbe6afade2008592f34c8bb2e83e\n"
 "X-Crowdin-Project-ID: 123\n"
 "X-Crowdin-Language: be\n"
@@ -2081,6 +2082,7 @@ msgstr "Haloŭnaja paneĺ instrumientaŭ"
 #~ msgid "Password is empty"
 #~ msgstr "Paroĺ pusty"
 
+#, fuzzy
 #~ msgid "Password must be at least 1 character long"
 #~ msgid_plural "Password must be at least %1 characters long"
 #~ msgstr[0] "Paroĺ pavinny skladacca z jak mienš %1 simvalu"
@@ -4102,6 +4104,7 @@ msgstr "Haloŭnaja paneĺ instrumientaŭ"
 #~ msgid "system error"
 #~ msgstr "sistemnaja pamylka"
 
+#, fuzzy
 #~ msgid "Could not find mime type <resource>%2</resource>"
 #~ msgid_plural ""
 #~ "Could not find mime types:\n"
@@ -5243,6 +5246,7 @@ msgstr "Haloŭnaja paneĺ instrumientaŭ"
 #~ msgid "No text was replaced."
 #~ msgstr "Tekst nie zamienieny."
 
+#, fuzzy
 #~ msgid "1 replacement done."
 #~ msgid_plural "%1 replacements done."
 #~ msgstr[0] "Zrobliena %1 zamiena."
@@ -5550,6 +5554,7 @@ msgstr "Haloŭnaja paneĺ instrumientaŭ"
 #~ msgstr[1] "Tečki: %1"
 #~ msgstr[2] "Tečki: %1"
 
+#, fuzzy
 #~ msgid "%1 file"
 #~ msgid_plural "%1 files"
 #~ msgstr[0] "%1 fajl"
@@ -7886,6 +7891,7 @@ msgstr "Haloŭnaja paneĺ instrumientaŭ"
 #~ msgid "Page loaded."
 #~ msgstr "Staronka zahružanaja."
 
+#, fuzzy
 #~ msgid "%1 Image of %2 loaded."
 #~ msgid_plural "%1 Images of %2 loaded."
 #~ msgstr[0] "%1 maliunak z %2 zahružany."
@@ -8017,6 +8023,7 @@ msgstr "Haloŭnaja paneĺ instrumientaŭ"
 #~ msgid "Popup Window Blocked"
 #~ msgstr "Vyplyŭnaje akno zablakavanaje"
 
+#, fuzzy
 #~ msgid "&Show Blocked Popup Window"
 #~ msgid_plural "&Show %1 Blocked Popup Windows"
 #~ msgstr[0] "&Pakazać %1 zablakavanaje vyplyŭnaje akno"
@@ -12558,6 +12565,7 @@ msgstr "Haloŭnaja paneĺ instrumientaŭ"
 #~ msgid "&Trash"
 #~ msgstr "&U smietnicu"
 
+#, fuzzy
 #~ msgid "translators: not called for n == 1"
 #~ msgid_plural "Do you really want to trash these %1 items?"
 #~ msgstr[0] "Vy sapraŭdy chočacie pieraniesci ŭ smietnicu %1 eliemient?"

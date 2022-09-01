@@ -16,8 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
 
 #: package/contents/ui/BatteryItem.qml:95
 #, kde-format
@@ -246,7 +247,7 @@ msgid ""
 msgstr ""
 
 #: package/contents/ui/PowerManagementItem.qml:76
-#, kde-format
+#, fuzzy, kde-format
 msgid "%1 application is currently blocking sleep and screen locking:"
 msgid_plural "%1 applications are currently blocking sleep and screen locking:"
 msgstr[0] ""
@@ -334,7 +335,7 @@ msgid "Performance may be reduced."
 msgstr "Kiravańnie enerhijaj"
 
 #: package/contents/ui/PowerProfileItem.qml:208
-#, kde-format
+#, fuzzy, kde-format
 msgid "One application has requested activating %2:"
 msgid_plural "%1 applications have requested activating %2:"
 msgstr[0] ""
@@ -498,12 +499,14 @@ msgstr ""
 #~ msgid "<b>Battery %1:</b> %2% (discharging)<br />"
 #~ msgstr "<b>Batareja %1:</b> %2% (spustašajecca)<br />"
 
+#, fuzzy
 #~ msgid "<b>1 hour 1 minute</b> remaining<br />"
 #~ msgid_plural "<b>1 hour %1 minutes</b> remaining<br />"
 #~ msgstr[0] "Zastałasia <b>1 hadzina i %1 chvilina</b><br />"
 #~ msgstr[1] "Zastałasia <b>1 hadzina i %1 chviliny</b><br />"
 #~ msgstr[2] "Zastałasia <b>1 hadzina i %1 chvilin</b><br />"
 
+#, fuzzy
 #~ msgid "<b>%1 hour %1 minute</b> remaining<br />"
 #~ msgid_plural "<b>%1 hours %2 minute</b> remaining<br />"
 #~ msgstr[0] "Zastałasia <b>%1 hadzina i %2 chvilina</b><br />"
@@ -521,6 +524,7 @@ msgstr ""
 #~ msgid "<b>%1 hours</b> remaining<br />"
 #~ msgstr "Zastałosia <b>%1 hadzin</b><br />"
 
+#, fuzzy
 #~ msgid "<b>%1 minute</b> remaining<br />"
 #~ msgid_plural "<b>%1 minutes</b> remaining<br />"
 #~ msgstr[0] "Zastałasia <b>%1 chvilina</b><br />"

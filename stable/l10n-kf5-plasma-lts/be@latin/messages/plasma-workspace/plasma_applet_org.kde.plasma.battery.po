@@ -257,7 +257,7 @@ msgid "%1 is currently blocking sleep and screen locking (unknown reason)"
 msgstr ""
 
 #: package/contents/ui/PowerManagementItem.qml:91
-#, kde-format
+#, fuzzy, kde-format
 msgid "%1 application is currently blocking sleep and screen locking:"
 msgid_plural "%1 applications are currently blocking sleep and screen locking:"
 msgstr[0] ""
@@ -335,7 +335,7 @@ msgid "Performance may be reduced."
 msgstr "Kiravańnie enerhijaj"
 
 #: package/contents/ui/PowerProfileItem.qml:171
-#, kde-format
+#, fuzzy, kde-format
 msgid "One application has requested activating %2:"
 msgid_plural "%1 applications have requested activating %2:"
 msgstr[0] ""
@@ -499,12 +499,14 @@ msgstr ""
 #~ msgid "<b>Battery %1:</b> %2% (discharging)<br />"
 #~ msgstr "<b>Batareja %1:</b> %2% (spustašajecca)<br />"
 
+#, fuzzy
 #~ msgid "<b>1 hour 1 minute</b> remaining<br />"
 #~ msgid_plural "<b>1 hour %1 minutes</b> remaining<br />"
 #~ msgstr[0] "Zastałasia <b>1 hadzina i %1 chvilina</b><br />"
 #~ msgstr[1] "Zastałasia <b>1 hadzina i %1 chviliny</b><br />"
 #~ msgstr[2] "Zastałasia <b>1 hadzina i %1 chvilin</b><br />"
 
+#, fuzzy
 #~ msgid "<b>%1 hour %1 minute</b> remaining<br />"
 #~ msgid_plural "<b>%1 hours %2 minute</b> remaining<br />"
 #~ msgstr[0] "Zastałasia <b>%1 hadzina i %2 chvilina</b><br />"
@@ -522,6 +524,7 @@ msgstr ""
 #~ msgid "<b>%1 hours</b> remaining<br />"
 #~ msgstr "Zastałosia <b>%1 hadzin</b><br />"
 
+#, fuzzy
 #~ msgid "<b>%1 minute</b> remaining<br />"
 #~ msgid_plural "<b>%1 minutes</b> remaining<br />"
 #~ msgstr[0] "Zastałasia <b>%1 chvilina</b><br />"

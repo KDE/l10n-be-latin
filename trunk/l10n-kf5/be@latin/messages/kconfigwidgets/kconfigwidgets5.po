@@ -20,7 +20,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Crowdin-Project: 86ff119b1606fcaa910d6b44fc14b611\n"
 "X-Crowdin-Project-ID: 127\n"
 "X-Crowdin-Language: be\n"
@@ -43,12 +45,12 @@ msgid "You will be asked to authenticate before saving"
 msgstr "Pierad zachavanniem vam budzie prapanavana vykanać aŭtentyfikacyju"
 
 #: kcmodule.cpp:202
-#| msgid "Do you want to reload KDE configuration?"
+#, kde-format
 msgid "You are not allowed to save the configuration"
 msgstr "Vy nie majecie pravoŭ na zachavannie kanfihuracyi"
 
 #: kcodecaction.cpp:66
-#| msgid "Default"
+#, kde-format
 msgctxt "Encodings menu"
 msgid "Default"
 msgstr "Pradvyznačana"
@@ -60,12 +62,12 @@ msgid "Autodetect"
 msgstr "Aŭtamatyčnaje vyznačennie"
 
 #: kcolorschememanager.cpp:226 kcolorschememanager.cpp:235
-#| msgid "Shortcuts"
+#, kde-format
 msgid "Color Scheme"
 msgstr "Kolieravaja schiema"
 
 #: kcolorschememodel.cpp:71
-#| msgid "Default"
+#, kde-format
 msgid "Default"
 msgstr "Pradvyznačana"
 
@@ -75,42 +77,43 @@ msgid "No commands matching the filter"
 msgstr "Niama zahadaŭ, jakija adpaviadajuć fiĺtru"
 
 #: kconfigdialog.cpp:37
-#| msgid "Configure"
+#, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Naladžvannie"
 
 #: khamburgermenu.cpp:117
-#| msgid "Menu"
+#, kde-format
 msgctxt "@action:inmenu General purpose menu"
 msgid "&Menu"
 msgstr "&Mieniu"
 
 #: khamburgermenu.cpp:318
-#| msgid "Show all options"
+#, kde-format
 msgctxt "@action:inmenu A menu item that advertises and enables the menubar"
 msgid "Show &Menubar with All Actions"
 msgstr "Pakazvać &paneĺ mieniu z usimi dziejanniami"
 
 #: khamburgermenu.cpp:344
-#| msgid "Choose..."
+#, kde-format
 msgctxt "@action:inmenu A menu text advertising its contents (more features)."
 msgid "More"
 msgstr "Jašče"
 
 #: khamburgermenu.cpp:345
-#| msgid "Action"
-msgctxt "@action:inmenu A section heading advertising the contents of the menu bar"
+#, kde-format
+msgctxt ""
+"@action:inmenu A section heading advertising the contents of the menu bar"
 msgid "More Actions"
 msgstr "Dadatkovyja dziejanni"
 
 #: krecentfilesaction.cpp:70
-#| msgid "No entries"
+#, kde-format
 msgid "No Entries"
 msgstr "Niama zapisaŭ"
 
 #: krecentfilesaction.cpp:76
-#| msgid "Clear input"
+#, kde-format
 msgid "Clear List"
 msgstr "Ačyscić spis"
 
@@ -141,21 +144,23 @@ msgstr "&Daviedka"
 #: kstandardaction.cpp:233
 #, kde-format
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
-msgstr "Pakazvać mieniu<p>Pakazvaje mieniu paslia taho, jak jano bylo schavana</p>"
+msgstr ""
+"Pakazvać mieniu<p>Pakazvaje mieniu paslia taho, jak jano bylo schavana</p>"
 
 #: kstandardaction.cpp:254
-#| msgid ""
-#| "Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
-#| "bottom of the window used for status information."
-msgid "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the window used for status information.</p>"
-msgstr "Pakazvać paneĺ stanu<p>Pakazvaje paneĺ stanu, jakaja ŭjaŭliaje saboj paneĺ unizie akna, na jakoj pakazvajucca zviestki pra stan.</p>"
+#, kde-format
+msgid ""
+"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
+"window used for status information.</p>"
+msgstr ""
+"Pakazvać paneĺ stanu<p>Pakazvaje paneĺ stanu, jakaja ŭjaŭliaje saboj paneĺ "
+"unizie akna, na jakoj pakazvajucca zviestki pra stan.</p>"
 
 #: kstandardaction_p.h:30
 msgid "&New"
 msgstr "&Stvaryć"
 
 #: kstandardaction_p.h:30
-#| msgid "Create New Tag..."
 msgid "Create new document"
 msgstr "Stvaryć novy dakumient"
 
@@ -164,7 +169,6 @@ msgid "&Open..."
 msgstr "&Adkryć..."
 
 #: kstandardaction_p.h:31
-#| msgid "Go back one step"
 msgid "Open an existing document"
 msgstr "Adkryć isny dakumient"
 
@@ -181,7 +185,6 @@ msgid "&Save"
 msgstr "&Zachavać"
 
 #: kstandardaction_p.h:33
-#| msgid "Close Document"
 msgid "Save document"
 msgstr "Zachavać dakumient"
 
@@ -190,7 +193,6 @@ msgid "Save &As..."
 msgstr "Zachavać &jak..."
 
 #: kstandardaction_p.h:34
-#| msgid "Close Document"
 msgid "Save document under a new name"
 msgstr "Zachavać dakumient pad novaj nazvaj"
 
@@ -207,7 +209,6 @@ msgid "&Close"
 msgstr "Za&kryć"
 
 #: kstandardaction_p.h:36
-#| msgid "Close Document"
 msgid "Close document"
 msgstr "Zakryć dakumient"
 
@@ -216,8 +217,6 @@ msgid "&Print..."
 msgstr "&Drukavać..."
 
 #: kstandardaction_p.h:37
-#| msgctxt "keyboard-key-name"
-#| msgid "PrintScreen"
 msgid "Print document"
 msgstr "Drukavać dakumient"
 
@@ -234,7 +233,6 @@ msgid "&Mail..."
 msgstr "&Napisać list..."
 
 #: kstandardaction_p.h:39
-#| msgid "Close Document"
 msgid "Send document by mail"
 msgstr "Adpravić dakumient pa eliektronnaj pošcie"
 
@@ -251,7 +249,6 @@ msgid "&Undo"
 msgstr "&Adrabić"
 
 #: kstandardaction_p.h:42
-#| msgid "HTML documentation"
 msgid "Undo last action"
 msgstr "Adrabić apošniaje dziejannie"
 
@@ -260,7 +257,6 @@ msgid "Re&do"
 msgstr "Pa&ŭtaryć"
 
 #: kstandardaction_p.h:43
-#| msgid "HTML documentation"
 msgid "Redo last undone action"
 msgstr "Paŭtaryć apošniaje dziejannie"
 
@@ -285,7 +281,6 @@ msgid "&Paste"
 msgstr "&Ustavić"
 
 #: kstandardaction_p.h:46 kstandardaction_p.h:48
-#| msgid "Print Preview"
 msgid "Paste clipboard content"
 msgstr "Ustavić zmiesciva z bufiera abmienu"
 
@@ -318,7 +313,6 @@ msgid "&Replace..."
 msgstr "&Zamianić..."
 
 #: kstandardaction_p.h:58
-#| msgid "&Actual Size"
 msgid "Zoom to &Actual Size"
 msgstr "Maštabavać da &sapraŭdnaha pamieru"
 
@@ -331,8 +325,6 @@ msgid "&Fit to Page"
 msgstr "Pa &pamiery staronki"
 
 #: kstandardaction_p.h:59
-#| msgctxt "@action"
-#| msgid "Go to Line"
 msgid "Zoom to fit page in window"
 msgstr "Maštabavać pa pamiery akna"
 
@@ -365,7 +357,6 @@ msgid "&Zoom..."
 msgstr "&Maštabavannie..."
 
 #: kstandardaction_p.h:64
-#| msgid "Select a week"
 msgid "Select zoom level"
 msgstr "Abrać uzrovień pavieličennia"
 
@@ -374,7 +365,6 @@ msgid "&Refresh"
 msgstr "&Abnavić"
 
 #: kstandardaction_p.h:65
-#| msgid "&Redisplay"
 msgid "Refresh document"
 msgstr "Abnavić dakumient"
 
@@ -391,7 +381,6 @@ msgid "&Previous Page"
 msgstr "&Papiaredniaja staronka"
 
 #: kstandardaction_p.h:72
-#| msgid "&Previous Page"
 msgid "Go to previous page"
 msgstr "Pierajsci da papiaredniaj staronki"
 
@@ -400,8 +389,6 @@ msgid "&Next Page"
 msgstr "&Nastupnaja staronka"
 
 #: kstandardaction_p.h:73
-#| msgctxt "@action"
-#| msgid "Go to Line"
 msgid "Go to next page"
 msgstr "Pierajsci da nastupnaj staronki"
 
@@ -422,8 +409,6 @@ msgid "&First Page"
 msgstr "&Pieršaja staronka"
 
 #: kstandardaction_p.h:77
-#| msgctxt "@action"
-#| msgid "Go to Line"
 msgid "Go to first page"
 msgstr "Pierajsci da pieršaj staronki"
 
@@ -432,7 +417,6 @@ msgid "&Last Page"
 msgstr "&Apošniaja staronka"
 
 #: kstandardaction_p.h:78
-#| msgid "&Go to Page..."
 msgid "Go to last page"
 msgstr "Pierajsci da apošniaj staronki"
 
@@ -441,18 +425,14 @@ msgid "&Back"
 msgstr "&Nazad"
 
 #: kstandardaction_p.h:79
-#| msgid "Go back one step"
 msgid "Go back in document"
 msgstr "Pierajsci nazad u dakumiencie"
 
 #: kstandardaction_p.h:80
-#| msgctxt "go forward"
-#| msgid "&Forward"
 msgid "&Forward"
 msgstr "D&aliej"
 
 #: kstandardaction_p.h:80
-#| msgid "Go forward one step"
 msgid "Go forward in document"
 msgstr "Pierajsci napierad ŭ dakumiencie"
 
@@ -461,7 +441,6 @@ msgid "&Add Bookmark"
 msgstr "&Dadać zakladku"
 
 #: kstandardaction_p.h:83
-#| msgid "&Edit Bookmarks"
 msgid "&Edit Bookmarks..."
 msgstr "&Redahavać zakladki..."
 
@@ -470,7 +449,6 @@ msgid "&Spelling..."
 msgstr "&Pravieryć pravapis..."
 
 #: kstandardaction_p.h:85
-#| msgid "Check Spelling"
 msgid "Check spelling in document"
 msgstr "Pravieryć pravapis u dakumiencie"
 
@@ -479,7 +457,6 @@ msgid "Show &Menubar"
 msgstr "Pakazvać &mieniu"
 
 #: kstandardaction_p.h:87
-#| msgid "Show &Menubar"
 msgid "Show or hide menubar"
 msgstr "Pakazać abo schavać paneĺ mieniu"
 
@@ -488,7 +465,6 @@ msgid "Show &Toolbar"
 msgstr "Pakazvać &paneĺ instrumientaŭ"
 
 #: kstandardaction_p.h:88
-#| msgid "Show &Toolbar"
 msgid "Show or hide toolbar"
 msgstr "Pakazać abo schavać paneĺ instrumientaŭ"
 
@@ -497,7 +473,6 @@ msgid "Show St&atusbar"
 msgstr "Pakazvać paneĺ st&anu"
 
 #: kstandardaction_p.h:89
-#| msgid "Show St&atusbar"
 msgid "Show or hide statusbar"
 msgstr "Pakazać abo schavać paneĺ stanu"
 
@@ -510,7 +485,6 @@ msgid "&Save Settings"
 msgstr "&Zachavać nalady"
 
 #: kstandardaction_p.h:94
-#| msgid "Configure S&hortcuts..."
 msgid "Configure Keyboard S&hortcuts..."
 msgstr "Naladžvannie &spalučenniaŭ klaviš..."
 
@@ -533,7 +507,9 @@ msgid "%1 &Handbook"
 msgstr "&Daviednik pa %1"
 
 #: kstandardaction_p.h:105
-msgid "Whats &This?"
+#, fuzzy
+#| msgid "Whats &This?"
+msgid "What's &This?"
 msgstr "Što &heta?"
 
 #: kstandardaction_p.h:106
@@ -545,7 +521,6 @@ msgid "&Report Bug..."
 msgstr "&Paviedamić pra chibu..."
 
 #: kstandardaction_p.h:108
-#| msgid "Configure Email..."
 msgid "Configure &Language..."
 msgstr "Naladžvannie &movy..."
 
@@ -563,12 +538,10 @@ msgid "&Delete"
 msgstr "V&ydalić"
 
 #: kstandardaction_p.h:112
-#| msgid "&Replace..."
 msgid "&Rename..."
 msgstr "Z&mianić nazvu..."
 
 #: kstandardaction_p.h:113
-#| msgid "Move to Trash"
 msgid "&Move to Trash"
 msgstr "&Pieramiascić u smietnicu"
 
@@ -577,37 +550,35 @@ msgid "&Donate"
 msgstr "&Achviaravać"
 
 #: kstandardaction_p.h:115
-#| msgid "Open &Recent"
 msgid "Open &Menu"
 msgstr "Adkryć &mieniu"
 
 #: ktipdialog.cpp:219
-#| msgid "Tip of the Day"
+#, kde-format
 msgctxt "@title:window"
 msgid "Tip of the Day"
 msgstr "Karysnaja parada"
 
 #: ktipdialog.cpp:235
-#| msgid "Did you know...?\n"
+#, kde-format
 msgctxt "@title"
 msgid "Did you know...?\n"
 msgstr "Vy viedali, što...?\n"
 
 #: ktipdialog.cpp:288
-#| msgid "&Show tips on startup"
+#, kde-format
 msgctxt "@option:check"
 msgid "&Show tips on startup"
 msgstr "&Pakazvać parady padčas zapusku"
 
 #: ktipdialog.cpp:293
-#| msgid "&Previous"
+#, kde-format
 msgctxt "@action:button Goes to previous tip"
 msgid "&Previous"
 msgstr "&Papiaredniaja"
 
 #: ktipdialog.cpp:298
-#| msgctxt "Opposite to Previous"
-#| msgid "&Next"
+#, kde-format
 msgctxt "@action:button Goes to next tip, opposite to previous"
 msgid "&Next"
 msgstr "&Nastupnaja"
@@ -865,7 +836,8 @@ msgstr "&Nastupnaja"
 
 #~ msgctxt "@option:check"
 #~ msgid "Create &root/affix combinations not in dictionary"
-#~ msgstr "Stvarać &karaniovyja/kančatkavyja spalučenni, jakich niama ŭ sloŭniku"
+#~ msgstr ""
+#~ "Stvarać &karaniovyja/kančatkavyja spalučenni, jakich niama ŭ sloŭniku"
 
 #~ msgctxt "@option:check"
 #~ msgid "Consider run-together &words as spelling errors"
@@ -1051,16 +1023,17 @@ msgstr "&Nastupnaja"
 #~ "<b>Replace All</b>.</p>\n"
 #~ "</qt>"
 #~ msgstr ""
-#~ "<qt><p>Hetaje slova paznačana jak \"nieviadomaje slova\", bo jano nie adpaviadaje "
-#~ "nivodnamu zapisu ŭ sloŭniku. Mahčyma, heta inšamoŭnaje slova.</p>\n"
+#~ "<qt><p>Hetaje slova paznačana jak \"nieviadomaje slova\", bo jano nie "
+#~ "adpaviadaje nivodnamu zapisu ŭ sloŭniku. Mahčyma, heta inšamoŭnaje slova."
+#~ "</p>\n"
 #~ "<p>Kali slova napisanaje praviĺna, vy možacie dadać jaho ŭ sloŭnik, "
-#~ "nacisnuŭšy <b>Dadać u sloŭnik</b>. Kali vy nie chočacie dadavać nieviadomaje "
-#~ "slova ŭ sloŭnik, alie chočacie pakinuć jaho, nacisnicie <b>Prapuscić</b> ci "
-#~ "<b>Prapuscić usio</b>.</p>\n"
+#~ "nacisnuŭšy <b>Dadać u sloŭnik</b>. Kali vy nie chočacie dadavać "
+#~ "nieviadomaje slova ŭ sloŭnik, alie chočacie pakinuć jaho, nacisnicie "
+#~ "<b>Prapuscić</b> ci <b>Prapuscić usio</b>.</p>\n"
 #~ "<p>Kali slova napisanaje niapraviĺna, vy možacie pasprabavać znajsci "
-#~ "praviĺny varyjant u spisie. Kali vy nie možacie znajsci praviĺny varyjant u "
-#~ "spisie, vyznačycie svoj varyjant u tekstavym poli i nacisnicie <b>Zamianić</"
-#~ "b> ci <b>Zamianić usio</b>.</p>\n"
+#~ "praviĺny varyjant u spisie. Kali vy nie možacie znajsci praviĺny varyjant "
+#~ "u spisie, vyznačycie svoj varyjant u tekstavym poli i nacisnicie "
+#~ "<b>Zamianić</b> ci <b>Zamianić usio</b>.</p>\n"
 #~ "</qt>"
 
 #~ msgid "Unknown word:"
@@ -1097,10 +1070,10 @@ msgstr "&Nastupnaja"
 #~ "</qt>"
 #~ msgstr ""
 #~ "<qt>\n"
-#~ "<p>Heta kavalak tekstu, jaki pakazvaje nieviadomaje slova ŭ kantekscie. Kali "
-#~ "hetaj infarmacyi nie chapaje dlia praviĺnaha vybaru najliepšaha varyjantu, vy "
-#~ "možacie pierakliučycca na dakumient, pračytać boĺšy kavalak tekstu i "
-#~ "viarnucca siudy, kab praciahnuć spraŭdžvannie pravapisu.</p>\n"
+#~ "<p>Heta kavalak tekstu, jaki pakazvaje nieviadomaje slova ŭ kantekscie. "
+#~ "Kali hetaj infarmacyi nie chapaje dlia praviĺnaha vybaru najliepšaha "
+#~ "varyjantu, vy možacie pierakliučycca na dakumient, pračytać boĺšy kavalak "
+#~ "tekstu i viarnucca siudy, kab praciahnuć spraŭdžvannie pravapisu.</p>\n"
 #~ "</qt>"
 
 #~ msgid "... the <b>misspelled</b> word shown in context ..."
@@ -1128,10 +1101,10 @@ msgstr "&Nastupnaja"
 #~ msgstr ""
 #~ "<qt>\n"
 #~ "<p>Znojdziena nieviadomaje slova. Jaho niama ŭ sloŭniku.<br>\n"
-#~ "Nacisnicie tut, kali slova napisanaje praviĺna i kali vy nie chočacie, kab "
-#~ "hetaje slova ličylasia niapraviĺnym pry daliejšych spraŭdžvanniach pravapisu. "
-#~ "Kali vy chočacie pakinuć jaho biez zmienaŭ, nacisnicie <b>Prapuscić</b> ci "
-#~ "<b>Prapuscić usio</b>.</p>\n"
+#~ "Nacisnicie tut, kali slova napisanaje praviĺna i kali vy nie chočacie, "
+#~ "kab hetaje slova ličylasia niapraviĺnym pry daliejšych spraŭdžvanniach "
+#~ "pravapisu. Kali vy chočacie pakinuć jaho biez zmienaŭ, nacisnicie "
+#~ "<b>Prapuscić</b> ci <b>Prapuscić usio</b>.</p>\n"
 #~ "</qt>"
 
 #~ msgid "<< Add to Dictionary"
@@ -1144,8 +1117,8 @@ msgstr "&Nastupnaja"
 #~ "</qt>"
 #~ msgstr ""
 #~ "<qt>\n"
-#~ "<p>Nacisnicie tut, kab zamianić usie takija niapraviĺnyja slovy na varyjant, "
-#~ "vyznačany ŭ tekstavym poli.</p>\n"
+#~ "<p>Nacisnicie tut, kab zamianić usie takija niapraviĺnyja slovy na "
+#~ "varyjant, vyznačany ŭ tekstavym poli.</p>\n"
 #~ "</qt>"
 
 #~ msgid "R&eplace All"
@@ -1166,13 +1139,13 @@ msgstr "&Nastupnaja"
 #~ "</qt>"
 #~ msgstr ""
 #~ "<qt>\n"
-#~ "<p>Kali nieviadomaje slova niapraviĺna napisana, praviercie, ci josć u spisie "
-#~ "prapanovaŭ praviĺny varyjant hetaha slova, i vybierycie jaho. Kali ŭ hetym "
-#~ "spisie niama praviĺnaha varyjantu, vy možacie vyznačyć svoj varyjant u "
-#~ "tekstavym poli.</p>\n"
+#~ "<p>Kali nieviadomaje slova niapraviĺna napisana, praviercie, ci josć u "
+#~ "spisie prapanovaŭ praviĺny varyjant hetaha slova, i vybierycie jaho. Kali "
+#~ "ŭ hetym spisie niama praviĺnaha varyjantu, vy možacie vyznačyć svoj "
+#~ "varyjant u tekstavym poli.</p>\n"
 #~ "<p>Kab vypravić toĺki hetaje slova, nacisnicie <b>Zamianić</b>, kab "
-#~ "vypravić usie takija niapraviĺnyja slovy daliej, nacisnicie <b>Zamianić usio</"
-#~ "b>.</p>\n"
+#~ "vypravić usie takija niapraviĺnyja slovy daliej, nacisnicie <b>Zamianić "
+#~ "usio</b>.</p>\n"
 #~ "</qt>"
 
 #~ msgid "Suggested Words"
@@ -1205,8 +1178,8 @@ msgstr "&Nastupnaja"
 #~ "<p>Kali nieviadomaje slova niapraviĺna napisana, vy pavinny vyznačyć tut "
 #~ "praviĺny varyjant ci vybrać jaho ŭ spisie.</p>\n"
 #~ "<p>Paslia vy možacie nacisnuć <b>Zamianić</b>, kab vypravić toĺki hetaje "
-#~ "slova, ci <b>Zamianić usio</b>, kab vypravić usie takija niapraviĺnyja slovy "
-#~ "daliej.</p>\n"
+#~ "slova, ci <b>Zamianić usio</b>, kab vypravić usie takija niapraviĺnyja "
+#~ "slovy daliej.</p>\n"
 #~ "</qt>"
 
 #~ msgid "Replace &with:"
@@ -1223,8 +1196,9 @@ msgstr "&Nastupnaja"
 #~ msgstr ""
 #~ "<qt>\n"
 #~ "<p>Nacisnicie tut, kab pakinuć hetaje slova biez zmienaŭ.</p>\n"
-#~ "<p>Hetaje dziejannie moža być zručnym dlia imionaŭ, abrevijatur, zamiežnych "
-#~ "slovaŭ i inšych slovaŭ, jakija vy nie chočacie dadavać u sloŭnik.</p>\n"
+#~ "<p>Hetaje dziejannie moža być zručnym dlia imionaŭ, abrevijatur, "
+#~ "zamiežnych slovaŭ i inšych slovaŭ, jakija vy nie chočacie dadavać u "
+#~ "sloŭnik.</p>\n"
 #~ "</qt>"
 
 #~ msgid "&Ignore"
@@ -1241,8 +1215,9 @@ msgstr "&Nastupnaja"
 #~ msgstr ""
 #~ "<qt>\n"
 #~ "<p>Nacisnicie tut, kab pakinuć usie takija slovy biez zmienaŭ.</p>\n"
-#~ "<p>Hetaje dziejannie moža być zručnym dlia imionaŭ, abrevijatur, zamiežnych "
-#~ "slovaŭ i inšych slovaŭ, jakija vy nie chočacie dadavać u sloŭnik.</p>\n"
+#~ "<p>Hetaje dziejannie moža być zručnym dlia imionaŭ, abrevijatur, "
+#~ "zamiežnych slovaŭ i inšych slovaŭ, jakija vy nie chočacie dadavać u "
+#~ "sloŭnik.</p>\n"
 #~ "</qt>"
 
 #~ msgid "I&gnore All"
@@ -1474,8 +1449,8 @@ msgstr "&Nastupnaja"
 #~ "licensing terms.\n"
 #~ msgstr ""
 #~ "Dlia hetaj prahramy nie byli vyznačanyja licenzijnyja ŭmovy.\n"
-#~ "Kali laska, prahliadzicie dakumientacyju ci kryničny kod prahramy na pradmiet "
-#~ "licenzijnych umovaŭ.\n"
+#~ "Kali laska, prahliadzicie dakumientacyju ci kryničny kod prahramy na "
+#~ "pradmiet licenzijnych umovaŭ.\n"
 
 #~ msgid "This program is distributed under the terms of the %1."
 #~ msgstr "Hetaja prahrama raspaŭsiudžvajecca na ŭmovach %1."
@@ -1571,10 +1546,10 @@ msgstr "&Nastupnaja"
 #~ "kde.org</a></p>"
 #~ msgstr ""
 #~ "<p>KDE pierakladzienaje na šmat movaŭ svietu dziakujučy pracy voĺnych "
-#~ "pierakladčykaŭ.</p><p>Kab atrymać padrabiaznuju infarmacyju ab pierakladzie "
-#~ "KDE, naviedajcie <a href=\"http://l10n.kde.org\">http://l10n.kde.org</a>. "
-#~ "Pra pieraklad na bielaruskuju movu vy možacie daviedacca na <a href=\"http://"
-#~ "i18n.linux.by\">http://i18n.linux.by</a></p>"
+#~ "pierakladčykaŭ.</p><p>Kab atrymać padrabiaznuju infarmacyju ab "
+#~ "pierakladzie KDE, naviedajcie <a href=\"http://l10n.kde.org\">http://l10n."
+#~ "kde.org</a>. Pra pieraklad na bielaruskuju movu vy možacie daviedacca na "
+#~ "<a href=\"http://i18n.linux.by\">http://i18n.linux.by</a></p>"
 
 #~ msgid "Use the X-server display displayname"
 #~ msgstr "Vykarystoŭvać ekran displayname sierviera X"
@@ -1705,7 +1680,9 @@ msgstr "&Nastupnaja"
 
 #~ msgid ""
 #~ "This application was written by somebody who wants to remain anonymous."
-#~ msgstr "Hetaja prahrama stvoranaja čalaviekam, jaki zachacieŭ zastacca nieviadomym."
+#~ msgstr ""
+#~ "Hetaja prahrama stvoranaja čalaviekam, jaki zachacieŭ zastacca "
+#~ "nieviadomym."
 
 #~ msgid "Please use http://bugs.kde.org to report bugs.\n"
 #~ msgstr "Kali laska, paviedamliajcie pra pamylki na http://bugs.kde.org.\n"
@@ -2710,7 +2687,8 @@ msgstr "&Nastupnaja"
 #~ msgstr "zapatrabavanaja siamja nie padtrymlivajecca"
 
 #~ msgid "requested service not supported for this socket type"
-#~ msgstr "zapatrabavany siervis nie padtrymlivajecca dlia hetaha typu sokietaŭ"
+#~ msgstr ""
+#~ "zapatrabavany siervis nie padtrymlivajecca dlia hetaha typu sokietaŭ"
 
 #~ msgid "requested socket type not supported"
 #~ msgstr "zapatrabavany typ sokietaŭ nie padtrymlivajecca"
@@ -3049,12 +3027,12 @@ msgstr "&Nastupnaja"
 
 #, fuzzy
 #~| msgid ""
-#~| "The service %1 provides no library or the Library key is missing in "
-#~| "the .desktop file."
+#~| "The service %1 provides no library or the Library key is missing in the ."
+#~| "desktop file."
 #~ msgid "The service %1 provides no library or the Library key is missing"
 #~ msgstr ""
-#~ "Siervis %1 nie prapanoŭvaje biblijateki ci kliuč Library adsutničaje ŭ fajlu ."
-#~ "desktop."
+#~ "Siervis %1 nie prapanoŭvaje biblijateki ci kliuč Library adsutničaje ŭ "
+#~ "fajlu .desktop."
 
 #~ msgid "The library %1 does not offer a KDE 4 compatible factory."
 #~ msgstr "Biblijateka %1 nie prapanoŭvaje cumiaščaĺnuju z KDE 4 fabryku."
@@ -3214,7 +3192,8 @@ msgstr "&Nastupnaja"
 #~ msgid ""
 #~ "<qt>No information available.<br />The supplied KAboutData object does "
 #~ "not exist.</qt>"
-#~ msgstr "<qt>Infarmacyja adsutničaje.<br />Abjekt KAboutData nie isnuje.</qt>"
+#~ msgstr ""
+#~ "<qt>Infarmacyja adsutničaje.<br />Abjekt KAboutData nie isnuje.</qt>"
 
 #, fuzzy
 #~| msgid ""
@@ -3347,13 +3326,13 @@ msgstr "&Nastupnaja"
 #~ "including you.<br /><br />Visit <a href=\"%2\">%2</a> for more "
 #~ "information about the KDE community and the software we produce.</html>"
 #~ msgstr ""
-#~ "<html><b>Pracoŭnaje asiaroddzie KDE</b> rapracoŭvaje kamanda KDE, mižnarodnaja "
-#~ "kamanda prahramistaŭ, jakija prytrymlivajucca filasofii <a href=\"http://www."
-#~ "gnu.org/philosophy/free-sw.html\">svabodnaha prahramnaha</a>zabiespiačennia."
-#~ "<br><br>Nivodnaja hrupa, kampanija ci arhanizacyja nie kiruje kodam KDE. Kožny "
-#~ "čalaviek moža dapamahčy raspracoŭcy KDE.<br><br>Hliadzicie <A HREF=\"http://"
-#~ "www.kde.org/\">http://www.kde.org</A>, kab daviedacca boĺš pra Prajekt KDE."
-#~ "</html>"
+#~ "<html><b>Pracoŭnaje asiaroddzie KDE</b> rapracoŭvaje kamanda KDE, "
+#~ "mižnarodnaja kamanda prahramistaŭ, jakija prytrymlivajucca filasofii <a "
+#~ "href=\"http://www.gnu.org/philosophy/free-sw.html\">svabodnaha "
+#~ "prahramnaha</a>zabiespiačennia.<br><br>Nivodnaja hrupa, kampanija ci "
+#~ "arhanizacyja nie kiruje kodam KDE. Kožny čalaviek moža dapamahčy "
+#~ "raspracoŭcy KDE.<br><br>Hliadzicie <A HREF=\"http://www.kde.org/\">http://"
+#~ "www.kde.org</A>, kab daviedacca boĺš pra Prajekt KDE.</html>"
 
 #, fuzzy
 #~| msgid ""
@@ -3378,14 +3357,14 @@ msgstr "&Nastupnaja"
 #~ msgstr ""
 #~ "<html>Prahramnaje zabiespiačennie zaŭsiody možna paliapšać, i kamanda KDE "
 #~ "hatovaja da hetaha. Alie vy - karystaĺniki - pavinny paviedamliać nam pra "
-#~ "toje, što nie pracuje, ci toje, što pavinna pracavać liepiej.<br><br>Pracoŭnaje "
-#~ "asiaroddzie KDE maje svaju sistemu paviedamliennia pra pamylki. Naviedajcie <A "
-#~ "HREF=\"http://bugs.kde.org/\">http://bugs.kde.org</A> ci vykarystajcie "
-#~ "eliemient mieniu \"Paviedamić pra pamylku...\" z mieniu \"Dapamoha\", kab "
-#~ "paviedamić pra pamylku.<br><br>Kali u vas josć ideja dlia paliapšennia, my "
-#~ "zaprašajem vas karystacca sistemaj paviedamliennia ab pamylkach dlia taho, kab "
-#~ "zarehistravać vašaje pažadannie. Upeŭniecisia, što pišacie ŭ \"Wishlist\".</"
-#~ "html>"
+#~ "toje, što nie pracuje, ci toje, što pavinna pracavać liepiej."
+#~ "<br><br>Pracoŭnaje asiaroddzie KDE maje svaju sistemu paviedamliennia pra "
+#~ "pamylki. Naviedajcie <A HREF=\"http://bugs.kde.org/\">http://bugs.kde."
+#~ "org</A> ci vykarystajcie eliemient mieniu \"Paviedamić pra pamylku...\" z "
+#~ "mieniu \"Dapamoha\", kab paviedamić pra pamylku.<br><br>Kali u vas josć "
+#~ "ideja dlia paliapšennia, my zaprašajem vas karystacca sistemaj "
+#~ "paviedamliennia ab pamylkach dlia taho, kab zarehistravać vašaje "
+#~ "pažadannie. Upeŭniecisia, što pišacie ŭ \"Wishlist\".</html>"
 
 #, fuzzy
 #~| msgid ""
@@ -3410,11 +3389,11 @@ msgstr "&Nastupnaja"
 #~ "<html>Kab stać siabram kamandy KDE, nie abaviazkova być prahramistam. Vy "
 #~ "možacie dalučycca da pracy adnoj z kamandaŭ pierakladčykaŭ. Vy možacie "
 #~ "stvarać hrafičnyja fajly, novyja temy, huki, paliapšać dakumientacyju. Vy "
-#~ "vyrašajecie, jak dapamahčy!<br><br>Šukajcie na <A HREF=\"http://www.kde.org/"
-#~ "jobs/\">http://www.kde.org/jobs/</A> padrabiaznuju infarmacyju pra prajekty, "
-#~ "u jakich vy možacie pryniać udziel.<br><br>Kali vam patrebnaja dadatkovaja "
-#~ "infarmacyja, naviedajcie <A HREF=\"http://developer.kde.org/\">http://"
-#~ "developer.kde.org</A>.</html>"
+#~ "vyrašajecie, jak dapamahčy!<br><br>Šukajcie na <A HREF=\"http://www.kde."
+#~ "org/jobs/\">http://www.kde.org/jobs/</A> padrabiaznuju infarmacyju pra "
+#~ "prajekty, u jakich vy možacie pryniać udziel.<br><br>Kali vam patrebnaja "
+#~ "dadatkovaja infarmacyja, naviedajcie <A HREF=\"http://developer.kde.org/"
+#~ "\">http://developer.kde.org</A>.</html>"
 
 #, fuzzy
 #~| msgid ""
@@ -3445,15 +3424,15 @@ msgstr "&Nastupnaja"
 #~ msgstr ""
 #~ "<html>KDE zjaŭliajecca biasplatnym prahramnym zabiespiačenniem, alie jaho "
 #~ "stvarennie patrabuje hrašovych vydatkaŭ.<br /><br />Tamu kamanda KDE "
-#~ "sfarmavala KDE e.V., hramadskuju arhanizacyju, zarehistravanuju ŭ Tjubinhie, "
-#~ "u Hiermanii. KDE e.V. pradstaŭliaje prajekt KDE u jurydyčnych i finansavych "
-#~ "spravach. Hliadzicie na <a href=\"http://www.kde-ev.org/\">http://www.kde-ev."
-#~ "org</a> padrabiaznuju infarmacyju pra KDE e.V.<br><br>Kamandzie KDE "
-#~ "nieabchodnaja finansavaja dapamoha. Boĺšasć hrošaj idzie na aplatu pracy "
-#~ "siabraŭ kamandy KDE. Vy možacie dapamahčy KDE hrašyma, pieraličyŭšy ich KDE e."
-#~ "V. adnym sa sposabaŭ, apisanych na <a href=\"http://www.kde.org/support/"
-#~ "\">http://www.kde.org/support/</a>.<br><br>Vialiki dziakuj za padtrymku "
-#~ "našaha prajekta.</html>"
+#~ "sfarmavala KDE e.V., hramadskuju arhanizacyju, zarehistravanuju ŭ "
+#~ "Tjubinhie, u Hiermanii. KDE e.V. pradstaŭliaje prajekt KDE u jurydyčnych "
+#~ "i finansavych spravach. Hliadzicie na <a href=\"http://www.kde-ev.org/"
+#~ "\">http://www.kde-ev.org</a> padrabiaznuju infarmacyju pra KDE e.V."
+#~ "<br><br>Kamandzie KDE nieabchodnaja finansavaja dapamoha. Boĺšasć hrošaj "
+#~ "idzie na aplatu pracy siabraŭ kamandy KDE. Vy možacie dapamahčy KDE "
+#~ "hrašyma, pieraličyŭšy ich KDE e.V. adnym sa sposabaŭ, apisanych na <a "
+#~ "href=\"http://www.kde.org/support/\">http://www.kde.org/support/</a>."
+#~ "<br><br>Vialiki dziakuj za padtrymku našaha prajekta.</html>"
 
 #~ msgctxt "About KDE"
 #~ msgid "&About"
@@ -3515,9 +3494,9 @@ msgstr "&Nastupnaja"
 #~ "The application for which you wish to submit a bug report - if incorrect, "
 #~ "please use the Report Bug menu item of the correct application"
 #~ msgstr ""
-#~ "Prahrama, dlia jakoj vy chočacie daslać paviedamliennie pra pamylku - kali nie "
-#~ "vierna, kali laska karystajciesia punktam \"Paviedamić pra pamylku\" "
-#~ "patrebnaj prahramy"
+#~ "Prahrama, dlia jakoj vy chočacie daslać paviedamliennie pra pamylku - "
+#~ "kali nie vierna, kali laska karystajciesia punktam \"Paviedamić pra "
+#~ "pamylku\" patrebnaj prahramy"
 
 #~ msgid "Application: "
 #~ msgstr "Prahrama: "
@@ -3526,8 +3505,9 @@ msgstr "&Nastupnaja"
 #~ "The version of this application - please make sure that no newer version "
 #~ "is available before sending a bug report"
 #~ msgstr ""
-#~ "Viersija hetaj prahramy - kali laska, praviercie, ci nie isnujuć boĺš novyja "
-#~ "viersii hetaj prahramy, pierad tym, jak dasylać paviedamliennie pra pamylku"
+#~ "Viersija hetaj prahramy - kali laska, praviercie, ci nie isnujuć boĺš "
+#~ "novyja viersii hetaj prahramy, pierad tym, jak dasylać paviedamliennie "
+#~ "pra pamylku"
 
 #~ msgid "Version:"
 #~ msgstr "Viersija:"
@@ -3576,8 +3556,8 @@ msgstr "&Nastupnaja"
 #~ "You must specify both a subject and a description before the report can "
 #~ "be sent."
 #~ msgstr ""
-#~ "Vy pavinny vyznačyć temu i apisannie pierad tym, jak dasylać paviedamliennie "
-#~ "pra pamylku."
+#~ "Vy pavinny vyznačyć temu i apisannie pierad tym, jak dasylać "
+#~ "paviedamliennie pra pamylku."
 
 #, fuzzy
 #~| msgid ""
@@ -3594,7 +3574,8 @@ msgstr "&Nastupnaja"
 #~ "Hliadzicie instrukcyi na http://bugs.kde.org/."
 
 #~ msgid "Bug report sent, thank you for your input."
-#~ msgstr "Paviedamliennie pra pamylku paspiachova daslanaje. Dziakuj za dapamohu!"
+#~ msgstr ""
+#~ "Paviedamliennie pra pamylku paspiachova daslanaje. Dziakuj za dapamohu!"
 
 #~ msgid ""
 #~ "Close and discard\n"
@@ -3799,8 +3780,8 @@ msgstr "&Nastupnaja"
 #~ "Do you really want to reset all toolbars of this application to their "
 #~ "default? The changes will be applied immediately."
 #~ msgstr ""
-#~ "Vy sapraŭdy chočacie skinuć nastaŭlienni paneliaŭ načynnia da standartnych "
-#~ "nastaŭlienniaŭ? Zmieny buduć užytyja adrazu."
+#~ "Vy sapraŭdy chočacie skinuć nastaŭlienni paneliaŭ načynnia da "
+#~ "standartnych nastaŭlienniaŭ? Zmieny buduć užytyja adrazu."
 
 #, fuzzy
 #~| msgid "Reset ToolBars"
@@ -3839,7 +3820,8 @@ msgstr "&Nastupnaja"
 #~ msgid ""
 #~ "This element will be replaced with all the elements of an embedded "
 #~ "component."
-#~ msgstr "Hety eliemient budzie zamienieny eliemientami ŭbudavanaha kampanienta."
+#~ msgstr ""
+#~ "Hety eliemient budzie zamienieny eliemientami ŭbudavanaha kampanienta."
 
 #~ msgid "<Merge>"
 #~ msgstr "<Abjadnać>"
@@ -3851,8 +3833,8 @@ msgstr "&Nastupnaja"
 #~ "This is a dynamic list of actions. You can move it, but if you remove it "
 #~ "you will not be able to re-add it."
 #~ msgstr ""
-#~ "Heta dynamičny spis dziejanniaŭ. Vy možacie pieraniesci jaho, alie kali vydalicie "
-#~ "jaho, vy nie zmožacie dadać jaho znoŭ."
+#~ "Heta dynamičny spis dziejanniaŭ. Vy možacie pieraniesci jaho, alie kali "
+#~ "vydalicie jaho, vy nie zmožacie dadać jaho znoŭ."
 
 #~ msgid "ActionList: %1"
 #~ msgstr "Spis dziejanniaŭ: %1"
@@ -3951,8 +3933,8 @@ msgstr "&Nastupnaja"
 
 #~ msgid "Please click and drag on the image to select the region of interest:"
 #~ msgstr ""
-#~ "Kali laska, nacisnicie lievaj knopkaj myšy i praciahnicie jaje pa maliunku, kab "
-#~ "vybrać kavalak maliunku:"
+#~ "Kali laska, nacisnicie lievaj knopkaj myšy i praciahnicie jaje pa "
+#~ "maliunku, kab vybrać kavalak maliunku:"
 
 #~ msgid "Default:"
 #~ msgstr "Pradvyznačany:"
@@ -4025,8 +4007,8 @@ msgstr "&Nastupnaja"
 #~ "actions (e.g. Copy) shown in the left column and keys or combination of "
 #~ "keys (e.g. Ctrl+V) shown in the right column."
 #~ msgstr ""
-#~ "Heta spis skarotaŭ, h.zn. suviaziaŭ dziejanniaŭ (napr. Skapiravać) z lievaha "
-#~ "slupku i spalučenniaŭ klavišaŭ (napr. Ctrl+V) z pravaha slupku."
+#~ "Heta spis skarotaŭ, h.zn. suviaziaŭ dziejanniaŭ (napr. Skapiravać) z "
+#~ "lievaha slupku i spalučenniaŭ klavišaŭ (napr. Ctrl+V) z pravaha slupku."
 
 #~ msgid "Action"
 #~ msgstr "Dziejannie"
@@ -4119,7 +4101,8 @@ msgstr "&Nastupnaja"
 #~ "Adds one more language which will be used if other translations do not "
 #~ "contain a proper translation."
 #~ msgstr ""
-#~ "Dadaje jašče adnu movu, jakaja budzie vykarystana pry niedachopu pierakladaŭ. "
+#~ "Dadaje jašče adnu movu, jakaja budzie vykarystana pry niedachopu "
+#~ "pierakladaŭ. "
 
 #, fuzzy
 #~| msgid ""
@@ -4129,8 +4112,8 @@ msgstr "&Nastupnaja"
 #~ "The language for this application has been changed. The change will take "
 #~ "effect the next time the application is started."
 #~ msgstr ""
-#~ "Mova dlia hetaj prahramy byla zmieniena. Zmiena budzie ŭžyta pry nastupnym "
-#~ "zapusku prahramy"
+#~ "Mova dlia hetaj prahramy byla zmieniena. Zmiena budzie ŭžyta pry "
+#~ "nastupnym zapusku prahramy"
 
 #, fuzzy
 #~| msgid "Application language changed"
@@ -4164,8 +4147,8 @@ msgstr "&Nastupnaja"
 #~ "This is the language which will be used if any previous languages do not "
 #~ "contain a proper translation."
 #~ msgstr ""
-#~ "Hetaja mova budzie vykarystana, kali nijakaja raniejšaja nie prapanuje patrebnaha "
-#~ "pierakladu"
+#~ "Hetaja mova budzie vykarystana, kali nijakaja raniejšaja nie prapanuje "
+#~ "patrebnaha pierakladu"
 
 #~ msgctxt "Opposite to Previous"
 #~ msgid "&Next"
@@ -4273,7 +4256,8 @@ msgstr "&Nastupnaja"
 
 #~ msgid ""
 #~ "Start searching at the current cursor location rather than at the top."
-#~ msgstr "Pačynać pošuk ad biahučaha miescaznachodžannia kursoru, a nie z vierchu."
+#~ msgstr ""
+#~ "Pačynać pošuk ad biahučaha miescaznachodžannia kursoru, a nie z vierchu."
 
 #~ msgid "Only search within the current selection."
 #~ msgstr "Šukać toĺki siarod vylučanaha."
@@ -4477,7 +4461,8 @@ msgstr "&Nastupnaja"
 #~ msgstr "Adnosny"
 
 #~ msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
-#~ msgstr "Pamier šryftu<br /><i>staly</i> ci <i>zaliežny</i><br />ad asiaroddzia"
+#~ msgstr ""
+#~ "Pamier šryftu<br /><i>staly</i> ci <i>zaliežny</i><br />ad asiaroddzia"
 
 #~ msgid ""
 #~ "Here you can switch between fixed font size and font size to be "
@@ -4485,8 +4470,8 @@ msgstr "&Nastupnaja"
 #~ "dimensions, paper size)."
 #~ msgstr ""
 #~ "Tut vy možacie vybrać režym pamieru šryftu: staly pamier ci pamier, jaki "
-#~ "vyličvajecca ŭ zaliežnasci ad asiaroddzia (napr. ad pamieraŭ vidžetaŭ, pamieru "
-#~ "arkušu papiery)."
+#~ "vyličvajecca ŭ zaliežnasci ad asiaroddzia (napr. ad pamieraŭ vidžetaŭ, "
+#~ "pamieru arkušu papiery)."
 
 #~ msgid "Here you can choose the font size to be used."
 #~ msgstr "Tut vy možacie vybrać pamier šryftu."
@@ -5257,7 +5242,8 @@ msgstr "&Nastupnaja"
 #~ msgid ""
 #~ "Pressing this button will discard all recent changes made in this dialog."
 #~ msgstr ""
-#~ "Nacisnuŭšy hetuju knopku, vy adchilicie zmieny, zroblienyja ŭ hetym dyjalohu"
+#~ "Nacisnuŭšy hetuju knopku, vy adchilicie zmieny, zroblienyja ŭ hetym "
+#~ "dyjalohu"
 
 #~ msgid "Save data"
 #~ msgstr "Zapisać danni"
@@ -5287,8 +5273,8 @@ msgstr "&Nastupnaja"
 #~ "program, but the dialog will not be closed.\n"
 #~ "Use this to try different settings."
 #~ msgstr ""
-#~ "Nacisnuŭšy huzik <b>Užyć</b>, vy pieradadzicie nastaŭlienni prahramie, alie "
-#~ "vakno nie zakryjecca.\n"
+#~ "Nacisnuŭšy huzik <b>Užyć</b>, vy pieradadzicie nastaŭlienni prahramie, "
+#~ "alie vakno nie zakryjecca.\n"
 #~ "Vykarystoŭvajcie hety huzik, kab pasprabavać roznyja spalučenni "
 #~ "nastaŭlienniaŭ."
 
@@ -6199,8 +6185,7 @@ msgstr "&Nastupnaja"
 
 #, fuzzy
 #~| msgid ""
-#~| "The %1 key combination has already been allocated to the \"%2\" "
-#~| "action.\n"
+#~| "The %1 key combination has already been allocated to the \"%2\" action.\n"
 #~| "Do you want to reassign it from that action to the current one?"
 #~ msgctxt "%1 is the number of ambigious shortcut clashes (hidden)"
 #~ msgid ""
@@ -6234,8 +6219,8 @@ msgstr "&Nastupnaja"
 
 #, fuzzy
 #~| msgid ""
-#~| "The %1 key combination has already been allocated to the standard "
-#~| "action \"%2\" that many applications use.\n"
+#~| "The %1 key combination has already been allocated to the standard action "
+#~| "\"%2\" that many applications use.\n"
 #~| "You cannot use it for global shortcuts for this reason."
 #~ msgid ""
 #~ "The %1 key combination is also used for the standard action \"%2\" that "
@@ -7001,7 +6986,8 @@ msgstr "&Nastupnaja"
 #~ msgid ""
 #~ "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 #~ msgstr ""
-#~ "Fajl z nazvaj \"%1\" užo isnuje. Ci vy sapraŭdy chočacie pierazapisać jaho?"
+#~ "Fajl z nazvaj \"%1\" užo isnuje. Ci vy sapraŭdy chočacie pierazapisać "
+#~ "jaho?"
 
 #~ msgid "Overwrite File?"
 #~ msgstr "Pierazapisać fajl?"
@@ -7095,8 +7081,9 @@ msgstr "&Nastupnaja"
 #~ "and hold down the mouse button for a menu with all available font sizes.</"
 #~ "qt>"
 #~ msgstr ""
-#~ "Pavialičyć pamier šryftu<br /><br />Pavialičvaje pamier šryftu hetaha akna. "
-#~ "Zacisnicie lievuju knopku myšy, kab ubačyć spis najaŭnych pamieraŭ šryftu."
+#~ "Pavialičyć pamier šryftu<br /><br />Pavialičvaje pamier šryftu hetaha "
+#~ "akna. Zacisnicie lievuju knopku myšy, kab ubačyć spis najaŭnych pamieraŭ "
+#~ "šryftu."
 
 #~ msgid "Shrink Font"
 #~ msgstr "Zmienšyć pamier šryftu"
@@ -7121,8 +7108,8 @@ msgstr "&Nastupnaja"
 #~ "<qt>Find text<br /><br />Shows a dialog that allows you to find text on "
 #~ "the displayed page.</qt>"
 #~ msgstr ""
-#~ "Znajsci tekst<br /><br />Pakazvaje dyjaloh, jaki dazvaliaje šukać tekst na "
-#~ "pakazanaj staroncy."
+#~ "Znajsci tekst<br /><br />Pakazvaje dyjaloh, jaki dazvaliaje šukać tekst "
+#~ "na pakazanaj staroncy."
 
 #, fuzzy
 #~| msgid ""
@@ -7132,8 +7119,8 @@ msgstr "&Nastupnaja"
 #~ "<qt>Find next<br /><br />Find the next occurrence of the text that you "
 #~ "have found using the <b>Find Text</b> function.</qt>"
 #~ msgstr ""
-#~ "Znajsci nastupnaje <p>Znachodzić nastupnaje supadziennie, jakoje vy znajšli z "
-#~ "dapamohaj funkcyi <b>Znajsci tekst</b>"
+#~ "Znajsci nastupnaje <p>Znachodzić nastupnaje supadziennie, jakoje vy "
+#~ "znajšli z dapamohaj funkcyi <b>Znajsci tekst</b>"
 
 #, fuzzy
 #~| msgid ""
@@ -7143,8 +7130,8 @@ msgstr "&Nastupnaja"
 #~ "<qt>Find previous<br /><br />Find the previous occurrence of the text "
 #~ "that you have found using the <b>Find Text</b> function.</qt>"
 #~ msgstr ""
-#~ "Znajsci papiaredniaje <p>Znachodzić raniejšaje supadziennie, jakoje vy znajšli z "
-#~ "dapamohaj funkcyi <b>Znajsci tekst</b>"
+#~ "Znajsci papiaredniaje <p>Znachodzić raniejšaje supadziennie, jakoje vy "
+#~ "znajšli z dapamohaj funkcyi <b>Znajsci tekst</b>"
 
 #~ msgid "Find Text as You Type"
 #~ msgstr "Šukać tekst pry ŭvodzie"
@@ -7276,8 +7263,8 @@ msgstr "&Nastupnaja"
 #~ "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to "
 #~ "follow the link?</qt>"
 #~ msgstr ""
-#~ "<qt>Hetaja nienadziejnaja staronka spasylajecca na<br /><b>%1</b>.<br />Ci vy "
-#~ "chočacie pierajsci pa hetaj spasylcy?</qt>"
+#~ "<qt>Hetaja nienadziejnaja staronka spasylajecca na<br /><b>%1</b>.<br /"
+#~ ">Ci vy chočacie pierajsci pa hetaj spasylcy?</qt>"
 
 #~ msgid "Follow"
 #~ msgstr "Pierajsci"
@@ -7334,12 +7321,13 @@ msgstr "&Nastupnaja"
 
 #~ msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 #~ msgstr ""
-#~ "<qt>Dostup z nienadziejnaj staronkи da<br /><b>%1</b><br /> zabaronieny.</qt>"
+#~ "<qt>Dostup z nienadziejnaj staronkи da<br /><b>%1</b><br /> zabaronieny.</"
+#~ "qt>"
 
 #~ msgid "The wallet %1 is open and being used for form data and passwords."
 #~ msgstr ""
-#~ "Hamaniec %1 adkryty i vykarystoŭvajecca dlia zachoŭvannia danniaŭ z formaŭ, a "
-#~ "taksama paroliaŭ."
+#~ "Hamaniec %1 adkryty i vykarystoŭvajecca dlia zachoŭvannia danniaŭ z "
+#~ "formaŭ, a taksama paroliaŭ."
 
 #~ msgid "&Close Wallet"
 #~ msgstr "&Zakryć hamaniec"
@@ -7415,13 +7403,14 @@ msgstr "&Nastupnaja"
 #~ "an error in Konqueror, please file a bug report at http://bugs.kde.org/.  "
 #~ "A test case which illustrates the problem will be appreciated."
 #~ msgstr ""
-#~ "Hetaje vakno paviedamliaje vam pra pamylki scenaraŭ, ubudavanych u staronki "
-#~ "Sieciva. U boĺšasci vypadkaŭ pryčynaj hetych pamylak zjaŭliajucca prabliemy "
-#~ "pliacoŭki, dapuščanyja jaje stvaraĺnikami. Byvaje, pryčynaj takich pamylak "
-#~ "zjaŭliajucca pamylki ŭ kodzie Konqueror. Kali ŭ vas pieršy vypadak, "
-#~ "paviedamicie administrataru pliacoŭki pra pamylku. U druhim vypadku, "
-#~ "paviedamicie pra pamylku na http://bugs.kde.org/. Kali laska, dajcie jak maha "
-#~ "boĺš zviestak pra kankretnyja vypadki takich pamylak."
+#~ "Hetaje vakno paviedamliaje vam pra pamylki scenaraŭ, ubudavanych u "
+#~ "staronki Sieciva. U boĺšasci vypadkaŭ pryčynaj hetych pamylak "
+#~ "zjaŭliajucca prabliemy pliacoŭki, dapuščanyja jaje stvaraĺnikami. Byvaje, "
+#~ "pryčynaj takich pamylak zjaŭliajucca pamylki ŭ kodzie Konqueror. Kali ŭ "
+#~ "vas pieršy vypadak, paviedamicie administrataru pliacoŭki pra pamylku. U "
+#~ "druhim vypadku, paviedamicie pra pamylku na http://bugs.kde.org/. Kali "
+#~ "laska, dajcie jak maha boĺš zviestak pra kankretnyja vypadki takich "
+#~ "pamylak."
 
 #~ msgid "KMultiPart"
 #~ msgstr "KMultiPart"
@@ -7496,8 +7485,8 @@ msgstr "&Nastupnaja"
 #~ "You may select a file where the log content is stored, before the "
 #~ "regression testing is started."
 #~ msgstr ""
-#~ "Vy možacie vybrać fajl, u jakim budzie zachoŭvacca zmiest časopisu, pierad "
-#~ "tym, jak rehresiŭny test pačniecca."
+#~ "Vy možacie vybrać fajl, u jakim budzie zachoŭvacca zmiest časopisu, "
+#~ "pierad tym, jak rehresiŭny test pačniecca."
 
 #, fuzzy
 #~| msgid "Output to file..."
@@ -7907,9 +7896,9 @@ msgstr "&Nastupnaja"
 #~ "that <i>gpg</i> is installed, otherwise verification of downloaded "
 #~ "resources will not be possible.</qt>"
 #~ msgstr ""
-#~ "<qt>Niemahčyma vykanać prahramu <i>gpg</i> i pravieryć fajl. Praviercie, ci "
-#~ "ŭstanoŭliena prahrama <i>gpg</i>, inakš pravierka apublikavanych resursaŭ "
-#~ "budzie niemahčymaj.</qt>"
+#~ "<qt>Niemahčyma vykanać prahramu <i>gpg</i> i pravieryć fajl. Praviercie, "
+#~ "ci ŭstanoŭliena prahrama <i>gpg</i>, inakš pravierka apublikavanych "
+#~ "resursaŭ budzie niemahčymaj.</qt>"
 
 #~ msgid "Select Signing Key"
 #~ msgstr "Vybierycie kliuč dlia padpisvannia"
@@ -7922,8 +7911,8 @@ msgstr "&Nastupnaja"
 #~ "is installed, otherwise signing of the resources will not be possible.</"
 #~ "qt>"
 #~ msgstr ""
-#~ "<qt>Niemahčyma vykanać prahramu <i>gpg</i> i padpisać fajl. Praviercie, ci "
-#~ "ŭstanoŭliena prahrama <i>gpg</i>, inakš padpisvannie resursu budzie "
+#~ "<qt>Niemahčyma vykanać prahramu <i>gpg</i> i padpisać fajl. Praviercie, "
+#~ "ci ŭstanoŭliena prahrama <i>gpg</i>, inakš padpisvannie resursu budzie "
 #~ "niemahčymym.</qt>"
 
 #, fuzzy
@@ -8786,8 +8775,8 @@ msgstr "&Nastupnaja"
 #~ "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library."
 #~ "</qt>"
 #~ msgstr ""
-#~ "<qt><p>Dyjahnostyka:<br>Fajl pracoŭnaha stala %1 nie vyznačyŭ biblijatečny "
-#~ "fajl.</qt>"
+#~ "<qt><p>Dyjahnostyka:<br>Fajl pracoŭnaha stala %1 nie vyznačyŭ "
+#~ "biblijatečny fajl.</qt>"
 
 #~ msgid "There was an error loading the module."
 #~ msgstr "Niemahčyma adkryć moduĺ."
@@ -8825,7 +8814,8 @@ msgstr "&Nastupnaja"
 #~ "The name of the widget style, for example \"keramik\" or \"plastik\". "
 #~ "Without quotes."
 #~ msgstr ""
-#~ "Nazva styliu vidžetaŭ, napryklad \"keramik\" ci \"plastik\". Biez dvukossiaŭ."
+#~ "Nazva styliu vidžetaŭ, napryklad \"keramik\" ci \"plastik\". Biez "
+#~ "dvukossiaŭ."
 
 #~ msgid "Use the PC speaker"
 #~ msgstr "Vykarystoŭvać sistemny dynamik"
@@ -8882,8 +8872,8 @@ msgstr "&Nastupnaja"
 #~ "What font to use for the panel at the bottom of the screen, where the "
 #~ "currently running applications are."
 #~ msgstr ""
-#~ "Šryft dlia panieli ŭnizie ekranu, dzie znachodziacca prahramy, jakimi vy zaraz "
-#~ "karystajeciesia."
+#~ "Šryft dlia panieli ŭnizie ekranu, dzie znachodziacca prahramy, jakimi vy "
+#~ "zaraz karystajeciesia."
 
 #~ msgid "Fonts for toolbars"
 #~ msgstr "Šryfty paneliaŭ načynnia"
@@ -8908,7 +8898,8 @@ msgstr "&Nastupnaja"
 #~ msgstr "Niadaŭna naviedanyja URL"
 
 #~ msgid "Used for auto-completion in file dialogs, for example"
-#~ msgstr "Vykarystoŭvajecca, napryklad, dlia aŭtadapaŭniennia ŭ fajlavych dyjalohach"
+#~ msgstr ""
+#~ "Vykarystoŭvajecca, napryklad, dlia aŭtadapaŭniennia ŭ fajlavych dyjalohach"
 
 #~ msgid "Show file preview in file dialog"
 #~ msgstr "Pakazvać pieradahliad fajlu ŭ fajlavym dyjalohu."
@@ -8920,15 +8911,16 @@ msgstr "&Nastupnaja"
 #~ "Whether files starting with a dot (convention for hidden files) should be "
 #~ "shown"
 #~ msgstr ""
-#~ "Ci pavinny fajly, nazva jakich pačynajecca z kropki (zhadžennie praschavanyja "
-#~ "fajly) pakazvacca"
+#~ "Ci pavinny fajly, nazva jakich pačynajecca z kropki (zhadžennie "
+#~ "praschavanyja fajly) pakazvacca"
 
 #~ msgid "Show speedbar"
 #~ msgstr "Pakazać chutkuju panieĺ"
 
 #~ msgid ""
 #~ "Whether the shortcut icons to the left in the file dialog should be shown"
-#~ msgstr "Ci pavinny być bačnyja znački skarotu lievaruč dyjalohu vybaru fajlaŭ"
+#~ msgstr ""
+#~ "Ci pavinny być bačnyja znački skarotu lievaruč dyjalohu vybaru fajlaŭ"
 
 #~ msgid "What country"
 #~ msgstr "Jakaja kraina"
@@ -8937,7 +8929,8 @@ msgstr "&Nastupnaja"
 #~ "Used to determine how to display numbers, currency and time/date, for "
 #~ "example"
 #~ msgstr ""
-#~ "Vykarystoŭvajecca dlia adliustravannia likaŭ, hrašovych sum, daty, času i h.d."
+#~ "Vykarystoŭvajecca dlia adliustravannia likaŭ, hrašovych sum, daty, času i "
+#~ "h.d."
 
 #~ msgid "What language to use to display text"
 #~ msgstr "Mova, na jakoj pakazvać tekst"
@@ -8954,8 +8947,8 @@ msgstr "&Nastupnaja"
 #~ msgid ""
 #~ "Path to the directory containing executables to be run on session login"
 #~ msgstr ""
-#~ "Šliach da tečki, jakaja zmiaščaje vykanaĺnyja fajly, jakija buduć vykananyja pry "
-#~ "ŭvachodzie ŭ sistemu"
+#~ "Šliach da tečki, jakaja zmiaščaje vykanaĺnyja fajly, jakija buduć "
+#~ "vykananyja pry ŭvachodzie ŭ sistemu"
 
 #~ msgid "Enable SOCKS support"
 #~ msgstr "Ukliučyć padtrymku SOCKS"
@@ -9484,8 +9477,8 @@ msgstr "&Nastupnaja"
 #~ msgid ""
 #~ "<b>Not Defined</b><br/>There is no \"Whats This\" help assigned to this "
 #~ "widget. If you want to help us to describe the widget, you are welcome to "
-#~ "<a href=\"submit-whatsthis\">send us your own \"Whats This\" help</a> "
-#~ "for it."
+#~ "<a href=\"submit-whatsthis\">send us your own \"Whats This\" help</a> for "
+#~ "it."
 #~ msgstr ""
 #~ "<b>Nie vyznačana</b><br/>Z hetym vidžetam nie zviazany eliemient dapamohi "
 #~ "\"Što heta?\". Kali vy chočacie dapamahčy nam apisać hety vidžet, vy "
@@ -9639,7 +9632,8 @@ msgstr "&Nastupnaja"
 #~ "not full.\n"
 #~ msgstr ""
 #~ "Pamylka stvarennia bazy danniaŭ %1.\n"
-#~ "Praviercie pravy dostupu dlia tečki i najaŭnasć voĺnaj dyskavaj prastory.\n"
+#~ "Praviercie pravy dostupu dlia tečki i najaŭnasć voĺnaj dyskavaj "
+#~ "prastory.\n"
 
 #~ msgid ""
 #~ "Error writing database %1.\n"
@@ -9647,7 +9641,8 @@ msgstr "&Nastupnaja"
 #~ "not full.\n"
 #~ msgstr ""
 #~ "Pamylka zapisu bazy danniaŭ %1.\n"
-#~ "Praviercie pravy dostupu dlia tečki i najaŭnasć voĺnaj dyskavaj prastory.\n"
+#~ "Praviercie pravy dostupu dlia tečki i najaŭnasć voĺnaj dyskavaj "
+#~ "prastory.\n"
 
 #~ msgid "Silent - work without windows and stderr"
 #~ msgstr "Cichi režym - pracavać biez voknaŭ i vyvadu pamylak na stderr"
@@ -11336,16 +11331,17 @@ msgstr "&Nastupnaja"
 #~ "<b>Replace All</b>.</p>\n"
 #~ "</qt>"
 #~ msgstr ""
-#~ "<qt><p>Hetaje slova paznačana jak \"nieviadomaje slova\", bo jano nie adpaviadaje "
-#~ "nivodnamu zapisu ŭ sloŭniku. Mahčyma, heta inšamoŭnaje slova.</p>\n"
+#~ "<qt><p>Hetaje slova paznačana jak \"nieviadomaje slova\", bo jano nie "
+#~ "adpaviadaje nivodnamu zapisu ŭ sloŭniku. Mahčyma, heta inšamoŭnaje slova."
+#~ "</p>\n"
 #~ "<p>Kali slova napisanaje praviĺna, vy možacie dadać jaho ŭ sloŭnik, "
-#~ "nacisnuŭšy <b>Dadać u sloŭnik</b>. Kali vy nie chočacie dadavać nieviadomaje "
-#~ "slova ŭ sloŭnik, alie chočacie pakinuć jaho, nacisnicie <b>Prapuscić</b> ci "
-#~ "<b>Prapuscić usio</b>.</p>\n"
+#~ "nacisnuŭšy <b>Dadać u sloŭnik</b>. Kali vy nie chočacie dadavać "
+#~ "nieviadomaje slova ŭ sloŭnik, alie chočacie pakinuć jaho, nacisnicie "
+#~ "<b>Prapuscić</b> ci <b>Prapuscić usio</b>.</p>\n"
 #~ "<p>Kali slova napisanaje niapraviĺna, vy možacie pasprabavać znajsci "
-#~ "praviĺny varyjant u spisie. Kali vy nie možacie znajsci praviĺny varyjant u "
-#~ "spisie, vyznačycie svoj varyjant u tekstavym poli i nacisnicie <b>Zamianić</"
-#~ "b> ci <b>Zamianić usio</b>.</p>\n"
+#~ "praviĺny varyjant u spisie. Kali vy nie možacie znajsci praviĺny varyjant "
+#~ "u spisie, vyznačycie svoj varyjant u tekstavym poli i nacisnicie "
+#~ "<b>Zamianić</b> ci <b>Zamianić usio</b>.</p>\n"
 #~ "</qt>"
 
 #, fuzzy
@@ -11421,7 +11417,8 @@ msgstr "&Nastupnaja"
 
 #~ msgid "Directory where the files on the desktop are stored"
 #~ msgstr ""
-#~ "U hetaj tečcy zachoŭvajucca fajly, jakija znachodziacca na pracoŭnym stalie"
+#~ "U hetaj tečcy zachoŭvajucca fajly, jakija znachodziacca na pracoŭnym "
+#~ "stalie"
 
 #~ msgid "Path to documents folder"
 #~ msgstr "Šliach da tečki z dakumientami"
@@ -11434,8 +11431,8 @@ msgstr "&Nastupnaja"
 #~ "<b>Changes in this section require root access.</b><br />On applying your "
 #~ "changes you will have to supply your root password."
 #~ msgstr ""
-#~ "<b>Zmieny ŭ hetym razdzielie patrabujuć pravoŭ administratara.</b><br />Pry "
-#~ "ŭžyvanni nastaŭlienniaŭ u vas spytajuć paroĺ administrataru."
+#~ "<b>Zmieny ŭ hetym razdzielie patrabujuć pravoŭ administratara.</b><br /"
+#~ ">Pry ŭžyvanni nastaŭlienniaŭ u vas spytajuć paroĺ administrataru."
 
 #~ msgid "&Abort"
 #~ msgstr "&Pierarvać"
@@ -11454,9 +11451,9 @@ msgstr "&Nastupnaja"
 #~ msgstr "0 b"
 
 #~ msgctxt ""
-#~ "Dear Translator! Translate this string to the string LTR in left-to-"
-#~ "right languages (as English) or to RTL in right-to-left languages (such "
-#~ "as Hebrew and Arabic) to get proper widget layout."
+#~ "Dear Translator! Translate this string to the string LTR in left-to-right "
+#~ "languages (as English) or to RTL in right-to-left languages (such as "
+#~ "Hebrew and Arabic) to get proper widget layout."
 #~ msgid "LTR"
 #~ msgstr "LTR"
 
@@ -11743,7 +11740,8 @@ msgstr "&Nastupnaja"
 #~| "it?"
 #~ msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 #~ msgstr ""
-#~ "Fajl z nazvaj \"%1\" užo isnuje. Ci vy sapraŭdy chočacie pierazapisać jaho?"
+#~ "Fajl z nazvaj \"%1\" užo isnuje. Ci vy sapraŭdy chočacie pierazapisać "
+#~ "jaho?"
 
 #~ msgid ""
 #~ "The chosen filenames do not\n"

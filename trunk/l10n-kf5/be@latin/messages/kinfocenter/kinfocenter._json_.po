@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-31 01:00+0000\n"
+"POT-Creation-Date: 2022-09-13 00:57+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -68,6 +68,11 @@ msgstr "OpenGL"
 msgctxt "Name"
 msgid "Interrupts"
 msgstr "Pierarvańni"
+
+#: Modules/kwinsupportinfo/kcm_kwinsupportinfo.json
+msgctxt "Name"
+msgid "Window Manager"
+msgstr ""
 
 #: Modules/nics/kcm_nic.json
 msgctxt "Name"
@@ -167,6 +172,14 @@ msgstr "Źviestki pra OpenGL"
 msgctxt "Description"
 msgid "Interrupt information"
 msgstr "Źviestki ab pierarvańniach"
+
+#: Modules/kwinsupportinfo/kcm_kwinsupportinfo.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "IO-port information"
+msgctxt "Description"
+msgid "KWin Support information"
+msgstr "Źviestki pra porty pierasyłańnia"
 
 #: Modules/nics/kcm_nic.json
 #, fuzzy
@@ -302,10 +315,6 @@ msgstr "Źviestki pra server X"
 #~ msgctxt "Name"
 #~ msgid "IO-Ports"
 #~ msgstr "Porty dla pierasyłańnia źviestak"
-
-#~ msgctxt "Comment"
-#~ msgid "IO-port information"
-#~ msgstr "Źviestki pra porty pierasyłańnia"
 
 #~ msgctxt "Name"
 #~ msgid "IEEE 1394 Devices"

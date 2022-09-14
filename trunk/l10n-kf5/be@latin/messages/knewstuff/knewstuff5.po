@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-13 00:42+0000\n"
+"POT-Creation-Date: 2022-09-14 00:42+0000\n"
 "PO-Revision-Date: 2008-08-30 01:10+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -576,7 +576,7 @@ msgid "Provider:"
 msgstr "Pravajder: %1"
 
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
-#: downloadwidget.ui:71 qtquick/qml/Page.qml:423
+#: downloadwidget.ui:71 qtquick/qml/Page.qml:426
 #, fuzzy, kde-format
 #| msgid "Character:"
 msgid "Category:"
@@ -856,12 +856,6 @@ msgctxt ""
 "available"
 msgid "Download New Stuff"
 msgstr "Ściahni novyja cikavostki"
-
-#: qtquick/qml/Dialog.qml:128
-#, fuzzy, kde-format
-#| msgid "Continue operation"
-msgid "Contribute your own..."
-msgstr "Praciahvaj aperacyju"
 
 #: qtquick/qml/DownloadItemsSheet.qml:30
 #, kde-format
@@ -1220,7 +1214,13 @@ msgstr ""
 msgid "Go to..."
 msgstr "&Pierajdzi..."
 
-#: qtquick/qml/Page.qml:494
+#: qtquick/qml/Page.qml:442
+#, fuzzy, kde-format
+#| msgid "Continue operation"
+msgid "Contribute your own…"
+msgstr "Praciahvaj aperacyju"
+
+#: qtquick/qml/Page.qml:508
 #, fuzzy, kde-format
 #| msgid "Loading Preview"
 msgctxt ""

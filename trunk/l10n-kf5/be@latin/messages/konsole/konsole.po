@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-29 00:50+0000\n"
+"POT-Creation-Date: 2022-10-01 00:52+0000\n"
 "PO-Revision-Date: 2022-09-04 10:59+0300\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian <kde-i18n-doc@kde.org>\n"
@@ -1264,15 +1264,19 @@ msgid "Activate Menu"
 msgstr "Aktyvacyja mieniu"
 
 #: MainWindow.cpp:376
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Save tab layout to file"
 msgctxt "@action:inmenu"
-msgid "Save tab layout to file"
+msgid "Save Tab Layout..."
 msgstr "Zachavać makiet ukladak u fajl"
 
 #: MainWindow.cpp:385
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Load tab layout from file"
 msgctxt "@action:inmenu"
-msgid "Load tab layout from file"
+msgid "Load Tab Layout..."
 msgstr "Zahruzić makiet ukladak z fajla"
 
 #: MainWindow.cpp:618 MainWindow.cpp:635
@@ -3441,19 +3445,21 @@ msgstr "Siemantyčnyja padkazki:"
 msgid "Line numbers "
 msgstr "Stalaja koĺkasć radkoŭ: "
 
-#: ViewManager.cpp:1073
-#, kde-format
+#: ViewManager.cpp:1074
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Save tab layout to file"
 msgctxt "@title:window"
-msgid "Save File"
-msgstr "Zachavać fajl"
+msgid "Save Tab Layout"
+msgstr "Zachavać makiet ukladak u fajl"
 
-#: ViewManager.cpp:1073 ViewManager.cpp:1157
+#: ViewManager.cpp:1076 ViewManager.cpp:1163
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Konsole View Layout (*.json)"
 msgstr "Makiet kampanavannia terminalaŭ Konsole (*.json)"
 
-#: ViewManager.cpp:1086
+#: ViewManager.cpp:1089
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -3463,7 +3469,7 @@ msgstr ""
 "Padčas zachavannia makieta ŭznikla prabliema.\n"
 "%1"
 
-#: ViewManager.cpp:1147
+#: ViewManager.cpp:1150
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -3473,11 +3479,13 @@ msgstr ""
 "Padčas zahruzki makieta ŭznikla prabliema.\n"
 "%1"
 
-#: ViewManager.cpp:1157
-#, kde-format
+#: ViewManager.cpp:1161
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Load tab layout from file"
 msgctxt "@title:window"
-msgid "Open File"
-msgstr "Adkryć fajl"
+msgid "Load Tab Layout"
+msgstr "Zahruzić makiet ukladak z fajla"
 
 #: Vt102Emulation.cpp:2313
 #, kde-format
@@ -5192,6 +5200,14 @@ msgstr "&Naladžvannie abo zmiena nazvy ŭkladki..."
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Zakryć ukladku"
+
+#~ msgctxt "@title:window"
+#~ msgid "Save File"
+#~ msgstr "Zachavać fajl"
+
+#~ msgctxt "@title:window"
+#~ msgid "Open File"
+#~ msgstr "Adkryć fajl"
 
 #~ msgid "Size: XXX x XXX"
 #~ msgstr "Pamier: XXX x XXX"

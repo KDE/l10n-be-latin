@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-21 00:55+0000\n"
+"POT-Creation-Date: 2022-11-23 00:57+0000\n"
 "PO-Revision-Date: 2022-08-29 04:57\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
@@ -35,11 +35,6 @@ msgctxt "Description"
 msgid "Root privileges are required to complete the action."
 msgstr ""
 "Dlia zaviaršennia dziejannia patrebnyja pravy supierkarystaĺnika (root)."
-
-#: src/ioslaves/telnet/ktelnetservice5.desktop:10
-msgctxt "Name"
-msgid "KTelnetService"
-msgstr "KTelnetService"
 
 #: src/ioslaves/trash/kcm_trash.desktop:7 src/ioslaves/trash/kcmtrash.desktop:1
 #: src/ioslaves/trash/kcmtrash.desktop:184
@@ -256,6 +251,11 @@ msgstr "URL-adras, da jakoha viadzie spasylka:"
 msgctxt "Name"
 msgid "Text File..."
 msgstr "Tekstavy fajl..."
+
+#: src/schemehandlers/telnet/ktelnetservice5.desktop:10
+msgctxt "Name"
+msgid "KTelnetService"
+msgstr "KTelnetService"
 
 #: src/urifilters/ikws/searchprovider.desktop:4
 msgctxt "Comment"

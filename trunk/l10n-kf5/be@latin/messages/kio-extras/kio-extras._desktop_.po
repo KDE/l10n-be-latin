@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-31 00:57+0000\n"
+"POT-Creation-Date: 2022-11-27 00:55+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -17,6 +17,22 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
 "%100>=11 && n%100<=14 ? 2 : 3);\n"
 
+#: afc/afc-network.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
+msgctxt "Name"
+msgid "Apple Devices"
+msgstr "Pryłady"
+
+#: afc/solid_afc.desktop:9 mtp/solid_mtp.desktop:9
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Open with &default Browser"
+msgctxt "Name"
+msgid "Browse Files with File Manager"
+msgstr "Adčyni ŭ &zmoŭčanym hartačy"
+
 #: mtp/mtp-network.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -24,14 +40,6 @@ msgstr ""
 msgctxt "Name"
 msgid "MTP Devices"
 msgstr "Pryłady"
-
-#: mtp/solid_mtp.desktop:9
-#, fuzzy
-#| msgctxt "Description"
-#| msgid "Open with &default Browser"
-msgctxt "Name"
-msgid "Browse Files with File Manager"
-msgstr "Adčyni ŭ &zmoŭčanym hartačy"
 
 #: smb/smb-network.desktop:3
 msgctxt "Name"
@@ -9757,13 +9765,6 @@ msgstr "Stvareńnie padhladaŭ"
 #~ msgctxt "Name"
 #~ msgid "Hardware"
 #~ msgstr "Aparatura"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Devices"
-#~ msgctxt "Name"
-#~ msgid "Input Devices"
-#~ msgstr "Pryłady"
 
 #, fuzzy
 #~| msgctxt "GenericName"

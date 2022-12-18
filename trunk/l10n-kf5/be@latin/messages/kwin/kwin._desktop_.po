@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-13 01:07+0000\n"
+"POT-Creation-Date: 2022-12-18 01:05+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -22,15 +22,15 @@ msgctxt "Comment"
 msgid "KWin Effect"
 msgstr "Efekty akońnika „KWin”"
 
-#: src/kcmkwin/kwineffects/kwineffect.knsrc:2
+#: src/kcms/effects/kwineffect.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Window Manager"
+#| msgid "Desktop Cube"
 msgctxt "Name"
-msgid "Window Manager Effects"
-msgstr "Akońnik"
+msgid "Desktop Effects"
+msgstr "Rabočy kub"
 
-#: src/kcmkwin/kwinrules/org.kde.kwin_rules_dialog.desktop:3
+#: src/kcms/rules/org.kde.kwin_rules_dialog.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Close"
@@ -38,7 +38,7 @@ msgctxt "Name"
 msgid "Window Rules"
 msgstr "Začynieńnie akna"
 
-#: src/kcmkwin/kwinscripts/kwinscripts.knsrc:2
+#: src/kcms/scripts/kwinscripts.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
@@ -46,7 +46,7 @@ msgctxt "Name"
 msgid "Window Manager Scripts"
 msgstr "Akońnik"
 
-#: src/kcmkwin/kwintabbox/kwinswitcher.knsrc:2
+#: src/kcms/tabbox/kwinswitcher.knsrc:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Manager"
@@ -154,6 +154,13 @@ msgctxt "Comment"
 msgid "KWin Window Switcher Layout"
 msgstr "Akońnik"
 
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Manager"
+#~ msgctxt "Name"
+#~ msgid "Window Manager Effects"
+#~ msgstr "Akońnik"
+
 #~ msgctxt "Name"
 #~ msgid "Plastik"
 #~ msgstr "Plastik"
@@ -246,13 +253,6 @@ msgstr "Akońnik"
 #~ msgctxt "Name"
 #~ msgid "Virtual Desktops"
 #~ msgstr "Rabočy stoł"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Desktop Cube"
-#~ msgctxt "Name"
-#~ msgid "Desktop Effects"
-#~ msgstr "Rabočy kub"
 
 #, fuzzy
 #~| msgctxt "Name"

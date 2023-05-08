@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-11 02:45+0000\n"
+"POT-Creation-Date: 2023-05-08 02:13+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -605,14 +605,6 @@ msgstr "Zahadny radok"
 msgctxt "Name"
 msgid "Web Search Keywords"
 msgstr ""
-
-#: runners/windowedwidgets/plasma-runner-windowedwidgets.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Windows"
-msgctxt "Name"
-msgid "Windowed widgets"
-msgstr "Vokny"
 
 #: solidautoeject/solidautoeject.json
 msgctxt "Name"
@@ -1264,11 +1256,6 @@ msgctxt "Description"
 msgid "Search the web using keywords"
 msgstr ""
 
-#: runners/windowedwidgets/plasma-runner-windowedwidgets.json
-msgctxt "Description"
-msgid "Find Plasma widgets that can be run as standalone windows"
-msgstr ""
-
 #: solidautoeject/solidautoeject.json
 msgctxt "Description"
 msgid "Automatically releases drives when their eject button is pushed"
@@ -1457,7 +1444,6 @@ msgstr ""
 #: runners/services/plasma-runner-services.json
 #: runners/sessions/plasma-runner-sessions.json
 #: runners/shell/plasma-runner-shell.json
-#: runners/windowedwidgets/plasma-runner-windowedwidgets.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Plasma Desktop Workspace"
@@ -1494,6 +1480,13 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Windows"
+#~ msgctxt "Name"
+#~ msgid "Windowed widgets"
+#~ msgstr "Vokny"
 
 #, fuzzy
 #~| msgctxt "Name"

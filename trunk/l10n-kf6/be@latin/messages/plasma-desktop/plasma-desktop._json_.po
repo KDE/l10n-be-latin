@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-27 01:11+0000\n"
+"POT-Creation-Date: 2023-05-22 02:11+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -329,10 +329,10 @@ msgstr "Rabočy abšar stała „Plasma”"
 #: solid-device-automounter/kcm/device_automounter_kcm.json
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "USB Devices"
+#| msgid "Device Information"
 msgctxt "Name"
-msgid "Removable Devices"
-msgstr "Pryłady USB"
+msgid "Device Auto-Mount"
+msgstr "Źviestki z pryłady"
 
 #: solid-device-automounter/kded/device_automounter.json
 msgctxt "Name"
@@ -658,7 +658,7 @@ msgstr "Rabočy abšar stała „Plasma”"
 
 #: solid-device-automounter/kcm/device_automounter_kcm.json
 msgctxt "Description"
-msgid "Configure automatic handling of removable storage media"
+msgid "Configure automatic mounting of disks and volumes"
 msgstr ""
 
 #: solid-device-automounter/kded/device_automounter.json
@@ -779,6 +779,13 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Plasma Team"
 msgstr "Pošuk"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "USB Devices"
+#~ msgctxt "Name"
+#~ msgid "Removable Devices"
+#~ msgstr "Pryłady USB"
 
 #~ msgctxt "Name"
 #~ msgid "Launch Feedback"

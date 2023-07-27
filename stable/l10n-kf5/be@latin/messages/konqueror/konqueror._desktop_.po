@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-28 00:55+0000\n"
+"POT-Creation-Date: 2023-07-27 02:32+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -353,7 +353,8 @@ msgctxt "Comment"
 msgid "Configure the use of Cache"
 msgstr "Naładź spraŭdžvańnie pravapisu"
 
-#: settings/konqhtml/cache/khtml_cache.desktop:115
+#: settings/konqhtml/cache/khtml_cache.desktop:116
+#: settings/konqhtml/useragent/khtml_useragent.desktop:13
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,browser,html,web,www"
 msgstr ""
@@ -455,6 +456,19 @@ msgstr "Naładź pavodziny hartača dla prahramaŭ Java i JavaScript"
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,kfm,browser,html,web,www,java,javascript"
 msgstr ""
+
+#: settings/konqhtml/useragent/khtml_useragent.desktop:10
+msgctxt "Name"
+msgid "Browser Identification"
+msgstr "Identyfikacyja hartača"
+
+#: settings/konqhtml/useragent/khtml_useragent.desktop:12
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure trash settings"
+msgctxt "Comment"
+msgid "Configure the user agent string"
+msgstr "Naładź śmietnicu"
 
 #: settings/performance/kcmkonqyperformance.desktop:9
 msgctxt "Name"
@@ -1229,10 +1243,6 @@ msgstr "Systema pošuku"
 #~ msgid "UADescription (Wget 1.11.4)"
 #~ msgstr "UADescription (Wget 1.5.3)"
 
-#~ msgctxt "Name"
-#~ msgid "Browser Identification"
-#~ msgstr "Identyfikacyja hartača"
-
 #~ msgctxt "Comment"
 #~ msgid "Configure the way Konqueror reports itself"
 #~ msgstr "Naładź, jak hartač „Konqueror” siabie pradstaŭlaje"
@@ -1949,10 +1959,6 @@ msgstr "Systema pošuku"
 #~ msgctxt "Comment"
 #~ msgid "This service allows configuration of the trash."
 #~ msgstr "Hetaja słužba dazvalaje naładzić śmietnicu."
-
-#~ msgctxt "Comment"
-#~ msgid "Configure trash settings"
-#~ msgstr "Naładź śmietnicu"
 
 #~ msgctxt "ExtraNames"
 #~ msgid "Original Path,Deletion Date"

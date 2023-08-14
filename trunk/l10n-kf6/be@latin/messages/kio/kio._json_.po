@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: f442fbe6afade2008592f34c8bb2e83e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-06 02:13+0000\n"
+"POT-Creation-Date: 2023-08-14 02:03+0000\n"
 "PO-Revision-Date: 2022-08-19 18:42\n"
 "Last-Translator: Alaksandr Suša <isushik94@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -20,11 +20,6 @@ msgstr ""
 "X-Crowdin-File: kio._json_.po\n"
 "X-Crowdin-File-ID: 3359\n"
 
-#: src/kioworkers/http/kcookiejar/kcookiejar.json
-msgctxt "Name"
-msgid "Cookie Jar"
-msgstr "Schovišča cookie"
-
 #: src/kioworkers/remote/kdedmodule/remotedirnotify.json
 msgctxt "Name"
 msgid "Remote URL Change Notifier"
@@ -34,11 +29,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Network Proxy Configuration"
 msgstr "Kanfihuracyja sietkavaha proksi"
-
-#: src/kioworkers/http/kcookiejar/kcookiejar.json
-msgctxt "Description"
-msgid "Stores network cookies"
-msgstr "Zachoŭvaje sietkavyja cookie"
 
 #: src/kioworkers/remote/kdedmodule/remotedirnotify.json
 msgctxt "Description"
@@ -54,6 +44,14 @@ msgstr "Aŭtamatyčnaje naladžvannie proksi"
 msgctxt "trash ExtraNames"
 msgid "Original Path;Deletion Date"
 msgstr "Aryhinaĺny šliach; Data vydaliennia"
+
+#~ msgctxt "Name"
+#~ msgid "Cookie Jar"
+#~ msgstr "Schovišča cookie"
+
+#~ msgctxt "Description"
+#~ msgid "Stores network cookies"
+#~ msgstr "Zachoŭvaje sietkavyja cookie"
 
 #, fuzzy
 #~| msgctxt "Name"

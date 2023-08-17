@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-16 00:52+0000\n"
+"POT-Creation-Date: 2023-08-17 00:53+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -52,68 +52,6 @@ msgctxt "Comment"
 msgid "KDE File Manager & Web Browser"
 msgstr "Kiraŭnik fajłaŭ i hartač sieciva dla KDE"
 
-#: plugins/akregator/akregator_konqfeedicon.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Konqueror window"
-msgctxt "Name"
-msgid "Konqueror Feed Icon"
-msgstr "Akno prahramy „Konqueror”"
-
-#: plugins/akregator/akregator_konqfeedicon.desktop:66
-msgctxt "Comment"
-msgid "Displays an icon in the status bar if the page contains a feed"
-msgstr ""
-
-#: plugins/akregator/akregator_konqplugin.desktop:7
-msgctxt "Name"
-msgid "Add Feed to Akregator"
-msgstr ""
-
-#: plugins/akregator/akregator_konqplugin.desktop:73
-msgctxt "Comment"
-msgid "Adds selected feed to Akregator"
-msgstr ""
-
-#: plugins/autorefresh/autorefresh.desktop:11
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "X Refresh"
-msgctxt "Name"
-msgid "Auto Refresh"
-msgstr "X Refresh"
-
-#: plugins/autorefresh/autorefresh.desktop:73
-msgctxt "Comment"
-msgid "Auto Refresh plugin"
-msgstr ""
-
-#: plugins/babelfish/plugin_translator.desktop:11
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "LEO-Translate"
-msgctxt "Name"
-msgid "Translate"
-msgstr "Pierakład „LEO”"
-
-#: plugins/babelfish/plugin_translator.desktop:79
-msgctxt "Comment"
-msgid "Language translation for the current page using Google"
-msgstr ""
-
-#: plugins/dirfilter/dirfilterplugin.desktop:11
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Analyzer"
-msgctxt "Name"
-msgid "Directory Filter"
-msgstr "Analizatar sietki"
-
-#: plugins/dirfilter/dirfilterplugin.desktop:74
-msgctxt "Comment"
-msgid "Filter directory view using an attribute filter"
-msgstr ""
-
 #: plugins/fsview/fsview.desktop:9
 #, fuzzy
 #| msgctxt "GenericName"
@@ -125,19 +63,6 @@ msgstr "Prahladnik dla vyjavaŭ"
 #: plugins/fsview/fsview.desktop:72
 msgctxt "Comment"
 msgid "View your filesystem as a TreeMap"
-msgstr ""
-
-#: plugins/fsview/fsview_part.desktop.in:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System"
-msgctxt "Name"
-msgid "File Size View"
-msgstr "Systema"
-
-#: plugins/fsview/fsview_part.desktop.in:65
-msgctxt "Comment"
-msgid "Enables a proportional view of directories and files based on file size"
 msgstr ""
 
 #: plugins/imagerotation/imageconverter.desktop:6
@@ -196,104 +121,6 @@ msgctxt "Name"
 msgid "Flip Horizontally"
 msgstr ""
 
-#: plugins/kget/kget_plugin.desktop:14
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Contact Manager"
-msgctxt "Name"
-msgid "Download Manager"
-msgstr "Kiraŭnik kantaktnych źviestak"
-
-#: plugins/kget/kget_plugin.desktop:45
-msgctxt "Comment"
-msgid "A versatile and easy to use file download manager"
-msgstr ""
-
-#: plugins/khtmlsettingsplugin/khtmlsettingsplugin.desktop.in:12
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Settings"
-msgctxt "Name"
-msgid "HTML Settings"
-msgstr "Nałady"
-
-#: plugins/khtmlsettingsplugin/khtmlsettingsplugin.desktop.in:45
-msgctxt "Comment"
-msgid "A fast way to change the HTML settings"
-msgstr ""
-
-#: plugins/kimgalleryplugin/kimgalleryplugin.desktop:10
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Image Displayer"
-msgctxt "Name"
-msgid "Image Gallery"
-msgstr "Padhlad vyjavaŭ"
-
-#: plugins/kimgalleryplugin/kimgalleryplugin.desktop:73
-msgctxt "Comment"
-msgid "An easy way to generate an HTML image gallery"
-msgstr ""
-
-#: plugins/searchbar/searchbar.desktop:13
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "PHP Search"
-msgctxt "Name"
-msgid "Search Bar"
-msgstr "Pošuk dla PHP"
-
-#: plugins/searchbar/searchbar.desktop:78
-msgctxt "Comment"
-msgid "Provides a text box for easier access to search engines like Google."
-msgstr ""
-
-#: plugins/shellcmdplugin/kshellcmdplugin.desktop:13
-msgctxt "Name"
-msgid "Shell Command Plugin"
-msgstr "Plugin zahadaŭ abałonki"
-
-#: plugins/shellcmdplugin/kshellcmdplugin.desktop:99
-msgctxt "Comment"
-msgid "Shell Command Plugin for Konqueror"
-msgstr "Plugin zahadaŭ abałonki dla prahramy „Konqueror”"
-
-#: plugins/ttsplugin/khtmltts.desktop:13
-msgctxt "Name"
-msgid "Text-to-Speech"
-msgstr "Ahałošvańnie tekstu"
-
-#: plugins/ttsplugin/khtmltts.desktop:99
-msgctxt "Comment"
-msgid "Produces audio output for text in the current page"
-msgstr "Ahučvaje tekst z hetaj staronki"
-
-#: plugins/uachanger/uachangerplugin.desktop:11
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "UserAgent Strings"
-msgctxt "Name"
-msgid "UserAgent Changer"
-msgstr "Identyfikacyja „UserAgent”"
-
-#: plugins/uachanger/uachangerplugin.desktop:73
-msgctxt "Comment"
-msgid "Allows the detected UserAgent to be modified"
-msgstr ""
-
-#: plugins/webarchiver/plugin_webarchiver.desktop:11
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "FTP Archives"
-msgctxt "Name"
-msgid "Web Archiver"
-msgstr "Archivy FTP"
-
-#: plugins/webarchiver/plugin_webarchiver.desktop:70
-msgctxt "Comment"
-msgid "Creates archives of websites"
-msgstr ""
-
 #: plugins/webarchiver/thumbnailer/webarchivethumbnail.desktop:3
 #, fuzzy
 #| msgctxt "Name"
@@ -301,63 +128,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Web Archives and HTML files"
 msgstr "Archivy FTP"
-
-#: settings/bookmarks/bookmarks.desktop:9
-#: sidebar/default_entries/bookmarks.desktop:12
-#: sidebar/trees/init/bookmarks_module.desktop:5
-msgctxt "Name"
-msgid "Bookmarks"
-msgstr "Zakładki"
-
-#: settings/bookmarks/bookmarks.desktop:100
-msgctxt "Comment"
-msgid "Configure the bookmarks home page"
-msgstr "Naładź chatniuju staronku z zakładkami"
-
-#: settings/bookmarks/bookmarks.desktop:178
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Bookmarks"
-msgctxt "X-KDE-Keywords"
-msgid "Bookmarks"
-msgstr "Zakładki"
-
-#: settings/konq/filebehavior.desktop:9
-msgctxt "Name"
-msgid "Behavior"
-msgstr "Pavodziny"
-
-#: settings/konq/filebehavior.desktop:103
-msgctxt "Comment"
-msgid "You can configure how Konqueror behaves as a file manager here"
-msgstr "Tut možna naładzić pavodziny fajłavaha kiraŭnika „Konqueror”"
-
-#: settings/konq/filebehavior.desktop:195
-msgctxt "X-KDE-Keywords"
-msgid ""
-"konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
-"behavior,behaviour,memory usage,Home URL,network operations,progress dialog,"
-"trash can,delete,confirmation"
-msgstr ""
-
-#: settings/konqhtml/cache/khtml_cache.desktop:10
-msgctxt "Name"
-msgid "Cache"
-msgstr "Padručnaja pamiać"
-
-#: settings/konqhtml/cache/khtml_cache.desktop:89
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the spell checker"
-msgctxt "Comment"
-msgid "Configure the use of Cache"
-msgstr "Naładź spraŭdžvańnie pravapisu"
-
-#: settings/konqhtml/cache/khtml_cache.desktop:116
-#: settings/konqhtml/useragent/khtml_useragent.desktop:106
-msgctxt "X-KDE-Keywords"
-msgid "konqueror,browser,html,web,www"
-msgstr ""
 
 #: settings/konqhtml/css/kcmcss.desktop:10
 msgctxt "Name"
@@ -373,102 +143,6 @@ msgstr "Naładź stylnyja arkušy dla vyjaŭleńnia sieciŭnych staronak"
 msgctxt "X-KDE-Keywords"
 msgid "CSS,HTML,style,stylesheet,accessibility"
 msgstr ""
-
-#: settings/konqhtml/khtml_appearance.desktop:10
-msgctxt "Name"
-msgid "Appearance"
-msgstr "Vonkavaść"
-
-#: settings/konqhtml/khtml_appearance.desktop:103
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the fonts used on web pages"
-msgctxt "Comment"
-msgid "Configure how to display web pages"
-msgstr "Naładź šryfty na sieciŭnym staronkach"
-
-#: settings/konqhtml/khtml_appearance.desktop:175
-msgctxt "X-KDE-Keywords"
-msgid ""
-"konqueror,kfm,browser,html,web,www,fonts,charsets,character sets,encoding"
-msgstr ""
-
-#: settings/konqhtml/khtml_behavior.desktop:9
-msgctxt "Name"
-msgid "Web Behavior"
-msgstr "Pavodziny ŭ siecivie"
-
-#: settings/konqhtml/khtml_behavior.desktop:98
-msgctxt "Comment"
-msgid "Configure the browser behavior"
-msgstr "Naładź pavodziny hartača sieciva"
-
-#: settings/konqhtml/khtml_behavior.desktop:188
-msgctxt "X-KDE-Keywords"
-msgid ""
-"konqueror,kfm,browser,html,web,www,fonts,colours,colors,java,javascript,"
-"cursor,links,images,charsets,character sets,encoding"
-msgstr ""
-
-#: settings/konqhtml/khtml_filter.desktop:10
-msgctxt "Name"
-msgid "AdBlocK Filters"
-msgstr "Filtry AdBlocK"
-
-#: settings/konqhtml/khtml_filter.desktop:101
-msgctxt "Comment"
-msgid "Configure Konqueror AdBlocK filters"
-msgstr "Naładź filtry „AdBlocK” dla hartača „Konqueror”"
-
-#: settings/konqhtml/khtml_general.desktop:10
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "General"
-msgctxt ""
-"Name|Konqeuror settings relevant to both web browsing and file management."
-msgid "General"
-msgstr "Hałoŭnaje"
-
-#: settings/konqhtml/khtml_general.desktop:81
-msgctxt "Comment"
-msgid "Configure general Konqueror behavior"
-msgstr "Naładź hałoŭnyja aspekty pavodzinaŭ hartača „Konqueror”"
-
-#: settings/konqhtml/khtml_general.desktop:162
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Konqueror"
-msgctxt "X-KDE-Keywords"
-msgid "konqueror,tabs"
-msgstr "Konqueror"
-
-#: settings/konqhtml/khtml_java_js.desktop:8
-msgctxt "Name"
-msgid "Java & JavaScript"
-msgstr "Java i JavaScript"
-
-#: settings/konqhtml/khtml_java_js.desktop:100
-msgctxt "Comment"
-msgid "Configure the behavior of Java and JavaScript"
-msgstr "Naładź pavodziny hartača dla prahramaŭ Java i JavaScript"
-
-#: settings/konqhtml/khtml_java_js.desktop:191
-msgctxt "X-KDE-Keywords"
-msgid "konqueror,kfm,browser,html,web,www,java,javascript"
-msgstr ""
-
-#: settings/konqhtml/useragent/khtml_useragent.desktop:10
-msgctxt "Name"
-msgid "Browser Identification"
-msgstr "Identyfikacyja hartača"
-
-#: settings/konqhtml/useragent/khtml_useragent.desktop:85
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure trash settings"
-msgctxt "Comment"
-msgid "Configure the user agent string"
-msgstr "Naładź śmietnicu"
 
 #: settings/performance/kcmkonqyperformance.desktop:9
 msgctxt "Name"
@@ -488,21 +162,6 @@ msgctxt "X-KDE-Keywords"
 msgid "konqueror,reuse,preloading"
 msgstr "Modul KDED dla papiaredniaha źmiaščeńnia prahramy „Konqueror” u pamiać"
 
-#: settings/performance/kcmperformance.desktop:7
-msgctxt "Name"
-msgid "KDE Performance"
-msgstr "Chutkaść KDE"
-
-#: settings/performance/kcmperformance.desktop:97
-msgctxt "Comment"
-msgid "Configure settings that can improve KDE performance"
-msgstr "Naładź aspekty KDE, jakija mohuć paspryjać chutkaści"
-
-#: settings/performance/kcmperformance.desktop:187
-msgctxt "X-KDE-Keywords"
-msgid "performance,speed,memory,improve"
-msgstr ""
-
 #: sidebar/bookmarks_module/konqsidebar_bookmarks.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -510,6 +169,12 @@ msgstr ""
 msgctxt "Name"
 msgid "Bookmarks SideBar Module"
 msgstr "Modul bakavoj paneli dla sieciva"
+
+#: sidebar/default_entries/bookmarks.desktop:12
+#: sidebar/trees/init/bookmarks_module.desktop:5
+msgctxt "Name"
+msgid "Bookmarks"
+msgstr "Zakładki"
 
 #: sidebar/default_entries/bookmarks.desktop:103
 #: sidebar/trees/init/bookmarks_module.desktop:96
@@ -528,7 +193,6 @@ msgid "Personal and System fonts list."
 msgstr ""
 
 #: sidebar/default_entries/history.desktop:7
-#: sidebar/history_module/kcmhistory.desktop:9
 msgctxt "Name"
 msgid "History"
 msgstr "Historyja"
@@ -589,30 +253,12 @@ msgctxt "Name"
 msgid "Services"
 msgstr "Słužby"
 
-#: sidebar/history_module/kcmhistory.desktop:101
-msgctxt "Comment"
-msgid "Configure the history sidebar"
-msgstr "Naładź bakavuju panel historyi"
-
-#: sidebar/history_module/kcmhistory.desktop:190
-msgctxt "X-KDE-Keywords"
-msgid "history,expire"
-msgstr ""
-
 #: sidebar/history_module/konqsidebar_history.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "History Sidebar"
 msgctxt "Name"
 msgid "History SideBar Module"
-msgstr "Bakavaja panel historyi"
-
-#: sidebar/konq_sidebartng.desktop.in:16
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "History Sidebar"
-msgctxt "Name"
-msgid "Sidebar"
 msgstr "Bakavaja panel historyi"
 
 #: sidebar/places_module/konqsidebar_places.desktop:3
@@ -697,18 +343,219 @@ msgctxt "Name"
 msgid "About-Page for Konqueror"
 msgstr "Infarmacyjnaja staronka hartača „Konqueror”"
 
-#: webenginepart/src/webenginepart.desktop:3
-msgctxt "Comment"
-msgid "Embeddable HTML component"
-msgstr ""
-
-#: webenginepart/src/webenginepart.desktop:46
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Search Engine"
-msgctxt "Name"
-msgid "WebEngine"
-msgstr "Systema pošuku"
+#~| msgctxt "Comment"
+#~| msgid "Konqueror window"
+#~ msgctxt "Name"
+#~ msgid "Konqueror Feed Icon"
+#~ msgstr "Akno prahramy „Konqueror”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "X Refresh"
+#~ msgctxt "Name"
+#~ msgid "Auto Refresh"
+#~ msgstr "X Refresh"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "LEO-Translate"
+#~ msgctxt "Name"
+#~ msgid "Translate"
+#~ msgstr "Pierakład „LEO”"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Network Analyzer"
+#~ msgctxt "Name"
+#~ msgid "Directory Filter"
+#~ msgstr "Analizatar sietki"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System"
+#~ msgctxt "Name"
+#~ msgid "File Size View"
+#~ msgstr "Systema"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Contact Manager"
+#~ msgctxt "Name"
+#~ msgid "Download Manager"
+#~ msgstr "Kiraŭnik kantaktnych źviestak"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Settings"
+#~ msgctxt "Name"
+#~ msgid "HTML Settings"
+#~ msgstr "Nałady"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Image Displayer"
+#~ msgctxt "Name"
+#~ msgid "Image Gallery"
+#~ msgstr "Padhlad vyjavaŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "PHP Search"
+#~ msgctxt "Name"
+#~ msgid "Search Bar"
+#~ msgstr "Pošuk dla PHP"
+
+#~ msgctxt "Name"
+#~ msgid "Shell Command Plugin"
+#~ msgstr "Plugin zahadaŭ abałonki"
+
+#~ msgctxt "Comment"
+#~ msgid "Shell Command Plugin for Konqueror"
+#~ msgstr "Plugin zahadaŭ abałonki dla prahramy „Konqueror”"
+
+#~ msgctxt "Name"
+#~ msgid "Text-to-Speech"
+#~ msgstr "Ahałošvańnie tekstu"
+
+#~ msgctxt "Comment"
+#~ msgid "Produces audio output for text in the current page"
+#~ msgstr "Ahučvaje tekst z hetaj staronki"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "UserAgent Strings"
+#~ msgctxt "Name"
+#~ msgid "UserAgent Changer"
+#~ msgstr "Identyfikacyja „UserAgent”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "FTP Archives"
+#~ msgctxt "Name"
+#~ msgid "Web Archiver"
+#~ msgstr "Archivy FTP"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the bookmarks home page"
+#~ msgstr "Naładź chatniuju staronku z zakładkami"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Bookmarks"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "Bookmarks"
+#~ msgstr "Zakładki"
+
+#~ msgctxt "Name"
+#~ msgid "Behavior"
+#~ msgstr "Pavodziny"
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure how Konqueror behaves as a file manager here"
+#~ msgstr "Tut možna naładzić pavodziny fajłavaha kiraŭnika „Konqueror”"
+
+#~ msgctxt "Name"
+#~ msgid "Cache"
+#~ msgstr "Padručnaja pamiać"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the spell checker"
+#~ msgctxt "Comment"
+#~ msgid "Configure the use of Cache"
+#~ msgstr "Naładź spraŭdžvańnie pravapisu"
+
+#~ msgctxt "Name"
+#~ msgid "Appearance"
+#~ msgstr "Vonkavaść"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the fonts used on web pages"
+#~ msgctxt "Comment"
+#~ msgid "Configure how to display web pages"
+#~ msgstr "Naładź šryfty na sieciŭnym staronkach"
+
+#~ msgctxt "Name"
+#~ msgid "Web Behavior"
+#~ msgstr "Pavodziny ŭ siecivie"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the browser behavior"
+#~ msgstr "Naładź pavodziny hartača sieciva"
+
+#~ msgctxt "Name"
+#~ msgid "AdBlocK Filters"
+#~ msgstr "Filtry AdBlocK"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Konqueror AdBlocK filters"
+#~ msgstr "Naładź filtry „AdBlocK” dla hartača „Konqueror”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "General"
+#~ msgctxt ""
+#~ "Name|Konqeuror settings relevant to both web browsing and file management."
+#~ msgid "General"
+#~ msgstr "Hałoŭnaje"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure general Konqueror behavior"
+#~ msgstr "Naładź hałoŭnyja aspekty pavodzinaŭ hartača „Konqueror”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Konqueror"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "konqueror,tabs"
+#~ msgstr "Konqueror"
+
+#~ msgctxt "Name"
+#~ msgid "Java & JavaScript"
+#~ msgstr "Java i JavaScript"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the behavior of Java and JavaScript"
+#~ msgstr "Naładź pavodziny hartača dla prahramaŭ Java i JavaScript"
+
+#~ msgctxt "Name"
+#~ msgid "Browser Identification"
+#~ msgstr "Identyfikacyja hartača"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure trash settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure the user agent string"
+#~ msgstr "Naładź śmietnicu"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Performance"
+#~ msgstr "Chutkaść KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure settings that can improve KDE performance"
+#~ msgstr "Naładź aspekty KDE, jakija mohuć paspryjać chutkaści"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the history sidebar"
+#~ msgstr "Naładź bakavuju panel historyi"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "History Sidebar"
+#~ msgctxt "Name"
+#~ msgid "Sidebar"
+#~ msgstr "Bakavaja panel historyi"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Search Engine"
+#~ msgctxt "Name"
+#~ msgid "WebEngine"
+#~ msgstr "Systema pošuku"
 
 #~ msgctxt "Comment"
 #~ msgid "You can configure how Konqueror looks as a file manager here"

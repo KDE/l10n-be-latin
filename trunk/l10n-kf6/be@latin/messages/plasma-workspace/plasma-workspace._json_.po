@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-26 01:53+0000\n"
+"POT-Creation-Date: 2023-10-21 01:45+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -261,19 +261,6 @@ msgstr "Fajły j katalohi"
 #| msgid "Locations"
 msgctxt "Name"
 msgid "Geolocation"
-msgstr "Miescy"
-
-#: dataengines/geolocation/plasma-geolocation-gps.json
-msgctxt "Name"
-msgid "Geolocation GPS"
-msgstr ""
-
-#: dataengines/geolocation/plasma-geolocation-ip.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Name"
-msgid "Geolocation IP"
 msgstr "Miescy"
 
 #: dataengines/hotplug/plasma-dataengine-hotplug.json
@@ -918,22 +905,6 @@ msgctxt "Description"
 msgid "Geolocation Data Engine"
 msgstr "Systema źviestak u movie „Python”"
 
-#: dataengines/geolocation/plasma-geolocation-gps.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Description"
-msgid "Geolocation from GPS address."
-msgstr "Miescy"
-
-#: dataengines/geolocation/plasma-geolocation-ip.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Description"
-msgid "Geolocation from IP address."
-msgstr "Miescy"
-
 #: dataengines/hotplug/plasma-dataengine-hotplug.json
 msgctxt "Description"
 msgid "Tracks hot-pluggable devices as they appear and disappear."
@@ -1520,6 +1491,27 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Name"
+#~ msgid "Geolocation IP"
+#~ msgstr "Miescy"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Description"
+#~ msgid "Geolocation from GPS address."
+#~ msgstr "Miescy"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Description"
+#~ msgid "Geolocation from IP address."
+#~ msgstr "Miescy"
 
 #, fuzzy
 #~| msgctxt "Name"

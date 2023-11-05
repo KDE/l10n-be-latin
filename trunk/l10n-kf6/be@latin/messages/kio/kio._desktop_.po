@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 16:56+0000\n"
+"POT-Creation-Date: 2023-11-05 01:13+0000\n"
 "PO-Revision-Date: 2022-08-29 04:57\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
@@ -35,41 +35,6 @@ msgctxt "Description"
 msgid "Root privileges are required to complete the action."
 msgstr ""
 "Dlia zaviaršennia dziejannia patrebnyja pravy supierkarystaĺnika (root)."
-
-#: src/kpac/proxyscout.notifyrc:3
-msgctxt "Comment"
-msgid "Network Proxy Configuration"
-msgstr "Kanfihuracyja sietkavaha proksi"
-
-#: src/kpac/proxyscout.notifyrc:72
-msgctxt "Name"
-msgid "Invalid Proxy Script"
-msgstr "Chibny skrypt proksi"
-
-#: src/kpac/proxyscout.notifyrc:140
-msgctxt "Comment"
-msgid "The downloaded proxy configuration script is invalid"
-msgstr "Spampavany skrypt kanfihuracyi proksi chibny"
-
-#: src/kpac/proxyscout.notifyrc:212
-msgctxt "Name"
-msgid "Script Download Error"
-msgstr "Nie ŭdalosia spampavać skrypt"
-
-#: src/kpac/proxyscout.notifyrc:280
-msgctxt "Comment"
-msgid "The proxy configuration script could not be downloaded"
-msgstr "Niemahčyma spampavać skrypt naladžvannia proksi"
-
-#: src/kpac/proxyscout.notifyrc:353
-msgctxt "Name"
-msgid "Script Evaluation Error"
-msgstr "Nie ŭdalosia acanić skrypt"
-
-#: src/kpac/proxyscout.notifyrc:420
-msgctxt "Comment"
-msgid "There was an error executing the proxy configuration script"
-msgstr "Padčas vykanannia skrypta naladžvannia proksi adbylasia pamylka"
 
 #: src/new_file_templates/Directory.desktop:2
 msgctxt "Name"
@@ -1722,6 +1687,34 @@ msgstr ""
 msgctxt "Comment"
 msgid "KIO Worker Template"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "Network Proxy Configuration"
+#~ msgstr "Kanfihuracyja sietkavaha proksi"
+
+#~ msgctxt "Name"
+#~ msgid "Invalid Proxy Script"
+#~ msgstr "Chibny skrypt proksi"
+
+#~ msgctxt "Comment"
+#~ msgid "The downloaded proxy configuration script is invalid"
+#~ msgstr "Spampavany skrypt kanfihuracyi proksi chibny"
+
+#~ msgctxt "Name"
+#~ msgid "Script Download Error"
+#~ msgstr "Nie ŭdalosia spampavać skrypt"
+
+#~ msgctxt "Comment"
+#~ msgid "The proxy configuration script could not be downloaded"
+#~ msgstr "Niemahčyma spampavać skrypt naladžvannia proksi"
+
+#~ msgctxt "Name"
+#~ msgid "Script Evaluation Error"
+#~ msgstr "Nie ŭdalosia acanić skrypt"
+
+#~ msgctxt "Comment"
+#~ msgid "There was an error executing the proxy configuration script"
+#~ msgstr "Padčas vykanannia skrypta naladžvannia proksi adbylasia pamylka"
 
 #~ msgctxt "Query"
 #~ msgid ""

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-29 01:44+0000\n"
+"POT-Creation-Date: 2024-01-11 00:44+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -234,15 +234,6 @@ msgctxt "Name"
 msgid "Application Information"
 msgstr "Źviestki pra zadańnie aplikacyi"
 
-#: dataengines/devicenotifications/plasma-dataengine-devicenotifications.json
-#: devicenotifications/devicenotifications.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Notifications"
-msgctxt "Name"
-msgid "Device Notifications"
-msgstr "Infarmavańnie"
-
 #: dataengines/dict/plasma-dataengine-dict.json
 msgctxt "Name"
 msgid "Dictionary"
@@ -366,6 +357,14 @@ msgstr ""
 msgctxt "Name"
 msgid "Weather"
 msgstr "Nadvorje"
+
+#: devicenotifications/devicenotifications.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Notifications"
+msgctxt "Name"
+msgid "Device Notifications"
+msgstr "Infarmavańnie"
 
 #: freespacenotifier/freespacenotifier.json
 #, fuzzy
@@ -872,11 +871,6 @@ msgstr ""
 #: dataengines/apps/plasma-dataengine-apps.json
 msgctxt "Description"
 msgid "Information and launching of all applications in the app menu."
-msgstr ""
-
-#: dataengines/devicenotifications/plasma-dataengine-devicenotifications.json
-msgctxt "Description"
-msgid "Passive device notifications for the user."
 msgstr ""
 
 #: dataengines/dict/plasma-dataengine-dict.json
@@ -1421,11 +1415,6 @@ msgstr ""
 #: dataengines/activities/plasma-dataengine-activities.json
 msgctxt "Authors Name"
 msgid "Chani Armitage"
-msgstr ""
-
-#: dataengines/devicenotifications/plasma-dataengine-devicenotifications.json
-msgctxt "Authors Name"
-msgid "Jacopo De Simoi"
 msgstr ""
 
 #: dataengines/geolocation/plasma-dataengine-geolocation.json

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-20 00:45+0000\n"
+"POT-Creation-Date: 2024-01-22 00:44+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -261,14 +261,6 @@ msgstr "Miescy"
 msgctxt "Name"
 msgid "Hotplug Events"
 msgstr "Źjaŭleńnie novych pryładaŭ"
-
-#: dataengines/keystate/plasma-dataengine-keystate.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Keyboard & Mouse"
-msgctxt "Name"
-msgid "Keyboard and Mouse State"
-msgstr "Klavijatura j myš"
 
 #: dataengines/mouse/plasma-dataengine-mouse.json
 msgctxt "Name"
@@ -905,14 +897,6 @@ msgctxt "Description"
 msgid "Tracks hot-pluggable devices as they appear and disappear."
 msgstr ""
 
-#: dataengines/keystate/plasma-dataengine-keystate.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Keyboard & Mouse"
-msgctxt "Description"
-msgid "Keyboard modifier and mouse buttons states"
-msgstr "Klavijatura j myš"
-
 #: dataengines/mouse/plasma-dataengine-mouse.json
 msgctxt "Description"
 msgid "Mouse position and cursor"
@@ -1409,12 +1393,6 @@ msgctxt "Authors Name"
 msgid "Petri Damstén"
 msgstr ""
 
-#: dataengines/keystate/plasma-dataengine-keystate.json
-#: dataengines/time/plasma-dataengine-time.json
-msgctxt "Authors Name"
-msgid "Aaron Seigo"
-msgstr ""
-
 #: dataengines/packagekit/plasma-dataengine-packagekit.json
 msgctxt "Authors Name"
 msgid "Gregor Taetzner"
@@ -1428,6 +1406,11 @@ msgstr ""
 #: dataengines/statusnotifieritem/plasma-dataengine-statusnotifieritem.json
 msgctxt "Authors Name"
 msgid "Matthieu Gallien"
+msgstr ""
+
+#: dataengines/time/plasma-dataengine-time.json
+msgctxt "Authors Name"
+msgid "Aaron Seigo"
 msgstr ""
 
 #: dataengines/weather/plasma-dataengine-weather.json
@@ -1488,6 +1471,20 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Keyboard & Mouse"
+#~ msgctxt "Name"
+#~ msgid "Keyboard and Mouse State"
+#~ msgstr "Klavijatura j myš"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Keyboard & Mouse"
+#~ msgctxt "Description"
+#~ msgid "Keyboard modifier and mouse buttons states"
+#~ msgstr "Klavijatura j myš"
 
 #~ msgctxt "Name"
 #~ msgid "Dictionary"

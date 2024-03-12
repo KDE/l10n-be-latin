@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-16 00:46+0000\n"
+"POT-Creation-Date: 2024-03-12 00:45+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -24,6 +24,11 @@ msgstr ""
 msgctxt "Name"
 msgid "About this System"
 msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
+
+#: kcms/audio_information/kcm_audio_information.json
+msgctxt "Name"
+msgid "Audio"
+msgstr ""
 
 #: kcms/block_devices/kcm_block_devices.json
 #, fuzzy
@@ -124,6 +129,14 @@ msgstr "Server X"
 msgctxt "Description"
 msgid "Information About This System"
 msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
+
+#: kcms/audio_information/kcm_audio_information.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Device Information"
+msgctxt "Description"
+msgid "Audio Device Information"
+msgstr "Źviestki z pryłady"
 
 #: kcms/block_devices/kcm_block_devices.json
 #, fuzzy
@@ -269,13 +282,6 @@ msgstr "Źviestki pra server X"
 #~| msgid "Device Information"
 #~ msgctxt "Name"
 #~ msgid "Basic Information"
-#~ msgstr "Źviestki z pryłady"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Device Information"
-#~ msgctxt "Name"
-#~ msgid "Detailed Information"
 #~ msgstr "Źviestki z pryłady"
 
 #, fuzzy

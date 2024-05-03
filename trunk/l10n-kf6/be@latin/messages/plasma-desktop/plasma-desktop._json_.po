@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-21 00:45+0000\n"
+"POT-Creation-Date: 2024-05-03 00:46+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -89,8 +89,11 @@ msgid "Peek at Desktop"
 msgstr "Rabočy stoł"
 
 #: applets/taskmanager/package/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Task Manager"
 msgctxt "Name"
-msgid "Task Manager"
+msgid "Icons-and-Text Task Manager"
 msgstr "Kiraŭnik zadańniaŭ"
 
 #: applets/trash/package/metadata.json
@@ -359,7 +362,7 @@ msgstr "Pieraklučeńnie virtualnych stałoŭ"
 
 #: applets/icontasks/metadata.json
 msgctxt "Description"
-msgid "Modern dock-style window switcher displaying only icons"
+msgid "App bar displaying only icons"
 msgstr ""
 
 #: applets/keyboardlayout/metadata.json
@@ -422,7 +425,7 @@ msgstr ""
 
 #: applets/taskmanager/package/metadata.json
 msgctxt "Description"
-msgid "Classic taskbar-style window switcher displaying icons and text"
+msgid "Window bar displaying icons and text"
 msgstr ""
 
 #: applets/trash/package/metadata.json
@@ -762,6 +765,10 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Plasma Team"
 msgstr "Pošuk"
+
+#~ msgctxt "Name"
+#~ msgid "Task Manager"
+#~ msgstr "Kiraŭnik zadańniaŭ"
 
 #, fuzzy
 #~| msgctxt "Name"

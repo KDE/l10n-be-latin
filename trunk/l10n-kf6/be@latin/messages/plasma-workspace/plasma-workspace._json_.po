@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-11 00:47+0000\n"
+"POT-Creation-Date: 2024-06-25 00:46+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -31,22 +31,6 @@ msgstr "Analahavy hadzińnik"
 msgctxt "Name"
 msgid "Global Menu"
 msgstr ""
-
-#: applets/batterymonitor/package/metadata.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Power Management"
-msgctxt "Name"
-msgid "Power and Battery"
-msgstr "Kiravańnie enerhijaj"
-
-#: applets/brightness/package/metadata.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Color"
-msgctxt "Name"
-msgid "Brightness and Color"
-msgstr "Koler"
 
 #: applets/calendar/package/metadata.json
 msgctxt "Name"
@@ -557,14 +541,6 @@ msgctxt "Name"
 msgid "Locations"
 msgstr "Miescy"
 
-#: runners/powerdevil/plasma-runner-powerdevil.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "PowerDevil"
-msgctxt "Name"
-msgid "Power"
-msgstr "PowerDevil"
-
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 #, fuzzy
 #| msgctxt "Description"
@@ -661,20 +637,6 @@ msgstr ""
 #: applets/appmenu/package/metadata.json
 msgctxt "Description"
 msgid "Global menubar in your Plasma Desktop"
-msgstr ""
-
-#: applets/batterymonitor/package/metadata.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "See the power status of your battery"
-msgctxt "Description"
-msgid ""
-"Control power management settings and see the power status of your battery"
-msgstr "Naziraje za kolkaściu enerhii ŭ tvajoj batarei"
-
-#: applets/brightness/package/metadata.json
-msgctxt "Description"
-msgid "Control brightness and color of your screens and keyboards"
 msgstr ""
 
 #: applets/calendar/package/metadata.json
@@ -1189,14 +1151,6 @@ msgctxt "Description"
 msgid "Open devices and folder bookmarks"
 msgstr "Adčyni pryłady j zakładki dla katalohaŭ"
 
-#: runners/powerdevil/plasma-runner-powerdevil.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Basic Power Management Operations"
-msgctxt "Description"
-msgid "Basic Power Management Operations"
-msgstr "Prostyja aperacyi dla kiravańnia enerhijaj"
-
 #: runners/services/plasma-runner-services.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -1291,8 +1245,6 @@ msgid "Marco Martin"
 msgstr ""
 
 #: applets/appmenu/package/metadata.json
-#: applets/batterymonitor/package/metadata.json
-#: applets/brightness/package/metadata.json
 #: applets/notifications/package/metadata.json
 #: applets/systemmonitor/coreusage/metadata.json
 #: applets/systemmonitor/cpu/metadata.json
@@ -1301,18 +1253,11 @@ msgctxt "Authors Name"
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: applets/batterymonitor/package/metadata.json
-#: applets/brightness/package/metadata.json
 #: applets/calendar/package/metadata.json
 #: applets/mediacontroller/package/metadata.json
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
-msgstr ""
-
-#: applets/brightness/package/metadata.json
-msgctxt "Authors Name"
-msgid "Natalie Clarius"
 msgstr ""
 
 #: applets/cameraindicator/package/metadata.json
@@ -1437,11 +1382,6 @@ msgctxt "Authors Name"
 msgid "David Edmundson"
 msgstr ""
 
-#: runners/powerdevil/plasma-runner-powerdevil.json
-msgctxt "Authors Name"
-msgid "Dario Freddi"
-msgstr ""
-
 #: runners/webshortcuts/plasma-runner-webshortcuts.json
 msgctxt "Authors Name"
 msgid "Teemu Rytilahti"
@@ -1451,6 +1391,42 @@ msgstr ""
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Power Management"
+#~ msgctxt "Name"
+#~ msgid "Power and Battery"
+#~ msgstr "Kiravańnie enerhijaj"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color"
+#~ msgctxt "Name"
+#~ msgid "Brightness and Color"
+#~ msgstr "Koler"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "PowerDevil"
+#~ msgctxt "Name"
+#~ msgid "Power"
+#~ msgstr "PowerDevil"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "See the power status of your battery"
+#~ msgctxt "Description"
+#~ msgid ""
+#~ "Control power management settings and see the power status of your battery"
+#~ msgstr "Naziraje za kolkaściu enerhii ŭ tvajoj batarei"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Basic Power Management Operations"
+#~ msgctxt "Description"
+#~ msgid "Basic Power Management Operations"
+#~ msgstr "Prostyja aperacyi dla kiravańnia enerhijaj"
 
 #, fuzzy
 #~| msgctxt "GenericName"

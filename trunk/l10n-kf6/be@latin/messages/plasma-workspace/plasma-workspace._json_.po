@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-29 00:48+0000\n"
+"POT-Creation-Date: 2024-10-06 00:48+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
 "%100>=11 && n%100<=14 ? 2 : 3);\n"
+
+#: appiumtests/applets/systemtraytest/org.kde.testdbusactivation/metadata.json
+msgctxt "Name"
+msgid "Do not translate Test only"
+msgstr ""
 
 #: applets/activitybar/metadata.json
 msgctxt "Name"
@@ -223,38 +228,15 @@ msgctxt "Name"
 msgid "Run Commands"
 msgstr "Vykonvaj zahady"
 
-#: dataengines/favicons/plasma-dataengine-favicons.json
-msgctxt "Name"
-msgid "Favicons"
-msgstr "Ikony sajtaŭ"
-
 #: dataengines/filebrowser/plasma-dataengine-filebrowser.json
 msgctxt "Name"
 msgid "Files and Directories"
 msgstr "Fajły j katalohi"
 
-#: dataengines/geolocation/plasma-dataengine-geolocation.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Locations"
-msgctxt "Name"
-msgid "Geolocation"
-msgstr "Miescy"
-
-#: dataengines/mouse/plasma-dataengine-mouse.json
-msgctxt "Name"
-msgid "Pointer Position"
-msgstr "Miesca kursora"
-
 #: dataengines/notifications/plasma-dataengine-notifications.json
 msgctxt "Name"
 msgid "Application Notifications"
 msgstr "Infarmavańni aplikacyj"
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.json
-msgctxt "Name"
-msgid "PackageKit"
-msgstr ""
 
 #: dataengines/places/plasma-dataengine-places.json
 #: runners/places/plasma-runner-places.json
@@ -809,14 +791,6 @@ msgctxt "Description"
 msgid "Run Executable Data Engine"
 msgstr "Uklučaj systemu dostupu da źviestak"
 
-#: dataengines/favicons/plasma-dataengine-favicons.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Data Engine for getting favicons of web sites"
-msgctxt "Description"
-msgid "Data Engine for getting favicons of web sites"
-msgstr "Systema źviestak dla atrymańnia ikon sajtaŭ"
-
 #: dataengines/filebrowser/plasma-dataengine-filebrowser.json
 #, fuzzy
 #| msgctxt "Comment"
@@ -825,31 +799,10 @@ msgctxt "Description"
 msgid "Information about files and directories."
 msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
 
-#: dataengines/geolocation/plasma-dataengine-geolocation.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Python data engine"
-msgctxt "Description"
-msgid "Geolocation Data Engine"
-msgstr "Systema źviestak u movie „Python”"
-
-#: dataengines/mouse/plasma-dataengine-mouse.json
-msgctxt "Description"
-msgid "Mouse position and cursor"
-msgstr ""
-
 #: dataengines/notifications/plasma-dataengine-notifications.json
 msgctxt "Description"
 msgid "Passive visual notifications for the user."
 msgstr ""
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "JavaScript Runner"
-msgctxt "Description"
-msgid "PackageKit Data Engine"
-msgstr "Uklučeńnie „JavaScript”"
 
 #: dataengines/places/plasma-dataengine-places.json
 msgctxt "Description"
@@ -1290,16 +1243,6 @@ msgctxt "Authors Name"
 msgid "Chani Armitage"
 msgstr ""
 
-#: dataengines/geolocation/plasma-dataengine-geolocation.json
-msgctxt "Authors Name"
-msgid "Petri Damstén"
-msgstr ""
-
-#: dataengines/packagekit/plasma-dataengine-packagekit.json
-msgctxt "Authors Name"
-msgid "Gregor Taetzner"
-msgstr ""
-
 #: dataengines/places/plasma-dataengine-places.json
 msgctxt "Authors Name"
 msgid "Alex Merry"
@@ -1488,6 +1431,42 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "wallpaper,desktop"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Favicons"
+#~ msgstr "Ikony sajtaŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Name"
+#~ msgid "Geolocation"
+#~ msgstr "Miescy"
+
+#~ msgctxt "Name"
+#~ msgid "Pointer Position"
+#~ msgstr "Miesca kursora"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Data Engine for getting favicons of web sites"
+#~ msgctxt "Description"
+#~ msgid "Data Engine for getting favicons of web sites"
+#~ msgstr "Systema źviestak dla atrymańnia ikon sajtaŭ"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Python data engine"
+#~ msgctxt "Description"
+#~ msgid "Geolocation Data Engine"
+#~ msgstr "Systema źviestak u movie „Python”"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "JavaScript Runner"
+#~ msgctxt "Description"
+#~ msgid "PackageKit Data Engine"
+#~ msgstr "Uklučeńnie „JavaScript”"
 
 #, fuzzy
 #~| msgctxt "Name"

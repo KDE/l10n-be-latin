@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-06 00:48+0000\n"
+"POT-Creation-Date: 2024-10-14 00:48+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -227,11 +227,6 @@ msgstr "Źviestki pra zadańnie aplikacyi"
 msgctxt "Name"
 msgid "Run Commands"
 msgstr "Vykonvaj zahady"
-
-#: dataengines/filebrowser/plasma-dataengine-filebrowser.json
-msgctxt "Name"
-msgid "Files and Directories"
-msgstr "Fajły j katalohi"
 
 #: dataengines/notifications/plasma-dataengine-notifications.json
 msgctxt "Name"
@@ -790,14 +785,6 @@ msgstr ""
 msgctxt "Description"
 msgid "Run Executable Data Engine"
 msgstr "Uklučaj systemu dostupu da źviestak"
-
-#: dataengines/filebrowser/plasma-dataengine-filebrowser.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Info about files and directories for Plasmoids"
-msgctxt "Description"
-msgid "Information about files and directories."
-msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
 
 #: dataengines/notifications/plasma-dataengine-notifications.json
 msgctxt "Description"
@@ -1431,6 +1418,17 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "wallpaper,desktop"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Files and Directories"
+#~ msgstr "Fajły j katalohi"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Info about files and directories for Plasmoids"
+#~ msgctxt "Description"
+#~ msgid "Information about files and directories."
+#~ msgstr "Źviestki pra fajły j katalohi dla widžetaŭ"
 
 #~ msgctxt "Name"
 #~ msgid "Favicons"

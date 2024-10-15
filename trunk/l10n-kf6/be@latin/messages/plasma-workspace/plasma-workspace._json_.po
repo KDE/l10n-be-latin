@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-14 00:48+0000\n"
+"POT-Creation-Date: 2024-10-15 00:48+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -232,12 +232,6 @@ msgstr "Vykonvaj zahady"
 msgctxt "Name"
 msgid "Application Notifications"
 msgstr "Infarmavańni aplikacyj"
-
-#: dataengines/places/plasma-dataengine-places.json
-#: runners/places/plasma-runner-places.json
-msgctxt "Name"
-msgid "Places"
-msgstr "Miescy"
 
 #: dataengines/time/plasma-dataengine-time.json
 msgctxt "Name"
@@ -503,6 +497,11 @@ msgstr "Terminalnyja aplikacyi"
 #: runners/locations/plasma-runner-locations.json
 msgctxt "Name"
 msgid "Locations"
+msgstr "Miescy"
+
+#: runners/places/plasma-runner-places.json
+msgctxt "Name"
+msgid "Places"
 msgstr "Miescy"
 
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
@@ -789,11 +788,6 @@ msgstr "Uklučaj systemu dostupu da źviestak"
 #: dataengines/notifications/plasma-dataengine-notifications.json
 msgctxt "Description"
 msgid "Passive visual notifications for the user."
-msgstr ""
-
-#: dataengines/places/plasma-dataengine-places.json
-msgctxt "Description"
-msgid "Places, as seen in the file manager and in file dialogs."
 msgstr ""
 
 #: dataengines/time/plasma-dataengine-time.json
@@ -1228,11 +1222,6 @@ msgstr ""
 #: dataengines/activities/plasma-dataengine-activities.json
 msgctxt "Authors Name"
 msgid "Chani Armitage"
-msgstr ""
-
-#: dataengines/places/plasma-dataengine-places.json
-msgctxt "Authors Name"
-msgid "Alex Merry"
 msgstr ""
 
 #: dataengines/time/plasma-dataengine-time.json

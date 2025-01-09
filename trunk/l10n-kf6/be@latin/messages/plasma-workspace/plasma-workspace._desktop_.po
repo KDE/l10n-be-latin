@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-01 00:47+0000\n"
+"POT-Creation-Date: 2025-01-09 00:47+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -336,6 +336,22 @@ msgstr ""
 msgctxt "Name"
 msgid "Run command on clipboard contents"
 msgstr ""
+
+#: libnotificationmanager/libnotificationmanager.notifyrc:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Notifications"
+msgctxt "Name"
+msgid "Notification Manager"
+msgstr "Infarmavańnie"
+
+#: libnotificationmanager/libnotificationmanager.notifyrc:9
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Used for warning notifications"
+msgctxt "Name"
+msgid "Summary for unread inhibited notifications"
+msgstr "Dla aścierahalnych paviedamleńniaŭ"
 
 #: login-sessions/plasmawayland.desktop.cmake:5
 #, fuzzy
@@ -1868,13 +1884,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "The trash has been emptied"
 #~ msgstr "Klavišny madyfikatar zamacavany"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Notifications"
-#~ msgctxt "Name"
-#~ msgid "Notification"
-#~ msgstr "Infarmavańnie"
 
 #, fuzzy
 #~| msgctxt "Name"

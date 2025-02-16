@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-13 00:48+0000\n"
+"POT-Creation-Date: 2025-02-16 00:51+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -149,11 +149,6 @@ msgstr "Panel zaniatkaŭ"
 msgctxt "Name"
 msgid "File Search"
 msgstr "Pošuk"
-
-#: kcms/componentchooser/kcm_componentchooser.json
-msgctxt "Name"
-msgid "Default Applications"
-msgstr "Zmoŭčanyja aplikacyi"
 
 #: kcms/dateandtime/kcm_clock.json
 msgctxt "Name"
@@ -476,14 +471,6 @@ msgctxt "Description"
 msgid "Configure File Search"
 msgstr "Naładź spraŭdžvańnie pravapisu"
 
-#: kcms/componentchooser/kcm_componentchooser.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Default Applications"
-msgctxt "Description"
-msgid "Choose default Applications"
-msgstr "Zmoŭčanyja aplikacyi"
-
 #: kcms/dateandtime/kcm_clock.json
 #, fuzzy
 #| msgctxt "Name"
@@ -785,14 +772,6 @@ msgid ""
 "folders,directory,directories,baloo,index,indexing,indexer"
 msgstr ""
 
-#: kcms/componentchooser/kcm_componentchooser.json
-msgctxt "X-KDE-Keywords"
-msgid ""
-"default applications,default apps,components,component chooser,resources,web "
-"browser,browser,internet,file manager,dolphin,email,e-mail,email client,"
-"terminal,terminal emulator,konsole,defaults,open with,file association"
-msgstr ""
-
 #: kcms/dateandtime/kcm_clock.json
 msgctxt "X-KDE-Keywords"
 msgid ""
@@ -932,6 +911,17 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "Automount,Mount,Disk,Disks,Removable,Device,Devices,Automatic"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Default Applications"
+#~ msgstr "Zmoŭčanyja aplikacyi"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Default Applications"
+#~ msgctxt "Description"
+#~ msgid "Choose default Applications"
+#~ msgstr "Zmoŭčanyja aplikacyi"
 
 #, fuzzy
 #~| msgctxt "GenericName"

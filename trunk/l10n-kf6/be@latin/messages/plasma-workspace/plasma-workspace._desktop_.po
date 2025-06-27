@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-20 00:47+0000\n"
+"POT-Creation-Date: 2025-06-27 00:49+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -17,6 +17,19 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
 "%100>=11 && n%100<=14 ? 2 : 3);\n"
 
+#: applets/devicenotifier/devicenotifications.notifyrc:2
+msgctxt "Name"
+msgid "Device Notifier"
+msgstr "Infarmavańnie pra novyja pryłady"
+
+#: applets/devicenotifier/devicenotifications.notifyrc:84
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Notifications"
+msgctxt "Name"
+msgid "Device Status"
+msgstr "Infarmavańnie"
+
 #: applets/devicenotifier/openWithFileManager.desktop:7
 #, fuzzy
 #| msgctxt "Description"
@@ -24,19 +37,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Open with File Manager"
 msgstr "Adčyni ŭ &zmoŭčanym hartačy"
-
-#: applets/devicenotifier/plugin/devicenotifications.notifyrc:2
-msgctxt "Name"
-msgid "Device Notifier"
-msgstr "Infarmavańnie pra novyja pryłady"
-
-#: applets/devicenotifier/plugin/devicenotifications.notifyrc:84
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Notifications"
-msgctxt "Name"
-msgid "Device Status"
-msgstr "Infarmavańnie"
 
 #: components/shellprivate/plasmoids.knsrc:2
 #, fuzzy

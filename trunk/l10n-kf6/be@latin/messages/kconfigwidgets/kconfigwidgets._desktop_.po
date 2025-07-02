@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-27 01:45+0000\n"
+"POT-Creation-Date: 2025-07-02 07:11+0000\n"
 "PO-Revision-Date: 2022-08-29 04:55\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
@@ -14,236 +14,244 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
-"%100>=11 && n%100<=14 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || "
+"n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Crowdin-Project: 86ff119b1606fcaa910d6b44fc14b611\n"
 "X-Crowdin-Project-ID: 127\n"
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /main/be/kconfigwidgets/l10n._desktop_.po\n"
 "X-Crowdin-File-ID: 7799\n"
 
-#: af/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/entry.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "British English"
+msgctxt "Name"
+msgid "US English"
+msgstr "Anhlijskaja (Vialikabrytanija)"
+
+#: src/language_files/af/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Afrikaans"
 msgstr "Afrykaans"
 
-#: ar/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ar/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Arabic"
 msgstr "Arabskaja"
 
-#: as/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/as/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Assamese"
 msgstr "Asamskaja"
 
-#: ast/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ast/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Asturian"
 msgstr "Asturyjskaja"
 
-#: az/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/az/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Azerbaijani"
 msgstr "Azierbajdžanskaja"
 
-#: be@latin/messages/kconfigwidgets/kf6_entry.desktop:2
-msgctxt "Name"
-msgid "Belarusian Latin"
-msgstr "Bielaruskaja (lacinka)"
-
-#: be/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/be/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Belarusian"
 msgstr "Bielaruskaja"
 
-#: bg/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/be@latin/kf6_entry.desktop:2
+msgctxt "Name"
+msgid "Belarusian Latin"
+msgstr "Bielaruskaja (lacinka)"
+
+#: src/language_files/bg/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Bulgarian"
 msgstr "Balharskaja"
 
-#: bn_IN/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/bn_IN/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Bengali (India)"
 msgstr "Bienhaĺskaja (Indyja)"
 
-#: bn/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/bn/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Bengali"
 msgstr "Bienhaĺskaja"
 
-#: br/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/br/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Breton"
 msgstr "Bretonskaja"
 
-#: bs/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/bs/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Bosnian"
 msgstr "Basnijskaja"
 
-#: ca/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ca/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Catalan"
 msgstr "Katalanskaja"
 
-#: ca@valencia/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ca@valencia/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Catalan (Valencian)"
 msgstr "Katalanskaja (Valiensija)"
 
-#: crh/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/crh/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Crimean Tatar"
 msgstr "Krymskatatarskaja"
 
-#: csb/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/csb/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Kashubian"
 msgstr "Sierbskaja"
 
-#: cs/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/cs/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Czech"
 msgstr "Češskaja"
 
-#: cy/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/cy/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Welsh"
 msgstr "Valijskaja"
 
-#: da/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/da/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Danish"
 msgstr "Dackaja"
 
-#: de/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/de/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "German"
 msgstr "Niamieckaja"
 
-#: el/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/el/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Greek"
 msgstr "Hrečaskaja"
 
-#: en_GB/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/en_GB/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "British English"
 msgstr "Anhlijskaja (Vialikabrytanija)"
 
-#: eo/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/eo/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Esperanto"
 msgstr "Espieranta"
 
-#: es/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/es/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Spanish"
 msgstr "Ispanskaja"
 
-#: et/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/et/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Estonian"
 msgstr "Estonskaja"
 
-#: eu/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/eu/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Basque"
 msgstr "Baskonskaja"
 
-#: fa/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/fa/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Farsi"
 msgstr "Farsi"
 
-#: fi/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/fi/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Finnish"
 msgstr "Finskaja"
 
-#: fr/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/fr/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "French"
 msgstr "Francuzskaja"
 
-#: fy/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/fy/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Frisian"
 msgstr "Fryzskaja"
 
-#: ga/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ga/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Irish"
 msgstr "Irlandskaja"
 
-#: gd/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/gd/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Scottish Gaelic"
 msgstr "Haeĺskaja (Šatlandyja)"
 
-#: gl/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/gl/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Galician"
 msgstr "Halisijskaja"
 
-#: gu/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/gu/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Gujarati"
 msgstr "Hudžaraci"
 
-#: ha/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ha/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Hausa"
 msgstr "Chaŭsa"
 
-#: he/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/he/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Hebrew"
 msgstr "Iŭryt"
 
-#: hi/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/hi/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Hindi"
 msgstr "Chindzi"
 
-#: hne/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/hne/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Chhattisgarhi"
 msgstr "Čchattysharchy"
 
-#: hr/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/hr/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Croatian"
 msgstr "Charvackaja"
 
-#: hsb/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/hsb/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Upper Sorbian"
 msgstr "Vierchnialužyckaja"
 
-#: hu/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/hu/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Hungarian"
 msgstr "Vienhierskaja"
 
-#: hy/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/hy/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Armenian"
 msgstr "Armianskaja"
 
-#: ia/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ia/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Interlingua"
 msgstr "Interlinhva"
 
-#: id/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/id/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Indonesian"
 msgstr "Indaniezijskaja"
 
-#: ie/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ie/kf6_entry.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Interlingua"
@@ -251,305 +259,304 @@ msgctxt "Name"
 msgid "Interlingue"
 msgstr "Interlinhva"
 
-#: is/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/is/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Icelandic"
 msgstr "Islandskaja"
 
-#: it/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/it/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Italian"
 msgstr "Itaĺjanskaja"
 
-#: ja/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ja/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Japanese"
 msgstr "Japonskaja"
 
-#: ka/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ka/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Georgian"
 msgstr "Hruzinskaja"
 
-#: kk/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/kk/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Kazakh"
 msgstr "Kazachskaja"
 
-#: km/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/km/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Khmer"
 msgstr "Kchmierskaja"
 
-#: kn/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/kn/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Kannada"
 msgstr "Kanada"
 
-#: ko/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ko/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Korean"
 msgstr "Karejskaja"
 
-#: ku/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ku/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Kurdish"
 msgstr "Kurdskaja"
 
-#: lb/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/lb/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Luxembourgish"
 msgstr "Liuksiemburhskaja"
 
-#: lt/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/lt/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Lithuanian"
 msgstr "Lietuviskaja"
 
-#: lv/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/lv/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Latvian"
 msgstr "Latyšskaja"
 
-#: mai/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/mai/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Maithili"
 msgstr "Majtchili"
 
-#: mk/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/mk/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Macedonian"
 msgstr "Makiedonskaja"
 
-#: ml/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ml/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Malayalam"
 msgstr "Malajalam"
 
-#: mr/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/mr/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Marathi"
 msgstr "Maratchi"
 
-#: ms/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ms/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Malay"
 msgstr "Malajskaja"
 
-#: my/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/my/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Burmese"
 msgstr "Birmanskaja"
 
-#: nb/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/nb/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Norwegian Bokmål"
 msgstr "Narviežskaja (Bukmal)"
 
-#: nds/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/nds/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Low Saxon"
 msgstr "Nižniasaksonskaja"
 
-#: ne/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ne/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Nepali"
 msgstr "Niepaĺskaja"
 
-#: nl/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/nl/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Dutch"
 msgstr "Halandskaja"
 
-#: nn/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/nn/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Norwegian Nynorsk"
 msgstr "Narviežskaja (niunorsk)"
 
-#: oc/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/oc/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Occitan"
 msgstr "Aksitanskaja"
 
-#: or/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/or/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Oriya"
 msgstr "Oryja"
 
-#: pa/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/pa/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Punjabi"
 msgstr "Pandžabi"
 
-#: pl/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/pl/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Polish"
 msgstr "Poĺskaja"
 
-#: ps/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ps/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Pashto"
 msgstr "Puštu"
 
-#: pt_BR/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/pt_BR/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Brazil portuguese"
 msgstr "Partuhaĺskaja (Brazilija)"
 
-#: pt/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/pt/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Portuguese"
 msgstr "Partuhaĺskaja"
 
-#: ro/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ro/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Romanian"
 msgstr "Rumynskaja"
 
-#: ru/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ru/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Russian"
 msgstr "Rasijskaja"
 
-#: se/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/se/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Northern Sami"
 msgstr "Paŭnočnaja sami"
 
-#: si/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/si/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Sinhala"
 msgstr "Sinhaĺskaja"
 
-#: sk/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/sk/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Slovak"
 msgstr "Slavackaja"
 
-#: sl/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/sl/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Slovenian"
 msgstr "Slavienskaja"
 
-#: sq/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/sq/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Albanian"
 msgstr "Albanskaja"
 
-#: sr@ijekavianlatin/messages/kconfigwidgets/kf6_entry.desktop:2
-msgctxt "Name"
-msgid "Serbian Ijekavian Latin"
-msgstr "Sierbskaja (jekaŭski dyjaliekt, lacinka)"
-
-#: sr@ijekavian/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/sr@ijekavian/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Serbian Ijekavian"
 msgstr "Sierbskaja (jekaŭski dyjaliekt)"
 
-#: sr@latin/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/sr@ijekavianlatin/kf6_entry.desktop:2
 msgctxt "Name"
-msgid "Serbian Latin"
-msgstr "Sierbskaja (lacinka)"
+msgid "Serbian Ijekavian Latin"
+msgstr "Sierbskaja (jekaŭski dyjaliekt, lacinka)"
 
-#: sr/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/sr/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Serbian"
 msgstr "Sierbskaja"
 
-#: sv/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/sr@latin/kf6_entry.desktop:2
+msgctxt "Name"
+msgid "Serbian Latin"
+msgstr "Sierbskaja (lacinka)"
+
+#: src/language_files/sv/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Swedish"
 msgstr "Šviedskaja"
 
-#: ta/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ta/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Tamil"
 msgstr "Tamiĺskaja"
 
-#: te/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/te/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Telugu"
 msgstr "Teluhu"
 
-#: tg/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/tg/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Tajik"
 msgstr "Tadžykskaja"
 
-#: th/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/th/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Thai"
 msgstr "Tajskaja"
 
-#: tok/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/tok/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Toki Pona"
 msgstr "Takipona"
 
-#: tr/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/tr/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Turkish"
 msgstr "Tureckaja"
 
-#: tt/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/tt/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Tatar"
 msgstr "Tatarskaja"
 
-#: ug/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/ug/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Uyghur"
 msgstr "Ujhurskaja"
 
-#: uk/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/uk/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Ukrainian"
 msgstr "Ukrainskaja"
 
-#: uz@cyrillic/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/uz@cyrillic/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Uzbek (Cyrillic)"
 msgstr "Uzbiekskaja (kirylica)"
 
-#: uz/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/uz/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Uzbek"
 msgstr "Uzbiekskaja"
 
-#: vi/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/vi/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Vietnamese"
 msgstr "Vjetnamskaja"
 
-#: wa/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/wa/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Walloon"
 msgstr "Valonskaja"
 
-#: xh/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/xh/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Xhosa"
 msgstr "Kosa"
 
-#: x-test/messages/kconfigwidgets/kf6_entry.desktop:2
-msgctxt "Name"
-msgid "KDE Test Language"
-msgstr "Srodak praviarannia movy KDE"
-
-#: zh_CN/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/zh_CN/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Simplified Chinese"
 msgstr "Kitajskaja sproščanaja"
 
-#: zh_HK/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/zh_HK/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Chinese (Hong Kong)"
 msgstr "Kitajskaja (Honh-Konh)"
 
-#: zh_TW/messages/kconfigwidgets/kf6_entry.desktop:2
+#: src/language_files/zh_TW/kf6_entry.desktop:2
 msgctxt "Name"
 msgid "Traditional Chinese"
 msgstr "Kitajskaja tradycyjnaja"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Test Language"
+#~ msgstr "Srodak praviarannia movy KDE"
 
 #~ msgctxt "Name"
 #~ msgid "KOffice"

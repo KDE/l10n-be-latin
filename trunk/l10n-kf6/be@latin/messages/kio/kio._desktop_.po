@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 86ff119b1606fcaa910d6b44fc14b611\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-09 01:13+0000\n"
+"POT-Creation-Date: 2025-09-11 00:49+0000\n"
 "PO-Revision-Date: 2022-08-29 04:57\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian\n"
@@ -29,17 +29,6 @@ msgstr ""
 msgctxt "Name"
 msgid "KIO"
 msgstr ""
-
-#: src/kioworkers/file/kauth/file.actions:2
-msgctxt "Name"
-msgid "Execute action as root."
-msgstr "Vykanać dziejannie ad imia supierkarystaĺnika (root)."
-
-#: src/kioworkers/file/kauth/file.actions:62
-msgctxt "Description"
-msgid "Root privileges are required to complete the action."
-msgstr ""
-"Dlia zaviaršennia dziejannia patrebnyja pravy supierkarystaĺnika (root)."
 
 #: src/new_file_templates/Directory.desktop:2
 msgctxt "Name"
@@ -1808,6 +1797,15 @@ msgstr ""
 msgctxt "Comment"
 msgid "KIO Worker Template"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Execute action as root."
+#~ msgstr "Vykanać dziejannie ad imia supierkarystaĺnika (root)."
+
+#~ msgctxt "Description"
+#~ msgid "Root privileges are required to complete the action."
+#~ msgstr ""
+#~ "Dlia zaviaršennia dziejannia patrebnyja pravy supierkarystaĺnika (root)."
 
 #~ msgctxt "Query"
 #~ msgid "https://cppreference.com/w/?search=\\\\{@}"

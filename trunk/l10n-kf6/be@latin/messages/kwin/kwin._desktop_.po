@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-11 00:52+0000\n"
+"POT-Creation-Date: 2026-02-13 00:52+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -16,6 +16,19 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
 "%100>=11 && n%100<=14 ? 2 : 3);\n"
+
+#: src/helpers/dialoghelper/org.kde.kwin.dialoghelper.desktop.in:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Saint Helena"
+msgctxt "Name"
+msgid "KWin Dialog Helper"
+msgstr "Vyspa Śviatoj Aleny"
+
+#: src/helpers/dialoghelper/org.kde.kwin.dialoghelper.desktop.in:7
+msgctxt "Comment"
+msgid "Provides feedback about user actions"
+msgstr ""
 
 #: src/helpers/killer/org.kde.kwin.killer.desktop.in:3
 msgctxt "Name"
@@ -732,13 +745,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Sliding animation for Plasma popups"
 #~ msgstr "Systemnyja źviestki dla widžetaŭ „Plasma”"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Saint Helena"
-#~ msgctxt "Name"
-#~ msgid "Snap Helper"
-#~ msgstr "Vyspa Śviatoj Aleny"
 
 #, fuzzy
 #~| msgctxt "Name"

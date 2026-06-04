@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-03 01:26+0000\n"
+"POT-Creation-Date: 2026-06-04 00:55+0000\n"
 "PO-Revision-Date: 2008-12-27 00:19+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -175,14 +175,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Keyboard"
 msgstr "Klavijatura"
-
-#: kcms/keyboard/kded_keyboard.json
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Keyboard Layout"
-msgctxt "Name"
-msgid "Keyboard Daemon"
-msgstr "Vykład klavijatury"
 
 #: kcms/keys/kcm_keys.json
 #, fuzzy
@@ -504,11 +496,6 @@ msgstr "Nałady klavijatury j myšy"
 msgctxt "Description"
 msgid "Keyboard Hardware and Layout"
 msgstr "Vykład klavijatury"
-
-#: kcms/keyboard/kded_keyboard.json
-msgctxt "Description"
-msgid "Enables switching keyboard layout through shortcuts or system tray"
-msgstr ""
 
 #: kcms/keys/kcm_keys.json
 #, fuzzy
@@ -917,6 +904,13 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "Automount,Mount,Disk,Disks,Removable,Device,Devices,Automatic"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Keyboard Layout"
+#~ msgctxt "Name"
+#~ msgid "Keyboard Daemon"
+#~ msgstr "Vykład klavijatury"
 
 #~ msgctxt "Name"
 #~ msgid "Default Applications"
